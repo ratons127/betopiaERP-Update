@@ -1,0 +1,14 @@
+[Unit]
+Description=BetopiaERP Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=BetopiaERP
+Group=BetopiaERP
+ExecStart=/usr/bin/BetopiaERP --config /etc/BetopiaERP/BetopiaERP.conf --logfile /var/log/BetopiaERP/BetopiaERP-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

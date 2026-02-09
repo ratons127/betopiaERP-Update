@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: betopiaerp
+      POSTGRES_USER: betopiaerp
+      POSTGRES_PASSWORD: betopiaerp
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  betopiaerp:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    environment:
+      PGHOST: db
+      PGPORT: 5432
+      PGUSER: betopiaerp
+      PGPASSWORD: betopiaerp
+    volumes:
+      - .:/opt/betopiaerp
+      - betopiaerp_data:/var/lib/betopiaerp
+    command: ["python", "/opt/betopiaerp/betopiaerp-bin", "-c", "/etc/betopiaerp/betopiaerp.conf"]
+
+volumes:
+  db_data:
+  betopiaerp_data:
