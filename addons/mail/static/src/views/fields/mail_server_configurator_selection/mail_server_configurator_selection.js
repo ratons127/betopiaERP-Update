@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { SelectionField, selectionField } from "@web/views/fields/selection/selection_field";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 export class MailServerConfiguratorSelection extends SelectionField {
     static template = "mail.MailServerConfiguratorSelection";

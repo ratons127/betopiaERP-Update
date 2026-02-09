@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Tran Thanh Phuc phuctran.BetopiaERP@gmail.com https://github.com/phuctranerp
+Tran Thanh Phuc phuctran.betopiaerp@gmail.com https://github.com/phuctranerp

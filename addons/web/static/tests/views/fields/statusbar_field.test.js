@@ -1,4 +1,4 @@
-import { expect, resize, test } from "@BetopiaERP/hoot";
+import { expect, resize, test } from "@betopiaerp/hoot";
 import {
     click,
     Deferred,
@@ -8,8 +8,8 @@ import {
     queryAllTexts,
     queryAttribute,
     queryFirst,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     contains,
     clickSave,
@@ -27,7 +27,7 @@ import {
     pagerNext,
     pagerPrevious,
 } from "@web/../tests/web_test_helpers";
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { WebClient } from "@web/webclient/webclient";
 
 class Partner extends models.Model {

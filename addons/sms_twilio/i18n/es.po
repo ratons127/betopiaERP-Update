@@ -2,9 +2,9 @@
 # This file contains the translation of the following modules:
 # * sms_twilio
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-12 13:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Spanish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Spanish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "sms_twilio/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,13 +23,13 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
 msgstr ""
@@ -41,13 +41,13 @@ msgid "+1 555-123-4567"
 msgstr "+1 555-123-4567"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'From' number is required to send a message"
 msgstr "Se requiere un número de remitente («De») para enviar un mensaje."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'To' phone number is required"
 msgstr "Se requiere un número de teléfono del destinatario («A»)"
@@ -64,7 +64,7 @@ msgid "Account SID"
 msgstr "SID de la cuenta"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "An error occurred while fetching the numbers."
 msgstr "Se ha producido un error al recuperar los números."
@@ -153,7 +153,7 @@ msgid "Display Name"
 msgstr "Nombre para mostrar"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
 msgstr "Error: %s"
@@ -193,7 +193,7 @@ msgid "Incorrect callback URL"
 msgstr "URL de redirección incorrecta"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must only contain alphanumeric characters after "
@@ -203,7 +203,7 @@ msgstr ""
 "alfanuméricos después de «AC»."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must start with 'AC' and be 34 characters long."
@@ -229,7 +229,7 @@ msgid "Link SMS to mailing/sms tracking models"
 msgstr "Vincular SMS a los modelos de seguimiento de correo/sms"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Manage Twilio SMS"
@@ -274,7 +274,7 @@ msgid "Phone Numbers"
 msgstr "Números de teléfono"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Please set the number to which you want to send a test SMS."
 msgstr "Defina el número al que quiere enviar un SMS de prueba."
@@ -336,31 +336,31 @@ msgstr ""
 "Puede usar este campo para realizar una búsqueda rápida."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "The SMS has been sent from %s"
 msgstr "El SMS ha sido enviado desde %s"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr "El número que intenta alcanzar no está formateado correctamente."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "This is a test SMS from BetopiaERP"
 msgstr "Este es un SMS de prueba de BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Trial Account Limitation"
 msgstr "Limitación de cuentas de prueba"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio Authentication Error"
 msgstr "Error de autenticación de Twilio"
@@ -372,7 +372,7 @@ msgid "Twilio Number"
 msgstr "Número de Twilio"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Twilio SMS"
 msgstr "SMS de Twilio"
@@ -389,13 +389,13 @@ msgid "Twilio SMS SID"
 msgstr "SID de Twilio para SMS"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio StatusCallback URL is incorrect"
 msgstr "La URL de StatusCallback de Twilio no es correcta"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown error, please contact BetopiaERP support"
 msgstr ""
@@ -403,7 +403,7 @@ msgstr ""
 "BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown failure at sending, please contact BetopiaERP support"
 msgstr ""
@@ -411,7 +411,7 @@ msgstr ""
 "equipo de soporte de BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
 msgstr "Destinatario no verificado en la cuenta de prueba"

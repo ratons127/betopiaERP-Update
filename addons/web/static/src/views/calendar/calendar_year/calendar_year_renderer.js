@@ -6,7 +6,7 @@ import { useFullCalendar } from "@web/views/calendar/hooks/full_calendar_hook";
 import { makeWeekColumn } from "@web/views/calendar/calendar_common/calendar_common_week_column";
 import { CalendarYearPopover } from "@web/views/calendar/calendar_year/calendar_year_popover";
 
-import { Component, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef } from "@betopiaerp/owl";
 
 export class CalendarYearRenderer extends Component {
     static components = {

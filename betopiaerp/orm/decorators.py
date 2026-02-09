@@ -225,7 +225,7 @@ def onchange(*args: str) -> Decorator:
     .. warning::
 
         It is not possible for a ``one2many`` or ``many2many`` field to modify
-        itself via onchange. This is a webclient limitation - see `#2693 <https://github.com/BetopiaERP/BetopiaERP/issues/2693>`_.
+        itself via onchange. This is a webclient limitation - see `#2693 <https://github.com/betopiaerp/betopiaerp/issues/2693>`_.
 
     """
     return attrsetter('_onchange', args)

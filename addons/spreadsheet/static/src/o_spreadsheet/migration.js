@@ -1,20 +1,20 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 const { tokenize, parse, convertAstNodes, astToFormula } = spreadsheet;
 const { migrationStepRegistry } = spreadsheet.registries;
 
 const MAP_V1 = {
-    PIVOT: "BetopiaERP.PIVOT",
-    "PIVOT.HEADER": "BetopiaERP.PIVOT.HEADER",
-    "PIVOT.POSITION": "BetopiaERP.PIVOT.POSITION",
-    "FILTER.VALUE": "BetopiaERP.FILTER.VALUE",
-    LIST: "BetopiaERP.LIST",
-    "LIST.HEADER": "BetopiaERP.LIST.HEADER",
+    PIVOT: "BETOPIAERP.PIVOT",
+    "PIVOT.HEADER": "BETOPIAERP.PIVOT.HEADER",
+    "PIVOT.POSITION": "BETOPIAERP.PIVOT.POSITION",
+    "FILTER.VALUE": "BETOPIAERP.FILTER.VALUE",
+    LIST: "BETOPIAERP.LIST",
+    "LIST.HEADER": "BETOPIAERP.LIST.HEADER",
 };
 
 const MAP_FN_NAMES_V10 = {
-    "BetopiaERP.PIVOT": "PIVOT.VALUE",
-    "BetopiaERP.PIVOT.HEADER": "PIVOT.HEADER",
-    "BetopiaERP.PIVOT.TABLE": "PIVOT",
+    "BETOPIAERP.PIVOT": "PIVOT.VALUE",
+    "BETOPIAERP.PIVOT.HEADER": "PIVOT.HEADER",
+    "BETOPIAERP.PIVOT.TABLE": "PIVOT",
 };
 
 const dmyRegex = /^([0|1|2|3][1-9])\/(0[1-9]|1[0-2])\/(\d{4})$/i;
@@ -26,7 +26,7 @@ migrationStepRegistry.add("17.3.1", {
 });
 migrationStepRegistry.add("18.1.2", {
     migrate(data) {
-        const version = data.BetopiaERPVersion || 0;
+        const version = data.betopiaerpVersion || 0;
         if (version < 13) {
             data = migrate12to13(data);
         }
@@ -40,7 +40,7 @@ migrationStepRegistry.add("18.3.2", {
             for (const figure of sheet.figures || []) {
                 if (
                     figure.tag === "chart" &&
-                    ["BetopiaERP_bar", "BetopiaERP_line", "BetopiaERP_pie"].includes(figure.data.type) &&
+                    ["betopiaerp_bar", "betopiaerp_line", "betopiaerp_pie"].includes(figure.data.type) &&
                     !("cumulatedStart" in figure.data)
                 ) {
                     const isCumulative = figure.data.cumulative || false;
@@ -155,12 +155,12 @@ migrationStepRegistry.add("18.5.10", {
                 }
             }
         }
-        const re = /BetopiaERP\.FILTER\.VALUE/gi
+        const re = /BETOPIAERP\.FILTER\.VALUE/gi
         for (const sheet of data.sheets || []) {
             for (const xc in sheet.cells || {}) {
                 const content = sheet.cells[xc];
                 if (re.test(content)) {
-                    sheet.cells[xc] = content.replaceAll(re, "BetopiaERP.FILTER.VALUE.V18");
+                    sheet.cells[xc] = content.replaceAll(re, "BETOPIAERP.FILTER.VALUE.V18");
                 }
             }
         }
@@ -169,7 +169,7 @@ migrationStepRegistry.add("18.5.10", {
 });
 
 function migrateBetopiaERPData(data) {
-    const version = data.BetopiaERPVersion || 0;
+    const version = data.betopiaerpVersion || 0;
     if (version < 1) {
         data = migrate0to1(data);
     }
@@ -386,7 +386,7 @@ function migrate4to5(data) {
 function migratePivotDaysParameters(formulaString) {
     const ast = parse(formulaString);
     const convertedAst = convertAstNodes(ast, "FUNCALL", (ast) => {
-        if (["BetopiaERP.PIVOT", "BetopiaERP.PIVOT.HEADER"].includes(ast.value.toUpperCase())) {
+        if (["BETOPIAERP.PIVOT", "BETOPIAERP.PIVOT.HEADER"].includes(ast.value.toUpperCase())) {
             for (const subAst of ast.args) {
                 if (subAst.type === "STRING") {
                     const date = subAst.value.match(dmyRegex);
@@ -418,7 +418,7 @@ function migrate5to6(data) {
 }
 
 /**
- * Migrate the pivot data to add the type, by default "BetopiaERP". And replace the
+ * Migrate the pivot data to add the type, by default "BETOPIAERP". And replace the
  * pivot with a new object that contains type and definition (the old pivot).
  */
 function migrate6to7(data) {
@@ -428,7 +428,7 @@ function migrate6to7(data) {
             const fieldMatching = definition.fieldMatching;
             delete definition.fieldMatching;
             data.pivots[id] = {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 definition,
                 fieldMatching,
             };
@@ -479,7 +479,7 @@ function migrate10to11(data) {
 }
 
 function migrate11to12(data) {
-    // remove the calls to BetopiaERP.PIVOT.POSITION and replace
+    // remove the calls to BETOPIAERP.PIVOT.POSITION and replace
     // the previous argument to a relative position
     for (const sheet of data.sheets || []) {
         for (const xc in sheet.cells || []) {
@@ -487,24 +487,24 @@ function migrate11to12(data) {
             if (
                 cell.content &&
                 cell.content.startsWith("=") &&
-                cell.content.includes("BetopiaERP.PIVOT.POSITION")
+                cell.content.includes("BETOPIAERP.PIVOT.POSITION")
             ) {
                 const tokens = tokenize(cell.content);
-                /* given that BetopiaERP.pivot.position is automatically set, we know that:
-                1) it is always on the form of BetopiaERP.PIVOT.POSITION(1, ...)
+                /* given that betopiaerp.pivot.position is automatically set, we know that:
+                1) it is always on the form of BETOPIAERP.PIVOT.POSITION(1, ...)
                 2) it is always preceded by a dimension of a pivot or header, inside another pivot formula
-                3) there is only one BetopiaERP.pivot.position per cell
-                4) BetopiaERP.pivot.position can only exist after the 3rd token and needs at least 7 tokens to be valid*/
+                3) there is only one betopiaerp.pivot.position per cell
+                4) betopiaerp.pivot.position can only exist after the 3rd token and needs at least 7 tokens to be valid*/
                 for (let i = 2; i < tokens.length - 7; i++) {
                     const token = tokens[i];
                     if (
                         token.type === "SYMBOL" &&
-                        token.value.toUpperCase() === "BetopiaERP.PIVOT.POSITION"
+                        token.value.toUpperCase() === "BETOPIAERP.PIVOT.POSITION"
                     ) {
                         const order = tokens[i + 6];
                         tokens[i - 2].value = '"#' + tokens[i - 2].value.slice(1); // "dimension" becomes "#dimension"
-                        tokens.splice(i, 7); // remove "BetopiaERP.PIVOT.POSITION", "(", "1", ",", "dimension", ", ", order
-                        // tokens[i-1] is the comma before BetopiaERP.pivot.position
+                        tokens.splice(i, 7); // remove "BETOPIAERP.PIVOT.POSITION", "(", "1", ",", "dimension", ", ", order
+                        // tokens[i-1] is the comma before betopiaerp.pivot.position
                         tokens[i] = order;
                         cell.content = tokensToString(tokens);
                     }
@@ -516,7 +516,7 @@ function migrate11to12(data) {
 }
 
 /**
- * Change pivot sortedColumn of the BetopiaERP's pivot model to the sortedColumn of o-spreadsheet
+ * Change pivot sortedColumn of the betopiaerp's pivot model to the sortedColumn of o-spreadsheet
  */
 function migrate12to13(data) {
     if (data.pivots) {

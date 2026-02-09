@@ -1,8 +1,8 @@
 import { CopyButton } from "@web/core/copy_button/copy_button";
 import { browser } from "@web/core/browser/browser";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 
 beforeEach(() => {
     patchWithCleanup(browser.navigator.clipboard, {

@@ -4,6 +4,6 @@
     'version': '0.1',
     'category': 'Hidden/Tests',
     'description': """A module to generate exceptions.""",
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

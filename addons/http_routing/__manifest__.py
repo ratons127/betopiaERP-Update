@@ -15,6 +15,6 @@ base modules simple.
     ],
     'post_init_hook': '_post_init_hook',
     'depends': ['web'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

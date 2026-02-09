@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { serverState } from "@web/../tests/web_test_helpers";
 
 import { user } from "@web/core/user";
@@ -7,7 +7,7 @@ import { session } from "@web/session";
 describe.current.tags("headless");
 
 test("default state", () => {
-    expect(BetopiaERP.debug).toBe("");
+    expect(betopiaerp.debug).toBe("");
     const s = { ...serverState };
     expect(s).toInclude("view_info");
     delete s.view_info;
@@ -22,8 +22,8 @@ test("default state", () => {
         groupId: 11,
         lang: "en",
         multiLang: false,
-        BetopiaERPbotId: 418,
-        BetopiaERPbotUid: 518,
+        betopiaerpbotId: 418,
+        betopiaerpbotUid: 518,
         partnerId: 17,
         partnerName: "Mitchell Admin",
         publicPartnerId: 18,

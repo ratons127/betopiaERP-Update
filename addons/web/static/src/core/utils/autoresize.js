@@ -1,4 +1,4 @@
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 import { browser } from "../browser/browser";
 
 /**

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { FormLabel } from "../form_label";
 import { DocumentationLink } from "@web/views/widgets/documentation_link/documentation_link";
 import { user } from "@web/core/user";

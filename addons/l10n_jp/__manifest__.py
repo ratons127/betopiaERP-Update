@@ -18,11 +18,11 @@ Note:
 
 * Fiscal positions '内税' and '外税' have been added to handle special requirements which might arise from POS implementation. [1]  Under normal circumstances, you might not need to use those at all.
 
-[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.
+[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.
 
     """,
     'author': 'Quartile Limited (https://www.quartile.co/)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

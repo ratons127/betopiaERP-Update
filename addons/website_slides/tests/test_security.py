@@ -585,7 +585,7 @@ class TestAccessFeatures(common.SlidesCase):
             {'name': 'Link',
              'slide_id': self.slide_3.id,
              'resource_type': 'url',
-             'link': 'https://www.betopiaerp.com'}
+             'link': 'https://www.BetopiaERP.com'}
         ])
         # No public access to resources
         with self.assertRaises(AccessError):

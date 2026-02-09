@@ -106,7 +106,7 @@ class StockMoveLine(models.Model):
                     'message': '%s',
                     'links': [{
                         'label': wave.name,
-                        'url': f'/BetopiaERP/action-stock_picking_batch.action_picking_tree_wave/{wave.id}',
+                        'url': f'/betopiaerp/action-stock_picking_batch.action_picking_tree_wave/{wave.id}',
                     }],
                     'sticky': False,
                     'next': {'type': 'ir.actions.act_window_close'},

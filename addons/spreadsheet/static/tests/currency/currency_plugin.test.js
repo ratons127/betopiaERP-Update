@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { defineSpreadsheetModels } from "../helpers/data";
 import { LoadingDataError } from "@spreadsheet/o_spreadsheet/errors";

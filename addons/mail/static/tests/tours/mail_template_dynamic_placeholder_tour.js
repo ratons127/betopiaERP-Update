@@ -3,7 +3,7 @@ import { stepUtils } from "@web_tour/tour_utils";
 import { delay } from "@web/core/utils/concurrency";
 
 registry.category("web_tour.tours").add("mail_template_dynamic_placeholder_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {
@@ -110,7 +110,7 @@ registry.category("web_tour.tours").add("mail_template_dynamic_placeholder_tour"
         },
         {
             content: "Insert text inside editable",
-            trigger: ".note-editable.BetopiaERP-editor-editable",
+            trigger: ".note-editable.betopiaerp-editor-editable",
             async run(actions) {
                 await actions.editor(`/`);
                 document.querySelector(".note-editable").dispatchEvent(
@@ -154,7 +154,7 @@ registry.category("web_tour.tours").add("mail_template_dynamic_placeholder_tour"
         },
         {
             content: "Ensure the editable contain the dynamic placeholder t tag",
-            trigger: `.note-editable.BetopiaERP-editor-editable t[t-out="object.company_name"]:contains("defValue")`,
+            trigger: `.note-editable.betopiaerp-editor-editable t[t-out="object.company_name"]:contains("defValue")`,
         },
         {
             content: 'Type "Push Notification Device" model',
@@ -168,7 +168,7 @@ registry.category("web_tour.tours").add("mail_template_dynamic_placeholder_tour"
         },
         {
             content: "Insert text inside editable",
-            trigger: ".note-editable.BetopiaERP-editor-editable",
+            trigger: ".note-editable.betopiaerp-editor-editable",
             async run(actions) {
                 await actions.editor(`/`);
                 document.querySelector(".note-editable").dispatchEvent(
@@ -213,7 +213,7 @@ registry.category("web_tour.tours").add("mail_template_dynamic_placeholder_tour"
         },
         {
             content: "Ensure the editable contain the dynamic placeholder t tag",
-            trigger: `.note-editable.BetopiaERP-editor-editable t[t-out="format_datetime(object.create_date, tz=object.partner_id.tz) or 'localTime'"]:contains("localTime")`,
+            trigger: `.note-editable.betopiaerp-editor-editable t[t-out="format_datetime(object.create_date, tz=object.partner_id.tz) or 'localTime'"]:contains("localTime")`,
         },
         {
             content: "Discard form changes",

@@ -6,7 +6,7 @@ import { useService } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";
 import { TagsList } from "@web/core/tags_list/tags_list";
 import { _t } from "@web/core/l10n/translation";
-import { onMounted } from "@BetopiaERP/owl";
+import { onMounted } from "@betopiaerp/owl";
 
 export class FieldMany2ManyTagsBanksTagsList extends TagsList {
     static template = "FieldMany2ManyTagsBanksTagsList";

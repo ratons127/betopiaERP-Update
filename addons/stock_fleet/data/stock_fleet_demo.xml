@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP noupdate="1">
+<betopiaerp noupdate="1">
     <record id="vehicle_tag_transport" model="fleet.vehicle.tag" >
         <field name="name">Transport</field>
         <field name="color" eval="5"/>
@@ -52,4 +52,4 @@
         <field name="manager_id" ref="base.user_admin"/>
         <field eval="[(6,0,[ref('vehicle_tag_transport')])]" name="tag_ids"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

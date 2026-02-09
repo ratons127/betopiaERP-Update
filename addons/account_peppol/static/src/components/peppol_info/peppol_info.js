@@ -1,5 +1,5 @@
-/** @BetopiaERP-module **/
-import { Component } from "@BetopiaERP/owl";
+/** @betopiaerp-module **/
+import { Component } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import {_t} from "@web/core/l10n/translation";

@@ -1,4 +1,4 @@
-import { Component, onWillRender, toRaw, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillRender, toRaw, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";

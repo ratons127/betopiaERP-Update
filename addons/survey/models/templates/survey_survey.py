@@ -148,7 +148,7 @@ class SurveySurvey(models.Model):
                     'random_questions_count': 2
                 }),
                 (0, 0, {  # survey.question
-                    'title': _('What does "BetopiaERP" stand for?'),
+                    'title': _('What does "BETOPIAERP" stand for?'),
                     'question_type': 'simple_choice',
                     'suggested_answer_ids': [
                         (0, 0, {  # survey.question.answer

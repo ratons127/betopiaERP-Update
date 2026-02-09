@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 
 import { getFirstListFunction, getNumberOfListFormulas } from "@spreadsheet/list/list_helpers";
-import { constants, tokenize, helpers } from "@BetopiaERP/o-spreadsheet";
+import { constants, tokenize, helpers } from "@betopiaerp/o-spreadsheet";
 import { allowTranslations } from "@web/../tests/web_test_helpers";
 const {
     getFirstPivotFunction,
@@ -28,7 +28,7 @@ beforeEach(() => {
 describe.current.tags("headless");
 
 test("Basic formula extractor", async function () {
-    const formula = `=PIVOT.VALUE("1", "test") + BetopiaERP.LIST("2", "hello", "bla")`;
+    const formula = `=PIVOT.VALUE("1", "test") + BETOPIAERP.LIST("2", "hello", "bla")`;
     const tokens = tokenize(formula);
     let functionName;
     let args;
@@ -38,7 +38,7 @@ test("Basic formula extractor", async function () {
     expect(args[0]).toEqual(stringArg("1", 3));
     expect(args[1]).toEqual(stringArg("test", 6));
     ({ functionName, args } = getFirstListFunction(tokens));
-    expect(functionName).toBe("BetopiaERP.LIST");
+    expect(functionName).toBe("BETOPIAERP.LIST");
     expect(args.length).toBe(3);
     expect(args[0]).toEqual(stringArg("2", 13));
     expect(args[1]).toEqual(stringArg("hello", 16));
@@ -57,7 +57,7 @@ test("Extraction with two PIVOT formulas", async function () {
 });
 
 test("Number of formulas", async function () {
-    const formula = `=PIVOT.VALUE("1", "test") + PIVOT.VALUE("2", "hello", "bla") + BetopiaERP.LIST("1", "bla")`;
+    const formula = `=PIVOT.VALUE("1", "test") + PIVOT.VALUE("2", "hello", "bla") + BETOPIAERP.LIST("1", "bla")`;
     expect(getNumberOfPivotFunctions(tokenize(formula))).toBe(2);
     expect(getNumberOfListFormulas(tokenize(formula))).toBe(1);
     expect(getNumberOfPivotFunctions(tokenize("=1+1"))).toBe(0);

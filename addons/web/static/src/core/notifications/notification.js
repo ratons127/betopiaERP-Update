@@ -1,4 +1,4 @@
-import { Component, useRef, onMounted } from "@BetopiaERP/owl";
+import { Component, useRef, onMounted } from "@betopiaerp/owl";
 
 const AUTOCLOSE_DELAY = 4000;
 

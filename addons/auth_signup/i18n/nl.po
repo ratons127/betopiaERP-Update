@@ -6,9 +6,9 @@
 # Martin Trigaux, 2022
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2022
 # Jolien De Paepe, 2023
-# Erwin van der Ploeg <erwin@BetopiaERPexperts.nl>, 2023, 2025.
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# Bren Driesen <brdri@BetopiaERP.com>, 2025.
+# Erwin van der Ploeg <erwin@betopiaerpexperts.nl>, 2023, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# Bren Driesen <brdri@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-29 12:48+0000\n"
-"Last-Translator: Bren Driesen <brdri@BetopiaERP.com>\n"
-"Language-Team: Dutch <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Bren Driesen <brdri@betopiaerp.com>\n"
+"Language-Team: Dutch <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_signup/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -494,7 +494,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -629,7 +629,7 @@ msgstr ""
 "                        <t t-set=\"website_url\" t-"
 "value=\"object.get_base_url()\"/>\n"
 "                        Je BetopiaERP-domein is: <b><a t-att-href=\"website_url\" "
-"t-out=\"website_url or ''\">http://jouwbedrijf.BetopiaERP.com</a></b><br/>\n"
+"t-out=\"website_url or ''\">http://jouwbedrijf.betopiaerp.com</a></b><br/>\n"
 "                        Je e-mailadres om in te loggen is: <b><a t-attf-"
 "href=\"/web/login?login={{ object.email }}\" target=\"_blank\" t-"
 "out=\"object.email or ''\">mark.brown23@voorbeeld.com</a></b><br/><br/>\n"
@@ -949,14 +949,14 @@ msgstr ""
 "</table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
 msgstr ""
 "Een link om je wachtwoord opnieuw in te stellen is via e-mail verzonden"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A signup link was sent by email"
 msgstr "Een registratielink is via e-mail verzonden"
@@ -967,7 +967,7 @@ msgid "Already have an account?"
 msgstr "Heb je al een account?"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Another user is already registered using this email address."
 msgstr "Er is al een gebruiker geregistreerd met dit e-mailadres."
@@ -978,7 +978,7 @@ msgid "Back to Login"
 msgstr "Terug naar login"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr "E-mail kan niet verzonden worden: gebruiker %s heeft geen e-mailadres."
@@ -1009,7 +1009,7 @@ msgid "Contact"
 msgstr "Contact"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "Could not contact the mail server, please check your outgoing email server "
@@ -1019,13 +1019,13 @@ msgstr ""
 "je uitgaande e-mailserver"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not create a new account."
 msgstr "Het was niet mogelijk een nieuw account aan te maken."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not reset your password"
 msgstr "Je wachtwoord kon niet opnieuw ingesteld worden"
@@ -1103,7 +1103,7 @@ msgstr ""
 "> Bedankt,"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Invalid signup token"
 msgstr "Ongeldig aanmeldingstoken"
@@ -1129,7 +1129,7 @@ msgid "Marc Demo"
 msgstr "Marc Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Multiple accounts found for this login"
 msgstr "Meerdere accounts gevonden voor deze login"
@@ -1140,13 +1140,13 @@ msgid "Name"
 msgstr "Naam"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "No account found for this login"
 msgstr "Geen account gevonden voor deze login"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "No login provided."
 msgstr "Geen login opgegeven."
@@ -1172,13 +1172,13 @@ msgid "Password Reset"
 msgstr "Wachtwoord resetten"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Password reset"
 msgstr "Wachtwoord resetten"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Password reset instructions sent to your email address."
 msgstr ""
@@ -1186,7 +1186,7 @@ msgstr ""
 "verzonden."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Passwords do not match; please retype them."
 msgstr "Wachtwoorden komen niet overeen, probeer het opnieuw."
@@ -1207,7 +1207,7 @@ msgid "Reminder for unregistered users"
 msgstr "Herinnering voor niet geregistreerde gebruikers"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1273,7 +1273,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "Instellingen: Herinnering ongeregistreerde gebruiker"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Sign Up"
 msgstr "Registreren"
@@ -1290,31 +1290,31 @@ msgid "Signup Token Type"
 msgstr "Type aanmeldingstoken"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup is not allowed for uninvited users"
 msgstr "Aanmelden is niet toegestaan voor gebruikers zonder uitnodiging"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 msgid "Signup token '%s' is not valid or expired"
 msgstr "Het aanmeldingstoken '%s' is niet geldig of verlopen"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: invalid template user"
 msgstr "Aanmelden: ongeldige sjabloon gebruiker"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no login given for new user"
 msgstr "Aanmelden: geen login opgegeven voor nieuwe gebruiker"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no name or partner given for new user"
 msgstr "Aanmelden: geen naam of partner opgegeven voor nieuwe gebruiker"
@@ -1331,13 +1331,13 @@ msgstr ""
 "Sjabloon gebruiker voor het aanmaken van nieuwe gebruikers, bij aanmelding"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "The form was not properly filled in."
 msgstr "Dit formulier is niet correct ingevuld."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "There was an error when trying to deliver your Email, please check your "
@@ -1373,7 +1373,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "Welkom bij {{ object.company_id.name }}!"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "You cannot perform this action on an archived user."
 msgstr "Je kunt deze actie niet uitvoeren op een gearchiveerde gebruiker."
@@ -1384,7 +1384,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "Je account bij {{ object.company_id.name }}"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Your password has been reset successfully."
 msgstr "Je wachtwoord is succesvol opnieuw ingesteld."

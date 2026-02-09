@@ -28,7 +28,7 @@ class MicrosoftOutlookController(http.Controller):
             _logger.warning("Microsoft Outlook: an error occurred %s", error_description)
             return request.render('microsoft_outlook.microsoft_outlook_oauth_error', {
                 'error': error_description,
-                'redirect_url': '/BetopiaERP',
+                'redirect_url': '/betopiaerp',
             })
 
         try:
@@ -132,5 +132,5 @@ class MicrosoftOutlookController(http.Controller):
             or record != request.env.user.outgoing_mail_server_id)
             and request.env.user.has_group('base.group_system')
         ):
-            return f'/BetopiaERP/{record._name}/{record.id}'
-        return f'/BetopiaERP/my-preferences/{request.env.user.id}'
+            return f'/betopiaerp/{record._name}/{record.id}'
+        return f'/betopiaerp/my-preferences/{request.env.user.id}'

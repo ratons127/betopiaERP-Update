@@ -1,4 +1,4 @@
-import { onWillStart, useState } from "@BetopiaERP/owl";
+import { onWillStart, useState } from "@betopiaerp/owl";
 import { BaseOptionComponent, useDomState } from "@html_builder/core/utils";
 import { useDynamicSnippetOption } from "@website/builder/plugins/options/dynamic_snippet_hook";
 

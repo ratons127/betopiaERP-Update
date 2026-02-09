@@ -35,6 +35,6 @@
             'sale_pdf_quote_builder/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -787,10 +787,10 @@ Résultat de recherche d'images pour "dessin la princesse au petit pois"
 --
 Soup
 
-BetopiaERP S.A.
+BetopiaERP
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: http://www.betopiaerp.com
+Web: http://www.BetopiaERP.com
 
 
 --------------1F2D18B1129FC2F0B9EECF50
@@ -810,10 +810,10 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCNAadd3NDM8g9w0P_-g
     <pre class="moz-signature" cols="72">--
 Soup
 
-BetopiaERP S.A.
+BetopiaERP
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: <a class="moz-txt-link-freetext" href="http://www.betopiaerp.com">http://www.betopiaerp.com</a> </pre>
+Web: <a class="moz-txt-link-freetext" href="http://www.BetopiaERP.com">http://www.BetopiaERP.com</a> </pre>
   </body>
 </html>
 
@@ -831,7 +831,7 @@ From: {email_from}
 To: {to}
 Message-Id: <20191224103207.415713014C@example.com>
 Return-Path: <MAILER-DAEMON>
-Delivered-To: BetopiaERP+82240-account.invoice-19177@mycompany.example.com
+Delivered-To: betopiaerp+82240-account.invoice-19177@mycompany.example.com
 Received: by example.com (Postfix) id 415713014C; Tue, 24 Dec
  2019 11:32:07 +0100 (CET)
 Auto-Submitted: auto-replied
@@ -1106,7 +1106,7 @@ aa.com" style=3D"text-decoration:none; color: white;">info@aust-mfg.com</a>=
                       </tr>
                       <tr>
                         <td align=3D"center">
-                            Powered by <a href=3D"https://www.betopiaerp.com">Odo=
+                            Powered by <a href=3D"https://www.BetopiaERP.com">Odo=
 o</a>.
                         </td>
                       </tr>
@@ -1296,7 +1296,7 @@ Received: from eupp00.betopiaerp.com (00.72.79.34.bc.googleusercontent.com [34.=
         by mailserver.betopiaerp.com (Postfix) with ESMTPS id DFFDC17AA03;
         Tue, 10 Jan 2023 11:22:57 +0100 (CET)
 DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Dsimple/simple; d=3Dxxx.be;
-        s=3DBetopiaERP; t=3D1673346178;
+        s=3Dbetopiaerp; t=3D1673346178;
         bh=3DYPJOqkUi8B28X1MrRUsgmsL8KRz/ZIkpbYyc6wNITXA=3D;
         h=3Dreferences:Subject:From:Reply-To:To:Date:From;
         b=3DCMqh7mUvpgUw+JpCeGluv1+MZ3y6EsXd0acmsfzpYBjcoy1InvD6FLT1/lQCcgetf

@@ -11,7 +11,7 @@ import {
     removeTextHighlight,
     getObservedEls,
 } from "@website/js/highlight_utils";
-import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@BetopiaERP/owl";
+import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@betopiaerp/owl";
 import { onceAllImagesLoaded } from "@website/utils/images";
 
 const NO_OP = () => {};
@@ -511,7 +511,7 @@ export class AddPageDialog extends Component {
             add_menu: addMenu || "",
 
             website_id: this.props.websiteId,
-            csrf_token: BetopiaERP.csrf_token,
+            csrf_token: betopiaerp.csrf_token,
             page_title: pageTitle,
         });
         if (data.view_id) {

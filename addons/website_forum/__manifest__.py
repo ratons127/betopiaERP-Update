@@ -11,7 +11,7 @@
     'description': """
 Ask questions, get answers, no distractions
         """,
-    'website': 'https://www.betopiaerp.com/app/forum',
+    'website': 'https://www.BetopiaERP.com/app/forum',
     'depends': [
         'auth_signup',
         'website_mail',
@@ -96,6 +96,6 @@ Ask questions, get answers, no distractions
             'website_forum/static/src/interactions/loader_loading.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

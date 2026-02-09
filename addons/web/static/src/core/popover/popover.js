@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillDestroy, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillDestroy, useRef } from "@betopiaerp/owl";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 import { OVERLAY_SYMBOL } from "@web/core/overlay/overlay_container";
 import { usePosition } from "@web/core/position/position_hook";

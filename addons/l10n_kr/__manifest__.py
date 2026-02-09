@@ -7,7 +7,7 @@
     'description': """
 Accounting Module for the Republic of Korea
 ===========================================
-This provides a base chart of accounts and taxes template for use in betopiaerp.
+This provides a base chart of accounts and taxes template for use in BetopiaERP.
     """,
     'depends': ['account'],
     'auto_install': ['account'],
@@ -19,6 +19,6 @@ This provides a base chart of accounts and taxes template for use in betopiaerp.
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

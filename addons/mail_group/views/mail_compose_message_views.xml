@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record id="mail_compose_message_action_mail_group" model="ir.actions.act_window">
         <field name="name">Send email</field>
         <field name="res_model">mail.compose.message</field>
@@ -13,4 +13,4 @@
         <field name="binding_model_id" ref="model_mail_group_member"/>
         <field name="binding_view_types">list</field>
     </record>
-</BetopiaERP>
+</betopiaerp>

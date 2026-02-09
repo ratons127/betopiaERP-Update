@@ -32,6 +32,6 @@ This module includes contact phone and mobile numbers validation.""",
             'website_crm/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

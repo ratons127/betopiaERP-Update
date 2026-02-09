@@ -7,7 +7,7 @@ import {
     useEffect,
     useExternalListener,
     useRef,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 export class BackgroundPositionOverlay extends Component {
     static template = "html_builder.BackgroundPositionOverlay";

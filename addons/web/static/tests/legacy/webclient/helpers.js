@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/webclient/helpers default=false */
+/** @betopiaerp-module alias=@web/../tests/webclient/helpers default=false */
 
 import { dialogService } from "@web/core/dialog/dialog_service";
 import { notificationService } from "@web/core/notifications/notification_service";
@@ -26,7 +26,7 @@ import { commandService } from "@web/core/commands/command_service";
 import { CustomFavoriteItem } from "@web/search/custom_favorite_item/custom_favorite_item";
 import { overlayService } from "@web/core/overlay/overlay_service";
 
-import { Component, onMounted, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, xml } from "@betopiaerp/owl";
 import { fieldService } from "@web/core/field_service";
 import { nameService } from "@web/core/name_service";
 import { datetimePickerService } from "@web/core/datetime/datetimepicker_service";
@@ -106,7 +106,7 @@ export async function createWebClient(params) {
     const WebClientClass = params.WebClientClass || WebClient;
     const target = params && params.target ? params.target : getFixture();
     const wc = await mount(WebClientClass, target, { env });
-    BetopiaERP.__WOWL_DEBUG__ = { root: wc };
+    betopiaerp.__WOWL_DEBUG__ = { root: wc };
     target.classList.add("o_web_client"); // necessary for the stylesheet
     registerCleanup(() => {
         target.classList.remove("o_web_client");

@@ -13,9 +13,9 @@ import {
     queryOne,
     test,
     waitFor,
-} from "@BetopiaERP/hoot";
-import { hover } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot";
+import { hover } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 

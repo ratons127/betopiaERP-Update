@@ -321,7 +321,7 @@ class IrAsset(models.Model):
 
         If the path_def matches a (list of) file, the result will contain the full_path
         and the modified time.
-        Ex: ('/base/static/file.js', '/home/user/source/BetopiaERP/BetopiaERP/addons/base/static/file.js', 643636800)
+        Ex: ('/base/static/file.js', '/home/user/source/betopiaerp/betopiaerp/addons/base/static/file.js', 643636800)
 
         If the path_def looks like a non aggregable path (http://, /web/assets), only return the path
         Ex: ('http://example.com/lib.js', None, -1)

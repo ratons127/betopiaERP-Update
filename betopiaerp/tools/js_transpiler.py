@@ -1,9 +1,9 @@
 """
 This code is what let us use ES6-style modules in betopiaerp.
 Classic BetopiaERP modules are composed of a top-level :samp:`betopiaerp.define({name},{dependencies},{body_function})` call.
-This processor will take files starting with an `@BetopiaERP-module` annotation (in a comment) and convert them to classic modules.
-If any file has the ``/** BetopiaERP-module */`` on top of it, it will get processed by this class.
-It performs several operations to get from ES6 syntax to the usual BetopiaERP one with minimal changes.
+This processor will take files starting with an `@betopiaerp-module` annotation (in a comment) and convert them to classic modules.
+If any file has the ``/** betopiaerp-module */`` on top of it, it will get processed by this class.
+It performs several operations to get from ES6 syntax to the usual betopiaerp one with minimal changes.
 This is done on the fly, this not a pre-processing tool.
 
 Caveat: This is done without a full parser, only using regex. One can only expect to cover as much edge cases
@@ -19,14 +19,14 @@ from betopiaerp.tools.misc import OrderedSet
 
 def transpile_javascript(url, content):
     """
-    Transpile the code from native JS modules to custom BetopiaERP modules.
+    Transpile the code from native JS modules to custom betopiaerp modules.
 
     :param content: The original source code
     :param url: The url of the file in the project
     :return: The transpiled source code
     """
     module_path = url_to_module_path(url)
-    legacy_BetopiaERP_define = get_aliased_BetopiaERP_define_content(module_path, content)
+    legacy_betopiaerp_define = get_aliased_betopiaerp_define_content(module_path, content)
     dependencies = OrderedSet()
     # The order of the operations does sometimes matter.
     steps = [
@@ -47,13 +47,13 @@ def transpile_javascript(url, content):
         convert_object_export,
         convert_default_export,
         partial(wrap_with_qunit_module, url),
-        partial(wrap_with_BetopiaERP_define, module_path, dependencies),
+        partial(wrap_with_betopiaerp_define, module_path, dependencies),
         partial(convert_t, url)
     ]
     for s in steps:
         content = s(content)
-    if legacy_BetopiaERP_define:
-        content += legacy_BetopiaERP_define
+    if legacy_betopiaerp_define:
+        content += legacy_betopiaerp_define
     return content
 
 
@@ -106,7 +106,7 @@ def wrap_with_qunit_module(url, content):
     else:
         return content
 
-def wrap_with_BetopiaERP_define(module_path, dependencies, content):
+def wrap_with_betopiaerp_define(module_path, dependencies, content):
     """
     Wraps the current content (source code) with the betopiaerp.define call.
     It adds as a second argument the list of dependencies.
@@ -699,27 +699,27 @@ def relative_path_to_module_path(url, path_rel):
     return url_to_module_path(result)
 
 
-BetopiaERP_MODULE_RE = re.compile(r"""
+BETOPIAERP_MODULE_RE = re.compile(r"""
     \s*                                # starting white space
     \/(\*|\/)                          # /* or //
     .*                                 # any comment in between (optional)
-    @BetopiaERP-module                       # '@BetopiaERP-module' statement
+    @betopiaerp-module                       # '@betopiaerp-module' statement
     (?P<ignore>\s+ignore)?             # module in src | tests which should not be transpiled (optional)
     (\s+alias=(?P<alias>[^\s*]+))?     # alias (e.g. alias=web.Widget, alias=@web/../tests/utils) (optional)
     (\s+default=(?P<default>[\w$]+))?  # no implicit default export (e.g. default=false) (optional)
 """, re.VERBOSE)
 
 
-def is_BetopiaERP_module(url, content):
+def is_betopiaerp_module(url, content):
     """
-    Detect if the file is a native BetopiaERP module.
-    We look for a comment containing @BetopiaERP-module.
+    Detect if the file is a native betopiaerp module.
+    We look for a comment containing @betopiaerp-module.
 
     :param url:
     :param content: source code
-    :return: is this a BetopiaERP module that need transpilation ?
+    :return: is this a betopiaerp module that need transpilation ?
     """
-    result = BetopiaERP_MODULE_RE.match(content)
+    result = BETOPIAERP_MODULE_RE.match(content)
     if result and result['ignore']:
         return False
     addon = url.split('/')[1]
@@ -728,14 +728,14 @@ def is_BetopiaERP_module(url, content):
     return bool(result)
 
 
-def get_aliased_BetopiaERP_define_content(module_path, content):
+def get_aliased_betopiaerp_define_content(module_path, content):
     """
     To allow smooth transition between the new system and the legacy one, we have the possibility to
     defined an alternative module name (an alias) that will act as proxy between legacy require calls and
     new modules.
 
     Example:
-    If we have a require call somewhere in the BetopiaERP source base being:
+    If we have a require call somewhere in the betopiaerp source base being:
     > vat AbstractAction require("web.AbstractAction")
     we have a problem when we will have converted to module to ES6: its new name will be more like
     "web/chrome/abstract_action". So the require would fail !
@@ -749,9 +749,9 @@ def get_aliased_BetopiaERP_define_content(module_path, content):
     .. code-block:: javascript
 
         // before
-        /** @BetopiaERP-module */
+        /** @betopiaerp-module */
         // after
-        /** @BetopiaERP-module alias=web.AbstractAction */
+        /** @betopiaerp-module alias=web.AbstractAction */
 
     Notice that often, the legacy system acted like they it did defaukt imports. That's why we have the
     "[Symbol.for("default")];" bit. If your use case does not need this default import, just do:
@@ -759,13 +759,13 @@ def get_aliased_BetopiaERP_define_content(module_path, content):
     .. code-block:: javascript
 
         // before
-        /** @BetopiaERP-module */
+        /** @betopiaerp-module */
         // after
-        /** @BetopiaERP-module alias=web.AbstractAction default=false */
+        /** @betopiaerp-module alias=web.AbstractAction default=false */
 
     :return: the alias content to append to the source code.
     """
-    matchobj = BetopiaERP_MODULE_RE.match(content)
+    matchobj = BETOPIAERP_MODULE_RE.match(content)
     if matchobj:
         alias = matchobj['alias']
         if alias:

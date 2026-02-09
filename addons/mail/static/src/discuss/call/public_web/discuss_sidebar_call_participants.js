@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { Thread } from "@mail/core/common/thread_model";
 import { CALL_ICON_DEAFEN, CALL_ICON_MUTED } from "@mail/discuss/call/common/call_actions";

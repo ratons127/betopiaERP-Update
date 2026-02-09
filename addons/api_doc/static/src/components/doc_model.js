@@ -1,4 +1,4 @@
-import { Component, useState, useEffect, onPatched, markup } from "@BetopiaERP/owl";
+import { Component, useState, useEffect, onPatched, markup } from "@betopiaerp/owl";
 import { DocTable, TABLE_TYPES } from "@api_doc/components/doc_table";
 import { getCrudMethodsExamples } from "@api_doc/utils/doc_model_utils";
 import { DocMethod } from "@api_doc/components/doc_method";

@@ -6,7 +6,7 @@
     'category': 'Human Resources/Employees',
     'sequence': 95,
     'summary': 'Centralize employee information',
-    'website': 'https://www.betopiaerp.com/app/employees',
+    'website': 'https://www.BetopiaERP.com/app/employees',
     'images': [
         'static/src/img/default_image.png',
     ],
@@ -76,6 +76,6 @@
             'hr/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -11,6 +11,6 @@
         'ir.model.access.csv',
         'views.xml'
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

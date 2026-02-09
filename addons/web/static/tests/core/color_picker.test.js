@@ -1,6 +1,6 @@
-import { test, expect } from "@BetopiaERP/hoot";
-import { press, click, animationFrame, queryOne, manuallyDispatchProgrammaticEvent } from "@BetopiaERP/hoot-dom";
-import { Component, xml, useState } from "@BetopiaERP/owl";
+import { test, expect } from "@betopiaerp/hoot";
+import { press, click, animationFrame, queryOne, manuallyDispatchProgrammaticEvent } from "@betopiaerp/hoot-dom";
+import { Component, xml, useState } from "@betopiaerp/owl";
 import { defineStyle, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ColorPicker, DEFAULT_COLORS } from "@web/core/color_picker/color_picker";
 import { CustomColorPicker } from "@web/core/color_picker/custom_color_picker/custom_color_picker";

@@ -25,6 +25,6 @@ an organization such as an Organization Chart for employees for instance.
             'web_hierarchy/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -40,7 +40,7 @@ class TestMailRenderMixin(common.HttpCase):
             '<a href="https://url_with_params.com?a=b&c=d">label</a>',
             '<a href="#"></a>',
             '<a href="mailto:afunemail@somewhere.com">email label</a>',
-            '<a href="https://www.betopiaerp.com?test=%20+3&amp;this=that">THERE > there</a>',
+            '<a href="https://www.BetopiaERP.com?test=%20+3&amp;this=that">THERE > there</a>',
             '<a >Without href</a>'
         ]
 
@@ -65,7 +65,7 @@ class TestMailRenderMixin(common.HttpCase):
                 ("label", "=", "label"),
             ],
             [("url", "=", self.base_url + '#')],
-            [("url", "=", "https://www.betopiaerp.com?test=%20+3&this=that"), ("label", "=", "THERE > there")],  # lxml unescaped
+            [("url", "=", "https://www.BetopiaERP.com?test=%20+3&this=that"), ("label", "=", "THERE > there")],  # lxml unescaped
         ]
         trackers_to_fail = [
             [("url", "=", "https://test_542152qsdqsd.com"), ("label", "ilike", "_")],
@@ -84,49 +84,49 @@ class TestMailRenderMixin(common.HttpCase):
     @mute_logger("betopiaerp.tests.common.requests")
     def test_shorten_links_html_different_labels(self):
         # Covers multiple additions from web_editor's convert_inline.js classToStyle
-        content = """<p>There is a <a href="https://www.betopiaerp.com">logo.png</a> here,
-<a href="https://www.betopiaerp.com">there</a>, and in this
-<a href="https://www.betopiaerp.com"><!--[if mso]><img src="https://www.betopiaerp.com/logo.png" alt="image" style="1"/><![endif]-->
-<!--[if !mso]><!--><img src="https://www.betopiaerp.com/logo.png" style="2" alt="image"/><!--<![endif]--></a>
-and also <a href="https://www.betopiaerp.com">
-    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.betopiaerp.com/logo.png" fakealt="image3" alt="image2's trouble"></img></p>
+        content = """<p>There is a <a href="https://www.BetopiaERP.com">logo.png</a> here,
+<a href="https://www.BetopiaERP.com">there</a>, and in this
+<a href="https://www.BetopiaERP.com"><!--[if mso]><img src="https://www.BetopiaERP.com/logo.png" alt="image" style="1"/><![endif]-->
+<!--[if !mso]><!--><img src="https://www.BetopiaERP.com/logo.png" style="2" alt="image"/><!--<![endif]--></a>
+and also <a href="https://www.BetopiaERP.com">
+    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.BetopiaERP.com/logo.png" fakealt="image3" alt="image2's trouble"></img></p>
 </a>
-Single/Nested quotes are not <a href="https://www.betopiaerp.com"><img src='https://www.betopiaerp.com/logo.png' alt='"scary"'/></a>
-Nor escaped <a href="https://www.betopiaerp.com">  <img src="https://www.betopiaerp.com/logo.png" alt="ins \' ide"></a>
-Nor escaped <a href="https://www.betopiaerp.com"> blurp <img src="https://www.betopiaerp.com/logo.png" alt="ins \' ide"></a>
-Without matched label because inside tags are a pain and rare: <a href="https://www.betopiaerp.com"><em>here</em></a>
-Without alt, filename is used: <a href="https://www.betopiaerp.com"><img src="https://www.betopiaerp.com/logo.png"></a>
-And here is the same: <a href="https://www.betopiaerp.com"><img src="https://www.betopiaerp.com/logo.png"></a></p>"""
+Single/Nested quotes are not <a href="https://www.BetopiaERP.com"><img src='https://www.BetopiaERP.com/logo.png' alt='"scary"'/></a>
+Nor escaped <a href="https://www.BetopiaERP.com">  <img src="https://www.BetopiaERP.com/logo.png" alt="ins \' ide"></a>
+Nor escaped <a href="https://www.BetopiaERP.com"> blurp <img src="https://www.BetopiaERP.com/logo.png" alt="ins \' ide"></a>
+Without matched label because inside tags are a pain and rare: <a href="https://www.BetopiaERP.com"><em>here</em></a>
+Without alt, filename is used: <a href="https://www.BetopiaERP.com"><img src="https://www.BetopiaERP.com/logo.png"></a>
+And here is the same: <a href="https://www.BetopiaERP.com"><img src="https://www.BetopiaERP.com/logo.png"></a></p>"""
 
         expected_pattern = re.compile(
             rf"""<p>There is a <a href="{self.base_url}/r/(\w+)+">logo.png</a> here,
 <a href="{self.base_url}/r/(\w+)+">there</a>, and in this
-<a href="{self.base_url}/r/(\w+)+"><!--\[if mso]><img src="https://www.betopiaerp.com/logo.png" alt="image" style="1"/><!\[endif]-->
-<!--\[if !mso]><!--><img src="https://www.betopiaerp.com/logo.png" style="2" alt="image"/><!--<!\[endif]--></a>
+<a href="{self.base_url}/r/(\w+)+"><!--\[if mso]><img src="https://www.BetopiaERP.com/logo.png" alt="image" style="1"/><!\[endif]-->
+<!--\[if !mso]><!--><img src="https://www.BetopiaERP.com/logo.png" style="2" alt="image"/><!--<!\[endif]--></a>
 and also <a href="{self.base_url}/r/(\w+)+">
-    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.betopiaerp.com/logo.png" fakealt="image3" alt="image2\'s trouble"/></p>
+    <p class="o_outlook_hack" style="text-align: center; margin: 0px;"><img src="https://www.BetopiaERP.com/logo.png" fakealt="image3" alt="image2\'s trouble"/></p>
 </a>
-Single/Nested quotes are not <a href="{self.base_url}/r/(\w+)+"><img src="https://www.betopiaerp.com/logo.png" alt="&quot;scary&quot;"/></a>
-Nor escaped <a href="{self.base_url}/r/(\w+)+">  <img src="https://www.betopiaerp.com/logo.png" alt="ins \' ide"/></a>
-Nor escaped <a href="{self.base_url}/r/(\w+)+"> blurp <img src="https://www.betopiaerp.com/logo.png" alt="ins \' ide"/></a>
+Single/Nested quotes are not <a href="{self.base_url}/r/(\w+)+"><img src="https://www.BetopiaERP.com/logo.png" alt="&quot;scary&quot;"/></a>
+Nor escaped <a href="{self.base_url}/r/(\w+)+">  <img src="https://www.BetopiaERP.com/logo.png" alt="ins \' ide"/></a>
+Nor escaped <a href="{self.base_url}/r/(\w+)+"> blurp <img src="https://www.BetopiaERP.com/logo.png" alt="ins \' ide"/></a>
 Without matched label because inside tags are a pain and rare: <a href="{self.base_url}/r/(\w+)+"><em>here</em></a>
-Without alt, filename is used: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.betopiaerp.com/logo.png"/></a>
-And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.betopiaerp.com/logo.png"/></a></p>"""
+Without alt, filename is used: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.BetopiaERP.com/logo.png"/></a>
+And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.BetopiaERP.com/logo.png"/></a></p>"""
         )
 
         new_content = self.env["mail.render.mixin"]._shorten_links(content, {})
         self.assertRegex(new_content, expected_pattern)
 
         trackers_to_find = [
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "logo.png")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "there")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "[media] image")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "[media] image2's trouble")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "blurp")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", '[media] "scary"')],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "[media] ins ' ide")],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", False)],
-            [("url", "=", "https://www.betopiaerp.com"), ("label", "=", "[media] logo.png")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "logo.png")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "there")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "[media] image")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "[media] image2's trouble")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "blurp")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", '[media] "scary"')],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "[media] ins ' ide")],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", False)],
+            [("url", "=", "https://www.BetopiaERP.com"), ("label", "=", "[media] logo.png")],
         ]
         for tracker_to_find in trackers_to_find:
             with self.subTest(tracker_to_find=tracker_to_find):
@@ -157,12 +157,12 @@ And here is the same: <a href="{self.base_url}/r/(\w+)+"><img src="https://www.b
     def test_shorten_links_html_including_base_url(self):
         content = f"""<p>
 This is a link: <a href="https://www.worldcommunitygrid.org">https://www.worldcommunitygrid.org</a><br/>
-This is another: <a href="{self.base_url}/BetopiaERP?debug=1&more=2">{self.base_url}</a><br/>
+This is another: <a href="{self.base_url}/betopiaerp?debug=1&more=2">{self.base_url}</a><br/>
 And a third: <a href="{self.base_url}">Here</a>
 And a forth: <a href="{self.base_url}">Here</a>
 And a fifth: <a href="{self.base_url}">Here too</a>
-And a 6th: <a href="/BetopiaERP">Here2</a><br>
-And a 7th: <a href="{self.base_url}/BetopiaERP">Here2</a><br>
+And a 6th: <a href="/betopiaerp">Here2</a><br>
+And a 7th: <a href="{self.base_url}/betopiaerp">Here2</a><br>
 And a last, more complex: <a href="https://boinc.berkeley.edu/forum_thread.php?id=14544&postid=106833">There!</a>
 </p>"""
 
@@ -224,7 +224,7 @@ And a last, more complex: <a href="{self.base_url}/r/(\w+)">There!</a>
     def test_shorten_links_text_including_base_url(self):
         content = f"""
 This is a link: https://www.worldcommunitygrid.org
-This is another: {self.base_url}/BetopiaERP?debug=1&more=2
+This is another: {self.base_url}/betopiaerp?debug=1&more=2
 A third: {self.base_url}
 A forth: {self.base_url}
 And a last, with question mark: https://boinc.berkeley.edu/forum_thread.php?id=14544&postid=106833"""

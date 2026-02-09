@@ -1,6 +1,6 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent, microTick, press } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent, microTick, press } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 import { setupEditor, testEditor } from "../_helpers/editor";

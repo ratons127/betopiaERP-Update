@@ -1,11 +1,11 @@
-import { expect, queryAll, test } from "@BetopiaERP/hoot";
+import { expect, queryAll, test } from "@betopiaerp/hoot";
 import {
     defineWebsiteModels,
     setupWebsiteBuilderWithSnippet,
 } from "@website/../tests/builder/website_helpers";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import { getDragHelper, waitForEndOfOperation } from "@html_builder/../tests/helpers";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
 
 defineWebsiteModels();
 
@@ -21,7 +21,7 @@ test("add social medias", async () => {
         expect(args[0]).toEqual([1]);
         expect(args[1]).toInclude("social_facebook");
         expect(args[1]).toInclude("social_twitter");
-        return [{ id: 1, social_facebook: "https://fb.com/BetopiaERP", social_twitter: false }];
+        return [{ id: 1, social_facebook: "https://fb.com/betopiaerp", social_twitter: false }];
     });
 
     await setupEmptySocialMedia();
@@ -49,7 +49,7 @@ test("add social medias", async () => {
 
 test("reorder social medias", async () => {
     onRpc("website", "read", ({ args }) => [
-        { id: 1, social_facebook: "https://fb.com/BetopiaERP", social_twitter: "https://x.com/BetopiaERP" },
+        { id: 1, social_facebook: "https://fb.com/betopiaerp", social_twitter: "https://x.com/betopiaerp" },
     ]);
 
     await setupEmptySocialMedia();
@@ -62,8 +62,8 @@ test("reorder social medias", async () => {
     await contains("button[data-action-id='addSocialMediaLink']").click();
 
     // we don't know the order for the ones received from the server
-    expect("tr [data-action-param='facebook'] input").toHaveValue("https://fb.com/BetopiaERP");
-    expect("tr [data-action-param='twitter'] input").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr [data-action-param='facebook'] input").toHaveValue("https://fb.com/betopiaerp");
+    expect("tr [data-action-param='twitter'] input").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(3) input[type=text]").toHaveValue("https://www.example.com/first");
     expect("tr:nth-child(4) input[type=text]").toHaveValue("https://www.example.com");
 
@@ -76,11 +76,11 @@ test("reorder social medias", async () => {
         "tr:last-child"
     );
 
-    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(1) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(2) input[type=text]").toHaveValue("https://www.example.com/first");
     expect("tr:nth-child(3) input[type=text]").toHaveValue("https://www.example.com");
-    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(4) input[type=checkbox]").toBeChecked();
 
     expect(":iframe a:nth-of-type(1)").toHaveAttribute("href", "https://www.example.com/first");
@@ -90,10 +90,10 @@ test("reorder social medias", async () => {
     await contains("tr:nth-child(1) button.o_drag_handle").dragAndDrop("tr:nth-child(2)");
 
     expect("tr:nth-child(1) input[type=text]").toHaveValue("https://www.example.com/first");
-    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(2) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(3) input[type=text]").toHaveValue("https://www.example.com");
-    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(4) input[type=checkbox]").toBeChecked();
 
     expect(":iframe a:nth-of-type(1)").toHaveAttribute("href", "https://www.example.com/first");
@@ -106,10 +106,10 @@ test("reorder social medias", async () => {
     await contains("tr:nth-child(4) input[type=checkbox]").click();
 
     expect("tr:nth-child(1) input[type=text]").toHaveValue("https://www.example.com/first");
-    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(2) input[type=checkbox]").toBeChecked();
     expect("tr:nth-child(3) input[type=text]").toHaveValue("https://www.example.com");
-    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(4) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(4) input[type=checkbox]").not.toBeChecked();
 
     expect(":iframe a:nth-of-type(1)").toHaveAttribute("href", "https://www.example.com/first");
@@ -119,10 +119,10 @@ test("reorder social medias", async () => {
     await contains("tr:nth-child(2) input[type=checkbox]").click();
     await contains("tr:nth-child(4) button.o_drag_handle").dragAndDrop("tr:nth-child(1)");
 
-    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(1) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(2) input[type=text]").toHaveValue("https://www.example.com/first");
-    expect("tr:nth-child(3) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(3) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(3) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(4) input[type=text]").toHaveValue("https://www.example.com");
 
@@ -134,9 +134,9 @@ test("reorder social medias", async () => {
     await contains("tr:nth-child(3) button.o_drag_handle").dragAndDrop("tr:nth-child(1)");
 
     expect("tr:nth-child(1) input[type=text]").toHaveValue("https://www.example.com/first");
-    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(2) input[type=checkbox]").toBeChecked();
-    expect("tr:nth-child(3) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(3) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(3) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(4) input[type=text]").toHaveValue("https://www.example.com");
 
@@ -147,9 +147,9 @@ test("reorder social medias", async () => {
     await contains(".o-snippets-top-actions button.fa-undo").click();
 
     // fb link not in the dom should stay just after x link
-    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://x.com/BetopiaERP");
+    expect("tr:nth-child(1) input[type=text]").toHaveValue("https://x.com/betopiaerp");
     expect("tr:nth-child(1) input[type=checkbox]").toBeChecked();
-    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://fb.com/BetopiaERP");
+    expect("tr:nth-child(2) input[type=text]").toHaveValue("https://fb.com/betopiaerp");
     expect("tr:nth-child(2) input[type=checkbox]").not.toBeChecked();
     expect("tr:nth-child(3) input[type=text]").toHaveValue("https://www.example.com/first");
     expect("tr:nth-child(4) input[type=text]").toHaveValue("https://www.example.com");
@@ -161,7 +161,7 @@ test("reorder social medias", async () => {
 
 test("save social medias", async () => {
     onRpc("website", "read", ({ args }) => [
-        { id: 1, social_facebook: "https://fb.com/BetopiaERP", social_twitter: "https://x.com/BetopiaERP" },
+        { id: 1, social_facebook: "https://fb.com/betopiaerp", social_twitter: "https://x.com/betopiaerp" },
     ]);
     await setupEmptySocialMedia();
 
@@ -173,7 +173,7 @@ test("save social medias", async () => {
     onRpc("website", "write", ({ args }) => {
         expect(args[0]).toEqual([1]);
         expect(args[1]).toInclude(["social_facebook", "https://facebook.com/BetopiaERP"]);
-        expect(args[1]).toInclude(["social_twitter", "https://x.com/BetopiaERP"]);
+        expect(args[1]).toInclude(["social_twitter", "https://x.com/betopiaerp"]);
         writeCalled = true;
         return true;
     });

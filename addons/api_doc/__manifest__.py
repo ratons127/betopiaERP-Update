@@ -26,7 +26,7 @@ the methods over HTTP, with examples in various programming languages.
             # Core
             'web/static/src/module_loader.js',
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
 
             # Utils
             'web/static/src/core/utils/functions.js',
@@ -59,6 +59,6 @@ the methods over HTTP, with examples in various programming languages.
         ],
     },
     'bootstrap': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

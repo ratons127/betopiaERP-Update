@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     fill,
@@ -9,9 +9,9 @@ import {
     select,
     waitFor,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
-import { markup } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
+import { markup } from "@betopiaerp/owl";
 import { contains, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor } from "../_helpers/editor";
 import { cleanLinkArtifacts } from "../_helpers/format";
@@ -464,9 +464,9 @@ describe("Link creation", () => {
         });
         test("typing invalid URL + space should not convert to link", async () => {
             const { editor, el } = await setupEditor("<p>[]</p>");
-            await insertText(editor, "www.BetopiaERP");
+            await insertText(editor, "www.betopiaerp");
             await insertText(editor, " ");
-            expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.BetopiaERP []</p>");
+            expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.betopiaerp []</p>");
         });
     });
     describe("Creation by powerbox", () => {
@@ -1103,7 +1103,7 @@ describe("shortcut", () => {
     test.tags("desktop");
     test("create a link with shortcut", async () => {
         const { el } = await setupEditor(`<p>[]<br></p>`);
-        // open BetopiaERP command bar
+        // open betopiaerp command bar
         await press(["ctrl", "k"]);
         await waitFor('.o_command span[title="Create link"]');
         // open link tool
@@ -1117,7 +1117,7 @@ describe("shortcut", () => {
     test.tags("desktop");
     test("should be able to create link with ctrl+k and ctrl+k", async () => {
         const { el } = await setupEditor(`<p>[]<br></p>`);
-        // Open BetopiaERP global command bar
+        // Open betopiaerp global command bar
         await press(["ctrl", "k"]);
         await waitFor('.o_command span[title="Create link"]');
         // Choose the "create link" command to create a link in the editor
@@ -1183,7 +1183,7 @@ describe("link preview", () => {
             description: markup("Test description"),
             link_preview_name: "Task name | Project name",
         }));
-        onRpc("/BetopiaERP/project/1/tasks/8", () => "");
+        onRpc("/betopiaerp/project/1/tasks/8", () => "");
         const { editor, el } = await setupEditor(`<p>[]<br></p>`, {
             config: {
                 allowStripDomain: false,
@@ -1193,7 +1193,7 @@ describe("link preview", () => {
         await animationFrame();
         await click(".o-we-command-name:first");
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(
-            window.location.origin + "/BetopiaERP/project/1/tasks/8"
+            window.location.origin + "/betopiaerp/project/1/tasks/8"
         );
         await animationFrame();
         expect(".o_we_replace_title_btn").toHaveCount(1);
@@ -1214,13 +1214,13 @@ describe("link preview", () => {
             og_title: "Open Source ERP and CRM | BetopiaERP",
             og_type: "website",
             og_site_name: "BetopiaERP",
-            source_url: "http://BetopiaERP.com/",
+            source_url: "http://betopiaerp.com/",
         }));
         const { editor } = await setupEditor(`<p>[]<br></p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
-        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://BetopiaERP.com/");
+        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://betopiaerp.com/");
         await animationFrame();
         expect(".o_we_replace_title_btn").toHaveCount(1);
         expect(".o_extra_info_card").toHaveCount(1);
@@ -1237,13 +1237,13 @@ describe("link preview", () => {
                 link_preview_name: "Task name | Project name",
             };
         });
-        onRpc("/BetopiaERP/cachetest/8", () => "");
+        onRpc("/betopiaerp/cachetest/8", () => "");
         const { editor } = await setupEditor(`<p>abc[]</p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(
-            window.location.origin + "/BetopiaERP/cachetest/8"
+            window.location.origin + "/betopiaerp/cachetest/8"
         );
         await animationFrame();
         expect.verifySteps(["/html_editor/link_preview_internal"]);
@@ -1278,7 +1278,7 @@ describe("link preview", () => {
         });
 
         const currentProtocol = window.location.protocol;
-        onRpc("/BetopiaERP/cachetest/8", (request) => {
+        onRpc("/betopiaerp/cachetest/8", (request) => {
             const urlProtocol = new URL(request.url).protocol;
             expect(urlProtocol).toBe(currentProtocol);
             return "";
@@ -1294,7 +1294,7 @@ describe("link preview", () => {
         await click(".o-we-command-name:first");
 
         const wrongProtocol = currentProtocol === "https:" ? "http:" : "https:";
-        const testUrl = `${wrongProtocol}//${window.location.host}/BetopiaERP/cachetest/8`;
+        const testUrl = `${wrongProtocol}//${window.location.host}/betopiaerp/cachetest/8`;
 
         await contains(".o-we-linkpopover input.o_we_href_input_link").fill(testUrl);
         await animationFrame();
@@ -1332,14 +1332,14 @@ describe("link preview", () => {
                 og_title: title,
                 og_type: "website",
                 og_site_name: "BetopiaERP",
-                source_url: "http://BetopiaERP.com/",
+                source_url: "http://betopiaerp.com/",
             };
         });
         const { editor } = await setupEditor(`<p>[]<br></p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
-        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://BetopiaERP.com/");
+        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://betopiaerp.com/");
         await animationFrame();
         expect.verifySteps(["/html_editor/link_preview_external"]);
         await waitFor(".o_we_description_link_preview");
@@ -1369,13 +1369,13 @@ describe("link preview", () => {
             og_title: "Open Source ERP and CRM | BetopiaERP",
             og_type: "website",
             og_site_name: "BetopiaERP",
-            source_url: "http://BetopiaERP.com/",
+            source_url: "http://betopiaerp.com/",
         }));
         const { editor } = await setupEditor(`<p>abc</p><p>[]<br></p>`);
         await insertText(editor, "/link");
         await animationFrame();
         await click(".o-we-command-name:first");
-        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://BetopiaERP.com/");
+        await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://betopiaerp.com/");
         await animationFrame();
         expect("button.o_we_replace_title_btn").toHaveCount(1);
         expect("a.o_we_replace_title_btn").toHaveCount(0);
@@ -1935,12 +1935,12 @@ describe("label is a valid URL", () => {
         expect(cleanLinkArtifacts(getContent(el))).toBe('<p><a href="tel:123">tel:123[]</a></p>');
     });
     test("popover should display href URL even if label is a valid URL and differs from href", async () => {
-        await setupEditor('<p><a href="https://BetopiaERP.com/">googl[]e.com</a></p>');
+        await setupEditor('<p><a href="https://betopiaerp.com/">googl[]e.com</a></p>');
         await waitFor(".o-we-linkpopover", { timeout: 1500 });
-        expect(queryFirst(".o-we-linkpopover a").href).toBe("https://BetopiaERP.com/");
+        expect(queryFirst(".o-we-linkpopover a").href).toBe("https://betopiaerp.com/");
         await click(".o_we_edit_link");
         await waitFor(".o_we_href_input_link");
-        expect("input.o_we_href_input_link").toHaveValue("https://BetopiaERP.com/");
+        expect("input.o_we_href_input_link").toHaveValue("https://betopiaerp.com/");
     });
     test("Focus should be on URL [label] when editing an existing link", async () => {
         await setupEditor('<p>this is a <a href="http://test.com/">li[]nk</a></p>');

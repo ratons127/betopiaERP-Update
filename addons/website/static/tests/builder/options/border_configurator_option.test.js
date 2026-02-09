@@ -1,7 +1,7 @@
 import { BorderConfigurator } from "@html_builder/plugins/border_configurator_option";
-import { expect, test } from "@BetopiaERP/hoot";
-import { waitFor, waitForNone, click, queryOne } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { waitFor, waitForNone, click, queryOne } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     addOption,

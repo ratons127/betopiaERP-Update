@@ -20,6 +20,6 @@ This module add completed course events to resume for employees.
     ],
     'auto_install': True,
     'assets': {},
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

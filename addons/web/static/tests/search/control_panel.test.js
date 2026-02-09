@@ -1,7 +1,7 @@
-import { expect, test, getFixture } from "@BetopiaERP/hoot";
-import { click, press, keyDown, keyUp, queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { reactive } from "@BetopiaERP/owl";
+import { expect, test, getFixture } from "@betopiaerp/hoot";
+import { click, press, keyDown, keyUp, queryAll, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { reactive } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

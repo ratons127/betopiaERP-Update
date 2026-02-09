@@ -8,9 +8,9 @@ import {
     mountWithCleanup,
     onRpc,
 } from "@web/../tests/web_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, queryAll, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { markup } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, queryAll, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { markup } from "@betopiaerp/owl";
 
 const userMenuRegistry = registry.category("user_menuitems");
 

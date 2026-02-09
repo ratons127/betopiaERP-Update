@@ -7,9 +7,9 @@
 # Martin Trigaux, 2022
 # Dylan Kiss, 2022
 # Jolien De Paepe, 2023
-# Erwin van der Ploeg <erwin@BetopiaERPexperts.nl>, 2023, 2025, 2026.
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# Bren Driesen <brdri@BetopiaERP.com>, 2025, 2026.
+# Erwin van der Ploeg <erwin@betopiaerpexperts.nl>, 2023, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# Bren Driesen <brdri@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-02-06 13:05+0000\n"
-"Last-Translator: Bren Driesen <brdri@BetopiaERP.com>\n"
-"Language-Team: Dutch <https://translate.BetopiaERP.com/projects/BetopiaERP-19/crm/nl/>\n"
+"Last-Translator: Bren Driesen <brdri@betopiaerp.com>\n"
+"Language-Team: Dutch <https://translate.betopiaerp.com/projects/betopiaerp-19/crm/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,62 +42,62 @@ msgid "# Unassigned Leads"
 msgstr "# Niet toegewezen leads"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated among %(team_count)s teams."
 msgstr "%(assigned)s leads toegewezen aan %(team_count)s teams."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated to %(team_name)s team."
 msgstr "%(assigned)s leads toegewezen aan %(team_name)s team."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%(attach_name)s (from %(lead_name)s)"
 msgstr "%(attach_name)s (van %(lead_name)s)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(duplicates)s duplicates leads have been merged."
 msgstr "%(duplicates)s dubbele leads zijn samengevoegd."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr "%(members_assigned)s leads toegewezen aan %(member_count)s verkopers."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
 msgstr "%s's verkoopkans"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_users.py:0
 msgid "(Team Leader)"
 msgstr "(Teamleider)"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "(sample data)"
 msgstr "(voorbeeldgegevens)"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Create your first opportunity.</b>"
 msgstr "<b>Maak je eerste verkoopkans.</b>"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your "
@@ -107,7 +107,7 @@ msgstr ""
 "verkoopproces."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
 msgstr ""
@@ -436,7 +436,7 @@ msgstr ""
 "alle kansen te zien die geen vervolgactiviteit hebben."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A lead in a Won stage cannot be lost. Move it to another stage first."
 msgstr ""
@@ -444,32 +444,32 @@ msgstr ""
 "naar een andere fase."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created and is not assigned to any team."
 msgstr "Een nieuwe lead is aangemaakt en is niet aan een team toegewezen."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created for the team \"%(team_name)s\"."
 msgstr "Een nieuwe lead is aangemaakt voor het team \"%(team_name)s\"."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "AI"
 msgstr "AI"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning"
 msgstr "Door AI berekende winkansen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning for"
 msgstr "Door AI berekende winkansen voor"
@@ -674,7 +674,7 @@ msgid "Aliased Model"
 msgstr "Aliased model"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "All set. Let’s <b>Schedule</b> it."
 msgstr "Helemaal gereed. Laten we het <b>plannen</b> ."
@@ -702,7 +702,7 @@ msgid "Archived"
 msgstr "Gearchiveerd"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the "
@@ -716,7 +716,7 @@ msgstr ""
 "name=\"%d\" type=\"action\" tabindex=\"-1\">lid worden van een team.</a>"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the "
@@ -777,7 +777,7 @@ msgid "Assignment Rules"
 msgstr "Toewijzingsregels"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Assignment domain for team %(team)s is incorrectly formatted"
 msgstr "Toewijzingsdomein voor team %(team)s is onjuist opgemaakt"
@@ -824,7 +824,7 @@ msgid "Average Leads Capacity (on 30 days)"
 msgstr "Gemiddelde leadcapaciteit (op 30 dagen)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Belgium"
 msgstr "België"
@@ -840,7 +840,7 @@ msgid "Blacklisted Phone is Phone"
 msgstr "Telefoon op blacklist is een vaste lijn"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Boom! Team record for the past 30 days."
 msgstr "Boom! Team record voor de laatste 30 dagen."
@@ -908,7 +908,7 @@ msgid "Capacity"
 msgstr "Capaciteit"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_stage.py:0
 msgid ""
 "Changing the value of 'Is Won Stage' may induce a large number of "
@@ -967,7 +967,7 @@ msgstr ""
 "Service"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "Click on the breadcrumb to go back to your Pipeline. BetopiaERP will save all "
@@ -977,7 +977,7 @@ msgstr ""
 "wijzigingen op terwijl je navigeert."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Close opportunities to get insights."
 msgstr "Sluit kansen om inzichten te krijgen."
@@ -993,7 +993,7 @@ msgid "Closed Date"
 msgstr "Sluitingsdatum"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:0
 msgid "Closed/Dead leads cannot be converted into opportunities."
 msgstr "Gesloten leads kunnen niet worden geconverteerd naar verkoopkansen."
@@ -1057,7 +1057,7 @@ msgid "Completion Date"
 msgstr "Voltooiingsdatum"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Computed by BetopiaERP AI using your data."
 msgstr "Berekend door BetopiaERP AI met jouw gegevens."
@@ -1083,7 +1083,7 @@ msgid "Consider leads created as of the:"
 msgstr "Overweeg leads die zijn gemaakt vanaf de:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Consulting"
 msgstr "Consulting"
@@ -1268,7 +1268,7 @@ msgid "Create a new customer"
 msgstr "Maak een nieuwe klant"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -1276,14 +1276,14 @@ msgid "Create a new lead"
 msgstr "Maak een nieuwe lead"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 #: model:ir.model,website_form_label:crm.model_crm_lead
 msgid "Create an Opportunity"
 msgstr "Maak een verkoopkans aan"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Create an opportunity to start playing with your pipeline."
@@ -1408,7 +1408,7 @@ msgid "Days to rot"
 msgstr "Dagen tot verouderd"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Deadline: %s"
 msgstr "Deadline: %s"
@@ -1507,7 +1507,7 @@ msgid "Display Name"
 msgstr "Weergavenaam"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
@@ -1515,19 +1515,19 @@ msgstr ""
 "samenvattingsmail"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_stage.py:0
 msgid "Do you really want to update this stage?"
 msgstr "Wil je deze fase echt bijwerken?"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have a"
 msgstr "Heeft geen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have an"
 msgstr "Heeft geen"
@@ -1543,14 +1543,14 @@ msgid "Don't link to a company"
 msgstr "Koppel niet aan een bedrijf"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
 msgstr ""
 "Sleep je verkoopkans naar <b>Gewonnen</b> als je de deal wint. Gefeliciteerd!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Duration: %s"
 msgstr "Duur: %s"
@@ -1601,8 +1601,8 @@ msgstr "E-mail cc:"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "E-maildomein bijv. 'example.com' in 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "E-maildomein bijv. 'example.com' in 'betopiaerp@example.com'"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -1692,7 +1692,7 @@ msgid "Expected Revenues"
 msgstr "Verwachte omzet"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Exploration"
 msgstr "Ontdekken"
@@ -1708,7 +1708,7 @@ msgid "Extra fields..."
 msgstr "Extra velden..."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__field_id
 msgid "Field"
@@ -1786,13 +1786,13 @@ msgid "Forecast Analysis"
 msgstr "Voorspellingsanalyse"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s"
 msgstr "Van %(source_name)s"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s: %(source_subject)s"
 msgstr "Van %(source_name)s: %(source_subject)s"
@@ -1827,7 +1827,7 @@ msgstr ""
 "Geef je team de vereisten om een verkoopkans te verplaatsen naar deze fase."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Go, go, go! Congrats for your first deal."
 msgstr "Ga, ga ga! Gefeliciteerd met je eerste deal."
@@ -1838,7 +1838,7 @@ msgid "Has Message"
 msgstr "Heeft bericht"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Has a"
 msgstr "Heeft een"
@@ -1861,7 +1861,7 @@ msgstr ""
 "zijn bijgewerkt vóór deze wijziging."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Historic win rate"
 msgstr "Historisch winstpercentage"
@@ -1971,7 +1971,7 @@ msgid "Import & Synchronize"
 msgstr "Importeer en synchroniseer"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Import Template for Leads & Opportunities"
 msgstr "Import sjabloon voor leads & verkoopkansen"
@@ -2006,7 +2006,7 @@ msgstr ""
 "uur)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid ""
 "Invalid repeat frequency. Consider changing frequency type instead of using "
@@ -2076,7 +2076,7 @@ msgid "Language"
 msgstr "Taal"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Language is"
 msgstr "Taal is"
@@ -2097,7 +2097,7 @@ msgid "Last Automation:"
 msgstr "Laatste automatisering:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Last Meeting"
 msgstr "Laatste afspraak"
@@ -2175,7 +2175,7 @@ msgid "Lead Assignment Filter"
 msgstr "Filter voor leadtoewijzing"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Lead Assignment requested by %(user_name)s"
 msgstr "Leadtoewijzing aangevraagd door %(user_name)s"
@@ -2242,13 +2242,13 @@ msgid "Lead Tags"
 msgstr "Lead labels"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Lead or Opportunity"
 msgstr "Lead of verkoopkans"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "Lead/Opportunities automatic assignment is limited to managers or "
@@ -2263,7 +2263,7 @@ msgid "Lead/Opportunity created"
 msgstr "Lead/verkoopkans aangemaakt"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lost_reason.py:0
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_lead
 #: model:ir.actions.act_window,name:crm.crm_lead_all_leads
@@ -2312,7 +2312,7 @@ msgstr ""
 "goede analyse te maken."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Leads Assigned"
 msgstr "Toegewezen leads"
@@ -2372,13 +2372,13 @@ msgid "Leads/Opportunities count"
 msgstr "Leads / verkoopkansen aantal"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Learn More"
 msgstr "Meer informatie"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let's <b>Schedule an Activity.</b>"
 msgstr "Laten we<b>een afspraak inplannen</b>"
@@ -2390,7 +2390,7 @@ msgid "Let's get to work!"
 msgstr "Aan de slag!"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let’s have a look at an Opportunity."
 msgstr "Laten we naar een verkoopkans kijken."
@@ -2422,7 +2422,7 @@ msgid "Locale Code"
 msgstr "Code landinstellingen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Located in"
 msgstr "Gevestigd in"
@@ -2433,7 +2433,7 @@ msgid "Looks like nothing is planned."
 msgstr "Het lijkt erop dat er niets gepland is."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep "
@@ -2455,7 +2455,7 @@ msgid "Lost"
 msgstr "Verloren"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/wizard/crm_lead_lost.py:0
 msgid "Lost Comment"
 msgstr "Opmerking verliesreden"
@@ -2496,7 +2496,7 @@ msgid "Low"
 msgstr "Laag"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_kanban/crm_column_progress.xml:0
 msgid "MRR"
 msgstr "MRR"
@@ -2598,7 +2598,7 @@ msgid "Meeting Display Label"
 msgstr "Weergavelabel vergadering"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Meeting scheduled at %s"
 msgstr "Vergadering gepland om %s"
@@ -2610,7 +2610,7 @@ msgid "Meetings"
 msgstr "Afspraken"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team_member.py:0
 msgid ""
 "Member assignment domain for user %(user)s and team %(team)s is incorrectly "
@@ -2620,7 +2620,7 @@ msgstr ""
 "opgemaakt"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team_member.py:0
 msgid ""
 "Member preferred assignment domain for user %(user)s and team %(team)s is "
@@ -2724,7 +2724,7 @@ msgid "My Pipeline"
 msgstr "Mijn pijplijn"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0 model:crm.stage,name:crm.stage_lead1
 msgid "New"
 msgstr "Nieuw"
@@ -2765,7 +2765,7 @@ msgid "Next Activity Type"
 msgstr "Volgende activiteit type"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Next Meeting"
 msgstr "Volgende afspraak"
@@ -2776,25 +2776,25 @@ msgid "Next Run"
 msgstr "Volgende ronde"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No"
 msgstr "Nee"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Meeting"
 msgstr "Geen afspraak"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Subject"
 msgstr "Geen onderwerp"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to %(team_name)s team and its salespersons because no "
@@ -2804,7 +2804,7 @@ msgstr ""
 "niet-toegewezen lead overeenkomt met zijn domein."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to %(team_name)s team because it has no capacity. Add "
@@ -2814,7 +2814,7 @@ msgstr ""
 "heeft. Voeg capaciteit toe aan zijn verkopers."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to any team or salesperson. Check your Sales Teams and "
@@ -2835,7 +2835,7 @@ msgid "No data found!"
 msgstr "Geen data gevonden!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No detours, no delays - from %(stage_name)s straight to the win! 🚀"
 msgstr ""
@@ -2843,7 +2843,7 @@ msgstr ""
 "overwinning! 🚀"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No lead assigned to salespersons because no unassigned lead matches their "
@@ -2853,7 +2853,7 @@ msgstr ""
 "overeenkomt met hun domein."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No new lead allocated to %(team_name)s team because no unassigned lead "
@@ -2863,7 +2863,7 @@ msgstr ""
 "toegewezen lead overeenkomt met zijn domein."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
@@ -2907,7 +2907,7 @@ msgid "Notes:"
 msgstr "Opmerkingen:"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Now, <b>add your Opportunity</b> to your Pipeline."
 msgstr "<b>Voeg je verkoopkans toe</b> aan je pijplijn."
@@ -3000,7 +3000,7 @@ msgid "Opp. Lost Reason"
 msgstr "Verkoopkans verliesreden"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_partner.py:0
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_opportunity
 #: model:ir.actions.act_window,name:crm.crm_lead_opportunities
@@ -3204,7 +3204,7 @@ msgid "Pending"
 msgstr "In behandeling"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Phew, that took some effort — but you nailed it. Good job!"
 msgstr "Oef, dat kostte wat moeite - maar het is je gelukt. Goed gedaan!"
@@ -3235,7 +3235,7 @@ msgid "Phone:"
 msgstr "Telefoon:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 #: model:ir.actions.act_window,name:crm.crm_lead_action_pipeline
 #: model:ir.model.fields,field_description:crm.field_crm_team__use_opportunities
@@ -3389,7 +3389,7 @@ msgid "Ratings"
 msgstr "Beoordelingen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Ready to boost your sales? Let's have a look at your <b>Pipeline</b>."
 msgstr ""
@@ -3445,7 +3445,7 @@ msgid "Repeat every"
 msgstr "Herhaal elke"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid "Repeat frequency should be positive."
 msgstr "Herhaalfrequentie moet positief zijn."
@@ -3583,7 +3583,7 @@ msgid "Search Opportunities"
 msgstr "Zoek verkoopkansen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "See AI-computed chances details"
 msgstr "Bekijk details van door AI berekende kansen"
@@ -3594,7 +3594,7 @@ msgid "Select a Lost Reason..."
 msgstr "Selecteer een reden voor verlies..."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
 msgstr ""
@@ -3690,7 +3690,7 @@ msgid "Source"
 msgstr "Bron"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Source is"
 msgstr "Bron is"
@@ -3701,7 +3701,7 @@ msgid "Source:"
 msgstr "Bron:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__stage_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead__stage_id
@@ -3798,7 +3798,7 @@ msgid "Street2"
 msgstr "Straat2"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Subject: "
 msgstr "Onderwerp: "
@@ -3825,7 +3825,7 @@ msgid "Tag"
 msgstr "Label"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Tagged as"
 msgstr "Getagd als"
@@ -3873,7 +3873,7 @@ msgstr ""
 "automatisch nieuwe leads aanmaken, toegewezen aan het kanaal."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "The lead %s cannot be won and lost at the same time."
 msgstr "De lead %s kan niet tegelijk gewonnen en verloren zijn."
@@ -3893,7 +3893,7 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
 "De naam van de e-mailalias, bijvoorbeeld: 'vacature' als je alle e-mails van "
 "vacature@uwbedrijf.nl wilt afvangen"
@@ -4008,7 +4008,7 @@ msgstr ""
 "of e-mail lijst"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "This new lead created by %(creation_source)s was automatically assigned to "
@@ -4088,7 +4088,7 @@ msgid "Tip: Turn a selection of opportunities into a map"
 msgstr "Tip: zet een selectie van kansen om in een kaart"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "To prevent data loss, Leads and Opportunities can only be merged by groups "
@@ -4110,13 +4110,13 @@ msgid "Too expensive"
 msgstr "Te duur"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Negatives"
 msgstr "Top nadelen"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Positives"
 msgstr "Top voordelen"
@@ -4267,7 +4267,7 @@ msgid "Use the <i>New</i> button, or send an email to"
 msgstr "Gebruik de knop <i>Nieuw</i> of stuur een e-mail naar"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "Use the <i>New</i> button, or send an email to %(email_link)s to test the "
@@ -4406,19 +4406,19 @@ msgid "Won/Lost"
 msgstr "Gewonnen/Verloren"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Wow, that was fast. That deal didn’t stand a chance!"
 msgstr "Wauw, dat ging snel! Die deal was een schot in de roos!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yay, your first win from %(utm_source_name)s!"
 msgstr "Joepie, je eerste overwinning van %(utm_source_name)s!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yeah! Best deal out of the last 7 days for the team."
 msgstr "Super! De beste deal van de afgelopen 7 dagen voor het team."
@@ -4429,38 +4429,38 @@ msgid "Yearly"
 msgstr "Jaarlijks"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yes"
 msgstr "Ja"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "You can make your opportunity advance through your pipeline from here."
 msgstr "Van hieruit kun je je lead door je pijplijn laten gaan."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You don't have the access needed to run this cron."
 msgstr ""
 "Je hebt niet de toegang die nodig is om deze geplande actie uit te voeren."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 30 days."
 msgstr "Je hebt net je persoonlijke record van de laatste 30 dagen gebroken."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 7 days."
 msgstr "Je hebt zonet je persoonlijk record verbroken voor de laatste 7 dagen."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just expanded the map! First win in %(country)s."
 msgstr ""
@@ -4480,13 +4480,13 @@ msgstr ""
 "en nog veel meer."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on a winning streak. 3 deals in 3 days, congrats!"
 msgstr "Je zit echt in een goede flow! 3 deals in 3 dagen, gefeliciteerd!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on fire! Fifth deal won today 🔥"
 msgstr "Je bent onstuitbaar! Al 5 deals gewonnen vandaag 🔥"
@@ -4538,7 +4538,7 @@ msgid "e.g. mycompany.com"
 msgstr "bijv. mycompany.com"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "email address"
 msgstr "e-mailadres"
@@ -4554,49 +4554,49 @@ msgid "generate opportunities in your pipeline?<br>"
 msgstr "verkoopkanse in je pijplijn genereren?<br>"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "has value"
 msgstr "heeft waarde"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "incoming email"
 msgstr "inkomende e-mail"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lost_reason.py:0
 msgid "lost_reason_id"
 msgstr "lost_reason_id"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/forecast_kanban/forecast_kanban_column_quick_create.js:0
 msgid "next %s"
 msgstr "volgende %s"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "phone number"
 msgstr "telefoonnummer"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "sample data"
 msgstr "voorbeeldgegevens"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "stage"
 msgstr "fase"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "team"
 msgstr "team"
@@ -4607,7 +4607,7 @@ msgid "team_count"
 msgstr "team_count"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "this lead"
 msgstr "deze lead"
@@ -4625,25 +4625,25 @@ msgstr ""
 "verkoopteam."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "type"
 msgstr "type"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "unknown"
 msgstr "onbekend"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid email address"
 msgstr "geldig e-mailadres"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid phone number"
 msgstr "geldig telefoonnummer"

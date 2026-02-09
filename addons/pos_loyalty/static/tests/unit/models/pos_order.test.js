@@ -1,5 +1,5 @@
-import { test, describe, expect } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { test, describe, expect } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-mock";
 import { setupPosEnv, getFilledOrder } from "@point_of_sale/../tests/unit/utils";
 import { definePosModels } from "@point_of_sale/../tests/unit/data/generate_model_definitions";
 import { addProductLineToOrder } from "@pos_loyalty/../tests/unit/utils";

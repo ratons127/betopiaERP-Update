@@ -18,6 +18,6 @@ social media configuration for any other module that might need it.
     'demo': [
         'demo/res_company_demo.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

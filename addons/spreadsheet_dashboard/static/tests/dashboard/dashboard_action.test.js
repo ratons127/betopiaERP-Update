@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll, press, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll, press, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { getBasicData, Product } from "@spreadsheet/../tests/helpers/data";
 import { createSpreadsheetDashboard } from "@spreadsheet_dashboard/../tests/helpers/dashboard_action";
 import {

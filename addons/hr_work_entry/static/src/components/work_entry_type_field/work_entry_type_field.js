@@ -1,6 +1,6 @@
 import { registry } from "@web/core/registry";
 import { buildM2OFieldDescription, Many2OneField } from "@web/views/fields/many2one/many2one_field";
-import { Component, onWillRender, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { Component, onWillRender, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { Many2One } from "@web/views/fields/many2one/many2one";
 
 export class WorkEntryType extends Component {

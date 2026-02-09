@@ -1,5 +1,5 @@
-import { test, expect } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { test, expect } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { getFilledOrder, setupPosEnv } from "@point_of_sale/../tests/unit/utils";
 import { definePosModels } from "@point_of_sale/../tests/unit/data/generate_model_definitions";

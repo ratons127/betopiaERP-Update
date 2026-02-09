@@ -16,6 +16,6 @@ This bridge module allows to manage subcontracting with the dropshipping module.
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

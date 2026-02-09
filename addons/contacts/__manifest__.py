@@ -19,7 +19,7 @@ You can track your vendors, customers and other contacts.
         'data/mail_demo.xml',
     ],
     'application': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'web.assets_tests': [

@@ -7,7 +7,7 @@ import {
     AddPivotCommand,
     UpdatePivotCommand,
     CancelledReason,
-} from "@BetopiaERP/o-spreadsheet";
+} from "@betopiaerp/o-spreadsheet";
 import * as BetopiaERPCancelledReason from "@spreadsheet/o_spreadsheet/cancelled_reason";
 
 type CoreDispatch = CorePlugin["dispatch"];
@@ -87,7 +87,7 @@ declare module "@spreadsheet" {
 
     // this command is deprecated. use UPDATE_PIVOT instead
     export interface UpdatePivotDomainCommand {
-        type: "UPDATE_BetopiaERP_PIVOT_DOMAIN";
+        type: "UPDATE_BETOPIAERP_PIVOT_DOMAIN";
         pivotId: string;
         domain: Array;
     }

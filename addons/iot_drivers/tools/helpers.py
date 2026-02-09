@@ -50,7 +50,7 @@ class Orientation(Enum):
 
 class IoTRestart(Thread):
     """
-    Thread to restart BetopiaERP server in IoT Box when we must return a answer before
+    Thread to restart betopiaerp server in IoT Box when we must return a answer before
     """
     def __init__(self, delay):
         super().__init__(daemon=True)
@@ -95,7 +95,7 @@ def require_db(function):
     @wraps(function)
     def wrapper(*args, **kwargs):
         fname = f"<function {function.__module__}.{function.__qualname__}>"
-        server_url = get_BetopiaERP_server_url()
+        server_url = get_betopiaerp_server_url()
         iot_box_ip = get_ip()
         if not iot_box_ip or iot_box_ip == "10.11.12.1" or not server_url:
             _logger.info('Ignoring the function %s without a connected database', fname)
@@ -170,7 +170,7 @@ def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
         'enterprise_code': enterprise_code,
         'db_name': db_name,
     })
-    get_BetopiaERP_server_url.cache_clear()
+    get_betopiaerp_server_url.cache_clear()
 
 
 def generate_password():
@@ -243,7 +243,7 @@ def get_path_nginx():
 
 
 @cache
-def get_BetopiaERP_server_url():
+def get_betopiaerp_server_url():
     """Get the URL of the linked BetopiaERP database.
 
     :return: The URL of the linked BetopiaERP database.
@@ -259,7 +259,7 @@ def get_token():
 
 def get_commit_hash():
     return subprocess.run(
-        ['git', '--work-tree=/home/pi/BetopiaERP/', '--git-dir=/home/pi/BetopiaERP/.git', 'rev-parse', '--short', 'HEAD'],
+        ['git', '--work-tree=/home/pi/betopiaerp/', '--git-dir=/home/pi/betopiaerp/.git', 'rev-parse', '--short', 'HEAD'],
         stdout=subprocess.PIPE,
         check=True,
     ).stdout.decode('ascii').strip()
@@ -268,7 +268,7 @@ def get_commit_hash():
 @cache
 def get_version(detailed_version=False):
     if IS_RPI:
-        image_version = read_file_first_line('/var/BetopiaERP/iotbox_version')
+        image_version = read_file_first_line('/var/betopiaerp/iotbox_version')
     elif IS_WINDOWS:
         # updated manually when big changes are made to the windows virtual IoT
         image_version = '23.11'
@@ -292,7 +292,7 @@ def delete_iot_handlers():
     try:
         iot_handlers = Path(file_path('iot_drivers/iot_handlers'))
         filenames = [
-            f"BetopiaERP/addons/iot_drivers/iot_handlers/{file.relative_to(iot_handlers)}"
+            f"betopiaerp/addons/iot_drivers/iot_handlers/{file.relative_to(iot_handlers)}"
             for file in iot_handlers.glob('**/*')
             if file.is_file()
         ]
@@ -342,7 +342,7 @@ def download_iot_handlers(auto=True, server_url=None):
         return
 
     delete_iot_handlers()
-    path = path_file('BetopiaERP', 'addons', 'iot_drivers', 'iot_handlers')
+    path = path_file('betopiaerp', 'addons', 'iot_drivers', 'iot_handlers')
     zip_file.extractall(path)
 
 
@@ -353,8 +353,8 @@ def compute_iot_handlers_addon_name(handler_kind, handler_file_name):
 
 def load_iot_handlers():
     """
-    This method loads local files: 'BetopiaERP/addons/iot_drivers/iot_handlers/drivers' and
-    'BetopiaERP/addons/iot_drivers/iot_handlers/interfaces'
+    This method loads local files: 'betopiaerp/addons/iot_drivers/iot_handlers/drivers' and
+    'betopiaerp/addons/iot_drivers/iot_handlers/interfaces'
     And execute these python drivers and interfaces
     """
     for directory in ['interfaces', 'drivers']:
@@ -387,7 +387,7 @@ def get_handlers_files_to_load(handler_path):
     return []
 
 
-def BetopiaERP_restart(delay=0):
+def betopiaerp_restart(delay=0):
     """
     Restart BetopiaERP service
     :param delay: Delay in seconds before restarting the service (Default: 0)
@@ -511,7 +511,7 @@ def disconnect_from_server():
         'iot_handlers_etag': '',
         'last_websocket_message_id': '',
     })
-    BetopiaERP_restart()
+    betopiaerp_restart()
 
 
 def save_browser_state(url=None, orientation=None):
@@ -609,8 +609,8 @@ def _get_raspberry_pi_model():
 
 
 raspberry_pi_model = _get_raspberry_pi_model()
-BetopiaERP_start_time = time.monotonic()
-system_start_time = BetopiaERP_start_time - _get_system_uptime()
+betopiaerp_start_time = time.monotonic()
+system_start_time = betopiaerp_start_time - _get_system_uptime()
 
 
 def is_ngrok_enabled():
@@ -640,7 +640,7 @@ def toggle_remote_connection(token=""):
     )
     if p.returncode == 0:
         subprocess.run(
-            ['sudo', 'systemctl', 'restart' if token else "stop", 'BetopiaERP-ngrok.service'],
+            ['sudo', 'systemctl', 'restart' if token else "stop", 'betopiaerp-ngrok.service'],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             check=False,

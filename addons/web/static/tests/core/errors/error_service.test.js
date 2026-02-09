@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent } from "@BetopiaERP/hoot-dom";
-import { Deferred, advanceTime, animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, OwlError, onError, onWillStart, xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent } from "@betopiaerp/hoot-dom";
+import { Deferred, advanceTime, animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, OwlError, onError, onWillStart, xml } from "@betopiaerp/owl";
 import {
     makeMockEnv,
     mockService,

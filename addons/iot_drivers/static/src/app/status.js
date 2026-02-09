@@ -33,7 +33,7 @@ class StatusPage extends Component {
     static template = xml`
     <t t-translation="off">
         <div class="text-center pt-5">
-            <img class="BetopiaERP-logo" src="/web/static/img/logo2.png" alt="BetopiaERP logo"/>
+            <img class="betopiaerp-logo" src="/web/static/img/logo2.png" alt="BetopiaERP logo"/>
         </div>
         <div t-if="state.loading || state.data.new_database_url" class="position-fixed top-0 start-0 vh-100 w-100 justify-content-center align-items-center d-flex flex-column gap-5">
             <div class="spinner-border">

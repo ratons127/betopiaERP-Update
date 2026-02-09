@@ -7,16 +7,16 @@
 # Jongkwan, Yeom <jongkwanyeom@gmail.com>, 2022
 # JH CHOI <hwangtog@gmail.com>, 2022
 # Sarah Park, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-09 04:31+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/event/ko/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/event/ko/"
 ">\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -39,61 +39,61 @@ msgid "# Sent"
 msgstr "# 전송 완료"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (%(count)s seats remaining)"
 msgstr "%(event_name)s (%(count)s 잔여 좌석 수)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (Sold out)"
 msgstr "%(event_name)s (매진)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
 msgstr "%(event_name)s - 등록 #%(registration_id)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
 msgstr "%(event_name)s - 등록자 %(attendee_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (%(count)s seats remaining)"
 msgstr "%(slot_name)s (%(count)s 좌석 남음)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (Sold out)"
 msgstr "%(slot_name)s (품절)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(slot_name)s: missing %(count)s seat(s)"
 msgstr "%(slot_name)s: %(count)s 좌석 누락"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (%(count)s seats remaining)"
 msgstr "%(ticket_name)s (%(count)s 잔여 좌석 수)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (Sold out)"
 msgstr "%(ticket_name)s (매진)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%s (copy)"
 msgstr "%s (사본)"
@@ -2767,7 +2767,7 @@ msgid ""
 msgstr "고객에게 전달하려는 티켓에 대한 내용입니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot cannot be scheduled outside of its event time range.\n"
@@ -2781,7 +2781,7 @@ msgstr ""
 "슬롯:\t\t%(slot_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot end hour must be later than its start hour.\n"
@@ -2789,7 +2789,7 @@ msgid ""
 msgstr "슬롯 종료 시간은 시작 시간 이후여야 합니다.%s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "A slot hour must be between 0:00 and 23:59."
 msgstr "슬롯 시간대는 반드시 0:00~23:59 사이여야 합니다."
@@ -2988,7 +2988,7 @@ msgid "Answer Breakdown"
 msgstr "답변 세부 분류"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_question__answer_ids
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_form
@@ -3067,7 +3067,7 @@ msgid "Attended Date"
 msgstr "참석 날짜"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Attended on %(attended_date)s"
 msgstr "참석일 %(attended_date)s"
@@ -3156,7 +3156,7 @@ msgid "Badge Example"
 msgstr "배지 샘플"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Badges"
 msgstr "배지"
@@ -3272,7 +3272,7 @@ msgid "Cancelled"
 msgstr "취소됨"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Cancelled registration"
 msgstr "등록 취소됨"
@@ -3342,7 +3342,7 @@ msgid "Communication"
 msgstr "커뮤니케이션"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "Communication for %(event_name)s scheduled on %(scheduled_date)s failed."
@@ -3356,7 +3356,7 @@ msgid "Communication related to event registrations"
 msgstr "행사 등록 관련 커뮤니케이션"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
@@ -3373,7 +3373,7 @@ msgid "Company Name"
 msgstr "회사명"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Compose Email"
 msgstr "이메일 작성"
@@ -3405,7 +3405,7 @@ msgid "Configuration"
 msgstr "설정"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
 msgstr "참석을 확인하시겠습니까?"
@@ -3416,7 +3416,7 @@ msgid "Contact"
 msgstr "연락처"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Continue"
 msgstr "계속"
@@ -3622,7 +3622,7 @@ msgstr ""
 "니다. 여러분은 그것을 사용함으로써 얻을 수 있는 모든 이점을 알게 될 거예요."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Edit"
 msgstr "편집"
@@ -3685,7 +3685,7 @@ msgid "Error"
 msgstr "오류"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model,name:event.model_event_event
 #: model:ir.model.fields,field_description:event.field_event_event__name
@@ -3746,7 +3746,7 @@ msgid "Event Mail Schedulers"
 msgstr "행사  메일 계획표"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
 msgstr "이벤트 메일 템플릿 참조"
@@ -3797,7 +3797,7 @@ msgid "Event Registration Answer"
 msgstr "행사 등록 답변"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Event Registrations"
 msgstr "행사 등록"
@@ -4062,10 +4062,10 @@ msgstr "멋진 아이콘 폰트 예: fa-tasks"
 msgid ""
 "For any additional information, please contact us at <a "
 "class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>"
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>"
 msgstr ""
 "추가적인 문의 사항은 <a class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>으로 연락주세요."
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>으로 연락주세요."
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -4214,7 +4214,7 @@ msgid "Great! Now all you have to do is wait for your attendees to show up!"
 msgstr "잘 하셨습니다! 이제 참석자가 오는 것을 기다리기만 하면 됩니다!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
 msgstr "게스트 #"
@@ -4248,7 +4248,7 @@ msgid "Hockey Tournament"
 msgstr "하키 시합"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Home"
 msgstr "홈"
@@ -4314,7 +4314,7 @@ msgid "Icon"
 msgstr "아이콘"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
 msgstr "아이콘 선택"
@@ -4409,7 +4409,7 @@ msgid "Insert dynamic Google Maps in your email templates"
 msgstr "이메일 서식에 동적 Google 지도 삽입"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Install"
 msgstr "설치하기"
@@ -4426,19 +4426,19 @@ msgid "Introduction, CRM, Sales Management"
 msgstr "CRM, 영업 관리 소개"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / slot choice"
 msgstr "잘못된 행사 / 슬롯 선택"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
 msgstr "선택한 행사 / 티켓이 유효하지 않습니다."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Invalid ticket"
 msgstr "유효하지 않은 티켓"
@@ -4490,7 +4490,7 @@ msgid "Is Reusable"
 msgstr "재사용 가능"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "It failed with error %(error)s."
 msgstr "오류 %(error)s로 인해 실패했습니다."
@@ -4610,7 +4610,7 @@ msgid "Late Activities"
 msgstr "지연된 활동"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Let's create your first <b>event</b>."
 msgstr "첫 번째 <b>행사</b>를 생성합니다."
@@ -4838,7 +4838,7 @@ msgid "New"
 msgstr "신규"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/views/event_slot_calendar/event_slot_calendar_controller.js:0
 msgid "New Slot"
 msgstr "신규 슬롯"
@@ -4929,7 +4929,7 @@ msgid "Nothing Scheduled yet!"
 msgstr "아직 일정이 없습니다!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Now that your event is ready, click here to move it to another stage."
 msgstr ""
@@ -5041,7 +5041,7 @@ msgid "Online if not set"
 msgstr "설정하지 않은 경우 온라인"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr "날짜 범위 선택창을 엽니다. <br/>행사 시작일을 선택하세요."
@@ -5103,19 +5103,19 @@ msgid ""
 msgstr "행사 시작 전 <b>최소</b> 30분 전까지는 입장하시기를 바랍니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
 msgstr "유효한 base64 비밀번호를 입력하세요."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Please enter a valid event URL."
 msgstr "유효한 행사 URL을 입력하세요."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Please, Scan again!"
 msgstr "다시 스캔하세요!"
@@ -5126,7 +5126,7 @@ msgid "Point of Sale (POS), Introduction to report customization."
 msgstr "POS(Point of Sale), 보고서 사용자 정의 소개."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Print"
 msgstr "인쇄"
@@ -5201,7 +5201,7 @@ msgid "Ready for Next Stage"
 msgstr "다음 단계 대기"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 msgstr ""
@@ -5216,7 +5216,7 @@ msgid "Registered"
 msgstr "등록함"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 #: code:addons/event/models/event_type_ticket.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__registration_id
@@ -5274,7 +5274,7 @@ msgid "Registration Start"
 msgstr "등록 시작"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
 msgstr "%s 등록"
@@ -5314,7 +5314,7 @@ msgid "Registrations started"
 msgstr "등록 시작됨"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "Rendering of template failed with error: %(error)s."
 msgstr "템플릿 렌더링 중 오류가 발생했습니다: %(error)s"
@@ -5369,7 +5369,7 @@ msgid "SMS Delivery error"
 msgstr "SMS 전송 오류"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Scan or Tap"
 msgstr "스캔 또는 탭"
@@ -5425,7 +5425,7 @@ msgid "Secret"
 msgstr "비밀"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Select Attendee"
 msgstr "참가자 선택"
@@ -5524,7 +5524,7 @@ msgid "Show all records whose next activity date is past"
 msgstr "다음 활동할 날짜가 이미 지난 모든 레코드 표시"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_mail_slot__event_slot_id
 #: model:ir.model.fields,field_description:event.field_event_registration__event_slot_id
@@ -5538,7 +5538,7 @@ msgid "Slot Mail Scheduler"
 msgstr "슬롯 메일 스케줄러"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Slot choice is mandatory on multi-slots events."
 msgstr "슬롯 선택은 여러 개의 슬롯이 지정되어 있는 행사에서 필수입니다."
@@ -5554,7 +5554,7 @@ msgid "Slot-based communication"
 msgstr "슬롯 기반 커뮤니케이션"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 #: model:ir.actions.act_window,name:event.event_slot_action_from_event
 #: model:ir.model.fields,field_description:event.field_event_event__event_slot_ids
@@ -5676,7 +5676,7 @@ msgstr ""
 "예정: 향후 계획된 활동입니다."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
 msgstr "등록이 완료되었습니다!"
@@ -5756,7 +5756,7 @@ msgstr ""
 "다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
 msgstr "마감일은 시작일보다 빠를 수 없습니다."
@@ -5784,7 +5784,7 @@ msgstr ""
 "최고의 OpenWood 가구가 새로운 컬렉션과 함께 고객님의 자택으로 찾아옵니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "The following slots cannot be deleted while they have one or more "
@@ -5794,7 +5794,7 @@ msgstr ""
 "다음의 슬롯은 하나 이상의 등록에 연결되어 있으므로 삭제할 수 없습니다.- %s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The following tickets cannot be deleted while they have one or more "
@@ -5806,7 +5806,7 @@ msgstr ""
 "- %s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than %(limit_orderable)s. Please check "
@@ -5814,7 +5814,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than the maximum seats number. Please "
@@ -5822,7 +5822,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order must be positive. Please check ticket %(ticket_name)s"
@@ -5834,7 +5834,7 @@ msgid "The safety of our attendees and our aeronauts comes first!"
 msgstr "저희 참석자 및 조종사 분들의 안전이 최우선입니다!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The stop date cannot be earlier than the start date. Please check ticket %"
@@ -5844,7 +5844,7 @@ msgstr ""
 "세요."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are more registrations than this limit, the event will be sold out and "
@@ -5854,7 +5854,7 @@ msgstr ""
 "니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are not enough seats available for %(event_name)s:\n"
@@ -5864,7 +5864,7 @@ msgstr ""
 "%(sold_out_info)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "There is an issue with dynamic placeholder. Actual error received is: %"
@@ -5879,7 +5879,7 @@ msgid "There must be a suggested value or a text value."
 msgstr "제안된 값이나 텍스트 값이 있어야 합니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "These events cannot have slots scheduled outside of their time range:\n"
@@ -5918,13 +5918,13 @@ msgid "This information will be printed on your tickets."
 msgstr "티켓에 이 정보를 인쇄합니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This is due to an error in template %(template_link)s."
 msgstr "템플릿 %(template_link)s에 오류가 있습니다."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "This is the <b>name</b> your guests will see when registering."
 msgstr "게스트가 등록할 때 확인하게 될 <b>이름</b>입니다."
@@ -5948,7 +5948,7 @@ msgstr ""
 "소입니다!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This may be linked to template %(template_link)s."
 msgstr "이는 템플릿 %(template_link)s과(와) 관련이 있을 수 있습니다."
@@ -5959,19 +5959,19 @@ msgid "This question is used by"
 msgstr "질문 적용 대상:"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is for another event!"
 msgstr "이 티켓은 다른 이벤트를 위한 티켓입니다!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
 msgstr "이 티켓은 진행 중인 행사용 티켓이 아닙니다"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -5987,7 +5987,7 @@ msgid "Ticket Instructions"
 msgstr "티켓 안내"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
@@ -5996,7 +5996,7 @@ msgid "Ticket Type"
 msgstr "티켓 유형"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
 msgstr "티켓이 스캔 완료되었습니다!"
@@ -6007,7 +6007,7 @@ msgid "Ticket type"
 msgstr "티켓 유형"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid ""
 "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a "
@@ -6016,13 +6016,13 @@ msgstr ""
 "티켓 유형으로 참석자들을 분류할 수 있습니다. 새로 <b>생성</b>해 보겠습니다."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket was first scanned on"
 msgstr "티켓 최초 스캔일"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
@@ -6167,7 +6167,7 @@ msgid "Understand the various modules;"
 msgstr "다양한 모듈 이해 ;"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Undo"
 msgstr "취소"
@@ -6194,7 +6194,7 @@ msgid "Upcoming/Running"
 msgstr "예정/진행중"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Update the limit of registrations?"
 msgstr "등록 제한을 변경할까요?"
@@ -6215,7 +6215,7 @@ msgid "Use Event Tag Categories to classify and organize your event tags."
 msgstr "행사 태그 카테고리를 이용하여 행사 태그를 분류하고 정리할 수 있습니다."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 msgstr "칸반 화면으로 돌아가려면 <b>브레드크럼</b>을 사용하시기 바랍니다."
@@ -6337,20 +6337,20 @@ msgid "You are truly among the best."
 msgstr "정말 최고입니다."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot change the question type of a question that already has answers!"
 msgstr "이미 답변이 작성된 질문의 유형은 변경할 수 없습니다!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid "You cannot delete a default question."
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot delete a question that has already been answered by attendees. "
@@ -6358,7 +6358,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question_answer.py:0
 msgid ""
 "You cannot delete an answer that has already been selected by attendees."
@@ -6427,7 +6427,7 @@ msgid "e.g. VIP Ticket"
 msgstr "예: VIP 티켓"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "event_id"
 msgstr "event_id"
@@ -6443,25 +6443,25 @@ msgid "https://www.example.com"
 msgstr "https://www.example.com"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "in %d days"
 msgstr "%d일 후에"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next month"
 msgstr "다음 달"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next week"
 msgstr "다음 주"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "on %(date)s"
 msgstr "행사일 %(date)s"
@@ -6492,13 +6492,13 @@ msgid "to"
 msgstr "종료"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "today"
 msgstr "오늘"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "tomorrow"
 msgstr "내일"
@@ -12338,8 +12338,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 #~ msgstr ""
 #~ "동료가 단계의 의미와 목적을 이해할 수 있도록 설명을 추가 할 수도 있습니다."
 
-#~ msgid "events@BetopiaERP.com"
-#~ msgstr "events@BetopiaERP.com"
+#~ msgid "events@betopiaerp.com"
+#~ msgstr "events@betopiaerp.com"
 
 #~ msgid "events@yourcompany.com"
 #~ msgstr "events@yourcompany.com"

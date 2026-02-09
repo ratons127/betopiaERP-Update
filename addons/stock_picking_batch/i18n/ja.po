@@ -7,16 +7,16 @@
 # 江口和志 <sandwhale1010@gmail.com>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-01-13 15:35+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_picking_batch/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "%s was removed from the batch, no quantity processed"
 msgstr "%s はバッチから削除され、数量は処理されていません"
@@ -151,7 +151,7 @@ msgid "Activity Type Icon"
 msgstr "活動タイプアイコン"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Add Operations"
@@ -169,7 +169,7 @@ msgid "Add to"
 msgstr "に追加"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_move_line.py:0
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree_detailed_wave
@@ -197,7 +197,7 @@ msgid "Allowed Picking"
 msgstr "許可されたピッキング"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Assigned to %s Responsible"
 msgstr "担当者 %s"
@@ -270,7 +270,7 @@ msgid "Batch Properties"
 msgstr "一括プロパティ"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 #: model:ir.actions.report,name:stock_picking_batch.action_report_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_batch
@@ -313,25 +313,25 @@ msgid "Batch transfers"
 msgstr "一括転送"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Batch transfers cannot be merged with wave transfers and vice versa."
 msgstr "一括転送はウェーブ転送と統合できません。その逆も同様です。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Batch/Wave transfers have been merged into the following transfer"
 msgstr "一括/ウェーブ転送は、以下の転送に統合されました。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Batch/Wave transfers with different operation types cannot be merged."
 msgstr "異なるオペレーションタイプの一括/ウェーブ転送は統合できません。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Batch/Wave transfers with different states cannot be merged."
 msgstr "異なるステータスの一括/ウェーブ転送は統合できません。"
@@ -359,7 +359,7 @@ msgid "Cancelled"
 msgstr "キャンセル済"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Cannot create wave transfers"
 msgstr "ウェーブ転送を作成できません"
@@ -375,13 +375,13 @@ msgid "Check Availability"
 msgstr "在庫を確認"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Choose Labels Layout"
 msgstr "ラベルレイアウトを選択"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Choose Type of Labels To Print"
 msgstr "印刷するラベルのタイプを選択する"
@@ -451,7 +451,7 @@ msgid "Destination Location"
 msgstr "移動先ロケーション"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Detailed Operations"
 msgstr "詳細オペレーション"
@@ -560,7 +560,7 @@ msgid "If checked, some messages have a delivery error."
 msgstr "有効にすると、一部のメッセージに配信エラーが発生します。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid ""
 "If the Automatic Batches feature is enabled, at least one 'Group by' option "
@@ -775,7 +775,7 @@ msgid "Package ID"
 msgstr "梱包ID"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Packages"
@@ -802,7 +802,7 @@ msgid "Picking Type"
 msgstr "ピッキングタイプ"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Please select at least two batch/wave transfers to merge."
 msgstr ""
@@ -1066,19 +1066,19 @@ msgid "Summary:"
 msgstr "要約:"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The following batch transfer has been created"
 msgstr "次の一括転送が作成されました。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The following batch transfer has been updated"
 msgstr "以下の一括転送が更新されました"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid ""
 "The following transfers cannot be added to batch transfer %(batch)s. Please "
@@ -1092,37 +1092,37 @@ msgstr ""
 "非互換性: %(incompatible_transfers)s"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_move_line.py:0
 msgid "The following wave transfer has been created"
 msgstr "次のウェーブ転送が作成されました"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_move_line.py:0
 msgid "The following wave transfer has been updated"
 msgstr "以下のウェーブ転送が更新されました"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected operations should belong to a unique company."
 msgstr "選択された処理は一意の会社に属している必要があります。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The selected pickings should belong to an unique company."
 msgstr "選択されたピッキングは一意の会社に属している必要があります。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to a unique company."
 msgstr "選択された転送は一意の会社に属している必要があります。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to the same operation type"
 msgstr "選択された転送は同一のオペレーションタイプに属している必要があります。"
@@ -1159,7 +1159,7 @@ msgid "Transfer Name"
 msgstr "転送名"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Transferred by"
 msgstr "運送担当"
@@ -1181,7 +1181,7 @@ msgid "Type of the exception activity on record."
 msgstr "記録上の例外活動の種類。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Unassigned responsible from %s"
 msgstr "未割当担当者 %s"
@@ -1250,19 +1250,19 @@ msgid "When checked, create the batch in draft status"
 msgstr "確認して、バッチをドラフトステータスで作成して下さい。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You cannot delete Done batch transfers."
 msgstr "完了済の一括転送を削除することはできません。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You cannot merge done or cancelled batch/wave transfers."
 msgstr "完了または取消した一括/ウェーブ転送は、統合できません。"
 
 #. module: stock_picking_batch
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You have to set some pickings to batch."
 msgstr "バッチ用のピッキングを設定して下さい。"

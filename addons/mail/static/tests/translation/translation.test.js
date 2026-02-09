@@ -8,9 +8,9 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { pointerDown } from "@BetopiaERP/hoot-dom";
-import { advanceTime, mockTouch, mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { pointerDown } from "@betopiaerp/hoot-dom";
+import { advanceTime, mockTouch, mockUserAgent } from "@betopiaerp/hoot-mock";
 import { asyncStep, serverState, waitForSteps } from "@web/../tests/web_test_helpers";
 
 defineMailModels();
@@ -22,7 +22,7 @@ test("Toggle display of original/translated version of chatter message", async (
     pyEnv["mail.message"].create({
         model: "res.partner",
         body: "Al mal tiempo, buena cara.",
-        author_id: serverState.BetopiaERPbotId,
+        author_id: serverState.betopiaerpbotId,
         res_id: partnerId,
     });
     onRpcBefore("/mail/message/translate", () => {
@@ -130,7 +130,7 @@ test("Toggle message translation on mobile", async () => {
     pyEnv["mail.message"].create({
         model: "res.partner",
         body: "Al mal tiempo, buena cara.",
-        author_id: serverState.BetopiaERPbotId,
+        author_id: serverState.betopiaerpbotId,
         res_id: partnerId,
     });
     onRpcBefore("/mail/message/translate", () => ({

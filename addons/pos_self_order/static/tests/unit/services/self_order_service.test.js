@@ -1,6 +1,6 @@
-import { test, describe, expect } from "@BetopiaERP/hoot";
+import { test, describe, expect } from "@betopiaerp/hoot";
 import { setupSelfPosEnv, getFilledSelfOrder, addComboProduct } from "../utils";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { definePosSelfModels } from "../data/generate_model_definitions";
 
 definePosSelfModels();

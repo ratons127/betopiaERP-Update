@@ -85,6 +85,6 @@
             'test_assetsbundle/static/tests/lazy_component.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

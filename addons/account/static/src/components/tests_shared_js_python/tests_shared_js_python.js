@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 
-import { useState, Component } from "@BetopiaERP/owl";
+import { useState, Component } from "@betopiaerp/owl";
 
 export class TestsSharedJsPython extends Component {
     static template = "account.TestsSharedJsPython";

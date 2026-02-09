@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="mass_mail_attach_1" model="ir.attachment">
             <field name="datas">bWlncmF0aW9uIHRlc3Q=</field>
@@ -99,4 +99,4 @@
         <!-- Generate link tracker information from it -->
         <function model="mailing.mailing" name="convert_links" eval="[ref('mass_mailing.mass_mail_1')]"/>
     </data>
-</BetopiaERP>
+</betopiaerp>

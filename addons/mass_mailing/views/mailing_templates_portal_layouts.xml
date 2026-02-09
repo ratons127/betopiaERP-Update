@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <!-- new layout for mass_mailing -->
     <template id="mass_mailing.layout" name="Mass Mailing Layout">
         <t t-set="html_data" t-value="{'lang': lang and lang.replace('_', '-')}"/>
@@ -24,4 +24,4 @@
             </xpath>
          </t>
      </template>
-</BetopiaERP>
+</betopiaerp>

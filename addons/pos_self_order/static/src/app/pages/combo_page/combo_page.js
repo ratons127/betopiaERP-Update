@@ -1,4 +1,4 @@
-import { Component, onWillUnmount, useState, useSubEnv, useRef, onMounted } from "@BetopiaERP/owl";
+import { Component, onWillUnmount, useState, useSubEnv, useRef, onMounted } from "@betopiaerp/owl";
 import { useSelfOrder } from "@pos_self_order/app/services/self_order_service";
 import { useService } from "@web/core/utils/hooks";
 import { AttributeSelection } from "@pos_self_order/app/components/attribute_selection/attribute_selection";

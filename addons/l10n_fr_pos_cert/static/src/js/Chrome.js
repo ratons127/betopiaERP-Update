@@ -1,7 +1,7 @@
 import { Chrome } from "@point_of_sale/app/pos_app";
 import { patch } from "@web/core/utils/patch";
 import { ClosePosPopup } from "@point_of_sale/app/components/popups/closing_popup/closing_popup";
-import { onMounted } from "@BetopiaERP/owl";
+import { onMounted } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 patch(Chrome.prototype, {

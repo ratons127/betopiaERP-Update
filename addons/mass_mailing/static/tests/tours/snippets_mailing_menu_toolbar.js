@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 registry.category("web_tour.tours").add('snippets_mailing_menu_toolbar', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [
     stepUtils.showAppsMenuItem(), {
         content: "Select the 'Email Marketing' app.",
@@ -41,7 +41,7 @@ registry.category("web_tour.tours").add('snippets_mailing_menu_toolbar', {
     { // necessary to wait for the cursor to be placed in the first p
       // and to avoid leaving the page before the selection is added
         content: "Wait for template selection event to be over.",
-        trigger: ":iframe .BetopiaERP-editor-editable .o_editable",
+        trigger: ":iframe .betopiaerp-editor-editable .o_editable",
         run: "click",
     },
     {

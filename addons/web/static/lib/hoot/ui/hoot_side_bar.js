@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, onWillRender, useEffect, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillRender, useEffect, useRef, useState, xml } from "@betopiaerp/owl";
 import { Suite } from "../core/suite";
 import { createUrlFromId } from "../core/url";
 import { lookup, parseQuery } from "../hoot_utils";

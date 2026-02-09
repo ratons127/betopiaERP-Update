@@ -1,4 +1,4 @@
-import { Component, useState, onMounted, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useState, onMounted, useSubEnv } from "@betopiaerp/owl";
 import { ModelStore } from "@api_doc/doc_model_store";
 import { useDocUI } from "@api_doc/utils/doc_ui_store";
 import { ApiKeyModal } from "@api_doc/components/doc_modal_api_key";
@@ -20,7 +20,7 @@ export class DocClient extends Component {
     static props = {};
 
     setup() {
-        this.setTheme(localStorage.getItem("theme") || "BetopiaERP-dark");
+        this.setTheme(localStorage.getItem("theme") || "betopiaerp-dark");
 
         this.ui = useDocUI();
         this.modelStore = useState(new ModelStore());
@@ -64,7 +64,7 @@ export class DocClient extends Component {
     }
 
     toggleTheme() {
-        this.setTheme(this.theme === "BetopiaERP-dark" ? "BetopiaERP-light" : "BetopiaERP-dark");
+        this.setTheme(this.theme === "betopiaerp-dark" ? "betopiaerp-light" : "betopiaerp-dark");
     }
 
     setTheme(theme) {

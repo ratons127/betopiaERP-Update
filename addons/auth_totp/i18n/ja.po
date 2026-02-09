@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * auth_totp
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-21 08:48+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_totp/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "%(browser)s on %(platform)s"
 msgstr "%(browser)s (%(platform)s上)"
@@ -32,7 +32,7 @@ msgid "2-Factor Setup Wizard"
 msgstr "2要素設定ウィザード"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "2-Factor authentication is now enabled."
 msgstr "2要素承認が可能になりました"
@@ -183,7 +183,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "Invalid authentication code format."
 msgstr "無効な承認コードフォーマット"
@@ -251,7 +251,7 @@ msgid "TOTP rate limit logs"
 msgstr "TOTPレート制限ログ"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "The verification code should only contain numbers"
 msgstr "認証コードは数字のみです"
@@ -283,7 +283,7 @@ msgid "Trusted Devices"
 msgstr "信頼されたデバイス"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-Factor Authentication Activation"
 msgstr "２要素認証の有効化"
@@ -311,19 +311,19 @@ msgid "Two-factor authentication Enabled"
 msgstr "2要素認証有効"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication already enabled"
 msgstr "2要素認証がすでに有効です"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication can only be enabled for yourself"
 msgstr "2要素認証はご本人にのみ有効化されます"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication disabled for the following user(s): %s"
 msgstr "次のユーザの２要素認証が無効化されました: %s"
@@ -352,14 +352,14 @@ msgid "Verification code"
 msgstr "認証コード"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "Verification failed, please double-check the 6-digit code"
 msgstr "認証が失敗しました。６桁のコードを再度確認してください。"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Verification failed, please use the latest 6-digit code"
 msgstr "認証が失敗しました。最新の６桁のコードを使用してください"
@@ -370,7 +370,7 @@ msgid "Write the code given by your app"
 msgstr "アプリから与えられたコードを書く"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of authentication mails sent for your account, please "
@@ -378,7 +378,7 @@ msgid ""
 msgstr "アカウントの認証メール送信制限に達しました。後ほど再度お試しください。"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of code verifications for your account, please try "

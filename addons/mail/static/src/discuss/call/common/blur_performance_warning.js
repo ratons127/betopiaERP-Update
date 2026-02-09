@@ -1,6 +1,6 @@
 import { CallDropdown } from "@mail/discuss/call/common/call_dropdown";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 

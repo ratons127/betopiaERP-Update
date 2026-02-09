@@ -1,4 +1,4 @@
-import { App } from "@BetopiaERP/owl";
+import { App } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { appTranslateFn } from "@web/core/l10n/translation";

@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { onWillStart, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 export class FormModelRequiredFieldAlert extends BaseOptionComponent {

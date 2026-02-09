@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record id="welcome_bot_operator_partner_demo" model="res.partner">
             <field name="name">BetopiaERP</field>
-            <field name="image_1920" type="base64" file="mail/static/src/img/BetopiaERPbot.png"/>
+            <field name="image_1920" type="base64" file="mail/static/src/img/betopiaerpbot.png"/>
             <field name="active">False</field>
         </record>
         <record id="chatbot_script_welcome_bot_demo" model="chatbot.script">
             <field name="title">BetopiaERP</field>
-            <field name="image_1920" type="base64" file="mail/static/src/img/BetopiaERPbot.png"/>
+            <field name="image_1920" type="base64" file="mail/static/src/img/betopiaerpbot.png"/>
             <field name="operator_partner_id" ref="welcome_bot_operator_partner_demo"/>
         </record>
 
@@ -89,4 +89,4 @@
             <field name="triggering_answer_ids" eval="[(4, ref('chatbot_script_welcome_step_dispatch_answer_just_looking_demo'))]"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

@@ -43,7 +43,7 @@ import {
     useRef,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { FetchRecordError } from "@web/model/relational_model/errors";
 import { effect } from "@web/core/utils/reactive";
 
@@ -225,7 +225,7 @@ export class FormController extends Component {
         onError((error) => {
             const suggestedCompany = error.cause?.data?.context?.suggested_company;
             if (
-                error.cause?.data?.name === "BetopiaERP.exceptions.AccessError" &&
+                error.cause?.data?.name === "betopiaerp.exceptions.AccessError" &&
                 suggestedCompany &&
                 !this.env.inDialog
             ) {
@@ -420,7 +420,7 @@ export class FormController extends Component {
         const suggestedCompany = error.data?.context?.suggested_company;
         const activeCompanyIds = user.activeCompanies.map((c) => c.id);
         if (
-            error.data?.name === "BetopiaERP.exceptions.AccessError" &&
+            error.data?.name === "betopiaerp.exceptions.AccessError" &&
             suggestedCompany &&
             !activeCompanyIds.includes(suggestedCompany.id)
         ) {

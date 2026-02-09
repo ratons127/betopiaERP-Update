@@ -1,4 +1,4 @@
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 import { FilterValue } from "@spreadsheet/global_filters/components/filter_value/filter_value";
 import { _t } from "@web/core/l10n/translation";
 import { getOperatorLabel } from "@web/core/tree_editor/tree_editor_operator_editor";

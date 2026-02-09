@@ -1,6 +1,6 @@
 import { LivechatButton } from "@im_livechat/embed/common/livechat_button";
 import { ChatHub } from "@mail/core/common/chat_hub";
-import { useExternalListener } from "@BetopiaERP/owl";
+import { useExternalListener } from "@betopiaerp/owl";
 import { patch } from "@web/core/utils/patch";
 
 ChatHub.components = { ...ChatHub.components, LivechatButton };

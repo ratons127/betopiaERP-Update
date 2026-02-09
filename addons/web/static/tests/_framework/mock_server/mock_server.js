@@ -8,7 +8,7 @@ import {
     mockLocation,
     mockWebSocket,
     registerDebugInfo,
-} from "@BetopiaERP/hoot";
+} from "@betopiaerp/hoot";
 import { makeErrorFromResponse, rpc, RPCError } from "@web/core/network/rpc";
 import { RPCCache } from "@web/core/network/rpc_cache";
 import { ensureArray, isIterable } from "@web/core/utils/arrays";
@@ -88,7 +88,7 @@ const { DateTime } = luxon;
  *  translations?: Record<string, string>;
  * }} ServerParams
  *
- * @typedef {import("@BetopiaERP/hoot").ServerWebSocket} ServerWebSocket
+ * @typedef {import("@betopiaerp/hoot").ServerWebSocket} ServerWebSocket
  *
  * @typedef {string | Iterable<string> | RegExp} StringMatcher
  *
@@ -621,7 +621,7 @@ export class MockServer {
         });
         if (!actions.length) {
             throw makeServerError({
-                errorName: "BetopiaERP.addons.web.controllers.action.MissingActionError",
+                errorName: "betopiaerp.addons.web.controllers.action.MissingActionError",
                 message: `The action ${JSON.stringify(id)} does not exist`,
             });
         }

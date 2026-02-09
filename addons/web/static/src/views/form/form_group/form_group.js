@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { sortBy } from "@web/core/utils/arrays";
 
 class Group extends Component {

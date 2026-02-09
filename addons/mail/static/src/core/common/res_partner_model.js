@@ -82,7 +82,7 @@ export class ResPartner extends Record {
     offline_since = fields.Datetime();
     presenceChannel = fields.Attr(null, {
         compute() {
-            const channel = `BetopiaERP-presence-res.partner_${this.id}`;
+            const channel = `betopiaerp-presence-res.partner_${this.id}`;
             if (this.im_status_access_token) {
                 return channel + `-${this.im_status_access_token}`;
             }

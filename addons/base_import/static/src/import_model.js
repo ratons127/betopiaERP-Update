@@ -6,7 +6,7 @@ import { pick } from "@web/core/utils/objects";
 import { groupBy, sortBy } from "@web/core/utils/arrays";
 import { memoize } from "@web/core/utils/functions";
 import { session } from "@web/session";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { ImportBlockUI } from "./import_block_ui";
 import { BinaryFileManager } from "./binary_file_manager";
 
@@ -69,7 +69,7 @@ const strftimeToHumanFormat = memoize(function strftimeToHumanFormat(value) {
  * used in the different base_import components.
  *
  * When uploading a file some "preview data" is returned by the backend, this
- * data consist of the different columns of the file and the BetopiaERP fields which
+ * data consist of the different columns of the file and the betopiaerp fields which
  * these columns can be mapped to.
  *
  * Only a small selection of the lines are returned so the user can get an idea

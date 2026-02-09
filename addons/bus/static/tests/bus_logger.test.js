@@ -1,7 +1,7 @@
 import { Logger } from "@bus/workers/bus_worker_utils";
 
-import { after, before, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime } from "@BetopiaERP/hoot-dom";
+import { after, before, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 

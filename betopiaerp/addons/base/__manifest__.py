@@ -94,6 +94,6 @@ The kernel of BetopiaERP, needed for all installation.
     'installable': True,
     'auto_install': True,
     'post_init_hook': 'post_init',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

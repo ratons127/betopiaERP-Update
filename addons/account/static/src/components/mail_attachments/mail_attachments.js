@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { FileInput } from "@web/core/file_input/file_input";
-import { Component, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, onWillUnmount } from "@betopiaerp/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 export class MailAttachments extends Component {

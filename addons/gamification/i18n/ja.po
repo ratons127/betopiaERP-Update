@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # 江口和志 <sandwhale1010@gmail.com>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-02-02 13:43+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "gamification/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -32,13 +32,13 @@ msgid "# Users"
 msgstr "# ユーザ"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has joined the challenge"
 msgstr "%s がチャレンジに参加しました"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has refused the challenge"
 msgstr "%s さんがチャレンジを拒否しました"
@@ -1138,7 +1138,7 @@ msgid "Active"
 msgstr "有効"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 #: code:addons/gamification/models/res_users.py:0
 #: code:addons/gamification/tests/test_karma_tracking.py:0
@@ -1296,7 +1296,7 @@ msgid "Can not grant"
 msgstr "付与できません"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Can not modify the configuration of a started goal"
 msgstr "開始された目標の設定を変更することはできません"
@@ -1412,7 +1412,7 @@ msgid "Consolidated"
 msgstr "連結済"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 msgid "Consolidation from %(from_date)s to %(end_date)s"
 msgstr "%(from_date)s から %(end_date)sの連結"
@@ -2109,7 +2109,7 @@ msgid "Karma Tracking"
 msgstr "カルマ追跡"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "Karma Updates"
 msgstr "カルマ更新"
@@ -2341,7 +2341,7 @@ msgid "No one, assigned through challenges"
 msgstr "チャレンジでの割当なし"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
 "Nobody has succeeded to reach every goal, no badge is rewarded for this "
@@ -2351,7 +2351,7 @@ msgstr ""
 "ジもありません。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "Nobody reached the required conditions to receive special badges."
 msgstr "誰も特別なバッジを受け取るために必要な条件に達しませんでした。"
@@ -2649,7 +2649,7 @@ msgid "Responsible"
 msgstr "担当者"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "Retrieving progress for personal challenge without user information"
 msgstr "ユーザー情報なしの個人チャレンジの進捗状況の取得"
@@ -2660,7 +2660,7 @@ msgid "Reward"
 msgstr "報奨"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
 "Reward (badge %(badge_name)s) for every succeeding user was sent to %"
@@ -2840,7 +2840,7 @@ msgid "Source Type"
 msgstr "発生元タイプ"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid ""
 "Special rewards were sent to the top competing users. The ranking for this "
@@ -2917,7 +2917,7 @@ msgid "Target: less than"
 msgstr "目標：より小さい"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Test Reason"
 msgstr "テスト理由"
@@ -2928,7 +2928,7 @@ msgid "The action that will be called to update the goal value."
 msgstr "目標値を更新するために呼び出されるアクション。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "The challenge %s is finished."
 msgstr "チャレンジ %s が終了しました。"
@@ -2964,7 +2964,7 @@ msgstr ""
 "日付を目標開始日として使用します。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 "The domain for the definition %(definition)s seems incorrect, please check "
@@ -3015,7 +3015,7 @@ msgid "The maximum number of time this badge can be sent per month per person."
 msgstr "このバッジを1人1か月に送信できる最大回数。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 "The model configuration for the definition %(name)s seems incorrect, please "
@@ -3028,7 +3028,7 @@ msgstr ""
 "%(error)s が見つかりません"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_goal_definition.py:0
 msgid ""
 "The model configuration for the definition %(name)s seems incorrect, please "
@@ -3125,7 +3125,7 @@ msgstr ""
 "して下さい。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "This badge can not be sent by users."
 msgstr "このバッジをユーザが送信することはできません。"
@@ -3192,13 +3192,13 @@ msgid "Update"
 msgstr "更新"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Update %s"
 msgstr "更新 %s"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 #: model:ir.model,name:gamification.model_res_users
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__user_id
@@ -3210,7 +3210,7 @@ msgid "User"
 msgstr "ユーザ"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/res_users.py:0
 msgid "User Creation"
 msgstr "ユーザ作成"
@@ -3263,19 +3263,19 @@ msgid "Yearly"
 msgstr "年次"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You are not in the user allowed list."
 msgstr "あなたはユーザー許可リストにいません。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/wizard/grant_badge.py:0
 msgid "You can not grant a badge to yourself."
 msgstr "自分自身にバッジを付与することはできません。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "You can not reset a challenge with unfinished goals."
 msgstr "未完了の目標でチャレンジをリセットすることはできません。"
@@ -3291,13 +3291,13 @@ msgid "You did great at your job."
 msgstr "業務において素晴らしい業績をあげました。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You do not have the required badges."
 msgstr "必要なバッジはありません。"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You have already sent this badge too many time this month."
 msgstr "あなたはすでにこのバッジを今月にあまりにも多く送信しました。"
@@ -3413,7 +3413,7 @@ msgid "this month"
 msgstr "今月"
 
 #. module: gamification
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/gamification/models/gamification_badge_user.py:0
 msgid "🎉 You've earned the %(badge)s badge!"
 msgstr "🎉%(badge)s バッジを獲得しました!"

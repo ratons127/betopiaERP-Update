@@ -1,5 +1,5 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { queryAllAttributes, queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { queryAllAttributes, queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,
@@ -93,7 +93,7 @@ test("href attribute and website_path option", async () => {
 test("in editable list view", async () => {
     Product._records = [
         { id: 1, url: "example.com" },
-        { id: 2, url: "BetopiaERP.com" },
+        { id: 2, url: "betopiaerp.com" },
     ];
     await mountView({
         type: "list",
@@ -104,11 +104,11 @@ test("in editable list view", async () => {
     expect(".o_field_url.o_field_widget[name='url'] a").toHaveCount(2);
     expect(queryAllAttributes(".o_field_url.o_field_widget[name='url'] a", "href")).toEqual([
         "http://example.com",
-        "http://BetopiaERP.com",
+        "http://betopiaerp.com",
     ]);
     expect(queryAllTexts(".o_field_url.o_field_widget[name='url'] a")).toEqual([
         "example.com",
-        "BetopiaERP.com",
+        "betopiaerp.com",
     ]);
     let cell = queryFirst("tbody td:not(.o_list_record_selector)");
     await contains(cell).click();
@@ -122,11 +122,11 @@ test("in editable list view", async () => {
     expect(".o_field_url.o_field_widget[name='url'] a").toHaveCount(2);
     expect(queryAllAttributes(".o_field_url.o_field_widget[name='url'] a", "href")).toEqual([
         "http://test",
-        "http://BetopiaERP.com",
+        "http://betopiaerp.com",
     ]);
     expect(queryAllTexts(".o_field_url.o_field_widget[name='url'] a")).toEqual([
         "test",
-        "BetopiaERP.com",
+        "betopiaerp.com",
     ]);
 });
 
@@ -146,14 +146,14 @@ test("onchange scenario", async () => {
     Product._fields.url_source = fields.Char({
         onChange: (record) => (record.url = record.url_source),
     });
-    Product._records = [{ id: 1, url: "BetopiaERP.com", url_source: "another.com" }];
+    Product._records = [{ id: 1, url: "betopiaerp.com", url_source: "another.com" }];
     await mountView({
         type: "form",
         resModel: "product",
         resId: 1,
         arch: `<form><field name="url" widget="url" readonly="True"/><field name="url_source"/></form>`,
     });
-    expect(".o_field_widget[name=url]").toHaveText("BetopiaERP.com");
+    expect(".o_field_widget[name=url]").toHaveText("betopiaerp.com");
     expect(".o_field_widget[name=url_source] input").toHaveValue("another.com");
     await fieldInput("url_source").edit("example.com");
     expect(".o_field_widget[name=url]").toHaveText("example.com");
@@ -185,11 +185,11 @@ test("placeholder_field shows as placeholder", async () => {
 });
 
 test("with non falsy, but non url value", async () => {
-    Product._fields.url.default = "BetopiaERP://hello";
+    Product._fields.url.default = "betopiaerp://hello";
     await mountView({
         type: "form",
         resModel: "product",
         arch: `<form><field name="url" widget="url"/></form>`,
     });
-    expect(".o_field_widget[name=url] a").toHaveAttribute("href", "http://BetopiaERP://hello");
+    expect(".o_field_widget[name=url] a").toHaveAttribute("href", "http://betopiaerp://hello");
 });

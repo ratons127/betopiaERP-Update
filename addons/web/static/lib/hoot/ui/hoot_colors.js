@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { reactive, useState } from "@BetopiaERP/owl";
+import { reactive, useState } from "@betopiaerp/owl";
 import { getAllColors, getPreferredColorScheme } from "../../hoot-dom/hoot_dom_utils";
 import { STORAGE, storageGet, storageSet } from "../hoot_utils";
 

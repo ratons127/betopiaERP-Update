@@ -11,13 +11,13 @@
     'data': [
         'views/project_task_views.xml'
     ],
-    'website': 'https://www.betopiaerp.com/app/project',
+    'website': 'https://www.BetopiaERP.com/app/project',
     'depends': [
         'project',
         'mail_plugin',
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

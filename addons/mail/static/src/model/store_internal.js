@@ -1,7 +1,7 @@
 /** @typedef {import("./record").Record} Record */
 /** @typedef {import("./record_list").RecordList} RecordList */
 
-import { htmlEscape, markup, toRaw } from "@BetopiaERP/owl";
+import { htmlEscape, markup, toRaw } from "@betopiaerp/owl";
 import { RecordInternal } from "./record_internal";
 import { deserializeDate, deserializeDateTime } from "@web/core/l10n/dates";
 import { IS_DELETED_SYM, IS_DELETING_SYM, isCommand, isMany } from "./misc";

@@ -32,7 +32,7 @@ class TestMailActivityChatter(HttpCase):
 
     def test_mail_activity_schedule_from_chatter(self):
         self.start_tour(
-            f"/BetopiaERP/res.partner/{self.test_partner.id}",
+            f"/betopiaerp/res.partner/{self.test_partner.id}",
             "mail_activity_schedule_from_chatter",
             login="admin",
         )

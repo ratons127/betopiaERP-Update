@@ -1,4 +1,4 @@
-import { Component, markup, onRendered, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, markup, onRendered, onWillStart, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { download } from "@web/core/network/download";
 import { registry } from "@web/core/registry";

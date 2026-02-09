@@ -14,12 +14,12 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import { getService, serverState, withUser } from "@web/../tests/web_test_helpers";
 
 import { LivechatButton } from "@im_livechat/embed/common/livechat_button";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 import { rpc } from "@web/core/network/rpc";
 
 describe.current.tags("desktop");

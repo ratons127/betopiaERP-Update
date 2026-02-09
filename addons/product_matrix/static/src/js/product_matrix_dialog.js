@@ -1,7 +1,7 @@
 import { Dialog } from '@web/core/dialog/dialog';
 import { formatMonetary } from "@web/views/fields/formatters";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
-import { Component, onMounted, markup, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, markup, useRef } from "@betopiaerp/owl";
 
 export class ProductMatrixDialog extends Component {
     static template = "product_matrix.dialog";

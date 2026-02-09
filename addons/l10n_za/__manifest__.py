@@ -11,7 +11,7 @@ This is the latest basic South African localisation necessary to run BetopiaERP 
     - a generic chart of accounts
     - SARS VAT Ready Structure""",
     'author': 'Paradigm Digital (https://www.paradigmdigital.co.za)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
         'base_vat',

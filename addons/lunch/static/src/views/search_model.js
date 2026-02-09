@@ -1,7 +1,7 @@
 import { Domain } from '@web/core/domain';
 import { rpc } from "@web/core/network/rpc";
 import { SearchModel } from '@web/search/search_model';
-import { useState, onWillStart } from "@BetopiaERP/owl";
+import { useState, onWillStart } from "@betopiaerp/owl";
 const { DateTime } = luxon;
 
 export class LunchSearchModel extends SearchModel {

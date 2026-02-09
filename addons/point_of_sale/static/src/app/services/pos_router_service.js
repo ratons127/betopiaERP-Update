@@ -90,7 +90,7 @@ export class PosRouter extends Reactive {
     back() {
         if (!this.historyPage.length) {
             this.navigate("LoginScreen", {
-                configId: BetopiaERP.pos_config_id,
+                configId: betopiaerp.pos_config_id,
             });
             return;
         }
@@ -101,7 +101,7 @@ export class PosRouter extends Reactive {
     }
 
     close() {
-        window.location.href = `/pos/ui/${BetopiaERP.pos_config_id}`;
+        window.location.href = `/pos/ui/${betopiaerp.pos_config_id}`;
     }
 
     matchURL(props = {}) {

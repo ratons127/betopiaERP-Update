@@ -1,4 +1,4 @@
-import { useState, onMounted, onWillUnmount, onPatched } from "@BetopiaERP/owl";
+import { useState, onMounted, onWillUnmount, onPatched } from "@betopiaerp/owl";
 import { debounce } from "@web/core/utils/timing";
 
 export function useScrollShadow(scrollContainerRef, options = {}) {

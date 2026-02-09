@@ -3,7 +3,7 @@
  * view. On each view, click on each filter.
  */
 
-import { App, reactive } from "@BetopiaERP/owl";
+import { App, reactive } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { rpcBus } from "@web/core/network/rpc";
 import { getPopoverForTarget } from "@web/core/popover/popover";
@@ -36,7 +36,7 @@ let apps;
  * This should be done only once.
  */
 function setup(light, currentState) {
-    env = BetopiaERP.__WOWL_DEBUG__.root.env;
+    env = betopiaerp.__WOWL_DEBUG__.root.env;
     const stopButton = document.createElement("button");
     stopButton.setAttribute("id", "stop-clickbot");
     stopButton.classList.add("btn", "btn-danger");
@@ -50,7 +50,7 @@ function setup(light, currentState) {
     env.bus.addEventListener("ACTION_MANAGER:UI-UPDATED", uiUpdate);
     rpcBus.addEventListener("RPC:REQUEST", onRPCRequest);
     rpcBus.addEventListener("RPC:RESPONSE", onRPCResponse);
-    isEnterprise = BetopiaERP.info && BetopiaERP.info.isEnterprise;
+    isEnterprise = betopiaerp.info && betopiaerp.info.isEnterprise;
 
     state = reactive(
         currentState || {

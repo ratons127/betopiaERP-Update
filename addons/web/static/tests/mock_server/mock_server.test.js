@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockTimeZone } from "@betopiaerp/hoot-mock";
 import {
     defineModels,
     fields,

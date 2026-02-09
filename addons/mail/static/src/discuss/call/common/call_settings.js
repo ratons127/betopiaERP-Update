@@ -1,4 +1,4 @@
-import { Component, onWillStart, useExternalListener, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillStart, useExternalListener, useState, xml } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { browser } from "@web/core/browser/browser";

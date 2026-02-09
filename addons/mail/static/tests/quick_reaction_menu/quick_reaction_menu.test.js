@@ -8,8 +8,8 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { QuickReactionMenu } from "@mail/core/common/quick_reaction_menu";
-import { describe, test } from "@BetopiaERP/hoot";
-import { animationFrame, press } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { animationFrame, press } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineMailModels();

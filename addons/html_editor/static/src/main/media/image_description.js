@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";

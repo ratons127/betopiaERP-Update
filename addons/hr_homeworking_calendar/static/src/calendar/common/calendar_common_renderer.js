@@ -3,7 +3,7 @@ import { AttendeeCalendarRenderer } from "@calendar/views/attendee_calendar/atte
 import { user } from "@web/core/user";
 import { patch } from "@web/core/utils/patch";
 import { renderToString } from "@web/core/utils/render";
-import { onPatched } from "@BetopiaERP/owl";
+import { onPatched } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 

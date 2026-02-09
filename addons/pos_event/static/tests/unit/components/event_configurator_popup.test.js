@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { EventConfiguratorPopup } from "@pos_event/app/components/popup/event_configurator_popup/event_configurator_popup";
 import { mountPosDialog, setupPosEnv } from "@point_of_sale/../tests/unit/utils";
 import { definePosModels } from "@point_of_sale/../tests/unit/data/generate_model_definitions";

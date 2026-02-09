@@ -1,7 +1,7 @@
 import { BoardAction } from "@board/board_action";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

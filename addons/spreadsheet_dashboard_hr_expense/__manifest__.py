@@ -12,6 +12,6 @@
     ],
     'installable': True,
     'auto_install': ['sale_expense'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

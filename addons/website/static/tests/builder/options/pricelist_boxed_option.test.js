@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAll, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAll, waitFor } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

@@ -7,17 +7,17 @@
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2019
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2019
 # Maja Stawicka <mjstwck@wp.pl>, 2019
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Dawid Gacek <dawid.gacek@adapt-it.pl>, 2025.
-# "Marta (wacm)" <wacm@BetopiaERP.com>, 2026.
+# "Marta (wacm)" <wacm@betopiaerp.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-02-04 16:40+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@BetopiaERP.com>\n"
-"Language-Team: Polish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Marta (wacm)\" <wacm@betopiaerp.com>\n"
+"Language-Team: Polish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_adyen/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 "Adyen."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "A request was sent to void the transaction %(reference)s."
 msgstr "Wysłano prośbę o unieważnienie transakcji %(reference)s."
@@ -63,14 +63,14 @@ msgid "Adyen"
 msgstr "Adyen"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr "Wystąpił błąd podczas przetwarzania płatności. Spróbuj ponownie."
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr "Nie można wyświetlić formularza płatności"
@@ -112,7 +112,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr "Niepoprawne dane płatności"
@@ -148,25 +148,25 @@ msgid "Payment Transaction"
 msgstr "Transakcja płatnicza"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Przetwarzanie płatności nie powiodło się"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
 msgstr "Otrzymano dane z nieprawidłowym statusem płatności: %s"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
 msgstr "Otrzymano dane z brakującym statusem płatnosci."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "Otrzymano sfałszowane dane dotyczące żądania płatności."
@@ -187,7 +187,7 @@ msgid "The HMAC key of the webhook"
 msgstr "Klucz HMAC webhooka"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
@@ -202,7 +202,7 @@ msgid "The base URL for the API endpoints"
 msgstr "Podstawowy adres URL dla punktów końcowych API"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction %s failed."
 msgstr "Nie udało się przechwycić transakcji %s."
@@ -218,7 +218,7 @@ msgstr ""
 "                    przetworzone przez Adyen i odzwierciedlone w BetopiaERP."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The capture request of %(amount)s for transaction %(ref)s has been sent."
@@ -245,13 +245,13 @@ msgid "The unique reference of the partner owning this token"
 msgstr "Unikalny numer referencyjny partnera posiadającego ten token"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction %s failed."
 msgstr "Unieważnianie transakcji %s zakończyło się niepowodzeniem."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
 msgstr "Twoja płatność została odrzucona. Spróbuj ponownie później."

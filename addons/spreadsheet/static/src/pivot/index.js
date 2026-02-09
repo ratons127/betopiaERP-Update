@@ -1,9 +1,9 @@
 import { _t } from "@web/core/l10n/translation";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 import { SEE_RECORDS_PIVOT, SEE_RECORDS_PIVOT_VISIBLE } from "./pivot_actions";
-import { PivotBetopiaERPCorePlugin } from "./plugins/pivot_BetopiaERP_core_plugin";
+import { PivotBetopiaERPCorePlugin } from "./plugins/pivot_betopiaerp_core_plugin";
 import { PivotCoreViewGlobalFilterPlugin } from "./plugins/pivot_core_view_global_filter_plugin";
 import { PivotUIGlobalFilterPlugin } from "./plugins/pivot_ui_global_filter_plugin";
 
@@ -17,9 +17,9 @@ function identity(cmd) {
     return [cmd];
 }
 
-coreTypes.add("UPDATE_BetopiaERP_PIVOT_DOMAIN");
+coreTypes.add("UPDATE_BETOPIAERP_PIVOT_DOMAIN");
 
-invalidateEvaluationCommands.add("UPDATE_BetopiaERP_PIVOT_DOMAIN");
+invalidateEvaluationCommands.add("UPDATE_BETOPIAERP_PIVOT_DOMAIN");
 
 cellMenuRegistry.add("pivot_see_records", {
     name: _t("See records"),
@@ -35,6 +35,6 @@ cellMenuRegistry.add("pivot_see_records", {
     icon: "o-spreadsheet-Icon.SEE_RECORDS",
 });
 
-inverseCommandRegistry.add("UPDATE_BetopiaERP_PIVOT_DOMAIN", identity);
+inverseCommandRegistry.add("UPDATE_BETOPIAERP_PIVOT_DOMAIN", identity);
 
 export { PivotBetopiaERPCorePlugin, PivotCoreViewGlobalFilterPlugin, PivotUIGlobalFilterPlugin };

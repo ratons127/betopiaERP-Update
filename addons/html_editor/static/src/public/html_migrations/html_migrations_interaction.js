@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { Interaction } from "@web/public/interaction";
 import { VERSION_SELECTOR } from "@html_editor/html_migrations/html_migrations_utils";
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 const upgradeElementToInteractionMap = new Map();
 

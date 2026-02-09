@@ -9,7 +9,7 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { registry } from "@web/core/registry";
 import { getOrigin } from "@web/core/utils/urls";
 
@@ -290,7 +290,7 @@ test("avatar card preview", async () => {
     const pyEnv = await startServer();
     const userId = pyEnv["res.users"].create({
         partner_id: pyEnv["res.partner"].create({
-            email: "Mario@BetopiaERP.test",
+            email: "Mario@betopiaerp.test",
             name: "Mario",
             phone: "+78786987",
         }),
@@ -314,7 +314,7 @@ test("avatar card preview", async () => {
     await click(".o_m2o_avatar > img");
     await contains(".o_avatar_card");
     await contains(".o_card_user_infos > span", { text: "Mario" });
-    await contains(".o_card_user_infos > a", { text: "Mario@BetopiaERP.test" });
+    await contains(".o_card_user_infos > a", { text: "Mario@betopiaerp.test" });
     await contains(".o_card_user_infos > a", { text: "+78786987" });
     // Close card
     await click(".o_action_manager");
@@ -340,7 +340,7 @@ test("avatar card preview (partner_id field)", async () => {
         im_status: "online",
     });
     const partnerId = pyEnv["res.partner"].create({
-        email: "Mario@BetopiaERP.test",
+        email: "Mario@betopiaerp.test",
         name: "Mario",
         phone: "+78786987",
         user_ids: [userId],
@@ -363,7 +363,7 @@ test("avatar card preview (partner_id field)", async () => {
     await click(".o_m2o_avatar > img");
     await contains(".o_avatar_card");
     await contains(".o_card_user_infos > span", { text: "Mario" });
-    await contains(".o_card_user_infos > a", { text: "Mario@BetopiaERP.test" });
+    await contains(".o_card_user_infos > a", { text: "Mario@betopiaerp.test" });
     await contains(".o_card_user_infos > a", { text: "+78786987" });
     // Close card
     await click(".o_action_manager");

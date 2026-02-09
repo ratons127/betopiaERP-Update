@@ -24,7 +24,7 @@ _logger = logging.getLogger(__name__)
 # API requests are sent to Google Calendar after the current transaction ends.
 # This ensures changes are sent to Google only if they really happened in the BetopiaERP database.
 # It is particularly important for event creation , otherwise the event might be created
-# twice in Google if the first creation crashed in betopiaerp.
+# twice in Google if the first creation crashed in BetopiaERP.
 def after_commit(func):
     @wraps(func)
     def wrapped(self, *args, **kwargs):
@@ -119,7 +119,7 @@ class GoogleCalendarSync(models.AbstractModel):
         elif synced:
             # Since we can not delete such an event (see method comment), we archive it.
             # Notice that archiving an event will delete the associated event on Google.
-            # Then, since it has been deleted on Google, the event is also deleted on BetopiaERP DB (_sync_google2BetopiaERP).
+            # Then, since it has been deleted on Google, the event is also deleted on BetopiaERP DB (_sync_google2betopiaerp).
             self.action_archive()
             return True
         return super().unlink()
@@ -129,7 +129,7 @@ class GoogleCalendarSync(models.AbstractModel):
             return self.browse()
         return self.search([('google_id', 'in', google_ids)])
 
-    def _sync_BetopiaERP2google(self, google_service: GoogleCalendarService):
+    def _sync_betopiaerp2google(self, google_service: GoogleCalendarService):
         if not self:
             return
         if self._active_name:
@@ -156,29 +156,29 @@ class GoogleCalendarSync(models.AbstractModel):
         self.unlink()
 
     @api.model
-    def _sync_google2BetopiaERP(self, google_events: GoogleEvent, write_dates=None, default_reminders=()):
-        """Synchronize Google recurrences in betopiaerp. Creates new recurrences, updates
+    def _sync_google2betopiaerp(self, google_events: GoogleEvent, write_dates=None, default_reminders=()):
+        """Synchronize Google recurrences in BetopiaERP. Creates new recurrences, updates
         existing ones.
 
         :param google_events: Google recurrences to synchronize in BetopiaERP
         :param write_dates: A dictionary mapping BetopiaERP record IDs to their write dates.
         :param default_reminders:
-        :return: synchronized BetopiaERP recurrences
+        :return: synchronized betopiaerp recurrences
         """
         write_dates = dict(write_dates or {})
         existing = google_events.exists(self.env)
         new = google_events - existing - google_events.cancelled()
 
-        BetopiaERP_values = [
-            dict(self._BetopiaERP_values(e, default_reminders), need_sync=False)
+        betopiaerp_values = [
+            dict(self._betopiaerp_values(e, default_reminders), need_sync=False)
             for e in new
         ]
-        new_BetopiaERP = self.with_context(dont_notify=True, skip_contact_description=True)._create_from_google(new, BetopiaERP_values)
+        new_betopiaerp = self.with_context(dont_notify=True, skip_contact_description=True)._create_from_google(new, betopiaerp_values)
         cancelled = existing.cancelled()
-        cancelled_BetopiaERP = self.browse(cancelled.BetopiaERP_ids(self.env))
+        cancelled_betopiaerp = self.browse(cancelled.betopiaerp_ids(self.env))
 
         # Check if it is a recurring event that has been rescheduled.
-        # We have to check if an event already exists in betopiaerp.
+        # We have to check if an event already exists in BetopiaERP.
         # Explanation:
         # A recurrent event with `google_id` is equal to ID_RANGE_TIMESTAMP can be rescheduled.
         # The new `google_id` will be equal to ID_TIMESTAMP.
@@ -186,27 +186,27 @@ class GoogleCalendarSync(models.AbstractModel):
         rescheduled_events = new.filter(lambda gevent: not gevent.is_recurrence_follower())
         if rescheduled_events:
             google_ids_to_remove = [event.full_recurring_event_id() for event in rescheduled_events]
-            cancelled_BetopiaERP += self.env['calendar.event'].search([('google_id', 'in', google_ids_to_remove)])
+            cancelled_betopiaerp += self.env['calendar.event'].search([('google_id', 'in', google_ids_to_remove)])
 
         cancelled_betopiaerp.exists()._cancel()
-        synced_records = new_BetopiaERP + cancelled_BetopiaERP
+        synced_records = new_betopiaerp + cancelled_betopiaerp
         pending = existing - cancelled
-        pending_BetopiaERP = self.browse(pending.BetopiaERP_ids(self.env)).exists()
+        pending_betopiaerp = self.browse(pending.betopiaerp_ids(self.env)).exists()
         for gevent in pending:
-            BetopiaERP_record = self.browse(gevent.BetopiaERP_id(self.env))
-            if BetopiaERP_record not in pending_BetopiaERP:
+            betopiaerp_record = self.browse(gevent.betopiaerp_id(self.env))
+            if betopiaerp_record not in pending_betopiaerp:
                 # The record must have been deleted in the mean time; nothing left to sync
                 continue
             # Last updated wins.
-            # This could be dangerous if google server time and BetopiaERP server time are different
+            # This could be dangerous if google server time and betopiaerp server time are different
             updated = parse(gevent.updated)
             # Use the record's write_date to apply Google updates only if they are newer than BetopiaERP's write_date.
-            BetopiaERP_record_write_date = write_dates.get(BetopiaERP_record.id, BetopiaERP_record.write_date)
+            betopiaerp_record_write_date = write_dates.get(betopiaerp_record.id, betopiaerp_record.write_date)
             # Migration from 13.4 does not fill write_date. Therefore, we force the update from Google.
-            if not BetopiaERP_record_write_date or updated >= pytz.utc.localize(BetopiaERP_record_write_date):
-                vals = dict(self._BetopiaERP_values(gevent, default_reminders), need_sync=False)
-                BetopiaERP_record.with_context(dont_notify=True)._write_from_google(gevent, vals)
-                synced_records |= BetopiaERP_record
+            if not betopiaerp_record_write_date or updated >= pytz.utc.localize(betopiaerp_record_write_date):
+                vals = dict(self._betopiaerp_values(gevent, default_reminders), need_sync=False)
+                betopiaerp_record.with_context(dont_notify=True)._write_from_google(gevent, vals)
+                synced_records |= betopiaerp_record
 
         return synced_records
 
@@ -316,7 +316,7 @@ class GoogleCalendarSync(models.AbstractModel):
                         self.with_context(dont_notify=True).need_sync = False
 
     def _get_records_to_sync(self, full_sync=False):
-        """Return records that should be synced from betopiaerp to Google
+        """Return records that should be synced from BetopiaERP to Google
 
         :param full_sync: If True, all events attended by the user are returned
         :return: events
@@ -332,7 +332,7 @@ class GoogleCalendarSync(models.AbstractModel):
         return self.with_context(active_test=False).search(domain, limit=200)
 
     def _check_any_records_to_sync(self):
-        """ Returns True if there are pending records to be synchronized from betopiaerp to Google, False otherwise. """
+        """ Returns True if there are pending records to be synchronized from BetopiaERP to Google, False otherwise. """
         is_active_clause = Domain(self._active_name, '=', True) if self._active_name else Domain.TRUE
         domain = self._get_sync_domain()
         domain &= (Domain('google_id', '=', False) & is_active_clause) | Domain('need_sync', '=', True)
@@ -354,7 +354,7 @@ class GoogleCalendarSync(models.AbstractModel):
         return partners.sorted(key=lambda p: k.get(p.email_normalized, -1))
 
     @api.model
-    def _BetopiaERP_values(self, google_event: GoogleEvent, default_reminders=()):
+    def _betopiaerp_values(self, google_event: GoogleEvent, default_reminders=()):
         """Implements this method to return a dict of BetopiaERP values corresponding
         to the Google event given as parameter
         :return: dict of BetopiaERP formatted values

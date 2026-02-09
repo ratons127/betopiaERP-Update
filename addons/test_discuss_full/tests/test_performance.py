@@ -14,9 +14,9 @@ from betopiaerp.tests.common import users, tagged, HttpCase, warmup
 @tagged('post_install', '-at_install', 'is_query_count')
 class TestDiscussFullPerformance(HttpCase, MailCommon):
     # Queries for _query_count_init_store (in order):
-    #   1: search res_partner (BetopiaERPot ref exists)
+    #   1: search res_partner (betopiaerpot ref exists)
     #   1: search res_groups (internalUserGroupId ref exists)
-    #   8: BetopiaERPbot format:
+    #   8: betopiaerpbot format:
     #       - fetch res_partner (_read_format)
     #       - search res_users (_compute_im_status)
     #       - search presence (_compute_im_status)
@@ -169,7 +169,7 @@ class TestDiscussFullPerformance(HttpCase, MailCommon):
                 'login': 'emp',
                 'name': 'Ernest Employee',
                 'notification_type': 'inbox',
-                'BetopiaERPbot_state': 'disabled',
+                'betopiaerpbot_state': 'disabled',
                 'password': self.password,
                 'signature': '--\nErnest',
             },
@@ -396,7 +396,7 @@ class TestDiscussFullPerformance(HttpCase, MailCommon):
                 {
                     "active": False,
                     "avatar_128_access_token": self.user_root.partner_id._get_avatar_128_access_token(),
-                    "email": "BetopiaERPbot@example.com",
+                    "email": "betopiaerpbot@example.com",
                     "id": self.user_root.partner_id.id,
                     "im_status": "bot",
                     "im_status_access_token": self.user_root.partner_id._get_im_status_access_token(),
@@ -443,7 +443,7 @@ class TestDiscussFullPerformance(HttpCase, MailCommon):
                 "internalUserGroupId": self.env.ref("base.group_user").id,
                 "mt_comment": self.env.ref("mail.mt_comment").id,
                 "mt_note": self.env.ref("mail.mt_note").id,
-                "BetopiaERPbot": self.user_root.partner_id.id,
+                "betopiaerpbot": self.user_root.partner_id.id,
                 "self_partner": self.users[0].partner_id.id,
                 "settings": {
                     "channel_notifications": False,
@@ -1389,7 +1389,7 @@ class TestDiscussFullPerformance(HttpCase, MailCommon):
                 "create_date": create_date,
                 "date": date,
                 "default_subject": "group restricted channel 1",
-                "email_from": '"BetopiaERPBot" <BetopiaERPbot@example.com>',
+                "email_from": '"BetopiaERPBot" <betopiaerpbot@example.com>',
                 "id": last_message.id,
                 "incoming_email_cc": False,
                 "incoming_email_to": False,

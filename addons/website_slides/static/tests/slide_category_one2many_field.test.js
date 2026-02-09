@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, waitFor } from "@betopiaerp/hoot-dom";
 import {
     defineModels,
     fields,

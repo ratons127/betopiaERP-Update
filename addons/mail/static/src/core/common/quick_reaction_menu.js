@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useRef, useState } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { loadEmoji, useEmojiPicker } from "@web/core/emoji_picker/emoji_picker";

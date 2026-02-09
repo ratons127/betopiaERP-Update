@@ -8,6 +8,6 @@
     order XML file.""",
     'category': "Hidden",
     'depends': ['purchase_edi_ubl_bis3', 'sale_edi_ubl'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

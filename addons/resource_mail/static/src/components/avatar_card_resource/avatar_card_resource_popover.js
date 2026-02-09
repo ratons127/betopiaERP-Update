@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { useOpenChat } from "@mail/core/web/open_chat_hook";
 import { AvatarCardPopover } from "@mail/discuss/web/avatar_card/avatar_card_popover";

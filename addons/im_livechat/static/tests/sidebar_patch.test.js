@@ -8,15 +8,15 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { withGuest } from "@mail/../tests/mock_server/mail_mock_server";
-import { describe, test } from "@BetopiaERP/hoot";
-import { mockDate, tick } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { mockDate, tick } from "@betopiaerp/hoot-mock";
 import { asyncStep, Command, serverState, waitForSteps } from "@web/../tests/web_test_helpers";
 
 import { deserializeDateTime } from "@web/core/l10n/dates";
 import { rpc } from "@web/core/network/rpc";
 import { url } from "@web/core/utils/urls";
 import { defineLivechatModels } from "./livechat_test_helpers";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 import { browser } from "@web/core/browser/browser";
 
 describe.current.tags("desktop");

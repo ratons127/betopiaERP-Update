@@ -62,7 +62,7 @@ class ResPartner(models.Model):
                 query['redirect'] = url
             else:
                 fragment = dict()
-                base = '/BetopiaERP/'
+                base = '/betopiaerp/'
                 if action == '/mail/view':
                     base = '/mail/view?'
                 elif action:

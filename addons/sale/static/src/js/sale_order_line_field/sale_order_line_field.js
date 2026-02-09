@@ -10,7 +10,7 @@ import {
     sectionAndNoteText,
     SectionAndNoteText,
 } from '@account/components/section_and_note_fields_backend/section_and_note_fields_backend';
-import { useSubEnv } from '@BetopiaERP/owl';
+import { useSubEnv } from '@betopiaerp/owl';
 import { registry } from '@web/core/registry';
 import { CharField } from '@web/views/fields/char/char_field';
 

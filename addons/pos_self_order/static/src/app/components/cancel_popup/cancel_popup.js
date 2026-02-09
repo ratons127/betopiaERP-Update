@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useSelfOrder } from "@pos_self_order/app/services/self_order_service";
 
 export class CancelPopup extends Component {

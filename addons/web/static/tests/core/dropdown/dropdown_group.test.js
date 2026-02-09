@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, hover, queryOne } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, hover, queryOne } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 
 import { getDropdownMenu, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { Dropdown } from "@web/core/dropdown/dropdown";

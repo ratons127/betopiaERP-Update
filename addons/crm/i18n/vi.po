@@ -8,8 +8,8 @@
 # Martin Trigaux, 2022
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2023
 # Thi Huong Nguyen, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-01-05 08:56+0000\n"
-"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@BetopiaERP.com>\n"
-"Language-Team: Vietnamese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/crm/"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@betopiaerp.com>\n"
+"Language-Team: Vietnamese <https://translate.betopiaerp.com/projects/betopiaerp-19/crm/"
 "vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -43,31 +43,31 @@ msgid "# Unassigned Leads"
 msgstr "# Lead chưa được phân công"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated among %(team_count)s teams."
 msgstr "%(assigned)s lead được phân bổ giữa %(team_count)s bộ phận."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated to %(team_name)s team."
 msgstr "%(assigned)s lead được phân bổ cho bộ phận %(team_name)s."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%(attach_name)s (from %(lead_name)s)"
 msgstr "%(attach_name)s (từ %(lead_name)s)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(duplicates)s duplicates leads have been merged."
 msgstr "%(duplicates)s lead trùng lặp đã được hợp nhất."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
@@ -76,31 +76,31 @@ msgstr ""
 "sales."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
 msgstr "Cơ hội của %s"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_users.py:0
 msgid "(Team Leader)"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "(sample data)"
 msgstr "(dữ liệu mẫu)"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Create your first opportunity.</b>"
 msgstr "<b>Tạo cơ hội đầu tiên của bạn</b>"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your "
@@ -110,7 +110,7 @@ msgstr ""
 "kỳ bán hàng."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
 msgstr ""
@@ -435,7 +435,7 @@ msgstr ""
 "cả các cơ hội không có hoạt động tiếp theo."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A lead in a Won stage cannot be lost. Move it to another stage first."
 msgstr ""
@@ -443,32 +443,32 @@ msgstr ""
 "đoạn khác trước."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created and is not assigned to any team."
 msgstr "Lead mới đã được tạo và chưa được phân công cho bộ phận nào."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created for the team \"%(team_name)s\"."
 msgstr "Lead mới đã được tạo cho bộ phận \"%(team_name)s\"."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "AI"
 msgstr "AI"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning for"
 msgstr ""
@@ -673,7 +673,7 @@ msgid "Aliased Model"
 msgstr "Mô hình bí danh"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "All set. Let’s <b>Schedule</b> it."
 msgstr "Đã thiết lập xong. Hãy lập <b>lịch trình</b>."
@@ -701,7 +701,7 @@ msgid "Archived"
 msgstr "Đã lưu trữ"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the "
@@ -715,7 +715,7 @@ msgstr ""
 "name=\"%d\" type=\"action\" tabindex=\"-1\">tham gia một bộ phận.</a>"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the "
@@ -776,7 +776,7 @@ msgid "Assignment Rules"
 msgstr "Quy tắc phân công"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Assignment domain for team %(team)s is incorrectly formatted"
 msgstr "Quy tắc phân công cho bộ phận %(team)s được định dạng không chính xác"
@@ -823,7 +823,7 @@ msgid "Average Leads Capacity (on 30 days)"
 msgstr "Dung lượng lead trung bình (trong 30 ngày)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Belgium"
 msgstr "Bỉ"
@@ -839,7 +839,7 @@ msgid "Blacklisted Phone is Phone"
 msgstr "Số điện thoại bị hạn chế là số điện thoại bàn"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Boom! Team record for the past 30 days."
 msgstr "Yeah! Số liệu của bộ phận trong 30 ngày qua."
@@ -907,7 +907,7 @@ msgid "Capacity"
 msgstr "Sức chứa"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_stage.py:0
 msgid ""
 "Changing the value of 'Is Won Stage' may induce a large number of "
@@ -963,7 +963,7 @@ msgid ""
 msgstr "Phân loại và phân tích danh mục lead/cơ hội như: Đào tạo, Dịch vụ"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "Click on the breadcrumb to go back to your Pipeline. BetopiaERP will save all "
@@ -973,7 +973,7 @@ msgstr ""
 "sẽ lưu tất cả các sửa đổi khi bạn điều hướng."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Close opportunities to get insights."
 msgstr ""
@@ -989,7 +989,7 @@ msgid "Closed Date"
 msgstr "Ngày chốt"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:0
 msgid "Closed/Dead leads cannot be converted into opportunities."
 msgstr "Lead đã chốt/không hoạt động không thể chuyển thành cơ hội."
@@ -1053,7 +1053,7 @@ msgid "Completion Date"
 msgstr "Ngày hoàn tất"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Computed by BetopiaERP AI using your data."
 msgstr ""
@@ -1079,7 +1079,7 @@ msgid "Consider leads created as of the:"
 msgstr "Xem xét các lead được tạo kể từ:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Consulting"
 msgstr "Tư vấn"
@@ -1263,7 +1263,7 @@ msgid "Create a new customer"
 msgstr "Tạo khách hàng mới"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -1271,14 +1271,14 @@ msgid "Create a new lead"
 msgstr "Tạo lead mới"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 #: model:ir.model,website_form_label:crm.model_crm_lead
 msgid "Create an Opportunity"
 msgstr "Tạo cơ hội"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Create an opportunity to start playing with your pipeline."
@@ -1403,7 +1403,7 @@ msgid "Days to rot"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Deadline: %s"
 msgstr "Thời hạn: %s"
@@ -1504,7 +1504,7 @@ msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
@@ -1512,19 +1512,19 @@ msgstr ""
 "dùng"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_stage.py:0
 msgid "Do you really want to update this stage?"
 msgstr "Bạn có thực sự muốn cập nhật giai đoạn này không?"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have a"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have an"
 msgstr ""
@@ -1540,14 +1540,14 @@ msgid "Don't link to a company"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
 msgstr ""
 "Kéo cơ hội của bạn qua <b>Đạt</b> khi bạn chốt giao dịch. Xin chúc mừng!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Duration: %s"
 msgstr "Thời lượng: %s"
@@ -1598,8 +1598,8 @@ msgstr "Email cc:"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Ví dụ miền email 'example.com' trong 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Ví dụ miền email 'example.com' trong 'betopiaerp@example.com'"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -1687,7 +1687,7 @@ msgid "Expected Revenues"
 msgstr "Doanh thu dự kiến"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Exploration"
 msgstr "Khám phá"
@@ -1703,7 +1703,7 @@ msgid "Extra fields..."
 msgstr "Trường bổ sung..."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__field_id
 msgid "Field"
@@ -1780,13 +1780,13 @@ msgid "Forecast Analysis"
 msgstr "Phân tích dự báo"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s"
 msgstr "Từ %(source_name)s"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s: %(source_subject)s"
 msgstr "Từ %(source_name)s: %(source_subject)s"
@@ -1819,7 +1819,7 @@ msgid "Give your team the requirements to move an opportunity to this stage."
 msgstr "Đưa yêu cầu cho bộ phận để chuyển một cơ hội sang giai đoạn này."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Go, go, go! Congrats for your first deal."
 msgstr "Tuyệt vời! Chúc mừng thương vụ đầu tiên của bạn."
@@ -1830,7 +1830,7 @@ msgid "Has Message"
 msgstr "Có tin nhắn"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Has a"
 msgstr "Có"
@@ -1852,7 +1852,7 @@ msgstr ""
 "của các tài nguyên đã được cập nhật trước khi thay đổi."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Historic win rate"
 msgstr "Tỷ lệ đạt trong quá khứ"
@@ -1961,7 +1961,7 @@ msgid "Import & Synchronize"
 msgstr "Nhập & đồng bộ"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Import Template for Leads & Opportunities"
 msgstr "Nhập mẫu cho lead & cơ hội"
@@ -1996,7 +1996,7 @@ msgstr ""
 "giờ một lần)"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid ""
 "Invalid repeat frequency. Consider changing frequency type instead of using "
@@ -2066,7 +2066,7 @@ msgid "Language"
 msgstr "Ngôn ngữ"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Language is"
 msgstr "Ngôn ngữ là"
@@ -2087,7 +2087,7 @@ msgid "Last Automation:"
 msgstr "Tự động hóa cuối cùng:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Last Meeting"
 msgstr "Cuộc gặp cuối"
@@ -2165,7 +2165,7 @@ msgid "Lead Assignment Filter"
 msgstr "Bộ lọc phân công lead"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Lead Assignment requested by %(user_name)s"
 msgstr "Phân công lead được yêu cầu bởi %(user_name)s"
@@ -2232,13 +2232,13 @@ msgid "Lead Tags"
 msgstr "Thẻ lead"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Lead or Opportunity"
 msgstr "Lead hoặc cơ hội"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "Lead/Opportunities automatic assignment is limited to managers or "
@@ -2251,7 +2251,7 @@ msgid "Lead/Opportunity created"
 msgstr "Lead/Cơ hội được tạo"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lost_reason.py:0
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_lead
 #: model:ir.actions.act_window,name:crm.crm_lead_all_leads
@@ -2299,7 +2299,7 @@ msgstr ""
 "phân tích lead theo các nhóm khác nhau để có được phân tích chính xác."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Leads Assigned"
 msgstr "Lead đã phân công"
@@ -2359,13 +2359,13 @@ msgid "Leads/Opportunities count"
 msgstr "Số lead/cơ hội"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Learn More"
 msgstr "Tìm hiểu thêm"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let's <b>Schedule an Activity.</b>"
 msgstr "Hãy <b>lên lịch một hoạt động.</b>"
@@ -2377,7 +2377,7 @@ msgid "Let's get to work!"
 msgstr "Hãy bắt đầu nào!"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let’s have a look at an Opportunity."
 msgstr "Hãy xem qua một cơ hội."
@@ -2408,7 +2408,7 @@ msgid "Locale Code"
 msgstr "Mã vị trí"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Located in"
 msgstr "Tại"
@@ -2419,7 +2419,7 @@ msgid "Looks like nothing is planned."
 msgstr "Có vẻ như không có kế hoạch nào."
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid ""
 "Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep "
@@ -2441,7 +2441,7 @@ msgid "Lost"
 msgstr "Mất"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/wizard/crm_lead_lost.py:0
 msgid "Lost Comment"
 msgstr "Bình luận về trường hợp bị mất"
@@ -2482,7 +2482,7 @@ msgid "Low"
 msgstr "Thấp"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_kanban/crm_column_progress.xml:0
 msgid "MRR"
 msgstr "MRR"
@@ -2583,7 +2583,7 @@ msgid "Meeting Display Label"
 msgstr "Nhãn hiển thị cuộc họp"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Meeting scheduled at %s"
 msgstr "Cuộc họp được lên lịch vào %s"
@@ -2595,7 +2595,7 @@ msgid "Meetings"
 msgstr "Cuộc họp"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team_member.py:0
 msgid ""
 "Member assignment domain for user %(user)s and team %(team)s is incorrectly "
@@ -2605,7 +2605,7 @@ msgstr ""
 "được định dạng không chính xác"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team_member.py:0
 msgid ""
 "Member preferred assignment domain for user %(user)s and team %(team)s is "
@@ -2709,7 +2709,7 @@ msgid "My Pipeline"
 msgstr "Quy trình bán hàng của tôi"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0 model:crm.stage,name:crm.stage_lead1
 msgid "New"
 msgstr "Mới"
@@ -2750,7 +2750,7 @@ msgid "Next Activity Type"
 msgstr "Loại hoạt động tiếp theo"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Next Meeting"
 msgstr "Cuộc gặp tiếp theo"
@@ -2761,25 +2761,25 @@ msgid "Next Run"
 msgstr "Lần chạy tiếp theo"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No"
 msgstr "Không"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Meeting"
 msgstr "Không có cuộc gặp"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Subject"
 msgstr "Không tiêu đề"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to %(team_name)s team and its salespersons because no "
@@ -2790,7 +2790,7 @@ msgstr ""
 "của bộ phận đó."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to %(team_name)s team because it has no capacity. Add "
@@ -2800,7 +2800,7 @@ msgstr ""
 "lượng. Thêm dung lượng cho nhân viên sales của đội."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No allocated leads to any team or salesperson. Check your Sales Teams and "
@@ -2822,13 +2822,13 @@ msgid "No data found!"
 msgstr "Không tìm thấy dữ liệu!"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No detours, no delays - from %(stage_name)s straight to the win! 🚀"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No lead assigned to salespersons because no unassigned lead matches their "
@@ -2838,7 +2838,7 @@ msgstr ""
 "phân công khớp với quy tắc của họ."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid ""
 "No new lead allocated to %(team_name)s team because no unassigned lead "
@@ -2848,7 +2848,7 @@ msgstr ""
 "lead chưa được phân công nào phù hợp với quy tắc của bộ phận đó."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
@@ -2892,7 +2892,7 @@ msgid "Notes:"
 msgstr "Ghi chú:"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Now, <b>add your Opportunity</b> to your Pipeline."
 msgstr "Bây giờ, <b>thêm cơ hội của bạn</b> vào quy trình bán hàng."
@@ -2983,7 +2983,7 @@ msgid "Opp. Lost Reason"
 msgstr "Lý do mất cơ hội"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_partner.py:0
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_opportunity
 #: model:ir.actions.act_window,name:crm.crm_lead_opportunities
@@ -3187,7 +3187,7 @@ msgid "Pending"
 msgstr "Đang chờ"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Phew, that took some effort — but you nailed it. Good job!"
 msgstr ""
@@ -3218,7 +3218,7 @@ msgid "Phone:"
 msgstr "Điện thoại:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_team.py:0
 #: model:ir.actions.act_window,name:crm.crm_lead_action_pipeline
 #: model:ir.model.fields,field_description:crm.field_crm_team__use_opportunities
@@ -3371,7 +3371,7 @@ msgid "Ratings"
 msgstr "Đánh giá"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Ready to boost your sales? Let's have a look at your <b>Pipeline</b>."
 msgstr ""
@@ -3428,7 +3428,7 @@ msgid "Repeat every"
 msgstr "Lặp lại mỗi"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid "Repeat frequency should be positive."
 msgstr "Tần suất lặp lại phải lớn hơn 0."
@@ -3566,7 +3566,7 @@ msgid "Search Opportunities"
 msgstr "Tìm kiếm cơ hội"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "See AI-computed chances details"
 msgstr ""
@@ -3577,7 +3577,7 @@ msgid "Select a Lost Reason..."
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
 msgstr "Chọn ít nhất hai Lead/Cơ hội từ danh sách để gộp chúng."
@@ -3670,7 +3670,7 @@ msgid "Source"
 msgstr "Nguồn"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Source is"
 msgstr "Nguồn là"
@@ -3681,7 +3681,7 @@ msgid "Source:"
 msgstr "Nguồn:"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/res_config_settings.py:0
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__stage_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead__stage_id
@@ -3778,7 +3778,7 @@ msgid "Street2"
 msgstr "Đường2"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Subject: "
 msgstr "Tiêu đề: "
@@ -3805,7 +3805,7 @@ msgid "Tag"
 msgstr "Thẻ"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Tagged as"
 msgstr "Được gắn thẻ là"
@@ -3853,7 +3853,7 @@ msgstr ""
 "mới được phân công cho kênh này."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "The lead %s cannot be won and lost at the same time."
 msgstr "Không thể vừa đạt vừa mất lead %s cùng một lúc."
@@ -3873,10 +3873,10 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
 "Tên của bí danh email, ví dụ: 'jobs' nếu bạn muốn nhận email gửi đến địa chỉ "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
@@ -3981,7 +3981,7 @@ msgstr ""
 "danh sách email"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "This new lead created by %(creation_source)s was automatically assigned to "
@@ -4060,7 +4060,7 @@ msgid "Tip: Turn a selection of opportunities into a map"
 msgstr "Mẹo: Biến một nhóm cơ hội thành bản đồ"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "To prevent data loss, Leads and Opportunities can only be merged by groups "
@@ -4082,13 +4082,13 @@ msgid "Too expensive"
 msgstr "Quá đắt"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Negatives"
 msgstr "Top tiêu cực"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Positives"
 msgstr "Top tích cực"
@@ -4239,7 +4239,7 @@ msgid "Use the <i>New</i> button, or send an email to"
 msgstr "Sử dụng nút <i>Mới</i> hoặc gửi một email tới"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
 "Use the <i>New</i> button, or send an email to %(email_link)s to test the "
@@ -4378,19 +4378,19 @@ msgid "Won/Lost"
 msgstr "Đạt/Mất"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Wow, that was fast. That deal didn’t stand a chance!"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yay, your first win from %(utm_source_name)s!"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yeah! Best deal out of the last 7 days for the team."
 msgstr ""
@@ -4401,37 +4401,37 @@ msgid "Yearly"
 msgstr "Hàng năm"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yes"
 msgstr "Có"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "You can make your opportunity advance through your pipeline from here."
 msgstr "Bạn có thể thúc đẩy cơ hội trong quy trình bán hàng của mình từ đây."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You don't have the access needed to run this cron."
 msgstr "Bạn không có quyền truy cập cần thiết để chạy cron này."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 30 days."
 msgstr "Bạn vừa phá kỷ lục của chính mình trong 30 ngày qua."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 7 days."
 msgstr "Bạn vừa phá kỷ lục của chính mình trong 7 ngày qua."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just expanded the map! First win in %(country)s."
 msgstr ""
@@ -4450,13 +4450,13 @@ msgstr ""
 "hơn thế nữa."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on a winning streak. 3 deals in 3 days, congrats!"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on fire! Fifth deal won today 🔥"
 msgstr ""
@@ -4508,7 +4508,7 @@ msgid "e.g. mycompany.com"
 msgstr "VD: mycompany.com"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "email address"
 msgstr "địa chỉ email"
@@ -4524,49 +4524,49 @@ msgid "generate opportunities in your pipeline?<br>"
 msgstr "tạo cơ hội trong quy trình bán hàng của bạn?<br>"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "has value"
 msgstr "có giá trị"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "incoming email"
 msgstr ""
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lost_reason.py:0
 msgid "lost_reason_id"
 msgstr "lost_reason_id"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/forecast_kanban/forecast_kanban_column_quick_create.js:0
 msgid "next %s"
 msgstr "%s tiếp theo"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "phone number"
 msgstr "số điện thoại"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "sample data"
 msgstr "dữ liệu mẫu"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "stage"
 msgstr "giai đoạn"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "team"
 msgstr "bộ phận"
@@ -4577,7 +4577,7 @@ msgid "team_count"
 msgstr "team_count"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "this lead"
 msgstr "lead này"
@@ -4595,25 +4595,25 @@ msgstr ""
 "email này."
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "type"
 msgstr "loại"
 
 #. module: crm
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "unknown"
 msgstr "không xác định"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid email address"
 msgstr "địa chỉ email hợp lệ"
 
 #. module: crm
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid phone number"
 msgstr "số điện thoại hợp lệ"

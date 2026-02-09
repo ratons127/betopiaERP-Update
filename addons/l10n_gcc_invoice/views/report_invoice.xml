@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <template id="l10n_gcc_report_invoice_document" inherit_id="account.report_invoice_document" primary="True">
             <t t-set="o" position="after">
@@ -323,7 +323,7 @@
             </xpath>
         </template>
 
-        <!-- Workaround for Studio reports, see BetopiaERP/BetopiaERP#60660 -->
+        <!-- Workaround for Studio reports, see betopiaerp/betopiaerp#60660 -->
         <template id="report_invoice" inherit_id="account.report_invoice">
             <xpath expr='//t[@t-call="account.report_invoice_document"]' position="after">
                 <t t-elif="o._get_name_invoice_report() == 'l10n_gcc_invoice.l10n_gcc_report_invoice_document'"
@@ -332,4 +332,4 @@
             </xpath>
         </template>
     </data>
-</BetopiaERP>
+</betopiaerp>

@@ -1,13 +1,13 @@
 import { browser } from "@web/core/browser/browser";
-import { describe, test, expect } from "@BetopiaERP/hoot";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { describe, test, expect } from "@betopiaerp/hoot";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import {
     mountWithCleanup,
     patchWithCleanup,
     mockService,
     makeDialogMockEnv,
 } from "@web/../tests/web_test_helpers";
-import { click, freezeTime, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { click, freezeTime, queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     ClientErrorDialog,
     Error504Dialog,
@@ -146,7 +146,7 @@ test("WarningDialog", async () => {
     await mountWithCleanup(WarningDialog, {
         env,
         props: {
-            exceptionName: "BetopiaERP.exceptions.UserError",
+            exceptionName: "betopiaerp.exceptions.UserError",
             message: "...",
             data: { arguments: ["Some strange unreadable message"] },
             close() {},

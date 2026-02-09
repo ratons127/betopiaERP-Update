@@ -1,4 +1,4 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { getFirstListFunction } from "../list_helpers";
 import { Domain } from "@web/core/domain";
 import { ListDataSource } from "../list_data_source";
@@ -55,12 +55,12 @@ export class ListCoreViewPlugin extends BetopiaERPCoreViewPlugin {
      */
     handle(cmd) {
         switch (cmd.type) {
-            case "INSERT_BetopiaERP_LIST": {
+            case "INSERT_BETOPIAERP_LIST": {
                 const { id, linesNumber } = cmd;
                 this._setupListDataSource(id, linesNumber);
                 break;
             }
-            case "DUPLICATE_BetopiaERP_LIST": {
+            case "DUPLICATE_BETOPIAERP_LIST": {
                 this._setupListDataSource(cmd.newListId, 0);
                 break;
             }
@@ -73,8 +73,8 @@ export class ListCoreViewPlugin extends BetopiaERPCoreViewPlugin {
             case "SET_GLOBAL_FILTER_VALUE":
                 this._addDomains();
                 break;
-            case "UPDATE_BetopiaERP_LIST":
-            case "UPDATE_BetopiaERP_LIST_DOMAIN": {
+            case "UPDATE_BETOPIAERP_LIST":
+            case "UPDATE_BETOPIAERP_LIST_DOMAIN": {
                 const listDefinition = this.getters.getListModelDefinition(cmd.listId);
                 const dataSourceId = this._getListDataSourceId(cmd.listId);
                 this.lists[dataSourceId] = new ListDataSource(this.custom, listDefinition);
@@ -104,9 +104,9 @@ export class ListCoreViewPlugin extends BetopiaERPCoreViewPlugin {
 
                 const updateCommands = cmd.commands.filter(
                     (cmd) =>
-                        cmd.type === "UPDATE_BetopiaERP_LIST_DOMAIN" ||
-                        cmd.type === "UPDATE_BetopiaERP_LIST" ||
-                        cmd.type === "INSERT_BetopiaERP_LIST"
+                        cmd.type === "UPDATE_BETOPIAERP_LIST_DOMAIN" ||
+                        cmd.type === "UPDATE_BETOPIAERP_LIST" ||
+                        cmd.type === "INSERT_BETOPIAERP_LIST"
                 );
                 for (const cmd of updateCommands) {
                     if (!this.getters.isExistingList(cmd.listId)) {
@@ -280,7 +280,7 @@ export class ListCoreViewPlugin extends BetopiaERPCoreViewPlugin {
             return undefined;
         }
         const { functionName, args } = getFirstListFunction(cell.compiledFormula.tokens);
-        const fieldArg = functionName === "BetopiaERP.LIST.HEADER" ? args[1] : args[2];
+        const fieldArg = functionName === "BETOPIAERP.LIST.HEADER" ? args[1] : args[2];
         const dataSource = this.getters.getListDataSource(listId);
         if (!fieldArg || !dataSource.isValid()) {
             return undefined;
@@ -316,7 +316,7 @@ export class ListCoreViewPlugin extends BetopiaERPCoreViewPlugin {
         const { functionName } = getFirstListFunction(cell.compiledFormula.tokens);
         const dataSource = this.getters.getListDataSource(listId);
         return (
-            functionName === "BetopiaERP.LIST.HEADER" &&
+            functionName === "BETOPIAERP.LIST.HEADER" &&
             dataSource.isMetaDataLoaded() &&
             this.getters.getListFieldFromPosition(position)?.sortable
         );

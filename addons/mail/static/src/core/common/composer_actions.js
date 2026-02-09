@@ -1,4 +1,4 @@
-import { toRaw, useComponent, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { toRaw, useComponent, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useEmojiPicker } from "@web/core/emoji_picker/emoji_picker";
 
 import { _t } from "@web/core/l10n/translation";
@@ -9,7 +9,7 @@ import { useService } from "@web/core/utils/hooks";
 
 export const composerActionsRegistry = registry.category("mail.composer/actions");
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("@mail/core/common/action").ActionDefinition} ActionDefinition */
 /** @typedef {import("models").Composer} Composer */
 /**

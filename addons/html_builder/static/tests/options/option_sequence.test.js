@@ -6,7 +6,7 @@ import {
     SNIPPET_SPECIFIC,
     splitBetween,
 } from "@html_builder/utils/option_sequence";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 
 const ARBITRARY_FAKE_POSITION = 7777777777;
 

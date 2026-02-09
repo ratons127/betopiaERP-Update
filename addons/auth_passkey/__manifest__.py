@@ -34,6 +34,6 @@ When a user logs in with a Passkey, MFA will not be required.
             'auth_passkey/static/tests/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

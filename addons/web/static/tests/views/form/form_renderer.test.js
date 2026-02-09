@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { defineModels, fields, models, mountView, contains } from "@web/../tests/web_test_helpers";
 
 import { registry } from "@web/core/registry";

@@ -9,6 +9,6 @@
     'data': ['data/gamification_sale_crm_data.xml'],
     'demo': ['data/gamification_sale_crm_demo.xml'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

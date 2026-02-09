@@ -230,10 +230,10 @@ if __name__ == '__main__':
     })
 
     prof = contextlib.nullcontext()
-    if os.environ.get('BetopiaERP_PROFILE_PRELOAD'):
-        interval = float(os.environ.get('BetopiaERP_PROFILE_PRELOAD_INTERVAL', '0.1'))
+    if os.environ.get('BETOPIAERP_PROFILE_PRELOAD'):
+        interval = float(os.environ.get('BETOPIAERP_PROFILE_PRELOAD_INTERVAL', '0.1'))
         collectors = [profiler.PeriodicCollector(interval=interval)]
-        if os.environ.get('BetopiaERP_PROFILE_PRELOAD_SQL'):
+        if os.environ.get('BETOPIAERP_PROFILE_PRELOAD_SQL'):
             collectors.append('sql')
         prof = profiler.Profiler(db=args.database, collectors=collectors)
     try:

@@ -55,4 +55,4 @@ class TestProjectTags(HttpCase, TestProjectCommon):
         ])
 
     def test_01_project_tags(self):
-        self.start_tour("/BetopiaERP", 'project_tags_filter_tour', login="admin")
+        self.start_tour("/betopiaerp", 'project_tags_filter_tour', login="admin")

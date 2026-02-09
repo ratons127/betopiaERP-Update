@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     edit,
@@ -11,8 +11,8 @@ import {
     setInputRange,
     waitFor,
     waitUntil,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { contains } from "@web/../tests/web_test_helpers";
 import { setupEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
@@ -235,7 +235,7 @@ test("select hex color and apply it", async () => {
     expect(queryOne("button[data-color='#017E84']").style.backgroundColor).toBe("rgb(1, 126, 132)");
     expect(getContent(el)).toBe(`<p><font style="color: rgb(1, 126, 132);">test</font></p>`);
 
-    await click(".BetopiaERP-editor-editable");
+    await click(".betopiaerp-editor-editable");
     await animationFrame();
     expect(".o_font_color_selector").toHaveCount(0);
     expect(getContent(el)).toBe(`<p><font style="color: rgb(1, 126, 132);">[test]</font></p>`);
@@ -264,7 +264,7 @@ test("should be able to apply hex color with opacity component", async () => {
     );
     expect(getContent(el)).toBe(`<p><font style="color: rgba(1, 126, 132, 0.5);">test</font></p>`);
 
-    await click(".BetopiaERP-editor-editable");
+    await click(".betopiaerp-editor-editable");
     await animationFrame();
     expect(".o_font_color_selector").toHaveCount(0);
     expect(getContent(el)).toBe(

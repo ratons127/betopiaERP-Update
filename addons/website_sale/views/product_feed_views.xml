@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <record id="product_feed_search" model="ir.ui.view">
         <field name="name">product.feed.view.search</field>
@@ -121,4 +121,4 @@
         <field name="group_ids" eval="[Command.link(ref('base.group_no_one'))]"/>
     </record>
 
-</BetopiaERP>
+</betopiaerp>

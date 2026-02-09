@@ -1,5 +1,5 @@
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { formatCurrency } from "@web/core/currency";
 import {
     ProductTemplateAttributeLine as PTAL

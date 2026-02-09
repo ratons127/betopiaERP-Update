@@ -21,5 +21,5 @@ class Routing(Home):
 class SessionWebsite(Session):
 
     @http.route('/web/session/logout', website=True, multilang=False, sitemap=False)
-    def logout(self, redirect='/BetopiaERP'):
+    def logout(self, redirect='/betopiaerp'):
         return super().logout(redirect=redirect)

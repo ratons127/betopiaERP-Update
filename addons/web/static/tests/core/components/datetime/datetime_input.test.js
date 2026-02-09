@@ -1,11 +1,11 @@
-import { test, expect, describe } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { test, expect, describe } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     assertDateTimePicker,
     editTime,
     getPickerCell,
 } from "../../datetime/datetime_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { DateTimeInput } from "@web/core/datetime/datetime_input";
 import {
     contains,
@@ -14,7 +14,7 @@ import {
     mountWithCleanup,
     serverState,
 } from "@web/../tests/web_test_helpers";
-import { click, edit, queryFirst } from "@BetopiaERP/hoot-dom";
+import { click, edit, queryFirst } from "@betopiaerp/hoot-dom";
 
 const { DateTime } = luxon;
 

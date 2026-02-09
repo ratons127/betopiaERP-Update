@@ -1,9 +1,9 @@
-/** @BetopiaERP-module alias=@web/../tests/qunit default=false */
+/** @betopiaerp-module alias=@web/../tests/qunit default=false */
 
 import { isVisible as isElemVisible } from "@web/core/utils/ui";
 import { fullTraceback, fullAnnotatedTraceback } from "@web/core/errors/error_utils";
 import { registry } from "@web/core/registry";
-import { Component, whenReady } from "@BetopiaERP/owl";
+import { Component, whenReady } from "@betopiaerp/owl";
 
 const consoleError = console.error;
 
@@ -256,7 +256,7 @@ export function setupQUnit() {
      * browser_js is closed as soon as an error is logged.
      */
     QUnit.done(async (result) => {
-        await BetopiaERP.loader.checkErrorProm;
+        await betopiaerp.loader.checkErrorProm;
         const moduleLoadingError = document.querySelector(".o_module_error");
         if (moduleLoadingError) {
             errorMessages.unshift(moduleLoadingError.innerText);
@@ -439,7 +439,7 @@ export function setupQUnit() {
     });
 
     QUnit.begin(function () {
-        if (BetopiaERP.debug && BetopiaERP.debug.includes("assets")) {
+        if (betopiaerp.debug && betopiaerp.debug.includes("assets")) {
             QUnit.annotateTraceback = fullAnnotatedTraceback;
         } else {
             QUnit.annotateTraceback = (err) => Promise.resolve(fullTraceback(err));

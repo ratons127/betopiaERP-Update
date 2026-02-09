@@ -7,7 +7,7 @@ import { browser } from "@web/core/browser/browser";
 import { user } from "@web/core/user";
 import { _t } from "@web/core/l10n/translation";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 /**
  * Replaces specific <field> elements by normal HTML, strip out the rest entirely

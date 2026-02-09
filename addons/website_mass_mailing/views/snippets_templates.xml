@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 <template id="remove_external_snippets" inherit_id="website.external_snippets">
     <xpath expr="//t[@id='newsletter_snippet']" position="replace"/>
 </template>
@@ -304,4 +304,4 @@ database, without the s_newsletter_list class. See fixNewsletterListClass.
     </xpath>
 </template>
 
-</BetopiaERP>
+</betopiaerp>

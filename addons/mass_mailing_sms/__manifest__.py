@@ -7,7 +7,7 @@
     'version': '1.1',
     'category': 'Marketing/Email Marketing',
     'sequence': 245,
-    'website': 'https://www.betopiaerp.com/app/sms-marketing',
+    'website': 'https://www.BetopiaERP.com/app/sms-marketing',
     'depends': [
         'portal',
         'mass_mailing',
@@ -42,6 +42,6 @@
         ],
     },
     'application': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

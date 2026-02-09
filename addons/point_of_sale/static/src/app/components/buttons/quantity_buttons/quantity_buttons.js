@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class QuantityButtons extends Component {
     static template = "point_of_sale.QuantityButtons";

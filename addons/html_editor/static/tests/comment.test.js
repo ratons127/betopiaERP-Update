@@ -1,4 +1,4 @@
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import { testEditor } from "./_helpers/editor";
 
 test("should remove comment node inside editable content during sanitize (1)", async () => {

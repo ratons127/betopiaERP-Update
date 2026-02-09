@@ -1,5 +1,5 @@
 import { attClassObjectToString } from "@mail/utils/common/format";
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 import { ResizablePanel } from "@web/core/resizable_panel/resizable_panel";
 import { useForwardRefToParent, useService } from "@web/core/utils/hooks";
 

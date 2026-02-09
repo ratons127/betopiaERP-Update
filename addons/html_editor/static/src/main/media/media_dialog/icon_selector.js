@@ -1,7 +1,7 @@
 import { SearchMedia } from "./search_media";
 import { fonts } from "@html_editor/utils/fonts";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class IconSelector extends Component {
     static mediaSpecificClasses = ["fa"];

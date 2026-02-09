@@ -7,7 +7,7 @@ import { uniqueId } from "@web/core/utils/functions";
 import { renderToFragment } from "@web/core/utils/render";
 import { verifyHttpsUrl } from "@website/utils/misc";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 const DEFAULT_NUMBER_OF_ELEMENTS = 4;
 const DEFAULT_NUMBER_OF_ELEMENTS_SM = 1;

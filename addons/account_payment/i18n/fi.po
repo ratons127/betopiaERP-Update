@@ -16,16 +16,16 @@
 # Mikko Salmela <salmemik@gmail.com>, 2022
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2022
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025, 2026.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-29 15:08+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_payment/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
@@ -45,7 +45,7 @@ msgstr ""
 "=\"text-primary\">%(date)s</strong>"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "%s day(s) overdue"
 msgstr "%s päivä(ä) myöhässä"
@@ -138,7 +138,7 @@ msgstr ""
 "maksupalveluntarjoajan asetukset."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr "Alennus myönnetään, jos asiakas maksaa ennen %s tai sinä päivänä."
@@ -152,13 +152,13 @@ msgstr ""
 "Laskun tiedoilla on jo suoritettu maksu. Varmista, ettet maksa kahdesti."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 msgstr "Maksutapahtuma viitteellä %s on jo olemassa."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 msgstr "Uuden maksutapahtuman luomiseen vaaditaan tunniste."
@@ -315,7 +315,7 @@ msgid "ID"
 msgstr "Tunnus"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
@@ -344,7 +344,7 @@ msgid "Invoice(s)"
 msgstr "Lasku(t)"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoice_ids
 msgid "Invoices"
@@ -415,25 +415,25 @@ msgstr ""
 "ole käytettävissä."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr "Verkkomaksuvaihtoehtoa ei ole otettu käyttöön asetuksissa."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "Erääntyneillä laskuilla pitäisi olla sama yritys."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 msgstr "Erääntyneillä laskuilla pitäisi olla sama valuutta."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 msgstr "Erääntyneillä laskuilla pitäisi olla sama kumppani."
@@ -538,13 +538,13 @@ msgid "Payments"
 msgstr "Maksut"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr "Kirjaudu sisään maksaaksesi erääntyneet laskusi"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid "Provider"
 msgstr "Palveluntarjoaja"
@@ -556,7 +556,7 @@ msgid "Reference"
 msgstr "Viite"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -616,13 +616,13 @@ msgid "Suitable Payment Token"
 msgstr "Sopiva maksutunniste"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
 msgstr "Pääsytunniste on virheellinen."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
@@ -636,13 +636,13 @@ msgid "The journal in which the successful transactions are posted."
 msgstr "Päiväkirja, johon onnistuneet tapahtumat kirjataan."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 msgid "The payment related to transaction %(ref)s has been posted: %(link)s"
 msgstr "Tapahtumaan %(ref)s liittyvä maksu on kirjattu: %(link)s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 msgstr "Annetut parametrit ovat virheellisiä."
@@ -653,13 +653,13 @@ msgid "The source payment of related refund payments"
 msgstr "Liittyvien takaisinmaksujen lähdemaksu"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "Tälle laskulle on käsiteltävänä olevia tapahtumia."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 msgstr "Ei maksetavaa."
@@ -689,25 +689,25 @@ msgid "There was en error processing your payment: invalid credit card ID."
 msgstr "Maksusi käsittelyssä tapahtui virhe: virheellinen luottokorttitunnus."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Tätä laskua ei voi maksaa verkossa."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 msgstr "Tämä lasku on jo maksettu."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Tätä laskua ei ole kirjattu."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 msgstr "Tämä ei ole lähtevä lasku."
@@ -741,7 +741,7 @@ msgid "Void Transaction"
 msgstr "Mitätöity tapahtuma"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the "
@@ -753,7 +753,7 @@ msgstr ""
 "Linkitetyt palveluntarjoajat: %s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
@@ -763,7 +763,7 @@ msgstr ""
 "olemassa."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
@@ -774,13 +774,13 @@ msgstr ""
 "Linkitetyt palveluntarjoajat: %s"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due in %s day(s)"
 msgstr "erääntyy %s päivän kuluttua"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due today"
 msgstr "erääntyy tänään"

@@ -8,7 +8,7 @@ import { useBus, useService } from "@web/core/utils/hooks";
 import { ActionContainer } from "./actions/action_container";
 import { NavBar } from "./navbar/navbar";
 
-import { Component, onMounted, onWillStart, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, useExternalListener, useState } from "@betopiaerp/owl";
 import { router, routerBus } from "@web/core/browser/router";
 import { browser } from "@web/core/browser/browser";
 import { rpcBus } from "@web/core/network/rpc";
@@ -170,7 +170,7 @@ export class WebClient extends Component {
     registerServiceWorker() {
         if (navigator.serviceWorker) {
             navigator.serviceWorker
-                .register("/web/service-worker.js", { scope: "/BetopiaERP" })
+                .register("/web/service-worker.js", { scope: "/betopiaerp" })
                 .then((registration) => {
                     if (registration.active && registration.active.state === "activated") {
                         this.serviceWorkerActivatedDeferred.resolve();

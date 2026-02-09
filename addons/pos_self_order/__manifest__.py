@@ -124,6 +124,6 @@
             'pos_self_order/static/tests/pos/**/*',
         ],
     },
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

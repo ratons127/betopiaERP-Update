@@ -20,7 +20,7 @@ import { standardViewProps } from "@web/views/standard_view_props";
 import { MultiSelectionButtons } from "@web/views/view_components/multi_selection_buttons";
 import { getLocalYearAndWeek } from "@web/core/l10n/dates";
 
-import { Component, reactive, useState } from "@BetopiaERP/owl";
+import { Component, reactive, useState } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 

@@ -13,9 +13,9 @@ import {
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
 import { DISCUSS_SIDEBAR_COMPACT_LS } from "@mail/core/public_web/discuss_app_model";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, drag, press, queryFirst } from "@BetopiaERP/hoot-dom";
-import { Deferred, mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, drag, press, queryFirst } from "@betopiaerp/hoot-dom";
+import { Deferred, mockDate } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,

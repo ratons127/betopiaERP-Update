@@ -12,7 +12,7 @@ from betopiaerp import api, models, modules
 from betopiaerp.exceptions import RedirectWarning
 from betopiaerp.tools import groupby
 from betopiaerp.tools.mimetypes import guess_mimetype
-from betopiaerp.tools.pdf import betopiaerpPdfFileReader, PdfReadError
+from betopiaerp.tools.pdf import BetopiaERPPdfFileReader, PdfReadError
 
 _logger = logging.getLogger(__name__)
 

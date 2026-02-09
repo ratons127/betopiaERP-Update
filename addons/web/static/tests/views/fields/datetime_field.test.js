@@ -1,4 +1,4 @@
-import { after, expect, test } from "@BetopiaERP/hoot";
+import { after, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     edit,
@@ -7,8 +7,8 @@ import {
     queryAllTexts,
     queryRect,
     resize,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockTimeZone } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, mockTimeZone } from "@betopiaerp/hoot-mock";
 import {
     editTime,
     getPickerCell,

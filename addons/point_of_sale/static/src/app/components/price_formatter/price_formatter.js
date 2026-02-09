@@ -1,5 +1,5 @@
 import { localization } from "@web/core/l10n/localization";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class PriceFormatter extends Component {
     static template = "point_of_sale.PriceFormatter";

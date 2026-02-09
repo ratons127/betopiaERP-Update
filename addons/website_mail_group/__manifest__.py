@@ -25,6 +25,6 @@
             'website_mail_group/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

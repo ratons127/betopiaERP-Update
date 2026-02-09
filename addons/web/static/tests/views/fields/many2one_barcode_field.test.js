@@ -1,5 +1,5 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { mockUserAgent, mockVibrate, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { mockUserAgent, mockVibrate, runAllTimers } from "@betopiaerp/hoot-mock";
 
 import {
     clickSave,

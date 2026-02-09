@@ -26,18 +26,18 @@
 # Halil, 2022
 # Martin Trigaux, 2022
 # İlknur Gözütok, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
-# BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>, 2025.
+# BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2025-11-21 14:45+0000\n"
-"Last-Translator: BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>\n"
-"Language-Team: Turkish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>\n"
+"Language-Team: Turkish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "maintenance/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -508,8 +508,8 @@ msgstr "E-posta cc"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "E-posta alan adı, örneğin 'BetopiaERP@example.com' adresindeki 'example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "E-posta alan adı, örneğin 'betopiaerp@example.com' adresindeki 'example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -517,7 +517,7 @@ msgid "End Date"
 msgstr "Bitiş Tarihi"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "End date cannot be earlier than start date."
 msgstr "Bitiş tarihi başlangıç tarihinden önce olamaz."
@@ -1332,7 +1332,7 @@ msgid "Request Done"
 msgstr "Talep Yapıldı"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 msgstr "Talep %s için planlandı"
@@ -1533,13 +1533,13 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"Eposta rumuzunun adı, ör. <kariyer@example.BetopiaERP.com> adresine gelen "
+"Eposta rumuzunun adı, ör. <kariyer@example.betopiaerp.com> adresine gelen "
 "epostaları yakalamak için 'kariyer'"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "The repeat interval cannot be less than 1."
 msgstr "Tekrar aralığı 1'den az olamaz."
@@ -1664,7 +1664,7 @@ msgid "Years"
 msgstr "Yıllar"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

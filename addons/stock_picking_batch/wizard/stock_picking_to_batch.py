@@ -45,7 +45,7 @@ class StockPickingToBatch(models.TransientModel):
                 'message': '%s',
                 'links': [{
                     'label': batch.name,
-                    'url': f'/BetopiaERP/action-stock_picking_batch.stock_picking_batch_action/{batch.id}',
+                    'url': f'/betopiaerp/action-stock_picking_batch.stock_picking_batch_action/{batch.id}',
                 }],
                 'sticky': False,
                 'next': {'type': 'ir.actions.act_window_close'},

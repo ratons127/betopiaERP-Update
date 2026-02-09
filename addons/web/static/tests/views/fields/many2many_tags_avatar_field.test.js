@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 import { getOrigin } from "@web/core/utils/urls";
 
 import {

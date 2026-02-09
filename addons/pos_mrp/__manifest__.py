@@ -22,6 +22,6 @@ This is a link module between Point of Sale and Mrp.
     },
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

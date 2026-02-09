@@ -1,4 +1,4 @@
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { user } from "@web/core/user";
 import { ConfirmationDialog, deleteConfirmationMessage } from "@web/core/confirmation_dialog/confirmation_dialog";

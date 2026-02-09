@@ -17,7 +17,7 @@ Activates:
 - Taxes
 - Tax Report
     """,
-    'author': 'BetopiaERP S.A., Drysharks Consulting and Trading Ltd.',
+    'author': 'BetopiaERP, Drysharks Consulting and Trading Ltd.',
     'depends': [
         'account',
     ],

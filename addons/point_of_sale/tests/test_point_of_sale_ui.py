@@ -13,4 +13,4 @@ class TestUi(HttpCase):
     @tools.mute_logger('betopiaerp.http')
     def test_01_point_of_sale_tour(self):
 
-        self.start_tour("/BetopiaERP", 'point_of_sale_tour', login="admin")
+        self.start_tour("/betopiaerp", 'point_of_sale_tour', login="admin")

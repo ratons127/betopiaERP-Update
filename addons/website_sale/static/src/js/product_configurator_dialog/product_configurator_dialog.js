@@ -1,4 +1,4 @@
-import { useSubEnv } from '@BetopiaERP/owl';
+import { useSubEnv } from '@betopiaerp/owl';
 import {
     ProductConfiguratorDialog
 } from '@sale/js/product_configurator_dialog/product_configurator_dialog';

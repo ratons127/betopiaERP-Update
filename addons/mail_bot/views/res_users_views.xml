@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP><data>
+<betopiaerp><data>
     <!-- Update user form !-->
     <record id="res_users_view_form" model="ir.ui.view">
         <field name="name">res.users.view.form.mail_bot</field>
@@ -8,11 +8,11 @@
         <field name="arch" type="xml">
             <data>
                 <field name="notification_type" position="after">
-                    <field name="BetopiaERPbot_state" groups="base.group_no_one"
+                    <field name="betopiaerpbot_state" groups="base.group_no_one"
                         readonly="0"
                         invisible="share"/>
                 </field>
             </data>
         </field>
     </record>
-</data></BetopiaERP>
+</data></betopiaerp>

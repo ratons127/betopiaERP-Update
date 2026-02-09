@@ -1,4 +1,4 @@
-import { before, describe, expect, test } from "@BetopiaERP/hoot";
+import { before, describe, expect, test } from "@betopiaerp/hoot";
 import {
     animationFrame,
     drag,
@@ -6,8 +6,8 @@ import {
     runAllTimers,
     setInputFiles,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
-import { useEffect } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { useEffect } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,
@@ -297,7 +297,7 @@ describe("Import view", () => {
         const templateURL = "/myTemplateURL.xlsx";
         const secondTemplateURL = "/mySecondTemplateURL.xlsx";
 
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
 
         onRpc("partner", "get_import_templates", ({ route }) => {
             expect.step(route);
@@ -314,7 +314,7 @@ describe("Import view", () => {
             "/web/dataset/call_kw/partner/get_import_templates",
             "/web/dataset/call_kw/base_import.import/create",
         ]);
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/action-2/import");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/action-2/import");
         expect(".o_import_action").toHaveCount(1);
         expect(".o_nocontent_help .btn-outline-primary").toHaveCount(2);
         expect(".o_nocontent_help > div:nth-of-type(2) .btn-outline-primary").toHaveText(
@@ -337,7 +337,7 @@ describe("Import view", () => {
     test("open import directlty from URL", async () => {
         const templateURL = "/myTemplateURL.xlsx";
 
-        redirect("/BetopiaERP/action-2/import");
+        redirect("/betopiaerp/action-2/import");
 
         onRpc("partner", "get_import_templates", ({ route }) => {
             expect.step(route);
@@ -350,7 +350,7 @@ describe("Import view", () => {
             "/web/dataset/call_kw/partner/get_import_templates",
             "/web/dataset/call_kw/base_import.import/create",
         ]);
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/action-2/import");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/action-2/import");
         expect(".o_import_action").toHaveCount(1);
     });
 
@@ -367,7 +367,7 @@ describe("Import view", () => {
         onRpc("base_import.import", "parse_preview", ({ route }) => expect.step(route));
         onRpc("base_import.import", "create", ({ route }) => expect.step(route));
 
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         await getService("action").doAction(1);
         expect.verifySteps([
@@ -449,7 +449,7 @@ describe("Import view", () => {
             });
         });
         onRpc("base_import.import", "create", ({ route }) => expect.step(route));
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         await getService("action").doAction(1);
         expect.verifySteps([
@@ -657,7 +657,7 @@ describe("Import view", () => {
         onRpc("base_import.import", "execute_import", ({ route }) => {
             expect.step(route);
         });
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         await getService("action").doAction(1);
         expect.verifySteps(["action"]);
@@ -682,7 +682,7 @@ describe("Import view", () => {
         ]);
         expect(".o_list_view").toHaveCount(1);
         expect(browser.location.href).toBe(
-            "https://www.hoot.test/BetopiaERP/action-2/import/imported-records"
+            "https://www.hoot.test/betopiaerp/action-2/import/imported-records"
         );
     });
 
@@ -738,7 +738,7 @@ describe("Import view", () => {
             },
         });
 
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         onRpc("base_import.import", "parse_preview", ({ route }) => {
             expect.step(route);
@@ -1275,7 +1275,7 @@ describe("Import view", () => {
             },
         });
 
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         onRpc("base_import.import", "execute_import", ({ args }) => executeImport(args, true));
         await getService("action").doAction(1);
@@ -1538,7 +1538,7 @@ describe("Import view", () => {
 
     test("date format should be converted to strftime", async () => {
         let parseCount = 0;
-        redirect("/BetopiaERP/action-2");
+        redirect("/betopiaerp/action-2");
         await mountWebClient();
         onRpc("base_import.import", "parse_preview", async ({ args }) => {
             parseCount++;
@@ -1616,7 +1616,7 @@ describe("Import view", () => {
         ]);
 
         await runAllTimers(); // wait for router pushState
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/import?active_model=team");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/import?active_model=team");
     });
 
     test("model in params is the main model (retrocompatibility)", async () => {
@@ -1656,7 +1656,7 @@ describe("Import view", () => {
         ]);
 
         await runAllTimers(); // wait for router pushState
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/import?active_model=team");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/import?active_model=team");
     });
 
     test.tags("desktop");

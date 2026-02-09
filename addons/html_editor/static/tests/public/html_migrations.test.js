@@ -1,6 +1,6 @@
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
-import { afterEach, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryOne } from "@BetopiaERP/hoot-dom";
+import { afterEach, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryOne } from "@betopiaerp/hoot-dom";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";

@@ -1,7 +1,7 @@
 import { defineMailModels, start } from "@mail/../tests/mail_test_helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { markup } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { markup } from "@betopiaerp/owl";
 
 import { deserializeDateTime, serializeDateTime } from "@web/core/l10n/dates";
 import { getService, serverState } from "@web/../tests/web_test_helpers";

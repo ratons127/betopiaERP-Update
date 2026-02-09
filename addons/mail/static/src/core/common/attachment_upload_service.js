@@ -1,4 +1,4 @@
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { Deferred } from "@web/core/utils/concurrency";

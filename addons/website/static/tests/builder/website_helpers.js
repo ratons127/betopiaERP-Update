@@ -10,8 +10,8 @@ import { SetupEditorPlugin } from "@html_builder/core/setup_editor_plugin";
 import { Plugin } from "@html_editor/plugin";
 import { withSequence } from "@html_editor/utils/resource";
 import { defineMailModels, startServer } from "@mail/../tests/mail_test_helpers";
-import { describe } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, click, queryOne, tick, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, click, queryOne, tick, waitFor } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

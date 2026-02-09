@@ -1,4 +1,4 @@
-import { Component, markRaw, reactive, useChildSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, markRaw, reactive, useChildSubEnv, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 class DialogWrapper extends Component {
@@ -17,7 +17,7 @@ class DialogWrapper extends Component {
 /**
  *  @typedef {{
  *      add(
- *          Component: typeof import("@BetopiaERP/owl").Component,
+ *          Component: typeof import("@betopiaerp/owl").Component,
  *          props: {},
  *          options?: DialogServiceInterfaceAddOptions
  *      ): () => void;

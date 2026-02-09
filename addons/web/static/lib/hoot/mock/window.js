@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
 import {
     mockedCancelAnimationFrame,
@@ -720,7 +720,7 @@ export function watchListeners(view = getWindow()) {
  * @param {T} target
  * @param {string[]} [whiteList]
  * @example
- *  afterEach(watchKeys(window, ["BetopiaERP"]));
+ *  afterEach(watchKeys(window, ["betopiaerp"]));
  */
 export function watchKeys(target, whiteList) {
     const acceptedKeys = new Set([...$ownKeys(target), ...(whiteList || [])]);

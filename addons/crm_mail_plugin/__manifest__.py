@@ -8,7 +8,7 @@
     'sequence': 5,
     'summary': 'Turn emails received in your mailbox into leads and log their content as internal notes.',
     'description': "Turn emails received in your mailbox into leads and log their content as internal notes.",
-    'website': 'https://www.betopiaerp.com/app/crm',
+    'website': 'https://www.BetopiaERP.com/app/crm',
     'depends': [
         'crm',
         'mail_plugin',
@@ -19,6 +19,6 @@
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

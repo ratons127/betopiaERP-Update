@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";

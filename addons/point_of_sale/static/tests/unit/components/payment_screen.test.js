@@ -1,8 +1,8 @@
-import { test, animationFrame } from "@BetopiaERP/hoot";
+import { test, animationFrame } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupPosEnv, getFilledOrder, expectFormattedPrice } from "../utils";
 import { definePosModels } from "../data/generate_model_definitions";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { queryOne } from "@betopiaerp/hoot-dom";
 import { PaymentScreen } from "@point_of_sale/app/screens/payment_screen/payment_screen";
 
 definePosModels();

@@ -1,4 +1,4 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { CartPage } from "@pos_self_order/app/pages/cart_page/cart_page";
 import { setupSelfPosEnv, getFilledSelfOrder, addComboProduct } from "../utils";

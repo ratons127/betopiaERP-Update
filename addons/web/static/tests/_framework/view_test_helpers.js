@@ -11,8 +11,8 @@ import {
     queryFirst,
     runAllTimers,
     tick,
-} from "@BetopiaERP/hoot";
-import { Component, onMounted, useSubEnv, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot";
+import { Component, onMounted, useSubEnv, xml } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { View } from "@web/views/view";
@@ -46,7 +46,7 @@ import { registerInlineViewArchs } from "./mock_server/mock_model";
  *  text?: string;
  * }} SelectorOptions
  *
- * @typedef {import("@BetopiaERP/hoot").FormatXmlOptions} FormatXmlOptions
+ * @typedef {import("@betopiaerp/hoot").FormatXmlOptions} FormatXmlOptions
  * @typedef {import("@web/views/view").ViewProps} ViewProps
  * @typedef {import("./mock_server/mock_model").ViewType} ViewType
  */

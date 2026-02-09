@@ -32,67 +32,67 @@ class TestAddonPaths(TransactionCase):
         self.assertFalse(asset_paths.list)
 
         asset_paths.append([
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 1),
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 1),
         ], 'bundle1')
         self.assertEqual(asset_paths.list, [
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 'bundle1', 1),
         ])
 
         # append with a duplicate of 'c'
         asset_paths.append([
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 1),
-            ('/home/user/BetopiaERP/addons/web/f', '/web/f', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 1),
+            ('/home/user/betopiaerp/addons/web/f', '/web/f', 1),
         ], 'bundle2')
         self.assertEqual(asset_paths.list, [
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/f', '/web/f', 'bundle2', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/f', '/web/f', 'bundle2', 1),
         ])
 
         # insert with a duplicate of 'c' after 'c'
         asset_paths.insert([
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 1),
-            ('/home/user/BetopiaERP/addons/web/e', '/web/e', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 1),
+            ('/home/user/betopiaerp/addons/web/e', '/web/e', 1),
         ], 'bundle3', 3)
         self.assertEqual(asset_paths.list, [
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/e', '/web/e', 'bundle3', 1),
-            ('/home/user/BetopiaERP/addons/web/f', '/web/f', 'bundle2', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/e', '/web/e', 'bundle3', 1),
+            ('/home/user/betopiaerp/addons/web/f', '/web/f', 'bundle2', 1),
         ])
 
         # insert with a duplicate of 'd' before 'd'
         asset_paths.insert([
-            ('/home/user/BetopiaERP/addons/web/b', '/web/b', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 1),
+            ('/home/user/betopiaerp/addons/web/b', '/web/b', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 1),
         ], 'bundle4', 1)
         self.assertEqual(asset_paths.list, [
 
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/b', '/web/b', 'bundle4', 1),
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/e', '/web/e', 'bundle3', 1),
-            ('/home/user/BetopiaERP/addons/web/f', '/web/f', 'bundle2', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/b', '/web/b', 'bundle4', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/e', '/web/e', 'bundle3', 1),
+            ('/home/user/betopiaerp/addons/web/f', '/web/f', 'bundle2', 1),
         ])
 
         # remove
         asset_paths.remove([
-            ('/home/user/BetopiaERP/addons/web/c', '/web/c', 1),
-            ('/home/user/BetopiaERP/addons/web/d', '/web/d', 1),
-            ('/home/user/BetopiaERP/addons/web/g', '/web/g', 1),
+            ('/home/user/betopiaerp/addons/web/c', '/web/c', 1),
+            ('/home/user/betopiaerp/addons/web/d', '/web/d', 1),
+            ('/home/user/betopiaerp/addons/web/g', '/web/g', 1),
         ], 'bundle5')
         self.assertEqual(asset_paths.list, [
-            ('/home/user/BetopiaERP/addons/web/a', '/web/a', 'bundle1', 1),
-            ('/home/user/BetopiaERP/addons/web/b', '/web/b', 'bundle4', 1),
-            ('/home/user/BetopiaERP/addons/web/e', '/web/e', 'bundle3', 1),
-            ('/home/user/BetopiaERP/addons/web/f', '/web/f', 'bundle2', 1),
+            ('/home/user/betopiaerp/addons/web/a', '/web/a', 'bundle1', 1),
+            ('/home/user/betopiaerp/addons/web/b', '/web/b', 'bundle4', 1),
+            ('/home/user/betopiaerp/addons/web/e', '/web/e', 'bundle3', 1),
+            ('/home/user/betopiaerp/addons/web/f', '/web/f', 'bundle2', 1),
         ])
 
 
@@ -644,7 +644,7 @@ class TestJavascriptAssetsBundle(FileTouchable):
         <meta/>
         <script type="text/javascript" src="http://test.external.link/javascript1.js"></script>
         <script type="text/javascript" src="http://test.external.link/javascript2.js"></script>
-        <script type="text/javascript" src="{links[5]}" onerror="__BetopiaERPAssetError=1"></script>
+        <script type="text/javascript" src="{links[5]}" onerror="__betopiaerpAssetError=1"></script>
     </head>
     <body>
     </body>
@@ -661,7 +661,7 @@ class TestJavascriptAssetsBundle(FileTouchable):
         <meta/>
         <script type="text/javascript" src="http://test.external.link/javascript1.js"></script>
         <script type="text/javascript" src="http://test.external.link/javascript2.js"></script>
-        <script type="text/javascript" src="/web/assets/debug/test_assetsbundle.bundle4.js" onerror="__BetopiaERPAssetError=1"></script>
+        <script type="text/javascript" src="/web/assets/debug/test_assetsbundle.bundle4.js" onerror="__betopiaerpAssetError=1"></script>
     </head>
     <body>
     </body>
@@ -2081,7 +2081,7 @@ class AssetsNodeOrmCacheUsage(TransactionCase):
         self.assertEqual(len(qweb_keys), 1, "lazy_load shouldn't create another entry")
 
 @tagged('-at_install', 'post_install')
-@unittest.skipIf(os.getenv("BetopiaERP_FAKETIME_TEST_MODE"), "This test cannot work with faketime")
+@unittest.skipIf(os.getenv("BETOPIAERP_FAKETIME_TEST_MODE"), "This test cannot work with faketime")
 class TestErrorManagement(HttpCase):
 
     def test_assets_bundle_css_error_backend(self):
@@ -2093,7 +2093,7 @@ class TestErrorManagement(HttpCase):
         })
 
         with mute_logger('betopiaerp.addons.base.models.assetsbundle'):
-            self.start_tour('/BetopiaERP', 'css_error_tour', login='admin')
+            self.start_tour('/betopiaerp', 'css_error_tour', login='admin')
 
     def test_assets_bundle_css_error_frontend(self):
         whatever = {'website_id': website.search([], limit=1).id} if (website := self.env.get('website')) else {}

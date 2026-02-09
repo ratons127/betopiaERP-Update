@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 
 import { useMessageActions } from "@mail/core/common/message_actions";
 import { MessageReactionList } from "@mail/core/common/message_reaction_list";

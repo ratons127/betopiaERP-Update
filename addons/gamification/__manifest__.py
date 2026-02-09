@@ -9,7 +9,7 @@
     'description': """
 Gamification process
 ====================
-The Gamification module provides ways to evaluate and motivate the users of betopiaerp.
+The Gamification module provides ways to evaluate and motivate the users of BetopiaERP.
 
 The users can be evaluated using goals and numerical objectives to reach.
 **Goals** are assigned through **challenges** to evaluate and compare members of a team with each others and through time.
@@ -49,6 +49,6 @@ Both goals and badges are flexibles and can be adapted to a large range of modul
             'gamification/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

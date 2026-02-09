@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/views/helpers default=false */
+/** @betopiaerp-module alias=@web/../tests/views/helpers default=false */
 
 import { makeTestEnv } from "@web/../tests/helpers/mock_env";
 import { getFixture, mount, nextTick } from "@web/../tests/helpers/utils";
@@ -16,7 +16,7 @@ import {
     setupControlPanelServiceRegistry,
 } from "../search/helpers";
 
-import { Component, useSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, useSubEnv, xml } from "@betopiaerp/owl";
 
 const serviceRegistry = registry.category("services");
 

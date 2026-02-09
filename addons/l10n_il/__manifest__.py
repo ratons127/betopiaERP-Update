@@ -14,7 +14,7 @@ This module consists of:
  - Taxes and tax report
  - Multiple Fiscal positions
  """,
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],
@@ -26,6 +26,6 @@ This module consists of:
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

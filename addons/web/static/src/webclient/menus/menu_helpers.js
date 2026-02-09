@@ -34,7 +34,7 @@ export function computeAppsAndMenuItems(menuTree) {
             id: menuItem.id,
             xmlid: menuItem.xmlid,
             actionID: menuItem.actionID,
-            href: `/BetopiaERP/${menuItem.actionPath || "action-" + menuItem.actionID}`,
+            href: `/betopiaerp/${menuItem.actionPath || "action-" + menuItem.actionID}`,
             appID: menuItem.appID,
         };
         if (isApp) {

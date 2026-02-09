@@ -7,10 +7,10 @@
     """,
 
     'author': "BetopiaERP",
-    'website': "https://www.betopiaerp.com",
+    'website': "https://www.BetopiaERP.com",
 
     # Categories can be used to filter modules in modules listing
-    # Check https://github.com/BetopiaERP/BetopiaERP/blob/15.0/BetopiaERP/addons/base/data/ir_module_category_data.xml
+    # Check https://github.com/betopiaerp/betopiaerp/blob/15.0/betopiaerp/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
     'version': '0.1',

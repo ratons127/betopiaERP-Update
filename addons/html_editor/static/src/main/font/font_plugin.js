@@ -32,7 +32,7 @@ import {
     SUPPORTED_BASE_CONTAINER_NAMES,
 } from "@html_editor/utils/base_container";
 import { withSequence } from "@html_editor/utils/resource";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { FontSizeSelector } from "./font_size_selector";
 import { isHtmlContentSupported } from "@html_editor/core/selection_plugin";
 import { weakMemoize } from "@html_editor/utils/functions";

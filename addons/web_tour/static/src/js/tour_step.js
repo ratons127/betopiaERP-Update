@@ -1,6 +1,6 @@
 import { session } from "@web/session";
 import { utils } from "@web/core/ui/ui_service";
-import * as hoot from "@BetopiaERP/hoot-dom";
+import * as hoot from "@betopiaerp/hoot-dom";
 import { pick } from "@web/core/utils/objects";
 
 /**

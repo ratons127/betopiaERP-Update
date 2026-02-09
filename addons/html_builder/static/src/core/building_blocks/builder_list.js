@@ -5,7 +5,7 @@ import {
     useInputBuilderComponent,
 } from "@html_builder/core/utils";
 import { isSmallInteger } from "@html_builder/utils/utils";
-import { Component, onWillUpdateProps, useRef } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useRef } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { _t } from "@web/core/l10n/translation";

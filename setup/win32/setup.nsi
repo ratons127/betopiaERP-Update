@@ -1,4 +1,4 @@
-# Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
+ï»¿# Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 
 # TODO: Avoid to uninstall the database
 # TODO: We can update the server or the clients without to uninstall the all-in-one
@@ -40,7 +40,7 @@ Unicode True
     Exch $R2
 !macroend
 
-!define PUBLISHER 'BetopiaERP S.A.'
+!define PUBLISHER 'BetopiaERP'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '15'
@@ -63,11 +63,11 @@ Unicode True
 !endif
 
 !ifndef SERVICENAME
-	!define SERVICENAME 'BetopiaERP-server-${VERSION}'
+	!define SERVICENAME 'betopiaerp-server-${VERSION}'
 !endif
 
 !ifndef TOOLSDIR
-	!define TOOLSDIR 'c:\BetopiaERPbuild'
+	!define TOOLSDIR 'c:\betopiaerpbuild'
 !endif
 
 !define PRODUCT_NAME "BetopiaERP"
@@ -87,7 +87,7 @@ Unicode True
 
 Name '${DISPLAY_NAME}'
 Caption "${PRODUCT_NAME} ${VERSION} Setup"
-OutFile "${TOOLSDIR}\server\BetopiaERP_setup_${VERSION}.exe"
+OutFile "${TOOLSDIR}\server\betopiaerp_setup_${VERSION}.exe"
 SetCompressor /SOLID /FINAL lzma
 ShowInstDetails hide
 
@@ -116,12 +116,12 @@ Var HWNDPostgreSQLPassword
 !define PIXMAPS_PATH "${STATIC_PATH}\pixmaps"
 
 !define MUI_ABORTWARNING
-!define MUI_ICON "${PIXMAPS_PATH}\BetopiaERP-icon.ico"
+!define MUI_ICON "${PIXMAPS_PATH}\betopiaerp-icon.ico"
 
-!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\BetopiaERP-intro.bmp"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\BetopiaERP-intro.bmp"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\betopiaerp-intro.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\betopiaerp-intro.bmp"
 !define MUI_HEADERIMAGE
-!define MUI_HEADERIMAGE_BITMAP "${PIXMAPS_PATH}\BetopiaERP-slogan.bmp"
+!define MUI_HEADERIMAGE_BITMAP "${PIXMAPS_PATH}\betopiaerp-slogan.bmp"
 !define MUI_HEADERIMAGE_BITMAP_NOSTRETCH
 !define MUI_HEADER_TRANSPARENT_TEXT ""
 
@@ -176,25 +176,25 @@ LangString UnsafeDirText ${LANG_ENGLISH} "Installing outside of $PROGRAMFILES64 
 
 ; French
 LangString DESC_BetopiaERP_Server ${LANG_FRENCH} "Installation du Serveur BetopiaERP avec tous les modules BetopiaERP standards."
-LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de données PostgreSQL utilisée par BetopiaERP."
+LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de donnÃ©es PostgreSQL utilisÃ©e par BetopiaERP."
 LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez BetopiaERP pour un Partenariat et/ou du Support"
 LangString DESC_AtLeastOneComponent ${LANG_FRENCH} "Vous devez choisir au moins un composant"
-LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de données PostgreSQL sans le serveur BetopiaERP"
+LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de donnÃ©es PostgreSQL sans le serveur BetopiaERP"
 LangString WARNING_HostNameIsEmpty ${LANG_FRENCH} "L'adresse pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_UserNameIsEmpty ${LANG_FRENCH} "Le nom d'utilisateur pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_PasswordIsEmpty ${LANG_FRENCH} "Le mot de passe pour la connection au serveur PostgreSQL est vide"
-LangString WARNING_PortIsWrong ${LANG_FRENCH} "Le port pour la connection au serveur PostgreSQL est erroné (défaut: 5432)"
+LangString WARNING_PortIsWrong ${LANG_FRENCH} "Le port pour la connection au serveur PostgreSQL est erronÃ© (dÃ©faut: 5432)"
 LangString DESC_PostgreSQLPage ${LANG_FRENCH} "Configurez les informations de connection pour le serveur PostgreSQL"
-LangString DESC_PostgreSQL_Hostname ${LANG_FRENCH} "Hôte"
+LangString DESC_PostgreSQL_Hostname ${LANG_FRENCH} "HÃ´te"
 LangString DESC_PostgreSQL_Port ${LANG_FRENCH} "Port"
 LangString DESC_PostgreSQL_Username ${LANG_FRENCH} "Utilisateur"
 LangString DESC_PostgreSQL_Password ${LANG_FRENCH} "Mot de passe"
 LangString Profile_AllInOne ${LANG_FRENCH} "Serveur BetopiaERP Et Serveur PostgreSQL"
 LangString Profile_Server ${LANG_FRENCH} "Seulement Le Serveur BetopiaERP"
 LangString TITLE_BetopiaERP_Server ${LANG_FRENCH} "Serveur BetopiaERP"
-LangString TITLE_PostgreSQL ${LANG_FRENCH} "Installation du serveur de base de données PostgreSQL"
-LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer BetopiaERP"
-LangString UnsafeDirText ${LANG_FRENCH} "Installer en dehors de $PROGRAMFILES64 n'est pas recommandé.$\nVoulez-vous continuer ?"
+LangString TITLE_PostgreSQL ${LANG_FRENCH} "Installation du serveur de base de donnÃ©es PostgreSQL"
+LangString DESC_FinishPageText ${LANG_FRENCH} "DÃ©marrer BetopiaERP"
+LangString UnsafeDirText ${LANG_FRENCH} "Installer en dehors de $PROGRAMFILES64 n'est pas recommandÃ©.$\nVoulez-vous continuer ?"
 
 InstType /NOCUSTOM
 InstType $(Profile_AllInOne)
@@ -224,27 +224,27 @@ Section $(TITLE_BetopiaERP_Server) SectionBetopiaERP_Server
     File /r "${TOOLSDIR}\wkhtmltopdf\*"
 
     # If there is a previous install of the BetopiaERP Server, keep the login/password from the config file
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "db_host" $TextPostgreSQLHostname
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "db_user" $TextPostgreSQLUsername
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "db_password" $TextPostgreSQLPassword
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "db_port" $TextPostgreSQLPort
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "db_host" $TextPostgreSQLHostname
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "db_user" $TextPostgreSQLUsername
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "db_password" $TextPostgreSQLPassword
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "db_port" $TextPostgreSQLPort
     # Fix the addons path
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "addons_path" "$INSTDIR\server\BetopiaERP\addons"
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "bin_path" "$INSTDIR\thirdparty"
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "addons_path" "$INSTDIR\server\betopiaerp\addons"
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "bin_path" "$INSTDIR\thirdparty"
 
     # if we're going to install postgresql force it's path,
     # otherwise we consider it's always done and/or correctly tune by users
     ${If} $HasPostgreSQL == 0
-        WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "pg_path" "$INSTDIR\PostgreSQL\bin"
+        WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "pg_path" "$INSTDIR\PostgreSQL\bin"
     ${EndIf}
 
     # Productivity Apps
-    WriteIniStr "$INSTDIR\server\BetopiaERP.conf" "options" "default_productivity_apps" "True"
+    WriteIniStr "$INSTDIR\server\betopiaerp.conf" "options" "default_productivity_apps" "True"
     DetailPrint "Installing Windows service"
-    nsExec::ExecTOLog '"$INSTDIR\python\python.exe" "$INSTDIR\server\BetopiaERP-bin" --stop-after-init -c "$INSTDIR\server\BetopiaERP.conf" --logfile "$INSTDIR\server\BetopiaERP.log" -s'
+    nsExec::ExecTOLog '"$INSTDIR\python\python.exe" "$INSTDIR\server\betopiaerp-bin" --stop-after-init -c "$INSTDIR\server\betopiaerp.conf" --logfile "$INSTDIR\server\betopiaerp.log" -s'
     nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe"'
     nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppDirectory "$\"$INSTDIR\python$\""'
-    nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppParameters "\"$INSTDIR\server\BetopiaERP-bin\" -c "\"$INSTDIR\server\BetopiaERP.conf\"'
+    nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppParameters "\"$INSTDIR\server\betopiaerp-bin\" -c "\"$INSTDIR\server\betopiaerp.conf\"'
 
     Call RestartBetopiaERPService
 SectionEnd
@@ -288,10 +288,10 @@ Section -Post
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayName" "${DISPLAY_NAME}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayVersion" "${MAJOR_VERSION}.${MINOR_VERSION}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Publisher" "${PUBLISHER}"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@BetopiaERP.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@betopiaerp.com"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpTelephone" "+32.81.81.37.00"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "URLInfoAbout" "https://www.BetopiaERP.com"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@BetopiaERP.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@betopiaerp.com"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoModify" "1"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoRepair" "1"
     WriteUninstaller "$INSTDIR\Uninstall.exe"

@@ -7,7 +7,7 @@ import { isBinarySize } from "@web/core/utils/binary";
 import { fileTypeMagicWordMap } from "@web/views/fields/image/image_field";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 const placeholder = "/web/static/img/placeholder.png";
 

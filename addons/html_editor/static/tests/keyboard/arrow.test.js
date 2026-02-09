@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
-import { tick } from "@BetopiaERP/hoot-mock";
-import { press } from "@BetopiaERP/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
+import { press } from "@betopiaerp/hoot-dom";
 import { simulateArrowKeyPress } from "../_helpers/user_actions";
 import { getContent, setSelection } from "../_helpers/selection";
 import { unformat } from "../_helpers/format";

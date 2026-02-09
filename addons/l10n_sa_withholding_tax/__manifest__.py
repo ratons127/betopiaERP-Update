@@ -2,9 +2,9 @@
 {
     'name': 'Saudi Arabia - Withholding Tax',
     'icon': '/account/static/description/l10n.png',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'category': 'Accounting/Localizations/Account Charts',
-    'website': 'https://www.betopiaerp.com/documentation/master/applications/finance/fiscal_localizations/saudi_arabia.html',
+    'website': 'https://www.BetopiaERP.com/documentation/master/applications/finance/fiscal_localizations/saudi_arabia.html',
     'description': """
 Saudi Arabia Withholding Tax Module
 

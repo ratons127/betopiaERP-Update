@@ -1,4 +1,4 @@
-import { markRaw, markup, toRaw } from "@BetopiaERP/owl";
+import { markRaw, markup, toRaw } from "@betopiaerp/owl";
 import { serializeDate, serializeDateTime } from "@web/core/l10n/dates";
 import { _t } from "@web/core/l10n/translation";
 import { x2ManyCommands } from "@web/core/orm_service";

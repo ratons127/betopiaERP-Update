@@ -631,7 +631,7 @@ registry.category("web_tour.tours").add("test_form_view_mail_triggers", {
 });
 
 registry.category("web_tour.tours").add("base_automation.on_change_rule_creation", {
-    url: "/BetopiaERP/action-base_automation.base_automation_act",
+    url: "/betopiaerp/action-base_automation.base_automation_act",
     steps: () => [
         {
             trigger: ".o-kanban-button-new",

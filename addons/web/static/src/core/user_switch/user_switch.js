@@ -1,4 +1,4 @@
-import { Component, useRef, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useRef, useState, useEffect } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { getLastConnectedUsers, setLastConnectedUsers } from "@web/core/user";
 import { imageUrl } from "@web/core/utils/urls";

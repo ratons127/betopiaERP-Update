@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { hover, leave } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { hover, leave } from "@betopiaerp/hoot-dom";
 
 import { switchToEditMode } from "../../helpers";
 

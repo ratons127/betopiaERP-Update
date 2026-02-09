@@ -1,14 +1,14 @@
 Contributing to BetopiaERP
 ====================
 
-[Full contribution guidelines](https://github.com/BetopiaERP/BetopiaERP/wiki/Contributing)
+[Full contribution guidelines](https://github.com/betopiaerp/betopiaerp/wiki/Contributing)
 
 TL;DR
 
-* If you [make a pull request](https://github.com/BetopiaERP/BetopiaERP/wiki/Contributing#making-pull-requests),
+* If you [make a pull request](https://github.com/betopiaerp/betopiaerp/wiki/Contributing#making-pull-requests),
   do not create an issue! Use the PR description for that
 * Issues are handled with a much lower priority than pull requests
-* Use this [template](https://github.com/BetopiaERP/BetopiaERP/wiki/Contributing#reporting-issues)
+* Use this [template](https://github.com/betopiaerp/betopiaerp/wiki/Contributing#reporting-issues)
   when reporting issues. Please search for duplicates first!
-* Pull requests must be made against the [correct version](https://github.com/BetopiaERP/BetopiaERP/wiki/Contributing#against-which-version-should-i-submit-a-patch)
-* There are restrictions on the kind of [changes allowed in stable series](https://github.com/BetopiaERP/BetopiaERP/wiki/Contributing#what-does-stable-mean)
+* Pull requests must be made against the [correct version](https://github.com/betopiaerp/betopiaerp/wiki/Contributing#against-which-version-should-i-submit-a-patch)
+* There are restrictions on the kind of [changes allowed in stable series](https://github.com/betopiaerp/betopiaerp/wiki/Contributing#what-does-stable-mean)

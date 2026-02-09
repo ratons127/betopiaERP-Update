@@ -5,7 +5,7 @@ import { TagsList } from "@web/core/tags_list/tags_list";
 import { Operation } from "@web/model/relational_model/operation";
 import { Field, fieldVisualFeedback } from "@web/views/fields/field";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class ListConfirmationDialog extends Component {
     static template = "web.ListView.ConfirmationModal";

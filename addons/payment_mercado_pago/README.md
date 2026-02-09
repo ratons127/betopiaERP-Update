@@ -32,10 +32,10 @@ payments from the merchant's website.
 ## Module history
 
 - `19.0`
-  - OAuth support is added in addition to the credentials-based authentication. BetopiaERP/BetopiaERP#194998
-  - Support for tokenization is added. BetopiaERP/BetopiaERP#194998
+  - OAuth support is added in addition to the credentials-based authentication. betopiaerp/betopiaerp#194998
+  - Support for tokenization is added. betopiaerp/betopiaerp#194998
 - `16.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#83957
+  - The first version of the module is merged. betopiaerp/betopiaerp#83957
 
 ## Testing instructions
 

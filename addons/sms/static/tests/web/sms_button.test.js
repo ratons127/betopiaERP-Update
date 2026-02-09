@@ -4,7 +4,7 @@ import {
     editInput,
     startServer
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { defineSMSModels } from "@sms/../tests/sms_test_helpers";
 import { MockServer, asyncStep, mockService, mountView, waitForSteps } from "@web/../tests/web_test_helpers";
 

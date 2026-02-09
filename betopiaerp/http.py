@@ -258,7 +258,7 @@ No CSRF validation token provided for path %r
 
 BetopiaERP URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
-https://www.betopiaerp.com/documentation/master/developer/reference/addons/http.html#csrf
+https://www.BetopiaERP.com/documentation/master/developer/reference/addons/http.html#csrf
 for more details.
 
 * if this endpoint is accessed through BetopiaERP via py-QWeb form, embed a CSRF
@@ -694,7 +694,7 @@ class Controller:
         super().__init_subclass__()
         if Controller in cls.__bases__:
             path = cls.__module__.split('.')
-            module = path[2] if path[:2] == ['BetopiaERP', 'addons'] else ''
+            module = path[2] if path[:2] == ['betopiaerp', 'addons'] else ''
             Controller.children_classes[module].append(cls)
 
     @property
@@ -807,7 +807,7 @@ def _generate_routing_rules(modules, nodb_only, converters=None):
     def is_valid(cls):
         """ Determine if the class is defined in an addon. """
         path = cls.__module__.split('.')
-        return path[:2] == ['BetopiaERP', 'addons'] and path[2] in modules
+        return path[:2] == ['betopiaerp', 'addons'] and path[2] in modules
 
     def get_leaf_classes(cls):
         """
@@ -828,11 +828,11 @@ def _generate_routing_rules(modules, nodb_only, converters=None):
         defined at the given ``modules`` (often system wide modules or
         installed modules). Modules in this context are BetopiaERP addons.
         """
-        # Controllers defined outside of BetopiaERP addons are outside of the
+        # Controllers defined outside of betopiaerp addons are outside of the
         # controller inheritance/extension mechanism.
         yield from (ctrl() for ctrl in Controller.children_classes.get('', []))
 
-        # Controllers defined inside of BetopiaERP addons can be extended in
+        # Controllers defined inside of betopiaerp addons can be extended in
         # other installed addons. Rebuild the class inheritance here.
         highest_controllers = []
         for module in modules:
@@ -1316,8 +1316,8 @@ class GeoIP(collections.abc.Mapping):
     .. code-block:
 
         >>> GeoIP('127.0.0.1').country.iso_code
-        >>> BetopiaERP_ip = socket.gethostbyname('betopiaerp.com')
-        >>> GeoIP(BetopiaERP_ip).country.iso_code
+        >>> betopiaerp_ip = socket.gethostbyname('betopiaerp.com')
+        >>> GeoIP(betopiaerp_ip).country.iso_code
         'FR'
     """
 
@@ -1780,7 +1780,7 @@ class Request:
             dbname = session.db
             if header_dbname and header_dbname != dbname:
                 e = ("Cannot use both the session_id cookie and the "
-                     "x-BetopiaERP-database header.")
+                     "x-betopiaerp-database header.")
                 raise werkzeug.exceptions.Forbidden(e)
         elif header_dbname:
             session.can_save = False  # stateless
@@ -2802,9 +2802,9 @@ class Application:
                         _logger.warning("Database or registry unusable, trying without", exc_info=e.__cause__)
                         request.db = None
                         request.session.logout()
-                        if (httprequest.path.startswith('/BetopiaERP/')
+                        if (httprequest.path.startswith('/betopiaerp/')
                             or httprequest.path in (
-                                '/BetopiaERP', '/web', '/web/login', '/test_http/ensure_db',
+                                '/betopiaerp', '/web', '/web/login', '/test_http/ensure_db',
                             )):
                             # ensure_db() protected routes, remove ?db= from the query string
                             args_nodb = request.httprequest.args.copy()

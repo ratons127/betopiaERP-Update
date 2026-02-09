@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, tick } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, tick } from "@betopiaerp/hoot-dom";
 import { defineStyle } from "@web/../tests/web_test_helpers";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 

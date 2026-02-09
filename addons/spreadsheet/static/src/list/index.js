@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 import "./list_functions";
 
@@ -19,23 +19,23 @@ const { coreTypes, invalidateEvaluationCommands } = spreadsheet;
 
 const { cellMenuRegistry } = spreadsheet.registries;
 
-coreTypes.add("INSERT_BetopiaERP_LIST");
-coreTypes.add("RENAME_BetopiaERP_LIST");
-coreTypes.add("REMOVE_BetopiaERP_LIST");
-coreTypes.add("RE_INSERT_BetopiaERP_LIST");
-coreTypes.add("UPDATE_BetopiaERP_LIST_DOMAIN");
-coreTypes.add("UPDATE_BetopiaERP_LIST");
+coreTypes.add("INSERT_BETOPIAERP_LIST");
+coreTypes.add("RENAME_BETOPIAERP_LIST");
+coreTypes.add("REMOVE_BETOPIAERP_LIST");
+coreTypes.add("RE_INSERT_BETOPIAERP_LIST");
+coreTypes.add("UPDATE_BETOPIAERP_LIST_DOMAIN");
+coreTypes.add("UPDATE_BETOPIAERP_LIST");
 coreTypes.add("ADD_LIST_DOMAIN");
-coreTypes.add("DUPLICATE_BetopiaERP_LIST");
+coreTypes.add("DUPLICATE_BETOPIAERP_LIST");
 
-invalidateEvaluationCommands.add("UPDATE_BetopiaERP_LIST_DOMAIN");
-invalidateEvaluationCommands.add("UPDATE_BetopiaERP_LIST");
-invalidateEvaluationCommands.add("INSERT_BetopiaERP_LIST");
-invalidateEvaluationCommands.add("REMOVE_BetopiaERP_LIST");
+invalidateEvaluationCommands.add("UPDATE_BETOPIAERP_LIST_DOMAIN");
+invalidateEvaluationCommands.add("UPDATE_BETOPIAERP_LIST");
+invalidateEvaluationCommands.add("INSERT_BETOPIAERP_LIST");
+invalidateEvaluationCommands.add("REMOVE_BETOPIAERP_LIST");
 
 cellMenuRegistry.add(
     "list_see_record",
-    /** @type {import("@BetopiaERP/o-spreadsheet").ActionSpec}*/ ({
+    /** @type {import("@betopiaerp/o-spreadsheet").ActionSpec}*/ ({
         name: _t("See record"),
         sequence: 200,
         execute: async (env, isMiddleClick) => {
@@ -51,11 +51,11 @@ cellMenuRegistry.add(
 );
 
 inverseCommandRegistry
-    .add("INSERT_BetopiaERP_LIST", identity)
-    .add("UPDATE_BetopiaERP_LIST_DOMAIN", identity)
-    .add("UPDATE_BetopiaERP_LIST", identity)
-    .add("RE_INSERT_BetopiaERP_LIST", identity)
-    .add("RENAME_BetopiaERP_LIST", identity)
-    .add("REMOVE_BetopiaERP_LIST", identity);
+    .add("INSERT_BETOPIAERP_LIST", identity)
+    .add("UPDATE_BETOPIAERP_LIST_DOMAIN", identity)
+    .add("UPDATE_BETOPIAERP_LIST", identity)
+    .add("RE_INSERT_BETOPIAERP_LIST", identity)
+    .add("RENAME_BETOPIAERP_LIST", identity)
+    .add("REMOVE_BETOPIAERP_LIST", identity);
 
 export { ListCorePlugin, ListCoreViewPlugin, ListUIPlugin };

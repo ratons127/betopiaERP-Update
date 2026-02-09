@@ -1,10 +1,10 @@
-import { beforeEach, expect, onError, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, onError, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
 import { clearRegistry, mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { registry } from "@web/core/registry";
 
-import { Component, onWillStart, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState, xml } from "@betopiaerp/owl";
 
 const mainComponentsRegistry = registry.category("main_components");
 

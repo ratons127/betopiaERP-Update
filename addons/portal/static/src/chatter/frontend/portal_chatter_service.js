@@ -1,5 +1,5 @@
 import { PortalChatter } from "@portal/chatter/frontend/portal_chatter";
-import { App } from "@BetopiaERP/owl";
+import { App } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { rpc } from "@web/core/network/rpc";
 import { session } from "@web/session";
@@ -66,7 +66,7 @@ export class PortalChatterService {
             { silent: true }
         );
         this.store.insert(data);
-        BetopiaERP.portalChatterReady.resolve(true);
+        betopiaerp.portalChatterReady.resolve(true);
     }
 }
 

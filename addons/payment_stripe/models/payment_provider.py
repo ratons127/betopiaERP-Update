@@ -39,7 +39,7 @@ class PaymentProvider(models.Model):
     stripe_webhook_secret = fields.Char(
         string="Webhook Signing Secret",
         help="If a webhook is enabled on your Stripe account, this signing secret must be set to "
-             "authenticate the messages sent from Stripe to betopiaerp.",
+             "authenticate the messages sent from Stripe to BetopiaERP.",
         copy=False,
         groups='base.group_system',
     )

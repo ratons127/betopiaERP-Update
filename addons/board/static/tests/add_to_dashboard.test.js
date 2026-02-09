@@ -1,8 +1,8 @@
 import { addToBoardItem } from "@board/add_to_board/add_to_board";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { hover, press, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { hover, press, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import * as dsHelpers from "@web/../tests/core/domain_selector/domain_selector_helpers";
 import {
     contains,

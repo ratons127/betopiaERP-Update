@@ -1,4 +1,4 @@
-import { onMounted, useRef, Component, onWillDestroy } from "@BetopiaERP/owl";
+import { onMounted, useRef, Component, onWillDestroy } from "@betopiaerp/owl";
 import {
     applyTextHighlight,
     textHighlightFactory,

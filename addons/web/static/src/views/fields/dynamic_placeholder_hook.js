@@ -1,6 +1,6 @@
 import { usePopover } from "@web/core/popover/popover_hook";
 import { useService } from "@web/core/utils/hooks";
-import { useComponent } from "@BetopiaERP/owl";
+import { useComponent } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { DynamicPlaceholderPopover } from "./dynamic_placeholder_popover";
 

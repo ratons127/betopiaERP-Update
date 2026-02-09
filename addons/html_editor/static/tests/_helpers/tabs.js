@@ -1,4 +1,4 @@
-import { expect } from "@BetopiaERP/hoot";
+import { expect } from "@betopiaerp/hoot";
 import { testEditor } from "./editor";
 
 export const TAB_WIDTH = 40;
@@ -16,7 +16,7 @@ function setWidths() {
     indentWidths = {};
 
     const rootDiv = document.createElement("div");
-    rootDiv.classList.add("BetopiaERP-editor-editable");
+    rootDiv.classList.add("betopiaerp-editor-editable");
     rootDiv.contentEditable = true;
     document.body.append(rootDiv);
 

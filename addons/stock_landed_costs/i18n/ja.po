@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-13 15:35+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_landed_costs/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -25,13 +25,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s (仕入諸掛: %(landed_cost)s)"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s from %(vendor_bill)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s %(vendor_bill)s に基づく(仕入諸掛: %(landed_cost)s)"
@@ -89,7 +89,7 @@ msgid "Additional Landed Cost"
 msgstr "追加仕入諸掛"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid ""
 "Additional landed costs:\n"
@@ -179,7 +179,7 @@ msgid "Cost Lines"
 msgstr "諸掛明細"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
@@ -420,7 +420,7 @@ msgid "Landed Cost"
 msgstr "仕入諸掛"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/account_move.py:0
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
 #: model:ir.model.fields,field_description:stock_landed_costs.field_account_bank_statement_line__landed_costs_ids
@@ -505,7 +505,7 @@ msgid "Name"
 msgstr "名称"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "New"
 msgstr "新規"
@@ -556,7 +556,7 @@ msgid "Number of messages with delivery error"
 msgstr "配信エラーが発生されたメッセージ数"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Only draft landed costs can be validated"
 msgstr "ドラフトのの仕入諸掛のみを検証することができます"
@@ -572,13 +572,13 @@ msgid "Picking"
 msgstr "ピッキング"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "プロダクト: %s の在庫費用勘定を設定して下さい。"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
 msgstr "これらの追加原価が適用される%sを定義して下さい。"
@@ -701,7 +701,7 @@ msgid "Validate"
 msgstr "確認"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
@@ -747,7 +747,7 @@ msgid "Weight"
 msgstr "重量"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
@@ -757,7 +757,7 @@ msgstr ""
 "入先出法または平均原価計算法のプロダクトのみです。"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
 "You cannot change the product type or disable landed cost option because the "

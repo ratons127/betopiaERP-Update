@@ -1,8 +1,8 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-undef */
 
-const cacheName = "BetopiaERP-pos-cache";
+const cacheName = "betopiaerp-pos-cache";
 
 const fetchCacheRespond = async (event) => {
     const cache = await caches.open(cacheName);

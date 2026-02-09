@@ -781,7 +781,7 @@ class TestAccountMoveInalterableHash(AccountTestInvoicingCommon):
 
     def test_wizard_backwards_compatibility(self):
         """
-        The wizard was introduced in BetopiaERP 17.5 when the hash version was 4.
+        The wizard was introduced in betopiaerp 17.5 when the hash version was 4.
         We check that:
           * We do not hash unhashed moves before the start of the hash sequence
           * The wizard displays information about the date of the first unhashed move:

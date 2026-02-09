@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="l10n_in_ewaybill_stock_inherit_report" inherit_id="l10n_in_ewaybill.report_ewaybill">
         <xpath expr="//h4[@id='ewaybill_header']" position="replace">
             <h4 t-if="doc.state not in ewaybill_states and doc.picking_id">
@@ -13,4 +13,4 @@
             </t>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

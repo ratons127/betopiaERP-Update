@@ -1,4 +1,4 @@
-import { useRef, onMounted, useState, useEffect, onWillDestroy } from "@BetopiaERP/owl";
+import { useRef, onMounted, useState, useEffect, onWillDestroy } from "@betopiaerp/owl";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 
 /** @import { Coordinates, Place } from './google_maps_option_plugin.js' */

@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # Sarah Park, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-05 04:33+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_landed_costs/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -25,13 +25,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s (양륙 비용: %(landed_cost)s)"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s from %(vendor_bill)s (Landed Cost: %(landed_cost)s)"
 msgstr ""
@@ -89,7 +89,7 @@ msgid "Additional Landed Cost"
 msgstr "추가 양륙 비용"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid ""
 "Additional landed costs:\n"
@@ -179,7 +179,7 @@ msgid "Cost Lines"
 msgstr "비용 명세서"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
@@ -419,7 +419,7 @@ msgid "Landed Cost"
 msgstr "양륙 비용"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/account_move.py:0
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
 #: model:ir.model.fields,field_description:stock_landed_costs.field_account_bank_statement_line__landed_costs_ids
@@ -504,7 +504,7 @@ msgid "Name"
 msgstr "이름"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "New"
 msgstr "신규"
@@ -555,7 +555,7 @@ msgid "Number of messages with delivery error"
 msgstr "전송 오류가 발생한 메시지 수입니다."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Only draft landed costs can be validated"
 msgstr "초안의 양륙 비용만 승인이 가능합니다."
@@ -571,13 +571,13 @@ msgid "Picking"
 msgstr "선별"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "제품에 대한 재고 비용 계정을 구성하십시오 : %s"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
 msgstr "해당 추가 비용을 적용해야 하는 %s 항목을 설정하십시오."
@@ -700,7 +700,7 @@ msgid "Validate"
 msgstr "승인"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
@@ -746,7 +746,7 @@ msgid "Weight"
 msgstr "무게"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
@@ -756,7 +756,7 @@ msgstr ""
 "법)이나 평균원가법을 사용하는 품목에만 적용하실 수 있습니다."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
 "You cannot change the product type or disable landed cost option because the "

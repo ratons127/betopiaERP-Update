@@ -4,7 +4,7 @@
 import { onChange } from "@mail/utils/common/misc";
 import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
 import { RecordList } from "./record_list";
-import { reactive, toRaw } from "@BetopiaERP/owl";
+import { reactive, toRaw } from "@betopiaerp/owl";
 import { RecordUses } from "./record_uses";
 
 export class RecordInternal {

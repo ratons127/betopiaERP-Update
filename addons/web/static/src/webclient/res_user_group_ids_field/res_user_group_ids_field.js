@@ -8,7 +8,7 @@ import { standardFieldProps } from "@web/views/fields/standard_field_props";
 import { FormArchParser } from "@web/views/form/form_arch_parser";
 import { FormRenderer } from "@web/views/form/form_renderer";
 
-import { Component, onWillRender, toRaw, useChildSubEnv } from "@BetopiaERP/owl";
+import { Component, onWillRender, toRaw, useChildSubEnv } from "@betopiaerp/owl";
 
 /**
  * This widget is only used for the 'group_ids' field of the 'res.users'
@@ -97,7 +97,7 @@ class ResUserGroupIdsField extends Component {
                 <group>
                     ${categories.map((category) => this.getCategoryArch(category)).join("")}
                 </group>
-                ${BetopiaERP.debug ? this.getExtraGroupsArch() : ""}
+                ${betopiaerp.debug ? this.getExtraGroupsArch() : ""}
             </t>`;
         this.archInfo = new FormArchParser().parse(parseXML(arch), models, "main");
 

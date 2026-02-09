@@ -1,6 +1,6 @@
 import { setupHTMLBuilder } from "@html_builder/../tests/helpers";
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { animationFrame, press } from "@BetopiaERP/hoot-dom";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { animationFrame, press } from "@betopiaerp/hoot-dom";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

@@ -1,11 +1,11 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { deleteBackward, insertText } from "../_helpers/user_actions";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { descendants } from "@html_editor/utils/dom_traversal";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { tick } from "@betopiaerp/hoot-mock";
 import { getContent, setSelection } from "../_helpers/selection";
 import { cleanLinkArtifacts } from "../_helpers/format";
-import { animationFrame, pointerDown, pointerUp, queryOne } from "@BetopiaERP/hoot-dom";
+import { animationFrame, pointerDown, pointerUp, queryOne } from "@betopiaerp/hoot-dom";
 import { dispatchNormalize } from "../_helpers/dispatch";
 import { nodeSize } from "@html_editor/utils/position";
 import { expectElementCount } from "../_helpers/ui_expectations";

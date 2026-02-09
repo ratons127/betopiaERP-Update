@@ -11,8 +11,8 @@
         =====================
         This module allows the user to send their invoices to the Ecpay system.
     """,
-    "website": "https://www.betopiaerp.com",
-    'author': 'BetopiaERP S.A.',
+    "website": "https://www.BetopiaERP.com",
+    'author': 'BetopiaERP',
     "license": "LGPL-3",
     "depends": ["l10n_tw", "base_vat"],
     "data": [

@@ -1,4 +1,4 @@
-import { Component, useState, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useState, useEffect, useRef } from "@betopiaerp/owl";
 
 export class SettingsApp extends Component {
     static template = "web.SettingsApp";

@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { getColorHex, getTag, isFirefox, isInstanceOf, isIterable } from "../hoot_dom_utils";
 import {

@@ -268,9 +268,9 @@ def add_banner(pdf_stream, text=None, logo=False, thickness=SENTINEL):
     packet = io.BytesIO()
     can = canvas.Canvas(packet)
     with file_open('base/static/img/main_partner-image.png', mode='rb') as f:
-        BetopiaERP_logo_file = io.BytesIO(f.read())
-    BetopiaERP_logo = Image.open(BetopiaERP_logo_file)
-    BetopiaERP_color = colors.Color(113 / 255, 75 / 255, 103 / 255, 0.8)
+        betopiaerp_logo_file = io.BytesIO(f.read())
+    betopiaerp_logo = Image.open(betopiaerp_logo_file)
+    betopiaerp_color = colors.Color(113 / 255, 75 / 255, 103 / 255, 0.8)
 
     for p in range(old_pdf.getNumPages()):
         page = old_pdf.getPage(p)
@@ -287,7 +287,7 @@ def add_banner(pdf_stream, text=None, logo=False, thickness=SENTINEL):
         path.lineTo(-width, -2 * thickness)
         path.lineTo(width, -2 * thickness)
         path.lineTo(width, -thickness)
-        can.setFillColor(BetopiaERP_color)
+        can.setFillColor(betopiaerp_color)
         can.drawPath(path, fill=1, stroke=False)
 
         # Insert text (and logo) inside the banner
@@ -295,7 +295,7 @@ def add_banner(pdf_stream, text=None, logo=False, thickness=SENTINEL):
         can.setFillColor(colors.white)
         can.drawRightString(0.75 * thickness, -1.45 * thickness, text)
         logo and can.drawImage(
-            ImageReader(BetopiaERP_logo), 0.25 * thickness, -2.05 * thickness, 40, 40, mask='auto', preserveAspectRatio=True)
+            ImageReader(betopiaerp_logo), 0.25 * thickness, -2.05 * thickness, 40, 40, mask='auto', preserveAspectRatio=True)
 
         can.showPage()
 
@@ -453,8 +453,8 @@ class BetopiaERPPdfFileWriter(PdfFileWriter):
             })
     addAttachment = add_attachment
 
-    def embed_BetopiaERP_attachment(self, attachment, subtype=None):
-        assert attachment, "embed_BetopiaERP_attachment cannot be called without attachment."
+    def embed_betopiaerp_attachment(self, attachment, subtype=None):
+        assert attachment, "embed_betopiaerp_attachment cannot be called without attachment."
         self.addAttachment(attachment.name, attachment.raw, subtype=subtype or attachment.mimetype)
 
     def cloneReaderDocumentRoot(self, reader):
@@ -595,7 +595,7 @@ class BetopiaERPPdfFileWriter(PdfFileWriter):
         struct_tree_root = DictionaryObject({NameObject("/Type"): NameObject("/StructTreeRoot")})
         self._root_object[NameObject("/StructTreeRoot")] = struct_tree_root
 
-        # Set BetopiaERP as producer
+        # Set betopiaerp as producer
         self.addMetadata({
             '/Creator': "BetopiaERP",
             '/Producer': "BetopiaERP",

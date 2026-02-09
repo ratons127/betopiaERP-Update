@@ -9,7 +9,7 @@ import {
     useRef,
     useState,
     useExternalListener,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { KeepLast } from "@web/core/utils/concurrency";
 
 /**

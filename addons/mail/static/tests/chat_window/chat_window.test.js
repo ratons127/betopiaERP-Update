@@ -21,9 +21,9 @@ import {
     triggerHotkey,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate, tick } from "@BetopiaERP/hoot-mock";
-import { EventBus } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate, tick } from "@betopiaerp/hoot-mock";
+import { EventBus } from "@betopiaerp/owl";
 import {
     Command,
     contains as webContains,
@@ -198,7 +198,7 @@ test("Open chatwindow as a non member", async () => {
     const messageId = pyEnv["mail.message"].create({
         model: "discuss.channel",
         body: "A needaction message to have it in messaging menu",
-        author_id: serverState.BetopiaERPbotId,
+        author_id: serverState.betopiaerpbotId,
         needaction: true,
         res_id: channelId,
     });
@@ -279,7 +279,7 @@ test("chat window: close on ESCAPE (multi)", async () => {
 test("Close composer suggestions in chat window with ESCAPE does not also close the chat window", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });
@@ -507,10 +507,10 @@ test("chat window should open when receiving a new DM", async () => {
     await assertChatBubbleAndWindowImStatus("DemoUser", 1);
 });
 
-test("chat window should not open when receiving a new DM from BetopiaERPbot", async () => {
+test("chat window should not open when receiving a new DM from betopiaerpbot", async () => {
     mockDate("2023-01-03 12:00:00"); // so that it's after last interest (mock server is in 2019 by default!)
     const pyEnv = await startServer();
-    const userId = pyEnv["res.users"].create({ partner_id: serverState.BetopiaERPbotId });
+    const userId = pyEnv["res.users"].create({ partner_id: serverState.betopiaerpbotId });
     const channelId = pyEnv["discuss.channel"].create({
         channel_member_ids: [
             Command.create({
@@ -518,7 +518,7 @@ test("chat window should not open when receiving a new DM from BetopiaERPbot", a
                 last_interest_dt: "2021-01-01 10:00:00",
                 partner_id: serverState.partnerId,
             }),
-            Command.create({ partner_id: serverState.BetopiaERPbotId }),
+            Command.create({ partner_id: serverState.betopiaerpbotId }),
         ],
         channel_type: "chat",
     });

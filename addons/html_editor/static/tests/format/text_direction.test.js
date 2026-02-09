@@ -1,8 +1,8 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { insertText, switchDirection } from "../_helpers/user_actions";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { press, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { press, queryAllTexts } from "@betopiaerp/hoot-dom";
 import { getContent } from "../_helpers/selection";
 import { expectElementCount } from "../_helpers/ui_expectations";
 

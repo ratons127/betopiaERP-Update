@@ -14,4 +14,4 @@ class TestWebsiteSettings(betopiaerp.tests.HttpCase):
         if group_order_template:
             self.env.ref('base.group_user').write({"implied_ids": [(4, group_order_template.id)]})
         self.env['website'].create({'name': "Website Test Settings", 'specific_user_account': True})
-        self.start_tour("/BetopiaERP", 'website_settings_m2o_dirty', login="admin")
+        self.start_tour("/betopiaerp", 'website_settings_m2o_dirty', login="admin")

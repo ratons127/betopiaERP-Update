@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onMounted, onWillDestroy, useState } from "@BetopiaERP/owl";
+import { onMounted, onWillDestroy, useState } from "@betopiaerp/owl";
 
 export class ProductsDesignPanel extends BaseOptionComponent {
     static template = "website_sale.ProductsDesignPanel";

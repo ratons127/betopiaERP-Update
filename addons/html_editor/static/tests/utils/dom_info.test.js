@@ -8,7 +8,7 @@ import {
     nextLeaf,
     previousLeaf,
 } from "@html_editor/utils/dom_info";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { insertTestHtml } from "../_helpers/editor";
 import { isBlock } from "../../src/utils/blocks";
 

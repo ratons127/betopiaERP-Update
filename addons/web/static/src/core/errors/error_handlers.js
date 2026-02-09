@@ -168,7 +168,7 @@ errorHandlerRegistry.add("defaultHandler", defaultHandler, { sequence: 100 });
  * all errors if we're not an internal user (except in debug or test mode).
  */
 export function swallowAllVisitorErrors(env, error, originalError) {
-    if (!user.isInternalUser && !BetopiaERP.debug && !session.test_mode) {
+    if (!user.isInternalUser && !betopiaerp.debug && !session.test_mode) {
         return true;
     }
 }

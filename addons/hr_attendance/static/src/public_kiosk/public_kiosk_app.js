@@ -1,4 +1,4 @@
-import { App, whenReady, Component, useState } from "@BetopiaERP/owl";
+import { App, whenReady, Component, useState } from "@betopiaerp/owl";
 import { CardLayout } from "@hr_attendance/components/card_layout/card_layout";
 import { KioskManualSelection } from "@hr_attendance/components/manual_selection/manual_selection";
 import { makeEnv, startServices } from "@web/env";

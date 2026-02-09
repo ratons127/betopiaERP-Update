@@ -9,8 +9,8 @@
 # Martin Trigaux, 2022
 # Raymond Yu <cl_yu@hotmail.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Chloe Wang (chwa)" <chwa@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -18,9 +18,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-20 09:38+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@BetopiaERP.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/product/zh_Hans/>\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@betopiaerp.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/product/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "\n"
@@ -63,7 +63,7 @@ msgid "$15.00"
 msgstr "$15.00"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
@@ -76,7 +76,7 @@ msgstr ""
 "例：%(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "%(item_name)s: end date (%(end_date)s) should be after start date (%"
@@ -85,25 +85,25 @@ msgstr ""
 "%(item_name)s：结束日期（%(end_date)s）应在开始日期（%(start_date)s）之后"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
 msgstr "%(percentage)s %% %(discount_type)s 在 %(base)s %(extra)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on %(pricelist)s"
 msgstr "%(pricelist)s的%(percentage)s%% 折扣"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on sales price"
 msgstr "%(percentage)s %% 销售价格折扣"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_category.py:0
 #: code:addons/product/models/product_pricelist.py:0
 #: code:addons/product/models/product_tag.py:0
@@ -126,25 +126,25 @@ msgid "'Products packaging - %s' % (object.uom_id.name)"
 msgstr "'产品包装 - %s' % (object.uom_id.name)"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "(e.g: product description, ebook, legal notice, ...)."
 msgstr "（例如：产品描述、电子书、法律声明......）。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "+ %(amount)s extra fee"
 msgstr "+ %(amount)s 额外费用"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "- %(amount)s rebate"
 msgstr "- %(amount)s回扣"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
@@ -388,25 +388,25 @@ msgid "A barcode can only be assigned to one packaging."
 msgstr "一个条码只能分配给一种包装 。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
 msgstr "组合选择不能包含重复的产品。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
 msgstr "组合选择不能包含“组合”类型的产品。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
 msgstr "组合选择必须包含至少 1 个产品。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
 msgstr "组合产品必须包含至少 1 个组合选项。"
@@ -423,7 +423,7 @@ msgstr ""
 "单/信用单"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "A packaging already uses the barcode"
 msgstr "已经有包装使用该条码"
@@ -442,7 +442,7 @@ msgstr ""
 "这是处理多种定价、季节性折扣等的完美工具。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "A pricelist item with \"Other Pricelist\" as base must have a "
@@ -450,13 +450,13 @@ msgid ""
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_uom.py:0
 msgid "A product already uses the barcode"
 msgstr "已经有产品使用该条码"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "A sellable combo product can only contain sellable products."
 msgstr "可销售组合产品只能包含可销售产品。"
@@ -538,19 +538,19 @@ msgid "Activity Type Icon"
 msgstr "活动类型图标"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Add"
 msgstr "添加"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add Products"
 msgstr "添加产品"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Add Products to pricelist report"
 msgstr "将产品添加到价格表报表"
@@ -561,13 +561,13 @@ msgid "Add a price"
 msgstr "添加价格"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add a quantity"
 msgstr "添加数量"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
@@ -577,7 +577,7 @@ msgstr ""
 "将它们纳入报表中。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
 msgstr "添加到所有产品"
@@ -609,7 +609,7 @@ msgid "All"
 msgstr "全部"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "All Categories"
 msgstr "所有类别"
@@ -625,7 +625,7 @@ msgid "All Product Variants using this Tag"
 msgstr "所有产品变体都使用该标记"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__3_global
 msgid "All Products"
@@ -642,7 +642,7 @@ msgid "All countries"
 msgstr "所有国家/地区"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/product_document.py:0
 msgid "All files uploaded"
 msgstr "所有文件已上传"
@@ -719,7 +719,7 @@ msgid "Assigns the priority to the list of product vendor."
 msgstr "将优先权分配给产品供应商列表。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid ""
 "At most %s quantities can be displayed simultaneously. Remove a selected "
@@ -798,13 +798,13 @@ msgid "Attributes & Variants"
 msgstr "属性和变体"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Order"
 msgstr "返回订单"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Quotation"
 msgstr "返回报价单"
@@ -817,7 +817,7 @@ msgid "Barcode"
 msgstr "条码"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "Barcode(s) already assigned:\n"
@@ -897,7 +897,7 @@ msgid "Brown"
 msgstr "棕色"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Bye-bye, record!"
 msgstr "再见，记录！"
@@ -943,13 +943,13 @@ msgid "Category"
 msgstr "类别"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Category: %s"
 msgstr "类别：%s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid ""
@@ -1050,13 +1050,13 @@ msgid "Combo Price"
 msgstr "组合价格"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Combo products can't have attributes."
 msgstr "产品组合不可有属性。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
@@ -1193,7 +1193,7 @@ msgid "Create a new product variant"
 msgstr "创建新产品变体"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "Create a product"
 msgstr "创建产品"
@@ -1316,7 +1316,7 @@ msgid "Database Data"
 msgstr "数据库数据"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/res_company.py:0
 msgid "Default"
 msgstr "默认"
@@ -1353,7 +1353,7 @@ msgid "Define your weight unit of measure"
 msgstr "定义重量计量单位"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Delete"
@@ -1483,7 +1483,7 @@ msgid "Document"
 msgstr "文档"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 #: model:ir.model.fields,field_description:product.field_product_product__product_document_ids
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_ids
@@ -1513,7 +1513,7 @@ msgid "Download"
 msgstr "下载"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Download examples"
 msgstr "下载示例"
@@ -1600,7 +1600,7 @@ msgid "Ergonomic"
 msgstr "人类工程学"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
 msgstr "导出文件时出错。请再试一次。"
@@ -2021,19 +2021,19 @@ msgid "Image is a link"
 msgstr "图像是一个链接"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Import Template for Pricelists"
 msgstr "价格表的导入模板"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Import Template for Products"
 msgstr "导入模板-产品"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_supplierinfo.py:0
 msgid "Import Template for Vendor Pricelists"
 msgstr "供应商价格表的导入模板"
@@ -2076,7 +2076,7 @@ msgid "International Article Number used for product identification."
 msgstr "国际物品编码用于产品标识。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Invalid Operation"
 msgstr "无效操作"
@@ -2147,7 +2147,7 @@ msgid "LG"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "Labels cannot be printed for products of service type"
@@ -2467,7 +2467,7 @@ msgid "Never"
 msgstr "从不"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "New"
 msgstr "新建"
@@ -2521,7 +2521,7 @@ msgid "Nivea"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid ""
 "No product to print, if the product is archived please unarchive it before "
@@ -2529,13 +2529,13 @@ msgid ""
 msgstr "没有要打印的产品，如果产品已归档，请在打印标签前取消归档."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "No products could be found."
 msgstr "没有产品可以找到。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
 msgstr "报表中未找到产品"
@@ -2546,7 +2546,7 @@ msgid "No vendor pricelist found"
 msgstr "没找到供应商价格表"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "No, keep it"
 msgstr "保持原样"
@@ -2557,7 +2557,7 @@ msgid "Noise-reducing panels for open spaces"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "Note:"
@@ -2641,7 +2641,7 @@ msgid "Olive"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "On the product %(product)s you cannot associate the value %(value)s with the "
@@ -2651,7 +2651,7 @@ msgstr ""
 "为它们不匹配。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "On the product %(product)s you cannot transform the attribute %"
@@ -2661,7 +2661,7 @@ msgstr ""
 "(attribute_dest)s。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr "哎呀！ '%(fileName)s' 文件格式不允许上传。"
@@ -2715,7 +2715,7 @@ msgid "Package Type A"
 msgstr "包装类型 A"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/uom_uom.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_uom_list_view
 msgid "Packaging Barcodes"
@@ -2783,13 +2783,13 @@ msgid "Pink"
 msgstr "粉色"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please enter a positive whole number."
 msgstr "请输入正整数。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_document.py:0
 msgid ""
 "Please enter a valid URL.\n"
@@ -2803,25 +2803,25 @@ msgstr ""
 "无产URL: %s"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
 msgstr "请先选择一些产品。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the category for which this rule should be applied"
 msgstr "请指定品类适用此规则"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the product for which this rule should be applied"
 msgstr "请指定产品适用此规则"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "Please specify the product variant for which this rule should be applied"
@@ -2880,7 +2880,7 @@ msgid "Price:"
 msgstr "价格:"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 #: model:ir.actions.report,name:product.action_report_pricelist
 #: model:ir.model,name:product.model_product_pricelist
@@ -2906,7 +2906,7 @@ msgid "Pricelist Name"
 msgstr "价格表名称"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 #: model:ir.actions.server,name:product.action_product_price_list_report
 #: model:ir.actions.server,name:product.action_product_template_price_list_report
@@ -2915,7 +2915,7 @@ msgid "Pricelist Report"
 msgstr "价格表报表"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
 msgstr "价格表报表预览"
@@ -2953,7 +2953,7 @@ msgid "Pricing"
 msgstr "价格"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
@@ -2973,7 +2973,7 @@ msgid "Private pod with desk and chair"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 #: model:ir.model,name:product.model_product_template
 #: model:ir.model.fields,field_description:product.field_product_label_layout__product_ids
@@ -3212,7 +3212,7 @@ msgid "Product Variant"
 msgstr "产品变体"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid "Product Variant Values"
 msgstr "产品变体值"
@@ -3229,13 +3229,13 @@ msgid "Product Variants"
 msgstr "产品变体"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/report/product_label_report.py:0
 msgid "Product model not defined, Please contact your administrator."
 msgstr "产品型号未定义，请联系您的管理员。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 #: code:addons/product/models/product_catalog_mixin.py:0
 #: model:ir.actions.act_window,name:product.product_template_action
@@ -3270,7 +3270,7 @@ msgid "Products Price Search"
 msgstr "产品价格搜索"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "Products: %(category)s"
 msgstr "产品： %(category)s"
@@ -3310,7 +3310,7 @@ msgid "Purple"
 msgstr "紫色"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Quantities"
 msgstr "数量"
@@ -3326,13 +3326,13 @@ msgid "Quantity"
 msgstr "数量"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
 msgstr "数量（%s）"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Quantity already present (%s)."
 msgstr "现有数量（%s）。"
@@ -3353,7 +3353,7 @@ msgid "Ray-Ban"
 msgstr "Ray-Ban"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Recursive pricelist rules detected: %s"
 msgstr ""
@@ -3397,13 +3397,13 @@ msgid "Related attachment"
 msgstr "相关附件"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Remove"
 msgstr "删除"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Remove quantity"
 msgstr "删除数量"
@@ -3506,7 +3506,7 @@ msgid "Samsung"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_name_and_description/product_name_and_description.js:0
 msgid "Search a product"
 msgstr "搜索产品"
@@ -3558,7 +3558,7 @@ msgid "Shoes size"
 msgstr "鞋码"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Show Name"
 msgstr "显示名称"
@@ -3729,19 +3729,19 @@ msgid "Template Values"
 msgstr "模板值"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "The Internal Reference '%s' already exists."
 msgstr "内部参考'%s'已经存在。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "The Reference '%s' already exists."
 msgstr "参考 “%s” 已经存在。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "The attribute %(attribute)s must have at least one value for the product %"
@@ -3756,7 +3756,7 @@ msgid ""
 msgstr "在至少一个产品上使用该值后，无法更改该属性。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "The cost of a product can't be negative."
@@ -3787,7 +3787,7 @@ msgid ""
 msgstr "最小高度为 65 厘米，站立工作的最大高度位置为 125 厘米。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The minimum margin should be lower than the maximum margin."
 msgstr "最小保证金应低于最大保证金。"
@@ -3811,7 +3811,7 @@ msgid ""
 msgstr "此类别下的产品数量（不考虑子类别）"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "The number of variants to generate is above allowed limit. You should either "
@@ -3828,7 +3828,7 @@ msgid "The price to purchase a product"
 msgstr "该价格采购产品"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "The product template is archived so no combination is possible."
 msgstr "产品模板已经归档，所以无法合并。"
@@ -3844,7 +3844,7 @@ msgstr ""
 "位设定数量，否则应使用产品的预设单位。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The rounding method must be strictly positive."
 msgstr "舍入方法必须严格为正数。"
@@ -3858,7 +3858,7 @@ msgid ""
 msgstr "销售价格由产品模板管理。点击“可变配置”按钮来设置额外的产品变体价格。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "The value %(value)s is not defined for the attribute %(attribute)s on the "
@@ -3866,25 +3866,25 @@ msgid ""
 msgstr "尚未为产品%(product)s上的属性%(attribute)s定义值%(value)s。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no possible combination."
 msgstr "没有可能的组合。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining closest combination."
 msgstr "没有余下的最佳组合。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining possible combination."
 msgstr "没有余下的可能组合."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "This configuration of product attributes, values, and exclusions would lead "
@@ -3910,7 +3910,7 @@ msgid "This note is only for internal purposes."
 msgstr "本说明仅供内部使用。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
@@ -3968,14 +3968,14 @@ msgid "Type of the exception activity on record."
 msgstr "记录中异常活动的类型。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "UOM"
 msgstr "单位"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "Unable to find report template for %s format"
 msgstr "无法找到%s格式的报表模板"
@@ -4022,7 +4022,7 @@ msgid "Unit Price"
 msgstr "单价"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_model.js:0
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Units"
@@ -4049,7 +4049,7 @@ msgid "Update product attribute value"
 msgstr "更新产品属性值"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
 msgstr "更新产品额外价格"
@@ -4060,13 +4060,13 @@ msgid "Update the extra price on existing products"
 msgstr "更新现有产品的额外价格"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.xml:0
 msgid "Upload"
 msgstr "上传"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Upload files to your product"
 msgstr "为您的产品上传文件"
@@ -4089,7 +4089,7 @@ msgid ""
 msgstr "使用折扣规则并激活折扣设置，以便向客户显示折扣。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "Use this feature to store any files you would like to share with your "
@@ -4108,7 +4108,7 @@ msgid "Used on Products"
 msgstr "使用在产品"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Username"
 msgstr "用户名"
@@ -4231,7 +4231,7 @@ msgid "Variant Values"
 msgstr "变体值"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Variant: %s"
 msgstr "变体: %s"
@@ -4366,7 +4366,7 @@ msgid "Weight unit of measure label"
 msgstr "重量单位标签"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "What to expect ?"
@@ -4414,7 +4414,7 @@ msgid "Yellow"
 msgstr "黄色"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
@@ -4422,13 +4422,13 @@ msgid ""
 msgstr "您即将向%(product_count)s个产品添加值“%(attribute_value)s”。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
 msgstr "您即将更新%s产品的额外价格。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/res_config_settings.py:0
 msgid ""
 "You are deactivating the pricelist feature. Every active pricelist will be "
@@ -4469,20 +4469,20 @@ msgid ""
 msgstr "您可以上传一张图片，作为属性值的颜色。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "You can't edit this product in the catalog."
 msgstr "您无法在目录中编辑此产品。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 msgstr "您无法存档此属性，因为仍有产品链接到它"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
@@ -4493,7 +4493,7 @@ msgstr ""
 "%(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 "You cannot change the attribute of the value %(value)s because it is used on "
@@ -4501,7 +4501,7 @@ msgid ""
 msgstr "您不能更改 %(value)s 值的属性，因为它已用于以下产品：%(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot change the product of the value %(value)s set on product %"
@@ -4509,7 +4509,7 @@ msgid ""
 msgstr "无法更改在产品%(product)s上设置的产品值%(value)s。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot change the value of the value %(value)s set on product %"
@@ -4517,13 +4517,13 @@ msgid ""
 msgstr "无法更改在产品%(product)s上设置的值%(value)s。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_category.py:0
 msgid "You cannot create recursive categories."
 msgstr "不能创建递归的类别."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid ""
 "You cannot delete pricelist(s):\n"
@@ -4537,7 +4537,7 @@ msgstr ""
 "%(other_pricelists)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot delete the attribute %(attribute)s because it is used on the "
@@ -4548,7 +4548,7 @@ msgstr ""
 "%(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 "You cannot delete the value %(value)s because it is used on the following "
@@ -4559,7 +4559,7 @@ msgstr ""
 "%(products)s\n"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
@@ -4568,7 +4568,7 @@ msgstr ""
 "无法将属性%(attribute)s从产品%(product_src)s调整至产品%(product_dest)s。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot update related variants from the values. Please update related "
@@ -4576,7 +4576,7 @@ msgid ""
 msgstr "不能直接在变体中更新变体值。请在变体管理中进行相关更新。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
@@ -4628,13 +4628,13 @@ msgstr ""
 "价格、报价、会计数据、采购方法等。"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "You must leave at least one quantity."
 msgstr "您必须留下至少一个数量。"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "You need to set a positive quantity."
 msgstr "您需要设置一个正数。"
@@ -4645,13 +4645,13 @@ msgid "Zara"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid "attribute_id"
 msgstr "attribute_id"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "csv"
 msgstr "csv"
@@ -4663,7 +4663,7 @@ msgid "days"
 msgstr "天"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "discount"
 msgstr "折扣"
@@ -4705,13 +4705,13 @@ msgid "e.g. USD Retailers"
 msgstr "例如：USD零售商"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid "id"
 msgstr "id"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "markup"
 msgstr "加价"
@@ -4722,7 +4722,7 @@ msgid "on"
 msgstr "在"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "pdf"
 msgstr "pdf"
@@ -4734,14 +4734,14 @@ msgid "per"
 msgstr "每"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "product"
 msgstr "产品"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "product cost"
 msgstr "产品成本"
@@ -4752,7 +4752,7 @@ msgid "round off to 10.00 and set an extra at -0.01"
 msgstr "四舍五入到 10.00，并设置额外值 -0.01"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
@@ -4769,7 +4769,7 @@ msgid "to"
 msgstr "到"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "xlsx"
 msgstr "xlsx"

@@ -7,8 +7,8 @@
 # Sarah Park, 2023
 # Martin Trigaux, 2023
 # JH CHOI <hwangtog@gmail.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-09 12:16+0000\n"
 "PO-Revision-Date: 2026-02-05 08:03+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/base/ko/>"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/base/ko/>"
 "\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -509,7 +509,7 @@ msgstr ""
 "11010101 Caja General\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -541,7 +541,7 @@ msgid ""
 "requirements which might arise from POS implementation. [1]  Under normal "
 "circumstances, you might not need to use those at all.\n"
 "\n"
-"[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+"[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 "\n"
 msgstr ""
 "\n"
@@ -560,7 +560,7 @@ msgstr ""
 "税' 및 '外税'가 추가되었습니다. [1] 정상적인 상황에서는 보통은 전혀 사용할 필"
 "요가 없습니다.\n"
 "\n"
-"[1] 자세한 내용은 https://github.com/BetopiaERP/BetopiaERP/pull/6470 를 확인하십시오.\n"
+"[1] 자세한 내용은 https://github.com/betopiaerp/betopiaerp/pull/6470 를 확인하십시오.\n"
 "\n"
 
 #. module: base
@@ -626,7 +626,7 @@ msgstr ""
 "\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -640,7 +640,7 @@ msgstr ""
 "한 액세스 권한이 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -4379,9 +4379,9 @@ msgid ""
 "\n"
 "Legal\n"
 "-----\n"
-"Contact BetopiaERP SA before installing pos_blackbox_be module.\n"
+"Contact BetopiaERP before installing pos_blackbox_be module.\n"
 "\n"
-"No modified version is certified and supported by BetopiaERP SA.\n"
+"No modified version is certified and supported by BetopiaERP.\n"
 msgstr ""
 "\n"
 "벨기에 공인 금전 등록기\n"
@@ -4395,9 +4395,9 @@ msgstr ""
 "\n"
 "법적 고지\n"
 "-----\n"
-"pos_blackbox_be 모듈을 설치하기 전에 BetopiaERP SA에 문의하세요.\n"
+"pos_blackbox_be 모듈을 설치하기 전에 BetopiaERP에 문의하세요.\n"
 "\n"
-"수정된 버전에 대해서는 BetopiaERP SA에서 인증 및 지원이 되지 않습니다.\n"
+"수정된 버전에 대해서는 BetopiaERP에서 인증 및 지원이 되지 않습니다.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_helpdesk_sale_timesheet
@@ -6527,7 +6527,7 @@ msgid ""
 "sequences synchronization between BetopiaERP and ARCA.\n"
 "\n"
 "    NOTE: From the Journal's form view we are able to force a sync between "
-"the BetopiaERP sequences to each of the document types in\n"
+"the betopiaerp sequences to each of the document types in\n"
 "    with the last numbers registered in ARCA.\n"
 "\n"
 "From vendor bills, we have added a functionality that can be configured in "
@@ -6617,7 +6617,7 @@ msgstr ""
 "컨설팅이 가능할 뿐 아니라 BetopiaERP와 ARCA 간의 시퀀스 동기화 중에 발생 가능한 문"
 "제점에 대한 지원을 받기 위해서 최근의 관련 번호를 사용할 수도 있게 됩니다.\n"
 "\n"
-"    참고: 분개장 양식 항목에서 각 문서별 유형에 대하여 BetopiaERP 시퀀스 간의 동기"
+"    참고: 분개장 양식 항목에서 각 문서별 유형에 대하여 betopiaerp 시퀀스 간의 동기"
 "화를 필수로 설정할 수도 있으며 이러한 경우에\n"
 "     ARCA에 등록된 마지막 번호를 사용합니다.\n"
 "\n"
@@ -7609,11 +7609,11 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configuration -> Settings -> Customer Invoices or find \"E-invoice\" in "
 "search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 "For the creation of API username and password please ref this document: "
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>\n"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>\n"
 msgstr ""
 "\n"
 "인도 - 전자 청구서 발행\n"
@@ -7631,7 +7631,7 @@ msgstr ""
 "를 사용하는 다중 회사에 대해서는 첫 번째 회사에 대해서만 1단계를 수행합니다\n"
 "\n"
 "API 사용자 이름 및 비밀번호 생성과 관련하여서는 이 문서를 참조하시기 바랍니"
-"다. <https://service.BetopiaERP.co.in/einvoice_create_api_user>\n"
+"다. <https://service.betopiaerp.co.in/einvoice_create_api_user>\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_ewaybill
@@ -7648,7 +7648,7 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configration -> Settings -> Indian Electronic WayBill or find \"E-"
 "waybill\" in search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 msgstr ""
@@ -7890,7 +7890,7 @@ msgstr ""
 "위시리스트에 있는 품목들을 비교할 수 있습니다\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "\n"
@@ -11154,7 +11154,7 @@ msgid ""
 "cumulative totals (daily, monthly, annually)\n"
 "\n"
 "    Access to download the mandatory Certificate of Conformity delivered by "
-"BetopiaERP SA (only for BetopiaERP Enterprise users)\n"
+"BetopiaERP (only for BetopiaERP Enterprise users)\n"
 msgstr ""
 "\n"
 "이 부가 기능은 프랑스 규정인 CGI Art의 기술적 요구를 충족시킵니다. 286, I. "
@@ -11176,7 +11176,7 @@ msgstr ""
 "cumulative totals (daily, monthly, annually)\n"
 "\n"
 "    Access to download the mandatory Certificate of Conformity delivered by "
-"BetopiaERP SA (only for BetopiaERP Enterprise users)\n"
+"BetopiaERP (only for BetopiaERP Enterprise users)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_html_builder
@@ -12100,7 +12100,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 msgstr ""
 "\n"
@@ -12112,7 +12112,7 @@ msgstr ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 
 #. module: base
@@ -12442,7 +12442,7 @@ msgid ""
 "will add their specific templates and controllers to extend the customer\n"
 "portal.\n"
 "\n"
-"This module contains most code coming from BetopiaERP v10 website_portal. Purpose\n"
+"This module contains most code coming from betopiaerp v10 website_portal. Purpose\n"
 "of this module is to allow the display of a customer portal without having\n"
 "a dependency towards website editing and customization capabilities."
 msgstr ""
@@ -12452,7 +12452,7 @@ msgstr ""
 "비즈니스 추가 기능은 고객 포털을 확장하기 위해 특정 서식과 컨트롤러를 추가합"
 "니다.\n"
 "\n"
-"이 모듈에는 BetopiaERP v10 advision_portal에서 가져온 대부분의 코드가 포함되어 있습"
+"이 모듈에는 betopiaerp v10 advision_portal에서 가져온 대부분의 코드가 포함되어 있습"
 "니다. \n"
 "본 모듈의 목적은 웹사이트 버전 및 사용자 지정 기능에 의존하지 않고 \n"
 "고객 포털을 표시할 수 있도록 하는 것입니다."
@@ -14281,12 +14281,12 @@ msgid ""
 "* the peppol-bis-invoice-3 doc (the github repository: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains "
 "examples)\n"
-"* BetopiaERP, these files pass all validation tests (using ecosio or the FNFE "
+"* betopiaerp, these files pass all validation tests (using ecosio or the FNFE "
 "validator)\n"
 "\n"
 "We test that the external examples are correctly imported (currency, total "
 "amount and total tax match).\n"
-"We also test that generating xml from BetopiaERP with given parameters gives "
+"We also test that generating xml from betopiaerp with given parameters gives "
 "exactly the same xml as the expected,\n"
 "valid ones.\n"
 msgstr ""
@@ -14302,11 +14302,11 @@ msgstr ""
 "* the peppol-bis-invoice-3 doc (the github repository: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains "
 "examples)\n"
-"* BetopiaERP, these files pass all validation tests (using ecosio or the FNFE "
+"* betopiaerp, these files pass all validation tests (using ecosio or the FNFE "
 "validator)\n"
 "\n"
 "외부 샘플에 대한 정확성을 테스트합니다. (환율, 총액 및 세금 총액 일치 여부)\n"
-"주어진 매개변수를 활용하여 BetopiaERP에서 xml 를 생성시 예상되는 유효한 xml과 정확"
+"주어진 매개변수를 활용하여 betopiaerp에서 xml 를 생성시 예상되는 유효한 xml과 정확"
 "히 일치하는 xml 결과가 도출되는지\n"
 "테스트합니다.\n"
 
@@ -15011,7 +15011,7 @@ msgid " Let's choose a Point Relais® as shipping address "
 msgstr " 배송지 주소로 Point Relais® 를 선택합니다. "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "\"group_by\" value must be a string %(attribute)s=“%(value)s”"
 msgstr "\"group_by\" 값은 %(attribute)s=“%(value)s”이어야 합니다"
@@ -15037,31 +15037,31 @@ msgid "# Users"
 msgstr "# 사용자"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(action_name)s is not a valid action on %(model_name)s"
 msgstr "%(action_name)s은 %(model_name)s에 대한 유효한 조치가 아닙니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(company_currency_name)s per %(rate_currency_name)s"
 msgstr "%(rate_currency_name)s 당 %(company_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "%(date_label)s - %(author)s"
 msgstr "%(date_label)s - %(author)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(integral_amount)s %(currency_unit)s"
 msgstr "%(integral_amount)s %(currency_unit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "%(integral_amount)s %(currency_unit)s and %(fractional_amount)s %"
@@ -15071,19 +15071,19 @@ msgstr ""
 "(currency_subunit)s입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(method)s on %(model)s is private and cannot be called from a button"
 msgstr "%(model)s의 %(method)s은 비공개이며 버튼에서 호출할 수 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(rate_currency_name)s per %(company_currency_name)s"
 msgstr "%(company_currency_name)s 당 %(rate_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "%(xmlid)s is of type %(xmlid_model)s, expected a subclass of "
@@ -15093,13 +15093,13 @@ msgstr ""
 "됩니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "%s (Dedicated Outgoing Mail Server):"
 msgstr "%s (발신 전용 메일 서버):"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: code:addons/base/models/ir_filters.py:0
 #: code:addons/base/models/res_groups.py:0
@@ -15110,13 +15110,13 @@ msgid "%s (copy)"
 msgstr "%s (사본)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "%s Properties"
 msgstr "%s 속성"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%s per Unit"
 msgstr "단위 당 %s"
@@ -15127,7 +15127,7 @@ msgid "&amp; Close"
 msgstr "&amp; 닫기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Property value for field '%%"
@@ -15137,7 +15137,7 @@ msgstr ""
 "는 최소한 '이름', '유형' 및 '문자열' 속성이 있어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Selection value for '%"
@@ -15147,7 +15147,7 @@ msgstr ""
 "하지 않은 선택 값입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Tag value for '%(label_property)s' "
@@ -15157,7 +15157,7 @@ msgstr ""
 "하지 않은 태그 값입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an float for field '%(label_property)s' "
@@ -15167,7 +15167,7 @@ msgstr ""
 "소수점이 아닙니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an integer for field '%(label_property)s' "
@@ -15177,49 +15177,49 @@ msgstr ""
 "가 아닙니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a number for field '%%(field)s'"
 msgstr "'%s'은(는) '%%(field)s' 필드에 대한 숫자로 보이지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid JSON for field '%%(field)s'"
 msgstr "'%s' 항목은 '%%(field)s' 필드에 잘못된 JSON 값입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid date for field '%%(field)s'"
 msgstr "'%s'은(는)  '%%(field)s' 필드에 대해 유효하지 않은 날짜입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid datetime for field '%%(field)s'"
 msgstr "'%s'은(는)  '%%(field)s' 필드에 대해 유효하지 않은 일시입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be an integer for field '%%(field)s'"
 msgstr "'%s'은(는) '%%(field)s' 필드의 정수값이 아닙니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'action-' is a reserved prefix."
 msgstr "'action-'은 예약 접두사입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'m-' is a reserved prefix."
 msgstr "'m-'은 예약 접두사입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'new' is reserved, and can not be used as path."
 msgstr "'new'는 예약되어 있으므로 경로로 사용할 수 없습니다."
@@ -15250,7 +15250,7 @@ msgid ", required"
 msgstr ", 필수"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "- %(description)s (%(model)s)"
 msgstr "- %(description)s (%(model)s)"
@@ -15261,7 +15261,7 @@ msgid "- domain ="
 msgstr "- 도메인 ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- element “%(node)s” is shown in the view for groups: %(groups)s"
 msgstr "- 그룹 보기에 표시되는 요소 “%(node)s”: %(groups)s"
@@ -15272,13 +15272,13 @@ msgid "- field ="
 msgstr "- 필드 ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” does not exist in model “%(model)s”."
 msgstr "- “%(name)s” 필드가 “%(model)s” 모델에 존재하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” is accessible for groups: %(field_groups)s"
 msgstr "- “%(name)s” 필드는 다음 그룹에 액세스할 수 있습니다: %(field_groups)s"
@@ -16048,7 +16048,7 @@ msgid "A - AGRICULTURE, FORESTRY AND FISHING"
 msgstr "A - 농업 및 임, 수산업"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "A <graph> can only contains <field> nodes, found a <%s>"
 msgstr "A는 노드만 <graph> 포함할 수 있으며 <field> <%s>를 찾았습니다"
@@ -16250,7 +16250,7 @@ msgid "A payment provider for running fake payment flows for demo purposes."
 msgstr "시연 목적으로 결제 흐름을 가짜로 제공하는 결제대행업체입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "A sequence must only be used with character fields."
 msgstr "시퀀스는 반드시 문자 필드에만 사용해야 합니다."
@@ -16279,7 +16279,7 @@ msgstr ""
 "이 관리하고 있는 직원들에 대한 평가 항목을 생성 및 관리할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "A valid email is required for find_or_create to work properly."
 msgstr "find_or_create가 제대로 작동하려면 유효한 이메일이 필요합니다."
@@ -16444,7 +16444,7 @@ msgid "API Key Description"
 msgstr "API 키 설명"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "API Key Ready"
 msgstr "API 키 준비"
@@ -16503,7 +16503,7 @@ msgid "Access"
 msgstr "사용 권한"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Access Control"
 msgstr "사용 권한 제어"
@@ -16524,7 +16524,7 @@ msgid "Access Menu"
 msgstr "사용 메뉴"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.ir_access_act
 #: model:ir.ui.menu,name:base.menu_ir_access_act
@@ -16544,7 +16544,7 @@ msgid "Access Rights"
 msgstr "액세스 권한"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Access Rights Inconsistency"
 msgstr "액세스 권한 불일치"
@@ -16575,7 +16575,7 @@ msgid "Access to the settings to configure the apps"
 msgstr "앱 환경설정을 위한 설정 액세스"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Accessible only for the super user"
 msgstr "슈퍼 유저만 액세스 가능"
@@ -16810,7 +16810,7 @@ msgid "Action"
 msgstr "추가 작업"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Action %(action_reference)s (id: %(action_id)s) does not exist for button of "
@@ -16945,7 +16945,7 @@ msgid "Active Parent Model"
 msgstr "활성 상위 모델"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Actual Code"
 msgstr "실제 코드"
@@ -17086,13 +17086,13 @@ msgid "Add crm UTM info on social"
 msgstr "소셜에 CRM UTM 정보 추가"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add direction"
 msgstr "방향 추가"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add directional information (not used for digital)"
 msgstr "방향 정보 추가(디지털에는 사용되지 않음)"
@@ -17247,7 +17247,7 @@ msgid "Addons to test BetopiaERP industries code."
 msgstr "BetopiaERP 인더스트리 코드 테스트용 애드온"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_partner.py:0
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -17280,7 +17280,7 @@ msgid "Address format..."
 msgstr "주소 형식..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Address separator"
 msgstr "주소 구분 기호"
@@ -17564,7 +17564,7 @@ msgid "Administrator"
 msgstr "관리자"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Administrator access is required to uninstall a module"
 msgstr "모듈을 제거하려면 관리자 사용 권한이 있어야 합니다."
@@ -17615,7 +17615,7 @@ msgid "Advanced views to manage landed cost for subcontracting orders"
 msgstr "외주업체 주문에 대한 수입 부대 비용을 관리하기 위한 고급 화면 보기"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,summary:base.module_theme_betopiaerp_experts
 msgid "Advisor, Corporate, Service, Business, Finance, IT"
 msgstr "Advisor, Corporate, Service, Business, Finance, IT"
 
@@ -17965,7 +17965,7 @@ msgid "All Child"
 msgstr "모든 하위 항목"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
@@ -17982,7 +17982,7 @@ msgid ""
 msgstr "당사의 모든 계약 관계는 전적으로 미국법에 의거합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "All profiles must have the same initial stack trace to be displayed together."
@@ -18198,7 +18198,7 @@ msgid "Amazon/Avatax Bridge"
 msgstr "Amazon/Avatax 연결"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Ambiguous specification for field '%(field)s', only provide one of name, "
@@ -19085,7 +19085,7 @@ msgid "An Irish-American payment provider covering the US and many others."
 msgstr "미국 및 여러 지역을 대상으로 하는 아일랜드계 미국 결제대행업체입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SMTP exception occurred. Check port number and connection security type.\n"
@@ -19096,7 +19096,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -19106,7 +19106,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -19142,13 +19142,13 @@ msgstr ""
 "듈에 의존성이 존재하지 않을 경우 항상 설치됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "An email is required for find_or_create to work"
 msgstr "find_or_create가 작동하려면 이메일이 필요합니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An option is not supported by the server:\n"
@@ -19214,7 +19214,7 @@ msgid "Anguilla"
 msgstr "앵귈라"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Another partner already has this barcode"
 msgstr "다른 협력사가 이미 이 바코드를 사용 중입니다."
@@ -19311,7 +19311,7 @@ msgid "Apply"
 msgstr "적용"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -20159,7 +20159,7 @@ msgid "Associated reports"
 msgstr "관련된 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "At least one language must be active."
 msgstr "하나 이상의 언어가 활성화되어 있어야 합니다."
@@ -20246,7 +20246,7 @@ msgid "Attachment"
 msgstr "첨부 파일"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Attachment is not encoded in base64."
 msgstr "첨부 파일이 base64로 인코딩되지 않았습니다."
@@ -20503,7 +20503,7 @@ msgid "Auth Timeout"
 msgstr "인증 시간 초과"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Authenticate by using SSL certificates, belonging to your domain name. \n"
@@ -20822,7 +20822,7 @@ msgid "Background Image"
 msgstr "배경 이미지"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid "Bad file format: %s"
 msgstr "잘못된 파일 형식 : %s"
@@ -20991,7 +20991,7 @@ msgid "Barcode"
 msgstr "바코드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode %s"
 msgstr "바코드 %s"
@@ -21022,13 +21022,13 @@ msgid "Barcode for Batch Transfer"
 msgstr "이송 일괄 작업용 바코드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode symbology"
 msgstr "바코드 기호"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode type, eg: UPCA, EAN13, Code128"
 msgstr "바코드 유형, 예: UPCA, EAN13, Code128"
@@ -21067,7 +21067,7 @@ msgid "Base Import & Export Tests: Ensure Flow Robustness"
 msgstr "기본 가져오기 & 내보내기 테스트: 절차 견고성 보장"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Base Language 'en_US' can not be deleted."
 msgstr "기본 언어인 'en_US'는 삭제할 수 없습니다."
@@ -21119,13 +21119,13 @@ msgstr "기본: 포털 사용자 삭제"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_grid
-msgid "Basic 2D Grid view for BetopiaERP"
-msgstr "BetopiaERP에 대한 기본 2D 그리드 보기"
+msgid "Basic 2D Grid view for betopiaerp"
+msgstr "betopiaerp에 대한 기본 2D 그리드 보기"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_cohort
-msgid "Basic Cohort view for BetopiaERP"
-msgstr "BetopiaERP에 대한 기본 코호트 보기"
+msgid "Basic Cohort view for betopiaerp"
+msgstr "betopiaerp에 대한 기본 코호트 보기"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality
@@ -21334,10 +21334,10 @@ msgstr "벨리즈"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr ""
-"아래의 내용은 참고용으로만 제시되는 내용이며 BetopiaERP S.A.는 해당 내용에 대한 책"
+"아래의 내용은 참고용으로만 제시되는 내용이며 BetopiaERP는 해당 내용에 대한 책"
 "임을 지지 않습니다."
 
 #. module: base
@@ -21450,7 +21450,7 @@ msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
 msgstr "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Blame the following rules:\n"
@@ -21561,7 +21561,7 @@ msgid "Bowling Alley"
 msgstr "볼링장"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
@@ -21949,7 +21949,7 @@ msgid "By"
 msgstr "By"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "By default the widget uses the field information"
 msgstr "기본적으로 위젯은 필드 정보를 사용합니다."
@@ -22136,7 +22136,7 @@ msgid "Campsite"
 msgstr "캠핑장"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Can not create Many-To-One records indirectly, import the field separately"
@@ -22144,13 +22144,13 @@ msgstr ""
 "다대일 레코드를 간접적으로 만들 수 없습니다. 필드를 개별적으로 가져오십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Can only rename one field at a time!"
 msgstr "한 번에 하나의 필드 이름만 변경할 수 있습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Can't compare more than two views."
 msgstr "두 개 이상의 화면을 비교할 수 없습니다."
@@ -22240,7 +22240,7 @@ msgid "Candy Shop"
 msgstr "캔디 매장"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Cannot create new '%s' records from their name alone. Please create those "
@@ -22250,25 +22250,25 @@ msgstr ""
 "한 후 가져오기를 다시 시도하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by contacts."
 msgstr "현재 연락처에서 사용하고 있는 언어는 비활성화할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by users."
 msgstr "현재 사용자가 사용하고 있는 언어는 비활성화할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Cannot duplicate configuration!"
 msgstr "환경 설정을 복사할 수 없습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Cannot rename/delete fields that are still present in views:\n"
@@ -22280,7 +22280,7 @@ msgstr ""
 "보기: %(view)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Cannot upgrade module “%s”. It is not installed."
 msgstr "모듈 “%s”를 업그레이드할 수 없습니다. 모듈이 설치되어 있지 않습니다."
@@ -22540,13 +22540,13 @@ msgid "Change the way addresses are displayed in reports"
 msgstr "주소가 보고서에 표시되는 방식 변경"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Changing the model of a field is forbidden!"
 msgstr "필드 모델은 변경할 수 없습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Changing the type of a field is not yet supported. Please drop it and create "
@@ -22554,7 +22554,7 @@ msgid ""
 msgstr "필드 유형 변경은 아직 지원되지 않습니다. 삭제 후 다시 생성해 주세요!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Changing to 12-hour clock format instead."
 msgstr "대신 12 시간 기준 형식으로 변경합니다."
@@ -22920,7 +22920,7 @@ msgid "Code Diff"
 msgstr "코드 차이"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Code History"
@@ -23071,7 +23071,7 @@ msgid "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 msgstr "Comm10E 25  105 x 241 mm, 미국 일반 10 봉투"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Comma"
 msgstr "콤마"
@@ -23081,10 +23081,10 @@ msgstr "콤마"
 msgid ""
 "Comma-separated list of addresses or domains for which this server can be "
 "used.\n"
-"e.g.: \"notification@BetopiaERP.com\" or \"BetopiaERP.com\""
+"e.g.: \"notification@betopiaerp.com\" or \"betopiaerp.com\""
 msgstr ""
 "이 서버를 사용할 수 있는 주소 또는 도메인의 쉼표로 구분된 목록입니다.\n"
-"예.: \"notification@BetopiaERP.com\" 또는 \"BetopiaERP.com\""
+"예.: \"notification@betopiaerp.com\" 또는 \"betopiaerp.com\""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_act_window__view_mode
@@ -23158,7 +23158,7 @@ msgid "Companies"
 msgstr "회사"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
 #: model:ir.model.fields,field_description:base.field_ir_default__company_id
@@ -23179,7 +23179,7 @@ msgid "Company"
 msgstr "회사"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Company %(company_name)s is not in the allowed companies for user %"
@@ -23189,7 +23189,7 @@ msgstr ""
 "(company_name)s 회사는 포함되지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Company Address"
 msgstr "회사 주소"
@@ -23205,7 +23205,7 @@ msgid "Company Details"
 msgstr "회사 상세 정보"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__company_registry
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
@@ -23276,7 +23276,7 @@ msgstr ""
 "름)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Company used for the original currency (only used for t-esc). By default use "
@@ -23336,7 +23336,7 @@ msgid "Compute"
 msgstr "계산"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Compute method cannot depend on field 'id'"
 msgstr "계산 방법은 'id' 필드에 종속될 수 없습니다."
@@ -23478,7 +23478,7 @@ msgid "Connect to myDATA API implementation for Greece"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connect to your server through your usual username and password. \n"
@@ -23500,7 +23500,7 @@ msgid "Connection Encryption"
 msgstr "연결 암호화"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connection Test Failed! Here is what we got instead:\n"
@@ -23510,7 +23510,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Connection Test Successful!"
 msgstr "연결 테스트 성공!"
@@ -23627,7 +23627,7 @@ msgid "Contact image"
 msgstr "연락처 이미지"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Contact your administrator to request access if necessary."
 msgstr "필요한 경우 관리자에게 문의하여 접근 권한을 요청하십시오."
@@ -23760,7 +23760,7 @@ msgid "Costa Rica - Accounting"
 msgstr "코스타리카 - 회계"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Could not load your certificate / private key. \n"
@@ -23770,7 +23770,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Couldn't create contact without email address!"
 msgstr "이메일 주소 없이 문의 사항을 작성할 수 없습니다!"
@@ -23883,7 +23883,7 @@ msgid "Create"
 msgstr "작성"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Create %(model_name)s"
 msgstr "%(model_name)s 생성"
@@ -24353,7 +24353,7 @@ msgid "Cron Triggers"
 msgstr "예약 실행"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Cron job %(name)s (%(id)s) has been deactivated after failing %(count)s "
@@ -24435,19 +24435,19 @@ msgid "Currency field"
 msgstr "통화 필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field does not have type many2one"
 msgstr "통화 필드에 many2one 유형이 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field is empty and there is no fallback field in the model"
 msgstr "통화 필드가 비어 있으며, 모델에 대체 필드가 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field should have a res.currency relation"
 msgstr "통화 필드에는 res.currency 가 연관되어 있어야 합니다."
@@ -24458,7 +24458,7 @@ msgid "Currency numeric code."
 msgstr "통화 숫자 코드."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Currency rates should only be created for main companies"
 msgstr "환율은 주요 회사에 대해서만 생성해야 합니다."
@@ -24469,7 +24469,7 @@ msgid "Currency sign, to be used when printing amounts."
 msgstr "통화 기호입니다. 금액을 인쇄할 때 사용됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Current Arch"
 msgstr "현재 보관"
@@ -24718,7 +24718,7 @@ msgid "Dalasi"
 msgstr "달라시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Dash"
 msgstr "현황표"
@@ -24784,7 +24784,7 @@ msgid "Database Structure"
 msgstr "데이터베이스 구조"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_currency__date
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__name
@@ -24798,31 +24798,31 @@ msgid "Date Format"
 msgstr "날짜 형식"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date format"
 msgstr "날짜 형식"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date to compare with the field value, by default use the current date."
 msgstr "필드 값과 비교할 날짜입니다. 기본적으로 현재 날짜를 사용합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit"
 msgstr "날짜 단위"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit used for comparison and formatting"
 msgstr "비교 및 서식에 사용되는 날짜 단위입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date unit used for the rounding. The value must be smaller than 'hour' if "
@@ -24832,7 +24832,7 @@ msgstr ""
 "다 작아야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date used for the original currency (only used for t-esc). by default use "
@@ -24863,7 +24863,7 @@ msgid "Debugging"
 msgstr "디버깅"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Debugging information:"
 msgstr "디버깅 정보:"
@@ -24901,7 +24901,7 @@ msgstr ""
 "의해 결정됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Decimalized number"
 msgstr "십진법"
@@ -25025,8 +25025,8 @@ msgstr "정의된 보고서"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_map
-msgid "Defines the map view for BetopiaERP enterprise"
-msgstr "BetopiaERP 유료버전에 대한 맵 뷰 정의"
+msgid "Defines the map view for betopiaerp enterprise"
+msgstr "betopiaerp 유료버전에 대한 맵 뷰 정의"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__definition
@@ -25056,7 +25056,7 @@ msgid "Delete Action"
 msgstr "작업 삭제"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Deleting the template users is not allowed. Deleting this profile will "
@@ -25077,7 +25077,7 @@ msgid "Delivery - Stock"
 msgstr "배송 - 재고"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Delivery Address"
 msgstr "배송 주소"
@@ -25321,7 +25321,7 @@ msgid "Digest Enterprise"
 msgstr "요약 유료버전"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Digital formatting"
 msgstr "디지털 포맷"
@@ -25572,13 +25572,13 @@ msgid "Display and change your products information on electronic Pricer tags"
 msgstr "전자 가격표 태그에 품목 정보 표시 및 변경하기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display country image"
 msgstr "국가 이미지 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display currency"
 msgstr "통화 표시"
@@ -25610,37 +25610,37 @@ msgstr ""
 "%(country_code)s: 국가 코드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the date"
 msgstr "날짜만 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the time"
 msgstr "시간만 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display phone icons"
 msgstr "전화 아이콘 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the country image if the field is present on the record"
 msgstr "필드가 레코드에 있는 경우 국가 이미지를 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the phone icons even if no_marker is True"
 msgstr "no_marker가 True 인 경우에도 전화 아이콘 표시"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Displayed fields"
 msgstr "표시된 필드"
@@ -25830,7 +25830,7 @@ msgid "Domain applied to the active id of the parent model"
 msgstr "상위 모델의 활성 ID에 적용된 도메인"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Domain on non-relational field \"%(name)s\" makes no sense (domain:%"
@@ -25864,7 +25864,7 @@ msgid "Dominican Republic - Checks Layout"
 msgstr "도미니카 공화국 - 수표 레이아웃"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Don't display the font awesome marker"
 msgstr "글꼴 마커를 표시하지 않습니다"
@@ -25934,13 +25934,13 @@ msgid "Dropshipping"
 msgstr "직배송"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate %(record)s"
 msgstr "%(record)s 복제"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate ..."
 msgstr "복제 ..."
@@ -25956,7 +25956,7 @@ msgid "Duplicate from"
 msgstr "양식 복제"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "Duplicating a company is not allowed. Please create a new company instead."
@@ -26260,26 +26260,26 @@ msgid "Electronic invoicing for Colombia with DIAN"
 msgstr "DIAN을 통한 콜롬비아 전자 인보이스 발행"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element '%s' cannot be located in parent view"
 msgstr "'%s' 요소를 상위 보기 화면에 배치할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element <attribute> with 'add' or 'remove' cannot contain text %s"
 msgstr ""
 "'추가' 또는 '제거'가 포함된 요소<attribute>에는 %s를 포함할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element “%s” cannot be located in parent view"
 msgstr "상위 보기에서 “%s” 요소를 찾을 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_users.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_email
@@ -26312,7 +26312,7 @@ msgid "Email Signature"
 msgstr "이메일 서명"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Email maximum size updated (%(details)s)."
 msgstr "이메일 최대 크기 업데이트 (%(details)s)."
@@ -26402,7 +26402,7 @@ msgid "Employment Hero Payroll"
 msgstr "고용 히어로 급여"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Empty dependency in “%s”"
 msgstr "“%s”의 종속성이 비어 있습니다."
@@ -26633,7 +26633,7 @@ msgid "Error"
 msgstr "오류"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Error ! You cannot create recursive categories."
 msgstr "오류! 재귀적 분류를 작성할 수 없습니다."
@@ -26644,7 +26644,7 @@ msgid "Error message returned when the constraint is violated."
 msgstr "제약 조건을 위반하면 오류 메시지가 돌아옵니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while parsing or validating view:\n"
@@ -26656,7 +26656,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Error while parsing view:\n"
@@ -26668,7 +26668,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view (%(view)s):\n"
@@ -26680,7 +26680,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view near:\n"
@@ -26694,7 +26694,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_menu.py:0
 msgid "Error! You cannot create recursive menus."
 msgstr "오류! 재귀 메뉴는 만들 수 없습니다."
@@ -27479,12 +27479,12 @@ msgstr ""
 "실시간 예약 가능 여부를 표시하여 편리하게 회의실을 예약하실 수 있습니다."
 
 #. module: base
-#: model:ir.module.module,description:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,description:base.module_theme_betopiaerp_experts
 msgid "Experts Business Theme"
 msgstr "전문가 비즈니스 테마"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,shortdesc:base.module_theme_betopiaerp_experts
 msgid "Experts Theme"
 msgstr "전문가 테마"
 
@@ -27688,7 +27688,7 @@ msgid "External ID"
 msgstr "외부 ID"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb.py:0
 msgid "External ID can not be loaded: %s"
 msgstr "외부 ID를 불러올 수 없음: %s"
@@ -27892,32 +27892,32 @@ msgid "Field"
 msgstr "필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field \"%(field_name)s\" does not exist in model \"%(model_name)s\""
 msgstr "모델 \"%(model_name)s\"에 \"%(field_name)s\"필드가 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Field \"%s\" is not cached"
 msgstr "필드 \"%s\"가 캐시되지 않았습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Field %s cannot be modified on models."
 msgstr "필드 %s는 모델에서 수정할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(field)s' found in 'groupby' node does not exist in model %(model)s"
 msgstr "'그룹별' 노드에 있는 '%(field)s' 필드가 %(model)s 모델에 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(name)s' found in 'groupby' node can only be of type many2one, found "
@@ -27987,13 +27987,13 @@ msgid "Field Type"
 msgstr "필드 유형"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field `%(name)s` does not exist"
 msgstr "`%(name)s` 필드가 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Field names can only contain characters, digits and underscores (up to 63)."
@@ -28005,7 +28005,7 @@ msgid "Field names must be unique per model."
 msgstr "필드 이름은 모델별로 고유해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field tag must have a \"name\" attribute defined"
 msgstr "필드 태그에는 \"이름\" 속성이 정의되어 있어야 합니다"
@@ -28023,7 +28023,7 @@ msgid "Field to Update Path"
 msgstr "경로 업데이트 필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field “%(name)s” used in %(use)s is present in view but is in select multi."
@@ -28045,7 +28045,7 @@ msgid "Fields"
 msgstr "필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Fields %s contain a non-str value/label in selection"
 msgstr "필드 %s에 선택 항목에 문자열이 아닌 값 또는 라벨이 포함되어 있습니다."
@@ -28091,7 +28091,7 @@ msgid "File"
 msgstr "파일"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_import_language.py:0
 msgid ""
 "File \"%(file_name)s\" not imported due to format mismatch or a malformed "
@@ -28106,7 +28106,7 @@ msgstr ""
 "%(error_message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "File Arch"
 msgstr "파일 보존"
@@ -28378,13 +28378,13 @@ msgid "Folio 27  210 x 330 mm"
 msgstr "2절판 27  210 x 330 mm"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Following child actions have warnings: %(children)s"
 msgstr "다음의 하위 활동에 경고가 있습니다: %(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same groups (%(groups)s): %"
@@ -28393,7 +28393,7 @@ msgstr ""
 "다음 하위 작업에는 동일한 그룹(%(groups)s)이 있어야 합니다: %(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same model (%(model)s): %(children)s"
@@ -28469,7 +28469,7 @@ msgid "For relationship fields, the technical name of the target model"
 msgstr "관계 필드의 경우 대상 모델의 기술적 이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "For safety reasons, you cannot merge more than 3 contacts together. You can "
@@ -28479,19 +28479,19 @@ msgstr ""
 "시 열어서 실행하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden attribute used in arch (%s)."
 msgstr "보관 항목 (%s)에서 금지되어 있는 속성입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden owl directive used in arch (%s)."
 msgstr "보관 항목 (%s)에서 금지되어 있는 지시문입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden use of `__comp__` in arch."
 msgstr "보관 항목에서 금지된 `__comp__` 사용입니다."
@@ -28514,7 +28514,7 @@ msgid "Form"
 msgstr "양식"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Format"
 msgstr "형식"
@@ -28532,7 +28532,7 @@ msgid "Formatted Email"
 msgstr "서식있는 이메일"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Formatting: long, short, narrow (not used for digital)"
 msgstr "형식 지정 : long, short, narrow (디지털에는 사용되지 않음)"
@@ -28553,7 +28553,7 @@ msgid "Fossil Fuel Trading"
 msgstr "화석 연료 거래"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Found multiple matches for value \"%(value)s\" in field \"%%(field)s\" (%"
@@ -28629,7 +28629,7 @@ msgid "France - Work Entries Time Off"
 msgstr "프랑스 - 업무 입력 휴가"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Free access"
 msgstr "무료 액세스"
@@ -29118,13 +29118,13 @@ msgid "Gmail support for incoming / outgoing mail servers"
 msgstr "수발신 이메일 서버에 Gmail 지원"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Go to the configuration panel"
 msgstr "구성 패널로 이동하기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Go to users"
 msgstr "사용자로 이동"
@@ -29276,7 +29276,7 @@ msgid "Group-based"
 msgstr "그룹 기준"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Group-restricted fields cannot be included in webhook payloads, as it could "
@@ -29295,7 +29295,7 @@ msgid "Group-specific rules are combined together with a logical OR operator"
 msgstr "그룹 별 규칙은 논리 OR 연산자와 함께 결합됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_groups
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__group_ids
@@ -29633,7 +29633,7 @@ msgid "Heard Island and McDonald Islands"
 msgstr "허드 섬 및 맥도널드 제도"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Height"
 msgstr "높이"
@@ -29801,13 +29801,13 @@ msgid "Hide Portal Timesheet Information"
 msgstr "포털 작업 기록 정보 숨기기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide badges"
 msgstr "배지 숨기기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide seconds"
 msgstr "초 숨기기"
@@ -29945,7 +29945,7 @@ msgid "Html Value"
 msgstr "HTML 값"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Human Readable"
 msgstr "인간이 읽을 수 있는"
@@ -29981,7 +29981,7 @@ msgid "I - ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
 msgstr "I - 숙박업 및 요식업"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'll be happy to send a webhook for you, but you really need to give me a "
@@ -29990,7 +29990,7 @@ msgstr ""
 "웹훅이 연결되기를 원하는 URL을 알려주시면 설정에 대한 추가 지원이 가능합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'm sorry to say that JSON fields (such as '%s') are currently not supported."
@@ -30401,7 +30401,7 @@ msgstr ""
 "합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "If you really, really need access, perhaps you can win over your friendly "
@@ -30624,7 +30624,7 @@ msgid "Import Shopee orders and sync deliveries"
 msgstr "Shopee 주문 가져오기 및 배송 동기화"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Import Template for Contacts"
 msgstr "연락처 템플릿 가져오기"
@@ -30724,7 +30724,7 @@ msgid "Include"
 msgstr "포함 사항"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Incorrect Password, try again or click on Forgot Password to reset your "
@@ -30980,7 +30980,7 @@ msgid "Inherited models"
 msgstr "상속된 모델"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Inherited view cannot have 'Groups' define on the record. Use 'groups' "
@@ -31010,7 +31010,7 @@ msgid "Input View"
 msgstr "입력 보기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Install"
 msgstr "설치하기"
@@ -31053,13 +31053,13 @@ msgstr ""
 "다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Insufficient fields for Calendar View!"
 msgstr "일정관리 보기에 대한 필드가 부족합니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Insufficient fields to generate a Calendar View for %s, missing a date_stop "
@@ -31282,7 +31282,7 @@ msgid "Introspection report on objects"
 msgstr "객체에 대한 내부 검사 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid %(use)s: “%(expr)s”\n"
@@ -31292,13 +31292,13 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid Expression while parsing xpath “%s”"
 msgstr "xpath 구문 분석 중 잘못된 표현식 “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid JSON format in Default Value field."
 msgstr "기본값 필드의 JSON 형식이 잘못되었습니다."
@@ -31309,7 +31309,7 @@ msgid "Invalid Locators"
 msgstr "잘못된 로케이터"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid ""
@@ -31318,19 +31318,19 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid attributes %s in element <attribute>"
 msgstr "요소 <attribute>에 잘못된 속성 %s이 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid composed field %(definition)s in %(use)s"
 msgstr "%(use)s의 합성 필드 %(definition)s가 잘못되었습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid context: “%(expr)s” is not a valid Python expression \n"
@@ -31342,13 +31342,13 @@ msgstr ""
 " %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Invalid database id '%s' for the field '%%(field)s'"
 msgstr "데이어베이스 id '%s' 이(가) 잘못된 '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "Invalid date/time format directive specified. Please refer to the list of "
@@ -31358,25 +31358,25 @@ msgstr ""
 "참조하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid default period %(default_period)s for date filter"
 msgstr "날짜 필터에 잘못된 기본 기간 %(default_period)s이 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Invalid domain: %s"
 msgstr "유효하지 않은 도메인: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid field %(model)s.%(field)s"
 msgstr "잘못된 필드 %(model)s.%(field)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid ""
 "Invalid inherit mode. Module \"%(module)s\" and template name \"%"
@@ -31399,31 +31399,31 @@ msgid "Invalid key: QWeb view should have a key"
 msgstr "잘못된 키 : QWeb 보기에 키가 있어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid mode attribute: “%s”"
 msgstr "잘못된 모드 속성입니다: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Invalid model name “%s” in action definition."
 msgstr "작업 정의에 잘못된 모델 이름 “%s”이 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid position attribute: '%s'"
 msgstr "잘못된 위치 속성 : '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Invalid prefix or suffix for sequence “%s”"
 msgstr "시퀀스에 대한 접두사 또는 접미사가 잘못되었습니다. “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid ""
 "Invalid separator %(separator)s for python expression %(expression)s; valid "
@@ -31433,7 +31433,7 @@ msgstr ""
 "효한 값은 'and' 및 'or'입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Invalid server name!\n"
@@ -31448,31 +31448,31 @@ msgid "Invalid sort definition"
 msgstr "정렬 정의가 잘못됨"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid special '%(value)s' in button"
 msgstr "버튼의 특수 '%(value)s가 잘못되었습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid specification for moved nodes: “%s”"
 msgstr "이동된 노드에 대한 잘못된 지정: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Invalid template user. It seems it has been deleted."
 msgstr "잘못된 서식 사용자입니다. 삭제되었는지 확인하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid value for %(model)s.%(field)s: %(value)s"
 msgstr "%(model)s에 대한 값이 잘못되었습니다. %(field)s: %(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid ""
 "Invalid value for %(model)s.%(field)s: %(value)s is out of bounds (integers "
@@ -31482,13 +31482,13 @@ msgstr ""
 "-2,147,483,648에서 2,147,483,647 사이여야 함)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid view %(name)s definition in %(file)s"
 msgstr "%(file)s의 화면 %(name)s 정의가 잘못되었습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid view type: '%(view_type)s'.\n"
@@ -31497,7 +31497,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid xmlid %(xmlid)s for button of type action."
 msgstr "작업 유형의 단추에 대한 xmlid %(xmlid)s가 잘못되었습니다."
@@ -31537,7 +31537,7 @@ msgid "Invoice"
 msgstr "청구서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Invoice Address"
 msgstr "청구지 주소"
@@ -31719,7 +31719,7 @@ msgid "Israel - Accounting Reports"
 msgstr "이스라엘 - 회계 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid ""
 "It is not possible to remove implied group %(group)s from users %(users)s"
@@ -31887,7 +31887,7 @@ msgid "Jersey"
 msgstr "저지"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid "Job '%s' already executing"
 msgstr "'%s' 작업이 이미 실행 중입니다."
@@ -31954,7 +31954,7 @@ msgid "Journal Items associated to the contact"
 msgstr "연락처와 연결된 전표 항목"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Json"
 msgstr "Json"
@@ -32263,7 +32263,7 @@ msgid "Laari"
 msgstr "라리"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Label tag must contain a \"for\". To match label style without corresponding "
@@ -32321,7 +32321,7 @@ msgid "Language Name"
 msgstr "언어명"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Language code cannot be modified."
 msgstr "언어 코드는 수정할 수 없습니다."
@@ -32811,7 +32811,7 @@ msgid "Line"
 msgstr "선"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Linebreak"
 msgstr "줄 바꿈"
@@ -32951,14 +32951,14 @@ msgid "List"
 msgstr "목록"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "List child can only have one of %(tags)s tag (not %(wrong_tag)s)"
 msgstr ""
 "하위 목록은 %(tags)s 태그 중 하나만 가질 수 있습니다. (%(wrong_tag)s 아님)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "List of contact fields to display in the widget"
 msgstr "위젯에 표시할 연락처 필드 목록"
@@ -33122,7 +33122,7 @@ msgid "Logs"
 msgstr "로그"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Long"
 msgstr "Long"
@@ -33275,7 +33275,7 @@ msgid "Madagascar"
 msgstr "마다가스카르"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Mail Delivery Failed"
 msgstr "메일 전송 실패"
@@ -33333,7 +33333,7 @@ msgid ""
 msgstr "메일 테스트 : 모든 하위 모듈이 있는 메일과 관련된 성능 및 테스트"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Mail delivery failed via SMTP server '%(server)s'.\n"
@@ -33868,7 +33868,7 @@ msgid "Many2many Operations"
 msgstr "Many2many 작업"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Many2one %(field)s on model %(model)s does not exist!"
 msgstr "Many2one %(field)s 모델 %(model)s이 존재하지 않습니다!"
@@ -34453,7 +34453,7 @@ msgid "Misc"
 msgstr "기타"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Missing SMTP Server\n"
@@ -34464,7 +34464,7 @@ msgstr ""
 "하나 이상의 SMTP 서버를 지정하거나 SMTP 설정을 직접 입력하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Missing view architecture."
 msgstr "구조 보기가 없습니다."
@@ -34513,13 +34513,13 @@ msgid "Model"
 msgstr "모델"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist"
 msgstr "%s 모델이 존재하지 않습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist!"
 msgstr "%s 모델이 존재하지 않습니다!"
@@ -34587,7 +34587,7 @@ msgid "Model name of the object to open in the view window"
 msgstr "새 창에서 열린 객체의 모델 이름입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Model not found: %(model)s"
 msgstr "모델이 없습니다 : %(model)s"
@@ -34609,7 +34609,7 @@ msgid "Model to Export"
 msgstr "내보낼 모델"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model “%s” contains module data and cannot be removed."
 msgstr "모델 “%s”에 모듈 데이터가 포함되어 있으므로 삭제할 수 없습니다."
@@ -34760,7 +34760,7 @@ msgstr ""
 "니다.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/convert.py:0
 msgid ""
 "Module loading %(module)s failed: file %(file)s could not be processed:\n"
@@ -34781,7 +34781,7 @@ msgid "Modules"
 msgstr "모듈"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Modules \"%(module)s\" and \"%(incompatible_module)s\" are incompatible."
@@ -35016,7 +35016,7 @@ msgid "Nakfa"
 msgstr "낙파"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_name
 #: model:ir.model.fields,field_description:base.field_ir_actions_todo__name
@@ -35066,13 +35066,13 @@ msgid "Name of the Many2one field holding the res.currency"
 msgstr "res.currency가 저장된 Many2one 필드 이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Name or id “%(name_or_id)s” in %(use)s does not exist."
 msgstr "이름 또는 ID “%(name_or_id)s”가 %(use)s에 존재하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Name or id “%(name_or_id)s” in %(use)s must be present in view but is "
@@ -35107,7 +35107,7 @@ msgid "Nano Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "나노 테마 - BetopiaERP CMS용 반응형 부트스트랩 테마"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Narrow"
 msgstr "좁게"
@@ -35163,7 +35163,7 @@ msgid "New Caledonia"
 msgstr "뉴 칼레도니아"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_export_language.py:0
 msgid "New Language (Empty translation template)"
 msgstr "새 언어 (번역 서식은 비어있습니다)"
@@ -35335,7 +35335,7 @@ msgid "No Country Found!"
 msgstr "국가를 찾을 수 없습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "No default view of type '%s' could be found!"
 msgstr "'%s' 유형에 대한 기본 화면을 찾을 수 없습니다!"
@@ -35351,13 +35351,13 @@ msgid "No gap"
 msgstr "간격 없음"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "No group currently allows this operation."
 msgstr "이 작업을 허용한 그룹이 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%(field)s'"
@@ -35366,7 +35366,7 @@ msgstr ""
 "을 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%"
@@ -35387,7 +35387,7 @@ msgid "No of Views"
 msgstr "조회수"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "No response received. Check server address and port number.\n"
@@ -35397,7 +35397,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "No spaces allowed in view_mode: “%s”"
 msgstr "view_mode에는 공백이 허용되지 않습니다: “%s”"
@@ -35408,7 +35408,7 @@ msgid "Non Updatable"
 msgstr "업데이트 할 수 없음"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Non-relational field name \"%(field_name)s\" in related field \"%"
@@ -35417,13 +35417,13 @@ msgstr ""
 "비관계형 필드 이름 \"%(field_name)s\"과 관련 필드 \"%(related_field)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Non-relational field “%(field)s” in dependency “%(dependency)s”"
 msgstr "비관계형 필드“%(field)s”의 종속성 “%(dependency)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Non-relational field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr "비관계형 필드 “%(field)s”의 경로 “%(field_path)s” %(use)s)"
@@ -35457,7 +35457,7 @@ msgid "Norfolk Island"
 msgstr "노퍽 섬"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_bank.py:0
 msgid "Normal"
 msgstr "일반"
@@ -35511,7 +35511,7 @@ msgid "Not Installed"
 msgstr "설치되지 않음"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Not enough access rights on the external ID \"%(module)s.%(xml_id)s\""
 msgstr ""
@@ -36694,7 +36694,7 @@ msgid "BetopiaERP Mobile Point of Sale module"
 msgstr "BetopiaERP 모바일 POS 모듈"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_BetopiaERP_partner
+#: model:ir.module.module,shortdesc:base.module_betopiaerp_partner
 msgid "BetopiaERP Partner"
 msgstr "BetopiaERP 파트너"
 
@@ -37743,7 +37743,7 @@ msgid "BetopiaERP helps you track all activities related to your contacts."
 msgstr "BetopiaERP는 연락처와 관련된 모든 활동을 추적하도록 도와줍니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing a scheduled action.\n"
@@ -37755,7 +37755,7 @@ msgstr ""
 "게 문의하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing another module operation.\n"
@@ -37765,7 +37765,7 @@ msgstr ""
 "나중에 다시 시도하거나 시스템 관리자에게 문의하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "BetopiaERP is unable to merge the generated PDFs because of %(num_errors)s "
@@ -37773,7 +37773,7 @@ msgid ""
 msgstr "%(num_errors)s의 손상된 파일로 인해 생성된 PDF를 병합할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "BetopiaERP is unable to merge the generated PDFs."
 msgstr "BetopiaERP는 생성된 PDF를 병합할 수 없습니다."
@@ -37852,7 +37852,7 @@ msgstr ""
 "납품 검증이 완료되면 SO의 비용을 업데이트하여 정확한 마진 계산을 수행합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "One or more of the selected modules have already been uninstalled, if you "
@@ -37867,7 +37867,7 @@ msgid "One user should only have one user settings."
 msgstr "한 사용자당 하나의 사용자 설정만 가져야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "One2Many fields cannot be synchronized as part of `commercial_fields` or "
@@ -37912,13 +37912,13 @@ msgid "Online Task Submission"
 msgstr "온라인 작업 제출"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Only administrators can change the settings"
 msgstr "관리자만 설정을 변경할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Only administrators can execute this action."
 msgstr "관리자만 이 작업을 실행할 수 있습니다."
@@ -37948,7 +37948,7 @@ msgstr ""
 " 결과는 이 보기의 실제 아치인 것처럼 사용됩니다.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Only internal users can create API keys"
 msgstr "내부 사용자만 API 키를 만들 수 있습니다."
@@ -37969,13 +37969,13 @@ msgid "Only one value can be defined for each given usage!"
 msgstr "각 주어진 사용에는 하나의 값만 정의할 수 있습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Only super user has access"
 msgstr "관리자만 액세스 권한이 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Only the portal users can delete their accounts. The user(s) %s can not be "
@@ -38081,7 +38081,7 @@ msgid "Optional password for SMTP authentication"
 msgstr "SMTP 인증을 위한 선택적 암호"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Optional timezone name"
 msgstr "선택적 시간대 이름"
@@ -38521,7 +38521,7 @@ msgid "Original View"
 msgstr "원본 보기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Original currency"
 msgstr "원본 통화"
@@ -39121,7 +39121,7 @@ msgid "Pacific/Yap"
 msgstr "태평양/Yap"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Page direct ancestor must be notebook"
 msgstr "페이지 직접 상위 항목은 노트북이어야 합니다"
@@ -39359,7 +39359,7 @@ msgid "Partners Geolocation"
 msgstr "협력사 위치정보"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Partners: %(category)s"
 msgstr "협력사 : %(category)s"
@@ -39442,7 +39442,7 @@ msgid "Path to show in the URL"
 msgstr "URL에 표시할 경로"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model:ir.model.constraint,message:base.constraint_ir_act_client_path_unique
 #: model:ir.model.constraint,message:base.constraint_ir_act_report_xml_path_unique
@@ -39460,7 +39460,7 @@ msgid "Path to the field to update, e.g. 'partner_id.name'"
 msgstr "업데이트할 필드 경로, 예: 'partner_id.name'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Pattern to format"
 msgstr "서식을 지정할 패턴"
@@ -39775,7 +39775,7 @@ msgid "Philippines Checks Layout"
 msgstr "필리핀용 수표 양식"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_bank__phone
 #: model:ir.model.fields,field_description:base.field_res_company__phone
@@ -39946,7 +39946,7 @@ msgid "Platform"
 msgstr "플랫폼"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Please configure an email on the current user to simulate sending an email "
@@ -39972,7 +39972,7 @@ msgid ""
 msgstr "지정된 그룹의 모든 사용자에게 수정 사항이 적용됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
@@ -40199,7 +40199,7 @@ msgid "Pounds"
 msgstr "파운드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Precision Digits"
 msgstr "세부 자리수"
@@ -40236,7 +40236,7 @@ msgid "Preview pdf src"
 msgstr "pdf src 미리보기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Previous Arch"
 msgstr "이전 보관"
@@ -40330,7 +40330,7 @@ msgid "Privileges"
 msgstr "혜택"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Problematic record(s)"
 msgstr "문제가 있는 기록"
@@ -40442,7 +40442,7 @@ msgid "Profiling is currently disabled."
 msgstr "프로파일링이 현재 사용하지 않음 상태로 되어 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "Profiling is not enabled on this database. Please contact an administrator."
@@ -40867,7 +40867,7 @@ msgid "Properties Field"
 msgstr "속성 필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Properties of base fields cannot be altered in this manner! Please modify "
@@ -41424,7 +41424,7 @@ msgid "Record Rule"
 msgstr "레코드 규칙"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_rule
 #: model:ir.model.fields,field_description:base.field_ir_model__rule_ids
@@ -41438,7 +41438,7 @@ msgid "Record Rules"
 msgstr "레코드 규칙"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Record cannot be modified right now: This cron task is currently being "
@@ -41505,13 +41505,13 @@ msgid "Recruitment tracking on appointments"
 msgstr "약속 관련 채용 추적"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Recursion error in modules dependencies!"
 msgstr "모듈 종속성에 재귀 오류가 발생했습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Recursion found in child server actions"
 msgstr "하위 서버 작업에서 재귀가 발견되었습니다."
@@ -41525,7 +41525,7 @@ msgid "Reference"
 msgstr "참조"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Reference date"
 msgstr "참조 날짜"
@@ -41562,14 +41562,14 @@ msgid "Related Partner"
 msgstr "관련 협력사"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Related field \"%(related_field)s\" does not have comodel \"%(comodel)s\""
 msgstr "관련 필드 \"%(related_field)s\"에 공통 모델 \"%(comodel)s\"이 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Related field \"%(related_field)s\" does not have type \"%(type)s\""
 msgstr "관련 필드 \"%(related_field)s\"에 \"%(type)s\" 유형이 없습니다."
@@ -41747,7 +41747,7 @@ msgid "Report Xml"
 msgstr "Xml 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Report template “%s” has an issue, please contact your administrator. \n"
@@ -41922,7 +41922,7 @@ msgid "Revision"
 msgstr "개정"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Revision Code"
 msgstr "코드 개정"
@@ -42071,13 +42071,13 @@ msgid "Rounding Factor"
 msgstr "반올림 요소"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding precision"
 msgstr "반올림 정밀도"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding unit"
 msgstr "반올림 단위"
@@ -42123,7 +42123,7 @@ msgid "Rules"
 msgstr "규칙"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Rules can not be applied on the Record Rules model."
 msgstr "레코드 규칙 모델에는 규칙을 적용할 수 없습니다."
@@ -42298,7 +42298,7 @@ msgid "SSL Private Key"
 msgstr "SSL 개인 키"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL certificate is missing for %s."
 msgstr "%s 관련한 SSL 인증서가 없습니다."
@@ -42309,7 +42309,7 @@ msgid "SSL certificate used for authentication"
 msgstr "인증용으로 사용되는 SSL 인증서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL private key is missing for %s."
 msgstr "%s 관련한 SSL 개인 키가 없습니다."
@@ -42918,13 +42918,13 @@ msgid "Search modules"
 msgstr "검색 모듈"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Search tag can only contain one search panel"
 msgstr "검색 태그는 검색 패널을 하나만 포함할 수 있습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Searchpanel item with select multi cannot have a domain."
 msgstr "다중 선택이 있는 검색 패널 항목은 도메인을 가질 수 없습니다."
@@ -42942,13 +42942,13 @@ msgid "Security"
 msgstr "보안"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "See all possible values"
 msgstr "가능한 모든 값 보기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/common.py:0
 msgid "See http://openerp.com"
 msgstr "http://openerp.com 참조"
@@ -43016,7 +43016,7 @@ msgstr ""
 "                                합치지 않으려면 목록에서 연락처를 삭제하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields.selection,name:base.selection__base_partner_merge_automatic_wizard__state__selection
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_selection_search
@@ -43315,7 +43315,7 @@ msgid "Separator Format"
 msgstr "구분 기호 형식"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Separator use to split the address from the display_name."
 msgstr "구분 기호는 display_name에서 주소를 구분하는 데 사용됩니다."
@@ -43437,7 +43437,7 @@ msgid "Server action"
 msgstr "서버 작업"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Server action %(action_name)s has one or more warnings, address them first."
@@ -43446,7 +43446,7 @@ msgstr ""
 "하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Server replied with following exception:\n"
@@ -43530,7 +43530,7 @@ msgid ""
 msgstr "값을 설정하면 주어진 모델의 메뉴에서 이 작업을 사용할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "보안 상 암호 설정 없이 진행할 수 없습니다!"
@@ -43632,7 +43632,7 @@ msgid "Shopper's Wishlist"
 msgstr "구매 희망 목록"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Short"
 msgstr "Short"
@@ -43756,7 +43756,7 @@ msgid "Sin"
 msgstr "신"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Since 17.0, the \"attrs\" and \"states\" attributes are no longer used.\n"
@@ -43827,7 +43827,7 @@ msgid "Skip these contacts"
 msgstr "이 연락처 생략"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Slash"
 msgstr "삭감"
@@ -44007,13 +44007,13 @@ msgid "Somoni"
 msgstr "소모니"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to access this document."
 msgstr "죄송합니다, 이 문서를 사용할 수 있는 권한이 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid ""
 "Sorry, you are not allowed to access this document. Please contact your "
@@ -44025,7 +44025,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to write on this document"
 msgstr "죄송합니다, 이 문서를 작성할 수 있는 권한이 없습니다."
@@ -44076,7 +44076,7 @@ msgid "Spa Resort"
 msgstr "스파 리조트"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Space"
 msgstr "스페이스"
@@ -44536,7 +44536,7 @@ msgid "Step"
 msgstr "단계"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Step must not be zero."
 msgstr "단계의 증가는 0이 아니어야 합니다."
@@ -45169,7 +45169,7 @@ msgid "Tattoo Shop"
 msgstr "타투 샵"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__vat
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
@@ -45284,19 +45284,19 @@ msgid "Template Name"
 msgstr "서식명"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template does not exist or has been deleted: %s"
 msgstr "템플릿이 존재하지 않거나 삭제되었습니다: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid "Template name is missing."
 msgstr "템플릿 이름이 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template not found: '%s'"
 msgstr "템플릿을 찾을 수 없습니다: '%s'"
@@ -45564,19 +45564,19 @@ msgid "Thailand - Accounting Reports"
 msgstr "태국 - 회계 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"%s\" action cannot be selected as home action."
 msgstr "\"%s\" 작업은 기본 작업으로 선택할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr "\"App Switcher\" 작업은 기본 작업으로 선택할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The \"editable\" attribute of list views must be \"top\" or \"bottom\", "
@@ -45586,19 +45586,19 @@ msgstr ""
 "신해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr "지점은 회사와 동일한 %s 항목을 사용해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key duration is not correct."
 msgstr "API 키의 기간이 올바르지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key must have an expiration date"
 msgstr "API 키에는 지정된 만료 날짜가 있어야 합니다."
@@ -45673,7 +45673,7 @@ msgid "The URL code of the language must be unique!"
 msgstr "URL 코드는 고유해야 합니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "The action \"%s\" cannot be set as the home action because it requires a "
@@ -45692,7 +45692,7 @@ msgid "The api key duration cannot be a negative value."
 msgstr "API 키의 기간은 음수 값으로 설정할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "The attachment collides with an existing file."
 msgstr "첨부 파일이 기존 파일과 충돌합니다."
@@ -45730,7 +45730,7 @@ msgid "The combination Account Number/Partner must be unique."
 msgstr "계좌 번호와 협력사는 고유하게 조합되어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "The company %(company_name)s cannot be archived because it is still used as "
@@ -45740,7 +45740,7 @@ msgstr ""
 "있으므로 보관 처리할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The company assigned to this partner does not match the company this partner "
@@ -45749,7 +45749,7 @@ msgstr ""
 "이 파트너에게 할당된 회사가 이 파트너가 대표하는 회사와 일치하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The company hierarchy cannot be changed."
 msgstr "회사 계층 구조는 변경할 수 없습니다."
@@ -45804,7 +45804,7 @@ msgid "The default company for this user."
 msgstr "해당 사용자의 회사 기본값입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid ""
 "The definition needs to be linked to a properties field. Those fields are "
@@ -45822,7 +45822,7 @@ msgid "The embedded action this filter is applied to"
 msgstr "이 필터가 적용된 임베디드 작업은 다음과 같습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The field '%(field)s' cannot be removed because the field '%(other_field)s' "
@@ -45908,7 +45908,7 @@ msgid "The first time the cron failed. It is automatically reset on success."
 msgstr "처음 크론이 실패하면 성공 시 자동으로 재설정됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_module_upgrade.py:0
 msgid "The following modules are not installed or unknown: %s"
 msgstr "다음 모듈은 설치되지 않았거나 알 수 없습니다 : %s"
@@ -45924,13 +45924,13 @@ msgid "The group itself with all its implied groups."
 msgstr "해당 그룹 및 포함된 하위 그룹 전체"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "The group “%(name)s” defined in view does not exist!"
 msgstr "보기에 정의된 “%(name)s” 그룹이 존재하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The hour must be between 0 and 23"
 msgstr "시간은 0에서 23 사이의 값이어야 합니다."
@@ -45952,13 +45952,13 @@ msgid "The key will be deleted once this period has elapsed."
 msgstr "이 기간이 만료되면 키가 삭제됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "The language %s is not installed."
 msgstr "%s 언어가 설치되지 않았습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #: code:addons/base/wizard/base_language_install.py:0
 msgid ""
@@ -45969,7 +45969,7 @@ msgstr ""
 "선택할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_country.py:0
 msgid "The layout contains an invalid format key"
 msgstr "양식에 잘못된 형식의 키가 있습니다."
@@ -45980,7 +45980,7 @@ msgid "The list of models that extends the current model."
 msgstr "현재 모델 목록을 확장하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The m2o field %s is required but declares its ondelete policy as being 'set "
@@ -45999,7 +45999,7 @@ msgstr ""
 "용됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "The method _button_immediate_install cannot be called on init or non loaded "
@@ -46009,7 +46009,7 @@ msgstr ""
 "서 호출할 수 없습니다. 대신 button_install을 사용하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The model name can only contain lowercase characters, digits, underscores "
@@ -46017,7 +46017,7 @@ msgid ""
 msgstr "모델 이름에는 영문 소문자, 숫자, 밑줄 및 점만 사용할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The model name must start with 'x_'."
 msgstr "사용자 정의 모델 이름은 'x_'로 시작해야 합니다."
@@ -46028,13 +46028,13 @@ msgid "The model this field belongs to"
 msgstr "필드가 속한 모델"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "The modes in view_mode must not be duplicated: %s"
 msgstr "view_mode의 모드는 중복되지 않아야 합니다 : %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The name for the current rate is empty.\n"
@@ -46049,7 +46049,7 @@ msgid "The name of the country must be unique!"
 msgstr "국가 이름은 고유해야 합니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "The name of the group can not start with \"-\""
 msgstr "사용자 그룹 이름은 '-'로 시작할 수 없습니다."
@@ -46075,13 +46075,13 @@ msgid "The name of the record to create"
 msgstr "생성할 레코드의 이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The new password and its confirmation must be identical."
 msgstr "새 비밀번호와 확인 비밀번호가 동일해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The new rate is quite far from the previous rate.\n"
@@ -46110,7 +46110,7 @@ msgid ""
 msgstr "이 작업의 연속 실패 횟수는 실행 성공 시 자동으로 초기화됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The ondelete policy \"%(policy)s\" is not valid for field \"%(field)s\""
 msgstr "\"%(policy)s\" 삭제 정책은 \"%(field)s\" 필드에 유효하지 않습니다."
@@ -46122,7 +46122,7 @@ msgid "The only predefined variables are"
 msgstr "유일한 사전 설정 변수는"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/model.py:0
 msgid "The operation cannot be completed: %s"
 msgstr "작업을 완료할 수 없습니다: %s"
@@ -46139,7 +46139,7 @@ msgstr ""
 "'red')]"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path contained by the field '%(searched_field)s' contains a non-"
@@ -46153,7 +46153,7 @@ msgstr ""
 "한다는 점을 확인하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path should contain only lowercase alphanumeric characters, underscore, "
@@ -46176,7 +46176,7 @@ msgid "The payment engine used by payment provider modules."
 msgstr "결제대행업체 모듈에서 사용하는 결제 엔진입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 msgid ""
 "The precision has been reduced for %s.\n"
@@ -46209,7 +46209,7 @@ msgstr ""
 "를 의미합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The private key or the certificate is not a valid file. \n"
@@ -46245,13 +46245,13 @@ msgstr ""
 "은 국가에 있는 협력사 전체에 고유하게 적용됩니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_binary.py:0
 msgid "The related attachment does not exist."
 msgstr "관련 첨부 파일이 존재하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The root node of a %(view_type)s view should be a <%(view_type)s>, not a <%"
@@ -46266,7 +46266,7 @@ msgid "The rounding factor must be greater than 0!"
 msgstr "반올림 정밀도는 0보다 커야 합니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The selected company is not compatible with the companies of the related "
@@ -46274,19 +46274,19 @@ msgid ""
 msgstr "선택한 회사가 관련 사용자와 연결된 회사와 호환되지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%(server_name)s\" doesn't return the maximum email size."
 msgstr "서버 \"%(server_name)s\"에서 최대 이메일 크기를 반환하지 않습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%s\" cannot be used because it is archived."
 msgstr "\"%s\" 서버는 보관 처리되었기 때문에 사용할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server has closed the connection unexpectedly. Check configuration "
@@ -46298,20 +46298,20 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the sender address (%(email_from)s) with error %(repl)s"
 msgstr "서버가 (%(email_from)s) 발신자 주소를 거부했습니다. 오류 : %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server refused the test connection with error %(repl)s"
 msgstr "다음 오류로 인해 서버에 테스트 접속을 할 수 없습니다: %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the test recipient (%(email_to)s) with error %(repl)s"
@@ -46323,7 +46323,7 @@ msgid "The state code."
 msgstr "상태 코드."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The table “%s” is used by another, possibly incompatible field(s)."
 msgstr "“%s” 표가 호환되지 않는 다른 필드에서 사용되고 있습니다."
@@ -46354,19 +46354,19 @@ msgstr ""
 "필터를 공유 중인 사용자입니다. 비워둘 경우 모든 사용자와 필터를 공유합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value (%s) passed should be positive"
 msgstr "전달된 값 (%s)은 양수이어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The value of 'Fold Field' should be a field name of the model."
 msgstr "필드 접기' 값은 모델의 필드 이름이어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value send to monetary field is not a number."
 msgstr "통화 필드의 값이 숫자가 아닙니다."
@@ -46440,13 +46440,13 @@ msgid "This Window"
 msgstr "현재 창"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "This column contains module data and cannot be removed!"
 msgstr "이 필드는 모듈 데이터를 포함하고 있으므로 삭제할 수 없습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "This currency is set on a company and therefore cannot be deactivated."
 msgstr "이 통화는 회사에 설정되어 있으므로 비활성화 시킬 수 없습니다."
@@ -46491,13 +46491,13 @@ msgstr ""
 "이 깨진 경우 재설정(소프트)하는 데 유용합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file could not be decoded as an image file."
 msgstr "이 파일은 이미지 파일로 디코딩할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file is not a webp file."
 msgstr "이 파일은 webp 파일이 아닙니다."
@@ -46621,7 +46621,7 @@ msgid "This is your company's currency."
 msgstr "회사의 기본 통화 정보입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "This method can only be accessed over HTTP"
 msgstr "이 메서드는 HTTP를 통해서만 접근할 수 있습니다."
@@ -47106,7 +47106,7 @@ msgid "This module will trigger the uninstallation of below modules."
 msgstr "이 모듈은 다음 모듈 제거를 트리거합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "This operation is allowed for the following groups:\n"
@@ -47116,7 +47116,7 @@ msgstr ""
 "%(groups_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "This view may not work for all users: some users may have a combination of "
@@ -47136,7 +47136,7 @@ msgstr ""
 "다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Those modules cannot be uninstalled: %s"
 msgstr "해당 모듈을 삭제할 수 없습니다: %s"
@@ -47372,13 +47372,13 @@ msgstr ""
 "                   줄였습니다. 유명한 관리 파트너입니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "Too large image (above %sMpx), reduce the image size."
 msgstr "이미지가 너무 큽니다(%sMpx 이상). 이미지 크기를 줄이세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Too many login failures, please wait a bit before trying again."
 msgstr "로그인이 여러 번 실패했습니다. 잠시 후 다시 시도하십시오."
@@ -47556,7 +47556,7 @@ msgid "Treehouse Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "트리하우스 테마 - BetopiaERP CMS용 반응형 부트스트랩 테마"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
 msgstr ""
@@ -47952,7 +47952,7 @@ msgid "Uganda - Accounting Reports"
 msgstr "우간다 - 회계 보고서"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Uh-oh! Looks like you have stumbled upon some top-secret records.\n"
@@ -47974,13 +47974,13 @@ msgid "Ukraine - Accounting"
 msgstr "우크라이나 - 회계"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
 msgstr "이 시스템에서 Wkhtmltopdf를 찾을 수 없습니다. PDF를 만들 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unable to import'%%(field)s' Properties field as a whole, target individual "
@@ -47990,7 +47990,7 @@ msgstr ""
 "지정하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to install module \"%(module)s\" because an external dependency is "
@@ -48000,7 +48000,7 @@ msgstr ""
 "(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unable to order by %s: fields used for ordering must be present on the model "
@@ -48009,7 +48009,7 @@ msgstr ""
 "%s로 주문할 수 없음 : 주문에 사용된 필드가 모델에 있고 저장되어야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to process module \"%(module)s\" because an external dependency is "
@@ -48019,7 +48019,7 @@ msgstr ""
 "(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to upgrade module \"%(module)s\" because an external dependency is "
@@ -48034,7 +48034,7 @@ msgid "Uncategorized"
 msgstr "미분류"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unicode strings with encoding declaration are not supported in XML.\n"
@@ -48044,7 +48044,7 @@ msgstr ""
 "인코딩 구문을 제거하세요."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.module_form
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
@@ -48052,14 +48052,14 @@ msgid "Uninstall"
 msgstr "설치 제거"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Uninstall module"
 msgstr "모듈 제거"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Uninstall modules"
 msgstr "모듈 제거"
@@ -48091,7 +48091,7 @@ msgid "Uninstall…"
 msgstr "설치 제거…"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Unit per %s"
 msgstr "%s 당 단위"
@@ -48192,7 +48192,7 @@ msgid "University, Education, Schools, Young, Play, Kids"
 msgstr "University, Education, Schools, Young, Play, Kids"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_device.py:0
 #: model:ir.model,name:base.model__unknown
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module_dependency__state__unknown
@@ -48201,13 +48201,13 @@ msgid "Unknown"
 msgstr "알 수 없음"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unknown field \"%(model)s.%(field)s\" in %(use)s)"
 msgstr "%(use)s의 알 수 없는 필드 \"%(model)s.%(field)s\")"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unknown field name \"%(field_name)s\" in related field \"%(related_field)s\""
@@ -48216,13 +48216,13 @@ msgstr ""
 "니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field specified “%s” in currency_field"
 msgstr "currency_field에 “%s”가 지정되지 않은 필드"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unknown field “%(field)s” in \"group_by\" value in %(attribute)s=“%(value)s”"
@@ -48230,25 +48230,25 @@ msgstr ""
 "“group_by\"“의 ‘%(field)s’를 알 수 없는 필드 값 %(attribute)s=”%(value)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field “%(field)s” in dependency “%(dependency)s”"
 msgstr "알 수 없는 필드 “%(field)s”의 종속성 “%(dependency)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown model name '%s' in Related Model"
 msgstr "관련 모델에서 알 수 없는 모델 이름 '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown sub-field “%s”"
 msgstr "알 수 없는 하위 필드 “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unknown value '%(value)s' for boolean '%(label_property)s' property "
@@ -48258,13 +48258,13 @@ msgstr ""
 "'%(value)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown value '%s' for boolean field '%%(field)s'"
 msgstr "'%%(field)s' 불 (boolean) 필드에 대해 알 수 없는 값 '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Unrecognized extension: must be one of .csv, .po, or .tgz (received .%s)."
@@ -48272,7 +48272,7 @@ msgstr ""
 "인식할 수 없는 확장자 : .csv, .po, or .tgz 중 하나여야 합니다(.%s로 작성됨)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unsearchable field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr "“%(field)s ”의 %(field_path)s에서 검색할 수 없는 필드 경로 %(use)s"
@@ -48305,7 +48305,7 @@ msgid "Update"
 msgstr "업데이트"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Update %(model_name)s"
 msgstr "%(model_name)s 업데이트"
@@ -48404,7 +48404,7 @@ msgid "Usage"
 msgstr "사용량"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use '1' for yes and '0' for no"
 msgstr "예일 경우 '1', 아니요일 경우 '0'을 사용하십시오."
@@ -48447,13 +48447,13 @@ msgid "Use barcode scanners to process logistics operations"
 msgstr "바코드 스캐너를 사용하여 물류 작업 처리"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma"
 msgstr "쉼표 사용"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma instead of the <br> tag to display the address"
 msgstr "주소를 표시하려면 <br> 태그 대신 쉼표를 사용합니다."
@@ -48518,14 +48518,14 @@ msgstr ""
 "수신된 배지가 사용자 프로파일에 표시됩니다.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Use the SMTP configuration set in the \"Command Line Interface\" arguments."
 msgstr "\"명령행 인터페이스\" 인수에 설정되어 있는 SMTP 설정을 사용합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use the format '%s'"
 msgstr "'%s' 형식 사용"
@@ -48608,7 +48608,7 @@ msgid "User"
 msgstr "사용자"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "User %(user)s cannot be at the same time in exclusive groups %(groups)s."
@@ -48688,7 +48688,7 @@ msgid "Username"
 msgstr "사용자 이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_users
 #: model:ir.model.fields,field_description:base.field_change_password_wizard__user_ids
@@ -48732,7 +48732,7 @@ msgid "Users and implied users"
 msgstr "사용자 및 사실상의 사용자"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "Users and implied users of %(group)s"
 msgstr "%(group)s 사용자 및 사실상의 사용자"
@@ -48763,7 +48763,7 @@ msgid "Uses Default Logo"
 msgstr "기본 로고 사용"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Using 24-hour clock format with AM/PM can cause issues."
 msgstr ""
@@ -48775,7 +48775,7 @@ msgid "Uzbekistan"
 msgstr "우즈베키스탄"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_vat
 #: model:res.country,vat_label:base.be model:res.country,vat_label:base.bg
@@ -48822,7 +48822,7 @@ msgid "Value"
 msgstr "금액"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Value '%s' not found in selection field '%%(field)s'"
 msgstr "'%s' 값을 선택 필드 '%%(field)s'에서 찾을 수 없습니다."
@@ -48899,7 +48899,7 @@ msgid "Venezuela - Accounting"
 msgstr "베네수엘라 - 회계"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Vertical bar"
 msgstr "수직 바"
@@ -48938,13 +48938,13 @@ msgid "View"
 msgstr "화면"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' accessible only to groups %(groups)s "
 msgstr "%(groups)s 그룹에서만 접근할 수 있는 '%(name)s' 화면 "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' is private"
 msgstr "'%(name)s' 화면은 비공개"
@@ -48970,7 +48970,7 @@ msgid "View Name"
 msgstr "화면 이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "View Problematic Record(s)"
 msgstr "문제가 있는 기록 보기"
@@ -49033,7 +49033,7 @@ msgid ""
 "Views allows you to personalize each view of BetopiaERP. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
-"화면을 사용하면 BetopiaERP의 모든 화면을 개인화할 수 있습니다. 새 필드를 추가하거"
+"화면을 사용하면 betopiaerp의 모든 화면을 개인화할 수 있습니다. 새 필드를 추가하거"
 "나, 필드를 이동하거나, 필드의 이름을 바꾸거나, 필요없는 필드를 삭제할 수 있습"
 "니다."
 
@@ -49117,7 +49117,7 @@ msgid "Warn user in case of products merging"
 msgstr "품목 병합 시 사용자에게 경고"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #: code:addons/base/models/ir_model.py:0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__warning
@@ -49126,7 +49126,7 @@ msgid "Warning"
 msgstr "주의"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 #: code:addons/base/models/res_currency.py:0
 msgid "Warning for %s"
@@ -49645,7 +49645,7 @@ msgid "Wholesale/Retail"
 msgstr "도매/소매"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Width"
 msgstr "폭"
@@ -49684,7 +49684,7 @@ msgid "Wizards to be Launched"
 msgstr "시작할 마법사"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltoimage failed (error code: %(error_code)s). Message: %"
@@ -49694,7 +49694,7 @@ msgstr ""
 "(error_message_end)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltopdf failed (error code: %(error_code)s). Memory limit too low or "
@@ -49704,7 +49704,7 @@ msgstr ""
 "낮거나 하위 프로세스의 최대 파일 수에 도달했습니다. 메시지: %(message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
 msgstr ""
@@ -49851,7 +49851,7 @@ msgid "Yoga & Pilates Studio"
 msgstr "요가 및 필라테스 스튜디오"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to access '%(document_kind)s' (%(document_model)s) "
@@ -49859,7 +49859,7 @@ msgid ""
 msgstr "'%(document_kind)s' (%(document_model)s) 레코드에 접근할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to create '%(document_kind)s' (%(document_model)s) "
@@ -49867,7 +49867,7 @@ msgid ""
 msgstr "'%(document_kind)s' (%(document_model)s) 레코드를 만들 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to delete '%(document_kind)s' (%(document_model)s) "
@@ -49875,7 +49875,7 @@ msgid ""
 msgstr "'%(document_kind)s' (%(document_model)s) 레코드를 삭제할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to modify '%(document_kind)s' (%(document_model)s) "
@@ -49883,7 +49883,7 @@ msgid ""
 msgstr "'%(document_kind)s' (%(document_model)s) 레코드를 수정할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to install incompatible modules in category \"%(category)s\":%"
@@ -49892,7 +49892,7 @@ msgstr ""
 "“%(category)s\":%(module_list)s에 호환되지 않는 모듈을 설치하려고 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to remove a module that is installed or will be installed."
@@ -49913,13 +49913,13 @@ msgstr ""
 "있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "You can not change the field of a base definition"
 msgstr "기본 정의 필드는 변경할 수 없습니다"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You can not create recursive tags."
 msgstr "재귀 태그는 만들 수 없습니다."
@@ -49930,7 +49930,7 @@ msgid "You can not have two users with the same login!"
 msgstr "동일한 로그인으로 두 명의 사용자를 가질 수 없습니다!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove API keys unless they're yours or you are a system user"
@@ -49938,7 +49938,7 @@ msgstr ""
 "본인 소유이거나 시스템 사용자가 아닌 경우 API 키를 제거 할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
@@ -49948,13 +49948,13 @@ msgstr ""
 "습니다 (업데이트, 모듈 설치)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You can ony call user.has_group() with your current user."
 msgstr "현재 사용자로 user.has_group()을 호출할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/report_paperformat.py:0
 msgid ""
 "You can select either a format or a specific page width/height, but not both."
@@ -49963,13 +49963,13 @@ msgstr ""
 "택할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot activate the superuser."
 msgstr "수퍼 유저는 활성화할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -49985,7 +49985,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -49999,7 +49999,7 @@ msgstr ""
 "연결되어 있는 활성화 된 사용자: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot archive the language in which BetopiaERP was setup as it is used by "
@@ -50008,7 +50008,7 @@ msgstr ""
 "자동화된 프로세스에서 사용되므로 BetopiaERP가 설정된 언어는 보관할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive these Outgoing Mail Servers (%(server_usage)s) because "
@@ -50020,7 +50020,7 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive this Outgoing Mail Server (%(server_usage)s) because it "
@@ -50032,13 +50032,13 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You cannot create recursive Partner hierarchies."
 msgstr "재귀적 파트너 계층은 만들 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "You cannot create recursive inherited views."
 msgstr "재귀 상속보기를 만들 수 없습니다."
@@ -50051,25 +50051,25 @@ msgid ""
 msgstr "한 시퀀스에 대해 동일한 날짜 범위를 두 개 생성할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot deactivate the user you're currently logged in as."
 msgstr "현재 사용중인 사용자를 비활성화 할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_embedded_actions.py:0
 msgid "You cannot delete a default embedded action"
 msgstr "기본 임베디드 작업은 삭제할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "You cannot delete a group linked with a settings field."
 msgstr "설정 필드에 연결된 그룹은 삭제할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -50085,7 +50085,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -50099,13 +50099,13 @@ msgstr ""
 "연결되어 있는 활성화 된 사용자: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot delete the %s record."
 msgstr "%s 레코드를 삭제할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You cannot delete the admin user because it is utilized in various places "
@@ -50115,7 +50115,7 @@ msgstr ""
 "함으로 이동할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot delete the language which is Active!\n"
@@ -50125,25 +50125,25 @@ msgstr ""
 "먼저 비활성화 하십시오."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "You cannot delete the language which is the user's preferred language."
 msgstr "사용자의 기본 언어는 삭제할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot exceed %(duration)s days."
 msgstr "%(duration)s일을 초과할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You cannot merge a contact with one of his parent."
 msgstr "상위 연락처와 합칠 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "You cannot merge contacts linked to more than one user even if only one is "
@@ -50153,25 +50153,25 @@ msgstr ""
 "할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot rename config parameters with keys %s"
 msgstr "%s 키를 사용하여 구성 매개 변수의 이름을 변경할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "You don't have enough access rights to run this action."
 msgstr "이 작업을 실행하기에 충분한 권한이 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You have to specify a filter for your selection."
 msgstr "필터를 정의하려면 드롭 다운 메뉴를 지정해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You must have at least an administrator user."
 msgstr "반드시 관리자가 한 명 이상 있어야 합니다."
@@ -50187,7 +50187,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "귀사의 이용약관을 반영하여 이 문서를 업데이트해야 합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to install module \"%(module)s\" that depends on module \"%"
@@ -50198,7 +50198,7 @@ msgstr ""
 "나 사용자 시스템에서 종속 모듈은 사용할 수 없습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to upgrade the module %(module)s that depends on the module: %"
@@ -50233,7 +50233,7 @@ msgstr ""
 "맛있게 드세요!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Your server does not seem to support SSL, you may want to try STARTTLS "
@@ -50386,7 +50386,7 @@ msgid "choose"
 msgstr "선택"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "create"
 msgstr "작성"
@@ -50397,7 +50397,7 @@ msgid "cêntimo"
 msgstr "센티모"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "database id"
 msgstr "데이터베이스 id"
@@ -50413,7 +50413,7 @@ msgid "datetime"
 msgstr "날짜시간"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "day"
 msgstr "일"
@@ -50459,7 +50459,7 @@ msgid "e.g. \"Roadshow\""
 msgstr "예: \"로드쇼\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "e.g. %(placeholder)s"
 msgstr "예: %(placeholder)s"
@@ -50602,13 +50602,13 @@ msgid "expenses"
 msgstr "경비"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "external id"
 msgstr "외부 id"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "false"
 msgstr "X"
@@ -50629,7 +50629,7 @@ msgstr ""
 "        record['size'] = len(record.name)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "format() must be given exactly one %char format specifier"
 msgstr "format()에는  정확하게 하나의 %char 형식 지정자를 지정해야 합니다"
@@ -50650,7 +50650,7 @@ msgstr ""
 "                            추가 설정에서 사용 언어를 선택할 수 있습니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "hour"
 msgstr "시간"
@@ -50739,7 +50739,7 @@ msgid "many2one_reference"
 msgstr "many2one_reference"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "minute"
 msgstr "분"
@@ -50755,25 +50755,25 @@ msgid "monetary"
 msgstr "통화"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "month"
 msgstr "월"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "name"
 msgstr "이름"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "narrow"
 msgstr "좁게"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "no"
 msgstr "아니오"
@@ -50794,7 +50794,7 @@ msgid "others"
 msgstr "기타"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "parent_id"
 msgstr "parent_id"
@@ -50854,7 +50854,7 @@ msgid "properties_definition"
 msgstr "properties_definition"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "read"
 msgstr "읽기"
@@ -50871,7 +50871,7 @@ msgid "sales"
 msgstr "판매"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "second"
 msgstr "초"
@@ -50892,7 +50892,7 @@ msgid "sequence_id"
 msgstr "sequence_id"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "short"
 msgstr "짧게"
@@ -50993,13 +50993,13 @@ msgid "text"
 msgstr "본문"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "true"
 msgstr "O"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "unlink"
 msgstr "링크 해제"
@@ -51030,31 +51030,31 @@ msgid "website helpdesk sale loyalty"
 msgstr "웹사이트 헬프데스크 판매 적립"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "week"
 msgstr "주"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
 msgstr "HTML에서 이미지를 렌더링하려면 wkhtmltoimage 0.12.0^이 필요합니다."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "write"
 msgstr "쓰기"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "year"
 msgstr "년"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "yes"
 msgstr "예"
@@ -51065,7 +51065,7 @@ msgid "Åland Islands"
 msgstr "올란드 제도"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "“%(attribute)s” value must be an integer (%(value)s)"
 msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
@@ -51312,7 +51312,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "the sequences synchronization between BetopiaERP and AFIP.\n"
 #~ "\n"
 #~ "    NOTE: From the Journal's form view we are able to force a sync "
-#~ "between the BetopiaERP sequences to each of the document types in\n"
+#~ "between the betopiaerp sequences to each of the document types in\n"
 #~ "    with the last numbers registered in AFIP.\n"
 #~ "\n"
 #~ "From vendor bills, we have added a functionality that can be configured "
@@ -51403,7 +51403,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "문제점에 대한 지원을 받기 위해서 최근의 관련 번호를 사용할 수도 있게 됩니"
 #~ "다.\n"
 #~ "\n"
-#~ "    참고: 분개장 양식 항목에서 각 문서별 유형에 대하여 BetopiaERP 시퀀스 간의 동"
+#~ "    참고: 분개장 양식 항목에서 각 문서별 유형에 대하여 betopiaerp 시퀀스 간의 동"
 #~ "기화를 필수로 설정할 수도 있으며 이러한 경우에\n"
 #~ "     AFIP에 등록된 마지막 번호를 사용합니다.\n"
 #~ "\n"
@@ -52191,7 +52191,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "requirements which might arise from POS implementation. [1]  Under normal "
 #~ "circumstances, you might not need to use those at all.\n"
 #~ "\n"
-#~ "[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+#~ "[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 #~ "\n"
 #~ "    "
 #~ msgstr ""
@@ -52211,7 +52211,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "requirements which might arise from POS implementation. [1]  Under normal "
 #~ "circumstances, you might not need to use those at all.\n"
 #~ "\n"
-#~ "[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+#~ "[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 #~ "\n"
 #~ "    "
 
@@ -56998,7 +56998,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "towarów\n"
 #~ "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 #~ "\n"
-#~ "Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+#~ "Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 #~ "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 #~ "    "
 #~ msgstr ""
@@ -57012,7 +57012,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "towarów\n"
 #~ "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 #~ "\n"
-#~ "Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+#~ "Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 #~ "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 #~ "    "
 
@@ -58050,7 +58050,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "\n"
 #~ "The first version of the module was specified in task\n"
 #~ "[2802678](https://www.BetopiaERP.com/web#id=2802678&model=project.task) and "
-#~ "merged with PR BetopiaERP/BetopiaERP#95860\n"
+#~ "merged with PR betopiaerp/betopiaerp#95860\n"
 #~ "in `saas-15.5`.\n"
 #~ "\n"
 #~ "## Testing instructions\n"
@@ -58080,8 +58080,8 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "## 통합 상세 정보\n"
 #~ "\n"
 #~ "작업에 지정된 모듈의 첫번째 버전은 다음과 같으며\n"
-#~ "[2802678](https://www.BetopiaERP.com/web#id=2802678&model=project.task) PR BetopiaERP/"
-#~ "BetopiaERP#95860 과 통합되었습니다.\n"
+#~ "[2802678](https://www.BetopiaERP.com/web#id=2802678&model=project.task) PR betopiaerp/"
+#~ "betopiaerp#95860 과 통합되었습니다.\n"
 #~ "`saas-15.5`에서 확인하시기 바랍니다.\n"
 #~ "\n"
 #~ "## 테스트 지침\n"
@@ -58122,7 +58122,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "The first version of the module was specified in task\n"
 #~ "[2845428](https://www.BetopiaERP.com/web#id=2845428&model=project.task) and "
 #~ "merged with PR\n"
-#~ "BetopiaERP/BetopiaERP#98441 in `saas-15.5`.\n"
+#~ "betopiaerp/betopiaerp#98441 in `saas-15.5`.\n"
 #~ "\n"
 #~ "## Testing instructions\n"
 #~ "\n"
@@ -58166,7 +58166,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ " \n"
 #~ "[2845428](https://www.BetopiaERP.com/web#id=2845428&model=project.task) and "
 #~ "merged with PR\n"
-#~ "BetopiaERP/BetopiaERP#98441 in `saas-15.5`.\n"
+#~ "betopiaerp/betopiaerp#98441 in `saas-15.5`.\n"
 #~ "\n"
 #~ "## 테스트 지침\n"
 #~ "\n"
@@ -58226,7 +58226,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "The first version of the module was specified in task\n"
 #~ "[2704764](https://www.BetopiaERP.com/web#id=2704764&model=project.task) and "
 #~ "merged with PR\n"
-#~ "BetopiaERP/BetopiaERP#83957 in `saas-15.5`.\n"
+#~ "betopiaerp/betopiaerp#83957 in `saas-15.5`.\n"
 #~ "\n"
 #~ "## Testing instructions\n"
 #~ "\n"
@@ -58281,7 +58281,7 @@ msgstr "“%(attribute)s” 값은 정수(%(value)s)여야 합니다."
 #~ "모듈의 첫 번째 버전은 작업\n"
 #~ "[2704764](https://www.BetopiaERP.com/web#id=2704764&model=project.task)에서 지정"
 #~ "되었으며 다음과 병합되었습니다. PR\n"
-#~ "BetopiaERP/BetopiaERP#83957 in `saas-15.5`.\n"
+#~ "betopiaerp/betopiaerp#83957 in `saas-15.5`.\n"
 #~ "\n"
 #~ "## 테스트 지침\n"
 #~ "\n"

@@ -1,4 +1,4 @@
-import { Component, useSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, useSubEnv, xml } from "@betopiaerp/owl";
 import { batched } from "@web/core/utils/timing";
 
 export class ImgGroup extends Component {

@@ -25,9 +25,9 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Revenues](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"product_id.channel_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"date:month\"],\"graph_measure\":\"price_subtotal\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"date:month\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"eLearning Revenues\"})",
-        "A23": "[Attendees by Course](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"channel_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"channel_id\"]},\"modelName\":\"slide.channel.partner\",\"views\":[[false,\"list\"],[false,\"form\"],[false,\"kanban\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendees by Course\"})",
-        "G23": "[Views by Course](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"is_category\",\"=\",false]],\"context\":{\"group_by\":[\"channel_id\",\"slide_category\"],\"graph_measure\":\"total_views\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"channel_id\",\"slide_category\"]},\"modelName\":\"slide.slide\",\"views\":[[false,\"graph\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Views by Course\"})"
+        "A7": "[Revenues](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"product_id.channel_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"date:month\"],\"graph_measure\":\"price_subtotal\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"date:month\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"eLearning Revenues\"})",
+        "A23": "[Attendees by Course](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"channel_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"channel_id\"]},\"modelName\":\"slide.channel.partner\",\"views\":[[false,\"list\"],[false,\"form\"],[false,\"kanban\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendees by Course\"})",
+        "G23": "[Views by Course](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"is_category\",\"=\",false]],\"context\":{\"group_by\":[\"channel_id\",\"slide_category\"],\"graph_measure\":\"total_views\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"channel_id\",\"slide_category\"]},\"modelName\":\"slide.slide\",\"views\":[[false,\"graph\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Views by Course\"})"
       },
       "styles": { "A7": 1, "A23": 1, "G23": 1 },
       "formats": {},
@@ -71,7 +71,7 @@
               "groupBy": ["date:month"],
               "orderBy": []
             },
-            "type": "BetopiaERP_line",
+            "type": "betopiaerp_line",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": false,
@@ -208,7 +208,7 @@
               "groupBy": ["channel_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": true,
@@ -246,7 +246,7 @@
               "groupBy": ["channel_id", "slide_category"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": true,
@@ -353,7 +353,7 @@
   },
   "pivots": {
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {},
       "context": {},
       "domain": [
@@ -370,7 +370,7 @@
       "rows": []
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "46b74887-ff98-4c97-9629-4a5a14084321": { "chain": "create_date", "type": "datetime" }
       },
@@ -392,7 +392,7 @@
       "rows": []
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "46b74887-ff98-4c97-9629-4a5a14084321": { "chain": "create_date", "type": "datetime", "offset": 0 }
       },
@@ -410,7 +410,7 @@
       "rows": []
     },
     "7": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "46b74887-ff98-4c97-9629-4a5a14084321": { "chain": "create_date", "type": "datetime", "offset": -1 }
       },
@@ -428,7 +428,7 @@
       "rows": []
     },
     "9": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {},
       "context": {},
       "domain": [
@@ -448,7 +448,7 @@
       "rows": []
     },
     "10": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "46b74887-ff98-4c97-9629-4a5a14084321": { "chain": "date", "type": "datetime", "offset": 0 }
       },
@@ -477,7 +477,7 @@
       "rows": []
     },
     "11": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "46b74887-ff98-4c97-9629-4a5a14084321": { "chain": "date", "type": "datetime", "offset": -1 }
       },

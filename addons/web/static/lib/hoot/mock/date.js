@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { getTimeOffset, isTimeFrozen, resetTimeOffset } from "@web/../lib/hoot-dom/helpers/time";
 import { createMock, HootError, isNil } from "../hoot_utils";

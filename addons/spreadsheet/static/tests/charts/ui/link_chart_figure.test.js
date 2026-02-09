@@ -1,6 +1,6 @@
-import { click } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { expect, test, beforeEach } from "@BetopiaERP/hoot";
+import { click } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { expect, test, beforeEach } from "@betopiaerp/hoot";
 import { getBasicData, defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { createBasicChart } from "@spreadsheet/../tests/helpers/commands";
 import { mountSpreadsheet } from "@spreadsheet/../tests/helpers/ui";
@@ -105,29 +105,29 @@ beforeEach(() => {
     serverState.userId = 1;
 });
 
-test("icon external link isn't on the chart when its not linked to an BetopiaERP menu", async function () {
+test("icon external link isn't on the chart when its not linked to an betopiaerp menu", async function () {
     const { model } = await createModelWithDataSource({
         serverData,
     });
     const fixture = await mountSpreadsheet(model);
     createBasicChart(model, chartId);
     await animationFrame();
-    const BetopiaERPMenu = model.getters.getChartBetopiaERPMenu(chartId);
-    expect(BetopiaERPMenu).toBe(undefined, { message: "No menu linked with the chart" });
+    const betopiaerpMenu = model.getters.getChartBetopiaERPMenu(chartId);
+    expect(betopiaerpMenu).toBe(undefined, { message: "No menu linked with the chart" });
 
     const externalRefIcon = fixture.querySelector(".o-chart-external-link");
     expect(externalRefIcon).toBe(null);
 });
 
-test("icon external link is on the chart when its linked to an BetopiaERP menu", async function () {
+test("icon external link is on the chart when its linked to an betopiaerp menu", async function () {
     const { model } = await createModelWithDataSource({
         serverData,
     });
     await mountSpreadsheet(model);
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
 
     const chartMenu = model.getters.getChartBetopiaERPMenu(chartId);
@@ -136,15 +136,15 @@ test("icon external link is on the chart when its linked to an BetopiaERP menu",
     expect(".o-chart-external-link").toHaveCount(1);
 });
 
-test("icon external link is not on the chart when its linked to a wrong BetopiaERP menu", async function () {
+test("icon external link is not on the chart when its linked to a wrong betopiaerp menu", async function () {
     const { model } = await createModelWithDataSource({
         serverData,
     });
     await mountSpreadsheet(model);
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: "menu which does not exist",
+        betopiaerpMenuId: "menu which does not exist",
     });
     const chartMenu = model.getters.getChartBetopiaERPMenu(chartId);
     expect(chartMenu).toBe(undefined, { message: "cannot get a wrong menu" });
@@ -158,9 +158,9 @@ test("icon external link isn't on the chart in dashboard mode", async function (
     });
     await mountSpreadsheet(model);
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
     const chartMenu = model.getters.getChartBetopiaERPMenu(chartId);
     expect(chartMenu.id).toBe(1, { message: "BetopiaERP menu is linked to chart" });
@@ -169,7 +169,7 @@ test("icon external link isn't on the chart in dashboard mode", async function (
     expect(".o-chart-external-link").toHaveCount(0, { message: "No link icon in dashboard" });
 });
 
-test("click on icon external link on chart redirect to the BetopiaERP menu", async function () {
+test("click on icon external link on chart redirect to the betopiaerp menu", async function () {
     const doActionStep = "doAction";
     mockActionService(doActionStep);
 
@@ -179,9 +179,9 @@ test("click on icon external link on chart redirect to the BetopiaERP menu", asy
     const fixture = await mountSpreadsheet(model);
 
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 2,
+        betopiaerpMenuId: 2,
     });
     const chartMenu = model.getters.getChartBetopiaERPMenu(chartId);
     expect(chartMenu.id).toBe(2, { message: "BetopiaERP menu is linked to chart" });
@@ -200,9 +200,9 @@ test("can use menus xmlIds instead of menu ids", async function () {
     const fixture = await mountSpreadsheet(model);
 
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: "spreadsheet.test.menu2",
+        betopiaerpMenuId: "spreadsheet.test.menu2",
     });
     await animationFrame();
 
@@ -226,9 +226,9 @@ test("Trying to open a menu without an action sends a notification to the user",
     const fixture = await mountSpreadsheet(model);
 
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: "spreadsheet.test.menu_without_action",
+        betopiaerpMenuId: "spreadsheet.test.menu_without_action",
     });
     await animationFrame();
 

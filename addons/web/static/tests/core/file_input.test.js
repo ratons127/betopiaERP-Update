@@ -1,4 +1,4 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import {
     contains,
     mockService,
@@ -6,8 +6,8 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { setInputFiles } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
+import { setInputFiles } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
 import { FileInput } from "@web/core/file_input/file_input";
 import { session } from "@web/session";
 
@@ -30,7 +30,7 @@ async function createFileInput({ mockPost, mockAdd, props }) {
 // -----------------------------------------------------------------------------
 
 beforeEach(() => {
-    patchWithCleanup(BetopiaERP, { csrf_token: "dummy" });
+    patchWithCleanup(betopiaerp, { csrf_token: "dummy" });
 });
 
 test("Upload a file: default props", async () => {

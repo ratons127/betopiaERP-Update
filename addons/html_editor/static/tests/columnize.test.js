@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press, queryAllTexts, tick } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press, queryAllTexts, tick } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
 import { insertText, redo, undo } from "./_helpers/user_actions";

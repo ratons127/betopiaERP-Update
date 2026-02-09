@@ -25,7 +25,7 @@ The whole flow is implemented as:
 
 This module also uses analytic accounting and is compatible with the invoice on timesheet module so that you are able to automatically re-invoice your customers' expenses if your work by project.
     """,
-    'website': 'https://www.betopiaerp.com/app/expenses',
+    'website': 'https://www.BetopiaERP.com/app/expenses',
     'depends': ['account', 'web_tour', 'hr'],
     'data': [
         'security/hr_expense_security.xml',
@@ -76,6 +76,6 @@ This module also uses analytic accounting and is compatible with the invoice on 
             'hr_expense/static/src/scss/hr_expense.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

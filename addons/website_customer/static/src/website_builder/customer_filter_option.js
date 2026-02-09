@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 

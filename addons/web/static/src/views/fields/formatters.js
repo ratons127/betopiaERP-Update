@@ -15,7 +15,7 @@ import {
 } from "@web/core/utils/numbers";
 import { exprToBoolean } from "@web/core/utils/strings";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { formatCurrency } from "@web/core/currency";
 
 // -----------------------------------------------------------------------------

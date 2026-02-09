@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { setupEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
 import {

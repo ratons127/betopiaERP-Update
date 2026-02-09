@@ -12,7 +12,7 @@ import { DatePickerPopup } from "@point_of_sale/app/components/popups/date_picke
 import { PaymentScreenPaymentLines } from "@point_of_sale/app/screens/payment_screen/payment_lines/payment_lines";
 import { PaymentScreenStatus } from "@point_of_sale/app/screens/payment_screen/payment_status/payment_status";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
-import { Component, onMounted } from "@BetopiaERP/owl";
+import { Component, onMounted } from "@betopiaerp/owl";
 import { Numpad, enhancedButtons } from "@point_of_sale/app/components/numpad/numpad";
 import { makeAwaitable } from "@point_of_sale/app/utils/make_awaitable_dialog";
 import { useRouterParamsChecker } from "@point_of_sale/app/hooks/pos_router_hook";
@@ -385,7 +385,7 @@ export class PaymentScreen extends Component {
 registry.category("pos_pages").add("PaymentScreen", {
     name: "PaymentScreen",
     component: PaymentScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/payment/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/payment/{string:orderUuid}`,
     params: {
         orderUuid: true,
         orderFinalized: false,

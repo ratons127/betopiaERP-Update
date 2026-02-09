@@ -13,6 +13,6 @@
     ],
     'installable': True,
     'auto_install': ['im_livechat'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -15,24 +15,24 @@
 # Benson <Benson.Dr@Gmail.com>, 2023
 # Jeffery CHEN <jeffery9@gmail.com>, 2023
 # Martin Trigaux, 2023
-# Emily Jia <eji@BetopiaERP.com>, 2023
+# Emily Jia <eji@betopiaerp.com>, 2023
 # 稀饭~~ <wangwhai@qq.com>, 2023
 # Ryan <ouyang.em@gmail.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "feihu.zhang" <feihu.zhang@live.com>, 2025.
 # 何彬 <vnsoft.he@gmail.com>, 2025.
 # 张飞虎 <feihu.zhang@live.com>, 2025.
-# "Chloe Wang (chwa)" <chwa@BetopiaERP.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2025-12-05 04:17+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@BetopiaERP.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/account/zh_Hans/>\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@betopiaerp.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/account/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,13 +84,13 @@ msgstr ""
 "        "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " for '%s'"
 msgstr " 对于 %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " valid until %s"
 msgstr " 有效期至%s"
@@ -117,37 +117,37 @@ msgid "# Vendor Bills"
 msgstr "＃供应商账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "#Created by: %s"
 msgstr "#创建人：%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "%(action)s for journal %(journal)s"
 msgstr "%(action)s用于日记账%(journal)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid "%(amount)s Excl. Taxes"
 msgstr "%(amount)s 不含税"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid "%(amount)s Incl. Taxes"
 msgstr "%(amount)s 含税"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(amount)s due %(date)s"
 msgstr "%(amount)s到期日期 %(date)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/ir_attachment.py:0
 msgid ""
@@ -158,20 +158,20 @@ msgstr ""
 "(attachment_extension)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "%(auto_post_name)s auto-posting enabled. Next accounting date: %(move_date)s."
 msgstr "%(auto_post_name)s 已开启自动记账。下次记账日期：%(move_date)s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 msgstr "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "%(move)s reached an invalid state regarding its related statement line.\n"
@@ -182,25 +182,25 @@ msgstr ""
 "为保持一致，日记账分录必须始终有一个准确的暂记行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(name)s - Draft at (%(currency_amount)s)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "%(name)s installment #%(number)s"
 msgstr "%(name)s 安装 #%(number)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(name)s%(ref)s at %(currency_amount)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
@@ -210,7 +210,7 @@ msgstr ""
 "(quantity_received)s已收到，每件单价为 %(unit_price)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, %"
@@ -220,19 +220,19 @@ msgstr ""
 "(quantity_delivered)s已送货，%(unit_price)s 每件单价为"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(partner_name)s has reached its credit limit of: %(credit_limit)s"
 msgstr "%(partner_name)s已达到信贷限额： %(credit_limit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account_tag.py:0
 msgid "%(tag)s (%(country_code)s)"
 msgstr "%(tag)s（%(country_code)s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s（舍入）"
@@ -243,13 +243,13 @@ msgid "%<span class=\"px-3\"/>("
 msgstr "%<span class=\"px-3\"/>（"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "%d moves"
 msgstr "%d分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/account_payment_term.py:0
@@ -259,61 +259,61 @@ msgid "%s (copy)"
 msgstr "%s（副本）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%s - private part"
 msgstr "%s - 私人部分"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%s - private part (taxes)"
 msgstr "%s - 私人部分（税项）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid "%s is not a stored field"
 msgstr "%s不是存储字段"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "%s taxes"
 msgstr "%s 税项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "%s, or / if not applicable"
 msgstr "%s，或 / 如不适用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "%s, or not applicable"
 msgstr "%s，或不适用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "'%(filename)s' (extracted from '%(root_filename)s', type=%(type)s)"
 msgstr "\"%(filename)s\"（从 \"%(root_filename)s\" 提取，类型为 %(type)s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "'%(filename)s' (type=%(type)s)"
 msgstr "\"%(filename)s\"（类型为 %(type)s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "(*) Goods Delivered not Invoiced (perpetual valuation)"
 msgstr "(*) 已发货未开票（永续计价法）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "(*) Goods Invoiced not Delivered (perpetual valuation)"
 msgstr "(*) 已开票未发货（永续计价法）"
@@ -324,7 +324,7 @@ msgid "(Un)Block Payment"
 msgstr "封锁付款（或解除封锁）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "(copy)"
 msgstr "（副本）"
@@ -346,13 +346,13 @@ msgid ").<br/>"
 msgstr "）。<br/>"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 msgid "+ Add Section"
 msgstr "添加章节"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "- %(name)s in %(company)s"
 msgstr "- %(name)s在%(company)s"
@@ -407,19 +407,19 @@ msgid ". You might want to put a higher number here."
 msgstr "。 您可能希望在此处输入更大的数目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid "... (%(nb_of_values)s other)"
 msgstr "⋯（另 %(nb_of_values)s 项）"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.xml:0
 msgid "... (View all)"
 msgstr "...（查看全部）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "/ if not applicable"
 msgstr "无需纳税时使用“/”"
@@ -803,7 +803,7 @@ msgid "90 days, on the 10th"
 msgstr "90 天，在 10 日"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "<b>%(count)s#</b> Installment of <b>%(amount)s</b> due on <b style='color: "
@@ -2133,7 +2133,7 @@ msgid ""
 "                                        <div style=\"text-align: center; "
 "padding-top: 24px;\">\n"
 "                                            <a t-if=\"invoice_count != 1\" t-"
-"attf-href=\"/BetopiaERP/accounting/action-"
+"attf-href=\"/betopiaerp/accounting/action-"
 "account.action_account_moves_email_preview?"
 "active_ids={{ invoice_preview_ids }}\" target=\"_blank\" t-attf-"
 "style=\"padding: 12px 24px; font-size: 14px; font-weight: bold; color: "
@@ -2142,7 +2142,7 @@ msgid ""
 "                                               Consult Invoices\n"
 "                                            </a>\n"
 "                                            <a t-else=\"\" t-attf-href=\"/"
-"BetopiaERP/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
+"betopiaerp/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
 "target=\"_blank\" t-attf-style=\"padding: 12px 24px; font-size: 14px; font-"
 "weight: bold; color: #FFFFFF; text-decoration: none !important; background-"
 "color: #008384; border-radius:3px; display: inline-block;\">\n"
@@ -2268,7 +2268,7 @@ msgstr ""
 "                                        <div style=\"text-align: center; "
 "padding-top: 24px;\">\n"
 "                                            <a t-if=\"invoice_count != 1\" t-"
-"attf-href=\"/BetopiaERP/accounting/action-"
+"attf-href=\"/betopiaerp/accounting/action-"
 "account.action_account_moves_email_preview?"
 "active_ids={{ invoice_preview_ids }}\" target=\"_blank\" t-attf-"
 "style=\"padding: 12px 24px; font-size: 14px; font-weight: bold; color: "
@@ -2277,7 +2277,7 @@ msgstr ""
 "                                               查看发票\n"
 "                                            </a>\n"
 "                                            <a t-else=\"\" t-attf-href=\"/"
-"BetopiaERP/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
+"betopiaerp/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
 "target=\"_blank\" t-attf-style=\"padding: 12px 24px; font-size: 14px; font-"
 "weight: bold; color: #FFFFFF; text-decoration: none !important; background-"
 "color: #008384; border-radius:3px; display: inline-block;\">\n"
@@ -2540,7 +2540,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
 msgstr "@来自：%(email)s"
@@ -2570,13 +2570,13 @@ msgid ""
 msgstr "当创建别名的新记录时，一个Python字典被提供作为默认值。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "A bank account can belong to only one journal."
 msgstr "同一个银行账户，只能关联一个日记账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "A bank account with Account Number %(number)s already exists for Partner %"
@@ -2610,7 +2610,7 @@ msgstr ""
 "                定期向您发送贷记单。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "A fiscal position with a foreign VAT already exists in this country."
 msgstr "该国家/地区已存在使用境外增值税号的税务规则。"
@@ -2634,19 +2634,19 @@ msgstr ""
 "                相关的所有交易事项会计数据。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "A line cannot have both children and a groupby value (line '%s')."
 msgstr "同一行内不能同时存在子项和分组值（'%s'）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "A line of this move is using a archived account, you cannot post it."
 msgstr "此凭证中包含使用已归档科目的分录，无法过账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 msgstr "新的硬锁定日期必须晚于（或等于）前一个日期。"
@@ -2657,7 +2657,7 @@ msgid "A note, whose content usually applies to the section or product above."
 msgstr "备注，其内容通常适用于上述部分或产品。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "A payment with an outstanding account cannot be confirmed without having a "
@@ -2683,13 +2683,13 @@ msgid "A section title"
 msgstr "分节标题"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "A single exception must change exactly one lock date field."
 msgstr "单个例外情况必须准确更改一个锁定日期字段。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "A statement should only contain lines from the same journal."
 msgstr "对账单应只包含来自同一日记账的行。"
@@ -2701,7 +2701,7 @@ msgid ""
 msgstr "这个国家已经有了一个名称和适用性相同的标签。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "A temporary number can not be used in a real matching"
 msgstr "临时号码不能用于实际匹配"
@@ -2741,7 +2741,7 @@ msgid "Access warning"
 msgstr "访问警告信息"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
@@ -2763,7 +2763,7 @@ msgid "Account"
 msgstr "账户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account %(account)s will be split in %(num_accounts)s, one for each "
@@ -2771,7 +2771,7 @@ msgid ""
 msgstr "帐户%(account)s将分为%(num_accounts)s个，每个公司一个：\n"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account %s cannot be unmerged as it already belongs to a single company. The "
@@ -2781,7 +2781,7 @@ msgstr ""
 "取消合并操作仅根据其公司拆分账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Account %s does not allow reconciliation. First change the configuration of "
@@ -2789,13 +2789,13 @@ msgid ""
 msgstr "账户%s不允许对账。首先应更改账户配置，设为允许对账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Account %s is of payable type, but is used in a sale operation."
 msgstr "账户 “%s” 属于应付类型，但被用于销售操作。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Account %s is of receivable type, but is used in a purchase operation."
 msgstr "账户 “%s” 属于应收类型，但被用于采购操作。"
@@ -2811,7 +2811,7 @@ msgid "Account Chart Template"
 msgstr "科目表模版"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_code_mapping.py:0
 msgid ""
 "Account Code Mapping cannot be accessed directly. It is designed to be used "
@@ -2860,7 +2860,7 @@ msgid "Account Groups"
 msgstr "科目组"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Account Groups with the same granularity can't overlap"
 msgstr "具有相同单位的账户组不能重叠"
@@ -3058,7 +3058,7 @@ msgid "Account codes first 2 digits"
 msgstr "科目代码前2位数"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account codes must be unique. You can't create accounts with these duplicate "
@@ -3213,7 +3213,7 @@ msgid "Accounting Firms mode"
 msgstr "会计师事务所模式"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Accounting Periods"
 msgstr "会计期间"
@@ -3296,7 +3296,7 @@ msgid "Accounts Receivable (PoS)"
 msgstr "应收账款（POS模块）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Accounts successfully merged!"
 msgstr "账户合并成功！"
@@ -3307,13 +3307,13 @@ msgid "Accrual Account"
 msgstr "应计科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrual Moves"
 msgstr "应计分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "Accrual entry created on %(date)s: %(accrual_entry)s.                And its "
@@ -3323,7 +3323,7 @@ msgstr ""
 "(reverse_entry)s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued %(entry_type)s entry as of %(date)s"
 msgstr "截至%(date)s的应计%(entry_type)s条目"
@@ -3339,7 +3339,7 @@ msgid "Accrued Orders Wizard"
 msgstr "应计订单向导"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued total"
 msgstr "应计总额"
@@ -3459,7 +3459,7 @@ msgid "Activity type"
 msgstr "活动类型"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Add"
 msgstr "添加"
@@ -3482,7 +3482,7 @@ msgid ""
 msgstr "为发票添加二维码，以便客户通过手机银行即时付款。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a description to your item."
 msgstr "为您的商品添加描述。"
@@ -3493,14 +3493,14 @@ msgid "Add a journal"
 msgstr "添加日记账"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a line"
 msgstr "添加行"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a line to your invoice"
 msgstr "在发票中添加行"
@@ -3516,7 +3516,7 @@ msgid "Add a new account"
 msgstr "添加新科目"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a note"
@@ -3538,7 +3538,7 @@ msgid "Add a section"
 msgstr "添加小节"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Add a subsection"
 msgstr "添加小节"
@@ -3580,13 +3580,13 @@ msgid "Adjusting Entries Count"
 msgstr "调整记项数目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entries have been created for this invoice:"
 msgstr "已为此发票创建调整分录："
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry"
 msgstr "调整分录"
@@ -3610,13 +3610,13 @@ msgid "Adjusting Entry Origin Moves Count"
 msgstr "调整记项原始分录数目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
 msgstr "调整分录 {link} 款项{amount} 的{percent}%%，从 {date}开始确认"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 msgstr "调整分录 {link} 款项{amount} 的{percent}%%，从 {new_date}开始确认"
@@ -3652,7 +3652,7 @@ msgid "Affect Base of Subsequent Taxes"
 msgstr "影响后续税基"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 msgid "After"
@@ -3702,13 +3702,13 @@ msgid "Alias Name"
 msgstr "别名"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "All"
 msgstr "全部"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "All accounts on the lines must be of the same type."
 msgstr "行中的所有科目须为相同类型。"
@@ -3765,7 +3765,7 @@ msgid "All partners"
 msgstr "所有合作伙伴"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "All selected moves for reversal must belong to the same company."
 msgstr "所有已选取的撤销分录，必须属于同一公司。"
@@ -3823,7 +3823,7 @@ msgid "Allowed Uom"
 msgstr "允许的单位"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.js:0
 msgid "Allows out payments"
 msgstr "允许向外付款"
@@ -3839,7 +3839,7 @@ msgid "Already Paid:"
 msgstr "已支付："
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Already unsubscribed"
 msgstr ""
@@ -3961,7 +3961,7 @@ msgid "Amount total in words"
 msgstr "大写科目总额"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Amount:"
 msgstr "金额："
@@ -3977,13 +3977,13 @@ msgid "Amounts to settle"
 msgstr "结算金额"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not be reconcilable"
 msgstr "资产负债表外科目无法对账"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not have taxes"
 msgstr "资产负债表外科目无法加税"
@@ -4014,7 +4014,7 @@ msgstr ""
 "                应披露一定的公司信息。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected "
@@ -4022,7 +4022,7 @@ msgid ""
 msgstr "在计算不可变更性时发生错误。检测到序列中存在间隙。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "An error occurred when computing the inalterability. All entries have to be "
@@ -4169,14 +4169,14 @@ msgstr ""
 "的时间。 税务锁定日期会在税务结算记项过账时自动设定。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Any journal item on a payable account must have a due date and vice versa."
 msgstr "应付账款上的任何日记账项目都必须有到期日，反之亦然。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Any journal item on a receivable account must have a due date and vice versa."
@@ -4265,13 +4265,13 @@ msgid "Archived"
 msgstr "已归档"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/views/account_move_list/account_move_list_controller.js:0
 msgid "Are you sure you want to delete these records?"
 msgstr "确定删除数据？"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Are you sure? This will perform the following operations:\n"
 msgstr "您确定吗？这将执行以下操作：\n"
@@ -4292,7 +4292,7 @@ msgid "Asset"
 msgstr "资产"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Assets"
@@ -4324,7 +4324,7 @@ msgid "Attachment"
 msgstr "附件"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "Attachment %(filename)s not imported: %(reason)s"
 msgstr "附件 %(filename)s 未导入：%(reason)s"
@@ -4418,7 +4418,7 @@ msgid "Auto-post until"
 msgstr "自动过账直至"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Auto-post was disabled on this invoice because a potential duplicate was "
@@ -4443,7 +4443,7 @@ msgid "Automated"
 msgstr "自动"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/company.py:0
 msgid "Automatic Balancing Line"
@@ -4482,7 +4482,7 @@ msgid "Automobile Expenses"
 msgstr "车辆费用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "Autopost Bills"
@@ -4546,7 +4546,7 @@ msgid "BE71096123456769"
 msgstr "BE71096123456769"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "BILL"
 msgstr "账单"
@@ -4557,13 +4557,13 @@ msgid "BRT *([\\d,\\.]+)"
 msgstr "BRT *([\\d,\\.]+)"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Bill"
 msgstr "返回订单"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Invoice"
 msgstr "返回发票"
@@ -4589,19 +4589,19 @@ msgid "Balance Negate"
 msgstr "余额取反"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Balance Sheet"
 msgstr "资产负债表"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "Balance percentage can't be 0"
 msgstr "余额百分比不能为0"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_bank_journal_default_account_45
@@ -4626,7 +4626,7 @@ msgid "Bank & Cash"
 msgstr "银行和现金"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Bank & Cash accounts cannot be shared between companies."
 msgstr "公司之间不能共享银行和现金账户。"
@@ -4638,19 +4638,19 @@ msgid "Bank Account"
 msgstr "银行账户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "银行账户%(link)s（账号：%(number)s）已归档"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %s created"
 msgstr "创建的银行账户%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %s updated"
 msgstr "已更新的银行账户%s"
@@ -4695,7 +4695,7 @@ msgid "Bank Feeds"
 msgstr "银行费用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_expense_finance
 #: model:account.account,name:account.2_account_account_us_bank_fees
@@ -4767,7 +4767,7 @@ msgid "Bank Suspense"
 msgstr "银行暂记"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_suspense_account_id
 #: model:account.account,name:account.2_account_journal_suspense_account_id
@@ -4775,7 +4775,7 @@ msgid "Bank Suspense Account"
 msgstr "银行暂记科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Bank Transaction"
 msgstr "银行交易"
@@ -4809,7 +4809,7 @@ msgstr "银行和现金"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
-msgid "Bank of BetopiaERP"
+msgid "Bank of betopiaerp"
 msgstr "BetopiaERP 银行"
 
 #. module: account
@@ -4830,13 +4830,13 @@ msgid "Bank transactions and payments:"
 msgstr "银行交易和付款："
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Bank: Balance"
 msgstr "银行：余额"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.js:0
 msgid "Banks"
 msgstr "银行"
@@ -4914,7 +4914,7 @@ msgid "Batch Payments"
 msgstr "批量付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid ""
 "Batch invoice sending is unavailable. Please, activate the cron to enable "
@@ -4922,7 +4922,7 @@ msgid ""
 msgstr "批量发送发票功能暂不可用。请启用系统定时任务来激活批量发送功能。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid ""
 "Batch invoice sending is unavailable. Please, contact your system "
@@ -4931,7 +4931,7 @@ msgstr ""
 "批量发送发票功能暂不可用。请联系系统管理员启用系统定时任务来激活此功能。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 msgid "Before"
 msgstr "在之前"
@@ -4942,7 +4942,7 @@ msgid "Before Next Payment Date"
 msgstr "下一次付款日期前"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Belongs to the same company as %s."
 msgstr "属于同一公司%s。"
@@ -4950,7 +4950,7 @@ msgstr "属于同一公司%s。"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr "以下文本仅作为建议，BetopiaERP公司不承担责任。"
 
@@ -4960,7 +4960,7 @@ msgid "Bic"
 msgstr "银行识别码（BIC）"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_bill_filter
@@ -4986,7 +4986,7 @@ msgid "Bill Reference"
 msgstr "账单参考号"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: model:ir.actions.act_window,name:account.action_move_in_invoice
@@ -5030,7 +5030,7 @@ msgid "Bills to Validate"
 msgstr "待验证账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Bills to pay"
 msgstr "待付账单"
@@ -5067,7 +5067,7 @@ msgid "Boolean"
 msgstr "布尔型"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Branch:"
 msgstr "分行："
@@ -5135,7 +5135,7 @@ msgid ""
 msgstr "取消勾选该有效的字段，可以隐藏用不到的国际贸易术语。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "CABA"
 msgstr "CABA"
@@ -5161,7 +5161,7 @@ msgid "COST, INSURANCE AND FREIGHT"
 msgstr "成本、保险费和运费"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "CUST"
 msgstr "CUST"
@@ -5187,13 +5187,13 @@ msgid "Can Group Payments"
 msgstr "可以分组付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Can't disable restricted audit trail: forced by localization."
 msgstr "无法禁用受限审计追踪：该功能由本地化法规强制要求。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 #: model_terms:ir.ui.view,arch_db:account.account_merge_wizard_form
@@ -5249,7 +5249,7 @@ msgid "Cancelled Proforma Invoice"
 msgstr "已取消形式发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "Cannot change Price Tax computation method on a company that has already "
@@ -5257,25 +5257,25 @@ msgid ""
 msgstr "无法更改已开始开票的公司的价格税计算方法。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Cannot create a purchase document in a non purchase journal"
 msgstr "不能在非采购日记账中创建采购单据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Cannot create a sale document in a non sale journal"
 msgstr "不能在非销售日记账中创建销售单据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Cannot create an accrual entry with orders in different currencies."
 msgstr "无法创建包含不同货币订单的应计项目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Cannot find a chart of accounts for this company, You should configure it. \n"
@@ -5285,13 +5285,13 @@ msgstr ""
 "请转到会计配置。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Cannot generate an unused account code."
 msgstr "不能生成未使用的科目代码。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Cannot generate an unused journal code. Please change the name for journal "
@@ -5299,14 +5299,14 @@ msgid ""
 msgstr "无法生成未使用的日记账代码。请更改日记账名称%s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Cannot get aggregation details from a line not using 'aggregation' engine"
 msgstr "不能从不使用“整合”引擎的行获取整合详情"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
 msgstr "无法识别生成PDF中的发票：%s"
@@ -5331,7 +5331,7 @@ msgid "Carry Over To"
 msgstr "结转至"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: model:account.account,name:account.1_cash_journal_default_account_161
 #: model:ir.model.fields.selection,name:account.selection__account_journal__type__cash
@@ -5361,7 +5361,7 @@ msgid "Cash Basis"
 msgstr "现金收付"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
 #: model:ir.model.fields,field_description:account.field_account_move__tax_cash_basis_created_move_ids
@@ -5380,7 +5380,7 @@ msgid "Cash Basis Origin"
 msgstr "现金收付来源"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_caba
 #: model:account.journal,name:account.2_caba
@@ -5403,7 +5403,7 @@ msgid "Cash Difference Expense"
 msgstr "现金差额开支"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_diff_income
 #: model:account.account,name:account.2_account_account_us_cash_diff_income
@@ -5416,7 +5416,7 @@ msgid "Cash Difference Income"
 msgstr "现金差额收入"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_diff_expense
 #: model:account.account,name:account.2_account_account_us_cash_diff_expense
@@ -5424,7 +5424,7 @@ msgid "Cash Difference Loss"
 msgstr "现金差额损失"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_discount_gain
 #: model:account.account,name:account.2_account_account_us_cash_discount_gain
@@ -5432,7 +5432,7 @@ msgid "Cash Discount Gain"
 msgstr "现金折扣收益"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_discount_loss
 #: model:account.account,name:account.2_account_account_us_cash_discount_loss
@@ -5494,13 +5494,13 @@ msgid "Cash Statement"
 msgstr "现金对账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Cash basis transition account"
 msgstr "现金收付转移科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Cash: Balance"
 msgstr "现金：余额"
@@ -5565,7 +5565,7 @@ msgid "Chart Templates"
 msgstr "表模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 #: model:ir.actions.act_window,name:account.action_account_form
 #: model:ir.model.fields,field_description:account.field_account_report__chart_template
@@ -5594,13 +5594,13 @@ msgid "Check"
 msgstr "检查"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Check Partner(s) Email(s)"
 msgstr "检查合作伙伴的电子邮件"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Check them"
 msgstr "检查一下"
@@ -5676,13 +5676,13 @@ msgid "Click"
 msgstr "点击"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Click here to add a description to your product."
 msgstr "点击此处为您的产品添加描述。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.xml:0
 msgid "Click or press enter to add a description"
 msgstr "单击或按Enter键添加说明"
@@ -5987,14 +5987,14 @@ msgid "Configure"
 msgstr "配置"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 #: model:ir.actions.act_window,name:account.action_base_document_layout_configurator
 msgid "Configure your document layout"
 msgstr "配置您的文档布局"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_resequence_view
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
@@ -6005,7 +6005,7 @@ msgid "Confirm"
 msgstr "确认"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.actions.server,name:account.action_validate_account_moves
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
@@ -6018,7 +6018,7 @@ msgid "Confirm them now"
 msgstr "立即确认"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 msgid "Confirmation Warning"
 msgstr "操作确认提示"
@@ -6029,19 +6029,19 @@ msgid "Connect your bank. Match invoices automatically."
 msgstr "连接银行。自动匹配发票。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying in %(btn_start)sinstallments%(btn_end)s instead."
 msgstr "考虑分期付款%(btn_start)s%(btn_end)s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying the %(btn_start)sfull amount%(btn_end)s."
 msgstr "考虑全额付款%(btn_start)s%(btn_end)s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "Consider paying the amount with %(btn_start)searly payment discount%"
@@ -6071,7 +6071,7 @@ msgid ""
 msgstr "包含部分名称或错误消息，具体取决于行类型。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Contains hashed entries, but %s also has hashed entries."
 msgstr "包含经过哈希处理的条目，但%s也有经过哈希处理的条目。"
@@ -6092,7 +6092,7 @@ msgid "Cool, it looks like you don't have any amount to settle."
 msgstr "很好，看来没有任何金额需要缴清。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
 msgstr "日记账记项数据损毁：识别码%(id)s（%(name)s）。"
@@ -6145,7 +6145,7 @@ msgid "Costs related to promoting the business, such as ads, campaigns, etc"
 msgstr "与推广业务相关的成本，例如广告、活动等"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Could not compute any code for the copy automatically. Please create it "
@@ -6153,13 +6153,13 @@ msgid ""
 msgstr "无法自动计算副本的任何代码。请手动创建。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "Could not determine carryover target automatically for expression %s."
 msgstr "无法自动确定表达式%s的结转目标。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/upload_drop_zone/upload_drop_zone.js:0
 msgid "Could not upload files"
 msgstr "无法上传单据"
@@ -6262,13 +6262,13 @@ msgid "Create a Customer"
 msgstr "创建客户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_wizard.py:0
 msgid "Create a Mail Template"
 msgstr "创建一个邮件模板"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create a bill manually"
 msgstr "手动创建一张账单"
@@ -6376,19 +6376,19 @@ msgstr ""
 "调整，确保遵守各种法规。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create bill manually"
 msgstr "手动创建账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Create first invoice"
 msgstr "创建首张发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Create invoice/bill"
 msgstr "创建发票/账单"
@@ -6402,7 +6402,7 @@ msgid ""
 msgstr "创建发票，登记付款，并追踪与客户的沟通。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create manually"
 msgstr "手动创建"
@@ -6418,7 +6418,7 @@ msgid "Create the first cash rounding"
 msgstr "创建首个现金舍入"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Create the product."
 msgstr "创建产品。"
@@ -6538,7 +6538,7 @@ msgid "Created on"
 msgstr "创建日期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__credit
@@ -6553,7 +6553,7 @@ msgid "Credit Amount Currency"
 msgstr "贷方金额币别"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: model:account.account,name:account.1_credit_card
 #: model:account.account,name:account.2_account_account_us_credit_card
@@ -6563,7 +6563,7 @@ msgid "Credit Card"
 msgstr "信用卡"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Credit Card: Balance"
 msgstr "信用卡：余额"
@@ -6585,7 +6585,7 @@ msgid "Credit Move"
 msgstr "贷方录入"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_payment__reconciled_invoices_type__credit_note
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -6595,7 +6595,7 @@ msgid "Credit Note"
 msgstr "退款通知"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Credit Note Created"
 msgstr "已创建的退款通知"
@@ -6714,13 +6714,13 @@ msgid "Currency Translation"
 msgstr "币别换算"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Currency exchange rate difference"
 msgstr "汇率差额"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Currency must always be provided in order to generate a QR-code"
 msgstr "须始终设置币别，以生成二维码"
@@ -6825,7 +6825,7 @@ msgid "Customer Invoice"
 msgstr "客户发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: model:ir.model.fields.selection,name:account.selection__res_company__quick_edit_mode__out_invoices
@@ -6926,13 +6926,13 @@ msgid "Cut-Off"
 msgstr "截止"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Cut-off {label}"
 msgstr "截止 {label}"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Cut-off {label} {percent}%"
 msgstr "截止 {label} {percent}%"
@@ -6974,8 +6974,8 @@ msgid "Data consistency check"
 msgstr "数据一致性检查"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__date
@@ -7033,7 +7033,7 @@ msgid ""
 msgstr "在系统中管理会计数据的日期，即是期初分录的日期。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Date:"
 msgstr "日期："
@@ -7086,7 +7086,7 @@ msgid "Days on the next month"
 msgstr "天，在下月"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__debit
@@ -7277,7 +7277,7 @@ msgid "Default taxes used when selling the product"
 msgstr "销售产品时使用的默认税项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Default value for 'company_id' for %(record)s is not an integer"
 msgstr "%(record)s 的公司ID默认值格式错误（需为数字）"
@@ -7289,7 +7289,7 @@ msgid "Deferred Revenue"
 msgstr "递延收入"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Define a default in the settings"
 msgstr "前往设置页面配置默认选项"
@@ -7346,7 +7346,7 @@ msgid "Delay Type"
 msgstr "延迟类型"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Delete"
 msgstr "删除"
@@ -7385,13 +7385,13 @@ msgid "Demo Stock Account"
 msgstr "Demo Stock Account"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Deprecated"
 msgstr "已弃用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Deprecated link"
 msgstr ""
@@ -7421,7 +7421,7 @@ msgid "Description on the Invoice"
 msgstr "发票上的描述"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields,field_description:account.field_account_payment__destination_account_id
 msgid "Destination Account"
@@ -7508,7 +7508,7 @@ msgid "Discard"
 msgstr "丢弃"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__discount
 msgid "Discount"
@@ -7571,13 +7571,13 @@ msgid "Discount amount in Currency"
 msgstr "用币别显示的折扣金额"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Discount of %(amount)s if paid today"
 msgstr "如果今天支付，折扣为 %(amount)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Discount of %(amount)s if paid within %(days)s days"
 msgstr "如果在%(days)s天内支付，折扣为%(amount)s"
@@ -7856,7 +7856,7 @@ msgid "Dividends"
 msgstr "股息"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr "无访问权限，用户摘要邮件忽略该数据"
@@ -7928,26 +7928,26 @@ msgid "Draft"
 msgstr "草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft (%(currency_amount)s)"
 msgstr "草稿 (%(currency_amount)s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Bill"
 msgstr "草稿账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Draft Credit Note"
 msgstr "退款草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_show_draft
@@ -7955,14 +7955,14 @@ msgid "Draft Entries"
 msgstr "分录草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_move_line.py:0
 msgid "Draft Entry"
 msgstr "分录草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -7975,7 +7975,7 @@ msgid "Draft Invoices"
 msgstr "发票草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Draft Payment"
 msgstr "付款草稿"
@@ -7991,32 +7991,32 @@ msgid "Draft Proforma Invoice"
 msgstr "草稿形式发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Purchase Receipt"
 msgstr "采购收据草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Sales Receipt"
 msgstr "销售收据草稿"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Vendor Credit Note"
 msgstr "供应商退款草稿"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Drag & drop"
 msgstr "拖放"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/static/src/views/file_upload_kanban/file_upload_kanban_renderer.js:0
 #: code:addons/account/static/src/views/file_upload_list/file_upload_list_renderer.js:0
@@ -8024,25 +8024,25 @@ msgid "Drop and let the AI process your bills automatically."
 msgstr "放置此处，让人工智能自动处理您的账单。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to create journal entries with attachments."
 msgstr "放置此处，创建带附件的日记账条目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to import transactions"
 msgstr "放置此处，以导入交易"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to import your invoices."
 msgstr "放置此处，导入您的发票。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__value_amount
 msgid "Due"
@@ -8054,7 +8054,7 @@ msgid "Due Amount for"
 msgstr "到期应付金额"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__invoice_date_due
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__invoice_date_due
@@ -8079,7 +8079,7 @@ msgid "Dues & Subscriptions"
 msgstr "会费及订阅服务费用"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Duplicate"
 msgstr "复制"
@@ -8148,7 +8148,7 @@ msgid "EX WORKS"
 msgstr "工厂交货价"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "EXCH"
 msgstr "交换"
@@ -8170,21 +8170,21 @@ msgid "Early Discount Loss"
 msgstr "提前付款折扣亏损"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__epd
 msgid "Early Payment Discount"
 msgstr "提前付款折扣"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_move_line.py:0
 msgid "Early Payment Discount (%s)"
 msgstr "提前付款折扣（%s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Early Payment Discount (Exchange Difference)"
 msgstr "提前付款折扣（汇兑差额）"
@@ -8205,7 +8205,7 @@ msgid "Early Payment Discount of"
 msgstr "提前付款折扣"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "Early Payment Discount: <b>%(amount)s</b> if paid before <b>%(date)s</b>"
@@ -8267,15 +8267,15 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Email bills"
 msgstr "电子邮件账单"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "电子邮件域名，例如 'BetopiaERP@example.com' 中的 'example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "电子邮件域名，例如 'betopiaerp@example.com' 中的 'example.com'"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -8369,7 +8369,7 @@ msgid "Ending Balance"
 msgstr "期末余额"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.xml:0
 msgid "Enter a description"
@@ -8387,25 +8387,25 @@ msgid "Entries Count"
 msgstr "分录数量"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Entries are correctly hashed"
 msgstr "条目已正确散列"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries are not from the same account: %s"
 msgstr "分录并非来自同一科目：%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Entries can only be created for a single company at a time."
 msgstr "每次只能为一个公司创建分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries don't belong to the same company: %s"
 msgstr "分录不属于同一公司：%s"
@@ -8423,7 +8423,7 @@ msgid "Entries to Review"
 msgstr "待审查分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_line.py:0
 msgid "Entries: %(account)s"
 msgstr "分录：%(account)s"
@@ -8459,7 +8459,7 @@ msgid "Equipment, machinery and tools directly related to your business"
 msgstr "与您的业务直接相关的设备、机械和工具"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__equity
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__equity
@@ -8468,13 +8468,13 @@ msgid "Equity"
 msgstr "股本"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "Error importing attachment %(filename)s:"
 msgstr "汇入附件 %(filename)s 时，发生错误："
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 msgid ""
 "Error while creating XML:\n"
@@ -8484,7 +8484,7 @@ msgstr ""
 "- %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid ""
 "Error while loading the localization: missing tax tag %(tag_name)s for "
@@ -8495,7 +8495,7 @@ msgstr ""
 "先尝试更新本地化应用程序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid "Error!"
 msgstr "错误！"
@@ -8511,7 +8511,7 @@ msgid "European Union VAT"
 msgstr "欧盟增值税"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Even magicians can't post nothing!"
 msgstr "过账操作必须有内容。"
@@ -8542,14 +8542,14 @@ msgid "Example:"
 msgstr "示例："
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "Exception"
 msgstr "异常"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:account.journal,name:account.1_exch
@@ -8600,8 +8600,8 @@ msgid "Expects a Chart of Accounts"
 msgstr "预计会计科目表"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__expense
@@ -8654,7 +8654,7 @@ msgid "Expired"
 msgstr "过期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Export ZIP"
 msgstr "导出ZIP"
@@ -8720,7 +8720,7 @@ msgid "FREE ON BOARD"
 msgstr "离岸价格"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Factor Percent"
 msgstr "系数百分比"
@@ -8745,7 +8745,7 @@ msgid ""
 msgstr "从该分配行生成的会计分录行要使用的因子，以百分比表示"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "False"
 msgstr "假"
@@ -8776,7 +8776,7 @@ msgid "Federal States"
 msgstr "联邦州"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/fetch_einvoices/fetch_einvoices_cog.js:0
 msgid "Fetch e-Invoices"
 msgstr "获取电子发票"
@@ -8798,19 +8798,19 @@ msgid "Figure Type"
 msgstr "数字类型"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Fill in the details of the product or see the suggestion."
 msgstr "填写产品详情或查看建议。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 msgid "Filter"
 msgstr "筛选"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_root.py:0
 msgid "Filter on the Account or its Display Name instead"
 msgstr "筛选账户或其显示名称"
@@ -9082,7 +9082,7 @@ msgid "For percent enter a ratio between 0-100."
 msgstr "输入介于0~100的百分比。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "For this entry to be automatically posted, it required a bill date."
 msgstr "自动过账该分录需要账单日期。"
@@ -9160,25 +9160,25 @@ msgid "Foreign Vat Header Mode"
 msgstr "外国增值税标题模式"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account (%s)"
 msgstr "外国税项科目（%s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account advance payment (%s)"
 msgstr "外币税务账户预付款（%s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account payable (%s)"
 msgstr "外币税务账户应付款（%s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account receivable (%s)"
 msgstr "外币税务账户应收款 (%s)"
@@ -9300,7 +9300,7 @@ msgid "Full Reconcile"
 msgstr "完全对账"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__BetopiaERP
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__betopiaerp
 msgid "Full Reference (INV/2024/00001)"
 msgstr "完整参考编号（INV/2024/00001）"
 
@@ -9357,19 +9357,19 @@ msgid "Generate"
 msgstr "生成"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Generated Documents"
 msgstr "生成的单据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Generated Entries"
 msgstr "生成的分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/template_generic_coa.py:0
 msgid "Generic Chart of Accounts"
 msgstr "标准会计科目表"
@@ -9397,13 +9397,13 @@ msgid "Global Lock Date"
 msgstr "全球锁定日期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Go to cron configuration"
 msgstr "进入定时任务设置"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/company.py:0
 msgid "Go to the configuration panel"
@@ -9446,7 +9446,7 @@ msgid "Group Payments"
 msgstr "分组付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Group Payments Number Sequence"
 msgstr "群组付款编号序列"
@@ -9477,7 +9477,7 @@ msgid "Group payments into a single batch to ease the reconciliation process"
 msgstr "把分组付款归为一批，以简化对账过程"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
@@ -9616,7 +9616,7 @@ msgstr ""
 "    您的电子邮件已丢弃。您使用的电子邮件地址只接受新的发票："
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__collapse_composition
 msgid "Hide Composition"
@@ -9629,7 +9629,7 @@ msgid "Hide Post Button"
 msgstr "隐藏过账按钮"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__collapse_prices
 msgid "Hide Prices"
@@ -9791,7 +9791,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "INV"
 msgstr "INV"
@@ -10017,7 +10017,7 @@ msgstr ""
 "税。                                 此规则适用于任何地区。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "If you want to use \"Off-Balance Sheet\" accounts, all the accounts of the "
@@ -10067,43 +10067,43 @@ msgid "Import Fees"
 msgstr "导入费用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Bills"
 msgstr "账单导入模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Import Template for Chart of Accounts"
 msgstr "导入会计科目表模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Credit Notes"
 msgstr "贷项通知单导入模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Invoices"
 msgstr "发票导入模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Import Template for Journal Items"
 msgstr "导入日记账项目模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Misc. Operations"
 msgstr "其他凭证导入模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Refunds"
 msgstr "退款单导入模板"
@@ -10158,7 +10158,7 @@ msgid "In payment"
 msgstr "付款中"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "In report '%(report_name)s', on line '%(line_name)s', with label '%"
@@ -10169,7 +10169,7 @@ msgstr ""
 "解析交叉报告ID或xml_id失败。\n"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "In report '%(report_name)s', on line '%(line_name)s', with label '%"
@@ -10226,7 +10226,7 @@ msgid "Included in Price"
 msgstr "包含在价格中"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__income
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__income
@@ -10259,7 +10259,7 @@ msgid "Incoming Payments"
 msgstr "收到的付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/setup_wizards.py:0
 msgid ""
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
@@ -10316,7 +10316,7 @@ msgid "Indicates that this journal item is a tax line"
 msgstr "表示该日记账项目是税项行"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__info
 msgid "Info"
@@ -10415,7 +10415,7 @@ msgid "Internal Transfer"
 msgstr "内部转账"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.reconcile.model,name:account.1_internal_transfer_reco
 #: model:account.reconcile.model,name:account.2_internal_transfer_reco
@@ -10459,7 +10459,7 @@ msgid ""
 msgstr "内部字段，用于缩短为 tax_tags 引擎创建 expression_ids 的时间"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 msgid "Internal link"
 msgstr "内部链接"
@@ -10486,7 +10486,7 @@ msgid "Invalid"
 msgstr "无效"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
@@ -10501,20 +10501,20 @@ msgid "Invalid Statement(s)"
 msgstr "无效对账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Invalid fiscal year last day"
 msgstr "无效的会计年度最后一天"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Invalid formula for expression '%(label)s' of line '%(line)s': %(formula)s"
 msgstr "\"%(line)s\"行的\"%(label)s\"公式错误：%(formula)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Invalid token"
 msgstr ""
@@ -10537,8 +10537,8 @@ msgid "Investing & Extraordinary Activities"
 msgstr "投资活动和特别活动"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_analytic_applicability__business_domain__invoice
@@ -10567,7 +10567,7 @@ msgid "Invoice Count"
 msgstr "发票数量"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:mail.message.subtype,description:account.mt_invoice_created
 #: model:mail.message.subtype,name:account.mt_invoice_created
@@ -10692,7 +10692,7 @@ msgid "Invoice Totals"
 msgstr "发票总计"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should each contain exactly one line "
@@ -10700,7 +10700,7 @@ msgid ""
 msgstr "发票和退款单分发都应包含基础信息的一行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have a total factor (+) equals "
@@ -10708,7 +10708,7 @@ msgid ""
 msgstr "发票和贷项通知分配的总系数(+)应该等于100。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have a total factor (-) equals "
@@ -10716,14 +10716,14 @@ msgid ""
 msgstr "发票和贷项通知分配的总系数(-)应该等于100。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have the same number of lines."
 msgstr "发票和退示单分配应具有相同行数。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should match (same percentages, in the "
@@ -10731,7 +10731,7 @@ msgid ""
 msgstr "发票和退款单分配应匹配（相同百分比、相同顺序）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note repartition should have at least one tax repartition "
@@ -10792,7 +10792,7 @@ msgid "Invoiced"
 msgstr "已开具发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.actions.act_window,name:account.action_move_out_invoice
@@ -10834,13 +10834,13 @@ msgid "Invoices Statistics"
 msgstr "发票统计"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Invoices are being sent in the background."
 msgstr "发票正在后台发送。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices in error"
 msgstr "发票有错误"
@@ -10851,19 +10851,19 @@ msgid "Invoices late"
 msgstr "发票逾期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Invoices owed to you"
 msgstr "您的应收账款发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices sent"
 msgstr "发票已发送"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices sent successfully."
 msgstr "发票已成功发送。"
@@ -10885,7 +10885,7 @@ msgid "Invoices, payments and basic invoice reporting."
 msgstr "发票、付款和基本发票报告。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "Invoices/Bills/Mandates"
 msgstr "发票/账单/授权"
@@ -10914,7 +10914,7 @@ msgid "Irregular Sequences"
 msgstr "不规则序列"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "Irregularities due to draft, cancelled or deleted bills with a sequence "
@@ -10924,7 +10924,7 @@ msgstr ""
 "出现不一致。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "Irregularities due to draft, cancelled or deleted invoices with a sequence "
@@ -11092,13 +11092,13 @@ msgid "It looks like you've successfully validated the last"
 msgstr "看来你已经成功验证了最后的部分"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "It was previously '%(previous)s' and it is now '%(current)s'."
 msgstr "之前是“%(previous)s”，现在是“%(current)s”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Items With Missing Analytic Distribution"
 msgstr "项目缺少分析性的分配"
@@ -11150,7 +11150,7 @@ msgid "Journal Currency"
 msgstr "日记账币别"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.actions.act_window,name:account.action_account_moves_email_preview
@@ -11169,13 +11169,13 @@ msgid "Journal Entries by Date"
 msgstr "按日期划分的日记账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Journal Entries to Hash"
 msgstr "待杂凑处理的日记账记项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.model,name:account.model_account_move
@@ -11196,7 +11196,7 @@ msgid "Journal Entry"
 msgstr "日记账分录"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: code:addons/account/static/src/components/account_payment_field/account_payment_field.js:0
 msgid "Journal Entry Info"
@@ -11212,19 +11212,19 @@ msgid "Journal Item"
 msgstr "日记账项目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s created"
 msgstr "日记账项目%s已创建"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s deleted"
 msgstr "日记账项目%s已删除"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s updated"
 msgstr "日记账项目%s已更新"
@@ -11235,7 +11235,7 @@ msgid "Journal Item Label"
 msgstr "日记账项目标签"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 #: model:ir.actions.act_window,name:account.action_account_moves_all
 #: model:ir.actions.act_window,name:account.action_account_moves_all_a
@@ -11297,7 +11297,7 @@ msgid ""
 msgstr "账户允许对账的日记账项目，无论剩余金额是多少"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Journal should be the same type as the reversed entry."
 msgstr "日记账应与撤销分录的类型相同。"
@@ -11319,7 +11319,7 @@ msgid "Journal where to create the entry."
 msgstr "创建该分录的日记账。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Journal:"
 msgstr "日记账："
@@ -11401,7 +11401,7 @@ msgid "Kpi Account Total Revenue Value"
 msgstr "KPI科目总收入值"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__payment_ref
@@ -11649,7 +11649,7 @@ msgid "Legal mentions that have to be printed on the invoices."
 msgstr "须打印在发票上的法律注释。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Less Payment"
 msgstr "非足额付款"
@@ -11665,7 +11665,7 @@ msgid "Let your customers pay their invoices online"
 msgstr "允许客户线上付款"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Let's send the invoice."
 msgstr "发送发票。"
@@ -11681,7 +11681,7 @@ msgid "Level"
 msgstr "等级"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Liabilities"
 msgstr "负债"
@@ -11708,7 +11708,7 @@ msgid "Line"
 msgstr "行"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Line \"%(line)s\" defines line \"%(parent_line)s\" as its parent, but "
@@ -11718,7 +11718,7 @@ msgstr ""
 "前。母项必须先行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "Line \"%s\" defines itself as its parent."
 msgstr "行 “%s” 将自己设为其母项。"
@@ -11735,7 +11735,7 @@ msgid "Lines"
 msgstr "行"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Lines from \"Off-Balance Sheet\" accounts cannot be reconciled"
 msgstr "来自'资产负债表'科目的明细不能对账"
@@ -11746,7 +11746,7 @@ msgid "Liquidity"
 msgstr "流动性"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_transfer_account_id
 msgid "Liquidity Transfer"
@@ -11785,7 +11785,7 @@ msgid "Lock"
 msgstr "锁定"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "Lock Date Exception %s"
 msgstr "锁定日期例外%s"
@@ -11845,7 +11845,7 @@ msgid "Loss Exchange Rate Account"
 msgstr "汇率损失科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "MISC"
 msgstr "杂项"
@@ -11927,7 +11927,7 @@ msgid "Manual Payment"
 msgstr "手动付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Manual entry"
 msgstr "手工分录"
@@ -12020,7 +12020,7 @@ msgstr ""
 "要模块account_sepa。\n"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Manually"
 msgstr "手动"
@@ -12103,7 +12103,7 @@ msgid "Matched Payments"
 msgstr "已配对付款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Matched Transactions"
 msgstr "已匹配的交易"
@@ -12163,7 +12163,7 @@ msgid "Memo"
 msgstr "备忘"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "Memo:"
@@ -12175,7 +12175,7 @@ msgid "Merge"
 msgstr "合并"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Merge Accounts"
 msgstr "合并账户"
@@ -12263,7 +12263,7 @@ msgid "Miscellaneous Fixed Assets"
 msgstr "其他固定资产"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_general
@@ -12272,7 +12272,7 @@ msgid "Miscellaneous Operations"
 msgstr "杂项操作"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_validate_account_move.py:0
 msgid "Missing 'active_model' in context."
 msgstr "上下文缺少'active_model'。"
@@ -12292,7 +12292,7 @@ msgstr ""
 "使用文档应用程序，请求它并让所有者将其上传到正确的位置。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 msgid "Missing foreign currencies on partials having ids: %s"
 msgstr "有ID的部分缺少外币：%s"
@@ -12350,7 +12350,7 @@ msgid "Monthly"
 msgstr "每月"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/open_decimal_precision_btn_template.xml:0
 msgid "More precision on Product Prices"
 msgstr "价格精度设置"
@@ -12371,7 +12371,7 @@ msgid "Move Data"
 msgstr "分录数据"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Move Down"
 msgstr "向下移动"
@@ -12393,7 +12393,7 @@ msgid "Move Type"
 msgstr "分录类型"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Move Up"
 msgstr "向上移动"
@@ -12521,7 +12521,7 @@ msgid "Negative value of amount field if payment_type is outbound"
 msgstr "如果payment_type为外向，则金额字段为负值"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Nested group of taxes are not allowed."
 msgstr "税项组别不可以是嵌套结构。"
@@ -12547,7 +12547,7 @@ msgid "Never for this vendor"
 msgstr "拒绝在此供应商购买"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "New"
@@ -12664,13 +12664,13 @@ msgid "No Follow-Up"
 msgstr "无需催收"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "No Payment Method"
 msgstr "无付款方式"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product_catalog_mixin.py:0
 msgid "No Section"
 msgstr "无章节"
@@ -12681,13 +12681,13 @@ msgid "No Template"
 msgstr "无模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "No attachment was provided"
 msgstr "未提供附件"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "No journal could be found in company %(company_name)s for any of those "
@@ -12700,7 +12700,7 @@ msgid "No journal entries selected"
 msgstr "未选择日记账记项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "No original purchase document could be found for any of the selected "
@@ -12708,7 +12708,7 @@ msgid ""
 msgstr "找不到任何选定采购文件的原始采购文件。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "No outstanding account could be found to make the payment"
 msgstr "找不到可用作付款的未清缴账户"
@@ -12719,7 +12719,7 @@ msgid "No payment journal entries"
 msgstr "无付款日记账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "No possible action found with the selected lines."
 msgstr "未找到选定行的可能操作。"
@@ -12773,13 +12773,13 @@ msgid "Non-current assets"
 msgstr "非流动资产"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Non-trade %s"
 msgstr "非贸易%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_tax__type_tax_use__none
 msgid "None"
@@ -12796,7 +12796,7 @@ msgid "Not Contains"
 msgstr "不包含"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Not Due"
 msgstr "未到期"
@@ -12877,7 +12877,7 @@ msgid "November"
 msgstr "十一月"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Now, we'll create your first invoice"
 msgstr "现在，我们将创建您的第一张发票"
@@ -13089,7 +13089,7 @@ msgid "Onboarding Step"
 msgstr "入门步骤"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Once a document has been posted once, its type is set in stone and you can't "
@@ -13097,7 +13097,7 @@ msgid ""
 msgstr "文件只要经历过一次过账，其类型就会固定下来，您不可再更改。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid ""
 "Once everything is set, you are good to continue. You will be able to edit "
@@ -13114,19 +13114,19 @@ msgstr ""
 "导入入口。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Once your invoice is ready, confirm it."
 msgstr "发票就绪后，按“确认”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "One or more invoices couldn't be processed."
 msgstr "有一张或多张发票无法处理。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "One or more lines require a 100% analytic distribution."
 msgstr "部分行未完成分析科目分配（需达到100%分配比例）。"
@@ -13142,7 +13142,7 @@ msgid "Only Tax Exigible Lines"
 msgstr "仅限免税行"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Only a report without a root report of its own can be selected as root "
@@ -13150,19 +13150,19 @@ msgid ""
 msgstr "只有没有关联根报表的报表才能被选为根报表。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Only administrators can install chart templates"
 msgstr "只允许管理员安装图表模板"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Only draft journal entries can be cancelled."
 msgstr "只可取消日记账草稿记项。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid "Only invoices could be printed."
 msgstr "只能打印发票。"
@@ -13174,25 +13174,25 @@ msgid ""
 msgstr "合作伙伴（银行）只能创建一项付款，不是为各账单创建一项付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Only posted/cancelled journal entries can be reset to draft."
 msgstr "只限已过账/已取消的日记账记项，才可重设为草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Only vendor bills allow for deductibility of product/services."
 msgstr "只有供应商账单才能为产品/服务设定扣除。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/terms.py:0
 msgid "Oops"
 msgstr "哎呀"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "Oops! You can only change the period or account for items that are not yet "
@@ -13200,7 +13200,7 @@ msgid ""
 msgstr "抱歉！仅支持修改未核销凭证的会计期间或科目！已核销项目不允许此类操作！"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "Oops! You can only change the period or account for posted entries! Other "
@@ -13209,7 +13209,7 @@ msgstr ""
 "抱歉！仅支持修改已过账凭证的会计期间或科目！草稿状态凭证不允许此类操作！"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__state__posted
 msgid "Open"
@@ -13251,7 +13251,7 @@ msgid "Opening Journal"
 msgstr "期初日记账"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
 msgid "Opening Journal Entry"
@@ -13263,7 +13263,7 @@ msgid "Opening Move Posted"
 msgstr "期初已过账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Opening balance"
 msgstr "期初余额"
@@ -13370,7 +13370,7 @@ msgid "Originator tax group"
 msgstr "发起人税项组"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Other"
 msgstr "其他"
@@ -13444,7 +13444,7 @@ msgid "Outstanding Account"
 msgstr "未结科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_payment_credit_account_id
 #: model:account.account,name:account.2_account_journal_payment_credit_account_id
@@ -13457,7 +13457,7 @@ msgid "Outstanding Payments accounts"
 msgstr "未结付款科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_payment_debit_account_id
 #: model:account.account,name:account.2_account_journal_payment_debit_account_id
@@ -13470,13 +13470,13 @@ msgid "Outstanding Receipts accounts"
 msgstr "未结收款科目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Outstanding credits"
 msgstr "未结贷方"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Outstanding debits"
 msgstr "未结借方"
@@ -13494,7 +13494,7 @@ msgid "Overdue Amount"
 msgstr "逾期金额"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Overdue invoices"
 msgstr "逾期发票"
@@ -13587,19 +13587,19 @@ msgid "Paid"
 msgstr "已支"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Paid Bills"
 msgstr "已付账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Paid Invoices"
 msgstr "已付发票"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Paid on"
@@ -13654,7 +13654,7 @@ msgid "Partially Paid"
 msgstr "部分已付"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__partner_id
 #: model:ir.model.fields,field_description:account.field_account_autopost_bills_wizard__partner_id
@@ -13728,7 +13728,7 @@ msgid "Partner Vat Placeholder"
 msgstr "合作伙伴增值税占位符"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Partner(s) should have an email address."
 msgstr "合作伙伴应有电子邮件地址。"
@@ -13746,7 +13746,7 @@ msgid "Partners Missing a bank account"
 msgstr "合作伙伴缺少银行账户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "Partners that are used in hashed entries cannot be merged."
 msgstr "散列条目中使用的合作伙伴无法合并。"
@@ -13758,7 +13758,7 @@ msgid "Partners with same bank"
 msgstr "具有相同银行账户的合作伙伴"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
 #: model:ir.model,name:account.model_account_payment_register
@@ -13789,7 +13789,7 @@ msgid "Payable and receivable"
 msgstr "应付款和应收款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__origin_payment_id
@@ -13895,7 +13895,7 @@ msgid "Payment QR-code"
 msgstr "付款二维码"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.actions.report,name:account.action_report_payment_receipt
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
@@ -14034,7 +14034,7 @@ msgid "Payment: Payment Receipt"
 msgstr "付款：付款收据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_payment_register.py:0
 #: model:ir.actions.act_window,name:account.action_account_all_payments
@@ -14104,7 +14104,7 @@ msgid "Percentage Tax Included"
 msgstr "含税百分比"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Percentage must be between 0 and 100"
 msgstr "百分比须介于0~100之间"
@@ -14125,7 +14125,7 @@ msgid "Percentage of statement line"
 msgstr "对账单行的百分比"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "Percentages on the Payment Terms lines must be between 0 and 100."
 msgstr "付款条款行的百分比须介于0~100之间。"
@@ -14157,31 +14157,31 @@ msgid ""
 msgstr "来自电信供应商用于业务运营的电话和互联网账单"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
 msgid "Pick the rate on a certain date"
 msgstr "选择特定日期的汇率"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Please contact your accountant to print the Hash integrity result."
 msgstr "请联系会计打印散列完整性结果。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Please create new accounts from the Chart of Accounts menu."
 msgstr "请从会计科目表菜单创建新科目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Please define a payment method line on your payment."
 msgstr "请在付款中定义付款方式行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
@@ -14189,7 +14189,7 @@ msgid ""
 msgstr "请在处理前先安装会计科目表，或创建杂项日记账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_cash_rounding.py:0
 msgid "Please set a strictly positive rounding value."
 msgstr "请设置正舍入值。"
@@ -14396,7 +14396,7 @@ msgid "Prices"
 msgstr "价格"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_move_form/account_move_form.js:0
 #: code:addons/account/static/src/views/account_move_list/account_move_list_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -14529,7 +14529,7 @@ msgid "Professional Liability Insurance"
 msgstr "职业责任保险"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Profit & Loss"
 msgstr "损益"
@@ -14618,7 +14618,7 @@ msgid "Purchase Receipt"
 msgstr "采购收据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Purchase Receipt Created"
 msgstr "采购收据已创建"
@@ -14651,7 +14651,7 @@ msgid ""
 msgstr "购买轿车或卡车，包括二手车或租赁后合同"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_purchase
 #: model:account.journal,name:account.2_purchase
@@ -14729,7 +14729,7 @@ msgid "Quick encoding"
 msgstr "快速编码"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2x_tax_tags/many2x_tax_tags.js:0
 msgid "Quick search: %s"
 msgstr "快速搜索: %s"
@@ -14774,7 +14774,7 @@ msgid "Reason displayed on Credit Note"
 msgstr "退款原因"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_bill_filter
 msgid "Receipt"
@@ -14831,7 +14831,7 @@ msgid "Recompute all taxes and accounts based on this fiscal position"
 msgstr "根据此财务规则重新计算所有税款和账户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Reconcilable"
 msgstr "可完成对账"
@@ -14899,13 +14899,13 @@ msgid "Record a new vendor bill"
 msgstr "创建新的供应商账单"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.js:0
 msgid "Records"
 msgstr "记录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Recursion found for tax “%s”."
 msgstr "税项%s发现有递归问题。"
@@ -14921,7 +14921,7 @@ msgid "Ref."
 msgstr "参考号"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__name
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__ref
@@ -14938,7 +14938,7 @@ msgid ""
 msgstr "用于发布该付款的单据参考号。如支票编号、单据名称等。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/fetch_einvoices/fetch_einvoices_cog.js:0
 msgid "Refresh e-Invoices Status"
 msgstr "刷新电子发票状态"
@@ -14950,7 +14950,7 @@ msgid "Refund"
 msgstr "退款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Refund Created"
 msgstr "已生成退款"
@@ -15041,13 +15041,13 @@ msgid "Remake the sequence of Journal Entries."
 msgstr "对日记账分录进行重新排序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Remove empty lines"
 msgstr "移除空行"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Removed"
 msgstr "已移除"
@@ -15188,7 +15188,7 @@ msgid "Residual Amount in Currency"
 msgstr "剩余金额币别"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Residual amount"
 msgstr "剩余金额"
@@ -15238,7 +15238,7 @@ msgid "Retirement plans costs (401K match)"
 msgstr "退休计划成本（401K匹配）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:account.group,name:account.2_us_group_4
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue
@@ -15274,7 +15274,7 @@ msgid "Reversal date"
 msgstr "冲销日期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Reversal date must be posterior to date."
 msgstr "冲销日期必须晚于该日期。"
@@ -15286,13 +15286,13 @@ msgid "Reversal of"
 msgstr "撤销"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Reversal of: %(move_name)s, %(reason)s"
 msgstr "撤销：%(move_name)s，%(reason)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 #: code:addons/account/wizard/account_move_reversal.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
@@ -15316,7 +15316,7 @@ msgid "Reverse Journal Entry"
 msgstr "撤销日记账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Reverse Moves"
 msgstr "撤销分录"
@@ -15336,7 +15336,7 @@ msgid "Reversed"
 msgstr "已撤销"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Reversed on"
@@ -15359,14 +15359,14 @@ msgid "Review Chart of Accounts"
 msgstr "审查会计科目表"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.actions.server,name:account.accountant_confirm_entries_action
 msgid "Review Entries"
 msgstr "审核记项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Review Statements"
 msgstr "审核对账单"
@@ -15415,7 +15415,7 @@ msgid "Round per Tax"
 msgstr "按税种舍入"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tax_totals/tax_totals.xml:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__rounding
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
@@ -15519,7 +15519,7 @@ msgid "Sale Receipt"
 msgstr "销售收据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_sale
 #: model:account.journal,name:account.2_sale
@@ -15556,7 +15556,7 @@ msgid "Sales Receipt"
 msgstr "销售收据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Sales Receipt Created"
 msgstr "销售收据已创建"
@@ -15580,7 +15580,7 @@ msgid "Sales and use tax paid on purchases where not otherwise recoverable"
 msgstr "采购时支付的不可抵扣销售和使用税"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Sales tax"
 msgstr "销售税"
@@ -15607,7 +15607,7 @@ msgid "Sample Memo"
 msgstr "备忘录样本"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Sample data"
 msgstr "示例数据"
@@ -15629,7 +15629,7 @@ msgid "Save this page and come back here to set up the feature."
 msgstr "保存该页面，返回该页面，以设置功能。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Scan me with your banking app."
@@ -15704,7 +15704,7 @@ msgid "Search a name or Tax ID..."
 msgstr "搜索名称或税号..."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2x_tax_tags/many2x_tax_tags.js:0
 msgid "Search: %s"
 msgstr "搜索: %s"
@@ -15722,7 +15722,7 @@ msgid "Section Of"
 msgstr "分节有关"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 #: model:ir.model.fields,field_description:account.field_account_report__section_report_ids
 msgid "Sections"
@@ -15755,14 +15755,14 @@ msgid "Secured"
 msgstr "确保安全"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "Securing these entries will also secure entries after the selected date."
 msgstr "保护这些分录的同时也会保护所选日期之后的分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Securing these entries will create at least one gap in the sequence."
 msgstr "确保这些条目的安全性将在序列中至少创建一个空缺。"
@@ -15775,7 +15775,7 @@ msgid "Security Token"
 msgstr "安全令牌"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "See items"
 msgstr "查看项目"
@@ -15801,7 +15801,7 @@ msgstr ""
 "并自动用作分析账户）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Select a type"
 msgstr "选择一个类型"
@@ -15812,7 +15812,7 @@ msgid "Select an old purchase document"
 msgstr "选择旧采购单据"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Select first partner"
 msgstr "选择首个合作伙伴"
@@ -15867,7 +15867,7 @@ msgid "Sell and purchase products in different units of measure or packagings"
 msgstr "销售和购买不同计量单位或包装的产品"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_payment__payment_type__outbound
 #: model_terms:ir.ui.view,arch_db:account.account_move_send_batch_wizard_form
@@ -15891,7 +15891,7 @@ msgid "Send Money"
 msgstr "付款"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Send a bill to"
 msgstr "将账单发送至"
@@ -15907,7 +15907,7 @@ msgid "Send invoices automatically"
 msgstr "自动发送发票"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid ""
 "Send invoices to your customers in no time with the <b>Invoicing app</b>."
@@ -15935,7 +15935,7 @@ msgid "Send receipts by email"
 msgstr "通过电子邮件发送收据"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Send the invoice to the customer and check what he'll receive."
 msgstr "将发票寄给客户，并检查他将收到什么。"
@@ -15971,7 +15971,7 @@ msgstr ""
 "鱼。验证后即可启用汇款功能。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Sending invoices"
 msgstr "正在发送发票"
@@ -15988,7 +15988,7 @@ msgid "Sent"
 msgstr "已发送"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Sent invoices"
 msgstr "已发送发票"
@@ -16118,13 +16118,13 @@ msgid "Set Periods"
 msgstr "发送期间"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Set a date. The moves will be secured up to including this date."
 msgstr "设定一个日期。截至该日期，这些分录都将得到保证。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Set a price."
 msgstr "定价"
@@ -16161,7 +16161,7 @@ msgid "Set up your chart of accounts and record initial balances."
 msgstr "设定账目总表，开始记账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Set your company data"
 msgstr "设置您的公司数据"
@@ -16186,13 +16186,13 @@ msgid "Settings"
 msgstr "设置"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Setup Bank Account"
 msgstr "设定银行账户"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Setup Credit Card Account"
 msgstr "设置信用卡账户"
@@ -16220,7 +16220,7 @@ msgid "Show Accounting Features - Readonly"
 msgstr "显示会计功能 - 只读"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show Composition"
 msgstr ""
@@ -16270,7 +16270,7 @@ msgid "Show Journal"
 msgstr "显示日记账"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.js:0
 msgid "Show Label Warning"
 msgstr "显示标签警告"
@@ -16299,7 +16299,7 @@ msgid "Show Payment Term Details"
 msgstr "显示付款条款详情"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show Prices"
 msgstr ""
@@ -16317,7 +16317,7 @@ msgid "Show Taxable Supply Date"
 msgstr "显示应税供应日期"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Show Unreconciled Bank Statement Line"
 msgstr "显示未对账的银行对账单明细"
@@ -16328,7 +16328,7 @@ msgid "Show active taxes"
 msgstr "显示有效的税项"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show all lines"
 msgstr "显示所有行"
@@ -16340,7 +16340,7 @@ msgid "Show all records whose next activity date is past"
 msgstr "显示所有逾期未完成活动的记录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Show draft entries"
 msgstr "显示草稿分录"
@@ -16381,13 +16381,13 @@ msgid "Some"
 msgstr "一些"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Some documents are being sent by another process already."
 msgstr "部分文件已经通过另一个程序发送。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.js:0
 msgid ""
 "Some lines can be on the next page, display them to unlock actions on "
@@ -16395,7 +16395,7 @@ msgid ""
 msgstr "部分行可能在下一页，请显示它们以解锁该节的操作。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.js:0
 msgid ""
 "Some lines of the next section can be on the next page, display them to "
@@ -16403,7 +16403,7 @@ msgid ""
 msgstr "部分行可能在下一页，请显示它们以解锁该节的操作。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Some payment methods supposed to be unique already exists somewhere else.\n"
@@ -16493,7 +16493,7 @@ msgid "Statement"
 msgstr "对账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "Statement %(date)s"
 msgstr "对账单%(date)s"
@@ -16516,7 +16516,7 @@ msgid "Statement Reports"
 msgstr "对账单报表"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "Statement line percentage can't be 0"
 msgstr "对账单行百分比不能为0"
@@ -16545,7 +16545,7 @@ msgid "States Count"
 msgstr "状态数量"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__state
 #: model:ir.model.fields,field_description:account.field_account_move__state
@@ -16585,7 +16585,7 @@ msgstr ""
 "计划：未来活动。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_statusbar_secured/account_move_statusbar_secured.js:0
 msgid "Status with secured indicator for Journal Entries"
 msgstr "日记账分录的安全指示器的状态"
@@ -16675,7 +16675,7 @@ msgid "Successfully unsubscribed"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Suggested"
 msgstr "建议"
@@ -16999,7 +16999,7 @@ msgid "Tax Grid"
 msgstr "税目明细"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__tag_ids
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -17161,7 +17161,7 @@ msgid ""
 msgstr "导致创建该分录行的税项分配行，如有"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Tax names must be unique!\n"
@@ -17188,7 +17188,7 @@ msgid "Taxable Supply Date Placeholder"
 msgstr "应税供应日期占位符"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: model:account.group,name:account.2_us_group_8
 #: model:ir.actions.act_window,name:account.action_tax_form
@@ -17228,7 +17228,7 @@ msgid "Taxes are also displayed in local currency on invoices"
 msgstr "发票上的税款也以当地币别显示"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal "
@@ -17339,7 +17339,7 @@ msgid "Template Name"
 msgstr "模板名称"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_wizard.py:0
 msgid "Template creation from composer requires a valid model."
 msgstr "从合成器创建模板需要有效的模型。"
@@ -17376,7 +17376,7 @@ msgid "Terms & Conditions format"
 msgstr "条款与细则格式"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Terms & Conditions: %s"
 msgstr "条款和条件：%s"
@@ -17389,7 +17389,7 @@ msgid "Terms and Conditions"
 msgstr "条款与细则"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tests_shared_js_python/test_shared_js_python.xml:0
 msgid "Test"
 msgstr "测试"
@@ -17400,7 +17400,7 @@ msgid "Text Value"
 msgstr "文本值"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/document_state/document_state_field.js:0
 msgid "Text copied"
 msgstr "文本已复制"
@@ -17411,7 +17411,7 @@ msgid "That is the date of the opening entry."
 msgstr "期初分录日期。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing "
@@ -17424,7 +17424,7 @@ msgstr ""
 "重新排序选项（该选项在开发人员模式可用）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid ""
 "The %s chart template shouldn't be selected directly. Instead, you should "
@@ -17432,7 +17432,7 @@ msgid ""
 msgstr "不应直接选择 %s 图表模板。而是应该直接选择与您的国家相关的图表模板。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The 'Customer' field is required to validate the invoice.\n"
@@ -17443,7 +17443,7 @@ msgstr ""
 "您总不想向审计人员解释：这张发票是开给隐形人的吧 :)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "The Availability is set to 'Country Matches' but the field Country is not "
@@ -17451,19 +17451,19 @@ msgid ""
 msgstr "可用性设置为 “国家/地区匹配”，但未设置 “国家/地区 ”字段。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The Bill/Refund date is required to validate this document."
 msgstr "需要帐单/退款日期才能验证此文档。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The Early Payment Discount days must be strictly positive."
 msgstr "提前付款折扣天数须为正数。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "The Early Payment Discount functionality can only be used with payment terms "
@@ -17471,13 +17471,13 @@ msgid ""
 msgstr "提前付款折扣功能只能与使用单个100%行的付款条件一同使用. "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The Early Payment Discount must be strictly positive."
 msgstr "提前付款折扣须为正数。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "The Hard Lock Date cannot be removed."
 msgstr "硬锁定日期无法删除。"
@@ -17503,7 +17503,7 @@ msgstr ""
 "可以使用该字段进行快速搜索。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The Journal Entry sequence is not conform to the current format. Only the "
@@ -17511,7 +17511,7 @@ msgid ""
 msgstr "日记账分录序列不符合当前格式。仅会计可以更改。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "The Payment Term must have at least one percent line and the sum of the "
@@ -17529,19 +17529,19 @@ msgstr ""
 "税。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "The account %(name)s (%(code)s) is archived."
 msgstr "账户%(name)s（%(code)s）已存档。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "The account code can only contain alphanumeric characters and dots."
 msgstr "科目代码只能包含字母、数字和点。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The account is already in use in a 'sale' or 'purchase' journal. This means "
@@ -17551,7 +17551,7 @@ msgstr ""
 "付账款”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "The account selected on your journal entry forces to provide a secondary "
@@ -17592,7 +17592,7 @@ msgstr ""
 "币别与公司币别相同，则该金额须等于余额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The amount for %(partner_name)s appears unusual. Based on your historical "
@@ -17604,13 +17604,13 @@ msgstr ""
 "请核实该金额是否准确。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "The amount is not a number"
 msgstr "金额不是数字"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "The application scope of taxes in a group must be either the same as the "
@@ -17618,7 +17618,7 @@ msgid ""
 msgstr "一个组内的税项应用范围须与群设置相同，或者留空。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The bank account of a bank journal must belong to the same company (%s)."
@@ -17630,7 +17630,7 @@ msgid "The bank statement used for bank reconciliation"
 msgstr "用于银行对账的银行对账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The billing frequency for %(partner_name)s appears unusual. Based on your "
@@ -17651,7 +17651,7 @@ msgid ""
 msgstr "对账该行时从该行的税项创建的现金收付分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "The cash basis transition account needs to allow reconciliation."
 msgstr "现金制过渡账户需支持对账功能。"
@@ -17668,7 +17668,7 @@ msgstr ""
 "后制定的。为了生效，任何放弃须经事先、明确书面同意。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "The code must be set for every company to which this account belongs."
 msgstr "必须为此账户所属的每个公司设置该代码。"
@@ -17679,7 +17679,7 @@ msgid "The combination code/payment type already exists!"
 msgstr "组合代码/付款类型已存在！"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The combination of reference model and reference type on the journal is not "
@@ -17687,7 +17687,7 @@ msgid ""
 msgstr "日记账中的参考模型和参考类型组合未实施"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The commercial partner has been updated for all related accounting entries."
@@ -17709,7 +17709,7 @@ msgid "The country for which this tax is applicable."
 msgstr "该税项适用的国家/地区。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The country of the foreign VAT number could not be detected. Please assign a "
@@ -17724,7 +17724,7 @@ msgid "The country to use the tax reports from for this company"
 msgstr "使用该公司税务报表的国家/地区"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The currency rate must be strictly positive."
 msgstr "币别汇率必须严格为正值。"
@@ -17740,7 +17740,7 @@ msgid "The current highest number is"
 msgstr "当前最高数字为"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The current total is %(current_total)s but the expected total is %"
@@ -17751,7 +17751,7 @@ msgstr ""
 "单，您可以调整发票/账单的资料行或预期总计（含税）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The date is being set prior to: %(lock_date_info)s. The Journal Entry will "
@@ -17761,7 +17761,7 @@ msgstr ""
 "会计处理。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "The date selected is protected by: %(lock_date_info)s."
 msgstr "所选日期受%(lock_date_info)s保护。"
@@ -17795,19 +17795,19 @@ msgid ""
 msgstr "此例外设定的税务锁定日期。如果未有更改锁定日期，会设为最大日期。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The days added must be a number and has to be between 0 and 31."
 msgstr "添加的天数必须是数字，且必须介于 0 和 31 之间。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The days added must be between 0 and 31."
 msgstr "添加的天数必须在 0 到 31 天之间。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "The deductibility must be a value between 0 and 100."
 msgstr "可扣除的天数必须在 0 到 100 之间。"
@@ -17826,13 +17826,13 @@ msgid "The document(s) that generated the invoice."
 msgstr "创建发票的单据。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The entry %(name)s (id %(id)s) must be in draft."
 msgstr "记项%(name)s（识别码%(id)s）必须为草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The entry is not balanced."
 msgstr "该分录不平衡。"
@@ -17844,7 +17844,7 @@ msgid "The entry is secured with an inalterable hash."
 msgstr "记项使用不可更改的哈希值进行保护。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The entry is using accounts (%(accounts_codes_names)s) from a different "
@@ -17870,7 +17870,7 @@ msgid "The expression label must be unique per report line."
 msgstr "各报表行的表达式标签须唯一。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The field 'Vendor' is required, please complete it to validate the Vendor "
@@ -17890,7 +17890,7 @@ msgid "The following Journal Entries will be generated"
 msgstr "将生成以下日记账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The following accounts must be assigned to at least one company:\n"
@@ -17900,7 +17900,7 @@ msgstr ""
 "%(accounts)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The following entries are unbalanced:\n"
@@ -17910,7 +17910,7 @@ msgstr ""
 "\n"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%(candidate)s' QR-code to be generated though "
@@ -17919,13 +17919,13 @@ msgstr ""
 "虽然侦测到“%(candidate)s” 符合资格，但以下错误导致系统未能为其生成二维码： "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid "The foreign currency must be different than the journal one: %s"
 msgstr "外币须不同于日记账币别：%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The foreign currency set on the journal '%(journal)s' and the account '%"
@@ -17943,19 +17943,19 @@ msgstr ""
 "                                数据。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr "日记账的银行账户持有人须为公司（%s）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The invoice already contains lines."
 msgstr "发票已包含明细行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "The journal entry %s reached an invalid state regarding its related "
@@ -17982,13 +17982,13 @@ msgid ""
 msgstr "已创建该现金收付税项日记账分录的日记账分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "The journal in which to upload the invoice is not specified. "
 msgstr "未指定要上传发票的日记账。 "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_line.py:0
 msgid "The journal item is not linked to the correct financial account"
 msgstr "该日记账项目未连结至正确财务账户"
@@ -18005,14 +18005,14 @@ msgid "The length of the starting and the ending code prefix must be the same"
 msgstr "开始和结束代码前缀的长度须相同"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The move could not be posted for the following reason: %(error_message)s"
 msgstr "分录未能过账，原因：%(error_message)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "The operation is refused as it would impact an already issued tax statement. "
@@ -18047,13 +18047,13 @@ msgstr ""
 "顺序排列。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "The partner cannot be deleted because it is used in Accounting"
 msgstr "不能删除合作伙伴，因为在会计应用程序中使用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The partners of the journal's company and the related bank account mismatch."
@@ -18082,7 +18082,7 @@ msgid "The payment's currency."
 msgstr "付款币别。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The recipient bank account linked to this invoice is archived.\n"
@@ -18127,19 +18127,19 @@ msgid ""
 msgstr "该对账模型仅在选定日记账中可用。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The recurrence will end on %s (included)."
 msgstr "此循环任务的有效期至 %s（包含该日期）。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "The regex is not valid"
 msgstr "正则表达式无效"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "The register payment wizard should only be called on account.move or "
@@ -18152,7 +18152,7 @@ msgid "The report this report is a variant of."
 msgstr "该报表作为其变体的报表。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/terms.py:0
 msgid "The requested page is invalid, or doesn't exist anymore."
 msgstr "请求页面无效，或已不存在。"
@@ -18171,13 +18171,13 @@ msgid ""
 msgstr "日记账项目中以本币表示的剩余金额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "The running balance (%s) doesn't match the specified ending balance."
 msgstr "即时余额（%s）与指定的期末余额不匹配。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "The sections defined on a report cannot have sections themselves."
 msgstr "报表上定义的分节，不可再包含分节。"
@@ -18203,7 +18203,7 @@ msgstr ""
 "                        任何之前已存在的外币金额的损失。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "The selected payment method is not available for this payment, please select "
@@ -18211,7 +18211,7 @@ msgid ""
 msgstr "所选付款方式不适用于此次付款，请重新选择付款方式。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid ""
 "The sending of invoices is not set up properly, make sure the report used is "
@@ -18226,13 +18226,13 @@ msgid ""
 msgstr "序列字段用于定义税项行应用的顺序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The sequence format has changed."
 msgstr "序列格式已更改。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
 "The sequence regex should at least contain the seq grouping keys. For "
@@ -18243,7 +18243,7 @@ msgstr ""
 "^(?P<prefix1>.*?)(?P<seq>\\d*)(?P<suffix>\\D*?)$"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will never restart.\n"
@@ -18253,7 +18253,7 @@ msgstr ""
 "本例中的递增数字为“%(formatted_seq)s”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every financial year.\n"
@@ -18267,7 +18267,7 @@ msgstr ""
 "这里的递增数字是'%(formatted_seq)s'。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every month.\n"
@@ -18283,7 +18283,7 @@ msgstr ""
 "本例中递增的数字是“%(formatted_seq)s”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every month.\n"
@@ -18295,7 +18295,7 @@ msgstr ""
 "本例中的递增数字为“%(formatted_seq)s” 。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every year.\n"
@@ -18307,7 +18307,7 @@ msgstr ""
 "本例中的递增数字为“%(formatted_seq)s” 。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "The sequences of this journal are different for Invoices and Refunds but you "
@@ -18315,7 +18315,7 @@ msgid ""
 msgstr "该日记账的序列对于发票和退款是不同的，您选择了这两种类型中的一种。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "The sequences of this journal are different for Payments and non-Payments "
@@ -18323,7 +18323,7 @@ msgid ""
 msgstr "该日记账的序列对于发票和退款是不同的，您选择了这两种类型中的一种。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid ""
 "The starting balance doesn't match the ending balance of the previous "
@@ -18342,7 +18342,7 @@ msgid ""
 msgstr "该应税设定映射的区域内贵公司的税务ID。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "The tax group must have the same country_id as the tax using it."
 msgstr "税项组须与组内税项具有相同的country_id。"
@@ -18353,7 +18353,7 @@ msgid "The tie-breaking rule used for float rounding operations"
 msgstr "用于浮点舍入运算的平分决胜规则"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The type of the journal's default credit/debit account shouldn't be "
@@ -18373,7 +18373,7 @@ msgid "There are currently no invoices and payments for your account."
 msgstr "您的科目当前没有发票和付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are entries that cannot be hashed. They can be protected by the Hard "
@@ -18381,26 +18381,26 @@ msgid ""
 msgstr "有些条目无法进行哈希处理。它们可以受到硬锁定日期的保护。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_validate_account_move.py:0
 msgid "There are no journal items in the draft state to post."
 msgstr "草稿状态中没有要过账的日记账项目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "There are payments in progress. Make sure you don't pay twice."
 msgstr "有付款正在进行中。确保您不会支付两次费用。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "There are still draft entries before the selected date."
 msgstr "在所选日期之前仍有草稿分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There are still draft entries in the period you want to hard lock. You "
@@ -18408,7 +18408,7 @@ msgid ""
 msgstr "您想要硬锁定的时间段内仍有草稿条目。您应该发布或删除它们。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are still unreconciled bank statement lines before the selected date. "
@@ -18419,7 +18419,7 @@ msgstr ""
 "(prefix_info)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There are still unreconciled bank statement lines in the period you want to "
@@ -18434,14 +18434,14 @@ msgid ""
 msgstr "选定订单无发票。但可以使用金额字段强制创建应计分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There is no journal entry flagged for accounting data inalterability yet."
 msgstr "尚未有标记为会计数据不可更改的日记账分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 msgid ""
 "There is no tax cash basis journal defined for the '%s' company.\n"
@@ -18451,13 +18451,13 @@ msgstr ""
 "在会计/配置/设置中配置"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "There is no template that applies to invoices."
 msgstr "没有适用于发票的模板。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "There is no template that applies to this move type."
 msgstr "没有适用于此分录类型的模板。"
@@ -18468,7 +18468,7 @@ msgid "There was an error processing this page."
 msgstr "该页面存在错误处理。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "There was an error when trying to add the banner to the original PDF.\n"
@@ -18478,7 +18478,7 @@ msgstr ""
 "请确保源单据有效。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "There's nothing left to pay for the selected journal items, so no payment "
@@ -18508,7 +18508,7 @@ msgid "This Return Period"
 msgstr "本期申报"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "This Week"
 msgstr "本周"
@@ -18519,7 +18519,7 @@ msgid "This Year"
 msgstr "本年"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "This account was split off from %(account_name)s (%(company_name)s)."
 msgstr "该账户已从%(account_name)s（%(company_name)s）中分离出来。"
@@ -18532,7 +18532,7 @@ msgid "This account will be used when validating a customer invoice."
 msgstr "验证客户发票时使用该科目。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This action isn't available for this document."
 msgstr "该操作对本单据不可用。"
@@ -18565,19 +18565,19 @@ msgid ""
 msgstr "该分析分摊适用于具有相同指定前缀的所有财务账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "This can only be used on accounts."
 msgstr "该项只能用于账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "This can only be used on journal items"
 msgstr "该项只能用于日记账项目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This document is protected by a hash. Therefore, you cannot edit the "
@@ -18585,13 +18585,13 @@ msgid ""
 msgstr "本文档受哈希值保护。因此，您不能编辑以下字段：%s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "This document was created from the following attachment(s)."
 msgstr "本凭证由以下附件生成。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This entry contains one or more taxes that are incompatible with your fiscal "
@@ -18602,7 +18602,7 @@ msgstr ""
 "在国家/地区，在税项配置中查年税务所在国家/地区。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This entry contains taxes that are not compatible with your fiscal position. "
@@ -18612,25 +18612,25 @@ msgstr ""
 "区。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "This entry has been %s"
 msgstr "记项已被%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This entry has been duplicated from %s"
 msgstr "分录已从%s复制"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This entry has been reversed from %s"
 msgstr "记项已从%s撤销"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "This entry transfers the following amounts to %(destination)s"
 msgstr "此分录将以下金额转入%(destination)s"
@@ -18643,7 +18643,7 @@ msgid ""
 msgstr "该字段用在应收账款和应付账款日记账分录。可以为该行付款设置限定日期。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This invoice is being sent in the background."
 msgstr "发票正在后台发送。"
@@ -18666,25 +18666,25 @@ msgid ""
 msgstr "默认信用额度，将用于没有特定限额的合作伙伴。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the full amount."
 msgstr "这是全额金额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the next unreconciled installment."
 msgstr "这是下一个未对账的分期付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the overdue amount."
 msgstr "这是逾期的金额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This journal entry has been secured."
 msgstr "此日记账分录已得到保护。"
@@ -18703,7 +18703,7 @@ msgid ""
 msgstr "该行及其子将在所有列为0时隐藏。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This move could not be locked either because some move with the same "
@@ -18712,13 +18712,13 @@ msgstr ""
 "该分录无法锁定，因为某些具有相同序列前缀的分录数字更高。您可能需要重新排序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This move is configured to be auto-posted on %(date)s"
 msgstr "此分录已配置在以下日期自动过账：%(date)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This move is configured to be posted automatically at the accounting date: "
@@ -18726,19 +18726,19 @@ msgid ""
 msgstr "此凭证已配置为在会计日期 %s 自动过账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This move will be posted at the accounting date: %(date)s"
 msgstr "该分录在以下会计日期发布：%(date)s"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/services/account_move_service.js:0
 msgid "This operation will create a gap in the sequence."
 msgstr "此操作会令序列间断。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid ""
 "This product is already being used in posted Journal Entries.\n"
@@ -18749,13 +18749,13 @@ msgstr ""
 "要更改其度量单位，请将产品存档，并创建新产品。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "This reconciliation model has created no entry so far"
 msgstr "该对账模型尚未创建分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This recurring entry originated from %s"
 msgstr "该经常性分录源自%s"
@@ -18772,7 +18772,7 @@ msgid "This setting locks once a journal entry is created."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "This specific error occurred during the import:"
 msgstr "导入期间发生了此特定错误："
@@ -18854,7 +18854,7 @@ msgid ""
 msgstr "若要为之前已发送的发票添加信息，请回复 “已发送” 电子邮件"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "To keep the restrictive audit trail, you can not delete journal entries once "
@@ -18870,7 +18870,7 @@ msgid "To pay"
 msgstr "待支付"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "To record payments with %(method_name)s, the recipient bank account must be "
@@ -18881,7 +18881,7 @@ msgstr ""
 "(partner)s合作伙伴银行账户，以进行验证。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "To record payments with %(payment_method)s, the recipient bank account must "
@@ -18892,13 +18892,13 @@ msgstr ""
 "伴银行账户，以进行验证。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "To reverse a journal entry, it has to be posted first."
 msgstr "若要冲销日记账分录，需先完成过账。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/char_with_placeholder_field_to_check/char_with_placeholder_field.xml:0
 msgid "To review"
 msgstr "带审查"
@@ -18921,7 +18921,7 @@ msgid "Today Activities"
 msgstr "今日活动"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tax_totals/tax_totals.xml:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__amount_total
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__price_total
@@ -19009,26 +19009,26 @@ msgid "Total Signed"
 msgstr "已签字总计"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Total amount due (including sales orders and this document): %(total_credit)s"
 msgstr "应付款总额（包括销售订单和本文件）： %(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due (including sales orders): %(total_credit)s"
 msgstr "应付款总额（包括销售订单）： %(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due (including this document): %(total_credit)s"
 msgstr "应付款总额（包括本文件）： %(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due: %(total_credit)s"
 msgstr "应付款总额：%(total_credit)s"
@@ -19062,7 +19062,7 @@ msgid "Total amount you have to pay to this vendor."
 msgstr "应向该供应商支付的总额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Total for the installments before %(date)s."
 msgstr "%(date)s之前的分期付款总计。"
@@ -19084,7 +19084,7 @@ msgid "Track costs & revenues by project, department, etc"
 msgstr "按项目、部门等追踪成本和收入"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Trade %s"
 msgstr "贸易%s"
@@ -19116,7 +19116,7 @@ msgid "Transactions"
 msgstr "交易"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer"
 msgstr "转账"
@@ -19132,25 +19132,25 @@ msgid "Transfer Journal Items"
 msgstr "转账日记账项目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer counterpart"
 msgstr "转账对方"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer entry to %s"
 msgstr "将分录转至%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer from %s"
 msgstr "从%s转账"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer to %s"
 msgstr "转账至%s"
@@ -19182,13 +19182,13 @@ msgstr ""
 "报。                                    设置大于 0.0 的值以激活信用额度检查"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "True"
 msgstr "是"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_search_inherit
 msgid "Trusted"
@@ -19231,7 +19231,7 @@ msgid "Type of the exception activity on record."
 msgstr "记录中异常活动的类型。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "Uh-oh! Those payment terms are quite popular and can't be deleted since "
@@ -19242,7 +19242,7 @@ msgstr ""
 "试试将它们归档吧？"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid ""
 "Unable to create a statement due to missing transactions. You may want to "
@@ -19251,13 +19251,13 @@ msgstr ""
 "无法创建对账单，因为没有交易。继续操作之前，您可能希望对交易进行重新排序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Undefined Yet"
 msgstr "未定义"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: model:account.account,name:account.1_unaffected_earnings_account
 #: model:account.account,name:account.2_unaffected_earnings_account
@@ -19317,7 +19317,7 @@ msgid "Unmark as Sent"
 msgstr "取消标记为已发送"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Unmerge"
 msgstr "取消合并"
@@ -19349,7 +19349,7 @@ msgid "Unposted Journal Items"
 msgstr "未过账的日记账分录"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:ir.actions.server,name:account.action_account_unreconcile
 msgid "Unreconcile"
@@ -19371,7 +19371,7 @@ msgid "Unreconciled Entries"
 msgstr "未对账的分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Unreconciled Transactions"
 msgstr "未对账交易"
@@ -19382,8 +19382,8 @@ msgid "Unsubscribe"
 msgstr "退订"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_tax.py:0
 #: code:addons/account/static/src/helpers/account_tax.js:0
@@ -19417,7 +19417,7 @@ msgid "Untaxed amount"
 msgstr "未税金额"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_search_inherit
 msgid "Untrusted"
@@ -19455,7 +19455,7 @@ msgid "Update Terms"
 msgstr "更新条款"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid "Update Terms & Conditions"
 msgstr "更新条款与细则"
@@ -19466,7 +19466,7 @@ msgid "Update exchange rates automatically"
 msgstr "自动更新汇率"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_message.py:0
 msgid "Updated"
 msgstr "已更新"
@@ -19477,7 +19477,7 @@ msgid "Updated Data"
 msgstr "数据已更新"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_file_uploader/account_file_uploader.js:0
 #: code:addons/account/static/src/components/account_file_uploader/account_file_uploader.xml:0
 #: code:addons/account/static/src/components/document_file_uploader/document_file_uploader.xml:0
@@ -19535,7 +19535,7 @@ msgid "Use budgets to compare actual with expected revenues and costs"
 msgstr "使用预算对比实际和预期收入、成本"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Use in tax closing"
 msgstr "用于税务结算"
@@ -19708,7 +19708,7 @@ msgid ""
 msgstr "自动验证对账单行（根据您的规则进行对账）。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Validate."
 msgstr "验证。"
@@ -19719,7 +19719,7 @@ msgid "Validated"
 msgstr "已验证"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Validated entries can only be changed by your accountant."
 msgstr "已审核的凭证只能由您的会计修改。"
@@ -19813,13 +19813,13 @@ msgid "Vendor Bill Count"
 msgstr "供应商账单数量"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Vendor Bill Created"
 msgstr "供应商账单已创建"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: model:ir.actions.act_window,name:account.res_partner_action_supplier_bills
@@ -19889,19 +19889,19 @@ msgstr ""
 "                来管理供应商的账单。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Verify the price and update if necessary."
 msgstr "验证价格，必要时进行更新。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "View"
 msgstr "视图"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "View Partner(s)"
@@ -19921,7 +19921,7 @@ msgid ""
 msgstr "想让生活更轻松，并自动验证此供应商的账单吗 ?"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Warning for Cash Rounding Method: %s"
 msgstr "四舍五入法提示：%s"
@@ -19932,7 +19932,7 @@ msgid "Warnings"
 msgstr "警告"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "We can't leave this document without any company. Please select a company "
@@ -19940,7 +19940,7 @@ msgid ""
 msgstr "本文件不能缺少任何公司。请为本文件选择一家公司。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "We cannot find a chart of accounts for this company, you should configure "
@@ -19952,7 +19952,7 @@ msgstr ""
 "请转到科目配置，选择或创建会计本地化。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "We've noticed some empty lines on your invoice."
 msgstr "我们注意到您的发票上有些空行。"
@@ -20015,7 +20015,7 @@ msgid ""
 msgstr "勾选后，显示该表达式值时不显示0值。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "When targeting an expression for carryover, the label of that expression "
@@ -20065,13 +20065,13 @@ msgid "Workers Compensation Insurance"
 msgstr "工伤保险"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Write a customer name to <b>create one</b> or <b>see suggestions</b>."
 msgstr "写下客户名称以<b>创建一个</b>或<b>查看建议</b>。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Write here <b>your own email address</b> to test the flow."
 msgstr "在此处<b>输入您的电子邮箱地址</b>，以测试流。"
@@ -20102,7 +20102,7 @@ msgid "Yes, confirm and secure them now."
 msgstr "确认，并立即执行安全保护。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "You are about to send"
 msgstr "您即将发送"
@@ -20123,7 +20123,7 @@ msgstr ""
 "请谨慎操作！"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You are trying to reconcile some entries that are already reconciled."
 msgstr "您正在对账一些已经被对账的分录."
@@ -20136,7 +20136,7 @@ msgid ""
 msgstr "可以为各参考事情类型选择不同的模型。默认为BetopiaERP参考号。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can not archive a journal containing draft journal entries.\n"
@@ -20154,7 +20154,7 @@ msgstr ""
 "3. 选择全部，通过操作菜单过账或删除"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can not delete a transaction from a valid statement.\n"
@@ -20164,38 +20164,38 @@ msgstr ""
 "如需删除，请先移除它的对账单。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You can not reconcile cancelled entries."
 msgstr "已取消的记项，无法进行对账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "You can not reorder sequence by date when the journal is locked with a hash."
 msgstr "日记账由散列锁定时，不能按日期重新排序。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can only generate sales documents."
 msgstr "您只能生成销售文件。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can only register payment for posted journal entries."
 msgstr "只能登记已过账日记账分录的付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can only request a cancellation for invoice sent to the government."
 msgstr "只可要求取消发送给政府的发票。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid "You can only resequence items from the same journal"
 msgstr "只能对同一日记账的项目进行重新排序"
@@ -20218,13 +20218,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can't block a paid invoice."
 msgstr "您无法冻结已付款的发票。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can't change the company of your journal since there are some journal "
@@ -20232,7 +20232,7 @@ msgid ""
 msgstr "不能更改您日记账的公司，因为某些日记账项目连结至公司。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "You can't change the company of your tax since there are some journal items "
@@ -20240,7 +20240,7 @@ msgid ""
 msgstr "不能更改您税项的公司，因为某些日记账项目连结至公司。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "You can't create a new payment without an outstanding payments/receipts "
@@ -20251,7 +20251,7 @@ msgstr ""
 "清付款/收款账户，便无法建立新付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't create a new statement line without a suspense account set on the "
@@ -20259,7 +20259,7 @@ msgid ""
 msgstr "如果没有在%s日记账中设置的暂记科目，则不能创建新的对账单行。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -20268,13 +20268,13 @@ msgstr ""
 "您无法为属于不同分支机构的凭证创建付款，除非拥有对母公司/总部的访问权限。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "You can't create payments for entries belonging to different companies."
 msgstr "不能为不同公司的分录创建付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You can't delete a posted journal item. Don’t play games with your "
@@ -20284,19 +20284,19 @@ msgstr ""
 "置为草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "You can't delete a report that has variants."
 msgstr "不能删除有变体的报表。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can't generate invoices that are not posted."
 msgstr "您无法生成未过账的发票。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can't have two payment method lines of the same payment type (%"
@@ -20306,7 +20306,7 @@ msgstr ""
 "（%(name)s）相同。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't open the register payment wizard without at least one receivable/"
@@ -20314,7 +20314,7 @@ msgid ""
 msgstr "如果没有至少一个应收账款/应付账款行，则不能打开付款登记向导。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't provide a foreign currency without specifying an amount in 'Amount "
@@ -20322,7 +20322,7 @@ msgid ""
 msgstr "如果未在“币别金额”字段指定金额，则不能提供外币。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't provide an amount in foreign currency without specifying a foreign "
@@ -20330,7 +20330,7 @@ msgid ""
 msgstr "如果未指定外币，则不能提供外币金额。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't register payments for both inbound and outbound moves at the same "
@@ -20338,7 +20338,7 @@ msgid ""
 msgstr "不可同时登记入账及支账分录的付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You can't reset to draft those journal entries. You need to request a "
@@ -20346,7 +20346,7 @@ msgid ""
 msgstr "您不能将这些日记账记项重设为草稿。您需要申请取消记项。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You can't unlink this company from this account since there are some journal "
@@ -20354,14 +20354,14 @@ msgid ""
 msgstr "您无法取消该公司与该账户的链接，因为有一些日记账项目与其链接。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot add/modify entries prior to and inclusive of: %(lock_date_info)s."
 msgstr "您不能在以下各项之前添加/修改分录：%(lock_date_info)s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "You cannot change the currency of the company since some journal items "
@@ -20369,7 +20369,7 @@ msgid ""
 msgstr "不能更改公司币别，因为某些日记账项目已存在"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot change the type of an account set as Bank Account on a journal to "
@@ -20377,7 +20377,7 @@ msgid ""
 msgstr "不能将日记账中设置为银行账户的科目类型更改为应收/应付账款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot create a fiscal position with a country outside of the selected "
@@ -20385,7 +20385,7 @@ msgid ""
 msgstr "您不能在所选国家/地区组别之外的国家/地区，创建应税设定。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot create a fiscal position with a foreign VAT within your fiscal "
@@ -20393,7 +20393,7 @@ msgid ""
 msgstr "不能在未分配州的会计所在国家/地区创建具有外国增值税的应税设定。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot create a move already in the posted state. Please create a draft "
@@ -20401,13 +20401,13 @@ msgid ""
 msgstr "不能创建处于已过账状态的分录。请创建分录草稿，并之后过账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot create recursive groups."
 msgstr "不能创建递归组。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot delete a payable/receivable line as it would not be consistent "
@@ -20415,19 +20415,19 @@ msgid ""
 msgstr "不能删除应付/应收账款行，因为与付款条款不一致"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot delete a tax line as it would impact the tax report"
 msgstr "不能删除税项行，因为会影响税务报表"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot delete journal items belonging to a locked journal entry."
 msgstr "您不能删除锁定日记账分录的日记账项目."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account_tag.py:0
 msgid ""
 "You cannot delete this account tag (%s), it is used on the chart of account "
@@ -20435,7 +20435,7 @@ msgid ""
 msgstr "不能删除此账户标签（%s），它用于账户图表的定义内。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot delete this entry, as it has already consumed a sequence number "
@@ -20445,14 +20445,14 @@ msgstr ""
 "能应该要还原它."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_template.py:0
 msgid ""
 "You cannot delete this mail template, it is used in the invoice sending flow."
 msgstr "您无法删除该邮件模板，它用于发票发送流程。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "You cannot delete this report (%s), it is used by the accounting PDF "
@@ -20460,13 +20460,13 @@ msgid ""
 msgstr "你不能删除报表 (%s),它由会计PDF生成引擎使用."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot deprecate an account that is used in a tax distribution."
 msgstr "你不能弃用 一个用于税务分配的账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid ""
 "You cannot disable this setting because some of your taxes are cash basis. "
@@ -20474,7 +20474,7 @@ msgid ""
 msgstr "不能禁用该设置，因为存在现金收付税项。禁用该设置之前，应先修改税项。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot do this modification on a reconciled journal entry. You can just "
@@ -20486,13 +20486,13 @@ msgstr ""
 "日记账记项（识别码）： %(entry)s (%(id)s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "You cannot duplicate a Lock Date Exception."
 msgstr "无法复制锁定日期例外。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot edit the following fields: %(fields)s.\n"
@@ -20504,7 +20504,7 @@ msgstr ""
 "%(entries)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot edit the journal of an account move if it has been posted once, "
@@ -20515,7 +20515,7 @@ msgstr ""
 "在序列中造成空缺。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot edit the journal of an account move with a sequence number "
@@ -20526,7 +20526,7 @@ msgstr ""
 "致序列中出现空缺。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot have a receivable/payable account that is not reconcilable. "
@@ -20534,7 +20534,7 @@ msgid ""
 msgstr "不能有不可对账的应收/应付账款科目。（科目代码：%s）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "You cannot import the \"openning_balance\" if the opening move (%s) is "
@@ -20545,13 +20545,13 @@ msgstr ""
 "改账户期初余额，请将分录重置为草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot merge accounts."
 msgstr "您无法合并账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "You cannot modify the account number or partner of an account that has been "
@@ -20559,7 +20559,7 @@ msgid ""
 msgstr "不可修改已信任账户的账户号码或合作伙伴。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You cannot modify the field %s of a journal that already has accounting "
@@ -20567,13 +20567,13 @@ msgid ""
 msgstr "不能修改日记账中有会计分录的字段%s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot modify the following readonly fields on a posted move: %s"
 msgstr "在已提交的移动操作中，您无法修改以下只读字段：%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot modify the taxes related to a posted journal item, you should "
@@ -20582,20 +20582,20 @@ msgstr ""
 "不能修改与已过账日记账项目相关的税项，要想修改，应先将日记账分录重置为草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot perform this action on an account that contains journal items."
 msgstr "不能对包含日记账项目的科目执行该操作。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot post an entry in an archived journal (%(journal)s)"
 msgstr "不能在已归档日记账（%(journal)s）中过账分录"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_currency.py:0
 msgid ""
 "You cannot reduce the number of decimal places of a currency which has "
@@ -20603,19 +20603,19 @@ msgid ""
 msgstr "不能减少已用于进行会计分录的币别的小数位数."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot register payments for miscellaneous entries."
 msgstr "无法登记杂项分录的付款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_attachment.py:0
 msgid "You cannot remove parts of a restricted audit trail."
 msgstr "不能删除受限审计追踪的部分内容。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_message.py:0
 msgid ""
 "You cannot remove parts of a restricted audit trail. Archive the record "
@@ -20623,7 +20623,7 @@ msgid ""
 msgstr "您不能删除受限审计追踪的部分内容。请将记录存档。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot remove/deactivate the accounts \"%s\" which are set on a tax "
@@ -20631,7 +20631,7 @@ msgid ""
 msgstr "不能删除/停用在税项重新分配行中设置的科目“%s”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot remove/deactivate the accounts \"%s\" which are set on the "
@@ -20639,32 +20639,32 @@ msgid ""
 msgstr "不能删除/停用在应税设定的科目映射中设置的科目“%s”。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft a locked journal entry."
 msgstr "无法重置以起草锁定的日记账分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft a tax cash basis journal entry."
 msgstr "不能重置为现金收付收费税项日记账分录草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft an exchange difference journal entry."
 msgstr "不能重置为汇兑差额日记账分录草稿。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid ""
 "You cannot revoke Lock Date Exceptions. Ask someone with the 'Adviser' role."
 msgstr "您无法撤销锁定日期例外。询问具有“顾问”角色的人。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot set a currency on this account as it already has some journal "
@@ -20672,7 +20672,7 @@ msgid ""
 msgstr "不能在该科目下设置币别，因为存在以不同外币表示的日记账分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot set a partner as an invoicing address of another if they have a "
@@ -20681,7 +20681,7 @@ msgstr ""
 "如果合作伙伴的 %(vat_label)s 不同，则不能将其设置为另一个合作伙伴的开票地址。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot switch an account to prevent the reconciliation if some partial "
@@ -20689,25 +20689,25 @@ msgid ""
 msgstr "如果部分对账未结，则不能将科目切换为防止对账。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot use an archived account."
 msgstr "您不能使用已存档账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "You cannot use cross report on itself"
 msgstr "交叉报告本身不能使用"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot use taxes on lines with an Off-Balance account"
 msgstr "不能对具有资产负债表外科目的行使用税项"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "You cannot use the field carryover_target in an expression that does not "
@@ -20716,7 +20716,7 @@ msgstr ""
 "如果表达式中的标签不是以 _carryover_ 开头，则不能使用字段 carryover_target"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "You cannot use this wizard on journal entries belonging to different "
@@ -20724,13 +20724,13 @@ msgid ""
 msgstr "不能对属于不同公司的日记账分录使用该向导。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot validate a document with an inactive currency: %s"
 msgstr "不能验证以禁用币别：%s表示的单据"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot validate an invoice with a negative total amount. You should "
@@ -20741,7 +20741,7 @@ msgstr ""
 "款。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid ""
@@ -20750,25 +20750,25 @@ msgid ""
 msgstr "您无权执行此操作，因为您无权访问以下公司：%s。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "You do not have the right to trust or un-trust a bank account."
 msgstr "您无权信任或取消信任银行账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "You do not have the rights to trust or un-trust accounts."
 msgstr "您无权信任或解除信任账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You don't have the access rights to perform this action."
 msgstr "抱歉，您没有执行此操作的权限。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You don't have the access rights to post an invoice."
 msgstr "没有过账发票的访问权限."
@@ -20779,7 +20779,7 @@ msgid "You have"
 msgstr "您有"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You have to configure the 'Exchange Gain or Loss Journal' in your company "
@@ -20789,7 +20789,7 @@ msgstr ""
 "须在公司设置中配置“汇兑损益日记账”，以自动管理与汇率差异相关的会计分录记录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "You may only use samples in demo mode, try uploading one of your invoices "
@@ -20797,19 +20797,19 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "You must select at least 2 accounts."
 msgstr "您必须至少选择 2 个账户。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You must specify the Profit Account (company dependent)"
 msgstr "您必须指定利润账户（与公司相关）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You should configure the 'Gain Exchange Rate Account' in your company "
@@ -20818,7 +20818,7 @@ msgid ""
 msgstr "应在公司设置中配置“汇率收益科目”，以自动管理与汇率差异相关的会计分录。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You should configure the 'Loss Exchange Rate Account' in your company "
@@ -20832,7 +20832,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "应更新该单据，以反映您的T和C。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 msgid ""
 "You're about to permanently change the decimals for all prices in your "
@@ -20886,20 +20886,20 @@ msgid "[FURN_8999] Three-Seat Sofa"
 msgstr "[FURN_8999]三人沙发"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "[Not set]"
 msgstr "[未设置]"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "[Partner id]"
 msgstr "[业务伙伴ID]"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #, fuzzy
 msgid "account.move.line"
@@ -20936,13 +20936,13 @@ msgid "and will not be posted automatically."
 msgstr "且将不会自动过账。"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/grouped_view_widget/grouped_view_widget.xml:0
 msgid "are not shown in the preview"
 msgstr "未在预览中显示"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "assign to invoice"
 msgstr "分配至发票"
@@ -20960,20 +20960,20 @@ msgid "bills for"
 msgstr "以下项目的账单"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "by %s"
 msgstr "由%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account.selection__res_partner__invoice_sending_method__email
 msgid "by Email"
 msgstr "通过电子邮件"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "cancelling {percent}%% of {amount}"
 msgstr "正在取消{amount}的{percent}%%"
@@ -21027,7 +21027,7 @@ msgid "e.g GEBABEBB"
 msgstr "例如：GEBABEBB"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_distribution_model.py:0
 #: code:addons/account/models/account_analytic_plan.py:0
 msgid "e.g. %(prefix)s"
@@ -21096,7 +21096,7 @@ msgid "entries"
 msgstr "条目"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "everyone"
 msgstr "所有人"
@@ -21107,7 +21107,7 @@ msgid "fall outside the typical range."
 msgstr "超出了典型范围。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "fiscal position [%s]"
 msgstr "财政状况[%s]"
@@ -21128,7 +21128,7 @@ msgid "here"
 msgstr "此处"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/models/account_move.py:0
@@ -21153,19 +21153,19 @@ msgid ""
 msgstr "整体，不包括与客户所在国家/地区法律相关的任何成本。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "in_invoice"
 msgstr "in_invoice"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "invoice(s)"
 msgstr "发票"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "invoices"
@@ -21207,13 +21207,13 @@ msgid "listed below for this vendor."
 msgstr "关于此供应商的信息列出如下。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "move_id"
 msgstr "move_id"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "move_type"
 msgstr "move_type"
@@ -21227,7 +21227,7 @@ msgid ""
 msgstr "须在交货或提供服务后8天内，通过挂号信将任何索赔通知注册办事处。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "not applicable"
 msgstr "不适用"
@@ -21243,7 +21243,7 @@ msgid "on"
 msgstr "在"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "or"
 msgstr "或"
@@ -21254,7 +21254,7 @@ msgid "out of"
 msgstr "之外"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "out_invoice"
 msgstr "out_invoice"
@@ -21275,25 +21275,25 @@ msgid "payments will be skipped due to"
 msgstr "将跳过付款，因为"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "postponing it to {new_date}"
 msgstr "延期至{new_date}"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "private part"
 msgstr "私人部分"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "private part (taxes)"
 msgstr "私人部分（税项）"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "repartition line"
 msgstr "重新分区线"
@@ -21313,7 +21313,7 @@ msgid ""
 msgstr "保留要求为剩余金额支付10%的固定利息的权利。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "reversed"
 msgstr "已撤销"
@@ -21339,13 +21339,13 @@ msgid "to create the taxes for this country."
 msgstr "为该国家/地区创建税项。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "trusted"
 msgstr "信任"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "try our sample"
 msgstr "试试用我们的范例"
@@ -21366,13 +21366,13 @@ msgid "units"
 msgstr "单位"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/search/search_bar/search_bar.js:0
 msgid "until"
 msgstr "直到"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "untrusted"
 msgstr "不信任"
@@ -21410,7 +21410,7 @@ msgid "without making any corrections."
 msgstr "不做任何更正。"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "{amount} ({debit_credit}) from <strong>{account_source_name}</strong> were "
@@ -21420,7 +21420,7 @@ msgstr ""
 "转账至受款人 <strong>{account_target_name}</strong>，方式为 {link}"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "{amount} ({debit_credit}) from {link}"
 msgstr "{amount} ({debit_credit})，链接为 {link}"

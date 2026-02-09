@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 export class DocLoadingIndicator extends Component {
     static template = xml`

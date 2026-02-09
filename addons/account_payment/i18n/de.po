@@ -7,16 +7,16 @@
 # Felix Schubert <felix.schubert@go-erp.com>, 2022
 # Martin Trigaux, 2022
 # Larissa Manderfeld, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-23 06:05+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@BetopiaERP.com>\n"
-"Language-Team: German <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@betopiaerp.com>\n"
+"Language-Team: German <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_payment/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
@@ -36,7 +36,7 @@ msgstr ""
 "class=\"text-primary\">%(date)s</strong>"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "%s day(s) overdue"
 msgstr "%s Tag(e) überfällig"
@@ -128,7 +128,7 @@ msgstr ""
 "Zahlungsanbieters."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr "Es wird ein Rabatt gewährt, wenn der Kunde vor dem %s bezahlt."
@@ -143,13 +143,13 @@ msgstr ""
 "sicher, dass Sie nicht zweimal zahlen."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 msgstr "Ein Zahlungsvorgang mit der Referenz %s ist bereits vorhanden."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 msgstr "Um eine neue Zahlung zu erstellen, ist ein Token erforderlich."
@@ -308,7 +308,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
@@ -338,7 +338,7 @@ msgid "Invoice(s)"
 msgstr "Rechnung(en)"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoice_ids
 msgid "Invoices"
@@ -409,26 +409,26 @@ msgstr ""
 "erfassen), nicht verfügbar sind."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr ""
 "Die Option zur Online-Zahlung wurde nicht in der Konfiguration aktiviert."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "Überfällige Rechnungen sollten von demselben Unternehmen stammen."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 msgstr "Überfällige Rechnungen sollten dieselbe Währung haben."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 msgstr "Überfällige Rechnungen sollten denselben Partner haben."
@@ -533,13 +533,13 @@ msgid "Payments"
 msgstr "Zahlungen"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr "Bitte melden Sie sich an, um Ihre überfälligen Rechnungen zu bezahlen"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid "Provider"
 msgstr "Anbieter"
@@ -551,7 +551,7 @@ msgid "Reference"
 msgstr "Referenz"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -611,13 +611,13 @@ msgid "Suitable Payment Token"
 msgstr "Geeignetes Zahlungstoken"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
 msgstr "Das Zugriffstoken ist ungültig."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
@@ -630,14 +630,14 @@ msgid "The journal in which the successful transactions are posted."
 msgstr "Das Journal, in dem die erfolgreichen Transaktionen gebucht werden."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 msgid "The payment related to transaction %(ref)s has been posted: %(link)s"
 msgstr ""
 "Die mit der Transaktion %(ref)s verbundene Zahlung wurde verbucht: %(link)s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 msgstr "Die angegebenen Parameter sind ungültig."
@@ -648,13 +648,13 @@ msgid "The source payment of related refund payments"
 msgstr "Die Ursprungszahlung der entsprechenden Erstattung"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "Für diese Rechnung gibt es ausstehenden Transaktionen."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 msgstr "Es gibt keine ausstehenden Zahlungsbeträge."
@@ -685,25 +685,25 @@ msgid "There was en error processing your payment: invalid credit card ID."
 msgstr "Fehler beim Verarbeiten Ihrer Zahlung: ungültige Kreditkarten-ID."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Diese Rechnung kann nicht online bezahlt werden."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 msgstr "Diese Rechnung wurde bereits bezahlt."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Diese Rechnung ist nicht gebucht."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 msgstr "Dies ist keine Ausgangsrechnung."
@@ -737,7 +737,7 @@ msgid "Void Transaction"
 msgstr "Transaktion stornieren"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the "
@@ -749,7 +749,7 @@ msgstr ""
 "Verknüpfte(r) Anbieter: %s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
@@ -759,7 +759,7 @@ msgstr ""
 "diese Zahlungsmethode existieren."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
@@ -770,13 +770,13 @@ msgstr ""
 "Verknüpfte Anbieter: %s"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due in %s day(s)"
 msgstr "fällig in %s Tag(en)"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due today"
 msgstr "heute fällig"

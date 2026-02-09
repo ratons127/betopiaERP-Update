@@ -17,7 +17,7 @@ export class ModalRegistration extends Interaction {
     setup() {
         // dynamic get rather than import as we don't depend on this module
         if (session.turnstile_site_key) {
-            const { TurnStile } = BetopiaERP.loader.modules.get(
+            const { TurnStile } = betopiaerp.loader.modules.get(
                 "@website_cf_turnstile/interactions/turnstile"
             );
             if (TurnStile) {

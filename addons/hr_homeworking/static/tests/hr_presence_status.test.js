@@ -1,4 +1,4 @@
-import { describe, test, expect } from "@BetopiaERP/hoot";
+import { describe, test, expect } from "@betopiaerp/hoot";
 import {
     mountView,
     models,

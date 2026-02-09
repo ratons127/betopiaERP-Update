@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { useAutofocus } from "@web/core/utils/hooks";
 import { Dropdown } from "@web/core/dropdown/dropdown";

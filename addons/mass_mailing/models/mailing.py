@@ -1090,7 +1090,7 @@ class MailingMailing(models.Model):
         return self._action_send_mail(res_ids)
 
     def _action_send_mail(self, res_ids=None):
-        BetopiaERPbot = self.env.ref('base.partner_root')
+        betopiaerpbot = self.env.ref('base.partner_root')
         user_partner = self.env.user.partner_id
 
         for mailing in self:
@@ -1106,8 +1106,8 @@ class MailingMailing(models.Model):
                 'auto_delete': not mailing.keep_archives,
                 # email-mode: keep original message for routing
                 'auto_delete_keep_log': mailing.reply_to_mode == 'update',
-                # If current user is BetopiaERPbot, use mailing responsible (no impact on email_from)
-                'author_id': mailing.user_id.partner_id.id if user_partner == BetopiaERPbot else user_partner.id,
+                # If current user is betopiaerpbot, use mailing responsible (no impact on email_from)
+                'author_id': mailing.user_id.partner_id.id if user_partner == betopiaerpbot else user_partner.id,
                 'attachment_ids': [(4, attachment.id) for attachment in mailing.attachment_ids],
                 'body': mailing._prepend_preview(mailing.body_html or '', mailing.preview),
                 'composition_mode': 'mass_mail',
@@ -1312,7 +1312,7 @@ class MailingMailing(models.Model):
                        mailing_name=self.subject
                        ),
             'top_button_label': _('More Info'),
-            'top_button_url': tools.urls.urljoin(web_base_url, f'/BetopiaERP/mailing.mailing/{self.id}'),
+            'top_button_url': tools.urls.urljoin(web_base_url, f'/betopiaerp/mailing.mailing/{self.id}'),
             'kpi_data': [
                 kpi,
                 {

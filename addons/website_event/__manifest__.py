@@ -7,7 +7,7 @@
     'category': 'Marketing/Events',
     'sequence': 140,
     'summary': 'Publish events, sell tickets',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'depends': [
         'event',
         'website',
@@ -77,6 +77,6 @@
             'website_event/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,12 +1,12 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { mockFetch } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { mockFetch } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { allowTranslations, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { htmlToCanvas } from "@point_of_sale/app/services/render_service";
 import { definePosModels } from "../data/generate_model_definitions";
 
 definePosModels();
-BetopiaERP.pos_session_id = 1; // Ensure the session ID is set for lazy getters
+betopiaerp.pos_session_id = 1; // Ensure the session ID is set for lazy getters
 
 test("test the render service", async () => {
     class ComponentToBeRendered extends Component {

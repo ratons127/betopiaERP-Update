@@ -2,7 +2,7 @@ import { usePopover } from "@web/core/popover/popover_hook";
 import { TagsList } from "@web/core/tags_list/tags_list";
 import { RecipientsInputTagsListPopover } from "./recipients_input_tags_list_popover";
 
-import { onWillUpdateProps, toRaw, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { onWillUpdateProps, toRaw, useEffect, useRef, useState } from "@betopiaerp/owl";
 
 /**
  * Override of the TagsList so that the email address of each recipients can be checked.

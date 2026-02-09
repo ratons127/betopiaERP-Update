@@ -15,7 +15,7 @@ class TestWebsocketController(HttpCaseWithUserDemo):
         message = self.make_jsonrpc_request(
             "/websocket/peek_notifications",
             {
-                "channels": [f"BetopiaERP-presence-res.partner_{self.partner_demo.id}"],
+                "channels": [f"betopiaerp-presence-res.partner_{self.partner_demo.id}"],
                 "last": 0,
                 "is_first_poll": True,
             },
@@ -35,7 +35,7 @@ class TestWebsocketController(HttpCaseWithUserDemo):
         self.make_jsonrpc_request(
             "/websocket/peek_notifications",
             {
-                "channels": [f"BetopiaERP-presence-res.partner_{self.partner_demo.id}"],
+                "channels": [f"betopiaerp-presence-res.partner_{self.partner_demo.id}"],
                 "last": last_id,
                 "is_first_poll": True,
             },
@@ -44,7 +44,7 @@ class TestWebsocketController(HttpCaseWithUserDemo):
         notification = self.make_jsonrpc_request(
             "/websocket/peek_notifications",
             {
-                "channels": [f"BetopiaERP-presence-res.partner_{self.partner_demo.id}"],
+                "channels": [f"betopiaerp-presence-res.partner_{self.partner_demo.id}"],
                 "last": last_id,
                 "is_first_poll": True,
             },

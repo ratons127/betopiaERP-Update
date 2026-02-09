@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { Deferred, press, waitFor, waitUntil } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { onWillStart } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { Deferred, press, waitFor, waitUntil } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { onWillStart } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

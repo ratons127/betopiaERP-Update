@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useOpenChat } from "@mail/core/web/open_chat_hook";
 import { ImStatus } from "@mail/core/common/im_status";
 

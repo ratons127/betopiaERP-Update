@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="inter_state_group" model="res.country.group">
             <field name="name">India Inter-State Group</field>
@@ -8,4 +8,4 @@
             <field name="exclude_state_ids" eval="[Command.set([ref('l10n_in.state_in_oc')])]"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

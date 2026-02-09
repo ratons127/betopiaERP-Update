@@ -102,7 +102,7 @@ class TestUBLAU(TestUBLCommon):
                     <attribute name="filename">{invoice.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/a_nz_out_invoice.xml',
+            expected_file_path='from_betopiaerp/a_nz_out_invoice.xml',
         )
         self.assertEqual(attachment.name[-8:], "a_nz.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
@@ -160,7 +160,7 @@ class TestUBLAU(TestUBLCommon):
                     <attribute name="filename">{refund.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/a_nz_out_refund.xml',
+            expected_file_path='from_betopiaerp/a_nz_out_refund.xml',
         )
         self.assertEqual(attachment.name[-8:], "a_nz.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)
@@ -171,7 +171,7 @@ class TestUBLAU(TestUBLCommon):
 
     def test_import_invoice_xml(self):
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='a_nz_out_invoice.xml',
             invoice_vals={
                 'currency_id': self.other_currency.id,

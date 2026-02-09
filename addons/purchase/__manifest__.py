@@ -7,7 +7,7 @@
     'category': 'Supply Chain/Purchase',
     'sequence': 35,
     'summary': 'Purchase orders, tenders and agreements',
-    'website': 'https://www.betopiaerp.com/app/purchase',
+    'website': 'https://www.BetopiaERP.com/app/purchase',
     'depends': ['account'],
     'data': [
         'security/purchase_security.xml',
@@ -57,6 +57,6 @@
             'purchase/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

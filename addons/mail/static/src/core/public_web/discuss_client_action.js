@@ -1,6 +1,6 @@
 import { Discuss } from "@mail/core/public_web/discuss";
 
-import { Component, onMounted, onWillStart, onWillUnmount, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, onWillUnmount, onWillUpdateProps } from "@betopiaerp/owl";
 
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
@@ -68,10 +68,10 @@ export class DiscussClientAction extends Component {
         if (!parsedActiveId) {
             this.store.discuss.thread = undefined;
             this.store.discuss.hasRestoredThread = true;
-            const BetopiaERPbotChat = this.store.BetopiaERPbot?.searchChat();
-            const selfMember = BetopiaERPbotChat?.self_member_id;
-            if (BetopiaERPbotChat && selfMember?.is_pinned && !selfMember.seen_message_id) {
-                BetopiaERPbotChat.setAsDiscussThread(false);
+            const betopiaerpbotChat = this.store.betopiaerpbot?.searchChat();
+            const selfMember = betopiaerpbotChat?.self_member_id;
+            if (betopiaerpbotChat && selfMember?.is_pinned && !selfMember.seen_message_id) {
+                betopiaerpbotChat.setAsDiscussThread(false);
             }
             return;
         }

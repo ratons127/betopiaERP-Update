@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <template id="hr_expense_template_refuse_reason">
             <p>Your Expense <t t-out="name"/> has been refused</p>
@@ -28,7 +28,7 @@
             </p>
             <p t-if="expense.employee_id.user_id">
                 <br/>
-                <a t-att-href="'/BetopiaERP/hr.expense/%s' % (expense.id)" class="o_expense_button_mail">View Expense</a>
+                <a t-att-href="'/betopiaerp/hr.expense/%s' % (expense.id)" class="o_expense_button_mail">View Expense</a>
             </p>
         </template>
 
@@ -88,4 +88,4 @@
             </div>
         </template>
     </data>
-</BetopiaERP>
+</betopiaerp>

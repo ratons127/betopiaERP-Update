@@ -135,7 +135,7 @@ class L10nInEwaybill(models.Model):
         if response.get('error'):
             error_codes = [error.get('code') for error in response.get('error')]
             if 'no-credit' in error_codes:
-                response['BetopiaERP_warning'].append({
+                response['betopiaerp_warning'].append({
                     'message': self.env['account.move']._l10n_in_edi_get_iap_buy_credits_message()
                 })
             if '4002' in error_codes or '4026' in error_codes:
@@ -146,7 +146,7 @@ class L10nInEwaybill(models.Model):
                     params={"irn": self._get_edi_irn_number()}
                 )
                 response.update({
-                    'BetopiaERP_warning': [{
+                    'betopiaerp_warning': [{
                         'message': self._get_default_help_message(self.env._('generated')),
                         'message_post': True
                     }]

@@ -5,16 +5,16 @@
 # Translators:
 # Wil BetopiaERP, 2025
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 08:10+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/payment_authorize/zh_Hant/>\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/payment_authorize/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,7 +108,7 @@ msgid "Code"
 msgstr "代碼"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Could not fetch merchant details:\n"
@@ -118,7 +118,7 @@ msgstr ""
 "%s"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
@@ -140,7 +140,7 @@ msgid "Expiration"
 msgstr "到期日"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Failed to authenticate.\n"
@@ -177,7 +177,7 @@ msgid "Name On Account"
 msgstr "賬戶持有人名稱"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "Only one currency can be selected by Authorize.Net account."
 msgstr "每個 Authorize.Net 賬戶，只可選擇一種貨幣。"
@@ -198,20 +198,20 @@ msgid "Payment Transaction"
 msgstr "付款交易"
 
 #. module: payment_authorize
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_authorize/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "付款處理失敗"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\"."
 msgstr ""
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "收到被篡改的付款請求數據。"
@@ -239,7 +239,7 @@ msgid "The technical code of this payment provider."
 msgstr "此付款服務商的技術代碼。"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "The transaction is not in a status to be refunded. (status: %(status)s, "
@@ -254,7 +254,7 @@ msgid ""
 msgstr "Authorize.net 後端對此合作夥伴與權杖組合的唯一參考。"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "This action cannot be performed while the provider is disabled."
 msgstr "若服務商已設為停用，便不可執行此操作。"

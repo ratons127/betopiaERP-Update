@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, press } from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, press } from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import {
     contains,
     makeMockEnv,

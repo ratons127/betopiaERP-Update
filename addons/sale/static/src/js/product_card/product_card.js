@@ -1,4 +1,4 @@
-import { Component } from '@BetopiaERP/owl';
+import { Component } from '@betopiaerp/owl';
 import { BadgeExtraPrice } from '../badge_extra_price/badge_extra_price';
 import { ProductProduct } from '../models/product_product';
 

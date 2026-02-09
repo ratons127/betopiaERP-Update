@@ -1,5 +1,5 @@
 import { HWPrinter } from "@point_of_sale/app/utils/printer/hw_printer";
-import { EventBus, reactive } from "@BetopiaERP/owl";
+import { EventBus, reactive } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
@@ -149,7 +149,7 @@ export class HardwareProxy extends EventBus {
             const response = await browser
                 .fetch(`${url}/hw_proxy/hello`, {
                     signal: timeoutController.signal,
-                    targetAddressSpace: BetopiaERP.use_lna ? "local" : undefined,
+                    targetAddressSpace: betopiaerp.use_lna ? "local" : undefined,
                 })
                 .catch(() => ({}));
             if (response.ok) {

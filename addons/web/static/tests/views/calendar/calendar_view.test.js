@@ -1,4 +1,4 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import {
     Deferred,
     advanceTime,
@@ -14,9 +14,9 @@ import {
     queryOne,
     queryRect,
     runAllTimers,
-} from "@BetopiaERP/hoot-dom";
-import { mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
-import { Component, onRendered, onWillStart, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
+import { Component, onRendered, onWillStart, xml } from "@betopiaerp/owl";
 import {
     MockServer,
     contains,
@@ -276,8 +276,8 @@ beforeEach(() => {
 onRpc("has_group", () => true);
 
 /**
- * @param {import("@BetopiaERP/hoot-dom").Target} from
- * @param {import("@BetopiaERP/hoot-dom").Target} to
+ * @param {import("@betopiaerp/hoot-dom").Target} from
+ * @param {import("@betopiaerp/hoot-dom").Target} to
  * @param {{
  *  start: "top" | "center" | "bottom";
  *  end: "top" | "center" | "bottom";

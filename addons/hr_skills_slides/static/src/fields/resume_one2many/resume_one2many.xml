@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <t t-inherit="hr_skills.ResumeListRenderer.RecordRow" t-inherit-mode="extension">
         <xpath expr="//a[@id='external_link']" position="attributes">
             <attribute name="t-if">data.external_url &amp;&amp; !data.course_url</attribute>
@@ -9,4 +9,4 @@
                 style="font-size: 1rem;" class="ms-2 fa fa-external-link btn-secondary"/>
         </xpath>
     </t>
-</BetopiaERP>
+</betopiaerp>

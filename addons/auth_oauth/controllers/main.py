@@ -142,13 +142,13 @@ class OAuthController(http.Controller):
             action = state.get('a')
             menu = state.get('m')
             redirect = werkzeug.urls.url_unquote_plus(state['r']) if state.get('r') else False
-            url = '/BetopiaERP'
+            url = '/betopiaerp'
             if redirect:
                 url = redirect
             elif action:
-                url = '/BetopiaERP/action-%s' % action
+                url = '/betopiaerp/action-%s' % action
             elif menu:
-                url = '/BetopiaERP?menu_id=%s' % menu
+                url = '/betopiaerp?menu_id=%s' % menu
 
             credential = {'login': login, 'token': key, 'type': 'oauth_token'}
             auth_info = request.session.authenticate(request.env, credential)

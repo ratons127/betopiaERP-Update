@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { AccountingPlugin } from "./plugins/accounting_plugin";
 import { getFirstAccountFunction, getNumberOfAccountFormulas } from "./utils";
 import { parseAccountingDate } from "./accounting_functions";
@@ -9,7 +9,7 @@ const { cellMenuRegistry, featurePluginRegistry } = spreadsheet.registries;
 const { astToFormula } = spreadsheet;
 const { isEvaluationError, toString, toBoolean } = spreadsheet.helpers;
 
-featurePluginRegistry.add("BetopiaERPAccountingAggregates", AccountingPlugin);
+featurePluginRegistry.add("betopiaerpAccountingAggregates", AccountingPlugin);
 
 cellMenuRegistry.add("move_lines_see_records", {
     name: _t("See records"),
@@ -24,9 +24,9 @@ cellMenuRegistry.add("move_lines_see_records", {
         const parsed_args = func.args.map(astToFormula).map(
             (arg) => env.model.getters.evaluateFormulaResult(sheetId, arg)
         );
-        if ( func.functionName === "BetopiaERP.PARTNER.BALANCE" ) {
+        if ( func.functionName === "BETOPIAERP.PARTNER.BALANCE" ) {
             [partner_ids, codes, date_range, offset, companyId, includeUnposted] = parsed_args;
-        } else if ( func.functionName === "BetopiaERP.BALANCE.TAG" ) {
+        } else if ( func.functionName === "BETOPIAERP.BALANCE.TAG" ) {
             [account_tag_ids, date_range, offset, companyId, includeUnposted] = parsed_args;
         } else {
             [codes, date_range, offset, companyId, includeUnposted] = parsed_args;
@@ -41,7 +41,7 @@ cellMenuRegistry.add("move_lines_see_records", {
         if ( date_range?.value && !isEvaluationError(date_range.value) ) {
             dateRange = parseAccountingDate(date_range, locale);
         } else {
-            if ( ["BetopiaERP.PARTNER.BALANCE", "BetopiaERP.RESIDUAL", "BetopiaERP.BALANCE.TAG"].includes(func.functionName) ) {
+            if ( ["BETOPIAERP.PARTNER.BALANCE", "BETOPIAERP.RESIDUAL", "BETOPIAERP.BALANCE.TAG"].includes(func.functionName) ) {
                 dateRange = parseAccountingDate({ value: new Date().getFullYear() }, locale);
             }
         }
@@ -55,16 +55,16 @@ cellMenuRegistry.add("move_lines_see_records", {
         }
 
         let partnerIds, accountTagIds;
-        if ( func.functionName === "BetopiaERP.BALANCE.TAG" ) {
+        if ( func.functionName === "BETOPIAERP.BALANCE.TAG" ) {
             accountTagIds = toString(account_tag_ids).split(",").map((tag) => tag.trim());
         } else {
             partnerIds = toString(partner_ids).split(",").map((code) => code.trim());
         }
 
         let param;
-        if ( func.functionName === "BetopiaERP.BALANCE.TAG" ) {
+        if ( func.functionName === "BETOPIAERP.BALANCE.TAG" ) {
             param = [camelToSnakeObject({ accountTagIds, dateRange, companyId, includeUnposted })]
-        } else if ( func.functionName === "BetopiaERP.PARTNER.BALANCE" ) {
+        } else if ( func.functionName === "BETOPIAERP.PARTNER.BALANCE" ) {
             param = [camelToSnakeObject({ dateRange, companyId, codes, includeUnposted, partnerIds })]
         } else {
             param = [camelToSnakeObject({ dateRange, companyId, codes, includeUnposted })]

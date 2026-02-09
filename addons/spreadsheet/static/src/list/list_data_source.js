@@ -1,5 +1,5 @@
-import { BetopiaERPViewsDataSource } from "@spreadsheet/data_sources/BetopiaERP_views_data_source";
-import { EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { BetopiaERPViewsDataSource } from "@spreadsheet/data_sources/betopiaerp_views_data_source";
+import { EvaluationError } from "@betopiaerp/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 import {
     formatDateTime,
@@ -9,7 +9,7 @@ import {
 } from "@web/core/l10n/dates";
 import { orderByToString } from "@web/search/utils/order_by";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { LOADING_ERROR } from "@spreadsheet/data_sources/data_source";
 
 const { toNumber } = spreadsheet.helpers;

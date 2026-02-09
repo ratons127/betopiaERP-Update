@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <!-- Email template for new internal users -->
         <record id="set_password_email" model="mail.template">
@@ -48,7 +48,7 @@
                         </div>
                         <b>  This link will remain valid during <t t-out="int(int(object.env['ir.config_parameter'].sudo().get_param('auth_signup.signup.validity.hours',144))/24)"></t> days </b> <br/>
                         <t t-set="website_url" t-value="object.get_base_url()"></t>
-                        Your BetopiaERP domain is: <b><a t-att-href='website_url' t-out="website_url or ''">http://yourcompany.BetopiaERP.com</a></b><br />
+                        Your BetopiaERP domain is: <b><a t-att-href='website_url' t-out="website_url or ''">http://yourcompany.betopiaerp.com</a></b><br />
                         Your sign in email is: <b><a t-attf-href="/web/login?login={{ object.email }}" target="_blank" t-out="object.email or ''">mark.brown23@example.com</a></b><br /><br />
                         Never heard of BetopiaERP? It’s an all-in-one business software loved by 12+ million users. It will considerably improve your experience at work and increase your productivity.
                         <br /><br />
@@ -346,4 +346,4 @@
         </record>
 
     </data>
-</BetopiaERP>
+</betopiaerp>

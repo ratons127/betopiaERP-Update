@@ -7,7 +7,7 @@ import { getFieldContext } from "@web/model/relational_model/utils";
 import { X2M_TYPES, getClassNameFromDecoration } from "@web/views/utils";
 import { getTooltipInfo } from "./field_tooltip";
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 const isSmall = utils.isSmall;
 
@@ -473,7 +473,7 @@ export class Field extends Component {
                 field: this.props.record.fields[this.props.name],
                 fieldInfo: this.props.fieldInfo || {},
             });
-            if (Boolean(BetopiaERP.debug) || (tooltip && JSON.parse(tooltip).field.help)) {
+            if (Boolean(betopiaerp.debug) || (tooltip && JSON.parse(tooltip).field.help)) {
                 return tooltip;
             }
         }

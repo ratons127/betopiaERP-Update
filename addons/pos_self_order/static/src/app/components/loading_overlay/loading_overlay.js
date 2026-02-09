@@ -1,4 +1,4 @@
-import { Component, onMounted, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useState } from "@betopiaerp/owl";
 
 export class LoadingOverlay extends Component {
     static template = "pos_self_order.LoadingOverlay";

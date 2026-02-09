@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { mount, reactive } from "@BetopiaERP/owl";
+import { mount, reactive } from "@betopiaerp/owl";
 import { HootFixtureElement } from "../core/fixture";
 import { waitForDocument } from "../hoot_utils";
 import { getRunner } from "../main_runner";

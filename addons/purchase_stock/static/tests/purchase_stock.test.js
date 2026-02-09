@@ -1,6 +1,6 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { describe, destroy, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, destroy, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { contains, defineModels, fields, models, mountView } from "@web/../tests/web_test_helpers";
 
 class PurchaseOrderSuggest extends models.Model {

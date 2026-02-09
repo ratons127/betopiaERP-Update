@@ -7,17 +7,17 @@
 # 稀饭~~ <wangwhai@qq.com>, 2022
 # Martin Trigaux, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
-# Emily Jia <eji@BetopiaERP.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# Emily Jia <eji@betopiaerp.com>, 2023
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 15:19+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/account_payment/zh_Hans/>\n"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/account_payment/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
@@ -36,7 +36,7 @@ msgstr ""
 "class=\"text-primary\">%(date)s</strong>"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "%s day(s) overdue"
 msgstr "逾期%s天"
@@ -126,7 +126,7 @@ msgstr ""
 "                        几分钟内处于待处理状态，请检查支付服务提供商配置。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr "如果客户在%s之前付款，将享受折扣。"
@@ -139,13 +139,13 @@ msgid ""
 msgstr "此发票已付款，请确保不要重复付款。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 msgstr "已经存在参考号为%s的付款交易。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 msgstr "创建新付款交易需要令牌。"
@@ -300,7 +300,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
@@ -327,7 +327,7 @@ msgid "Invoice(s)"
 msgstr "发票"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoice_ids
 msgid "Invoices"
@@ -393,25 +393,25 @@ msgid ""
 msgstr "请注意，设置为仅授权交易（而非捕捉金额）的服务提供商令牌不可用。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr "配置中未启用在线支付选项。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "逾期发票应属于同一公司。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 msgstr "逾期发票应使用相同的币别。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 msgstr "逾期发票应共享同一合作伙伴。"
@@ -516,13 +516,13 @@ msgid "Payments"
 msgstr "付款"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr "请登录以支付逾期发票"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid "Provider"
 msgstr "服务提供商"
@@ -534,7 +534,7 @@ msgid "Reference"
 msgstr "参考号"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -594,13 +594,13 @@ msgid "Suitable Payment Token"
 msgstr "适宜的付款令牌"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
 msgstr "访问令牌无效。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
@@ -612,13 +612,13 @@ msgid "The journal in which the successful transactions are posted."
 msgstr "成功交易过账的日记账。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 msgid "The payment related to transaction %(ref)s has been posted: %(link)s"
 msgstr ""
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 msgstr "提供的参数无效。"
@@ -629,13 +629,13 @@ msgid "The source payment of related refund payments"
 msgstr "相关退款付款的源付款"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "该发票有待处理交易。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 msgstr "无需支付任何金额。"
@@ -663,25 +663,25 @@ msgid "There was en error processing your payment: invalid credit card ID."
 msgstr "付款处理出错：无效信用卡ID。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "此发票不能在线支付。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 msgstr "该发票已经支付。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "此发票未过账。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 msgstr "这不是外发发票。"
@@ -715,7 +715,7 @@ msgid "Void Transaction"
 msgstr "无效交易"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the "
@@ -726,7 +726,7 @@ msgstr ""
 "已连结服务商： %s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
@@ -734,7 +734,7 @@ msgid ""
 msgstr "由于付款方式交易已经存在，因此无法卸载此模块。"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
@@ -744,13 +744,13 @@ msgstr ""
 "链接的服务提供商：%s"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due in %s day(s)"
 msgstr "%s天后到期"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due today"
 msgstr "今天到期"

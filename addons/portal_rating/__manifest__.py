@@ -38,6 +38,6 @@ inclusion of rating directly within the customer portal discuss widget.
             'portal_rating/static/src/scss/portal_rating.scss',
         ]
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

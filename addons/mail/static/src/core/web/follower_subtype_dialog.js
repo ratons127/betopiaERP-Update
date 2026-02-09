@@ -1,5 +1,5 @@
 import { rpc } from "@web/core/network/rpc";
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 
 import { Dialog } from "@web/core/dialog/dialog";
 import { _t } from "@web/core/l10n/translation";

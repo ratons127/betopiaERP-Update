@@ -4,7 +4,7 @@
     'version': '0.0.1',
     'category': 'Hidden/Tests',
     'sequence': 10,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'depends': ['test_data_module']
 }

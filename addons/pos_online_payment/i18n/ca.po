@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * pos_online_payment
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 02:33+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Catalan <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Catalan <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_online_payment/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -31,20 +31,20 @@ msgstr ""
 "<strong>Error:</strong> s'ha produït un error durant el procés de pagament."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
 msgstr ""
 "Una configuració de TPV no pot tenir més d'un mètode de pagament en línia."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 msgstr "Cal especificar una opció de pagament."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
@@ -57,7 +57,7 @@ msgid "All available providers"
 msgstr "Tots els proveïdors disponibles"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "All payment providers configured for an online payment method must use the "
@@ -79,7 +79,7 @@ msgid "Amount"
 msgstr "Import"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Amount:"
 msgstr "Import:"
@@ -90,7 +90,7 @@ msgid "Cancel payment"
 msgstr "Cancel·lar el pagament"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr ""
@@ -98,7 +98,7 @@ msgstr ""
 "comptable previ."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
@@ -106,7 +106,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 msgstr ""
@@ -114,7 +114,7 @@ msgstr ""
 "TPV."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
@@ -151,19 +151,19 @@ msgid "ID"
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payment"
 msgstr "Pagament en línia no vàlid"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payments"
 msgstr "Pagaments en línia no vàlids"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invoice could not be generated"
 msgstr "No s'ha pogut generar la factura"
@@ -179,7 +179,7 @@ msgid "Online"
 msgstr "En línia"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
@@ -196,13 +196,13 @@ msgid "Online accounting payment"
 msgstr "Pagament comptable en línia"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payment unavailable"
 msgstr "Pagament en línia no disponible"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 msgstr "Els pagaments en línia no poden tindre un import negatiu (%s: %s)."
@@ -223,19 +223,19 @@ msgid "Order Reference"
 msgstr "Referència de comanda"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 msgstr "Referència de la comanda:"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Order saving issue"
 msgstr "Problema en desar la comanda"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/account_payment.py:0
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_account_payment__pos_order_id
@@ -301,44 +301,44 @@ msgid "Processed by"
 msgstr "Processat per"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 msgstr "Codi QR per efectuar el pagament"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 msgstr "Escaneja el codi QR per efectuar el pagament"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 msgstr "Escanejar per efectuar el pagament"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Server error"
 msgstr "Error del servidor"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid "The %s already has one online payment."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 msgstr ""
 "El pagament en línia del TPV (tx.id=%d) no s'ha pogut desar correctament"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
@@ -348,7 +348,7 @@ msgstr ""
 "perquè no ha estat possible trobar el mètode de pagament en línia"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 msgstr "La sessió del TPV no està oberta."
@@ -364,92 +364,92 @@ msgid "The Point of Sale order linked to this payment"
 msgstr "La comanda del punt de venda vinculada a aquest pagament"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The QR Code for paying could not be generated."
 msgstr "No ha estat possible generar el codi QR per al pagament."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 msgstr "L'import a pagar ha canviat. Si us plau, actualitza la pàgina."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 msgstr "La moneda no és vàlida."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The invoice could not be generated."
 msgstr "No s'ha pogut generar la factura."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 msgstr "La comanda ha estat cancel·lada"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The order has not been saved correctly on the server."
 msgstr "La comanda no s'ha desat correctament en el servidor."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr "No s'ha pogut trobar el contacte del pagament en línia del TPV (id=%d)"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 msgstr "El proveïdor de pagament no és vàlid."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
 msgstr "El pagament hauria de ser directe, amb redirecció, o fet per un token."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 msgstr "El token de pagament no és vàlid."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 msgstr "La transacció del pagament (%d) conté un import negatiu."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 msgstr "La comanda o el token d'accés proporcionat no és vàlid."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The saved order could not be retrieved."
 msgstr "No s'ha pogut recuperar la comanda guardada."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
@@ -459,13 +459,13 @@ msgstr ""
 "coincideix amb l'import pendent de la comanda (%s)."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "There are online payments that were missing in your view."
 msgstr "Hi ha pagaments en línia que no es mostraven en la teva vista."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -475,7 +475,7 @@ msgstr ""
 "pagament de la comanda."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -486,7 +486,7 @@ msgstr ""
 "aquesta comanda?"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
@@ -495,7 +495,7 @@ msgstr ""
 "del TPV."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 msgstr "Aquesta comanda no té cap import pendent."
@@ -511,7 +511,7 @@ msgid "To Pay"
 msgstr "A pagar"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid ""
 "To use an online payment method in a POS config, it must have at least one "
@@ -522,7 +522,7 @@ msgstr ""
 "configurada."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr ""
@@ -544,7 +544,7 @@ msgid "Type"
 msgstr "Tipus"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Updated online payments"
 msgstr "Pagaments en línia actualitzats"
@@ -559,7 +559,7 @@ msgstr ""
 "efectuats en una pàgina web amb proveïdors de pagament en línia)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Yes"
 msgstr "Sí"

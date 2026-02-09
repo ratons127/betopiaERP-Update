@@ -1,6 +1,6 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     contains,
     mountWithCleanup,

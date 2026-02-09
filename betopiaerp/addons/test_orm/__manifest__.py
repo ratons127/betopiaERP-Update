@@ -17,6 +17,6 @@
             'test_orm/static/tests/tours/x2many.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

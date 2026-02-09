@@ -1,7 +1,7 @@
 import { isToday } from "@mail/utils/common/dates";
 import { useHover } from "@mail/utils/common/hooks";
 
-import { Component, useRef, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useRef, useSubEnv } from "@betopiaerp/owl";
 
 import { ActionSwiper } from "@web/core/action_swiper/action_swiper";
 import { useService } from "@web/core/utils/hooks";

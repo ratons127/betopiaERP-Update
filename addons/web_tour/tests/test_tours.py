@@ -117,7 +117,7 @@ class WebTourHttp(HttpCase):
         code = """
         betopiaerp.define("@web_tour/../tests/sanity_test", [], () => {
             const errors = [];
-            for (const module of ["@BetopiaERP/hoot-dom", "@web_tour/js/tour_step"]) {
+            for (const module of ["@betopiaerp/hoot-dom", "@web_tour/js/tour_step"]) {
                 if (betopiaerp.loader.modules.get(module)) {
                     errors.push(module)
                 }
@@ -129,7 +129,7 @@ class WebTourHttp(HttpCase):
             }
         })
         """
-        self.browser_js("/BetopiaERP?debug=tests", code, ready=ready, login="admin")
+        self.browser_js("/betopiaerp?debug=tests", code, ready=ready, login="admin")
         if "website" in IrAsset._get_installed_addons_list():
             self.browser_js("/?debug=tests", code, ready=ready, login="admin")
 
@@ -160,7 +160,7 @@ class WebTourHttp(HttpCase):
         code = """
         betopiaerp.define("@web_tour/../tests/sanity_test", [], () => {
             const errors = [];
-            for (const module of ["@BetopiaERP/hoot-dom", "@web_tour/js/tour_step"]) {
+            for (const module of ["@betopiaerp/hoot-dom", "@web_tour/js/tour_step"]) {
                 if (betopiaerp.loader.modules.get(module)) {
                     errors.push(module)
                 }
@@ -172,6 +172,6 @@ class WebTourHttp(HttpCase):
             }
         })
         """
-        self.browser_js("/BetopiaERP?debug=0", code, ready=ready, login="admin")
+        self.browser_js("/betopiaerp?debug=0", code, ready=ready, login="admin")
         if "website" in IrAsset._get_installed_addons_list():
             self.browser_js("/?debug=0", code, ready=ready, login="admin")

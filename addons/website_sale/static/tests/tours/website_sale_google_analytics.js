@@ -6,7 +6,7 @@ import * as tourUtils from "@website_sale/js/tours/tour_utils";
  * Patch tracking to avoid third party calls during tests.
  */
 function patchTracking() {
-    const { Tracking } = BetopiaERP.loader.modules.get('@website_sale/interactions/tracking');
+    const { Tracking } = betopiaerp.loader.modules.get('@website_sale/interactions/tracking');
     patch(Tracking.prototype, {
         // Don't call super to avoid third party calls (GA).
         onViewItem(event) {
@@ -20,10 +20,10 @@ function patchTracking() {
     });
 }
 
-if (BetopiaERP.loader.modules.has('@website_sale/interactions/tracking')) {
+if (betopiaerp.loader.modules.has('@website_sale/interactions/tracking')) {
     patchTracking();
 } else {
-    BetopiaERP.loader.bus.addEventListener('module-started', (e) => {
+    betopiaerp.loader.bus.addEventListener('module-started', (e) => {
         if (e.detail.moduleName === '@website_sale/interactions/tracking') patchTracking();
     });
 }

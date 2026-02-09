@@ -12,6 +12,6 @@ The module adds Microsoft user in res user.
     'data': [
         'data/microsoft_account_data.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

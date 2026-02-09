@@ -31,7 +31,7 @@ import {
     useRef,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 const QUICK_CREATE_FIELD_TYPES = ["char", "boolean", "many2one", "selection", "many2many"];
 

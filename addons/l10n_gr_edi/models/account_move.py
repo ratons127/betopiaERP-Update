@@ -602,7 +602,7 @@ class AccountMove(models.Model):
                 'name': _("Settings"),
                 'type': 'ir.actions.act_url',
                 'target': 'self',
-                'url': '/BetopiaERP/settings#l10n_gr_edi_aade_settings',
+                'url': '/betopiaerp/settings#l10n_gr_edi_aade_settings',
             },
         }
 

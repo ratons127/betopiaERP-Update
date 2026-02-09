@@ -1,4 +1,4 @@
-import { useSubEnv, useComponent, useState } from "@BetopiaERP/owl";
+import { useSubEnv, useComponent, useState } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
@@ -10,7 +10,7 @@ import { useService } from "@web/core/utils/hooks";
 
 export const threadActionsRegistry = registry.category("mail.thread/actions");
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("@mail/core/common/action").ActionDefinition} ActionDefinition */
 /** @typedef {import("models").Thread} Thread */
 /**

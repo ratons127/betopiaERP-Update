@@ -1,8 +1,8 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { expect, test } from "@BetopiaERP/hoot";
-import { waitFor } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { waitFor } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { BarcodeScanner } from "@barcodes/components/barcode_scanner";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 

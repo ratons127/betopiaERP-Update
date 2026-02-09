@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # JH CHOI <hwangtog@gmail.com>, 2022
 # Sarah Park, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-01-27 06:39+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/mrp/ko/>\n"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/mrp/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,13 +44,13 @@ msgstr ""
 " * 취소: 제조 주문이 취소되고, 더이상 승인이 되지 않습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid " <br/><br/> The components will be taken from <b>%s</b>."
 msgstr " <br/><br/>부품을 <b>%s</b>에서 가져옵니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
 " <br/><br/> The manufactured products will be moved towards <b>%"
@@ -97,79 +97,79 @@ msgid "# of BoM Where is Used"
 msgstr "# 자재명세서 사용처"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(display_name)s"
 msgstr "%(display_name)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking before manufacturing"
 msgstr "%(name)s 제조 전 시퀀스 피킹"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence production"
 msgstr "%(name)s생산 순서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence stock after manufacturing"
 msgstr "%(name)s 제조 후 시퀀스 재고"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "%(producible_qty)s Ready"
 msgstr "%(producible_qty)s 준비 완료"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(product)s: Insufficient Quantity To Unbuild"
 msgstr "%(product)s: 분해할 수량이 충분하지 않습니다"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(product_name)s (new) %(number_of_boms)s"
 msgstr "%(product_name)s (신규) %(number_of_boms)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(qty)s %(measure)s unbuilt in %(order)s"
 msgstr "%(qty)s %(measure)s 의%(order)s이 해체되었습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "%(qty)s Ready To Produce"
 msgstr "%(qty)s 생산 준비 완료"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "%(qty)s To %(route)s"
 msgstr "%(qty)s %(route)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "%i work orders"
 msgstr "%i 작업지시서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "%s Child MO's"
 msgstr "%s 하위 생산계획"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "%s cannot be deleted. Try to cancel them before."
 msgstr "%s을 삭제할 수 없습니다. 먼저 취소해 주세요."
@@ -200,20 +200,20 @@ msgid "'Work Order - %s' % object.name"
 msgstr "'작업 지시 - %s' % object.name"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "(in"
 msgstr "(in"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %d day(s)"
 msgstr "+ %d 일"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr "+ %s 일"
@@ -297,13 +297,13 @@ msgid "987654321098"
 msgstr "987654321098"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
 msgstr ":  시간"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
@@ -675,7 +675,7 @@ msgstr ""
 "됩니다:"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid ""
 "A product with a kit-type bill of materials can not have a reordering rule."
@@ -945,7 +945,7 @@ msgid "Are you sure you want to cancel this manufacturing order?"
 msgstr "이 제조 주문을 취소하시겠습니까?"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -981,8 +981,8 @@ msgid "Attachment Count"
 msgstr "첨부 파일 수"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.js:0
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
@@ -1040,19 +1040,19 @@ msgstr ""
 "니다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Availabilities"
 msgstr "사용 가능성"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Availabilities on products."
 msgstr "품목의 사용 가능성"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter_productivity_loss_type__loss_type__availability
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
@@ -1065,7 +1065,7 @@ msgid "Availability Losses"
 msgstr "손실 가능"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
@@ -1087,21 +1087,21 @@ msgstr ""
 "다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Components per Unit"
 msgstr "단위당 평균 부품 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Operations per Unit"
 msgstr "단위당 평균 운영 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Total Cost per Unit"
@@ -1130,13 +1130,13 @@ msgid "BOM lines of the referred bom"
 msgstr "참조된 자재명세서의 상세 내역"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to BoM"
 msgstr "BoM으로 돌아가기"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Production"
 msgstr "생산으로 돌아가기"
@@ -1152,13 +1152,13 @@ msgid "Backorder Confirmation Lines"
 msgstr "가용주문 승인 내역"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO"
 msgstr "잔여주문 제조주문서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO's"
 msgstr "잔여주문 제조주문서"
@@ -1281,7 +1281,7 @@ msgid "Block Workcenter"
 msgstr "작업장 차단"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__consumption__strict
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_consumption_warning__consumption__strict
@@ -1335,7 +1335,7 @@ msgid "BoM Components"
 msgstr "BoM 부품"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
@@ -1343,7 +1343,7 @@ msgid "BoM Cost"
 msgstr "BoM 가격"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
 msgstr "BoM 비용"
@@ -1387,7 +1387,7 @@ msgid "Bom Id Placeholder"
 msgstr "자재명세서 ID 자리 표지자"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_byproducts_block/mrp_mo_overview_byproducts_block.xml:0
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_byproducts
@@ -1402,7 +1402,7 @@ msgid "By-product"
 msgstr "부산물"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "By-product %s should not be the same as BoM product."
 msgstr "부산물%s은 자재명세서의 품목과 동일할 수 없습니다."
@@ -1420,7 +1420,7 @@ msgid "By-products"
 msgstr "부산물"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "By-products cost shares must be positive."
@@ -1433,13 +1433,13 @@ msgid "Byproduct"
 msgstr "부산물"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Byproducts"
 msgstr "부산물"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr "생산 장소를 찾을 수 없습니다."
@@ -1452,7 +1452,7 @@ msgid "Cancel"
 msgstr "취소"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__cancel
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__cancel
@@ -1462,7 +1462,7 @@ msgid "Cancelled"
 msgstr "취소됨"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "Cannot compute days to prepare due to missing route info for at least 1 "
@@ -1472,7 +1472,7 @@ msgstr ""
 "를 계산할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Cannot delete a manufacturing order in done state."
 msgstr "완료 상태인 제조 주문은 삭제할 수 없습니다."
@@ -1526,7 +1526,7 @@ msgid "Change Quantity To Produce"
 msgstr "생산량 변경"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "Changing the product or variant will permanently reset all previously "
@@ -1547,14 +1547,14 @@ msgid "Child Manufacturing Orders"
 msgstr "하위 제조지시서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/wizard/stock_label_type.py:0
 msgid "Choose Labels Layout"
 msgstr "라벨 인쇄용 레이아웃 선택"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Choose Type of Labels To Print"
 msgstr "인쇄할 라벨 유형 선택"
@@ -1633,13 +1633,13 @@ msgid "Component Status"
 msgstr "부품 상태"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 msgid "Component of Draft MO"
 msgstr "제조주문서 초안의 부품"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_raw_ids
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -1709,7 +1709,7 @@ msgid "Confirm"
 msgstr "승인"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__confirmed
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -1765,14 +1765,14 @@ msgid "Copy selected operations"
 msgstr "선택한 작업 복사"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__cost
 msgid "Cost"
 msgstr "비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost Breakdown of Products"
@@ -1790,7 +1790,7 @@ msgid "Cost Share (%)"
 msgstr "원가 배분 (%)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost as it is currently accumulated"
 msgstr "현재 누적 비용"
@@ -1801,32 +1801,32 @@ msgid "Cost based on"
 msgstr "원가 기준:"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on cost projection"
 msgstr "비용 예측 기준 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on related replenishments. Otherwise cost from product form"
 msgstr "보충을 기준으로 한 비용입니다. 그렇지 않을 경우 품목 양식에 따른 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on the BoM"
 msgstr "BoM 기준 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Components per unit"
 msgstr "단위당 부품 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Operations per unit"
@@ -2080,7 +2080,7 @@ msgid "Date: Last 365 Days"
 msgstr "날짜: 지난 365일"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom_pdf_line
@@ -2088,7 +2088,7 @@ msgid "Days"
 msgstr "일"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Days to Supply Components"
 msgstr "부품 공급 일수"
@@ -2225,7 +2225,7 @@ msgid "Discard"
 msgstr "취소"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.xml:0
 msgid "Display"
 msgstr "표시"
@@ -2311,7 +2311,7 @@ msgid "Documentation"
 msgstr "문서"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__done
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_unbuild__state__done
@@ -2444,7 +2444,7 @@ msgid "Estimated"
 msgstr "예상치"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Estimated %s"
@@ -2461,7 +2461,7 @@ msgid "Exception(s):"
 msgstr "예외 :"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Exp %s"
 msgstr "예상 %s"
@@ -2472,7 +2472,7 @@ msgid "Expected"
 msgstr "예상일"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Expected %s"
@@ -2491,7 +2491,7 @@ msgid "Expected Duration (minutes)"
 msgstr "예상 소요 시간 (분)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Files attached to the product."
 msgstr "품목에 첨부된 파일."
@@ -2558,7 +2558,7 @@ msgid "Flexible Consumption"
 msgstr "부품 소모량 유연화"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.js:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -2597,13 +2597,13 @@ msgid "Force"
 msgstr "강제"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Forecast"
 msgstr "예측"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_line/mrp_mo_overview_line.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2639,14 +2639,14 @@ msgid "Forecasted Issue"
 msgstr "예상되는 문제점"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Free to Use / On Hand"
 msgstr "이용 가능 / 보유 수량"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Free to use / On Hand"
@@ -2769,7 +2769,7 @@ msgid "Hourly processing cost."
 msgstr "시간당 처리 비용."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Hours"
@@ -2944,26 +2944,26 @@ msgid "Impacted Transfer(s):"
 msgstr "영향을 받은 전달 :"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "Import Template for Bills of Materials"
 msgstr "자재명세서 서식 가져오기"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 msgstr "작업지시를 계획할 수 없습니다. 작업장의 가용성을 확인하세요."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 msgstr "계획할 수 없습니다.  업장 사용 가능 여부를 확인해 주세요."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__progress
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter__working_state__done
@@ -2977,7 +2977,7 @@ msgid "In Progress"
 msgstr "진행 중"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "In Transit"
 msgstr "운송 중"
@@ -3068,13 +3068,13 @@ msgid "Is the Current User Working"
 msgstr "현재 사용자 작업 여부"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "It has already been unblocked."
 msgstr "이미 차단이 해제되었습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "It is not possible to unplan one single Work Order. You should unplan the "
@@ -3232,7 +3232,7 @@ msgid "Layers that are stick together to assemble wood panels."
 msgstr "나무 패널을 조립하기 위해 서로 붙어 있는 층."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Lead Time"
@@ -3354,14 +3354,14 @@ msgid "MO Confirmed"
 msgstr "MO 확인됨"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "MO Cost"
 msgstr "제조 주문 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "MO Costs"
 msgstr "제조 주문 비용"
@@ -3373,7 +3373,7 @@ msgid "MO Done"
 msgstr "MO 완료"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "MO Generated by %s"
 msgstr "%s에 의해 생성된 제조 주문"
@@ -3468,8 +3468,8 @@ msgid "Manuf. Lead Time"
 msgstr "제조 리드타임"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_steps
@@ -3480,7 +3480,7 @@ msgid "Manufacture"
 msgstr "제조"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__mrp_one_step
 msgid "Manufacture (1 step)"
@@ -3525,7 +3525,7 @@ msgid "Manufactured in the last 365 days"
 msgstr "최근 365일 이내 제조된 품목"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: model:ir.actions.client,name:mrp.action_mrp_display_fullscreen
 #: model:ir.model.fields.selection,name:mrp.selection__stock_picking_type__code__mrp_operation
@@ -3538,13 +3538,13 @@ msgid "Manufacturing"
 msgstr "제조 관리"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_buttons.xml:0
 msgid "Manufacturing Forecast"
 msgstr "제조 예측"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__produce_delay
 msgid "Manufacturing Lead Time"
@@ -3574,7 +3574,7 @@ msgid "Manufacturing Order"
 msgstr "제조 주문"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_form
 #: model:ir.actions.act_window,name:mrp.mrp_production_action
@@ -3706,8 +3706,8 @@ msgid "Minimum Inventory Rule"
 msgstr "최소 재고 규칙"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -3722,7 +3722,7 @@ msgid "Miscellaneous"
 msgstr "기타"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_byproduct_ids
 msgid "Move Byproduct"
@@ -3783,14 +3783,14 @@ msgid "Never attribute values"
 msgstr "값 속성 지정 금지"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "New"
 msgstr "신규"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "New BoM from %(mo_name)s"
 msgstr "%(mo_name)s의 새 자재명세서"
@@ -3834,7 +3834,7 @@ msgid "No Backorder"
 msgstr "잔여주문 없음"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "No BoM Found"
 msgstr "자재명세서를 찾을 수 없습니다"
@@ -3846,7 +3846,7 @@ msgid "No Operations Yet !"
 msgstr "아직 진행된 작업이 없습니다!"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "No Ready To Produce"
 msgstr "생산 준비 완료 항목 없음"
@@ -3857,7 +3857,7 @@ msgid "No bill of materials found. Let's create one!"
 msgstr "자재명세서를 찾을 수 없습니다. 새로 작성해주세요!"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "No data available."
@@ -3913,7 +3913,7 @@ msgid "Normal"
 msgstr "일반"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
@@ -3922,7 +3922,7 @@ msgid "Not Available"
 msgstr "사용 불가"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Not Ready"
 msgstr "준비되지 않음"
@@ -3933,7 +3933,7 @@ msgid "Note that another version of this BOM is available."
 msgstr "이 자재명세서의 다른 버전도 사용할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid ""
 "Note that archived work center(s): '%s' is/are still linked to active Bill "
@@ -3945,7 +3945,7 @@ msgstr ""
 "삭제해주십시오."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/product.py:0
 msgid ""
 "Note that product(s): '%s' is/are still linked to active Bill of Materials, "
@@ -4079,14 +4079,14 @@ msgid "On Hand"
 msgstr "보유량"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Only manufacturing orders in either a draft or confirmed state can be %s."
 msgstr "%s는 미결 또는 확정된 상태의 제조 주문만 가능합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Only manufacturing orders with a Bill of Materials can be %s."
 msgstr "%s는 자재 명세서가 있는 제조 주문만 가능합니다."
@@ -4128,8 +4128,8 @@ msgid "Operation..."
 msgstr "작업..."
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
@@ -4183,7 +4183,7 @@ msgid "Operations that need to be completed before this operation can start."
 msgstr "이 작업을 시작하기 전에 완료해야 하는 작업입니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Order"
 msgstr "주문"
@@ -4287,13 +4287,13 @@ msgid "Performance over the last month"
 msgstr "지난 달과 비교한 실적"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick Components"
 msgstr "부품을 선택합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick components and then manufacture"
 msgstr "부품을 선택하고 제조합니다."
@@ -4304,7 +4304,7 @@ msgid "Pick components then manufacture (2 steps)"
 msgstr "부품 선택 후 제조 (2단계)"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick components, manufacture and then store products (3 steps)"
 msgstr "부품을 선택하고 제조 및 보관합니다. (3단계)"
@@ -4377,7 +4377,7 @@ msgid "Planned"
 msgstr "계획됨"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Planned at the same time as other workorder(s) at %s"
 msgstr "%s에서 다른 작업지시와 동시에 계획됨"
@@ -4394,19 +4394,19 @@ msgid "Plastic Laminate"
 msgstr "플라스틱 라미네이트"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 msgid "Please enter a positive quantity."
 msgstr "양수를 입력하세요."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Please set the first Serial Number or a default sequence"
 msgstr "첫 번째 일련번호 또는 기본 순서값을 설정하세요."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid ""
 "Please specify a manufacturing order.\n"
@@ -4417,13 +4417,13 @@ msgstr ""
 "구성품이나 부산물의 로트/일련번호를 정확하게 조회할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to start the work order."
 msgstr "작업지시를 시작하려면 작업장 차단을 해제하세요."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to validate the work order"
 msgstr "작업지시를 확인하려면 작업장 차단을 해제하세요."
@@ -4452,19 +4452,19 @@ msgid "Possible Product Template Attribute Value"
 msgstr "가능한 품목 서식 속성 값"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Post-Production"
 msgstr "생산 후"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pre-Production"
 msgstr "생산 전"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Print"
@@ -4562,7 +4562,7 @@ msgid "Produced in Operation"
 msgstr "운영 중 생산됨"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model:ir.model,name:mrp.model_product_template
@@ -4702,7 +4702,7 @@ msgid "Production Date"
 msgstr "생산일"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Production End Date"
 msgstr "생산 종료일"
@@ -4742,7 +4742,7 @@ msgid "Production Order for finished products"
 msgstr "완제품 생산 주문서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Production Start Date"
 msgstr "생산 시작일"
@@ -4758,7 +4758,7 @@ msgid "Production Workcenter"
 msgstr "생산 작업장"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 msgid "Production of Draft MO"
 msgstr "제조주문서 초안 생산 수량"
@@ -4844,7 +4844,7 @@ msgid "Quant"
 msgstr "Quant"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
@@ -4934,21 +4934,21 @@ msgid "Raw Moves"
 msgstr "원자재 이동"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__reservation_state__assigned
 msgid "Ready"
 msgstr "준비"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Real Cost"
 msgstr "실제 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Real Costs"
 msgstr "실제 비용"
@@ -4960,20 +4960,20 @@ msgid "Real Duration"
 msgstr "실 소요 시간"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Receipt"
 msgstr "입고"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Receipts"
 msgstr "입고"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Reception time estimation."
 msgstr "수신 시간 예상."
@@ -5011,7 +5011,7 @@ msgid "Reference of the document that generated this production order request."
 msgstr "이 생산 주문 요청을 생성한 문서의 참조입니다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Reference:"
@@ -5023,7 +5023,7 @@ msgid "References"
 msgstr "참조"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_remaining_days_unformatted_field.js:0
 msgid "Remaining Days"
 msgstr "잔여일수"
@@ -5034,25 +5034,25 @@ msgid "Repetitions"
 msgstr "반복"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_workorder_popover.xml:0
 msgid "Replan"
 msgstr "재계획"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_line/mrp_mo_overview_line.xml:0
 msgid "Replenish"
 msgstr "보충"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "주문 보충 (MTO)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Replenishments"
 msgstr "재보충"
@@ -5064,7 +5064,7 @@ msgid "Reporting"
 msgstr "보고"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Reserved"
@@ -5089,13 +5089,13 @@ msgid "Responsible User"
 msgstr "담당 사용자"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Resupply lead time."
 msgstr "재공급 리드타임."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Route"
@@ -5140,14 +5140,14 @@ msgid "Scheduled Date"
 msgstr "예정일"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "Scheduled before the previous work order, planned from %(start)s to %(end)s"
 msgstr "작업 지시 전 %(start)s 부터 %(end)s까지 미리 계획되어 있던 작업입니다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_workorder_popover.xml:0
 msgid "Scheduling Information"
 msgstr "일정 정보"
@@ -5167,7 +5167,7 @@ msgid "Scrap Move"
 msgstr "폐기물 이동"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Scrap Products"
@@ -5209,7 +5209,7 @@ msgid "Search for mrp workcenter"
 msgstr "MRP 작업장 검색"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "Select Operations to Copy"
 msgstr "복사할 작업 선택"
@@ -5226,14 +5226,14 @@ msgid "Sequence"
 msgstr "순서"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_serials_form
 msgid "Serial Numbers"
 msgstr "일련번호"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Serial number(s) for product %(product_name)s already produced"
 msgstr ""
@@ -5383,7 +5383,7 @@ msgid "Solid wood table."
 msgstr "견고한 나무 테이블."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Some work orders are already done, so you cannot unplan this manufacturing "
@@ -5396,7 +5396,7 @@ msgstr ""
 "취소 시 모든 작업이 사라질 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Some work orders have already started, so you cannot unplan this "
@@ -5500,7 +5500,7 @@ msgid "State"
 msgstr "상태"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__state
@@ -5588,7 +5588,7 @@ msgid "Stock supplier replenishment information"
 msgstr "재고 공급업체 보충 정보"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Store Finished Product"
 msgstr "완제품 보관"
@@ -5676,13 +5676,13 @@ msgid "The BoM has been updated since creation of the MO"
 msgstr "제조주문서 생성 이후 자재명세서가 업데이트되었습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "The Workorder (%s) cannot be started twice!"
 msgstr "작업 지시 (%s)를 두 번 시작할 수 없습니다!"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The attribute value %(attribute)s set on product %(product)s does not match "
@@ -5692,13 +5692,13 @@ msgstr ""
 "않습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "The batch size must be positive!"
 msgstr ""
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The current configuration is incorrect because it would create a cycle "
@@ -5712,7 +5712,7 @@ msgid "The day after tomorrow"
 msgstr "모레"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_orderpoint.py:0
 msgid "The following replenishment order has been generated"
 msgstr "다음 보충 주문이 생성되었습니다."
@@ -5749,7 +5749,7 @@ msgstr ""
 "률 합계는 100보다 작거나 같아야 합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "The planned end date of the work order cannot be prior to the planned start "
@@ -5759,7 +5759,7 @@ msgstr ""
 "를 저장하려면 이를 수정하십시오."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The product has already been used at least once, editing its structure may "
@@ -5777,7 +5777,7 @@ msgid ""
 msgstr "생산이 완료된 후 잔여주문 체인에서 할당을 기다리는 수량입니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "The quantity produced must be positive."
 msgstr "생산된 수량은 양수여야 합니다."
@@ -5794,7 +5794,7 @@ msgid "The quantity to unbuild must be positive!"
 msgstr "해제할 수량은 양수여야 합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already "
@@ -5802,7 +5802,7 @@ msgid ""
 msgstr "일련번호 %(number)s의 부산물 %(product_name)s이 이미 생산되었습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The serial number %(number)s used for component %(component)s has already "
@@ -5815,14 +5815,14 @@ msgid "The tag name must be unique."
 msgstr "태그명은 고유해야 합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's by-products cannot exceed 100."
 msgstr ""
 "자재명세서 상의 부산물에 대한 총 원가 부담률은 100을 초과할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The total cost share for a manufacturing order's by-products cannot exceed "
@@ -5836,7 +5836,7 @@ msgid "The total should be equal to the quantity to produce."
 msgstr "합계는 생산할 수량과 같아야 합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "The work order should have already been processed."
 msgstr "이미 처리된 작업 지시입니다."
@@ -5853,7 +5853,7 @@ msgid ""
 msgstr "사용 가능한 부품이 없습니다. 계속 진행하시겠습니까?"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "There is no defined calendar on workcenter %s."
@@ -5865,7 +5865,7 @@ msgid "There's no product move yet"
 msgstr "품목 이동내역이 아직 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "This Week"
 msgstr "이번 주"
@@ -5892,13 +5892,13 @@ msgstr ""
 "다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 msgid "This is a BoM of type Kit!"
 msgstr "이것은 키트 유형의 자재명세서입니다."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid ""
 "This is the cost based on the BoM of the product. It is computed by summing "
@@ -5920,13 +5920,13 @@ msgstr ""
 "을 볼 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production has been merge in %s"
 msgstr "해당 생산은 %s에서 병합되었습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production order has been created from Replenishment Report."
 msgstr "재보충 보고서에서 생성된 생산 주문입니다."
@@ -5962,7 +5962,7 @@ msgid "Time Tracking"
 msgstr "시간 추적"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Time Tracking: %(user)s"
 msgstr "시간 추적: %(user)s"
@@ -6021,7 +6021,7 @@ msgid "To Consume"
 msgstr "소비량"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__ready
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -6041,7 +6041,7 @@ msgid "To Manufacture"
 msgstr "제조"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "To Order"
 msgstr "주문 대기"
@@ -6076,21 +6076,21 @@ msgid "Top layer of a wood panel."
 msgstr "목재 패널의 상단 층."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Components"
 msgstr "총 부품 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Operations"
 msgstr "총 작업 비용"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Production"
@@ -6200,7 +6200,7 @@ msgid "Type of the exception activity on record."
 msgstr "레코드에 있는 예외 활동의 유형입니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unable to split with more than the quantity to produce."
 msgstr "생산할 수량을 초과하여 분할할 수 없습니다."
@@ -6228,7 +6228,7 @@ msgid "Unbuild Orders"
 msgstr "해체 지시"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unbuild: %s"
 msgstr "해체: %s"
@@ -6244,7 +6244,7 @@ msgid "Unbuilt"
 msgstr "해체"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.js:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -6270,7 +6270,7 @@ msgid "Unit"
 msgstr "단위"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
@@ -6278,7 +6278,7 @@ msgid "Unit Cost"
 msgstr "단가"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Unit Costs"
 msgstr "단가"
@@ -6289,7 +6289,7 @@ msgid "Unit Factor"
 msgstr "단위 계수"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Unit of Measure"
@@ -6401,7 +6401,7 @@ msgid "Validate"
 msgstr "승인"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
@@ -6412,7 +6412,7 @@ msgstr ""
 "고 유효성 검사를 진행할 수 없습니다: %(products)s"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Variant"
 msgstr "세부선택"
@@ -6456,7 +6456,7 @@ msgid "Waiting Availability"
 msgstr "사용 가능 확인중"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 msgstr "%(start)s 부터 %(end)s까지 계획되어 있는 작업 지시를 대기 중입니다"
@@ -6468,7 +6468,7 @@ msgid "Warehouse"
 msgstr "창고"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Warehouse:"
 msgstr "창고:"
@@ -6479,7 +6479,7 @@ msgid "Warn Insufficient Unbuild Quantity"
 msgstr "해체 수량 부족 경고"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/stock_scrap.py:0
@@ -6553,7 +6553,7 @@ msgid ""
 msgstr "제품이 제조된 경우 이 창고에서 제조할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a manufacturing order is "
@@ -6768,7 +6768,7 @@ msgid "Workcenter"
 msgstr "작업장"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "Workcenter %s cannot be an alternative of itself."
 msgstr "작업장%s은 자체적으로 대체할 수 없습니다."
@@ -6831,7 +6831,7 @@ msgid "Yesterday"
 msgstr "어제"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create or edit a lot or serial number for the "
@@ -6844,7 +6844,7 @@ msgstr ""
 "상자를 선택하십시오."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You can not create a kit-type bill of materials for products that have at "
@@ -6854,7 +6854,7 @@ msgstr ""
 "니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
@@ -6864,14 +6864,14 @@ msgstr ""
 "먼저 닫거나 취소하십시오."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
 msgstr "동일한 자재명세서를 가진 동일 품목의 제조 주문만 병합할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You can only merge manufacturing orders with no additional components or by-"
@@ -6879,25 +6879,25 @@ msgid ""
 msgstr "추가 부품이나 부산물이 없는 제조 주문만 병합할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same operation type"
 msgstr "동일한 작업 유형의 제조만 병합할 수 있습니다"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same state."
 msgstr "동일한 상태의 제조만 병합할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr "이미 완료된 제조지시서는 취소할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You cannot change the quantity produced of a work order that is in done or "
@@ -6905,56 +6905,56 @@ msgid ""
 msgstr "완료 또는 취소 상태인 작업 지시의 생산 수량을 변경할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot change the workcenter of a work order that is done."
 msgstr ""
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "You cannot create a new Bill of Material from here."
 msgstr "여기서는 새 자재명세서를 만들 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot create cyclic dependency."
 msgstr "순환 종속성을 생성할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot delete a manufacturing order that is already done."
 msgstr "이미 완료된 제조지시서는 삭제할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot delete an unbuild order if the state is 'Done'."
 msgstr "상태가 '완료'인 해체 지시는 삭제할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot have %s  as the finished product and in the Byproducts"
 msgstr "%s을 완제품 및 부산물로 가질 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot link this work order to another manufacturing order."
 msgstr "이 작업 지시를 다른 제조 주문에 연결할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot move a manufacturing order once it is cancelled or done."
 msgstr "취소되거나 완료된 제조 주문은 이동할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 msgid ""
 "You cannot set a scrap location as the destination location for a "
@@ -6964,31 +6964,31 @@ msgstr ""
 "없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot set more than 1 lot"
 msgstr ""
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot set more than 1 lot per product"
 msgstr ""
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot start a work order that is already done or cancelled"
 msgstr "이미 완료되었거나 취소된 작업 주문은 시작할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot unbuild a undone manufacturing order."
 msgstr "취소된 제조 주문을 해체 지시할 수 없습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You cannot use the 'Apply on Variant' functionality and simultaneously "
@@ -7028,13 +7028,13 @@ msgstr ""
 "                        </b>"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You need at least two production orders to merge them."
 msgstr "병합하려면 최소 두 개의 생산 주문이 필요합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
@@ -7045,7 +7045,7 @@ msgstr ""
 "리 앱 메뉴의 환경 설정 / 생산성 손실에서 생성할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
@@ -7056,7 +7056,7 @@ msgstr ""
 "관리 앱 메뉴의 환경 설정 / 생산성 손실에서 생성할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid ""
 "You need to define at least one unactive productivity loss in the category "
@@ -7067,14 +7067,14 @@ msgstr ""
 "제조관리 앱 메뉴의 환경 설정 / 생산성 손실에서 생성할 수 있습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You need to generate Lot/Serial Number(s) to mark as done some productions"
 msgstr ""
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
@@ -7088,13 +7088,13 @@ msgid "You produced less than the initial demand"
 msgstr "초기 수요량보다 생산량이 적습니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You should provide a lot number for the final product."
 msgstr "완제품에는 lot 번호를 제공해야 합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_quant.py:0
 msgid ""
 "You should update the components quantity instead of directly updating the "
@@ -7110,7 +7110,7 @@ msgid "ZPL"
 msgstr "ZPL"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "bom_id"
 msgstr "bom_id"
@@ -7142,7 +7142,7 @@ msgid "from location"
 msgstr "출발공간"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/stock_picking.py:0
 msgid "id"
@@ -7161,19 +7161,19 @@ msgid ""
 msgstr "입고나 배송 주문과 같은 전송을 통해 이동합니다."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "manufacturing order"
 msgstr "제조 주문"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "merged"
 msgstr "병합됨"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "minutes"
@@ -7205,7 +7205,7 @@ msgid "real duration"
 msgstr "실제 소요 시간"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "split"
 msgstr "분할"

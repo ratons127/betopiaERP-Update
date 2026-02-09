@@ -1,4 +1,4 @@
-import { Component, status } from "@BetopiaERP/owl";
+import { Component, status } from "@betopiaerp/owl";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 import { localization } from "@web/core/l10n/localization";
 import { registry } from '@web/core/registry';

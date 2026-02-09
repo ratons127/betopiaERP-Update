@@ -24,9 +24,9 @@ import {
     CROSS_TAB_HOST_MESSAGE,
 } from "@mail/discuss/call/common/rtc_service";
 
-import { beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { advanceTime, hover, manuallyDispatchProgrammaticEvent, queryFirst } from "@BetopiaERP/hoot-dom";
-import { mockSendBeacon, mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { advanceTime, hover, manuallyDispatchProgrammaticEvent, queryFirst } from "@betopiaerp/hoot-dom";
+import { mockSendBeacon, mockUserAgent } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -102,12 +102,12 @@ test("keep the `more` popover active when hovering it", async () => {
     await contains(enterFullScreenSelector);
 });
 
-test("no call with BetopiaERPbot", async () => {
+test("no call with betopiaerpbot", async () => {
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({
         channel_member_ids: [
             Command.create({ partner_id: serverState.partnerId }),
-            Command.create({ partner_id: serverState.BetopiaERPbotId }),
+            Command.create({ partner_id: serverState.betopiaerpbotId }),
         ],
         channel_type: "chat",
     });
@@ -765,7 +765,7 @@ test("automatically cancel incoming call after some time", async () => {
 test("should also invite to the call when inviting to the channel", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });

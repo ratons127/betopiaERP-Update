@@ -8,8 +8,8 @@ declaration.
 
 Signed,
 
-Andrius Laukavičius andrius@focusate.eu https://github.com/oerp-BetopiaERP
+Andrius Laukavičius andrius@focusate.eu https://github.com/oerp-betopiaerp
 
 List of contributors:
 
-Andrius Laukavičius andrius@focusate.eu https://github.com/oerp-BetopiaERP
+Andrius Laukavičius andrius@focusate.eu https://github.com/oerp-betopiaerp

@@ -5,7 +5,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Bahrain in betopiaerp.
+This is the base module to manage the accounting chart for Bahrain in BetopiaERP.
 ===========================================================================
 Bahrain accounting basic charts and localization.
 
@@ -29,6 +29,6 @@ Activates:
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 
-import { useEffect, useRef } from "@BetopiaERP/owl";
+import { useEffect, useRef } from "@betopiaerp/owl";
 
 export function useTooltip(refName, params) {
     const tooltip = useService("tooltip");

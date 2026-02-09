@@ -1,7 +1,7 @@
 # Please note that this Dockerfile is used for testing nightly builds and should
 # not be used to deploy BetopiaERP
 FROM fedora:42
-MAINTAINER BetopiaERP S.A. <info@BetopiaERP.com>
+MAINTAINER BetopiaERP <info@betopiaerp.com>
 
 # Dependencies and postgres
 RUN dnf install \
@@ -70,4 +70,4 @@ RUN cp /usr/share/pgsql/postgresql.conf.sample /var/lib/postgres/data/postgresql
 
 RUN echo "PS1=\"[\u@nightly-tests] # \"" > ~/.bashrc
 
-USER BetopiaERP
+USER betopiaerp

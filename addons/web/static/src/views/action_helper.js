@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Widget } from "@web/views/widgets/widget";
 import { RibbonWidget } from "@web/views/widgets/ribbon/ribbon";
 

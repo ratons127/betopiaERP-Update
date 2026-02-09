@@ -1,6 +1,6 @@
 import { BaseOptionComponent, useDomState } from "@html_builder/core/utils";
 import { useDynamicSnippetOption } from "@website/builder/plugins/options/dynamic_snippet_hook";
-import { onWillStart, useState } from "@BetopiaERP/owl";
+import { onWillStart, useState } from "@betopiaerp/owl";
 
 export class DynamicSnippetProductsOption extends BaseOptionComponent {
     static template = "website_sale.DynamicSnippetProductsOption";

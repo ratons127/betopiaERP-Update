@@ -1,4 +1,4 @@
-import { CorePlugin, CoreViewPlugin, UIPlugin } from "@BetopiaERP/o-spreadsheet";
+import { CorePlugin, CoreViewPlugin, UIPlugin } from "@betopiaerp/o-spreadsheet";
 
 /**
  * An o-spreadsheet core plugin with access to all custom BetopiaERP plugins

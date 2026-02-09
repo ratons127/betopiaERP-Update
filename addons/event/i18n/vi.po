@@ -8,16 +8,16 @@
 # Vo Thanh Thuy, 2022
 # Martin Trigaux, 2022
 # Thi Huong Nguyen, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-17 09:51+0000\n"
-"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@BetopiaERP.com>\n"
-"Language-Team: Vietnamese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/event/"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@betopiaerp.com>\n"
+"Language-Team: Vietnamese <https://translate.betopiaerp.com/projects/betopiaerp-19/event/"
 "vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -40,61 +40,61 @@ msgid "# Sent"
 msgstr "# Đã gửi"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (%(count)s seats remaining)"
 msgstr "%(event_name)s (còn %(count)s chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (Sold out)"
 msgstr "%(event_name)s (Hết chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
 msgstr "%(event_name)s - Đăng ký #%(registration_id)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
 msgstr "%(event_name)s - Đăng ký cho %(attendee_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (%(count)s seats remaining)"
 msgstr "%(slot_name)s (còn %(count)s chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (Sold out)"
 msgstr "%(slot_name)s (Hết chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(slot_name)s: missing %(count)s seat(s)"
 msgstr "%(slot_name)s: thiếu %(count)s chỗ"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (%(count)s seats remaining)"
 msgstr "%(ticket_name)s (còn %(count)s chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (Sold out)"
 msgstr "%(ticket_name)s (Hết chỗ)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%s (copy)"
 msgstr "%s (sao chép)"
@@ -2780,7 +2780,7 @@ msgid ""
 msgstr "Nội dung mô tả vé mà bạn muốn truyền tải tới khách hàng."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot cannot be scheduled outside of its event time range.\n"
@@ -2795,7 +2795,7 @@ msgstr ""
 "Khung thời gian:\t\t%(slot_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot end hour must be later than its start hour.\n"
@@ -2803,7 +2803,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "A slot hour must be between 0:00 and 23:59."
 msgstr ""
@@ -3009,7 +3009,7 @@ msgid "Answer Breakdown"
 msgstr "Phân tích câu trả lời"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_question__answer_ids
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_form
@@ -3090,7 +3090,7 @@ msgid "Attended Date"
 msgstr "Ngày đã tham dự"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Attended on %(attended_date)s"
 msgstr ""
@@ -3177,7 +3177,7 @@ msgid "Badge Example"
 msgstr "Ví dụ thẻ"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Badges"
 msgstr "Thẻ"
@@ -3293,7 +3293,7 @@ msgid "Cancelled"
 msgstr "Đã hủy"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Cancelled registration"
 msgstr "Đăng ký đã bị hủy"
@@ -3363,7 +3363,7 @@ msgid "Communication"
 msgstr "Thông tin trao đổi"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "Communication for %(event_name)s scheduled on %(scheduled_date)s failed."
@@ -3377,7 +3377,7 @@ msgid "Communication related to event registrations"
 msgstr "Thông tin liên quan đến đăng ký sự kiện"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
@@ -3394,7 +3394,7 @@ msgid "Company Name"
 msgstr "Tên công ty"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Compose Email"
 msgstr "Soạn email"
@@ -3426,7 +3426,7 @@ msgid "Configuration"
 msgstr "Cấu hình"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
 msgstr "Xác nhận tham dự?"
@@ -3437,7 +3437,7 @@ msgid "Contact"
 msgstr "Liên hệ"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Continue"
 msgstr "Tiếp tục"
@@ -3644,7 +3644,7 @@ msgstr ""
 "này."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Edit"
 msgstr "Chỉnh sửa"
@@ -3709,7 +3709,7 @@ msgid "Error"
 msgstr "Lỗi"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model,name:event.model_event_event
 #: model:ir.model.fields,field_description:event.field_event_event__name
@@ -3770,7 +3770,7 @@ msgid "Event Mail Schedulers"
 msgstr "Trình lên lịch Gửi thư Sự kiện"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
 msgstr "Tham chiếu mẫu email sự kiện"
@@ -3821,7 +3821,7 @@ msgid "Event Registration Answer"
 msgstr "Trả lời đăng ký sự kiện"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Event Registrations"
 msgstr "Đăng ký Sự kiện"
@@ -4089,11 +4089,11 @@ msgstr "Font biểu tượng, ví dụ: fa-tasks"
 msgid ""
 "For any additional information, please contact us at <a "
 "class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>"
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>"
 msgstr ""
 "Nếu bạn cần thêm thông tin, vui lòng liên hệ với chúng tôi tại <a "
 "class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>"
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>"
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -4244,7 +4244,7 @@ msgid "Great! Now all you have to do is wait for your attendees to show up!"
 msgstr "Tuyệt vời! Giờ bạn chỉ cần chờ mọi người tới tham dự!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
 msgstr "Khách #"
@@ -4278,7 +4278,7 @@ msgid "Hockey Tournament"
 msgstr "Giải khúc côn cầu"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Home"
 msgstr "Trang chủ"
@@ -4344,7 +4344,7 @@ msgid "Icon"
 msgstr "Biểu tượng"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
 msgstr "Lựa chọn biểu tượng"
@@ -4439,7 +4439,7 @@ msgid "Insert dynamic Google Maps in your email templates"
 msgstr "Chèn Google Maps động vào mẫu email của bạn"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Install"
 msgstr "Cài đặt"
@@ -4456,19 +4456,19 @@ msgid "Introduction, CRM, Sales Management"
 msgstr "Giới thiệu, CRM, Quản lý bán hàng"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / slot choice"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
 msgstr "Lựa chọn vé/sự kiện không hợp lệ"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Invalid ticket"
 msgstr "Vé không hợp lệ"
@@ -4520,7 +4520,7 @@ msgid "Is Reusable"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "It failed with error %(error)s."
 msgstr "Không thành với lỗi %(error)s."
@@ -4640,7 +4640,7 @@ msgid "Late Activities"
 msgstr "Hoạt động chậm trễ"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Let's create your first <b>event</b>."
 msgstr "Hãy tạo <b>sự kiện</b> đầu tiên."
@@ -4868,7 +4868,7 @@ msgid "New"
 msgstr "Mới"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/views/event_slot_calendar/event_slot_calendar_controller.js:0
 msgid "New Slot"
 msgstr ""
@@ -4959,7 +4959,7 @@ msgid "Nothing Scheduled yet!"
 msgstr "Chưa có lịch trình!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Now that your event is ready, click here to move it to another stage."
 msgstr ""
@@ -5074,7 +5074,7 @@ msgid "Online if not set"
 msgstr "Online nếu chưa thiết lập"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr ""
@@ -5139,19 +5139,19 @@ msgid ""
 msgstr "Vui lòng tới sớm <b>ít nhất</b> 30 phút trước khi sự kiện bắt đầu."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
 msgstr "Vui lòng nhập bí mật base64 hợp lệ"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Please enter a valid event URL."
 msgstr "Vui lòng nhập URL sự kiện hợp lệ."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Please, Scan again!"
 msgstr "Vui lòng quét lại!"
@@ -5162,7 +5162,7 @@ msgid "Point of Sale (POS), Introduction to report customization."
 msgstr "POS (PoS), Giới thiệu về tuỳ biến báo cáo."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Print"
 msgstr "In"
@@ -5237,7 +5237,7 @@ msgid "Ready for Next Stage"
 msgstr "Sẵn sàng cho bước kế tiếp"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 msgstr ""
@@ -5253,7 +5253,7 @@ msgid "Registered"
 msgstr "Đã đăng ký"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 #: code:addons/event/models/event_type_ticket.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__registration_id
@@ -5311,7 +5311,7 @@ msgid "Registration Start"
 msgstr "Bắt đầu đăng ký"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
 msgstr "Đăng ký cho %s"
@@ -5355,7 +5355,7 @@ msgid "Registrations started"
 msgstr "Đăng ký đã bắt đầu"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "Rendering of template failed with error: %(error)s."
 msgstr "Kết xuất mẫu không thành công với lỗi: %(error)s."
@@ -5410,7 +5410,7 @@ msgid "SMS Delivery error"
 msgstr "Lỗi gửi SMS"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Scan or Tap"
 msgstr "Quét hoặc chạm"
@@ -5467,7 +5467,7 @@ msgid "Secret"
 msgstr "Mã bí mật"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Select Attendee"
 msgstr "Chọn người tham dự"
@@ -5567,7 +5567,7 @@ msgid "Show all records whose next activity date is past"
 msgstr "Hiển thị tất cả các bản ghi có ngày hoạt động tiếp theo đã quá hạn"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_mail_slot__event_slot_id
 #: model:ir.model.fields,field_description:event.field_event_registration__event_slot_id
@@ -5581,7 +5581,7 @@ msgid "Slot Mail Scheduler"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Slot choice is mandatory on multi-slots events."
 msgstr ""
@@ -5597,7 +5597,7 @@ msgid "Slot-based communication"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 #: model:ir.actions.act_window,name:event.event_slot_action_from_event
 #: model:ir.model.fields,field_description:event.field_event_event__event_slot_ids
@@ -5719,7 +5719,7 @@ msgstr ""
 "Kế hoạch: Cần thực hiện trong tương lai."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
 msgstr "Đã đăng ký thành công!"
@@ -5803,7 +5803,7 @@ msgstr ""
 "cống hiến cho bạn một màn trình diễn ngoạn mục nhất."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
 msgstr "Ngày kết thúc không thể sớm hơn ngày bắt đầu."
@@ -5832,7 +5832,7 @@ msgstr ""
 "bộ sưu tập mới nhất"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "The following slots cannot be deleted while they have one or more "
@@ -5844,7 +5844,7 @@ msgstr ""
 "- %s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The following tickets cannot be deleted while they have one or more "
@@ -5855,7 +5855,7 @@ msgstr ""
 "-%s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than %(limit_orderable)s. Please check "
@@ -5863,7 +5863,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than the maximum seats number. Please "
@@ -5871,7 +5871,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order must be positive. Please check ticket %(ticket_name)s"
@@ -5884,7 +5884,7 @@ msgstr ""
 "Chúng tôi đặt sự an toàn của người tham dự và các phi hành gia lên hàng đầu!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The stop date cannot be earlier than the start date. Please check ticket %"
@@ -5894,7 +5894,7 @@ msgstr ""
 "(ticket_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are more registrations than this limit, the event will be sold out and "
@@ -5904,7 +5904,7 @@ msgstr ""
 "các đăng ký dư sẽ vẫn được giữ lại."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are not enough seats available for %(event_name)s:\n"
@@ -5912,7 +5912,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "There is an issue with dynamic placeholder. Actual error received is: %"
@@ -5926,7 +5926,7 @@ msgid "There must be a suggested value or a text value."
 msgstr "Phải có giá trị được gợi ý hoặc giá trị văn bản."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "These events cannot have slots scheduled outside of their time range:\n"
@@ -5963,13 +5963,13 @@ msgid "This information will be printed on your tickets."
 msgstr "Thông tin này sẽ được in trên vé."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This is due to an error in template %(template_link)s."
 msgstr "Nguyên nhân là do lỗi trong mẫu %(template_link)s."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "This is the <b>name</b> your guests will see when registering."
 msgstr "Đây là <b>tên</b> mà khách sẽ thấy khi đăng ký."
@@ -5993,7 +5993,7 @@ msgstr ""
 "rock biểu tượng của mọi thời đại!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This may be linked to template %(template_link)s."
 msgstr "Có thể liên kết đến mẫu %(template_link)s."
@@ -6004,19 +6004,19 @@ msgid "This question is used by"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is for another event!"
 msgstr "Vé này là vé của sự kiện khác!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
 msgstr "Vé này không phải vé sự kiện đang diễn ra"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -6032,7 +6032,7 @@ msgid "Ticket Instructions"
 msgstr "Hướng dẫn vé"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
@@ -6041,7 +6041,7 @@ msgid "Ticket Type"
 msgstr "Loại phiếu hỗ trợ"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
 msgstr "Vé đã được quét!"
@@ -6052,7 +6052,7 @@ msgid "Ticket type"
 msgstr "Loại vé"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid ""
 "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a "
@@ -6061,13 +6061,13 @@ msgstr ""
 "Loại vé cho phép bạn phân biệt người tham dự. Hãy <b>tạo</b> một loại mới."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket was first scanned on"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
@@ -6214,7 +6214,7 @@ msgid "Understand the various modules;"
 msgstr "Hiểu về các phân hệ khác nhau;"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Undo"
 msgstr "Hoàn tác"
@@ -6241,7 +6241,7 @@ msgid "Upcoming/Running"
 msgstr "Sắp diễn ra / Đang chạy"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Update the limit of registrations?"
 msgstr ""
@@ -6262,7 +6262,7 @@ msgid "Use Event Tag Categories to classify and organize your event tags."
 msgstr "Dùng danh mục thẻ sự kiện để phân loại và tổ chức các thẻ sự kiện."
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 msgstr "Sử dụng <b>breadcrumb</b> để quay lại tổng quan kanban."
@@ -6385,20 +6385,20 @@ msgid "You are truly among the best."
 msgstr "Bạn quả thực là những người xuất sắc nhất"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot change the question type of a question that already has answers!"
 msgstr "Bạn không thể thay đổi kiểu câu hỏi của câu hỏi đã có câu trả lời!"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid "You cannot delete a default question."
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot delete a question that has already been answered by attendees. "
@@ -6408,7 +6408,7 @@ msgstr ""
 "bạn có thể lưu trữ nó."
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question_answer.py:0
 msgid ""
 "You cannot delete an answer that has already been selected by attendees."
@@ -6477,7 +6477,7 @@ msgid "e.g. VIP Ticket"
 msgstr "VD: Vé VIP"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "event_id"
 msgstr "event_id"
@@ -6493,25 +6493,25 @@ msgid "https://www.example.com"
 msgstr "https://www.example.com"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "in %d days"
 msgstr "trong %d ngày"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next month"
 msgstr "tháng tiếp theo"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next week"
 msgstr "tuần tới"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "on %(date)s"
 msgstr "vào %(date)s"
@@ -6541,13 +6541,13 @@ msgid "to"
 msgstr "đến"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "today"
 msgstr "hôm nay"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "tomorrow"
 msgstr "ngày mai"
@@ -7722,8 +7722,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 #~ "You can define here labels that will be displayed for the state instead\n"
 #~ "                            of the default labels in the kanban view."
 
-#~ msgid "events@BetopiaERP.com"
-#~ msgstr "events@BetopiaERP.com"
+#~ msgid "events@betopiaerp.com"
+#~ msgstr "events@betopiaerp.com"
 
 #~ msgid "events@penwood.example.com"
 #~ msgstr "events@penwood.example.com"

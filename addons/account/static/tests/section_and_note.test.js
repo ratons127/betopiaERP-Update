@@ -1,6 +1,6 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { animationFrame, edit, press, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { animationFrame, edit, press, queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     clickSave,
     contains,

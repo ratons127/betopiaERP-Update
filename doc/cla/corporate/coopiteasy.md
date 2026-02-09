@@ -16,7 +16,7 @@ Carmen Bianca Bakker <carmen@coopiteasy.be> https://github.com/carmenbianca
 
 Catherine Lembrée <catherine@coopiteasy.be> https://github.com/cathLemb
 
-Hugues De Keyzer <BetopiaERP@hugues.info> https://github.com/huguesdk
+Hugues De Keyzer <betopiaerp@hugues.info> https://github.com/huguesdk
 
 Pol Champion <pol@coopiteasy.be> https://github.com/polchampion
 

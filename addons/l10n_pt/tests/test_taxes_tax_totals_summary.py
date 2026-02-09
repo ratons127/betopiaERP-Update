@@ -13,7 +13,7 @@ class TestTaxesTaxTotalsSummaryL10nPt(TestTaxesTaxTotalsSummary):
         super().setUpClass()
 
     def _test_taxes_l10n_pt(self):
-        """ !!!! THOSE TESTS ARE THERE TO CERTIFY THE USE OF BetopiaERP INVOICING IN PORTUGAL.
+        """ !!!! THOSE TESTS ARE THERE TO CERTIFY THE USE OF BETOPIAERP INVOICING IN PORTUGAL.
         Therefore, they have to stay like this to stay compliant.
         """
         self.env['decimal.precision'].search([('name', '=', "Product Price")]).digits = 6

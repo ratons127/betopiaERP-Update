@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class LazyTestComponent extends Component {
     static template = "test_assetsbundle.LazyTestComponent";

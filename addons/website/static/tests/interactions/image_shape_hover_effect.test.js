@@ -1,8 +1,8 @@
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { hover, queryOne } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { hover, queryOne } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 
 import { onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { onceAllImagesLoaded } from "@website/utils/images";

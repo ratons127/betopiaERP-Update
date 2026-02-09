@@ -384,7 +384,7 @@ class L10n_Es_Edi_TbaiDocument(models.Model):
     def _get_header_values(self):
         return {
             'tbai_version': self.L10N_ES_TBAI_VERSION,
-            'BetopiaERP_version': release.version,
+            'betopiaerp_version': release.version,
         }
 
     @api.model

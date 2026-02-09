@@ -1,5 +1,5 @@
 import { useService } from '@web/core/utils/hooks';
-import { Component, onWillStart } from '@BetopiaERP/owl';
+import { Component, onWillStart } from '@betopiaerp/owl';
 
 export class SurveySurveyActionHelper extends Component {
     static template = 'survey.SurveySurveyActionHelper';

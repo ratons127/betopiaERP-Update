@@ -37,6 +37,6 @@ Also implements the removal strategy First Expiry First Out (FEFO) widely used, 
             'product_expiry/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

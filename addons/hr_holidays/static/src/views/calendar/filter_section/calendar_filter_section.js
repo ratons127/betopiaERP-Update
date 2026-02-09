@@ -2,7 +2,7 @@ import { CalendarFilterSection } from "@web/views/calendar/calendar_filter_secti
 import { TimeOffCardMobile } from "../../../dashboard/time_off_card";
 
 import { useService } from "@web/core/utils/hooks";
-import { useState, onWillStart } from "@BetopiaERP/owl";
+import { useState, onWillStart } from "@betopiaerp/owl";
 
 export class TimeOffCalendarFilterSection extends CalendarFilterSection {
     static components = {

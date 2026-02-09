@@ -1,4 +1,4 @@
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { omit, pick } from "../utils/objects";
 import { compareUrls, objectToUrlEncodedString } from "../utils/urls";
 import { browser } from "./browser";
@@ -116,7 +116,7 @@ function pathFromActionState(state) {
 }
 
 export function startUrl() {
-    return isScopedApp() ? "scoped_app" : "BetopiaERP";
+    return isScopedApp() ? "scoped_app" : "betopiaerp";
 }
 
 /**
@@ -185,7 +185,7 @@ function urlToState(urlObj) {
 
     const [prefix, ...splitPath] = urlObj.pathname.split("/").filter(Boolean);
 
-    if (["BetopiaERP", "scoped_app"].includes(prefix)) {
+    if (["betopiaerp", "scoped_app"].includes(prefix)) {
         const actionParts = [...splitPath.entries()].filter(
             ([_, part]) => !isNumeric(part) && part !== "new"
         );
@@ -231,7 +231,7 @@ function urlToState(urlObj) {
             state.actionStack = actions;
         }
         if (prefix === "scoped_app" && !isDisplayStandalone()) {
-            // make sure /scoped_app are redirected to /BetopiaERP when using the browser instead of the PWA
+            // make sure /scoped_app are redirected to /betopiaerp when using the browser instead of the PWA
             const url = browser.location.origin + router.stateToUrl(state);
             urlObj.href = url;
         }
@@ -322,13 +322,13 @@ browser.addEventListener("click", (ev) => {
         }
         if (
             browser.location.host === url.host &&
-            browser.location.pathname.startsWith("/BetopiaERP") &&
-            (["/web", "/BetopiaERP"].includes(url.pathname) || url.pathname.startsWith("/BetopiaERP/")) &&
+            browser.location.pathname.startsWith("/betopiaerp") &&
+            (["/web", "/betopiaerp"].includes(url.pathname) || url.pathname.startsWith("/betopiaerp/")) &&
             a.target !== "_blank"
         ) {
             ev.preventDefault();
             state = router.urlToState(url);
-            if (url.pathname.startsWith("/BetopiaERP") && url.hash) {
+            if (url.pathname.startsWith("/betopiaerp") && url.hash) {
                 browser.history.pushState({}, "", url.href);
             }
             new Promise((res) => setTimeout(res, 0)).then(() => routerBus.trigger("ROUTE_CHANGE"));

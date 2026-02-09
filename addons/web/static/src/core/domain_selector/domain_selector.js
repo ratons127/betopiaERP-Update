@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { CheckBox } from "@web/core/checkbox/checkbox";
 import { Domain } from "@web/core/domain";
 import { getDomainDisplayedOperators } from "@web/core/domain_selector/domain_selector_operator_editor";

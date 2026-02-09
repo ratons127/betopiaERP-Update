@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import OrderPaymentValidation from "@point_of_sale/app/utils/order_payment_validation";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { patch } from "@web/core/utils/patch";
 
 patch(OrderPaymentValidation.prototype, {
@@ -25,7 +25,7 @@ patch(OrderPaymentValidation.prototype, {
                 "%s by going to Backend > Orders > Invoice",
                 this.order.pos_reference
             );
-            const href = `/BetopiaERP/customer-invoices/${this.order?.raw?.account_move}`;
+            const href = `/betopiaerp/customer-invoices/${this.order?.raw?.account_move}`;
             const link = markup`<a target="_blank" href=${href} class="text-info fw-bolder">${_t(
                 "Invoice"
             )}</a>`;

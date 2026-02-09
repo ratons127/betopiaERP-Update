@@ -20,6 +20,6 @@ backend. It notably includes IAP bridges modules to test their impact. """,
         'website_crm_partner_assign',
         'website_crm_livechat',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,6 +1,6 @@
 import { formatFloat } from "@web/views/fields/formatters";
 import { useService } from "@web/core/utils/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 export class ForecastedDetails extends Component {

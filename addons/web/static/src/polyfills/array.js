@@ -1,4 +1,4 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 if (!Array.prototype.at) {
     Object.defineProperty(Array.prototype, "at", {
         enumerable: false,

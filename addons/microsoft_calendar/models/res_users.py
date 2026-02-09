@@ -97,16 +97,16 @@ class ResUsers(models.Model):
         self.res_users_settings_id.sudo().microsoft_calendar_sync_token = next_sync_token
 
         # Microsoft -> BetopiaERP
-        synced_events, synced_recurrences = self.env['calendar.event']._sync_microsoft2BetopiaERP(events) if events else (self.env['calendar.event'], self.env['calendar.recurrence'])
+        synced_events, synced_recurrences = self.env['calendar.event']._sync_microsoft2betopiaerp(events) if events else (self.env['calendar.event'], self.env['calendar.recurrence'])
 
         # BetopiaERP -> Microsoft
         recurrences = self.env['calendar.recurrence']._get_microsoft_records_to_sync(full_sync=full_sync)
         recurrences -= synced_recurrences
-        recurrences._sync_BetopiaERP2microsoft()
+        recurrences._sync_betopiaerp2microsoft()
         synced_events |= recurrences.calendar_event_ids
 
         events = self.env['calendar.event']._get_microsoft_records_to_sync(full_sync=full_sync)
-        (events - synced_events)._sync_BetopiaERP2microsoft()
+        (events - synced_events)._sync_betopiaerp2microsoft()
         self.sudo().microsoft_last_sync_date = datetime.now()
 
         return bool(events | synced_events) or bool(recurrences | synced_recurrences)

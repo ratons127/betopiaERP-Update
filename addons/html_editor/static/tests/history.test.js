@@ -1,9 +1,9 @@
 import { Plugin } from "@html_editor/plugin";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { parseHTML } from "@html_editor/utils/html";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockUserAgent, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockUserAgent, tick } from "@betopiaerp/hoot-mock";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
 import { expectElementCount } from "./_helpers/ui_expectations";
@@ -43,7 +43,7 @@ describe("reset", () => {
         const historyPlugin = plugins.get("history");
         expect(historyPlugin.currentStep.mutations.length).toBe(0);
 
-        await click(".BetopiaERP-editor-editable p");
+        await click(".betopiaerp-editor-editable p");
         await animationFrame();
         await expectElementCount(".o-we-tablepicker", 0);
         expect(historyPlugin.currentStep.mutations.length).toBe(0);

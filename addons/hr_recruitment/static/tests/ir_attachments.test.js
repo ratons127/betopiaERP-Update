@@ -6,8 +6,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { defineModels, models } from "@web/../tests/web_test_helpers";
 
 class HrApplicant extends models.ServerModel {

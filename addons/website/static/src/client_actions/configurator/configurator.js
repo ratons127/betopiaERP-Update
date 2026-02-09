@@ -24,7 +24,7 @@ import {
     useSubEnv,
     onWillStart,
     useExternalListener,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { standardActionServiceProps } from "@web/webclient/actions/action_service";
 import { fuzzyLevenshteinLookup } from "@web/core/utils/search";
 import { isBrowserSafari } from "@web/core/browser/feature_detection";
@@ -562,7 +562,7 @@ export class ApplyConfiguratorScreen extends Component {
             // the web client needs to be reloaded after the new modules have
             // been installed.
             redirect(
-                `/BetopiaERP/action-website.website_preview?website_id=${encodeURIComponent(
+                `/betopiaerp/action-website.website_preview?website_id=${encodeURIComponent(
                     resp.website_id
                 )}`
             );

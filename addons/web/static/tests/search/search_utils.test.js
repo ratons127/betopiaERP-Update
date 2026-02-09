@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 import {
     allowTranslations,
     patchTranslations,

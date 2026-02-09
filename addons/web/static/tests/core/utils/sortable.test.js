@@ -1,9 +1,9 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
-import { advanceFrame, animationFrame, disableAnimations } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
+import { advanceFrame, animationFrame, disableAnimations } from "@betopiaerp/hoot-mock";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
-import { Component, reactive, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, reactive, useRef, useState, xml } from "@betopiaerp/owl";
 import { useSortable } from "@web/core/utils/sortable_owl";
 
 beforeEach(disableAnimations);

@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * pos_online_payment
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-14 21:16+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Danish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Danish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_online_payment/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -30,19 +30,19 @@ msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgstr "<strong>Fejl:</strong> Der opstod et problem under betalingsprocessen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
 msgstr "En POS-konfiguration kan ikke have mere end én online betalingsform."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 msgstr "Der skal angives en betalingsmulighed."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr "En valideringsbetaling kan ikke bruges til en POS-onlinebetaling."
@@ -53,7 +53,7 @@ msgid "All available providers"
 msgstr "Alle tilgængelige udbydere"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "All payment providers configured for an online payment method must use the "
@@ -75,7 +75,7 @@ msgid "Amount"
 msgstr "Beløb"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Amount:"
 msgstr "Beløb:"
@@ -86,14 +86,14 @@ msgid "Cancel payment"
 msgstr "Annullér betaling"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr ""
 "Det er ikke muligt at oprette en POS-onlinebetaling uden en bogført betaling."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
@@ -103,13 +103,13 @@ msgstr ""
 "og en bogført betaling online."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 msgstr "Kan ikke redigere væsentlige data for POS-onlinebetaling."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
@@ -146,19 +146,19 @@ msgid "ID"
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payment"
 msgstr "Ugyldig onlinebetaling"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payments"
 msgstr "Ugyldige onlinebetalinger"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invoice could not be generated"
 msgstr "Faktura kunne ikke genereres"
@@ -174,7 +174,7 @@ msgid "Online"
 msgstr "Online"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
@@ -191,13 +191,13 @@ msgid "Online accounting payment"
 msgstr "Bogført betaling online"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payment unavailable"
 msgstr "Onlinebetaling ikke tilgængelig"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 msgstr "Onlinebetalinger kan ikke have et negativt beløb (%s: %s)."
@@ -218,19 +218,19 @@ msgid "Order Reference"
 msgstr "Ordrereference"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 msgstr "Ordrereference:"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Order saving issue"
 msgstr "Problem med at gemme ordre"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/account_payment.py:0
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_account_payment__pos_order_id
@@ -296,43 +296,43 @@ msgid "Processed by"
 msgstr "Gennemført af"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 msgstr "QR-kode til betaling"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 msgstr "Scan QR-koden for at betale"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 msgstr "Scan for at betale"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Server error"
 msgstr "Serverfejl"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid "The %s already has one online payment."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 msgstr "POS-onlinebetalingen (tx.id=%d) kunne ikke gemmes korrekt"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
@@ -342,7 +342,7 @@ msgstr ""
 "betalingsform ikke kunne findes"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 msgstr "Kassesessionen er ikke åbnet."
@@ -358,55 +358,55 @@ msgid "The Point of Sale order linked to this payment"
 msgstr "POS-ordren knyttet til denne betaling"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The QR Code for paying could not be generated."
 msgstr "QR-koden til betaling kunne ikke genereres."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 msgstr "Beløbet, der skal betales, er ændret. Indlæs venligst siden igen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 msgstr "Valutaen er ugyldig."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The invoice could not be generated."
 msgstr "Fakturaen kunne ikke genereres."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 msgstr "Ordren er blevet annulleret."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The order has not been saved correctly on the server."
 msgstr "Ordren blev ikke gemt korrekt på serveren."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr "Partneren til POS-onlinebetalingen (id=%d) kunne ikke findes"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 msgstr "Betalingsudbyderen er ugyldig."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
@@ -415,37 +415,37 @@ msgstr ""
 "token."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 msgstr "Betalingstokenet er ugyldigt."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 msgstr "Betalingstransaktionen (%d) har et negativt beløb."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 msgstr "Den angivne ordre eller adgangstoken er ugyldig."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 msgstr "Det angivne partner_id er anderledes end forventet."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The saved order could not be retrieved."
 msgstr "Den gemte ordre kunne ikke hentes."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
@@ -455,13 +455,13 @@ msgstr ""
 "svarer ikke til det resterende ubetalte beløb for ordren (%s)."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "There are online payments that were missing in your view."
 msgstr "Onlinebetalinger mangler i din visning."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -471,7 +471,7 @@ msgstr ""
 "derfor ikke mulig."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -482,7 +482,7 @@ msgstr ""
 "denne ordre?"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
@@ -490,7 +490,7 @@ msgstr ""
 "Der er ikke konfigureret nogen online betalingsform til denne POS-ordre."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 msgstr "Der er intet at betale for denne ordre."
@@ -506,7 +506,7 @@ msgid "To Pay"
 msgstr "Til betaling"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid ""
 "To use an online payment method in a POS config, it must have at least one "
@@ -517,7 +517,7 @@ msgstr ""
 "valuta."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr "Tokenisering er ikke tilgængelig for kunder, der er logget ud."
@@ -538,7 +538,7 @@ msgid "Type"
 msgstr "Type"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Updated online payments"
 msgstr "Opdaterede onlinebetalinger"
@@ -553,7 +553,7 @@ msgstr ""
 "hjemmeside med online betalingsudbydere)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Yes"
 msgstr "Ja"

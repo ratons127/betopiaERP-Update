@@ -11,7 +11,7 @@
     import { SIZES, utils as uiUtils } from "@web/core/ui/ui_service";
     import { rpc } from "@web/core/network/rpc";
 
-    import { markup } from "@BetopiaERP/owl";
+    import { markup } from "@betopiaerp/owl";
 
     /**
      * Helper: Get the slide dict matching the given criteria
@@ -476,7 +476,7 @@
                 slideData.hasNext = index < slidesDataList.length-1;
                 // compute embed url
                 if (slideData.category === 'video' && slideData.videoSourceType !== 'vimeo') {
-                    slideData.embedCode = $(slideData.embedCode).attr('src') || ""; // embedCode contains an iframe tag, where src attribute is the url (youtube or embed document from BetopiaERP)
+                    slideData.embedCode = $(slideData.embedCode).attr('src') || ""; // embedCode contains an iframe tag, where src attribute is the url (youtube or embed document from betopiaerp)
                     var separator = slideData.embedCode.indexOf("?") !== -1 ? "&" : "?";
                     var scheme = slideData.embedCode.indexOf('//') === 0 ? 'https:' : '';
                     var params = { rel: 0, enablejsapi: 1, origin: window.location.origin };

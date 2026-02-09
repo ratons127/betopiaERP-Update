@@ -5,7 +5,7 @@ import { completeActiveFields } from "@web/model/relational_model/utils";
 import { DataPoint } from "./datapoint";
 import { fromUnityToServerValues, getBasicEvalContext, getId, patchActiveFields } from "./utils";
 
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 
 /**
  * @typedef {import("./record").Record} RelationalRecord

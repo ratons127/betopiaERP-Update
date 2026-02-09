@@ -2,18 +2,18 @@
 # This file contains the translation of the following modules:
 # * pos_online_payment
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
-# BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>, 2025.
+# BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-20 13:21+0000\n"
-"Last-Translator: BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>\n"
-"Language-Team: Turkish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>\n"
+"Language-Team: Turkish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_online_payment/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -33,19 +33,19 @@ msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgstr "<strong>Hata:</strong> Ödeme işlemi sırasında bir sorun oluştu"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
 msgstr "Bir POS yapılandırması birden fazla çevrim içi ödeme yöntemi içeremez."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 msgstr "Bir ödeme türü belirlenmelidir."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr "Doğrulama ödemesi, Satış Noktası çevrim içi ödemesi için kullanılamaz."
@@ -56,7 +56,7 @@ msgid "All available providers"
 msgstr "Tüm kullanılabilir sağlayıcılar"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "All payment providers configured for an online payment method must use the "
@@ -78,7 +78,7 @@ msgid "Amount"
 msgstr "Tutar"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Amount:"
 msgstr "Tutar:"
@@ -89,13 +89,13 @@ msgid "Cancel payment"
 msgstr "Ödemeyi İptal Edin"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr "Muhasebe ödemesi olmadan POS çevrim içi ödemesi oluşturulamaz."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
@@ -105,13 +105,13 @@ msgstr ""
 "POS ödemesi oluşturulamıyor."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 msgstr "Bir POS çevrim içi ödemesinin temel verileri düzenlenemez."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
@@ -148,19 +148,19 @@ msgid "ID"
 msgstr "ID"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payment"
 msgstr "Geçersiz çevrim içi ödeme"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payments"
 msgstr "Geçersiz çevrim içi ödemeler"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invoice could not be generated"
 msgstr "Fatura oluşturulamadı"
@@ -176,7 +176,7 @@ msgid "Online"
 msgstr "Çevrimiçi"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
@@ -193,13 +193,13 @@ msgid "Online accounting payment"
 msgstr "Çevrim içi muhasebe ödemesi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payment unavailable"
 msgstr "Çevrim içi ödeme kullanılamıyor"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 msgstr "Çevrim içi ödemelerde tutar negatif olamaz (%s: %s)."
@@ -220,19 +220,19 @@ msgid "Order Reference"
 msgstr "Sipariş Referansı"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 msgstr "Sipariş referansı:"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Order saving issue"
 msgstr "Sipariş kaydetme sorunu"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/account_payment.py:0
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_account_payment__pos_order_id
@@ -298,43 +298,43 @@ msgid "Processed by"
 msgstr "Tarafından işlendi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 msgstr "Ödeme için QR Kodu"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 msgstr "Ödeme yapmak için QR kodunu okutun"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 msgstr "Ödeme için tarayın"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Server error"
 msgstr "Sunucu hatası"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid "The %s already has one online payment."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 msgstr "POS çevrim içi ödemesi (tx.id=%d) düzgün şekilde kaydedilemedi"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
@@ -344,7 +344,7 @@ msgstr ""
 "doğru şekilde kaydedilemedi."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 msgstr "POS oturumu açılmamış."
@@ -360,55 +360,55 @@ msgid "The Point of Sale order linked to this payment"
 msgstr "Bu ödemeyle ilişkilendirilmiş Satış Noktası siparişi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The QR Code for paying could not be generated."
 msgstr "Ödeme için QR kodu oluşturulamadı"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 msgstr "Ödenecek tutar değişti. Lütfen sayfayı yenileyin."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 msgstr "Para birimi geçersiz."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The invoice could not be generated."
 msgstr "Fatura oluşturulamadı."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 msgstr "Sipariş iptal edildi."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The order has not been saved correctly on the server."
 msgstr "Sipariş sunucuda düzgün şekilde kaydedilemedi."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr "POS çevrim içi ödemesine ait partner (id=%d) bulunamadı."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 msgstr "Ödeme sağlayıcısı geçersiz."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
@@ -416,37 +416,37 @@ msgstr ""
 "Ödeme, yeniden yönlendirme ile doğrudan veya bir token ile yapılmalıdır."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 msgstr "Ödeme jetonu geçersiz"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 msgstr "(%d) numaralı ödeme işleminin tutarı negatiftir."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 msgstr "Sağlanan sipariş veya erişim anahtarı geçersiz."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 msgstr "Sağlanan partner_id beklenenden farklı."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The saved order could not be retrieved."
 msgstr "Kaydedilen sipariş alınamadı."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
@@ -456,13 +456,13 @@ msgstr ""
 "kalan ödenmemiş tutarına karşılık gelmiyor (%s)."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "There are online payments that were missing in your view."
 msgstr "Görünümünüzde eksik olan çevrim içi ödemeler var."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -471,7 +471,7 @@ msgstr ""
 "Sunucu ile ilgili bir sorun var. Sipariş çevrim içi ödeme durumu alınamıyor."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -481,7 +481,7 @@ msgstr ""
 "getirilemiyor. Bu sipariş için çevrim içi ödeme olmadığından emin misiniz?"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
@@ -490,7 +490,7 @@ msgstr ""
 "yoktur."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 msgstr "Bu sipariş için ödenecek bir tutar yok."
@@ -506,7 +506,7 @@ msgid "To Pay"
 msgstr "Ödenecek"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid ""
 "To use an online payment method in a POS config, it must have at least one "
@@ -517,7 +517,7 @@ msgstr ""
 "ödeme sağlayıcısına sahip olması gerekir."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr "Oturumu kapatılmış müşteriler için tokenizasyon kullanılamaz."
@@ -538,7 +538,7 @@ msgid "Type"
 msgstr "Tip"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Updated online payments"
 msgstr "Güncellenmiş çevrim içi ödemeler"
@@ -553,7 +553,7 @@ msgstr ""
 "sağlayıcıları ile bir web sayfasında yapılan ödemeler)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Yes"
 msgstr "Evet"

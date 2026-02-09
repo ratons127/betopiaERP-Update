@@ -26,7 +26,7 @@ class TestDeleteEvents(TestCommon):
         self.create_events_for_tests()
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_delete_simple_event_from_BetopiaERP_organizer_calendar(self, mock_delete):
+    def test_delete_simple_event_from_betopiaerp_organizer_calendar(self, mock_delete):
         event_id = self.simple_event.microsoft_id
 
         self.simple_event.with_user(self.organizer_user).unlink()
@@ -41,7 +41,7 @@ class TestDeleteEvents(TestCommon):
         )
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_delete_simple_event_from_BetopiaERP_attendee_calendar(self, mock_delete):
+    def test_delete_simple_event_from_betopiaerp_attendee_calendar(self, mock_delete):
         event_id = self.simple_event.microsoft_id
 
         self.simple_event.with_user(self.attendee_user).unlink()
@@ -56,7 +56,7 @@ class TestDeleteEvents(TestCommon):
         )
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_archive_simple_event_from_BetopiaERP_organizer_calendar(self, mock_delete):
+    def test_archive_simple_event_from_betopiaerp_organizer_calendar(self, mock_delete):
         event_id = self.simple_event.microsoft_id
 
         self.simple_event.with_user(self.organizer_user).write({'active': False})
@@ -72,7 +72,7 @@ class TestDeleteEvents(TestCommon):
         )
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_archive_simple_event_from_BetopiaERP_attendee_calendar(self, mock_delete):
+    def test_archive_simple_event_from_betopiaerp_attendee_calendar(self, mock_delete):
         event_id = self.simple_event.microsoft_id
 
         self.simple_event.with_user(self.attendee_user).write({'active': False})
@@ -139,8 +139,8 @@ class TestDeleteEvents(TestCommon):
         """
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_delete_one_event_from_recurrence_from_BetopiaERP_calendar(self, mock_delete):
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+    def test_delete_one_event_from_recurrence_from_betopiaerp_calendar(self, mock_delete):
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
         # arrange
         idx = 2
@@ -160,8 +160,8 @@ class TestDeleteEvents(TestCommon):
         )
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_delete_first_event_from_recurrence_from_BetopiaERP_calendar(self, mock_delete):
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+    def test_delete_first_event_from_recurrence_from_betopiaerp_calendar(self, mock_delete):
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
         # arrange
         idx = 0
@@ -232,7 +232,7 @@ class TestDeleteEvents(TestCommon):
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_delete_one_event_and_future_from_recurrence_from_outlook_calendar(self, mock_get_events):
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
         # arrange
         idx = range(4, self.recurrent_events_count)
@@ -283,11 +283,11 @@ class TestDeleteEvents(TestCommon):
         """
 
     @patch.object(MicrosoftCalendarService, 'delete')
-    def test_delete_single_event_from_recurrence_from_BetopiaERP_calendar(self, mock_delete):
+    def test_delete_single_event_from_recurrence_from_betopiaerp_calendar(self, mock_delete):
         """
         Deletes the base_event of a recurrence and checks if the event was archived and the recurrence was updated.
         """
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
         # arrange
         idx = 0
@@ -324,7 +324,7 @@ class TestDeleteEvents(TestCommon):
         # Ensure that synchronization is paused, delete wasn't called and record doesn't exist anymore.
         self.assertFalse(self.organizer_user.microsoft_synchronization_stopped)
         self.assertEqual(self.organizer_user._get_microsoft_sync_status(), "sync_paused")
-        self.assertFalse(self.simple_event.exists(), "Event must be deleted from betopiaerp even though sync configuration is off")
+        self.assertFalse(self.simple_event.exists(), "Event must be deleted from BetopiaERP even though sync configuration is off")
         mock_delete.assert_not_called()
 
     @patch.object(MicrosoftCalendarService, 'delete')

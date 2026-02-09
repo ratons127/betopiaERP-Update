@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     click,
     dblclick,
@@ -8,8 +8,8 @@ import {
     waitFor,
     waitForNone,
     manuallyDispatchProgrammaticEvent,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { contains } from "@web/../tests/web_test_helpers";
 import { base64Img, setupEditor } from "./_helpers/editor";
 import { getContent, moveSelectionOutsideEditor, setContent } from "./_helpers/selection";
@@ -559,10 +559,10 @@ test("can add link on an image", async () => {
     await click("button[name='link']");
     await animationFrame();
 
-    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://BetopiaERP.com/");
+    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://betopiaerp.com/");
     await animationFrame();
     expect(img.parentElement.tagName).toBe("A");
-    expect(img.parentElement).toHaveAttribute("href", "http://BetopiaERP.com/");
+    expect(img.parentElement).toHaveAttribute("href", "http://betopiaerp.com/");
 });
 
 test("can undo adding link to image", async () => {
@@ -574,7 +574,7 @@ test("can undo adding link to image", async () => {
     await waitFor(".o-we-toolbar");
     await click("button[name='link']");
     await animationFrame();
-    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://BetopiaERP.com/");
+    await contains(".o-we-linkpopover input.o_we_href_input_link").fill("http://betopiaerp.com/");
     await animationFrame();
     expect(img.parentElement.tagName).toBe("A");
 

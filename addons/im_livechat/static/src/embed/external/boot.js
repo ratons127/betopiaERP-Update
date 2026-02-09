@@ -1,7 +1,7 @@
 import { makeRoot, makeShadow } from "@im_livechat/embed/common/boot_helpers";
 import { canLoadLivechat } from "@im_livechat/embed/common/misc";
 
-import { mount, whenReady } from "@BetopiaERP/owl";
+import { mount, whenReady } from "@betopiaerp/owl";
 
 import { loadBundle } from "@web/core/assets";
 import { appTranslateFn } from "@web/core/l10n/translation";
@@ -21,7 +21,7 @@ import { session } from "@web/session";
     }
     const env = makeEnv();
     await startServices(env);
-    BetopiaERP.isReady = true;
+    betopiaerp.isReady = true;
     const target = await makeShadow(makeRoot(document.body));
     env.services["discuss.rtc"].rootEl = target;
     await mount(MainComponentsContainer, target, {

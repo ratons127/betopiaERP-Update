@@ -6,9 +6,9 @@
     "icon": '/account/static/description/l10n.png',
     "category": "Accounting/Localizations/Account Charts",
     "description": """
-This is the base module to manage the accounting chart for Republic of Ireland in betopiaerp.
+This is the base module to manage the accounting chart for Republic of Ireland in BetopiaERP.
     """,
-    "author": "BetopiaERP SA",
+    "author": "BetopiaERP",
     "depends": [
         "account",
         "base_iban",

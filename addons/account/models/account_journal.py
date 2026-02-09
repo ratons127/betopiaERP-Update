@@ -76,7 +76,7 @@ class AccountJournal(models.Model):
             for model in self._fields['invoice_reference_model'].get_values(self.env):
                 if model.startswith(country_code):
                     return model
-        return 'BetopiaERP'
+        return 'betopiaerp'
 
     def _get_default_account_domain(self):
         return """[
@@ -160,7 +160,7 @@ class AccountJournal(models.Model):
         string="Communication Standard",
         required=True,
         selection=[
-            ('BetopiaERP', "Full Reference (INV/2024/00001)"),
+            ('betopiaerp', "Full Reference (INV/2024/00001)"),
             ('euro', "European (RF83INV202400001)"),
             ('number', "Numbers only (202400001)"),
         ],
@@ -212,7 +212,7 @@ class AccountJournal(models.Model):
         inverse_name='journal_id',
         copy=False,
         check_company=True,
-        help="Manual: Get paid by any method outside of betopiaerp.\n"
+        help="Manual: Get paid by any method outside of BetopiaERP.\n"
         "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
         "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
         "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
@@ -227,8 +227,8 @@ class AccountJournal(models.Model):
         inverse_name='journal_id',
         copy=False,
         check_company=True,
-        help="Manual: Pay by any method outside of betopiaerp.\n"
-        "Check: Pay bills by check and print it from betopiaerp.\n"
+        help="Manual: Pay by any method outside of BetopiaERP.\n"
+        "Check: Pay bills by check and print it from BetopiaERP.\n"
         "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
     )
     profit_account_id = fields.Many2one(

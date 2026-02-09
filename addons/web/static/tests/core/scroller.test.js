@@ -1,8 +1,8 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { getService, mountWithCleanup } from "@web/../tests/web_test_helpers";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { browser } from "@web/core/browser/browser";
 import { scrollTo } from "@web/core/utils/scrolling";
 import { WebClient } from "@web/webclient/webclient";
@@ -534,7 +534,7 @@ test("scroll to anchor from load", async () => {
         static path = "my_component";
     }
     registry.category("actions").add("my_component", MyComponent);
-    redirect("/BetopiaERP/my_component#scrollToHere");
+    redirect("/betopiaerp/my_component#scrollToHere");
     await mountWithCleanup(WebClient);
     await animationFrame();
 

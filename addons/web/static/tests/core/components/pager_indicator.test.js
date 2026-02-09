@@ -1,9 +1,9 @@
 import { PagerIndicator } from "@web/core/pager/pager_indicator";
 import { mountWithCleanup, patchWithCleanup } from "../../web_test_helpers";
 import { config as transitionConfig } from "@web/core/transition";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { PAGER_UPDATED_EVENT, pagerBus } from "@web/core/pager/pager";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 
 test("displays the pager indicator", async () => {
     patchWithCleanup(transitionConfig, { disabled: true });

@@ -3,8 +3,8 @@ import {
     loadDefaultEmbedConfig,
 } from "@im_livechat/../tests/livechat_test_helpers";
 import { click, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { press, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { press, waitFor } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     contains,

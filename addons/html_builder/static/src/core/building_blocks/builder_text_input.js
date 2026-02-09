@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { pick } from "@web/core/utils/objects";
 import { BuilderTextInputBase, textInputBasePassthroughProps } from "./builder_text_input_base";
 import {

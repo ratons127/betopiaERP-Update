@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, onMounted, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, onMounted, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,
@@ -414,7 +414,7 @@ test("test next action on display_notification client action", async () => {
 });
 
 test("test reload client action", async () => {
-    redirect("/BetopiaERP?test=42");
+    redirect("/betopiaerp?test=42");
     browser.location.search = "?test=42";
 
     patchWithCleanup(browser.history, {
@@ -465,19 +465,19 @@ test("test reload client action", async () => {
     });
     await runAllTimers();
     expect.verifySteps([
-        "replaceState /BetopiaERP?test=42",
+        "replaceState /betopiaerp?test=42",
         "window_reload",
-        "pushState /BetopiaERP/action-2",
+        "pushState /betopiaerp/action-2",
         "window_reload",
-        "pushState /BetopiaERP?menu_id=1",
+        "pushState /betopiaerp?menu_id=1",
         "window_reload",
-        "pushState /BetopiaERP/action-1?menu_id=2",
+        "pushState /betopiaerp/action-1?menu_id=2",
         "window_reload",
     ]);
 });
 
 test("test home client action", async () => {
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
     browser.location.search = "";
 
     patchWithCleanup(browser.location, {
@@ -509,7 +509,7 @@ test("test display_exception client action", async () => {
             code: 0,
             message: "BetopiaERP Server Error",
             data: {
-                name: `BetopiaERP.exceptions.UserError`,
+                name: `betopiaerp.exceptions.UserError`,
                 debug: "traceback",
                 arguments: [],
                 context: {},

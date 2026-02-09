@@ -201,7 +201,7 @@ class AccountMove(models.Model):
         invoice_lines_vals = [
             {
                 'NrWierszaFa': index + 1,
-                'UU_ID': f"BetopiaERP-line-{line.id}",
+                'UU_ID': f"betopiaerp-line-{line.id}",
                 'P_7': line.name,
                 'P_8A': line.product_uom_id.name or 'szt.',
                 'P_8B': line.quantity * sign,
@@ -270,7 +270,7 @@ class AccountMove(models.Model):
 
     def _l10n_pl_edi_get_status_mapping(self):
         """
-        Returns a dictionary mapping KSeF status codes to (BetopiaERP_status, message).
+        Returns a dictionary mapping KSeF status codes to (betopiaerp_status, message).
         """
         return {
             100: ('sent', self.env._("KSeF Status: Invoice accepted for further processing (Code: 100).")),

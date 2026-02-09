@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDateTimePicker } from "@web/core/datetime/datetime_picker_hook";
 

@@ -31,6 +31,6 @@ Allow users to sign up and reset their password
             'auth_signup/static/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

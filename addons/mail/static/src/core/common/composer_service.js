@@ -1,10 +1,10 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 export const composerService = {
     dependencies: ["mail.store", "legacy_multi_tab"],
     /**
-     * Enable Html composer with: BetopiaERP.__WOWL_DEBUG__.root.env.services["mail.composer"].setHtmlComposer()
+     * Enable Html composer with: betopiaerp.__WOWL_DEBUG__.root.env.services["mail.composer"].setHtmlComposer()
      * @param {import("@web/env").BetopiaERPEnv}
      * @param {Partial<import("services").Services>} services
      */

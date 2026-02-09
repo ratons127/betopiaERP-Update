@@ -1,4 +1,4 @@
-import { htmlEscape, markup } from "@BetopiaERP/owl";
+import { htmlEscape, markup } from "@betopiaerp/owl";
 
 import { Interaction } from "@web/public/interaction";
 import { registry } from "@web/core/registry";

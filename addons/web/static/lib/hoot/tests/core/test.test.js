@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { parseUrl } from "../local_helpers";
 
 import { Suite } from "../../core/suite";

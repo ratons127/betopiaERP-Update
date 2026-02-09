@@ -20,7 +20,7 @@ import {
     toRaw,
     useSubEnv,
     reactive,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { session } from "@web/session";
 
 /**

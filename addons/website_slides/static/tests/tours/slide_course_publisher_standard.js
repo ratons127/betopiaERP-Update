@@ -45,7 +45,7 @@ registerWebsitePreviewTour(
             },
             {
                 content: "eLearning: set description",
-                trigger: '.o_field_html[name="description"] .BetopiaERP-editor-editable div.o-paragraph',
+                trigger: '.o_field_html[name="description"] .betopiaerp-editor-editable div.o-paragraph',
                 run: "editor Déboulonnate is very common at Fleurus",
             },
             {

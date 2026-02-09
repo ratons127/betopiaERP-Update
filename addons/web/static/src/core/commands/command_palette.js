@@ -18,7 +18,7 @@ import {
     useState,
     markRaw,
     useExternalListener,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 const DEFAULT_PLACEHOLDER = _t("Search...");
 const DEFAULT_EMPTY_MESSAGE = _t("No result found");

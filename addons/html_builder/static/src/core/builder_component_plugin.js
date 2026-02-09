@@ -22,7 +22,7 @@ import { Img } from "./img";
 import { BuilderUrlPicker } from "./building_blocks/builder_urlpicker";
 import { BuilderFontFamilyPicker } from "./building_blocks/builder_fontfamilypicker";
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /**
  * @typedef { Object } BuilderComponentShared
  * @property { BuilderComponentPlugin['getComponents'] } getComponents

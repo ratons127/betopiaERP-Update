@@ -1,4 +1,4 @@
-import { Component, markup, onMounted, useRef } from "@BetopiaERP/owl";
+import { Component, markup, onMounted, useRef } from "@betopiaerp/owl";
 import { getActiveHotkey } from "@web/core/hotkeys/hotkey_service";
 import {
     clickableBuilderComponentProps,

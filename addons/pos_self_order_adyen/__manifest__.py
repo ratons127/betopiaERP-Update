@@ -5,6 +5,6 @@
     "category": "Sales/Point Of Sale",
     "depends": ["pos_adyen", "pos_self_order"],
     "auto_install": True,
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

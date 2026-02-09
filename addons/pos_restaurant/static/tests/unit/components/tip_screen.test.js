@@ -1,4 +1,4 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { TipScreen } from "@pos_restaurant/app/screens/tip_screen/tip_screen";
 import { mountWithCleanup, MockServer } from "@web/../tests/web_test_helpers";
 import { setupPosEnv, getFilledOrder } from "@point_of_sale/../tests/unit/utils";

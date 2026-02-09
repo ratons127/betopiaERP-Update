@@ -6,7 +6,7 @@ import { normalizeHTML, parseHTML } from "@html_editor/utils/html";
 import { MassMailingIframe } from "@mass_mailing/iframe/mass_mailing_iframe";
 import { ThemeSelector } from "@mass_mailing/themes/theme_selector/theme_selector";
 import { getCSSRules, toInline } from "@mail/views/web/fields/html_mail_field/convert_inline";
-import { onWillUpdateProps, status, toRaw, useEffect, useRef } from "@BetopiaERP/owl";
+import { onWillUpdateProps, status, toRaw, useEffect, useRef } from "@betopiaerp/owl";
 import { loadBundle } from "@web/core/assets";
 import { Domain } from "@web/core/domain";
 import { registry } from "@web/core/registry";

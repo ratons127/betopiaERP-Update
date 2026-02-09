@@ -8,7 +8,7 @@ import {
     useEffect,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 // Allows to disable transitions globally, useful for testing (and maybe for
 // a reduced motion setting in the future?)

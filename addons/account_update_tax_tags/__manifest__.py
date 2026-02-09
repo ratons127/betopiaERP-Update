@@ -16,6 +16,6 @@
         'views/res_config_settings_views.xml',
         'wizard/account_update_tax_tags_wizard.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -47,7 +47,7 @@ class MailingListSubscribeOptionPlugin extends Plugin {
                         // TODO properly save and redirect.
                         await this.dependencies.savePlugin.save();
                         window.location.href =
-                            "/BetopiaERP/action-mass_mailing.action_view_mass_mailing_lists";
+                            "/betopiaerp/action-mass_mailing.action_view_mass_mailing_lists";
                     },
                     cancel: () => cancelDrop = true,
                 }, { onClose: resolve });

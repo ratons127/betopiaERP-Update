@@ -73,7 +73,7 @@ en BetopiaERP):
 11010101 Caja General
     """,
     'author': 'Gustavo Valverde - iterativo | Consultores de BetopiaERP (http://iterativo.do)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
         'base_iban',

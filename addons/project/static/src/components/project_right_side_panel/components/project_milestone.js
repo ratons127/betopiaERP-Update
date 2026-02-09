@@ -1,6 +1,6 @@
 import { formatDate } from "@web/core/l10n/dates";
 import { useService } from '@web/core/utils/hooks';
-import { Component, useState, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, useState, onWillUpdateProps } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 

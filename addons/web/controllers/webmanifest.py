@@ -30,7 +30,7 @@ class WebManifest(http.Controller):
             if data:
                 shortcuts.append({
                     'name': module.display_name,
-                    'url': '/BetopiaERP?menu_id=%s' % data.mapped('res_id')[0],
+                    'url': '/betopiaerp?menu_id=%s' % data.mapped('res_id')[0],
                     'description': module.summary,
                     'icons': [{
                         'sizes': '100x100',
@@ -44,8 +44,8 @@ class WebManifest(http.Controller):
         web_app_name = request.env['ir.config_parameter'].sudo().get_param('web.web_app_name', 'BetopiaERP')
         manifest = {
             'name': web_app_name,
-            'scope': '/BetopiaERP',
-            'start_url': '/BetopiaERP',
+            'scope': '/betopiaerp',
+            'start_url': '/betopiaerp',
             'display': 'standalone',
             'background_color': '#714B67',
             'theme_color': '#714B67',
@@ -53,7 +53,7 @@ class WebManifest(http.Controller):
         }
         icon_sizes = ['192x192', '512x512']
         manifest['icons'] = [{
-            'src': '/web/static/img/BetopiaERP-icon-%s.png' % size,
+            'src': '/web/static/img/betopiaerp-icon-%s.png' % size,
             'sizes': size,
             'type': 'image/png',
         } for size in icon_sizes]
@@ -76,26 +76,26 @@ class WebManifest(http.Controller):
             self._get_service_worker_content(),
             [
                 ('Content-Type', 'text/javascript'),
-                ('Service-Worker-Allowed', '/BetopiaERP'),
+                ('Service-Worker-Allowed', '/betopiaerp'),
             ]
         )
         return response
 
     def _get_service_worker_content(self):
-        """ Returns a ServiceWorker javascript file scoped for the backend (aka. '/BetopiaERP')
+        """ Returns a ServiceWorker javascript file scoped for the backend (aka. '/betopiaerp')
         """
         with file_open('web/static/src/service_worker.js') as f:
             body = f.read()
             return body
 
     def _icon_path(self):
-        return 'web/static/img/BetopiaERP-icon-192x192.png'
+        return 'web/static/img/betopiaerp-icon-192x192.png'
 
-    @http.route('/BetopiaERP/offline', type='http', auth='public', methods=['GET'], readonly=True)
+    @http.route('/betopiaerp/offline', type='http', auth='public', methods=['GET'], readonly=True)
     def offline(self):
         """ Returns the offline page delivered by the service worker """
         return request.render('web.webclient_offline', {
-            'BetopiaERP_icon': base64.b64encode(file_open(self._icon_path(), 'rb').read())
+            'betopiaerp_icon': base64.b64encode(file_open(self._icon_path(), 'rb').read())
         })
 
     @http.route('/scoped_app', type='http', auth='public', methods=['GET'])
@@ -105,7 +105,7 @@ class WebManifest(http.Controller):
         path = f"/{unquote(path)}"
         scoped_app_values = {
             'app_id': app_id,
-            'apple_touch_icon': '/web/static/img/BetopiaERP-icon-ios.png',
+            'apple_touch_icon': '/web/static/img/betopiaerp-icon-ios.png',
             'app_name': app_name,
             'path': path,
             'safe_manifest_url': "/web/manifest.scoped_app_manifest?" + urlencode({
@@ -144,7 +144,7 @@ class WebManifest(http.Controller):
     @http.route('/web/manifest.scoped_app_manifest', type='http', auth='public', methods=['GET'])
     def scoped_app_manifest(self, app_id, path, app_name=''):
         """ Returns a WebManifest dedicated to the scope of the given app. A custom scope and start
-            url are set to make sure no other installed PWA can overlap the scope (e.g. /BetopiaERP)
+            url are set to make sure no other installed PWA can overlap the scope (e.g. /betopiaerp)
         """
         path = unquote(path)
         app_name = unquote(app_name) if app_name else self._get_scoped_app_name(app_id)

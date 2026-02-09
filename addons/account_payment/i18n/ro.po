@@ -8,7 +8,7 @@
 # Martin Trigaux, 2022
 # Cozmin Candea <office@terrabit.ro>, 2023
 # Dorin Hongu <dhongu@gmail.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>, 2025.
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-10-31 12:40+0000\n"
 "Last-Translator: Cuciureanu Larisa <larisa.cuciureanu@nexterp.ro>\n"
-"Language-Team: Romanian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Romanian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_payment/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
@@ -38,7 +38,7 @@ msgstr ""
 "class=\"text-primary\">%(date)s</strong>"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "%s day(s) overdue"
 msgstr "%s zi(le) întârziere"
@@ -129,7 +129,7 @@ msgstr ""
 "furnizorului de plată."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr ""
@@ -146,13 +146,13 @@ msgstr ""
 "de două ori."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 msgstr "O tranzacție de plată cu referința %s există deja."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 msgstr "Un jeton este necesar pentru a crea o nouă tranzacție de plată."
@@ -311,7 +311,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
@@ -339,7 +339,7 @@ msgid "Invoice(s)"
 msgstr "Facturi"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoice_ids
 msgid "Invoices"
@@ -409,25 +409,25 @@ msgstr ""
 "tranzacțiile (în loc de a captura suma) nu sunt disponibile."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr "Opțiunea de plată online nu este activată în Configurare."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "Facturile restante trebuie să aparțină aceleiași companii."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 msgstr "Facturile restante trebuie să fie în aceeași monedă."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 msgstr "Facturile restante trebuie să aibă același partener."
@@ -532,13 +532,13 @@ msgid "Payments"
 msgstr "Plăți"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr "Vă rugăm să vă autentificați pentru a plăti facturile restante"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid "Provider"
 msgstr "Furnizor"
@@ -550,7 +550,7 @@ msgid "Reference"
 msgstr "Referință"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -610,13 +610,13 @@ msgid "Suitable Payment Token"
 msgstr "Token de plată potrivit"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
 msgstr "Tokenul de acces este nevalid."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
@@ -629,13 +629,13 @@ msgid "The journal in which the successful transactions are posted."
 msgstr "Jurnalul în care tranzacțiile reușite sunt postate."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 msgid "The payment related to transaction %(ref)s has been posted: %(link)s"
 msgstr "Plata aferentă tranzacției %(ref)s a fost înregistrată: %(link)s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 msgstr "Parametrii furnizați sunt nevalizi."
@@ -646,13 +646,13 @@ msgid "The source payment of related refund payments"
 msgstr "Sursa plăților de rambursare asociate"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "Există tranzacții în așteptare pentru această factură."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 msgstr "Nu există sumă de plată."
@@ -682,25 +682,25 @@ msgid "There was en error processing your payment: invalid credit card ID."
 msgstr "A apărut o eroare la procesarea plății: ID card de credit invalid."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Această factură nu poate fi plătită online."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 msgstr "Această factură a fost deja plătită."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Această factură nu este validată."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 msgstr "Aceasta nu este o factură de ieșire."
@@ -734,7 +734,7 @@ msgid "Void Transaction"
 msgstr "Tranzacție nulă"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the "
@@ -746,7 +746,7 @@ msgstr ""
 "Furnizor(i) legați: %s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
@@ -756,7 +756,7 @@ msgstr ""
 "metodă de plată."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
@@ -767,13 +767,13 @@ msgstr ""
 "Furnizori legați: %s"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due in %s day(s)"
 msgstr "scadent în %s zi(le)"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due today"
 msgstr "scadent astăzi"

@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts, waitFor } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts, waitFor } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     MockServer,
     clickSave,
@@ -725,7 +725,7 @@ test("A new form view can be reloaded after a failed one", async () => {
     expect(".o_form_view").toHaveCount(1, { message: "The form view should be displayed" });
     expect(".o_last_breadcrumb_item").toHaveText("First record");
     await runAllTimers(); // wait for the update of the router
-    expect(browser.location.pathname).toBe("/BetopiaERP/action-3/1");
+    expect(browser.location.pathname).toBe("/betopiaerp/action-3/1");
 
     // Delete the current record
     await contains(".o_cp_action_menus .fa-cog").click();
@@ -735,12 +735,12 @@ test("A new form view can be reloaded after a failed one", async () => {
     // The form view is automatically switched to the next record
     expect(".o_last_breadcrumb_item").toHaveText("Second record");
     await runAllTimers(); // wait for the update of the router
-    expect(browser.location.pathname).toBe("/BetopiaERP/action-3/2");
+    expect(browser.location.pathname).toBe("/betopiaerp/action-3/2");
 
     // Go back to the previous (now deleted) record
     browser.history.back();
     await runAllTimers();
-    expect(browser.location.pathname).toBe("/BetopiaERP/action-3/1");
+    expect(browser.location.pathname).toBe("/betopiaerp/action-3/1");
     // As the previous one is deleted, we go back to the list
     await runAllTimers(); // wait for the update of the router
     expect(".o_list_view").toHaveCount(1, { message: "should still display the list view" });
@@ -1934,7 +1934,7 @@ test("current_action doesn't contains _originalAction", async () => {
         return action;
     };
     registry.category("actions").add("myAction", myAction);
-    redirect("/BetopiaERP/myAction");
+    redirect("/betopiaerp/myAction");
     await mountWithCleanup(WebClient);
 
     await animationFrame();
@@ -1961,7 +1961,7 @@ test("current_action doesn't contains _originalAction", async () => {
 
 test.tags("desktop");
 test("destroy action with lazy loaded controller", async () => {
-    redirect("/BetopiaERP/action-3/2");
+    redirect("/betopiaerp/action-3/2");
 
     await mountWithCleanup(WebClient);
     await animationFrame(); // blank component

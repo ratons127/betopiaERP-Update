@@ -40,7 +40,7 @@ const prepareUpdateLockedEditables = new Set();
 export function prepareUpdate(...args) {
     const closestRoot =
         args.length &&
-        ancestors(args[0]).find((ancestor) => ancestor.classList.contains("BetopiaERP-editor-editable"));
+        ancestors(args[0]).find((ancestor) => ancestor.classList.contains("betopiaerp-editor-editable"));
     const isPrepareUpdateLocked = closestRoot && prepareUpdateLockedEditables.has(closestRoot);
     const hash = (Math.random() + 1).toString(36).substring(7);
     const options = {
@@ -92,7 +92,7 @@ export function prepareUpdate(...args) {
         const left = getState(el, offset, DIRECTIONS.LEFT);
         const right = getState(el, offset, DIRECTIONS.RIGHT, left.cType);
         if (options.debug) {
-            const editable = el && closestElement(el, ".BetopiaERP-editor-editable");
+            const editable = el && closestElement(el, ".betopiaerp-editor-editable");
             const oldEditableHTML =
                 (editable && editable.innerHTML.replaceAll(" ", "_").replaceAll("\u200B", "ZWS")) ||
                 "";
@@ -414,7 +414,7 @@ export function restoreState(prevStateData, debug = false) {
     const ruleHashCode = restoreStateRuleHashCode(direction, cType1, cType2);
     const rule = allRestoreStateRules.get(ruleHashCode);
     if (debug) {
-        const editable = closestElement(node, ".BetopiaERP-editor-editable");
+        const editable = closestElement(node, ".betopiaerp-editor-editable");
         console.log(
             "%c" +
                 node.textContent.replaceAll(" ", "_").replaceAll("\u200B", "ZWS") +

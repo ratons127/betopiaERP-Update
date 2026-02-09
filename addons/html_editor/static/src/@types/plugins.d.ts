@@ -48,7 +48,7 @@ declare module "plugins" {
     import { shift_tab_overrides, tab_overrides, TabulationShared } from "@html_editor/main/tabulation_plugin";
     import { can_display_toolbar, collapsed_selection_toolbar_predicate, toolbar_groups, toolbar_items, toolbar_namespaces, ToolbarShared } from "@html_editor/main/toolbar/toolbar_plugin";
 
-    import { CollaborationBetopiaERPShared } from "@html_editor/others/collaboration/collaboration_BetopiaERP_plugin";
+    import { CollaborationBetopiaERPShared } from "@html_editor/others/collaboration/collaboration_betopiaerp_plugin";
     import { CollaborationShared, external_history_step_handlers } from "@html_editor/others/collaboration/collaboration_plugin";
     import { DynamicPlaceholderShared } from "@html_editor/others/dynamic_placeholder_plugin";
     import { EmbeddedComponentShared, mount_component_handlers, post_mount_component_handlers } from "@html_editor/others/embedded_component_plugin";

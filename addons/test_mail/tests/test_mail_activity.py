@@ -521,7 +521,7 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
             ('id', 'in', self.test_activities.ids),
             ('res_model', '=', self.test_lead_records._name),
         ])
-        self.assertEqual(len(test_with_removed), 4, 'Even with ACL check, activities linked to removed records are kept if assigned to the user (see BetopiaERP/BetopiaERP#112126)')
+        self.assertEqual(len(test_with_removed), 4, 'Even with ACL check, activities linked to removed records are kept if assigned to the user (see betopiaerp/betopiaerp#112126)')
 
         # if not assigned -> should filter out
         self.env.invalidate_all()
@@ -944,7 +944,7 @@ class TestTours(HttpCase):
             """,
         })
         self.start_tour(
-            "/BetopiaERP?debug=1",
+            "/betopiaerp?debug=1",
             "mail_activity_view",
             login="admin",
         )

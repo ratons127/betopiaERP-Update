@@ -1,4 +1,4 @@
-import { manuallyDispatchProgrammaticEvent, animationFrame } from "@BetopiaERP/hoot-dom";
+import { manuallyDispatchProgrammaticEvent, animationFrame } from "@betopiaerp/hoot-dom";
 
 /**
  * @param {Node} node

@@ -1,4 +1,4 @@
-import { expect, test, waitFor } from "@BetopiaERP/hoot";
+import { expect, test, waitFor } from "@betopiaerp/hoot";
 import {
     contains,
     getService,
@@ -7,12 +7,12 @@ import {
     onRpc,
 } from "@web/../tests/web_test_helpers";
 
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
 import { FileUploadProgressContainer } from "@web/core/file_upload/file_upload_progress_container";
 import { FileUploadProgressRecord } from "@web/core/file_upload/file_upload_progress_record";
 import { useService } from "@web/core/utils/hooks";
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 class FileUploadProgressTestRecord extends FileUploadProgressRecord {
     static template = xml`

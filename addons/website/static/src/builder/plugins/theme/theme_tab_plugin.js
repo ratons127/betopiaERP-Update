@@ -15,7 +15,7 @@ import {
     convertHslToRgb,
     convertRgbToHsl,
 } from "@web/core/utils/colors";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { CustomizeWebsiteVariableAction } from "../customize_website_plugin";
 import { EditHeadBodyDialog } from "@website/components/edit_head_body_dialog/edit_head_body_dialog";

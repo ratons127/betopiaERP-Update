@@ -1,4 +1,4 @@
-import { useRef, useState, onPatched } from "@BetopiaERP/owl";
+import { useRef, useState, onPatched } from "@betopiaerp/owl";
 import { useAutofocus } from "@web/core/utils/hooks";
 import { debounce } from "@web/core/utils/timing";
 import { TModelInput } from "@point_of_sale/app/components/inputs/t_model_input";

@@ -19,9 +19,9 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press, queryFirst, queryValue } from "@BetopiaERP/hoot-dom";
-import { Deferred, mockDate, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press, queryFirst, queryValue } from "@betopiaerp/hoot-dom";
+import { Deferred, mockDate, tick } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -561,7 +561,7 @@ test("mention 2 different channels that have the same name", async () => {
 test("Post a message containing an email address followed by a mention on another line", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -573,9 +573,9 @@ test("Post a message containing an email address followed by a mention on anothe
     });
     await start();
     await openDiscuss(channelId);
-    await insertText(".o-mail-Composer-input", "email@BetopiaERP.com\n@Te");
+    await insertText(".o-mail-Composer-input", "email@betopiaerp.com\n@Te");
     await click(".o-mail-Composer-suggestion");
-    await contains(".o-mail-Composer-input", { value: "email@BetopiaERP.com\n@TestPartner " });
+    await contains(".o-mail-Composer-input", { value: "email@betopiaerp.com\n@TestPartner " });
     await press("Enter");
     await contains(
         `.o-mail-Message-body .o_mail_redirect[data-oe-id="${partnerId}"][data-oe-model="res.partner"]`,
@@ -788,8 +788,8 @@ test("Opening thread with needaction messages should mark all messages of thread
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
-    await triggerEvents(".o-mail-Composer-html.BetopiaERP-editor-editable", ["blur", "focusout"]);
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
+    await triggerEvents(".o-mail-Composer-html.betopiaerp-editor-editable", ["blur", "focusout"]);
     await click("button", { text: "Inbox" });
     await contains("h4", { text: "Congratulations, your inbox is empty" });
     const messageId = pyEnv["mail.message"].create({

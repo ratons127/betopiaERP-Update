@@ -13,6 +13,6 @@ Show your company address/partner address on Google Maps. Configure an API key i
         'views/google_map_templates.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

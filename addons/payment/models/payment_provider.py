@@ -68,7 +68,7 @@ class PaymentProvider(models.Model):
              "provider's database, allowing the customer to reuse it for a next purchase.")
     capture_manually = fields.Boolean(
         string="Capture Amount Manually",
-        help="Capture the amount from betopiaerp, when the delivery is completed.\n"
+        help="Capture the amount from BetopiaERP, when the delivery is completed.\n"
              "Use this if you want to charge your customers cards only when\n"
              "you are sure you can ship the goods to them.")
     allow_express_checkout = fields.Boolean(
@@ -171,7 +171,7 @@ class PaymentProvider(models.Model):
     )
     support_refund = fields.Selection(
         string="Refund",
-        help="Refund is a feature allowing to refund customers directly from the payment in betopiaerp.",
+        help="Refund is a feature allowing to refund customers directly from the payment in BetopiaERP.",
         selection=[
             ('none', "Unsupported"),
             ('full_only', "Full Only"),

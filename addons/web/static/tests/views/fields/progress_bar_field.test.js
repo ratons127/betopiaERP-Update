@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, edit, queryOne, queryText, queryValue } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, edit, queryOne, queryText, queryValue } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     defineModels,

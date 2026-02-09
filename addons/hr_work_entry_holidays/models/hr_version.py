@@ -61,7 +61,7 @@ class HrVersion(models.Model):
         return self.env.ref('hr_work_entry.work_entry_type_leave')
 
     def _get_sub_leave_domain(self):
-        # see https://github.com/BetopiaERP/enterprise/pull/15091
+        # see https://github.com/betopiaerp/enterprise/pull/15091
         return super()._get_sub_leave_domain() | Domain('holiday_id.employee_id', 'in', self.employee_id.ids)
 
     @api.model

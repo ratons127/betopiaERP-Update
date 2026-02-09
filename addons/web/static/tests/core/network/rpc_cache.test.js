@@ -1,4 +1,4 @@
-import { Deferred, describe, expect, microTick, test, tick } from "@BetopiaERP/hoot";
+import { Deferred, describe, expect, microTick, test, tick } from "@betopiaerp/hoot";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { RPCCache } from "@web/core/network/rpc_cache";
 import { IDBQuotaExceededError, IndexedDB } from "@web/core/utils/indexed_db";

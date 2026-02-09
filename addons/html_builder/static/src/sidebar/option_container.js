@@ -1,7 +1,7 @@
 import { BorderConfigurator } from "../plugins/border_configurator_option";
 import { ShadowOption } from "../plugins/shadow_option";
 import { getSnippetName, useOptionsSubEnv } from "@html_builder/utils/utils";
-import { onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
 import { useOperation } from "../core/operation_plugin";

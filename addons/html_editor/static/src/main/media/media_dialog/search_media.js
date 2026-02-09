@@ -1,7 +1,7 @@
 import { useDebounced } from "@web/core/utils/timing";
 import { useAutofocus } from "@web/core/utils/hooks";
 
-import { Component, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useState } from "@betopiaerp/owl";
 
 export class SearchMedia extends Component {
     static template = "html_editor.SearchMedia";

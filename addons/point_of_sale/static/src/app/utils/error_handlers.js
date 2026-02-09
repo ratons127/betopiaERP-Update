@@ -1,16 +1,16 @@
 import { registry } from "@web/core/registry";
-import { BetopiaERPExceptionTitleMap, ErrorDialog } from "@web/core/errors/error_dialogs";
+import { betopiaerpExceptionTitleMap, ErrorDialog } from "@web/core/errors/error_dialogs";
 import { ConnectionLostError, RPCError } from "@web/core/network/rpc";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { _t } from "@web/core/l10n/translation";
 
 export function handleRPCError(error, dialog) {
     const { data } = error;
-    if (BetopiaERPExceptionTitleMap.has(error.exceptionName)) {
-        const title = BetopiaERPExceptionTitleMap.get(error.exceptionName).toString();
+    if (betopiaerpExceptionTitleMap.has(error.exceptionName)) {
+        const title = betopiaerpExceptionTitleMap.get(error.exceptionName).toString();
         dialog.add(AlertDialog, { title, body: data.message });
     } else {
-        if (BetopiaERP.debug === "assets") {
+        if (betopiaerp.debug === "assets") {
             dialog.add(ErrorDialog, {
                 traceback: data.message + "\n" + data.debug + "\n",
             });

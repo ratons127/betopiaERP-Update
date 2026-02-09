@@ -3,7 +3,7 @@
 
 {
     'name': 'Saudi Arabia - E-invoicing',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'countries': ['sa'],
     'version': '0.3',
     'depends': [

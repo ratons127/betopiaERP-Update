@@ -10,7 +10,7 @@ from betopiaerp.addons.iot_drivers.tools.helpers import (
     get_identifier,
     get_path_nginx,
     get_version,
-    BetopiaERP_restart,
+    betopiaerp_restart,
     require_db,
     start_nginx_server,
     update_conf,
@@ -27,7 +27,7 @@ def ensure_validity():
 
     This method also sends the certificate end date to the database.
     """
-    inform_database(get_certificate_end_date() or download_BetopiaERP_certificate())
+    inform_database(get_certificate_end_date() or download_betopiaerp_certificate())
 
 
 def get_certificate_end_date():
@@ -68,7 +68,7 @@ def get_certificate_end_date():
     return str(cert_end_date)
 
 
-def download_BetopiaERP_certificate(retry=0):
+def download_betopiaerp_certificate(retry=0):
     """Send a request to BetopiaERP with customer db_uuid and enterprise_code
     to get a true certificate
     """
@@ -81,7 +81,7 @@ def download_BetopiaERP_certificate(retry=0):
         return None
     try:
         response = requests.post(
-            'https://www.betopiaerp.com/BetopiaERP-enterprise/iot/x509',
+            'https://www.BetopiaERP.com/betopiaerp-enterprise/iot/x509',
             json={'params': {'db_uuid': db_uuid, 'enterprise_code': enterprise_code}},
             timeout=95,  # let's encrypt library timeout
         )
@@ -90,7 +90,7 @@ def download_BetopiaERP_certificate(retry=0):
     except (requests.exceptions.RequestException, ValueError) as e:
         _logger.warning("An error occurred while trying to reach betopiaerp.com to get a new certificate: %s", e)
         if retry < 5:
-            return download_BetopiaERP_certificate(retry=retry + 1)
+            return download_betopiaerp_certificate(retry=retry + 1)
         return _logger.exception("Maximum attempt to download the betopiaerp.com certificate reached")
 
     server_error = response_body.get('error')
@@ -126,7 +126,7 @@ def download_BetopiaERP_certificate(retry=0):
     else:
         Path(get_path_nginx(), 'conf', 'nginx-cert.crt').write_text(certificate, encoding='utf-8')
         Path(get_path_nginx(), 'conf', 'nginx-cert.key').write_text(private_key, encoding='utf-8')
-        BetopiaERP_restart(3)
+        betopiaerp_restart(3)
         return None
 
 

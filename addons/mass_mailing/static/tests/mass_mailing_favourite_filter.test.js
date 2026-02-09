@@ -1,4 +1,4 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,
@@ -9,8 +9,8 @@ import {
     clickSave,
     MockServer,
 } from "@web/../tests/web_test_helpers";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
 
 class Mailing extends models.Model {

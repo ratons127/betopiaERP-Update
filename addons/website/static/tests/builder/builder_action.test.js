@@ -1,5 +1,5 @@
-import { xml } from "@BetopiaERP/owl";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { xml } from "@betopiaerp/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     advanceTime,
     animationFrame,
@@ -8,7 +8,7 @@ import {
     press,
     queryOne,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { Plugin } from "@html_editor/plugin";
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { expandToolbar } from "@html_editor/../tests/_helpers/toolbar";

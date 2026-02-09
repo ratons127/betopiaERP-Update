@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { clickOnSave, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 registerWebsitePreviewTour(
     "blog",

@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps, onWillStart, useState, status } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, onWillStart, useState, status } from "@betopiaerp/owl";
 import { DashboardFacet } from "../dashboard_facet/dashboard_facet";
 import { useService, useChildRef, useAutofocus } from "@web/core/utils/hooks";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";

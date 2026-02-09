@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Samadeva admin.BetopiaERP@samadeva.com https://github.com/Samadeva
+Samadeva admin.betopiaerp@samadeva.com https://github.com/Samadeva

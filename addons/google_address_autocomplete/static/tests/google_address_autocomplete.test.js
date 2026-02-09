@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,
@@ -89,7 +89,7 @@ test("correctly fill all standard fields", async () => {
             state_id: 2,
             // this was input by the user
             // save as is
-            street: "BetopiaERP farm 3",
+            street: "betopiaerp farm 3",
             street2: "Ferme 2",
             zip: "1367",
         });
@@ -108,8 +108,8 @@ test("correctly fill all standard fields", async () => {
             <field name="country_id" />
         </form>`,
     });
-    currentInput = "BetopiaERP farm 2";
-    await contains(".o_field_widget[name='street'] input").edit("BetopiaERP farm 2", { confirm: false });
+    currentInput = "betopiaerp farm 2";
+    await contains(".o_field_widget[name='street'] input").edit("betopiaerp farm 2", { confirm: false });
     await runAllTimers();
     expect.verifySteps(["/autocomplete/address"]);
 
@@ -130,8 +130,8 @@ test("correctly fill all standard fields", async () => {
     }
 
     const formerToken = googleSessionToken;
-    currentInput = "BetopiaERP farm 3";
-    await contains(".o_field_widget[name='street'] input").edit("BetopiaERP farm 3", { confirm: false });
+    currentInput = "betopiaerp farm 3";
+    await contains(".o_field_widget[name='street'] input").edit("betopiaerp farm 3", { confirm: false });
     await runAllTimers();
     expect.verifySteps(["/autocomplete/address"]);
     expect(googleSessionToken).not.toBe(formerToken);
@@ -150,7 +150,7 @@ test("fills current field with values of unknown ones", async () => {
         </form>`,
     });
 
-    await contains(".o_field_widget[name='some_char'] input").edit("BetopiaERP farm 2", {
+    await contains(".o_field_widget[name='some_char'] input").edit("betopiaerp farm 2", {
         confirm: false,
     });
     await runAllTimers();
@@ -180,9 +180,9 @@ test("typing in input should make form dirty", async () => {
         resId: 1,
     });
     expect(".o_form_button_save:visible").toHaveCount(0);
-    await contains(".o_field_widget[name='street'] input").edit("BetopiaERP farm 3", { confirm: false });
+    await contains(".o_field_widget[name='street'] input").edit("betopiaerp farm 3", { confirm: false });
     await contains(".o_form_button_save:visible").click();
-    expect.verifySteps([{ street: "BetopiaERP farm 3" }]);
+    expect.verifySteps([{ street: "betopiaerp farm 3" }]);
 });
 
 test("support field mapping in options", async () => {
@@ -198,7 +198,7 @@ test("support field mapping in options", async () => {
         </form>`,
     });
 
-    await contains(".o_field_widget[name='some_char'] input").edit("BetopiaERP farm 2", {
+    await contains(".o_field_widget[name='some_char'] input").edit("betopiaerp farm 2", {
         confirm: false,
     });
     await runAllTimers();

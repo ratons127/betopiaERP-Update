@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { user } from "@web/core/user";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 import { useService } from "@web/core/utils/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 const providerData = {
     google: {

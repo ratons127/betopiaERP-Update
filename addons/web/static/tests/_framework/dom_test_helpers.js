@@ -24,19 +24,19 @@ import {
     select,
     uncheck,
     waitFor,
-} from "@BetopiaERP/hoot";
+} from "@betopiaerp/hoot";
 import { hasTouch } from "@web/core/browser/feature_detection";
 
 /**
- * @typedef {import("@BetopiaERP/hoot").DragHelpers} DragHelpers
- * @typedef {import("@BetopiaERP/hoot").DragOptions} DragOptions
- * @typedef {import("@BetopiaERP/hoot").FillOptions} FillOptions
- * @typedef {import("@BetopiaERP/hoot").InputValue} InputValue
- * @typedef {import("@BetopiaERP/hoot").KeyStrokes} KeyStrokes
- * @typedef {import("@BetopiaERP/hoot").PointerOptions} PointerOptions
- * @typedef {import("@BetopiaERP/hoot").Position} Position
- * @typedef {import("@BetopiaERP/hoot").QueryOptions} QueryOptions
- * @typedef {import("@BetopiaERP/hoot").Target} Target
+ * @typedef {import("@betopiaerp/hoot").DragHelpers} DragHelpers
+ * @typedef {import("@betopiaerp/hoot").DragOptions} DragOptions
+ * @typedef {import("@betopiaerp/hoot").FillOptions} FillOptions
+ * @typedef {import("@betopiaerp/hoot").InputValue} InputValue
+ * @typedef {import("@betopiaerp/hoot").KeyStrokes} KeyStrokes
+ * @typedef {import("@betopiaerp/hoot").PointerOptions} PointerOptions
+ * @typedef {import("@betopiaerp/hoot").Position} Position
+ * @typedef {import("@betopiaerp/hoot").QueryOptions} QueryOptions
+ * @typedef {import("@betopiaerp/hoot").Target} Target
  *
  * @typedef {DragOptions & {
  *  initialPointerMoveDistance?: number;

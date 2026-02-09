@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useDateTimePicker } from "@web/core/datetime/datetime_picker_hook";
 import { useService } from "@web/core/utils/hooks";

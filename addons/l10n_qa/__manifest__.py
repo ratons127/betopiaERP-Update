@@ -2,7 +2,7 @@
     'name': 'Qatar - Accounting',
     'countries': ['qa'],
     'description': """
-This is the base module to manage the accounting chart for Qatar in betopiaerp.
+This is the base module to manage the accounting chart for Qatar in BetopiaERP.
 ==============================================================================
 Qatar accounting basic charts and localization.
 Activates:
@@ -18,6 +18,6 @@ Activates:
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

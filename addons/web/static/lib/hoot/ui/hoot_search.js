@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, onPatched, onWillPatch, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, onPatched, onWillPatch, useRef, useState, xml } from "@betopiaerp/owl";
 import { getActiveElement } from "@web/../lib/hoot-dom/helpers/dom";
 import { R_REGEX, REGEX_MARKER } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { Suite } from "../core/suite";

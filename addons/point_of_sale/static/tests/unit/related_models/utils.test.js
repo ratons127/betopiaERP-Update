@@ -1,4 +1,4 @@
-import { test, describe, expect } from "@BetopiaERP/hoot";
+import { test, describe, expect } from "@betopiaerp/hoot";
 import { convertRawToDate, convertDateToRaw } from "@point_of_sale/app/models/related_models/utils";
 const { DateTime } = luxon;
 

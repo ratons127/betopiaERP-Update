@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-13 15:32+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/rating/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/rating/"
 "ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -142,7 +142,7 @@ msgid "Half a star"
 msgstr "半分の星"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/controllers/main.py:0
 #: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__top
 #: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__top
@@ -201,7 +201,7 @@ msgid "Image URL"
 msgstr "画像URL"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/controllers/main.py:0
 msgid ""
 "Incorrect rating: should be %(rating_unhappy)d, %(rating_neutral)d or %"
@@ -211,7 +211,7 @@ msgstr ""
 "(rating_happy)dである必要があります。 (受け取った評価:%(rate)d）"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/models/mail_thread.py:0
 msgid "Invalid token or rating."
 msgstr "無効なトークンまたは評価"
@@ -273,7 +273,7 @@ msgid "Name"
 msgstr "名称"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/controllers/main.py:0
 #: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__ok
 #: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__ok
@@ -447,7 +447,7 @@ msgid "Rating should be between 0 and 5"
 msgstr "評価は0から5の間にして下さい。"
 
 #. module: rating
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/rating/static/src/core/web/notification_item_patch.xml:0
 msgid "Rating:"
 msgstr "評価:"
@@ -555,7 +555,7 @@ msgid "There is no rating for this object at the moment."
 msgstr "現時点ではこのオブジェクトの評価はありません。"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/controllers/main.py:0
 #: model:ir.model.fields.selection,name:rating.selection__discuss_channel__rating_avg_text__ko
 #: model:ir.model.fields.selection,name:rating.selection__product_template__rating_avg_text__ko
@@ -573,7 +573,7 @@ msgid "Visible Internally Only"
 msgstr "内部参照のみ"
 
 #. module: rating
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/rating/models/mail_thread.py:0
 msgid "Wrong rating value. A rate should be between 0 and 5 (received %d)."
 msgstr "誤った評価値。評価は0から5の間にして下さい(受け取った値 %d)"

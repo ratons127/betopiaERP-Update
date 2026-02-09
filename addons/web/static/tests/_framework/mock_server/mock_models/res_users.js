@@ -22,11 +22,11 @@ export class ResUsers extends ServerModel {
             password: "public",
         },
         {
-            id: serverState.BetopiaERPbotUid,
+            id: serverState.betopiaerpbotUid,
             active: false,
-            login: "BetopiaERPbot",
-            partner_id: serverState.BetopiaERPbotId,
-            password: "BetopiaERPbot",
+            login: "betopiaerpbot",
+            partner_id: serverState.betopiaerpbotId,
+            password: "betopiaerpbot",
         },
     ];
 

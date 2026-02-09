@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 /**
  * @param {string} folder folder that can only import from `allowedFolders`
@@ -9,14 +9,14 @@ import { describe, expect, test } from "@BetopiaERP/hoot";
 function invalidImportsFrom(folder, allowedFolders) {
     // modules within a folder can always depend on one another
     allowedFolders.push(folder);
-    const modulesToCheck = Array.from(BetopiaERP.loader.modules.keys()).filter((module) =>
+    const modulesToCheck = Array.from(betopiaerp.loader.modules.keys()).filter((module) =>
         module.startsWith(`@web/${folder}/`)
     );
     const invalidDeps = {};
     for (const module of modulesToCheck) {
-        const invalid = BetopiaERP.loader.factories.get(module).deps.filter((dep) => {
+        const invalid = betopiaerp.loader.factories.get(module).deps.filter((dep) => {
             // owl and @web/session are allowed everywhere
-            if (dep === "@BetopiaERP/owl" || dep === "@web/session") {
+            if (dep === "@betopiaerp/owl" || dep === "@web/session") {
                 return false;
             }
             return !allowedFolders.some((allowed) => dep.startsWith(`@web/${allowed}/`));

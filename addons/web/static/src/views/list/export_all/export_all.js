@@ -4,7 +4,7 @@ import { user } from "@web/core/user";
 import { exprToBoolean } from "@web/core/utils/strings";
 import { STATIC_ACTIONS_GROUP_NUMBER } from "@web/search/action_menus/action_menus";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 const cogMenuRegistry = registry.category("cogMenu");
 

@@ -24,7 +24,7 @@ import {
     useExternalListener,
     onWillStart,
     onPatched,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 export class AnalyticDistribution extends Component {
     static template = "analytic.AnalyticDistribution";

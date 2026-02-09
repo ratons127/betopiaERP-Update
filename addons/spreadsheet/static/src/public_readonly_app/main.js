@@ -1,4 +1,4 @@
-import { App, whenReady } from "@BetopiaERP/owl";
+import { App, whenReady } from "@betopiaerp/owl";
 import { PublicReadonlySpreadsheet } from "./public_readonly";
 import { getTemplate } from "@web/core/templates";
 import { makeEnv, startServices } from "@web/env";
@@ -6,13 +6,13 @@ import { session } from "@web/session";
 import { appTranslateFn } from "@web/core/l10n/translation";
 
 (async function boot() {
-    BetopiaERP.info = {
+    betopiaerp.info = {
         db: session.db,
         server_version: session.server_version,
         server_version_info: session.server_version_info,
         isEnterprise: session.server_version_info.slice(-1)[0] === "e",
     };
-    BetopiaERP.isReady = false;
+    betopiaerp.isReady = false;
     const env = makeEnv();
     await startServices(env);
     await whenReady();
@@ -26,6 +26,6 @@ import { appTranslateFn } from "@web/core/l10n/translation";
         translatableAttributes: ["data-tooltip"],
     });
     const root = await app.mount(document.getElementById("spreadsheet-mount-anchor"));
-    BetopiaERP.__WOWL_DEBUG__ = { root };
-    BetopiaERP.isReady = true;
+    betopiaerp.__WOWL_DEBUG__ = { root };
+    betopiaerp.isReady = true;
 })();

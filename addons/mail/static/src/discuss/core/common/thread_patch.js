@@ -1,6 +1,6 @@
 import { Thread } from "@mail/core/common/thread";
 
-import { useEffect, toRaw } from "@BetopiaERP/owl";
+import { useEffect, toRaw } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { patch } from "@web/core/utils/patch";

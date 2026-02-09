@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { formatCurrency } from "@web/core/currency";
 
 export class AddToCartNotification extends Component {

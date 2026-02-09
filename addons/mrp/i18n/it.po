@@ -9,8 +9,8 @@
 # Stefano Consolaro <stefano.consolaro@mymage.it>, 2022
 # Marianna Ciofani, 2023
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Marianna Ciofani (cima)" <cima@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Marianna Ciofani (cima)" <cima@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -18,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2025-11-17 15:08+0000\n"
-"Last-Translator: \"Marianna Ciofani (cima)\" <cima@BetopiaERP.com>\n"
-"Language-Team: Italian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/mrp/it/"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@betopiaerp.com>\n"
+"Language-Team: Italian <https://translate.betopiaerp.com/projects/betopiaerp-19/mrp/it/"
 ">\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -50,13 +50,13 @@ msgstr ""
 " * Annullato: OdP annullato, non può più essere confermato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid " <br/><br/> The components will be taken from <b>%s</b>."
 msgstr " <br/><br/>I componenti vengono prelevati da <b>%s</b>."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
 " <br/><br/> The manufactured products will be moved towards <b>%"
@@ -103,79 +103,79 @@ msgid "# of BoM Where is Used"
 msgstr "N. DiBa dove utilizzata"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(display_name)s"
 msgstr "%(display_name)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking before manufacturing"
 msgstr "Sequenza di prelievo prima della produzione %(name)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence production"
 msgstr "Sequenza produzione %(name)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence stock after manufacturing"
 msgstr "Sequenza di magazzino dopo la produzione %(name)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "%(producible_qty)s Ready"
 msgstr "%(producible_qty)s Pronta"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(product)s: Insufficient Quantity To Unbuild"
 msgstr "%(product)s: quantità da disassemblare non sufficiente"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(product_name)s (new) %(number_of_boms)s"
 msgstr "%(product_name)s (nuovo) %(number_of_boms)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(qty)s %(measure)s unbuilt in %(order)s"
 msgstr "%(qty)s %(measure)s da produrre per %(order)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "%(qty)s Ready To Produce"
 msgstr "Pronti per la produzione %(qty)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "%(qty)s To %(route)s"
 msgstr "%(qty)s per %(route)s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "%i work orders"
 msgstr "%i ordini di lavoro"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "%s Child MO's"
 msgstr "OdP figlii di %s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "%s cannot be deleted. Try to cancel them before."
 msgstr "Impossibile eliminare %s. Provare prima ad annullarli."
@@ -206,20 +206,20 @@ msgid "'Work Order - %s' % object.name"
 msgstr "'Ordine di lavoro - %s' % object.name"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "(in"
 msgstr "(in"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %d day(s)"
 msgstr "+ %d giorno/i"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr "+ %s giorno(i)"
@@ -304,13 +304,13 @@ msgid "987654321098"
 msgstr "987654321098"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
 msgstr ": ore"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
@@ -713,7 +713,7 @@ msgstr ""
 "una distinta base nei diversi componenti quando:"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid ""
 "A product with a kit-type bill of materials can not have a reordering rule."
@@ -990,7 +990,7 @@ msgid "Are you sure you want to cancel this manufacturing order?"
 msgstr "Sei sicuro di voler annullare l'ordine di produzione?"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -1027,8 +1027,8 @@ msgid "Attachment Count"
 msgstr "Numero allegati"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.js:0
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
@@ -1086,19 +1086,19 @@ msgstr ""
 "pulsante \"Crea un nuovo numero seriale/lotto\"."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Availabilities"
 msgstr "Disponibilità"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Availabilities on products."
 msgstr "Disponibilità sui prodotti."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter_productivity_loss_type__loss_type__availability
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
@@ -1111,7 +1111,7 @@ msgid "Availability Losses"
 msgstr "Perdite di disponibilità"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
@@ -1133,21 +1133,21 @@ msgstr ""
 "data in cui i componenti devono essere inviati al terzista."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Components per Unit"
 msgstr "Costo medio componenti per unità"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Operations per Unit"
 msgstr "Costo medio operazioni per unità"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Total Cost per Unit"
@@ -1176,13 +1176,13 @@ msgid "BOM lines of the referred bom"
 msgstr "Righe della DiBa di riferimento"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to BoM"
 msgstr "Torna alla DiBa"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Production"
 msgstr "Torna alla produzione"
@@ -1198,13 +1198,13 @@ msgid "Backorder Confirmation Lines"
 msgstr "Righe di conferma ordine residuo"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO"
 msgstr "OdP residuo"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO's"
 msgstr "OdP residui"
@@ -1330,7 +1330,7 @@ msgid "Block Workcenter"
 msgstr "Blocca centro di lavoro"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__consumption__strict
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_consumption_warning__consumption__strict
@@ -1384,7 +1384,7 @@ msgid "BoM Components"
 msgstr "Componenti DiBa"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
@@ -1392,7 +1392,7 @@ msgid "BoM Cost"
 msgstr "Costo DiBa"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
 msgstr "Costi DiBa"
@@ -1436,7 +1436,7 @@ msgid "Bom Id Placeholder"
 msgstr "Segnaposto ID DiBa"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_byproducts_block/mrp_mo_overview_byproducts_block.xml:0
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_byproducts
@@ -1451,7 +1451,7 @@ msgid "By-product"
 msgstr "Sottoprodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "By-product %s should not be the same as BoM product."
 msgstr ""
@@ -1473,7 +1473,7 @@ msgid "By-products"
 msgstr "Sottoprodotti"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "By-products cost shares must be positive."
@@ -1486,13 +1486,13 @@ msgid "Byproduct"
 msgstr "Sottoprodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Byproducts"
 msgstr "Sottoprodotti"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr "Impossibile trovare ubicazioni di produzione."
@@ -1505,7 +1505,7 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__cancel
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__cancel
@@ -1515,7 +1515,7 @@ msgid "Cancelled"
 msgstr "Annullato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "Cannot compute days to prepare due to missing route info for at least 1 "
@@ -1525,7 +1525,7 @@ msgstr ""
 "mancanti per almeno 1 dei componenti del prodotto finale."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Cannot delete a manufacturing order in done state."
 msgstr "Impossibile eliminare un ordine di produzione con stato completato."
@@ -1579,7 +1579,7 @@ msgid "Change Quantity To Produce"
 msgstr "Cambia la quantità da produrre"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "Changing the product or variant will permanently reset all previously "
@@ -1600,14 +1600,14 @@ msgid "Child Manufacturing Orders"
 msgstr "Ordini di produzione secondari"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/wizard/stock_label_type.py:0
 msgid "Choose Labels Layout"
 msgstr "Scegli il layout delle etichette"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Choose Type of Labels To Print"
 msgstr "Scegli tipo di etichette da stampare"
@@ -1686,13 +1686,13 @@ msgid "Component Status"
 msgstr "Stato componenti"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 msgid "Component of Draft MO"
 msgstr "Componente OdP in bozza"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_raw_ids
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -1765,7 +1765,7 @@ msgid "Confirm"
 msgstr "Conferma"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__confirmed
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -1821,14 +1821,14 @@ msgid "Copy selected operations"
 msgstr "Copiare le operazioni selezionate"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__cost
 msgid "Cost"
 msgstr "Costo"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost Breakdown of Products"
@@ -1846,7 +1846,7 @@ msgid "Cost Share (%)"
 msgstr "Quota dei costi (%)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost as it is currently accumulated"
 msgstr "Costo come attualmente accumulato"
@@ -1857,13 +1857,13 @@ msgid "Cost based on"
 msgstr "Costo basato su"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on cost projection"
 msgstr "Costo basato sulle proiezioni dei costi"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on related replenishments. Otherwise cost from product form"
 msgstr ""
@@ -1871,20 +1871,20 @@ msgstr ""
 "prodotto"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on the BoM"
 msgstr "Costo basato sulla DiBa"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Components per unit"
 msgstr "Costo dei componenti per unità"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Cost of Operations per unit"
@@ -2152,7 +2152,7 @@ msgid "Date: Last 365 Days"
 msgstr "Data: ultimi 365 giorni"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom_pdf_line
@@ -2160,7 +2160,7 @@ msgid "Days"
 msgstr "Giorno/i"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Days to Supply Components"
 msgstr "Giorni per fornire i componenti"
@@ -2305,7 +2305,7 @@ msgid "Discard"
 msgstr "Abbandona"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.xml:0
 msgid "Display"
 msgstr "Mostra"
@@ -2391,7 +2391,7 @@ msgid "Documentation"
 msgstr "Documentazione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__done
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_unbuild__state__done
@@ -2528,7 +2528,7 @@ msgid "Estimated"
 msgstr "Stimato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Estimated %s"
@@ -2545,7 +2545,7 @@ msgid "Exception(s):"
 msgstr "Eccezioni:"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Exp %s"
 msgstr "Atteso il %s"
@@ -2556,7 +2556,7 @@ msgid "Expected"
 msgstr "In attesa"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Expected %s"
@@ -2575,7 +2575,7 @@ msgid "Expected Duration (minutes)"
 msgstr "Durata prevista (in minuti)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Files attached to the product."
 msgstr "I file sono stati allegati al prodotto."
@@ -2642,7 +2642,7 @@ msgid "Flexible Consumption"
 msgstr "Consumo flessibile"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.js:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -2681,13 +2681,13 @@ msgid "Force"
 msgstr "Forza"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Forecast"
 msgstr "Previsione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_line/mrp_mo_overview_line.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2727,14 +2727,14 @@ msgid "Forecasted Issue"
 msgstr "Problema previsto"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Free to Use / On Hand"
 msgstr "Disponibile/In stock"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Free to use / On Hand"
@@ -2862,7 +2862,7 @@ msgid "Hourly processing cost."
 msgstr "Costo orario elaborazione."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Hours"
@@ -3040,13 +3040,13 @@ msgid "Impacted Transfer(s):"
 msgstr "Trasferimenti coinvolti:"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "Import Template for Bills of Materials"
 msgstr "Importa modello per le distinte base"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "Impossible to plan the workorder. Please check the workcenter availabilities."
@@ -3055,14 +3055,14 @@ msgstr ""
 "centri di lavoro."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 msgstr ""
 "Impossibile pianificare. Controlla le disponibilità dei centri di lavoro."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__progress
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter__working_state__done
@@ -3076,7 +3076,7 @@ msgid "In Progress"
 msgstr "In corso"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "In Transit"
 msgstr "In transito"
@@ -3169,13 +3169,13 @@ msgid "Is the Current User Working"
 msgstr "Utente corrente al lavoro"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "It has already been unblocked."
 msgstr "È già stato sbloccato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "It is not possible to unplan one single Work Order. You should unplan the "
@@ -3335,7 +3335,7 @@ msgid "Layers that are stick together to assemble wood panels."
 msgstr "Strati incollati insieme per assemblare pannelli di legno."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Lead Time"
@@ -3459,14 +3459,14 @@ msgid "MO Confirmed"
 msgstr "OdP confermato"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "MO Cost"
 msgstr "Costo ordine di produzione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "MO Costs"
 msgstr "Costi ordine di produzione"
@@ -3478,7 +3478,7 @@ msgid "MO Done"
 msgstr "OdP completato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "MO Generated by %s"
 msgstr "OdP generato da %s"
@@ -3574,8 +3574,8 @@ msgid "Manuf. Lead Time"
 msgstr "Tempo di produzione"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_steps
@@ -3586,7 +3586,7 @@ msgid "Manufacture"
 msgstr "Produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__mrp_one_step
 msgid "Manufacture (1 step)"
@@ -3631,7 +3631,7 @@ msgid "Manufactured in the last 365 days"
 msgstr "Prodotto negli ultimi 365 giorni"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 #: model:ir.actions.client,name:mrp.action_mrp_display_fullscreen
 #: model:ir.model.fields.selection,name:mrp.selection__stock_picking_type__code__mrp_operation
@@ -3644,13 +3644,13 @@ msgid "Manufacturing"
 msgstr "Produzione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_buttons.xml:0
 msgid "Manufacturing Forecast"
 msgstr "Previsione produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__produce_delay
 msgid "Manufacturing Lead Time"
@@ -3680,7 +3680,7 @@ msgid "Manufacturing Order"
 msgstr "Ordine di produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_form
 #: model:ir.actions.act_window,name:mrp.mrp_production_action
@@ -3816,8 +3816,8 @@ msgid "Minimum Inventory Rule"
 msgstr "Regola di inventario minimo"
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -3832,7 +3832,7 @@ msgid "Miscellaneous"
 msgstr "Varie"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_byproduct_ids
 msgid "Move Byproduct"
@@ -3893,14 +3893,14 @@ msgid "Never attribute values"
 msgstr "Mai attribuire valori"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "New"
 msgstr "Nuovo"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "New BoM from %(mo_name)s"
 msgstr "Nuova DiBa da %(mo_name)s"
@@ -3944,7 +3944,7 @@ msgid "No Backorder"
 msgstr "Nessun ordine residuo"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "No BoM Found"
 msgstr "Nessuna DiBa trovata"
@@ -3956,7 +3956,7 @@ msgid "No Operations Yet !"
 msgstr "Ancora non ci sono operazioni!"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "No Ready To Produce"
 msgstr "Non pronto per la produzione"
@@ -3967,7 +3967,7 @@ msgid "No bill of materials found. Let's create one!"
 msgstr "Nessuna distinta base trovata. Creane una!"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "No data available."
@@ -4023,7 +4023,7 @@ msgid "Normal"
 msgstr "Normale"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
@@ -4032,7 +4032,7 @@ msgid "Not Available"
 msgstr "Non disponibile"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "Not Ready"
 msgstr "Non pronto"
@@ -4043,7 +4043,7 @@ msgid "Note that another version of this BOM is available."
 msgstr "Nota che è disponibile un'altra versione di questa distinta base."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid ""
 "Note that archived work center(s): '%s' is/are still linked to active Bill "
@@ -4055,7 +4055,7 @@ msgstr ""
 "essi. Per evitarlo, è consigliato invece eliminare il centro di lavoro."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/product.py:0
 msgid ""
 "Note that product(s): '%s' is/are still linked to active Bill of Materials, "
@@ -4190,7 +4190,7 @@ msgid "On Hand"
 msgstr "A disposizione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Only manufacturing orders in either a draft or confirmed state can be %s."
@@ -4199,7 +4199,7 @@ msgstr ""
 "%s."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Only manufacturing orders with a Bill of Materials can be %s."
 msgstr "Solo gli ordini di produzione con una distinta base possono essere %s."
@@ -4241,8 +4241,8 @@ msgid "Operation..."
 msgstr "Operazione..."
 
 #. module: mrp
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
@@ -4299,7 +4299,7 @@ msgstr ""
 "iniziare."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Order"
 msgstr "Ordina"
@@ -4404,13 +4404,13 @@ msgid "Performance over the last month"
 msgstr "Rendimento durante l'ultimo mese"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick Components"
 msgstr "Prelievo componenti"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick components and then manufacture"
 msgstr "Prelievo componenti e produzione"
@@ -4421,7 +4421,7 @@ msgid "Pick components then manufacture (2 steps)"
 msgstr "Prelievo componenti e produzione (2 fasi)"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pick components, manufacture and then store products (3 steps)"
 msgstr "Prelievo componenti, produzione e stoccaggio prodotti (3 fasi)"
@@ -4495,7 +4495,7 @@ msgid "Planned"
 msgstr "Pianificato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Planned at the same time as other workorder(s) at %s"
 msgstr "Pianificato contemporaneamente ad altri ordini di lavoro su %s"
@@ -4512,19 +4512,19 @@ msgid "Plastic Laminate"
 msgstr "Laminato plastico"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_move.py:0
 msgid "Please enter a positive quantity."
 msgstr "Inserire una quantità positiva."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Please set the first Serial Number or a default sequence"
 msgstr "Configura il primo numero di serie o una sequenza predefinita"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid ""
 "Please specify a manufacturing order.\n"
@@ -4536,13 +4536,13 @@ msgstr ""
 "sottoprodotti giusti."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to start the work order."
 msgstr "Sblocca il centro di lavoro per avviare l'ordine."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Please unblock the work center to validate the work order"
 msgstr "Sblocca il centro di lavoro per convalidare l'ordine."
@@ -4571,19 +4571,19 @@ msgid "Possible Product Template Attribute Value"
 msgstr "Valore possibile attributo modello prodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Post-Production"
 msgstr "Post-produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Pre-Production"
 msgstr "Pre-produzione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Print"
@@ -4681,7 +4681,7 @@ msgid "Produced in Operation"
 msgstr "Prodotta nell'operazione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model:ir.model,name:mrp.model_product_template
@@ -4823,7 +4823,7 @@ msgid "Production Date"
 msgstr "Data di produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Production End Date"
 msgstr "Data fine produzione"
@@ -4863,7 +4863,7 @@ msgid "Production Order for finished products"
 msgstr "Ordine di produzione per i prodotti finiti"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid "Production Start Date"
 msgstr "Data di inizio produzione"
@@ -4879,7 +4879,7 @@ msgid "Production Workcenter"
 msgstr "Centro di lavoro produzione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 msgid "Production of Draft MO"
 msgstr "Produzione OdP in bozza"
@@ -4965,7 +4965,7 @@ msgid "Quant"
 msgstr "Quantitativo"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
@@ -5056,21 +5056,21 @@ msgid "Raw Moves"
 msgstr "Movimenti materie prime"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__reservation_state__assigned
 msgid "Ready"
 msgstr "Pronto"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Real Cost"
 msgstr "Costo reale"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Real Costs"
 msgstr "Costi reali"
@@ -5082,20 +5082,20 @@ msgid "Real Duration"
 msgstr "Durata effettiva"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Receipt"
 msgstr "Ricevuta"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Receipts"
 msgstr "Ricezioni"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Reception time estimation."
 msgstr "Stima tempo di ricezione."
@@ -5135,7 +5135,7 @@ msgstr ""
 "produzione."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Reference:"
@@ -5147,7 +5147,7 @@ msgid "References"
 msgstr "Riferimenti"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_remaining_days_unformatted_field.js:0
 msgid "Remaining Days"
 msgstr "Giorni residui"
@@ -5158,25 +5158,25 @@ msgid "Repetitions"
 msgstr "Ripetizioni"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_workorder_popover.xml:0
 msgid "Replan"
 msgstr "Ripianifica"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_line/mrp_mo_overview_line.xml:0
 msgid "Replenish"
 msgstr "Rifornire"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "Rifornimento su ordine (MTO)"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Replenishments"
 msgstr "Rifornimenti"
@@ -5188,7 +5188,7 @@ msgid "Reporting"
 msgstr "Rendicontazione"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Reserved"
@@ -5213,13 +5213,13 @@ msgid "Responsible User"
 msgstr "Utente responsabile"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Resupply lead time."
 msgstr "Tempo di rifornimento."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Route"
@@ -5266,7 +5266,7 @@ msgid "Scheduled Date"
 msgstr "Data programmata"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "Scheduled before the previous work order, planned from %(start)s to %(end)s"
@@ -5275,7 +5275,7 @@ msgstr ""
 "al %(end)s"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/widgets/mrp_workorder_popover.xml:0
 msgid "Scheduling Information"
 msgstr "Informazioni programmazione"
@@ -5295,7 +5295,7 @@ msgid "Scrap Move"
 msgstr "Movimento di scarto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Scrap Products"
@@ -5337,7 +5337,7 @@ msgid "Search for mrp workcenter"
 msgstr "Ricerca centri di lavoro MRP"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "Select Operations to Copy"
 msgstr "Seleziona le operazioni da copiare"
@@ -5354,14 +5354,14 @@ msgid "Sequence"
 msgstr "Sequenza"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_serials_form
 msgid "Serial Numbers"
 msgstr "Numeri di serie"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Serial number(s) for product %(product_name)s already produced"
 msgstr ""
@@ -5513,7 +5513,7 @@ msgid "Solid wood table."
 msgstr "Tavola di legno massiccio."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Some work orders are already done, so you cannot unplan this manufacturing "
@@ -5527,7 +5527,7 @@ msgstr ""
 "Sarebbe un peccato mandare all'aria tutto il lavoro, no?"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "Some work orders have already started, so you cannot unplan this "
@@ -5634,7 +5634,7 @@ msgid "State"
 msgstr "Stato"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__state
@@ -5722,7 +5722,7 @@ msgid "Stock supplier replenishment information"
 msgstr "Informazioni sul rifornimento dei fornitori"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "Store Finished Product"
 msgstr "Stoccaggio prodotto finito"
@@ -5817,13 +5817,13 @@ msgstr ""
 "produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "The Workorder (%s) cannot be started twice!"
 msgstr "Impossibile avviare due volte l'ordine di lavoro (%s)."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The attribute value %(attribute)s set on product %(product)s does not match "
@@ -5833,13 +5833,13 @@ msgstr ""
 "corrisponde al prodotto DiBa %(bom_product)s."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "The batch size must be positive!"
 msgstr "La dimensione del lotto deve essere positiva!"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The current configuration is incorrect because it would create a cycle "
@@ -5855,7 +5855,7 @@ msgid "The day after tomorrow"
 msgstr "Dopodomani"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_orderpoint.py:0
 msgid "The following replenishment order has been generated"
 msgstr "È stato generato il seguente ordine di rifornimento"
@@ -5896,7 +5896,7 @@ msgstr ""
 "o pari a 100."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "The planned end date of the work order cannot be prior to the planned start "
@@ -5906,7 +5906,7 @@ msgstr ""
 "la data di inizio, correggerla per salvare l'ordine di lavoro."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "The product has already been used at least once, editing its structure may "
@@ -5926,7 +5926,7 @@ msgstr ""
 "arretrati"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "The quantity produced must be positive."
 msgstr "La quantità prodotto deve essere positiva."
@@ -5943,7 +5943,7 @@ msgid "The quantity to unbuild must be positive!"
 msgstr "La quantità da non produrre deve essere positiva!"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already "
@@ -5953,7 +5953,7 @@ msgstr ""
 "(product_name)s, è già stato creato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The serial number %(number)s used for component %(component)s has already "
@@ -5968,7 +5968,7 @@ msgid "The tag name must be unique."
 msgstr "Il nome dell' etichetta deve essere unico."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's by-products cannot exceed 100."
 msgstr ""
@@ -5976,7 +5976,7 @@ msgstr ""
 "il 100."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "The total cost share for a manufacturing order's by-products cannot exceed "
@@ -5991,7 +5991,7 @@ msgid "The total should be equal to the quantity to produce."
 msgstr "Il totale dovrebbe essere uguale alla quantità da produrre."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "The work order should have already been processed."
 msgstr "L'ordine di lavoro dovrebbe essere già stato elaborato."
@@ -6008,7 +6008,7 @@ msgid ""
 msgstr "Non ci sono componenti da consumare. Sei sicuro di voler continuare?"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "There is no defined calendar on workcenter %s."
@@ -6020,7 +6020,7 @@ msgid "There's no product move yet"
 msgstr "Ancora nessun movimento di prodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "This Week"
 msgstr "Questa settimana"
@@ -6049,13 +6049,13 @@ msgstr ""
 "fattore di efficienza è 200%, è prevista una durata di 30 minuti."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 msgid "This is a BoM of type Kit!"
 msgstr "DiBa di tipo kit."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid ""
 "This is the cost based on the BoM of the product. It is computed by summing "
@@ -6078,13 +6078,13 @@ msgstr ""
 "precedenti del prodotto."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production has been merge in %s"
 msgstr "La produzione è stata unita in %s"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "This production order has been created from Replenishment Report."
 msgstr "L'ordine di produzione è stato creato dal resoconto di rifornimento,"
@@ -6121,7 +6121,7 @@ msgid "Time Tracking"
 msgstr "Monitoraggio tempi"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Time Tracking: %(user)s"
 msgstr "Monitoraggio tempi: %(user)s"
@@ -6181,7 +6181,7 @@ msgid "To Consume"
 msgstr "Da consumare"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__ready
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -6201,7 +6201,7 @@ msgid "To Manufacture"
 msgstr "Da produrre"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "To Order"
 msgstr "Da ordinare"
@@ -6236,21 +6236,21 @@ msgid "Top layer of a wood panel."
 msgstr "Strato superiore di un pannello di legno."
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Components"
 msgstr "Costo totale dei componenti"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Operations"
 msgstr "Costo totale delle operazioni"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Total Cost of Production"
@@ -6360,7 +6360,7 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo di attività eccezione sul record."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unable to split with more than the quantity to produce."
 msgstr "Impossibile dividere con più della quantità da produrre."
@@ -6388,7 +6388,7 @@ msgid "Unbuild Orders"
 msgstr "Ordini di disassemblaggio"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unbuild: %s"
 msgstr "Disassembla: %s"
@@ -6404,7 +6404,7 @@ msgid "Unbuilt"
 msgstr "Non prodotto"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.js:0
 #: code:addons/mrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #: code:addons/mrp/static/src/components/bom_overview_special_line/mrp_bom_overview_special_line.xml:0
@@ -6430,7 +6430,7 @@ msgid "Unit"
 msgstr "Unità"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
@@ -6438,7 +6438,7 @@ msgid "Unit Cost"
 msgstr "Costo unitario"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Unit Costs"
 msgstr "Costi unitari"
@@ -6449,7 +6449,7 @@ msgid "Unit Factor"
 msgstr "Fattore unitario"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Unit of Measure"
@@ -6563,7 +6563,7 @@ msgid "Validate"
 msgstr "Valida"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
@@ -6575,7 +6575,7 @@ msgstr ""
 "è aumentata la quantità consumata:%(products)s"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Variant"
 msgstr "Variante"
@@ -6621,7 +6621,7 @@ msgid "Waiting Availability"
 msgstr "In attesa di disponibilità"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 msgstr ""
@@ -6635,7 +6635,7 @@ msgid "Warehouse"
 msgstr "Magazzino"
 
 #. module: mrp
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mrp/static/src/components/bom_overview_control_panel/mrp_bom_overview_control_panel.xml:0
 msgid "Warehouse:"
 msgstr "Magazzino:"
@@ -6646,7 +6646,7 @@ msgid "Warn Insufficient Unbuild Quantity"
 msgstr "Avviso quantità disassemblata non sufficiente"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/stock_scrap.py:0
@@ -6723,7 +6723,7 @@ msgstr ""
 "Quando vengono fabbricati i prodotti, è possibile farlo in questo magazzino."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a manufacturing order is "
@@ -6943,7 +6943,7 @@ msgid "Workcenter"
 msgstr "Centro di lavoro"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid "Workcenter %s cannot be an alternative of itself."
 msgstr "Work Center %s non può essere un'alternativa a se stessa."
@@ -7006,7 +7006,7 @@ msgid "Yesterday"
 msgstr "Ieri"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create or edit a lot or serial number for the "
@@ -7020,7 +7020,7 @@ msgstr ""
 "nuovi lotti/numeri di serie per i componenti\"."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You can not create a kit-type bill of materials for products that have at "
@@ -7030,7 +7030,7 @@ msgstr ""
 "regola di riordino."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
@@ -7040,7 +7040,7 @@ msgstr ""
 "È necessario prima chiuderli o annullarli."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
@@ -7049,7 +7049,7 @@ msgstr ""
 "stessa distinta base."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You can only merge manufacturing orders with no additional components or by-"
@@ -7059,25 +7059,25 @@ msgstr ""
 "o sottoprodotti."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same operation type"
 msgstr "È possibile unire soltanto produzioni con lo stesso tipo di operazione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You can only merge manufacturing with the same state."
 msgstr "È possibile unire soltanto produzioni con lo stesso stato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr "Non è possibile annullare un ordine di produzione già effettuato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You cannot change the quantity produced of a work order that is in done or "
@@ -7087,7 +7087,7 @@ msgstr ""
 "completato o annullato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot change the workcenter of a work order that is done."
 msgstr ""
@@ -7095,53 +7095,53 @@ msgstr ""
 "completato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "You cannot create a new Bill of Material from here."
 msgstr "Da qui è impossibile creare una nuova distinta base."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot create cyclic dependency."
 msgstr "Non si può creare una dipendenza ciclica."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot delete a manufacturing order that is already done."
 msgstr "Non è possibile eliminare un ordine di produzione già effettuato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot delete an unbuild order if the state is 'Done'."
 msgstr ""
 "Impossibile eliminare un ordine di disassemblaggio con stato \"Completato\"."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot have %s  as the finished product and in the Byproducts"
 msgstr "Impossibile avere %s sia come prodotto finito che come sottoprodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot link this work order to another manufacturing order."
 msgstr ""
 "Impossibile collegare l'ordine di lavoro a un altro ordine di produzione."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot move a manufacturing order once it is cancelled or done."
 msgstr ""
 "Impossibile spostare un ordine di produzione se annullato o completato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_picking.py:0
 msgid ""
 "You cannot set a scrap location as the destination location for a "
@@ -7151,31 +7151,31 @@ msgstr ""
 "un'operazione di produzione."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot set more than 1 lot"
 msgstr "Non è possibile configurare più di 1 lotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot set more than 1 lot per product"
 msgstr "Non è possibile configurare più di 1 lotto per prodotto"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "You cannot start a work order that is already done or cancelled"
 msgstr "Non è possibile avviare un ordine di lavoro già eseguito o annullato"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot unbuild a undone manufacturing order."
 msgstr "Impossibile disassemblare un ordine di produzione non completato."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid ""
 "You cannot use the 'Apply on Variant' functionality and simultaneously "
@@ -7215,13 +7215,13 @@ msgstr ""
 "                        </b>"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You need at least two production orders to merge them."
 msgstr "Sono necessari almeno due ordini di produzione per poterli unire."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
@@ -7233,7 +7233,7 @@ msgstr ""
 "Configurazione / Perdite di produttività."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 "You need to define at least one productivity loss in the category "
@@ -7245,7 +7245,7 @@ msgstr ""
 "Configurazione / Perdite di produttività."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_workcenter.py:0
 msgid ""
 "You need to define at least one unactive productivity loss in the category "
@@ -7257,7 +7257,7 @@ msgstr ""
 "Configurazione / Perdite di produttività."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You need to generate Lot/Serial Number(s) to mark as done some productions"
@@ -7266,7 +7266,7 @@ msgstr ""
 "delle produzioni"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
@@ -7281,13 +7281,13 @@ msgid "You produced less than the initial demand"
 msgstr "La produzione è inferiore alla domanda iniziale"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You should provide a lot number for the final product."
 msgstr "Fornire un numero di lotto per il prodotto finale."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/stock_quant.py:0
 msgid ""
 "You should update the components quantity instead of directly updating the "
@@ -7304,7 +7304,7 @@ msgid "ZPL"
 msgstr "ZPL"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_routing.py:0
 msgid "bom_id"
 msgstr "bom_id"
@@ -7336,7 +7336,7 @@ msgid "from location"
 msgstr "dall'ubicazione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 #: code:addons/mrp/models/stock_picking.py:0
 msgid "id"
@@ -7357,19 +7357,19 @@ msgstr ""
 "consegna."
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "manufacturing order"
 msgstr "ordine di produzione"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "merged"
 msgstr "uniti"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "minutes"
@@ -7401,7 +7401,7 @@ msgid "real duration"
 msgstr "durata reale"
 
 #. module: mrp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "split"
 msgstr "divisi"

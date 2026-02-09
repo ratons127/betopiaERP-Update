@@ -1,4 +1,4 @@
-import { Component, onWillRender, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillRender, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useDateTimePicker } from "@web/core/datetime/datetime_picker_hook";
 import { areDatesEqual, deserializeDate, deserializeDateTime, today } from "@web/core/l10n/dates";
 import { _t } from "@web/core/l10n/translation";

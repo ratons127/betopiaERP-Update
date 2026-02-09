@@ -1,5 +1,5 @@
 import { useDateTimePicker } from "@web/core/datetime/datetime_picker_hook";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { effect } from "@web/core/utils/reactive";
 import { ConversionError, formatDate, formatDateTime, parseDateTime } from "@web/core/l10n/dates";
 import { pick } from "@web/core/utils/objects";

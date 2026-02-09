@@ -42,7 +42,7 @@ registry.category('web_tour.tours').add(
             },
             {
                 trigger: 'input[name="email"]',
-                run: 'edit test@BetopiaERP.com',
+                run: 'edit test@betopiaerp.com',
             },
             {
                 trigger: 'input[name="street"]',

@@ -14,6 +14,6 @@ Adds Arabic as a secondary language for the lots and serial numbers
         'views/report_invoice.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

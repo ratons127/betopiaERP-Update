@@ -1,15 +1,15 @@
-﻿Source: BetopiaERP
+Source: betopiaerp
 Section: net
 Priority: optional
-Maintainer: BetopiaERP S.A. <info@BetopiaERP.com>
-Uploaders: Aaron Bohy <aab@BetopiaERP.com>, Simon Lejeune <sle@BetopiaERP.com>
+Maintainer: BetopiaERP <info@betopiaerp.com>
+Uploaders: Aaron Bohy <aab@betopiaerp.com>, Simon Lejeune <sle@betopiaerp.com>
 Build-Depends: debhelper-compat (= 12), dh-python, python3, rsync, python3-setuptools
 Standards-Version: 4.5.0
 Homepage: http://www.BetopiaERP.com/
-Vcs-Git: https://github.com/BetopiaERP/BetopiaERP
-Vcs-Browser: https://github.com/BetopiaERP/BetopiaERP
+Vcs-Git: https://github.com/betopiaerp/betopiaerp
+Vcs-Browser: https://github.com/betopiaerp/betopiaerp
 
-Package: BetopiaERP
+Package: betopiaerp
 Architecture: all
 Depends:
  ${misc:Depends},

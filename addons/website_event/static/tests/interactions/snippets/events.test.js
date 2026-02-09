@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import { onRpc } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";

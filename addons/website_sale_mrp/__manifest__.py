@@ -21,6 +21,6 @@ Manage the inventory of your Kit products and display their availability status 
             'website_sale_mrp/static/tests/tours/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

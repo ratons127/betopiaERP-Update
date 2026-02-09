@@ -2,7 +2,7 @@ import { formatFloat, formatMonetary } from "@web/views/fields/formatters";
 import { useService } from "@web/core/utils/hooks";
 import { BomOverviewLine } from "../bom_overview_line/mrp_bom_overview_line";
 import { BomOverviewComponentsBlock } from "../bom_overview_components_block/mrp_bom_overview_components_block";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class BomOverviewTable extends Component {
     static template = "mrp.BomOverviewTable";

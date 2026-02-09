@@ -6,7 +6,7 @@ import { useService } from "@web/core/utils/hooks";
 import { ImageSelector } from "@html_editor/main/media/media_dialog/image_selector";
 
 import { UnsplashError } from "../unsplash_error/unsplash_error";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 patch(ImageSelector.prototype, {
     setup() {

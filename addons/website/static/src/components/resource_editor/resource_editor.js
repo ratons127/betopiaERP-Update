@@ -14,7 +14,7 @@ import { useService } from "@web/core/utils/hooks";
 import { ResourceEditorWarningOverlay } from "./resource_editor_warning";
 import { checkSCSS, checkXML, formatXML } from "./utils";
 
-import { Component, onWillUnmount, onWillStart, reactive, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillUnmount, onWillStart, reactive, useRef, useState } from "@betopiaerp/owl";
 
 const BUNDLES_RESTRICTION = [
     "web.assets_frontend",

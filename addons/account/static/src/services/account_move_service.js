@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 export class AccountMoveService {

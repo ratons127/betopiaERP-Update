@@ -7,12 +7,12 @@
     ],
     'description': 'Sale modifications for Italy E-invoicing',
     'category': 'Accounting/Localizations/EDI',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/italy.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/italy.html',
     'data': [
         'views/sale_order_views.xml',
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,5 +1,5 @@
-/** @BetopiaERP-module **/
-import { useEffect, onMounted } from "@BetopiaERP/owl";
+/** @betopiaerp-module **/
+import { useEffect, onMounted } from "@betopiaerp/owl";
 import { CodeEditor } from "@web/core/code_editor/code_editor";
 import { escapeRegExp } from "@web/core/utils/strings";
 

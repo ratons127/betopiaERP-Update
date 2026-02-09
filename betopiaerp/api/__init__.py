@@ -1,6 +1,6 @@
 # ruff: noqa: F401
 # Exports features of the ORM to developers.
-# This is a `__init__.py` file to avoid merge conflicts on `BetopiaERP/api.py`.
+# This is a `__init__.py` file to avoid merge conflicts on `betopiaerp/api.py`.
 from betopiaerp.orm.identifiers import NewId
 from betopiaerp.orm.decorators import (
     autovacuum,

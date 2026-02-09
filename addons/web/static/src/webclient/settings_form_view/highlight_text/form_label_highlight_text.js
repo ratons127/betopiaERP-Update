@@ -7,7 +7,7 @@ export class FormLabelHighlightText extends FormLabel {
     static components = { HighlightText };
     setup() {
         super.setup();
-        const isEnterprise = BetopiaERP.info && BetopiaERP.info.isEnterprise;
+        const isEnterprise = betopiaerp.info && betopiaerp.info.isEnterprise;
         if (this.props.fieldInfo?.field === upgradeBooleanField && !isEnterprise) {
             this.upgradeEnterprise = true;
         }

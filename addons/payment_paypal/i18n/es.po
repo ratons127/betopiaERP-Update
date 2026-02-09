@@ -4,17 +4,17 @@
 #
 # Translators:
 # Martin Trigaux, 2019
-# Jesse Garza <jga@BetopiaERP.com>, 2019
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@BetopiaERP.com>, 2025.
+# Jesse Garza <jga@betopiaerp.com>, 2019
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 11:34+0000\n"
-"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@BetopiaERP.com>\n"
-"Language-Team: Spanish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@betopiaerp.com>\n"
+"Language-Team: Spanish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_paypal/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgid "Code"
 msgstr "Código"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not generate a new access token."
 msgstr "No se ha podido generar un nuevo token de acceso."
@@ -72,13 +72,13 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Invalid response format, can't normalize."
 msgstr "El formato de respuesta no es válido, no se puede normalizar."
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
 msgstr "Valor que falta para txn_id (%(txn_id)s) o txn_type (%(txn_type)s)."
@@ -129,19 +129,19 @@ msgid "Payment Transaction"
 msgstr "Transacción de pago"
 
 #. module: payment_paypal
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_paypal/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Error al procesar el pago"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Received data with invalid payment status: %s"
 msgstr "Datos recibidos con estado de pago no válido: %s"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 msgstr "El cliente abandonó la página de pago."
@@ -171,7 +171,7 @@ msgid "The technical code of this payment provider."
 msgstr "El código técnico de este proveedor de pagos."
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Unable to verify the payment data"
 msgstr "No se pueden verificar los datos de pago"
@@ -182,7 +182,7 @@ msgid "Webhook ID"
 msgstr "ID del webhook"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "You must have an HTTPS connection to generate a webhook."
 msgstr "Debe tener una conexión HTTPS para generar un webhook."

@@ -1,5 +1,5 @@
 import { nearestGreaterThanOrEqual } from "@mail/utils/common/misc";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 describe.current.tags("desktop");
 

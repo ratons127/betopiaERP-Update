@@ -1,6 +1,6 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 import { getTemplateWithoutHideOnScroll } from "./helpers";
 

@@ -5,15 +5,15 @@ import { insertText, pasteHtml } from "@html_editor/../tests/_helpers/user_actio
 import { FontPlugin } from "@html_editor/main/font/font_plugin";
 import { isTextNode } from "@html_editor/utils/dom_info";
 import { parseHTML } from "@html_editor/utils/html";
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 import {
     click,
     manuallyDispatchProgrammaticEvent,
     waitFor,
     queryOne,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

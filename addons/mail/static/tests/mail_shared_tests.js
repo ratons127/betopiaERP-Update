@@ -1,5 +1,5 @@
 import { click, contains, openDiscuss, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { expect, mockTouch, mockUserAgent, queryFirst } from "@BetopiaERP/hoot";
+import { expect, mockTouch, mockUserAgent, queryFirst } from "@betopiaerp/hoot";
 
 export async function mailCanAddMessageReactionMobile() {
     mockTouch(true);

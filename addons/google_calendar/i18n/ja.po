@@ -5,16 +5,16 @@
 # Translators:
 # Martin Trigaux, 2022
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-02-02 13:43+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "google_calendar/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -24,31 +24,31 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "%(id)s and %(length)s following"
 msgstr "%(id)s と %(length)s フォロー"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Days"
 msgstr "%(reminder_type)s - %(duration)s 日"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Hours"
 msgstr "%(reminder_type)s - %(duration)s 時間"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Minutes"
 msgstr "%(reminder_type)s - %(duration)s 分"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "(No title)"
 msgstr "(タイトルなし)"
@@ -61,7 +61,7 @@ msgid "Active"
 msgstr "有効"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid ""
 "An administrator needs to configure Google Synchronization before you can "
@@ -69,7 +69,7 @@ msgid ""
 msgstr "管理者は、Google同期を使用する前に設定する必要があります。"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/res_users_settings.py:0
 msgid ""
 "An error occurred while generating the token. Your authorization code may be "
@@ -128,13 +128,13 @@ msgid "Config Settings"
 msgstr "構成設定"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid "Configuration"
 msgstr "設定"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid "Configure"
 msgstr "設定"
@@ -155,7 +155,7 @@ msgid "Created on"
 msgstr "作成日"
 
 #. module: google_calendar
-#: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_BetopiaERP
+#: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_betopiaerp
 msgid "Delete from BetopiaERP"
 msgstr "BetopiaERPから削除"
 
@@ -170,7 +170,7 @@ msgid "Delete from the current Google Calendar account"
 msgstr "現在のGoogleカレンダーアカウントから削除します"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid "Discard"
 msgstr "破棄"
@@ -189,7 +189,7 @@ msgid "Display Name"
 msgstr "表示名"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "Email"
 msgstr "メール"
@@ -205,7 +205,7 @@ msgid "Event Recurrence Rule"
 msgstr "イベント繰返ルール"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.xml:0
 msgid "Google"
 msgstr "Google"
@@ -254,7 +254,7 @@ msgid "Google Synchronization stopped"
 msgstr "Google同期停止済"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "Google gave the following explanation: %s"
 msgstr "Googleは以下の説明をしています: %s"
@@ -291,7 +291,7 @@ msgid "Indicates if synchronization with Google Calendar is paused or not."
 msgstr "Googleカレンダとの同期が一時停止されているかどうかを示します。"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "It will not be synced as long at it is not updated."
 msgstr "更新されない限り同期されません。"
@@ -340,7 +340,7 @@ msgid "Next Synchronization"
 msgstr "次の同期"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "Notification"
 msgstr "通知"
@@ -382,7 +382,7 @@ msgid "Synchronize only new events"
 msgstr "新しいイベントのみを同期する"
 
 #. module: google_calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid ""
 "The Google Synchronization needs to be configured before you can use it, do "
@@ -391,7 +391,7 @@ msgstr ""
 "Google同期を使用するには、事前に設定する必要があります。今すぐしますか？"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/calendar.py:0
 msgid ""
 "The following event can only be updated by the organizer according to the "
@@ -401,7 +401,7 @@ msgstr ""
 "が更新できます。"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "The following event could not be synced with Google Calendar."
 msgstr "以下のイベントはGoogleカレンダと同期できませんでした。"
@@ -445,13 +445,13 @@ msgid "Videocall Source"
 msgstr "ビデオコール発生元"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "undefined time"
 msgstr "未定義の時間"
 
 #. module: google_calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid ""
 "you don't seem to have permission to modify this event on Google Calendar"

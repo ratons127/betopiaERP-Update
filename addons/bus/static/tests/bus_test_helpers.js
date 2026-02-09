@@ -1,5 +1,5 @@
-import { after, expect, registerDebugInfo } from "@BetopiaERP/hoot";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { after, expect, registerDebugInfo } from "@betopiaerp/hoot";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import {
     MockServer,
     asyncStep,
@@ -16,7 +16,7 @@ import { getWebSocketWorker, onWebsocketEvent } from "./mock_websocket";
 
 import { busService } from "@bus/services/bus_service";
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
-import { on, runAllTimers, waitUntil } from "@BetopiaERP/hoot-dom";
+import { on, runAllTimers, waitUntil } from "@betopiaerp/hoot-dom";
 import { registry } from "@web/core/registry";
 import { deepEqual } from "@web/core/utils/objects";
 import { patch } from "@web/core/utils/patch";

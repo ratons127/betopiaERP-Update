@@ -10,11 +10,11 @@
 # digitalliuzg8888, 2022
 # Raymond Yu <cl_yu@hotmail.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
-# Emily Jia <eji@BetopiaERP.com>, 2023
+# Emily Jia <eji@betopiaerp.com>, 2023
 # lonely落叶 <liu--qiong@hotmail.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Chloe Wang (chwa)" <chwa@BetopiaERP.com>, 2026.
+# "Chloe Wang (chwa)" <chwa@betopiaerp.com>, 2026.
 # 张飞虎 <feihu.zhang@live.com>, 2026.
 msgid ""
 msgstr ""
@@ -23,8 +23,8 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-29 11:11+0000\n"
 "Last-Translator: 张飞虎 <feihu.zhang@live.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/event/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/event/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,61 +46,61 @@ msgid "# Sent"
 msgstr "# 已发送"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (%(count)s seats remaining)"
 msgstr "%(event_name)s (%(count)s 剩余座位)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (Sold out)"
 msgstr "%(event_name)s (售罄)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
 msgstr "%(event_name)s-登记号%(registration_id)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
 msgstr "%(event_name)s-登记用于%(attendee_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (%(count)s seats remaining)"
 msgstr "%(slot_name)s（尚余名额：%(count)s）"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "%(slot_name)s (Sold out)"
 msgstr "%(slot_name)s（售罄）"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(slot_name)s: missing %(count)s seat(s)"
 msgstr "%(slot_name)s：尚欠 %(count)s 个名额"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (%(count)s seats remaining)"
 msgstr "%(ticket_name)s (%(count)s 剩余座位)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (Sold out)"
 msgstr "%(ticket_name)s (售罄)"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "%s (copy)"
 msgstr "%s（副本）"
@@ -2762,7 +2762,7 @@ msgid ""
 msgstr "要传达给客户的票的描述。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot cannot be scheduled outside of its event time range.\n"
@@ -2776,7 +2776,7 @@ msgstr ""
 "时段：\t\t%(slot_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "A slot end hour must be later than its start hour.\n"
@@ -2786,7 +2786,7 @@ msgstr ""
 "%s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid "A slot hour must be between 0:00 and 23:59."
 msgstr "时段小时必须在 0:00 至 23:59 之间。"
@@ -2982,7 +2982,7 @@ msgid "Answer Breakdown"
 msgstr "答案分解"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_question__answer_ids
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_form
@@ -3058,7 +3058,7 @@ msgid "Attended Date"
 msgstr "参加日期"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Attended on %(attended_date)s"
 msgstr ""
@@ -3148,7 +3148,7 @@ msgid "Badge Example"
 msgstr "徽章示例"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Badges"
 msgstr "徽章"
@@ -3260,7 +3260,7 @@ msgid "Cancelled"
 msgstr "已取消"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Cancelled registration"
 msgstr "取消注册"
@@ -3326,7 +3326,7 @@ msgid "Communication"
 msgstr "附言"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "Communication for %(event_name)s scheduled on %(scheduled_date)s failed."
@@ -3338,7 +3338,7 @@ msgid "Communication related to event registrations"
 msgstr "与活动注册相关的沟通"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
@@ -3355,7 +3355,7 @@ msgid "Company Name"
 msgstr "公司名称"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Compose Email"
 msgstr "撰写邮件"
@@ -3387,7 +3387,7 @@ msgid "Configuration"
 msgstr "配置"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
 msgstr "确认出席？"
@@ -3398,7 +3398,7 @@ msgid "Contact"
 msgstr "联系人"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Continue"
 msgstr "继续"
@@ -3603,7 +3603,7 @@ msgstr ""
 "用的优点。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Edit"
 msgstr "编辑"
@@ -3666,7 +3666,7 @@ msgid "Error"
 msgstr "错误"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model,name:event.model_event_event
 #: model:ir.model.fields,field_description:event.field_event_event__name
@@ -3727,7 +3727,7 @@ msgid "Event Mail Schedulers"
 msgstr "事件邮件发送排定器"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
 msgstr "活动邮件模板参考"
@@ -3778,7 +3778,7 @@ msgid "Event Registration Answer"
 msgstr "事务登记记录答案"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 msgid "Event Registrations"
 msgstr "活动登记记录"
@@ -4035,10 +4035,10 @@ msgstr "Font Awesome图标，例如：fa-tasks"
 msgid ""
 "For any additional information, please contact us at <a "
 "class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>"
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>"
 msgstr ""
 "若需要更多信息，欢迎联络我们： <a class=\"o_translate_inline\" "
-"href=\"mailto:events@BetopiaERP.com\">events@BetopiaERP.com</a>"
+"href=\"mailto:events@betopiaerp.com\">events@betopiaerp.com</a>"
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -4183,7 +4183,7 @@ msgid "Great! Now all you have to do is wait for your attendees to show up!"
 msgstr "真棒！ 现在您所要做的就是等待您的与会者出现！"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
 msgstr "来宾人数"
@@ -4217,7 +4217,7 @@ msgid "Hockey Tournament"
 msgstr "曲棍球比赛"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Home"
 msgstr "首页"
@@ -4283,7 +4283,7 @@ msgid "Icon"
 msgstr "图标"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
 msgstr "图标选择"
@@ -4375,7 +4375,7 @@ msgid "Insert dynamic Google Maps in your email templates"
 msgstr "在电子邮件模板中插入动态 谷歌 地图"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Install"
 msgstr "安装"
@@ -4392,19 +4392,19 @@ msgid "Introduction, CRM, Sales Management"
 msgstr "简介，CRM，销售管理"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / slot choice"
 msgstr "无效活动 / 时段选择"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
 msgstr "无效的事件/门票选择"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Invalid ticket"
 msgstr "无效门票"
@@ -4456,7 +4456,7 @@ msgid "Is Reusable"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "It failed with error %(error)s."
 msgstr "操作失败，错误为：%(error)s。"
@@ -4576,7 +4576,7 @@ msgid "Late Activities"
 msgstr "最近活动"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Let's create your first <b>event</b>."
 msgstr "让我们创建您的<b>第一个活动</b>。"
@@ -4804,7 +4804,7 @@ msgid "New"
 msgstr "新建"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/views/event_slot_calendar/event_slot_calendar_controller.js:0
 msgid "New Slot"
 msgstr ""
@@ -4895,7 +4895,7 @@ msgid "Nothing Scheduled yet!"
 msgstr "还没有任何安排!"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Now that your event is ready, click here to move it to another stage."
 msgstr "现在您的活动已准备就绪，请单击此处将其移至另一个阶段。"
@@ -5006,7 +5006,7 @@ msgid "Online if not set"
 msgstr "若未设定，表示是线上"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr "打开日期范围选择器。<br/>为您的事件选择开始和结束日期。"
@@ -5066,19 +5066,19 @@ msgid ""
 msgstr "请<b>至少</b>在活动开始前30分钟到场。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
 msgstr "请输入有效的 base64 密文"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Please enter a valid event URL."
 msgstr "请输入有效的活动 URL。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Please, Scan again!"
 msgstr "请再次扫描！"
@@ -5089,7 +5089,7 @@ msgid "Point of Sale (POS), Introduction to report customization."
 msgstr "POS，报告定制介绍。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Print"
 msgstr "打印"
@@ -5164,7 +5164,7 @@ msgid "Ready for Next Stage"
 msgstr "下一阶段就绪"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 msgstr "准备好在几分钟内<b>组织活动</b>了吗？ 让我们开始吧！"
@@ -5178,7 +5178,7 @@ msgid "Registered"
 msgstr "已注册"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 #: code:addons/event/models/event_type_ticket.py:0
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__registration_id
@@ -5236,7 +5236,7 @@ msgid "Registration Start"
 msgstr "登记开始"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
 msgstr "登记%s"
@@ -5276,7 +5276,7 @@ msgid "Registrations started"
 msgstr "开始登记"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "Rendering of template failed with error: %(error)s."
 msgstr "模板绘制失败，错误为：%(error)s。"
@@ -5331,7 +5331,7 @@ msgid "SMS Delivery error"
 msgstr "短信发送错误"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Scan or Tap"
 msgstr "扫描或点击"
@@ -5385,7 +5385,7 @@ msgid "Secret"
 msgstr "密匙"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Select Attendee"
 msgstr "选择参与者"
@@ -5482,7 +5482,7 @@ msgid "Show all records whose next activity date is past"
 msgstr "显示所有逾期未完成活动的记录"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_mail_slot__event_slot_id
 #: model:ir.model.fields,field_description:event.field_event_registration__event_slot_id
@@ -5496,7 +5496,7 @@ msgid "Slot Mail Scheduler"
 msgstr "时段邮件排期工具"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Slot choice is mandatory on multi-slots events."
 msgstr "如果活动有多个时段，您必须选择适用的时段。"
@@ -5512,7 +5512,7 @@ msgid "Slot-based communication"
 msgstr "按时段通讯"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 #: model:ir.actions.act_window,name:event.event_slot_action_from_event
 #: model:ir.model.fields,field_description:event.field_event_event__event_slot_ids
@@ -5634,7 +5634,7 @@ msgstr ""
 "计划：未来活动。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
 msgstr "注册成功！"
@@ -5711,7 +5711,7 @@ msgid ""
 msgstr "世界上最好的飞行员将齐聚这次活动，为您提供最壮观的表演。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
 msgstr "结束日期不能早于开始日期."
@@ -5738,7 +5738,7 @@ msgid ""
 msgstr "最好的OpenWood为您的家中增添全新系列家具"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_slot.py:0
 msgid ""
 "The following slots cannot be deleted while they have one or more "
@@ -5749,7 +5749,7 @@ msgstr ""
 "- %s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The following tickets cannot be deleted while they have one or more "
@@ -5760,7 +5760,7 @@ msgstr ""
 "- %s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than %(limit_orderable)s. Please check "
@@ -5768,7 +5768,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order cannot be greater than the maximum seats number. Please "
@@ -5776,7 +5776,7 @@ msgid ""
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The limit per order must be positive. Please check ticket %(ticket_name)s"
@@ -5788,7 +5788,7 @@ msgid "The safety of our attendees and our aeronauts comes first!"
 msgstr "与会者和飞行员的安全永远摆在第一位！"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
 "The stop date cannot be earlier than the start date. Please check ticket %"
@@ -5796,7 +5796,7 @@ msgid ""
 msgstr "停止日期不能早于开始日期。请检查门票 %(ticket_name)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are more registrations than this limit, the event will be sold out and "
@@ -5805,7 +5805,7 @@ msgstr ""
 "活动报名人数超过限额时，已超额报名的注册将保留，但活动会显示“已售罄”状态。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "There are not enough seats available for %(event_name)s:\n"
@@ -5815,7 +5815,7 @@ msgstr ""
 "%(sold_out_info)s"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid ""
 "There is an issue with dynamic placeholder. Actual error received is: %"
@@ -5828,7 +5828,7 @@ msgid "There must be a suggested value or a text value."
 msgstr "必须有建议值或文本值。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid ""
 "These events cannot have slots scheduled outside of their time range:\n"
@@ -5865,13 +5865,13 @@ msgid "This information will be printed on your tickets."
 msgstr "这些信息将印在您的门票上。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This is due to an error in template %(template_link)s."
 msgstr "这是由于模板“%(template_link)s”的一个错误所引起。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "This is the <b>name</b> your guests will see when registering."
 msgstr "这是客人在注册时会看到的<b>名称</b>。"
@@ -5893,7 +5893,7 @@ msgstr ""
 "这是与朋友度过美好时光，同时聆听有史以来最具标志性的摇滚歌曲的理想场所！"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_mail.py:0
 msgid "This may be linked to template %(template_link)s."
 msgstr "这可能已连接至模板“%(template_link)s”。"
@@ -5904,19 +5904,19 @@ msgid "This question is used by"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is for another event!"
 msgstr "这张票适用于另一场活动！"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
 msgstr "此票不适用于正在进行的活动"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -5932,7 +5932,7 @@ msgid "Ticket Instructions"
 msgstr "门票说明"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 #: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
@@ -5941,7 +5941,7 @@ msgid "Ticket Type"
 msgstr "工单类型"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
 msgstr "门票已扫描！"
@@ -5952,7 +5952,7 @@ msgid "Ticket type"
 msgstr "门票类型"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid ""
 "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a "
@@ -5960,13 +5960,13 @@ msgid ""
 msgstr "票证类型使您可以区分参会者。 让我们<b>创建</b>一个新的。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket was first scanned on"
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/controllers/main.py:0
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
@@ -6108,7 +6108,7 @@ msgid "Understand the various modules;"
 msgstr "了解不同的模块;"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Undo"
 msgstr "取消"
@@ -6135,7 +6135,7 @@ msgid "Upcoming/Running"
 msgstr "即将到来的 或 运行中的"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "Update the limit of registrations?"
 msgstr "更新报名人数上限？"
@@ -6156,7 +6156,7 @@ msgid "Use Event Tag Categories to classify and organize your event tags."
 msgstr "使用活动标签类别来分类和组织您的活动标签。"
 
 #. module: event
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
 msgstr "使用<b>面包屑</b>返回到看板概述。"
@@ -6274,20 +6274,20 @@ msgid "You are truly among the best."
 msgstr "您确实是最好的。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot change the question type of a question that already has answers!"
 msgstr "您不能更改已经有答案的问题的问题类型！"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid "You cannot delete a default question."
 msgstr ""
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question.py:0
 msgid ""
 "You cannot delete a question that has already been answered by attendees. "
@@ -6295,7 +6295,7 @@ msgid ""
 msgstr "您不可删除已有参与者回答的问题。您可改为将它存档。"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_question_answer.py:0
 msgid ""
 "You cannot delete an answer that has already been selected by attendees."
@@ -6364,7 +6364,7 @@ msgid "e.g. VIP Ticket"
 msgstr "例如：贵宾票"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "event_id"
 msgstr ""
@@ -6380,25 +6380,25 @@ msgid "https://www.example.com"
 msgstr "https://www.example.com/"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "in %d days"
 msgstr "%d 天内"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next month"
 msgstr "次月"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "next week"
 msgstr "下周"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "on %(date)s"
 msgstr "在%(date)s"
@@ -6427,13 +6427,13 @@ msgid "to"
 msgstr "到"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "today"
 msgstr "今日"
 
 #. module: event
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event/models/event_event.py:0
 msgid "tomorrow"
 msgstr "明天"
@@ -6778,8 +6778,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 #~ "您可以在此处定义将为州显示的标签\n"
 #~ " 看板视图中的默认标签。"
 
-#~ msgid "events@BetopiaERP.com"
-#~ msgstr "events@BetopiaERP.com"
+#~ msgid "events@betopiaerp.com"
+#~ msgstr "events@betopiaerp.com"
 
 #~ msgid "events@penwood.example.com"
 #~ msgstr "events@penwood.example.com"

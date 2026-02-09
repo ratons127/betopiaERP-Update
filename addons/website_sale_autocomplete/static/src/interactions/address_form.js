@@ -68,7 +68,7 @@ export class AddressForm extends Interaction {
         this.zipInput.value = address.zip || "";
         this.cityInput.value = address.city || "";
 
-        // Selects based on BetopiaERP ids
+        // Selects based on betopiaerp ids
         if (address.country) {
             this.countrySelect.value = address.country[0];
             // Let the state select know that the country has changed so that it may fetch the correct states or disappear.

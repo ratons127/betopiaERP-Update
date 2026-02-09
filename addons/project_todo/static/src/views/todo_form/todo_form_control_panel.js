@@ -1,4 +1,4 @@
-import { onMounted, useEffect } from "@BetopiaERP/owl";
+import { onMounted, useEffect } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { router } from "@web/core/browser/router";
 import { ControlPanel } from "@web/search/control_panel/control_panel";

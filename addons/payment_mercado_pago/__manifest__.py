@@ -22,6 +22,6 @@
             'payment_mercado_pago/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

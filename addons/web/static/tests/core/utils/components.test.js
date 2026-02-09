@@ -1,5 +1,5 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ErrorHandler } from "@web/core/utils/components";
 

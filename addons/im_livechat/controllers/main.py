@@ -49,9 +49,9 @@ class LivechatController(http.Controller):
     def fontawesome(self, **kwargs):
         return http.Stream.from_path('web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2').get_response()
 
-    @http.route('/im_livechat/BetopiaERP_ui_icons', type='http', auth='none', cors="*")
-    def BetopiaERP_ui_icons(self, **kwargs):
-        return http.Stream.from_path('web/static/lib/BetopiaERP_ui_icons/fonts/BetopiaERP_ui_icons.woff2').get_response()
+    @http.route('/im_livechat/betopiaerp_ui_icons', type='http', auth='none', cors="*")
+    def betopiaerp_ui_icons(self, **kwargs):
+        return http.Stream.from_path('web/static/lib/betopiaerp_ui_icons/fonts/betopiaerp_ui_icons.woff2').get_response()
 
     @http.route('/im_livechat/emoji_bundle', type='http', auth='public', cors='*')
     def get_emoji_bundle(self):

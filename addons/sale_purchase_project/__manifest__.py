@@ -4,7 +4,7 @@
     'name': 'Sale Purchase Project',
     'version': '1.0',
     'summary': 'Technical Bridge',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'category': 'Sales',
     'depends': ['sale_purchase', 'project_purchase', 'sale_project'],

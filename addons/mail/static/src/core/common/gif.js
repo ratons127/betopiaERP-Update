@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 import { Deferred, KeepLast } from "@web/core/utils/concurrency";
 import { memoize } from "@web/core/utils/functions";

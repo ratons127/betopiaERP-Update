@@ -11,7 +11,7 @@ import astroid
 from betopiaerp.tests.common import TransactionCase
 from betopiaerp.tools.which import which
 
-from . import _BetopiaERP_checker_sql_injection
+from . import _betopiaerp_checker_sql_injection
 
 try:
     import pylint
@@ -73,7 +73,7 @@ class TestPylintChecks(TransactionCase):
 @unittest.skipUnless(pylint and pylint_bin, "testing lints requires pylint")
 class TestGetTextLint(TestPylintChecks):
     def check(self, testtext):
-        return super().check(testtext, "_BetopiaERP_checker_gettext", "gettext-placeholders")
+        return super().check(testtext, "_betopiaerp_checker_gettext", "gettext-placeholders")
 
     def test_gettext_env(self):
         # check that _ and self.env._ are checked in the same way
@@ -95,7 +95,7 @@ class TestGetTextLint(TestPylintChecks):
 @unittest.skipUnless(pylint and pylint_bin, "testing lints requires pylint")
 class TestSqlLint(TestPylintChecks):
     def check(self, testtext):
-        return super().check(testtext, "_BetopiaERP_checker_sql_injection", "sql-injection")
+        return super().check(testtext, "_betopiaerp_checker_sql_injection", "sql-injection")
 
     def test_printf(self):
         r, [err] = self.check("""
@@ -160,7 +160,7 @@ class TestSqlLint(TestPylintChecks):
     def test_sql_injection_detection(self):
         self.linter = UnittestLinter()
         self.linter.current_file = 'dummy.py' # should not be prefixed by test
-        checker = _BetopiaERP_checker_sql_injection.BetopiaERPBaseChecker(self.linter)
+        checker = _betopiaerp_checker_sql_injection.BetopiaERPBaseChecker(self.linter)
 
         node = astroid.extract_node("""
         def test(): 
@@ -485,7 +485,7 @@ class TestSqlLint(TestPylintChecks):
 class TestI18nChecks(TestPylintChecks):
     def check(self, test_content):
         return super().check(
-            test_content, "_BetopiaERP_checker_gettext", "missing-gettext,gettext-variable,gettext-placeholders,gettext-repr"
+            test_content, "_betopiaerp_checker_gettext", "missing-gettext,gettext-variable,gettext-placeholders,gettext-repr"
         )
 
     def test_gettext_variable(self):

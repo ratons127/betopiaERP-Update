@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Thread } from "./thread_model";
 import { _t } from "@web/core/l10n/translation";
 import { ImStatus } from "./im_status";

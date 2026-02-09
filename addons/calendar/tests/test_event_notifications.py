@@ -92,7 +92,7 @@ class TestCalendarMail(CalendarMailCommon):
         self.assertDictEqual(
             defaults[event.id],
             {'email_cc': '', 'email_to': '', 'partner_ids': (self.customers[0] + self.user_employee_2.partner_id).ids},
-            'Correctly filters out robBetopiaERP and aliases'
+            'Correctly filters out robbetopiaerp and aliases'
         )
 
     def test_event_get_suggested_recipients(self):
@@ -115,7 +115,7 @@ class TestCalendarMail(CalendarMailCommon):
                 'name': self.user_employee_2.partner_id.name,
                 'partner_id': self.user_employee_2.partner_id.id,
             },
-        ], 'Correctly filters out robBetopiaERP and aliases')
+        ], 'Correctly filters out robbetopiaerp and aliases')
 
     def test_event_template(self):
         event, template = self.event.with_user(self.user_employee), self.test_template_event.with_user(self.user_employee)
@@ -634,7 +634,7 @@ class TestEventNotifications(CalendarMailCommon):
             'recurrency': True,
             'rrule_type': 'daily',
             'count': 3,
-            'location': 'BetopiaERP S.A.',
+            'location': 'BetopiaERP',
             'privacy': 'public',
             'show_as': 'busy',
         })

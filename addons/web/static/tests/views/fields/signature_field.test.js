@@ -1,8 +1,8 @@
 import { NameAndSignature } from "@web/core/signature/name_and_signature";
 
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { click, drag, edit, queryFirst, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { click, drag, edit, queryFirst, waitFor } from "@betopiaerp/hoot-dom";
 import {
     clickSave,
     defineModels,

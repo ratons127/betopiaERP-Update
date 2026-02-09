@@ -1,6 +1,6 @@
 import { SubChannelList } from "@mail/discuss/core/public_web/sub_channel_list";
 
-import { status } from "@BetopiaERP/owl";
+import { status } from "@betopiaerp/owl";
 
 import { registry } from "@web/core/registry";
 import { Deferred } from "@web/core/utils/concurrency";

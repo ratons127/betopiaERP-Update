@@ -41,7 +41,7 @@ class ResUsers(models.Model):
             status = "sync_stopped"
         return status
 
-    def _check_pending_BetopiaERP_records(self):
+    def _check_pending_betopiaerp_records(self):
         """ Returns True if sync is active and there are records to be synchronized to Google. """
         if self._get_google_sync_status() != "sync_active":
             return False
@@ -52,7 +52,7 @@ class ResUsers(models.Model):
     def _sync_google_calendar(self, calendar_service: GoogleCalendarService):
         self.ensure_one()
         results = self._sync_request(calendar_service)
-        if not results or (not results.get('events') and not self._check_pending_BetopiaERP_records()):
+        if not results or (not results.get('events') and not self._check_pending_betopiaerp_records()):
             return False
         events, default_reminders, full_sync = results.values()
         # Google -> BetopiaERP
@@ -60,29 +60,29 @@ class ResUsers(models.Model):
         events.clear_type_ambiguity(self.env)
         recurrences = events.filter(lambda e: e.is_recurrence())
 
-        # We apply Google updates only if their write date is later than the write date in betopiaerp.
+        # We apply Google updates only if their write date is later than the write date in BetopiaERP.
         # It's possible that multiple updates affect the same record, maybe not directly.
         # To handle this, we preserve the write dates in BetopiaERP before applying any updates,
         # and use these dates instead of the current live dates.
-        BetopiaERP_events = self.env['calendar.event'].browse((events - recurrences).BetopiaERP_ids(self.env))
-        BetopiaERP_recurrences = self.env['calendar.recurrence'].browse(recurrences.BetopiaERP_ids(self.env))
-        recurrences_write_dates = {r.id: r.write_date for r in BetopiaERP_recurrences}
-        events_write_dates = {e.id: e.write_date for e in BetopiaERP_events}
-        synced_recurrences = self.env['calendar.recurrence']._sync_google2BetopiaERP(recurrences, recurrences_write_dates)
-        synced_events = self.env['calendar.event']._sync_google2BetopiaERP(events - recurrences, events_write_dates, default_reminders=default_reminders)
+        betopiaerp_events = self.env['calendar.event'].browse((events - recurrences).betopiaerp_ids(self.env))
+        betopiaerp_recurrences = self.env['calendar.recurrence'].browse(recurrences.betopiaerp_ids(self.env))
+        recurrences_write_dates = {r.id: r.write_date for r in betopiaerp_recurrences}
+        events_write_dates = {e.id: e.write_date for e in betopiaerp_events}
+        synced_recurrences = self.env['calendar.recurrence']._sync_google2betopiaerp(recurrences, recurrences_write_dates)
+        synced_events = self.env['calendar.event']._sync_google2betopiaerp(events - recurrences, events_write_dates, default_reminders=default_reminders)
 
         # BetopiaERP -> Google
         recurrences = self.env['calendar.recurrence']._get_records_to_sync(full_sync=full_sync)
         recurrences -= synced_recurrences
-        recurrences.with_context(send_updates=send_updates)._sync_BetopiaERP2google(calendar_service)
+        recurrences.with_context(send_updates=send_updates)._sync_betopiaerp2google(calendar_service)
         synced_events |= recurrences.calendar_event_ids - recurrences._get_outliers()
         synced_events |= synced_recurrences.calendar_event_ids - synced_recurrences._get_outliers()
         events = self.env['calendar.event']._get_records_to_sync(full_sync=full_sync)
-        (events - synced_events).with_context(send_updates=send_updates)._sync_BetopiaERP2google(calendar_service)
+        (events - synced_events).with_context(send_updates=send_updates)._sync_betopiaerp2google(calendar_service)
 
         return bool(results) and (bool(events | synced_events) or bool(recurrences | synced_recurrences))
 
-    def _sync_single_event(self, calendar_service: GoogleCalendarService, BetopiaERP_event, event_id):
+    def _sync_single_event(self, calendar_service: GoogleCalendarService, betopiaerp_event, event_id):
         self.ensure_one()
         results = self._sync_request(calendar_service, event_id)
         if not results or not results.get('events'):
@@ -91,10 +91,10 @@ class ResUsers(models.Model):
         # Google -> BetopiaERP
         send_updates = not full_sync
         event.clear_type_ambiguity(self.env)
-        synced_events = self.env['calendar.event']._sync_google2BetopiaERP(event, default_reminders=default_reminders)
+        synced_events = self.env['calendar.event']._sync_google2betopiaerp(event, default_reminders=default_reminders)
         # BetopiaERP -> Google
-        BetopiaERP_event.with_context(send_updates=send_updates)._sync_BetopiaERP2google(calendar_service)
-        return bool(BetopiaERP_event | synced_events)
+        betopiaerp_event.with_context(send_updates=send_updates)._sync_betopiaerp2google(calendar_service)
+        return bool(betopiaerp_event | synced_events)
 
     def _sync_request(self, calendar_service, event_id=None):
         if self._get_google_sync_status() != "sync_active":

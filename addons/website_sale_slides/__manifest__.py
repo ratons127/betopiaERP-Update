@@ -35,6 +35,6 @@
             'website_sale_slides/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

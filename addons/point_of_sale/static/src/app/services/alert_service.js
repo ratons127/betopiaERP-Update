@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 class Alert extends Component {

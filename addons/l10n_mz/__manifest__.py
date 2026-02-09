@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mozambique - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'description': """
 Mozambican Accounting localization
     """,
@@ -20,6 +20,6 @@ Mozambican Accounting localization
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -9,7 +9,7 @@ requirement is explained in the [FAQ](#faq).
 1.  Read the [Individual Contributor License Agreement](icla-1.0.md)
 
 2.  Modify your current pull request, or make a new pull request on
-    [BetopiaERP/BetopiaERP](https://github.com/BetopiaERP/BetopiaERP), adding a new file
+    [betopiaerp/betopiaerp](https://github.com/betopiaerp/betopiaerp), adding a new file
     `<lowercase-github-login>.md` under the [`doc/cla/individual`](individual/) directory.
     If your GitHub login is `ODony`, the file would be
     `doc/cla/individual/odony.md`. The file should contain:
@@ -45,10 +45,10 @@ signature is merged.
 1.  Read the [Corporate Contributor License Agreement](ccla-1.0.md)
 
 2.  Modify your current pull request, or make a new pull request on
-    [BetopiaERP/BetopiaERP](/BetopiaERP/BetopiaERP), adding a new file `<lowercase-company-name>.md`
+    [betopiaerp/betopiaerp](/betopiaerp/betopiaerp), adding a new file `<lowercase-company-name>.md`
     under the [`doc/cla/corporate`](corporate/) directory.
     If the name of the company is BetopiaERP, the file would be
-    `doc/cla/corporate/BetopiaERP.md`. The file should contain:
+    `doc/cla/corporate/betopiaerp.md`. The file should contain:
 
 ```
 <country>, <date>
@@ -87,7 +87,7 @@ signature is merged.
 
 If you cannot submit your signature using a pull request, you may alternatively
 print the CLA, complete it, sign it, scan it and send it by email to
-`cla-submission` `at` `BetopiaERP.com`.  In that case someone from the BetopiaERP team will
+`cla-submission` `at` `betopiaerp.com`.  In that case someone from the BetopiaERP team will
 make the pull request on your behalf.
 
 * Printable BetopiaERP CCLA v1.0 https://www.BetopiaERP.com/files/legal/BetopiaERP-CCLA-v1.0.pdf
@@ -122,7 +122,7 @@ can be found on the Apache website.
 
 This CLA is not a copyright assignment, it is a pure license agreement. You
 keep the full copyright for your contributions, you simply provide an
-irrevocable license to the project maintainer, BetopiaERP S.A. to use, modify and
+irrevocable license to the project maintainer, BetopiaERP to use, modify and
 distribute your contributions without further restrictions.
 
 ## How does it work?

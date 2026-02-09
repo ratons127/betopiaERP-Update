@@ -16,6 +16,6 @@ Open the record of the serial number from an equipment form
     ],
     'summary': 'See lots used in maintenance',
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

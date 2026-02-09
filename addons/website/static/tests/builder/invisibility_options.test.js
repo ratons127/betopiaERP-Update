@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryOne } from "@betopiaerp/hoot-dom";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

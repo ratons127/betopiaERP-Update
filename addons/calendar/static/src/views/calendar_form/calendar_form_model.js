@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 import { RelationalModel } from "@web/model/relational_model/relational_model";
 import { Record } from "@web/model/relational_model/record";

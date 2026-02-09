@@ -1,7 +1,7 @@
 import { addBuilderOption, setupHTMLBuilder } from "@html_builder/../tests/helpers";
 import { refreshSublevelLines } from "@html_builder/core/building_blocks/builder_row";
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     advanceTime,
     animationFrame,
@@ -10,8 +10,8 @@ import {
     queryAllTexts,
     queryOne,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains, defineStyle } from "@web/../tests/web_test_helpers";
 import { OPEN_DELAY } from "@web/core/tooltip/tooltip_service";
 

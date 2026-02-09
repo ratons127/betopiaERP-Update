@@ -1,9 +1,9 @@
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 registry.category("web_tour.tours").add('mass_mailing_code_view_tour', {
-    url: '/BetopiaERP?debug=tests',
+    url: '/betopiaerp?debug=tests',
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {

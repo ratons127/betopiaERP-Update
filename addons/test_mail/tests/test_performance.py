@@ -1327,7 +1327,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
 
         cls.link_previews = cls.env["mail.link.preview"].create(
             [
-                {"source_url": "https://www.betopiaerp.com"},
+                {"source_url": "https://www.BetopiaERP.com"},
                 {"source_url": "https://www.example.com"},
             ]
         )
@@ -1531,7 +1531,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                         ),
                                         "date": fields.Datetime.to_string(message.date),
                                         "default_subject": "Test",
-                                        "email_from": '"BetopiaERPBot" <BetopiaERPbot@example.com>',
+                                        "email_from": '"BetopiaERPBot" <betopiaerpbot@example.com>',
                                         "id": message.id,
                                         "incoming_email_cc": False,
                                         "incoming_email_to": False,
@@ -1644,7 +1644,7 @@ class TestMessageToStorePerformance(BaseMailPerformance):
                                         ),
                                         "date": fields.Datetime.to_string(message.date),
                                         "default_subject": "Test",
-                                        "email_from": '"BetopiaERPBot" <BetopiaERPbot@example.com>',
+                                        "email_from": '"BetopiaERPBot" <betopiaerpbot@example.com>',
                                         "id": message.id,
                                         "incoming_email_cc": False,
                                         "incoming_email_to": False,

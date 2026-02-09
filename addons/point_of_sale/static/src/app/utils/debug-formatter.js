@@ -1,7 +1,7 @@
 import { Base } from "../models/related_models";
 import { RAW_SYMBOL } from "../models/related_models/utils";
 import { WithLazyGetterTrap } from "../../lazy_getter";
-import { toRaw } from "@BetopiaERP/owl";
+import { toRaw } from "@betopiaerp/owl";
 
 // https://www.mattzeunert.com/2016/02/19/custom-chrome-devtools-object-formatters.html
 

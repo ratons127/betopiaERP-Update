@@ -5,7 +5,7 @@ import { _t } from "@web/core/l10n/translation";
 import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";
 import { renderToMarkup } from "@web/core/utils/render";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 /**
  * Get list of companies via Autocomplete API

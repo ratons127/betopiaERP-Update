@@ -16,11 +16,11 @@ function changeDescriptionContentAndSave(newContent) {
     return [
         {
             // force focus on editable so editor will create initial p (if not yet done)
-            trigger: "div.note-editable.BetopiaERP-editor-editable",
+            trigger: "div.note-editable.betopiaerp-editor-editable",
             run: "click",
         },
         {
-            trigger: `div.note-editable[spellcheck='true'].BetopiaERP-editor-editable`,
+            trigger: `div.note-editable[spellcheck='true'].betopiaerp-editor-editable`,
             run: `editor ${newText}`,
         },
         ...stepUtils.saveForm(),
@@ -31,11 +31,11 @@ function insertEditorContent(newContent) {
     return [
         {
             // force focus on editable so editor will create initial p (if not yet done)
-            trigger: "div.note-editable.BetopiaERP-editor-editable",
+            trigger: "div.note-editable.betopiaerp-editor-editable",
             run: "click",
         },
         {
-            trigger: `div.note-editable[spellcheck='true'].BetopiaERP-editor-editable`,
+            trigger: `div.note-editable[spellcheck='true'].betopiaerp-editor-editable`,
             run: async function () {
                 // Insert content as html and make the field dirty
                 const div = document.createElement("div");
@@ -50,7 +50,7 @@ function insertEditorContent(newContent) {
 
 
 registry.category("web_tour.tours").add("project_task_history_tour", {
-    url: "/BetopiaERP?debug=1,tests",
+    url: "/betopiaerp?debug=1,tests",
     steps: () => [stepUtils.showAppsMenuItem(), {
         content: "Open the project app",
         trigger: ".o_app[data-menu-xmlid='project.menu_main_pm']",
@@ -142,7 +142,7 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
         run: "click",
     }, {
         content: "Verify that the description contains the right text after the restore",
-        trigger: `div.note-editable.BetopiaERP-editor-editable`,
+        trigger: `div.note-editable.betopiaerp-editor-editable`,
         run: function () {
             const p = this.anchor?.innerText;
             const expected = `${baseDescriptionContent} 1`;
@@ -209,7 +209,7 @@ registry.category("web_tour.tours").add("project_task_history_tour", {
 ]});
 
 registry.category("web_tour.tours").add("project_task_last_history_steps_tour", {
-    url: "/BetopiaERP?debug=1,tests",
+    url: "/betopiaerp?debug=1,tests",
     steps: () => [stepUtils.showAppsMenuItem(), {
         content: "Open the project app",
         trigger: ".o_app[data-menu-xmlid='project.menu_main_pm']",

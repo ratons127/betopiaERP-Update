@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { defineModels, fields, models, mountWithSearch } from "@web/../tests/web_test_helpers";
-import { mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("headless");
 

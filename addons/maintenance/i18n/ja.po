@@ -8,16 +8,16 @@
 # Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2022
 # Andy Yiu, 2023
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-02-02 13:43+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "maintenance/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -486,8 +486,8 @@ msgstr "メールCC"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Eメールドメイン例 'example.com' in 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Eメールドメイン例 'example.com' in 'betopiaerp@example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -495,7 +495,7 @@ msgid "End Date"
 msgstr "終了日"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "End date cannot be earlier than start date."
 msgstr "終了日は開始日よりも後にしてください。"
@@ -1308,7 +1308,7 @@ msgid "Request Done"
 msgstr "完了した依頼"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 msgstr "%s用に計画された依頼"
@@ -1509,13 +1509,13 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"eメールのエイリアス.例えば<jobs@example.BetopiaERP.com>のメールを受け取りたい場"
+"eメールのエイリアス.例えば<jobs@example.betopiaerp.com>のメールを受け取りたい場"
 "合'jobs’を選択"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "The repeat interval cannot be less than 1."
 msgstr "繰返し間隔は1未満にすることはできません。"
@@ -1638,7 +1638,7 @@ msgid "Years"
 msgstr "年"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

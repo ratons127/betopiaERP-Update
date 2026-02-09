@@ -11,12 +11,12 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 import { withGuest } from "@mail/../tests/mock_server/mail_mock_server";
-import { describe, test } from "@BetopiaERP/hoot";
-import { press, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { press, waitFor } from "@betopiaerp/hoot-dom";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { rpc } from "@web/core/network/rpc";
 import { defineLivechatModels } from "./livechat_test_helpers";
-import { advanceTime, mockDate } from "@BetopiaERP/hoot-mock";
+import { advanceTime, mockDate } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineLivechatModels();

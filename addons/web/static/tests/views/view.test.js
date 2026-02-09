@@ -1,7 +1,7 @@
-import { before, expect, test } from "@BetopiaERP/hoot";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, onWillStart, onWillUpdateProps, useState, xml } from "@BetopiaERP/owl";
+import { before, expect, test } from "@betopiaerp/hoot";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, onWillStart, onWillUpdateProps, useState, xml } from "@betopiaerp/owl";
 import {
     defineModels,
     expectMarkup,

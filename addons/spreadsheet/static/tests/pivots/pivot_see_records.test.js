@@ -1,5 +1,5 @@
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     defineSpreadsheetActions,
     defineSpreadsheetModels,
@@ -13,7 +13,7 @@ import { doMenuAction, getActionMenu } from "@spreadsheet/../tests/helpers/ui";
 import { createSpreadsheetWithPivot } from "@spreadsheet/../tests/helpers/pivot";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { getCell, getCellFormula, getCellValue } from "@spreadsheet/../tests/helpers/getters";
 import { mockService, onRpc } from "@web/../tests/web_test_helpers";
 

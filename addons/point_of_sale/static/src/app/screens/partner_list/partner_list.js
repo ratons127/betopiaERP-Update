@@ -4,7 +4,7 @@ import { Dialog } from "@web/core/dialog/dialog";
 import { PartnerLine } from "@point_of_sale/app/screens/partner_list/partner_line/partner_line";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { Input } from "@point_of_sale/app/components/inputs/input/input";
-import { Component, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useState } from "@betopiaerp/owl";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 import { normalize } from "@web/core/l10n/utils";
 import { debounce } from "@web/core/utils/timing";

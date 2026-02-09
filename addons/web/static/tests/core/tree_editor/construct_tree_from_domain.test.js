@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 
 import { condition, connector } from "@web/core/tree_editor/condition_tree";
 import { constructTreeFromDomain } from "@web/core/tree_editor/construct_tree_from_domain";

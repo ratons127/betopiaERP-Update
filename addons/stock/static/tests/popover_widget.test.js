@@ -1,5 +1,5 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { contains, defineModels, fields, models, mountView } from "@web/../tests/web_test_helpers";
 
 class Partner extends models.Model {

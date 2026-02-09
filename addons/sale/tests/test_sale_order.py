@@ -1125,7 +1125,7 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
         })
 
     def test_mail_attachment_removal_tour(self):
-        url = f"/BetopiaERP/sales/{self.quotation.id}"
+        url = f"/betopiaerp/sales/{self.quotation.id}"
         with self.mock_mail_app():
             self.start_tour(
                 url,

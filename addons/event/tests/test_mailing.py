@@ -39,9 +39,9 @@ class TestMailing(EventCase, MockEmail):
                     "partner_id": cls.event_customer2.id,
                 },
                 {
-                    "email": "robBetopiaERP@example.com",
+                    "email": "robbetopiaerp@example.com",
                     "event_id": cls.test_event.id,
-                    "name": "RobBetopiaERP",
+                    "name": "Robbetopiaerp",
                 },
                 {
                     "email": "another.email@example.com",
@@ -97,7 +97,7 @@ class TestMailing(EventCase, MockEmail):
                 # other registrations: emails
                 self.assertMailMailWEmails(
                     [
-                        formataddr(("RobBetopiaERP", "robBetopiaERP@example.com")),
+                        formataddr(("Robbetopiaerp", "robbetopiaerp@example.com")),
                         formataddr(("Another Email", "another.email@example.com")),
                     ],
                     "outgoing",

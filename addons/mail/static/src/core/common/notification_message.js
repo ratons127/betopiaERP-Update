@@ -5,7 +5,7 @@ import {
     onWillDestroy,
     onWillUpdateProps,
     useRef,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 import { escape } from "@web/core/utils/strings";

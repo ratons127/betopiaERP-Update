@@ -1,6 +1,6 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { BarcodeParser } from "@barcodes/js/barcode_parser";
 
 test.tags("headless");

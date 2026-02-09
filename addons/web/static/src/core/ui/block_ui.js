@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { browser } from "@web/core/browser/browser";
 
-import { EventBus, Component, useState } from "@BetopiaERP/owl";
+import { EventBus, Component, useState } from "@betopiaerp/owl";
 
 export class BlockUI extends Component {
     static props = {

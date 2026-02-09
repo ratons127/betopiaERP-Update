@@ -1,4 +1,4 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { BetopiaERPUIPlugin } from "@spreadsheet/plugins";
 
 const { constants } = spreadsheet;
@@ -16,13 +16,13 @@ export class ListUIPlugin extends BetopiaERPUIPlugin {
      */
     handle(cmd) {
         switch (cmd.type) {
-            case "INSERT_BetopiaERP_LIST_WITH_TABLE": {
-                this.dispatch("INSERT_BetopiaERP_LIST", cmd);
+            case "INSERT_BETOPIAERP_LIST_WITH_TABLE": {
+                this.dispatch("INSERT_BETOPIAERP_LIST", cmd);
                 this._addTable(cmd);
                 break;
             }
-            case "RE_INSERT_BetopiaERP_LIST_WITH_TABLE": {
-                this.dispatch("RE_INSERT_BetopiaERP_LIST", cmd);
+            case "RE_INSERT_BETOPIAERP_LIST_WITH_TABLE": {
+                this.dispatch("RE_INSERT_BETOPIAERP_LIST", cmd);
                 this._addTable(cmd);
                 break;
             }

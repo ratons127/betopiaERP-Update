@@ -23,6 +23,6 @@
             'payment_authorize/static/src/scss/payment_authorize.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

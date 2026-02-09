@@ -1,6 +1,6 @@
-import { beforeEach, describe, test } from "@BetopiaERP/hoot";
-import { animationFrame, waitFor } from "@BetopiaERP/hoot-dom";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, test } from "@betopiaerp/hoot";
+import { animationFrame, waitFor } from "@betopiaerp/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
 import { testEditor } from "../_helpers/editor";
 import { insertText, splitBlock } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";

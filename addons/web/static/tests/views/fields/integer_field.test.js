@@ -1,5 +1,5 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     clickSave,
     contains,

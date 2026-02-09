@@ -1,7 +1,7 @@
 import { EDITABLE_MEDIA_CLASS } from "@html_editor/utils/dom_info";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, press, waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, press, waitFor, waitForNone } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { contains, makeMockEnv, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { cleanHints } from "./_helpers/dispatch";
 import { base64Img, setupEditor, testEditor } from "./_helpers/editor";
@@ -63,7 +63,7 @@ test("Replace an image with link by a document should remove the link", async ()
     await click(".nav-link:contains('Documents')");
     await animationFrame();
     await click(".o_we_attachment_highlight .o_button_area");
-    expect(".BetopiaERP-editor-editable .o_file_box a:contains('file.txt')").toHaveCount(1);
+    expect(".betopiaerp-editor-editable .o_file_box a:contains('file.txt')").toHaveCount(1);
     expect("img[src='/web/static/img/logo.png']").toHaveCount(0);
     expect("p a[href='http://test.com']").toHaveCount(0);
 });
@@ -325,7 +325,7 @@ test("cropper should not open for external image", async () => {
     }));
 
     await setupEditor(
-        `<p>[<img src="https://download.BetopiaERPcdn.com/icons/website/static/description/icon.png">]</p>`
+        `<p>[<img src="https://download.betopiaerpcdn.com/icons/website/static/description/icon.png">]</p>`
     );
     await waitFor('button[name="image_transform"]');
 

@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { mockPermission } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { mockPermission } from "@betopiaerp/hoot-mock";
 import { defineModels, models, mountView } from "@web/../tests/web_test_helpers";
 
 class Partner extends models.Model {

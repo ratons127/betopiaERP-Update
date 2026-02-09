@@ -11,6 +11,6 @@
         "data/dashboards.xml",
     ],
     'auto_install': ['sale'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

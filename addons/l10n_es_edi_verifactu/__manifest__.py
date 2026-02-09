@@ -5,7 +5,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/EDI',
     'summary': "Module for sending Spanish Veri*Factu XML to the AEAT",
-    'website': "https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/spain.html#veri-factu",
+    'website': "https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/spain.html#veri-factu",
     'depends': ['l10n_es'],
     'data': [
         'security/ir.model.access.csv',
@@ -30,6 +30,6 @@
         ],
     },
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

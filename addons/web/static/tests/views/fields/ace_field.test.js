@@ -1,8 +1,8 @@
 /* global ace */
 
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 import {
     clickSave,

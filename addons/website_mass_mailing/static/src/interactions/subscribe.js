@@ -15,7 +15,7 @@ export class Subscribe extends Interaction {
         this._recaptcha = new ReCaptcha();
         this.notification = this.services['notification'];
         if (session.turnstile_site_key) {
-            const { TurnStile } = BetopiaERP.loader.modules.get(
+            const { TurnStile } = betopiaerp.loader.modules.get(
                 "@website_cf_turnstile/interactions/turnstile"
             );
             this._turnstile = new TurnStile("website_mass_mailing_subscribe");

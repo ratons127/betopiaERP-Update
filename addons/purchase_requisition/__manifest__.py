@@ -34,6 +34,6 @@ are agreements you have with vendors to benefit from a predetermined pricing.
             'purchase_requisition/static/src/*/**.xml',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

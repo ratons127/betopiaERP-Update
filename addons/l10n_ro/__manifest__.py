@@ -1,8 +1,8 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Romania - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/romania.html',
-    'author': 'Fekete Mihai (NextERP Romania SRL), BetopiaERP S.A.',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/romania.html',
+    'author': 'Fekete Mihai (NextERP Romania SRL), BetopiaERP',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ro'],
     'category': 'Accounting/Localizations/Account Charts',
@@ -15,7 +15,7 @@
     'auto_install': ['account'],
     'description': """
 This is the module to manage the Accounting Chart, VAT structure, Fiscal Position and Tax Mapping.
-It also adds the Registration Number for Romania in betopiaerp.
+It also adds the Registration Number for Romania in BetopiaERP.
 ================================================================================================================
 
 Romanian accounting chart and localization.

@@ -13,4 +13,4 @@ Sainu Abideen sainu@cybrosys.com https://github.com/CybroBetopiaERP
 List of contributors:
 
 Sainu Abideen sainu@cybrosys.com https://github.com/CybroBetopiaERP
-Cybrosys BetopiaERP@cybrosys.com https://github.com/CybroBetopiaERP
+Cybrosys betopiaerp@cybrosys.com https://github.com/CybroBetopiaERP

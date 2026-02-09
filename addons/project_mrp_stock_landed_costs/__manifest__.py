@@ -7,6 +7,6 @@
     'category': 'Supply Chain/Manufacturing',
     'depends': ['project_mrp_account', 'mrp_landed_costs'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

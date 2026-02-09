@@ -1,18 +1,18 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { setupWysiwyg } from "./_helpers/editor";
 import { getContent, setContent, setSelection } from "./_helpers/selection";
 import { expectElementCount } from "./_helpers/ui_expectations";
 import { range } from "@web/core/utils/numbers";
 import { htmlJoin } from "@web/core/utils/html";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 describe("Wysiwyg Component", () => {
     test("Wysiwyg component can be instantiated", async () => {
         const { el } = await setupWysiwyg();
         expect(".o-wysiwyg").toHaveCount(1);
-        expect(".BetopiaERP-editor-editable").toHaveCount(1);
+        expect(".betopiaerp-editor-editable").toHaveCount(1);
         await expectElementCount(".o-we-toolbar", 0);
 
         // set the selection to a range, and check that the toolbar
@@ -35,7 +35,7 @@ describe("Wysiwyg Component", () => {
             iframe: true,
             contentClass: "test ",
         });
-        expect(":iframe .test.BetopiaERP-editor-editable").toHaveCount(1);
+        expect(":iframe .test.betopiaerp-editor-editable").toHaveCount(1);
     });
 
     test.tags("desktop");

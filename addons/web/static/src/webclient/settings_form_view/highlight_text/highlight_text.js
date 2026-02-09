@@ -1,4 +1,4 @@
-import { Component, useState, onWillRender } from "@BetopiaERP/owl";
+import { Component, useState, onWillRender } from "@betopiaerp/owl";
 import { highlightText } from "@web/core/utils/html";
 
 export class HighlightText extends Component {

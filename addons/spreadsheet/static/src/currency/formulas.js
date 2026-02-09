@@ -1,9 +1,9 @@
 import { _t } from "@web/core/l10n/translation";
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 const { arg, toString, toJsDate, toNumber } = spreadsheet.helpers;
 const { functionRegistry } = spreadsheet.registries;
 
-functionRegistry.add("BetopiaERP.CURRENCY.RATE", {
+functionRegistry.add("BETOPIAERP.CURRENCY.RATE", {
     description: _t(
         "This function takes in two currency codes as arguments, and returns the exchange rate from the first currency to the second as float."
     ),

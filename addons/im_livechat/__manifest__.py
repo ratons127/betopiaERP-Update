@@ -5,7 +5,7 @@
     'sequence': 210,
     'summary': 'Chat with your website visitors',
     'category': 'Website/Live Chat',
-    'website': 'https://www.betopiaerp.com/app/live-chat',
+    'website': 'https://www.BetopiaERP.com/app/live-chat',
     'description':
         """
 Live Chat Support
@@ -137,7 +137,7 @@ Help your customers with this chat, and analyse their feedback.
             'web/static/src/scss/ui.scss',
             'web/static/src/libs/fontawesome/css/font-awesome.css',
             'web/static/src/scss/animation.scss',
-            'web/static/lib/BetopiaERP_ui_icons/style.css',
+            'web/static/lib/betopiaerp_ui_icons/style.css',
             'web/static/src/webclient/webclient.scss',
             ('include', 'web._assets_core'),
             'web/static/src/views/fields/formatters.js',
@@ -193,6 +193,6 @@ Help your customers with this chat, and analyse their feedback.
             "im_livechat/static/src/core/public_web/**/*",
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

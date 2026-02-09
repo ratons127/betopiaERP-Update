@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { standardFieldProps } from "../standard_field_props";
 import { formatJson } from "@web/views/fields/formatters";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class JsonField extends Component {
     static template = "web.JsonField";

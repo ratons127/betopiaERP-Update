@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class HeaderTopOptions extends Component {
     static template = "website.HeaderTopOptions";

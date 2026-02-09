@@ -6,6 +6,6 @@
     'version': '0.1',
     'depends': ['base', 'web'],
     'data': ['ir.model.access.csv'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

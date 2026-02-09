@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 import { WebClient } from "@web/webclient/webclient";
 import { clickOnDataset, setupChartJsForTests } from "@web/../tests/views/graph/graph_test_helpers";

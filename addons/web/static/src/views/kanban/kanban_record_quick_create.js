@@ -11,7 +11,7 @@ import {
     useRef,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { RPCError } from "@web/core/network/rpc";
 import { extractFieldsFromArchInfo } from "@web/model/relational_model/utils";
 import { formView } from "../form/form_view";

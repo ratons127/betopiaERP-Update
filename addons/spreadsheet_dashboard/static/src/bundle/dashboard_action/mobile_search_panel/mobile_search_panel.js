@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class DashboardMobileSearchPanel extends Component {
     static template = "spreadsheet_dashboard.DashboardMobileSearchPanel";

@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # JH CHOI <hwangtog@gmail.com>, 2022
 # Sarah Park, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2025-10-15 07:20+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "maintenance/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -486,8 +486,8 @@ msgstr "이메일 참조"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "이메일 도메인 예: 'BetopiaERP@example.com'의 'example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "이메일 도메인 예: 'betopiaerp@example.com'의 'example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -495,7 +495,7 @@ msgid "End Date"
 msgstr "종료일"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "End date cannot be earlier than start date."
 msgstr ""
@@ -1307,7 +1307,7 @@ msgid "Request Done"
 msgstr "요청 완료"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 msgstr "%s에 대한 계획 요청"
@@ -1507,13 +1507,13 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"<jobs@example.BetopiaERP.com>에 대한 이메일을 수신하도록 하려면 이메일의 별칭 이름"
+"<jobs@example.betopiaerp.com>에 대한 이메일을 수신하도록 하려면 이메일의 별칭 이름"
 "을 적어주세요. 예: 'jobs'"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "The repeat interval cannot be less than 1."
 msgstr "반복 간격은 최소 1 이상이어야 합니다."
@@ -1637,7 +1637,7 @@ msgid "Years"
 msgstr "년"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

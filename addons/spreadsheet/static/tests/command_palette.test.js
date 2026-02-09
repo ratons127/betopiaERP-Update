@@ -1,8 +1,8 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { mountSpreadsheet } from "@spreadsheet/../tests/helpers/ui";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { press } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { press } from "@betopiaerp/hoot-dom";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { WebClient } from "@web/webclient/webclient";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";

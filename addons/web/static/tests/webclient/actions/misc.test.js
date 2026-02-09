@@ -1,7 +1,7 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { queryOne, scroll, waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
-import { Component, onWillStart, xml } from "@BetopiaERP/owl";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { queryOne, scroll, waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
+import { Component, onWillStart, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,
@@ -243,7 +243,7 @@ test("getCurrentAction (virtual controller)", async () => {
     }
     actionRegistry.add("HelloWorldTest", ClientAction);
 
-    redirect("/BetopiaERP/action-1/plop");
+    redirect("/betopiaerp/action-1/plop");
     await mountWithCleanup(WebClient);
 
     await animationFrame();
@@ -727,7 +727,7 @@ test("retrieving a stored action should remove 'allowed_company_ids' from its co
 
     // Prepare the URL hash to make sure the stored action will get executed.
     // Object.assign(browser.location, { search: "?model=partner&view_type=kanban" });
-    redirect("/BetopiaERP/action-1?view_type=kanban");
+    redirect("/betopiaerp/action-1?view_type=kanban");
 
     // Create the web client. It should execute the stored action.
     await mountWithCleanup(WebClient);

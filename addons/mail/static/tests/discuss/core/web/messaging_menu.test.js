@@ -10,8 +10,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { disableAnimations, mockTouch } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { disableAnimations, mockTouch } from "@betopiaerp/hoot-mock";
 import {
     Command,
     contains as webContains,
@@ -279,7 +279,7 @@ test("can use notification item swipe actions", async () => {
     mockTouch(true);
     patchUiSize({ size: SIZES.SM });
     const pyEnv = await startServer();
-    const partnerId = pyEnv["res.partner"].create({ name: "Demo", email: "demo@BetopiaERP.com" });
+    const partnerId = pyEnv["res.partner"].create({ name: "Demo", email: "demo@betopiaerp.com" });
     const channelId = pyEnv["discuss.channel"].create({
         channel_type: "chat",
         channel_member_ids: [

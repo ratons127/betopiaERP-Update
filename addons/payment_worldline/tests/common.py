@@ -128,7 +128,7 @@ class WorldlineCommon(PaymentCommon):
                         'fraudResults': {'cvvResult': 'P', 'fraudServiceResult': 'accepted'},
                         'paymentProductId': 1,
                         'threeDSecureResults': {'eci': '9'},
-                        'token': 'BetopiaERP-ALIAS-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'},
+                        'token': 'BETOPIAERP-ALIAS-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'},
                     'customer': {'device': {'ipAddressCountryCode': '99'}},
                     'paymentMethod': 'card',
                     'references': {'merchantReference': cls.reference},

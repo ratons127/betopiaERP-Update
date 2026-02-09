@@ -1,4 +1,4 @@
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { FormController } from "@web/views/form/form_controller";
 
 export class FormControllerWithHTMLExpander extends FormController {

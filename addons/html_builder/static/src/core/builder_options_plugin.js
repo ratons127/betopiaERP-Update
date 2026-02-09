@@ -7,7 +7,7 @@ import { shouldEditableMediaBeEditable } from "@html_builder/utils/utils_css";
 import { OptionsContainer } from "@html_builder/sidebar/option_container";
 
 /** @typedef {import("@html_builder/core/utils").BaseOptionComponent} BaseOptionComponent */
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("plugins").CSSSelector} CSSSelector */
 /** @typedef {import("plugins").TranslatedString} TranslatedString */
 /**

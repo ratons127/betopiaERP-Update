@@ -1,14 +1,14 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryFirst, queryOne, queryRect } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, reactive, useRef, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryFirst, queryOne, queryRect } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, reactive, useRef, useState, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup, sortableDrag } from "@web/../tests/web_test_helpers";
 
 import { useNestedSortable } from "@web/core/utils/nested_sortable";
 
 /**
- * @param {import("@BetopiaERP/hoot-dom").Target} from
- * @param {import("@BetopiaERP/hoot-dom").Target} to
+ * @param {import("@betopiaerp/hoot-dom").Target} from
+ * @param {import("@betopiaerp/hoot-dom").Target} to
  */
 const dragAndDrop = async (from, to) => {
     const { drop, moveUnder } = await sortableDrag(from);

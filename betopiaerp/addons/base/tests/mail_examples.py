@@ -73,7 +73,7 @@ QUOTE_BLOCKQUOTE = u"""<html>
     </div>
     <blockquote
 cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com"
-      type="cite"><base href="https://www.betopiaerp.com">
+      type="cite"><base href="https://www.BetopiaERP.com">
       <div dir="ltr">Yep Dominique that is true, as Postgres was the
         base of all same as BetopiaERP and MySQL etc came much later.Â 
         <div><br>

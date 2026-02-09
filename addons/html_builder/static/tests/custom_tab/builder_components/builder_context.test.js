@@ -5,8 +5,8 @@ import {
 } from "@html_builder/../tests/helpers";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

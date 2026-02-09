@@ -6,7 +6,7 @@ import { useInputField } from "@web/views/fields/input_field_hook";
 
 import { recommendations, ConcretePolicy } from "./password_policy";
 import { Meter } from "./password_meter";
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 
 export class PasswordField extends Component {
     static props = standardFieldProps;

@@ -8,7 +8,7 @@
 # DanielDemedziuk <daniel.demedziuk@gmail.com>, 2022
 # Tomasz Leppich <t.leppich@gmail.com>, 2022
 # Zdzisław Krajewski <zdzichucb@gmail.com>, 2022
-# Paweł Wodyński <pw@myBetopiaERP.pl>, 2022
+# Paweł Wodyński <pw@mybetopiaerp.pl>, 2022
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2022
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2022
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2022
@@ -16,23 +16,23 @@
 # Dawid Prus, 2022
 # Radosław Biegalski <radoslaw.biegalski@openglobe.pl>, 2022
 # Piotr Strębski <strebski@gmail.com>, 2022
-# Natalia Gros <nag@BetopiaERP.com>, 2022
+# Natalia Gros <nag@betopiaerp.com>, 2022
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2022
 # Judyta Kaźmierczak <judyta.kazmierczak@openglobe.pl>, 2022
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2022
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2022
 # Martin Trigaux, 2022
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Marta (wacm)" <wacm@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Marta (wacm)" <wacm@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-15 14:29+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@BetopiaERP.com>\n"
-"Language-Team: Polish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Marta (wacm)\" <wacm@betopiaerp.com>\n"
+"Language-Team: Polish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "purchase_requisition/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgid "Alternative Purchase Order"
 msgstr "Alternatywne zamówienie zakupu"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid "Alternative Purchase Orders"
 msgstr ""
@@ -238,7 +238,7 @@ msgid "Cancelled"
 msgstr "Anulowano"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Cancelled by the agreement associated to this quotation."
 msgstr "Anulowane przez umowę powiązaną z niniejszą ofertą."
@@ -300,7 +300,7 @@ msgid "Company Total"
 msgstr "Suma firmy"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Compare Order Lines"
 msgstr "Porównanie linii zamówień"
@@ -348,7 +348,7 @@ msgid ""
 msgstr ""
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Create alternative"
 msgstr "Utwórz alternatywę"
@@ -433,7 +433,7 @@ msgid "End Date"
 msgstr "Data końcowa"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "End date cannot be earlier than start date. Please check dates for "
@@ -612,7 +612,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "Imię i nazwisko, NIP, adres e-mail lub numer referencyjny"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "New"
 msgstr "Nowe"
@@ -648,7 +648,7 @@ msgid "Next Activity Type"
 msgstr "Typ następnej czynności"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Nothing to clear"
 msgstr "Nic do czyszczenia"
@@ -885,13 +885,13 @@ msgid "Show all records whose next activity date is past"
 msgstr "Pokaż wszystkie zapisy, których data kolejnej aktywności wypada po"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Some not cleared"
 msgstr "Niektóre nie zostały wyczyszczone"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid ""
 "Some quantities were not cleared because their status is not a RFQ status."
@@ -957,13 +957,13 @@ msgstr ""
 "Oryginalne zamówienie, dla którego tworzone jest alternatywne zamówienie."
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "There are no quantities to clear."
 msgstr "Nie ma żadnych ilości do wyczyszczenia."
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "There is already an open blanket order for this supplier. We suggest you "
@@ -973,7 +973,7 @@ msgstr ""
 "wypełnienie tego otwartego zamówienia zbiorczego zamiast tworzenia nowego."
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
@@ -1023,7 +1023,7 @@ msgid "Warning Messages"
 msgstr "Komunikaty ostrzegawcze"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 "Warning for %(partner)s:\n"
@@ -1033,7 +1033,7 @@ msgstr ""
 "%(warning_message)s\n"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 "Warning for %(product)s:\n"
@@ -1043,7 +1043,7 @@ msgstr ""
 "%(warning_message)s\n"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Warning for %s"
 msgstr "Ostrzeżenie do %s"
@@ -1059,7 +1059,7 @@ msgid "Website communication history"
 msgstr "Historia komunikacji"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "What about the alternative Requests for Quotations?"
 msgstr ""
@@ -1076,13 +1076,13 @@ msgid "Wizard to preset values for alternative PO"
 msgstr "Kreator do wstępnie ustawionych wartości dla alternatywnych PO"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You can only delete draft or cancelled requisitions."
 msgstr "Można usuwać tylko wersje robocze lub anulowane rekwizycje."
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
@@ -1090,19 +1090,19 @@ msgid ""
 msgstr ""
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
 msgstr ""
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a quantity."
 msgstr ""
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot confirm agreement '%(agreement)s' because it does not contain any "
@@ -1110,7 +1110,7 @@ msgid ""
 msgstr ""
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot have a negative or unit price of 0 for an already confirmed "

@@ -1,6 +1,6 @@
-import { test, expect, getFixture, destroy } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { test, expect, getFixture, destroy } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 

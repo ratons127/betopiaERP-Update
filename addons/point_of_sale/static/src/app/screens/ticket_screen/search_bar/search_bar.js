@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState, useEffect } from "@betopiaerp/owl";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 
 /**

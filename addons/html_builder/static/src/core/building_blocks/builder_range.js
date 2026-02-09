@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 import {
     basicContainerBuilderComponentProps,
     useActionInfo,

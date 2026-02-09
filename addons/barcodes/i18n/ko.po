@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # Sarah Park, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-16 15:04+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/barcodes/"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/barcodes/"
 "ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 msgstr ""
@@ -91,13 +91,13 @@ msgid "Any"
 msgstr "또는"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/manual_barcode.xml:0
 msgid "Apply"
 msgstr "적용"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
 msgid "Barcode"
 msgstr "바코드"
@@ -138,7 +138,7 @@ msgid "Barcode Scanned"
 msgstr "바코드 스캔됨"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Barcode: %(barcode)s"
 msgstr "바코드: %(barcode)s"
@@ -190,7 +190,7 @@ msgid "Encoding"
 msgstr "인코딩"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/manual_barcode.js:0
 msgid "Enter a barcode..."
 msgstr "바코드 입력..."
@@ -210,7 +210,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_events_mixin.py:0
 msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
@@ -269,7 +269,7 @@ msgstr ""
 "                                합니다."
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.js:0
 msgid "Please, Scan again!"
 msgstr "다시 스캔하세요!"
@@ -295,7 +295,7 @@ msgid "Tables"
 msgstr "표"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
 msgid "Tap to scan"
 msgstr "탭하여 스캔"
@@ -306,7 +306,7 @@ msgid "The barcode matching pattern"
 msgstr "바코드 일치 패턴"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "The barcode pattern %(pattern)s does not lead to a valid regular expression."
@@ -323,7 +323,7 @@ msgid "The matched pattern will alias to this barcode"
 msgstr "일치하는 패턴이 이 바코드의 별칭이 됩니다."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: a rule can only "
@@ -333,7 +333,7 @@ msgstr ""
 "니다."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: braces can only "
@@ -343,7 +343,7 @@ msgstr ""
 "시 포함되어야 합니다."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: empty braces."
@@ -393,7 +393,7 @@ msgid "Unit Product"
 msgstr "품목 단위"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Unknown barcode command"
 msgstr "알 수 없는 바코드 명령"
@@ -409,7 +409,7 @@ msgid "Value of the last barcode scanned."
 msgstr "가장 최근에 스캔한 바코드 값입니다."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_nomenclature.py:0
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."

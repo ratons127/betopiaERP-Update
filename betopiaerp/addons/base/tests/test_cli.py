@@ -15,9 +15,9 @@ class TestCommand(BaseCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.BetopiaERP_bin = Path(__file__).parents[4].resolve() / 'betopiaerp-bin'
+        cls.betopiaerp_bin = Path(__file__).parents[4].resolve() / 'betopiaerp-bin'
         addons_path = config.format('addons_path', config['addons_path'])
-        cls.run_args = (sys.executable, cls.BetopiaERP_bin, f'--addons-path={addons_path}')
+        cls.run_args = (sys.executable, cls.betopiaerp_bin, f'--addons-path={addons_path}')
 
     def run_command(self, *args, check=True, capture_output=True, text=True, **kwargs):
         return sp.run(

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, edit, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, edit, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { defineModels, fields, models, mountView } from "@web/../tests/web_test_helpers";
 
 class Report extends models.Model {

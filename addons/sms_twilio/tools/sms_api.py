@@ -60,7 +60,7 @@ class SmsApiTwilio(SmsApiBase):
                 if response is not None:
                     response_json = response.json()
                     if not response.ok or response_json.get('error'):
-                        failure_type = self._twilio_error_code_to_BetopiaERP_state(response_json)
+                        failure_type = self._twilio_error_code_to_betopiaerp_state(response_json)
                         error_message = response_json.get('message') or response_json.get('error_message') or self._get_sms_api_error_messages().get(failure_type)
                         fields_values.update({
                             'failure_reason': error_message,
@@ -77,7 +77,7 @@ class SmsApiTwilio(SmsApiBase):
                 res.append(fields_values)
         return res
 
-    def _twilio_error_code_to_BetopiaERP_state(self, response_json):
+    def _twilio_error_code_to_betopiaerp_state(self, response_json):
         error_code = response_json.get('code') or response_json.get('error_code')
         # number issues
         if error_code in (21211, 21614, 21265):  # See https://www.twilio.com/docs/errors/xxxxx

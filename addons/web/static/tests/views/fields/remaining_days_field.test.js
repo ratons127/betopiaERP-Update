@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, edit, queryAll, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, edit, queryAll, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {
     defineModels,

@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import { onRpc } from "@web/../tests/web_test_helpers";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 

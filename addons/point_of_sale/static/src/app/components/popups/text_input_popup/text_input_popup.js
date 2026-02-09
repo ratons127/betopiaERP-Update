@@ -1,4 +1,4 @@
-import { Component, onMounted, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useRef, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 
 export class TextInputPopup extends Component {

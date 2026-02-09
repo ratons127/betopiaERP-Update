@@ -1,10 +1,10 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,
 } from "@website/../tests/builder/website_helpers";
 import { contains, defineModels, models, onRpc } from "@web/../tests/web_test_helpers";
-import { Deferred } from "@BetopiaERP/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-dom";
 
 defineWebsiteModels();
 

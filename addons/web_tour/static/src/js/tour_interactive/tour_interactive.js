@@ -1,6 +1,6 @@
 import { tourState } from "@web_tour/js/tour_state";
 import { debounce } from "@web/core/utils/timing";
-import * as hoot from "@BetopiaERP/hoot-dom";
+import * as hoot from "@betopiaerp/hoot-dom";
 import { utils } from "@web/core/ui/ui_service";
 import { TourStep } from "@web_tour/js/tour_step";
 import { MacroMutationObserver } from "@web/core/macro";

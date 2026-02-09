@@ -14,7 +14,7 @@ class GoogleCalendarAccountReset(models.TransientModel):
     delete_policy = fields.Selection(
         [('dont_delete', "Leave them untouched"),
          ('delete_google', "Delete from the current Google Calendar account"),
-         ('delete_BetopiaERP', "Delete from betopiaerp"),
+         ('delete_betopiaerp', "Delete from BetopiaERP"),
          ('delete_both', "Delete from both"),
         ], string="User's Existing Events", required=True, default='dont_delete',
         help="This will only affect events for which the user is the owner")
@@ -40,7 +40,7 @@ class GoogleCalendarAccountReset(models.TransientModel):
 
         # Delete events according to the selected policy. If the deletion is only in
         # Google, we won't keep track of the 'google_id' field for events and recurrences.
-        if self.delete_policy in ('delete_BetopiaERP', 'delete_both', 'delete_google'):
+        if self.delete_policy in ('delete_betopiaerp', 'delete_both', 'delete_google'):
             # Flag need_sync as False in order to skip the write permission when resetting.
             events.with_context(skip_event_permission=True).google_id = False
             recurrences.with_context(skip_event_permission=True).google_id = False
@@ -57,7 +57,7 @@ class GoogleCalendarAccountReset(models.TransientModel):
             next_sync_update['need_sync'] = False
 
         # Write the next sync update attribute on the existing events.
-        if self.delete_policy not in ('delete_BetopiaERP', 'delete_both'):
+        if self.delete_policy not in ('delete_betopiaerp', 'delete_both'):
             events.with_context(skip_event_permission=True).write(next_sync_update)
 
         self.user_id.res_users_settings_id._set_google_auth_tokens(False, False, 0)

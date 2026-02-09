@@ -6,15 +6,15 @@
 # Martin Trigaux, 2022
 # Sarah Park, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 04:41+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "phone_validation/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "%(error)s Please correct the number and try again."
 msgstr "%(error)s 번호를 수정하고 다시 시도해 주세요."
@@ -53,13 +53,13 @@ msgid "Archived"
 msgstr "보관됨"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Are you sure you want to unblacklist this Phone Number?"
 msgstr "이 전화번호를 차단 해제하시겠습니까?"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr "이 전화번호의 차단을 해제하시겠습니까?"
@@ -104,7 +104,7 @@ msgid "Blacklisted phone numbers won't receive SMS Mailings anymore."
 msgstr "수신 거부로 등록된 전화번호는 더 이상 SMS 메일링이 수신되지 않습니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/res_users.py:0
 msgid ""
 "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s "
@@ -216,19 +216,19 @@ msgstr ""
 "에 대해서는 더 이상 대량 발송 SMS를 보내지 않게 됩니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not a valid country prefix."
 msgstr "잘못된 숫자 %s: 올바른 국가 코드가 아닙니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not enough digits."
 msgstr "잘못된 숫자 %s: 숫자가 부족합니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: too many digits."
 msgstr "잘못된 숫자 %s: 입력된 숫자가 너무 많습니다."
@@ -247,13 +247,13 @@ msgstr ""
 "용합니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Invalid number %s: probably incorrect prefix."
 msgstr "잘못된 번호 %s: 접두사가 잘못되었습니다."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Invalid primary phone field on model %s"
 msgstr "%s 모델에 대한 첫번째 전화번호 필드가 잘못되었습니다"
@@ -292,7 +292,7 @@ msgid "Messages"
 msgstr "메시지"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Missing definition of phone fields."
 msgstr "전화 필드에 대한 정의가 누락되었습니다."
@@ -371,7 +371,7 @@ msgid "Phone Number"
 msgstr "전화번호"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Please enter at least 3 characters when searching a Phone number."
 msgstr "전화번호를 검색하려면 최소 3자 이상 입력하세요."
@@ -396,14 +396,14 @@ msgid "Sanitized Number"
 msgstr "제거된 번호"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid ""
 "The phone number %s is invalid! Let's fix it - you are not dialing aliens."
 msgstr ""
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Unable to parse %(phone)s: %(error)s"
 msgstr "%(phone)s 분석을 할 수 없습니다: %(error)s"
@@ -414,7 +414,7 @@ msgid "Unblacklist"
 msgstr "수신 거부 해제"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/wizard/phone_blacklist_remove.py:0
 msgid "Unblock Reason: %(reason)s"
 msgstr "차단 해제 사유: %(reason)s"
@@ -425,7 +425,7 @@ msgid "User"
 msgstr "사용자"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "

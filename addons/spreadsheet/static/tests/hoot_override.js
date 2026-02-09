@@ -1,5 +1,5 @@
-import { __debug__ } from "@BetopiaERP/hoot";
-import { stores } from "@BetopiaERP/o-spreadsheet";
+import { __debug__ } from "@betopiaerp/hoot";
+import { stores } from "@betopiaerp/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
 
 const { RendererStore } = stores;

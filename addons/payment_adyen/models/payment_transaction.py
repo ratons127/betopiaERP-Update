@@ -64,7 +64,7 @@ class PaymentTransaction(models.Model):
                 'externalPlatform': {
                     'name': 'BetopiaERP',
                     'version': release.version,
-                    'integrator': 'BetopiaERP SA',
+                    'integrator': 'BetopiaERP',
                 }
             },
             'countryCode': partner_country_code,
@@ -93,7 +93,7 @@ class PaymentTransaction(models.Model):
         # 'manual' from events with the capture delay set to 'immediate' or a number of hours. If
         # the merchant account is configured to capture payments with a delay but the provider is
         # not, we force the immediate capture to avoid considering authorized transactions as
-        # captured on betopiaerp.
+        # captured on BetopiaERP.
         if not self.provider_id.capture_manually:
             data.update(captureDelayHours=0)
 

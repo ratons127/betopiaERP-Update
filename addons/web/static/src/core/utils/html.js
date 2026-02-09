@@ -1,4 +1,4 @@
-import { htmlEscape, markup } from "@BetopiaERP/owl";
+import { htmlEscape, markup } from "@betopiaerp/owl";
 import { formatList, normalizedMatches } from "@web/core/l10n/utils";
 import { unique } from "@web/core/utils/arrays";
 import { escapeRegExp, mapSubstitutions, sprintf } from "@web/core/utils/strings";
@@ -208,15 +208,15 @@ export function isMarkup(content) {
  * @param {string | Markup} text
  * @returns {string | Markup} the formatted text
  */
-export function BetopiaERPmark(text) {
+export function betopiaerpmark(text) {
     /**
-     * Mapping of patterns - replacer functions to apply to BetopiaERPmarked strings.
+     * Mapping of patterns - replacer functions to apply to betopiaerpmarked strings.
      *
      * For the content passed directly to `markup` (e.g. **bold** or ``tagged``):
      * the content is considered safe, as it directly comes from {@link htmlReplaceAll}
      * which uses {@link htmlEscape}.
      *
-     * Note: this list is declared inline in the `BetopiaERPmark` function to avoid other
+     * Note: this list is declared inline in the `betopiaerpmark` function to avoid other
      * functions using the marked-up replacers for injection.
      */
     const replacers = [

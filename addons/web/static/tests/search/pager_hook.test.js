@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import {
     defineModels,
     getPagerLimit,
@@ -11,7 +11,7 @@ import {
 
 import { ControlPanel } from "@web/search/control_panel/control_panel";
 import { usePager } from "@web/search/pager_hook";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 class Foo extends models.Model {}
 

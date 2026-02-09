@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <function model="purchase.order.line" name="write">
             <value model="purchase.order.line" search="[('product_id', 'in', [ref('product.product_delivery_01'), ref('product.product_product_27')]), ('order_id', '=', ref('purchase.purchase_order_1'))]"/>
@@ -78,4 +78,4 @@
             <field name="date_planned" eval="(datetime.today()).strftime('%Y-%m-%d %H:%M:%S')"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

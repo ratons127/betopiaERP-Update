@@ -20,4 +20,4 @@ class TestProjectTemplatesTour(HttpCase):
         user_admin.write({
             'email': 'mitchell.admin@example.com',
         })
-        self.start_tour("/BetopiaERP", "project_templates_tour", login="admin")
+        self.start_tour("/betopiaerp", "project_templates_tour", login="admin")

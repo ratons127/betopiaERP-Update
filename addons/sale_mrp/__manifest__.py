@@ -22,6 +22,6 @@ from sales order. It adds sales name and sales Reference on production order.
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

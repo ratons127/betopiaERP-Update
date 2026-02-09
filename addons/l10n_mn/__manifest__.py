@@ -1,12 +1,12 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mongolia - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'version': '1.1',
     'icon': '/account/static/description/l10n.png',
     'countries': ['mn'],
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'BumanIT LLC, BetopiaERP S.A.',
+    'author': 'BumanIT LLC, BetopiaERP',
     'description': """
 This is the module to manage the accounting chart for Mongolia.
 ===============================================================

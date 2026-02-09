@@ -1,36 +1,36 @@
-﻿#!/bin/sh
+#!/bin/sh
 
 set -e
 
-BetopiaERP_CONFIGURATION_FILE=/etc/BetopiaERP/BetopiaERP.conf
-BetopiaERP_GROUP="BetopiaERP"
-BetopiaERP_DATA_DIR=/var/lib/BetopiaERP
-BetopiaERP_LOG_DIR=/var/log/BetopiaERP
-BetopiaERP_USER="BetopiaERP"
+BETOPIAERP_CONFIGURATION_FILE=/etc/betopiaerp/betopiaerp.conf
+BETOPIAERP_GROUP="betopiaerp"
+BETOPIAERP_DATA_DIR=/var/lib/betopiaerp
+BETOPIAERP_LOG_DIR=/var/log/betopiaerp
+BETOPIAERP_USER="betopiaerp"
 GSFONTS_DIR=/usr/share/fonts/type1/gsfonts
 
 case "${1}" in
     configure)
-        if ! getent passwd | grep -q "^BetopiaERP:"; then
-            adduser --system --home $BetopiaERP_DATA_DIR --quiet --group $BetopiaERP_USER
+        if ! getent passwd | grep -q "^betopiaerp:"; then
+            adduser --system --home $BETOPIAERP_DATA_DIR --quiet --group $BETOPIAERP_USER
             # Data dir
-            chown $BetopiaERP_USER:$BetopiaERP_GROUP $BetopiaERP_DATA_DIR
+            chown $BETOPIAERP_USER:$BETOPIAERP_GROUP $BETOPIAERP_DATA_DIR
         fi
-        # Register "$BetopiaERP_USER" as a postgres user with "Create DB" role attribute
-        su - postgres -c "createuser -d -R -S $BetopiaERP_USER" 2> /dev/null || true
+        # Register "$BETOPIAERP_USER" as a postgres user with "Create DB" role attribute
+        su - postgres -c "createuser -d -R -S $BETOPIAERP_USER" 2> /dev/null || true
         # Configuration file
-        chown $BetopiaERP_USER:$BetopiaERP_GROUP $BetopiaERP_CONFIGURATION_FILE
-        chmod 0640 $BetopiaERP_CONFIGURATION_FILE
+        chown $BETOPIAERP_USER:$BETOPIAERP_GROUP $BETOPIAERP_CONFIGURATION_FILE
+        chmod 0640 $BETOPIAERP_CONFIGURATION_FILE
         # Log
-        mkdir -p $BetopiaERP_LOG_DIR
-        chown $BetopiaERP_USER:$BetopiaERP_GROUP $BetopiaERP_LOG_DIR
-        chmod 0750 $BetopiaERP_LOG_DIR
+        mkdir -p $BETOPIAERP_LOG_DIR
+        chown $BETOPIAERP_USER:$BETOPIAERP_GROUP $BETOPIAERP_LOG_DIR
+        chmod 0750 $BETOPIAERP_LOG_DIR
         	# work around https://bugs.debian.org/1059326
 
         if ! [ -e ${GSFONTS_DIR}/n021003l.pfb ] ; then
             if ! [ -d ${GSFONTS_DIR} ] ; then
                 mkdir ${GSFONTS_DIR}
-                touch ${GSFONTS_DIR}/.created-by-BetopiaERP-package
+                touch ${GSFONTS_DIR}/.created-by-betopiaerp-package
             fi
             ln -s /usr/share/fonts/X11/Type1/C059-Roman.pfb ${GSFONTS_DIR}/n021003l.pfb
         fi

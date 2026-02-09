@@ -1,5 +1,5 @@
 import { useDomState } from '@html_builder/core/utils';
-import { onWillStart } from '@BetopiaERP/owl';
+import { onWillStart } from '@betopiaerp/owl';
 import { useService } from '@web/core/utils/hooks';
 import { DynamicSnippetOption } from '@website/builder/plugins/options/dynamic_snippet_option';
 

@@ -1543,7 +1543,7 @@
             }
             moveBeforeVNode(other, afterNode) {
                 if (other) {
-                    // check this with @ged-BetopiaERP for use in foreach
+                    // check this with @ged-betopiaerp for use in foreach
                     afterNode = other.firstNode() || afterNode;
                 }
                 this.child.moveBeforeVNode(other ? other.child : null, afterNode);
@@ -6327,7 +6327,7 @@
 
     __info__.date = '2025-09-23T07:17:45.055Z';
     __info__.hash = '5211116';
-    __info__.url = 'https://github.com/BetopiaERP/owl';
+    __info__.url = 'https://github.com/betopiaerp/owl';
 
 
 })(this.owl = this.owl || {});

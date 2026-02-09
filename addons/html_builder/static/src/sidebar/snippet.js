@@ -1,5 +1,5 @@
 import { Img } from "@html_builder/core/img";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class Snippet extends Component {
     static template = "html_builder.Snippet";

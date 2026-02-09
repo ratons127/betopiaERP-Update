@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { omit } from "../utils/objects";
 import { DateTimePicker } from "./datetime_picker";
 import { useDateTimePicker } from "./datetime_picker_hook";

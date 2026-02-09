@@ -2,7 +2,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 import io
 from betopiaerp import api, models
-from betopiaerp.tools.pdf import betopiaerpPdfFileReader, BetopiaERPPdfFileWriter
+from betopiaerp.tools.pdf import BetopiaERPPdfFileReader, BetopiaERPPdfFileWriter
 from pathlib import Path
 from reportlab.graphics.shapes import Drawing as ReportLabDrawing, Image as ReportLabImage
 from reportlab.lib.units import mm

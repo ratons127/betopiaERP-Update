@@ -1,5 +1,5 @@
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, mockFetch } from "@BetopiaERP/hoot-mock";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, mockFetch } from "@betopiaerp/hoot-mock";
 import { allowTranslations } from "@web/../tests/web_test_helpers";
 
 import { download } from "@web/core/network/download";
@@ -25,7 +25,7 @@ test("handles business error from server", async () => {
     const serverError = {
         code: 0,
         data: {
-            name: "BetopiaERP.exceptions.RedirectWarning",
+            name: "betopiaerp.exceptions.RedirectWarning",
             arguments: ["Business Error Message", "someArg"],
             message: "Business Error Message",
         },

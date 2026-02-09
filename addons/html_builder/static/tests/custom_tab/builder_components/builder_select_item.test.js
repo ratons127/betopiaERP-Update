@@ -5,7 +5,7 @@ import {
 } from "@html_builder/../tests/helpers";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 import {
     animationFrame,
     click,
@@ -14,8 +14,8 @@ import {
     queryFirst,
     runAllTimers,
     tick,
-} from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 

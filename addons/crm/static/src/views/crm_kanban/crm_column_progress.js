@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { RottingColumnProgress } from "@mail/js/rotting_mixin/rotting_column_progress";
 

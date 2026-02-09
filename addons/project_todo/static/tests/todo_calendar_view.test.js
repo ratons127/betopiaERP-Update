@@ -1,7 +1,7 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { click, edit } from "@BetopiaERP/hoot-dom";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { click, edit } from "@betopiaerp/hoot-dom";
 import { contains, mountView, onRpc } from "@web/../tests/web_test_helpers";
-import { mockDate, animationFrame } from "@BetopiaERP/hoot-mock";
+import { mockDate, animationFrame } from "@betopiaerp/hoot-mock";
 
 import { defineTodoModels } from "./todo_test_helpers";
 import { ProjectTask } from "./mock_server/mock_models/project_task";

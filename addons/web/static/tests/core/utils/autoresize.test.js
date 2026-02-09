@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryRect, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, useRef, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryRect, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, useRef, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { useAutoresize } from "@web/core/utils/autoresize";

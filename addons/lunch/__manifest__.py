@@ -52,6 +52,6 @@ If you want to save your employees' time and avoid them to always have coins in 
             'lunch/static/tests/**/*.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -86,7 +86,7 @@ export function normalizeSelfClosingElement(node, offset) {
 }
 
 export function normalizeNotEditableNode(node, offset, position = "right") {
-    const editable = closestElement(node, ".BetopiaERP-editor-editable");
+    const editable = closestElement(node, ".betopiaerp-editor-editable");
     let closest = closestElement(node);
     while (closest && closest !== editable && !closest.isContentEditable) {
         [node, offset] = position === "right" ? rightPos(node) : leftPos(node);

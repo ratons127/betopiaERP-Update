@@ -1,4 +1,4 @@
-import { markRaw, reactive } from "@BetopiaERP/owl";
+import { markRaw, reactive } from "@betopiaerp/owl";
 import { registry } from "../registry";
 import { OverlayContainer } from "./overlay_container";
 

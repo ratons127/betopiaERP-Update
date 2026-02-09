@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { DEFAULT_EVENT_TYPES } from "../hoot_utils";
 import { generateSeed } from "../mock/math";

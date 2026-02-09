@@ -1,5 +1,5 @@
-import { Component, useEffect, whenReady, useRef } from "@BetopiaERP/owl";
-import { BetopiaERPLogo } from "@point_of_sale/app/components/BetopiaERP_logo/BetopiaERP_logo";
+import { Component, useEffect, whenReady, useRef } from "@betopiaerp/owl";
+import { BetopiaERPLogo } from "@point_of_sale/app/components/betopiaerp_logo/betopiaerp_logo";
 import { useSingleDialog } from "@point_of_sale/customer_display/utils";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { session } from "@web/session";

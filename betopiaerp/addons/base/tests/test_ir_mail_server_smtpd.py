@@ -32,9 +32,9 @@ PASSWORD = 'secretpassword'
 _openssl = shutil.which('openssl')
 _logger = logging.getLogger(__name__)
 
-if getenv('BetopiaERP_RUNBOT') and not _openssl:
+if getenv('BETOPIAERP_RUNBOT') and not _openssl:
     _logger.warning("detected runbot environment but openssl not found in PATH, TestIrMailServerSMTPD will be skipped")
-if getenv('BetopiaERP_RUNBOT') and not aiosmtpd:
+if getenv('BETOPIAERP_RUNBOT') and not aiosmtpd:
     _logger.warning("detected runbot environment but aiosmtpd not installed, TestIrMailServerSMTPD will be skipped")
 
 
@@ -108,7 +108,7 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
                 return True
         logging.getLogger('mail.log').addFilter(CustomFilter())
 
-        # decrease aiosmtpd verbosity, BetopiaERP INFO = aiosmtpd WARNING
+        # decrease aiosmtpd verbosity, betopiaerp INFO = aiosmtpd WARNING
         logging.getLogger('mail.log').setLevel(_logger.getEffectiveLevel() + 10)
 
         # Get various TLS keys and certificates. CA was used to sign
@@ -145,7 +145,7 @@ class TestIrMailServerSMTPD(TransactionCaseWithUserDemo):
 
         # fix runbot, docker uses a single ipv4 stack but it gives ::1
         # when resolving "localhost" (so stupid), use the following to
-        # force aiosmtpd/BetopiaERP to bind/connect to a fixed ipv4 OR ipv6
+        # force aiosmtpd/betopiaerp to bind/connect to a fixed ipv4 OR ipv6
         # address.
         family, addr, cls.port = _find_free_local_address()
         cls.localhost = getaddrinfo(addr, cls.port, family)

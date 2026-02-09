@@ -1,4 +1,4 @@
-import { App, EventBus } from "@BetopiaERP/owl";
+import { App, EventBus } from "@betopiaerp/owl";
 import { SERVICES_METADATA } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";
 import { getTemplate } from "@web/core/templates";
@@ -37,7 +37,7 @@ export function makeEnv() {
         bus,
         isReady: prom,
         services: {},
-        debug: BetopiaERP.debug,
+        debug: betopiaerp.debug,
         get isSmall() {
             throw new Error("UI service not initialized!");
         },
@@ -218,7 +218,7 @@ export const globalValues = {
  * created and the services will be started, it will also be set as the root
  * in `__WOWL_DEBUG__`
  *
- * @param {import("@BetopiaERP/owl").Component} component the component to mount
+ * @param {import("@betopiaerp/owl").Component} component the component to mount
  * @param {HTMLElement} target the HTML element in which to mount the app
  * @param {Partial<ConstructorParameters<typeof App>[1]>} [appConfig] object
  *  containing a (partial) config for the app.
@@ -244,7 +244,7 @@ export async function mountComponent(component, target, appConfig = {}) {
     });
     const root = await app.mount(target);
     if (isRoot) {
-        BetopiaERP.__WOWL_DEBUG__ = { root };
+        betopiaerp.__WOWL_DEBUG__ = { root };
     }
     return app;
 }

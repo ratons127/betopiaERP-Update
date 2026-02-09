@@ -7,6 +7,6 @@
     'depends': ['sale_stock', 'sale_margin'],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

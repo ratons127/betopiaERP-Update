@@ -6,9 +6,9 @@ import {
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { BaseOptionComponent, useDomState } from "@html_builder/core/utils";
 import { undo } from "@html_editor/../tests/_helpers/user_actions";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, Deferred, hover, runAllTimers } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, Deferred, hover, runAllTimers } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

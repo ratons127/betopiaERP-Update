@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP auto_sequence="1">
+<betopiaerp auto_sequence="1">
     <record id="tax_annual_report_vat" model="account.report">
         <field name="name">Annual Tax Report</field>
         <field name="name@it">Resoconto fiscale annuale</field>
@@ -17,4 +17,4 @@
                                                             ref('l10n_it.tax_annual_report_vat_vj'),
                                                             ref('l10n_it.tax_annual_report_vat_vl')])]"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

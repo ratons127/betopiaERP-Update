@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { CONFIG_KEYS } from "../core/config";
 import { LOG_LEVELS } from "../core/logger";
 import { refresh } from "../core/url";

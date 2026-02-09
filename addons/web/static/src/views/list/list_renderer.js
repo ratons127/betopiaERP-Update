@@ -35,7 +35,7 @@ import {
     useExternalListener,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { getCurrencyRates } from "@web/core/currency";
 import { _t } from "@web/core/l10n/translation";
 import { usePopover } from "@web/core/popover/popover_hook";
@@ -2156,7 +2156,7 @@ export class ListRenderer extends Component {
     }
 
     get isDebugMode() {
-        return Boolean(BetopiaERP.debug);
+        return Boolean(betopiaerp.debug);
     }
 
     /**

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, press, waitFor, waitForNone, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, press, waitFor, waitForNone, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { cleanLinkArtifacts } from "@html_editor/../tests/_helpers/format";
 import { getContent, setContent, setSelection } from "@html_editor/../tests/_helpers/selection";
 import { base64Img, setupEditor } from "@html_editor/../tests/_helpers/editor";
@@ -167,10 +167,10 @@ test("LinkPopover opens in full composer", async () => {
     await openFormView("res.partner", serverState.partnerId);
     await mailClick("button", { text: "Log note" });
     await mailClick("button[title='Open Full Composer']");
-    await waitFor(".BetopiaERP-editor-editable");
+    await waitFor(".betopiaerp-editor-editable");
     htmlEditor.editable.focus();
     await insertText(htmlEditor, "test");
-    const node = queryOne(".BetopiaERP-editor-editable div");
+    const node = queryOne(".betopiaerp-editor-editable div");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await mailClick(".o-we-toolbar .fa-link");
     await waitFor(".o-we-linkpopover");
@@ -187,7 +187,7 @@ test("link redirection should be prefixed for url of website pages only", async 
     });
     onRpc("/html_editor/link_preview_internal", () => ({}));
     onRpc("/contactus", () => ({}));
-    onRpc("/BetopiaERP/project/1", () => ({}));
+    onRpc("/betopiaerp/project/1", () => ({}));
     onRpc("/web/project/1", () => ({}));
 
     // website pages should be prefixed with /@
@@ -197,9 +197,9 @@ test("link redirection should be prefixed for url of website pages only", async 
     expect.verifySteps(["website page url prefixed"]);
 
     // other backend urls and external urls should not be prefixed
-    setContent(el, `<p>this is a[] <a href="/BetopiaERP/project/1">link</a></p>`);
+    setContent(el, `<p>this is a[] <a href="/betopiaerp/project/1">link</a></p>`);
     await waitForNone(".o-we-linkpopover");
-    setContent(el, `<p>this is a <a href="/BetopiaERP/project/1">li[]nk</a></p>`);
+    setContent(el, `<p>this is a <a href="/betopiaerp/project/1">li[]nk</a></p>`);
     await waitFor(".o-we-linkpopover");
     await click(".o-we-linkpopover a");
     expect.verifySteps([]);
@@ -226,8 +226,8 @@ test("link redirection should not be prefixed when the current page is not a web
             expect(url.pathname.startsWith("/@")).toBe(true);
         },
         location: {
-            // simulating being on a non-website page (eg. backend) by using /BetopiaERP/ URL
-            href: browser.location.origin + "/BetopiaERP/contactus",
+            // simulating being on a non-website page (eg. backend) by using /betopiaerp/ URL
+            href: browser.location.origin + "/betopiaerp/contactus",
             hostname: browser.location.hostname,
         },
     });

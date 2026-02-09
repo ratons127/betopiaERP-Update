@@ -733,7 +733,7 @@ class TestHrEmployeeLinks(HttpCase):
         })
         with mute_logger('betopiaerp.http'):  # ignore raised RedirectWarning
             self.start_tour(
-                f"/BetopiaERP/employees/{employee_sonic.id}",
+                f"/betopiaerp/employees/{employee_sonic.id}",
                 "check_public_employee_link_redirect",
                 login=user_amy.login,
             )

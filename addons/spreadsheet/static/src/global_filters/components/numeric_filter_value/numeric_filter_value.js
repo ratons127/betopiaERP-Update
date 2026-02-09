@@ -1,6 +1,6 @@
 /** @ts-check */
 
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 import { useNumpadDecimal } from "@web/views/fields/numpad_decimal_hook";
 import { parseFloat } from "@web/views/fields/parsers";
 

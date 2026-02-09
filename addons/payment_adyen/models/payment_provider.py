@@ -145,7 +145,7 @@ class PaymentProvider(models.Model):
         :return: The unique reference for the partner
         :rtype: str
         """
-        return f'BetopiaERP_PARTNER_{partner_id}'
+        return f'BETOPIAERP_PARTNER_{partner_id}'
 
     # === REQUEST HELPERS === #
 

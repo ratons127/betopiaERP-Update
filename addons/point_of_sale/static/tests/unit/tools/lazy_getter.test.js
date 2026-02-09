@@ -1,6 +1,6 @@
-import { afterEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
-import { Component, onWillRender, reactive, useState, xml } from "@BetopiaERP/owl";
+import { afterEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-dom";
+import { Component, onWillRender, reactive, useState, xml } from "@betopiaerp/owl";
 import {
     mountWithCleanup,
     allowTranslations,

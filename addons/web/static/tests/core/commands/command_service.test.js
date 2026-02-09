@@ -1,12 +1,12 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { keyDown, press, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { keyDown, press, queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     Deferred,
     advanceFrame,
     advanceTime,
     animationFrame,
     mockUserAgent,
-} from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-mock";
 import {
     contains,
     getService,
@@ -15,7 +15,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, reactive, xml } from "@BetopiaERP/owl";
+import { Component, reactive, xml } from "@betopiaerp/owl";
 
 import { useCommand } from "@web/core/commands/command_hook";
 import { HotkeyCommandItem } from "@web/core/commands/default_providers";

@@ -8,8 +8,8 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { DiscussChannel } from "@mail/../tests/mock_server/mock_models/discuss_channel";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { keyDown, runAllTimers } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { keyDown, runAllTimers } from "@betopiaerp/hoot-dom";
 import { asyncStep, onRpc, waitForSteps } from "@web/../tests/web_test_helpers";
 
 defineMailModels();

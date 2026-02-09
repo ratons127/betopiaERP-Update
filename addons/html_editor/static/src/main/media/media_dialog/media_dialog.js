@@ -5,7 +5,7 @@ import { Notebook } from "@web/core/notebook/notebook";
 import { ImageSelector } from "./image_selector";
 import { IconSelector } from "./icon_selector";
 
-import { Component, useState, useRef, useEffect } from "@BetopiaERP/owl";
+import { Component, useState, useRef, useEffect } from "@betopiaerp/owl";
 import { iconClasses } from "@html_editor/utils/dom_info";
 
 export const TABS = {

@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 /**
  * This class should be used as a base when creating a class that is intended to

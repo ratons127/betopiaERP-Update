@@ -2,13 +2,13 @@ import { registry } from "@web/core/registry";
 import { session } from "@web/session";
 import { Setting } from "@web/views/form/setting/setting";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 const { DateTime } = luxon;
 
 /**
  * Widget in the settings that handles a part of the "About" section.
- * Contains info about the BetopiaERP version, database expiration date and copyrights.
+ * Contains info about the betopiaerp version, database expiration date and copyrights.
  */
 class ResConfigEdition extends Component {
     static template = "res_config_edition";

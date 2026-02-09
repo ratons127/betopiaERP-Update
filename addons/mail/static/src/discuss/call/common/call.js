@@ -3,7 +3,7 @@ import { CallActionList } from "@mail/discuss/call/common/call_action_list";
 import { CallParticipantCard } from "@mail/discuss/call/common/call_participant_card";
 import { PttAdBanner } from "@mail/discuss/call/common/ptt_ad_banner";
 
-import { Component, onMounted, onPatched, onWillUnmount, toRaw, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onPatched, onWillUnmount, toRaw, useRef, useState } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { isMobileOS } from "@web/core/browser/feature_detection";

@@ -21,9 +21,9 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 import { LONG_PRESS_DELAY } from "@mail/utils/common/hooks";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, leave, pointerDown, press, queryFirst, waitFor } from "@BetopiaERP/hoot-dom";
-import { advanceTime, mockDate, mockTouch, mockUserAgent, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, leave, pointerDown, press, queryFirst, waitFor } from "@betopiaerp/hoot-dom";
+import { advanceTime, mockDate, mockTouch, mockUserAgent, tick } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     contains as webContains,
@@ -85,7 +85,7 @@ test("edit a message with styling keeps the styling", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await click(".o-mail-Message [title='Edit']");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable strong:contains('Hello world')");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable strong:contains('Hello world')");
 });
 
 test.tags("html composer");
@@ -111,11 +111,11 @@ test("edit a message styling", async () => {
         count: 0,
     });
     await click(".o-mail-Message [title='Edit']");
-    await focus(".o-mail-Message .o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Message .o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
         editable: document.querySelector(
-            ".o-mail-Message .o-mail-Composer-html.BetopiaERP-editor-editable"
+            ".o-mail-Message .o-mail-Composer-html.betopiaerp-editor-editable"
         ),
     };
     await tripleClick(editor.editable);
@@ -519,11 +519,11 @@ test("Update the link previews when a message is edited", async () => {
     await start();
     await openDiscuss(channelId);
     await click(".o-mail-Message [title='Edit']");
-    await insertText(".o-mail-Message .o-mail-Composer-input", "http://BetopiaERP.com", {
+    await insertText(".o-mail-Message .o-mail-Composer-input", "http://betopiaerp.com", {
         replace: true,
     });
     await click(".o-mail-Message button", { text: "save" });
-    await contains(".o-mail-Message-body", { text: "http://BetopiaERP.com" });
+    await contains(".o-mail-Message-body", { text: "http://betopiaerp.com" });
     await waitForSteps(["link_preview"]);
 });
 
@@ -621,7 +621,7 @@ test("mentions and special mentions are kept when editing message", async () => 
     const editor = {
         document,
         editable: document.querySelector(
-            ".o-mail-Message .o-mail-Composer-html.BetopiaERP-editor-editable"
+            ".o-mail-Message .o-mail-Composer-html.betopiaerp-editor-editable"
         ),
     };
     setSelection({
@@ -642,7 +642,7 @@ test("mentions and special mentions are kept when editing message", async () => 
 test("can add new mentions when editing message", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -1398,7 +1398,7 @@ test("not highlighting the message if not mentioning the current user inside the
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
         display_name: "testPartner",
-        email: "testPartner@BetopiaERP.com",
+        email: "testPartner@betopiaerp.com",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });
     const channelId = pyEnv["discuss.channel"].create({
@@ -1701,7 +1701,7 @@ test("Partner's avatar card should be opened after clicking on their mention", a
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
         name: "Test Partner",
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
     });
     pyEnv["res.users"].create({ partner_id: partnerId });
     await start();
@@ -2258,7 +2258,7 @@ test("Prettify message links", async () => {
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({ name: "channel1" });
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const messageId_1 = pyEnv["mail.message"].create({

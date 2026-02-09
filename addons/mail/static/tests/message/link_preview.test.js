@@ -9,9 +9,9 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { asyncStep, waitForSteps, Command, serverState } from "@web/../tests/web_test_helpers";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 
 import { rpc } from "@web/core/network/rpc";
 

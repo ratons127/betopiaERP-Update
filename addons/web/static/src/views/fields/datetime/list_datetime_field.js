@@ -1,4 +1,4 @@
-import { useRef } from "@BetopiaERP/owl";
+import { useRef } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useAutoresize } from "@web/core/utils/autoresize";
 import { DateTimeField, dateField, dateRangeField, dateTimeField } from "./datetime_field";

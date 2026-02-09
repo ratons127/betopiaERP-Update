@@ -6,7 +6,7 @@ import { HtmlMailField, htmlMailField } from "../html_mail_field/html_mail_field
 import { MentionPlugin } from "./mention_plugin";
 import { ContentExpandablePlugin } from "./content_expandable_plugin";
 import { fillEmpty } from "@html_editor/utils/dom";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 export class HtmlComposerMessageField extends HtmlMailField {
     setup() {

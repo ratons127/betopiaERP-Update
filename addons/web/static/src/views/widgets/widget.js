@@ -1,7 +1,7 @@
 import { evaluateExpr, evaluateBooleanExpr } from "@web/core/py_js/py";
 import { registry } from "@web/core/registry";
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 const viewWidgetRegistry = registry.category("view_widgets");
 
 const supportedInfoValidation = {

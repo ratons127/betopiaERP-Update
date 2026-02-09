@@ -1,4 +1,4 @@
-import { useExternalListener, useRef } from "@BetopiaERP/owl";
+import { useExternalListener, useRef } from "@betopiaerp/owl";
 
 /**
  * @param {string} targetRefName

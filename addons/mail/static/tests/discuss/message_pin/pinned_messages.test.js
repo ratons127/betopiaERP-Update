@@ -7,8 +7,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test, expect } from "@BetopiaERP/hoot";
-import { disableAnimations } from "@BetopiaERP/hoot-mock";
+import { describe, test, expect } from "@betopiaerp/hoot";
+import { disableAnimations } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineMailModels();

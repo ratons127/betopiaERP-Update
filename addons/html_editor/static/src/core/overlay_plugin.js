@@ -1,4 +1,4 @@
-import { markRaw, EventBus } from "@BetopiaERP/owl";
+import { markRaw, EventBus } from "@betopiaerp/owl";
 import { Plugin } from "../plugin";
 import { EditorOverlay } from "./overlay";
 

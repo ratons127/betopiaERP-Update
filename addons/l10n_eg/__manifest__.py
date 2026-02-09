@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': "Egypt - Accounting",
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/egypt.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/egypt.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['eg'],
     'description': """
@@ -33,6 +33,6 @@ Activates:
         'demo/demo_company.xml',
         'demo/demo_partner.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

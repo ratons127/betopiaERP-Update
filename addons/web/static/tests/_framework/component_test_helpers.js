@@ -1,5 +1,5 @@
-import { after, destroy, getFixture, queryFirst, queryOne } from "@BetopiaERP/hoot";
-import { App, Component, xml } from "@BetopiaERP/owl";
+import { after, destroy, getFixture, queryFirst, queryOne } from "@betopiaerp/hoot";
+import { App, Component, xml } from "@betopiaerp/owl";
 import { appTranslateFn } from "@web/core/l10n/translation";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { getPopoverForTarget } from "@web/core/popover/popover";
@@ -13,8 +13,8 @@ import {
 import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 
 /**
- * @typedef {import("@BetopiaERP/hoot").Target} Target
- * @typedef {import("@BetopiaERP/owl").Component} Component
+ * @typedef {import("@betopiaerp/hoot").Target} Target
+ * @typedef {import("@betopiaerp/owl").Component} Component
  * @typedef {import("@web/env").BetopiaERPEnv} BetopiaERPEnv
  *
  * @typedef {ConstructorParameters<typeof App>[1]} AppConfig
@@ -23,7 +23,7 @@ import { getMockEnv, makeMockEnv } from "./env_test_helpers";
 /**
  * @template [P=any]
  * @template [E=any]
- * @typedef {import("@BetopiaERP/owl").ComponentConstructor<P, E>} ComponentConstructor
+ * @typedef {import("@betopiaerp/owl").ComponentConstructor<P, E>} ComponentConstructor
  */
 
 /**

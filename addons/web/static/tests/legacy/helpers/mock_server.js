@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/mock_server default=false */
+/** @betopiaerp-module alias=@web/../tests/helpers/mock_server default=false */
 
 import { assets } from "@web/core/assets";
 import { browser } from "@web/core/browser/browser";
@@ -132,7 +132,7 @@ export function makeServerError({
         code: code || 0,
         message: message || "BetopiaERP Server Error",
         data: {
-            name: errorName || `BetopiaERP.exceptions.${type || "UserError"}`,
+            name: errorName || `betopiaerp.exceptions.${type || "UserError"}`,
             debug: "traceback",
             arguments: args || [],
             context: context || {},
@@ -775,7 +775,7 @@ export class MockServer {
             Object.values(this.actions).find((a) => a.path === action_id);
         if (!action) {
             throw makeServerError({
-                errorName: "BetopiaERP.addons.web.controllers.action.MissingActionError",
+                errorName: "betopiaerp.addons.web.controllers.action.MissingActionError",
                 message: `The action ${JSON.stringify(action_id)} does not exist`,
             });
         }

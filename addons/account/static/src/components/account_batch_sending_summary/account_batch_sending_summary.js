@@ -1,4 +1,4 @@
-import {Component} from "@BetopiaERP/owl";
+import {Component} from "@betopiaerp/owl";
 import {registry} from "@web/core/registry";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 

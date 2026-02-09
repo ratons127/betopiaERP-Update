@@ -1,6 +1,6 @@
-import { test, describe, expect } from "@BetopiaERP/hoot";
+import { test, describe, expect } from "@betopiaerp/hoot";
 import { useDraggableScroll } from "@pos_self_order/app/utils/scroll_dnd_hook";
-import { Component, useRef, xml } from "@BetopiaERP/owl";
+import { Component, useRef, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupSelfPosEnv } from "../utils";
 import { definePosSelfModels } from "../data/generate_model_definitions";

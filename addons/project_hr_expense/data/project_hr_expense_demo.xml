@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="hr_expense.travel_admin_by_car_expense" model="hr.expense">
             <field name="analytic_distribution" eval="{ref('project.analytic_office_design'): 100}"/>
@@ -34,4 +34,4 @@
             <value model="hr.expense" eval="[ref('transportation_expense'), ref('restaurant_expense')]"/>
         </function>
     </data>
-</BetopiaERP>
+</betopiaerp>

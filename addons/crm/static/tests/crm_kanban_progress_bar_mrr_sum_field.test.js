@@ -1,6 +1,6 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred, queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

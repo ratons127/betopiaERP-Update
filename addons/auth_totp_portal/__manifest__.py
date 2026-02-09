@@ -15,6 +15,6 @@
             'auth_totp_portal/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

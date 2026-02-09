@@ -8,8 +8,8 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 
-import { describe, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 
 defineMailModels();
 describe.current.tags("desktop");

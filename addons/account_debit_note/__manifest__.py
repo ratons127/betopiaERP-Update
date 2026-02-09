@@ -20,6 +20,6 @@ The wizard used is similar as the one for the credit note.
         'security/ir.model.access.csv',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

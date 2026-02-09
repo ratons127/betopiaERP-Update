@@ -12,7 +12,7 @@ const patchStep = {
     content: "Patch upload service",
     trigger: "body",
     run: () => {
-        const uploadService = BetopiaERP.__WOWL_DEBUG__.root.env.services.uploadLocalFiles;
+        const uploadService = betopiaerp.__WOWL_DEBUG__.root.env.services.uploadLocalFiles;
         unpatch = patch(uploadService, {
             async upload() {
                 return [{ id: 1, name: "file.txt", public: true, checksum: "123" }];

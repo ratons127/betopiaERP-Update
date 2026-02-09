@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { hover, leave, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { hover, leave, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, advanceTime } from "@betopiaerp/hoot-mock";
 
 setupInteractionWhiteList("website.carousel_bootstrap_upgrade_fix");
 

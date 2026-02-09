@@ -592,7 +592,7 @@ class IrModuleModule(models.Model):
         return {
             'type': 'ir.actions.act_url',
             'target': 'self',
-            'url': '/BetopiaERP',
+            'url': '/betopiaerp',
         }
 
     def _button_immediate_function(self, function):

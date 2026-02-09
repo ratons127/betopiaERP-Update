@@ -295,7 +295,7 @@ class MemoryCollector(_BasePeriodicCollector):
 class SyncCollector(Collector):
     """
     Record complete execution synchronously.
-    Note that --limit-memory-hard may need to be increased when launching betopiaerp.
+    Note that --limit-memory-hard may need to be increased when launching BetopiaERP.
     """
     name = 'traces_sync'
 

@@ -45,6 +45,6 @@ You need to configure your certificate and the tax agency.
         'demo/demo_res_partner.xml',
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

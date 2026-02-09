@@ -33,7 +33,7 @@ registerWebsitePreviewTour('course_publisher', {
     run: "click",
 }, {
     content: 'eLearning: set description',
-    trigger: 'modal .o_field_html[name="description"] .BetopiaERP-editor-editable p',
+    trigger: 'modal .o_field_html[name="description"] .betopiaerp-editor-editable p',
     run: "editor Déboulonnate is very common at Fleurus",
 }, {
     content: 'eLearning: we want reviews',

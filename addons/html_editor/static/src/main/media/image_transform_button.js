@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState } from "@betopiaerp/owl";
 import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 import { registry } from "@web/core/registry";
 import { ImageTransformation } from "./image_transformation";

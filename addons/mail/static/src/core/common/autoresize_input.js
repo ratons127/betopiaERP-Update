@@ -1,4 +1,4 @@
-import { Component, useRef, useState, onWillUpdateProps, onMounted } from "@BetopiaERP/owl";
+import { Component, useRef, useState, onWillUpdateProps, onMounted } from "@betopiaerp/owl";
 
 import { useAutoresize } from "@web/core/utils/autoresize";
 

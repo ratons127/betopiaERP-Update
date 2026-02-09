@@ -1,7 +1,7 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, manuallyDispatchProgrammaticEvent, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, markup, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, manuallyDispatchProgrammaticEvent, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, markup, xml } from "@betopiaerp/owl";
 import { getService, mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { user } from "@web/core/user";

@@ -1,5 +1,5 @@
-import { queryAll, queryAllTexts, queryOne, queryText } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { queryAll, queryAllTexts, queryOne, queryText } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { findComponent, mountWithCleanup } from "./component_test_helpers";
 import { contains } from "./dom_test_helpers";
 import { getMockEnv, makeMockEnv } from "./env_test_helpers";

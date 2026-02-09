@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { contains, defineModels, models, onRpc } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

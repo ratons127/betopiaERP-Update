@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <!-- Closed Sessions -->
         <!-- forcecreate is set to false in order to not create record when updating the db -->
@@ -313,4 +313,4 @@
         <function model="pos.session" name="_set_last_order_preparation_change"
             eval="[[ref('pos_open_order_2'), ref('pos_open_order_3'), ref('pos_open_order_4')]]"/>
     </data>
-</BetopiaERP>
+</betopiaerp>

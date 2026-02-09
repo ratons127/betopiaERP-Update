@@ -29,7 +29,7 @@ def set_default_options(func):
     def wrapper(*args, **kwargs):
         headers = kwargs.pop('headers', None) or {}
         headers['User-Agent'] = 'BetopiaERPIoTBox/1.0'
-        server_url = tools.helpers.get_BetopiaERP_server_url()
+        server_url = tools.helpers.get_betopiaerp_server_url()
         db_name = tools.helpers.get_conf('db_name')
         if server_url and db_name and args[0].startswith(server_url) and '/web/login?db=' not in args[0]:
             headers['X-BetopiaERP-Database'] = db_name

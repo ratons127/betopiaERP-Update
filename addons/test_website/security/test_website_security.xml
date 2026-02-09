@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <record id="test_website.group_test_website_admin" model="res.groups">
         <field name="name">Test Administrator</field>
@@ -14,4 +14,4 @@
         <field name="group_ids" eval="[(4,ref('test_website.group_test_website_tester'))]"/>
     </record>
     
-</BetopiaERP>
+</betopiaerp>

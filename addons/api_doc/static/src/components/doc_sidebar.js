@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { simplifyString } from "@api_doc/utils/doc_model_search";
 
 export class DocSidebar extends Component {

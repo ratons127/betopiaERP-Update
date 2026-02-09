@@ -13,7 +13,7 @@ class TestStockWarehouseOrderpoint(HttpCase):
         })
         self.assertFalse(product.orderpoint_ids)
 
-        self.start_tour("/BetopiaERP/replenishment", "test_product_replenishment", login='admin')
+        self.start_tour("/betopiaerp/replenishment", "test_product_replenishment", login='admin')
 
         self.assertEqual(len(product.orderpoint_ids), 1)
         self.assertEqual(product.orderpoint_ids[0].route_id.name, 'Buy')

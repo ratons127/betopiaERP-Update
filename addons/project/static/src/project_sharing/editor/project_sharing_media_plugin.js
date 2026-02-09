@@ -22,7 +22,7 @@ export class ProjectSharingImageSavePlugin extends ImageSavePlugin {
                     data: imageData,
                     res_id: resId,
                     access_token: "",
-                    csrf_token: BetopiaERP.csrf_token,
+                    csrf_token: betopiaerp.csrf_token,
                 },
                 "text"
             )

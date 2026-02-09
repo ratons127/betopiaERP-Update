@@ -1,4 +1,4 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { testEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
 import { FORMATTABLE_TAGS } from "@html_editor/utils/formatting";

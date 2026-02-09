@@ -10,10 +10,10 @@ import { registry } from "@web/core/registry";
 export const partnerCompareRegistry = registry.category("mail.partner_compare");
 
 partnerCompareRegistry.add(
-    "mail.archived-last-except-BetopiaERPbot",
+    "mail.archived-last-except-betopiaerpbot",
     (p1, p2) => {
-        const p1active = p1.active || p1.eq(p1.store.BetopiaERPbot);
-        const p2active = p2.active || p2.eq(p2.store.BetopiaERPbot);
+        const p1active = p1.active || p1.eq(p1.store.betopiaerpbot);
+        const p2active = p2.active || p2.eq(p2.store.betopiaerpbot);
         if (!p1active && p2active) {
             return 1;
         }

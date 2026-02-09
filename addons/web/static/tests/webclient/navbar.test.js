@@ -1,6 +1,6 @@
-import { beforeEach, destroy, expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryAllAttributes, queryAllTexts, resize } from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, destroy, expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryAllAttributes, queryAllTexts, resize } from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     clearRegistry,
     contains,
@@ -11,7 +11,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, onRendered, xml } from "@BetopiaERP/owl";
+import { Component, onRendered, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { NavBar } from "@web/webclient/navbar/navbar";
 
@@ -55,7 +55,7 @@ test("href attribute on apps menu items", async () => {
     defineMenus([{ id: 1, actionID: 339 }]);
     await mountWithCleanup(NavBar);
     await contains(".o_navbar_apps_menu button.dropdown-toggle").click();
-    expect(".o-dropdown--menu .dropdown-item").toHaveAttribute("href", "/BetopiaERP/action-339");
+    expect(".o-dropdown--menu .dropdown-item").toHaveAttribute("href", "/betopiaerp/action-339");
 });
 
 test.tags("desktop");
@@ -63,7 +63,7 @@ test("href attribute with path on apps menu items", async () => {
     defineMenus([{ id: 1, actionID: 339, actionPath: "my-path" }]);
     await mountWithCleanup(NavBar);
     await contains(".o_navbar_apps_menu button.dropdown-toggle").click();
-    expect(".o-dropdown--menu .dropdown-item").toHaveAttribute("href", "/BetopiaERP/my-path");
+    expect(".o-dropdown--menu .dropdown-item").toHaveAttribute("href", "/betopiaerp/my-path");
 });
 
 test.tags("desktop");

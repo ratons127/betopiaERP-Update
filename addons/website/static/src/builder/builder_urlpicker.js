@@ -1,4 +1,4 @@
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 import wUtils from "@website/js/utils";
 import { Plugin } from "@html_editor/plugin";
 import { registry } from "@web/core/registry";

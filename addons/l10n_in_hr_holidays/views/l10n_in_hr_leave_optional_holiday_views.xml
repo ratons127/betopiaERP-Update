@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<BetopiaERP>
+<betopiaerp>
     <record id="l10n_in_hr_leave_optional_holiday_view_list" model="ir.ui.view">
         <field name="model">l10n.in.hr.leave.optional.holiday</field>
         <field name="arch" type="xml">
@@ -42,4 +42,4 @@
         parent="hr_holidays.menu_hr_holidays_configuration"
         groups="hr_holidays.group_hr_holidays_manager"
         sequence="5"/>
-</BetopiaERP>
+</betopiaerp>

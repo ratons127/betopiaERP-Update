@@ -1,6 +1,6 @@
 import { registry } from "@web/core/registry";
 import { WORKER_STATE } from "@bus/workers/websocket_worker";
-import { whenReady } from "@BetopiaERP/owl";
+import { whenReady } from "@betopiaerp/owl";
 
 function logout() {
     return [
@@ -10,7 +10,7 @@ function logout() {
                 await whenReady();
                 await new Promise((resolve) => requestAnimationFrame(resolve));
                 await new Promise((resolve) => {
-                    const bus = BetopiaERP.__WOWL_DEBUG__.root.env.services.bus_service;
+                    const bus = betopiaerp.__WOWL_DEBUG__.root.env.services.bus_service;
                     bus.addEventListener("BUS:CONNECT", resolve, { once: true });
                     if (bus.workerState === WORKER_STATE.CONNECTED) {
                         resolve();
@@ -38,7 +38,7 @@ function logout() {
 }
 
 registry.category("web_tour.tours").add("test_user_switch", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         ...logout(),
         {

@@ -7,8 +7,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 import { defineResourceMailModels } from "./resource_mail_test_helpers";
 import { onRpc } from "@web/../tests/web_test_helpers";
 
@@ -36,7 +36,7 @@ beforeEach(async () => {
     // User
     data.partnerPierreId = pyEnv["res.partner"].create({
         name: "Pierre",
-        email: "Pierre@BetopiaERP.test",
+        email: "Pierre@betopiaerp.test",
         phone: "+32487898933",
     });
     data.userPierreId = pyEnv["res.users"].create({
@@ -175,7 +175,7 @@ test("many2one_avatar_resource widget in kanban view", async () => {
         { count: 1 },
         "Only one popover resource card should be opened at a time"
     );
-    await contains(".o_card_user_infos > a", { text: "Pierre@BetopiaERP.test" });
+    await contains(".o_card_user_infos > a", { text: "Pierre@betopiaerp.test" });
     await contains(".o_card_user_infos > a", { text: "+32487898933" });
     expect(".o_avatar_card_buttons button:first").toHaveText("Send message");
     await click(".o_avatar_card_buttons button");

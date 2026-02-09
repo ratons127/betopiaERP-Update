@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import {
     clickOnSave,

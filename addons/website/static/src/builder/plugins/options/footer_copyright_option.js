@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 
 export class FooterCopyrightOption extends BaseOptionComponent {

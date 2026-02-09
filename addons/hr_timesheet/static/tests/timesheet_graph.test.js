@@ -1,4 +1,4 @@
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import { mountView, serverState } from "@web/../tests/web_test_helpers";
 
 import { defineTimesheetModels } from "./hr_timesheet_models";

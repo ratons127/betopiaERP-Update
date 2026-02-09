@@ -27,11 +27,11 @@ class EtaUsbController(http.Controller):
 
     @route.iot_route('/hw_l10n_eg_eta/certificate', type='http', cors='*', csrf=False, methods=['POST'])
     def eta_certificate(self, pin, access_token):
-        """Gets the certificate from the token and returns it to the main BetopiaERP instance so that we can prepare the
-        cades-bes object on the main BetopiaERP instance rather than this middleware
+        """Gets the certificate from the token and returns it to the main betopiaerp instance so that we can prepare the
+        cades-bes object on the main betopiaerp instance rather than this middleware
 
         :param pin: pin of the token
-        :param access_token: token shared with the main BetopiaERP instance
+        :param access_token: token shared with the main betopiaerp instance
         :return: json object with the certificate
         """
         if not self._is_access_token_valid(access_token):
@@ -58,7 +58,7 @@ class EtaUsbController(http.Controller):
         """Check if the access_token is valid and sign the invoices accessing the usb key with the pin.
 
         :param pin: pin of the token
-        :param access_token: token shared with the main BetopiaERP instance
+        :param access_token: token shared with the main betopiaerp instance
         :param invoices: dictionary of invoices. Keys are invoices ids, value are the base64 encoded binaries to sign
         :return: json object with the signed invoices
         """

@@ -10,8 +10,8 @@ import {
     normalizeColors,
     normalizeRem,
 } from "@mail/views/web/fields/html_mail_field/convert_inline";
-import { beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { enableTransitions } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { enableTransitions } from "@betopiaerp/hoot-mock";
 import {
     getGridHtml,
     getRegularGridHtml,

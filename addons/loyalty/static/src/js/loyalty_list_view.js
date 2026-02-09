@@ -1,4 +1,4 @@
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { ListRenderer } from "@web/views/list/list_renderer";

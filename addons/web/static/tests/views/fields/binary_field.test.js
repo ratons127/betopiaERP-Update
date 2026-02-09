@@ -1,6 +1,6 @@
-import { after, expect, test } from "@BetopiaERP/hoot";
-import { click, queryOne, queryValue, setInputFiles, waitFor } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
+import { after, expect, test } from "@betopiaerp/hoot";
+import { click, queryOne, queryValue, setInputFiles, waitFor } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     contains,

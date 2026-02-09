@@ -2,7 +2,7 @@
     import { stepUtils } from "@web_tour/tour_utils";
 
     registry.category("web_tour.tours").add('crm_email_and_phone_propagation_edit_save', {
-        url: '/BetopiaERP',
+        url: '/betopiaerp',
         steps: () => [
         stepUtils.showAppsMenuItem(),
         {

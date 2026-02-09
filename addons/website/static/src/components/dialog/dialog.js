@@ -1,7 +1,7 @@
 import { Dialog } from "@web/core/dialog/dialog";
 import { _t } from "@web/core/l10n/translation";
 import { useChildRef } from "@web/core/utils/hooks";
-import { useState, Component } from "@BetopiaERP/owl";
+import { useState, Component } from "@betopiaerp/owl";
 
 const NO_OP = () => {};
 

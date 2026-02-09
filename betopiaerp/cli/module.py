@@ -70,11 +70,11 @@ class Module(Command):
             Before installing modules, an BetopiaERP database needs to be created and initialized
             on your PostgreSQL instance, using the `db init` command:
 
-            $ BetopiaERP-bin db init <db_name>
+            $ betopiaerp-bin db init <db_name>
 
             To get help on its parameters, see:
 
-            $ BetopiaERP-bin db init --help
+            $ betopiaerp-bin db init --help
         """)
         uninstall_parser.add_argument(
             'modules', nargs='+', metavar='MODULE',

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <template id="report_invoice_document">
             <t t-call="web.external_layout">
@@ -479,7 +479,7 @@
                                         <p t-if="qr_code_url" class="position-relative mb-0">
                                             <img t-att-src="qr_code_url"/>
                                             <img src="/account/static/src/img/BetopiaERP_logo_O.svg"
-                                                 id="qrcode_BetopiaERP_logo"
+                                                 id="qrcode_betopiaerp_logo"
                                                  class="top-50 start-50 position-absolute bg-white border border-3 rounded-circle"
                                             />
                                         </p>
@@ -496,7 +496,7 @@
                                         <p class="position-relative mb-0">
                                             <img t-att-src="portal_qr_code"/>
                                             <img src="/account/static/src/img/BetopiaERP_logo_O.svg"
-                                                 id="qrcode_BetopiaERP_logo"
+                                                 id="qrcode_betopiaerp_logo"
                                                  class="top-50 start-50 position-absolute bg-white border border-3 rounded-circle"
                                             />
                                         </p>
@@ -689,4 +689,4 @@
             </t>
         </template>
     </data>
-</BetopiaERP>
+</betopiaerp>

@@ -1,5 +1,5 @@
 // import { registry } from "@web/core/registry";
-import { Component, xml, useState } from "@BetopiaERP/owl";
+import { Component, xml, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 // -----------------------------------------------------------------------------

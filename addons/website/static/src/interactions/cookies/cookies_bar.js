@@ -150,9 +150,9 @@ export class CookiesBar extends Popup {
         super.onHideModal();
         const params = new URLSearchParams(window.location.search);
         const trackingFields = {
-            utm_campaign: "BetopiaERP_utm_campaign",
-            utm_source: "BetopiaERP_utm_source",
-            utm_medium: "BetopiaERP_utm_medium",
+            utm_campaign: "betopiaerp_utm_campaign",
+            utm_source: "betopiaerp_utm_source",
+            utm_medium: "betopiaerp_utm_medium",
         };
         for (const [key, value] of params) {
             if (key in trackingFields) {

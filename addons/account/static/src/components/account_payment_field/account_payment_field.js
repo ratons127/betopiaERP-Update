@@ -7,7 +7,7 @@ import { formatDate, deserializeDate } from "@web/core/l10n/dates";
 
 import { formatMonetary } from "@web/views/fields/formatters";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 class AccountPaymentPopOver extends Component {
     static props = { "*": { optional: true } };

@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * base_install_request
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-07 07:28+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "base_install_request/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgid ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Review Request</a>\n"
 "        <br/><br/>\n"
@@ -74,7 +74,7 @@ msgstr ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">リクエストを確認する</a>\n"
 "        <br/><br/>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "            "
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
 msgstr "\"%s\"の有効化を申請"
@@ -189,7 +189,7 @@ msgid "Modules Description"
 msgstr "モジュール説明"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "No module selected."
 msgstr "モジュールが選択されていません。"
@@ -216,7 +216,7 @@ msgid "The following apps will be installed:"
 msgstr "次のアプリがインストールされます:"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "The module is already installed."
 msgstr "モジュールはすでにインストール済です。"
@@ -237,7 +237,7 @@ msgid "You are about to install an extra application"
 msgstr "追加のアプリケーションをインストールしようとしています。"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "Your request has been successfully sent"
 msgstr "要求が正常に送信されました。"
@@ -268,7 +268,7 @@ msgstr ""
 #~ "        </blockquote>\n"
 #~ "        <br><br>\n"
 #~ "        <a style=\"background-color:#875A7B; padding:8px 16px 8px 16px; "
-#~ "text-decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/BetopiaERP/"
+#~ "text-decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/betopiaerp/"
 #~ "{{ object.module_id.id }}/action-"
 #~ "base_install_request.action_base_module_install_review?"
 #~ "menu_id={{ ctx['menu_id'] }}\">Review Request</a>\n"
@@ -300,7 +300,7 @@ msgstr ""
 #~ "        </blockquote>\n"
 #~ "        <br><br>\n"
 #~ "        <a style=\"background-color:#875A7B; padding:8px 16px 8px 16px; "
-#~ "text-decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/BetopiaERP/"
+#~ "text-decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/betopiaerp/"
 #~ "{{ object.module_id.id }}/action-"
 #~ "base_install_request.action_base_module_install_review?"
 #~ "menu_id={{ ctx['menu_id'] }}\">リクエストを確認する</a>\n"

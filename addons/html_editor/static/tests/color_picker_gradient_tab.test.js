@@ -1,5 +1,5 @@
-import { test, expect } from "@BetopiaERP/hoot";
-import { animationFrame, click } from "@BetopiaERP/hoot-dom";
+import { test, expect } from "@betopiaerp/hoot";
+import { animationFrame, click } from "@betopiaerp/hoot-dom";
 import { ColorPicker } from "@web/core/color_picker/color_picker";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 

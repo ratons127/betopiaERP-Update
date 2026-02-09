@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { keyDown } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { keyDown } from "@betopiaerp/hoot-dom";
 import {
     makeMockEnv,
     contains,

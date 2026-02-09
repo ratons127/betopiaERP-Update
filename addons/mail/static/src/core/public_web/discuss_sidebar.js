@@ -2,7 +2,7 @@ import { ActionList } from "../common/action_list";
 import { DiscussSearch } from "./discuss_search";
 import { DISCUSS_SIDEBAR_COMPACT_LS } from "@mail/core/public_web/discuss_app_model";
 
-import { Component, onMounted, useSubEnv } from "@BetopiaERP/owl";
+import { Component, onMounted, useSubEnv } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { registry } from "@web/core/registry";

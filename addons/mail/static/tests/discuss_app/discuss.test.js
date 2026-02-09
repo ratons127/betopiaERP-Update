@@ -24,9 +24,9 @@ import {
     getChannelCommandsForThread,
 } from "@mail/../tests/mail_test_helpers";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred, press, runAllTimers, tick, waitFor } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred, press, runAllTimers, tick, waitFor } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -231,10 +231,10 @@ test("Posting message should transform relevant data to emoji.", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "test :P :laughing:");
     await press("Enter");
@@ -1143,7 +1143,7 @@ test("no out-of-focus notification on receiving self messages in chat", async ()
     await start();
     await contains(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-ChatWindow", { count: 0 });
-    // simulate receiving a new message of self with BetopiaERP out-of-focused
+    // simulate receiving a new message of self with betopiaerp out-of-focused
     withUser(serverState.userId, () =>
         rpc("/mail/message/post", {
             post_data: {
@@ -1183,7 +1183,7 @@ test("out-of-focus notif on needaction message in channel", async () => {
     await waitStoreFetch("init_messaging");
     await contains(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-ChatWindow", { count: 0 });
-    // simulate receiving a new needaction message with BetopiaERP out-of-focused
+    // simulate receiving a new needaction message with betopiaerp out-of-focused
     const adminId = serverState.partnerId;
     await withUser(userId, () =>
         rpc("/mail/message/post", {
@@ -1200,7 +1200,7 @@ test("out-of-focus notif on needaction message in channel", async () => {
     await waitForSteps(["set_counters:discuss:1"]);
 });
 
-test("receive new chat message: out of BetopiaERP focus (notification, chat)", async () => {
+test("receive new chat message: out of betopiaerp focus (notification, chat)", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Dumbledore" });
     const userId = pyEnv["res.users"].create({ partner_id: partnerId });
@@ -1223,7 +1223,7 @@ test("receive new chat message: out of BetopiaERP focus (notification, chat)", a
     await waitStoreFetch("init_messaging");
     await contains(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-ChatWindow", { count: 0 });
-    // simulate receiving a new message with BetopiaERP out-of-focused
+    // simulate receiving a new message with betopiaerp out-of-focused
     withUser(userId, () =>
         rpc("/mail/message/post", {
             post_data: {
@@ -1275,7 +1275,7 @@ test("no out-of-focus notif on non-needaction message in channel", async () => {
     await waitForSteps([]);
 });
 
-test("receive new chat messages: out of BetopiaERP focus (tab title)", async () => {
+test("receive new chat messages: out of betopiaerp focus (tab title)", async () => {
     let stepCount = 0;
     const pyEnv = await startServer();
     const bobUserId = pyEnv["res.users"].create({ name: "bob" });
@@ -1317,7 +1317,7 @@ test("receive new chat messages: out of BetopiaERP focus (tab title)", async () 
     await start();
     await openDiscuss();
     await contains(".o-mail-DiscussSidebarChannel", { count: 2 });
-    // simulate receiving a new message in chat 1 with BetopiaERP out-of-focused
+    // simulate receiving a new message in chat 1 with betopiaerp out-of-focused
     await withUser(bobUserId, () =>
         rpc("/mail/message/post", {
             post_data: { body: "Hello world!", message_type: "comment" },
@@ -1326,7 +1326,7 @@ test("receive new chat messages: out of BetopiaERP focus (tab title)", async () 
         })
     );
     await waitForSteps(["set_counters:discuss"]);
-    // simulate receiving a new message in chat 2 with BetopiaERP out-of-focused
+    // simulate receiving a new message in chat 2 with betopiaerp out-of-focused
     await withUser(bobUserId, () =>
         rpc("/mail/message/post", {
             post_data: { body: "Hello world!", message_type: "comment" },
@@ -1335,7 +1335,7 @@ test("receive new chat messages: out of BetopiaERP focus (tab title)", async () 
         })
     );
     await waitForSteps(["set_counters:discuss"]);
-    // simulate receiving another new message in chat 2 with BetopiaERP focused
+    // simulate receiving another new message in chat 2 with betopiaerp focused
     await withUser(bobUserId, () =>
         rpc("/mail/message/post", {
             post_data: { body: "Hello world!", message_type: "comment" },
@@ -1368,7 +1368,7 @@ test("new message in tab title has precedence over action name", async () => {
     await openDiscuss("mail.box_inbox");
     await contains(".o-mail-DiscussContent-threadName", { value: "Inbox" }); // wait for action name being Inbox
     await expect.waitForSteps(["Inbox"]);
-    // simulate receiving a new message in chat 1 with BetopiaERP out-of-focused
+    // simulate receiving a new message in chat 1 with betopiaerp out-of-focused
     await withUser(bobUserId, () =>
         rpc("/mail/message/post", {
             post_data: { body: "Hello world!", message_type: "comment" },
@@ -1397,7 +1397,7 @@ test("out-of-focus notif takes new inbox messages into account", async () => {
     await waitStoreFetch("init_messaging");
     await openDiscuss("mail.box_inbox");
     await contains(".o-mail-DiscussContent-threadName", { value: "Inbox" }); // wait for action name being Inbox
-    // simulate receiving a new needaction message with BetopiaERP out-of-focused
+    // simulate receiving a new needaction message with betopiaerp out-of-focused
     const adminId = serverState.partnerId;
     await withUser(userId, () =>
         rpc("/mail/message/post", {
@@ -1438,7 +1438,7 @@ test("out-of-focus notif on needaction message in group chat contributes only on
     await waitStoreFetch("init_messaging");
     await openDiscuss("mail.box_inbox");
     await contains(".o-mail-DiscussContent-threadName", { value: "Inbox" }); // wait for action name being Inbox
-    // simulate receiving a new needaction message with BetopiaERP out-of-focused
+    // simulate receiving a new needaction message with betopiaerp out-of-focused
     const adminId = serverState.partnerId;
     await withUser(userId, () =>
         rpc("/mail/message/post", {
@@ -1472,7 +1472,7 @@ test("inbox notifs shouldn't play sound nor open chat bubble", async () => {
     listenStoreFetch("init_messaging");
     await start();
     await waitStoreFetch("init_messaging");
-    // simulate receiving a new needaction message with BetopiaERP out-of-focused
+    // simulate receiving a new needaction message with betopiaerp out-of-focused
     const adminId = serverState.partnerId;
     await withUser(userId, () =>
         rpc("/mail/message/post", {
@@ -1743,7 +1743,7 @@ test("Partner IM status is displayed as thread icon in top bar of channels of ty
         {
             channel_member_ids: [
                 Command.create({ partner_id: serverState.partnerId }),
-                Command.create({ partner_id: serverState.BetopiaERPbotId }),
+                Command.create({ partner_id: serverState.betopiaerpbotId }),
             ],
             channel_type: "chat",
         },
@@ -2275,7 +2275,7 @@ test("Chatter notification in messaging menu should open the form view even when
     const messageId = pyEnv["mail.message"].create({
         model: "res.partner",
         body: "A needaction message to have it in messaging menu",
-        author_id: serverState.BetopiaERPbotId,
+        author_id: serverState.betopiaerpbotId,
         needaction: true,
         res_id: partnerId,
     });

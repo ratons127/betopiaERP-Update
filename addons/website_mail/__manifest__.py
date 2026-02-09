@@ -24,6 +24,6 @@ Module holding mail improvements for website. It holds the follow widget.
             'website/static/src/interactions/follow.edit.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

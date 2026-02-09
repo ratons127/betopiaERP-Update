@@ -9,7 +9,7 @@ class WebManifest(webmanifest.WebManifest):
         manifest = super()._get_webmanifest()
         if not manifest.get('share_target'):
             manifest['share_target'] = {
-                'action': '/BetopiaERP?share_target=trigger',
+                'action': '/betopiaerp?share_target=trigger',
                 'method': 'POST',
                 'enctype': 'multipart/form-data',
                 'params': {

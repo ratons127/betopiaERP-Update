@@ -53,7 +53,7 @@ class TestUBLAttachedDocument(TestUBLCommon):
         ExternalReference/Description tag. Importing such files should ignore the outside wrapper
         and return the correct original invoice takes from a_nz_out_invoice. """
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='a_nz_out_invoice_attacheddocument_b64.xml',
             invoice_vals={
                 'currency_id': self.other_currency.id,
@@ -64,7 +64,7 @@ class TestUBLAttachedDocument(TestUBLCommon):
         )
 
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='a_nz_out_invoice_attacheddocument_description.xml',
             invoice_vals={
                 'currency_id': self.other_currency.id,

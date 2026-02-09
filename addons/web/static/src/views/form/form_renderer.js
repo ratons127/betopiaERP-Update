@@ -24,7 +24,7 @@ import {
     useRef,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 export class FormRenderer extends Component {
     static template = xml`<t t-call="{{ templates.FormRenderer }}" t-call-context="{ __comp__: Object.assign(Object.create(this), { this: this }) }" />`;

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 import { evaluateBooleanExpr } from "@web/core/py_js/py";
 import { Field } from "@web/views/fields/field";

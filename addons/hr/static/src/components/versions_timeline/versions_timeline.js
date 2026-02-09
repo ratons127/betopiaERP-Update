@@ -1,4 +1,4 @@
-import { onWillUpdateProps, useComponent, useState } from "@BetopiaERP/owl";
+import { onWillUpdateProps, useComponent, useState } from "@betopiaerp/owl";
 import { useDateTimePicker } from "@web/core/datetime/datetime_picker_hook";
 import { Domain } from "@web/core/domain";
 import { registry } from "@web/core/registry";

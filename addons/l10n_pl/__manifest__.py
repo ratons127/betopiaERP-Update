@@ -4,18 +4,18 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['pl'],
     'version': '2.0',
-    'author': 'BetopiaERP S.A., Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'author': 'BetopiaERP, Grzegorz Grzelak (OpenGLOBE) (http://www.openglobe.pl)',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart and taxes for Poland in betopiaerp.
+This is the module to manage the accounting chart and taxes for Poland in BetopiaERP.
 ==================================================================================
 
 To jest moduł do tworzenia wzorcowego planu kont, podatków, obszarów podatkowych i
 rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów
 zakładając, że wszystkie towary są w obrocie hurtowym.
 
-Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.
+Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.
 Wewnętrzny numer wersji OpenGLOBE 1.02
     """,
     'depends': [

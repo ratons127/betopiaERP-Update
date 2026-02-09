@@ -1,7 +1,7 @@
 import { usePopover } from "@web/core/popover/popover_hook";
 import { useService } from "@web/core/utils/hooks";
 
-import { useComponent, useExternalListener } from "@BetopiaERP/owl";
+import { useComponent, useExternalListener } from "@betopiaerp/owl";
 
 export function useCalendarPopover(component) {
     const owner = useComponent();

@@ -53,6 +53,6 @@ Preferences
             'sale_stock/static/tests/tours/*.js',
         ]
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

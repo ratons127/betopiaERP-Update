@@ -1,4 +1,4 @@
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { EditInBackendSystrayItem } from "./edit_in_backend";
 import { EditWebsiteSystrayItem } from "./edit_website_systray_item";

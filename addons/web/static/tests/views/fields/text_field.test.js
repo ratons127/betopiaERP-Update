@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { press, queryAll, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { press, queryAll, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,

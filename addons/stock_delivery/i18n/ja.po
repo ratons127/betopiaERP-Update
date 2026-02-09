@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * stock_delivery
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-12-05 04:17+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_delivery/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/sale_order.py:0
 msgid "%(name)s (Estimated Cost: %(cost)s)"
 msgstr "%(name)s (見積費用: %(cost)s)"
@@ -151,7 +151,7 @@ msgid "Carrier name"
 msgstr "配送業者名"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Cost: %(price).2f %(currency)s"
 msgstr "原価: %(price).2f %(currency)s"
@@ -212,13 +212,13 @@ msgstr ""
 "す。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Exception occurred with respect to carrier on the transfer"
 msgstr "転送時に配送業者に関して例外が発生しました。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Exception:"
 msgstr "例外:"
@@ -274,7 +274,7 @@ msgid "Is Return Picking"
 msgstr "返品の引き取り"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Manual actions might be needed."
 msgstr "手動操作が必要になる場合があります。"
@@ -301,7 +301,7 @@ msgid "Package"
 msgstr "梱包"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/wizard/stock_put_in_pack.py:0
 msgid "Package too heavy!"
 msgstr "荷物が重すぎます！"
@@ -387,7 +387,7 @@ msgid "Send to Shipper"
 msgstr "配送業者に送る"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 "Shipment sent to carrier %(carrier_name)s for shipping with tracking number %"
@@ -457,7 +457,7 @@ msgstr ""
 "これを使ってクイックサーチできます。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/delivery_carrier.py:0
 msgid ""
 "The package cannot be created because the total weight of the products in "
@@ -466,13 +466,13 @@ msgstr ""
 "梱包を作成できません。ピッキングのプロダクトの合計重量が0.0 %sのためです。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/wizard/choose_delivery_carrier.py:0
 msgid "The shipping price will be set once the delivery is done."
 msgstr "配送料金は、配送が完了した時点で設定されます。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/wizard/stock_put_in_pack.py:0
 msgid ""
 "The weight of your package is higher than the maximum weight authorized for "
@@ -482,7 +482,7 @@ msgstr ""
 "を選択してください。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/wizard/stock_put_in_pack.py:0
 msgid ""
 "The weight of your package is higher than the maximum weight authorized for "
@@ -492,7 +492,7 @@ msgstr ""
 "タイプを選んで下さい。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/delivery_carrier.py:0
 msgid "There is no matching delivery rule."
 msgstr "一致する配送規則がありません。"
@@ -528,7 +528,7 @@ msgid "Tracking URL"
 msgstr "トラッカーURL"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid "Tracking links for shipment:"
 msgstr "配送用追跡リンク"
@@ -569,7 +569,7 @@ msgid "Weight:"
 msgstr "重量:"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_move.py:0
 msgid ""
 "You cannot pack products into the same package when they have different "
@@ -586,7 +586,7 @@ msgid "You have multiple tracker links, they are available in the chatter."
 msgstr "複数のトラッカーリンクがあり、それらはチャッターで利用できます。"
 
 #. module: stock_delivery
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_delivery/models/stock_picking.py:0
 msgid ""
 "Your delivery method has no redirect on courier provider's website to track "

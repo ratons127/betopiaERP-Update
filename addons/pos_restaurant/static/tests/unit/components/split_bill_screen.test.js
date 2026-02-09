@@ -1,4 +1,4 @@
-import { describe, test, expect } from "@BetopiaERP/hoot";
+import { describe, test, expect } from "@betopiaerp/hoot";
 import { SplitBillScreen } from "@pos_restaurant/app/screens/split_bill_screen/split_bill_screen";
 import { setupPosEnv, getFilledOrder } from "@point_of_sale/../tests/unit/utils";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";

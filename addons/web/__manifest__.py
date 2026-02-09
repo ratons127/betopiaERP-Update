@@ -58,7 +58,7 @@ This module provides the core of the BetopiaERP Web Client.
             ('include', 'web._assets_core'),
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/webclient/navbar/navbar.scss',
             'web/static/src/scss/animation.scss',
             'web/static/src/scss/fontawesome_overridden.scss',
@@ -180,7 +180,7 @@ This module provides the core of the BetopiaERP Web Client.
             ('include', 'web._assets_bootstrap_frontend'),
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/webclient/navbar/navbar.scss',
             'web/static/src/scss/animation.scss',
             'web/static/src/scss/base_frontend.scss',
@@ -193,7 +193,7 @@ This module provides the core of the BetopiaERP Web Client.
             ('include', 'web.assets_frontend_minimal'),
 
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
             'web/static/lib/jquery/jquery.js',
             'web/static/lib/popper/popper.js',
             'web/static/lib/bootstrap/js/dist/util/index.js',
@@ -305,7 +305,7 @@ This module provides the core of the BetopiaERP Web Client.
             'base/static/src/css/description.css',
             'web/static/src/libs/fontawesome/css/font-awesome.css',
             'web/static/src/scss/fontawesome_overridden.scss',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/fonts/fonts.scss',
 
             'web/static/src/webclient/actions/reports/bootstrap_review_report.scss',
@@ -365,7 +365,7 @@ This module provides the core of the BetopiaERP Web Client.
             # libs
             'web/static/lib/luxon/luxon.js',
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
             # core
             'web/static/src/env.js',
             'web/static/src/session.js',
@@ -439,7 +439,7 @@ This module provides the core of the BetopiaERP Web Client.
             'web/static/src/module_loader.js',
 
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
 
             'web/static/lib/hoot/**/*',
             'web/static/lib/hoot-dom/**/*',
@@ -553,6 +553,6 @@ This module provides the core of the BetopiaERP Web Client.
         ],
     },
     'bootstrap': True,  # load translations for login screen,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

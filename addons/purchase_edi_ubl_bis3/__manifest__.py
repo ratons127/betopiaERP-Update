@@ -10,6 +10,6 @@ receiver to retrieve the PDF with only the xml file.
     'depends': ['purchase', 'account_edi_ubl_cii'],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * sale_pdf_quote_builder
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-02-02 13:44+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "sale_pdf_quote_builder/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgid "<span>Document type:</span>"
 msgstr "<span>ドキュメントタイプ:</span>"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 "A form field set as used in product documents can't be linked to a quotation "
@@ -55,7 +55,7 @@ msgstr ""
 "キュメントにリンクできません。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 "A form field set as used in quotation documents can't be linked to a product "
@@ -86,7 +86,7 @@ msgid "All"
 msgstr "すべて"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/controllers/quotation_document.py:0
 msgid "All files uploaded"
 msgstr "すべてのファイルがアップロードされました"
@@ -149,7 +149,7 @@ msgid "Checksum/SHA1"
 msgstr "チェックサム/SHA1"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
 msgstr "クリックしてPDF見積用コンテンツを書く..."
@@ -265,7 +265,7 @@ msgid "File Size"
 msgstr "ファイルサイズ"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_order.py:0
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__quotation_document__document_type__footer
 msgid "Footer"
@@ -277,7 +277,7 @@ msgid "Form Field Name"
 msgstr "フォームフィールド名"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
@@ -307,7 +307,7 @@ msgid "Has Thumbnail"
 msgstr "サムネイルあり"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_order.py:0
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__quotation_document__document_type__header
 msgid "Header"
@@ -390,7 +390,7 @@ msgid "Inside quote pdf"
 msgstr "見積書PDF内"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 "Invalid form field name %(field_name)s. A form field name in a header or a "
@@ -400,7 +400,7 @@ msgstr ""
 "は \"sol_id_\" で始まることはできません。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 "Invalid form field name %(field_name)s. It should only contain "
@@ -410,7 +410,7 @@ msgstr ""
 "能です。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
 "Invalid path %(path)s. It should only contain alphanumerics, hyphens, "
@@ -429,7 +429,7 @@ msgid "Is public document"
 msgstr "公開ドキュメント"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/utils.py:0
 msgid ""
 "It seems that we're not able to process this pdf inside a quotation. It is "
@@ -471,19 +471,19 @@ msgid "Name"
 msgstr "名称"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/ir_actions_report.py:0
 msgid "No"
 msgstr "いいえ"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "Only PDF documents can be attached inside a quote."
 msgstr "見積書内に添付できるのはPDF文書のみです。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
 msgstr "PDFドキュメントのみヘッダーまたはフッターとして利用できます。"
@@ -510,13 +510,13 @@ msgstr ""
 "                売上を向上させましょう。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "Please use only relational fields until the last value of your path."
 msgstr "パス名の最後の値までは、リレーショナルフィールドのみを使用して下さい。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_order.py:0
 msgid "Product"
 msgstr "プロダクト"
@@ -660,7 +660,7 @@ msgid "Stored Filename"
 msgstr "格納ファイル名"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 msgstr "フィールド %(field_name)s はモデル%(model_name)sに存在しません。"
@@ -732,7 +732,7 @@ msgid "Website"
 msgstr "ウェブサイト"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "When attached inside a quote, the document must be a file, not a URL."
 msgstr ""
@@ -740,7 +740,7 @@ msgstr ""
 "ん。"
 
 #. module: sale_pdf_quote_builder
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_pdf_quote_builder/models/ir_actions_report.py:0
 msgid "Yes"
 msgstr "はい"

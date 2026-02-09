@@ -10,6 +10,6 @@ Additional information is displayed in the name of the SOL when it is used in se
 """,
     'category': 'Sales/Sales',
     'depends': ['sale_management'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

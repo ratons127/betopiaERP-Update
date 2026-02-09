@@ -1,6 +1,6 @@
 import { redo, undo } from "@html_editor/../tests/_helpers/user_actions";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, edit, press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, edit, press } from "@betopiaerp/hoot-dom";
 import { contains, defineModels, models, onRpc, webModels } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 import { patch } from "@web/core/utils/patch";

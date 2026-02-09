@@ -1,4 +1,4 @@
-import { waitFor } from "@BetopiaERP/hoot-dom";
+import { waitFor } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 
 export async function expandToolbar() {

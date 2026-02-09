@@ -9,8 +9,8 @@ Html Editor
 This addon provides an extensible, maintainable editor.
     """,
 
-    'author': "BetopiaERP",
-    'website': "https://www.betopiaerp.com",
+    'author': "betopiaerp",
+    'website': "https://www.BetopiaERP.com",
     'version': '1.0',
     'category': 'Hidden',
     'depends': ['base', 'bus', 'web'],

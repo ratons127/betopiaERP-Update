@@ -1,6 +1,6 @@
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { hover, click } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { hover, click } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { contains } from "@web/../tests/web_test_helpers";
 import { base64Img, setupEditor } from "./_helpers/editor";
 import { getContent } from "./_helpers/selection";
@@ -12,7 +12,7 @@ import { captionEmbedding } from "@html_editor/others/embedded_components/backen
 describe.current.tags("desktop");
 
 const styles = `
-.BetopiaERP-editor-editable {
+.betopiaerp-editor-editable {
     position: fixed;
     top: 0;
     left: 30px;

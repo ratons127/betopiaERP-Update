@@ -28,7 +28,7 @@ export class ResUsers extends Record {
     }
     /** @type {boolean} false when the user is an internal user, true otherwise */
     share;
-    /** @type {ReturnType<import("@BetopiaERP/owl").markup>|string|undefined} */
+    /** @type {ReturnType<import("@betopiaerp/owl").markup>|string|undefined} */
     signature = fields.Html(undefined);
 }
 

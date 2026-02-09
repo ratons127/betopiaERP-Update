@@ -459,7 +459,7 @@ class AccountMove(models.Model):
                     sep = ', ' if description else ''
                     description = f"{description}{sep}{downpayment_moves_description}"
             # Workaround: remove line breaks due to Tax Agency portal bug.
-            # This deviates from betopiaerp's standard behavior and must be reviewed if the issue gets fixed.
+            # This deviates from BetopiaERP's standard behavior and must be reviewed if the issue gets fixed.
             description = description and description.replace('\n', ' ').strip() or "NO NAME"
 
             # Price unit.

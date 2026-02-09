@@ -19,7 +19,7 @@ import { user } from "@web/core/user";
 import { createDocumentFragmentFromContent, createElementWithContent } from "@web/core/utils/html";
 import { url } from "@web/core/utils/urls";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 export class Message extends Record {

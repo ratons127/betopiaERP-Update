@@ -28,9 +28,9 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         self.assertEqual(link_tracker.absolute_url, link_tracker.url)
 
         # Make the scheme as an empty string by removing the http:// from the url
-        link_tracker.write({'url': "BetopiaERP"})
+        link_tracker.write({'url': "betopiaerp"})
         # Validate the absolute url is the combination of system parameter and link tracker's url
-        self.assertEqual(link_tracker.absolute_url, f'{self._web_base_url}/BetopiaERP')
+        self.assertEqual(link_tracker.absolute_url, f'{self._web_base_url}/betopiaerp')
 
     def test_create(self):
         link_trackers = self.env['link.tracker'].create([

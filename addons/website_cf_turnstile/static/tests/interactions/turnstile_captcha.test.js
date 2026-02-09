@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 import { session } from "@web/session";
 import { patchTurnStile } from "@website_cf_turnstile/../tests/helpers";

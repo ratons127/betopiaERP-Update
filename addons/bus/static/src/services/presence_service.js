@@ -1,4 +1,4 @@
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { registry } from "@web/core/registry";
 

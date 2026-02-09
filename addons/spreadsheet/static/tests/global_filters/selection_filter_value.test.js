@@ -1,4 +1,4 @@
-import { describe, expect, test, getFixture } from "@BetopiaERP/hoot";
+import { describe, expect, test, getFixture } from "@betopiaerp/hoot";
 import { makeMockEnv, contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { getTemplate } from "@web/core/templates";

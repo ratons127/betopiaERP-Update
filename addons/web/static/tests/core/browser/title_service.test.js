@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { getService, makeMockEnv } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("headless");

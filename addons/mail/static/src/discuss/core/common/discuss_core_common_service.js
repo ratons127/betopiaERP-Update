@@ -1,4 +1,4 @@
-import { markup, reactive } from "@BetopiaERP/owl";
+import { markup, reactive } from "@betopiaerp/owl";
 
 import { registry } from "@web/core/registry";
 
@@ -35,7 +35,7 @@ export class DiscussCoreCommon {
             const { body, channel_id } = payload;
             const lastMessageId = this.store.getLastMessageId();
             const message = this.store["mail.message"].insert({
-                author_id: this.store.BetopiaERPbot,
+                author_id: this.store.betopiaerpbot,
                 body: markup(body),
                 id: lastMessageId + 0.01,
                 subtype_id: this.store.mt_note,

@@ -21,16 +21,16 @@
 # Pekko Tuomisto <pekko.tuomisto@web-veistamo.fi>, 2022
 # Martin Trigaux, 2022
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025, 2026.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-07 15:35+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_landed_costs/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -40,13 +40,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s (Maahantuontikustannukset: %(landed_cost)s)"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s from %(vendor_bill)s (Landed Cost: %(landed_cost)s)"
 msgstr ""
@@ -106,7 +106,7 @@ msgid "Additional Landed Cost"
 msgstr "Lisäkulut"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid ""
 "Additional landed costs:\n"
@@ -196,7 +196,7 @@ msgid "Cost Lines"
 msgstr "Kustannusrivit"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
@@ -440,7 +440,7 @@ msgid "Landed Cost"
 msgstr "Lähetyksen kokonaiskulut"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/account_move.py:0
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
 #: model:ir.model.fields,field_description:stock_landed_costs.field_account_bank_statement_line__landed_costs_ids
@@ -525,7 +525,7 @@ msgid "Name"
 msgstr "Nimi"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "New"
 msgstr "Uusi"
@@ -576,7 +576,7 @@ msgid "Number of messages with delivery error"
 msgstr "Toimitusvirheellisten viestien määrä"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Only draft landed costs can be validated"
 msgstr "Ainoastaan luonnos kokonaiskustannuksista voidaan vahvistaa"
@@ -592,13 +592,13 @@ msgid "Picking"
 msgstr "Keräily"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "Määritä varastokulutili tuotteelle: %s."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
 msgstr "Määrittele %s, johon näitä lisäkustannuksia on sovellettava."
@@ -723,7 +723,7 @@ msgid "Validate"
 msgstr "Vahvista"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
@@ -769,7 +769,7 @@ msgid "Weight"
 msgstr "Paino"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
@@ -780,7 +780,7 @@ msgstr ""
 "kustannuslaskentamenetelmänä on FIFO tai keskiarvokustannuslaskenta."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
 "You cannot change the product type or disable landed cost option because the "

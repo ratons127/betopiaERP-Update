@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor } from "../_helpers/editor";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 import { getContent } from "../_helpers/selection";
 import { execCommand } from "../_helpers/userCommands";
 

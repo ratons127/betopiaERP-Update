@@ -1,4 +1,4 @@
-import { useEnv } from "@BetopiaERP/owl";
+import { useEnv } from "@betopiaerp/owl";
 
 export function useCachedModel() {
     return useEnv().editor.shared.cachedModel;

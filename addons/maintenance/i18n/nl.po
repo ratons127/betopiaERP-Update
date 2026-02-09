@@ -5,17 +5,17 @@
 # Translators:
 # Martin Trigaux, 2022
 # Jolien De Paepe, 2022
-# Erwin van der Ploeg <erwin@BetopiaERPexperts.nl>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# Bren Driesen <brdri@BetopiaERP.com>, 2025, 2026.
+# Erwin van der Ploeg <erwin@betopiaerpexperts.nl>, 2023
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# Bren Driesen <brdri@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-01-13 15:31+0000\n"
-"Last-Translator: Bren Driesen <brdri@BetopiaERP.com>\n"
-"Language-Team: Dutch <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Bren Driesen <brdri@betopiaerp.com>\n"
+"Language-Team: Dutch <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "maintenance/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -486,8 +486,8 @@ msgstr "E-mail cc"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "E-maildomein bijv. 'example.com' in 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "E-maildomein bijv. 'example.com' in 'betopiaerp@example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -495,7 +495,7 @@ msgid "End Date"
 msgstr "Einddatum"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "End date cannot be earlier than start date."
 msgstr "Einddatum kan niet eerder zijn dan begindatum."
@@ -1315,7 +1315,7 @@ msgid "Request Done"
 msgstr "Aanvraag uitgevoerd"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 msgstr "Verzoek gepland voor %s"
@@ -1518,13 +1518,13 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
 "De naam van de e-mailalias, bijvoorbeeld: 'vacature' als je alle e-mails van "
 "vacature@bedrijf.nl wilt afvangen"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "The repeat interval cannot be less than 1."
 msgstr "Het herhalingsinterval kan niet kleiner zijn dan 1."
@@ -1649,7 +1649,7 @@ msgid "Years"
 msgstr "Jaar"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

@@ -27,7 +27,7 @@ export function insertListInSpreadsheet(model, params) {
     );
     const [col, row] = params.position || [0, 0];
 
-    model.dispatch("INSERT_BetopiaERP_LIST", {
+    model.dispatch("INSERT_BETOPIAERP_LIST", {
         sheetId: params.sheetId || model.getters.getActiveSheetId(),
         definition,
         linesNumber: params.linesNumber || 10,

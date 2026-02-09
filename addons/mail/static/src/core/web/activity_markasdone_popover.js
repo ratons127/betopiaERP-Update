@@ -1,4 +1,4 @@
-import { Component, onMounted, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, useExternalListener, useRef } from "@betopiaerp/owl";
 
 export class ActivityMarkAsDone extends Component {
     static template = "mail.ActivityMarkAsDone";

@@ -7,7 +7,7 @@ patch(PosStore.prototype, {
         this.employeeBuffer = [];
         await super.setup(...arguments);
         if (this.config.module_pos_hr) {
-            this.login = Boolean(BetopiaERP.from_backend) && !this.config.module_pos_hr;
+            this.login = Boolean(betopiaerp.from_backend) && !this.config.module_pos_hr;
             if (!this.hasLoggedIn) {
                 this.navigate("LoginScreen");
             }

@@ -1,4 +1,4 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     getNextFocusableElement,
@@ -7,10 +7,10 @@ import {
     queryAllTexts,
     queryFirst,
     queryOne,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockTimeZone, runAllTimers } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockTimeZone, runAllTimers } from "@betopiaerp/hoot-mock";
 
-import { onWillDestroy, onWillStart, reactive, useState } from "@BetopiaERP/owl";
+import { onWillDestroy, onWillStart, reactive, useState } from "@betopiaerp/owl";
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {
     clickFieldDropdown,
@@ -8112,7 +8112,7 @@ test("display correct value after validation error", async () => {
     expect.assertions(5);
 
     function validationHandler(env, error, originalError) {
-        if (originalError.data.name === "BetopiaERP.exceptions.ValidationError") {
+        if (originalError.data.name === "betopiaerp.exceptions.ValidationError") {
             return true;
         }
     }
@@ -9289,7 +9289,7 @@ test("one2many form view with action button", async () => {
     // onClose handler, executed because the python method does not return
     // any action, or an ir.action.act_window_close) ; this test ensures that
     // it reloads the fields of the opened view (i.e. the form in this case).
-    // See https://github.com/BetopiaERP/BetopiaERP/issues/24189
+    // See https://github.com/betopiaerp/betopiaerp/issues/24189
     mockService("action", {
         doActionButton(params) {
             for (const record of MockServer.env["partner"].browse(params.resIds)) {

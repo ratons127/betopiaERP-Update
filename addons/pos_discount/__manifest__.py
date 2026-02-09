@@ -32,6 +32,6 @@ discount to a customer.
             'pos_discount/static/tests/unit/**/*'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,6 +1,6 @@
 import { DiscussClientAction } from "@mail/core/public_web/discuss_client_action";
 
-import { mount, whenReady } from "@BetopiaERP/owl";
+import { mount, whenReady } from "@betopiaerp/owl";
 
 import { getTemplate } from "@web/core/templates";
 import { appTranslateFn } from "@web/core/l10n/translation";
@@ -16,8 +16,8 @@ import { makeEnv, startServices } from "@web/env";
 
     const env = makeEnv();
     await startServices(env);
-    env.services["mail.store"].insert(BetopiaERP.discuss_data);
-    BetopiaERP.isReady = true;
+    env.services["mail.store"].insert(betopiaerp.discuss_data);
+    betopiaerp.isReady = true;
     const root = await mount(MainComponentsContainer, document.body, {
         env,
         getTemplate,
@@ -25,5 +25,5 @@ import { makeEnv, startServices } from "@web/env";
         translatableAttributes: ["data-tooltip"],
         translateFn: appTranslateFn,
     });
-    BetopiaERP.__WOWL_DEBUG__ = { root };
+    betopiaerp.__WOWL_DEBUG__ = { root };
 })();

@@ -8,16 +8,16 @@
 # Luca Carlo, 2023
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
 # Marianna Ciofani, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Marianna Ciofani (cima)" <cima@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Marianna Ciofani (cima)" <cima@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2025-11-10 07:10+0000\n"
-"Last-Translator: \"Marianna Ciofani (cima)\" <cima@BetopiaERP.com>\n"
-"Language-Team: Italian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/calendar/"
+"Last-Translator: \"Marianna Ciofani (cima)\" <cima@betopiaerp.com>\n"
+"Language-Team: Italian <https://translate.betopiaerp.com/projects/betopiaerp-19/calendar/"
 "it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgid "# Meetings"
 msgstr "N. riunioni"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "%(date_start)s at %(time_start)s To\n"
@@ -44,19 +44,19 @@ msgstr ""
 " %(date_end)s alle %(time_end)s (%(timezone)s)"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
 msgstr "%(day)s (dalle %(start)s alle %(end)s) (%(timezone)s)"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has accepted the invitation"
 msgstr "%s ha accettato l'invito"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has declined the invitation"
 msgstr "%s ha declinato l'invito"
@@ -1118,7 +1118,7 @@ msgstr ""
 "Messaggio aggiuntivo che verrebbe inviato con la notifica per il promemoria"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/activity/activity_menu_patch.xml:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__allday
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
@@ -1126,13 +1126,13 @@ msgid "All Day"
 msgstr "Tutto il giorno"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "All Day, %(day)s"
 msgstr "Tutto il giorno, %(day)s"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__all_events
 msgid "All events"
@@ -1202,7 +1202,7 @@ msgid "Body content is the same as the template"
 msgstr "Il contenuto del corpo è lo stesso del modello"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__availability__busy
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__show_as__busy
@@ -1217,7 +1217,7 @@ msgid "By day"
 msgstr "Per giorno"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "Bye-bye, record!"
 msgstr "Ciao ciao record!"
@@ -1389,19 +1389,19 @@ msgid "Configuration"
 msgstr "Configurazione"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Confirm"
 msgstr "Conferma"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/components/calendar_provider_config/calendar_connect_provider.xml:0
 msgid "Connect"
 msgstr "Collega"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.js:0
 msgid "Connect your Calendar"
 msgstr "Collega il tuo calendario"
@@ -1412,13 +1412,13 @@ msgid "Contact"
 msgstr "Contatto"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Attendees"
 msgstr "Contatta partecipanti"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Details"
 msgstr "Dettagli contatto"
@@ -1542,7 +1542,7 @@ msgstr ""
 "eventi del calendario."
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_popover_delete_wizard__delete
 #: model_terms:ir.ui.view,arch_db:calendar.view_event_delete_wizard_form
@@ -1550,7 +1550,7 @@ msgid "Delete"
 msgstr "Elimina"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 #: model_terms:ir.ui.view,arch_db:calendar.view_event_delete_wizard_form
@@ -1584,7 +1584,7 @@ msgid "Description"
 msgstr "Descrizione"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Details"
 msgstr "Dettagli"
@@ -1673,7 +1673,7 @@ msgid "EMAIL"
 msgstr "E-MAIL"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Edit Recurrent event"
 msgstr "Modifica evento ricorrente"
@@ -1762,49 +1762,49 @@ msgid "Event Time"
 msgstr "Orario evento"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days"
 msgstr "Ogni %(interval)s giorni"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days for %(count)s events"
 msgstr "Ogni %(interval)s giorni per %(count)s eventi"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days until %(until)s"
 msgstr "Ogni %(interval)s giorni fino al %(until)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s"
 msgstr "Ogni %(interval)s mesi, giorno %(day)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s for %(count)s events"
 msgstr "Ogni %(interval)s mesi, giorno %(day)s per %(count)s eventi"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s until %(until)s"
 msgstr "Ogni %(interval)s mesi, giorno %(day)s fino al %(until)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months on the %(position)s %(weekday)s"
 msgstr "Ogni %(interval)s mesi il %(position)s%(weekday)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid ""
 "Every %(interval)s Months on the %(position)s %(weekday)s for %(count)s "
@@ -1812,50 +1812,50 @@ msgid ""
 msgstr "Ogni %(interval)s mesi il %(position)s%(weekday)sper %(count)s eventi"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid ""
 "Every %(interval)s Months on the %(position)s %(weekday)s until %(until)s"
 msgstr "Ogni %(interval)s mesi il %(position)s%(weekday)s  fino al %(until)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s"
 msgstr "Ogni %(interval)s settimane il %(days)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s for %(count)s events"
 msgstr "Ogni %(interval)s settimane il %(days)s per %(count)s eventi"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s until %(until)s"
 msgstr "Ogni %(interval)s settimane il %(days)s fino al %(until)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years"
 msgstr "Ogni %(interval)s anni"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years for %(count)s events"
 msgstr "Ogni %(interval)s anni per %(count)s eventi"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years until %(until)s"
 msgstr "Ogni %(interval)s anni fino al %(until)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/mail_activity.py:0
 msgid "Feedback: %s"
 msgstr "Feedback: %s"
@@ -1867,7 +1867,7 @@ msgid "First"
 msgstr "Primo"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "First you have to specify the date of the invitation."
 msgstr "Prima è necessario specificare la data dell'invito."
@@ -1922,7 +1922,7 @@ msgid "Going?"
 msgstr "Parteciperai?"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__google
 msgid "Google"
@@ -2179,7 +2179,7 @@ msgid "Mail Tz"
 msgstr "Mail Tz"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2220,7 +2220,7 @@ msgid "Meeting linked"
 msgstr "Riunione collegata"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_partner.py:0
 #: model:ir.actions.act_window,name:calendar.action_calendar_event
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_ids
@@ -2287,7 +2287,7 @@ msgid "Months"
 msgstr "mesi"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/calendar_form/calendar_quick_create.xml:0
 msgid "More Options"
 msgstr "Più opzioni"
@@ -2310,7 +2310,7 @@ msgid "Needs Action"
 msgstr "Richiede azione"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "New"
 msgstr "Nuovo"
@@ -2325,7 +2325,7 @@ msgid "Next Activity Calendar Event"
 msgstr "Prossimo evento del calendario delle attività"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__declined
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2348,7 +2348,7 @@ msgid "No meetings found. Let's schedule one!"
 msgstr "Nessuna riunione trovata. Programmane una!"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "No, keep it"
 msgstr "No, tienilo"
@@ -2396,7 +2396,7 @@ msgid "Notifications sent to all attendees to remind of the meeting."
 msgstr "Notifiche inviate a tutti i partecipanti per ricordare la riunione."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_alarm.py:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__notify_responsible
 msgid "Notify Responsible"
@@ -2434,7 +2434,7 @@ msgid "Number of repetitions"
 msgstr "Numero di ripetizioni"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "OK"
 msgstr "OK"
@@ -2479,7 +2479,7 @@ msgid "Options"
 msgstr "Opzioni"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Organized by"
 msgstr "Organizzato da"
@@ -2491,7 +2491,7 @@ msgid "Organizer"
 msgstr "Organizzatore"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__microsoft
 msgid "Outlook"
@@ -2660,7 +2660,7 @@ msgid "Repeat x times"
 msgstr "Ripete n volte"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/activity/activity_patch.xml:0
 msgid "Reschedule"
 msgstr "Riprogrammare"
@@ -2710,7 +2710,7 @@ msgid "Scheduled by"
 msgstr "Programmato da"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/wizard/mail_activity_schedule.py:0
 msgid ""
 "Scheduling an activity using the calendar is not possible on more than one "
@@ -2798,7 +2798,7 @@ msgid "Show as"
 msgstr "Mostra come"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Snooze"
 msgstr "Posticipa"
@@ -2841,7 +2841,7 @@ msgid "Stop date of an event, without time for full days events"
 msgstr "Data di fine, senza ora per eventi che durano tutto il giorno"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
 msgstr "Interrompi sinc."
@@ -2871,13 +2871,13 @@ msgid "Sunday"
 msgstr "Domenica"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
 msgstr "Sinc. in pausa"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with"
 msgstr "Sincronizza con"
@@ -2941,7 +2941,7 @@ msgid "The day must be between 1 and 31"
 msgstr "Il giorno deve essere tra 1 e 31"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "The ending date and time cannot be earlier than the starting date and time.\n"
@@ -2952,7 +2952,7 @@ msgstr ""
 "(end_time)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "The ending date cannot be earlier than the starting date.\n"
@@ -2962,19 +2962,19 @@ msgstr ""
 "Il meeting \"%(name)s\" inizia il %(start_date)s e termina il %(end_date)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The interval cannot be negative."
 msgstr "L'intervallo non può essere negativo."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The number of repetitions cannot be negative."
 msgstr "Il numero di ripetizioni non può essere negativo."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
 msgstr "Non ci sono partecipanti a questi eventi"
@@ -2986,14 +2986,14 @@ msgid "Third"
 msgstr "Terzo"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__future_events
 msgid "This and following events"
 msgstr "Questo e i seguenti eventi"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__self_only
 msgid "This event"
@@ -3023,7 +3023,7 @@ msgid "Timezone used for displaying time in the mail template"
 msgstr "Fuso orario usato per visualizzare l'ora nel modello di posta"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_users.py:0
 msgid "Today's Meetings"
 msgstr "Riunioni odierne"
@@ -3051,7 +3051,7 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Unable to save the recurrence with \"This Event\""
 msgstr "Impossibile salvare la ricorrenza con \"Questo evento\""
@@ -3177,7 +3177,7 @@ msgid "Years"
 msgstr "anni"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__accepted
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3190,7 +3190,7 @@ msgid "Yes I'm going."
 msgstr "Ho intenzione di andarci."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_users.py:0
 msgid ""
 "You are not allowed to change the calendar default privacy of another user "
@@ -3200,43 +3200,43 @@ msgstr ""
 "altro per via di vincoli legati alla privacy."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "You can't update a recurrence without base event."
 msgstr "Non si può aggiornare una ricorrenza senza evento base."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
 msgstr "Non è possibile duplicare un partecipante in calendario."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "You have to choose at least one day in the week"
 msgstr "Scegliere almeno un giorno della settimana"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_renderer.xml:0
 msgid "You're alone in this meeting"
 msgstr "Sei da solo in questa riunione"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "accepted"
 msgstr "accettato"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
 msgstr "partecipanti"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "declined"
 msgstr "rifiutato"
@@ -3252,25 +3252,25 @@ msgid "e.g: 12/31/2023"
 msgstr "ad es.: 31/12/2023"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
 msgstr "nessuna e-mail"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee.xml:0
 msgid "props.placeholder"
 msgstr "props.placeholder"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "unavailable"
 msgstr "non disponibile"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "uncertain"
 msgstr "non sicuro"

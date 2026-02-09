@@ -2,7 +2,7 @@
 # This file contains the translation of the following modules:
 # * base_install_request
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-14 15:27+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "base_install_request/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgid ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Review Request</a>\n"
 "        <br/><br/>\n"
@@ -74,7 +74,7 @@ msgstr ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">คำขอตรวจสอบ</a>\n"
 "        <br/><br/>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "            "
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
 msgstr "คำขอเปิดใช้งาน \"%s\""
@@ -189,7 +189,7 @@ msgid "Modules Description"
 msgstr "คำอธิบายโมดูล"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "No module selected."
 msgstr "ไม่ได้เลือกโมดูล"
@@ -216,7 +216,7 @@ msgid "The following apps will be installed:"
 msgstr "แอปต่อไปนี้จะถูกติดตั้ง:"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "The module is already installed."
 msgstr "โมดูลได้รับการติดตั้งแล้ว"
@@ -237,7 +237,7 @@ msgid "You are about to install an extra application"
 msgstr "คุณกำลังจะติดตั้งแอปพลิเคชันเพิ่มเติม"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "Your request has been successfully sent"
 msgstr "คำขอของคุณถูกส่งเรียบร้อยแล้ว"

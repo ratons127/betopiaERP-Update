@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useDropdownCloser } from "@web/core/dropdown/dropdown_hooks";
 
 const ClosingMode = {

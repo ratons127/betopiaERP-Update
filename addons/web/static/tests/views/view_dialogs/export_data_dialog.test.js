@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     check,
     dblclick,
@@ -7,8 +7,8 @@ import {
     queryAllTexts,
     queryFirst,
     select,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred, runAllTimers } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,

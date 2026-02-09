@@ -1,4 +1,4 @@
-import { onMounted, useRef, useState } from "@BetopiaERP/owl";
+import { onMounted, useRef, useState } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { normalizedMatch } from "@web/core/l10n/utils";
 import { Setting } from "@web/views/form/setting/setting";

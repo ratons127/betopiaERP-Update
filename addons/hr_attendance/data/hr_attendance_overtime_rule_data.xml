@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="hr_attendance_overtime_employee_schedule_rule" model="hr.attendance.overtime.rule" forcecreate="0">
             <field name="name">Employee Schedule Rule</field>
@@ -20,4 +20,4 @@
             <field name="ruleset_id" ref="hr_attendance_default_ruleset"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

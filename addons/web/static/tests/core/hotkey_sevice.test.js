@@ -1,7 +1,7 @@
-import { destroy, expect, getFixture, onError, test } from "@BetopiaERP/hoot";
-import { keyDown, keyUp, press, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockUserAgent, tick } from "@BetopiaERP/hoot-mock";
-import { Component, useRef, useState, xml } from "@BetopiaERP/owl";
+import { destroy, expect, getFixture, onError, test } from "@betopiaerp/hoot";
+import { keyDown, keyUp, press, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockUserAgent, tick } from "@betopiaerp/hoot-mock";
+import { Component, useRef, useState, xml } from "@betopiaerp/owl";
 import {
     contains,
     getService,

@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred, press, queryFirst, tick } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred, press, queryFirst, tick } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     patchWithCleanup,

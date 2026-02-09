@@ -8,7 +8,7 @@ import {
     useEffect,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { getBundle } from "@web/core/assets";
 import { memoize } from "@web/core/utils/functions";
 import { fillHtmlTransferData } from "@html_editor/utils/clipboard";

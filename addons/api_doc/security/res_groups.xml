@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record model="res.groups" id="group_allow_doc">
             <field name="name">Technical Documentation</field>
@@ -7,4 +7,4 @@
             <field name="implied_by_ids" eval="[Command.link(ref('base.group_system'))]"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

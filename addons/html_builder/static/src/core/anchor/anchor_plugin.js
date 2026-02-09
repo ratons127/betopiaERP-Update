@@ -2,7 +2,7 @@ import { Plugin } from "@html_editor/plugin";
 import { withSequence } from "@html_editor/utils/resource";
 import { browser } from "@web/core/browser/browser";
 import { _t } from "@web/core/l10n/translation";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { AnchorDialog } from "./anchor_dialog";
 import { getElementsWithOption } from "@html_builder/utils/utils";
 

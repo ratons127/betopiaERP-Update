@@ -3,7 +3,7 @@
     var inc;
 
     registry.category("web_tour.tours").add('widget_x2many', {
-        url: '/BetopiaERP/action-test_orm.action_discussions?debug=tests',
+        url: '/betopiaerp/action-test_orm.action_discussions?debug=tests',
         steps: () => [
     /////////////////////////////////////////////////////////////////////////////////////////////
     // Discussions

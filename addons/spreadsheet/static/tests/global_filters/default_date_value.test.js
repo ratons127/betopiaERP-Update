@@ -1,5 +1,5 @@
-import { describe, expect, test, getFixture, beforeEach } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test, getFixture, beforeEach } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { makeMockEnv, contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { DefaultDateValue } from "@spreadsheet/global_filters/components/default_date_value/default_date_value";

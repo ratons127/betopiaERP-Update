@@ -39,6 +39,6 @@ Re-implement BetopiaERP's file import system:
             'base_import/static/tests/**/*.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

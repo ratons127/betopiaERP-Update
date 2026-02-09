@@ -48,7 +48,7 @@ class TestCreateEvents(TestCommon):
         record = self.env["calendar.event"].with_user(self.organizer_user).create(self.simple_event_values)
 
         with self.assertRaises(ValidationError):
-            record._sync_BetopiaERP2microsoft()
+            record._sync_betopiaerp2microsoft()
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_simple_event_from_outlook_organizer_calendar(self, mock_get_events):
@@ -67,12 +67,12 @@ class TestCreateEvents(TestCommon):
         records = self.env["calendar.event"].search([])
         new_records = (records - existing_records)
         self.assertEqual(len(new_records), 1)
-        self.assert_BetopiaERP_event(new_records, self.expected_BetopiaERP_event_from_outlook)
+        self.assert_betopiaerp_event(new_records, self.expected_betopiaerp_event_from_outlook)
         self.assertEqual(new_records.user_id, self.organizer_user)
         self.assertEqual(new_records.need_sync_m, False)
 
     @patch.object(MicrosoftCalendarService, 'get_events')
-    def test_create_simple_event_from_outlook_attendee_calendar_and_organizer_exists_in_BetopiaERP(self, mock_get_events):
+    def test_create_simple_event_from_outlook_attendee_calendar_and_organizer_exists_in_betopiaerp(self, mock_get_events):
         """
         An event has been created in Outlook and synced in the BetopiaERP attendee calendar.
         There is a BetopiaERP user that matches with the organizer email address.
@@ -89,11 +89,11 @@ class TestCreateEvents(TestCommon):
         records = self.env["calendar.event"].search([])
         new_records = (records - existing_records)
         self.assertEqual(len(new_records), 1)
-        self.assert_BetopiaERP_event(new_records, self.expected_BetopiaERP_event_from_outlook)
+        self.assert_betopiaerp_event(new_records, self.expected_betopiaerp_event_from_outlook)
         self.assertEqual(new_records.user_id, self.organizer_user)
 
     @patch.object(MicrosoftCalendarService, 'get_events')
-    def test_create_simple_event_from_outlook_attendee_calendar_and_organizer_does_not_exist_in_BetopiaERP(self, mock_get_events):
+    def test_create_simple_event_from_outlook_attendee_calendar_and_organizer_does_not_exist_in_betopiaerp(self, mock_get_events):
         """
         An event has been created in Outlook and synced in the BetopiaERP attendee calendar.
         no BetopiaERP user that matches with the organizer email address.
@@ -104,7 +104,7 @@ class TestCreateEvents(TestCommon):
         outlook_event = dict(self.simple_event_from_outlook_attendee, organizer={
             'emailAddress': {'address': "john.doe@betopiaerp.com", 'name': "John Doe"},
         })
-        expected_event = dict(self.expected_BetopiaERP_event_from_outlook, user_id=False)
+        expected_event = dict(self.expected_betopiaerp_event_from_outlook, user_id=False)
 
         mock_get_events.return_value = (MicrosoftEvent([outlook_event]), None)
         existing_records = self.env["calendar.event"].search([])
@@ -116,13 +116,13 @@ class TestCreateEvents(TestCommon):
         records = self.env["calendar.event"].search([])
         new_records = (records - existing_records)
         self.assertEqual(len(new_records), 1)
-        self.assert_BetopiaERP_event(new_records, expected_event)
+        self.assert_betopiaerp_event(new_records, expected_event)
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_simple_event_from_outlook_attendee_calendar_where_email_addresses_are_capitalized(self, mock_get_events):
         """
         An event has been created in Outlook and synced in the BetopiaERP attendee calendar.
-        The email addresses of the attendee and the organizer are in different case than in betopiaerp.
+        The email addresses of the attendee and the organizer are in different case than in BetopiaERP.
         """
 
         # arrange
@@ -141,7 +141,7 @@ class TestCreateEvents(TestCommon):
         records = self.env["calendar.event"].search([])
         new_records = (records - existing_records)
         self.assertEqual(len(new_records), 1)
-        self.assert_BetopiaERP_event(new_records, self.expected_BetopiaERP_event_from_outlook)
+        self.assert_betopiaerp_event(new_records, self.expected_betopiaerp_event_from_outlook)
         self.assertEqual(new_records.user_id, self.organizer_user)
 
     @patch.object(MicrosoftCalendarService, 'insert')
@@ -149,7 +149,7 @@ class TestCreateEvents(TestCommon):
         """
         A BetopiaERP recurrent event is created when Outlook sync is not enabled.
         """
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
 
         # arrange
@@ -170,7 +170,7 @@ class TestCreateEvents(TestCommon):
         """
         A BetopiaERP recurrent event is created when Outlook sync is enabled.
         """
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
 
         # >>> first phase: create the recurrence
@@ -215,7 +215,7 @@ class TestCreateEvents(TestCommon):
         should happen as it we prevent sync of recurrences from other users
         ( see microsoft_calendar/models/calendar_recurrence_rule.py::_get_microsoft_sync_domain() )
         """
-        if not self.sync_BetopiaERP_recurrences_with_outlook_feature():
+        if not self.sync_betopiaerp_recurrences_with_outlook_feature():
             return
         # >>> first phase: create the recurrence
 
@@ -269,9 +269,9 @@ class TestCreateEvents(TestCommon):
         new_recurrences = (self.env["calendar.recurrence"].search([]) - existing_recurrences)
         self.assertEqual(len(new_recurrences), 1)
         self.assertEqual(len(new_events), self.recurrent_events_count)
-        self.assert_BetopiaERP_recurrence(new_recurrences, self.expected_BetopiaERP_recurrency_from_outlook)
+        self.assert_betopiaerp_recurrence(new_recurrences, self.expected_betopiaerp_recurrency_from_outlook)
         for i, e in enumerate(sorted(new_events, key=lambda e: e.id)):
-            self.assert_BetopiaERP_event(e, self.expected_BetopiaERP_recurrency_events_from_outlook[i])
+            self.assert_betopiaerp_event(e, self.expected_betopiaerp_recurrency_events_from_outlook[i])
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_recurrent_event_from_outlook_attendee_calendar(self, mock_get_events):
@@ -292,9 +292,9 @@ class TestCreateEvents(TestCommon):
         new_recurrences = (self.env["calendar.recurrence"].search([]) - existing_recurrences)
         self.assertEqual(len(new_recurrences), 1)
         self.assertEqual(len(new_events), self.recurrent_events_count)
-        self.assert_BetopiaERP_recurrence(new_recurrences, self.expected_BetopiaERP_recurrency_from_outlook)
+        self.assert_betopiaerp_recurrence(new_recurrences, self.expected_betopiaerp_recurrency_from_outlook)
         for i, e in enumerate(sorted(new_events, key=lambda e: e.id)):
-            self.assert_BetopiaERP_event(e, self.expected_BetopiaERP_recurrency_events_from_outlook[i])
+            self.assert_betopiaerp_event(e, self.expected_betopiaerp_recurrency_events_from_outlook[i])
 
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_forbid_recurrences_creation_synced_outlook_calendar(self, mock_insert):
@@ -479,13 +479,13 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_simple_event_from_outlook_without_organizer(self, mock_get_events):
         """
-        Allow creation of an event without organizer in Outlook and sync it in betopiaerp.
+        Allow creation of an event without organizer in Outlook and sync it in BetopiaERP.
         """
 
         # arrange
         outlook_event = self.simple_event_from_outlook_attendee
         outlook_event = dict(self.simple_event_from_outlook_attendee, organizer=None)
-        expected_event = dict(self.expected_BetopiaERP_event_from_outlook, user_id=False)
+        expected_event = dict(self.expected_betopiaerp_event_from_outlook, user_id=False)
 
         mock_get_events.return_value = (MicrosoftEvent([outlook_event]), None)
         existing_records = self.env["calendar.event"].search([])
@@ -497,7 +497,7 @@ class TestCreateEvents(TestCommon):
         records = self.env["calendar.event"].search([])
         new_records = (records - existing_records)
         self.assertEqual(len(new_records), 1)
-        self.assert_BetopiaERP_event(new_records, expected_event)
+        self.assert_betopiaerp_event(new_records, expected_event)
 
     def test_create_event_with_default_and_undefined_sensitivity(self):
         """ Check if microsoft events are created in BetopiaERP when 'None' sensitivity setting is defined and also when it is not. """
@@ -505,19 +505,19 @@ class TestCreateEvents(TestCommon):
         self.simple_event_from_outlook_organizer.pop('sensitivity')
         undefined_privacy_event = {'id': 100, 'iCalUId': 2, **self.simple_event_from_outlook_organizer}
         default_privacy_event = {'id': 200, 'iCalUId': 4, 'sensitivity': None, **self.simple_event_from_outlook_organizer}
-        self.env['calendar.event']._sync_microsoft2BetopiaERP(MicrosoftEvent([undefined_privacy_event, default_privacy_event]))
+        self.env['calendar.event']._sync_microsoft2betopiaerp(MicrosoftEvent([undefined_privacy_event, default_privacy_event]))
 
-        # Ensure that synced events have the correct privacy field in betopiaerp.
-        undefined_privacy_BetopiaERP_event = self.env['calendar.event'].search([('microsoft_id', '=', 100)])
-        default_privacy_BetopiaERP_event = self.env['calendar.event'].search([('microsoft_id', '=', 200)])
-        self.assertFalse(undefined_privacy_BetopiaERP_event.privacy, "Event with undefined privacy must have False value in privacy field.")
-        self.assertFalse(default_privacy_BetopiaERP_event.privacy, "Event with custom privacy must have False value in privacy field.")
+        # Ensure that synced events have the correct privacy field in BetopiaERP.
+        undefined_privacy_betopiaerp_event = self.env['calendar.event'].search([('microsoft_id', '=', 100)])
+        default_privacy_betopiaerp_event = self.env['calendar.event'].search([('microsoft_id', '=', 200)])
+        self.assertFalse(undefined_privacy_betopiaerp_event.privacy, "Event with undefined privacy must have False value in privacy field.")
+        self.assertFalse(default_privacy_betopiaerp_event.privacy, "Event with custom privacy must have False value in privacy field.")
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_create_videocall_sync_microsoft_calendar(self, mock_insert, mock_get_events):
         """
-        Test syncing an event from betopiaerp to Microsoft Calendar.
+        Test syncing an event from BetopiaERP to Microsoft Calendar.
         Ensures that meeting details are correctly updated after syncing from Microsoft.
         """
         record = self.env["calendar.event"].with_user(self.organizer_user).create(self.simple_event_values)
@@ -531,7 +531,7 @@ class TestCreateEvents(TestCommon):
         # Prepare the mock event response from Microsoft
         self.response_from_outlook_organizer = {
             **self.simple_event_from_outlook_organizer,
-            '_BetopiaERP_id': record.id,
+            '_betopiaerp_id': record.id,
             'onlineMeeting': {
                 'joinUrl': 'https://teams.microsoft.com/l/meetup-join/test',
                 'conferenceId': '275984951',
@@ -646,10 +646,10 @@ class TestCreateEvents(TestCommon):
             self.simple_event_values['user_id'] = self.organizer_user.id
             self.simple_event_values['partner_ids'] = [Command.set([self.organizer_user.partner_id.id, self.attendee_user.partner_id.id])]
             event = self.env['calendar.event'].with_user(self.organizer_user).create(self.simple_event_values)
-            self.assertTrue(event, "The event for the not synchronized owner must be created in betopiaerp.")
+            self.assertTrue(event, "The event for the not synchronized owner must be created in BetopiaERP.")
 
             # Synchronize the attendee's calendar, then make sure insert was not called.
-            event.with_user(self.attendee_user).sudo()._sync_BetopiaERP2microsoft()
+            event.with_user(self.attendee_user).sudo()._sync_betopiaerp2microsoft()
             mock_insert.assert_not_called()
 
             # Prepare mock return for the insertion.
@@ -661,7 +661,7 @@ class TestCreateEvents(TestCommon):
             self.organizer_user.microsoft_synchronization_stopped = False
             self.organizer_user.microsoft_calendar_token_validity = datetime.now() + timedelta(minutes=60)
             self.organizer_user.with_user(self.organizer_user).restart_microsoft_synchronization()
-            event.with_user(self.organizer_user).sudo()._sync_BetopiaERP2microsoft()
+            event.with_user(self.organizer_user).sudo()._sync_betopiaerp2microsoft()
             self.call_post_commit_hooks()
             mock_insert.assert_called()
 
@@ -669,7 +669,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_create_duplicate_event_microsoft_calendar(self, mock_insert, mock_get_events):
         """
-        Test syncing an event from betopiaerp to Microsoft Calendar.
+        Test syncing an event from BetopiaERP to Microsoft Calendar.
         """
         record = self.env["calendar.event"].with_user(self.organizer_user).create(self.simple_event_values)
 
@@ -681,11 +681,11 @@ class TestCreateEvents(TestCommon):
         # Prepare the mock event response from Microsoft
         self.response_from_outlook_organizer = {
             **self.simple_event_from_outlook_organizer,
-            '_BetopiaERP_id': record.id,
+            '_betopiaerp_id': record.id,
         }
         self.response_from_outlook_organizer_1 = {
             **self.simple_event_from_outlook_organizer,
-            '_BetopiaERP_id': record2.id,
+            '_betopiaerp_id': record2.id,
         }
         mock_get_events.return_value = (MicrosoftEvent([self.response_from_outlook_organizer, self.response_from_outlook_organizer_1]), None)
         self.organizer_user.with_user(self.organizer_user).sudo()._sync_microsoft_calendar()
@@ -698,7 +698,7 @@ class TestCreateEvents(TestCommon):
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     @patch.object(MicrosoftCalendarService, 'insert')
-    def test_new_db_skip_BetopiaERP2microsoft_sync_previously_created_events(self, mock_insert, mock_get_events):
+    def test_new_db_skip_betopiaerp2microsoft_sync_previously_created_events(self, mock_insert, mock_get_events):
         """
         Skip the synchronization of previously created events if the database never synchronized with
         Outlook Calendar before. This is necessary for avoiding spamming lots of invitations in the first
@@ -746,7 +746,7 @@ class TestCreateEvents(TestCommon):
 
     @patch.object(MicrosoftCalendarService, 'get_events')
     @patch.object(MicrosoftCalendarService, 'insert')
-    def test_old_db_BetopiaERP2microsoft_sync_previously_created_events(self, mock_insert, mock_get_events):
+    def test_old_db_betopiaerp2microsoft_sync_previously_created_events(self, mock_insert, mock_get_events):
         """
         Ensure that existing databases that are already synchronized with Outlook Calendar at some point
         won't skip any events creation in Outlook side during the first synchronization of the users.

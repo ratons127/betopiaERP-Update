@@ -1,4 +1,4 @@
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 import { BottomSheet } from "@web/core/bottom_sheet/bottom_sheet";
 import { registry } from "@web/core/registry";
 
@@ -23,7 +23,7 @@ export const popoverService = {
          * Signals the manager to add a popover.
          *
          * @param {HTMLElement} target
-         * @param {typeof import("@BetopiaERP/owl").Component} component
+         * @param {typeof import("@betopiaerp/owl").Component} component
          * @param {object} [props]
          * @param {PopoverServiceAddOptions} [options]
          * @returns {() => void}

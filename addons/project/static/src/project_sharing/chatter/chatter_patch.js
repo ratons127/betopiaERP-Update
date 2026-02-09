@@ -1,6 +1,6 @@
 import { Chatter } from "@mail/chatter/web_portal/chatter";
 
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 import { patch } from "@web/core/utils/patch";
 import { useService } from "@web/core/utils/hooks";
 

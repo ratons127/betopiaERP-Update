@@ -1,5 +1,5 @@
 import { SnippetViewer } from "@html_builder/snippets/snippet_viewer";
-import { onMounted, onPatched, onWillPatch, onWillUnmount } from "@BetopiaERP/owl";
+import { onMounted, onPatched, onWillPatch, onWillUnmount } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";
 

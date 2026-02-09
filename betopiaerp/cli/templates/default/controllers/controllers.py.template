@@ -1,7 +1,7 @@
 {%- set mod = name|snake -%}
 {%- set model = "%s.%s"|format(mod, mod) -%}
 {%- set root = "/%s/%s"|format(mod, mod) -%}
-# from BetopiaERP import http
+# from betopiaerp import http
 
 
 # class {{ mod|pascal }}(http.Controller):

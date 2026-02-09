@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * certificate
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-28 14:27+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@BetopiaERP.com>\n"
-"Language-Team: German <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@betopiaerp.com>\n"
+"Language-Team: German <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "certificate/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
 msgstr "Zur Entschlüsselung der Daten ist ein privater Schlüssel erforderlich."
@@ -213,7 +213,7 @@ msgid "Loading error"
 msgstr "Fehler beim Laden"
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a private key to sign documents."
 msgstr ""
@@ -221,7 +221,7 @@ msgstr ""
 "Schlüssel."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a public key to verify the signature of documents."
 msgstr ""
@@ -245,7 +245,7 @@ msgid "Name"
 msgstr "Name"
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid ""
 "No private key linked to the certificate, it is required to sign documents."
@@ -339,13 +339,13 @@ msgstr ""
 "Sie können dieses Feld auch für eine Schnellsuche einsetzen."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and private key are not compatible."
 msgstr "Das Zertifikat und der private Schlüssel sind nicht kompatibel."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and public key are not compatible."
 msgstr "Das Zertifikat und der öffentliche Schlüssel sind nicht kompatibel."
@@ -361,19 +361,19 @@ msgid "The date on which the certificate starts to be valid"
 msgstr "Das Datum, ab dem das Zertifikat gültig ist"
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "The key size should be at least 512 bytes."
 msgstr "Die Größe des Schlüssels sollte mindestens 512 Bytes betragen."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "The private key could not be loaded."
 msgstr "Der private Schlüssel kann nicht geladen werden."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
 msgstr ""
@@ -381,13 +381,13 @@ msgstr ""
 "älteren Versionen)."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid "The public key could not be loaded."
 msgstr "Der öffentliche Schlüssel kann nicht geladen werden."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The public key from the certificate could not be loaded."
 msgstr "Der öffentliche Schlüssel des Zertifikats kann nicht geladen werden."
@@ -399,7 +399,7 @@ msgstr ""
 "Die Seriennummer, die elektronischen Dokumenten hinzugefügt werden soll"
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid ""
 "This certificate could not be loaded. Either the content or the password is "
@@ -409,13 +409,13 @@ msgstr ""
 "das Passwort falsch."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "This certificate is not valid, its validity has expired."
 msgstr "Dieses Zertifikat ist ungültig, seine Gültigkeit ist abgelaufen."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
 "This key could not be loaded. Either its content or its password is "
@@ -425,7 +425,7 @@ msgstr ""
 "das Passwort falsch."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
@@ -435,7 +435,7 @@ msgstr ""
 "die Entschlüsselung unterstützt: RSA."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
@@ -445,7 +445,7 @@ msgstr ""
 "die Signatur unterstützt: EC und RSA."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
@@ -456,7 +456,7 @@ msgstr ""
 "und RSA."
 
 #. module: certificate
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/certificate/models/key.py:0
 msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "

@@ -1,5 +1,5 @@
 import { Plugin } from "@html_editor/plugin";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { throttleForAnimation } from "@web/core/utils/timing";
 import { getScrollingElement, getScrollingTarget } from "@web/core/utils/scrolling";
 import { checkElement } from "../builder_options_plugin";

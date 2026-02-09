@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useAutofocus } from "@web/core/utils/hooks";
 
 export class CloseConfirmation extends Component {

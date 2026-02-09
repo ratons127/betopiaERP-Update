@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP noupdate="1">
+<betopiaerp noupdate="1">
     <record id="hr_case_mkt0_skill_lang_en" model="hr.applicant.skill">
         <field name="applicant_id" ref="hr_recruitment.hr_case_mkt0"/>
         <field name="skill_id" ref="hr_skills.hr_skill_english"/>
@@ -89,4 +89,4 @@
         <field name="skill_level_id" ref="hr_skills.hr_skill_level_expert"/>
         <field name="skill_type_id" ref="hr_skills.hr_skill_type_dev"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

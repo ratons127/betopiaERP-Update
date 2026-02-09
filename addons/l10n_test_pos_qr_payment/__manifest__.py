@@ -24,6 +24,6 @@
             'l10n_test_pos_qr_payment/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -15,6 +15,6 @@ fields are stored in a "serialized" field in the form of a JSON mapping.
         'security/ir.model.access.csv',
         'views/views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

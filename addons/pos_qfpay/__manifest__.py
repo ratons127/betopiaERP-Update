@@ -4,7 +4,7 @@
     'version': '1.0',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'summary': 'Integrate your POS with the QFPay terminal in Hong Kong',
     'data': [
         'views/pos_payment_method_views.xml',

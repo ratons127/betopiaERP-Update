@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 
 export class MailingListSubscribeOption extends BaseOptionComponent {

@@ -1,8 +1,8 @@
 import { WebsiteBuilderClientAction } from "@website/client_actions/website_preview/website_builder_action";
 import { setContent } from "@html_editor/../tests/_helpers/selection";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, press, queryAllTexts, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, press, queryAllTexts, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { contains, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

@@ -22,6 +22,6 @@
         'views/res_config_settings_views.xml',
         'views/crm_menus.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

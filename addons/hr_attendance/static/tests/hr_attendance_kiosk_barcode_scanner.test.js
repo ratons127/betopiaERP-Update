@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { waitFor } from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { waitFor } from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import { KioskBarcodeScanner } from "@hr_attendance/components/kiosk_barcode/kiosk_barcode";
 import { contains, mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mockGetMedia } from "@mail/../tests/mail_test_helpers";

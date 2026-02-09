@@ -1,7 +1,7 @@
 import { Plugin } from "@html_editor/plugin";
 import { closestElement } from "@html_editor/utils/dom_traversal";
 import { _t } from "@web/core/l10n/translation";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { TableAlignSelector } from "./table_align_selector";
 
 const verticalAlignmentItems = [

@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, dblclick } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, dblclick } from "@betopiaerp/hoot-dom";
 import { defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";
 
 defineWebsiteModels();

@@ -2,7 +2,7 @@ import { Reactive } from "@web/core/utils/reactive";
 import { Base, createRelatedModels } from "@point_of_sale/app/models/related_models";
 import { registry } from "@web/core/registry";
 import { Mutex } from "@web/core/utils/concurrency";
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 import { debounce } from "@web/core/utils/timing";
 import IndexedDB from "../models/utils/indexed_db";
 import { DataServiceOptions } from "../models/data_service_options";
@@ -98,7 +98,7 @@ export class PosData extends Reactive {
     }
 
     initializeWebsocket() {
-        this.onNotified = getOnNotified(this.bus, BetopiaERP.access_token);
+        this.onNotified = getOnNotified(this.bus, betopiaerp.access_token);
     }
 
     reconnectWebSocket() {
@@ -128,7 +128,7 @@ export class PosData extends Reactive {
     }
 
     get databaseName() {
-        return `point-of-sale-${BetopiaERP.pos_config_id}-${BetopiaERP.info?.db}`;
+        return `point-of-sale-${betopiaerp.pos_config_id}-${betopiaerp.info?.db}`;
     }
 
     async resetIndexedDB() {
@@ -271,13 +271,13 @@ export class PosData extends Reactive {
 
         if (
             (!this.network.offline && session?.state !== "opened") ||
-            session?.id !== BetopiaERP.pos_session_id ||
-            BetopiaERP.from_backend
+            session?.id !== betopiaerp.pos_session_id ||
+            betopiaerp.from_backend
         ) {
             try {
                 const limitedLoading = this.isLimitedLoading();
                 const serverDate = localData["pos.config"]?.[0]?._data_server_date;
-                const lastConfigChange = DateTime.fromSQL(BetopiaERP.last_data_change);
+                const lastConfigChange = DateTime.fromSQL(betopiaerp.last_data_change);
                 const serverDateTime = DateTime.fromSQL(serverDate);
 
                 if (serverDateTime < lastConfigChange) {
@@ -289,7 +289,7 @@ export class PosData extends Reactive {
                 const data = await this.orm.call(
                     "pos.session",
                     "load_data",
-                    [BetopiaERP.pos_session_id, PosData.modelToLoad],
+                    [betopiaerp.pos_session_id, PosData.modelToLoad],
                     {
                         context: {
                             pos_last_server_date: serverDateTime > lastConfigChange && serverDate,
@@ -307,7 +307,7 @@ export class PosData extends Reactive {
                 }
 
                 const data_to_remove = await this.orm.call("pos.session", "filter_local_data", [
-                    BetopiaERP.pos_session_id,
+                    betopiaerp.pos_session_id,
                     local_records_to_filter,
                 ]);
 
@@ -371,14 +371,14 @@ export class PosData extends Reactive {
     }
 
     async loadFieldsAndRelations() {
-        const key = `pos_data_params_${BetopiaERP.pos_config_id}`;
+        const key = `pos_data_params_${betopiaerp.pos_config_id}`;
         if (this.network.offline) {
             return JSON.parse(localStorage.getItem(key));
         }
 
         try {
             const params = await this.orm.call("pos.session", "load_data_params", [
-                BetopiaERP.pos_session_id,
+                betopiaerp.pos_session_id,
             ]);
             localStorage.setItem(key, JSON.stringify(params));
             return params;
@@ -419,7 +419,7 @@ export class PosData extends Reactive {
         this.relations = relations;
         this.models = models;
 
-        if (BetopiaERP.debug === "assets") {
+        if (betopiaerp.debug === "assets") {
             window.performance.mark("pos_data_service_init");
         }
 
@@ -427,7 +427,7 @@ export class PosData extends Reactive {
         await this.getLocalDataFromIndexedDB();
         this.initListeners();
 
-        if (BetopiaERP.debug === "assets") {
+        if (betopiaerp.debug === "assets") {
             window.performance.mark("pos_data_service_init_end");
             this.debugInfos();
         }
@@ -736,7 +736,7 @@ export class PosData extends Reactive {
                     await this.callRelated(
                         "product.template",
                         "load_product_from_pos",
-                        [BetopiaERP.pos_config_id, [[domain, "in", Array.from(ids)]], 0, 0],
+                        [betopiaerp.pos_config_id, [[domain, "in", Array.from(ids)]], 0, 0],
                         {
                             context: {
                                 load_archived: true,
@@ -791,8 +791,8 @@ export class PosData extends Reactive {
             false,
             true
         );
-        const config = this.models["pos.config"].get(BetopiaERP.pos_config_id);
-        const session = this.models["pos.session"].get(BetopiaERP.pos_session_id);
+        const config = this.models["pos.config"].get(betopiaerp.pos_config_id);
+        const session = this.models["pos.session"].get(betopiaerp.pos_session_id);
         const orders = result["pos.order"] || [];
         for (const order of orders) {
             // Clear commands

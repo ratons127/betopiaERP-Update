@@ -1,4 +1,4 @@
-import { Component, EventBus, onWillStart, useSubEnv, useState } from "@BetopiaERP/owl";
+import { Component, EventBus, onWillStart, useSubEnv, useState } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useBus, useService } from "@web/core/utils/hooks";
 import { Layout } from "@web/search/layout";

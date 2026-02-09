@@ -1,7 +1,7 @@
 /** @ts-check */
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { Model } from "@betopiaerp/o-spreadsheet";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import {
     addGlobalFilterWithoutReload,

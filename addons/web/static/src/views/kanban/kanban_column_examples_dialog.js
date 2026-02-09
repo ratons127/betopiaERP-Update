@@ -1,7 +1,7 @@
 import { Dialog } from "@web/core/dialog/dialog";
 import { Notebook } from "@web/core/notebook/notebook";
 
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 
 const random = (min, max) => Math.floor(Math.random() * (max - min) + min);
 

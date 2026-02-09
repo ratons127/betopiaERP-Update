@@ -29,15 +29,15 @@ apt-get install -y chromium python3-lxml-html-clean apt-transport-https tailscal
 sed -i 's|,ro|   |g' /etc/fstab
 
 # Fix sparse-checkout
-echo setup/iot_box_builder/configuration | tee -a /home/pi/BetopiaERP/.git/info/sparse-checkout
-echo setup/iot_box_builder/overwrite_after_init/etc | tee -a /home/pi/BetopiaERP/.git/info/sparse-checkout
+echo setup/iot_box_builder/configuration | tee -a /home/pi/betopiaerp/.git/info/sparse-checkout
+echo setup/iot_box_builder/overwrite_after_init/etc | tee -a /home/pi/betopiaerp/.git/info/sparse-checkout
 
 # Fix services
-sed -i 's|After=.*|After=network-online.target time-sync.target cups.socket NetworkManager.service rc-local.service|g' /etc/systemd/system/BetopiaERP.service
-sed -i 's|Wants=.*|Wants=network-online.target time-sync.target|g' /etc/systemd/system/BetopiaERP.service
-sed -i '/Environment="LIBCAMERA_LOG_LEVELS=3"/a Environment="BetopiaERP_PY_COLORS=True"' /etc/systemd/system/BetopiaERP.service
+sed -i 's|After=.*|After=network-online.target time-sync.target cups.socket NetworkManager.service rc-local.service|g' /etc/systemd/system/betopiaerp.service
+sed -i 's|Wants=.*|Wants=network-online.target time-sync.target|g' /etc/systemd/system/betopiaerp.service
+sed -i '/Environment="LIBCAMERA_LOG_LEVELS=3"/a Environment="BETOPIAERP_PY_COLORS=True"' /etc/systemd/system/betopiaerp.service
 sed -i 's|ExecStart=.*|ExecStart=/etc/setup_ramdisks.sh|g' /etc/systemd/system/ramdisks.service
-sed -i 's|ExecStart=.*|ExecStart=/etc/led_manager.sh|g' /etc/systemd/system/BetopiaERP-led-manager.service
+sed -i 's|ExecStart=.*|ExecStart=/etc/led_manager.sh|g' /etc/systemd/system/betopiaerp-led-manager.service
 
 # Fix LNA popup in Chromium
 mkdir -p /etc/chromium/policies/managed

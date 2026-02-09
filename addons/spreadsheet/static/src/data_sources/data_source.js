@@ -3,11 +3,11 @@
 import { LoadingDataError } from "@spreadsheet/o_spreadsheet/errors";
 import { RPCError } from "@web/core/network/rpc";
 import { KeepLast } from "@web/core/utils/concurrency";
-import { CellErrorType, EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { CellErrorType, EvaluationError } from "@betopiaerp/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 
 /**
- * @typedef {import("./BetopiaERP_data_provider").BetopiaERPDataProvider} BetopiaERPDataProvider
+ * @typedef {import("./betopiaerp_data_provider").BetopiaERPDataProvider} BetopiaERPDataProvider
  * @typedef {import("./server_data").ServerData} ServerData
  */
 
@@ -24,11 +24,11 @@ import { _t } from "@web/core/l10n/translation";
 export class LoadableDataSource {
     /**
      * @param {Object} param0
-     * @param {BetopiaERPDataProvider} param0.BetopiaERPDataProvider
+     * @param {BetopiaERPDataProvider} param0.betopiaerpDataProvider
      */
-    constructor({ BetopiaERPDataProvider }) {
+    constructor({ betopiaerpDataProvider }) {
         /** @protected */
-        this.BetopiaERPDataProvider = BetopiaERPDataProvider;
+        this.betopiaerpDataProvider = betopiaerpDataProvider;
 
         /**
          * Last time that this dataSource has been updated
@@ -47,11 +47,11 @@ export class LoadableDataSource {
     }
 
     get _orm() {
-        return this.BetopiaERPDataProvider.orm;
+        return this.betopiaerpDataProvider.orm;
     }
 
     get serverData() {
-        return this.BetopiaERPDataProvider.serverData;
+        return this.betopiaerpDataProvider.serverData;
     }
 
     /**
@@ -63,7 +63,7 @@ export class LoadableDataSource {
      */
     async load(params) {
         if (params && params.reload) {
-            this.BetopiaERPDataProvider.cancelPromise(this._loadPromise);
+            this.betopiaerpDataProvider.cancelPromise(this._loadPromise);
             this._loadPromise = undefined;
         }
         if (!this._loadPromise) {
@@ -95,7 +95,7 @@ export class LoadableDataSource {
                     this._lastUpdate = Date.now();
                     this._isFullyLoaded = true;
                 });
-            await this.BetopiaERPDataProvider.notifyWhenPromiseResolves(this._loadPromise);
+            await this.betopiaerpDataProvider.notifyWhenPromiseResolves(this._loadPromise);
         }
         return this._loadPromise;
     }

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { MessageCardList } from "./message_card_list";
 import { _t } from "@web/core/l10n/translation";
 

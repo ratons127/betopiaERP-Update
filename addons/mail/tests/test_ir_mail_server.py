@@ -139,16 +139,16 @@ class TestIrMailServer(MailCommon):
         "smtp_server": "example.com",
     })
     def test_mail_server_config_bin(self):
-        """ Test the configuration provided in the BetopiaERP-bin arguments. This config
+        """ Test the configuration provided in the betopiaerp-bin arguments. This config
         is used when no mail server exists. Test with and without giving a
         pre-configured SMTP session, should not impact results.
 
         Also check "mail.default.from_filter" parameter usage that should overwrite
-        BetopiaERP-bin argument "--from-filter".
+        betopiaerp-bin argument "--from-filter".
         """
         IrMailServer = self.env['ir.mail_server']
 
-        # Remove all mail server so we will use the BetopiaERP-bin arguments
+        # Remove all mail server so we will use the betopiaerp-bin arguments
         IrMailServer.search([]).unlink()
         self.assertFalse(IrMailServer.search([]))
 
@@ -225,7 +225,7 @@ class TestIrMailServer(MailCommon):
                 ('notifications', 'dummy.com, full_email@example_2.com, dummy2.com'),
                 ('notifications', self.mail_alias_domain.name),
                 ('notifications', f'{self.mail_alias_domain.name}, example_2.com'),
-                # default relies on "BetopiaERP"
+                # default relies on "betopiaerp"
                 (False, self.mail_alias_domain.name),
                 # fallback on user email if no from_filter
                 ('notifications', ' '),
@@ -236,7 +236,7 @@ class TestIrMailServer(MailCommon):
                 'full_email@example_2.com',
                 f'notifications@{self.mail_alias_domain.name}',
                 f'notifications@{self.mail_alias_domain.name}',
-                f'BetopiaERP@{self.mail_alias_domain.name}',
+                f'betopiaerp@{self.mail_alias_domain.name}',
                 self.env.user.email,
                 self.env.user.email,
                 self.env.user.email,

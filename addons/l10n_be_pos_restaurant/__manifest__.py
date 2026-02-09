@@ -6,7 +6,7 @@
     'depends': ['pos_restaurant', 'l10n_be'],
     'auto_install': True,
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'post_init_hook': 'post_init_hook',
 }

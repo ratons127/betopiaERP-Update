@@ -4,7 +4,7 @@ import {
     useEditableDescendants,
 } from "@html_editor/others/embedded_component_utils";
 import { browser } from "@web/core/browser/browser";
-import { Component, useEffect, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useExternalListener, useState } from "@betopiaerp/owl";
 
 const sessionStorage = browser.sessionStorage;
 export class EmbeddedToggleBlockComponent extends Component {

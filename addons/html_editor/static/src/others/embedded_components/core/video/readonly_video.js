@@ -1,6 +1,6 @@
 import { getEmbeddedProps } from "@html_editor/others/embedded_component_utils";
 import { getVideoUrl } from "@html_editor/utils/url";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class ReadonlyEmbeddedVideoComponent extends Component {
     static template = "html_editor.EmbeddedVideo";

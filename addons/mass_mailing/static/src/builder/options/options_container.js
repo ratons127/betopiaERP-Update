@@ -1,5 +1,5 @@
 import { OptionsContainer } from "@html_builder/sidebar/option_container";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 export class OptionsContainerWithSnippetVersionControl extends OptionsContainer {
     static template = "mass_mailing.OptionsContainer";

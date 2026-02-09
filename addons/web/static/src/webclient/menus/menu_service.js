@@ -11,8 +11,8 @@ export const menuService = {
         let menusData;
 
         const fetchMenus = async (reload) => {
-            if (!reload && BetopiaERP.loadMenusPromise) {
-                return BetopiaERP.loadMenusPromise;
+            if (!reload && betopiaerp.loadMenusPromise) {
+                return betopiaerp.loadMenusPromise;
             }
             const res = await browser.fetch(loadMenusUrl, { cache: "no-store" });
             if (!res.ok) {

@@ -1,7 +1,7 @@
 import { expirableStorage } from "@im_livechat/core/common/expirable_storage";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { asyncStep, waitForSteps } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

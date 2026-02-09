@@ -4317,7 +4317,7 @@ class AccountMove(models.Model):
         """ This computes the reference based on the Number format.
             Return the number of the invoice, defined on the journal sequence.
         """
-        ref = self._get_invoice_reference_BetopiaERP_invoice() or ''
+        ref = self._get_invoice_reference_betopiaerp_invoice() or ''
         return ''.join(char for char in ref if char.isdigit())
 
     def _get_invoice_reference_number_partner(self):
@@ -4326,10 +4326,10 @@ class AccountMove(models.Model):
             id otherwise. For instance if the reference of the customer is
             'customer 97', the reference will be '97'.
         """
-        ref = self._get_invoice_reference_BetopiaERP_partner()
+        ref = self._get_invoice_reference_betopiaerp_partner()
         return ''.join(char for char in ref if char.isdigit())
 
-    def _get_invoice_reference_BetopiaERP_invoice(self):
+    def _get_invoice_reference_betopiaerp_invoice(self):
         """ This computes the reference based on the BetopiaERP format.
             We simply return the number of the invoice, defined on the journal
             sequence.
@@ -4337,7 +4337,7 @@ class AccountMove(models.Model):
         self.ensure_one()
         return self.name
 
-    def _get_invoice_reference_BetopiaERP_partner(self):
+    def _get_invoice_reference_betopiaerp_partner(self):
         """ This computes the reference based on the BetopiaERP format.
             The data used is the reference set on the partner or its database
             id otherwise. For instance if the reference of the customer is

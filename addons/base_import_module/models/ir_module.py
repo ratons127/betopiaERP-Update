@@ -559,8 +559,8 @@ class IrModuleModule(models.Model):
                 description += "- " + module + "\n"
             description += _(
                 "\nYou may need the Enterprise version to install the data module. Please visit "
-                "https://www.betopiaerp.com/pricing-plan for more information.\n"
-                "If you need Website themes, it can be downloaded from https://github.com/BetopiaERP/design-themes.\n"
+                "https://www.BetopiaERP.com/pricing-plan for more information.\n"
+                "If you need Website themes, it can be downloaded from https://github.com/betopiaerp/design-themes.\n"
             )
         else:
             description = _(

@@ -7,7 +7,7 @@ from betopiaerp.addons.mail.tests.common import MailCommon
 class TestDiscussAction(HttpCase, MailCommon):
     def test_go_back_to_thread_from_breadcrumbs(self):
         self.start_tour(
-            "/BetopiaERP/discuss?active_id=mail.box_inbox",
+            "/betopiaerp/discuss?active_id=mail.box_inbox",
             "discuss_go_back_to_thread_from_breadcrumbs.js",
             login="admin",
         )
@@ -21,7 +21,7 @@ class TestDiscussAction(HttpCase, MailCommon):
         self._reset_bus()
         channel_member._rtc_join_call()
         self.start_tour(
-            f"/BetopiaERP/{channel.id}/action-mail.action_discuss?call=accept",
+            f"/betopiaerp/{channel.id}/action-mail.action_discuss?call=accept",
             "discuss_channel_call_action.js",
             login=invited_user.login,
         )

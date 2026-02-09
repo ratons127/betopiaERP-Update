@@ -1,6 +1,6 @@
 import { useService } from '@web/core/utils/hooks';
 import { formatMonetary } from "@web/views/fields/formatters";
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 
 export class ExpenseDashboard extends Component {
     static template = "hr_expense.ExpenseDashboard";

@@ -139,7 +139,7 @@ export class Editor {
         }
         editable.setAttribute("contenteditable", true);
         initElementForEdition(editable, { allowInlineAtRoot: !!this.config.allowInlineAtRoot });
-        editable.classList.add("BetopiaERP-editor-editable");
+        editable.classList.add("betopiaerp-editor-editable");
         if (this.config.classList) {
             editable.classList.add(...this.config.classList);
         }
@@ -347,7 +347,7 @@ export class Editor {
                 // element will be removed, no need to make changes that may require the browser
                 // to recompute the layout
                 this.editable.removeAttribute("contenteditable");
-                removeClass(this.editable, "BetopiaERP-editor-editable");
+                removeClass(this.editable, "betopiaerp-editor-editable");
             }
             this.editable = null;
         }

@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Andrea Colangelo andrea.colangelo@rapsBetopiaERP.com https://github.com/warp10
+Andrea Colangelo andrea.colangelo@rapsbetopiaerp.com https://github.com/warp10

@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { useService } from "@web/core/utils/hooks";
-import { Component, useRef, onMounted } from "@BetopiaERP/owl";
+import { Component, useRef, onMounted } from "@betopiaerp/owl";
 import { ask } from "@point_of_sale/app/utils/make_awaitable_dialog";
 import { TipReceipt } from "@pos_restaurant/app/components/tip_receipt/tip_receipt";
 import { useRouterParamsChecker } from "@point_of_sale/app/hooks/pos_router_hook";
@@ -131,7 +131,7 @@ export class TipScreen extends Component {
 registry.category("pos_pages").add("TipScreen", {
     name: "TipScreen",
     component: TipScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/tipping/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/tipping/{string:orderUuid}`,
     params: {
         orderUuid: true,
         orderFinalized: true,

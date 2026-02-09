@@ -2,7 +2,7 @@
  * Provides a way to start JS code for public contents.
  */
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import Class from "@web/legacy/js/core/class";
 import { loadBundle, loadCSS, loadJS } from '@web/core/assets';
 import { SERVICES_METADATA } from "@web/core/utils/hooks";

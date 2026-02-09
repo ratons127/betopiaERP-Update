@@ -18,7 +18,7 @@ import {
     useEffect,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 
 import { _t } from "@web/core/l10n/translation";

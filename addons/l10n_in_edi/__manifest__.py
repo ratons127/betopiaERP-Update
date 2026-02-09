@@ -29,6 +29,6 @@ For the creation of API username and password please ref this document: <https:/
         "demo/demo_company.xml",
     ],
     'installable': True,
-    'author': "BetopiaERP S.A.",
+    'author': "BetopiaERP",
     'license': "LGPL-3",
 }

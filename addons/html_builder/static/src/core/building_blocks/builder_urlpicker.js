@@ -8,7 +8,7 @@ import {
     useBuilderComponent,
     useInputBuilderComponent,
 } from "@html_builder/core/utils";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useChildRef } from "@web/core/utils/hooks";
 import { pick } from "@web/core/utils/objects";
 

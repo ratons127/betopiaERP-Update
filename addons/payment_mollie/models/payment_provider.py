@@ -58,14 +58,14 @@ class PaymentProvider(models.Model):
         if self.code != 'mollie':
             return super()._build_request_headers(*args, **kwargs)
 
-        BetopiaERP_version = service.common.exp_version()['server_version']
+        betopiaerp_version = service.common.exp_version()['server_version']
         module_version = self.env.ref('base.module_payment_mollie').installed_version
         return {
             'Accept': 'application/json',
             'Authorization': f'Bearer {self.mollie_api_key}',
             'Content-Type': 'application/json',
             # See https://docs.mollie.com/integration-partners/user-agent-strings
-            'User-Agent': f'BetopiaERP/{BetopiaERP_version} MollieNativeBetopiaERP/{module_version}',
+            'User-Agent': f'BetopiaERP/{betopiaerp_version} MollieNativeBetopiaERP/{module_version}',
         }
 
     def _parse_response_error(self, response):

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { SaleActionHelperDialog } from "./sale_action_helper_dialog";
 

@@ -1,5 +1,5 @@
 import { AutoComplete } from "@web/core/autocomplete/autocomplete";
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 export class AutoCompleteWithPages extends AutoComplete {
     static props = {

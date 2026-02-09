@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * barcodes_gs1_nomenclature
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-02 14:57+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "barcodes_gs1_nomenclature/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
@@ -132,13 +132,13 @@ msgstr ""
 "答えします！"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "Invalid barcode: can't be formated as date"
 msgstr "無効なバーコード: 日付としてフォーマットできません"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "Invalid barcode: the check digit is incorrect"
 msgstr "無効なバーコード: 確認数字が間違っています"
@@ -190,7 +190,7 @@ msgid "Quantity"
 msgstr "数量"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 msgstr "FNC1 セパレータ代替は有効な正規表現ではありません:%(error)s"
@@ -210,7 +210,7 @@ msgstr ""
 "に従った固定長のバーコード。     *アルファ-数字名: 可変長のバーコード。"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_rule.py:0
 msgid ""
 "The rule pattern \"%s\" is not valid, it needs two groups:\n"
@@ -222,13 +222,13 @@ msgstr ""
 "\t- 2つ目は値を捉える用"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_rule.py:0
 msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 msgstr "規則パターン '%(rule)s' は有効な正規表現ではありません: %(error)s"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
@@ -254,13 +254,13 @@ msgstr ""
 "命名法として認められています。"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be parsed by any barcode rules."
 msgstr "このバーコードはどのバーコード規則でも解析できません。"
 
 #. module: barcodes_gs1_nomenclature
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be partially or fully parsed."
 msgstr "このバーコードは一部または全部を解析できません。"

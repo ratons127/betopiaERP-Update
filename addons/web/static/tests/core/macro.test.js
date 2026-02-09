@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, click, edit, queryOne, queryText } from "@BetopiaERP/hoot-dom";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, click, edit, queryOne, queryText } from "@betopiaerp/hoot-dom";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { Macro } from "@web/core/macro";

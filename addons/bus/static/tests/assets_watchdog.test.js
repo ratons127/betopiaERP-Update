@@ -1,5 +1,5 @@
-import { describe, test } from "@BetopiaERP/hoot";
-import { runAllTimers, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { runAllTimers, waitFor } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     contains,

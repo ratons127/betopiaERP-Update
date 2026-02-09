@@ -1,7 +1,7 @@
 import { localization } from "@web/core/l10n/localization";
 import { isIOS } from "@web/core/browser/feature_detection";
 
-import { useRef, useEffect } from "@BetopiaERP/owl";
+import { useRef, useEffect } from "@betopiaerp/owl";
 
 function onKeydown(ev) {
     const decimalPoint = localization.decimalPoint;

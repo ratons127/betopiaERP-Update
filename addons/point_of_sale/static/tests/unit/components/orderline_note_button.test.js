@@ -1,8 +1,8 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { setupPosEnv, dialogActions } from "../utils";
 import { definePosModels } from "../data/generate_model_definitions";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
-import { click } from "@BetopiaERP/hoot-dom";
+import { click } from "@betopiaerp/hoot-dom";
 import { InternalNoteButton } from "@point_of_sale/app/screens/product_screen/control_buttons/orderline_note_button/orderline_note_button";
 import { OrderSummary } from "@point_of_sale/app/screens/product_screen/order_summary/order_summary";
 

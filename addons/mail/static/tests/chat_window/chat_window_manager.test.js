@@ -9,7 +9,7 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { CHAT_HUB_KEY } from "@mail/core/common/chat_hub_model";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { asyncStep, getService, waitForSteps } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 

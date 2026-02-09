@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record id="res_config_settings_view_form" model="ir.ui.view">
         <field name="name">res.config.settings.view.form.inherit.hr.attendance</field>
         <field name="model">res.config.settings</field>
@@ -89,4 +89,4 @@
     </record>
 
     <menuitem id="menu_hr_attendance_settings" name="Settings" parent="menu_hr_attendance_configuration" sequence="10" action="action_hr_attendance_settings" groups="hr_attendance.group_hr_attendance_manager"/>
-</BetopiaERP>
+</betopiaerp>

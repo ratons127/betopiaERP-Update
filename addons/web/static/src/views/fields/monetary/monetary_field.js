@@ -7,7 +7,7 @@ import { useNumpadDecimal } from "../numpad_decimal_hook";
 import { standardFieldProps } from "../standard_field_props";
 import { nbsp } from "@web/core/utils/strings";
 
-import { Component, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useState, useEffect } from "@betopiaerp/owl";
 import { getCurrency } from "@web/core/currency";
 
 export class MonetaryField extends Component {

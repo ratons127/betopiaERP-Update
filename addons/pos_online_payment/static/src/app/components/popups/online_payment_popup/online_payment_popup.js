@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 export class OnlinePaymentPopup extends Component {
     static template = "pos_online_payment.OnlinePaymentPopup";

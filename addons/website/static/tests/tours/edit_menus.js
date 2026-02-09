@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { delay } from "@web/core/utils/concurrency";
 import { registry } from "@web/core/registry";
@@ -13,7 +13,7 @@ import {
 } from "@website/js/tours/tour_utils";
 
 registry.category("web_tour.tours").add("parent_child_menu", {
-    url: "/BetopiaERP/action-website.action_website_menu",
+    url: "/betopiaerp/action-website.action_website_menu",
     steps: () => [
         {
             content: "Open Menu Form View",
@@ -422,7 +422,7 @@ registerWebsitePreviewTour(
             content: "Check that the mega menu is opened",
             trigger:
                 ':iframe .top_menu .nav-item:has(a.o_mega_menu_toggle:contains("Megaaaaa!")) ' +
-                ".s_mega_menu_BetopiaERP_menu",
+                ".s_mega_menu_betopiaerp_menu",
         },
         ...clickOnEditAndWaitEditMode(),
         {

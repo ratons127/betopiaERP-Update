@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, waitFor } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { cleanLinkArtifacts } from "../_helpers/format";
@@ -237,7 +237,7 @@ test("should not allow to extend a link if selection spans multiple links (3)", 
 });
 
 test("when label === url popover label input should be empty", async () => {
-    await setupEditor('<p>abc <a href="http://BetopiaERP.com">http://odo[]o.com</a> def</p>');
+    await setupEditor('<p>abc <a href="http://betopiaerp.com">http://odo[]o.com</a> def</p>');
     await waitFor(".o-we-linkpopover");
     await click(".o_we_edit_link");
     await waitFor(".o_we_label_link");
@@ -246,7 +246,7 @@ test("when label === url popover label input should be empty", async () => {
 
 test("when label === url changing url should change label", async () => {
     const { el } = await setupEditor(
-        '<p>abc <a href="http://BetopiaERP.com">http://odo[]o.com</a> def</p>'
+        '<p>abc <a href="http://betopiaerp.com">http://odo[]o.com</a> def</p>'
     );
     await waitFor(".o-we-linkpopover");
     await click(".o_we_edit_link");

@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 export class CenteredIcon extends Component {
     static props = {

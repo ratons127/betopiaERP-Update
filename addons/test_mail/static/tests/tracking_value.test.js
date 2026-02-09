@@ -7,8 +7,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 import { defineTestMailModels } from "@test_mail/../tests/test_mail_test_helpers";
 import { editSelectMenu, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { currencies } from "@web/core/currency";

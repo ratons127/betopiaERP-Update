@@ -1,7 +1,7 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, Deferred, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, Deferred, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineActions,
@@ -26,7 +26,7 @@ import {
     waitForEndOfOperation,
     wrapExample,
 } from "@html_builder/../tests/helpers";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { Plugin } from "@html_editor/plugin";
 import { registry } from "@web/core/registry";

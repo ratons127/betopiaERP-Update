@@ -16,7 +16,7 @@ class TestMailingScheduleDateWizard(MassMailCommon, CronMixinCase):
     @users('user_marketing')
     def test_mailing_next_departure(self):
         # test if mailing.mailing.next_departure is correctly set taking into account
-        # presence of implicitly created cron triggers (since BetopiaERP v15). These should
+        # presence of implicitly created cron triggers (since betopiaerp v15). These should
         # launch cron job before its schedule nextcall datetime (if scheduled_date < nextcall)
 
         cron_job = self.env.ref('mass_mailing.ir_cron_mass_mailing_queue').sudo()

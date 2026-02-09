@@ -97,8 +97,8 @@ class TestImLivechatChannel(TestImLivechatCommon, TestGetOperator):
             self.livechat_channel.review_link = "javascript:alert('hello')"
         with self.assertRaises(ValidationError):
             self.livechat_channel.review_link = "https://"
-        self.livechat_channel.review_link = "https://www.betopiaerp.com"
-        self.assertEqual(self.livechat_channel.review_link, "https://www.betopiaerp.com")
+        self.livechat_channel.review_link = "https://www.BetopiaERP.com"
+        self.assertEqual(self.livechat_channel.review_link, "https://www.BetopiaERP.com")
 
     def test_ongoing_session_count(self):
         self.authenticate(None, None)

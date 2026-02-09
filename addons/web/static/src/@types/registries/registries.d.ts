@@ -1,5 +1,5 @@
 declare module "registries" {
-    import { Component } from "@BetopiaERP/owl";
+    import { Component } from "@betopiaerp/owl";
     import { BetopiaERPEnv } from "@web/env";
     import { NotificationOptions } from "@web/core/notifications/notification_service";
     import { Interaction } from "@web/public/interaction";

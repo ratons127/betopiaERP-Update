@@ -326,10 +326,10 @@
         </rng:element>
     </rng:define>
 
-    <rng:define name="BetopiaERP_openerp_data">
+    <rng:define name="betopiaerp_openerp_data">
         <rng:element>
             <rng:choice>
-                <rng:name>BetopiaERP</rng:name>
+                <rng:name>betopiaerp</rng:name>
                 <rng:name>openerp</rng:name>
                 <rng:name>data</rng:name>
             </rng:choice>
@@ -339,7 +339,7 @@
             <rng:zeroOrMore>
                 <rng:choice>
                     <rng:text/>
-                    <rng:ref name="BetopiaERP_openerp_data"/>
+                    <rng:ref name="betopiaerp_openerp_data"/>
                     <rng:ref name="menuitem" />
                     <rng:ref name="record" />
                     <rng:ref name="template" />
@@ -354,6 +354,6 @@
     </rng:define>
 
     <rng:start>
-        <rng:ref name="BetopiaERP_openerp_data"/>
+        <rng:ref name="betopiaerp_openerp_data"/>
     </rng:start>
 </rng:grammar>

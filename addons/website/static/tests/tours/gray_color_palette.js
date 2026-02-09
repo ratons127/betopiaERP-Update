@@ -47,7 +47,7 @@ registerWebsitePreviewTour(
         ...clickOnSave(),
         {
             content: "Check value of the gray 900 color",
-            trigger: ":iframe #wrapwrap:not(.BetopiaERP-editor-editable)",
+            trigger: ":iframe #wrapwrap:not(.betopiaerp-editor-editable)",
             run() {
                 const iframeEl = document.querySelector(".o_website_preview iframe");
                 const styles = getComputedStyle(iframeEl.contentDocument.documentElement);

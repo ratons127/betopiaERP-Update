@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { SelectMenu } from "@web/core/select_menu/select_menu";
 import { useBus } from "@web/core/utils/hooks";
 

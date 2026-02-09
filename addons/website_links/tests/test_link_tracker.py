@@ -52,7 +52,7 @@ class TestLinkTracker(TransactionCase):
         # Switch to Company 2
         self.env.user.company_id = self.company_2
         link_2 = self.env['link.tracker'].create({
-            'url': 'https://www.2BetopiaERPoo.com',
+            'url': 'https://www.2betopiaerpoo.com',
         })
         self.assertTrue(link_2.short_url.startswith(self.website_2.domain),
             "Short URL should use company 2 website domain"

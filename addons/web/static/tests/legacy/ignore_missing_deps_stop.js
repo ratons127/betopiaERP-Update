@@ -1,3 +1,3 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 
-window.__BetopiaERPIgnoreMissingDependencies = false;
+window.__betopiaerpIgnoreMissingDependencies = false;

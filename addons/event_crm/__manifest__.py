@@ -5,7 +5,7 @@
     'name': 'Event CRM',
     'version': '1.0',
     'category': 'Marketing/Events',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'description': "Create leads from event registrations.",
     'depends': ['event', 'crm'],
     'data': [
@@ -30,6 +30,6 @@
     },
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

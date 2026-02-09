@@ -32,16 +32,16 @@ passed to the Accept.js SDK, the solution qualifies for SAQ A-EP.
 
 - `16.1`
   - The "Authorize Currency" field is replaced by the generic "Currencies" field of `payment`.
-    BetopiaERP/BetopiaERP#101018
+    betopiaerp/betopiaerp#101018
 - `16.0`
-  - Archiving a token no longer deactivates the related payment method on Authorize. BetopiaERP/BetopiaERP#93774
+  - Archiving a token no longer deactivates the related payment method on Authorize. betopiaerp/betopiaerp#93774
 - `15.4`
-  - The support for full refunds is added. BetopiaERP/BetopiaERP#92279
+  - The support for full refunds is added. betopiaerp/betopiaerp#92279
 - `15.0`
-  - Support for ACH payments is added. BetopiaERP/BetopiaERP#75289
+  - Support for ACH payments is added. betopiaerp/betopiaerp#75289
 - `14.3`
   - The payment with redirection flow that existed alongside the direct payment flow is dropped.
-    BetopiaERP/BetopiaERP#141661
+    betopiaerp/betopiaerp#141661
 
 ## Testing instructions
 

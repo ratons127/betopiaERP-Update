@@ -6,7 +6,7 @@ import { browser } from "@web/core/browser/browser";
 import { getTabableElements, isFocusable } from "@web/core/utils/ui";
 import { getActiveHotkey } from "../hotkeys/hotkey_service";
 
-import { EventBus, reactive, useEffect, useRef } from "@BetopiaERP/owl";
+import { EventBus, reactive, useEffect, useRef } from "@betopiaerp/owl";
 
 export const SIZES = { XS: 0, SM: 1, MD: 2, LG: 3, XL: 4, XXL: 5 };
 

@@ -3,7 +3,7 @@ import {
     getEmbeddedProps,
     StateChangeManager,
 } from "@html_editor/others/embedded_component_utils";
-import { Component, useState, useRef, onMounted, onWillDestroy } from "@BetopiaERP/owl";
+import { Component, useState, useRef, onMounted, onWillDestroy } from "@betopiaerp/owl";
 
 export class EmbeddedCaptionComponent extends Component {
     static template = "html_editor.EmbeddedCaption";

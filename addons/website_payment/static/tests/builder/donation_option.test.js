@@ -1,10 +1,10 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,
     setupWebsiteBuilderWithSnippet,
 } from "@website/../tests/builder/website_helpers";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { queryAll } from "@betopiaerp/hoot-dom";
 
 defineWebsiteModels();
 

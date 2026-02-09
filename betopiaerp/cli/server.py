@@ -24,8 +24,8 @@ from betopiaerp.tools import config
 
 from . import Command
 
-# Also use the `BetopiaERP` logger for the main script.
-_logger = logging.getLogger('BetopiaERP')
+# Also use the `betopiaerp` logger for the main script.
+_logger = logging.getLogger('betopiaerp')
 
 
 def check_root_user():
@@ -120,7 +120,7 @@ def main(args):
 
 
 class Server(Command):
-    """Start the BetopiaERP server (default command)"""
+    """Start the betopiaerp server (default command)"""
 
     def run(self, args):
         config.parser.prog = self.prog

@@ -2,14 +2,14 @@ import { useService } from "@web/core/utils/hooks";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { browser } from "@web/core/browser/browser";
-import { queryAll, queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
-import { Component, useState, useExternalListener } from "@BetopiaERP/owl";
+import { queryAll, queryFirst, queryOne } from "@betopiaerp/hoot-dom";
+import { Component, useState, useExternalListener } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { x2ManyCommands } from "@web/core/orm_service";
 import { tourRecorderState } from "./tour_recorder_state";
 
 const PRECISE_IDENTIFIERS = ["data-menu-xmlid", "name", "contenteditable"];
-const BetopiaERP_CLASS_REGEX = /^oe?(-|_)[\w-]+$/;
+const BETOPIAERP_CLASS_REGEX = /^oe?(-|_)[\w-]+$/;
 const VALIDATING_KEYS = ["Enter", "Tab"];
 
 /**
@@ -30,9 +30,9 @@ const getShortestSelector = (paths) => {
         }
 
         let currentPredicate = currentElem.tagName.toLowerCase();
-        const BetopiaERPClass = [...currentElem.classList].find((c) => c.match(BetopiaERP_CLASS_REGEX));
-        if (BetopiaERPClass) {
-            currentPredicate = `.${BetopiaERPClass}`;
+        const betopiaerpClass = [...currentElem.classList].find((c) => c.match(BETOPIAERP_CLASS_REGEX));
+        if (betopiaerpClass) {
+            currentPredicate = `.${betopiaerpClass}`;
             hasBetopiaERPClass = true;
         }
 

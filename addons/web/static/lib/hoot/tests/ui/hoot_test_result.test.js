@@ -1,10 +1,10 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { describe, expect, makeExpect, test } from "@BetopiaERP/hoot";
+import { describe, expect, makeExpect, test } from "@betopiaerp/hoot";
 import { mountForTest, parseUrl } from "../local_helpers";
 
-import { animationFrame, click } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { animationFrame, click } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { Runner } from "../../core/runner";
 import { Test } from "../../core/test";
 import { HootTestResult } from "../../ui/hoot_test_result";

@@ -1,8 +1,8 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryOne, tick } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryOne, tick } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 
 setupInteractionWhiteList("website.countdown");
 

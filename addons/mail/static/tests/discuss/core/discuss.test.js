@@ -7,8 +7,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-dom";
 import { makeMockEnv } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");
@@ -38,16 +38,16 @@ test("subscribe to presence channels according to store data", async () => {
     // Starting the bus should subscribe to known presence channels.
     env.services.bus_service.start();
     await expect.waitForSteps([
-        "subscribe - [BetopiaERP-presence-res.partner_1,BetopiaERP-presence-res.partner_2]",
+        "subscribe - [betopiaerp-presence-res.partner_1,betopiaerp-presence-res.partner_2]",
     ]);
     // Discovering new presence channels should refresh the subscription.
     store["mail.guest"].insert({ id: 1 });
     await expect.waitForSteps([
-        "subscribe - [BetopiaERP-presence-mail.guest_1,BetopiaERP-presence-res.partner_1,BetopiaERP-presence-res.partner_2]",
+        "subscribe - [betopiaerp-presence-mail.guest_1,betopiaerp-presence-res.partner_1,betopiaerp-presence-res.partner_2]",
     ]);
     // Updating "im_status_access_token" should refresh the subscription.
     store["mail.guest"].insert({ id: 1, im_status_access_token: "token" });
     await expect.waitForSteps([
-        "subscribe - [BetopiaERP-presence-mail.guest_1-token,BetopiaERP-presence-res.partner_1,BetopiaERP-presence-res.partner_2]",
+        "subscribe - [betopiaerp-presence-mail.guest_1-token,betopiaerp-presence-res.partner_1,betopiaerp-presence-res.partner_2]",
     ]);
 });

@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     manuallyDispatchProgrammaticEvent,
     click,
@@ -6,8 +6,8 @@ import {
     queryOne,
     waitFor,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { contains, makeMockEnv, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { CaptionPlugin } from "@html_editor/others/embedded_components/plugins/caption_plugin/caption_plugin";
 import { MAIN_PLUGINS, EMBEDDED_COMPONENT_PLUGINS } from "@html_editor/plugin_sets";
@@ -69,7 +69,7 @@ const addLinkToImage = async (url) => {
     if (url) {
         await waitFor(".o-we-linkpopover");
         await contains(".o-we-linkpopover input.o_we_href_input_link", { timeout: 1500 }).edit(
-            "BetopiaERP.com"
+            "betopiaerp.com"
         );
     }
 };
@@ -703,13 +703,13 @@ test("add a link to an image with a caption", async () => {
             <h1>[]Heading</h1>`
         ),
         stepFunction: async () => {
-            await addLinkToImage("BetopiaERP.com");
+            await addLinkToImage("betopiaerp.com");
             await expectElementCount(".o-we-linkpopover", 1);
             await expectElementCount(".o-we-toolbar", 1);
         },
         contentAfter: unformat(
             `<p>
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure>
                         [<img class="img-fluid test-image" src="${base64Img}">]
                         <figcaption>Hello</figcaption>
@@ -726,7 +726,7 @@ test("add a caption to an image with a link", async () => {
     await testEditor({
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
-            `<a href="https://BetopiaERP.com">
+            `<a href="https://betopiaerp.com">
                 <img class="img-fluid test-image" src="${base64Img}">
             </a>
             <h1>[]Heading</h1>`
@@ -743,7 +743,7 @@ test("add a caption to an image with a link", async () => {
         },
         contentAfter: unformat(
             `<div>
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure>
                         <img class="img-fluid test-image" src="${base64Img}">
                         <figcaption></figcaption>
@@ -761,14 +761,14 @@ test("add a caption then a link to an image surrounded by text", async () => {
         contentBefore: `<p>ab<img class="img-fluid test-image" src="${base64Img}">cd</p>`,
         stepFunction: async () => {
             await toggleCaption("Hello");
-            await addLinkToImage("BetopiaERP.com");
+            await addLinkToImage("betopiaerp.com");
             await expectElementCount(".o-we-linkpopover", 1);
             await expectElementCount(".o-we-toolbar", 1);
         },
         contentAfter: unformat(
             `<p>ab</p>
             <p>
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure>
                         [<img class="img-fluid test-image" src="${base64Img}">]
                         <figcaption>Hello</figcaption>
@@ -785,7 +785,7 @@ test("add a link then a caption to an image surrounded by text", async () => {
         config: configWithEmbeddedCaption,
         contentBefore: `<p>ab<img class="img-fluid test-image" src="${base64Img}">cd</p>`,
         stepFunction: async (editor) => {
-            await addLinkToImage("BetopiaERP.com");
+            await addLinkToImage("betopiaerp.com");
             await animationFrame();
             await toggleCaption("Hello");
             // Blur the input to commit the caption.
@@ -796,7 +796,7 @@ test("add a link then a caption to an image surrounded by text", async () => {
         contentAfter: unformat(
             `<p>ab</p>
             <p>[]
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure>
                         <img class="img-fluid test-image" src="${base64Img}">
                         <figcaption>Hello</figcaption>
@@ -815,7 +815,7 @@ test("remove a link from an image with a caption", async () => {
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
             `<p><br></p>
-            <a href="https://BetopiaERP.com">
+            <a href="https://betopiaerp.com">
                 <figure>
                     <img class="img-fluid test-image" src="${base64Img}">
                     <figcaption>${caption}</figcaption>
@@ -826,7 +826,7 @@ test("remove a link from an image with a caption", async () => {
         contentBeforeEdit: unformat(
             `<p><br></p>
             <div class="o-paragraph">
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure contenteditable="false">
                         <img class="img-fluid test-image o_editable_media" src="${base64Img}" data-caption-id="${captionId}" data-caption="${caption}">
                         <figcaption ${getFigcaptionAttributes(captionId, caption)}>
@@ -861,7 +861,7 @@ test("remove a caption from an image with a link", async () => {
         config: configWithEmbeddedCaption,
         contentBefore: unformat(
             `<p><br></p>
-            <a href="https://BetopiaERP.com">
+            <a href="https://betopiaerp.com">
                 <figure>
                     <img class="img-fluid test-image" src="${base64Img}">
                     <figcaption>${caption}</figcaption>
@@ -872,7 +872,7 @@ test("remove a caption from an image with a link", async () => {
         contentBeforeEdit: unformat(
             `<p><br></p>
             <div class="o-paragraph">
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     <figure contenteditable="false">
                         <img class="img-fluid test-image o_editable_media" src="${base64Img}" data-caption-id="${captionId}" data-caption="${caption}">
                         <figcaption ${getFigcaptionAttributes(captionId, caption)}>
@@ -891,7 +891,7 @@ test("remove a caption from an image with a link", async () => {
         contentAfter: unformat(
             `<p><br></p>
             <div>
-                <a href="https://BetopiaERP.com">
+                <a href="https://betopiaerp.com">
                     [<img class="img-fluid test-image" src="${base64Img}" data-caption="${caption}">]
                 </a>
             </div>
@@ -991,14 +991,14 @@ test("should drag and drop image with its caption(1)", async () => {
     const dragdata = new DataTransfer();
     await manuallyDispatchProgrammaticEvent(imgElement, "dragstart", { dataTransfer: dragdata });
     await animationFrame();
-    const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+    const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
     const dropData = new DataTransfer();
     dropData.setData(
         "text/html",
         `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Img}">`
     );
-    // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-    dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+    // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+    dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
     await manuallyDispatchProgrammaticEvent(targetNodeForDrop, "drop", { dataTransfer: dropData });
     await animationFrame();
 
@@ -1043,14 +1043,14 @@ test("should drag and drop image with its caption(2)", async () => {
     const dragdata = new DataTransfer();
     await manuallyDispatchProgrammaticEvent(imgElement, "dragstart", { dataTransfer: dragdata });
     await animationFrame();
-    const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+    const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
     const dropData = new DataTransfer();
     dropData.setData(
         "text/html",
         `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Img}">`
     );
-    // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-    dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+    // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+    dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
     await manuallyDispatchProgrammaticEvent(targetNodeForDrop, "drop", { dataTransfer: dropData });
     await manuallyDispatchProgrammaticEvent(imgElement, "dragend");
     await animationFrame();
@@ -1096,12 +1096,12 @@ test("should drag and drop image with caption along with selected text", async (
     const dragdata = new DataTransfer();
     await manuallyDispatchProgrammaticEvent(imgElement, "dragstart", { dataTransfer: dragdata });
     await animationFrame();
-    const BetopiaERPEditorData = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+    const betopiaerpEditorData = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
     const textHtml = dragdata.getData("text/html");
     const dropData = new DataTransfer();
     dropData.setData("text/html", textHtml);
-    // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-    dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", BetopiaERPEditorData);
+    // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+    dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", betopiaerpEditorData);
     await manuallyDispatchProgrammaticEvent(targetNodeForDrop, "drop", { dataTransfer: dropData });
     await animationFrame();
 
@@ -1163,7 +1163,7 @@ test("should cut an image and its caption as a single embedded figure", async ()
     );
 
     // Verify cut fragment stored inside clipboard data
-    const cutPayload = clipboard.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+    const cutPayload = clipboard.getData("application/vnd.betopiaerp.betopiaerp-editor");
     const fragment = parseHTML(editor.document, cutPayload);
 
     expect(getContent(fragment)).toBe(
@@ -1203,7 +1203,7 @@ test("should copy an image along with its caption", async () => {
 
     const clipboardData = new DataTransfer();
     await press(["ctrl", "c"], { dataTransfer: clipboardData });
-    const copiedContent = clipboardData.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+    const copiedContent = clipboardData.getData("application/vnd.betopiaerp.betopiaerp-editor");
     const fragment = parseHTML(editor.document, copiedContent);
     expect(getContent(fragment)).toBe(
         unformat(`

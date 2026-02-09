@@ -5,7 +5,7 @@ import { standardFieldProps } from "../standard_field_props";
 import { FileInput } from "@web/core/file_input/file_input";
 import { useX2ManyCrud } from "@web/views/fields/relational_utils";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class Many2ManyBinaryField extends Component {
     static template = "web.Many2ManyBinaryField";

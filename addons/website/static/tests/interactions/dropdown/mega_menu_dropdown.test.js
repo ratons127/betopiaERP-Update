@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { hover, pointerDown, queryFirst } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { hover, pointerDown, queryFirst } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("website.mega_menu_dropdown");
 

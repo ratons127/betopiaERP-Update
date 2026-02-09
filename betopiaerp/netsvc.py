@@ -265,7 +265,7 @@ def init_logger():
     def is_a_tty(stream):
         return hasattr(stream, 'fileno') and os.isatty(stream.fileno())
 
-    if os.name == 'posix' and isinstance(handler, logging.StreamHandler) and (is_a_tty(handler.stream) or os.environ.get("BetopiaERP_PY_COLORS")):
+    if os.name == 'posix' and isinstance(handler, logging.StreamHandler) and (is_a_tty(handler.stream) or os.environ.get("BETOPIAERP_PY_COLORS")):
         formatter = ColoredFormatter(format)
         perf_filter = ColoredPerfFilter()
     else:
@@ -310,15 +310,15 @@ DEFAULT_LOG_CONFIGURATION = [
     ':INFO',
 ]
 PSEUDOCONFIG_MAPPER = {
-    'debug_rpc_answer': ['BetopiaERP:DEBUG', 'betopiaerp.sql_db:INFO', 'betopiaerp.http.rpc:DEBUG'],
-    'debug_rpc': ['BetopiaERP:DEBUG', 'betopiaerp.sql_db:INFO', 'betopiaerp.http.rpc.request:DEBUG'],
-    'debug': ['BetopiaERP:DEBUG', 'betopiaerp.sql_db:INFO'],
+    'debug_rpc_answer': ['betopiaerp:DEBUG', 'betopiaerp.sql_db:INFO', 'betopiaerp.http.rpc:DEBUG'],
+    'debug_rpc': ['betopiaerp:DEBUG', 'betopiaerp.sql_db:INFO', 'betopiaerp.http.rpc.request:DEBUG'],
+    'debug': ['betopiaerp:DEBUG', 'betopiaerp.sql_db:INFO'],
     'debug_sql': ['betopiaerp.sql_db:DEBUG'],
     'info': [],
-    'runbot': ['BetopiaERP:RUNBOT', 'werkzeug:WARNING'],
-    'warn': ['BetopiaERP:WARNING', 'werkzeug:WARNING'],
-    'error': ['BetopiaERP:ERROR', 'werkzeug:ERROR'],
-    'critical': ['BetopiaERP:CRITICAL', 'werkzeug:CRITICAL'],
+    'runbot': ['betopiaerp:RUNBOT', 'werkzeug:WARNING'],
+    'warn': ['betopiaerp:WARNING', 'werkzeug:WARNING'],
+    'error': ['betopiaerp:ERROR', 'werkzeug:ERROR'],
+    'critical': ['betopiaerp:CRITICAL', 'werkzeug:CRITICAL'],
 }
 
 logging.RUNBOT = 25
@@ -333,7 +333,7 @@ def showwarning_with_traceback(message, category, filename, lineno, file=None, l
     # find the stack frame matching (filename, lineno)
     filtered = []
     for frame in traceback.extract_stack():
-        if frame.name == '__call__' and frame.filename.endswith('/BetopiaERP/http.py'):
+        if frame.name == '__call__' and frame.filename.endswith('/betopiaerp/http.py'):
             # we don't care about the frames above our wsgi entrypoint
             filtered.clear()
         if 'importlib' not in frame.filename:

@@ -5,7 +5,7 @@ import { renderToString } from "@web/core/utils/render";
 import { useDebounced } from "@web/core/utils/timing";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
-import { Component, useState, useRef, onWillStart, onMounted, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, useState, useRef, onWillStart, onMounted, onWillUnmount } from "@betopiaerp/owl";
 
 class MenuItem extends Component {
     static template = "web.ProfilingQwebView.menuitem";

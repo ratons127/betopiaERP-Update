@@ -867,8 +867,8 @@ Please change the quantity done or the rounding precision in your settings.""",
             # Avoids to write the exact same message multiple times.
             if last_message and last_message.subject == msg_subject:
                 continue
-            BetopiaERPbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
-            doc.message_post(body=msg, author_id=BetopiaERPbot_id, subject=msg_subject)
+            betopiaerpbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
+            doc.message_post(body=msg, author_id=betopiaerpbot_id, subject=msg_subject)
 
     def action_add_packages(self):
         """ Opens a list of suitable packages to add to a picking.

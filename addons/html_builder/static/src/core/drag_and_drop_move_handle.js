@@ -1,4 +1,4 @@
-import { Component, onMounted } from "@BetopiaERP/owl";
+import { Component, onMounted } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 export class DragAndDropMoveHandle extends Component {

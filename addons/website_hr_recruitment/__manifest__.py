@@ -45,6 +45,6 @@
             'website_hr_recruitment/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

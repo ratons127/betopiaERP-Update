@@ -1,9 +1,9 @@
-import { advanceTime, queryFirst } from "@BetopiaERP/hoot";
+import { advanceTime, queryFirst } from "@betopiaerp/hoot";
 import { contains } from "./dom_test_helpers";
 
 /**
- * @typedef {import("@BetopiaERP/hoot").PointerOptions} PointerOptions
- * @typedef {import("@BetopiaERP/hoot").Target} Target
+ * @typedef {import("@betopiaerp/hoot").PointerOptions} PointerOptions
+ * @typedef {import("@betopiaerp/hoot").Target} Target
  */
 
 /**

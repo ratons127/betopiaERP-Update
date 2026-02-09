@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 registry.category("web_tour.tours").add('create_crm_team_tour', {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
     ...stepUtils.goToAppSteps('crm.crm_menu_root'),
 {

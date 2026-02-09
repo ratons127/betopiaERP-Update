@@ -25,12 +25,12 @@ The entire API reference and the integration guide can be found on the
 ## Module history
 
 - `16.2`
-  - The field "AsiaPay Brand" is added to select the API to use. BetopiaERP/BetopiaERP#110357
+  - The field "AsiaPay Brand" is added to select the API to use. betopiaerp/betopiaerp#110357
 - `16.1`
   - The "AsiaPay Currency" field is replaced by the generic "Currencies" field of `payment`.
-    BetopiaERP/BetopiaERP#101018
+    betopiaerp/betopiaerp#101018
 - `16.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#98441
+  - The first version of the module is merged. betopiaerp/betopiaerp#98441
 
 ## Testing instructions
 

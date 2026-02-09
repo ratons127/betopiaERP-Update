@@ -8,7 +8,7 @@ export class DataServiceOptions {
                 condition: (record) =>
                     record.finalized &&
                     record.isSynced &&
-                    record.pos_session_id !== parseInt(BetopiaERP.pos_session_id),
+                    record.pos_session_id !== parseInt(betopiaerp.pos_session_id),
             },
             "pos.order.line": {
                 key: "uuid",

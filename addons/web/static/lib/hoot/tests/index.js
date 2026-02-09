@@ -1,4 +1,4 @@
-import { isHootReady, start } from "@BetopiaERP/hoot";
+import { isHootReady, start } from "@betopiaerp/hoot";
 
 import "./core/expect.test.js";
 import "./core/runner.test.js";

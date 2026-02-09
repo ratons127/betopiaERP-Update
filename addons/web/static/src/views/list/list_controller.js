@@ -33,7 +33,7 @@ import {
     useRef,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 // -----------------------------------------------------------------------------
 

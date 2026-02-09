@@ -7,7 +7,7 @@ export const unpatchSelf = patch(PosData.prototype, {
     async loadInitialData() {
         const configId = session.data.config_id;
         return await rpc(`/pos-self/data/${parseInt(configId)}`, {
-            access_token: BetopiaERP.access_token,
+            access_token: betopiaerp.access_token,
         });
     },
     async loadFieldsAndRelations() {
@@ -15,7 +15,7 @@ export const unpatchSelf = patch(PosData.prototype, {
         return await rpc(`/pos-self/relations/${parseInt(configId)}`);
     },
     get databaseName() {
-        return `pos-self-order-${BetopiaERP.access_token}`;
+        return `pos-self-order-${betopiaerp.access_token}`;
     },
     async initializeDeviceIdentifier() {
         return false;

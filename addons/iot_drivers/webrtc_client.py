@@ -82,14 +82,14 @@ class WebRtcClient(Thread):
                         'time': time.time(),
                         'status': 'success',
                     })
-                elif message_type == "restart_BetopiaERP":
+                elif message_type == "restart_betopiaerp":
                     self.send({
                         'owner': message['session_id'],
                         'device_identifier': helpers.get_identifier(),
                         'time': time.time(),
                         'status': 'success',
                     })
-                    await self.event_loop.run_in_executor(None, helpers.BetopiaERP_restart)
+                    await self.event_loop.run_in_executor(None, helpers.betopiaerp_restart)
 
             @channel.on("close")
             def on_close():

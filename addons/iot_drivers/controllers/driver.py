@@ -31,7 +31,7 @@ class DriverController(http.Controller):
         """
         if device_identifier == helpers.get_identifier():
             match data.get('action'):
-                case "restart_BetopiaERP":
+                case "restart_betopiaerp":
                     event_manager.events.append({
                         'time': time.time(),
                         'device_identifier': device_identifier,
@@ -39,7 +39,7 @@ class DriverController(http.Controller):
                         'status': 'success',
                     })
                     time.sleep(2)  # wait for the server to catch the event before restarting
-                    return helpers.BetopiaERP_restart()
+                    return helpers.betopiaerp_restart()
                 case _:
                     # Special case for testing if longpolling protocol is working
                     return True
@@ -89,15 +89,15 @@ class DriverController(http.Controller):
         """
         Downloads the log file
         """
-        log_path = tools.config['logfile'] or "/var/log/BetopiaERP/BetopiaERP-server.log"
+        log_path = tools.config['logfile'] or "/var/log/betopiaerp/betopiaerp-server.log"
         try:
             stat = os.stat(log_path)
         except FileNotFoundError:
             raise InternalServerError("Log file has not been found. Check your Log file configuration.")
         check = adler32(log_path.encode())
-        log_file_name = f"iot-BetopiaERP-{gethostname()}-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
+        log_file_name = f"iot-betopiaerp-{gethostname()}-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
         # intentionally don't use Stream.from_path as the path used is not in the addons path
-        # for instance, for the iot-box it will be in /var/log/BetopiaERP
+        # for instance, for the iot-box it will be in /var/log/betopiaerp
         return http.Stream(
                 type='path',
                 path=log_path,

@@ -13,7 +13,7 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_html_compo
             content: "Wait for the chatter to be fully loaded",
             trigger: ".o-mail-Chatter",
             async run() {
-                const composerService = BetopiaERP.__WOWL_DEBUG__.root.env.services["mail.composer"];
+                const composerService = betopiaerp.__WOWL_DEBUG__.root.env.services["mail.composer"];
                 composerService.setHtmlComposer();
                 await contains(".o-mail-Message", { count: 1 });
             },
@@ -25,12 +25,12 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_html_compo
         },
         {
             content: "Write something in composer",
-            trigger: ".o-mail-Composer-html.BetopiaERP-editor-editable",
+            trigger: ".o-mail-Composer-html.betopiaerp-editor-editable",
             run: "editor Hello",
         },
         {
             content: "Select the text",
-            trigger: ".o-mail-Composer-html.BetopiaERP-editor-editable",
+            trigger: ".o-mail-Composer-html.betopiaerp-editor-editable",
             run: "dblclick",
         },
         {
@@ -43,7 +43,7 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_html_compo
         },
         {
             content: "The bolded text is in the composer",
-            trigger: ".o-mail-Composer-html.BetopiaERP-editor-editable strong:contains(Hello)",
+            trigger: ".o-mail-Composer-html.betopiaerp-editor-editable strong:contains(Hello)",
         },
         {
             content: "Open full composer",
@@ -56,12 +56,12 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_html_compo
         },
         {
             content: "Focus the text in full composer",
-            trigger: ".o_mail_composer_message .BetopiaERP-editor-editable",
+            trigger: ".o_mail_composer_message .betopiaerp-editor-editable",
             run: "click",
         },
         {
             content: "Select the text in full composer",
-            trigger: ".o_mail_composer_message .BetopiaERP-editor-editable",
+            trigger: ".o_mail_composer_message .betopiaerp-editor-editable",
             run: "dblclick",
         },
         {
@@ -93,7 +93,7 @@ registry.category("web_tour.tours").add("mail/static/tests/tours/mail_html_compo
         },
         {
             content: "The italicized text is in the composer",
-            trigger: ".o-mail-Composer-html.BetopiaERP-editor-editable em:contains(Hello)",
+            trigger: ".o-mail-Composer-html.betopiaerp-editor-editable em:contains(Hello)",
         },
     ],
 });

@@ -6,7 +6,7 @@
     'summary': 'Design, send and track emails',
     'version': '2.7',
     'sequence': 60,
-    'website': 'https://www.betopiaerp.com/app/email-marketing',
+    'website': 'https://www.BetopiaERP.com/app/email-marketing',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'contacts',
@@ -111,7 +111,7 @@
             'html_editor/static/src/scss/bootstrap_overridden.scss',
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/scss/animation.scss',
             'web/static/src/scss/mimetypes.scss',
             'web/static/src/scss/ui.scss',
@@ -171,6 +171,6 @@
             'mass_mailing/static/tests/mass_mailing_html_field.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

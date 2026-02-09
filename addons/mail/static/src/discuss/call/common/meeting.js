@@ -9,7 +9,7 @@ import {
     useMessageScrolling,
 } from "@mail/utils/common/hooks";
 
-import { Component, onMounted, onWillUnmount, useChildSubEnv, useSubEnv } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUnmount, useChildSubEnv, useSubEnv } from "@betopiaerp/owl";
 
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useService } from "@web/core/utils/hooks";

@@ -1,9 +1,9 @@
-import { expect, test, describe, destroy } from "@BetopiaERP/hoot";
-import { tick, Deferred } from "@BetopiaERP/hoot-mock";
-import { press } from "@BetopiaERP/hoot-dom";
+import { expect, test, describe, destroy } from "@betopiaerp/hoot";
+import { tick, Deferred } from "@betopiaerp/hoot-mock";
+import { press } from "@betopiaerp/hoot-dom";
 import { mountWithCleanup, contains, makeDialogMockEnv } from "@web/../tests/web_test_helpers";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 describe.current.tags("desktop");
 

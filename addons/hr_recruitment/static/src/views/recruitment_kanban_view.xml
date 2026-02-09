@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BetopiaERP>
+<betopiaerp>
     <t t-name="hr_recruitment.RecruitmentKanbanRenderer" t-inherit="web.KanbanRenderer" t-inherit-mode="primary">
         <ActionHelper position="replace">
             <t t-if="showNoContentHelper">
@@ -7,4 +7,4 @@
             </t>
         </ActionHelper>
     </t>
-</BetopiaERP>
+</betopiaerp>

@@ -22,6 +22,6 @@
             'pos_glory_cash/static/src/utils/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

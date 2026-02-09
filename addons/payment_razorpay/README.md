@@ -21,10 +21,10 @@ version `1`
 
 - `17.0`
   - The previous Hosted Checkout API that allowed for redirect payments is replaced by the Recurring
-    Payments API that supports direct payments and tokenization. BetopiaERP/BetopiaERP#143525
-  - OAuth support is added in addition to the credentials-based authentication. BetopiaERP/BetopiaERP#158578
+    Payments API that supports direct payments and tokenization. betopiaerp/betopiaerp#143525
+  - OAuth support is added in addition to the credentials-based authentication. betopiaerp/betopiaerp#158578
 - `16.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#92848
+  - The first version of the module is merged. betopiaerp/betopiaerp#92848
 
 ## Testing instructions
 

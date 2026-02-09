@@ -4,7 +4,7 @@ import { formatFloat } from '@web/core/utils/numbers';
 import { setElementContent } from '@web/core/utils/html';
 
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 /**
  * Addition to the variant_mixin._onChangeCombination

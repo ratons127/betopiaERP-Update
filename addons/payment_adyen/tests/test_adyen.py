@@ -313,7 +313,7 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
                 'externalPlatform': {
                     'name': 'BetopiaERP',
                     'version': release.version,
-                    'integrator': 'BetopiaERP SA',
+                    'integrator': 'BetopiaERP',
                 }
             },
         )
@@ -332,7 +332,7 @@ class AdyenTest(AdyenCommon, PaymentHttpCommon):
                 'externalPlatform': {
                     'name': 'BetopiaERP',
                     'version': release.version,
-                    'integrator': 'BetopiaERP SA',
+                    'integrator': 'BetopiaERP',
                 }
             },
         )

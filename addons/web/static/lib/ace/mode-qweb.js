@@ -14,7 +14,7 @@ define("ace/mode/qweb_highlight_rules", ["require", "exports", "module", "ace/li
             xmlRules,
             {
                 attributes: [{
-                    include: "attributes_BetopiaERP",
+                    include: "attributes_betopiaerp",
                 }, {
                     include: "attributes_qweb",
                 }, {
@@ -23,11 +23,11 @@ define("ace/mode/qweb_highlight_rules", ["require", "exports", "module", "ace/li
                     include: "attributes_sample",
                 }],
 
-                attributes_BetopiaERP: [{
-                    token: ["entity.other.attribute-name.xml.BetopiaERP", "keyword.operator.attribute-equals.xml", "text", "string.attribute-value.xml.start", "string.attribute-value.xml.code", "string.attribute-value.xml.end"],
+                attributes_betopiaerp: [{
+                    token: ["entity.other.attribute-name.xml.betopiaerp", "keyword.operator.attribute-equals.xml", "text", "string.attribute-value.xml.start", "string.attribute-value.xml.code", "string.attribute-value.xml.end"],
                     regex: '(domain|attrs|options)(=)(\\s*)(")([^"]*)(")',
                 }, {
-                    token: ["entity.other.attribute-name.xml.BetopiaERP", "keyword.operator.attribute-equals.xml", "text", "string.attribute-value.xml.start", "string.attribute-value.xml.code", "string.attribute-value.xml.end"],
+                    token: ["entity.other.attribute-name.xml.betopiaerp", "keyword.operator.attribute-equals.xml", "text", "string.attribute-value.xml.start", "string.attribute-value.xml.code", "string.attribute-value.xml.end"],
                     regex: "(domain|attrs|options)(=)(\\s*)(')([^']*)(')",
                 }],
 

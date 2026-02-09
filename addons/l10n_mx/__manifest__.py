@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mexico - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/mexico.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/mexico.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['mx'],
     'version': '2.3',
@@ -12,7 +12,7 @@ Minimal accounting configuration for Mexico.
 ============================================
 
 This Chart of account is a minimal proposal to be able to use OoB the
-accounting feature of betopiaerp.
+accounting feature of BetopiaERP.
 
 This doesn't pretend be all the localization for MX it is just the minimal
 data required to start from 0 in mexican localization.

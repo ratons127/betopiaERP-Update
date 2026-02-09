@@ -57,7 +57,7 @@ class TestSignature(TransactionCase):
 
         cls.pdf_path =  "base/tests/minimal.pdf"
 
-    def test_BetopiaERP_pdf_signer(self):
+    def test_betopiaerp_pdf_signer(self):
         fixed_time = datetime.datetime.now(datetime.timezone.utc)
         with file_open(self.pdf_path, "rb") as stream:
             out_stream = io.BytesIO()

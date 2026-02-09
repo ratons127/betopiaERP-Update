@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 
-import { registries, tokenColors, helpers } from "@BetopiaERP/o-spreadsheet";
+import { registries, tokenColors, helpers } from "@betopiaerp/o-spreadsheet";
 
 const { insertTokenAfterLeftParenthesis } = helpers;
 
@@ -32,7 +32,7 @@ registries.autoCompleteProviders.add("account_group_types", {
     getProposals(tokenAtCursor) {
         const functionContext = tokenAtCursor.functionContext;
         if (
-            functionContext?.parent.toUpperCase() === "BetopiaERP.ACCOUNT.GROUP" &&
+            functionContext?.parent.toUpperCase() === "BETOPIAERP.ACCOUNT.GROUP" &&
             functionContext.argPosition === 0
         ) {
             return ACCOUNT_TYPES.map(([technicalName, displayName]) => {

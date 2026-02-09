@@ -57,7 +57,7 @@ export class QWebPlugin extends Plugin {
     };
 
     setup() {
-        this.editable.classList.add("BetopiaERP-editor-qweb");
+        this.editable.classList.add("betopiaerp-editor-qweb");
         this.picker = this.dependencies.overlay.createOverlay(QWebPicker, {
             positionOptions: { position: "top-start" },
         });

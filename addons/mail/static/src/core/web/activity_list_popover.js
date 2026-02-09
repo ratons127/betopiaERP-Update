@@ -1,7 +1,7 @@
 import { ActivityListPopoverItem } from "@mail/core/web/activity_list_popover_item";
 import { compareDatetime } from "@mail/utils/common/misc";
 
-import { Component, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "@BetopiaERP/owl";
+import { useEffect, useState } from "@betopiaerp/owl";
 
 export function useDropdownAutoVisibility(overlayState, popoverRef) {
     if (!overlayState) {

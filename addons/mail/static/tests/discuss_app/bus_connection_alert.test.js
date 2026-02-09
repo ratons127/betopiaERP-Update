@@ -2,8 +2,8 @@ import { addBusServiceListeners, lockWebsocketConnect } from "@bus/../tests/bus_
 import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { defineMailModels, openDiscuss, start } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, runAllTimers, waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, runAllTimers, waitFor, waitForNone } from "@betopiaerp/hoot-dom";
 
 import {
     asyncStep,

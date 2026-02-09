@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { getOrigin } from "@web/core/utils/urls";
 import { click, inputFiles } from "@web/../tests/utils";
@@ -18,7 +18,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
                 if (!window.location.pathname.startsWith("/discuss/channel")) {
                     console.error("Channel secret token is still present in URL.");
                 }
-                const errors = BetopiaERP.loader.findErrors();
+                const errors = betopiaerp.loader.findErrors();
                 if (Object.keys(errors).length) {
                     console.error("Couldn't load all JS modules.", errors);
                 }
@@ -78,7 +78,7 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
             trigger: '.o-mail-AttachmentContainer:not(.o-isUploading)[title="image.png"]',
             async run({ waitFor }) {
                 /** @type {import("models").Store} */
-                const store = BetopiaERP.__WOWL_DEBUG__.root.env.services["mail.store"];
+                const store = betopiaerp.__WOWL_DEBUG__.root.env.services["mail.store"];
                 if (store.self_guest) {
                     const src = this.anchor.querySelector("img").src;
                     const attachment = store["ir.attachment"].get(

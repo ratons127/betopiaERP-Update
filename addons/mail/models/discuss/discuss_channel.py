@@ -1086,7 +1086,7 @@ class DiscussChannel(models.Model):
             }
         return {
             "type": "ir.actions.act_url",
-            "url": f"/BetopiaERP/action-mail.action_discuss?active_id={self.id}",
+            "url": f"/betopiaerp/action-mail.action_discuss?active_id={self.id}",
             "target": "self",
         }
 

@@ -1,4 +1,4 @@
-import { Component, useState, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, useState, onWillUnmount } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 export class CardLayout extends Component {

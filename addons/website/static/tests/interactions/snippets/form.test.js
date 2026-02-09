@@ -1,8 +1,8 @@
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, clear, click, fill, queryOne, setInputFiles } from "@BetopiaERP/hoot-dom";
-import { advanceTime, Deferred } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, clear, click, fill, queryOne, setInputFiles } from "@betopiaerp/hoot-dom";
+import { advanceTime, Deferred } from "@betopiaerp/hoot-mock";
 
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 

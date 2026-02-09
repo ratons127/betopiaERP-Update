@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { getCellValue } from "@spreadsheet/../tests/helpers/getters";
 import { makeSpreadsheetMockEnv } from "@spreadsheet/../tests/helpers/model";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
@@ -208,7 +208,7 @@ test("async formulas are correctly evaluated", async () => {
             {
                 id: "sheet1",
                 cells: {
-                    A1: '=BetopiaERP.CURRENCY.RATE("EUR","USD")', // an async formula
+                    A1: '=BETOPIAERP.CURRENCY.RATE("EUR","USD")', // an async formula
                 },
             },
         ],

@@ -1,6 +1,6 @@
-import { afterEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { waitFor } from "@BetopiaERP/hoot-dom";
+import { afterEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { waitFor } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineActions,

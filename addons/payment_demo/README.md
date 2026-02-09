@@ -17,15 +17,15 @@ to test applications' payment flows without API credentials nor payment method d
 ## Module history
 
 - `17.0`
-  - The support for express checkout is added. BetopiaERP/BetopiaERP#113644
+  - The support for express checkout is added. betopiaerp/betopiaerp#113644
   - The support for customer fees is removed as it is no longer supported by the `payment` module.
-    BetopiaERP/BetopiaERP#132104
+    betopiaerp/betopiaerp#132104
 - `16.3`
-  - The support for partial manual capture is added. BetopiaERP/BetopiaERP#117356
+  - The support for partial manual capture is added. betopiaerp/betopiaerp#117356
 - `16.0`
-  - The module is renamed from `payment_test` to `payment_demo`. BetopiaERP/BetopiaERP#99397
+  - The module is renamed from `payment_test` to `payment_demo`. betopiaerp/betopiaerp#99397
   - The support for manual capture, full and partial refunds, customer fees, and the selection of
-    the payment outcome are added. BetopiaERP/BetopiaERP#78083
+    the payment outcome are added. betopiaerp/betopiaerp#78083
 
 ## Testing instructions
 

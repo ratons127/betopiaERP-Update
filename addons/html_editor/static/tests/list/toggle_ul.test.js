@@ -1,5 +1,5 @@
-import { describe, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { toggleUnorderedList } from "../_helpers/user_actions";

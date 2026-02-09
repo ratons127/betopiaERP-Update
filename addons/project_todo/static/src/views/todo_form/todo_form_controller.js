@@ -1,4 +1,4 @@
-import { markup, onWillStart } from "@BetopiaERP/owl";
+import { markup, onWillStart } from "@betopiaerp/owl";
 
 import { HistoryDialog } from "@html_editor/components/history_dialog/history_dialog";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";

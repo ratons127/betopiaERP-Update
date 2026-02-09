@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
 import {
     startInteractions,
     setupInteractionWhiteList,

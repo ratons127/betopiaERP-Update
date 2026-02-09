@@ -1,7 +1,7 @@
 import { usePopover } from "@web/core/popover/popover_hook";
 import { AvatarCardPopover } from "@mail/discuss/web/avatar_card/avatar_card_popover";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class Avatar extends Component {
     static template = "mail.Avatar";

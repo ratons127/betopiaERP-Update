@@ -10,8 +10,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -446,10 +446,10 @@ test("current partner notify is typing to other thread members", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "a");
     await waitForSteps(["notify_typing:true"]);
@@ -494,11 +494,11 @@ test("current partner notify is typing again to other members for long continuou
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     await advanceTime(Store.FETCH_DATA_DEBOUNCE_DELAY);
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "a");
     await waitForSteps(["notify_typing:true"]);
@@ -537,10 +537,10 @@ test("current partner notify no longer is typing to thread members after 5 secon
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "a");
     await waitForSteps(["notify_typing:true"]);
@@ -580,10 +580,10 @@ test("current partner is typing should not translate on textual typing status", 
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "a");
     await waitForSteps(["notify_typing:true"]);
@@ -861,10 +861,10 @@ test("switching to another channel triggers notify_typing to stop", async () => 
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(chatId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "a");
     await waitForSteps(["notify_typing:true"]);

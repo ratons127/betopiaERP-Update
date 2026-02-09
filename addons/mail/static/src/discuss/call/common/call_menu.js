@@ -1,4 +1,4 @@
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 
 import { ActionList } from "@mail/core/common/action_list";
 import { useCallActions } from "@mail/discuss/call/common/call_actions";
@@ -15,7 +15,7 @@ export class CallMenu extends Component {
         super.setup();
         this.rtc = useService("discuss.rtc");
         this.callActions = useCallActions({ thread: () => this.rtc.channel });
-        this.isEnterprise = BetopiaERP.info && BetopiaERP.info.isEnterprise;
+        this.isEnterprise = betopiaerp.info && betopiaerp.info.isEnterprise;
         useSubEnv({ inCallMenu: true });
     }
 

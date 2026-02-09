@@ -4,7 +4,7 @@
     'version': '2.7',
     'sequence': 125,
     'summary': 'Manage and publish an eLearning platform',
-    'website': 'https://www.betopiaerp.com/app/elearning',
+    'website': 'https://www.BetopiaERP.com/app/elearning',
     'category': 'Website/eLearning',
     'description': """
 Create Online Courses
@@ -120,7 +120,7 @@ Featuring
             ('include', 'web._assets_bootstrap_frontend'),
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/webclient/navbar/navbar.scss',
             'web/static/src/scss/animation.scss',
             'web/static/src/scss/fontawesome_overridden.scss',
@@ -129,14 +129,14 @@ Featuring
             'web/static/src/core/color_picker/color_picker.scss',
             'web/static/src/views/fields/translation_dialog.scss',
             'web/static/src/views/fields/signature/signature_field.scss',
-            'website/static/src/libs/zoomBetopiaERP/zoombetopiaerp.scss',
+            'website/static/src/libs/zoombetopiaerp/zoombetopiaerp.scss',
 
             'web/static/src/module_loader.js',
             'web/static/src/session.js',
 
             'web/static/lib/luxon/luxon.js',
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
             'web/static/lib/jquery/jquery.js',
             'web/static/lib/popper/popper.js',
             'web/static/lib/bootstrap/js/dist/util/index.js',
@@ -167,7 +167,7 @@ Featuring
             'web/static/lib/bootstrap/js/dist/toast.js',
             'web/static/src/libs/bootstrap.js',
             'web/static/src/legacy/js/libs/jquery.js',
-            'website/static/src/libs/zoomBetopiaERP/zoombetopiaerp.js',
+            'website/static/src/libs/zoombetopiaerp/zoombetopiaerp.js',
             'web/static/src/core/**/*.js',
             'web/static/src/env.js',
             ('remove', 'web/static/src/core/emoji_picker/emoji_data.js'),
@@ -191,6 +191,6 @@ Featuring
             'website_slides/static/src/chatter/frontend/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

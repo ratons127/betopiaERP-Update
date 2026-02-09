@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class FileUploadProgressContainer extends Component {
     static template = "web.FileUploadProgressContainer";

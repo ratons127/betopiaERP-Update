@@ -1,4 +1,4 @@
-import { Component, onWillRender, xml } from "@BetopiaERP/owl";
+import { Component, onWillRender, xml } from "@betopiaerp/owl";
 import { escapeRegExp } from "@web/core/utils/strings";
 import { zip } from "@web/core/utils/arrays";
 import { useService } from "@web/core/utils/hooks";

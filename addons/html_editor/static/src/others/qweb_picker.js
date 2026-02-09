@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class QWebPicker extends Component {
     static template = "html_editor.QWebPicker";

@@ -7,12 +7,12 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { Command, serverState, withUser } from "@web/../tests/web_test_helpers";
 import { defineLivechatModels } from "./livechat_test_helpers";
 
 import { rpc } from "@web/core/network/rpc";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineLivechatModels();

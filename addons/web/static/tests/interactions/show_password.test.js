@@ -1,6 +1,6 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("web.show_password");
 

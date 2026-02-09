@@ -13,23 +13,23 @@ class MailBot(models.AbstractModel):
 
     def _apply_logic(self, channel, values, command=None):
         """ Apply bot logic to generate an answer (or not) for the user
-        The logic will only be applied if BetopiaERPbot is in a chat with a user or
-        if someone pinged BetopiaERPbot.
+        The logic will only be applied if betopiaerpbot is in a chat with a user or
+        if someone pinged betopiaerpbot.
 
-         :param channel: the discuss channel where the user message was posted/BetopiaERPbot will answer.
+         :param channel: the discuss channel where the user message was posted/betopiaerpbot will answer.
          :param values: msg_values of the message_post or other values needed by logic
          :param command: the name of the called command if the logic is not triggered by a message_post
         """
         channel.ensure_one()
-        BetopiaERPbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
-        if values.get("author_id") == BetopiaERPbot_id or values.get("message_type") != "comment" and not command:
+        betopiaerpbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
+        if values.get("author_id") == betopiaerpbot_id or values.get("message_type") != "comment" and not command:
             return
         body = values.get("body", "").replace("\xa0", " ").strip().lower().strip(".!")
         if answer := self._get_answer(channel, body, values, command):
             answers = answer if isinstance(answer, list) else [answer]
             for ans in answers:
                 channel.sudo().message_post(
-                    author_id=BetopiaERPbot_id,
+                    author_id=betopiaerpbot_id,
                     body=ans,
                     message_type="comment",
                     silent=True,
@@ -42,69 +42,69 @@ class MailBot(models.AbstractModel):
             "new_line": Markup("<br>"),
             "bold_start": Markup("<b>"),
             "bold_end": Markup("</b>"),
-            "command_start": Markup("<span class='o_BetopiaERPbot_command'>"),
+            "command_start": Markup("<span class='o_betopiaerpbot_command'>"),
             "command_end": Markup("</span>"),
-            "document_link_start": Markup("<a href='https://www.betopiaerp.com/documentation' target='_blank'>"),
+            "document_link_start": Markup("<a href='https://www.BetopiaERP.com/documentation' target='_blank'>"),
             "document_link_end": Markup("</a>"),
-            "slides_link_start": Markup("<a href='https://www.betopiaerp.com/slides' target='_blank'>"),
+            "slides_link_start": Markup("<a href='https://www.BetopiaERP.com/slides' target='_blank'>"),
             "slides_link_end": Markup("</a>"),
             "paperclip_icon": Markup("<i class='fa fa-paperclip' aria-hidden='true'/>"),
         }
 
     def _get_answer(self, channel, body, values, command=False):
-        BetopiaERPbot = self.env.ref("base.partner_root")
+        betopiaerpbot = self.env.ref("base.partner_root")
         # onboarding
-        BetopiaERPbot_state = self.env.user.BetopiaERPbot_state
+        betopiaerpbot_state = self.env.user.betopiaerpbot_state
 
-        if channel.channel_type == "chat" and BetopiaERPbot in channel.channel_member_ids.partner_id:
+        if channel.channel_type == "chat" and betopiaerpbot in channel.channel_member_ids.partner_id:
             # main flow
             source = _("Thanks")
             description = _("This is a temporary canned response to see how canned responses work.")
-            if BetopiaERPbot_state == 'onboarding_emoji' and self._body_contains_emoji(body):
-                self.env.user.BetopiaERPbot_state = "onboarding_command"
-                self.env.user.BetopiaERPbot_failed = False
+            if betopiaerpbot_state == 'onboarding_emoji' and self._body_contains_emoji(body):
+                self.env.user.betopiaerpbot_state = "onboarding_command"
+                self.env.user.betopiaerpbot_failed = False
                 return self.env._(
                     "Great! 👍%(new_line)sTo access special commands, %(bold_start)sstart your "
                     "sentence with%(bold_end)s %(command_start)s/%(command_end)s. Try getting "
                     "help.",
                     **self._get_style_dict()
                 )
-            elif BetopiaERPbot_state == 'onboarding_command' and command == 'help':
-                self.env.user.BetopiaERPbot_state = "onboarding_ping"
-                self.env.user.BetopiaERPbot_failed = False
+            elif betopiaerpbot_state == 'onboarding_command' and command == 'help':
+                self.env.user.betopiaerpbot_state = "onboarding_ping"
+                self.env.user.betopiaerpbot_failed = False
                 return self.env._(
                     "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
                     "attention. %(bold_start)sTry to ping me using%(bold_end)s "
                     "%(command_start)s@BetopiaERPBot%(command_end)s in a sentence.",
                     **self._get_style_dict()
                 )
-            elif BetopiaERPbot_state == "onboarding_ping" and BetopiaERPbot.id in values.get("partner_ids", []):
-                self.env.user.BetopiaERPbot_state = "onboarding_attachement"
-                self.env.user.BetopiaERPbot_failed = False
+            elif betopiaerpbot_state == "onboarding_ping" and betopiaerpbot.id in values.get("partner_ids", []):
+                self.env.user.betopiaerpbot_state = "onboarding_attachement"
+                self.env.user.betopiaerpbot_failed = False
                 return self.env._(
                     "Yep, I am here! 🎉 %(new_line)sNow, try %(bold_start)ssending an "
                     "attachment%(bold_end)s, like a picture of your cute dog...",
                     **self._get_style_dict()
                 )
-            elif BetopiaERPbot_state == "onboarding_attachement" and values.get("attachment_ids"):
+            elif betopiaerpbot_state == "onboarding_attachement" and values.get("attachment_ids"):
                 self.env["mail.canned.response"].create({
                     "source": source,
                     "substitution": _("Thanks for your feedback. Goodbye!"),
                 })
-                self.env.user.BetopiaERPbot_failed = False
-                self.env.user.BetopiaERPbot_state = "onboarding_canned"
+                self.env.user.betopiaerpbot_failed = False
+                self.env.user.betopiaerpbot_state = "onboarding_canned"
                 return self.env._(
                     "Wonderful! 😇%(new_line)sTry typing %(command_start)s::%(command_end)s to use "
                     "canned responses. I've created a temporary one for you.",
                     **self._get_style_dict()
                 )
-            elif BetopiaERPbot_state == "onboarding_canned" and self.env.context.get("canned_response_ids"):
+            elif betopiaerpbot_state == "onboarding_canned" and self.env.context.get("canned_response_ids"):
                 self.env["mail.canned.response"].search([
                     ("create_uid", "=", self.env.user.id),
                     ("source", "=", source),
                 ]).unlink()
-                self.env.user.BetopiaERPbot_failed = False
-                self.env.user.BetopiaERPbot_state = "idle"
+                self.env.user.betopiaerpbot_failed = False
+                self.env.user.betopiaerpbot_state = "idle"
                 return [
                     self.env._(
                         "Great! You can customize %(bold_start)scanned responses%(bold_end)s in the Discuss app.",
@@ -117,23 +117,23 @@ class MailBot(models.AbstractModel):
                     ),
                 ]
             # repeat question if needed
-            elif BetopiaERPbot_state == 'onboarding_canned' and not self._is_help_requested(body):
-                self.env.user.BetopiaERPbot_failed = True
+            elif betopiaerpbot_state == 'onboarding_canned' and not self._is_help_requested(body):
+                self.env.user.betopiaerpbot_failed = True
                 return self.env._(
                     "Not sure what you are doing. Please, type %(command_start)s:%(command_end)s "
                     "and wait for the propositions. Select one of them and press enter.",
                     **self._get_style_dict()
                 )
-            elif BetopiaERPbot_state in (False, "idle", "not_initialized") and (_('start the tour') in body.lower()):
-                self.env.user.BetopiaERPbot_state = "onboarding_emoji"
+            elif betopiaerpbot_state in (False, "idle", "not_initialized") and (_('start the tour') in body.lower()):
+                self.env.user.betopiaerpbot_state = "onboarding_emoji"
                 return _("To start, try to send me an emoji :)")
             # easter eggs
-            elif BetopiaERPbot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
+            elif betopiaerpbot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
                 return _("Aaaaaw that's really cute but, you know, bots don't work that way. You're too human for me! Let's keep it professional ❤️")
             elif _('fuck') in body or "fuck" in body:
                 return _("That's not nice! I'm a bot but I have feelings... 💔")
             # help message
-            elif self._is_help_requested(body) or BetopiaERPbot_state == 'idle':
+            elif self._is_help_requested(body) or betopiaerpbot_state == 'idle':
                 return self.env._(
                     "Unfortunately, I'm just a bot 😞 I don't understand! If you need help "
                     "discovering our product, please check %(document_link_start)sour "
@@ -143,31 +143,31 @@ class MailBot(models.AbstractModel):
                 )
             else:
                 # repeat question
-                if BetopiaERPbot_state == 'onboarding_emoji':
-                    self.env.user.BetopiaERPbot_failed = True
+                if betopiaerpbot_state == 'onboarding_emoji':
+                    self.env.user.betopiaerpbot_failed = True
                     return self.env._(
                         "Not exactly. To continue the tour, send an emoji:"
                         " %(bold_start)stype%(bold_end)s%(command_start)s :)%(command_end)s and "
                         "press enter.",
                         **self._get_style_dict()
                     )
-                elif BetopiaERPbot_state == 'onboarding_attachement':
-                    self.env.user.BetopiaERPbot_failed = True
+                elif betopiaerpbot_state == 'onboarding_attachement':
+                    self.env.user.betopiaerpbot_failed = True
                     return self.env._(
                         "To %(bold_start)ssend an attachment%(bold_end)s, click on the "
                         "%(paperclip_icon)s icon and select a file.",
                         **self._get_style_dict()
                     )
-                elif BetopiaERPbot_state == 'onboarding_command':
-                    self.env.user.BetopiaERPbot_failed = True
+                elif betopiaerpbot_state == 'onboarding_command':
+                    self.env.user.betopiaerpbot_failed = True
                     return self.env._(
                         "Not sure what you are doing. Please, type "
                         "%(command_start)s/%(command_end)s and wait for the propositions."
                         " Select %(command_start)shelp%(command_end)s and press enter.",
                         **self._get_style_dict()
                     )
-                elif BetopiaERPbot_state == 'onboarding_ping':
-                    self.env.user.BetopiaERPbot_failed = True
+                elif betopiaerpbot_state == 'onboarding_ping':
+                    self.env.user.betopiaerpbot_failed = True
                     return self.env._(
                         "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
                         "him%(bold_end)s. Write %(command_start)s@BetopiaERPBot%(command_end)s and select"
@@ -330,4 +330,4 @@ class MailBot(models.AbstractModel):
         """Returns whether a message linking to the documentation and videos
         should be sent back to the user.
         """
-        return any(token in body for token in ['help', _('help'), '?']) or self.env.user.BetopiaERPbot_failed
+        return any(token in body for token in ['help', _('help'), '?']) or self.env.user.betopiaerpbot_failed

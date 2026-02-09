@@ -2,8 +2,8 @@
 # This file contains the translation of the following modules:
 # * sms_twilio
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Manon Rondou (ronm)" <ronm@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -11,8 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-12-03 10:34+0000\n"
-"Last-Translator: \"Manon Rondou (ronm)\" <ronm@BetopiaERP.com>\n"
-"Language-Team: French <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@betopiaerp.com>\n"
+"Language-Team: French <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "sms_twilio/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -22,13 +22,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s : %(failure_reason)s"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
 msgstr "Les numéros destinataire et expéditeur ne peuvent pas être identiques"
@@ -39,13 +39,13 @@ msgid "+1 555-123-4567"
 msgstr "+1 555-123-4567"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'From' number is required to send a message"
 msgstr "Un numéro d’expéditeur est requis pour envoyer un message"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'To' phone number is required"
 msgstr "Un numéro de téléphone destinataire est requis"
@@ -62,7 +62,7 @@ msgid "Account SID"
 msgstr "SID du compte"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "An error occurred while fetching the numbers."
 msgstr "Une erreur est survenue lors de la récupération des numéros."
@@ -151,7 +151,7 @@ msgid "Display Name"
 msgstr "Nom d'affichage"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
 msgstr "Erreur : %s"
@@ -191,7 +191,7 @@ msgid "Incorrect callback URL"
 msgstr "URL de rappel incorrecte"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must only contain alphanumeric characters after "
@@ -201,7 +201,7 @@ msgstr ""
 "alphanumériques après 'AC'."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must start with 'AC' and be 34 characters long."
@@ -227,7 +227,7 @@ msgid "Link SMS to mailing/sms tracking models"
 msgstr "Lier le SMS aux modèles de suivi mailing/sms"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Manage Twilio SMS"
@@ -271,7 +271,7 @@ msgid "Phone Numbers"
 msgstr "Numéros de téléphone"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Please set the number to which you want to send a test SMS."
 msgstr ""
@@ -334,31 +334,31 @@ msgstr ""
 "Utilisez ce champ pour une recherche rapide."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "The SMS has been sent from %s"
 msgstr "Le SMS a été envoyé depuis %s"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr "Le numéro que vous essayez de joindre n’est pas correctement formaté"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "This is a test SMS from BetopiaERP"
 msgstr "Ceci est un SMS de test d'BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Trial Account Limitation"
 msgstr "Limitation du compte d’essai"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio Authentication Error"
 msgstr "Erreur d’authentification Twilio"
@@ -370,7 +370,7 @@ msgid "Twilio Number"
 msgstr "Numéro Twilio"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Twilio SMS"
 msgstr "SMS Twilio"
@@ -387,25 +387,25 @@ msgid "Twilio SMS SID"
 msgstr "SID SMS Twilio"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio StatusCallback URL is incorrect"
 msgstr "L’URL Twilio StatusCallback est incorrecte"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown error, please contact BetopiaERP support"
 msgstr "Erreur inconnue, veuillez contacter le support BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown failure at sending, please contact BetopiaERP support"
 msgstr "Échec inconnu lors de l’envoi, veuillez contacter le support BetopiaERP"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
 msgstr "Destinataire non vérifié sur le compte d’essai"

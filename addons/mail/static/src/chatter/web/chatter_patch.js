@@ -12,7 +12,7 @@ import { RecipientsInput } from "@mail/core/web/recipients_input";
 import { SearchMessageInput } from "@mail/core/common/search_message_input";
 import { SearchMessageResult } from "@mail/core/common/search_message_result";
 import { KeepLast } from "@web/core/utils/concurrency";
-import { status, useEffect } from "@BetopiaERP/owl";
+import { status, useEffect } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { browser } from "@web/core/browser/browser";

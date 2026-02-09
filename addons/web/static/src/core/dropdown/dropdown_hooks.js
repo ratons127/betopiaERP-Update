@@ -1,4 +1,4 @@
-import { useEnv, useState } from "@BetopiaERP/owl";
+import { useEnv, useState } from "@betopiaerp/owl";
 import { DROPDOWN_NESTING } from "@web/core/dropdown/_behaviours/dropdown_nesting";
 import { Reactive } from "@web/core/utils/reactive";
 

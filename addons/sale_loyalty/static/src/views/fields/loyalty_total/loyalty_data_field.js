@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
-import { Component, onWillRender, toRaw } from "@BetopiaERP/owl";
+import { Component, onWillRender, toRaw } from "@betopiaerp/owl";
 
 export class LoyaltyDataField extends Component {
     static template = "sale_loyalty.LoyaltyDataField";

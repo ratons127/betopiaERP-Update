@@ -1,4 +1,4 @@
-import { Component, useState, useRef } from "@BetopiaERP/owl";
+import { Component, useState, useRef } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { useSelfOrder } from "@pos_self_order/app/services/self_order_service";
 import { PopupTable } from "@pos_self_order/app/components/popup_table/popup_table";

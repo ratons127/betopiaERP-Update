@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { formatCurrency } from "@web/core/currency";
 import { BadgeExtraPrice } from "../badge_extra_price/badge_extra_price";
 import { getSelectedCustomPtav } from "../sale_utils";

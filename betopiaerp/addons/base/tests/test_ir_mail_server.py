@@ -364,16 +364,16 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
         "smtp_server": "example.com",
     })
     def test_mail_server_config_bin(self):
-        """ Test the configuration provided in the BetopiaERP-bin arguments. This config
+        """ Test the configuration provided in the betopiaerp-bin arguments. This config
         is used when no mail server exists. Test with and without giving a
         pre-configured SMTP session, should not impact results.
 
         Also check "mail.default.from_filter" parameter usage that should overwrite
-        BetopiaERP-bin argument "--from-filter".
+        betopiaerp-bin argument "--from-filter".
         """
         IrMailServer = self.env['ir.mail_server']
 
-        # Remove all mail server so we will use the BetopiaERP-bin arguments
+        # Remove all mail server so we will use the betopiaerp-bin arguments
         IrMailServer.search([]).unlink()
         self.assertFalse(IrMailServer.search([]))
 
@@ -435,7 +435,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
     @patch.dict(config.options, {'from_filter': 'fake.com', 'smtp_server': 'cli_example.com'})
     def test_mail_server_config_cli(self):
         """ Test the mail server configuration when the "smtp_authentication" is
-        "cli". It should take the configuration from the BetopiaERP-bin argument. The
+        "cli". It should take the configuration from the betopiaerp-bin argument. The
         "from_filter" of the mail server should overwrite the one set in the CLI
         arguments.
         """
@@ -453,7 +453,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
 
         for mail_from, (expected_smtp_from, expected_msg_from, expected_mail_server) in zip(
             [
-                # check that the CLI server take the configuration in the BetopiaERP-bin argument
+                # check that the CLI server take the configuration in the betopiaerp-bin argument
                 # except the from_filter which is taken on the mail server
                 'test@cli_example.com',
                 # other mail servers still work

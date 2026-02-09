@@ -1,6 +1,6 @@
 // @ts-check
 
-import { registries, helpers, constants, EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { registries, helpers, constants, EvaluationError } from "@betopiaerp/o-spreadsheet";
 import { deserializeDate } from "@web/core/l10n/dates";
 import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
@@ -63,7 +63,7 @@ function boundedBetopiaERPNumberDateAdapter(lower, upper) {
     };
 }
 
-const BetopiaERPDayAdapter = {
+const betopiaerpDayAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         const serverDayValue = getGroupStartingDay(field, groupBy, readGroupResult);
         return toNumber(serverDayValue, DEFAULT_LOCALE);
@@ -78,7 +78,7 @@ const weekInputRegex = /\d{1,2}\/\d{4}/;
 /**
  * Normalized value: "2/2023" for week 2 of 2023
  */
-const BetopiaERPWeekAdapter = {
+const betopiaerpWeekAdapter = {
     normalizeFunctionValue(value) {
         if (!weekInputRegex.test(value)) {
             const example = `"52/${DateTime.now().year}"`;
@@ -120,7 +120,7 @@ const BetopiaERPWeekAdapter = {
  * normalized month value is a string formatted as "MM/yyyy" (luxon format)
  * e.g. "01/2020" for January 2020
  */
-const BetopiaERPMonthAdapter = {
+const betopiaerpMonthAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         const firstOfTheMonth = getGroupStartingDay(field, groupBy, readGroupResult);
         const date = deserializeDate(firstOfTheMonth).reconfigure({ numberingSystem: "latn" });
@@ -139,7 +139,7 @@ const NORMALIZED_QUARTER_REGEXP = /^[1-4]\/\d{4}$/;
  * normalized quarter value is "quarter/year"
  * e.g. "1/2020" for Q1 2020
  */
-const BetopiaERPQuarterAdapter = {
+const betopiaerpQuarterAdapter = {
     normalizeFunctionValue(value) {
         // spreadsheet normally interprets "4/2020" as the 1st April
         // but it should be understood as a quarter here.
@@ -172,7 +172,7 @@ const BetopiaERPQuarterAdapter = {
     },
 };
 
-const BetopiaERPYearAdapter = {
+const betopiaerpYearAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         const value = readGroupResult[groupBy];
         return Array.isArray(value) ? Number(value[1]) : false;
@@ -182,7 +182,7 @@ const BetopiaERPYearAdapter = {
     },
 };
 
-const BetopiaERPDayOfWeekAdapter = {
+const betopiaerpDayOfWeekAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult, locale) {
         const fromLocaleIsZero = (7 - locale.weekStart + Number(readGroupResult[groupBy])) % 7;
         return fromLocaleIsZero + 1; // 1-based
@@ -192,7 +192,7 @@ const BetopiaERPDayOfWeekAdapter = {
     },
 };
 
-const BetopiaERPHourNumberAdapter = {
+const betopiaerpHourNumberAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         return Number(readGroupResult[groupBy]);
     },
@@ -200,7 +200,7 @@ const BetopiaERPHourNumberAdapter = {
         return (normalizedValue + step) % 24;
     },
 };
-const BetopiaERPMinuteNumberAdapter = {
+const betopiaerpMinuteNumberAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         return Number(readGroupResult[groupBy]);
     },
@@ -208,7 +208,7 @@ const BetopiaERPMinuteNumberAdapter = {
         return (normalizedValue + step) % 60;
     },
 };
-const BetopiaERPSecondNumberAdapter = {
+const betopiaerpSecondNumberAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
         return Number(readGroupResult[groupBy]);
     },
@@ -272,20 +272,20 @@ function extendSpreadsheetAdapter(granularity, adapter) {
     );
 }
 
-pivotTimeAdapterRegistry.add("week", falseHandlerDecorator(BetopiaERPWeekAdapter));
-pivotTimeAdapterRegistry.add("quarter", falseHandlerDecorator(BetopiaERPQuarterAdapter));
+pivotTimeAdapterRegistry.add("week", falseHandlerDecorator(betopiaerpWeekAdapter));
+pivotTimeAdapterRegistry.add("quarter", falseHandlerDecorator(betopiaerpQuarterAdapter));
 
-extendSpreadsheetAdapter("day", BetopiaERPDayAdapter);
-extendSpreadsheetAdapter("year", BetopiaERPYearAdapter);
+extendSpreadsheetAdapter("day", betopiaerpDayAdapter);
+extendSpreadsheetAdapter("year", betopiaerpYearAdapter);
 extendSpreadsheetAdapter("day_of_month", boundedBetopiaERPNumberDateAdapter(1, 31));
 extendSpreadsheetAdapter("iso_week_number", boundedBetopiaERPNumberDateAdapter(0, 54));
 extendSpreadsheetAdapter("month_number", boundedBetopiaERPNumberDateAdapter(1, 12));
 extendSpreadsheetAdapter("quarter_number", boundedBetopiaERPNumberDateAdapter(1, 4));
-extendSpreadsheetAdapter("day_of_week", BetopiaERPDayOfWeekAdapter);
-extendSpreadsheetAdapter("hour_number", BetopiaERPHourNumberAdapter);
-extendSpreadsheetAdapter("minute_number", BetopiaERPMinuteNumberAdapter);
-extendSpreadsheetAdapter("second_number", BetopiaERPSecondNumberAdapter);
-extendSpreadsheetAdapter("month", BetopiaERPMonthAdapter);
+extendSpreadsheetAdapter("day_of_week", betopiaerpDayOfWeekAdapter);
+extendSpreadsheetAdapter("hour_number", betopiaerpHourNumberAdapter);
+extendSpreadsheetAdapter("minute_number", betopiaerpMinuteNumberAdapter);
+extendSpreadsheetAdapter("second_number", betopiaerpSecondNumberAdapter);
+extendSpreadsheetAdapter("month", betopiaerpMonthAdapter);
 
 /**
  * When grouping by a time field, return

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Dropzone } from "@web/core/dropzone/dropzone";
 
 export class MailAttachmentDropzone extends Component {

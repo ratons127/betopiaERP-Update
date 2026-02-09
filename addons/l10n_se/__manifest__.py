@@ -1,17 +1,17 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Sweden - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['se'],
     'version': '1.1',
-    'author': 'XCLUDE, BetopiaERP S.A.',
+    'author': 'XCLUDE, BetopiaERP',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Swedish Accounting
 ------------------
 
-This is the base module to manage the accounting chart for Sweden in betopiaerp.
+This is the base module to manage the accounting chart for Sweden in BetopiaERP.
 It also includes the invoice OCR payment reference handling.
     """,
     'depends': [

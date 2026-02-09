@@ -17,8 +17,8 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, mockUserAgent } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -84,7 +84,7 @@ test("counter is taking into account failure notification", async () => {
 test("rendering with chat push notification default permissions", async () => {
     patchBrowserNotification("default");
     const pyEnv = await startServer();
-    const [BetopiaERPbot] = pyEnv["res.partner"].read(serverState.BetopiaERPbotId);
+    const [betopiaerpbot] = pyEnv["res.partner"].read(serverState.betopiaerpbotId);
     await start();
     await contains(".o-mail-MessagingMenu-counter");
     await contains(".o-mail-MessagingMenu-counter", { text: "1" });
@@ -92,8 +92,8 @@ test("rendering with chat push notification default permissions", async () => {
     await contains(".o-mail-NotificationItem");
     await contains(
         `.o-mail-NotificationItem img[data-src='${getOrigin()}/web/image/res.partner/${
-            serverState.BetopiaERPbotId
-        }/avatar_128?unique=${deserializeDateTime(BetopiaERPbot.write_date).ts}']`
+            serverState.betopiaerpbotId
+        }/avatar_128?unique=${deserializeDateTime(betopiaerpbot.write_date).ts}']`
     );
     await contains(".o-mail-NotificationItem", { text: "Turn on notifications" });
 });
@@ -175,7 +175,7 @@ test("rendering with PWA installation request", async () => {
         },
     });
     const pyEnv = await startServer();
-    const [BetopiaERPbot] = pyEnv["res.partner"].read(serverState.BetopiaERPbotId);
+    const [betopiaerpbot] = pyEnv["res.partner"].read(serverState.betopiaerpbotId);
     await start();
     mockService("pwa", {
         show() {
@@ -192,8 +192,8 @@ test("rendering with PWA installation request", async () => {
     await contains(".o-mail-NotificationItem");
     await contains(
         `.o-mail-NotificationItem img[data-src='${getOrigin()}/web/image/res.partner/${
-            serverState.BetopiaERPbotId
-        }/avatar_128?unique=${deserializeDateTime(BetopiaERPbot.write_date).ts}']`
+            serverState.betopiaerpbotId
+        }/avatar_128?unique=${deserializeDateTime(betopiaerpbot.write_date).ts}']`
     );
     await contains(".o-mail-NotificationItem-name", { text: "Install BetopiaERP" });
     await contains(".o-mail-NotificationItem-text", {
@@ -237,7 +237,7 @@ test("installation of the PWA request can be dismissed", async () => {
     await click(".o-mail-NotificationItem .oi-close");
     await waitForSteps([
         "getItem pwaService.installationState",
-        'installationState value:  {"/BetopiaERP":"dismissed"}',
+        'installationState value:  {"/betopiaerp":"dismissed"}',
     ]);
     await click(".o_menu_systray i[aria-label='Messages']");
     await contains(".o-mail-NotificationItem", { count: 0 });
@@ -252,7 +252,7 @@ test("rendering with PWA installation request (dismissed)", async () => {
             if (key === "pwaService.installationState") {
                 asyncStep("getItem " + key);
                 // in this test, installation has been previously dismissed by the user
-                return `{"/BetopiaERP":"dismissed"}`;
+                return `{"/betopiaerp":"dismissed"}`;
             }
             return super.getItem(key);
         },
@@ -698,7 +698,7 @@ test("chat preview should not display correspondent name in body", async () => {
     // DM chat with demo, the conversation is named "Demo" and body is simply message content
     // not prefix like "Demo:"
     const pyEnv = await startServer();
-    const partnerId = pyEnv["res.partner"].create({ name: "Demo", email: "demo@BetopiaERP.com" });
+    const partnerId = pyEnv["res.partner"].create({ name: "Demo", email: "demo@betopiaerp.com" });
     const userId = pyEnv["res.users"].create({ partner_id: partnerId });
     const channelId = pyEnv["discuss.channel"].create({
         channel_type: "chat",
@@ -840,7 +840,7 @@ test("click on preview should mark as read and open the thread", async () => {
     const messageId = pyEnv["mail.message"].create({
         model: "res.partner",
         body: "not empty",
-        author_id: serverState.BetopiaERPbotId,
+        author_id: serverState.betopiaerpbotId,
         needaction: true,
         res_id: partnerId,
     });

@@ -1,10 +1,10 @@
 // This module makes it so that some errors only display a notification instead of an error dialog
 
 import { registry } from "@web/core/registry";
-import { BetopiaERPExceptionTitleMap } from "@web/core/errors/error_dialogs";
+import { betopiaerpExceptionTitleMap } from "@web/core/errors/error_dialogs";
 import { _t } from "@web/core/l10n/translation";
 
-BetopiaERPExceptionTitleMap.forEach((title, exceptionName) => {
+betopiaerpExceptionTitleMap.forEach((title, exceptionName) => {
     registry.category("error_notifications").add(exceptionName, {
         title: title,
         type: "warning",
@@ -26,7 +26,7 @@ const sessionExpired = {
 
 registry
     .category("error_notifications")
-    .add("BetopiaERP.http.SessionExpiredException", sessionExpired)
+    .add("betopiaerp.http.SessionExpiredException", sessionExpired)
     .add("werkzeug.exceptions.Forbidden", sessionExpired)
     .add("504", {
         title: _t("Request timeout"),

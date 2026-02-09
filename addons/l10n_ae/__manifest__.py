@@ -1,8 +1,8 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'United Arab Emirates - Accounting',
-    'author': 'BetopiaERP S.A.',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/united_arab_emirates.html',
+    'author': 'BetopiaERP',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/united_arab_emirates.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ae'],
     'category': 'Accounting/Localizations/Account Charts',

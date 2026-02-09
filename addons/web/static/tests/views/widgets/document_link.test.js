@@ -5,8 +5,8 @@ import {
     mountView,
     mountWithCleanup,
 } from "@web/../tests/web_test_helpers";
-import { Component, xml } from "@BetopiaERP/owl";
-import { expect, test } from "@BetopiaERP/hoot";
+import { Component, xml } from "@betopiaerp/owl";
+import { expect, test } from "@betopiaerp/hoot";
 import { DocumentationLink } from "@web/views/widgets/documentation_link/documentation_link";
 
 class Partner extends models.Model {

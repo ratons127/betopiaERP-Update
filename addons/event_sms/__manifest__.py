@@ -19,6 +19,6 @@
             'event_sms/static/src/template_reference_field/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

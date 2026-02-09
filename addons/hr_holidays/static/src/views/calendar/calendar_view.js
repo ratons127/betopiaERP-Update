@@ -7,7 +7,7 @@ import { TimeOffCalendarRenderer, TimeOffDashboardCalendarRenderer } from './cal
 import { registry } from '@web/core/registry';
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 class TimeOffCalendarControllerHrLeave extends TimeOffCalendarController {
     setup() {

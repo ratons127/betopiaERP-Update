@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 import {
     formatXml,
     getActiveElement,
@@ -90,13 +90,13 @@ import { Test } from "./test";
  * @typedef {import("../hoot_utils").DeepEqualOptions} DeepEqualOptions
  * @typedef {import("../hoot_utils").Label} Label
  *
- * @typedef {import("@BetopiaERP/hoot-dom").Dimensions} Dimensions
- * @typedef {import("@BetopiaERP/hoot-dom").FormatXmlOptions} FormatXmlOptions
+ * @typedef {import("@betopiaerp/hoot-dom").Dimensions} Dimensions
+ * @typedef {import("@betopiaerp/hoot-dom").FormatXmlOptions} FormatXmlOptions
  * @typedef {import("@web/../lib/hoot-dom/hoot_dom_utils").InteractionDetails} InteractionDetails
  * @typedef {import("@web/../lib/hoot-dom/hoot_dom_utils").InteractionType} InteractionType
- * @typedef {import("@BetopiaERP/hoot-dom").QueryRectOptions} QueryRectOptions
- * @typedef {import("@BetopiaERP/hoot-dom").QueryTextOptions} QueryTextOptions
- * @typedef {import("@BetopiaERP/hoot-dom").Target} Target
+ * @typedef {import("@betopiaerp/hoot-dom").QueryRectOptions} QueryRectOptions
+ * @typedef {import("@betopiaerp/hoot-dom").QueryTextOptions} QueryTextOptions
+ * @typedef {import("@betopiaerp/hoot-dom").Target} Target
  */
 
 /**
@@ -2040,7 +2040,7 @@ export class Matcher {
      * @example
      *  expect("p").toHaveText("lorem ipsum dolor sit amet");
      * @example
-     *  expect("header h1").toHaveText(/BetopiaERP/i);
+     *  expect("header h1").toHaveText(/betopiaerp/i);
      */
     toHaveText(text, options) {
         this._ensureArguments(arguments, ["string", "regex", null]);

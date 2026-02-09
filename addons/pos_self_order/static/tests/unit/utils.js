@@ -45,8 +45,8 @@ export const setupSelfPosEnv = async (
     pay_after = "each"
 ) => {
     // Do not change these variables, they are in accordance with the setup data
-    BetopiaERP.access_token = uuidv4();
-    BetopiaERP.info = {
+    betopiaerp.access_token = uuidv4();
+    betopiaerp.info = {
         isEnterprise: true,
     };
     patchWithCleanup(session, {

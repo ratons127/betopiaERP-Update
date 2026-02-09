@@ -35,6 +35,6 @@ The actual till still requires one user but an unlimited number of employees can
             'pos_hr/static/tests/unit/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

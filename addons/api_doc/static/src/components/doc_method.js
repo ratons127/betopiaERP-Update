@@ -1,4 +1,4 @@
-import { Component, useState, markup } from "@BetopiaERP/owl";
+import { Component, useState, markup } from "@betopiaerp/owl";
 import { DocRequest } from "@api_doc/components/doc_request";
 import { DocTable, TABLE_TYPES } from "@api_doc/components/doc_table";
 import { getParameterDefaultValue } from "@api_doc/utils/doc_model_utils";

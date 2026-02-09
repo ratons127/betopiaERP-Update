@@ -1,4 +1,4 @@
-import { Spreadsheet, components } from "@BetopiaERP/o-spreadsheet";
+import { Spreadsheet, components } from "@betopiaerp/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
 import { useSpreadsheetCommandPalette } from "./command_provider";
 

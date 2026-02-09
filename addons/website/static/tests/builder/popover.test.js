@@ -1,6 +1,6 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { expandToolbar } from "@html_editor/../tests/_helpers/toolbar";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     click,
     pointerDown,
@@ -11,10 +11,10 @@ import {
     waitFor,
     waitForNone,
     waitUntil,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import { defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 
 defineWebsiteModels();

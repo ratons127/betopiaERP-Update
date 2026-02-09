@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { stores } from "@BetopiaERP/o-spreadsheet";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { stores } from "@betopiaerp/o-spreadsheet";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { makeStore } from "@spreadsheet/../tests/helpers/stores";
 
@@ -9,10 +9,10 @@ defineSpreadsheetModels();
 
 const { CellComposerStore } = stores;
 
-test("BetopiaERP.ACCOUNT.GROUP type", async function () {
+test("BETOPIAERP.ACCOUNT.GROUP type", async function () {
     const { store: composer } = await makeStore(CellComposerStore);
 
-    composer.startEdition("=BetopiaERP.ACCOUNT.GROUP(");
+    composer.startEdition("=BETOPIAERP.ACCOUNT.GROUP(");
     await animationFrame();
     const proposals = composer.autoCompleteProposals;
     expect(proposals.map((p) => p.text)).toEqual([
@@ -37,6 +37,6 @@ test("BetopiaERP.ACCOUNT.GROUP type", async function () {
     ]);
     composer.insertAutoCompleteValue(proposals[0].text);
     await animationFrame();
-    expect(composer.currentContent).toBe('=BetopiaERP.ACCOUNT.GROUP("asset_receivable"');
+    expect(composer.currentContent).toBe('=BETOPIAERP.ACCOUNT.GROUP("asset_receivable"');
     expect(composer.isAutoCompleteDisplayed).toBe(false);
 });

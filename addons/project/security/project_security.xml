@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <record model="res.groups.privilege" id="res_groups_privilege_project">
         <field name="name">Project</field>
@@ -225,7 +225,9 @@
             ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),
             ('active', '=', True),
             '|',
-                ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+                '&amp;',
+                    ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+                    ('project_id.collaborator_ids.partner_id', 'in', [user.partner_id.id]),
                 ('project_id.collaborator_ids', 'any', [
                     ('partner_id', '=', user.partner_id.id),
                     ('limited_access', '=', False),
@@ -361,4 +363,4 @@
     </record>
 
 </data>
-</BetopiaERP>
+</betopiaerp>

@@ -187,7 +187,7 @@ class TestRoutes(HttpCaseWithUserDemo, TestWebsiteEventSaleCommon, PaymentHttpCo
         }
 
         # Payment should fail due to exceeding the VIP ticket limit
-        with self.assertRaisesRegex(JsonRpcException, r'BetopiaERP\.exceptions\.ValidationError'):
+        with self.assertRaisesRegex(JsonRpcException, r'betopiaerp\.exceptions\.ValidationError'):
             self.make_jsonrpc_request(url, route_kwargs)
         # Double check that we hit the correct limit for ticket
         with self.assertRaises(ValidationError):
@@ -219,7 +219,7 @@ class TestRoutes(HttpCaseWithUserDemo, TestWebsiteEventSaleCommon, PaymentHttpCo
         self.assertEqual(self.event.seats_available, 1)
 
         # Payment should fail due to exceeding the event seat limit
-        with self.assertRaisesRegex(JsonRpcException, r'BetopiaERP\.exceptions\.ValidationError'):
+        with self.assertRaisesRegex(JsonRpcException, r'betopiaerp\.exceptions\.ValidationError'):
             self.make_jsonrpc_request(url, route_kwargs)
         # Double check that we hit the correct limit for event
         with self.assertRaises(ValidationError):

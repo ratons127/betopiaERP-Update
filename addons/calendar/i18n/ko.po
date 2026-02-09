@@ -6,16 +6,16 @@
 # Sarah Park, 2023
 # Martin Trigaux, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2026-01-05 04:32+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/calendar/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/calendar/"
 "ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "# Meetings"
 msgstr "# 회의"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "%(date_start)s at %(time_start)s To\n"
@@ -41,19 +41,19 @@ msgstr ""
 "%(time_end)s (%(timezone)s)의 %(date_end)s로"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
 msgstr "(%(start)s 에서 %(end)s) (%(timezone)s)에서 %(day)s"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has accepted the invitation"
 msgstr "%s님이 초대를 수락했습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has declined the invitation"
 msgstr "%s님이 초대를 거부했습니다."
@@ -1112,7 +1112,7 @@ msgid ""
 msgstr "미리 알림용으로 알림과 함께 전송되는 추가 메시지"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/activity/activity_menu_patch.xml:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__allday
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
@@ -1120,13 +1120,13 @@ msgid "All Day"
 msgstr "하루 종일"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "All Day, %(day)s"
 msgstr "하루 종일, %(day)s"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__all_events
 msgid "All events"
@@ -1196,7 +1196,7 @@ msgid "Body content is the same as the template"
 msgstr "본문 내용은 서식과 동일합니다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__availability__busy
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__show_as__busy
@@ -1211,7 +1211,7 @@ msgid "By day"
 msgstr "일별"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "Bye-bye, record!"
 msgstr "안녕, 기록!"
@@ -1383,19 +1383,19 @@ msgid "Configuration"
 msgstr "설정"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Confirm"
 msgstr "승인"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/components/calendar_provider_config/calendar_connect_provider.xml:0
 msgid "Connect"
 msgstr "연결"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.js:0
 msgid "Connect your Calendar"
 msgstr "캘린더 연계"
@@ -1406,13 +1406,13 @@ msgid "Contact"
 msgstr "연락처"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Attendees"
 msgstr "참석자 문의"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Details"
 msgstr "연락처 상세 내용"
@@ -1534,7 +1534,7 @@ msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr "캘린더 이벤트가 표시되는 기본 개인정보 보호 설정입니다."
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_popover_delete_wizard__delete
 #: model_terms:ir.ui.view,arch_db:calendar.view_event_delete_wizard_form
@@ -1542,7 +1542,7 @@ msgid "Delete"
 msgstr "삭제"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 #: model_terms:ir.ui.view,arch_db:calendar.view_event_delete_wizard_form
@@ -1576,7 +1576,7 @@ msgid "Description"
 msgstr "설명"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Details"
 msgstr "세부 정보"
@@ -1665,7 +1665,7 @@ msgid "EMAIL"
 msgstr "이메일"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Edit Recurrent event"
 msgstr "반복 일정 편집"
@@ -1754,49 +1754,49 @@ msgid "Event Time"
 msgstr "일정 시간"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days"
 msgstr "%(interval)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days for %(count)s events"
 msgstr "%(count)s개 행사당 %(interval)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Days until %(until)s"
 msgstr "%(until)s까지 %(interval)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s"
 msgstr "%(interval)s개월 %(day)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s for %(count)s events"
 msgstr "%(count)s개 행사당 %(interval)s개월 %(day)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months day %(day)s until %(until)s"
 msgstr "%(until)s까지 %(interval)s개월 %(day)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Months on the %(position)s %(weekday)s"
 msgstr "%(interval)s개월 %(position)s%(weekday)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid ""
 "Every %(interval)s Months on the %(position)s %(weekday)s for %(count)s "
@@ -1804,50 +1804,50 @@ msgid ""
 msgstr "%(count)s개 행사에 대해 %(interval)s개월 %(position)s%(weekday)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid ""
 "Every %(interval)s Months on the %(position)s %(weekday)s until %(until)s"
 msgstr "%(until)s까지 %(interval)s개월 %(position)s%(weekday)s일마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s"
 msgstr "매 %(interval)s 주의 %(days)s일"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s for %(count)s events"
 msgstr "행사 %(count)s건을 매 %(interval)s 주의 %(days)s 일에 진행"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Weeks on %(days)s until %(until)s"
 msgstr "%(until)s까지 매 %(interval)s 주의 %(days)s 일"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years"
 msgstr "%(interval)s년마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years for %(count)s events"
 msgstr "행사 %(count)s건을 %(interval)s년마다 진행"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years until %(until)s"
 msgstr "%(until)s까지 %(interval)s년마다"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/mail_activity.py:0
 msgid "Feedback: %s"
 msgstr "피드백: %s"
@@ -1859,7 +1859,7 @@ msgid "First"
 msgstr "첫 번째"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "First you have to specify the date of the invitation."
 msgstr "먼저 초대할 날짜를 지정해야 합니다."
@@ -1914,7 +1914,7 @@ msgid "Going?"
 msgstr "참석 여부"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__google
 msgid "Google"
@@ -2168,7 +2168,7 @@ msgid "Mail Tz"
 msgstr "메일 Tz"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2209,7 +2209,7 @@ msgid "Meeting linked"
 msgstr "링크된 회의"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_partner.py:0
 #: model:ir.actions.act_window,name:calendar.action_calendar_event
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_ids
@@ -2276,7 +2276,7 @@ msgid "Months"
 msgstr "월"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/calendar_form/calendar_quick_create.xml:0
 msgid "More Options"
 msgstr "옵션 더 보기"
@@ -2299,7 +2299,7 @@ msgid "Needs Action"
 msgstr "작업 필요"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "New"
 msgstr "신규"
@@ -2314,7 +2314,7 @@ msgid "Next Activity Calendar Event"
 msgstr "다음 활동 캘린더 행사"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__declined
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2337,7 +2337,7 @@ msgid "No meetings found. Let's schedule one!"
 msgstr "회의가 없습니다. 지금 생성합니다!"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "No, keep it"
 msgstr "아니요, 보관합니다."
@@ -2385,7 +2385,7 @@ msgid "Notifications sent to all attendees to remind of the meeting."
 msgstr "모든 참석자들에게 회의에 대해 알림을 전송하였습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_alarm.py:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__notify_responsible
 msgid "Notify Responsible"
@@ -2423,7 +2423,7 @@ msgid "Number of repetitions"
 msgstr "반복횟수"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "OK"
 msgstr "확인"
@@ -2465,7 +2465,7 @@ msgid "Options"
 msgstr "옵션"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Organized by"
 msgstr "주최자"
@@ -2477,7 +2477,7 @@ msgid "Organizer"
 msgstr "주최자"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__microsoft
 msgid "Outlook"
@@ -2646,7 +2646,7 @@ msgid "Repeat x times"
 msgstr "x회 반복"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/activity/activity_patch.xml:0
 msgid "Reschedule"
 msgstr "일정 변경"
@@ -2696,7 +2696,7 @@ msgid "Scheduled by"
 msgstr "예약자"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/wizard/mail_activity_schedule.py:0
 msgid ""
 "Scheduling an activity using the calendar is not possible on more than one "
@@ -2779,7 +2779,7 @@ msgid "Show as"
 msgstr "다음으로 표시"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Snooze"
 msgstr "다시 알림"
@@ -2822,7 +2822,7 @@ msgid "Stop date of an event, without time for full days events"
 msgstr "하루 종일 진행되는 일정의 종료일"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
 msgstr "동기화 중지"
@@ -2852,13 +2852,13 @@ msgid "Sunday"
 msgstr "일요일"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
 msgstr "동기화가 일시 중지됨"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with"
 msgstr "동기화 대상"
@@ -2922,7 +2922,7 @@ msgid "The day must be between 1 and 31"
 msgstr "날짜는 1에서 31 사이여야 합니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "The ending date and time cannot be earlier than the starting date and time.\n"
@@ -2932,7 +2932,7 @@ msgstr ""
 "\"%(name)s\" 회의는 %(start_time)s에 시작하여 %(end_time)s에 종료됩니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid ""
 "The ending date cannot be earlier than the starting date.\n"
@@ -2942,19 +2942,19 @@ msgstr ""
 "\"%(name)s\" 회의는 %(start_date)s에 시작하여 %(end_date)s에 종료됩니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The interval cannot be negative."
 msgstr "간격은 음수가 될 수 없습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The number of repetitions cannot be negative."
 msgstr "반복횟수는 음의 값이 될 수 없습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
 msgstr "해당 행사에 참석자가 없습니다."
@@ -2966,14 +2966,14 @@ msgid "Third"
 msgstr "세 번째"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__future_events
 msgid "This and following events"
 msgstr "현재와 다음 일정"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__self_only
 msgid "This event"
@@ -3003,7 +3003,7 @@ msgid "Timezone used for displaying time in the mail template"
 msgstr "메일 서식에서 시간 표시에 사용하는 표준 시간대"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_users.py:0
 msgid "Today's Meetings"
 msgstr "오늘의 회의"
@@ -3031,7 +3031,7 @@ msgid "Type"
 msgstr "유형"
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Unable to save the recurrence with \"This Event\""
 msgstr "\"이 행사\"는 반복 저장할 수 없습니다."
@@ -3153,7 +3153,7 @@ msgid "Years"
 msgstr "년"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__accepted
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3166,7 +3166,7 @@ msgid "Yes I'm going."
 msgstr "참가합니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/res_users.py:0
 msgid ""
 "You are not allowed to change the calendar default privacy of another user "
@@ -3176,43 +3176,43 @@ msgstr ""
 "경할 수 없습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "You can't update a recurrence without base event."
 msgstr "기본 행사가 없는 경우에는 반복하도록 업데이트할 수 없습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
 msgstr "일정 참석자 항목은 복사할 수 없습니다."
 
 #. module: calendar
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "You have to choose at least one day in the week"
 msgstr "일주일 중 적어도 하루를 선택해야 합니다"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_renderer.xml:0
 msgid "You're alone in this meeting"
 msgstr "이 회의에 아무도 없습니다."
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "accepted"
 msgstr "수락함"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
 msgstr "참석자"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "declined"
 msgstr "거절함"
@@ -3228,25 +3228,25 @@ msgid "e.g: 12/31/2023"
 msgstr "e.g: 12/31/2023"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
 msgstr "이메일 없음"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee.xml:0
 msgid "props.placeholder"
 msgstr "props.placeholder"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "unavailable"
 msgstr "사용 불가"
 
 #. module: calendar
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "uncertain"
 msgstr "불확실"

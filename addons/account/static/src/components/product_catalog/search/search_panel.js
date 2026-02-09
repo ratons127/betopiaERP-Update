@@ -1,4 +1,4 @@
-import { onWillStart, useState } from '@BetopiaERP/owl';
+import { onWillStart, useState } from '@betopiaerp/owl';
 import { getActiveHotkey } from '@web/core/hotkeys/hotkey_service';
 import { rpc } from '@web/core/network/rpc';
 import { useBus } from '@web/core/utils/hooks';

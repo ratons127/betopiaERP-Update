@@ -1,6 +1,6 @@
 import { HtmlField } from "@html_editor/fields/html_field";
 import { htmlEditorVersions } from "@html_editor/html_migrations/html_migrations_utils";
-import { beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,
@@ -74,7 +74,7 @@ describe("test the migration process", () => {
         test("Banner classes are properly updated (editable)", async () => {
             await mountViewWithRecord({ resId: 2 });
             const fixture = getFixture();
-            expect(fixture.querySelector(".BetopiaERP-editor-editable")).toHaveInnerHTML(
+            expect(fixture.querySelector(".betopiaerp-editor-editable")).toHaveInnerHTML(
                 `<p>test</p>
                 <div class="o_editor_banner user-select-none lh-1 d-flex align-items-center alert alert-info pb-0 pt-3 o-contenteditable-false" data-oe-role="status" contenteditable="false" role="status">
                     <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="Banner Info" aria-label="Banner Info">💡</i>

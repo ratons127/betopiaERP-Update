@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { getOnNotified } from "@point_of_sale/utils";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";

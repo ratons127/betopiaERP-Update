@@ -24,6 +24,6 @@
             'payment_demo/static/src/interactions/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

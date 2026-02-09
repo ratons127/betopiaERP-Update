@@ -19,7 +19,7 @@ class EWayBillError(Exception):
 
     def __init__(self, response):
         self.error_json = self._set_missing_error_message(response)
-        self.error_json.setdefault('BetopiaERP_warning', [])
+        self.error_json.setdefault('betopiaerp_warning', [])
         self.error_codes = self.get_error_codes()
         super().__init__(response)
 
@@ -122,14 +122,14 @@ class EWayBillApi:
             return response
         except EWayBillError as e:
             if "no-credit" in e.error_codes:
-                e.error_json['BetopiaERP_warning'].append({
+                e.error_json['betopiaerp_warning'].append({
                     'message': self.env['account.move']._l10n_in_edi_get_iap_buy_credits_message()
                 })
                 raise
 
             if '238' in e.error_codes:
                 # Invalid token eror then create new token and send generate request again.
-                # This happens when authenticate called from another BetopiaERP instance with same credentials
+                # This happens when authenticate called from another betopiaerp instance with same credentials
                 # (like. Demo/Test)
                 with contextlib.suppress(EWayBillError):
                     self._ewaybill_authenticate()
@@ -143,7 +143,7 @@ class EWayBillApi:
                 # this happens when timeout from the Government portal but IRN is generated
                 # Avoid raising error in this case, since it is already cancelled
                 response = e.error_json
-                response['BetopiaERP_warning'].append({
+                response['betopiaerp_warning'].append({
                     'message': Markup("%s<br/>%s:<br/>%s") % (
                         self.env['l10n.in.ewaybill']._get_default_help_message(
                             self.env._('cancelled')
@@ -184,7 +184,7 @@ class EWayBillApi:
         )
         # Add warning that ewaybill was already generated
         response.update({
-            'BetopiaERP_warning': [{
+            'betopiaerp_warning': [{
                 'message': self.env['l10n.in.ewaybill']._get_default_help_message(
                     self.env._('generated')
                 ),

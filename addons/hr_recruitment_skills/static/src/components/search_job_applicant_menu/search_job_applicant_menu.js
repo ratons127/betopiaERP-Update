@@ -1,4 +1,4 @@
-import { Component, markup } from "@BetopiaERP/owl";
+import { Component, markup } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";

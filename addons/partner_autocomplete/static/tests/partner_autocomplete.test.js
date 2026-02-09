@@ -1,6 +1,6 @@
 import { mailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { advanceTime, queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { advanceTime, queryOne } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,
@@ -123,10 +123,10 @@ onRpc("res.partner", "enrich_by_duns", ({ args }) => ({
     zip: "1367",
     street: "Chaussée de Namur 40",
     street2: false,
-    email: "hello@BetopiaERP.com",
+    email: "hello@betopiaerp.com",
     phone: "3281813700",
     website: "www.BetopiaERP.com",
-    domain: "BetopiaERP.com",
+    domain: "betopiaerp.com",
     country_id: {
         id: 1,
         name: "Belgium",

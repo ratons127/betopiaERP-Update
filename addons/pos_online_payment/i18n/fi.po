@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * pos_online_payment
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-20 09:54+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_online_payment/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -31,19 +31,19 @@ msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgstr "<strong>Virhe:</strong> Maksuprosessissa ilmeni ongelma."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
 msgstr "Kassan määrittelyissä ei voi olla kuin yksi verkkomaksutapa."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 msgstr "Maksuvaihtoehto on määritettävä."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr "Validointimaksua ei voi käyttää kassan verkkomaksuun."
@@ -54,7 +54,7 @@ msgid "All available providers"
 msgstr "Kaikki saatavilla olevat palveluntarjoajat"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "All payment providers configured for an online payment method must use the "
@@ -76,7 +76,7 @@ msgid "Amount"
 msgstr "Arvo"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Amount:"
 msgstr "Määrä:"
@@ -87,13 +87,13 @@ msgid "Cancel payment"
 msgstr "Peruuta maksu"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr "Kassan verkkomaksua ei voi luoda ilman kirjanpitomaksua."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
@@ -103,13 +103,13 @@ msgstr ""
 "verkkokirjanpidon maksu."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 msgstr "Kassan verkkomaksun olennaisia tietoja ei voi muokata."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
@@ -146,19 +146,19 @@ msgid "ID"
 msgstr "Tunnus"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payment"
 msgstr "Virheellinen verkkomaksu"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payments"
 msgstr "Virheelliset verkkomaksut"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invoice could not be generated"
 msgstr "Laskua ei voitu luoda"
@@ -174,7 +174,7 @@ msgid "Online"
 msgstr "Verkossa"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
@@ -191,13 +191,13 @@ msgid "Online accounting payment"
 msgstr "Online kirjanpito maksu"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payment unavailable"
 msgstr "Verkkomaksu ei ole käytettävissä"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 msgstr "Verkkomaksujen summa ei voi olla negatiivinen (%s: %s)."
@@ -218,19 +218,19 @@ msgid "Order Reference"
 msgstr "Tilauksen viite"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 msgstr "Tilausviite:"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Order saving issue"
 msgstr "Tilauksen tallennusongelma"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/account_payment.py:0
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_account_payment__pos_order_id
@@ -296,43 +296,43 @@ msgid "Processed by"
 msgstr "Käsittelytila"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 msgstr "QR-koodi maksamiseen"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 msgstr "Skannaa QR-koodi maksaaksesi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 msgstr "Skannaa maksaaksesi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Server error"
 msgstr "Palvelinvirhe"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid "The %s already has one online payment."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 msgstr "Kassan verkkomaksua (tx.id=%d) ei voitu tallentaa oikein"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
@@ -342,7 +342,7 @@ msgstr ""
 "verkkomaksutapaa ei löydetty"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 msgstr "Kassan istuntoa ei ole avattu."
@@ -358,55 +358,55 @@ msgid "The Point of Sale order linked to this payment"
 msgstr "Tähän maksuun liittyvä kassan myyntitilaus"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The QR Code for paying could not be generated."
 msgstr "QR-koodia maksamista varten ei voitu luoda."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 msgstr "Maksettava määrä on muuttunut. Päivitä sivu."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 msgstr "Valuutta on virheellinen."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The invoice could not be generated."
 msgstr "Laskua ei voitu luoda."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 msgstr "Tilauksesi on peruttu."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The order has not been saved correctly on the server."
 msgstr "Tilausta ei ole tallennettu oikein palvelimelle."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr "Kassan verkkomaksun kumppania (id=%d) ei löydetty"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 msgstr "Maksupalveluntarjoaja on virheellinen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
@@ -415,37 +415,37 @@ msgstr ""
 "avulla."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 msgstr "Maksutunniste on virheellinen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 msgstr "Maksutapahtuman (%d) summa on negatiivinen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 msgstr "Annettu tilaus tai käyttöoikeustunniste on virheellinen."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 msgstr "Annettu partner_id on eri kuin odotettu."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The saved order could not be retrieved."
 msgstr "Tallennettua tilausta ei voitu hakea."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
@@ -455,13 +455,13 @@ msgstr ""
 "tilauksen jäljellä olevaa maksamatonta määrää (%s)."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "There are online payments that were missing in your view."
 msgstr "Näkymästäsi puuttui verkkomaksuja."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -469,7 +469,7 @@ msgid ""
 msgstr "Palvelimessa on ongelma. Tilauksen verkkomaksun tilaa ei voida hakea."
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -479,7 +479,7 @@ msgstr ""
 "varma, että tilaukselle ei ole verkkomaksua?"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
@@ -487,7 +487,7 @@ msgstr ""
 "Tälle kassajärjestelmän myyntitilaukselle ei ole määritetty verkkomaksutapaa."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 msgstr "Tästä tilauksesta ei tarvitse maksaa mitään."
@@ -503,7 +503,7 @@ msgid "To Pay"
 msgstr "Maksettava"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid ""
 "To use an online payment method in a POS config, it must have at least one "
@@ -514,7 +514,7 @@ msgstr ""
 "määritysten valuuttaa."
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr ""
@@ -537,7 +537,7 @@ msgid "Type"
 msgstr "Tyyppi"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Updated online payments"
 msgstr "Päivitetyt verkkomaksut"
@@ -552,7 +552,7 @@ msgstr ""
 "verkkosivulla suoritettavat maksut)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Yes"
 msgstr "Kyllä"

@@ -1,4 +1,4 @@
-import { BetopiaERPViewsDataSource } from "@spreadsheet/data_sources/BetopiaERP_views_data_source";
+import { BetopiaERPViewsDataSource } from "@spreadsheet/data_sources/betopiaerp_views_data_source";
 import { _t } from "@web/core/l10n/translation";
 import { GraphModel as ChartModel } from "@web/views/graph/graph_model";
 import { Domain } from "@web/core/domain";
@@ -112,10 +112,10 @@ export class ChartDataSource extends BetopiaERPViewsDataSource {
 
 export function chartTypeToDataSourceMode(chartType) {
     switch (chartType) {
-        case "BetopiaERP_bar":
-        case "BetopiaERP_line":
-        case "BetopiaERP_pie":
-            return chartType.replace("BetopiaERP_", "");
+        case "betopiaerp_bar":
+        case "betopiaerp_line":
+        case "betopiaerp_pie":
+            return chartType.replace("betopiaerp_", "");
         default:
             return "bar";
     }

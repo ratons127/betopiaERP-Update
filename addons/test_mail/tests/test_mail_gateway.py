@@ -306,7 +306,7 @@ class TestMailgateway(MailGatewayCommon):
 
     @mute_logger('betopiaerp.addons.mail.models.mail_thread')
     def test_message_process_followers(self):
-        """ Incoming email: recognized author not archived and not BetopiaERPbot:
+        """ Incoming email: recognized author not archived and not betopiaerpbot:
         added as follower. Also test corner cases: archived. """
         partner_archived = self.env['res.partner'].create({
             'active': False,
@@ -352,20 +352,20 @@ class TestMailgateway(MailGatewayCommon):
                          'message_process: archived partner -> no follower')
 
         # partner_root -> never again
-        BetopiaERPbot = self.env.ref('base.partner_root')
-        BetopiaERPbot.active = True
-        BetopiaERPbot.email = 'BetopiaERPbot@example.com'
+        betopiaerpbot = self.env.ref('base.partner_root')
+        betopiaerpbot.active = True
+        betopiaerpbot.email = 'betopiaerpbot@example.com'
         with self.mock_mail_gateway():
             record4 = self.format_and_process(
-                MAIL_TEMPLATE, BetopiaERPbot.email_formatted, f'groups@{self.alias_domain}',
+                MAIL_TEMPLATE, betopiaerpbot.email_formatted, f'groups@{self.alias_domain}',
                 subject='BetopiaERPbot Automatic Answer')
 
-        self.assertEqual(record4.message_ids[0].author_id, BetopiaERPbot)
-        self.assertEqual(record4.message_ids[0].email_from, BetopiaERPbot.email_formatted)
+        self.assertEqual(record4.message_ids[0].author_id, betopiaerpbot)
+        self.assertEqual(record4.message_ids[0].email_from, betopiaerpbot.email_formatted)
         self.assertEqual(record4.message_follower_ids.partner_id, self.env['res.partner'],
-                         'message_process: BetopiaERPbot -> no follower')
+                         'message_process: betopiaerpbot -> no follower')
         self.assertEqual(record4.message_partner_ids, self.env['res.partner'],
-                         'message_process: BetopiaERPbot -> no follower')
+                         'message_process: betopiaerpbot -> no follower')
 
         # internal user -> ok
         with self.mock_mail_gateway():
@@ -515,7 +515,7 @@ class TestMailgateway(MailGatewayCommon):
 
         messages = test_record.message_ids
 
-        self.assertFalse(self.user_root.active, 'notification logic relies on BetopiaERPbot being archived')
+        self.assertFalse(self.user_root.active, 'notification logic relies on betopiaerpbot being archived')
 
         test_users = [self.user_employee, self.user_root]
         email_tos = [f'author-partner@{self.alias_domain}', f'some_non_aliased_email@{self.alias_domain}']
@@ -1412,7 +1412,7 @@ class TestMailgateway(MailGatewayCommon):
             extra=f'References: {bot_notification_message.message_id}'
         )
         new_msg = self.test_record.message_ids[0]
-        self.assertFalse(new_msg.is_internal, "Responses to messages sent by BetopiaERPbot should always be public.")
+        self.assertFalse(new_msg.is_internal, "Responses to messages sent by betopiaerpbot should always be public.")
         self.assertEqual(new_msg.parent_id, bot_notification_message)
         self.assertEqual(new_msg.subtype_id, self.env.ref('mail.mt_comment'))
 
@@ -1431,7 +1431,7 @@ class TestMailgateway(MailGatewayCommon):
             extra=f'References: {some_notification_message.message_id}'
         )
         new_msg = self.test_record.message_ids[0]
-        self.assertTrue(new_msg.is_internal, "Responses to messages sent by anyone but BetopiaERPbot should keep"
+        self.assertTrue(new_msg.is_internal, "Responses to messages sent by anyone but betopiaerpbot should keep"
                         "the 'is_internal' value of the parent.")
         self.assertEqual(new_msg.parent_id, some_notification_message)
         self.assertEqual(new_msg.subtype_id, self.env.ref('mail.mt_note'))
@@ -1608,7 +1608,7 @@ class TestMailgateway(MailGatewayCommon):
 
     @mute_logger('betopiaerp.addons.mail.models.mail_thread')
     def test_message_process_references_external(self):
-        """ Incoming email being a reply to an external email processed by BetopiaERP should update thread accordingly """
+        """ Incoming email being a reply to an external email processed by betopiaerp should update thread accordingly """
         new_message_id = '<ThisIsTooMuchFake.MonsterEmail.789@agrolait.com>'
         self.fake_email.write({
             'message_id': new_message_id
@@ -1625,7 +1625,7 @@ class TestMailgateway(MailGatewayCommon):
     def test_message_process_references_external_buggy_message_id(self):
         """
         Incoming email being a reply to an external email processed by
-        BetopiaERP should update thread accordingly. Special case when the
+        betopiaerp should update thread accordingly. Special case when the
         external mail service wrongly folds the message_id on several
         lines.
         """
@@ -2459,7 +2459,7 @@ class TestMailGatewayReplies(MailGatewayCommon):
         -some internal work-                            log
         BetopiaERP2 replies           reply_3                 reply_3 (outgoing email)
 
-        Purpose: have references from betopiaerp2 containing message IDs to try to
+        Purpose: have references from BetopiaERP2 containing message IDs to try to
         correclty route thread.
         """
         gateway_record = self.env['mail.test.gateway'].create({
@@ -2475,8 +2475,8 @@ class TestMailGatewayReplies(MailGatewayCommon):
             subtype_id=self.env.ref('mail.mt_comment').id,
         )
         self.assertEqual(gateway_record.message_partner_ids, self.partner_admin)
-        log, BetopiaERPext_msg = gateway_record.message_ids[1], gateway_record.message_ids[0]
-        self.assertEqual(BetopiaERPext_msg.parent_id, log, 'Log serves as thread ancestor')
+        log, betopiaerpext_msg = gateway_record.message_ids[1], gateway_record.message_ids[0]
+        self.assertEqual(betopiaerpext_msg.parent_id, log, 'Log serves as thread ancestor')
 
         # BetopiaERP2 reply
         with self.mock_mail_gateway():
@@ -2494,11 +2494,11 @@ class TestMailGatewayReplies(MailGatewayCommon):
                 'content': 'BetopiaERP Reply',
                 'email_values': {
                     'message_id': reply.message_id,
-                    'references': f'{log.message_id} {BetopiaERPext_msg.message_id} {reply.message_id}',  # should contain reference to BetopiaERPExternal message
+                    'references': f'{log.message_id} {betopiaerpext_msg.message_id} {reply.message_id}',  # should contain reference to BetopiaERPExternal message
                 },
                 'mail_mail_values': {
                     'notified_partner_ids': self.partner_1 + self.partner_admin,
-                    'parent_id': BetopiaERPext_msg,  # attached to last comment / email when possible
+                    'parent_id': betopiaerpext_msg,  # attached to last comment / email when possible
                 },
                 'notif': [
                     {'partner': self.partner_1, 'type': 'email',},
@@ -2513,13 +2513,13 @@ class TestMailGatewayReplies(MailGatewayCommon):
             subtype_id=self.env.ref('mail.mt_comment').id,
         )
 
-        # coming from betopiaerp1: their reply as an incoming email
+        # coming from BetopiaERP1: their reply as an incoming email
         with self.mock_mail_gateway():
             self.format_and_process(
                 MAIL_TEMPLATE, self.email_from, reply.reply_to,
                 subject='Gateway Creation',
                 date=datetime.now(),
-                extra=f'References: {reply.message_id} <msg1@BetopiaERP1>',
+                extra=f'References: {reply.message_id} <msg1@betopiaerp1>',
                 debug_log=True,
             )
         reply_2 = gateway_record.message_ids[0]
@@ -2530,7 +2530,7 @@ class TestMailGatewayReplies(MailGatewayCommon):
                 'email_values': {
                     'email_from': self.email_from,
                     'message_id': reply_2.message_id,
-                    'references': f'{log.message_id} {BetopiaERPext_msg.message_id} {reply.message_id} {reply_2.message_id}',  # should contain reference to BetopiaERPExternal message
+                    'references': f'{log.message_id} {betopiaerpext_msg.message_id} {reply.message_id} {reply_2.message_id}',  # should contain reference to BetopiaERPExternal message
                 },
                 'mail_mail_values': {
                     'author_id': self.env['res.partner'],
@@ -2564,7 +2564,7 @@ class TestMailGatewayReplies(MailGatewayCommon):
                 'content': 'BetopiaERP Reply 2',
                 'email_values': {
                     'message_id': reply_3.message_id,
-                    'references': f'{BetopiaERPext_msg.message_id} {reply.message_id} {reply_2.message_id} {reply_3.message_id}',  # should contain reference to BetopiaERPExternal message
+                    'references': f'{betopiaerpext_msg.message_id} {reply.message_id} {reply_2.message_id} {reply_3.message_id}',  # should contain reference to BetopiaERPExternal message
                 },
                 'mail_mail_values': {
                     'notified_partner_ids': self.partner_1 + self.partner_admin,

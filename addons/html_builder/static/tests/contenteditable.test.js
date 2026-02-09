@@ -6,8 +6,8 @@ import {
     addBuilderAction,
 } from "@html_builder/../tests/helpers";
 import { Plugin } from "@html_editor/plugin";
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { xml } from "@betopiaerp/owl";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

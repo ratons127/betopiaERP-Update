@@ -1479,7 +1479,7 @@ class BasePreferences {
     // BetopiaERP: don't support scripting (#115302)
     enableScripting: false,
     enableUpdatedAddImage: false,
-    // BetopiaERP: open links in new tabs to keep BetopiaERP document (#84594)
+    // BetopiaERP: open links in new tabs to keep betopiaerp document (#84594)
     externalLinkTarget: 2,
     highlightEditorColors: "yellow=#FFFF98,green=#53FFBC,blue=#80EBFF,pink=#FFCBE6,red=#FF4F5F",
     historyUpdateUrl: false,
@@ -7444,7 +7444,7 @@ class PDFPrintService {
     this.pageStyleSheet = document.createElement("style");
     this.pageStyleSheet.textContent = `@page { size: ${width}pt ${height}pt;}`;
     body.append(this.pageStyleSheet);
-    // BetopiaERP PATCH PRINT PREVIEW MOBILE
+    // BETOPIAERP PATCH PRINT PREVIEW MOBILE
     this.hasFinishPrint = null;
   }
   destroy() {
@@ -7512,7 +7512,7 @@ class PDFPrintService {
   }
   performPrint() {
     this.throwIfInactive();
-    // BetopiaERP PATCH PRINT PREVIEW MOBILE
+    // BETOPIAERP PATCH PRINT PREVIEW MOBILE
     const hasFinishPrintPromise = new Promise((resolve) => {
       if ("afterprint" in window) {
         this.hasFinishPrint = resolve;
@@ -7522,13 +7522,13 @@ class PDFPrintService {
     });
     setTimeout(() => {
       if (!this.active) {
-        // BetopiaERP PATCH PRINT PREVIEW MOBILE
+        // BETOPIAERP PATCH PRINT PREVIEW MOBILE
         this.hasFinishPrint();
         return;
       }
       print.call(window);
     }, 0);
-    // BetopiaERP PATCH PRINT PREVIEW MOBILE
+    // BETOPIAERP PATCH PRINT PREVIEW MOBILE
     return hasFinishPrintPromise;
   }
   get active() {
@@ -7564,10 +7564,10 @@ window.print = function () {
       return;
     }
     const activeServiceOnEntry = activeService;
-    // BetopiaERP: FIX MOBILE PRINT PREVIEW
+    // BETOPIAERP: FIX MOBILE PRINT PREVIEW
     const timeBeforeRendering = new Date().getTime();
     activeService.renderPages().then(function () {
-      // BetopiaERP: FIX MOBILE PRINT PREVIEW
+      // BETOPIAERP: FIX MOBILE PRINT PREVIEW
       return Promise.all([
         activeServiceOnEntry.performPrint(),
         new Promise(resolve => setTimeout(resolve, 1000 + new Date().getTime() - timeBeforeRendering))
@@ -7612,7 +7612,7 @@ window.addEventListener("keydown", function (event) {
 }, true);
 if ("onbeforeprint" in window) {
   const stopPropagationIfNeeded = function (event) {
-    // BetopiaERP PATCH PRINT PREVIEW MOBILE
+    // BETOPIAERP PATCH PRINT PREVIEW MOBILE
     if (activeService?.hasFinishPrint && event.type === "afterprint") {
       activeService.hasFinishPrint();
       return;

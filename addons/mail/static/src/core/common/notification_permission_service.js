@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import {

@@ -89,7 +89,7 @@ export class Homepage extends Component {
     async restartBetopiaERPService() {
         try {
             await this.store.rpc({
-                url: "/iot_drivers/restart_BetopiaERP_service",
+                url: "/iot_drivers/restart_betopiaerp_service",
             });
 
             this.state.waitRestart = true;

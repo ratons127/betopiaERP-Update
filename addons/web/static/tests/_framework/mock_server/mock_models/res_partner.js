@@ -42,7 +42,7 @@ export class ResPartner extends ServerModel {
             name: serverState.publicPartnerName,
         },
         {
-            id: serverState.BetopiaERPbotId,
+            id: serverState.betopiaerpbotId,
             active: false,
             name: "BetopiaERPBot",
         },

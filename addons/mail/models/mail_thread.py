@@ -69,7 +69,7 @@ class MailThread(models.AbstractModel):
         communication history. ``mail.thread`` also manages followers of
         inheriting classes. All features and expected behavior are managed
         by mail.thread. Widgets has been designed for the 7.0 and following
-        versions of betopiaerp.
+        versions of BetopiaERP.
 
         Inheriting classes are not required to implement any method, as the
         default implementation will work for any model. However it is common
@@ -1003,7 +1003,7 @@ class MailThread(models.AbstractModel):
         """This method returns True if the incoming email should be ignored.
 
         The goal of this method is to prevent loops which can occur if an auto-replier
-        send emails to betopiaerp.
+        send emails to BetopiaERP.
         """
         email_from = message_dict.get('email_from')
         if not email_from:
@@ -1100,7 +1100,7 @@ class MailThread(models.AbstractModel):
     def _detect_write_to_catchall(self, msg_dict):
         """Return True if directly contacts catchall."""
         # Note: tweaked in stable to avoid doing two times same search due to bugfix
-        # (see BetopiaERP/BetopiaERP#161782), to clean when reaching master
+        # (see betopiaerp/betopiaerp#161782), to clean when reaching master
         if self.env.context.get("mail_catchall_aliases"):
             catchall_aliases = self.env.context["mail_catchall_aliases"]
         else:
@@ -1368,7 +1368,7 @@ class MailThread(models.AbstractModel):
                 thread_id = thread.id
                 subtype_id = thread._creation_subtype().id
 
-            # switch to BetopiaERPbot for all incoming message creation
+            # switch to betopiaerpbot for all incoming message creation
             # to have a high-privilege archived user so real_author_id is correctly computed
             thread_root = thread.with_user(self.env.ref('base.user_root'))
             # replies to internal message are considered as notes, otherwise they are comments
@@ -1401,7 +1401,7 @@ class MailThread(models.AbstractModel):
             # remove computational values not stored on mail.message and avoid warnings when creating it
             for x in ('from', 'recipients',
                       'cc', 'to',  # use cc_filtered, to_filtered
-                      'references', 'in_reply_to', 'x_BetopiaERP_message_id',
+                      'references', 'in_reply_to', 'x_betopiaerp_message_id',
                       'is_bounce', 'bounced_email', 'bounced_message', 'bounced_msg_ids', 'bounced_partner'):
                 post_params.pop(x, None)
             new_msg = False
@@ -1409,7 +1409,7 @@ class MailThread(models.AbstractModel):
                 new_msg = thread_root.message_notify(**post_params)
             else:
                 # if no author, skip any author subscribe check; otherwise message_post
-                # checks anyway for real author and filters inactive (like BetopiaERPbot)
+                # checks anyway for real author and filters inactive (like betopiaerpbot)
                 thread_root = thread_root.with_context(mail_post_autofollow_author_skip=not message_dict.get('author_id'))
                 new_msg = thread_root.message_post(**post_params)
 
@@ -2058,7 +2058,7 @@ class MailThread(models.AbstractModel):
         alias_emails = self.env['mail.alias.domain'].sudo()._find_aliases(emails_key_all) if avoid_alias else []
         ban_emails = (ban_emails or []) + alias_emails
 
-        # inspired notably from betopiaerp/BetopiaERP@80a0b45df806ffecfb068b5ef05ae1931d655810; final
+        # inspired notably from betopiaerp/betopiaerp@80a0b45df806ffecfb068b5ef05ae1931d655810; final
         # ordering is search order defined in '_find_or_create_from_emails', which is id ASC
         def sort_key(p):
             return (
@@ -2972,8 +2972,8 @@ class MailThread(models.AbstractModel):
         # if current user is active, they are the one doing the action and should
         # be notified of answers. If they are inactive they are posting on behalf
         # of someone else (a customer, mailgateway, ...) and the real author is the
-        # message author. In any case avoid BetopiaERPbot.
-        if self.env.user.active:  # note that BetopiaERPbot is always inactive, there is a python check
+        # message author. In any case avoid betopiaerpbot.
+        if self.env.user.active:  # note that betopiaerpbot is always inactive, there is a python check
             real_author = self.env.user.partner_id
         elif author_id:
             author = self.env['res.partner'].browse(author_id)
@@ -3968,7 +3968,7 @@ class MailThread(models.AbstractModel):
             title = "%s: %s" % (author_name, title)
             icon = "/web/image/res.partner/%d/avatar_128" % author_id
         else:
-            icon = '/web/static/img/BetopiaERP-icon-192x192.png'
+            icon = '/web/static/img/betopiaerp-icon-192x192.png'
 
         if tools.is_html_empty(body) and message.attachment_ids:
             total_attachments = len(message.attachment_ids)

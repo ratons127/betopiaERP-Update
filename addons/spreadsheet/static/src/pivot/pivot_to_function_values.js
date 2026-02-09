@@ -1,11 +1,11 @@
-import { registries, helpers, constants } from "@BetopiaERP/o-spreadsheet";
+import { registries, helpers, constants } from "@betopiaerp/o-spreadsheet";
 
 const { DEFAULT_LOCALE } = constants;
 const { pivotToFunctionValueRegistry } = registries;
 const { toString, toNumber } = helpers;
 
 /**
- * Add pivot formatting functions to support BetopiaERP specific fields
+ * Add pivot formatting functions to support betopiaerp specific fields
  * in spreadsheet
  */
 

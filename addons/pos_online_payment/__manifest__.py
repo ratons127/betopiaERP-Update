@@ -33,6 +33,6 @@
             ('remove', 'pos_online_payment/static/tests/tours/customer_display_tour.js')
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

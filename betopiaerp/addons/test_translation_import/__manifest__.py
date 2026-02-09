@@ -18,6 +18,6 @@
             'test_translation_import/static/src/xml/js_templates.xml',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

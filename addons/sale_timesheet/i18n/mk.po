@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
 "PO-Revision-Date: 2016-05-12 12:36+0000\n"
 "Last-Translator: Aleksandar Vangelovski <aleksandarv@hbee.eu>\n"
-"Language-Team: Macedonian (http://www.transifex.com/BetopiaERP/BetopiaERP-9/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/betopiaerp/betopiaerp-9/language/mk/)\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/account_move.py:0
 #: code:addons/sale_timesheet/models/project.py:0
 msgid ""
@@ -45,7 +45,7 @@ msgid "% of timesheets that are billable compared to the total number of timeshe
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "%(amount)s %(label)s will be added to the new Sales Order."
 msgstr ""
@@ -166,13 +166,13 @@ msgid ""
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "At least one line should be filled."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "Based on Timesheets"
 msgstr ""
@@ -308,7 +308,7 @@ msgid "Create SO from project"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_sale_order_view_form
 msgid "Create Sales Order"
@@ -492,7 +492,7 @@ msgid "Info Invoice"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 #: code:addons/sale_timesheet/models/account.py:0
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__timesheet_invoice_id
@@ -508,25 +508,25 @@ msgid "Invoice Policy"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "Invoice based on timesheets (delivered quantity) on projects or tasks you'll create later on."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "Invoice based on timesheets (delivered quantity), and create a project for the order with a task for each sales order line to track the time spent."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "Invoice based on timesheets (delivered quantity), and create a task in an existing project to track the time spent."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "Invoice based on timesheets (delivered quantity), and create an empty project for the order to track the time spent."
 msgstr ""
@@ -548,7 +548,7 @@ msgid "Invoiced"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 msgid "Invoices"
 msgstr ""
@@ -733,7 +733,7 @@ msgid "Only timesheets not yet invoiced (and validated, if applicable) from this
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Operation not supported"
 msgstr ""
@@ -856,7 +856,7 @@ msgid "Project to make billable"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 msgid "Quotation"
 msgstr ""
@@ -898,7 +898,7 @@ msgid "Review your timesheets by billing type and make sure your time is billabl
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/account.py:0
 msgid "Sale Order"
 msgstr ""
@@ -919,7 +919,7 @@ msgid "Sales Advance Payment Invoice"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 #: model:ir.model,name:sale_timesheet.model_sale_order
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order__sale_order_id
@@ -932,7 +932,7 @@ msgid "Sales Order"
 msgstr "Налог за продажба"
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__so_line
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__sale_line_id
@@ -983,19 +983,19 @@ msgid "Sales order to which the task is linked."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 msgid "Search in Invoice"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 msgid "Search in Sales Order"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/controllers/portal.py:0
 msgid "Search in Sales Order Item"
 msgstr ""
@@ -1085,13 +1085,13 @@ msgid "Tasks Analysis"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/product.py:0
 msgid "The %s product is required by the Timesheets app and cannot be archived nor deleted."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid ""
 "The Sales Order cannot be created because you did not enter some employees that entered timesheets on this project. Please list all the relevant employees before creating the Sales Order.\n"
@@ -1104,25 +1104,25 @@ msgid "The cost of the project is now at"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "The project has already a sale order."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "The project is already linked to a sales order item."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "The sales order cannot be created because some timesheets of this project are already linked to another sales order."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_invoice.py:0
 msgid "The selected Sales Order should contain something to invoice."
 msgstr ""
@@ -1215,7 +1215,7 @@ msgid "Timesheet activities"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/account_move.py:0
 #: model:ir.actions.act_window,name:sale_timesheet.action_timesheet_from_invoice
 #: model:ir.actions.act_window,name:sale_timesheet.timesheet_action_from_sales_order
@@ -1233,31 +1233,31 @@ msgid "Timesheets"
 msgstr "Временски таблици"
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets (Billed Manually)"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets (Billed on Milestones)"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets (Billed on Timesheets)"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets (Fixed Price)"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets (Non Billable)"
 msgstr ""
@@ -1283,7 +1283,7 @@ msgid "Timesheets for the"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets of %s"
 msgstr ""
@@ -1294,7 +1294,7 @@ msgid "Timesheets on project (one fare per SO/Project)"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Timesheets revenues"
 msgstr ""
@@ -1356,7 +1356,7 @@ msgid "Unit price of the sales order item."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "Value does not exist in the pricing type"
 msgstr ""
@@ -1405,50 +1405,50 @@ msgid ""
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_invoice.py:0
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "You can only apply this action from a project."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "You cannot link a billable project to a sales order item that comes from an expense or a vendor bill."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/project.py:0
 msgid "You cannot link a billable project to a sales order item that is not a service."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/account.py:0
 msgid "You cannot modify timesheets that are already invoiced."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/account.py:0
 msgid "You cannot remove a timesheet that has already been invoiced."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "days"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/sale_order.py:0
 msgid "days remaining"
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0
 msgid "hours"
 msgstr ""
@@ -1464,7 +1464,7 @@ msgid "of hours sold."
 msgstr ""
 
 #. module: sale_timesheet
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_timesheet/models/sale_order.py:0
 msgid "remaining"
 msgstr ""

@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { multiTabSharedWorkerService } from "@bus/multi_tab_shared_worker_service";
 import { makeMockEnv, patchWithCleanup, restoreRegistry } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";

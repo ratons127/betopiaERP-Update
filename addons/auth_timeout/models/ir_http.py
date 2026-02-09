@@ -9,7 +9,7 @@ from betopiaerp.http import request, root, SessionExpiredException
 class CheckIdentityException(SessionExpiredException):
     """Exception raised when a user is requested to re-authenticate."""
 
-    # To log only with debug level in BetopiaERP/http.py Application.__call__
+    # To log only with debug level in betopiaerp/http.py Application.__call__
     loglevel = logging.DEBUG
 
 

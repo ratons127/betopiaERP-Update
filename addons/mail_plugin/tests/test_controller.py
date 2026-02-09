@@ -200,7 +200,7 @@ class TestMailPluginController(TestMailPluginControllerCommon):
                     'name': 'Notification',
                     'email': 'notification@example.com',
                     'enrichment_info': {
-                        'type': 'BetopiaERP_custom_error',
+                        'type': 'betopiaerp_custom_error',
                         'info': 'This is your notification address. Search the Contact manually to link this email to a record.',
                     },
                 },

@@ -1,6 +1,6 @@
 import { Loader } from "@point_of_sale/app/components/loader/loader";
 import { getTemplate } from "@web/core/templates";
-import { mount, reactive, whenReady } from "@BetopiaERP/owl";
+import { mount, reactive, whenReady } from "@betopiaerp/owl";
 import { _t, appTranslateFn } from "@web/core/l10n/translation";
 import { hasTouch } from "@web/core/browser/feature_detection";
 import { localization } from "@web/core/l10n/localization";
@@ -20,7 +20,7 @@ whenReady(() => {
 });
 
 (async function startPosApp() {
-    BetopiaERP.info = {
+    betopiaerp.info = {
         db: session.db,
         server_version: session.server_version,
         server_version_info: session.server_version_info,
@@ -66,7 +66,7 @@ whenReady(() => {
 
 function registerServiceWorker() {
     // Register the service worker for the POS
-    const urlsToCache = JSON.parse(BetopiaERP.urls_to_cache);
+    const urlsToCache = JSON.parse(betopiaerp.urls_to_cache);
     urlsToCache.push("/web/static/lib/zxing-library/zxing-library.js");
 
     navigator.serviceWorker?.register("/pos/service-worker.js").then((registration) => {

@@ -44,46 +44,46 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Expenses Analysis](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"date:month\",\"product_id\"],\"graph_measure\":\"total_amount\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"date:month\",\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\",\"positional\":true})",
-        "A23": "[Top Expenses](BetopiaERP://view/{\"viewType\":\"list\",\"action\":{\"domain\":\"[]\",\"context\":{\"group_by\":[]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
-        "A24": "=BetopiaERP.LIST.HEADER(1, \"name\", _t(\"Expense\"))",
-        "A25": "=BetopiaERP.LIST(1,1,\"name\")",
-        "A26": "=BetopiaERP.LIST(1,2,\"name\")",
-        "A27": "=BetopiaERP.LIST(1,3,\"name\")",
-        "A28": "=BetopiaERP.LIST(1,4,\"name\")",
-        "A29": "=BetopiaERP.LIST(1,5,\"name\")",
-        "A30": "=BetopiaERP.LIST(1,6,\"name\")",
-        "A31": "=BetopiaERP.LIST(1,7,\"name\")",
-        "A32": "=BetopiaERP.LIST(1,8,\"name\")",
-        "A33": "=BetopiaERP.LIST(1,9,\"name\")",
-        "A34": "=BetopiaERP.LIST(1,10,\"name\")",
-        "A36": "[Top Reinvoiced Orders](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"sale_order_id\",\"!=\",false]],\"context\":{\"group_by\":[\"sale_order_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"sale_order_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
+        "A7": "[Expenses Analysis](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"date:month\",\"product_id\"],\"graph_measure\":\"total_amount\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"date:month\",\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\",\"positional\":true})",
+        "A23": "[Top Expenses](betopiaerp://view/{\"viewType\":\"list\",\"action\":{\"domain\":\"[]\",\"context\":{\"group_by\":[]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
+        "A24": "=BETOPIAERP.LIST.HEADER(1, \"name\", _t(\"Expense\"))",
+        "A25": "=BETOPIAERP.LIST(1,1,\"name\")",
+        "A26": "=BETOPIAERP.LIST(1,2,\"name\")",
+        "A27": "=BETOPIAERP.LIST(1,3,\"name\")",
+        "A28": "=BETOPIAERP.LIST(1,4,\"name\")",
+        "A29": "=BETOPIAERP.LIST(1,5,\"name\")",
+        "A30": "=BETOPIAERP.LIST(1,6,\"name\")",
+        "A31": "=BETOPIAERP.LIST(1,7,\"name\")",
+        "A32": "=BETOPIAERP.LIST(1,8,\"name\")",
+        "A33": "=BETOPIAERP.LIST(1,9,\"name\")",
+        "A34": "=BETOPIAERP.LIST(1,10,\"name\")",
+        "A36": "[Top Reinvoiced Orders](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"sale_order_id\",\"!=\",false]],\"context\":{\"group_by\":[\"sale_order_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"sale_order_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
         "A37": "=PIVOT(9, 10, FALSE, FALSE)",
-        "B24": "=BetopiaERP.LIST.HEADER(1, \"employee_id\")",
-        "B25": "=BetopiaERP.LIST(1,1,\"employee_id\")",
-        "B26": "=BetopiaERP.LIST(1,2,\"employee_id\")",
-        "B27": "=BetopiaERP.LIST(1,3,\"employee_id\")",
-        "B28": "=BetopiaERP.LIST(1,4,\"employee_id\")",
-        "B29": "=BetopiaERP.LIST(1,5,\"employee_id\")",
-        "B30": "=BetopiaERP.LIST(1,6,\"employee_id\")",
-        "B31": "=BetopiaERP.LIST(1,7,\"employee_id\")",
-        "B32": "=BetopiaERP.LIST(1,8,\"employee_id\")",
-        "B33": "=BetopiaERP.LIST(1,9,\"employee_id\")",
-        "B34": "=BetopiaERP.LIST(1,10,\"employee_id\")",
-        "C24": "=BetopiaERP.LIST.HEADER(1, \"total_amount\")",
-        "C25": "=BetopiaERP.LIST(1,1,\"total_amount\")",
-        "C26": "=BetopiaERP.LIST(1,2,\"total_amount\")",
-        "C27": "=BetopiaERP.LIST(1,3,\"total_amount\")",
-        "C28": "=BetopiaERP.LIST(1,4,\"total_amount\")",
-        "C29": "=BetopiaERP.LIST(1,5,\"total_amount\")",
-        "C30": "=BetopiaERP.LIST(1,6,\"total_amount\")",
-        "C31": "=BetopiaERP.LIST(1,7,\"total_amount\")",
-        "C32": "=BetopiaERP.LIST(1,8,\"total_amount\")",
-        "C33": "=BetopiaERP.LIST(1,9,\"total_amount\")",
-        "C34": "=BetopiaERP.LIST(1,10,\"total_amount\")",
-        "E23": "[Top Categories](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"product_id\",\"!=\",false]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
+        "B24": "=BETOPIAERP.LIST.HEADER(1, \"employee_id\")",
+        "B25": "=BETOPIAERP.LIST(1,1,\"employee_id\")",
+        "B26": "=BETOPIAERP.LIST(1,2,\"employee_id\")",
+        "B27": "=BETOPIAERP.LIST(1,3,\"employee_id\")",
+        "B28": "=BETOPIAERP.LIST(1,4,\"employee_id\")",
+        "B29": "=BETOPIAERP.LIST(1,5,\"employee_id\")",
+        "B30": "=BETOPIAERP.LIST(1,6,\"employee_id\")",
+        "B31": "=BETOPIAERP.LIST(1,7,\"employee_id\")",
+        "B32": "=BETOPIAERP.LIST(1,8,\"employee_id\")",
+        "B33": "=BETOPIAERP.LIST(1,9,\"employee_id\")",
+        "B34": "=BETOPIAERP.LIST(1,10,\"employee_id\")",
+        "C24": "=BETOPIAERP.LIST.HEADER(1, \"total_amount\")",
+        "C25": "=BETOPIAERP.LIST(1,1,\"total_amount\")",
+        "C26": "=BETOPIAERP.LIST(1,2,\"total_amount\")",
+        "C27": "=BETOPIAERP.LIST(1,3,\"total_amount\")",
+        "C28": "=BETOPIAERP.LIST(1,4,\"total_amount\")",
+        "C29": "=BETOPIAERP.LIST(1,5,\"total_amount\")",
+        "C30": "=BETOPIAERP.LIST(1,6,\"total_amount\")",
+        "C31": "=BETOPIAERP.LIST(1,7,\"total_amount\")",
+        "C32": "=BETOPIAERP.LIST(1,8,\"total_amount\")",
+        "C33": "=BETOPIAERP.LIST(1,9,\"total_amount\")",
+        "C34": "=BETOPIAERP.LIST(1,10,\"total_amount\")",
+        "E23": "[Top Categories](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"product_id\",\"!=\",false]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
         "E24": "=PIVOT(1, 10, FALSE, FALSE)",
-        "E36": "[Top Employees](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"product_id\",\"!=\",false]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
+        "E36": "[Top Employees](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"product_id\",\"!=\",false]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"total_amount\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"hr.expense\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"kanban\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Expenses Analysis\"})",
         "E37": "=PIVOT(4, 10, FALSE, FALSE)"
       },
       "styles": {
@@ -178,7 +178,7 @@
               "groupBy": ["date:month", "product_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [
               {},
               {}
@@ -304,7 +304,7 @@
                   "groupBy": ["product_id"],
                   "orderBy": []
                 },
-                "type": "BetopiaERP_treemap",
+                "type": "betopiaerp_treemap",
                 "actionXmlId": "hr_expense.hr_expense_actions_all",
                 "dataSets": [
                   {}
@@ -500,7 +500,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -538,7 +538,7 @@
       ]
     },
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -576,7 +576,7 @@
       ]
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -596,7 +596,7 @@
       "rows": []
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -623,7 +623,7 @@
       "rows": []
     },
     "7": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -650,7 +650,7 @@
       "rows": []
     },
     "8": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "54e94f8d-739d-4a02-8205-c25be895720e": { "chain": "date", "type": "date", "offset": 0 },
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
@@ -677,7 +677,7 @@
       "rows": []
     },
     "9": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "0e80d79f-8175-422a-bdda-f5e491a6a201": { "chain": "product_id", "type": "many2one" },
         "e1b40389-7f46-44c0-acee-52033634fc5f": { "chain": "sale_order_id", "type": "many2one" },

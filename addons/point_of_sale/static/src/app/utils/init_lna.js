@@ -9,7 +9,7 @@ import { _t } from "@web/core/l10n/translation";
  * }>}
  */
 export const initLNA = async (notificationService, callback = () => {}) => {
-    if (!BetopiaERP.use_lna) {
+    if (!betopiaerp.use_lna) {
         callback("info", _t("Local Network Access is not configured for this POS."));
         return;
     }
@@ -42,7 +42,7 @@ export const initLNA = async (notificationService, callback = () => {}) => {
         processLNAState(result);
         result.onchange = () => processLNAState(result);
     } catch {
-        BetopiaERP.use_lna = false;
+        betopiaerp.use_lna = false;
         const isChromiumBased = navigator.userAgent.includes("Chromium") || !!window.chrome;
         let message;
         if (!isChromiumBased) {

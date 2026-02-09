@@ -10,6 +10,6 @@
         'data/project_mrp_account_demo.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

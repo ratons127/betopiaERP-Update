@@ -3,7 +3,7 @@ import { ActionContainer } from '@web/webclient/actions/action_container';
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { useOwnDebugContext } from "@web/core/debug/debug_context";
 import { session } from '@web/session';
-import { Component, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { Component, useEffect, useExternalListener } from "@betopiaerp/owl";
 
 export class SubcontractingPortalWebClient extends Component {
     static components = { ActionContainer, MainComponentsContainer };

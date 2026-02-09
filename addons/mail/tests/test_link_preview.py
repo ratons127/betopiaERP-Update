@@ -195,26 +195,26 @@ class TestLinkPreview(MailCommon):
             requests.Session, "head", self._patch_head_html
         ):
             urls = [
-                ("http://localhost:8069/", "http://localhost:8069/BetopiaERP", 0),
-                ("http://localhost:8069/", "http://localhost:8069/BetopiaERP/test", 0),
+                ("http://localhost:8069/", "http://localhost:8069/betopiaerp", 0),
+                ("http://localhost:8069/", "http://localhost:8069/betopiaerp/test", 0),
                 ("http://localhost:8069/", "http://localhost:8069/web/test", 0),
                 ("http://localhost:8069/", "http://localhost:8069/", 1),
-                ("http://localhost:8069/", "http://localhost:8069/BetopiaERP-experience", 1),
+                ("http://localhost:8069/", "http://localhost:8069/betopiaerp-experience", 1),
                 ("http://localhost:8069/", "http://localhost:8069/chat/5/bFtIfYHRco", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/web", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP/", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP?debug=assets", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP#anchor", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP-experience", 1),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP/1519/tasks/4102866", 0),
-                ("http://www.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP/1519/tasks/4102866", 1),
-                ("https://www.betopiaerp.com/", "https://wwwabetopiaerp.com/BetopiaERP/", 1),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/chat/", 0),
-                ("https://www.betopiaerp.com/", "https://www.betopiaerp.com/chat/5/bFtIfYHRco", 0),
-                ("http://www.betopiaerp.com/", "https://www.betopiaerp.com/chat/5/bFtIfYHRco", 1),
-                ("https://clients.betopiaerp.com/", "https://www.betopiaerp.com/BetopiaERP/1519/tasks/4102866", 1),
-                ("https://clients.betopiaerp.com/", "https://www.betopiaerp.com/chat/5/bFtIfYHRco", 1),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/web", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp/", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp?debug=assets", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp#anchor", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp-experience", 1),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp/1519/tasks/4102866", 0),
+                ("http://www.BetopiaERP.com/", "https://www.BetopiaERP.com/betopiaerp/1519/tasks/4102866", 1),
+                ("https://www.BetopiaERP.com/", "https://wwwabetopiaerp.com/betopiaerp/", 1),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/chat/", 0),
+                ("https://www.BetopiaERP.com/", "https://www.BetopiaERP.com/chat/5/bFtIfYHRco", 0),
+                ("http://www.BetopiaERP.com/", "https://www.BetopiaERP.com/chat/5/bFtIfYHRco", 1),
+                ("https://clients.betopiaerp.com/", "https://www.BetopiaERP.com/betopiaerp/1519/tasks/4102866", 1),
+                ("https://clients.betopiaerp.com/", "https://www.BetopiaERP.com/chat/5/bFtIfYHRco", 1),
             ]
             for request_url, url, counter in urls:
                 with self.subTest(request_url=request_url, url=url, counter=counter):
@@ -236,7 +236,7 @@ class TestLinkPreview(MailCommon):
         ):
             message = self.test_partner.message_post(
                 body=Markup(
-                    '<a href="https://www.betopiaerp.com/BetopiaERP-experience">Nothing link</a> <a href="https://www.betopiaerp.com/BetopiaERP-experience-2025">Other Nothing link</a>'
+                    '<a href="https://www.BetopiaERP.com/betopiaerp-experience">Nothing link</a> <a href="https://www.BetopiaERP.com/betopiaerp-experience-2025">Other Nothing link</a>'
                 ),
                 message_type="comment",
             )
@@ -247,7 +247,7 @@ class TestLinkPreview(MailCommon):
             self.assertEqual(link_preview_count, 2)
             self.test_partner._message_update_content(
                 message,
-                body=Markup('<a href="https://www.betopiaerp.com/BetopiaERP-experience">Nothing link</a>'),
+                body=Markup('<a href="https://www.BetopiaERP.com/betopiaerp-experience">Nothing link</a>'),
             )
             self.env["mail.link.preview"]._create_from_message_and_notify(message)
             link_preview_count = self.env["mail.message.link.preview"].search_count(

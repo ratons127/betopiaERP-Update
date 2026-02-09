@@ -1,4 +1,4 @@
-import { after, createJobScopedGetter } from "@BetopiaERP/hoot";
+import { after, createJobScopedGetter } from "@betopiaerp/hoot";
 import { Domain } from "@web/core/domain";
 import {
     deserializeDate,

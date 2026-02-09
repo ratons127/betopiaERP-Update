@@ -77,7 +77,7 @@ export class ExpressCheckout extends Interaction {
             'tokenization_requested': false,
             'landing_route': this.paymentContext['landingRoute'],
             'access_token': this.paymentContext['accessToken'],
-            'csrf_token': BetopiaERP.csrf_token,
+            'csrf_token': betopiaerp.csrf_token,
         };
     }
 

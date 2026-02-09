@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * pos_adyen
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-10-16 02:30+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_adyen/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Adyen API key"
 msgstr "Adyen APIキー"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid "Adyen Error"
 msgstr "Adyenエラー"
@@ -52,7 +52,7 @@ msgid "Adyen Test Mode"
 msgstr "Adyenテストモード"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid "An unexpected error occurred. Message from Adyen: %s"
 msgstr "予期しないエラーが発生しました。Adyenからのメッセージ: %s"
@@ -63,13 +63,13 @@ msgid "Ask Customers For Tip"
 msgstr "顧客にチップを求める"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid "Authentication failed. Please check your Adyen credentials."
 msgstr "認証に失敗しました。Adyenの認証情報を確認して下さい。"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid ""
 "Cancelling the payment failed. Please cancel it manually on the payment "
@@ -77,7 +77,7 @@ msgid ""
 msgstr "決済のキャンセルに失敗しました。決済端末で手動でキャンセルして下さい。"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid "Cannot process transactions with negative amount."
 msgstr "負の金額の取引は処理できません。"
@@ -88,7 +88,7 @@ msgid "Config Settings"
 msgstr "構成設定"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid ""
 "Could not connect to the BetopiaERP server, please check your internet connection "
@@ -117,19 +117,19 @@ msgid "ID"
 msgstr "ID"
 
 #. module: pos_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_adyen/models/pos_payment_method.py:0
 msgid "Invalid Adyen request"
 msgstr "無効なAdyen要求"
 
 #. module: pos_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_adyen/static/src/app/utils/payment/payment_adyen.js:0
 msgid "Message from Adyen: %s"
 msgstr "Adyenからのメッセージ: %s"
 
 #. module: pos_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_adyen/models/pos_config.py:0
 msgid ""
 "Please configure a tip product for POS %s to support tipping with Adyen."
@@ -156,7 +156,7 @@ msgid "Run transactions in the test environment."
 msgstr "テスト環境で取引を行います。"
 
 #. module: pos_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_adyen/models/pos_payment_method.py:0
 msgid ""
 "Terminal %(terminal)s is already used in company %(company)s on payment "
@@ -166,7 +166,7 @@ msgstr ""
 "れています。"
 
 #. module: pos_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_adyen/models/pos_payment_method.py:0
 msgid ""
 "Terminal %(terminal)s is already used on payment method %(payment_method)s."

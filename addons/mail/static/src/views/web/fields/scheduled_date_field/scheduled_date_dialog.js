@@ -2,7 +2,7 @@ import { DateTimeInput } from "@web/core/datetime/datetime_input";
 import { Dialog } from "@web/core/dialog/dialog";
 import { today } from "@web/core/l10n/dates";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class ScheduledDateDialog extends Component {
     static template = "mail.ScheduledDateDialog";

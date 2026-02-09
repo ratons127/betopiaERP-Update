@@ -1,4 +1,4 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { PresetInfoPopup } from "@pos_self_order/app/components/preset_info_popup/preset_info_popup";
 import { setupSelfPosEnv, getFilledSelfOrder } from "../utils";
@@ -26,7 +26,7 @@ test("validSelection", async () => {
     // mail
     preset.mail_template_id = 21;
     expect(comp.validSelection).toBeEmpty();
-    comp.state.email = "good.person@BetopiaERP.com";
+    comp.state.email = "good.person@betopiaerp.com";
     expect(Boolean(comp.validSelection)).toBe(true);
     // slots
     preset.use_timing = true;

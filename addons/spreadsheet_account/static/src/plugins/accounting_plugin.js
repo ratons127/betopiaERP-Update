@@ -1,6 +1,6 @@
 // @ts-check
 
-import { EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { EvaluationError } from "@betopiaerp/o-spreadsheet";
 import { BetopiaERPUIPlugin } from "@spreadsheet/plugins";
 import { _t } from "@web/core/l10n/translation";
 import { deepCopy } from "@web/core/utils/objects";
@@ -24,7 +24,7 @@ export class AccountingPlugin extends BetopiaERPUIPlugin {
     constructor(config) {
         super(config);
         /** @type {import("@spreadsheet/data_sources/server_data").ServerData} */
-        this._serverData = config.custom.BetopiaERPDataProvider?.serverData;
+        this._serverData = config.custom.betopiaerpDataProvider?.serverData;
     }
 
     get serverData() {

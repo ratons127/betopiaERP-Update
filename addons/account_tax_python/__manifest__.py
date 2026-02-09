@@ -25,6 +25,6 @@ A tax defined as python code consists of two snippets of python code which are e
             'account_tax_python/static/src/helpers/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

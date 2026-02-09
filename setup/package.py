@@ -28,7 +28,7 @@ TSEC = time.strftime("%H%M%S", time.gmtime())
 version = ...
 version_info = ...
 nt_service_name = ...
-exec(open(os.path.join(ROOTDIR, 'BetopiaERP', 'release.py'), 'rb').read())
+exec(open(os.path.join(ROOTDIR, 'betopiaerp', 'release.py'), 'rb').read())
 VERSION = version.split('-')[0].replace('saas~', '')
 GPGPASSPHRASE = os.getenv('GPGPASSPHRASE')
 GPGID = os.getenv('GPGID')
@@ -36,12 +36,12 @@ DOCKERVERSION = VERSION.replace('+', '')
 INSTALL_TIMEOUT = 600
 
 DOCKERUSER = """
-RUN mkdir /var/lib/BetopiaERP && \
-    groupadd -g %(group_id)s BetopiaERP && \
-    useradd -u %(user_id)s -g BetopiaERP BetopiaERP -d /var/lib/BetopiaERP && \
+RUN mkdir /var/lib/betopiaerp && \
+    groupadd -g %(group_id)s betopiaerp && \
+    useradd -u %(user_id)s -g betopiaerp betopiaerp -d /var/lib/betopiaerp && \
     mkdir /data && \
-    chown BetopiaERP:BetopiaERP /var/lib/BetopiaERP /data
-USER BetopiaERP
+    chown betopiaerp:betopiaerp /var/lib/betopiaerp /data
+USER betopiaerp
 """ % {'group_id': os.getgid(), 'user_id': os.getuid()}
 
 
@@ -105,7 +105,7 @@ def publish(args, pub_type, extensions):
 
     published = []
     for extension in extensions:
-        release = glob("%s/BetopiaERP_*.%s" % (args.build_dir, extension))
+        release = glob("%s/betopiaerp_*.%s" % (args.build_dir, extension))
         if release:
             published.append(_publish(release[0]))
     return published
@@ -164,13 +164,13 @@ def _prepare_build_dir(args, win32=False, move_addons=True):
     if win32 is False:
         cmd += ['--exclude', 'setup/win32']
 
-    run_cmd(cmd + ['%s/' % args.BetopiaERP_dir, args.build_dir])
+    run_cmd(cmd + ['%s/' % args.betopiaerp_dir, args.build_dir])
     if not move_addons:
         return
     for addon_path in glob(os.path.join(args.build_dir, 'addons/*')):
         if args.blacklist is None or os.path.basename(addon_path) not in args.blacklist:
             try:
-                shutil.move(addon_path, os.path.join(args.build_dir, 'BetopiaERP/addons'))
+                shutil.move(addon_path, os.path.join(args.build_dir, 'betopiaerp/addons'))
             except shutil.Error as e:
                 logging.warning("Warning '%s' while moving addon '%s", e, addon_path)
                 if addon_path.startswith(args.build_dir) and os.path.isdir(addon_path):
@@ -191,7 +191,7 @@ class Docker():
         :param args: argparse parsed arguments
         """
         self.args = args
-        self.tag = 'BetopiaERP-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
+        self.tag = 'betopiaerp-%s-%s-nightly-tests' % (DOCKERVERSION, self.arch)
         self.container_name = None
         self.exposed_port = None
         docker_templates = {
@@ -200,7 +200,7 @@ class Docker():
             'rpm': os.path.join(args.build_dir, 'setup/package.dffedora'),
             'win': os.path.join(args.build_dir, 'setup/package.dfwine'),
         }
-        self.docker_template = Path(docker_templates[self.arch]).read_text(encoding='utf-8').replace('USER BetopiaERP', DOCKERUSER)
+        self.docker_template = Path(docker_templates[self.arch]).read_text(encoding='utf-8').replace('USER betopiaerp', DOCKERUSER)
         self.test_log_file = '/data/src/test-%s.log' % self.arch
         self.docker_dir = Path(self.args.build_dir) / 'docker'
         if not self.docker_dir.exists():
@@ -215,7 +215,7 @@ class Docker():
         run_cmd(["docker", "build", "--rm=True", "-t", self.tag, "."], chdir=self.docker_dir, timeout=1200).check_returncode()
         shutil.rmtree(self.docker_dir)
 
-    def run(self, cmd, build_dir, container_name, user='BetopiaERP', exposed_port=None, detach=False, timeout=None):
+    def run(self, cmd, build_dir, container_name, user='betopiaerp', exposed_port=None, detach=False, timeout=None):
         self.container_name = container_name
         docker_cmd = [
             "docker",
@@ -249,11 +249,11 @@ class Docker():
     def stop(self):
         run_cmd(["docker", "stop", self.container_name]).check_returncode()
 
-    def test_BetopiaERP(self):
+    def test_betopiaerp(self):
         logging.info('Starting to test BetopiaERP install test')
         start_time = time.time()
         while self.is_running() and (time.time() - start_time) < INSTALL_TIMEOUT:
-            time.sleep(5)  # give some time for BetopiaERP to install and start
+            time.sleep(5)  # give some time for betopiaerp to install and start
             if os.path.exists(os.path.join(args.build_dir, 'betopiaerp.pid')):
                 try:
                     _rpc_count_modules(port=self.exposed_port)
@@ -281,9 +281,9 @@ class DockerTgz(Docker):
 
     def build(self):
         logging.info('Start building python tgz package')
-        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'BetopiaERP-src-build-%s' % TSTAMP)
-        os.rename(glob('%s/dist/BetopiaERP-*.tar.gz' % self.args.build_dir)[0], '%s/BetopiaERP_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
-        os.rename(glob('%s/dist/BetopiaERP-*.zip' % self.args.build_dir)[0], '%s/BetopiaERP_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run('python3 setup.py sdist --quiet --formats=gztar,zip', self.args.build_dir, 'betopiaerp-src-build-%s' % TSTAMP)
+        os.rename(glob('%s/dist/betopiaerp-*.tar.gz' % self.args.build_dir)[0], '%s/betopiaerp_%s.%s.tar.gz' % (self.args.build_dir, VERSION, TSTAMP))
+        os.rename(glob('%s/dist/betopiaerp-*.zip' % self.args.build_dir)[0], '%s/betopiaerp_%s.%s.zip' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building python tgz package')
 
     def start_test(self):
@@ -292,17 +292,17 @@ class DockerTgz(Docker):
         logging.info('Start testing python tgz package')
         cmds = [
             'service postgresql start',
-            'su postgres -s /bin/bash -c "createuser -s BetopiaERP"',
-            'su BetopiaERP -s /bin/bash -c "python3 -m venv /var/lib/BetopiaERP/BetopiaERPvenv"',
-            'su BetopiaERP -s /bin/bash -c "/var/lib/BetopiaERP/BetopiaERPvenv/bin/python3 -m pip install --upgrade pip"',
-            'su BetopiaERP -s /bin/bash -c "/var/lib/BetopiaERP/BetopiaERPvenv/bin/python3 -m pip install -r /opt/release/requirements.txt"',
-            f'su BetopiaERP -s /bin/bash -c "/var/lib/BetopiaERP/BetopiaERPvenv/bin/python3 -m pip install /data/src/BetopiaERP_{VERSION}.{TSTAMP}.tar.gz"',
-            'su BetopiaERP -s /bin/bash -c "createdb mycompany"',
-            'su BetopiaERP -s /bin/bash -c "/var/lib/BetopiaERP/BetopiaERPvenv/bin/BetopiaERP -d mycompany -i base --stop-after-init"',
-            'su BetopiaERP -s /bin/bash -c "/var/lib/BetopiaERP/BetopiaERPvenv/bin/BetopiaERP -d mycompany --pidfile=/data/src/betopiaerp.pid"',
+            'su postgres -s /bin/bash -c "createuser -s betopiaerp"',
+            'su betopiaerp -s /bin/bash -c "python3 -m venv /var/lib/betopiaerp/betopiaerpvenv"',
+            'su betopiaerp -s /bin/bash -c "/var/lib/betopiaerp/betopiaerpvenv/bin/python3 -m pip install --upgrade pip"',
+            'su betopiaerp -s /bin/bash -c "/var/lib/betopiaerp/betopiaerpvenv/bin/python3 -m pip install -r /opt/release/requirements.txt"',
+            f'su betopiaerp -s /bin/bash -c "/var/lib/betopiaerp/betopiaerpvenv/bin/python3 -m pip install /data/src/betopiaerp_{VERSION}.{TSTAMP}.tar.gz"',
+            'su betopiaerp -s /bin/bash -c "createdb mycompany"',
+            'su betopiaerp -s /bin/bash -c "/var/lib/betopiaerp/betopiaerpvenv/bin/betopiaerp -d mycompany -i base --stop-after-init"',
+            'su betopiaerp -s /bin/bash -c "/var/lib/betopiaerp/betopiaerpvenv/bin/betopiaerp -d mycompany --pidfile=/data/src/betopiaerp.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'BetopiaERP-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_BetopiaERP()
+        self.run(' && '.join(cmds), self.args.build_dir, 'betopiaerp-src-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_betopiaerp()
         logging.info('Finished testing tgz package')
 
 
@@ -314,11 +314,11 @@ class DockerDeb(Docker):
     def build(self):
         logging.info('Start building debian package')
         # Append timestamp to version for the .dsc to refer the right .tar.gz
-        cmds = ["sed -i '1s/^.*$/BetopiaERP (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
+        cmds = ["sed -i '1s/^.*$/betopiaerp (%s.%s) stable; urgency=low/' debian/changelog" % (VERSION, TSTAMP)]
         cmds.append('dpkg-buildpackage -rfakeroot -uc -us -tc')
         # As the packages are built in the parent of the buildir, we move them back to build_dir
-        cmds.append('mv ../BetopiaERP_* ./')
-        self.run(' && '.join(cmds), self.args.build_dir, 'BetopiaERP-deb-build-%s' % TSTAMP)
+        cmds.append('mv ../betopiaerp_* ./')
+        self.run(' && '.join(cmds), self.args.build_dir, 'betopiaerp-deb-build-%s' % TSTAMP)
         logging.info('Finished building debian package')
 
     def start_test(self):
@@ -328,11 +328,11 @@ class DockerDeb(Docker):
         cmds = [
             'service postgresql start',
             '/usr/bin/apt-get update -y',
-            f'/usr/bin/apt-get install -y /data/src/BetopiaERP_{VERSION}.{TSTAMP}_all.deb',
-            'su BetopiaERP -s /bin/bash -c "BetopiaERP -d mycompany -i base --pidfile=/data/src/betopiaerp.pid"',
+            f'/usr/bin/apt-get install -y /data/src/betopiaerp_{VERSION}.{TSTAMP}_all.deb',
+            'su betopiaerp -s /bin/bash -c "betopiaerp -d mycompany -i base --pidfile=/data/src/betopiaerp.pid"',
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'BetopiaERP-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_BetopiaERP()
+        self.run(' && '.join(cmds), self.args.build_dir, 'betopiaerp-deb-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_betopiaerp()
         logging.info('Finished testing debian package')
 
 
@@ -343,19 +343,19 @@ class DockerRpm(Docker):
 
     def build(self):
         logging.info('Start building fedora rpm package')
-        rpmbuild_dir = '/var/lib/BetopiaERP/rpmbuild'
+        rpmbuild_dir = '/var/lib/betopiaerp/rpmbuild'
         build_date = datetime.now().strftime('%a %b %d %Y')
         cmds = [
             'cd /data/src',
             'mkdir -p dist',
             'rpmdev-setuptree -d',
             f'cp -a /data/src/setup/rpm/betopiaerp.spec {rpmbuild_dir}/SPECS/',
-            f'tar --transform "s/^\\./BetopiaERP-{VERSION}/" -c -z -f {rpmbuild_dir}/SOURCES/BetopiaERP-{VERSION}.tar.gz .',
+            f'tar --transform "s/^\\./betopiaerp-{VERSION}/" -c -z -f {rpmbuild_dir}/SOURCES/betopiaerp-{VERSION}.tar.gz .',
             f'rpmbuild -bb --define="%version {VERSION}" --define "%release {TSTAMP}" --define "%build_date {build_date}" /data/src/setup/rpm/betopiaerp.spec',
-            f'mv {rpmbuild_dir}/RPMS/noarch/BetopiaERP*.rpm /data/src/dist/'
+            f'mv {rpmbuild_dir}/RPMS/noarch/betopiaerp*.rpm /data/src/dist/'
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, f'BetopiaERP-rpm-build-{TSTAMP}')
-        os.rename(glob('%s/dist/BetopiaERP-*.noarch.rpm' % self.args.build_dir)[0], '%s/BetopiaERP_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
+        self.run(' && '.join(cmds), self.args.build_dir, f'betopiaerp-rpm-build-{TSTAMP}')
+        os.rename(glob('%s/dist/betopiaerp-*.noarch.rpm' % self.args.build_dir)[0], '%s/betopiaerp_%s.%s.rpm' % (self.args.build_dir, VERSION, TSTAMP))
         logging.info('Finished building fedora rpm package')
 
     def start_test(self):
@@ -365,14 +365,14 @@ class DockerRpm(Docker):
         cmds = [
             'su postgres -c "/usr/bin/pg_ctl -D /var/lib/postgres/data start"',
             'sleep 5',
-            'su postgres -c "createuser -s BetopiaERP"',
-            'su BetopiaERP -c "createdb mycompany"',
-            'dnf install -q /data/src/BetopiaERP_%s.%s.rpm -y' % (VERSION, TSTAMP),
-            'su BetopiaERP -s /bin/bash -c "BetopiaERP -c /etc/BetopiaERP/betopiaerp.conf -d mycompany -i base --stop-after-init"',
-            'su BetopiaERP -s /bin/bash -c "BetopiaERP -c /etc/BetopiaERP/betopiaerp.conf -d mycompany --pidfile=/data/src/betopiaerp.pid"',
+            'su postgres -c "createuser -s betopiaerp"',
+            'su betopiaerp -c "createdb mycompany"',
+            'dnf install -q /data/src/betopiaerp_%s.%s.rpm -y' % (VERSION, TSTAMP),
+            'su betopiaerp -s /bin/bash -c "betopiaerp -c /etc/betopiaerp/betopiaerp.conf -d mycompany -i base --stop-after-init"',
+            'su betopiaerp -s /bin/bash -c "betopiaerp -c /etc/betopiaerp/betopiaerp.conf -d mycompany --pidfile=/data/src/betopiaerp.pid"',
         ]
-        self.run(' && '.join(cmds), args.build_dir, 'BetopiaERP-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
-        self.test_BetopiaERP()
+        self.run(' && '.join(cmds), args.build_dir, 'betopiaerp-rpm-test-%s' % TSTAMP, user='root', detach=True, exposed_port=8069, timeout=300)
+        self.test_betopiaerp()
         logging.info('Finished testing rpm package')
 
     def gen_rpm_repo(self, args, rpm_filepath):
@@ -387,7 +387,7 @@ class DockerRpm(Docker):
         shutil.copy(rpm_filepath, temp_path)
 
         logging.info('Start creating rpm repo')
-        self.run('createrepo /data/src/', temp_path, 'BetopiaERP-rpm-createrepo-%s' % TSTAMP)
+        self.run('createrepo /data/src/', temp_path, 'betopiaerp-rpm-createrepo-%s' % TSTAMP)
         shutil.copytree(os.path.join(temp_path, "repodata"), pub_repodata_path)
 
         # Remove temp directory
@@ -402,19 +402,19 @@ class DockerWine(Docker):
     def __init__(self, args):
         super().__init__(args)
         self.package_name = "windows"
-        self.nsi_filepath = r"c:\BetopiaERPbuild\server\setup\win32\setup.nsi"
+        self.nsi_filepath = r"c:\betopiaerpbuild\server\setup\win32\setup.nsi"
         self.nt_service_name = nt_service_name
 
     def build(self):
         logging.info('Start building %s package', self.package_name)
         winver = "%s.%s" % (VERSION.replace('~', '_').replace('+', ''), TSTAMP)
-        container_python = '/var/lib/BetopiaERP/.wine/drive_c/BetopiaERPbuild/WinPy64/python-3.12.3.amd64/python.exe'
+        container_python = '/var/lib/betopiaerp/.wine/drive_c/betopiaerpbuild/WinPy64/python-3.12.3.amd64/python.exe'
         nsis_args = f'/DVERSION={winver} /DMAJOR_VERSION={version_info[0]} /DMINOR_VERSION={version_info[1]} /DSERVICENAME={self.nt_service_name} /DPYTHONVERSION=3.12.3'
         cmds = [
             rf'wine {container_python} -m pip list',
             rf'wine "c:\nsis-3.11\makensis.exe" {nsis_args} "{self.nsi_filepath}"'
         ]
-        self.run(' && '.join(cmds), self.args.build_dir, 'BetopiaERP-win-build-%s' % TSTAMP)
+        self.run(' && '.join(cmds), self.args.build_dir, 'betopiaerp-win-build-%s' % TSTAMP)
         logging.info('Finished building %s package', self.package_name)
 
 
@@ -424,11 +424,11 @@ class DockerIot(DockerWine):
     def __init__(self, args):
         super().__init__(args)
         self.package_name = "IoT"
-        self.nsi_filepath = r"c:\BetopiaERPbuild\server\setup\win32\setup-iot.nsi"
-        self.nt_service_name = "BetopiaERP-iot"
+        self.nsi_filepath = r"c:\betopiaerpbuild\server\setup\win32\setup-iot.nsi"
+        self.nt_service_name = "betopiaerp-iot"
 
     def build_image(self):
-        shutil.copy(os.path.join(self.args.build_dir, 'BetopiaERP/addons/iot_box_image/configuration/requirements.txt'), self.docker_dir / 'requirements-iot.txt')
+        shutil.copy(os.path.join(self.args.build_dir, 'betopiaerp/addons/iot_box_image/configuration/requirements.txt'), self.docker_dir / 'requirements-iot.txt')
         self.tag = f'{self.tag}-iot'
         super().build_image()
 
@@ -454,7 +454,7 @@ def parse_args():
 
     parsed_args = ap.parse_args()
     logging.basicConfig(format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %I:%M:%S', level=log_levels[parsed_args.logging])
-    parsed_args.BetopiaERP_dir = ROOTDIR
+    parsed_args.betopiaerp_dir = ROOTDIR
     return parsed_args
 
 

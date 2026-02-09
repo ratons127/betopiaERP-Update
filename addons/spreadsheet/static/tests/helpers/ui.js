@@ -1,9 +1,9 @@
-import { Model, Spreadsheet } from "@BetopiaERP/o-spreadsheet";
+import { Model, Spreadsheet } from "@betopiaerp/o-spreadsheet";
 import { loadBundle } from "@web/core/assets";
 
-import { getFixture } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { getFixture } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { useSpreadsheetNotificationStore } from "@spreadsheet/hooks";
 import { PublicReadonlySpreadsheet } from "@spreadsheet/public_readonly_app/public_readonly";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";

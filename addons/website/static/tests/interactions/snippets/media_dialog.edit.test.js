@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import { switchToEditMode } from "../../helpers";
 

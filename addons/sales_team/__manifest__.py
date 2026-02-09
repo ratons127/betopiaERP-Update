@@ -9,7 +9,7 @@
 Using this application you can manage Sales Teams with CRM and/or Sales
 =======================================================================
  """,
-    'website': 'https://www.betopiaerp.com/app/crm',
+    'website': 'https://www.BetopiaERP.com/app/crm',
     'depends': ['base', 'mail'],
     'data': [
         'security/sales_team_security.xml',
@@ -33,6 +33,6 @@ Using this application you can manage Sales Teams with CRM and/or Sales
             'sales_team/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

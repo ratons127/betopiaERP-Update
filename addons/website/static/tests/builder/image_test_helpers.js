@@ -1,4 +1,4 @@
-import { before, globals } from "@BetopiaERP/hoot";
+import { before, globals } from "@betopiaerp/hoot";
 import { onRpc } from "@web/../tests/web_test_helpers";
 
 function onRpcReal(route) {

@@ -1,4 +1,4 @@
-import { Component, onWillRender, useEffect, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onWillRender, useEffect, useExternalListener, useRef } from "@betopiaerp/owl";
 import { useCommand } from "@web/core/commands/command_hook";
 import { Domain } from "@web/core/domain";
 import { Dropdown } from "@web/core/dropdown/dropdown";

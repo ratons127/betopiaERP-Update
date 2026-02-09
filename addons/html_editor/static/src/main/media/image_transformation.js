@@ -23,7 +23,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 */
 
-import { Component, onMounted, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, useExternalListener, useRef } from "@betopiaerp/owl";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 import { usePositionHook } from "@html_editor/position_hook";
 import { closestElement } from "@html_editor/utils/dom_traversal";

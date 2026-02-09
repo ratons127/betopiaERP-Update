@@ -1,4 +1,4 @@
-import { components } from "@BetopiaERP/o-spreadsheet";
+import { components } from "@betopiaerp/o-spreadsheet";
 import { patch } from "@web/core/utils/patch";
 
 patch(components.ChartJsComponent.prototype, {

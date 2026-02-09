@@ -404,7 +404,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -668,14 +668,14 @@ msgstr ""
 "tomonidan ta'minlangan </td></tr> </table> </td></tr> </table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "A reset password link was sent by email"
 msgstr "Parolni tiklash havolasi elektron pochta orqali yuborildi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "A signup link was sent by email"
@@ -688,7 +688,7 @@ msgid "Already have an account?"
 msgstr "Hisobingiz bormi?"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Another user is already registered using this email address."
@@ -703,7 +703,7 @@ msgid "Back to Login"
 msgstr "Kirish sahifasiga qaytish"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Cannot send email: user %s has no email address."
@@ -742,7 +742,7 @@ msgid "Contact"
 msgstr "Aloqa"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -753,14 +753,14 @@ msgstr ""
 "serveringiz sozlamalarini tekshiring"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Could not create a new account."
 msgstr "Yangi hisob yaratib bo‘lmadi."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Could not reset your password"
@@ -851,7 +851,7 @@ msgstr ""
 "><br/>Rahmat,"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Invalid signup token"
@@ -883,7 +883,7 @@ msgid "Marc Demo"
 msgstr "Mark Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Multiple accounts found for this login"
@@ -896,14 +896,14 @@ msgid "Name"
 msgstr "Ism"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "No account found for this login"
 msgstr "Bu kirish ma'lumotlari uchun hech qanday hisob topilmadi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "No login provided."
@@ -934,14 +934,14 @@ msgid "Password Reset"
 msgstr "Parolni tiklash"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Password reset"
 msgstr "Parolni tiklash"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Password reset instructions sent to your email address."
@@ -950,7 +950,7 @@ msgstr ""
 "yuborildi."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Passwords do not match; please retype them."
@@ -975,7 +975,7 @@ msgid "Reminder for unregistered users"
 msgstr "Ro‘yxatdan o‘tmagan foydalanuvchilar uchun eslatma"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1053,7 +1053,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "Sozlamalar: Ro‘yxatdan o‘tmagan foydalanuvchilarga eslatma"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Sign Up"
@@ -1073,35 +1073,35 @@ msgid "Signup Token Type"
 msgstr "Ro‘yxatdan o‘tish belgisi turi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Signup is not allowed for uninvited users"
 msgstr "Taklif qilinmagan foydalanuvchilar uchun ro‘yxatdan o‘tish mumkin emas"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 #, fuzzy
 msgid "Signup token '%s' is not valid or expired"
 msgstr "'%s' ro‘yxatdan o‘tish belgisi yaroqsiz yoki muddati tugagan"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Signup: invalid template user"
 msgstr "Ro‘yxatdan o‘tish: noto‘g‘ri namuna foydalanuvchisi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Signup: no login given for new user"
 msgstr "Ro‘yxatdan o‘tish: yangi foydalanuvchi uchun login kiritilmagan"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "Signup: no name or partner given for new user"
@@ -1123,14 +1123,14 @@ msgstr ""
 "foydalanuvchisi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "The form was not properly filled in."
 msgstr "Shakl to‘g‘ri to‘ldirilmagan"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -1172,7 +1172,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "{{ object.company_id.name }} saytiga xush kelibsiz!"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 #, fuzzy
 msgid "You cannot perform this action on an archived user."
@@ -1185,7 +1185,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "{{ object.company_id.name }} kompaniyasidagi hisobingiz"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #, fuzzy
 msgid "Your password has been reset successfully."

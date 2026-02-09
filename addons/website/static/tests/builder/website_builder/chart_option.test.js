@@ -1,10 +1,10 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,
 } from "@website/../tests/builder/website_helpers";
 import { contains } from "@web/../tests/web_test_helpers";
-import { animationFrame, press, queryFirst } from "@BetopiaERP/hoot-dom";
+import { animationFrame, press, queryFirst } from "@betopiaerp/hoot-dom";
 
 defineWebsiteModels();
 

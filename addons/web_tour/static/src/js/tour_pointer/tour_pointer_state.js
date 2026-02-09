@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { TourPointer } from "@web_tour/js/tour_pointer/tour_pointer";
 import { getScrollParent } from "@web_tour/js/utils/tour_utils";

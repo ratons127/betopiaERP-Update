@@ -9,7 +9,7 @@
     'depends': ['spreadsheet', 'account'],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'spreadsheet.o_spreadsheet': [

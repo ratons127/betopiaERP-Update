@@ -8,9 +8,9 @@ declaration.
 
 Signed,
 
-Dinamiche Aziendali srl BetopiaERP@dinamicheaziendali.it https://github.com/DinamicheAziendali
+Dinamiche Aziendali srl betopiaerp@dinamicheaziendali.it https://github.com/DinamicheAziendali
 
 List of contributors:
 
-Dinamiche Aziendali srl BetopiaERP@dinamicheaziendali.it https://github.com/DinamicheAziendali
+Dinamiche Aziendali srl betopiaerp@dinamicheaziendali.it https://github.com/DinamicheAziendali
 Giuseppe Borruso gborruso@dinamicheaziendali.it https://github.com/Borruso

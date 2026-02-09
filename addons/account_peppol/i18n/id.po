@@ -2,8 +2,8 @@
 # This file contains the translation of the following modules:
 # * account_peppol
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Abe Manyo (abem)" <abem@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Abe Manyo (abem)" <abem@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -11,8 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-06 06:54+0000\n"
-"Last-Translator: \"Abe Manyo (abem)\" <abem@BetopiaERP.com>\n"
-"Language-Team: Indonesian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Abe Manyo (abem)\" <abem@betopiaerp.com>\n"
+"Language-Team: Indonesian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_peppol/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -22,49 +22,49 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Customer not on Peppol)"
 msgstr " (Pelanggan tidak di Peppol)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Demo)"
 msgstr " (Demo)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Test)"
 msgstr " (Test)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (no VAT)"
 msgstr " (tidak ada PPN)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (no access)"
 msgstr " (tidak ada akses)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid " Expected format: %(expected_format)s."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "%s has requested electronic invoices reception on Peppol."
 msgstr "%s telah meminta penerimaan faktur elektronik di Peppol."
@@ -126,7 +126,7 @@ msgid ""
 "                                    </span>\n"
 "                                    <div style=\"margin-bottom: 5px; margin-"
 "top: 18px;\">\n"
-"                                        <a t-attf-href=\"/BetopiaERP/accounting/\" "
+"                                        <a t-attf-href=\"/betopiaerp/accounting/\" "
 "target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: "
 "{{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !"
 "important; font-weight: 400; background-color: "
@@ -212,7 +212,7 @@ msgstr ""
 "                                    </span>\n"
 "                                    <div style=\"margin-bottom: 5px; margin-"
 "top: 18px;\">\n"
-"                                        <a t-attf-href=\"/BetopiaERP/accounting/\" "
+"                                        <a t-attf-href=\"/betopiaerp/accounting/\" "
 "target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: "
 "{{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !"
 "important; font-weight: 400; background-color: "
@@ -275,7 +275,7 @@ msgstr ""
 "            "
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A Receipt has been received  for a message that was previously sent by the "
@@ -289,7 +289,7 @@ msgstr ""
 "tanda tangan digest, untuk NRR)."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A Receipt has not been received  for a message that was previously sent by "
@@ -299,7 +299,7 @@ msgstr ""
 "membuat error ini."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A fragment is received but a previously received fragment message had the "
@@ -309,7 +309,7 @@ msgstr ""
 "yang sama untuk GroupId dan FragmentNum"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A fragment is received but more than one fragment message in a group of "
@@ -319,7 +319,7 @@ msgstr ""
 "menunjuk ke value untuk elemen compression."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A fragment is received but more than one fragment message in a group of "
@@ -329,14 +329,14 @@ msgstr ""
 "menunjuk ke value untuk elemen ini."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A fragment is received that relates to a group that was previously rejected."
 msgstr "Fragmen diterima yang terkait ke kelompok yang sebelumnya ditolak."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A message unit in a bundle was not processed because a related message unit "
@@ -346,7 +346,7 @@ msgstr ""
 "menimbulkan error."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid ""
 "A participant with these details has already been registered on the network. "
@@ -357,13 +357,13 @@ msgstr ""
 "pendaftaran tersebut."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "A purchase journal must be used to receive Peppol documents."
 msgstr "Jurnal pembelian harus digunakan untuk menerima dokumen Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A responding MSH indicates that it applies the alternate MEP binding to the "
@@ -373,7 +373,7 @@ msgstr ""
 "MEP alternatif ke pesan tanggapan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "A value is set for FragmentCount, but a previously received fragment had a "
@@ -421,7 +421,7 @@ msgid "Account used for Peppol"
 msgstr "Akun digunakan oleh Peppol"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Activate"
 msgstr "Aktifkan"
@@ -432,7 +432,7 @@ msgid "Activate Electronic Invoicing"
 msgstr "Aktifkan Faktur Elektroni"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Activate Electronic Invoicing (via Peppol)"
 msgstr "Aktifkan Pemfakturan Elektronik (melalui Peppol)"
@@ -483,7 +483,7 @@ msgid "Allow sending and receiving invoices through the Peppol network"
 msgstr "Memungkinkan pengiriman dan penerimaan faktur melalui jaringan Peppol"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Although the message document is well formed and schema valid, some element/"
@@ -495,7 +495,7 @@ msgstr ""
 "dapat digunakan oleh MSH."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Although the message document is well formed and schema valid, some element/"
@@ -507,7 +507,7 @@ msgstr ""
 "tidak didukung oleh MSH."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Although the message document is well formed and schema valid, some element/"
@@ -521,7 +521,7 @@ msgstr ""
 "ebMS."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Although the message document is well formed and schema valid, the presence "
@@ -533,7 +533,7 @@ msgstr ""
 "terutama mengenai fitur-fitur yang didukung."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Although the message was sent under Guaranteed delivery requirement, the "
@@ -545,7 +545,7 @@ msgstr ""
 "kendati upaya pengiriman ulang."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "An Intermediary MSH was unable to route an ebMS message and stopped "
@@ -554,7 +554,7 @@ msgstr ""
 "MSH Perantara tidak dapat merute pesan ebMS dan berhenti memproses pesan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "An MSH has determined that the message is expired and will not attempt to "
@@ -564,7 +564,7 @@ msgstr ""
 "untuk meneruskan atau mengirimkannya."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "An entry in the routing function is matched that assigns the message to an "
@@ -575,19 +575,19 @@ msgstr ""
 "tapi MSH perantara tidak dapat menyimpan pesan dengan MPC ini"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "An error occurred during the decompression."
 msgstr "Error terjadi pada decompression."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "An error occurred while decompressing the reassembled message."
 msgstr "Error terjadi selagi decompressing pesan yang dibuat ulang."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "An incoming message fragment has a a value greater than the known "
@@ -597,7 +597,7 @@ msgstr ""
 "diketahui."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "An intermediary MSH has assigned the message to an MPC for pulling and has "
@@ -611,7 +611,7 @@ msgstr ""
 "telah dicapai."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "An internal error occurred"
 msgstr "Error internal terjadi"
@@ -628,13 +628,13 @@ msgstr ""
 "penjualan pertama."
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_auth/peppol_auth_service.js:0
 msgid "Authentication failed"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_auth/peppol_auth_service.js:0
 msgid "Authentication successful"
 msgstr ""
@@ -687,20 +687,20 @@ msgid "Cancel PEPPOL"
 msgstr "Batalkan PEPPOL"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move.py:0
 msgid "Cannot cancel an entry that has already been sent to PEPPOL"
 msgstr "Tidak dapat membatalkan entri yang sudah dikirim ke PEPPOL"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Cannot register a user with a %s application"
 msgstr "Tidak dapat mendaftarkan user dengan application %s"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Check Partner(s)"
 msgstr "Periksa Partner"
@@ -764,19 +764,19 @@ msgid "Contact"
 msgstr "Kontak"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Contact email and phone number are required."
 msgstr "Email kontak dan nomor telepon dibutuhkan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Could not connect to Proxy Server."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Could not find an XSD with which to validate the document with identifier "
@@ -791,7 +791,7 @@ msgid "Create a Customer"
 msgstr "Buat Pelanggan"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Create, send and receive e-invoices for free."
 msgstr "Buat, kirim dan terima e-faktur secara gratis"
@@ -811,7 +811,7 @@ msgid "Created on"
 msgstr "Dibuat pada"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Customer is on Peppol but did not enable receiving documents."
 msgstr "Pelanggan ada di Peppol tapi tidak mengaktifkan penerimaan dokumen."
@@ -852,7 +852,7 @@ msgid "Disconnect this database"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Disconnected this branch company peppol configuration from %s."
 msgstr "Konfigurasi peppol cabang perusahaan ini telah di-disconnect dari %s."
@@ -906,7 +906,7 @@ msgid "Done"
 msgstr "Selesai"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "E-invoices will soon be mandatory in many countries"
 msgstr "E-faktur akan sebentar lagi wajib di banyak negara"
@@ -927,7 +927,7 @@ msgid "EDI user"
 msgstr "User EDI"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "EDI user should be of type Peppol"
 msgstr "User EDI harus tipe Peppol"
@@ -959,19 +959,19 @@ msgid "Error"
 msgstr "Error!"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr "Errors terjadi saat membuat dokumen EDI (format: %s):"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/tools/peppol_iap_connector.py:0
 msgid "Failed to connect to BetopiaERP Peppol Proxy."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "Failed to connect to Peppol Access Point. This might happen if you restored "
@@ -985,19 +985,19 @@ msgstr ""
 "Peppol dan mengeklik pada 'Reconnect database ini'."
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on BetopiaERP"
 msgstr "Gratis di BetopiaERP"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Fully automated"
 msgstr "Sepenuhnya otomatis"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Got it !"
 msgstr "Got it !"
@@ -1056,7 +1056,7 @@ msgid "If you don't have Itsme, please contact"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid "If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr "Bila Anda ingin difaktur oleh Peppol, konfigurasi Anda harus valid."
@@ -1067,7 +1067,7 @@ msgid "Incoming Accounting Journal"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Invoice %s is too big to send via peppol (64MB limit)"
 msgstr "Faktur %s terlalub esar untuk dikirim melalui peppol (batas 64MB)"
@@ -1125,7 +1125,7 @@ msgid "Live"
 msgstr "Live"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Message properties were present in the fragment SOAP header that were not "
@@ -1149,7 +1149,7 @@ msgid "Mobile number"
 msgstr "Nomor mobile"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "More time than %s has passed since the first fragment was received but not "
@@ -1159,19 +1159,19 @@ msgstr ""
 "tapi tidak semua fragmen lain telah diterima."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "No UBL document was provided to the Peppol Outbound Service."
 msgstr "Tidak ada dokumen UBL yang disediakan ke Layanan Outbound Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "No valid AS4 participant endpoint were found."
 msgstr "Tidak ada peserta endpoint AS4 yang valid yang ditemukan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Not enough disk space available to store all (expected) fragments of the "
@@ -1201,13 +1201,13 @@ msgid "BetopiaERP Demo ID"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "BetopiaERP keeps you up to date with the new regulation."
 msgstr "BetopiaERP memastikan Anda up-to-date dengan regulasi baru."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Other"
 msgstr "Lainnya"
@@ -1218,7 +1218,7 @@ msgid "PEPPOL"
 msgstr "PEPPOL"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
 "PEPPOL allows for complete automation of sending and receiving e-invoices."
@@ -1226,7 +1226,7 @@ msgstr ""
 "PEPPOL memungkinkan otomatis penuh untuk pengiriman dan penerimaan e-faktur"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid ""
 "PEPPOL is the secure standard for e-invoices used in EU and across the world."
@@ -1282,7 +1282,7 @@ msgid "Partner cannot receive format"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "Partner doesn't have a valid Peppol configuration."
 msgstr "Partner tidak memiliki konfigurasi Peppol valid."
@@ -1303,7 +1303,7 @@ msgid "Pending Reception"
 msgstr "Pending Reception"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol Address should be provided."
 msgstr "Alamat Peppol harus disediakan."
@@ -1342,7 +1342,7 @@ msgid "Peppol Endpoint"
 msgstr "Peppol Endpoint"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Peppol Error [code=%(error_code)s]: %(error_subject)s\n"
@@ -1364,7 +1364,7 @@ msgid "Peppol ID"
 msgstr "Peppol ID"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol ID should be different from main company."
 msgstr "ID Peppol harus berbeda dari perusahaan utama."
@@ -1417,7 +1417,7 @@ msgid "Peppol Use Parent Company"
 msgstr "Peppol Menggunakan Induk Perusahaan"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_common.py:0
 msgid "Peppol document UUID: %s"
 msgstr "UUID dokumen Peppol: %s"
@@ -1437,13 +1437,13 @@ msgid "Peppol e-address (EAS)"
 msgstr "Peppol e-address (EAS)"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol error: %s"
 msgstr "Error PEPPOL: %s"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_common.py:0
 msgid "Peppol invoice received"
 msgstr "Faktur Peppol diterima"
@@ -1461,7 +1461,7 @@ msgid "Peppol status"
 msgstr "Status PEPPOL"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol status update: %s"
 msgstr "Update status Peppol: %s"
@@ -1482,7 +1482,7 @@ msgid "Phone"
 msgstr "Telepon"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid ""
 "Please enter the mobile number in the correct international format.\n"
@@ -1494,25 +1494,25 @@ msgstr ""
 "Saat ini, hanya negara-negara Eropa yang didukung."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Please fill in the EAS code and the Participant ID code."
 msgstr "Mohon isi kode EAS dan kode ID Partisipan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "Please install the phonenumbers library."
 msgstr "Mohon instal phonenumbers library."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Please select a country for your company."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "Please set a journal for Peppol invoices on %s before receiving documents."
@@ -1545,7 +1545,7 @@ msgid "Proxy Type"
 msgstr "Tipe Proxy"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Proxy error, please contact BetopiaERP (missing \"%s\" - please make sure that it "
@@ -1590,13 +1590,13 @@ msgid "Register with BetopiaERP"
 msgstr "Daftar dengan BetopiaERP"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_config_wizard.py:0
 msgid "Registered to receive documents via Peppol."
 msgstr "Didaftarkan untuk menerima dokumen melalui Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Registration rejected."
 msgstr "Pendaftaran ditolak."
@@ -1622,7 +1622,7 @@ msgid "Selected Company"
 msgstr "Perusahaan Terpilih"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Selected authentication method is not available."
 msgstr ""
@@ -1639,7 +1639,7 @@ msgid "Self-Billing reception journal"
 msgstr "Jurnal penerimaan Penagihan Mandiri"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Send"
 msgstr "Kirim"
@@ -1685,13 +1685,13 @@ msgid "Skipped"
 msgstr "Sebuah pertanyaan tidak bisa terjawab dan melewatkan"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Some attachments could not be sent with the XML:"
 msgstr "Beberapa lampiran tidak dapat dikirim dengan XML:"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "Some reliability function as implemented by the Reliability module, is not "
@@ -1712,7 +1712,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Something went wrong with your request"
 msgstr "Terjadi kesalahan dengan permintaan Anda"
@@ -1731,13 +1731,13 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid "That country is not available for Peppol."
 msgstr "Negara tersebut tidak tersedia untuk Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The MSH is experiencing temporary or permanent failure in trying to open a "
@@ -1747,7 +1747,7 @@ msgstr ""
 "hubungan transportasi dengan MSH remote."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The MSH is unable to resolve an external payload reference (i.e. a Part that "
@@ -1758,7 +1758,7 @@ msgstr ""
 "dimiliki dalam Pesan ebMS, diidentifikasi oleh PartInfo/href URI)."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The Peppol Participant DNS lookup resulted in an URL address that does not "
@@ -1768,19 +1768,19 @@ msgstr ""
 "server ini."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The Peppol Participant cannot receive this document type."
 msgstr "Peserta Peppol tidak menerima tipe dokumen ini."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The Peppol Participant certificate is invalid."
 msgstr "Sertifikat Peserta Peppol tidak valid."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The Peppol Participant service group found on his Service Metadata Provider "
@@ -1790,19 +1790,19 @@ msgstr ""
 "tidak valid."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "The Peppol endpoint identification number is not correct."
 msgstr "Nomor identifikasi endpoint Peppol tidak benar."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "The Peppol service that is used is %s."
 msgstr "Layanan Peppol yang digunakan adalah %s."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The Service Metadata Publisher associated to this participant is not "
@@ -1812,61 +1812,61 @@ msgstr ""
 "url: %s"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The UBL document provided to the Peppol Outbound Service is malformed."
 msgstr "Dokumen UBL yang disediakan ke Layanan Outbound Peppol bersifat cacat."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The XML document could not be canonicalized."
 msgstr "Dokumen XML tidak dapat di-canonicalize."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The XML document is not valid according to the XSD Schema."
 msgstr "Dokumen XML tidak valid menurut Skema XSD."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The XML document is not valid according to the schematron."
 msgstr "Dokumen XML tidak valid menurut schematron."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "The database you are trying to connect to is not suitable for Peppol."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The document could not be found"
 msgstr "Dokumen tidak dapat ditemukan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The document could not be sent to the Peppol Participant."
 msgstr "Dokumen tidak dapat dikirim ke Peserta Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The document could not be validated."
 msgstr "Dokumen tidak dapat divalidasi."
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "The e-invoicing network"
 msgstr "Jaringan e-faktur"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The eb3:Message header copied to the fragment header does not match the "
@@ -1876,7 +1876,7 @@ msgstr ""
 "eb3:pesan di sumber pesan yang dibuat ulang."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The ebMS header is either not well formed as an XML document, or does not "
@@ -1886,7 +1886,7 @@ msgstr ""
 "mematuhi peraturan pemaketan ebMS."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The ebMS header or another header (e.g. reliability, security) expected by "
@@ -1898,7 +1898,7 @@ msgstr ""
 "terkait."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The encrypted data reference the Security header intended for the \"ebms\" "
@@ -1908,7 +1908,7 @@ msgstr ""
 "actor tidak dapat didekripsi oleh Modul Keamanan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "The endpoint number might not be correct. Please check if you entered the "
@@ -1918,7 +1918,7 @@ msgstr ""
 "nomor identifikasi yang tepat."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_config_wizard.py:0
 msgid ""
 "The following services are listed on your participant but cannot be "
@@ -1930,7 +1930,7 @@ msgstr ""
 "berbeda, silakan hubungi bantuan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The href attribute does not reference a valid MIME data part, MIME parts "
@@ -1942,13 +1942,13 @@ msgstr ""
 "SOAP tidak kosong."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The incoming message could not be decompressed."
 msgstr "Pesan masuk tidak dapat di-decompress."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid ""
 "The invoice has been sent to the Peppol Access Point. The following "
@@ -1958,13 +1958,13 @@ msgstr ""
 "XML:"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The message does not comply with the AS4 policy."
 msgstr "Pesan tidak mematuhi kebijakan AS4."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The processor determined that the message's security methods, parameters, "
@@ -1975,7 +1975,7 @@ msgstr ""
 "persyaratan keamanan tingkat kebijakan atau persetujuan tidak dipenuhi."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The signature in the Security header intended for the \"ebms\" SOAP actor, "
@@ -1985,13 +1985,13 @@ msgstr ""
 "tidak dapat divalidasi oleh modul Keamanan."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "The size of the data part in a fragment message is greater than %s"
 msgstr "Ukuran part data di pesan fragmen lebih besar dari %s"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The structure of a received bundle is not in accordance with the bundling "
@@ -2005,7 +2005,7 @@ msgid "The unique id that identifies this user, typically the vat"
 msgstr "Id unik yang mengidentifikasi user ini, biasanya ppn"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "The use of MIME is not consistent with the required usage in this "
@@ -2015,7 +2015,7 @@ msgstr ""
 "spesifikasi ini."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "There is no message available for pulling from this MPC at this moment."
 msgstr "Tidak ada pesan yang tersedia untuk pulling dari MPC ini pada saat ini"
@@ -2026,19 +2026,19 @@ msgid "There was an error while sending this invoice via Peppol."
 msgstr "Terdapat error selagi mengirim faktur ini melalui Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "There was an error with the Peppol Request"
 msgstr "Terdapat error dengan Permintaan Peppo"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "There was an error with the incoming message."
 msgstr "Terdapat error dengan pesan masuk."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "There was an issue with the Hermes Migration Token Collection Interface "
@@ -2047,7 +2047,7 @@ msgstr ""
 "Terdapat masalah dengan Hermes Migration Token Collection Interface (MTCI)."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "There was an issue with the Peppol Participant."
 msgstr "Terdapat masalah dengan Peserta Peppol."
@@ -2058,7 +2058,7 @@ msgid "This branch company will use the active Peppol connection found on"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "This connection has been superseded by another database. Register again."
@@ -2088,13 +2088,13 @@ msgid "This number is used for identification purposes only."
 msgstr "Nomor ini digunakan hanya untuk tujuan identifikasi."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "This user is not registered on our Access Point."
 msgstr "User ini tidak terdaftar di Poin Akses kami."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "This user's is not a Peppol User. The proxy_type associated must be "
@@ -2128,7 +2128,7 @@ msgid "UBL 2.0"
 msgstr "UBL 2.0"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Unable to verify the digest value."
 msgstr "Tidak dapat memverifikasi digest value."
@@ -2139,7 +2139,7 @@ msgid "Unchecked"
 msgstr "Tidak dicentang"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Unexpected end of MIME multipart message."
 msgstr "Berakhirnya pesan multipart MIME yang tidak diharapkan."
@@ -2156,7 +2156,7 @@ msgstr ""
 "dikenal juga sebagai 'Endpoint ID'."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Unknown Peppol Error: %s"
 msgstr "Error Peppol yang Tidak Diketahui: %s"
@@ -2187,13 +2187,13 @@ msgid "Verify partner's PEPPOL endpoint"
 msgstr "Verifikasi endpoint PEPPOL mitra"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "View Partner(s)"
 msgstr "Lihat Partner"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "We could not find a user with this information on our server. Please check "
@@ -2208,19 +2208,19 @@ msgid "Welcome to Peppol"
 msgstr "Selamat Datang ke Peppol"
 
 #. module: account_peppol
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "What is Peppol and why it's great ?"
 msgstr "Apa itu Peppol dan kenapa Peppol luar biasa ?"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should I use PEPPOL ?"
 msgstr "Kenapa saya sebaiknya menggunakan PEPPOL ?"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should you use it ?"
 msgstr "Kenapa Anda sebaiknya menggunakan PEPPOL ?"
@@ -2231,7 +2231,7 @@ msgid "Wizard"
 msgstr "Alat Bantu"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "You are about to register with your VAT number. Make sure you register with "
@@ -2242,13 +2242,13 @@ msgstr ""
 "Registry Anda (BCE/KBO) agar mematuhi peraturan baru."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "You are not allowed to send invoice on behalf of %s."
 msgstr "Anda tidak diizinkan untuk mengirim faktur atas nama %s."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "You are not authorized to change the contact email."
 msgstr "Anda tidak diizinkan untuk mengubah kontak email."
@@ -2271,32 +2271,32 @@ msgid "You are sending your e-invoices via BetopiaERP with this Peppol ID"
 msgstr "Anda mengirim e-faktur Anda melalui BetopiaERP dengan Peppol ID ini"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send and receive electronic invoices via Peppol"
 msgstr ""
 "Anda sekarang dapat mengirim dan menerima faktur elektronik melalui Peppol"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send electronic invoices via Peppol."
 msgstr "Anda sekarang dapat mengirim faktur elektronik melalui Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "You can send this invoice electronically via Peppol."
 msgstr "Anda dapat mengirim faktur ini secara elektronik melalui Peppol."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "You don't have enough credit"
 msgstr "Anda tidak memiliki credit yang mencukupi"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid ""
 "You have reached the limit of documents you can send today. Retry later. "
@@ -2307,7 +2307,7 @@ msgstr ""
 "jumlah batas tersebut."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You need to authenticate to continue."
 msgstr ""
@@ -2343,7 +2343,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "Your Peppol registration will be activated soon. You can already send "
@@ -2353,7 +2353,7 @@ msgstr ""
 "mengirim faktur."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "Your company is already registered on an Access Point (%s) for receiving "
@@ -2372,31 +2372,31 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Your identification has not been approved for this action yet"
 msgstr "Identifikasi Anda belum disetujui untuk action ini"
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier does not have a valid format.%s"
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier is invalid."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Your identifier you entered is invalid for Peppol."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid ""
 "Your registration has been rejected. Please contact the support for further "
@@ -2406,7 +2406,7 @@ msgstr ""
 "lanjut."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/wizard/peppol_config_wizard.py:0
 msgid ""
 "Your registration on Peppol network should be activated within a day. The "
@@ -2421,7 +2421,7 @@ msgid "Your registration should be activated within a day."
 msgstr "Pendaftaran Anda harusnya diaktifkan dalam waktu satu hari."
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/exceptions.py:0
 msgid "Your request is still being processed."
 msgstr "Permintaan Anda masih diproses."
@@ -2432,7 +2432,7 @@ msgid "and send invoices via Peppol on their behalf."
 msgstr ""
 
 #. module: account_peppol
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_peppol/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
 msgid "by Peppol"

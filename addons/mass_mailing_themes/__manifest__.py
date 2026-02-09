@@ -9,7 +9,7 @@ Design gorgeous mails
     """,
     'version': '1.2',
     'sequence': 110,
-    'website': 'https://www.betopiaerp.com/app/mailing',
+    'website': 'https://www.BetopiaERP.com/app/mailing',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'mass_mailing',
@@ -20,6 +20,6 @@ Design gorgeous mails
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

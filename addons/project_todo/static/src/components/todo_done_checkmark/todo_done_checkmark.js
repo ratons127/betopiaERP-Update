@@ -1,4 +1,4 @@
-import { useState, onRendered, onMounted } from "@BetopiaERP/owl";
+import { useState, onRendered, onMounted } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { StateSelectionField, stateSelectionField } from "@web/views/fields/state_selection/state_selection_field";
 

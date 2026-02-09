@@ -20,7 +20,7 @@ export class PaymentPostProcessing extends Interaction {
             try {
                 // Fetch the post-processing values from the server.
                 const postProcessingValues = await this.waitFor(
-                    rpc('/payment/status/poll', { csrf_token: BetopiaERP.csrf_token })
+                    rpc('/payment/status/poll', { csrf_token: betopiaerp.csrf_token })
                 );
 
                 // Redirect the user to the landing route if the transaction reached a final state.

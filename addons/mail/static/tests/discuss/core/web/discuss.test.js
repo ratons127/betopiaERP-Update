@@ -14,7 +14,7 @@ import {
     triggerHotkey,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import {
     asyncStep,
     Command,
@@ -169,12 +169,12 @@ test("Chat is pinned on other tabs when joined", async () => {
 
 test("Auto-open BetopiaERPBot chat when opening discuss for the first time", async () => {
     // BetopiaERPbot chat has onboarding for using Discuss app.
-    // We assume pinned BetopiaERPbot chat without any message seen means user just started using Discuss app.
+    // We assume pinned betopiaerpbot chat without any message seen means user just started using Discuss app.
     const pyEnv = await startServer();
     pyEnv["discuss.channel"].create({
         channel_member_ids: [
             Command.create({ partner_id: serverState.partnerId }),
-            Command.create({ partner_id: serverState.BetopiaERPbotId }),
+            Command.create({ partner_id: serverState.betopiaerpbotId }),
         ],
         channel_type: "chat",
     });

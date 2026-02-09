@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 import { patch } from "@web/core/utils/patch";
 import { WebsiteBuilderClientAction } from "./website_builder_action";
 

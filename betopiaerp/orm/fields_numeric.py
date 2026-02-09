@@ -267,7 +267,7 @@ class Monetary(Field[float]):
         # cache format: float
         value = float(value or 0.0)
         if value and validate:
-            # FIXME @rco-BetopiaERP: currency may not be already initialized if it is
+            # FIXME @rco-betopiaerp: currency may not be already initialized if it is
             # a function or related field!
             # BEWARE: do not prefetch other fields, because 'value' may be in
             # cache, and would be overridden by the value read from database!
@@ -298,7 +298,7 @@ class Monetary(Field[float]):
         if not records:
             return records
         # check that the values were rounded properly when put in cache
-        # see fix BetopiaERP/BetopiaERP#177200 (commit 7164d5295904b08ec3a0dc1fb54b217671ff531c)
+        # see fix betopiaerp/betopiaerp#177200 (commit 7164d5295904b08ec3a0dc1fb54b217671ff531c)
         env = records.env
         field_cache = self._get_cache(env)
         currency_field = records._fields[self.get_currency_field(records)]

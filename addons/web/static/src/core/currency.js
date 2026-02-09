@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 import { user } from "@web/core/user";
 import { formatFloat, humanNumber } from "@web/core/utils/numbers";

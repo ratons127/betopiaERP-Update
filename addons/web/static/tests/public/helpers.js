@@ -1,4 +1,4 @@
-import { getFixture, after } from "@BetopiaERP/hoot";
+import { getFixture, after } from "@betopiaerp/hoot";
 import { clearRegistry, makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 
@@ -30,8 +30,8 @@ export async function startInteractions(
     html,
     options = { waitForStart: true, editMode: false, translateMode: false }
 ) {
-    if (BetopiaERP.loader.modules.has("@mail/../tests/mail_test_helpers")) {
-        const { defineMailModels } = BetopiaERP.loader.modules.get("@mail/../tests/mail_test_helpers");
+    if (betopiaerp.loader.modules.has("@mail/../tests/mail_test_helpers")) {
+        const { defineMailModels } = betopiaerp.loader.modules.get("@mail/../tests/mail_test_helpers");
         defineMailModels();
     }
     const fixture = getFixture();

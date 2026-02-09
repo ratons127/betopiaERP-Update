@@ -3,7 +3,7 @@ import { ColorList } from "@web/core/colorlist/colorlist";
 import { registry } from "@web/core/registry";
 import { standardFieldProps } from "../standard_field_props";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 class KanbanColorPickerField extends Component {
     static template = "web.KanbanColorPickerField";

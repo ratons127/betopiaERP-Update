@@ -1,4 +1,4 @@
-import { Component, useState, onWillStart } from "@BetopiaERP/owl";
+import { Component, useState, onWillStart } from "@betopiaerp/owl";
 import { get } from "@web/core/network/http_service";
 import { SelectMenu } from "@web/core/select_menu/select_menu";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";

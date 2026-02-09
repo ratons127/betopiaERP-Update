@@ -24,6 +24,6 @@
             'data_recycle/static/src/views/*.xml',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

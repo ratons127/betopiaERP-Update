@@ -1,4 +1,4 @@
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import { testEditor } from "../_helpers/editor";
 import { insertLineBreak } from "../_helpers/user_actions";
 

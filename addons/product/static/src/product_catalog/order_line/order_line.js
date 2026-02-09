@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { formatFloat, formatMonetary } from "@web/views/fields/formatters";
 
 export class ProductCatalogOrderLine extends Component {

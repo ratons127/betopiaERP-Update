@@ -20,6 +20,6 @@ You can easily assign grade to members/partners, with a specific pricelist.
         'views/product_pricelist_views.xml',
         'views/partnership_menu.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

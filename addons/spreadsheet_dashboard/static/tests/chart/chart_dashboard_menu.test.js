@@ -1,8 +1,8 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Model } from "@betopiaerp/o-spreadsheet";
 import { insertChartInSpreadsheet } from "@spreadsheet/../tests/helpers/chart";
 import { makeSpreadsheetMockEnv } from "@spreadsheet/../tests/helpers/model";
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
 import { createDashboardActionWithData } from "@spreadsheet_dashboard/../tests/helpers/dashboard_action";
 import { defineSpreadsheetDashboardModels } from "@spreadsheet_dashboard/../tests/helpers/data";
 import { contains } from "@web/../tests/web_test_helpers";
@@ -12,8 +12,8 @@ defineSpreadsheetDashboardModels();
 
 test("can change granularity", async () => {
     const env = await makeSpreadsheetMockEnv();
-    const setupModel = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
-    const chartId = insertChartInSpreadsheet(setupModel, "BetopiaERP_line", {
+    const setupModel = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
+    const chartId = insertChartInSpreadsheet(setupModel, "betopiaerp_line", {
         metaData: {
             groupBy: ["date:month"],
             resModel: "partner",

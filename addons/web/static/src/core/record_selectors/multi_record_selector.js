@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { TagsList } from "@web/core/tags_list/tags_list";
 import { isId } from "@web/core/tree_editor/utils";

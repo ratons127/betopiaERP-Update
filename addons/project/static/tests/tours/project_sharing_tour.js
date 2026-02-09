@@ -132,7 +132,7 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
 }];
 
 registry.category("web_tour.tours").add('project_sharing_tour', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => {
         return projectSharingSteps;
     }
@@ -244,7 +244,7 @@ registry.category("web_tour.tours").add("portal_project_sharing_chatter_mention_
         {
             trigger: "body:not(:has(.o-mail-Composer-suggestion))",
             run: async () => {
-                const delay_fetch = BetopiaERP.loader.modules.get(
+                const delay_fetch = betopiaerp.loader.modules.get(
                     "@mail/core/common/suggestion_hook"
                 ).DELAY_FETCH;
                 await delay(delay_fetch);

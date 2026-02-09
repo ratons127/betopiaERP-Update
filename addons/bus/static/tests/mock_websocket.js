@@ -1,5 +1,5 @@
-import { after } from "@BetopiaERP/hoot";
-import { Deferred, mockWorker } from "@BetopiaERP/hoot-mock";
+import { after } from "@betopiaerp/hoot";
+import { Deferred, mockWorker } from "@betopiaerp/hoot-mock";
 import { MockServer } from "@web/../tests/web_test_helpers";
 
 import { WebsocketWorker } from "@bus/workers/websocket_worker";

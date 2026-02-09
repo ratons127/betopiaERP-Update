@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.3',
-    'website': 'https://www.betopiaerp.com/app/project',
+    'website': 'https://www.BetopiaERP.com/app/project',
     'category': 'Services/Project',
     'sequence': 45,
     'summary': 'Organize and plan your projects',
@@ -127,7 +127,7 @@
             ('include', 'web._assets_bootstrap_backend'),
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/webclient/navbar/navbar.scss',
             'web/static/src/scss/animation.scss',
             'web/static/src/core/color_picker/color_picker.scss',
@@ -141,7 +141,7 @@
 
             'web/static/lib/luxon/luxon.js',
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
             'web/static/lib/jquery/jquery.js',
             'web/static/lib/popper/popper.js',
             'web/static/lib/bootstrap/js/dist/util/index.js',
@@ -242,6 +242,6 @@
             'web/static/src/start.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

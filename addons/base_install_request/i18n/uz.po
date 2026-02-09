@@ -45,7 +45,7 @@ msgid ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Review Request</a>\n"
 "        <br/><br/>\n"
@@ -73,7 +73,7 @@ msgstr ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">So‘rovni ko‘rib chiqish</a> <br/><br/> "
 "Rahmat, <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-"
@@ -82,7 +82,7 @@ msgstr ""
 "quote=\"1\">Mitchell Admin</t></div> </t> <br/><br/> </div>"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 #, fuzzy
 msgid "Activation Request of \"%s\""
@@ -196,7 +196,7 @@ msgid "Modules Description"
 msgstr "Modullar tavsifi"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 #, fuzzy
 msgid "No module selected."
@@ -228,7 +228,7 @@ msgid "The following apps will be installed:"
 msgstr "Quyidagi ilovalar o‘rnatiladi:"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 #, fuzzy
 msgid "The module is already installed."
@@ -253,7 +253,7 @@ msgid "You are about to install an extra application"
 msgstr "Siz qo‘shimcha ilova o‘rnatmoqchisiz"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 #, fuzzy
 msgid "Your request has been successfully sent"

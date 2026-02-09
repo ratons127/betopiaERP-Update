@@ -5,7 +5,7 @@ import { kanbanView } from "@web/views/kanban/kanban_view";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { WebClient } from "@web/webclient/webclient";
 
-import { xml } from "@BetopiaERP/owl";
+import { xml } from "@betopiaerp/owl";
 
 import {
     clickModalButton,
@@ -28,9 +28,9 @@ import {
     toggleSearchBarMenu,
 } from "@web/../tests/web_test_helpers";
 
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 
 class Partner extends models.Model {
     name = fields.Char({ string: "Displayed name" });

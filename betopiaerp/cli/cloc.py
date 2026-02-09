@@ -14,11 +14,11 @@ class Cloc(Command):
 
         It has two modes of operation, either by providing a path:
 
-            BetopiaERP-bin cloc -p module_path
+            betopiaerp-bin cloc -p module_path
 
         Or by providing the name of a database:
 
-            BetopiaERP-bin --addons-path=dirs cloc -d database
+            betopiaerp-bin --addons-path=dirs cloc -d database
 
         In the latter mode, only the custom code is accounted for.
     """

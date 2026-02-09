@@ -1,6 +1,6 @@
 import { Base } from "./base";
 import { RAW_SYMBOL } from "./utils";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 export class RecordStore {
     /**

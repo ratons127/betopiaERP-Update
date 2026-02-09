@@ -3,7 +3,7 @@
     'name': 'Jordan - Accounting',
     'countries': ['jo'],
     'description': """
-This is the base module to manage the accounting chart for Jordan in betopiaerp.
+This is the base module to manage the accounting chart for Jordan in BetopiaERP.
 ==============================================================================
 
 Jordan accounting basic charts and localization.
@@ -31,6 +31,6 @@ Activates:
         'demo/demo_company.xml',
         'demo/demo_partner.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 
 import { useOpenChat } from "@mail/core/web/open_chat_hook";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class HrEmployeeChat extends Component {
     static props = {

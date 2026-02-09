@@ -3,7 +3,7 @@
     'name': "BetopiaERPBot - HR",
     'summary': """Bridge module between hr and mailbot.""",
     'description': """This module adds the BetopiaERPBot state and notifications in the user form modified by hr.""",
-    'website': "https://www.betopiaerp.com/app/discuss",
+    'website': "https://www.BetopiaERP.com/app/discuss",
     'category': 'Productivity/Discuss',
     'version': '1.0',
     'depends': ['mail_bot', 'hr'],
@@ -12,6 +12,6 @@
     'data': [
         'views/res_users_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

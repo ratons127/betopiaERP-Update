@@ -16,7 +16,7 @@ import {
     useEffect,
     useExternalListener,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 // This file defines a hook that encapsulates the column width logic of the list view. This logic
 // aims at optimizing the available space between columns and, once computed, at freezing the table

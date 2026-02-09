@@ -5,9 +5,9 @@
 # Translators:
 # Martin Trigaux, 2022
 # Jolien De Paepe, 2023
-# Erwin van der Ploeg <erwin@BetopiaERPexperts.nl>, 2023, 2025.
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# Bren Driesen <brdri@BetopiaERP.com>, 2025, 2026.
+# Erwin van der Ploeg <erwin@betopiaerpexperts.nl>, 2023, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# Bren Driesen <brdri@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 18:36+0000\n"
 "PO-Revision-Date: 2026-01-27 08:09+0000\n"
-"Last-Translator: Bren Driesen <brdri@BetopiaERP.com>\n"
-"Language-Team: Dutch <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Bren Driesen <brdri@betopiaerp.com>\n"
+"Language-Team: Dutch <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "purchase_stock/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -31,32 +31,32 @@ msgid "% On-Time Delivery"
 msgstr "% Op tijd geleverd"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "%(otd)s %%"
 msgstr "%(otd)s %%"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid "%(value)s for %(quantity)s %(unit)s from %(bills)s"
 msgstr "%(value)s voor %(quantity)s %(unit)s vanaf %(bills)s"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid "%(value)s for %(quantity)s %(unit)s from %(quotation)s (not billed)"
 msgstr ""
 "%(value)s voor %(quantity)s %(unit)s van %(quotation)s (niet gefactureerd)"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "+ %d day(s)"
 msgstr "+ %d dag(en)"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "+ %s day(s)"
 msgstr "+ %s dag(en)"
@@ -165,13 +165,13 @@ msgid "Action"
 msgstr "Actie"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.xml:0
 msgid "Add All"
 msgstr "Alles toevoegen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "After next month last year"
 msgstr "Na volgende maand vorig jaar"
@@ -206,13 +206,13 @@ msgid "Available Vendor"
 msgstr "Beschikbare leverancier"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.xml:0
 msgid "Based on"
 msgstr "Gebaseerd op"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock.py:0
 #: model:ir.model.fields.selection,name:purchase_stock.selection__stock_rule__action__buy
 #: model:stock.route,name:purchase_stock.route_warehouse0_buy
@@ -251,7 +251,7 @@ msgid "Contact"
 msgstr "Contact"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "Corresponding receipt not found."
 msgstr "Bijbehorend ontvangst niet gevonden."
@@ -295,7 +295,7 @@ msgstr ""
 "inkooporder moet worden bevestigd"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:purchase_stock.field_res_company__days_to_purchase
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__days_to_purchase
@@ -435,7 +435,7 @@ msgid "Forecast Report"
 msgstr "Voorspellingsrapport"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Forecasted"
 msgstr "Voorspeld"
@@ -456,13 +456,13 @@ msgid "Fully Received"
 msgstr "Volledig ontvangen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Generate the draft vendor bill."
 msgstr "Genereer de conceptfactuur van de leverancier."
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid ""
 "Get recommendations of products to purchase at %(vendorName)s based on stock "
@@ -480,13 +480,13 @@ msgstr ""
 "van activiteiten."
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Go back to the purchase order to generate the vendor bill."
 msgstr "Ga terug naar de inkooporder om de leveranciersfactuur te genereren."
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/stock_valuation/stock_valuation_report.js:0
 msgid "Goods Received Not Invoiced"
 msgstr "Niet gefactureerde ontvangen goederen"
@@ -570,25 +570,25 @@ msgid "Journal Item"
 msgstr "Boekingsregel"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Last 12 months"
 msgstr "Laatste 12 maanden"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Last 3 months"
 msgstr "Laatste 3 maanden"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Last 30 days"
 msgstr "Laatste 30 dagen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Last 7 days"
 msgstr "Laatste 7 dagen"
@@ -599,7 +599,7 @@ msgid "Last Purchase"
 msgstr "Laatste inkoop"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Last year quarter"
 msgstr "Laatste kwartaal"
@@ -640,7 +640,7 @@ msgid "Monthly Demand"
 msgstr "Maandelijkse vraag"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Next month last year"
 msgstr "Volgende maand vorig jaar"
@@ -651,7 +651,7 @@ msgid "Next transfer(s) impacted:"
 msgstr "Volgende verplaatsing(en) beïnvloed:"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "No Vendor Found"
 msgstr "Geen leverancier gevonden"
@@ -662,7 +662,7 @@ msgid "No receipt yet! Automate them with purchase orders."
 msgstr "Nog geen ontvangsten! Automatiseer ze met inkooporders."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "No supplier has been found to replenish"
 msgstr "Er is geen leverancier gevonden om dit product aan te vullen"
@@ -673,7 +673,7 @@ msgid "Not Received"
 msgstr "Niet ontvangen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/purchase_dashboard/purchase_dashboard.xml:0
 msgid "OTD"
 msgstr "OTD"
@@ -718,7 +718,7 @@ msgid "On-time Rate"
 msgstr "Tijdigheidspercentage"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "Order Deadline"
 msgstr "Besteldeadline"
@@ -752,7 +752,7 @@ msgid "Partially Received"
 msgstr "Gedeeltelijk ontvangen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Process all the receipt quantities."
 msgstr "Verwerk alle ontvangsthoeveelheden."
@@ -806,7 +806,7 @@ msgid "Purchase Order Line"
 msgstr "Inkooporderregel"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/stock_valuation/stock_valuation_report.js:0
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_lot__purchase_order_ids
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__purchase_id
@@ -845,7 +845,7 @@ msgid "Receipt"
 msgstr "Ontvangst"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "Receipt Date"
 msgstr "Ontvangstdatum"
@@ -861,7 +861,7 @@ msgid "Receive"
 msgstr "Ontvangen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Receive the ordered products."
 msgstr "Ontvang de bestelde producten."
@@ -898,7 +898,7 @@ msgid "References"
 msgstr "Referenties"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.xml:0
 msgid "Replenish for"
 msgstr "Aanvullen voor"
@@ -909,7 +909,7 @@ msgid "Request your vendors to deliver to your customers"
 msgstr "Vraag je leveranciers om direct te leveren aan je klanten"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/purchase_stock_forecasted/forecasted_details.xml:0
 msgid "Requests for quotation :"
 msgstr "Offerteaanvragen:"
@@ -925,7 +925,7 @@ msgid "Return Picking"
 msgstr "Retour boeken"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.js:0
 msgid "Same month last year"
 msgstr "Zelfde maand vorig jaar"
@@ -1003,7 +1003,7 @@ msgid "Stock warehouse replenishment option"
 msgstr "Optie om voorraadmagazijn aan te vullen"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.xml:0
 msgid "Suggest"
 msgstr "Voorstellen"
@@ -1068,19 +1068,19 @@ msgstr ""
 "Technisch veld dat wordt gebruikt om het dropshipment adres weer te geven"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock.py:0
 msgid "The following replenishment order has been generated"
 msgstr "De volgende aanvulopdracht is gegenereerd"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "The purchase order %s this receipt is linked to was cancelled."
 msgstr "De inkooporder %s waaraan deze bon is gekoppeld is geannuleerd."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order_line.py:0
 msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
@@ -1090,7 +1090,7 @@ msgstr ""
 "terugbetaling vragen."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order_line.py:0
 msgid ""
 "The warehouse of operation type (%(operation_type)s) is inconsistent with "
@@ -1102,7 +1102,7 @@ msgstr ""
 "product %(product)s. Wijzig de bewerkingsoort of annuleer de inkoopofferte."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
 "There is no matching vendor price to generate the purchase order for product "
@@ -1145,7 +1145,7 @@ msgstr ""
 "het afleveradres van de klant en niet van je magazijn."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/product.py:0
 msgid "This product has the \"Buy\" route checked but is not purchasable."
 msgstr ""
@@ -1158,7 +1158,7 @@ msgid "This will determine operation type of incoming shipment"
 msgstr "Dit bepaald de verwerkingswijze van de ontvangst"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid ""
 "Those dates couldn’t be modified accordingly on the receipt %s which had "
@@ -1168,7 +1168,7 @@ msgstr ""
 "bevestigd."
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "Those dates have been updated accordingly on the receipt %s."
 msgstr "Die data zijn ook bijgewerkt op de ontvangst %s."
@@ -1179,7 +1179,7 @@ msgid "Thursday"
 msgstr "Donderdag"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/time_period_selection_fields.js:0
 msgid "Time Perdiod Selection"
 msgstr "Selectie tijdsperiode"
@@ -1210,7 +1210,7 @@ msgid "Tuesday"
 msgstr "Dinsdag"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Validate the receipt of all ordered products."
 msgstr "Bevestig de ontvangst van alle bestelde producten."
@@ -1230,7 +1230,7 @@ msgid "Vendor Delay Report"
 msgstr "Leverancier vertragingsrapportage"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "Vendor Lead Time"
 msgstr "Levertijd van leverancier"
@@ -1259,7 +1259,7 @@ msgid "Warehouse"
 msgstr "Magazijn"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/product.py:0
 msgid "Warning!"
 msgstr "Waarschuwing!"
@@ -1288,7 +1288,7 @@ msgstr ""
 "magazijn"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a request for quotation is "
@@ -1300,13 +1300,13 @@ msgstr ""
 "gebruikt in combinatie met de regels<br/>van de ontvangstroute(s)"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "You must set a Vendor Location for this partner %s"
 msgstr "Stel een leverancierslocatie in voor deze partner %s"
 
 #. module: purchase_stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/purchase_stock/static/src/product_catalog/search/search_panel.xml:0
 msgid "day(s)"
 msgstr "dag(en)"
@@ -1322,7 +1322,7 @@ msgid "ordered instead of"
 msgstr "besteld in plaats van"
 
 #. module: purchase_stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "this product should be manually replenished."
 msgstr "dit product moet handmatig worden aangevuld."

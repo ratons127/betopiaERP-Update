@@ -1,5 +1,5 @@
 import { AccountProductCatalogSearchModel } from "@account/components/product_catalog/search/search_model";
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 import { getSuggestToggleState } from "../utils";
 
 export class PurchaseStockProductCatalogSearchModel extends AccountProductCatalogSearchModel {

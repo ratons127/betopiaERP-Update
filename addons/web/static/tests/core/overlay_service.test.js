@@ -1,6 +1,6 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, useSubEnv, xml } from "@BetopiaERP/owl";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, useSubEnv, xml } from "@betopiaerp/owl";
 import { getService, makeMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { MainComponentsContainer } from "@web/core/main_components_container";

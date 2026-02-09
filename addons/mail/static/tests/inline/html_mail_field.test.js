@@ -2,9 +2,9 @@ import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 import { HtmlMailField } from "@mail/views/web/fields/html_mail_field/html_mail_field";
-import { after, before, beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { press, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, enableTransitions } from "@BetopiaERP/hoot-mock";
+import { after, before, beforeEach, expect, test } from "@betopiaerp/hoot";
+import { press, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, enableTransitions } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     contains,
@@ -18,7 +18,7 @@ import {
 import { mailModels } from "../mail_test_helpers";
 
 function setSelectionInHtmlField(selector = "p", fieldName = "body") {
-    const anchorNode = queryOne(`[name='${fieldName}'] .BetopiaERP-editor-editable ${selector}`);
+    const anchorNode = queryOne(`[name='${fieldName}'] .betopiaerp-editor-editable ${selector}`);
     setSelection({ anchorNode, anchorOffset: 0 });
     return anchorNode;
 }
@@ -92,7 +92,7 @@ test("HtmlMail save inline html", async function () {
     setSelectionInHtmlField();
     await insertText(htmlEditor, "/heading1");
     await press("enter");
-    expect(".BetopiaERP-editor-editable").toHaveInnerHTML("<h1> first </h1>");
+    expect(".betopiaerp-editor-editable").toHaveInnerHTML("<h1> first </h1>");
 
     await clickSave();
     await expect.waitForSteps(["web_save"]);

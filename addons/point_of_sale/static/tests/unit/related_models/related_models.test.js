@@ -1,4 +1,4 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 import { createRelatedModels, Base } from "@point_of_sale/app/models/related_models";
 import { serializeDateTime } from "@web/core/l10n/dates";
 import { SERIALIZED_UI_STATE_PROP } from "@point_of_sale/app/models/related_models/utils";

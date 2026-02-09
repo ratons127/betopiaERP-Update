@@ -1,13 +1,13 @@
-import { before, destroy, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { before, destroy, expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     manuallyDispatchProgrammaticEvent,
     queryOne,
     queryRect,
     resize,
     scroll,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, onMounted, useRef, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, onMounted, useRef, xml } from "@betopiaerp/owl";
 import { defineParams, defineStyle, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { usePosition } from "@web/core/position/position_hook";

@@ -3,7 +3,7 @@
     "countries": ["lb"],
     "version": "1.0",
     "description": """
-This is the base module to manage the accounting chart for Lebanon in betopiaerp.
+This is the base module to manage the accounting chart for Lebanon in BetopiaERP.
 ==============================================================================
 Lebanon accounting basic charts,taxes and localization.
 Activates:
@@ -20,6 +20,6 @@ Activates:
     "demo": [
         "demo/demo_company.xml",
     ],
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

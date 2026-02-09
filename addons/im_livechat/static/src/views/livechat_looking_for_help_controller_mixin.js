@@ -1,6 +1,6 @@
 import { LivechatViewControllerMixin } from "@im_livechat/views/livechat_view_controller_mixin";
 
-import { onWillDestroy } from "@BetopiaERP/owl";
+import { onWillDestroy } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { useDebounced } from "@web/core/utils/timing";

@@ -16,7 +16,7 @@ your visitors to subscribe with their phone number.
         'data/ir_model_data.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'website.website_builder_assets': [

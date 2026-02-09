@@ -1,4 +1,4 @@
-import { Component, onWillStart, useState, useSubEnv } from '@BetopiaERP/owl';
+import { Component, onWillStart, useState, useSubEnv } from '@betopiaerp/owl';
 import { rpc } from '@web/core/network/rpc';
 import { useBus } from '@web/core/utils/hooks';
 import comparisonUtils from '@website_sale_comparison/js/website_sale_comparison_utils';

@@ -1,7 +1,7 @@
 import { addBusMessageHandler, busModels } from "@bus/../tests/bus_test_helpers";
-import { after, before, expect, getFixture, registerDebugInfo, test } from "@BetopiaERP/hoot";
-import { hover as hootHover, queryFirst, resize } from "@BetopiaERP/hoot-dom";
-import { Deferred, microTick } from "@BetopiaERP/hoot-mock";
+import { after, before, expect, getFixture, registerDebugInfo, test } from "@betopiaerp/hoot";
+import { hover as hootHover, queryFirst, resize } from "@betopiaerp/hoot-dom";
+import { Deferred, microTick } from "@betopiaerp/hoot-mock";
 import {
     MockServer,
     asyncStep,
@@ -26,7 +26,7 @@ import { CHAT_HUB_KEY } from "@mail/core/common/chat_hub_model";
 import { click, contains } from "./mail_test_helpers_contains";
 
 import { closeStream, mailGlobal } from "@mail/utils/common/misc";
-import { Component, onMounted, onPatched, onWillDestroy, status } from "@BetopiaERP/owl";
+import { Component, onMounted, onPatched, onWillDestroy, status } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { loadEmoji } from "@web/core/emoji_picker/emoji_picker";
 import { registry } from "@web/core/registry";

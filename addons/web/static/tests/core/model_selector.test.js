@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,

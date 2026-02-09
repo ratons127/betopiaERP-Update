@@ -133,7 +133,7 @@ export const geoJsonService = {
             },
             geoFeatureNameToId: function (region, name) {
                 if (region === "usa") {
-                    // State display names are appended with the country in BetopiaERP (e.g. "California (US)").
+                    // State display names are appended with the country in betopiaerp (e.g. "California (US)").
                     const match = name.match(stateNameRegex);
                     if (match) {
                         name = match[1].trim();

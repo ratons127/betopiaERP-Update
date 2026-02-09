@@ -14,7 +14,7 @@ msgstr ""
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Dragan Vukosavljevic <dragan.vukosavljevic@gmail.com>, "
 "2022\n"
-"Language-Team: Serbian (https://app.transifex.com/BetopiaERP/teams/41243/sr/)\n"
+"Language-Team: Serbian (https://app.transifex.com/betopiaerp/teams/41243/sr/)\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Aaaaaw that's really cute but, you know, bots don't work that way. You're "
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__disabled
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__disabled
 msgid "Disabled"
 msgstr ""
 
@@ -48,7 +48,7 @@ msgid "Display Name"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Great! You can customize %(bold_start)scanned responses%(bold_end)s in the "
@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Great! 👍%(new_line)sTo access special commands, %(bold_start)sstart your "
@@ -65,25 +65,25 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid "Hello,"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "Hmmm..."
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "I'm afraid I don't understand. Sorry!"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "I'm not smart enough to answer your question.%(new_line)sTo follow my guide, "
@@ -98,7 +98,7 @@ msgid "ID"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__idle
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__idle
 msgid "Idle"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid "Mail Bot"
 msgstr "Mail Bot"
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Not exactly. To continue the tour, send an emoji: %(bold_start)stype%"
@@ -116,12 +116,12 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__not_initialized
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__not_initialized
 msgid "Not initialized"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Not sure what you are doing. Please, type %(command_start)s/%(command_end)s "
@@ -130,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Not sure what you are doing. Please, type %(command_start)s:%(command_end)s "
@@ -138,7 +138,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid ""
 "BetopiaERP's chat helps employees collaborate efficiently. I'm here to help you "
@@ -146,42 +146,42 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields,field_description:mail_bot.field_res_users__BetopiaERPbot_state
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__betopiaerpbot_state
 msgid "BetopiaERPBot Status"
 msgstr "BetopiaERPBot Status"
 
 #. module: mail_bot
-#: model:ir.model.fields,field_description:mail_bot.field_res_users__BetopiaERPbot_failed
+#: model:ir.model.fields,field_description:mail_bot.field_res_users__betopiaerpbot_failed
 msgid "BetopiaERPbot Failed"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__onboarding_attachement
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__onboarding_attachement
 msgid "Onboarding attachment"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__onboarding_canned
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__onboarding_canned
 msgid "Onboarding canned"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__onboarding_command
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__onboarding_command
 msgid "Onboarding command"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__onboarding_emoji
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__onboarding_emoji
 msgid "Onboarding emoji"
 msgstr ""
 
 #. module: mail_bot
-#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__BetopiaERPbot_state__onboarding_ping
+#: model:ir.model.fields.selection,name:mail_bot.selection__res_users__betopiaerpbot_state__onboarding_ping
 msgid "Onboarding ping"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry I'm sleepy. Or not! Maybe I'm just trying to hide my unawareness of "
@@ -190,7 +190,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Sorry, I am not listening. To get someone's attention, %(bold_start)sping "
@@ -199,25 +199,25 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "Thanks"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "Thanks for your feedback. Goodbye!"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "That's not nice! I'm a bot but I have feelings... 💔"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "That’s the end of this overview. You can %(bold_start)sclose this "
@@ -226,13 +226,13 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "This is a temporary canned response to see how canned responses work."
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "To %(bold_start)ssend an attachment%(bold_end)s, click on the %"
@@ -240,19 +240,19 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "To start, try to send me an emoji :)"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/res_users.py:0
 msgid "Try to send me an emoji"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Unfortunately, I'm just a bot 😞 I don't understand! If you need help "
@@ -267,7 +267,7 @@ msgid "User"
 msgstr "Korisnik"
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Wonderful! 😇%(new_line)sTry typing %(command_start)s::%(command_end)s to "
@@ -275,7 +275,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Wow you are a natural!%(new_line)sPing someone with @username to grab their "
@@ -284,7 +284,7 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid ""
 "Yep, I am here! 🎉 %(new_line)sNow, try %(bold_start)ssending an attachment%"
@@ -292,31 +292,31 @@ msgid ""
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "fuck"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "help"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "i love you"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "love"
 msgstr ""
 
 #. module: mail_bot
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_bot/models/mail_bot.py:0
 msgid "start the tour"
 msgstr ""

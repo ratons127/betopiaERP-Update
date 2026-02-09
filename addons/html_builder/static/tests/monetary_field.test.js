@@ -1,6 +1,6 @@
 import { setupHTMLBuilder } from "@html_builder/../tests/helpers";
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 

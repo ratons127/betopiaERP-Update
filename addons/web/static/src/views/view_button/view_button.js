@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useDropdownCloser } from "@web/core/dropdown/dropdown_hooks";
 import { pick } from "@web/core/utils/objects";
 import { debounce as debounceFn } from "@web/core/utils/timing";
@@ -13,7 +13,7 @@ const explicitRankClasses = [
     "btn-danger",
 ];
 
-const BetopiaERPToBootstrapClasses = {
+const betopiaerpToBootstrapClasses = {
     oe_highlight: "btn-primary",
     oe_link: "btn-link",
 };
@@ -70,7 +70,7 @@ export class ViewButton extends Component {
             this.onClick = debounceFn(this.onClick.bind(this), debounce, true);
         }
         this.tooltip = JSON.stringify({
-            debug: Boolean(BetopiaERP.debug),
+            debug: Boolean(betopiaerp.debug),
             button: {
                 string: this.props.string,
                 help: this.clickParams.help,
@@ -95,7 +95,7 @@ export class ViewButton extends Component {
     }
 
     get hasBigTooltip() {
-        return Boolean(BetopiaERP.debug) || this.clickParams.help;
+        return Boolean(betopiaerp.debug) || this.clickParams.help;
     }
 
     get hasSmallToolTip() {
@@ -140,8 +140,8 @@ export class ViewButton extends Component {
         let hasExplicitRank = false;
         if (this.props.className) {
             for (let cls of this.props.className.split(" ")) {
-                if (cls in BetopiaERPToBootstrapClasses) {
-                    cls = BetopiaERPToBootstrapClasses[cls];
+                if (cls in betopiaerpToBootstrapClasses) {
+                    cls = betopiaerpToBootstrapClasses[cls];
                 }
                 classNames.push(cls);
                 if (!hasExplicitRank && explicitRankClasses.includes(cls)) {

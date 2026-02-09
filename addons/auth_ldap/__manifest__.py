@@ -16,6 +16,6 @@
             'python-ldap': 'python3-ldap',
         },
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

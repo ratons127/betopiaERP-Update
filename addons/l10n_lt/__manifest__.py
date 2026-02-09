@@ -17,7 +17,7 @@ This module also includes:
     """,
     'license': 'LGPL-3',
     'author': 'Focusate',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'depends': [
         'account',

@@ -779,7 +779,7 @@ class TestAPI(ThreadRecipients):
                 'email': test_cc_tuples[0][1],
                 'name': test_cc_tuples[0][0],
                 'partner_id': False,
-            },  # and not author, as it is BetopiaERPbot's email
+            },  # and not author, as it is betopiaerpbot's email
         ], strict=True):
             with self.subTest():
                 self.assertDictEqual(recipient, expected)

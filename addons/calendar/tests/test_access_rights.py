@@ -136,7 +136,7 @@ class TestAccessRights(TransactionCase):
         with self.assertRaises(AccessError):
             self.read_event(self.portal, event, 'location')
 
-    def test_meeting_edit_access_notification_handle_in_BetopiaERP(self):
+    def test_meeting_edit_access_notification_handle_in_betopiaerp(self):
         # set notifications to "handle in BetopiaERP" in Preferences for john, raoul, and george
         (self.john | self.raoul | self.george).write({'notification_type': 'inbox'})
 

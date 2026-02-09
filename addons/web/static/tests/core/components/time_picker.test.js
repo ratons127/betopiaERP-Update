@@ -1,7 +1,7 @@
-import { Component, useState, xml } from "@BetopiaERP/owl";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts, edit, press, animationFrame, runAllTimers } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts, edit, press, animationFrame, runAllTimers } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { mountWithCleanup, defineParams } from "@web/../tests/web_test_helpers";
 import { TimePicker } from "@web/core/time_picker/time_picker";
 import { Dropdown } from "@web/core/dropdown/dropdown";

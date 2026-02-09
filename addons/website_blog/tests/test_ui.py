@@ -61,11 +61,11 @@ class TestWebsiteBlogUi(betopiaerp.tests.HttpCase, TestWebsiteBlogCommon):
         self.env.ref('website.default_website').write({
             'social_facebook': "https://www.facebook.com/BetopiaERP",
             'social_twitter': 'https://twitter.com/BetopiaERP',
-            'social_linkedin': 'https://www.linkedin.com/company/BetopiaERP',
+            'social_linkedin': 'https://www.linkedin.com/company/betopiaerp',
             'social_youtube': 'https://www.youtube.com/user/OpenERPonline',
-            'social_github': 'https://github.com/BetopiaERP',
-            'social_instagram': 'https://www.instagram.com/explore/tags/BetopiaERP/',
-            'social_tiktok': 'https://www.tiktok.com/@BetopiaERP',
+            'social_github': 'https://github.com/betopiaerp',
+            'social_instagram': 'https://www.instagram.com/explore/tags/betopiaerp/',
+            'social_tiktok': 'https://www.tiktok.com/@betopiaerp',
             'social_discord': 'https://discord.com/servers/discord-town-hall-169256939211980800',
         })
         self.env.ref('website_blog.opt_blog_sidebar_show').active = True

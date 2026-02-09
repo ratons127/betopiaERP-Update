@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-02-04 06:28+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/sms/ja/>"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/sms/ja/>"
 "\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgid "# Valid recipients"
 msgstr "有効な受信者数"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid ""
 "%(count)s out of the %(total)s selected SMS Text Messages have successfully "
@@ -44,13 +44,13 @@ msgid ""
 msgstr "%(count)s(選択されたSMS%(total)sのうち)が正常に送信されました。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_template.py:0
 msgid "%s (copy)"
 msgstr "%s (コピー)"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/wizard/sms_composer.py:0
 msgid "%s invalid recipients"
 msgstr "%s無効な宛先"
@@ -212,19 +212,19 @@ msgid "Alternate way to identify a SMS record, used for delivery reports"
 msgstr "配送レポート用に使用される、SMSレコードを識別する別の方法。"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/failure_model_patch.js:0
 msgid "An error occurred when sending an SMS"
 msgstr "SMSを送信中にエラーが発生しました"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/failure_model_patch.js:0
 msgid "An error occurred when sending an SMS on “%(record_name)s”"
 msgstr "SMS送信時にエラーが発生しました “%(record_name)s”"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
 "An unknown error occurred. Please contact BetopiaERP support if this error "
@@ -249,7 +249,7 @@ msgstr ""
 "ます。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/controllers/main.py:0
 msgid "Bad parameters"
 msgstr "不正なパラメータ"
@@ -272,7 +272,7 @@ msgid "Body"
 msgstr "表示文"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "Buy credits."
 msgstr "クレジットを購入してください。"
@@ -307,7 +307,7 @@ msgid "Choose an example"
 msgstr "例を選択"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/iap_account.py:0
 #: code:addons/sms/wizard/sms_account_code.py:0
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
@@ -335,7 +335,7 @@ msgid "Content"
 msgstr "コンテンツ"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_country_not_supported
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_country_not_supported
@@ -343,7 +343,7 @@ msgid "Country Not Supported"
 msgstr "国はサポートされていません"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_registration_needed
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_registration_needed
@@ -351,7 +351,7 @@ msgid "Country-specific Registration Required"
 msgstr "国別登録が必要です"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "Country-specific registration required."
 msgstr "国別登録が必要です。"
@@ -470,7 +470,7 @@ msgid "Email Thread"
 msgstr "Eメールスレッド"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/phone_field/phone_field.js:0
 msgid "Enable SMS"
 msgstr "SMSを有効にする"
@@ -486,7 +486,7 @@ msgid "Error"
 msgstr "エラー"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_expired
 msgid "Expired"
@@ -510,7 +510,7 @@ msgstr ""
 "ます。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/wizard/sms_composer.py:0
 msgid "Following numbers are not correctly encoded: %s"
 msgstr "以下の番号は正しくエンコードされていません: %s"
@@ -596,13 +596,13 @@ msgid "Indicates if the SMS composer targets a single specific recipient"
 msgstr "SMSコンポーザが特定の1人の受信者を対象にしているかを示します。"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
 msgid "Insert Field"
 msgstr "フィールドを挿入"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_credit
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_credit
@@ -610,14 +610,14 @@ msgid "Insufficient Credit"
 msgstr "クレジット残高不足"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_invalid_destination
 msgid "Invalid Destination"
 msgstr "無効な宛先"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
 "Invalid phone number. Please make sure to follow the international format, "
@@ -628,7 +628,7 @@ msgstr ""
 "記号(+)、国番号、市外局番、市内電話番号の順です。 例：+1 555-555-555"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/wizard/sms_composer.py:0
 msgid "Invalid recipient number. Please update it."
 msgstr "無効な受信者番号。更新して下さい。"
@@ -712,7 +712,7 @@ msgid "Message Notifications"
 msgstr "メッセージ通知"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_number_missing
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_number_missing
@@ -735,14 +735,14 @@ msgid "No Record"
 msgstr "記録なし"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_not_allowed
 msgid "Not Allowed"
 msgstr "不可"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_not_delivered
 msgid "Not Delivered"
@@ -876,14 +876,14 @@ msgid "Register"
 msgstr "登録"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/iap_account.py:0
 #: code:addons/sms/wizard/sms_account_phone.py:0
 msgid "Register Account"
 msgstr "アカウント登録"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "Register now."
 msgstr "今すぐ登録"
@@ -895,7 +895,7 @@ msgid "Register your SMS account"
 msgstr "SMSアカウントを登録"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_rejected
 msgid "Rejected"
@@ -938,7 +938,7 @@ msgid "Retry"
 msgstr "再試行"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_button/sms_button.xml:0
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.actions.act_window,name:sms.sms_sms_action
@@ -951,7 +951,7 @@ msgid "SMS"
 msgstr "SMS"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
 msgid "SMS ("
 msgstr "SMS ("
@@ -967,7 +967,7 @@ msgid "SMS (without note)"
 msgstr "SMS(メモなし)"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/thread/message_patch.js:0
 msgid "SMS Account"
 msgstr "SMSアカウント"
@@ -1026,13 +1026,13 @@ msgid "SMS Delivery error"
 msgstr "SMS送信エラー"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "SMS Failure: %(modelName)s"
 msgstr "SMS失敗: %(modelName)s"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "SMS Failures"
 msgstr "SMS失敗"
@@ -1053,7 +1053,7 @@ msgid "SMS Preview"
 msgstr "SMSプレビュー"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
 msgid "SMS Pricing"
 msgstr "SMS価格"
@@ -1090,7 +1090,7 @@ msgid "SMS Templates"
 msgstr "SMSテンプレート"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/wizard/sms_template_reset.py:0
 msgid "SMS Templates have been reset"
 msgstr "SMSテンプレートが再設定されました"
@@ -1106,7 +1106,7 @@ msgid "SMS content"
 msgstr "SMS内容"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/ir_actions_server.py:0
 msgid "SMS template model of %(action_name)s does not match action model."
 msgstr ""
@@ -1144,7 +1144,7 @@ msgid "Send"
 msgstr "送信"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/ir_actions_server.py:0
 msgid "Send %(template_name)s"
 msgstr "%(template_name)sを送信"
@@ -1156,7 +1156,7 @@ msgid "Send Now"
 msgstr "今すぐ送信"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_button/sms_button.js:0
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_multi
 #: model:ir.actions.act_window,name:sms.res_partner_act_window_sms_composer_single
@@ -1166,7 +1166,7 @@ msgid "Send SMS"
 msgstr "SMS送信"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_template.py:0
 msgid "Send SMS (%s)"
 msgstr "SMS送信 (%s)"
@@ -1224,7 +1224,7 @@ msgid "Sender Name"
 msgstr "送信者名"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/ir_actions_server.py:0
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr ""
@@ -1241,7 +1241,7 @@ msgid "Server Action"
 msgstr "サーバーアクション"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_server
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_server
@@ -1288,7 +1288,7 @@ msgid "Stored Recipient Number"
 msgstr "保存済受信者番号"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid "Success"
 msgstr "成功"
@@ -1319,7 +1319,7 @@ msgid "Templates"
 msgstr "テンプレート"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
 "The SMS Service is currently unavailable for new users and new accounts "
@@ -1329,25 +1329,25 @@ msgstr ""
 "ます。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid "The SMS Text Messages could not be resent."
 msgstr "SMSテキストメッセージは送信できませんでした。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The content of the message violates rules applied by our providers."
 msgstr "メッセージの内容が、プロバイダが適用するルールに違反しています。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The destination country is not supported."
 msgstr "配送先国がサポートされていません。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The number you're trying to reach is not correctly formatted."
 msgstr "連絡しようとしている番号は正しくフォーマットされていません。"
@@ -1359,25 +1359,25 @@ msgid "The type of document this template can be used with"
 msgstr "このテンプレートを使用できるドキュメントのタイプ"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "The verification code is incorrect."
 msgstr "認証コードが正しくありません。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid "There are no SMS Text Messages to resend."
 msgstr "再送するSMSテキストメッセージはありません。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "This SMS has been removed as the number was already used."
 msgstr "番号が既に使用されているため、このSMSは削除されました。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
 "This account already has an existing sender name and it cannot be changed."
@@ -1397,7 +1397,7 @@ msgstr ""
 "ストを解除するにはクリックして下さい。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "This phone number/account has been banned from our service."
 msgstr "この電話番号/アカウントは、当社のサービスの利用を禁止されています。"
@@ -1461,7 +1461,7 @@ msgid "Unknown error"
 msgstr "不明なエラー"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_acc
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_acc
@@ -1512,19 +1512,19 @@ msgid "Visible records count"
 msgstr "可視レコード数"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/models/sms_sms.py:0
 msgid "Warning"
 msgstr "警告"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "We were not able to find your account in our database."
 msgstr "お客様のアカウントは当社のデータベースで見つかりませんでした。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid ""
 "We were not able to reach you via your phone number. If you have requested "
@@ -1551,7 +1551,7 @@ msgid "Write a message..."
 msgstr "メッセージを書く..."
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:sms.selection__mail_notification__failure_type__sms_number_format
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_number_format
@@ -1559,25 +1559,25 @@ msgid "Wrong Number Format"
 msgstr "不正な番号フォーマット"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "You don't have an eligible IAP account."
 msgstr "対象となるIAPアカウントを持っていません。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "You don't have enough credits on your IAP account."
 msgstr "IAPアカウントにクレジットが不足しています。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "You tried too many times. Please retry later."
 msgstr "回数の上限を超えました。しばらくしてから再度お試し下さい。"
 
 #. module: sms
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid ""
 "Your SMS Text Message must include at least one non-whitespace character"
@@ -1586,13 +1586,13 @@ msgstr ""
 "す。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/wizard/sms_account_code.py:0
 msgid "Your SMS account has been successfully registered."
 msgstr "SMSアカウントが正常に登録されました。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 #: code:addons/sms/wizard/sms_account_sender.py:0
 msgid ""
@@ -1613,7 +1613,7 @@ msgstr ""
 "ることはできません。慎重に選択して下さい。"
 
 #. module: sms
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms/tools/sms_api.py:0
 msgid "Your sms account has not been activated yet."
 msgstr "SMSアカウントがまだ有効化されていません。"

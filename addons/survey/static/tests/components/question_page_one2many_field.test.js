@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     contains,
     defineModels,
@@ -9,7 +9,7 @@ import {
     onRpc,
 } from "@web/../tests/web_test_helpers";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { animationFrame, press, queryAll, queryOne } from "@BetopiaERP/hoot-dom";
+import { animationFrame, press, queryAll, queryOne } from "@betopiaerp/hoot-dom";
 
 class Survey extends models.Model {
     question_and_page_ids = fields.One2many({ relation: "survey_question" });

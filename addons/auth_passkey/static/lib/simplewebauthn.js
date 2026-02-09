@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 /*!
   * simplewebauthn/browser@9.0.1 (https://github.com/MasterKale/SimpleWebAuthn)

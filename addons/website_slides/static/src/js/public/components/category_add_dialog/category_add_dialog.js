@@ -11,7 +11,7 @@ export class CategoryAddDialog extends ConfirmationDialog {
     setup() {
         super.setup();
         this.inputRef = useAutofocus();
-        this.csrf_token = BetopiaERP.csrf_token;
+        this.csrf_token = betopiaerp.csrf_token;
         this.lastInputValue;
     }
 

@@ -1,7 +1,7 @@
 import { useAutofocus } from "../utils/hooks";
 import { clamp } from "../utils/numbers";
 
-import { Component, EventBus, useEffect, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, EventBus, useEffect, useExternalListener, useState } from "@betopiaerp/owl";
 
 export const PAGER_UPDATED_EVENT = "PAGER:UPDATED";
 export const pagerBus = new EventBus();

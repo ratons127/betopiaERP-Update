@@ -7,7 +7,7 @@
     'category': 'Marketing/Events',
     'version': '1.0',
     'summary': 'Bridge module to support quiz features during "live" tracks. ',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'depends': [
         'website_event_track_live',
         'website_event_track_quiz',
@@ -23,6 +23,6 @@
             'website_event_track_live_quiz/static/src/xml/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

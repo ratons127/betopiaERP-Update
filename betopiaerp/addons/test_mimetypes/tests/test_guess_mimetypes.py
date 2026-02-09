@@ -2,7 +2,7 @@ import os.path
 import unittest
 
 from betopiaerp.tests import BaseCase
-from betopiaerp.tools.mimetypes import _BetopiaERP_guess_mimetype, guess_mimetype
+from betopiaerp.tools.mimetypes import _betopiaerp_guess_mimetype, guess_mimetype
 from betopiaerp.tools.misc import file_open
 
 
@@ -87,7 +87,7 @@ class MimeGuessingCases:
 
 
 class TestMimeGuessingBetopiaERP(BaseCase, MimeGuessingCases):
-    guess_mimetype = staticmethod(_BetopiaERP_guess_mimetype)
+    guess_mimetype = staticmethod(_betopiaerp_guess_mimetype)
 
     def test_csv(self):
         self.assertEqual(
@@ -96,7 +96,7 @@ class TestMimeGuessingBetopiaERP(BaseCase, MimeGuessingCases):
         )
 
 
-@unittest.skipIf(guess_mimetype is _BetopiaERP_guess_mimetype, "python-magic not installed")
+@unittest.skipIf(guess_mimetype is _betopiaerp_guess_mimetype, "python-magic not installed")
 class TestMimeGuessingMagic(BaseCase, MimeGuessingCases):
     guess_mimetype = staticmethod(guess_mimetype)
 

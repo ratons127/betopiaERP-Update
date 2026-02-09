@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
 
         <!--
@@ -21,8 +21,8 @@
                     <t t-out="channel.script_external"/>
 
                     <script>
-                        window.BetopiaERP ??= {};
-                        window.BetopiaERP.csrf_token = "<t t-out="request.csrf_token(None)"/>";
+                        window.betopiaerp ??= {};
+                        window.betopiaerp.csrf_token = "<t t-out="request.csrf_token(None)"/>";
                     </script>
                     <style type="text/css">
                         body {
@@ -95,13 +95,13 @@
         <!-- the js code to initialize the LiveSupport object -->
         <template id="loader" name="Livechat : Javascript appending the livechat button">
             <t t-translation="off">
-                if (!window.BetopiaERP) {
-                    window.BetopiaERP = {};
+                if (!window.betopiaerp) {
+                    window.betopiaerp = {};
                 }
-                BetopiaERP.__session_info__ = BetopiaERP.__session_info__ || {
+                betopiaerp.__session_info__ = betopiaerp.__session_info__ || {
                     websocket_worker_version: <t t-out="json.dumps(info.get('websocket_worker_version', ''))"/>
                 }
-                BetopiaERP.__session_info__ = Object.assign(BetopiaERP.__session_info__, {
+                betopiaerp.__session_info__ = Object.assign(betopiaerp.__session_info__, {
                     livechatData: {
                         can_load_livechat: <t t-out="'true' if info['available'] else 'false'"/>,
                         serverUrl: "<t t-out="info['server_url']"/>",
@@ -114,4 +114,4 @@
 
 
     </data>
-</BetopiaERP>
+</betopiaerp>

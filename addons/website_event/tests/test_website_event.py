@@ -30,9 +30,9 @@ class TestEventRegisterUTM(HttpCase, TestEventOnlineCommon):
 
         self.authenticate(None, None)
         self.opener.cookies.update({
-            'BetopiaERP_utm_campaign': event_campaign.name,
-            'BetopiaERP_utm_source': self.env.ref('utm.utm_source_newsletter').name,
-            'BetopiaERP_utm_medium': self.env.ref('utm.utm_medium_email').name
+            'betopiaerp_utm_campaign': event_campaign.name,
+            'betopiaerp_utm_source': self.env.ref('utm.utm_source_newsletter').name,
+            'betopiaerp_utm_medium': self.env.ref('utm.utm_medium_email').name
         })
         event_questions = self.event_0.question_ids
         name_question = event_questions.filtered(lambda q: q.question_type == 'name')

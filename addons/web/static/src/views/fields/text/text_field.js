@@ -8,7 +8,7 @@ import { parseInteger } from "../parsers";
 import { standardFieldProps } from "../standard_field_props";
 import { TranslationButton } from "../translation_button";
 
-import { Component, useExternalListener, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useEffect, useRef } from "@betopiaerp/owl";
 
 export class TextField extends Component {
     static template = "web.TextField";

@@ -289,7 +289,7 @@
               "groupBy": ["start_date_minutes"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "actionXmlId": "im_livechat.im_livechat_report_channel_action",
             "dataSets": [
               {}
@@ -350,7 +350,7 @@
               "groupBy": ["partner_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "actionXmlId": "im_livechat.im_livechat_agent_history_action",
             "dataSets": [
               {}
@@ -637,7 +637,7 @@
   },
   "pivots": {
     "4507cb5a-087b": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.report.channel",
       "name": "Main aggregates",
       "domain": [
@@ -670,7 +670,7 @@
       }
     },
     "d9792e42-ac74": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.report.channel",
       "name": "Session escalated aggregates",
       "domain": [
@@ -694,7 +694,7 @@
       }
     },
     "a25aec01-9f5b": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.channel.member.history",
       "name": "Agent",
       "sortedColumn": {
@@ -761,7 +761,7 @@
       }
     },
     "3b3e3078-51e6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.channel.member.history",
       "name": "Agents in call",
       "sortedColumn": {
@@ -798,7 +798,7 @@
       "formulaId": "4"
     },
     "ab4d6b08-4e9f": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.report.channel",
       "name": "Country",
       "sortedColumn": {
@@ -834,7 +834,7 @@
       }
     },
     "ddbd381c-cf18": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.report.channel",
       "name": "Chatbot Answer",
       "sortedColumn": {
@@ -870,7 +870,7 @@
       }
     },
     "1ccc42f7-9956": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.report.channel",
       "name": "Language",
       "sortedColumn": {
@@ -906,7 +906,7 @@
       }
     },
     "cd02255a-0a88": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.channel.member.history",
       "name": "Call aggregates",
       "sortedColumn": {
@@ -945,7 +945,7 @@
       "formulaId": "26"
     },
     "255be042-8d9f": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "model": "im_livechat.channel.member.history",
       "name": "Expertise",
       "sortedColumn": {

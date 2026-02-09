@@ -33,6 +33,6 @@ can setup API keys to replace their main password.
             'auth_totp/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

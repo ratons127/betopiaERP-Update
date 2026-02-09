@@ -1,6 +1,6 @@
 import { defineCalendarModels } from "@calendar/../tests/calendar_test_helpers";
 import { click, contains, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import {
     asyncStep,
     mockService,

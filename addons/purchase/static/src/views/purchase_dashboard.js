@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { Component, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 
 export class PurchaseDashBoard extends Component {
     static template = "purchase.PurchaseDashboard";

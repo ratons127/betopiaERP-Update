@@ -1,4 +1,4 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 
 (function () {
 'use strict';

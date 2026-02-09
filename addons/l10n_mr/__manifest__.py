@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mauritania - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/master/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/master/applications/finance/fiscal_localizations.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['mr'],
     'description': """
@@ -19,6 +19,6 @@ Mauritania basic package that contains the chart of accounts, the taxes, tax rep
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

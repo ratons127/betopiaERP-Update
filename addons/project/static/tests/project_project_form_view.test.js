@@ -1,5 +1,5 @@
-import { expect, test, beforeEach } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { expect, test, beforeEach } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import {
     mountView,
     contains,

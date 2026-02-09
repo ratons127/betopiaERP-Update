@@ -4,7 +4,7 @@ import { UrlField, urlField } from "@web/views/fields/url/url_field";
 import { registry } from "@web/core/registry";
 import { _t } from "@web/core/l10n/translation";
 import { debounce } from "@web/core/utils/timing";
-import { Component, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef } from "@betopiaerp/owl";
 
 /**
  * Displays website page dependencies and URL redirect options when the page URL

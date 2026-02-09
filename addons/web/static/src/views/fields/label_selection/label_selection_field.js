@@ -3,7 +3,7 @@ import { _t } from "@web/core/l10n/translation";
 import { standardFieldProps } from "../standard_field_props";
 import { formatSelection } from "../formatters";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class LabelSelectionField extends Component {
     static template = "web.LabelSelectionField";

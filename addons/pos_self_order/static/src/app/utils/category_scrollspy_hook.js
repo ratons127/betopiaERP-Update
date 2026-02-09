@@ -1,4 +1,4 @@
-import { onMounted, onWillUnmount } from "@BetopiaERP/owl";
+import { onMounted, onWillUnmount } from "@betopiaerp/owl";
 
 /**
  * Detects when a category section becomes visible within a scrollable container.

@@ -7,15 +7,15 @@
 # Duy BQ <duybq86@gmail.com>, 2019
 # Dung Nguyen Thi <dungnt@trobz.com>, 2019
 # Chinh Chinh <trinhttp@trobz.com>, 2019
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 04:41+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Vietnamese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Vietnamese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_authorize/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgid "Code"
 msgstr "Mã"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Could not fetch merchant details:\n"
@@ -121,7 +121,7 @@ msgstr ""
 "%s"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
@@ -143,7 +143,7 @@ msgid "Expiration"
 msgstr "Ngày hết hạn"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Failed to authenticate.\n"
@@ -180,7 +180,7 @@ msgid "Name On Account"
 msgstr "Tên trên tài khoản"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "Only one currency can be selected by Authorize.Net account."
 msgstr "Tài khoản Authorize.Net chỉ có thể chọn một loại tiền tệ."
@@ -201,20 +201,20 @@ msgid "Payment Transaction"
 msgstr "Giao dịch thanh toán"
 
 #. module: payment_authorize
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_authorize/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Xử lý thanh toán không thành công"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\"."
 msgstr ""
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "Dữ liệu yêu cầu thanh toán giả mạo đã nhận."
@@ -244,7 +244,7 @@ msgid "The technical code of this payment provider."
 msgstr "Mã kỹ thuật của nhà cung cấp dịch vụ thanh toán này."
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "The transaction is not in a status to be refunded. (status: %(status)s, "
@@ -261,7 +261,7 @@ msgid ""
 msgstr "Mã duy nhất cho kết hợp đối tác/token trong back-end Authorize.net."
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "This action cannot be performed while the provider is disabled."
 msgstr "Không thể thực hiện tác vụ này khi nhà cung cấp bị vô hiệu hóa."

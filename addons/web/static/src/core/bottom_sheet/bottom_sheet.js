@@ -3,7 +3,7 @@
  *
  * @class
  */
-import { Component, useState, useRef, onMounted, useExternalListener } from "@BetopiaERP/owl";
+import { Component, useState, useRef, onMounted, useExternalListener } from "@betopiaerp/owl";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 import { useForwardRefToParent } from "@web/core/utils/hooks";
 import { useThrottleForAnimation } from "@web/core/utils/timing";

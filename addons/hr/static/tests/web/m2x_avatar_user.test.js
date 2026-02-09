@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
 import { contains, makeMockServer, mountView } from "@web/../tests/web_test_helpers";
 import { contains as mailContains } from "@mail/../tests/mail_test_helpers";
 import { defineHrModels } from "@hr/../tests/hr_test_helpers";
@@ -15,7 +15,7 @@ test("avatar card preview with hr", async () => {
     });
     const partnerId = env["res.partner"].create({
         name: "Mario",
-        email: "Mario@BetopiaERP.test",
+        email: "Mario@betopiaerp.test",
         phone: "+7878698799",
     });
     const jobId = env["hr.job"].create({
@@ -32,7 +32,7 @@ test("avatar card preview with hr", async () => {
     });
     const employeeId = env["hr.employee"].create({
         version_id: versionId,
-        work_email: "Mario@BetopiaERP.pro",
+        work_email: "Mario@betopiaerp.pro",
         work_location_type: "office",
         work_phone: "+585555555",
     });
@@ -64,7 +64,7 @@ test("avatar card preview with hr", async () => {
     expect(queryAllTexts(".o_card_user_infos > *:not(.o_avatar_card_buttons)")).toEqual([
         "Mario",
         "Management",
-        "Mario@BetopiaERP.pro",
+        "Mario@betopiaerp.pro",
         "+585555555",
         "BetopiaERP",
     ]);
@@ -80,7 +80,7 @@ test("avatar card preview with hr (partner_id field)", async () => {
     });
     const partnerId = env["res.partner"].create({
         name: "Mario",
-        email: "Mario@BetopiaERP.test",
+        email: "Mario@betopiaerp.test",
         phone: "+7878698799",
     });
     const jobId = env["hr.job"].create({
@@ -97,7 +97,7 @@ test("avatar card preview with hr (partner_id field)", async () => {
     });
     const employeeId = env["hr.employee"].create({
         version_id: versionId,
-        work_email: "Mario@BetopiaERP.pro",
+        work_email: "Mario@betopiaerp.pro",
         work_location_type: "office",
         work_phone: "+585555555",
     });
@@ -122,7 +122,7 @@ test("avatar card preview with hr (partner_id field)", async () => {
     expect(queryAllTexts(".o_card_user_infos > *:not(.o_avatar_card_buttons)")).toEqual([
         "Mario",
         "Management",
-        "Mario@BetopiaERP.pro",
+        "Mario@betopiaerp.pro",
         "+585555555",
         "BetopiaERP",
     ]);

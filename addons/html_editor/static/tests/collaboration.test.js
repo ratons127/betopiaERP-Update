@@ -14,10 +14,10 @@ import {
     StateChangeManager,
 } from "@html_editor/others/embedded_component_utils";
 import { parseHTML } from "@html_editor/utils/html";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { click, manuallyDispatchProgrammaticEvent } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { onMounted, onWillDestroy, xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { click, manuallyDispatchProgrammaticEvent } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { onMounted, onWillDestroy, xml } from "@betopiaerp/owl";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     applyConcurrentActions,

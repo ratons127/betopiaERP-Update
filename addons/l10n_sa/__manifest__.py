@@ -4,9 +4,9 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['sa'],
     'version': '2.2',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'category': 'Accounting/Localizations/Account Charts',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/saudi_arabia.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/saudi_arabia.html',
     'description': """
 Saudi Arabia Accounting Module
 ===========================================================

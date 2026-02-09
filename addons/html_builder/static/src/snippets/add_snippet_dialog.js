@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillUnmount, onWillRender, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUnmount, onWillRender, useRef, useState } from "@betopiaerp/owl";
 import { loadBundle, loadCSS } from "@web/core/assets";
 import { isBrowserFirefox } from "@web/core/browser/feature_detection";
 import { Dialog } from "@web/core/dialog/dialog";

@@ -25,6 +25,6 @@ Sell event tickets through eCommerce app.
             'website_event_sale/static/src/scss/*.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

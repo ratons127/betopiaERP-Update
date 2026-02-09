@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-01-23 07:34+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "snailmail/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -36,26 +36,26 @@ msgid "Add a Cover Page"
 msgstr "表紙をつける"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/failure_model_patch.js:0
 msgid ""
 "An error occurred when sending a letter with Snailmail on “%(record_name)s”"
 msgstr "Snailmailで手紙を送信中にエラーが発生しました “%(record_name)s”"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/failure_model_patch.js:0
 msgid "An error occurred when sending a letter with Snailmail."
 msgstr "Snailmailで手紙を郵送中にエラーが発生しました。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "An error occurred when sending the document by post.<br>Error: %s"
 msgstr "郵送でドキュメントを送信中にエラーが発生しました。<br>エラー: %s"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "An unknown error happened. Please contact the support."
 msgstr "不明なエラーが発生しました。サポートまでご連絡下さい。"
@@ -71,7 +71,7 @@ msgid "Attachment Filename"
 msgstr "添付ファイル名"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Awaiting Dispatch"
 msgstr "発送待ち"
@@ -97,7 +97,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__state__canceled
 msgid "Cancelled"
@@ -139,7 +139,7 @@ msgid "Country"
 msgstr "国"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Country Not Supported"
 msgstr "国はサポートされていません"
@@ -193,7 +193,7 @@ msgid "Email Thread"
 msgstr "Eメールスレッド"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__error_code
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__state__error
@@ -211,7 +211,7 @@ msgid "Failure type"
 msgstr "失敗種別"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Format Error"
 msgstr "フォーマットエラー"
@@ -239,13 +239,13 @@ msgid "Information"
 msgstr "情報"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Insufficient Credits"
 msgstr "クレジット残高不足"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Invalid recipient name."
 msgstr "無効な宛先名"
@@ -267,7 +267,7 @@ msgid "Letter"
 msgstr "レター"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Letter sent by post with Snailmail"
 msgstr "Snailmailで郵送で送られたレター"
@@ -293,7 +293,7 @@ msgid "Message Notifications"
 msgstr "メッセージ通知"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Missing Required Fields"
 msgstr "必須項目が未入力です"
@@ -309,13 +309,13 @@ msgid "NO_PRICE_AVAILABLE"
 msgstr "NO_PRICE_AVAILABLE"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "No IAP Credits"
 msgstr "IAPクレジットがありません"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Not enough credits for Snail Mail"
 msgstr "Snalmail用のクレジットが不足しています。"
@@ -331,7 +331,7 @@ msgid "Notifications"
 msgstr "通知"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "One or more required fields are empty."
 msgstr "1以上の必要なフィールドが空です。"
@@ -342,7 +342,7 @@ msgid "Optional report to print and attach"
 msgstr "印刷・添付するレポート"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Please use an A4 Paper format."
 msgstr "A4フォーマットを使用して下さい。"
@@ -383,7 +383,7 @@ msgid "Send your customer invoices and follow-up reports by post, worldwide."
 msgstr "請求書や督促レポートを、世界中のお客様に郵送で送付できます。"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__state__sent
 msgid "Sent"
@@ -395,7 +395,7 @@ msgid "Sent by"
 msgstr "送信者"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Snail Mails are successfully sent"
 msgstr "Snailmailが正常に送られました"
@@ -422,13 +422,13 @@ msgid "Snailmail Credit Error"
 msgstr "Snailmailクレジットエラー"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "Snailmail Failure: %(modelName)s"
 msgstr "Snailmailエラー: %(modelName)s"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "Snailmail Failures"
 msgstr "Snailmail機能"
@@ -517,13 +517,13 @@ msgid "TRIAL_ERROR"
 msgstr "TRIAL_ERROR"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "The address of the recipient is not complete"
 msgstr "宛先の住所が不完全です。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
 "The attachment of the letter could not be sent. Please check its content and "
@@ -533,13 +533,13 @@ msgstr ""
 "い場合はサポートまでご連絡下さい。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "The country of the partner is not covered by Snailmail."
 msgstr "取引先の国はSnailmailの対象外です。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "The document was correctly sent by post.<br>The tracking id is %s"
 msgstr "ドキュメントは正常に郵送されました。<br>トラッキングID:%s"
@@ -556,7 +556,7 @@ msgid "UNKNOWN_ERROR"
 msgstr "UNKNOWN_ERROR"
 
 #. module: snailmail
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Unknown Error"
 msgstr "不明なエラー"
@@ -598,17 +598,17 @@ msgstr ""
 "ジ'フィールドに表示されます。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.BetopiaERP.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.betopiaerp.com</a> to claim your free credits."
 msgstr ""
 "このサービス用に登録されたIAPアカウントがありません。<br>無料クレジットを申請"
-"するには<a href=%s target=\"new\">iap.BetopiaERP.com</a>に行って下さい。"
+"するには<a href=%s target=\"new\">iap.betopiaerp.com</a>に行って下さい。"
 
 #. module: snailmail
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
 "You don't have enough credits to perform this operation.<br>Please go to "

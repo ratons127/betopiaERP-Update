@@ -1,7 +1,7 @@
 import { DiscussSidebar } from "@mail/core/public_web/discuss_sidebar";
 import { useMessageScrolling } from "@mail/utils/common/hooks";
 
-import { Component, useRef, useExternalListener, useEffect, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useRef, useExternalListener, useEffect, useSubEnv } from "@betopiaerp/owl";
 import { getActiveHotkey } from "@web/core/hotkeys/hotkey_service";
 
 import { useService } from "@web/core/utils/hooks";

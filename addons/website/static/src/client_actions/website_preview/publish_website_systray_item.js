@@ -3,7 +3,7 @@ import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { CheckBox } from "@web/core/checkbox/checkbox";
 import { useService, useBus } from "@web/core/utils/hooks";
-import { Component, xml, useState } from "@BetopiaERP/owl";
+import { Component, xml, useState } from "@betopiaerp/owl";
 import { OptimizeSEODialog } from "@website/components/dialog/seo";
 import { checkAndNotifySEO } from "@website/js/utils";
 

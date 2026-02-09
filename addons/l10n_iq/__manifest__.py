@@ -3,7 +3,7 @@
     "name": "Iraq - Accounting",
     "countries": ["iq"],
     "description": """
-This is the base module to manage the accounting chart for Iraq in betopiaerp.
+This is the base module to manage the accounting chart for Iraq in BetopiaERP.
 ==============================================================================
 Iraq accounting basic charts and localization.
 Activates:
@@ -17,6 +17,6 @@ Activates:
     ],
     "auto_install": ["account"],
     "demo": ["demo/demo_company.xml"],
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

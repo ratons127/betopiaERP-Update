@@ -31,6 +31,6 @@ from purchase order.
             'mrp/static/src/**/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

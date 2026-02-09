@@ -14,17 +14,17 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2022
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2022
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2026.
+# Saara Hakanen <sahak@betopiaerp.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-23 06:05+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/barcodes/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/barcodes/"
 "fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 msgstr " '*' ei ole kelvollinen Regex-viivakoodikuvio. Tarkoititko '.*'?"
@@ -100,13 +100,13 @@ msgid "Any"
 msgstr "Mikä tahansa"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/manual_barcode.xml:0
 msgid "Apply"
 msgstr "Käytä"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
 msgid "Barcode"
 msgstr "Viivakoodi"
@@ -147,7 +147,7 @@ msgid "Barcode Scanned"
 msgstr "Viivakoodi skannattu"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Barcode: %(barcode)s"
 msgstr "Viivakoodi: %(barcode)s"
@@ -199,7 +199,7 @@ msgid "Encoding"
 msgstr "Koodaus"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/manual_barcode.js:0
 msgid "Enter a barcode..."
 msgstr "Syötä viivakoodi..."
@@ -219,7 +219,7 @@ msgid "ID"
 msgstr "Tunnus"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_events_mixin.py:0
 msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
@@ -278,7 +278,7 @@ msgstr ""
 "                                nollina."
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.js:0
 msgid "Please, Scan again!"
 msgstr "Skannaa uudelleen!"
@@ -304,7 +304,7 @@ msgid "Tables"
 msgstr "Taulukot"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.xml:0
 msgid "Tap to scan"
 msgstr "Skannaa"
@@ -315,7 +315,7 @@ msgid "The barcode matching pattern"
 msgstr "Viivakoodin täsmäytyskaava"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "The barcode pattern %(pattern)s does not lead to a valid regular expression."
@@ -332,7 +332,7 @@ msgid "The matched pattern will alias to this barcode"
 msgstr "Yhdistetty kaava on alias tälle viivakoodille"
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: a rule can only "
@@ -342,7 +342,7 @@ msgstr ""
 "yhden aaltosuljeparin."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: braces can only "
@@ -352,7 +352,7 @@ msgstr ""
 "kirjaimia, joita seuraa D-kirjain."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: empty braces."
@@ -404,7 +404,7 @@ msgid "Unit Product"
 msgstr "Yksikkötuote"
 
 #. module: barcodes
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Unknown barcode command"
 msgstr "Tuntematon viivakoodikomento"
@@ -422,7 +422,7 @@ msgid "Value of the last barcode scanned."
 msgstr "Viimeksi skannatun viivakoodin arvo."
 
 #. module: barcodes
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/barcodes/models/barcode_nomenclature.py:0
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."

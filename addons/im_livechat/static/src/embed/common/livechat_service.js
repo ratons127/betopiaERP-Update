@@ -1,6 +1,6 @@
 import { expirableStorage } from "@im_livechat/core/common/expirable_storage";
 
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 
 import { _t } from "@web/core/l10n/translation";
@@ -14,10 +14,10 @@ export const RATING = Object.freeze({
     BAD: 1,
 });
 
-export const BetopiaERP_VERSION_KEY = `${location.origin.replace(
+export const BETOPIAERP_VERSION_KEY = `${location.origin.replace(
     /:\/{0,2}/g,
     "_"
-)}_im_livechat.BetopiaERP_version`;
+)}_im_livechat.betopiaerp_version`;
 
 const OPERATOR_STORAGE_KEY = "im_livechat_previous_operator";
 

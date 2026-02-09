@@ -1,6 +1,6 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 import { contains, defineModels, fields, models, mountView } from "@web/../tests/web_test_helpers";
 
 class Survey extends models.Model {

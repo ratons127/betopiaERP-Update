@@ -21,6 +21,6 @@ E-Transport implementation for Romania
         'report/report_deliveryslip.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': "LGPL-3",
 }

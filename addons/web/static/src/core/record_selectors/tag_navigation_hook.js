@@ -1,4 +1,4 @@
-import { useRef } from "@BetopiaERP/owl";
+import { useRef } from "@betopiaerp/owl";
 import { useNavigation } from "../navigation/navigation";
 
 /**

@@ -22,6 +22,6 @@ This module allow to reinvoice employee expense, by setting the SO directly on t
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

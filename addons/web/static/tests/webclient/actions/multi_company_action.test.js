@@ -1,4 +1,4 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { cookie } from "@web/core/browser/cookie";
 import { redirect } from "@web/core/utils/urls";
 import {
@@ -13,7 +13,7 @@ import {
     patchWithCleanup,
     serverState,
 } from "@web/../tests/web_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 import { browser } from "@web/core/browser/browser";
 import { FormViewDialog } from "@web/views/view_dialogs/form_view_dialog";
 
@@ -62,11 +62,11 @@ test("open record withtout the correct company (load state)", async () => {
         });
     });
 
-    redirect("/BetopiaERP/res.partner/1");
+    redirect("/betopiaerp/res.partner/1");
     await mountWebClient();
     expect(cookie.get("cids")).toBe("1-2");
     expect.verifySteps(["reload"]);
-    expect(browser.location.href).toBe("http://example.com/BetopiaERP/res.partner/1", {
+    expect(browser.location.href).toBe("http://example.com/betopiaerp/res.partner/1", {
         message: "url did not change",
     });
 });
@@ -91,7 +91,7 @@ test("open record withtout the correct company (doAction)", async () => {
     await animationFrame();
     expect(cookie.get("cids")).toBe("1-2");
     expect.verifySteps(["reload"]);
-    expect(browser.location.href).toBe("http://example.com/BetopiaERP/res.partner/1", {
+    expect(browser.location.href).toBe("http://example.com/betopiaerp/res.partner/1", {
         message: "url should contain the information of the doAction",
     });
 });

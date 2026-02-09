@@ -1,4 +1,4 @@
-import { after, before, expect, test } from "@BetopiaERP/hoot";
+import { after, before, expect, test } from "@betopiaerp/hoot";
 import {
     clear,
     click,
@@ -10,7 +10,7 @@ import {
     queryAllTexts,
     queryFirst,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import {
     animationFrame,
     Deferred,
@@ -18,7 +18,7 @@ import {
     mockTouch,
     runAllTimers,
     tick,
-} from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-mock";
 import {
     Component,
     EventBus,
@@ -30,7 +30,7 @@ import {
     useRef,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import {
     clickSave,
     contains,
@@ -6084,7 +6084,7 @@ test("delete the last record (without previous action)", async () => {
             </form>`,
     };
 
-    redirect("/BetopiaERP/m-partner/1");
+    redirect("/betopiaerp/m-partner/1");
     patchWithCleanup(WebClient.prototype, {
         _loadDefaultApp() {
             expect.step("__DEFAULT_ACTION__ called");
@@ -10480,7 +10480,7 @@ test("resequence list lines when previous resequencing crashed", async () => {
                         code: 200,
                         message: "BetopiaERP Server Error",
                         data: {
-                            name: `BetopiaERP.exceptions.${"UserError"}`,
+                            name: `betopiaerp.exceptions.${"UserError"}`,
                             debug: "traceback",
                             arguments: [],
                             context: {},

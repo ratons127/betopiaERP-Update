@@ -4,7 +4,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/EDI',
     'summary': 'Electronic Invoicing for Jordan UBL 2.1',
-    'author': 'BetopiaERP S.A., Smart Way Business Solutions',
+    'author': 'BetopiaERP, Smart Way Business Solutions',
     'description': """
        Allows the users to integrate with JoFotara.
     """,

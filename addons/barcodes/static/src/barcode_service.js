@@ -1,7 +1,7 @@
 import { isBrowserChrome, isMobileOS } from "@web/core/browser/feature_detection";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";
-import { EventBus, whenReady } from "@BetopiaERP/owl";
+import { EventBus, whenReady } from "@betopiaerp/owl";
 
 function isEditable(element) {
     return element.matches('input,textarea,[contenteditable="true"]');

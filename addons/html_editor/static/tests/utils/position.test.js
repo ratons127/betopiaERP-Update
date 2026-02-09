@@ -8,7 +8,7 @@ import {
     rightPos,
     startPos,
 } from "@html_editor/utils/position";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { insertTestHtml } from "../_helpers/editor";
 
 describe("leftPos", () => {

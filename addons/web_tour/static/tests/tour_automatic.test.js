@@ -1,8 +1,8 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { afterEach, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, queryFirst } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { afterEach, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, queryFirst } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     getService,
     makeMockEnv,
@@ -119,7 +119,7 @@ test("a tour with invalid step trigger", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour_invalid_trigger", { mode: "auto" }); // Use BetopiaERP to run tour from registry because this is a test tour
+    await betopiaerp.startTour("tour_invalid_trigger", { mode: "auto" }); // Use betopiaerp to run tour from registry because this is a test tour
     await waitForMacro();
     const expectedSteps = [
         "log: [1/2] Tour tour_invalid_trigger → Step .button0:contins(brol)",
@@ -168,7 +168,7 @@ test("a failing tour logs the step that failed in run", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour2", { mode: "auto" }); // Use BetopiaERP to run tour from registry because this is a test tour
+    await betopiaerp.startTour("tour2", { mode: "auto" }); // Use betopiaerp to run tour from registry because this is a test tour
     await waitForMacro();
     const expectedError = [
         "log: [1/2] Tour tour2 → Step .button0",
@@ -217,7 +217,7 @@ test("a failing tour with disabled element", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour3", { mode: "auto" });
+    await betopiaerp.startTour("tour3", { mode: "auto" });
     await waitForMacro();
     const expectedError = [
         `error: FAILED: [2/3] Tour tour3 → Step .button1.
@@ -305,7 +305,7 @@ test("a failing tour logs the step that failed", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour1", { mode: "auto" });
+    await betopiaerp.startTour("tour1", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps([
         "log: [1/9] Tour tour1 → Step content (trigger: .button0)",
@@ -361,7 +361,7 @@ test("check tour with inactive steps", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("pipu_tour", { mode: "auto" });
+    await betopiaerp.startTour("pipu_tour", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps([
         "this action 1 has not been skipped",
@@ -408,7 +408,7 @@ test("automatic tour with invisible element", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour_de_wallonie", { mode: "auto" });
+    await betopiaerp.startTour("tour_de_wallonie", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps([
         `error: FAILED: [2/3] Tour tour_de_wallonie → Step .button1.
@@ -459,7 +459,7 @@ test("automatic tour with invisible element but use :not(:visible))", async () =
             },
         ],
     });
-    await BetopiaERP.startTour("tour_de_wallonie", { mode: "auto" });
+    await betopiaerp.startTour("tour_de_wallonie", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps(["succeeded"]);
 });
@@ -518,7 +518,7 @@ test("automatic tour with alternative trigger", async () => {
         static props = ["*"];
     }
     await mountWithCleanup(Root);
-    await BetopiaERP.startTour("tour_des_flandres", { mode: "auto" });
+    await betopiaerp.startTour("tour_des_flandres", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps(["on step", "on step", "on step", "on step", "succeeded"]);
 });
@@ -575,7 +575,7 @@ test("check not possible to click below modal", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour_check_modal", { mode: "auto" });
+    await betopiaerp.startTour("tour_check_modal", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps([
         "log: [1/2] Tour tour_check_modal → Step .button0",
@@ -619,7 +619,7 @@ test("a tour where hoot trigger failed", async () => {
             },
         ],
     });
-    await BetopiaERP.startTour("tour_hoot_failed", { mode: "auto" });
+    await betopiaerp.startTour("tour_hoot_failed", { mode: "auto" });
     await waitForMacro();
     expect.verifySteps([
         `error: FAILED: [2/2] Tour tour_hoot_failed → Step content (trigger: .button1:brol(:machin)).

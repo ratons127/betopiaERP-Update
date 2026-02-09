@@ -1,6 +1,6 @@
 import { useHotkey } from "../hotkeys/hotkey_hook";
 
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 
 /**
  * Custom checkbox

@@ -20,6 +20,6 @@ Use iMin ePOS Printers without the IoT Box in the Point of Sale
             'pos_imin/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
 import { contains, mountWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 import { DEFAULT_DATE, FAKE_MODEL } from "./calendar_test_helpers";
 

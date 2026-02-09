@@ -3,7 +3,7 @@ import { NO_MEMBERS_DEFAULT_OPEN_LS } from "@mail/core/public_web/discuss_app_mo
 import { ChannelMemberList } from "@mail/discuss/core/common/channel_member_list";
 import { SubChannelList } from "@mail/discuss/core/public_web/sub_channel_list";
 
-import { useChildSubEnv } from "@BetopiaERP/owl";
+import { useChildSubEnv } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { _t } from "@web/core/l10n/translation";

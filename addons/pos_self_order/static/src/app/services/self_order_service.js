@@ -2,7 +2,7 @@ import { Reactive } from "@web/core/utils/reactive";
 import { ConnectionLostError, RPCError, rpc } from "@web/core/network/rpc";
 import { _t } from "@web/core/l10n/translation";
 import { formatCurrency as webFormatCurrency } from "@web/core/currency";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";
 import { cookie } from "@web/core/browser/cookie";
@@ -157,7 +157,7 @@ export class SelfOrder extends Reactive {
         if (this.config.self_ordering_mode === "kiosk") {
             initLNA(this.notification);
         } else {
-            BetopiaERP.use_lna = false;
+            betopiaerp.use_lna = false;
         }
     }
 
@@ -776,7 +776,7 @@ export class SelfOrder extends Reactive {
             } else if (error.data.name === "werkzeug.exceptions.NotFound") {
                 message = _t("Orders not found on server");
                 cleanOrders = true;
-            } else if (error?.data?.name === "BetopiaERP.exceptions.UserError") {
+            } else if (error?.data?.name === "betopiaerp.exceptions.UserError") {
                 message = error.data.message;
             }
         } else if (error instanceof ConnectionLostError) {

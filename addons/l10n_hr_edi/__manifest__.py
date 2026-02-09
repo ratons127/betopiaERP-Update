@@ -30,7 +30,7 @@ e-invoicing for Croatia
     ],
     'installable': True,
     'post_init_hook': 'post_init',
-    'website': 'https://www.betopiaerp.com/app/accounting',
-    'author': 'BetopiaERP S.A.',
+    'website': 'https://www.BetopiaERP.com/app/accounting',
+    'author': 'BetopiaERP',
     'license': 'OEEL-1',
 }

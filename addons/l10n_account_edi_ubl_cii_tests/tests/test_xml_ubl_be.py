@@ -160,7 +160,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
                     <attribute name="filename">{invoice.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/bis3_out_invoice.xml',
+            expected_file_path='from_betopiaerp/bis3_out_invoice.xml',
         )
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
@@ -218,7 +218,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
                     <attribute name="filename">{refund.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/bis3_out_refund.xml',
+            expected_file_path='from_betopiaerp/bis3_out_refund.xml',
         )
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)
@@ -274,7 +274,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         })
         self._update_invoice_from_file(
             module_name='l10n_account_edi_ubl_cii_tests',
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='ubl_test_import_partner.xml',
             invoice=invoice)
 
@@ -334,7 +334,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
     def test_import_invoice_xml(self):
         kwargs = {
-            'subfolder': 'tests/test_files/from_BetopiaERP',
+            'subfolder': 'tests/test_files/from_betopiaerp',
             'invoice_vals': {
                 'currency_id': self.other_currency.id,
                 'amount_total': 3164.22,
@@ -406,7 +406,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         invoice = self.env['account.move'].create({'move_type': 'out_invoice'})
         self._update_invoice_from_file(
             'l10n_account_edi_ubl_cii_tests',
-            'tests/test_files/from_BetopiaERP',
+            'tests/test_files/from_betopiaerp',
             'bis3_out_refund.xml',
             invoice,
         )
@@ -417,7 +417,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         See the tests above to create these xml attachments ('test_export_with_fixed_taxes_case_[X]').
         NB: use move_type = 'out_invoice' s.t. we can retrieve the taxes used to create the invoices.
         """
-        subfolder = "tests/test_files/from_BetopiaERP"
+        subfolder = "tests/test_files/from_betopiaerp"
         # The tax 21% from l10n_be is retrieved since it's a duplicate of self.tax_21
         tax_21 = self.env.ref(f'account.{self.env.company.id}_attn_VAT-OUT-21-L')
         self._assert_imported_invoice_from_file(
@@ -490,7 +490,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         # The tax 21% from l10n_be is retrieved since it's a duplicate of self.tax_21
         tax_21 = self.env.ref(f'account.{self.env.company.id}_attn_VAT-OUT-21-L')
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='bis3_pay_term.xml',
             move_type='out_invoice',
             invoice_vals={
@@ -595,7 +595,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
     def test_import_quantity_and_or_unit_price_zero(self):
         """ Tests some special handling cases in which the quantity or unit_price are missing.
         """
-        subfolder = "tests/test_files/from_BetopiaERP"
+        subfolder = "tests/test_files/from_betopiaerp"
         # The tax 21% from l10n_be is retrieved since it's a duplicate of self.tax_21
         tax_21 = self.env.ref(f'account.{self.env.company.id}_attn_VAT-OUT-21-L')
         self._assert_imported_invoice_from_file(

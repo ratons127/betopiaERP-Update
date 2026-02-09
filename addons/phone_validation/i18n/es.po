@@ -6,15 +6,15 @@
 # Martin Trigaux, 2022
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-14 21:12+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Spanish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Spanish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "phone_validation/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "%(error)s Please correct the number and try again."
 msgstr "%(error)s Modifique el número e inténtelo de nuevo."
@@ -54,14 +54,14 @@ msgid "Archived"
 msgstr "Archivado"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Are you sure you want to unblacklist this Phone Number?"
 msgstr ""
 "¿Está seguro de que desea eliminar este número de teléfono de la lista negra?"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr ""
@@ -108,7 +108,7 @@ msgstr ""
 "Los números de teléfono incluidos en la lista negra no recibirán más SMS."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/res_users.py:0
 msgid ""
 "Blocked by deletion of portal account %(portal_user_name)s by %(user_name)s "
@@ -220,19 +220,19 @@ msgstr ""
 "masivo de sms de ninguna lista."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not a valid country prefix."
 msgstr "Número imposible %s: no es un prefijo de país válido."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: not enough digits."
 msgstr "Número imposible %s: no hay suficientes dígitos."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Impossible number %s: too many digits."
 msgstr "Número imposible %s: hay demasiados dígitos."
@@ -251,13 +251,13 @@ msgstr ""
 "móvil y otro de teléfono fijo en un modelo."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Invalid number %s: probably incorrect prefix."
 msgstr "Número no válido %s: prefijo probablemente incorrecto."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Invalid primary phone field on model %s"
 msgstr "Campo de teléfono primario no válido en el modelo %s"
@@ -296,7 +296,7 @@ msgid "Messages"
 msgstr "Mensajes"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Missing definition of phone fields."
 msgstr "Falta la definición de los campos de teléfono."
@@ -375,7 +375,7 @@ msgid "Phone Number"
 msgstr "Número de teléfono"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Please enter at least 3 characters when searching a Phone number."
 msgstr "Introduzca al menos 3 caracteres cuando busque un número de teléfono."
@@ -400,7 +400,7 @@ msgid "Sanitized Number"
 msgstr "Número depurado"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid ""
 "The phone number %s is invalid! Let's fix it - you are not dialing aliens."
@@ -409,7 +409,7 @@ msgstr ""
 "alguien en este planeta."
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/tools/phone_validation.py:0
 msgid "Unable to parse %(phone)s: %(error)s"
 msgstr "No se puede analizar %(phone)s: %(error)s"
@@ -420,7 +420,7 @@ msgid "Unblacklist"
 msgstr "Eliminar de la lista negra"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/wizard/phone_blacklist_remove.py:0
 msgid "Unblock Reason: %(reason)s"
 msgstr "Motivo de desbloqueo: %(reason)s"
@@ -431,7 +431,7 @@ msgid "User"
 msgstr "Usuario"
 
 #. module: phone_validation
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "

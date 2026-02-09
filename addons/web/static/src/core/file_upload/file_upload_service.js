@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "../registry";
 
-import { EventBus, reactive } from "@BetopiaERP/owl";
+import { EventBus, reactive } from "@betopiaerp/owl";
 
 export const fileUploadService = {
     dependencies: ["notification"],
@@ -39,7 +39,7 @@ export const fileUploadService = {
             const xhr = this.createXhr();
             xhr.open("POST", route);
             const formData = new FormData();
-            formData.append("csrf_token", BetopiaERP.csrf_token);
+            formData.append("csrf_token", betopiaerp.csrf_token);
             for (const file of files) {
                 formData.append("ufile", file);
             }

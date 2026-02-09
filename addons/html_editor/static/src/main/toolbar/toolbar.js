@@ -1,4 +1,4 @@
-import { Component, useState, validate } from "@BetopiaERP/owl";
+import { Component, useState, validate } from "@betopiaerp/owl";
 import { omit, pick } from "@web/core/utils/objects";
 
 export class Toolbar extends Component {

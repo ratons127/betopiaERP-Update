@@ -1,4 +1,4 @@
-import { onWillStart, useEffect } from "@BetopiaERP/owl";
+import { onWillStart, useEffect } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { FormControllerWithHTMLExpander } from '@resource/views/form_with_html_expander/form_controller_with_html_expander'
 import { ProjectTemplateDropdown } from "../components/project_template_dropdown";

@@ -3,7 +3,7 @@ import { patch } from "@web/core/utils/patch";
 // To expose the editor instance globally for tour.
 export const editorsWeakMap = new WeakMap();
 
-const editorModule = BetopiaERP.loader.modules.get("@html_editor/editor");
+const editorModule = betopiaerp.loader.modules.get("@html_editor/editor");
 if (editorModule) {
     const { Editor } = editorModule;
     patch(Editor.prototype, {

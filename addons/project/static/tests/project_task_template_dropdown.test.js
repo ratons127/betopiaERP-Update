@@ -1,5 +1,5 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, hover } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, hover } from "@betopiaerp/hoot-dom";
 import { contains, mockService, mountView, onRpc } from "@web/../tests/web_test_helpers";
 
 import { defineProjectModels, ProjectTask } from "./project_models";

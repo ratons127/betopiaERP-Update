@@ -158,7 +158,7 @@ class TestEmployeeSkills(TransactionCase):
         self.assertEqual(new_employee_skill.valid_from, fields.Date.today())
         self.assertEqual(self.line3.valid_to, fields.Date.today() - relativedelta(days=1))
 
-    def test_edit_BetopiaERP_50_stop_date(self):
+    def test_edit_betopiaerp_50_stop_date(self):
         employee_form = Form(self.employee)
         previous_employee_skills = self.employee.employee_skill_ids
         index = self.employee.current_employee_skill_ids.ids.index(self.line1.id)
@@ -208,7 +208,7 @@ class TestEmployeeSkills(TransactionCase):
         self.assertEqual(new_employee_skill.valid_from, fields.Date.today())
         self.assertFalse(new_employee_skill.valid_to)
 
-    def test_edit_arabic_a2_to_BetopiaERP_50_from_1_jan_to_1_june(self):
+    def test_edit_arabic_a2_to_betopiaerp_50_from_1_jan_to_1_june(self):
         employee_form = Form(self.employee)
         previous_employee_skills = self.employee.employee_skill_ids
         index = self.employee.current_employee_skill_ids.ids.index(self.line4.id)
@@ -226,7 +226,7 @@ class TestEmployeeSkills(TransactionCase):
         self.assertEqual(new_employee_skill.valid_from, fields.Date.today() - relativedelta(months=5))
         self.assertEqual(new_employee_skill.valid_to, fields.Date.today() + relativedelta(months=7))
 
-    def test_add_BetopiaERP_50_from_2_mar_to_infinite(self):
+    def test_add_betopiaerp_50_from_2_mar_to_infinite(self):
         employee_form = Form(self.employee)
         previous_employee_skills = self.employee.employee_skill_ids
         with employee_form.current_employee_skill_ids.new() as employee_skill_form:
@@ -347,7 +347,7 @@ class TestEmployeeSkills(TransactionCase):
             "The test employee should have 4 skills since the expired certification is removed"
         )
 
-    def test_add_BetopiaERP_70_from_1_jan_1_mar(self):
+    def test_add_betopiaerp_70_from_1_jan_1_mar(self):
         self.assertEqual(
             len(self.employee.employee_skill_ids.ids),
             5,
@@ -358,8 +358,8 @@ class TestEmployeeSkills(TransactionCase):
             employee_skill_form.skill_type_id = self.certification
             employee_skill_form.skill_id = self.certification.skill_ids[0]
             employee_skill_form.skill_level_id = self.certification.skill_level_ids[2]
-            employee_skill_form.valid_from = datetime.date(2024, 1, 1)  # so same as BetopiaERP 20%
-            employee_skill_form.valid_to = datetime.date(2024, 4, 1)  # so same as BetopiaERP 20%
+            employee_skill_form.valid_from = datetime.date(2024, 1, 1)  # so same as betopiaerp 20%
+            employee_skill_form.valid_to = datetime.date(2024, 4, 1)  # so same as betopiaerp 20%
 
         employee = employee_form.save()
         self.assertEqual(
@@ -368,7 +368,7 @@ class TestEmployeeSkills(TransactionCase):
             "The test employee should have 6 skills",
         )
 
-    def test_add_BetopiaERP_50_from_1_jan_to_infinite(self):
+    def test_add_betopiaerp_50_from_1_jan_to_infinite(self):
         self.assertEqual(
             len(self.employee.employee_skill_ids.ids),
             5,
@@ -378,7 +378,7 @@ class TestEmployeeSkills(TransactionCase):
         with employee_form.current_employee_skill_ids.new() as employee_skill_form:
             employee_skill_form.skill_type_id = self.certification
             employee_skill_form.skill_id = self.certification.skill_ids[0]
-            employee_skill_form.skill_level_id = self.certification.skill_level_ids[1]  # so same as BetopiaERP 50%
+            employee_skill_form.skill_level_id = self.certification.skill_level_ids[1]  # so same as betopiaerp 50%
             employee_skill_form.valid_from = datetime.date(2024, 1, 1)
 
         employee = employee_form.save()

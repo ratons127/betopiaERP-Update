@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 export class AttachmentImageField extends Component {

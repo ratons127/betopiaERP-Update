@@ -13,8 +13,8 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 
-import { advanceTime, describe, expect, test } from "@BetopiaERP/hoot";
-import { tick, waitFor } from "@BetopiaERP/hoot-dom";
+import { advanceTime, describe, expect, test } from "@betopiaerp/hoot";
+import { tick, waitFor } from "@betopiaerp/hoot-dom";
 
 import {
     Command,

@@ -1,8 +1,8 @@
 /** @ts-check */
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 const { toCartesian, toZone, lettersToNumber, deepCopy } = spreadsheet.helpers;
 
@@ -10,7 +10,7 @@ const { toCartesian, toZone, lettersToNumber, deepCopy } = spreadsheet.helpers;
  * @typedef {import("@spreadsheet").GlobalFilter} GlobalFilter
  * @typedef {import("@spreadsheet").CmdGlobalFilter} CmdGlobalFilter
  * @typedef {import("@spreadsheet").BetopiaERPSpreadsheetModel} BetopiaERPSpreadsheetModel
- * @typedef {import("@BetopiaERP/o-spreadsheet").UID} UID
+ * @typedef {import("@betopiaerp/o-spreadsheet").UID} UID
  */
 
 /**

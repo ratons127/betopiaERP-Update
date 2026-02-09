@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/mock_env default=false */
+/** @betopiaerp-module alias=@web/../tests/helpers/mock_env default=false */
 
 import { SERVICES_METADATA } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";
@@ -7,7 +7,7 @@ import { registerCleanup } from "./cleanup";
 import { makeMockServer } from "./mock_server";
 import { mocks } from "./mock_services";
 import { patchWithCleanup } from "./utils";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { startRouter } from "@web/core/browser/router";
 
 function prepareRegistry(registry, keepContent = false) {

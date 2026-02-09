@@ -1,4 +1,4 @@
-import { onWillDestroy } from "@BetopiaERP/owl";
+import { onWillDestroy } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { FileViewer } from "./file_viewer";
 

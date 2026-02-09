@@ -1,5 +1,5 @@
-import { describe, expect } from "@BetopiaERP/hoot";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect } from "@betopiaerp/hoot";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import { browser } from "@web/core/browser/browser";
 import { asyncStep, onRpc, mountWebClient, waitForSteps } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mockGetMedia, onlineTest } from "@mail/../tests/mail_test_helpers";

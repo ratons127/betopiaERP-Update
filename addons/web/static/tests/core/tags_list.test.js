@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAttribute } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAttribute } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { TagsList } from "@web/core/tags_list/tags_list";

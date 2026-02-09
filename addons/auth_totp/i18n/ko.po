@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * auth_totp
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-23 07:38+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/auth_totp/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/auth_totp/"
 "ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "%(browser)s on %(platform)s"
 msgstr "%(platform)s의 %(browser)s"
@@ -32,7 +32,7 @@ msgid "2-Factor Setup Wizard"
 msgstr "2단계 설정 마법사"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "2-Factor authentication is now enabled."
 msgstr "이제 2단계 인증을 사용할 수 있습니다."
@@ -175,7 +175,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "Invalid authentication code format."
 msgstr "잘못된 인증 코드 형식입니다."
@@ -243,7 +243,7 @@ msgid "TOTP rate limit logs"
 msgstr "TOTP 사용 제한 사항"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "The verification code should only contain numbers"
 msgstr "인증 코드는 숫자만 포함될 수 있습니다"
@@ -274,7 +274,7 @@ msgid "Trusted Devices"
 msgstr "신뢰할 수 있는 디바이스"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-Factor Authentication Activation"
 msgstr "2단계 인증 활성화"
@@ -302,19 +302,19 @@ msgid "Two-factor authentication Enabled"
 msgstr "2단계 인증 활성화"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication already enabled"
 msgstr "2단계 인증이 이미 활성화되어 있습니다"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication can only be enabled for yourself"
 msgstr "2단계 인증은 본인만 활성화할 수 있습니다"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication disabled for the following user(s): %s"
 msgstr "다음 사용자에 대해 2단계 인증이 비활성화됨: %s"
@@ -343,14 +343,14 @@ msgid "Verification code"
 msgstr "인증 코드"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "Verification failed, please double-check the 6-digit code"
 msgstr "인증에 실패했습니다. 6자리 코드를 다시 확인하세요."
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Verification failed, please use the latest 6-digit code"
 msgstr "인증에 실패했습니다. 가장 최근에 수신한 6자리 코드를 사용하세요."
@@ -361,7 +361,7 @@ msgid "Write the code given by your app"
 msgstr ""
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of authentication mails sent for your account, please "
@@ -370,7 +370,7 @@ msgstr ""
 "계정에 대한 인증 이메일 최대 전송 수를 초과했습니다. 나중에 다시 시도하세요."
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of code verifications for your account, please try "

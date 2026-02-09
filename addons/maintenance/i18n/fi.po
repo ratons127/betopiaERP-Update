@@ -25,16 +25,16 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2022
 # Martin Trigaux, 2022
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025, 2026.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-01-23 11:28+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "maintenance/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -505,9 +505,9 @@ msgstr "Sähköpostin kopio"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
 msgstr ""
-"Sähköpostin verkkotunnus esim. 'example.com' kohdassa 'BetopiaERP@example.com'"
+"Sähköpostin verkkotunnus esim. 'example.com' kohdassa 'betopiaerp@example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -515,7 +515,7 @@ msgid "End Date"
 msgstr "Päättymispäivä"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "End date cannot be earlier than start date."
 msgstr ""
@@ -1331,7 +1331,7 @@ msgid "Request Done"
 msgstr "Pyyntö valmis"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "Request planned for %s"
 msgstr "Suunniteltu pyyntö %s"
@@ -1536,13 +1536,13 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
 "Sähköpostin aliaksen nimi, esim. 'jobs', jos haluat saada sähköposteja "
-"osoitteeseen <jobs@example.BetopiaERP.com>"
+"osoitteeseen <jobs@example.betopiaerp.com>"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid "The repeat interval cannot be less than 1."
 msgstr "Toistovälin ei voi olla alle 1."
@@ -1667,7 +1667,7 @@ msgid "Years"
 msgstr "Vuotta"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

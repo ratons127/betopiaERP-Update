@@ -1,4 +1,4 @@
-import { toRaw, useComponent, useState } from "@BetopiaERP/owl";
+import { toRaw, useComponent, useState } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { download } from "@web/core/network/download";
@@ -15,7 +15,7 @@ const { DateTime } = luxon;
 
 export const messageActionsRegistry = registry.category("mail.message/actions");
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("@mail/core/common/action").ActionDefinition} ActionDefinition */
 /** @typedef {import("models").Message} Message */
 /** @typedef {import("models").Thread} Thread */

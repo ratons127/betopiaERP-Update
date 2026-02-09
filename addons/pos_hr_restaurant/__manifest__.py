@@ -20,6 +20,6 @@ This module adapts the behavior of the PoS when the pos_hr and pos_restaurant ar
             'pos_hr_restaurant/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

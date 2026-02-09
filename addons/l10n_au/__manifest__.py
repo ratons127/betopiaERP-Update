@@ -2,7 +2,7 @@
 
 {
     'name': 'Australia - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/australia.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/australia.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['au'],
     'version': '1.1',
@@ -44,6 +44,6 @@ Also:
         'demo/demo_company.xml',
         'demo/res_bank.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

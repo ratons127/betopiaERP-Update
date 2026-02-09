@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { AvatarResource } from "@resource_mail/components/avatar_resource/avatar_resource";
 import { registry } from "@web/core/registry";
 import { computeM2OProps, KanbanMany2One } from "@web/views/fields/many2one/many2one";

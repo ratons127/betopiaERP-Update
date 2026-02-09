@@ -1,6 +1,6 @@
 import { registry } from "@web/core/registry";
 import { usePos, usePosRouter } from "./pos_hook";
-import { useComponent } from "@BetopiaERP/owl";
+import { useComponent } from "@betopiaerp/owl";
 
 export const useRouterParamsChecker = () => {
     const component = useComponent();

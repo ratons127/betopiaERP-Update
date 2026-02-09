@@ -130,7 +130,7 @@ class TestL10nHrEdiMerApi(TestL10nHrEdiCommon, TestAccountMoveSendCommon):
             'OutboundFiscalizationStatus': None,
             'ReceiverBusinessNumber': 'BE0477472701',
             'ReceiverBusinessUnit': '',
-            'ReceiverBusinessName': 'BetopiaERP S.A.',
+            'ReceiverBusinessName': 'BetopiaERP',
             'Created': '2025-12-11T13:06:20.3779916',
             'Updated': '2025-12-11T13:08:42.2070931',
             'IssueDate': '2025-12-11T00:00:00',

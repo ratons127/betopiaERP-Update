@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, hover, leave, waitFor } from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { markup } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, hover, leave, waitFor } from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { markup } from "@betopiaerp/owl";
 import { getService, makeMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { registry } from "@web/core/registry";

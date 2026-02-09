@@ -386,7 +386,7 @@ class CrmRevealRule(models.Model):
 
         return lead
 
-    # Methods responsible for format response data in to valid BetopiaERP lead data
+    # Methods responsible for format response data in to valid betopiaerp lead data
     def _lead_vals_from_response(self, result):
         self.ensure_one()
         company_data = result['reveal_data']

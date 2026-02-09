@@ -9,7 +9,7 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test, expect } from "@BetopiaERP/hoot";
+import { describe, test, expect } from "@betopiaerp/hoot";
 
 describe.current.tags("desktop");
 defineMailModels();

@@ -1,7 +1,7 @@
 import { ActionList } from "@mail/core/common/action_list";
 import { useThreadActions } from "@mail/core/common/thread_actions";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 /**
  * @typedef {Object} Props

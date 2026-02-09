@@ -1,7 +1,7 @@
 import { setupHTMLBuilder } from "@html_builder/../tests/helpers";
 import { undo } from "@html_editor/../tests/_helpers/user_actions";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

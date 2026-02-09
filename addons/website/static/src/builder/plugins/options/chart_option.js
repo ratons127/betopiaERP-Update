@@ -1,6 +1,6 @@
 import { BaseOptionComponent, useDomState } from "@html_builder/core/utils";
 import { getCSSVariableValue } from "@html_editor/utils/formatting";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { isCSSColor } from "@web/core/utils/colors";
 

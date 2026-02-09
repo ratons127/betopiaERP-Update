@@ -1,7 +1,7 @@
 import { defineLivechatModels } from "@im_livechat/../tests/livechat_test_helpers";
 import { contains, focus, openDiscuss, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { serializeDate, today } from "@web/core/l10n/dates";
 

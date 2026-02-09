@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <!-- Call this template instead of "web.assets_tests" to have the proper conditional check -->
     <template id="conditional_assets_tests" name="Tests Assets Bundle">
@@ -21,12 +21,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <title t-esc="title or 'BetopiaERP'"/>
         <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
-        <script id="web.layout.BetopiaERPscript" type="text/javascript">
-            var BetopiaERP = {
+        <script id="web.layout.betopiaerpscript" type="text/javascript">
+            var betopiaerp = {
                 csrf_token: "<t t-esc="request.csrf_token(None)"/>",
                 debug: "<t t-esc="debug"/>",
             };
-            var betopiaerp = BetopiaERP;
         </script>
         <t t-out="head or ''"/>
     </head>
@@ -44,9 +43,9 @@
         <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
         <t t-call-assets="web.assets_frontend" t-js="false"/>
       </xpath>
-      <xpath expr="//head/script[@id='web.layout.BetopiaERPscript']" position="after">
+      <xpath expr="//head/script[@id='web.layout.betopiaerpscript']" position="after">
         <script type="text/javascript">
-            BetopiaERP.__session_info__ = <t t-out="json.dumps(request.env['ir.http'].get_frontend_session_info())"/>;
+            betopiaerp.__session_info__ = <t t-out="json.dumps(request.env['ir.http'].get_frontend_session_info())"/>;
             if (!/(^|;\s)tz=/.test(document.cookie)) {
                 const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
                 document.cookie = `tz=${userTZ}; path=/`;
@@ -86,18 +85,18 @@
     </template>
 
     <template id="brand_promotion_message" name="Brand Promotion Message">
-        <t t-set="BetopiaERP_logo">
+        <t t-set="betopiaerp_logo">
             <a target="_blank"
                 t-attf-href="http://www.BetopiaERP.com?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge text-bg-light">
                 <img alt="BetopiaERP"
-                    src="/web/static/img/BetopiaERP_logo_tiny.png"
+                    src="/web/static/img/betopiaerp_logo_tiny.png"
                     width="62" height="20"
                     style="width: auto; height: 1em; vertical-align: baseline;"/>
             </a>
         </t>
         <t t-set="final_message">Powered by %s%s</t>
-        <t t-out="final_message % (BetopiaERP_logo, _message and ('- ' + _message) or '')"/>
+        <t t-out="final_message % (betopiaerp_logo, _message and ('- ' + _message) or '')"/>
     </template>
     <template id="brand_promotion" name="Brand Promotion">
         <div class="o_brand_promotion">
@@ -245,7 +244,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 
                 <script type="text/javascript">
-                    BetopiaERP.__session_info__ = <t t-out="json.dumps(session_info)"/>;
+                    betopiaerp.__session_info__ = <t t-out="json.dumps(session_info)"/>;
                 </script>
 
                 <t t-call-assets="web.assets_unit_tests_setup" />
@@ -260,7 +259,7 @@
             <t t-set="title">Web Tests</t>
             <t t-set="head">
                 <script type="text/javascript">
-                    BetopiaERP.__session_info__ = <t t-out="json.dumps(session_info)"/>;
+                    betopiaerp.__session_info__ = <t t-out="json.dumps(session_info)"/>;
                 </script>
 
                 <t t-call="web.test_helpers"/>
@@ -279,20 +278,20 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
                 <meta name="theme-color" content="#71639e"/>
                 <link rel="manifest" href="/web/manifest.webmanifest" crossorigin="use-credentials"/>
-                <link rel="apple-touch-icon" href="/web/static/img/BetopiaERP-icon-ios.png"/>
+                <link rel="apple-touch-icon" href="/web/static/img/betopiaerp-icon-ios.png"/>
                 <script type="text/javascript">
                     // Block to avoid leaking variables in the script scope
                     {
-                        BetopiaERP.__session_info__ = <t t-out="json.dumps(session_info)"/>;
-                        const { user_context } = BetopiaERP.__session_info__;
+                        betopiaerp.__session_info__ = <t t-out="json.dumps(session_info)"/>;
+                        const { user_context } = betopiaerp.__session_info__;
                         const lang = new URLSearchParams(document.location.search).get("lang");
                         let menuURL = "/web/webclient/load_menus";
                         if (lang) {
                             user_context.lang = lang;
                             menuURL += `&amp;lang=${lang}`;
                         }
-                        BetopiaERP.reloadMenus = () => fetch(menuURL, { cache: "no-store" }).then(res => res.json());
-                        BetopiaERP.loadMenusPromise = BetopiaERP.reloadMenus();
+                        betopiaerp.reloadMenus = () => fetch(menuURL, { cache: "no-store" }).then(res => res.json());
+                        betopiaerp.loadMenusPromise = betopiaerp.reloadMenus();
                     }
                 </script>
                 <t t-call-assets="web.assets_web_print" media="print" t-js="false"/>
@@ -363,7 +362,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </t>
             <div class="card">
-                <img t-attf-src="data:image/png;base64,{{BetopiaERP_icon}}" alt="BetopiaERP logo"/>
+                <img t-attf-src="data:image/png;base64,{{betopiaerp_icon}}" alt="BetopiaERP logo"/>
                 <h1>You are offline</h1>
                 <p>Check your network connection and come back here. BetopiaERP will load as soon as you're back online.</p>
                 <button onclick="location.reload()">Check again</button>
@@ -386,4 +385,4 @@
             <owl-component name="web.install_scoped_app" />
         </t>
     </template>
-</BetopiaERP>
+</betopiaerp>

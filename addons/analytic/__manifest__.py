@@ -43,6 +43,6 @@ that have no counterpart in the general financial accounts.
         ],
     },
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

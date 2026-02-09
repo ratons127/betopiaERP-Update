@@ -1,4 +1,4 @@
-import { animationFrame, expect, test, waitFor } from "@BetopiaERP/hoot";
+import { animationFrame, expect, test, waitFor } from "@betopiaerp/hoot";
 import { contains, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 import { EditWebsiteSystrayItem } from "@website/client_actions/website_preview/edit_website_systray_item";

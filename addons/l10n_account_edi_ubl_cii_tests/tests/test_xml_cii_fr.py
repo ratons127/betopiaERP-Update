@@ -181,7 +181,7 @@ class TestCIIFR(TestUBLCommon):
                         <ram:PaymentReference xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:PaymentReference>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/facturx_out_invoice.xml',
+            expected_file_path='from_betopiaerp/facturx_out_invoice.xml',
         )
         facturx_filename = self.env['account.edi.xml.cii']._export_invoice_filename(invoice)
         self.assertEqual(attachment.name, facturx_filename)
@@ -227,7 +227,7 @@ class TestCIIFR(TestUBLCommon):
                         <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/facturx_out_refund.xml'
+            expected_file_path='from_betopiaerp/facturx_out_refund.xml'
         )
         facturx_filename = self.env['account.edi.xml.cii']._export_invoice_filename(refund)
         self.assertEqual(attachment.name, facturx_filename)
@@ -281,7 +281,7 @@ class TestCIIFR(TestUBLCommon):
                         <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/facturx_out_invoice_tax_incl.xml'
+            expected_file_path='from_betopiaerp/facturx_out_invoice_tax_incl.xml'
         )
 
     def test_encoding_in_attachment_facturx(self):
@@ -310,7 +310,7 @@ class TestCIIFR(TestUBLCommon):
             ],
         )
         self.assertEqual(invoice.amount_total, 121)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_BetopiaERP/facturx_ecotaxes_case1.xml')
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_betopiaerp/facturx_ecotaxes_case1.xml')
 
     def test_export_with_fixed_taxes_case2(self):
         # CASE 2: Same but with several ecotaxes
@@ -328,7 +328,7 @@ class TestCIIFR(TestUBLCommon):
             ],
         )
         self.assertEqual(invoice.amount_total, 121)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_BetopiaERP/facturx_ecotaxes_case2.xml')
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_betopiaerp/facturx_ecotaxes_case2.xml')
 
     def test_export_with_fixed_taxes_case3(self):
         # CASE 3: same as Case 1 but taxes are Price Included
@@ -350,7 +350,7 @@ class TestCIIFR(TestUBLCommon):
             ],
         )
         self.assertEqual(invoice.amount_total, 121)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_BetopiaERP/facturx_ecotaxes_case3.xml')
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_betopiaerp/facturx_ecotaxes_case3.xml')
 
     ####################################################
     # Test import
@@ -394,7 +394,7 @@ class TestCIIFR(TestUBLCommon):
         })
         self._update_invoice_from_file(
             module_name='l10n_account_edi_ubl_cii_tests',
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='facturx_test_import_partner.xml',
             invoice=invoice)
 
@@ -433,7 +433,7 @@ class TestCIIFR(TestUBLCommon):
             ]
         }
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='facturx_out_invoice_tax_incl.xml',
             # Discount of line 3: when exporting the invoice, we compute the price tax excluded = 200/1.05 ~= 190.48
             # then, when computing the discount amount: 190.48 * 0.1 ~= 19.05 => price net amount = 171.43
@@ -488,7 +488,7 @@ class TestCIIFR(TestUBLCommon):
         See the tests above to create these xml attachments ('test_export_with_fixed_taxes_case_[X]').
         NB: use move_type = 'out_invoice' s.t. we can retrieve the taxes used to create the invoices.
         """
-        subfolder = "tests/test_files/from_BetopiaERP"
+        subfolder = "tests/test_files/from_betopiaerp"
         kwargs = {
             'subfolder': subfolder,
             'move_type': 'out_invoice',
@@ -533,4 +533,4 @@ class TestCIIFR(TestUBLCommon):
             ]
         )
 
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_BetopiaERP/facturx_positive_discount_price_unit.xml')
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_betopiaerp/facturx_positive_discount_price_unit.xml')

@@ -17,7 +17,7 @@ import {
     useEffect,
     useState,
     useRef,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import wUtils from "@website/js/utils";
 
 // This replaces \b, because accents(e.g. à, é) are not seen as word boundaries.

@@ -36,7 +36,7 @@ const suggestionServicePatch = {
      * @override
      */
     isSuggestionValid(partner, thread) {
-        if (thread?.model === "discuss.channel" && partner.eq(this.store.BetopiaERPbot)) {
+        if (thread?.model === "discuss.channel" && partner.eq(this.store.betopiaerpbot)) {
             return true;
         }
         return super.isSuggestionValid(...arguments);

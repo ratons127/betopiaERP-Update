@@ -30,6 +30,6 @@ This module allows to manage onboardings and their progress
             'onboarding/static/src/scss/onboarding.variables.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

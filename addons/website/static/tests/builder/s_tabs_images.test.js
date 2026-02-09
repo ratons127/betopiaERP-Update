@@ -1,6 +1,6 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
-import { expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent, queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent, queryOne } from "@betopiaerp/hoot-dom";
 import { defineWebsiteModels, setupWebsiteBuilderWithSnippet } from "./website_helpers";
 
 defineWebsiteModels();

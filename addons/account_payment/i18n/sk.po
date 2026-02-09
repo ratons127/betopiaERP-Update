@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-05 20:43+0000\n"
 "Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
-"Language-Team: Slovak <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Slovak <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_payment/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
@@ -39,7 +39,7 @@ msgstr ""
 "<strong class=\"text-primary\">%(date)s</strong>"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "%s day(s) overdue"
 msgstr "%s dní po splatnosti"
@@ -131,7 +131,7 @@ msgstr ""
 "platobných služieb."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr "Zľava sa uplatní, ak zákazník zaplatí pred %s vrátane."
@@ -145,13 +145,13 @@ msgstr ""
 "Platba za túto faktúru už bola vykonaná, prosím, nezaplaťte ju dvakrát."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 msgstr "Platobná transakcia %s už existuje."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 msgstr "Pre vytvorenie novej platobnej transakcie je potrebný token."
@@ -307,7 +307,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
@@ -337,7 +337,7 @@ msgid "Invoice(s)"
 msgstr "Faktúra(y)"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_transaction__invoice_ids
 msgid "Invoices"
@@ -407,25 +407,25 @@ msgstr ""
 "iba transakcie (namiesto zachytávania sumy), nie sú k dispozícii."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
 msgstr "Možnosť online platby nie je povolená v konfigurácii."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 msgstr "Faktúry po splatnosti by mali patriť tej istej spoločnosti."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 msgstr "Faktúry po splatnosti by mali mať tu istú menu."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 msgstr "Faktúry po splatnosti by mali patriť tému istému partnerovi."
@@ -530,13 +530,13 @@ msgid "Payments"
 msgstr "Platby"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr "Prihláste sa, prosím, aby ste mohli uhradiť svoje nezaplatené faktúry"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid "Provider"
 msgstr "Poskytovateľ"
@@ -548,7 +548,7 @@ msgid "Reference"
 msgstr "Referencia"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__support_refund
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -608,13 +608,13 @@ msgid "Suitable Payment Token"
 msgstr "Vhodné platobné tokeny"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The access token is invalid."
 msgstr "Prístupový token je neplatný."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/wizards/payment_refund_wizard.py:0
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
@@ -626,13 +626,13 @@ msgid "The journal in which the successful transactions are posted."
 msgstr "Denník, do ktorého sa zaznamenávajú úspešné transakcie."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_transaction.py:0
 msgid "The payment related to transaction %(ref)s has been posted: %(link)s"
 msgstr "Platba súvisiaca s transakciou %(ref)s bola zaúčtovaná: %(link)s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 msgstr "Zadané parametre sú neplatné."
@@ -643,13 +643,13 @@ msgid "The source payment of related refund payments"
 msgstr "Zdroj platby súvisiacich refundácií platieb"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "K tejto faktúre sú nevybavené transakcie."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
 msgstr "Nie je potrebné uhradiť žiadnu sumu."
@@ -681,25 +681,25 @@ msgstr ""
 "Vyskytla sa chyba pri spracovaní vašej platby: neplatné ID kreditnej karty."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Túto faktúru nie je možné uhradiť online."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
 msgstr "Táto faktúra už bola zaplatená."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Táto faktúra nie je zaúčtovaná."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 msgstr "Toto nie je vystavená faktúra."
@@ -733,7 +733,7 @@ msgid "Void Transaction"
 msgstr "Neplatná transakcia"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_payment_method_line.py:0
 msgid ""
 "You can't delete a payment method that is linked to a provider in the "
@@ -745,7 +745,7 @@ msgstr ""
 "Prepojení poskytovatelia: %s"
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/payment_provider.py:0
 msgid ""
 "You cannot uninstall this module as payments using this payment method "
@@ -755,7 +755,7 @@ msgstr ""
 "pomocou tejto platobnej metódy."
 
 #. module: account_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_payment/models/account_journal.py:0
 msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
@@ -766,13 +766,13 @@ msgstr ""
 "Prepojení poskytovatelia: %s"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due in %s day(s)"
 msgstr "splatné za %s dní"
 
 #. module: account_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account_payment/static/src/interactions/portal_my_invoices_payment_list.js:0
 msgid "due today"
 msgstr "splatné dnes"

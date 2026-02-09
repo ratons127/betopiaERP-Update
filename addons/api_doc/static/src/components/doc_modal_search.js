@@ -1,4 +1,4 @@
-import { Component, useRef, onMounted, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useRef, onMounted, useExternalListener, useState } from "@betopiaerp/owl";
 import { useDebounced } from "@web/core/utils/timing";
 import { search } from "@api_doc/utils/doc_model_search";
 

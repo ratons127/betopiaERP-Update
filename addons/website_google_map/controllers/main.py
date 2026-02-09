@@ -18,7 +18,7 @@ class GoogleMap(http.Controller):
     - ``partner_ids``: a comma-separated list of ids (partners to be shown)
     - ``partner_url``: the base-url to display the partner
         (eg: if ``partner_url`` is ``/partners/``, when the user will click on
-        a partner on the map, it will be redirected to <myBetopiaERP>.com/partners/<id>)
+        a partner on the map, it will be redirected to <mybetopiaerp>.com/partners/<id>)
 
     In order to resize the map, simply resize the ``iframe`` with CSS
     directives ``width`` and ``height``.

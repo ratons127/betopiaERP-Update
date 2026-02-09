@@ -5,7 +5,7 @@ import { registry } from "@web/core/registry";
 registry.category("web_tour.tours").add("website_livechat.lazy_frontend_bus", {
     url: "/",
     steps: () => {
-        const busService = BetopiaERP.__WOWL_DEBUG__.root.env.services.bus_service;
+        const busService = betopiaerp.__WOWL_DEBUG__.root.env.services.bus_service;
         if (busService.isActive) {
             throw new Error("The bus service should not be started at page load.");
         }
@@ -15,7 +15,7 @@ registry.category("web_tour.tours").add("website_livechat.lazy_frontend_bus", {
                 return super.start(...arguments);
             },
         });
-        const workerService = BetopiaERP.__WOWL_DEBUG__.root.env.services.worker_service;
+        const workerService = betopiaerp.__WOWL_DEBUG__.root.env.services.worker_service;
         if (workerService._state !== WORKER_STATE.UNINITIALIZED) {
             throw new Error("The worker service should not be started at page load.");
         }
@@ -25,7 +25,7 @@ registry.category("web_tour.tours").add("website_livechat.lazy_frontend_bus", {
                 return super.ensureWorkerStarted(...arguments);
             },
         });
-        BetopiaERP.__WOWL_DEBUG__.root.env.services["mail.store"].isReady.then(() =>
+        betopiaerp.__WOWL_DEBUG__.root.env.services["mail.store"].isReady.then(() =>
             document.body.classList.add("o-mail-store-ready")
         );
         return [

@@ -65,9 +65,9 @@ class TestPyLint(TransactionCase):
             '--load-plugins=' + ','.join([
                 "_pylint_path_setup",
                 "pylint.extensions.bad_builtin",
-                "_BetopiaERP_checker_sql_injection",
-                "_BetopiaERP_checker_gettext",
-                "_BetopiaERP_checker_unlink_override",
+                "_betopiaerp_checker_sql_injection",
+                "_betopiaerp_checker_gettext",
+                "_betopiaerp_checker_unlink_override",
             ]),
             '--bad-functions=input',
             '--deprecated-modules=' + ','.join([

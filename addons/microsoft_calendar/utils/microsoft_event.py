@@ -72,23 +72,23 @@ class MicrosoftEvent(abc.Set):
         """
         return tuple(e.iCalUId for e in self)
 
-    def BetopiaERP_id(self, env):
-        return self._BetopiaERP_id
+    def betopiaerp_id(self, env):
+        return self._betopiaerp_id
 
-    def _meta_BetopiaERP_id(self, microsoft_guid):
+    def _meta_betopiaerp_id(self, microsoft_guid):
         """Returns the BetopiaERP id stored in the Microsoft Event metadata.
         This id might not actually exists in the database.
         """
         return None
 
     @property
-    def BetopiaERP_ids(self):
+    def betopiaerp_ids(self):
         """
         Get the list of BetopiaERP event ids already mapped with Outlook events (self)
         """
-        return tuple(e._BetopiaERP_id for e in self if e._BetopiaERP_id)
+        return tuple(e._betopiaerp_id for e in self if e._betopiaerp_id)
 
-    def _load_BetopiaERP_ids_from_db(self, env, force_model=None):
+    def _load_betopiaerp_ids_from_db(self, env, force_model=None):
         """
         Map Microsoft events to existing BetopiaERP events:
         1) extract unmapped events only,
@@ -96,7 +96,7 @@ class MicrosoftEvent(abc.Set):
         3) match remaining events,
         Returns the list of mapped events
         """
-        mapped_events = [e.id for e in self if e._BetopiaERP_id]
+        mapped_events = [e.id for e in self if e._betopiaerp_id]
 
         # avoid mapping events if they are already all mapped
         if len(self) == len(mapped_events):
@@ -106,7 +106,7 @@ class MicrosoftEvent(abc.Set):
 
         # Query events OR recurrences, get organizer_id and universal_id values by splitting microsoft_id.
         model_env = force_model if force_model is not None else self._get_model(env)
-        BetopiaERP_events = model_env.with_context(active_test=False).search([
+        betopiaerp_events = model_env.with_context(active_test=False).search([
             '|',
             ('ms_universal_event_id', "in", unmapped_events.uids),
             ('microsoft_id', "in", unmapped_events.ids)
@@ -114,28 +114,28 @@ class MicrosoftEvent(abc.Set):
 
         # 1. try to match unmapped events with BetopiaERP events using their iCalUId
         unmapped_events_with_uids = unmapped_events.filter(lambda e: e.iCalUId)
-        BetopiaERP_events_with_uids = BetopiaERP_events.filtered(lambda e: e.ms_universal_event_id)
-        mapping = {e.ms_universal_event_id: e.id for e in BetopiaERP_events_with_uids}
+        betopiaerp_events_with_uids = betopiaerp_events.filtered(lambda e: e.ms_universal_event_id)
+        mapping = {e.ms_universal_event_id: e.id for e in betopiaerp_events_with_uids}
 
         for ms_event in unmapped_events_with_uids:
-            BetopiaERP_id = mapping.get(ms_event.iCalUId)
-            if BetopiaERP_id:
-                ms_event._events[ms_event.id]['_BetopiaERP_id'] = BetopiaERP_id
+            betopiaerp_id = mapping.get(ms_event.iCalUId)
+            if betopiaerp_id:
+                ms_event._events[ms_event.id]['_betopiaerp_id'] = betopiaerp_id
                 mapped_events.append(ms_event.id)
 
         # 2. try to match unmapped events with BetopiaERP events using their id
         unmapped_events = self.filter(lambda e: e.id not in mapped_events)
-        mapping = {e.microsoft_id: e for e in BetopiaERP_events}
+        mapping = {e.microsoft_id: e for e in betopiaerp_events}
 
         for ms_event in unmapped_events:
-            BetopiaERP_event = mapping.get(ms_event.id)
-            if BetopiaERP_event:
-                ms_event._events[ms_event.id]['_BetopiaERP_id'] = BetopiaERP_event.id
+            betopiaerp_event = mapping.get(ms_event.id)
+            if betopiaerp_event:
+                ms_event._events[ms_event.id]['_betopiaerp_id'] = betopiaerp_event.id
                 mapped_events.append(ms_event.id)
 
                 # don't forget to also set the global event ID on the BetopiaERP event to ease
                 # and improve reliability of future mappings
-                BetopiaERP_event.write({
+                betopiaerp_event.write({
                     'microsoft_id': ms_event.id,
                     'ms_universal_event_id': ms_event.iCalUId,
                     'need_sync_m': False,
@@ -244,7 +244,7 @@ class MicrosoftEvent(abc.Set):
     def cancelled(self):
         return self.filter(lambda e: e.is_cancelled())
 
-    def match_with_BetopiaERP_events(self, env) -> 'MicrosoftEvent':
+    def match_with_betopiaerp_events(self, env) -> 'MicrosoftEvent':
         """
         Match Outlook events (self) with existing BetopiaERP events, and return the list of matched events
         """
@@ -252,11 +252,11 @@ class MicrosoftEvent(abc.Set):
         # Note that when a recurrence is removed, there is no field in Outlook data to identify
         # the item as a recurrence, so select all deleted items by default.
         recurrence_candidates = self.filter(lambda x: x.is_recurrence() or x.is_removed())
-        mapped_recurrences = recurrence_candidates._load_BetopiaERP_ids_from_db(env, force_model=env["calendar.recurrence"])
+        mapped_recurrences = recurrence_candidates._load_betopiaerp_ids_from_db(env, force_model=env["calendar.recurrence"])
 
         # then, try to match events
         events_candidates = (self - mapped_recurrences).filter(lambda x: not x.is_recurrence())
-        mapped_events = events_candidates._load_BetopiaERP_ids_from_db(env)
+        mapped_events = events_candidates._load_betopiaerp_ids_from_db(env)
 
         return mapped_recurrences | mapped_events
 

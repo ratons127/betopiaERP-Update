@@ -32,7 +32,7 @@ class TestHttpMisc(TestHttpBase):
         self.assertIn(res.status_code, awaited_codes)
 
     def test_misc1_reverse_proxy(self):
-        # client <-> reverse-proxy <-> BetopiaERP
+        # client <-> reverse-proxy <-> betopiaerp
         client_ip = '127.0.0.16'
         reverseproxy_ip = gethostbyname(HOST)
         host = 'mycompany.betopiaerp.com'

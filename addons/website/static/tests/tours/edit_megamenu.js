@@ -85,7 +85,7 @@ registerWebsitePreviewTour(
         toggleMegaMenu({}),
         {
             content: "Select the last menu link of the first column",
-            trigger: ":iframe .s_mega_menu_BetopiaERP_menu .row > div:first-child .nav > :nth-child(6)", // 6th is the last one
+            trigger: ":iframe .s_mega_menu_betopiaerp_menu .row > div:first-child .nav > :nth-child(6)", // 6th is the last one
             run: "click",
         },
         {
@@ -96,7 +96,7 @@ registerWebsitePreviewTour(
         {
             content: "Check that the last menu link was deleted",
             trigger:
-                ":iframe .s_mega_menu_BetopiaERP_menu .row > div:first-child .nav:not(:has(:nth-child(6)))",
+                ":iframe .s_mega_menu_betopiaerp_menu .row > div:first-child .nav:not(:has(:nth-child(6)))",
         },
         {
             content: "Click on the first title item.",
@@ -182,7 +182,7 @@ registerWebsitePreviewTour(
         },
         clickOnExtraMenuItem({}, true),
         toggleMegaMenu({}),
-        ...openLinkPopup(":iframe .s_mega_menu_BetopiaERP_menu .nav-link:contains('Laptops')", "Laptops"),
+        ...openLinkPopup(":iframe .s_mega_menu_betopiaerp_menu .nav-link:contains('Laptops')", "Laptops"),
         {
             content: "Click on 'Edit Link'",
             trigger: ".o-we-linkpopover a.o_we_edit_link",
@@ -198,7 +198,7 @@ registerWebsitePreviewTour(
         toggleMegaMenu(),
         {
             content: "Click on the first menu link of the first column",
-            trigger: ":iframe .s_mega_menu_BetopiaERP_menu .row > div:first-child .nav > :nth-child(1)",
+            trigger: ":iframe .s_mega_menu_betopiaerp_menu .row > div:first-child .nav > :nth-child(1)",
             run: "click",
         },
         {
@@ -260,7 +260,7 @@ registerWebsitePreviewTour(
         toggleMegaMenu({}),
         {
             content: "Select the first menu link of the first column",
-            trigger: ":iframe .s_mega_menu_BetopiaERP_menu .row > div:first-child .nav > :first-child",
+            trigger: ":iframe .s_mega_menu_betopiaerp_menu .row > div:first-child .nav > :first-child",
             run: "click",
         },
         // Change MegaMenu template

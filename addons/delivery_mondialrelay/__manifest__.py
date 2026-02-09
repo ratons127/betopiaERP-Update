@@ -24,6 +24,6 @@ Delivery price pre-configured is an example, you need to adapt the pricing's rul
             'delivery_mondialrelay/static/src/scss/mondialrelay.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

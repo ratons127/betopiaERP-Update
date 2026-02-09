@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { exprToBoolean } from "@web/core/utils/strings";
 import { standardFieldProps } from "../standard_field_props";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 const formatters = registry.category("formatters");
 
 export class StatInfoField extends Component {

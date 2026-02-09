@@ -9,7 +9,7 @@ const unread_store = (() => {
     if (!window.idbKeyval) {
         return undefined;
     }
-    return new window.idbKeyval.Store("BetopiaERP-mail-unread-db", "BetopiaERP-mail-unread-store");
+    return new window.idbKeyval.Store("betopiaerp-mail-unread-db", "betopiaerp-mail-unread-store");
 })();
 
 /** @type {import("models").Store} */

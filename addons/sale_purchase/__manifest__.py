@@ -9,7 +9,7 @@ Allows the outsourcing of services. This module allows one to sell services prov
 by external providers and will automatically generate purchase orders directed to the service seller.
     """,
     'version': '1.0',
-    'website': 'https://www.betopiaerp.com/',
+    'website': 'https://www.BetopiaERP.com/',
     'category': 'Sales/Sales',
     'depends': [
         'sale',
@@ -22,6 +22,6 @@ by external providers and will automatically generate purchase orders directed t
         'views/purchase_order_views.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

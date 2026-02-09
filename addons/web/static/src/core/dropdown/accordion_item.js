@@ -1,4 +1,4 @@
-import { Component, onPatched, useState } from "@BetopiaERP/owl";
+import { Component, onPatched, useState } from "@betopiaerp/owl";
 
 export const ACCORDION = Symbol("Accordion");
 export class AccordionItem extends Component {

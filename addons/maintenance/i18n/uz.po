@@ -565,8 +565,8 @@ msgstr "Elektron pochta nusxasi"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
 #, fuzzy
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Elektron pochta domeni, masalan: 'BetopiaERP@example.com' da 'example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Elektron pochta domeni, masalan: 'betopiaerp@example.com' da 'example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
@@ -575,7 +575,7 @@ msgid "End Date"
 msgstr "Tugash sanasi"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 #, fuzzy
 msgid "End date cannot be earlier than start date."
@@ -1522,7 +1522,7 @@ msgid "Request Done"
 msgstr "So‘rov bajarildi"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 #, fuzzy
 msgid "Request planned for %s"
@@ -1757,13 +1757,13 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"Elektron pochta taxallusining nomi, masalan, <jobs@example.BetopiaERP.com> uchun "
+"Elektron pochta taxallusining nomi, masalan, <jobs@example.betopiaerp.com> uchun "
 "xatlarni qabul qilishni istasangiz, \"jobs\""
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 #, fuzzy
 msgid "The repeat interval cannot be less than 1."
@@ -1909,7 +1909,7 @@ msgid "Years"
 msgstr "Yillar"
 
 #. module: maintenance
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/maintenance/models/maintenance.py:0
 msgid ""
 "You can’t delete an equipment category if some equipment or maintenance "

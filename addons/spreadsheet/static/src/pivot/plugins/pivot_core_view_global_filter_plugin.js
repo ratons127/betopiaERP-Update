@@ -4,8 +4,8 @@ import { BetopiaERPCoreViewPlugin } from "@spreadsheet/plugins";
 
 /**
  * @typedef {import("@spreadsheet").FieldMatching} FieldMatching
- * @typedef {import("@BetopiaERP/o-spreadsheet").Token} Token
- * @typedef {import("@BetopiaERP/o-spreadsheet").PivotDomain} PivotDomain
+ * @typedef {import("@betopiaerp/o-spreadsheet").Token} Token
+ * @typedef {import("@betopiaerp/o-spreadsheet").PivotDomain} PivotDomain
  */
 
 /**
@@ -94,7 +94,7 @@ export class PivotCoreViewGlobalFilterPlugin extends BetopiaERPCoreViewPlugin {
                 this._addDomains();
                 break;
             case "UPDATE_PIVOT":
-            case "UPDATE_BetopiaERP_PIVOT_DOMAIN":
+            case "UPDATE_BETOPIAERP_PIVOT_DOMAIN":
                 this._addDomain(cmd.pivotId);
                 break;
             case "DUPLICATE_PIVOT":
@@ -108,7 +108,7 @@ export class PivotCoreViewGlobalFilterPlugin extends BetopiaERPCoreViewPlugin {
                             "ADD_GLOBAL_FILTER",
                             "EDIT_GLOBAL_FILTER",
                             "REMOVE_GLOBAL_FILTER",
-                            "UPDATE_BetopiaERP_PIVOT_DOMAIN",
+                            "UPDATE_BETOPIAERP_PIVOT_DOMAIN",
                             "UPDATE_PIVOT",
                         ].includes(command.type)
                     )
@@ -150,7 +150,7 @@ export class PivotCoreViewGlobalFilterPlugin extends BetopiaERPCoreViewPlugin {
         for (const filter of filters) {
             const dataSource = this.getters.getPivot(pivotId);
             const { type } = this.getters.getPivotCoreDefinition(pivotId);
-            if (type !== "BetopiaERP") {
+            if (type !== "BETOPIAERP") {
                 continue;
             }
             const { field, granularity: time } = dataSource.parseGroupField(lastNode.field);
@@ -220,7 +220,7 @@ export class PivotCoreViewGlobalFilterPlugin extends BetopiaERPCoreViewPlugin {
      * @param {string} pivotId pivot id
      */
     _addDomain(pivotId) {
-        if (this.getters.getPivotCoreDefinition(pivotId).type !== "BetopiaERP") {
+        if (this.getters.getPivotCoreDefinition(pivotId).type !== "BETOPIAERP") {
             return;
         }
         const domainList = [];
@@ -242,7 +242,7 @@ export class PivotCoreViewGlobalFilterPlugin extends BetopiaERPCoreViewPlugin {
     _addDomains() {
         for (const pivotId of this.getters
             .getPivotIds()
-            .filter((pivotId) => this.getters.getPivot(pivotId).type === "BetopiaERP")) {
+            .filter((pivotId) => this.getters.getPivot(pivotId).type === "BETOPIAERP")) {
             this._addDomain(pivotId);
         }
     }

@@ -1,4 +1,4 @@
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 import { useDebounced } from "@web/core/utils/timing";
 import { KanbanRecord } from "@web/views/kanban/kanban_record";

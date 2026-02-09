@@ -2,17 +2,17 @@
 # This file contains the translation of the following modules:
 # * payment_razorpay
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-12-31 11:36+0000\n"
-"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@BetopiaERP.com>\n"
-"Language-Team: Spanish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@betopiaerp.com>\n"
+"Language-Team: Spanish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_razorpay/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgid "An error occurred"
 msgstr "Ocurrió un error"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
@@ -66,7 +66,7 @@ msgid "Connect"
 msgstr "Conectar"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/controllers/onboarding.py:0
 msgid "Could not find Razorpay provider with id %s"
 msgstr "No se ha podido encontrar el proveedor de Razorpay con el ID %s"
@@ -106,7 +106,7 @@ msgid "Key Secret"
 msgstr "Secreto de la clave"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid "Other Payment Providers"
 msgstr "Otros proveedores de pago"
@@ -127,7 +127,7 @@ msgid "Payment Transaction"
 msgstr "Transacción de pago"
 
 #. module: payment_razorpay
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_razorpay/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Error al procesar el pago"
@@ -178,7 +178,7 @@ msgid "Razorpay Webhook Secret"
 msgstr "Secreto de webhook de Razorpay"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid ""
 "Razorpay credentials are missing. Click the \"Connect\" button to set up "
@@ -188,7 +188,7 @@ msgstr ""
 "configurar su cuenta."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid ""
 "Razorpay is not available in your country; please use another payment "
@@ -196,25 +196,25 @@ msgid ""
 msgstr "Razorpay no está disponible en su país, use otro proveedor de pago."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with invalid status: %s"
 msgstr "Datos recibidos con estado no válido: %s"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing entity id."
 msgstr "Datos recibidos sin el ID de entidad."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received data with missing status."
 msgstr "Datos recibidos sin estado."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Received incomplete refund data."
 msgstr "Se recibió información incompleta sobre los reembolsos."
@@ -230,13 +230,13 @@ msgid "The key solely used to identify the account with Razorpay."
 msgstr "La clave que se utiliza solo para identificar la cuenta con Razorpay."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is invalid."
 msgstr "El número de teléfono no es válido."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "The phone number is missing."
 msgstr "Falta el número de teléfono."
@@ -252,7 +252,7 @@ msgid "This provider is linked with your Razorpay account."
 msgstr "Este proveedor está vinculado a su cuenta de Razorpay."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid "Transactions processed by Razorpay can't be manually voided from BetopiaERP."
 msgstr ""
@@ -279,7 +279,7 @@ msgstr ""
 "                    OAuth."
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_token.py:0
 msgid ""
 "You can not pay amounts greater than %(currency_symbol)s %(max_amount)s with "
@@ -289,13 +289,13 @@ msgstr ""
 "este método de pago"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_provider.py:0
 msgid "Your Razorpay webhook was successfully set up!"
 msgstr "¡Se configuró con éxito su webhook de Razorpay!"
 
 #. module: payment_razorpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_razorpay/models/payment_transaction.py:0
 msgid ""
 "Your last payment %s will soon be processed. Please wait up to 24 hours "

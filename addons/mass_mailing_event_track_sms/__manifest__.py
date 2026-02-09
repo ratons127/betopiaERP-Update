@@ -20,6 +20,6 @@ speakers..
         'website_event_track'
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

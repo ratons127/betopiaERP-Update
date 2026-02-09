@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     contains,
@@ -15,7 +15,7 @@ import {
     onRpc,
     waitForSteps,
 } from "@web/../tests/web_test_helpers";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { queryAll } from "@betopiaerp/hoot-dom";
 import { ResPartner } from "../../mock_server/mock_models/res_partner";
 
 defineMailModels();

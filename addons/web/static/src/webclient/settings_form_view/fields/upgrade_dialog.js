@@ -1,7 +1,7 @@
 import { Dialog } from "@web/core/dialog/dialog";
 import { useService } from "@web/core/utils/hooks";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class UpgradeDialog extends Component {
     static template = "web.UpgradeDialog";
@@ -17,7 +17,7 @@ export class UpgradeDialog extends Component {
             [["share", "=", false]],
         ]);
         window.open(
-            "https://www.BetopiaERP.com/BetopiaERP-enterprise/upgrade?num_users=" + usersCount,
+            "https://www.BetopiaERP.com/betopiaerp-enterprise/upgrade?num_users=" + usersCount,
             "_blank"
         );
         this.props.close();

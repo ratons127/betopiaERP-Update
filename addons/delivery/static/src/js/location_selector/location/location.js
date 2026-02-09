@@ -1,7 +1,7 @@
 import {
     LocationSchedule
 } from '@delivery/js/location_selector/location_schedule/location_schedule';
-import { Component } from '@BetopiaERP/owl';
+import { Component } from '@betopiaerp/owl';
 import { _t } from '@web/core/l10n/translation';
 
 export class Location extends Component {

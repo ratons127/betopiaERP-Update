@@ -1,7 +1,7 @@
 import { defineTestMailModels } from "@test_mail/../tests/test_mail_test_helpers";
-import { beforeEach, describe, test, expect } from "@BetopiaERP/hoot";
-import { queryOne, waitUntil } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, test, expect } from "@betopiaerp/hoot";
+import { queryOne, waitUntil } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     click,
     contains,
@@ -176,7 +176,7 @@ test("Chatter main attachment: can change from non-viewable to viewable", async 
 });
 
 test.skip("Attachment view / chatter popout across multiple records test", async () => {
-    // skip because test has race conditions: https://runbot.BetopiaERP.com/BetopiaERP/runbot.build.error/109795
+    // skip because test has race conditions: https://runbot.betopiaerp.com/betopiaerp/runbot.build.error/109795
     const pyEnv = await startServer();
     const recordIds = pyEnv["mail.test.simple.main.attachment"].create([
         {

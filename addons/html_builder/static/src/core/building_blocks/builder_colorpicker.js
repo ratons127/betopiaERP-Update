@@ -1,5 +1,5 @@
 import { ColorSelector } from "@html_editor/main/font/color_selector";
-import { Component, useComponent, useRef } from "@BetopiaERP/owl";
+import { Component, useComponent, useRef } from "@betopiaerp/owl";
 import {
     useColorPicker,
     DEFAULT_COLORS,

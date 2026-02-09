@@ -11,7 +11,7 @@ This is the latest Indonesian BetopiaERP localisation necessary to run BetopiaER
     - generic Indonesian chart of accounts
     - tax structure""",
     'author': 'vitraining.com',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/indonesia.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/indonesia.html',
     'depends': [
         'account',
         'base_iban',

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { toolbarButtonProps } from "../toolbar/toolbar";
 import { closestElement } from "@html_editor/utils/dom_traversal";

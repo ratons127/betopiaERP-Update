@@ -19,7 +19,7 @@ on form submission provided by the `payment` module.
 ## Module history
 
 - `16.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#95860
+  - The first version of the module is merged. betopiaerp/betopiaerp#95860
 
 ## Testing instructions
 

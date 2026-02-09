@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 
 registry.category("web_tour.tours").add('test_website_page_manager', {
-    url: '/BetopiaERP/action-test_website.action_test_model_multi_website',
+    url: '/betopiaerp/action-test_website.action_test_model_multi_website',
     steps: () => [
 // Part 1: check that the website filter is working
 {
@@ -61,7 +61,7 @@ registry.category("web_tour.tours").add('test_website_page_manager', {
 });
 
 registry.category("web_tour.tours").add('test_website_page_manager_js_class_bug', {
-    url: '/BetopiaERP/action-test_website.action_test_model_multi_website_js_class_bug',
+    url: '/betopiaerp/action-test_website.action_test_model_multi_website_js_class_bug',
     steps: () => [
 {
     content: "Click on Kanban View",
@@ -74,7 +74,7 @@ registry.category("web_tour.tours").add('test_website_page_manager_js_class_bug'
 });
 
 registry.category("web_tour.tours").add('test_website_page_manager_no_website_id', {
-    url: '/BetopiaERP/action-test_website.action_test_model',
+    url: '/betopiaerp/action-test_website.action_test_model',
     steps: () => [
 {
     content: "Click on Kanban View",

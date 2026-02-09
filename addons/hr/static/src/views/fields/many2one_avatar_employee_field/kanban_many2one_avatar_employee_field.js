@@ -1,5 +1,5 @@
 import { AvatarEmployee } from "@hr/components/avatar_employee/avatar_employee";
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { user } from "@web/core/user";

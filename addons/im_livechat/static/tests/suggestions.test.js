@@ -1,4 +1,4 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import {
     click,
     contains,

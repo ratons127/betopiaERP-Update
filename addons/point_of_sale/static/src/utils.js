@@ -23,7 +23,7 @@ export function uuidv4() {
  * @returns {string}
  */
 export function deduceUrl(url) {
-    const protocol = BetopiaERP.use_lna ? "http:" : window.location.protocol;
+    const protocol = betopiaerp.use_lna ? "http:" : window.location.protocol;
     if (!url.includes("//")) {
         url = `${protocol}//${url}`;
     }

@@ -12,7 +12,7 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 
-import { describe, edit, expect, mockDate, press, test } from "@BetopiaERP/hoot";
+import { describe, edit, expect, mockDate, press, test } from "@betopiaerp/hoot";
 
 import { Command } from "@web/../tests/web_test_helpers";
 

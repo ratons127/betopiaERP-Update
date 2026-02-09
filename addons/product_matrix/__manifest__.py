@@ -25,6 +25,6 @@ Please refer to Sale Matrix or Purchase Matrix for the use of this module.
             'product_matrix/static/src/xml/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

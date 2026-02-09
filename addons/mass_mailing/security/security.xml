@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record id="properties_base_definition_rule_mailing_user" model="ir.rule">
             <field name="name">properties.base.definition: mailing user</field>
@@ -8,4 +8,4 @@
             <field name="domain_force">[('properties_field_id', '=', user.env.ref('mass_mailing.field_mailing_contact__properties').id)]</field>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

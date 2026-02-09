@@ -8,7 +8,7 @@
     'description': """
     Chart Of Account and Taxes for Cambodia.
     """,
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account_qr_code_emv',
         'l10n_account_withholding_tax',
@@ -21,6 +21,6 @@
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

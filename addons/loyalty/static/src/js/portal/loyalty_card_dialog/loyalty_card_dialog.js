@@ -1,4 +1,4 @@
-import { Component } from '@BetopiaERP/owl';
+import { Component } from '@betopiaerp/owl';
 import { Dialog } from '@web/core/dialog/dialog';
 
 export class PortalLoyaltyCardDialog extends Component {
@@ -7,6 +7,6 @@ export class PortalLoyaltyCardDialog extends Component {
     static props = ['*'];
 
     setup() {
-        this.csrf_token = BetopiaERP.csrf_token;
+        this.csrf_token = betopiaerp.csrf_token;
     }
 }

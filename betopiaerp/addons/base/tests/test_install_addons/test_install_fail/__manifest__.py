@@ -8,6 +8,6 @@
         'views/res_currency_views.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

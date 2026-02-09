@@ -1,4 +1,4 @@
-import { animationFrame, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@BetopiaERP/hoot";
+import { animationFrame, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@betopiaerp/hoot";
 import { getDropdownMenu } from "./component_test_helpers";
 import { contains } from "./dom_test_helpers";
 import { buildSelector } from "./view_test_helpers";

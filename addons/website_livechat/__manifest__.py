@@ -59,6 +59,6 @@
             'website_livechat/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

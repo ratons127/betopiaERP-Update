@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     Deferred,
     animationFrame,
@@ -14,8 +14,8 @@ import {
     queryOne,
     queryRect,
     runAllTimers,
-} from "@BetopiaERP/hoot-dom";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Component, useState, xml } from "@betopiaerp/owl";
 
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { AutoComplete } from "@web/core/autocomplete/autocomplete";
@@ -25,7 +25,7 @@ import { AutoComplete } from "@web/core/autocomplete/autocomplete";
  * This is to make sure an element is actually visible, not just "within
  * viewport boundaries" but below or above a parent's scroll point.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} target
+ * @param {import("@betopiaerp/hoot-dom").Target} target
  * @returns {boolean}
  */
 function isInViewWithinScrollableY(target) {

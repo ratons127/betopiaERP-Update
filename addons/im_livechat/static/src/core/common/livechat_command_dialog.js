@@ -1,6 +1,6 @@
 import { ActionPanel } from "@mail/discuss/core/common/action_panel";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";

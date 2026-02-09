@@ -1,4 +1,4 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { applyInheritance } from "@web/core/template_inheritance";
 import { patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 

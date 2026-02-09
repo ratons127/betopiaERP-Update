@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
-import { Component, markup } from "@BetopiaERP/owl";
+import { Component, markup } from "@betopiaerp/owl";
 
 export class ForecastedButtons extends Component {
     static template = "stock.ForecastedButtons";

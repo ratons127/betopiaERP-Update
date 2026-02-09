@@ -11,7 +11,7 @@ import {
     watchAddedNodes,
     watchKeys,
     watchListeners,
-} from "@BetopiaERP/hoot";
+} from "@betopiaerp/hoot";
 
 import { mockBrowserFactory } from "./mock_browser.hoot";
 import { mockCurrencyFactory } from "./mock_currency.hoot";
@@ -33,7 +33,7 @@ import { mockUserFactory } from "./mock_user.hoot";
  */
 
 const { fetch: realFetch } = globals;
-const { define, loader } = BetopiaERP;
+const { define, loader } = betopiaerp;
 
 //-----------------------------------------------------------------------------
 // Internal
@@ -386,8 +386,8 @@ class ModuleSetLoader extends loader.constructor {
         this.modules = new Map(loader.modules);
         this.moduleSet = moduleSet;
 
-        BetopiaERP.define = this.define.bind(this);
-        BetopiaERP.loader = this;
+        betopiaerp.define = this.define.bind(this);
+        betopiaerp.loader = this;
     }
 
     /**
@@ -413,8 +413,8 @@ class ModuleSetLoader extends loader.constructor {
         // (like mutation records).
         await delay();
 
-        BetopiaERP.define = define;
-        BetopiaERP.loader = loader;
+        betopiaerp.define = define;
+        betopiaerp.loader = loader;
 
         while (this.cleanups.length) {
             this.cleanups.pop()();
@@ -440,7 +440,7 @@ class ModuleSetLoader extends loader.constructor {
 
     setup() {
         this.cleanups.push(
-            watchKeys(window.BetopiaERP),
+            watchKeys(window.betopiaerp),
             watchKeys(window, ALLOWED_GLOBAL_KEYS),
             watchListeners(window),
             watchAddedNodes(window)
@@ -488,7 +488,7 @@ const ALLOWED_GLOBAL_KEYS = [
     "L", // Leaflet
     "lamejs", // LameJS
     "luxon", // Luxon
-    "BetopiaERP", // BetopiaERP global object
+    "betopiaerp", // BetopiaERP global object
     "owl", // Owl
     "pdfjsLib", // PDF JS
     "Popper", // Popper
@@ -499,16 +499,16 @@ const ALLOWED_GLOBAL_KEYS = [
 ];
 const AUTO_INCLUDED_ADDONS = {
     /**
-     * spreadsheet addons defines a module that does not starts with `@spreadsheet` but `@BetopiaERP` (`@BetopiaERP/o-spreadsheet)
-     * To ensure that this module is loaded, we have to include `BetopiaERP` in the dependencies
+     * spreadsheet addons defines a module that does not starts with `@spreadsheet` but `@betopiaerp` (`@betopiaerp/o-spreadsheet)
+     * To ensure that this module is loaded, we have to include `betopiaerp` in the dependencies
      */
-    spreadsheet: ["BetopiaERP"],
+    spreadsheet: ["betopiaerp"],
     /**
      * Add all view types by default
      */
     web_enterprise: ["web_gantt", "web_grid", "web_map"],
 };
-const CSRF_TOKEN = BetopiaERP.csrf_token;
+const CSRF_TOKEN = betopiaerp.csrf_token;
 const DEFAULT_ADDONS = ["base", "web"];
 const MODULE_MOCKS_BY_NAME = new Map([
     // Fixed modules
@@ -525,7 +525,7 @@ const MODULE_MOCKS_BY_REGEX = new Map([
     // Fixed modules
     [/\.bundle\.xml$/, makeFixedFactory],
 ]);
-const R_DEFAULT_MODULE = /^@BetopiaERP\/(owl|hoot)/;
+const R_DEFAULT_MODULE = /^@betopiaerp\/(owl|hoot)/;
 const R_PATH_ADDON = /^[@/]?(\w+)/;
 const TEMPLATE_MODULE_NAME = "@web/core/templates";
 

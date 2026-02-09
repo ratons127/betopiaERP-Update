@@ -13,7 +13,7 @@ class IrAttachment(models.Model):
         """ Garbage collect the outdated /doc/index.json attachments. """
         sequence = str(self.env.registry.get_sequences(self.env.cr)[0])
         attachments = self.search_fetch(
-            [('name', 'like', R'BetopiaERP-doc-index-%-%.json')],
+            [('name', 'like', R'betopiaerp-doc-index-%-%.json')],
             ['name'],
         ).filtered(
             lambda doc: doc.name.split('-')[3] != sequence,

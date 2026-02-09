@@ -14,7 +14,7 @@
 
   global$1 = global$1 && global$1.hasOwnProperty('default') ? global$1['default'] : global$1;
 
-  const debug = BetopiaERP.debug;
+  const debug = betopiaerp.debug;
 
   var window$1 = global$1.window;
   var self$1 = global$1.self;

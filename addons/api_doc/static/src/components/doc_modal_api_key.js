@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useRef } from "@betopiaerp/owl";
 
 export class ApiKeyModal extends Component {
     static template = "web.DocApiKeyModal";
@@ -32,6 +32,6 @@ export class ApiKeyModal extends Component {
     }
 
     async openAPIKeyForm() {
-        window.open(`${window.location.origin}/BetopiaERP/action-doc_api_key_wizard`, "_blank");
+        window.open(`${window.location.origin}/betopiaerp/action-doc_api_key_wizard`, "_blank");
     }
 }

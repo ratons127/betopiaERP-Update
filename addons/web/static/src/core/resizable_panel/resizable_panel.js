@@ -7,7 +7,7 @@ import {
     useExternalListener,
     useRef,
     useComponent,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 function useResizable({
     containerRef,

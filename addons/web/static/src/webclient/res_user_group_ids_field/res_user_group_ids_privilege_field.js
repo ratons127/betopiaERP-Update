@@ -5,7 +5,7 @@ import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 import { ResUserGroupIdsPopover } from "./res_user_group_ids_popover";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { usePopover } from "@web/core/popover/popover_hook";
 
 /**
@@ -19,7 +19,7 @@ class ResUserGroupIdsPrivilegeField extends Component {
     static props = { ...standardFieldProps };
 
     setup() {
-        this.isDebug = BetopiaERP.debug;
+        this.isDebug = betopiaerp.debug;
         this.popover = usePopover(ResUserGroupIdsPopover);
         this.groups = this.env.resUserGroupsInfo.groups;
     }

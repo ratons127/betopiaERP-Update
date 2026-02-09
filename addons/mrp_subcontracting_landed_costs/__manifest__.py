@@ -15,6 +15,6 @@ by also displaying the associated picking reference in the search view.
         'views/stock_landed_cost_views.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("website.multirange_input");
 

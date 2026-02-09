@@ -55,7 +55,7 @@ export class CollaborationSelectionAvatarPlugin extends Plugin {
     }
 
     /**
-     * @param {import("./collaboration_BetopiaERP_plugin").CollaborationSelection} selection
+     * @param {import("./collaboration_betopiaerp_plugin").CollaborationSelection} selection
      */
     updateSelection(selection) {
         /** @type {SelectionInfo} */

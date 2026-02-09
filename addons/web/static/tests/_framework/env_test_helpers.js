@@ -1,4 +1,4 @@
-import { after, afterEach, beforeEach, registerDebugInfo } from "@BetopiaERP/hoot";
+import { after, afterEach, beforeEach, registerDebugInfo } from "@betopiaerp/hoot";
 import { startRouter } from "@web/core/browser/router";
 import { createDebugContext } from "@web/core/debug/debug_context";
 import {

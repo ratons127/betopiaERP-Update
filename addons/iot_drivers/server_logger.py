@@ -31,12 +31,12 @@ class AsyncHTTPHandler(logging.Handler):
     """Minimum delay in seconds before we log a server disconnection.
     Used in order to avoid the IoT log file to have a log recorded each _FLUSH_INTERVAL (as this value is very small)"""
 
-    def __init__(self, BetopiaERP_server_url, active):
+    def __init__(self, betopiaerp_server_url, active):
         """
-        :param BetopiaERP_server_url: BetopiaERP Server URL
+        :param betopiaerp_server_url: BetopiaERP Server URL
         """
         super().__init__()
-        self._BetopiaERP_server_url = BetopiaERP_server_url
+        self._betopiaerp_server_url = betopiaerp_server_url
         self._db_name = helpers.get_conf('db_name') or ''
         self._log_queue = queue.Queue(self._MAX_QUEUE_SIZE)
         self._flush_thread = None
@@ -49,7 +49,7 @@ class AsyncHTTPHandler(logging.Handler):
         Switch it on or off the handler (depending on the IoT setting) without the need to close/reset it
         """
         self._active = is_active
-        if self._active and self._BetopiaERP_server_url:
+        if self._active and self._betopiaerp_server_url:
             # Start the thread to periodically flush logs
             self._flush_thread = threading.Thread(target=self._periodic_flush, name="ThreadServerLogSender", daemon=True)
             self._flush_thread.start()
@@ -57,12 +57,12 @@ class AsyncHTTPHandler(logging.Handler):
             self._flush_thread and self._flush_thread.join()  # let a last flush
 
     def _periodic_flush(self):
-        BetopiaERP_session = requests.Session()
-        while self._BetopiaERP_server_url and self._active:  # allow to exit the loop on thread.join
+        betopiaerp_session = requests.Session()
+        while self._betopiaerp_server_url and self._active:  # allow to exit the loop on thread.join
             time.sleep(self._FLUSH_INTERVAL)
-            self._flush_logs(BetopiaERP_session)
+            self._flush_logs(betopiaerp_session)
 
-    def _flush_logs(self, BetopiaERP_session):
+    def _flush_logs(self, betopiaerp_session):
         def convert_to_byte(s):
             return bytes(s, encoding="utf-8") + b'<log/>\n'
 
@@ -90,11 +90,11 @@ class AsyncHTTPHandler(logging.Handler):
 
         queue_size = self._log_queue.qsize()  # This is an approximate value
 
-        if not self._BetopiaERP_server_url or queue_size == 0:
+        if not self._betopiaerp_server_url or queue_size == 0:
             return
         try:
-            BetopiaERP_session.post(
-                self._BetopiaERP_server_url + '/iot/log',
+            betopiaerp_session.post(
+                self._betopiaerp_server_url + '/iot/log',
                 data=empty_queue(),
                 headers={'X-BetopiaERP-Database': self._db_name},
                 timeout=self._REQUEST_TIMEOUT
@@ -127,16 +127,16 @@ def close_server_log_sender_handler():
     _server_log_sender_handler.close()
 
 
-def get_BetopiaERP_config_log_to_server_option():
+def get_betopiaerp_config_log_to_server_option():
     # Enabled by default if not in test mode
     return not IS_TEST and (helpers.get_conf(IOT_LOG_TO_SERVER_CONFIG_NAME, section='options') or True)
 
 
-def check_and_update_BetopiaERP_config_log_to_server_option(new_state):
+def check_and_update_betopiaerp_config_log_to_server_option(new_state):
     """
     :return: wherever the config file need to be updated or not
     """
-    if get_BetopiaERP_config_log_to_server_option() != new_state:
+    if get_betopiaerp_config_log_to_server_option() != new_state:
         helpers.update_conf({IOT_LOG_TO_SERVER_CONFIG_NAME, new_state}, section='options')
         _server_log_sender_handler.toggle_active(new_state)
         return True
@@ -163,9 +163,9 @@ def _server_log_sender_handler_filter(log_record):
 # The server URL is set once at initlialisation as the IoT will always restart if the URL is changed
 # The only other possible case is when the server URL value is "Cleared",
 # in this case we force close the log handler (as it does not make sense anymore)
-_server_log_sender_handler = AsyncHTTPHandler(helpers.get_BetopiaERP_server_url(), get_BetopiaERP_config_log_to_server_option())
+_server_log_sender_handler = AsyncHTTPHandler(helpers.get_betopiaerp_server_url(), get_betopiaerp_config_log_to_server_option())
 if not IS_TEST:
     _server_log_sender_handler.setFormatter(ColoredFormatter('%(asctime)s %(pid)s %(levelname)s %(dbname)s %(name)s: %(message)s %(perf_info)s'))
     _server_log_sender_handler.addFilter(_server_log_sender_handler_filter)
-    # Set it in the 'root' logger, on which every logger (including BetopiaERP) is a child
+    # Set it in the 'root' logger, on which every logger (including betopiaerp) is a child
     logging.getLogger().addHandler(_server_log_sender_handler)

@@ -1,4 +1,4 @@
-import { useEnv, useExternalListener, useState, useSubEnv } from "@BetopiaERP/owl";
+import { useEnv, useExternalListener, useState, useSubEnv } from "@betopiaerp/owl";
 
 function isSmall() {
     return window.innerWidth < 960;

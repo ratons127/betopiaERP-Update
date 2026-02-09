@@ -2,23 +2,23 @@
 
 import { _t } from "@web/core/l10n/translation";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 const { arg, isMatrix, toJsDate, toString } = spreadsheet.helpers;
 const { functionRegistry } = spreadsheet.registries;
 
 /**
  * @typedef {import("@spreadsheet").CustomFunctionDescription} CustomFunctionDescription
- * @typedef {import("@BetopiaERP/o-spreadsheet").FPayload} FPayload
+ * @typedef {import("@betopiaerp/o-spreadsheet").FPayload} FPayload
  */
 
 //--------------------------------------------------------------------------
 // Spreadsheet functions
 //--------------------------------------------------------------------------
 
-// BetopiaERP.FILTER.VALUE
+// BETOPIAERP.FILTER.VALUE
 
-const BetopiaERP_FILTER_VALUE = /** @satisfies {CustomFunctionDescription} */ ({
+const BETOPIAERP_FILTER_VALUE = /** @satisfies {CustomFunctionDescription} */ ({
     description: _t("Return the current value of a spreadsheet filter."),
     args: [arg("filter_name (string)", _t("The label of the filter whose value to return."))],
     category: "BetopiaERP",
@@ -31,23 +31,23 @@ const BetopiaERP_FILTER_VALUE = /** @satisfies {CustomFunctionDescription} */ ({
     },
 });
 
-// BetopiaERP.FILTER.VALUE.V18
+// BETOPIAERP.FILTER.VALUE.V18
 
-const BetopiaERP_FILTER_VALUE_V18 = /** @satisfies {CustomFunctionDescription} */ ({
-    description: _t("Compatibility version of BetopiaERP.FILTER.VALUE for v18 spreadsheets. Required for date filters. Optional for others."),
+const BETOPIAERP_FILTER_VALUE_V18 = /** @satisfies {CustomFunctionDescription} */ ({
+    description: _t("Compatibility version of BETOPIAERP.FILTER.VALUE for v18 spreadsheets. Required for date filters. Optional for others."),
     args: [arg("filter_name (string)", _t("The label of the filter whose value to return."))],
     category: "BetopiaERP",
     hidden: true,
     compute: function (filterName) {
         const filter = this.getters.getGlobalFilterByName(toString(filterName, this.locale));
-        const value = this["BetopiaERP.FILTER.VALUE"](filterName);
+        const value = this["BETOPIAERP.FILTER.VALUE"](filterName);
         if (filter?.type === "relation") {
             const csvIds = toString(value[0][0])
             if (!csvIds) {
                 return value;
             }
             const ids = csvIds.split(",").map((id) => parseInt(id, 10));
-            const result =  this.BetopiaERPDataProvider.serverData.get(filter.modelName, "web_search_read", [
+            const result =  this.betopiaerpDataProvider.serverData.get(filter.modelName, "web_search_read", [
                 [["id", "in", ids]],
                 { display_name: {} },
             ])
@@ -79,5 +79,5 @@ const BetopiaERP_FILTER_VALUE_V18 = /** @satisfies {CustomFunctionDescription} *
 });
 
 functionRegistry
-    .add("BetopiaERP.FILTER.VALUE", BetopiaERP_FILTER_VALUE)
-    .add("BetopiaERP.FILTER.VALUE.V18", BetopiaERP_FILTER_VALUE_V18);
+    .add("BETOPIAERP.FILTER.VALUE", BETOPIAERP_FILTER_VALUE)
+    .add("BETOPIAERP.FILTER.VALUE.V18", BETOPIAERP_FILTER_VALUE_V18);

@@ -9,6 +9,6 @@
     'data': [
         'views/res_partner_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

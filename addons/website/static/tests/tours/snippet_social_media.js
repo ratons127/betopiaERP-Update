@@ -124,7 +124,7 @@ registerWebsitePreviewTour(
         // Create a Link for which we don't have an icon to propose.
         ...addNewSocialNetwork(9, 8, "https://whatever.it/1EdSw9X"),
         // Create a custom instagram link.
-        ...addNewSocialNetwork(10, 9, "https://instagr.am/BetopiaERP.official/"),
+        ...addNewSocialNetwork(10, 9, "https://instagr.am/betopiaerp.official/"),
         {
             content: "Check if the result is correct before removing",
             trigger:
@@ -138,7 +138,7 @@ registerWebsitePreviewTour(
                 ":has(a:eq(6)[href='/website/social/discord'])" +
                 ":has(a:eq(7)[href='https://www.youtu.be/y7TlnAv6cto']:has(i.fa-youtube-play))" +
                 ":has(a:eq(8)[href='https://whatever.it/1EdSw9X']:has(i.fa-pencil))" +
-                ":has(a:eq(9)[href='https://instagr.am/BetopiaERP.official/']:has(i.fa-instagram))",
+                ":has(a:eq(9)[href='https://instagr.am/betopiaerp.official/']:has(i.fa-instagram))",
         },
         // Create a custom link, not officially supported, ensure icon is found.
         {
@@ -181,12 +181,12 @@ registerWebsitePreviewTour(
                 ":has(a:eq(6)[href='/website/social/discord'])" +
                 ":has(a:eq(7)[href='/website/social/facebook'])" +
                 ":has(a:eq(8)[href='https://whatever.it/1EdSw9X']:has(i.fa-pencil))" +
-                ":has(a:eq(9)[href='https://instagr.am/BetopiaERP.official/']:has(i.fa-instagram))",
+                ":has(a:eq(9)[href='https://instagr.am/betopiaerp.official/']:has(i.fa-instagram))",
         },
         {
             content: "Change url of the DB instagram link",
             trigger: ".o_social_media_list tr:eq(3) input",
-            run: "edit https://instagram.com/BetopiaERP.official/ && click body",
+            run: "edit https://instagram.com/betopiaerp.official/ && click body",
         },
         ...preventRaceConditionStep,
         ...clickOnSave(),
@@ -218,7 +218,7 @@ registerWebsitePreviewTour(
                 ":has(a:eq(6)[href='/website/social/discord'])" +
                 ":has(a:eq(7)[href='/website/social/facebook'])" +
                 ":has(a:eq(8)[href='https://whatever.it/1EdSw9X']:has(i.fa-heart))" +
-                ":has(a:eq(9)[href='https://instagr.am/BetopiaERP.official/']:has(i.fa-instagram))",
+                ":has(a:eq(9)[href='https://instagr.am/betopiaerp.official/']:has(i.fa-instagram))",
         },
         // Create a social network but replace its icon by an image before setting
         // the link (`replaceIcon` parameter set to `true`).

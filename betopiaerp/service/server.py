@@ -221,10 +221,10 @@ class ThreadedWSGIServerReloadable(LoggingBaseWSGIServerMixIn, werkzeug.serving.
     socket open when a reload happens.
     """
     def __init__(self, host, port, app):
-        # The BetopiaERP_MAX_HTTP_THREADS environment variable allows to limit the amount of concurrent
+        # The BETOPIAERP_MAX_HTTP_THREADS environment variable allows to limit the amount of concurrent
         # socket connections accepted by a threaded server, implicitly limiting the amount of
         # concurrent threads running for http requests handling.
-        self.max_http_threads = os.environ.get("BetopiaERP_MAX_HTTP_THREADS")
+        self.max_http_threads = os.environ.get("BETOPIAERP_MAX_HTTP_THREADS")
         if self.max_http_threads:
             try:
                 self.max_http_threads = int(self.max_http_threads)
@@ -1036,9 +1036,9 @@ class PreforkServer(CommonServer):
             else:
                 _logger.info('HTTP service (werkzeug) running on %s:%s', self.interface, self.port)
 
-            if os.environ.get('BetopiaERP_HTTP_SOCKET_FD'):
+            if os.environ.get('BETOPIAERP_HTTP_SOCKET_FD'):
                 # reload
-                self.socket = socket.socket(fileno=int(os.environ.pop('BetopiaERP_HTTP_SOCKET_FD')))
+                self.socket = socket.socket(fileno=int(os.environ.pop('BETOPIAERP_HTTP_SOCKET_FD')))
             elif config.http_socket_activation:
                 # socket activation
                 SD_LISTEN_FDS_START = 3
@@ -1062,8 +1062,8 @@ class PreforkServer(CommonServer):
             http_socket_fileno = self.socket.fileno()
             flags = fcntl.fcntl(http_socket_fileno, fcntl.F_GETFD)
             fcntl.fcntl(http_socket_fileno, fcntl.F_SETFD, flags & ~fcntl.FD_CLOEXEC)
-            os.environ['BetopiaERP_HTTP_SOCKET_FD'] = str(http_socket_fileno)
-            os.environ['BetopiaERP_READY_SIGHUP_PID'] = str(pid)
+            os.environ['BETOPIAERP_HTTP_SOCKET_FD'] = str(http_socket_fileno)
+            os.environ['BETOPIAERP_READY_SIGHUP_PID'] = str(pid)
             _reexec()  # stops execution
 
         # child process handles old server shutdown
@@ -1157,8 +1157,8 @@ class PreforkServer(CommonServer):
         # Empty the cursor pool, we dont want them to be shared among forked workers.
         sql_db.close_all()
 
-        if os.environ.get('BetopiaERP_READY_SIGHUP_PID'):
-            os.kill(int(os.environ.pop('BetopiaERP_READY_SIGHUP_PID')), signal.SIGHUP)
+        if os.environ.get('BETOPIAERP_READY_SIGHUP_PID'):
+            os.kill(int(os.environ.pop('BETOPIAERP_READY_SIGHUP_PID')), signal.SIGHUP)
 
         _logger.debug("Multiprocess starting")
         while 1:
@@ -1196,7 +1196,7 @@ class Worker(object):
         self.request_count = 0
 
     def setproctitle(self, title=""):
-        setproctitle('BetopiaERP: %s %s %s' % (self.__class__.__name__, self.pid, title))
+        setproctitle('betopiaerp: %s %s %s' % (self.__class__.__name__, self.pid, title))
 
     def close(self):
         os.close(self.watchdog_pipe[0])
@@ -1315,12 +1315,12 @@ class WorkerHTTP(Worker):
     def __init__(self, multi):
         super(WorkerHTTP, self).__init__(multi)
 
-        # The BetopiaERP_HTTP_SOCKET_TIMEOUT environment variable allows to control socket timeout for
+        # The BETOPIAERP_HTTP_SOCKET_TIMEOUT environment variable allows to control socket timeout for
         # extreme latency situations. It's generally better to use a good buffering reverse proxy
         # to quickly free workers rather than increasing this timeout to accommodate high network
         # latencies & b/w saturation. This timeout is also essential to protect against accidental
         # DoS due to idle HTTP connections.
-        sock_timeout = os.environ.get("BetopiaERP_HTTP_SOCKET_TIMEOUT")
+        sock_timeout = os.environ.get("BETOPIAERP_HTTP_SOCKET_TIMEOUT")
         self.sock_timeout = float(sock_timeout) if sock_timeout else 2
 
     def process_request(self, client, addr):
@@ -1496,10 +1496,10 @@ def preload_registries(dbnames):
     preload_profiler = contextlib.nullcontext()
 
     for dbname in dbnames:
-        if os.environ.get('BetopiaERP_PROFILE_PRELOAD'):
-            interval = float(os.environ.get('BetopiaERP_PROFILE_PRELOAD_INTERVAL', '0.1'))
+        if os.environ.get('BETOPIAERP_PROFILE_PRELOAD'):
+            interval = float(os.environ.get('BETOPIAERP_PROFILE_PRELOAD_INTERVAL', '0.1'))
             collectors = [profiler.PeriodicCollector(interval=interval)]
-            if os.environ.get('BetopiaERP_PROFILE_PRELOAD_SQL'):
+            if os.environ.get('BETOPIAERP_PROFILE_PRELOAD_SQL'):
                 collectors.append('sql')
             preload_profiler = profiler.Profiler(db=dbname, collectors=collectors)
         try:
@@ -1539,7 +1539,7 @@ def preload_registries(dbnames):
     return rc
 
 def start(preload=None, stop=False):
-    """ Start the BetopiaERP http server and cron processor.
+    """ Start the betopiaerp http server and cron processor.
     """
     global server
 

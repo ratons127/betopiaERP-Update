@@ -1,13 +1,13 @@
 // @ts-check
 
-import { stores } from "@BetopiaERP/o-spreadsheet";
+import { stores } from "@betopiaerp/o-spreadsheet";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 
 const { ModelStore, NotificationStore, DependencyContainer } = stores;
 
 /**
  * @template T
- * @typedef {import("@BetopiaERP/o-spreadsheet").StoreConstructor<T>} StoreConstructor<T>
+ * @typedef {import("@betopiaerp/o-spreadsheet").StoreConstructor<T>} StoreConstructor<T>
  */
 
 /**
@@ -27,7 +27,7 @@ export async function makeStore(Store, ...args) {
 
 /**
  * @template T
- * @param {import("@BetopiaERP/o-spreadsheet").Model} model
+ * @param {import("@betopiaerp/o-spreadsheet").Model} model
  * @param {StoreConstructor<T>} Store
  * @param  {any[]} args
  * @return {{ store: T, container: InstanceType<DependencyContainer>, model: BetopiaERPSpreadsheetModel }}

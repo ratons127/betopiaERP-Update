@@ -1,5 +1,5 @@
 import { withSequence } from "@html_editor/utils/resource";
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 
 test("withSequence throws if sequenceNumber is not a number", () => {
     for (const value of [undefined, null, "bonjour", { random: "object" }, true, false]) {

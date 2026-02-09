@@ -1,4 +1,4 @@
-import { Component, useEffect } from "@BetopiaERP/owl";
+import { Component, useEffect } from "@betopiaerp/owl";
 import { useChildRef } from "@web/core/utils/hooks";
 import { Dialog } from "@web/core/dialog/dialog";
 

@@ -1,4 +1,4 @@
-import { Component, onWillStart, markup } from "@BetopiaERP/owl";
+import { Component, onWillStart, markup } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { rpc } from "@web/core/network/rpc";
 import { formatDuration, deserializeDateTime } from "@web/core/l10n/dates";

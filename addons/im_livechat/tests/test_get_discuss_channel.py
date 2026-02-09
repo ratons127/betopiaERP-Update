@@ -122,7 +122,7 @@ class TestGetDiscussChannel(TestImLivechatCommon, MailCommon):
                 {
                     "active": False,
                     "avatar_128_access_token": self.partner_root._get_avatar_128_access_token(),
-                    "email": "BetopiaERPbot@example.com",
+                    "email": "betopiaerpbot@example.com",
                     "id": self.user_root.partner_id.id,
                     "im_status": "bot",
                     "im_status_access_token": self.partner_root._get_im_status_access_token(),
@@ -232,7 +232,7 @@ class TestGetDiscussChannel(TestImLivechatCommon, MailCommon):
                 {
                     "active": False,
                     "avatar_128_access_token": self.partner_root._get_avatar_128_access_token(),
-                    "email": "BetopiaERPbot@example.com",
+                    "email": "betopiaerpbot@example.com",
                     "id": self.user_root.partner_id.id,
                     "im_status": "bot",
                     "im_status_access_token": self.partner_root._get_im_status_access_token(),

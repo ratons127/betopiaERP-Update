@@ -1,4 +1,4 @@
-import { useRef, useState } from "@BetopiaERP/owl";
+import { useRef, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { rpc } from "@web/core/network/rpc";
 import { KeepLast } from "@web/core/utils/concurrency";

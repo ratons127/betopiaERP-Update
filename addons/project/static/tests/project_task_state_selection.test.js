@@ -1,6 +1,6 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { click, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { click, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 import { mountView } from "@web/../tests/web_test_helpers";
 

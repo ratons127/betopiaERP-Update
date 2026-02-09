@@ -4,7 +4,7 @@ import { CopyButton } from "@web/core/copy_button/copy_button";
 import { Dialog } from "@web/core/dialog/dialog";
 import { EmailSharingInput } from "./email_sharing_input";
 
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 
 export class SlideShareDialog extends Component {
     static template = "website_slides.SlideShareDialog";

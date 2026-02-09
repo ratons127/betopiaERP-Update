@@ -1,4 +1,4 @@
-import { onWillDestroy, useRef } from "@BetopiaERP/owl";
+import { onWillDestroy, useRef } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 /**

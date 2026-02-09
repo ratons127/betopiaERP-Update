@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { formatFloat, formatFloatTime } from "@web/views/fields/formatters";
 
 export class ProjectProfitabilitySection extends Component {

@@ -25,7 +25,7 @@ Allows to contact directly the employee in case of unjustified absence.
         'data/ir_cron.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
      'assets': {
         'web.assets_backend': [

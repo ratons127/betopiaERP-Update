@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="header_cart_link" name="Header Cart Link">
         <t t-set="website_sale_cart_quantity" t-value="request.session.get('website_sale_cart_quantity', request.cart.cart_quantity) or 0"/>
         <t t-set="show_cart" t-value="website.has_ecommerce_access()"/>
@@ -4161,7 +4161,7 @@
                     groups="base.group_system"
                     target="_blank"
                     aria-label="Edit"
-                    t-attf-href="/BetopiaERP/action-payment.action_payment_provider/{{tx_sudo.provider_id.id}}"
+                    t-attf-href="/betopiaerp/action-payment.action_payment_provider/{{tx_sudo.provider_id.id}}"
                 >
                     <i class="fa fa-pencil"/>
                 </a>
@@ -4460,4 +4460,4 @@
         </xpath>
     </template>
 
-</BetopiaERP>
+</betopiaerp>

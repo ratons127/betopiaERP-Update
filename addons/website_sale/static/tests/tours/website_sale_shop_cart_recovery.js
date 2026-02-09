@@ -35,7 +35,7 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
         trigger: '.oe_login_form input[name="redirect"]:hidden',
         run() {
             const orderId = browser.localStorage.getItem(orderIdKey);
-            const url = "/BetopiaERP/action-sale.action_orders/" + orderId;
+            const url = "/betopiaerp/action-sale.action_orders/" + orderId;
             this.anchor.value = url;
         }
     },

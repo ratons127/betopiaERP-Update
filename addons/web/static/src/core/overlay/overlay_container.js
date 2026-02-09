@@ -1,4 +1,4 @@
-import { Component, onWillDestroy, useChildSubEnv, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillDestroy, useChildSubEnv, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { sortBy } from "@web/core/utils/arrays";
 import { ErrorHandler } from "@web/core/utils/components";
 

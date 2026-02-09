@@ -13,7 +13,7 @@ In Indian EDI we send shipping address details if available
 So this module is to get the warehouse address if the invoice is created from Sale Order
     """,
 
-    'website': "https://www.betopiaerp.com",
+    'website': "https://www.BetopiaERP.com",
     'category': 'Accounting/Localizations/Sale',
     'version': '0.1',
 
@@ -24,6 +24,6 @@ So this module is to get the warehouse address if the invoice is created from Sa
     ],
 
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

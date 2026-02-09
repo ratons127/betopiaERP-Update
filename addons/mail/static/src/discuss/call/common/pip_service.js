@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { Meeting } from "./meeting";
 
 export const callPipService = {

@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";

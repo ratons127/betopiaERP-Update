@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { makeMockEnv, serverState } from "@web/../tests/web_test_helpers";
 
 import { formatCurrency } from "@web/core/currency";

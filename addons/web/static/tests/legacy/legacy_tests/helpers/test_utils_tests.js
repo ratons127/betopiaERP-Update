@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/legacy_tests/helpers/test_utils_tests default=false */
+/** @betopiaerp-module alias=@web/../tests/legacy_tests/helpers/test_utils_tests default=false */
 
 import testUtils from "./test_utils";
 const { DateTime } = luxon;

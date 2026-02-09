@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 import {
     click,
@@ -10,7 +10,7 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { advanceTime, mockDate } from "@BetopiaERP/hoot-mock";
+import { advanceTime, mockDate } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     mockService,

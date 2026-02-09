@@ -1,7 +1,7 @@
 import { BaseAutomationErrorDialog } from "@base_automation/base_automation_error_dialog";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     makeServerError,
     mountWithCleanup,

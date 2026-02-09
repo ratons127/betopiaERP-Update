@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import { browser } from "@web/core/browser/browser";
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 

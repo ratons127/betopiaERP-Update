@@ -13,14 +13,14 @@ from .result import BetopiaERPTestResult
 
 _logger = logging.getLogger(__name__)
 
-TEST_MODULE_NAME_PATTERN = re.compile(r'^BetopiaERP\.addons\.\w+\.tests')
+TEST_MODULE_NAME_PATTERN = re.compile(r'^betopiaerp\.addons\.\w+\.tests')
 
 
 def run_tests(env, test_tags, modules=None, reload_tests=False):
     """Run tests for the given modules and test tags."""
 
     if betopiaerp.cli.COMMAND != 'shell':
-        _logger.error('run_tests should be used only in BetopiaERP shell')
+        _logger.error('run_tests should be used only in betopiaerp shell')
         return
 
     if betopiaerp.tools.config['workers'] != 0:

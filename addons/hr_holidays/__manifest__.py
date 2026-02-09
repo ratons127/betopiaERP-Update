@@ -7,7 +7,7 @@
     'category': 'Human Resources/Time Off',
     'sequence': 85,
     'summary': 'Allocate time off and follow leave requests',
-    'website': 'https://www.betopiaerp.com/app/time-off',
+    'website': 'https://www.BetopiaERP.com/app/time-off',
     'description': """
 Manage time off requests and allocations
 ========================================
@@ -92,6 +92,6 @@ A synchronization with an internal agenda (Meetings of the CRM module) is also p
             '/hr_holidays/static/tests/tours/**/*'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

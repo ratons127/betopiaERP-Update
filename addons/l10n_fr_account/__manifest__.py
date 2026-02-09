@@ -1,13 +1,13 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'France - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/france.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/france.html',
     'icon': '/account/static/description/l10n.png',
     'version': '2.2',
     'countries': ['fr'],
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart for France in betopiaerp.
+This is the module to manage the accounting chart for France in BetopiaERP.
 ========================================================================
 
 This module applies to companies based in France mainland. It doesn't apply to
@@ -49,6 +49,6 @@ configuration of their taxes and fiscal positions manually.
         'data/l10n_fr_account_demo.xml',
     ],
     'post_init_hook': '_l10n_fr_post_init_hook',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

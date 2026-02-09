@@ -125,7 +125,7 @@ class Manager(Thread):
                 break
 
     def run(self):
-        """Thread that will load interfaces and drivers and contact the BetopiaERP server
+        """Thread that will load interfaces and drivers and contact the betopiaerp server
         with the updates. It will also reconnect to the Wi-Fi if the connection is lost.
         """
         if IS_RPI:
@@ -139,7 +139,7 @@ class Manager(Thread):
         _logger.info("IoT Box Image version: %s", helpers.get_version(detailed_version=True))
         upgrade.check_git_branch()
 
-        if IS_RPI and helpers.get_BetopiaERP_server_url():
+        if IS_RPI and helpers.get_betopiaerp_server_url():
             helpers.generate_password()
 
         certificate.ensure_validity()

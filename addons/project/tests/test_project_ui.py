@@ -12,7 +12,7 @@ class TestUi(betopiaerp.tests.HttpCase):
         cls.env.ref('base.group_user').sudo().implied_ids |= cls.env.ref('project.group_project_milestone')
 
     def test_01_project_tour(self):
-        self.start_tour("/BetopiaERP", 'project_tour', login="admin")
+        self.start_tour("/betopiaerp", 'project_tour', login="admin")
 
     def test_project_task_history(self):
         """This tour will check that the history works properly."""
@@ -31,7 +31,7 @@ class TestUi(betopiaerp.tests.HttpCase):
             'project_id': project2.id,
         })
 
-        self.start_tour('/BetopiaERP?debug=1', 'project_task_history_tour', login='admin')
+        self.start_tour('/betopiaerp?debug=1', 'project_task_history_tour', login='admin')
 
     def test_project_task_last_history_steps(self):
         """This tour will check that the history works properly."""
@@ -47,4 +47,4 @@ class TestUi(betopiaerp.tests.HttpCase):
             'project_id': project.id,
         })
 
-        self.start_tour('/BetopiaERP', 'project_task_last_history_steps_tour', login='admin')
+        self.start_tour('/betopiaerp', 'project_task_last_history_steps_tour', login='admin')

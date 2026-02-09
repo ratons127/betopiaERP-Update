@@ -4,7 +4,7 @@ import { useService } from "@web/core/utils/hooks";
 import { loadLanguages, _t } from "@web/core/l10n/translation";
 import { jsToPyLocale } from "@web/core/l10n/utils";
 
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 
 export class TranslationDialog extends Component {
     static template = "web.TranslationDialog";

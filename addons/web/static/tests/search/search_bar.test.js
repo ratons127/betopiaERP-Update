@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     clear,
     click,
@@ -11,9 +11,9 @@ import {
     queryAllTexts,
     queryFirst,
     runAllTimers,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockTimeZone, mockTouch } from "@BetopiaERP/hoot-mock";
-import { Component, onWillUpdateProps, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockTimeZone, mockTouch } from "@betopiaerp/hoot-mock";
+import { Component, onWillUpdateProps, xml } from "@betopiaerp/owl";
 import {
     SELECTORS,
     addNewRule,

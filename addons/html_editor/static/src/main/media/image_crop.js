@@ -14,7 +14,7 @@ import {
     markup,
     useExternalListener,
     status,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { scrollTo, closestScrollableY } from "@web/core/utils/scrolling";
 

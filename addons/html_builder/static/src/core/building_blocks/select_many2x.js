@@ -1,4 +1,4 @@
-import { Component, useState, onWillUpdateProps, onWillDestroy } from "@BetopiaERP/owl";
+import { Component, useState, onWillUpdateProps, onWillDestroy } from "@betopiaerp/owl";
 import { useChildRef, useService } from "@web/core/utils/hooks";
 import { useCachedModel } from "@html_builder/core/cached_model_utils";
 import { _t } from "@web/core/l10n/translation";

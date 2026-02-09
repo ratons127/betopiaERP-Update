@@ -11,7 +11,7 @@
 Chat, mail gateway and private channel.
 =======================================
 
-Communicate with your colleagues/customers/guest within betopiaerp.
+Communicate with your colleagues/customers/guest within BetopiaERP.
 
 Discuss/Chat
 ------------
@@ -22,7 +22,7 @@ them, all real-time.
 Mail gateway
 ------------
 Sending information and documents made simplified. You can send emails
-from betopiaerp itself, and that too with great possibilities. For example,
+from BetopiaERP itself, and that too with great possibilities. For example,
 design a beautiful email template for the invoices, and use the same
 for all your customers, no need to do the same exercise every time.
 
@@ -58,7 +58,7 @@ same *conversation* document.
 For more specific needs, you may also assign custom-defined actions
 (technically: Server Actions) to be triggered for each incoming mail.
     """,
-    'website': 'https://www.betopiaerp.com/app/discuss',
+    'website': 'https://www.BetopiaERP.com/app/discuss',
     'depends': ['base', 'base_setup', 'bus', 'web_tour', 'html_editor'],
     'data': [
         'data/mail_groups.xml',
@@ -204,18 +204,18 @@ For more specific needs, you may also assign custom-defined actions
         'web.tests_assets': [
             'mail/static/tests/legacy/helpers/mock_services.js',
         ],
-        'mail.assets_BetopiaERP_sfu': [
-            'mail/static/lib/BetopiaERP_sfu/BetopiaERP_sfu.js',
+        'mail.assets_betopiaerp_sfu': [
+            'mail/static/lib/betopiaerp_sfu/betopiaerp_sfu.js',
         ],
         'mail.assets_lamejs': [
             'mail/static/lib/lame/lame.js',
         ],
         "mail.assets_message_email": [
-            "web/static/lib/BetopiaERP_ui_icons/style.css",
+            "web/static/lib/betopiaerp_ui_icons/style.css",
         ],
         'mail.assets_public': [
             'web/static/lib/jquery/jquery.js',
-            'web/static/lib/BetopiaERP_ui_icons/style.css',
+            'web/static/lib/betopiaerp_ui_icons/style.css',
             ('include', 'web._assets_helpers'),
             ('include', 'web._assets_backend_helpers'),
             'web/static/src/scss/pre_variables.scss',
@@ -260,6 +260,6 @@ For more specific needs, you may also assign custom-defined actions
             ('remove', 'web/static/src/**/*.dark.scss'),
         ]
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

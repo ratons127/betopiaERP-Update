@@ -34,7 +34,7 @@ class TestAnswerEvents(TestCommon):
 
     @patch.object(MicrosoftCalendarService, '_get_single_event')
     @patch.object(MicrosoftCalendarService, 'answer')
-    def test_attendee_accepts_event_from_BetopiaERP_calendar(self, mock_answer, mock_get_single_event):
+    def test_attendee_accepts_event_from_betopiaerp_calendar(self, mock_answer, mock_get_single_event):
         attendee = self.env["calendar.attendee"].search([
             ('event_id', '=', self.simple_event.id),
             ('partner_id', '=', self.attendee_user.partner_id.id)
@@ -55,7 +55,7 @@ class TestAnswerEvents(TestCommon):
 
     @patch.object(MicrosoftCalendarService, '_get_single_event')
     @patch.object(MicrosoftCalendarService, 'answer')
-    def test_attendee_declines_event_from_BetopiaERP_calendar(self, mock_answer, mock_get_single_event):
+    def test_attendee_declines_event_from_betopiaerp_calendar(self, mock_answer, mock_get_single_event):
         attendee = self.env["calendar.attendee"].search([
             ('event_id', '=', self.simple_event.id),
             ('partner_id', '=', self.attendee_user.partner_id.id)
@@ -76,7 +76,7 @@ class TestAnswerEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_attendee_accepts_event_from_outlook_calendar(self, mock_get_events):
         """
-        In his Outlook calendar, the attendee accepts the event and sync with his BetopiaERP calendar.
+        In his Outlook calendar, the attendee accepts the event and sync with his betopiaerp calendar.
         """
         mock_get_events.return_value = (
             MicrosoftEvent([dict(
@@ -101,7 +101,7 @@ class TestAnswerEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_attendee_accepts_event_from_outlook_calendar_synced_by_organizer(self, mock_get_events):
         """
-        In his Outlook calendar, the attendee accepts the event and the organizer syncs his BetopiaERP calendar.
+        In his Outlook calendar, the attendee accepts the event and the organizer syncs his betopiaerp calendar.
         """
         mock_get_events.return_value = (
             MicrosoftEvent([dict(
@@ -186,7 +186,7 @@ class TestAnswerEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'answer')
     def test_answer_event_with_external_organizer(self, mock_answer, mock_get_single_event):
         """ Answer an event invitation from an outsider user and check if it was patched on Outlook side. """
-        # Simulate an event that came from an external provider: the organizer isn't registered in betopiaerp.
+        # Simulate an event that came from an external provider: the organizer isn't registered in BetopiaERP.
         self.simple_event.write({'user_id': False, 'partner_id': False})
         self.simple_event.attendee_ids.state = 'needsAction'
 

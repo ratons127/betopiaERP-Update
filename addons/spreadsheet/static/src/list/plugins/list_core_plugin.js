@@ -1,5 +1,5 @@
 import { CommandResult } from "../../o_spreadsheet/cancelled_reason";
-import { helpers } from "@BetopiaERP/o-spreadsheet";
+import { helpers } from "@betopiaerp/o-spreadsheet";
 import { Domain } from "@web/core/domain";
 import { deepCopy } from "@web/core/utils/objects";
 import { BetopiaERPCorePlugin } from "@spreadsheet/plugins";
@@ -43,7 +43,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
 
     allowDispatch(cmd) {
         switch (cmd.type) {
-            case "INSERT_BetopiaERP_LIST":
+            case "INSERT_BETOPIAERP_LIST":
                 if (cmd.id !== this.nextId.toString()) {
                     return CommandResult.InvalidNextId;
                 }
@@ -51,7 +51,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                     return CommandResult.ListIdDuplicated;
                 }
                 break;
-            case "DUPLICATE_BetopiaERP_LIST":
+            case "DUPLICATE_BETOPIAERP_LIST":
                 if (!this.lists[cmd.listId]) {
                     return CommandResult.ListIdNotFound;
                 }
@@ -59,7 +59,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                     return CommandResult.InvalidNextId;
                 }
                 break;
-            case "RENAME_BetopiaERP_LIST":
+            case "RENAME_BETOPIAERP_LIST":
                 if (!(cmd.listId in this.lists)) {
                     return CommandResult.ListIdNotFound;
                 }
@@ -67,8 +67,8 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                     return CommandResult.EmptyName;
                 }
                 break;
-            case "UPDATE_BetopiaERP_LIST":
-            case "UPDATE_BetopiaERP_LIST_DOMAIN":
+            case "UPDATE_BETOPIAERP_LIST":
+            case "UPDATE_BETOPIAERP_LIST_DOMAIN":
                 if (!(cmd.listId in this.lists)) {
                     return CommandResult.ListIdNotFound;
                 }
@@ -84,7 +84,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
      */
     handle(cmd) {
         switch (cmd.type) {
-            case "INSERT_BetopiaERP_LIST": {
+            case "INSERT_BETOPIAERP_LIST": {
                 const { sheetId, col, row, id, definition, linesNumber, columns } = cmd;
                 const anchor = [col, row];
                 this._addList(id, definition);
@@ -92,7 +92,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                 this.history.update("nextId", parseInt(id, 10) + 1);
                 break;
             }
-            case "DUPLICATE_BetopiaERP_LIST": {
+            case "DUPLICATE_BETOPIAERP_LIST": {
                 const { listId, newListId, duplicatedListName } = cmd;
                 const duplicatedList = deepCopy(this.lists[listId].definition);
                 duplicatedList.name = duplicatedListName ?? duplicatedList.name + " (copy)";
@@ -100,23 +100,23 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                 this.history.update("nextId", parseInt(newListId, 10) + 1);
                 break;
             }
-            case "RE_INSERT_BetopiaERP_LIST": {
+            case "RE_INSERT_BETOPIAERP_LIST": {
                 const { sheetId, col, row, id, linesNumber, columns } = cmd;
                 const anchor = [col, row];
                 this._insertList(sheetId, anchor, id, linesNumber, columns);
                 break;
             }
-            case "RENAME_BetopiaERP_LIST": {
+            case "RENAME_BETOPIAERP_LIST": {
                 this.history.update("lists", cmd.listId, "definition", "name", cmd.name);
                 break;
             }
-            case "REMOVE_BetopiaERP_LIST": {
+            case "REMOVE_BETOPIAERP_LIST": {
                 const lists = { ...this.lists };
                 delete lists[cmd.listId];
                 this.history.update("lists", lists);
                 break;
             }
-            case "UPDATE_BetopiaERP_LIST_DOMAIN": {
+            case "UPDATE_BETOPIAERP_LIST_DOMAIN": {
                 this.history.update(
                     "lists",
                     cmd.listId,
@@ -127,7 +127,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                 );
                 break;
             }
-            case "UPDATE_BetopiaERP_LIST": {
+            case "UPDATE_BETOPIAERP_LIST": {
                 this.history.update("lists", cmd.listId, "definition", cmd.list);
                 break;
             }
@@ -236,8 +236,8 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
         let [col, row] = anchor;
         for (const column of columns) {
             const content = column.string
-                ? `=BetopiaERP.LIST.HEADER(${id},"${column.name}","${column.string}")`
-                : `=BetopiaERP.LIST.HEADER(${id},"${column.name}")`;
+                ? `=BETOPIAERP.LIST.HEADER(${id},"${column.name}","${column.string}")`
+                : `=BETOPIAERP.LIST.HEADER(${id},"${column.name}")`;
             this.dispatch("UPDATE_CELL", {
                 sheetId,
                 col,
@@ -258,7 +258,7 @@ export class ListCorePlugin extends BetopiaERPCorePlugin {
                     sheetId,
                     col,
                     row,
-                    content: `=BetopiaERP.LIST(${id},${i},"${column.name}")`,
+                    content: `=BETOPIAERP.LIST(${id},${i},"${column.name}")`,
                 });
                 col++;
             }

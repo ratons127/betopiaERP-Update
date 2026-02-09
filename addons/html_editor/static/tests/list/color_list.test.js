@@ -1,5 +1,5 @@
 import { testEditor } from "../_helpers/editor";
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import {
     setColor,
     splitBlock,

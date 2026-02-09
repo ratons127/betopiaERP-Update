@@ -38,6 +38,6 @@ Finally, the module comes with an option to display an attribute summary table i
         ],
     },
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

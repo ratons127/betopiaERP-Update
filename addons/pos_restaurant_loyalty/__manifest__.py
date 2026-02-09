@@ -21,6 +21,6 @@ This module correct some behaviors when both module are installed.
             'pos_restaurant_loyalty/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

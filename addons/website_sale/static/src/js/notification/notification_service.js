@@ -1,4 +1,4 @@
-import { xml } from "@BetopiaERP/owl";
+import { xml } from "@betopiaerp/owl";
 import { NotificationContainer } from "@web/core/notifications/notification_container";
 import { notificationService } from "@web/core/notifications/notification_service";
 import { registry } from "@web/core/registry";

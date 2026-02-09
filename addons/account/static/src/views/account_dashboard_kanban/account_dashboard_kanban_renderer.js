@@ -1,7 +1,7 @@
 import { KanbanRenderer } from "@web/views/kanban/kanban_renderer";
 import { DashboardKanbanRecord } from "./account_dashboard_kanban_record";
 
-import { useSubEnv, reactive } from "@BetopiaERP/owl";
+import { useSubEnv, reactive } from "@betopiaerp/owl";
 
 export class DashboardKanbanRenderer extends KanbanRenderer {
     static template = "account.DashboardKanbanRenderer";

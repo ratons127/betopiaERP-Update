@@ -23,6 +23,6 @@ by choosing product variants quantity through a Grid Entry.
             'sale_product_matrix/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

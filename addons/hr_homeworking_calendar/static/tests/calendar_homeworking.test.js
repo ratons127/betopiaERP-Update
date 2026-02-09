@@ -1,7 +1,7 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryAllProperties, queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryAllProperties, queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { toggleFilter } from "@web/../tests/views/calendar/calendar_test_helpers";
 import { contains, defineModels, fields, mockService, models, mountView, onRpc, serverState } from "@web/../tests/web_test_helpers";
 

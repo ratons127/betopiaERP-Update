@@ -15,7 +15,7 @@
         'views/res_partner_view.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'uninstall_hook': 'uninstall_hook',
     'license': 'LGPL-3'
 }

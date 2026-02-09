@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <record id="stock_avco_report_view_list" model="ir.ui.view">
         <field name="name">stock.avco.report.view.list</field>
         <field name="model">stock.avco.report</field>
@@ -26,4 +26,4 @@
         <field name="view_mode">list</field>
         <field name="domain">[("product_id", "=", active_id)]</field>
     </record>
-</BetopiaERP>
+</betopiaerp>

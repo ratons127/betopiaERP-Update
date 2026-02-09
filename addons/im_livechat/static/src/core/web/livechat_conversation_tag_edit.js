@@ -1,4 +1,4 @@
-import { Component, onWillStart, useEffect, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillStart, useEffect, useState, xml } from "@betopiaerp/owl";
 
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { useSequential } from "@mail/utils/common/hooks";

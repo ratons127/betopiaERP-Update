@@ -1,4 +1,4 @@
-import { Component, useState, onWillStart } from "@BetopiaERP/owl";
+import { Component, useState, onWillStart } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 

@@ -23,6 +23,6 @@ Countries that use OHADA are the following:
     'data': [
         'data/menuitem_data.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

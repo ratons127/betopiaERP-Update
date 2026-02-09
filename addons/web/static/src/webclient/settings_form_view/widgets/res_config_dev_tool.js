@@ -3,7 +3,7 @@ import { useService } from "@web/core/utils/hooks";
 import { SettingsBlock } from "../settings/settings_block";
 import { Setting } from "../../../views/form/setting/setting";
 
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 import { router } from "@web/core/browser/router";
 
@@ -23,9 +23,9 @@ export class ResConfigDevTool extends Component {
     };
 
     setup() {
-        this.isDebug = Boolean(BetopiaERP.debug);
-        this.isAssets = BetopiaERP.debug.includes("assets");
-        this.isTests = BetopiaERP.debug.includes("tests");
+        this.isDebug = Boolean(betopiaerp.debug);
+        this.isAssets = betopiaerp.debug.includes("assets");
+        this.isTests = betopiaerp.debug.includes("tests");
 
         this.action = useService("action");
         this.demo = useService("demo_data");

@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 import { defineModels, mountView } from "@web/../tests/web_test_helpers";
 import { defineProjectModels } from "@project/../tests/project_models";
 import { ProductProduct, ProjectMilestone, SaleOrderLine } from "./project_task_model"

@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { hidePDFJSButtons } from "@web/core/utils/pdfjs";
 

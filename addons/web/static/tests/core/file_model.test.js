@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 
 import { FileModel } from "@web/core/file_viewer/file_model";
 

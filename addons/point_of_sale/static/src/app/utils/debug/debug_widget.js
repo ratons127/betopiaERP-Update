@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 import { useBus, useService } from "@web/core/utils/hooks";
-import { useRef, useState, Component, onMounted, onWillDestroy, useEffect } from "@BetopiaERP/owl";
+import { useRef, useState, Component, onMounted, onWillDestroy, useEffect } from "@betopiaerp/owl";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { serializeDateTime } from "@web/core/l10n/dates";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";

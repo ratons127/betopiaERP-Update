@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { registry } from "@web/core/registry";
 

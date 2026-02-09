@@ -7,16 +7,16 @@
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-30 14:46+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@BetopiaERP.com>\n"
-"Language-Team: German <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@betopiaerp.com>\n"
+"Language-Team: German <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_landed_costs/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -26,13 +26,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s (Einstandskosten: %(landed_cost)s)"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s from %(vendor_bill)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s aus %(vendor_bill)s (Einstandskosten: %(landed_cost)s)"
@@ -90,7 +90,7 @@ msgid "Additional Landed Cost"
 msgstr "Zusätzliche Einstandskosten"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid ""
 "Additional landed costs:\n"
@@ -180,7 +180,7 @@ msgid "Cost Lines"
 msgstr "Kostenpositionen"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
@@ -422,7 +422,7 @@ msgid "Landed Cost"
 msgstr "Einstandskosten"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/account_move.py:0
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
 #: model:ir.model.fields,field_description:stock_landed_costs.field_account_bank_statement_line__landed_costs_ids
@@ -507,7 +507,7 @@ msgid "Name"
 msgstr "Name"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "New"
 msgstr "Neu"
@@ -558,7 +558,7 @@ msgid "Number of messages with delivery error"
 msgstr "Anzahl Nachrichten mit Zustellungsfehler"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Only draft landed costs can be validated"
 msgstr "Nur Einstandskosten im Entwurf können validiert werden"
@@ -574,13 +574,13 @@ msgid "Picking"
 msgstr "Kommissionierung"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "Bitte Konto für Bestandskosten für Produkt %s pflegen."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
 msgstr ""
@@ -707,7 +707,7 @@ msgid "Validate"
 msgstr "Validieren"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
@@ -753,7 +753,7 @@ msgid "Weight"
 msgstr "Gewicht"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
@@ -763,7 +763,7 @@ msgstr ""
 "für Produkte mit FIFO- oder Durchschnittskostenmethode angewendet werden."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
 "You cannot change the product type or disable landed cost option because the "

@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { copy, hasClipboard } from "../hoot_utils";
 
 /**

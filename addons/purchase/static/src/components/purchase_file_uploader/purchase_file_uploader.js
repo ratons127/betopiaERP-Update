@@ -5,7 +5,7 @@ import { FileUploader } from "@web/views/fields/file_handler";
 import { WarningDialog } from "@web/core/errors/error_dialogs";
 import { _t } from "@web/core/l10n/translation";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class PurchaseFileUploader extends Component {
     static template = "purchase.DocumentFileUploader";

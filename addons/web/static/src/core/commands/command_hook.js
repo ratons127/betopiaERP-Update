@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 /**
  * @typedef {import("./command_service").CommandOptions} CommandOptions

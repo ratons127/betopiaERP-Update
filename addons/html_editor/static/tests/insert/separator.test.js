@@ -1,9 +1,9 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { execCommand } from "../_helpers/userCommands";
 import { simulateArrowKeyPress } from "../_helpers/user_actions";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 
 async function insertSeparator(editor) {
     execCommand(editor, "insertSeparator");

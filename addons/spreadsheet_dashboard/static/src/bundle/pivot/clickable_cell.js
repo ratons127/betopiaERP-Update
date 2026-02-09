@@ -1,4 +1,4 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 
 import {

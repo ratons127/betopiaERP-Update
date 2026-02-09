@@ -493,7 +493,7 @@ export class GraphModel extends Model {
             if (!fieldName.includes(".")) {
                 const { groupable, type } = fields[fieldName];
                 if (
-                    // cf. _description_groupable in BetopiaERP/fields.py
+                    // cf. _description_groupable in betopiaerp/fields.py
                     !groupable ||
                     ["id", "__count"].includes(fieldName) ||
                     !GROUPABLE_TYPES.includes(type)

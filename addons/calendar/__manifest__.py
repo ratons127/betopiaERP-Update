@@ -58,6 +58,6 @@ If you need to manage your meetings, you should install the CRM module.
             'calendar/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

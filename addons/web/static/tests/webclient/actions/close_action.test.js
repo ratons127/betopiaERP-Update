@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineActions,

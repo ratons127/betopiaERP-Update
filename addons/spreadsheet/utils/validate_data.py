@@ -8,27 +8,27 @@ from betopiaerp.tools.view_validation import get_domain_value_names
 
 markdown_link_regex = r"^\[([^\[]+)\]\((.+)\)$"
 
-xml_id_url_prefix = "BetopiaERP://ir_menu_xml_id/"
+xml_id_url_prefix = "betopiaerp://ir_menu_xml_id/"
 
-BetopiaERP_view_link_prefix = "BetopiaERP://view/"
+betopiaerp_view_link_prefix = "betopiaerp://view/"
 
 
-def BetopiaERP_charts(data):
-    """returns all BetopiaERP chart definitions in the spreadsheet"""
+def betopiaerp_charts(data):
+    """returns all betopiaerp chart definitions in the spreadsheet"""
     figures = []
     for sheet in data.get("sheets", []):
         for figure in sheet.get("figures", []):
-            if figure["tag"] == "chart" and figure["data"]["type"].startswith("BetopiaERP_"):
+            if figure["tag"] == "chart" and figure["data"]["type"].startswith("betopiaerp_"):
                 figures.append(dict(figure["data"], id=figure["id"]))
             elif figure["tag"] == "carousel":
-                figures.extend(get_BetopiaERP_charts_from_carousel(figure["data"]))
+                figures.extend(get_betopiaerp_charts_from_carousel(figure["data"]))
     return figures
 
 
-def get_BetopiaERP_charts_from_carousel(carousel):
+def get_betopiaerp_charts_from_carousel(carousel):
     charts = []
     for chart_id, chart in carousel["chartDefinitions"].items():
-        if chart["type"].startswith("BetopiaERP_"):
+        if chart["type"].startswith("betopiaerp_"):
             charts.append(dict(chart, id=chart_id))
     return charts
 
@@ -36,7 +36,7 @@ def get_BetopiaERP_charts_from_carousel(carousel):
 def links_urls(data):
     """return all markdown links in cells"""
     urls = []
-    link_prefix = "BetopiaERP://view/"
+    link_prefix = "betopiaerp://view/"
     for sheet in data.get("sheets", []):
         for cell in sheet.get("cells", {}).values():
             # 'cell' was an object in versions <saas-18.1
@@ -47,14 +47,14 @@ def links_urls(data):
     return urls
 
 
-def BetopiaERP_view_links(data):
+def betopiaerp_view_links(data):
     """return all view definitions embedded in link cells.
-    urls looks like BetopiaERP://view/{... view data...}
+    urls looks like betopiaerp://view/{... view data...}
     """
     return [
-        json.loads(url[len(BetopiaERP_view_link_prefix):])
+        json.loads(url[len(betopiaerp_view_link_prefix):])
         for url in links_urls(data)
-        if url.startswith(BetopiaERP_view_link_prefix)
+        if url.startswith(betopiaerp_view_link_prefix)
     ]
 
 
@@ -137,8 +137,8 @@ def chart_fields(chart):
 def filter_fields(data):
     """return all field names used in global filter definitions"""
     fields_by_model = defaultdict(set)
-    charts = BetopiaERP_charts(data)
-    if "BetopiaERPVersion" in data and data["BetopiaERPVersion"] < 5:
+    charts = betopiaerp_charts(data)
+    if "betopiaerpVersion" in data and data["betopiaerpVersion"] < 5:
         for filter_definition in data.get("globalFilters", []):
             for pivot_id, matching in filter_definition.get("pivotFields", dict()).items():
                 model = data["pivots"][pivot_id]["model"]
@@ -152,7 +152,7 @@ def filter_fields(data):
                 fields_by_model[model].add(matching["field"])
     else:
         for pivot in data.get("pivots", {}).values():
-            if pivot.get("type", "BetopiaERP") == "BetopiaERP":
+            if pivot.get("type", "BETOPIAERP") == "BETOPIAERP":
                 model = pivot["model"]
                 field = pivot.get("fieldMatching", {}).get("chain")
                 if field:
@@ -171,7 +171,7 @@ def filter_fields(data):
     return dict(fields_by_model)
 
 
-def BetopiaERP_view_fields(view):
+def betopiaerp_view_fields(view):
     return view["action"]["modelName"], set(domain_fields(view["action"]["domain"]))
 
 
@@ -185,12 +185,12 @@ def extract_fields(extract_fn, items):
 
 def fields_in_spreadsheet(data):
     """return all fields, grouped by model, used in the spreadsheet"""
-    BetopiaERP_pivots = (pivot for pivot in data.get("pivots", dict()).values() if pivot.get("type", "BetopiaERP") == "BetopiaERP")
+    betopiaerp_pivots = (pivot for pivot in data.get("pivots", dict()).values() if pivot.get("type", "BETOPIAERP") == "BETOPIAERP")
     all_fields = chain(
         extract_fields(list_fields, data.get("lists", dict()).values()).items(),
-        extract_fields(pivot_fields, BetopiaERP_pivots).items(),
-        extract_fields(chart_fields, BetopiaERP_charts(data)).items(),
-        extract_fields(BetopiaERP_view_fields, BetopiaERP_view_links(data)).items(),
+        extract_fields(pivot_fields, betopiaerp_pivots).items(),
+        extract_fields(chart_fields, betopiaerp_charts(data)).items(),
+        extract_fields(betopiaerp_view_fields, betopiaerp_view_links(data)).items(),
         filter_fields(data).items(),
     )
     fields_by_model = defaultdict(set)

@@ -9,7 +9,7 @@ import { renderToString } from "@web/core/utils/render";
 import { useSortable } from "@web/core/utils/sortable_owl";
 import { standardViewProps } from "@web/views/standard_view_props";
 import { BoardAction } from "./board_action";
-import { blockDom, Component, useState, useRef } from "@BetopiaERP/owl";
+import { blockDom, Component, useState, useRef } from "@betopiaerp/owl";
 
 export class BoardController extends Component {
     static template = "board.BoardView";

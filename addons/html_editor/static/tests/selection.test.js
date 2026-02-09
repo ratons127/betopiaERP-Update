@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { isInViewPort, press, queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { isInViewPort, press, queryFirst, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     defineModels,
     fields,
@@ -1195,7 +1195,7 @@ test("should not autoscroll if selection is partially visible in viewport", asyn
     });
 
     const scrollableElement = queryOne(".o_content");
-    const editable = queryOne(".BetopiaERP-editor-editable");
+    const editable = queryOne(".betopiaerp-editor-editable");
     const lastParagraph = editable.lastElementChild;
     const fifthLastParagraph = editable.children[45];
 

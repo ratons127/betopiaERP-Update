@@ -22,6 +22,6 @@ This is the base module for managing Units of measure.
             'uom/static/src/components/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

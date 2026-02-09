@@ -8,5 +8,5 @@ class AccountJournal(models.Model):
     invoice_reference_model = fields.Selection(selection_add=[
         ('fi', 'Finnish Standard Reference (2024000068)'),
         ('fi_rf', 'Finnish Creditor Reference (RF) (RF952024000071)'),
-    ], ondelete={'fi': lambda recs: recs.write({'invoice_reference_model': 'BetopiaERP'}),
-                 'fi_rf': lambda recs: recs.write({'invoice_reference_model': 'BetopiaERP'})})
+    ], ondelete={'fi': lambda recs: recs.write({'invoice_reference_model': 'betopiaerp'}),
+                 'fi_rf': lambda recs: recs.write({'invoice_reference_model': 'betopiaerp'})})

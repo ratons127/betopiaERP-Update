@@ -11,9 +11,9 @@ import {
     WebsocketWorker,
     WORKER_STATE,
 } from "@bus/workers/websocket_worker";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, manuallyDispatchProgrammaticEvent, runAllTimers, waitFor } from "@BetopiaERP/hoot-dom";
-import { mockWebSocket } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, manuallyDispatchProgrammaticEvent, runAllTimers, waitFor } from "@betopiaerp/hoot-dom";
+import { mockWebSocket } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     contains,

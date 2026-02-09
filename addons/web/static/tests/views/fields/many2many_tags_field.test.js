@@ -1,6 +1,6 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { hover, press, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { hover, press, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred, runAllTimers } from "@betopiaerp/hoot-mock";
 
 import {
     clickFieldDropdown,

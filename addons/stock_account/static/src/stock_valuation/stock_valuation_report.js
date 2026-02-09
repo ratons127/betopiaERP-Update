@@ -5,7 +5,7 @@ import { ControlPanel } from "@web/search/control_panel/control_panel";
 import { formatMonetary } from "@web/views/fields/formatters";
 import { standardActionServiceProps } from "@web/webclient/actions/action_service";
 
-import { Component, onWillStart, useChildSubEnv, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useChildSubEnv, useState } from "@betopiaerp/owl";
 
 import { StockValuationReportButtonsBar } from "../stock_valuation/buttons_bar/buttons_bar"
 import { StockValuationReportController } from "../stock_valuation/controller"

@@ -7,7 +7,7 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { test } from "@BetopiaERP/hoot";
+import { test } from "@betopiaerp/hoot";
 import { preloadBundle } from "@web/../tests/web_test_helpers";
 
 defineCalendarModels();

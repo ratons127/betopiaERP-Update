@@ -1,4 +1,4 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { setupPosEnv } from "@point_of_sale/../tests/unit/utils";
 import { PaymentScreen } from "@point_of_sale/app/screens/payment_screen/payment_screen";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";

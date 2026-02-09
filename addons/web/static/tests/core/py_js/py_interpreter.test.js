@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 import { evaluateBooleanExpr, evaluateExpr } from "@web/core/py_js/py";
 

@@ -20,7 +20,7 @@ class OnboardingController(http.Controller):
         :param str menu_id: The menu from which the user started the onboarding step, as an
                             `ir.ui.menu` id
         """
-        url = f"/BetopiaERP/action-payment_stripe.action_payment_provider_onboarding/{provider_id}?menu_id={menu_id}"
+        url = f"/betopiaerp/action-payment_stripe.action_payment_provider_onboarding/{provider_id}?menu_id={menu_id}"
         return request.redirect(url)
 
     @http.route(_onboarding_refresh_url, type='http', methods=['GET'], auth='user')

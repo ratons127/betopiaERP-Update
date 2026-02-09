@@ -20,6 +20,6 @@
             'barcodes_gs1_nomenclature/static/src/js/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

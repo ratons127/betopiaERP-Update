@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 export class ThemeAdvancedOption extends BaseOptionComponent {

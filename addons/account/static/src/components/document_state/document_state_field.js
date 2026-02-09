@@ -4,7 +4,7 @@ import { useService } from "@web/core/utils/hooks";
 
 import { SelectionField, selectionField } from "@web/views/fields/selection/selection_field";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class DocumentStatePopover extends Component {
     static template = "account.DocumentStatePopover";

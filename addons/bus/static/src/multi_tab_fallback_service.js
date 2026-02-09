@@ -1,5 +1,5 @@
 import { browser } from "@web/core/browser/browser";
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 
 let multiTabId = 0;
 /**

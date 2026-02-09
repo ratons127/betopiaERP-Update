@@ -70,58 +70,58 @@ class GoogleEvent(abc.Set):
         if self.recurrence and any('RRULE' in item for item in self.recurrence):
             return next(item for item in self.recurrence if 'RRULE' in item)
 
-    def BetopiaERP_id(self, env):
-        self.BetopiaERP_ids(env)  # load ids
-        return self._BetopiaERP_id
+    def betopiaerp_id(self, env):
+        self.betopiaerp_ids(env)  # load ids
+        return self._betopiaerp_id
 
-    def _meta_BetopiaERP_id(self, dbname):
+    def _meta_betopiaerp_id(self, dbname):
         """Returns the BetopiaERP id stored in the Google Event metadata.
         This id might not actually exists in the database.
         """
         properties = self.extendedProperties and (self.extendedProperties.get('shared', {}) or self.extendedProperties.get('private', {})) or {}
-        o_id = properties.get('%s_BetopiaERP_id' % dbname)
+        o_id = properties.get('%s_betopiaerp_id' % dbname)
         if o_id:
             return int(o_id)
 
-    def BetopiaERP_ids(self, env):
-        ids = tuple(e._BetopiaERP_id for e in self if e._BetopiaERP_id)
+    def betopiaerp_ids(self, env):
+        ids = tuple(e._betopiaerp_id for e in self if e._betopiaerp_id)
         if len(ids) == len(self):
             return ids
         model = self._get_model(env)
-        found = self._load_BetopiaERP_ids_from_db(env, model)
+        found = self._load_betopiaerp_ids_from_db(env, model)
         unsure = self - found
         if unsure:
-            unsure._load_BetopiaERP_ids_from_metadata(env, model)
+            unsure._load_betopiaerp_ids_from_metadata(env, model)
 
-        return tuple(e._BetopiaERP_id for e in self)
+        return tuple(e._betopiaerp_id for e in self)
 
-    def _load_BetopiaERP_ids_from_metadata(self, env, model):
-        unsure_BetopiaERP_ids = tuple(e._meta_BetopiaERP_id(env.cr.dbname) for e in self)
-        BetopiaERP_events = model.browse(_id for _id in unsure_BetopiaERP_ids if _id)
+    def _load_betopiaerp_ids_from_metadata(self, env, model):
+        unsure_betopiaerp_ids = tuple(e._meta_betopiaerp_id(env.cr.dbname) for e in self)
+        betopiaerp_events = model.browse(_id for _id in unsure_betopiaerp_ids if _id)
 
         # Extended properties are copied when splitting a recurrence Google side.
         # Hence, we may have two Google recurrences linked to the same BetopiaERP id.
         # Therefore, we only consider BetopiaERP records without google id when trying
         # to match events.
-        o_ids = BetopiaERP_events.exists().filtered(lambda e: not e.google_id).ids
+        o_ids = betopiaerp_events.exists().filtered(lambda e: not e.google_id).ids
         for e in self:
-            BetopiaERP_id = e._meta_BetopiaERP_id(env.cr.dbname)
-            if BetopiaERP_id in o_ids:
-                e._events[e.id]['_BetopiaERP_id'] = BetopiaERP_id
+            betopiaerp_id = e._meta_betopiaerp_id(env.cr.dbname)
+            if betopiaerp_id in o_ids:
+                e._events[e.id]['_betopiaerp_id'] = betopiaerp_id
 
-    def _load_BetopiaERP_ids_from_db(self, env, model):
-        BetopiaERP_events = model.with_context(active_test=False)._from_google_ids(self.ids)
-        mapping = {e.google_id: e.id for e in BetopiaERP_events}  # {google_id: BetopiaERP_id}
-        existing_google_ids = BetopiaERP_events.mapped('google_id')
+    def _load_betopiaerp_ids_from_db(self, env, model):
+        betopiaerp_events = model.with_context(active_test=False)._from_google_ids(self.ids)
+        mapping = {e.google_id: e.id for e in betopiaerp_events}  # {google_id: betopiaerp_id}
+        existing_google_ids = betopiaerp_events.mapped('google_id')
         for e in self:
-            BetopiaERP_id = mapping.get(e.id)
-            if BetopiaERP_id:
-                e._events[e.id]['_BetopiaERP_id'] = BetopiaERP_id
+            betopiaerp_id = mapping.get(e.id)
+            if betopiaerp_id:
+                e._events[e.id]['_betopiaerp_id'] = betopiaerp_id
         return self.filter(lambda e: e.id in existing_google_ids)
 
 
     def owner(self, env):
-        # Owner/organizer could be desynchronised between Google and betopiaerp.
+        # Owner/organizer could be desynchronised between Google and BetopiaERP.
         # Let userA, userB be two new users (never synced to Google before).
         # UserA creates an event in BetopiaERP (they are the owner) but userB syncs first.
         # There is no way to insert the event into userA's calendar since we don't have
@@ -153,7 +153,7 @@ class GoogleEvent(abc.Set):
 
     def clear_type_ambiguity(self, env):
         ambiguous_events = self.filter(GoogleEvent._is_type_ambiguous)
-        recurrences = ambiguous_events._load_BetopiaERP_ids_from_db(env, env['calendar.recurrence'])
+        recurrences = ambiguous_events._load_betopiaerp_ids_from_db(env, env['calendar.recurrence'])
         for recurrence in recurrences:
             self._events[recurrence.id]['recurrence'] = True
         for event in ambiguous_events - recurrences:
@@ -214,10 +214,10 @@ class GoogleEvent(abc.Set):
     def exists(self, env) -> 'GoogleEvent':
         recurrences = self.filter(GoogleEvent.is_recurrence)
         events = self - recurrences
-        recurrences.BetopiaERP_ids(env)
-        events.BetopiaERP_ids(env)
+        recurrences.betopiaerp_ids(env)
+        events.betopiaerp_ids(env)
 
-        return self.filter(lambda e: e._BetopiaERP_id)
+        return self.filter(lambda e: e._betopiaerp_id)
 
     def _is_type_ambiguous(self):
         """For cancelled events/recurrences, Google only send the id and
@@ -241,8 +241,8 @@ class GoogleEvent(abc.Set):
     def is_available(self):
         return self.transparency == 'transparent'
 
-    def get_BetopiaERP_event(self, env):
+    def get_betopiaerp_event(self, env):
         if self._get_model(env)._name == 'calendar.event':
-            return env['calendar.event'].browse(self.BetopiaERP_id(self.env))
+            return env['calendar.event'].browse(self.betopiaerp_id(self.env))
         else:
-            return env['calendar.recurrence'].browse(self.BetopiaERP_id(self.env)).base_event_id
+            return env['calendar.recurrence'].browse(self.betopiaerp_id(self.env)).base_event_id

@@ -10,7 +10,7 @@ from betopiaerp.fields import Domain
 from betopiaerp.addons.mail.tools.discuss import add_guest_to_context
 from betopiaerp.tools.misc import verify_limited_field_access_token
 
-PRESENCE_CHANNEL_PREFIX = "BetopiaERP-presence-"
+PRESENCE_CHANNEL_PREFIX = "betopiaerp-presence-"
 PRESENCE_CHANNEL_REGEX = re.compile(
     rf"{PRESENCE_CHANNEL_PREFIX}"
     r"(?P<model>res\.partner|mail\.guest)_(?P<record_id>\d+)"

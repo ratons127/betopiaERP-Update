@@ -1,5 +1,5 @@
 import { Plugin } from "@html_editor/plugin";
-import { useComponent } from "@BetopiaERP/owl";
+import { useComponent } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { Operation } from "./operation";
 

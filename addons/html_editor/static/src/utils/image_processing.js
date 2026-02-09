@@ -45,7 +45,7 @@ export const removeOnImageChangeAttrs = [...cropperDataFields, ...modifierFields
 
 const cache = {};
 
-const placeholderHref = "/web/image/__BetopiaERP__unknown__src__/";
+const placeholderHref = "/web/image/__betopiaerp__unknown__src__/";
 
 function _getValidSrc(src) {
     if (src in cache) {
@@ -234,7 +234,7 @@ export async function loadImageInfo(el, attachmentSrc = "") {
     // check if the image is local or not here as a previous bug converted some
     // local (relative src) images to absolute URL... and that before users had
     // setup their website domain. That means they can have an absolute URL that
-    // looks like "https://mycompany.BetopiaERP.com/web/image/123" that leads to a
+    // looks like "https://mycompany.betopiaerp.com/web/image/123" that leads to a
     // "local" image even if the domain name is now "mycompany.be".
     //
     // The "redirect" check is for when it is a redirect image attachment due to

@@ -26,7 +26,7 @@ if [[ "${1:-}" == "-c" || "${1:-}" == "--cleanup" ]]; then
     umount -lv "${MOUNT_POINT}" > /dev/null 2>&1 || true
     rm -rfv "${MOUNT_POINT}"
     rm -rf overwrite_before_init/usr
-    rm -rf overwrite_before_init/home/pi/BetopiaERP
+    rm -rf overwrite_before_init/home/pi/betopiaerp
     rm -rfv iotbox.img
     losetup -d /dev/loop0 > /dev/null 2>&1 || true
     losetup -d /dev/loop1 > /dev/null 2>&1 || true
@@ -69,8 +69,8 @@ cp -v "./.ssh/iotbox_ca_${VERSION_IOTBOX}.pub" "${MOUNT_POINT}/etc/ssh/ca.pub"
 chroot "${MOUNT_POINT}" /bin/bash -c "/etc/init_image.sh"
 
 # Copy IoT Box version info.
-mkdir -pv "${MOUNT_POINT}/var/BetopiaERP/"
-echo "${VERSION_IOTBOX}" > "${MOUNT_POINT}/var/BetopiaERP/iotbox_version"
+mkdir -pv "${MOUNT_POINT}/var/betopiaerp/"
+echo "${VERSION_IOTBOX}" > "${MOUNT_POINT}/var/betopiaerp/iotbox_version"
 
 # 'Overlay' the post-init overwrite directory onto the mounted image filesystem.
 cp -a "${OVERWRITE_FILES_AFTER_INIT_DIR}"/* "${MOUNT_POINT}"

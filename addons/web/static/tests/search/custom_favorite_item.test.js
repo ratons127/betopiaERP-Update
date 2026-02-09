@@ -1,5 +1,5 @@
-import { after, expect, test } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { after, expect, test } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     defineModels,
     editFavoriteName,

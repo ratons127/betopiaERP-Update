@@ -1,5 +1,5 @@
 import { registerComposerAction } from "@mail/core/common/composer_actions";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 registerComposerAction("voice-start", {

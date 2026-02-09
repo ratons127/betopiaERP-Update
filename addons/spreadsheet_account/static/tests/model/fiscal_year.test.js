@@ -1,11 +1,11 @@
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setCellContent } from "@spreadsheet/../tests/helpers/commands";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { getEvaluatedCell } from "@spreadsheet/../tests/helpers/getters";
 import "@spreadsheet_account/index";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 
 describe.current.tags("headless");
@@ -30,8 +30,8 @@ test("Basic evaluation", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.FISCALYEAR.START("11/11/2020")`);
-    setCellContent(model, "A2", `=BetopiaERP.FISCALYEAR.END("11/11/2020")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FISCALYEAR.START("11/11/2020")`);
+    setCellContent(model, "A2", `=BETOPIAERP.FISCALYEAR.END("11/11/2020")`);
     await waitForDataLoaded(model);
     expect.verifySteps(["get_fiscal_dates"]);
     expect(getEvaluatedCell(model, "A1").formattedValue).toBe("1/1/2020");
@@ -55,8 +55,8 @@ test("with a given company id", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.FISCALYEAR.START("11/11/2020", 1)`);
-    setCellContent(model, "A2", `=BetopiaERP.FISCALYEAR.END("11/11/2020", 1)`);
+    setCellContent(model, "A1", `=BETOPIAERP.FISCALYEAR.START("11/11/2020", 1)`);
+    setCellContent(model, "A2", `=BETOPIAERP.FISCALYEAR.END("11/11/2020", 1)`);
     await waitForDataLoaded(model);
     expect.verifySteps(["get_fiscal_dates"]);
     expect(getEvaluatedCell(model, "A1").formattedValue).toBe("1/1/2020");
@@ -80,8 +80,8 @@ test("with a wrong company id", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.FISCALYEAR.START("11/11/2020", 100)`);
-    setCellContent(model, "A2", `=BetopiaERP.FISCALYEAR.END("11/11/2020", 100)`);
+    setCellContent(model, "A1", `=BETOPIAERP.FISCALYEAR.START("11/11/2020", 100)`);
+    setCellContent(model, "A2", `=BETOPIAERP.FISCALYEAR.END("11/11/2020", 100)`);
     await waitForDataLoaded(model);
     expect.verifySteps(["get_fiscal_dates"]);
     expect(getEvaluatedCell(model, "A1").message).toBe(
@@ -94,13 +94,13 @@ test("with a wrong company id", async () => {
 
 test("with wrong input arguments", async () => {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A1", `=BetopiaERP.FISCALYEAR.START("not a number")`);
-    setCellContent(model, "A2", `=BetopiaERP.FISCALYEAR.END("11/11/2020", "not a number")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FISCALYEAR.START("not a number")`);
+    setCellContent(model, "A2", `=BETOPIAERP.FISCALYEAR.END("11/11/2020", "not a number")`);
     expect(getEvaluatedCell(model, "A1").message).toBe(
-        "The function BetopiaERP.FISCALYEAR.START expects a number value, but 'not a number' is a string, and cannot be coerced to a number."
+        "The function BETOPIAERP.FISCALYEAR.START expects a number value, but 'not a number' is a string, and cannot be coerced to a number."
     );
     expect(getEvaluatedCell(model, "A2").message).toBe(
-        "The function BetopiaERP.FISCALYEAR.END expects a number value, but 'not a number' is a string, and cannot be coerced to a number."
+        "The function BETOPIAERP.FISCALYEAR.END expects a number value, but 'not a number' is a string, and cannot be coerced to a number."
     );
 });
 
@@ -112,8 +112,8 @@ test("Date format is locale dependant", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.FISCALYEAR.START("11/11/2020", 1)`);
-    setCellContent(model, "A2", `=BetopiaERP.FISCALYEAR.END("11/11/2020", 1)`);
+    setCellContent(model, "A1", `=BETOPIAERP.FISCALYEAR.START("11/11/2020", 1)`);
+    setCellContent(model, "A2", `=BETOPIAERP.FISCALYEAR.END("11/11/2020", 1)`);
     await waitForDataLoaded(model);
 
     expect(getEvaluatedCell(model, "A1").format).toBe("m/d/yyyy");

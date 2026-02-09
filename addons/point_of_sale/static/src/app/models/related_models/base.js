@@ -1,6 +1,6 @@
 import { WithLazyGetterTrap } from "@point_of_sale/lazy_getter";
 import { deepImmutable, clone, RAW_SYMBOL } from "./utils";
-import { toRaw } from "@BetopiaERP/owl";
+import { toRaw } from "@betopiaerp/owl";
 const { DateTime } = luxon;
 
 export class Base extends WithLazyGetterTrap {

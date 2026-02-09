@@ -10,7 +10,7 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { pttExtensionServiceInternal } from "@mail/discuss/call/common/ptt_extension_service";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

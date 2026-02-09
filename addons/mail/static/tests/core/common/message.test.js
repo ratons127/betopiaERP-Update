@@ -8,8 +8,8 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 
-import { describe, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 import { getOrigin } from "@web/core/utils/urls";
 
 describe.current.tags("desktop");

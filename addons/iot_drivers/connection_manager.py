@@ -56,7 +56,7 @@ class ConnectionManager(Thread):
 
     def _should_poll_to_connect_database(self):
         return (
-            not helpers.get_BetopiaERP_server_url() and
+            not helpers.get_betopiaerp_server_url() and
             helpers.get_ip() and
             not (IS_RPI and wifi.is_access_point()) and
             not self.pairing_code_expired
@@ -73,7 +73,7 @@ class ConnectionManager(Thread):
 
         try:
             req = requests.post(
-                'https://iot-proxy.betopiaerp.com/BetopiaERP-enterprise/iot/connect-box',
+                'https://iot-proxy.betopiaerp.com/betopiaerp-enterprise/iot/connect-box',
                 json=data,
                 timeout=5,
             )
@@ -101,7 +101,7 @@ class ConnectionManager(Thread):
         # Switch git branch before restarting, this avoids restarting twice
         upgrade.check_git_branch()
         # Restart to get a certificate, load the IoT handlers...
-        helpers.BetopiaERP_restart(2)
+        helpers.betopiaerp_restart(2)
 
     def _try_print_pairing_code(self):
         printers = [device for device in iot_devices.values() if device.device_type == 'printer' and device.connected_by_usb and device.device_subtype in ['receipt_printer', 'label_printer']]

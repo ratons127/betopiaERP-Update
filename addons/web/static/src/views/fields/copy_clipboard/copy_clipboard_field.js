@@ -8,7 +8,7 @@ import { CharField } from "../char/char_field";
 import { standardFieldProps } from "../standard_field_props";
 import { UrlField } from "../url/url_field";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 class CopyClipboardField extends Component {
     static template = "web.CopyClipboardField";

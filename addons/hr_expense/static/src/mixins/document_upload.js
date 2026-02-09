@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { Domain } from "@web/core/domain";
 import { useBus, useRefListener, useService } from '@web/core/utils/hooks';
-import { onWillStart, useRef, useEffect, useState } from "@BetopiaERP/owl";
+import { onWillStart, useRef, useEffect, useState } from "@betopiaerp/owl";
 
 export const ExpenseDocumentDropZone = (T) => class ExpenseDocumentDropZone extends T {
     static props = [
@@ -126,7 +126,7 @@ export const ExpenseDocumentUpload = (T) => class ExpenseDocumentUpload extends 
 
     async _onChangeFileInput(files) {
         const params = {
-            csrf_token: BetopiaERP.csrf_token,
+            csrf_token: betopiaerp.csrf_token,
             ufile : files,
             model: 'hr.expense',
             id: 0,

@@ -2,7 +2,7 @@ import { useService } from "@web/core/utils/hooks";
 import { registry } from '@web/core/registry';
 import { listView } from '@web/views/list/list_view';
 import { ListController } from "@web/views/list/list_controller";
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 
 export class HolidaysListController extends ListController {
     static template = "hr_holidays.HolidaysListView";

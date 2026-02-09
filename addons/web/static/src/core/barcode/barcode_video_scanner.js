@@ -5,7 +5,7 @@ import { delay } from "@web/core/utils/concurrency";
 import { loadJS } from "@web/core/assets";
 import { isVideoElementReady, buildZXingBarcodeDetector } from "./ZXingBarcodeDetector";
 import { CropOverlay } from "./crop_overlay";
-import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { pick } from "@web/core/utils/objects";
 

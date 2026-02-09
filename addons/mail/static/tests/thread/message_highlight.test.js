@@ -7,9 +7,9 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { Thread } from "@mail/core/common/thread";
-import { describe, test } from "@BetopiaERP/hoot";
-import { advanceTime, Deferred, tick, waitFor } from "@BetopiaERP/hoot-dom";
-import { disableAnimations } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { advanceTime, Deferred, tick, waitFor } from "@betopiaerp/hoot-dom";
+import { disableAnimations } from "@betopiaerp/hoot-mock";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 defineMailModels();

@@ -1,5 +1,5 @@
 import { removeClass } from "@html_editor/utils/dom";
-import { markup, onMounted, useExternalListener } from "@BetopiaERP/owl";
+import { markup, onMounted, useExternalListener } from "@betopiaerp/owl";
 import { BASIC_PLUGINS, FULL_EDIT_PLUGINS } from "../../plugins/plugin_sets";
 import { useResizer } from "./resizer_hook";
 import { Wysiwyg } from "@html_editor/wysiwyg";
@@ -16,7 +16,7 @@ export class WebsiteForumWysiwyg extends Wysiwyg {
     };
     static defaultProps = {
         ...super.defaultProps,
-        class: "BetopiaERP-editor",
+        class: "betopiaerp-editor",
         contentClass: "note-editable",
     };
 

@@ -391,4 +391,4 @@ class TestPersonalStageTour(HttpCase, TestProjectCommon):
 
     def test_personal_stage_tour(self):
         # Test customizing personal stages as a project user
-        self.start_tour('/BetopiaERP', 'personal_stage_tour', login="armandel")
+        self.start_tour('/betopiaerp', 'personal_stage_tour', login="armandel")

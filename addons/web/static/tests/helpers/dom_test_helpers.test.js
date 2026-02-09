@@ -1,6 +1,6 @@
-import { expect, onError, test } from "@BetopiaERP/hoot";
-import { on } from "@BetopiaERP/hoot-dom";
-import { Component, useRef, xml } from "@BetopiaERP/owl";
+import { expect, onError, test } from "@betopiaerp/hoot";
+import { on } from "@betopiaerp/hoot-dom";
+import { Component, useRef, xml } from "@betopiaerp/owl";
 import { contains, getMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";

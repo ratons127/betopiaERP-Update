@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, tick, waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, tick, waitFor, waitForNone } from "@betopiaerp/hoot-dom";
 import { setupEditor } from "./_helpers/editor";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { getContent, setContent, setSelection } from "./_helpers/selection";
 import { splitBlock, undo } from "./_helpers/user_actions";
 import { contains } from "@web/../tests/web_test_helpers";
@@ -270,7 +270,7 @@ test("Styles should be preserved when replacing icon", async () => {
     expect("span.fa-search.fa-3x").toHaveCount(1);
 });
 
-test("Can replace a BetopiaERP icon", async () => {
+test("Can replace a betopiaerp icon", async () => {
     const { editor, el } = await setupEditor(`<p><span class="oi oi-plus"></span></p>`);
     expect(getContent(el)).toBe(
         `<p>\ufeff<span class="oi oi-plus" contenteditable="false">\u200b</span>\ufeff</p>`

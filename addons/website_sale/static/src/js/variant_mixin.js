@@ -5,7 +5,7 @@ import { KeepLast } from '@web/core/utils/concurrency';
 import { memoize } from '@web/core/utils/functions';
 import { insertThousandsSep } from '@web/core/utils/numbers';
 import { throttleForAnimation } from '@web/core/utils/timing';
-import { markup } from '@BetopiaERP/owl';
+import { markup } from '@betopiaerp/owl';
 import wSaleUtils from '@website_sale/js/website_sale_utils';
 
 const VariantMixin = {

@@ -1,6 +1,6 @@
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { runAllTimers, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { runAllTimers, waitFor } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     contains,

@@ -1,21 +1,21 @@
 import { uuidv4 } from "@point_of_sale/utils";
 import { getService, makeDialogMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
-import { animationFrame, tick, waitFor, waitUntil } from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { animationFrame, tick, waitFor, waitUntil } from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { patch } from "@web/core/utils/patch";
-import { onMounted } from "@BetopiaERP/owl";
-import { expect } from "@BetopiaERP/hoot";
+import { onMounted } from "@betopiaerp/owl";
+import { expect } from "@betopiaerp/hoot";
 
 const { DateTime } = luxon;
 
 export const setupPosEnv = async () => {
     // Do not change these variables, they are in accordance with the demo data
-    BetopiaERP.pos_session_id = 1;
-    BetopiaERP.pos_config_id = 1;
-    BetopiaERP.from_backend = 0;
-    BetopiaERP.access_token = uuidv4(); // Avoid indexedDB conflicts
-    BetopiaERP.info = {
+    betopiaerp.pos_session_id = 1;
+    betopiaerp.pos_config_id = 1;
+    betopiaerp.from_backend = 0;
+    betopiaerp.access_token = uuidv4(); // Avoid indexedDB conflicts
+    betopiaerp.info = {
         db: `pos-${uuidv4()}`, // Avoid indexedDB conflicts
         isEnterprise: true,
     };

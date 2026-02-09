@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { unformat } from "../_helpers/format";
 import { base64Img } from "../_helpers/editor";
 

@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor } from "../_helpers/editor";
-import { click, manuallyDispatchProgrammaticEvent, queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { click, manuallyDispatchProgrammaticEvent, queryAll, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { getContent, setSelection } from "../_helpers/selection";
 import { execCommand } from "../_helpers/userCommands";
 import { expandToolbar } from "../_helpers/toolbar";

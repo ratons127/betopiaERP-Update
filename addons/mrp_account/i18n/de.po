@@ -6,16 +6,16 @@
 # Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Larissa Manderfeld (lman)" <lman@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Larissa Manderfeld (lman)" <lman@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-28 14:26+0000\n"
-"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@BetopiaERP.com>\n"
-"Language-Team: German <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Larissa Manderfeld (lman)\" <lman@betopiaerp.com>\n"
+"Language-Team: German <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "mrp_account/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -35,13 +35,13 @@ msgid "$5000"
 msgstr "5000 €"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/stock_move.py:0
 msgid "%(value)s for %(quantity)s %(unit)s from %(production)s"
 msgstr "%(value)s für %(quantity)s %(unit)s aus %(production)s"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
 msgstr "%s - Arbeit"
@@ -147,7 +147,7 @@ msgid "Analytic Precision"
 msgstr "Kostengenauigkeit"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/analytic_account.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_account.account_analytic_account_view_form_mrp
 msgid "Bills of Materials"
@@ -189,8 +189,8 @@ msgstr ""
 "entsprechenden Stücklisten, nur für Fertigungsprodukte."
 
 #. module: mrp_account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/mrp_account/report/stock_valuation_report.py:0
 #: code:addons/mrp_account/static/src/stock_valuation/stock_valuation_report.js:0
 #: code:addons/mrp_account/static/src/stock_valuation/stock_valuation_report.xml:0
@@ -344,7 +344,7 @@ msgid "MO Overview Report"
 msgstr "Übersichtsbericht der Fertigungsaufträge"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manual Entry"
 msgstr "Manuelle Eingabe"
@@ -357,7 +357,7 @@ msgid "Manufacturing Order"
 msgstr "Fertigungsauftrag"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/analytic_account.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_account.account_analytic_account_view_form_mrp
 msgid "Manufacturing Orders"
@@ -371,7 +371,7 @@ msgid "Manufacturing Orders Count"
 msgstr "Anzahl Fertigungsaufträge"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manufacturing WIP - %(orders_list)s"
 msgstr "WIP-Fertigung - %(orders_list)s"
@@ -387,7 +387,7 @@ msgid "Mo Analytic Account Line"
 msgstr "Zeile der Kostenstelle bei Fertigungsaufträgen"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Please make sure the total credit amount equals the total debit amount."
 msgstr ""
@@ -456,13 +456,13 @@ msgid "Reversal Date"
 msgstr "Stornodatum"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal date must be after the posting date."
 msgstr "Das Stornodatum muss nach dem Buchungsdatum liegen."
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal of: %s"
 msgstr "Stornierung von: %s"
@@ -532,19 +532,19 @@ msgid "Units"
 msgstr "Einheiten"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Component Value"
 msgstr "WIP - Komponentenwert"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Overhead"
 msgstr "WIP – Gemeinkosten"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "WIP Entries of %s"
 msgstr "WIP-Buchungen von %s"
@@ -555,7 +555,7 @@ msgid "WIP Journal Entry Count"
 msgstr "Anzahl WIP-Journalbuchungen"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/account_move.py:0
 msgid "WIP MOs of %s"
 msgstr "WIP-Fertigungsaufträge von %s"
@@ -611,7 +611,7 @@ msgid "Work Order Count"
 msgstr "Anzahl Arbeitsaufträge"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/analytic_account.py:0
 msgid "Work Orders"
 msgstr "Arbeitsaufträge"
@@ -627,7 +627,7 @@ msgid "Workcenter Productivity Log"
 msgstr "Produktivitätsprotokoll des Arbeitsplatzes"
 
 #. module: mrp_account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 #: code:addons/mrp_account/models/mrp_workorder.py:0
 msgid "[WC] %s"

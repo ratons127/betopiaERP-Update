@@ -1,4 +1,4 @@
-import { Component, useRef, onMounted, onPatched } from "@BetopiaERP/owl";
+import { Component, useRef, onMounted, onPatched } from "@betopiaerp/owl";
 import { useHorizontalScrollShadow } from "../../utils/scroll_shadow_hook";
 import { useDraggableScroll } from "../../utils/scroll_dnd_hook";
 import { scrollItemIntoViewX } from "../../utils/scroll";

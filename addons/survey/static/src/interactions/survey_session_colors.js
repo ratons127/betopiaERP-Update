@@ -2,7 +2,7 @@
  * Small tool that returns common colors for survey session interactions.
  */
 export default [
-    // the same colors as those used in BetopiaERP reporting
+    // the same colors as those used in betopiaerp reporting
     "31,119,180",
     "255,127,14",
     "174,199,232",

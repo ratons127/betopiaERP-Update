@@ -35,6 +35,6 @@ associated to every resource. It also manages the leaves of every resource.
             'resource/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -45,4 +45,4 @@ class TestHrHolidaysTour(HttpCase):
             'date_to': '2022-12-31',
         })
 
-        self.start_tour('/BetopiaERP', 'hr_holidays_tour', login="admin")
+        self.start_tour('/betopiaerp', 'hr_holidays_tour', login="admin")

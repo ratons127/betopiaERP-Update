@@ -19,7 +19,7 @@ const PUSH_NOTIFICATION_ACTION = {
 const { Store, set, get } = idbKeyval;
 const LOG_AGE_LIMIT = 24 * 60 * 60 * 1000; // 24h
 let db;
-const unread_store = new Store("BetopiaERP-mail-unread-db", "BetopiaERP-mail-unread-store");
+const unread_store = new Store("betopiaerp-mail-unread-db", "betopiaerp-mail-unread-store");
 let interactionSinceCleanupCount = 0;
 
 async function openDatabase() {
@@ -124,16 +124,16 @@ async function storeLogs(logs, { download = false } = {}) {
 /**
  * @param {number} channelId id of the mail discuss channel
  * @param {Object} param1
- * @param {string} [param1.action] BetopiaERP client action
+ * @param {string} [param1.action] betopiaerp client action
  * @param {boolean} [param1.joinCall] whether we want to join a call on that channel
  * @param {Client | ServiceWorker | MessagePort} [source] if set, will not open the channel on the source
  */
 async function openDiscussChannel(channelId, { action, joinCall = false, source } = {}) {
-    const discussURLRegexes = [new RegExp("/BetopiaERP/discuss")];
+    const discussURLRegexes = [new RegExp("/betopiaerp/discuss")];
     if (action) {
         discussURLRegexes.push(
-            new RegExp(`/BetopiaERP/\\d+/action-${action}`),
-            new RegExp(`/BetopiaERP/action-${action}`)
+            new RegExp(`/betopiaerp/\\d+/action-${action}`),
+            new RegExp(`/betopiaerp/action-${action}`)
         );
     }
     let targetClient;
@@ -154,7 +154,7 @@ async function openDiscussChannel(channelId, { action, joinCall = false, source 
         return;
     }
     if (action) {
-        const url = new URL(`/BetopiaERP/action-${action}`, location.origin);
+        const url = new URL(`/betopiaerp/action-${action}`, location.origin);
         url.searchParams.set("active_id", `discuss.channel_${channelId}`);
         if (joinCall) {
             url.searchParams.set("call", "accept");
@@ -193,7 +193,7 @@ self.addEventListener("notificationclick", (event) => {
             );
         } else {
             const modelPath = model.includes(".") ? model : `m-${model}`;
-            event.waitUntil(clients.openWindow(`/BetopiaERP/${modelPath}/${res_id}`));
+            event.waitUntil(clients.openWindow(`/betopiaerp/${modelPath}/${res_id}`));
         }
     }
 });

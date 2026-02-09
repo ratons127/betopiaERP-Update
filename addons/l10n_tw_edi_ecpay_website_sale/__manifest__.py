@@ -7,8 +7,8 @@
     "description": """
         This bridge module allows the user to input Ecpay information in ecommerce for sending their invoices to the Ecpay system
     """,
-    "website": "https://www.betopiaerp.com",
-    'author': 'BetopiaERP S.A.',
+    "website": "https://www.BetopiaERP.com",
+    'author': 'BetopiaERP',
     "license": "LGPL-3",
     "depends": [
         "website_sale",

@@ -11,7 +11,7 @@ import { uniqueId } from "@web/core/utils/functions";
 import { clamp } from "@web/core/utils/numbers";
 import { debounce, useThrottleForAnimation } from "@web/core/utils/timing";
 
-import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } from "@betopiaerp/owl";
 
 const ARROW_KEYS = ["arrowup", "arrowdown", "arrowleft", "arrowright"];
 const SLIDER_KEYS = [...ARROW_KEYS, "pageup", "pagedown", "home", "end"];

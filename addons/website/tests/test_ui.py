@@ -188,7 +188,7 @@ class TestUiHtmlEditor(HttpCaseWithUserDemo):
 
     def test_code_editor_usable(self):
         # TODO: enable debug mode when failing tests have been fixed (props validation)
-        url = '/BetopiaERP/action-website.website_preview'
+        url = '/betopiaerp/action-website.website_preview'
         self.start_tour(url, 'website_code_editor_usable', login='admin')
 
 
@@ -301,7 +301,7 @@ class TestUiTranslate(betopiaerp.tests.HttpCase):
 class TestUi(HttpCaseWithWebsiteUser):
 
     def test_01_admin_tour_homepage(self):
-        self.start_tour("/BetopiaERP", 'homepage', login='admin')
+        self.start_tour("/betopiaerp", 'homepage', login='admin')
 
     def test_02_restricted_editor(self):
         self.start_tour(self.env['website'].get_client_action_url('/'), 'restricted_editor', login="website_user")
@@ -383,7 +383,7 @@ class TestUi(HttpCaseWithWebsiteUser):
 
     def test_10_website_conditional_visibility(self):
         self.start_tour(self.env['website'].get_client_action_url('/'), 'conditional_visibility_1', login='admin')
-        self.start_tour('/BetopiaERP', 'conditional_visibility_2', login='website_user')
+        self.start_tour('/betopiaerp', 'conditional_visibility_2', login='website_user')
         self.start_tour(self.env['website'].get_client_action_url('/'), 'conditional_visibility_3', login='admin', timeout=180)
         self.start_tour(self.env['website'].get_client_action_url('/'), 'conditional_visibility_4', login='admin')
         self.start_tour(self.env['website'].get_client_action_url('/'), 'conditional_visibility_5', login='admin')
@@ -419,16 +419,16 @@ class TestUi(HttpCaseWithWebsiteUser):
         self.start_tour('/', 'website_snippets_menu_tabs', login='admin')
 
     def test_19_website_page_options(self):
-        self.start_tour("/BetopiaERP", "website_page_options", login="admin")
+        self.start_tour("/betopiaerp", "website_page_options", login="admin")
 
     def test_20_snippet_editor_panel_options(self):
         self.start_tour('/@/', 'snippet_editor_panel_options', login='admin')
 
     def test_21_website_start_cloned_snippet(self):
-        self.start_tour('/BetopiaERP', 'website_start_cloned_snippet', login='admin')
+        self.start_tour('/betopiaerp', 'website_start_cloned_snippet', login='admin')
 
     def test_22_website_gray_color_palette(self):
-        self.start_tour('/BetopiaERP', 'website_gray_color_palette', login='admin')
+        self.start_tour('/betopiaerp', 'website_gray_color_palette', login='admin')
 
     def test_23_website_multi_edition(self):
         self.start_tour('/@/', 'website_multi_edition', login='admin')
@@ -458,17 +458,17 @@ class TestUi(HttpCaseWithWebsiteUser):
         self.env.ref('website.default_website').write({
             'social_twitter': 'https://twitter.com/BetopiaERP',
             'social_facebook': 'https://www.facebook.com/BetopiaERP',
-            'social_linkedin': 'https://www.linkedin.com/company/BetopiaERP',
+            'social_linkedin': 'https://www.linkedin.com/company/betopiaerp',
             'social_youtube': 'https://www.youtube.com/user/OpenERPonline',
-            'social_github': 'https://github.com/BetopiaERP',
-            'social_instagram': 'https://www.instagram.com/explore/tags/BetopiaERP/',
-            'social_tiktok': 'https://www.tiktok.com/@BetopiaERP',
+            'social_github': 'https://github.com/betopiaerp',
+            'social_instagram': 'https://www.instagram.com/explore/tags/betopiaerp/',
+            'social_tiktok': 'https://www.tiktok.com/@betopiaerp',
             'social_discord': 'https://discord.com/servers/discord-town-hall-169256939211980800',
         })
         self.start_tour("/", 'website_media_dialog_icons', login='admin')
 
     def test_27_website_clicks(self):
-        self.start_tour('/BetopiaERP', 'website_click_tour', login='admin')
+        self.start_tour('/betopiaerp', 'website_click_tour', login='admin')
 
     def test_29_website_text_edition(self):
         self.start_tour('/@/', 'website_text_edition', login='admin')
@@ -499,7 +499,7 @@ class TestUi(HttpCaseWithWebsiteUser):
         self.env['website'].create({
             'name': 'Test Website',
         })
-        self.start_tour("/BetopiaERP/action-website.action_website_menu", "parent_child_menu", login="admin")
+        self.start_tour("/betopiaerp/action-website.action_website_menu", "parent_child_menu", login="admin")
 
     def test_website_media_dialog_image_shape(self):
         self.start_tour("/", 'website_media_dialog_image_shape', login='admin')

@@ -3,8 +3,8 @@ import { useService } from "@web/core/utils/hooks";
 
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 
-import { stores } from "@BetopiaERP/o-spreadsheet";
-import { useEffect, useEnv, useExternalListener, useState } from "@BetopiaERP/owl";
+import { stores } from "@betopiaerp/o-spreadsheet";
+import { useEffect, useEnv, useExternalListener, useState } from "@betopiaerp/owl";
 
 import { loadBundle } from "@web/core/assets";
 

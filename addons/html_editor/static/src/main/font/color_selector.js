@@ -1,5 +1,5 @@
 import { isColorGradient } from "@web/core/utils/colors";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import {
     useColorPicker,
     DEFAULT_COLORS,

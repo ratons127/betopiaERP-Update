@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="product_wishlist" inherit_id="website_sale_wishlist.product_wishlist">
         <xpath expr="//t[@t-call='website_sale.products_item']" position="inside">
             <t t-set="product_extra_information">
@@ -36,4 +36,4 @@
             </button>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

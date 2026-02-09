@@ -15,7 +15,7 @@ import {
     useRef,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 import { loadBundle } from "@web/core/assets";
 import { _t, appTranslateFn } from "@web/core/l10n/translation";
@@ -52,7 +52,7 @@ export async function loadEmoji() {
     const res = { categories: [], emojis: [] };
     try {
         await loader.loadEmoji();
-        const { getCategories, getEmojis } = BetopiaERP.loader.modules.get(
+        const { getCategories, getEmojis } = betopiaerp.loader.modules.get(
             "@web/core/emoji_picker/emoji_data"
         );
         res.categories = getCategories();

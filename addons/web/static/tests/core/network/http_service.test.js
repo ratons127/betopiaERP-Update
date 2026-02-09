@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockFetch } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockFetch } from "@betopiaerp/hoot-mock";
 
 import { get, post } from "@web/core/network/http_service";
 

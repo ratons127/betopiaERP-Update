@@ -1,7 +1,7 @@
 import { Composer } from "@mail/core/common/composer";
 import { markEventHandled } from "@web/core/utils/misc";
 
-import { markup, useRef } from "@BetopiaERP/owl";
+import { markup, useRef } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";

@@ -4,9 +4,9 @@ import {
     setupHTMLBuilder,
 } from "@html_builder/../tests/helpers";
 import { BuilderAction } from "@html_builder/core/builder_action";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
-import { xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
+import { xml } from "@betopiaerp/owl";
 import { contains, defineModels, fields, models, onRpc } from "@web/../tests/web_test_helpers";
 import { delay } from "@web/core/utils/concurrency";
 import { BaseOptionComponent } from "@html_builder/core/utils";

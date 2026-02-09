@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { radioField, RadioField } from "@web/views/fields/radio/radio_field";
-import { onWillStart, useState } from "@BetopiaERP/owl";
+import { onWillStart, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { deepCopy } from "@web/core/utils/objects";
 

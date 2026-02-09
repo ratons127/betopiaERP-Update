@@ -4,7 +4,7 @@ from betopiaerp.tests import common
 
 class TestDataModuleInstalled(common.TransactionCase):
     """ Test that the fake data module `test_data_module` is correctly installed.
-    The use case of this test is that BetopiaERP supports installation of data modules only without `__init__.py`.
+    The use case of this test is that betopiaerp supports installation of data modules only without `__init__.py`.
     """
 
     def test_data_module_installed(self):

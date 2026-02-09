@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 class AttachmentNumber extends Component {

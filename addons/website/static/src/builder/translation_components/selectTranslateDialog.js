@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 import { WebsiteDialog } from "@website/components/dialog/dialog";
 
 // Used to translate the text of `<select/>` options since it should not be

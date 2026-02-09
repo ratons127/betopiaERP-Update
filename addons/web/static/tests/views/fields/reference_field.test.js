@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, edit, press, queryAllValues, queryFirst, select } from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, edit, press, queryAllValues, queryFirst, select } from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     defineModels,

@@ -1,9 +1,9 @@
 import { InvisibleElementsPanel } from "@html_builder/sidebar/invisible_elements_panel";
 import { getSnippetStructure, waitForEndOfOperation } from "@html_builder/../tests/helpers";
 import { unformat } from "@html_editor/../tests/_helpers/format";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts, queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts, queryFirst, queryOne } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     addOption,

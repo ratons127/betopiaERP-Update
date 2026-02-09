@@ -1,4 +1,4 @@
-import { Component, onMounted, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, useExternalListener, useRef } from "@betopiaerp/owl";
 import { Toolbar } from "./toolbar";
 
 export class ToolbarMobile extends Component {

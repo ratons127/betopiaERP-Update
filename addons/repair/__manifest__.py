@@ -48,6 +48,6 @@ The following topics are covered by this module:
             'repair/static/tests/tours/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

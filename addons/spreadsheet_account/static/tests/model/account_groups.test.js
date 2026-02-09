@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setCellContent } from "@spreadsheet/../tests/helpers/commands";
 import { getCellValue } from "@spreadsheet/../tests/helpers/getters";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
@@ -15,21 +15,21 @@ const serverData = getAccountingData();
 
 test("get no account", async () => {
     const { model } = await createModelWithDataSource({ serverData });
-    setCellContent(model, "A1", `=BetopiaERP.ACCOUNT.GROUP("test")`);
+    setCellContent(model, "A1", `=BETOPIAERP.ACCOUNT.GROUP("test")`);
     await waitForDataLoaded(model);
     expect(getCellValue(model, "A1")).toBe("");
 });
 
 test("get one account", async () => {
     const { model } = await createModelWithDataSource({ serverData });
-    setCellContent(model, "A1", `=BetopiaERP.ACCOUNT.GROUP("income_other")`);
+    setCellContent(model, "A1", `=BETOPIAERP.ACCOUNT.GROUP("income_other")`);
     await waitForDataLoaded(model);
     expect(getCellValue(model, "A1")).toBe("100105");
 });
 
 test("get multiple accounts", async () => {
     const { model } = await createModelWithDataSource({ serverData });
-    setCellContent(model, "A1", `=BetopiaERP.ACCOUNT.GROUP("income")`);
+    setCellContent(model, "A1", `=BETOPIAERP.ACCOUNT.GROUP("income")`);
     await waitForDataLoaded(model);
     expect(getCellValue(model, "A1")).toBe("100104,200104");
 });

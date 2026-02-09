@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022, 2025.
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-27 09:02+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_signup/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -493,7 +493,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -627,7 +627,7 @@ msgstr ""
 "                        <t t-set=\"website_url\" t-"
 "value=\"object.get_base_url()\"/>\n"
 "                        BetopiaERPドメインは: <b><a t-att-href=\"website_url\" t-"
-"out=\"website_url or ''\">http://yourcompany.BetopiaERP.com</a></b><br/>\n"
+"out=\"website_url or ''\">http://yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        メールへのサインイン: <b><a t-attf-href=\"/web/login?"
 "login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -946,13 +946,13 @@ msgstr ""
 "</table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
 msgstr "パスワードリセット用のリンクがメールで送信されました"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A signup link was sent by email"
 msgstr "登録リンクがEメールで送信されました"
@@ -963,7 +963,7 @@ msgid "Already have an account?"
 msgstr "すでにアカウントを持っている"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Another user is already registered using this email address."
 msgstr "別のユーザーが既にこのメールアドレスを使用して登録されています。"
@@ -974,7 +974,7 @@ msgid "Back to Login"
 msgstr "ログインへ戻る"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr "メール送信できません：ユーザ %s には、電子メールアドレスがありません。"
@@ -1005,7 +1005,7 @@ msgid "Contact"
 msgstr "連絡先"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "Could not contact the mail server, please check your outgoing email server "
@@ -1013,13 +1013,13 @@ msgid ""
 msgstr "メールサーバに接続できません。送信メールサーバ設定を確認して下さい。"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not create a new account."
 msgstr "新しいアカウントを作成できません"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not reset your password"
 msgstr "パスワードをリセットできませんでした"
@@ -1097,7 +1097,7 @@ msgstr ""
 "                                宜しくお願いいたします。"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Invalid signup token"
 msgstr "登録トークンは無効です。"
@@ -1123,7 +1123,7 @@ msgid "Marc Demo"
 msgstr "Marc Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Multiple accounts found for this login"
 msgstr "このログイン用に複数のアカウントが見つかりました"
@@ -1134,13 +1134,13 @@ msgid "Name"
 msgstr "名称"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "No account found for this login"
 msgstr "このログイン用のアカウントなし"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "No login provided."
 msgstr "提案されたログインがありません。"
@@ -1166,19 +1166,19 @@ msgid "Password Reset"
 msgstr "パスワードリセット"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Password reset"
 msgstr "パスワードリセット"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Password reset instructions sent to your email address."
 msgstr "パスワードリセット手順のメールを送信しました。"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Passwords do not match; please retype them."
 msgstr "パスワードが一致していません。再入力してください。"
@@ -1199,7 +1199,7 @@ msgid "Reminder for unregistered users"
 msgstr "未登録ユーザへのリマインダ"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1263,7 +1263,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "設定：未登録ユーザリマインダ"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Sign Up"
 msgstr "登録"
@@ -1280,31 +1280,31 @@ msgid "Signup Token Type"
 msgstr "登録トークンタイプ"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup is not allowed for uninvited users"
 msgstr "招待されていないユーザの登録はできません"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 msgid "Signup token '%s' is not valid or expired"
 msgstr "登録トークン '%s' が無効か、期限が切れています"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: invalid template user"
 msgstr "登録: 無効なテンプレートユーザ"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no login given for new user"
 msgstr "登録: 新規ユーザにログインが許可されません"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no name or partner given for new user"
 msgstr "登録: 新規ユーザに名前またはパートナーが付与されません"
@@ -1320,13 +1320,13 @@ msgid "Template user for new users created through signup"
 msgstr "登録で作成されるユーザのテンプレートユーザ"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "The form was not properly filled in."
 msgstr "フォームが適切に入力されていません。"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "There was an error when trying to deliver your Email, please check your "
@@ -1360,7 +1360,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "{{ object.company_id.name }}へようこそ！"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "You cannot perform this action on an archived user."
 msgstr "アーカイブされたユーザにこのアクションを実施できません。"
@@ -1371,7 +1371,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "{{ object.company_id.name }}のアカウントについて"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Your password has been reset successfully."
 msgstr "パスワードのリセットが正常に完了しました。"

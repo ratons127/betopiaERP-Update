@@ -6,16 +6,16 @@
 # Yoshi Tashiro <tashiro@roomsfor.hk>, 2018
 # 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2018
 # Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2018
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-18 03:22+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_adyen/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr ""
 "                    アカウント設定で遅延確定も設定する必要があります。"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "A request was sent to void the transaction %(reference)s."
 msgstr "取引 %(reference)s の取り消しリクエストが送信されました。"
@@ -57,14 +57,14 @@ msgid "Adyen"
 msgstr "Adyen"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr "支払処理中にエラーが発生しました。再度試して下さい。"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr "支払フォームを表示できません"
@@ -106,7 +106,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr "不正な支払詳細"
@@ -142,25 +142,25 @@ msgid "Payment Transaction"
 msgstr "支払取引"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "支払処理に失敗しました"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
 msgstr "無効な支払ステイタス: %sのデータを受信しました。"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
 msgstr "支払ステータスが欠落しているデータを受信しました。"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "改ざんされた支払依頼データを受信しました。"
@@ -181,7 +181,7 @@ msgid "The HMAC key of the webhook"
 msgstr "WebhookのHMACキー"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
@@ -196,7 +196,7 @@ msgid "The base URL for the API endpoints"
 msgstr "APIエンドポイント用ベースURL"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction %s failed."
 msgstr "取引 %s の売上確定処理に失敗しました。"
@@ -211,7 +211,7 @@ msgstr ""
 "数分かかる場合があります。"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The capture request of %(amount)s for transaction %(ref)s has been sent."
@@ -239,13 +239,13 @@ msgid "The unique reference of the partner owning this token"
 msgstr "このトークンを所有している取引先の一意参照"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction %s failed."
 msgstr "取引%sの無効化に失敗しました。"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
 msgstr "支払が却下されました。もう一度試して下さい。"

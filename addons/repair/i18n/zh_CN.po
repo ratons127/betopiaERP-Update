@@ -7,8 +7,8 @@
 # Raymond Yu <cl_yu@hotmail.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # Martin Trigaux, 2023
-# Emily Jia <eji@BetopiaERP.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# Emily Jia <eji@betopiaerp.com>, 2023
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -17,8 +17,8 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-15 14:15+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/repair/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/repair/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,13 +27,13 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
 msgstr "维修序列%(name)s"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
 msgstr "%(product)s：数量不足，无法维修"
@@ -248,7 +248,7 @@ msgid "Any Part is late"
 msgstr "任何部分都迟到了"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -264,14 +264,14 @@ msgid "Attachment Count"
 msgstr "附件数量"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__available
 msgid "Available"
 msgstr "可用"
 
 #. module: repair
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
 msgstr "返回维修"
@@ -288,7 +288,7 @@ msgid "BoM Components"
 msgstr "物料清单（BOM）组件"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr "找不到任何生产地点。"
@@ -362,7 +362,7 @@ msgid "Confirm Repair"
 msgstr "确认维修"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__confirmed
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -375,7 +375,7 @@ msgid "Create Quotation"
 msgstr "创建报价"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.server,name:repair.action_create_repair_order
 msgid "Create Repair"
@@ -468,7 +468,7 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr "确保可追溯到仓库中的产品。"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
 msgstr "预计%s"
@@ -725,13 +725,13 @@ msgid "Normal"
 msgstr "正常"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Not Available"
 msgstr "不可用"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
@@ -840,7 +840,7 @@ msgid "Picking Type Visible"
 msgstr "显示拣货类型"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Please set the first Serial Number or a default sequence"
 msgstr "请设置第一个序列号或默认序列"
@@ -1040,7 +1040,7 @@ msgid "Repair Order(s)"
 msgstr "维修订单"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:repair.action_picking_repair
@@ -1091,13 +1091,13 @@ msgid "Repair Tags"
 msgstr "维修标签"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
 msgstr "维修订单必须维修，以便结束赔偿。"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid "Repair orders of %s"
 msgstr "%s的维修订单"
@@ -1119,7 +1119,7 @@ msgid "Repaired count"
 msgstr "维修计数"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 #: model:ir.ui.menu,name:repair.menu_repair_order
 #: model:ir.ui.menu,name:repair.repair_menu
@@ -1135,7 +1135,7 @@ msgid "Repairs order"
 msgstr "维修订单"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "按订单补给(MTO)"
@@ -1213,7 +1213,7 @@ msgid "Search Repair Orders"
 msgstr "搜索维修订单"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 msgstr "产品维修需要序列号：%s"
@@ -1448,7 +1448,7 @@ msgid "Warn Insufficient Repair Quantity"
 msgstr "警告维修数量不足"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Warning"
 msgstr "警告"
@@ -1470,7 +1470,7 @@ msgid "Yesterday"
 msgstr "昨天"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
@@ -1481,19 +1481,19 @@ msgstr ""
 "“创建新的批次 / 序列号” 选项。"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You can not enter negative quantities."
 msgstr "不能输入负数数量。"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
 msgstr "您无法取消已完成的维修订单"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You cannot create a quotation for a repair order that is already linked to "
@@ -1506,7 +1506,7 @@ msgstr ""
 "%(ref_str)s"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You need to define a customer for a repair order in order to create an "
@@ -1524,13 +1524,13 @@ msgid "from location"
 msgstr "来自位置"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 msgid "id"
 msgstr "id"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 msgid "sale_order_id"
 msgstr "sale_order_id"

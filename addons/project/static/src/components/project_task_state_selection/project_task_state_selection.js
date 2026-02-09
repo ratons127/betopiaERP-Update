@@ -7,7 +7,7 @@ import { useCommand } from "@web/core/commands/command_hook";
 import { formatSelection } from "@web/views/fields/formatters";
 
 import { registry } from "@web/core/registry";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 export class ProjectTaskStateSelection extends StateSelectionField {
     static template = "project.ProjectTaskStateSelection";

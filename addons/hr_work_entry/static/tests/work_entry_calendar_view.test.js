@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
 import { findComponent, makeMockServer, mountView } from "@web/../tests/web_test_helpers";
 import { defineHrWorkEntryModels } from "@hr_work_entry/../tests/hr_work_entry_test_helpers";
 import { WorkEntryCalendarController } from "@hr_work_entry/views/work_entry_calendar/work_entry_calendar_controller";

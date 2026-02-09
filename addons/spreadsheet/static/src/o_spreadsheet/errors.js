@@ -1,4 +1,4 @@
-import { registries, EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { registries, EvaluationError } from "@betopiaerp/o-spreadsheet";
 
 const LOADING_ERROR = "Loading...";
 

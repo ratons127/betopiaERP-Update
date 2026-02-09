@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <template id="address_card" inherit_id="portal.address_card">
         <t t-out="contact" position="before">
             <t t-if="contact.is_mondialrelay">
@@ -11,4 +11,4 @@
             </t>
         </t>
     </template>
-</BetopiaERP>
+</betopiaerp>

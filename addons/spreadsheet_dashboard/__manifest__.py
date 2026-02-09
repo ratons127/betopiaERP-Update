@@ -8,7 +8,7 @@
     "description": "Spreadsheet",
     "depends": ["spreadsheet"],
     "installable": True,
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
     "data": [
         "security/security.xml",

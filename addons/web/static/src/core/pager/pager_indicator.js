@@ -3,7 +3,7 @@ import { registry } from "../registry";
 import { Transition } from "../transition";
 import { useBus } from "../utils/hooks";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { PAGER_UPDATED_EVENT, pagerBus } from "./pager";
 
 export class PagerIndicator extends Component {

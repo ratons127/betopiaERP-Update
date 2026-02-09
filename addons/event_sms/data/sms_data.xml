@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP><data noupdate="1">
+<betopiaerp><data noupdate="1">
 
     <record id="sms_template_data_event_registration" model="sms.template">
         <field name="name">Event: Registration</field>
@@ -14,4 +14,4 @@
 {{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}</field>
     </record>
 
-</data></BetopiaERP>
+</data></betopiaerp>

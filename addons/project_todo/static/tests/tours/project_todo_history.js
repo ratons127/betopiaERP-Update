@@ -2,13 +2,13 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 const baseDescriptionContent = "Test project todo history version";
-const descriptionField = `div.note-editable.BetopiaERP-editor-editable div.o-paragraph`;
+const descriptionField = `div.note-editable.betopiaerp-editor-editable div.o-paragraph`;
 function changeDescriptionContentAndSave(newContent) {
     const newText = `${baseDescriptionContent} ${newContent}`;
     return [
         {
             // force focus on editable so editor will create initial p (if not yet done)
-            trigger: "div.note-editable.BetopiaERP-editor-editable",
+            trigger: "div.note-editable.betopiaerp-editor-editable",
             run: "click",
         },
         {
@@ -27,7 +27,7 @@ function changeDescriptionContentAndSave(newContent) {
 }
 
 registry.category("web_tour.tours").add("project_todo_history_tour", {
-    url: "/BetopiaERP?debug=1,tests",
+    url: "/betopiaerp?debug=1,tests",
     steps: () => [stepUtils.showAppsMenuItem(), {
         content: "Open the Todo app",
         trigger: ".o_app[data-menu-xmlid='project_todo.menu_todo_todos']",

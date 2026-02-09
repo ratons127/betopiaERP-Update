@@ -1,9 +1,9 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press, queryFirst } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press, queryFirst } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setSelection } from "./_helpers/selection";
 import { insertText, tripleClick, undo } from "./_helpers/user_actions";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { defineStyle } from "@web/../tests/web_test_helpers";
 
 function setTag(tagName) {
@@ -574,7 +574,7 @@ describe("to blockquote", () => {
 
     test("setTag should work when we move the selection outside of the editor", async () => {
         const { editor, el } = await setupEditor("<p>ab[]cd</p>");
-        const anchorNode = queryFirst(".BetopiaERP-editor-editable").parentElement;
+        const anchorNode = queryFirst(".betopiaerp-editor-editable").parentElement;
         setSelection({ anchorNode, anchorOffset: 0 });
         expect(getContent(el)).toBe("<p>abcd</p>");
 

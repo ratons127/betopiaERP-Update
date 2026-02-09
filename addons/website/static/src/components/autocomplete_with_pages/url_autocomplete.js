@@ -1,10 +1,10 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 import { useChildRef } from "@web/core/utils/hooks";
 import { AutoCompleteWithPages } from "@website/components/autocomplete_with_pages/autocomplete_with_pages";
 
 // TODO: we probably don't need it anymore after merging html_builder
-// see: https://github.com/BetopiaERP/BetopiaERP/pull/187091
+// see: https://github.com/betopiaerp/betopiaerp/pull/187091
 export class UrlAutoComplete extends Component {
     static props = {
         options: { type: Object },

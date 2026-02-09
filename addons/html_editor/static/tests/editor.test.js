@@ -2,7 +2,7 @@ import { Editor } from "@html_editor/editor";
 import { Plugin } from "@html_editor/plugin";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { closestElement } from "@html_editor/utils/dom_traversal";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { insertText } from "./_helpers/user_actions";
@@ -67,7 +67,7 @@ test("plugin destruction is reverse of instantiation order", async () => {
     expect.verifySteps(["destroy: second", "destroy: first"]);
 });
 
-test("Remove BetopiaERP-editor-editable class after every plugin is destroyed", async () => {
+test("Remove betopiaerp-editor-editable class after every plugin is destroyed", async () => {
     class TestPlugin extends Plugin {
         static id = "test";
         destroy() {

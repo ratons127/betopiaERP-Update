@@ -1,8 +1,8 @@
 import { AWAY_DELAY } from "@mail/core/common/im_status_service";
 import { defineMailModels, start, startServer } from "@mail/../tests/mail_test_helpers";
 
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, freezeTime } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, freezeTime } from "@betopiaerp/hoot-dom";
 
 import { registry } from "@web/core/registry";
 import {

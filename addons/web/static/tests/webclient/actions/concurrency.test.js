@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryAllTexts, runAllTimers } from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
-import { Component, onWillStart, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryAllTexts, runAllTimers } from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
+import { Component, onWillStart, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,
@@ -219,7 +219,7 @@ test("execute a new action while loading a lazy-loaded controller", async () => 
             ],
         },
     ]);
-    redirect("/BetopiaERP/action-77/2?cids=1");
+    redirect("/betopiaerp/action-77/2?cids=1");
 
     let def;
     onRpc("partner", "search_read", () => def);

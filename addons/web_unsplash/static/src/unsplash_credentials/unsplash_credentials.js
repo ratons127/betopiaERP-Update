@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class UnsplashCredentials extends Component {
     static template = "web_unsplash.UnsplashCredentials";

@@ -9,8 +9,8 @@ import {
 
 import { defineLivechatModels } from "@im_livechat/../tests/livechat_test_helpers";
 
-import { test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 

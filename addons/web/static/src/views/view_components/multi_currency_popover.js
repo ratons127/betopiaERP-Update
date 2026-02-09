@@ -1,4 +1,4 @@
-import { Component, onWillStart, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useExternalListener, useState } from "@betopiaerp/owl";
 import { getCurrency, getCurrencyRates } from "@web/core/currency";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";

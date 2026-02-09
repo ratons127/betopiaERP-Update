@@ -3,7 +3,7 @@ import { SaleDetailsButton } from "@point_of_sale/app/components/navbar/sale_det
 import { ConfirmationDialog, AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { MoneyDetailsPopup } from "@point_of_sale/app/components/popups/money_details_popup/money_details_popup";
 import { useService } from "@web/core/utils/hooks";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { ConnectionLostError } from "@web/core/network/rpc";
 import { _t } from "@web/core/l10n/translation";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
@@ -255,7 +255,7 @@ export class ClosePosPopup extends Component {
                 await this.handleClosingControlError();
             }
         } finally {
-            localStorage.removeItem(`pos.session.${BetopiaERP.pos_config_id}`);
+            localStorage.removeItem(`pos.session.${betopiaerp.pos_config_id}`);
         }
     }
     async handleClosingControlError() {

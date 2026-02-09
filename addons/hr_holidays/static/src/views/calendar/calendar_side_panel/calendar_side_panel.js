@@ -2,7 +2,7 @@ import { CalendarSidePanel } from "@web/views/calendar/calendar_side_panel/calen
 import { serializeDate, serializeDateTime } from "@web/core/l10n/dates";
 import { Cache } from "@web/core/utils/cache";
 import { useService } from "@web/core/utils/hooks";
-import { useState, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { useState, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { TimeOffCalendarFilterSection } from "../filter_section/calendar_filter_section";
 
 export class TimeOffCalendarSidePanel extends CalendarSidePanel {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="provider_openerp" model="auth.oauth.provider">
             <field name="name">BetopiaERP.com Accounts</field>
-            <field name="auth_endpoint">https://accounts.BetopiaERP.com/oauth2/auth</field>
+            <field name="auth_endpoint">https://accounts.betopiaerp.com/oauth2/auth</field>
             <field name="scope">userinfo</field>
-            <field name="validation_endpoint">https://accounts.BetopiaERP.com/oauth2/tokeninfo</field>
-            <field name="css_class">o_auth_oauth_provider_icon o_BetopiaERP_provider</field>
+            <field name="validation_endpoint">https://accounts.betopiaerp.com/oauth2/tokeninfo</field>
+            <field name="css_class">o_auth_oauth_provider_icon o_betopiaerp_provider</field>
             <field name="body">Sign in with BetopiaERP.com</field>
             <field name="enabled" eval="True"/>
         </record>
@@ -36,4 +36,4 @@
             }"/>
         </function>
     </data>
-</BetopiaERP>
+</betopiaerp>

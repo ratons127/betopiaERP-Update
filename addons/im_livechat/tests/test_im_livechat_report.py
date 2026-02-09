@@ -118,12 +118,12 @@ class TestImLivechatReport(TestImLivechatCommon):
         agent_report_action = self.env.ref("im_livechat.im_livechat_agent_history_action")
         session_report_action = self.env.ref("im_livechat.im_livechat_report_channel_action")
         self.start_tour(
-            f"/BetopiaERP/action-{agent_report_action.id}?view_type=pivot",
+            f"/betopiaerp/action-{agent_report_action.id}?view_type=pivot",
             "im_livechat_agents_report_pivot_redirect_tour",
             login="operator_1",
         )
         self.start_tour(
-            f"/BetopiaERP/action-{session_report_action.id}?view_type=pivot",
+            f"/betopiaerp/action-{session_report_action.id}?view_type=pivot",
             "im_livechat_sessions_report_pivot_redirect_tour",
             login="operator_1",
         )

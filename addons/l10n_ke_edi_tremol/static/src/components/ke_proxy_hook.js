@@ -1,4 +1,4 @@
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 import { useService } from "@web/core/utils/hooks";
 import { _t } from "@web/core/l10n/translation";
@@ -23,7 +23,7 @@ export function useKEProxy({onAllSent}) {
      */
     async function postInvoices(invoices) {
 
-        // Ping the server to prevent posting to the device when there is no connection to the BetopiaERP server
+        // Ping the server to prevent posting to the device when there is no connection to the betopiaerp server
         try {
             await rpc("/web/webclient/version_info", {});
         } catch (e) {

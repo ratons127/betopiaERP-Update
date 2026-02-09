@@ -12,6 +12,6 @@ supposed to do
         'security/ir.model.access.csv',
         'views/menu.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

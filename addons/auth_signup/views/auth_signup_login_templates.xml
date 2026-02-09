@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
         <template id="auth_signup.login" inherit_id="web.login" name="Sign up - Reset Password">
             <xpath expr="//div[hasclass('oe_login_buttons')]/button" position="after">
                 <a t-if="signup_enabled" class="btn btn-link btn-sm mt-2" t-attf-href="/web/signup?{{ keep_query() }}">Don't have an account?</a>
@@ -114,4 +114,4 @@
 
             </t>
         </template>
-</BetopiaERP>
+</betopiaerp>

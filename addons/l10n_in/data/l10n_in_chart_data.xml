@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
         <menuitem id="account_reports_in_statements_menu" name="India" parent="account.menu_finance_reports" sequence="6" groups="account.group_account_readonly"/>
 
         <record id="sgst_tag_account" model="account.account.tag">
@@ -22,4 +22,4 @@
             <field name="applicability">accounts</field>
             <field name="country_id" ref="base.in"/>
         </record>
-        </BetopiaERP>
+        </betopiaerp>

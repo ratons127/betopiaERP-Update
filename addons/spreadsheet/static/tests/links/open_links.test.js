@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { makeSpreadsheetMockEnv } from "@spreadsheet/../tests/helpers/model";
 import { makeMockEnv, mockService, patchWithCleanup } from "@web/../tests/web_test_helpers";
@@ -26,15 +26,15 @@ test("click a web link", async () => {
     const data = {
         sheets: [
             {
-                cells: { A1: "[BetopiaERP](https://BetopiaERP.com)" },
+                cells: { A1: "[BetopiaERP](https://betopiaerp.com)" },
             },
         ],
     };
     const model = new Model(data, { custom: { env } });
     const cell = getEvaluatedCell(model, "A1");
-    expect(urlRepresentation(cell.link, model.getters)).toBe("https://BetopiaERP.com");
+    expect(urlRepresentation(cell.link, model.getters)).toBe("https://betopiaerp.com");
     openLink(cell.link, env);
-    expect.verifySteps(["https://BetopiaERP.com"]);
+    expect.verifySteps(["https://betopiaerp.com"]);
 });
 
 test("click a menu link", async () => {
@@ -51,7 +51,7 @@ test("click a menu link", async () => {
     const data = {
         sheets: [
             {
-                cells: { A1: "[label](BetopiaERP://ir_menu_xml_id/test_menu)" },
+                cells: { A1: "[label](betopiaerp://ir_menu_xml_id/test_menu)" },
             },
         ],
     };
@@ -77,7 +77,7 @@ test("middle-click a menu link", async () => {
     const data = {
         sheets: [
             {
-                cells: { A1: "[label](BetopiaERP://ir_menu_xml_id/test_menu)" },
+                cells: { A1: "[label](betopiaerp://ir_menu_xml_id/test_menu)" },
             },
         ],
     };
@@ -94,7 +94,7 @@ test("click a menu link [2]", async () => {
         doAction(action) {
             expect.step("do-action");
             expect(action).toEqual({
-                name: "an BetopiaERP view",
+                name: "an betopiaerp view",
                 res_model: "partner",
                 target: "current",
                 type: "ir.actions.act_window",
@@ -107,7 +107,7 @@ test("click a menu link [2]", async () => {
     mockService("action", fakeActionService);
     const env = await makeSpreadsheetMockEnv({ serverData: getMenuServerData() });
     const view = {
-        name: "an BetopiaERP view",
+        name: "an betopiaerp view",
         viewType: "list",
         action: {
             modelName: "partner",
@@ -116,9 +116,9 @@ test("click a menu link [2]", async () => {
     };
 
     const model = new Model({}, { custom: { env } });
-    setCellContent(model, "A1", `[a view](BetopiaERP://view/${JSON.stringify(view)})`);
+    setCellContent(model, "A1", `[a view](betopiaerp://view/${JSON.stringify(view)})`);
     const cell = getEvaluatedCell(model, "A1");
-    expect(urlRepresentation(cell.link, model.getters)).toBe("an BetopiaERP view");
+    expect(urlRepresentation(cell.link, model.getters)).toBe("an betopiaerp view");
     openLink(cell.link, env);
     expect.verifySteps(["do-action"]);
 });
@@ -149,7 +149,7 @@ test("Click a link containing an action xml id", async () => {
     };
 
     const model = new Model({}, { custom: { env } });
-    setCellContent(model, "A1", `[an action link](BetopiaERP://view/${JSON.stringify(view)})`);
+    setCellContent(model, "A1", `[an action link](betopiaerp://view/${JSON.stringify(view)})`);
     const cell = getEvaluatedCell(model, "A1");
     expect(urlRepresentation(cell.link, model.getters)).toBe("My Action Name");
     await openLink(cell.link, env);
@@ -190,7 +190,7 @@ test("Can open link when some views are absent from the referred action", async 
     };
 
     const model = new Model({}, { custom: { env } });
-    setCellContent(model, "A1", `[an action link](BetopiaERP://view/${JSON.stringify(view)})`);
+    setCellContent(model, "A1", `[an action link](betopiaerp://view/${JSON.stringify(view)})`);
     const cell = getEvaluatedCell(model, "A1");
     expect(urlRepresentation(cell.link, model.getters)).toBe("My Action Name");
     await openLink(cell.link, env);
@@ -221,7 +221,7 @@ test("Context is passed correctly to the action service", async () => {
     };
 
     const model = new Model({}, { custom: { env } });
-    setCellContent(model, "A1", `[an action link](BetopiaERP://view/${JSON.stringify(view)})`);
+    setCellContent(model, "A1", `[an action link](betopiaerp://view/${JSON.stringify(view)})`);
     const cell = getEvaluatedCell(model, "A1");
     expect(urlRepresentation(cell.link, model.getters)).toBe("My Action Name");
     await openLink(cell.link, env);

@@ -26,6 +26,6 @@ Create booths for your favorite event.
         'data/event_booth_demo.xml',
         'data/event_type_demo.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

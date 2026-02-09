@@ -33,6 +33,6 @@
         'wizard/myinvois_document_status_update_wizard.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3'
 }

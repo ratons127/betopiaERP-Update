@@ -1,5 +1,5 @@
 import { isToday } from "@mail/utils/common/dates";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 

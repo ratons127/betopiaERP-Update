@@ -1,8 +1,8 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { Macro } from "@web/core/macro";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, press } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, press } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

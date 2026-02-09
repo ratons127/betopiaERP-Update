@@ -2,8 +2,8 @@ import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { unformat } from "./format";
 import { EmbeddedSyntaxHighlightingComponent } from "@html_editor/others/embedded_components/backend/syntax_highlighting/syntax_highlighting";
 import { LANGUAGES } from "@html_editor/others/embedded_components/backend/syntax_highlighting/code_toolbar";
-import { expect } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { expect } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 import { toExplicitString } from "@web/../lib/hoot/hoot_utils";
 import { DEFAULT_LANGUAGE_ID } from "@html_editor/others/embedded_components/core/syntax_highlighting/syntax_highlighting_utils";
 

@@ -12,7 +12,7 @@ Technical documentation of the python operation of the rendering QWeb engine.
 Templating
 ==========
 
-QWeb is the primary templating engine used by betopiaerp. It is an XML templating
+QWeb is the primary templating engine used by BetopiaERP. It is an XML templating
 engine and used mostly to generate XML, HTML fragments and pages.
 
 Template directives are specified as XML attributes prefixed with ``t-``,
@@ -24,7 +24,7 @@ which executes its directive but doesn't generate any output in and of
 itself.
 
 To create new XML template, please see :doc:`QWeb Templates documentation
-<https://www.betopiaerp.com/documentation/master/developer/reference/frontend/qweb.html>`
+<https://www.BetopiaERP.com/documentation/master/developer/reference/frontend/qweb.html>`
 
 Rendering process
 =================
@@ -185,7 +185,7 @@ Only validate the **input**, the compilation if inside the ``t-if`` directive.
 
 ``t-groups`` (``groups`` is an alias)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Values**: name of the allowed BetopiaERP user group, or preceded by ``!`` for
+**Values**: name of the allowed betopiaerp user group, or preceded by ``!`` for
 prohibited groups
 
 The generated code uses ``has_group`` BetopiaERP method from ``res.users`` model.
@@ -827,7 +827,7 @@ class IrQweb(models.AbstractModel):
                     error.qweb.ref = frame.params.view_ref
                 qweb_error_info = error.qweb
             elif not isinstance(error, UserError):
-                # If is not an BetopiaERP Exception check if the current error is raise from
+                # If is not an betopiaerp Exception check if the current error is raise from
                 # IrQweb (models or computed code). In this case, convert it into an QWebError.
                 isQweb = False
 
@@ -2852,7 +2852,7 @@ class IrQweb(models.AbstractModel):
                     attributes['src'] = path
 
             if is_asset_bundle:
-                attributes['onerror'] = "__BetopiaERPAssetError=1"
+                attributes['onerror'] = "__betopiaerpAssetError=1"
 
             return ('script', attributes)
 

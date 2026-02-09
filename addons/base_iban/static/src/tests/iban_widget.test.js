@@ -1,7 +1,7 @@
 import { defineBaseIbanModels } from "./base_iban_test_helpers";
 import { DELAY } from "@base_iban/components/iban_widget/iban_widget";
-import { test } from "@BetopiaERP/hoot";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { test } from "@betopiaerp/hoot";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import {
     click,
     contains,

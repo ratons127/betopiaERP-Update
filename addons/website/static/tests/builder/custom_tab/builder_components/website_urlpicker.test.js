@@ -1,5 +1,5 @@
-import { after, before, expect, test } from "@BetopiaERP/hoot";
-import { xml } from "@BetopiaERP/owl";
+import { after, before, expect, test } from "@betopiaerp/hoot";
+import { xml } from "@betopiaerp/owl";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import {
     addOption,

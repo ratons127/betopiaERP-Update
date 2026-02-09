@@ -1,8 +1,8 @@
 import { HtmlViewer } from "@html_editor/components/html_viewer/html_viewer";
-import { expect, test } from "@BetopiaERP/hoot";
-import { waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { markup } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { markup } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 import { WebClient } from "@web/webclient/webclient";
@@ -24,7 +24,7 @@ test(`XML-like self-closing elements are fixed in a standalone HtmlViewer`, asyn
     );
 });
 
-test(`copy from HtmlViewer must support application/vnd.BetopiaERP.BetopiaERP-editor`, async () => {
+test(`copy from HtmlViewer must support application/vnd.betopiaerp.betopiaerp-editor`, async () => {
     await mountWithCleanup(WebClient);
 
     registry.category("main_components").add("mycomponent", {
@@ -62,7 +62,7 @@ test(`copy from HtmlViewer must support application/vnd.BetopiaERP.BetopiaERP-ed
 
     expect(clipboardData.getData("text/plain").trim()).toBe("A");
     expect(clipboardData.getData("text/html")).toInclude("background-color");
-    expect(clipboardData.getData("application/vnd.BetopiaERP.BetopiaERP-editor")).toBe(
+    expect(clipboardData.getData("application/vnd.betopiaerp.betopiaerp-editor")).toBe(
         clipboardData.getData("text/html")
     );
 });

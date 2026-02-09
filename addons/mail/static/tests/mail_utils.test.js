@@ -9,9 +9,9 @@ import {
     startServer,
 } from "./mail_test_helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
-import { markup } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
+import { markup } from "@betopiaerp/owl";
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -25,15 +25,15 @@ test("add_link utility function", () => {
         "www.127.0.0.5": false,
         "should.notmatch": false,
         "fhttps://test.example.com/test": false,
-        "https://www.transifex.com/BetopiaERP/BetopiaERP-11/translate/#fr/lunch?q=text%3A'La+Tartiflette'": true,
-        "https://www.transifex.com/BetopiaERP/BetopiaERP-11/translate/#fr/$/119303430?q=text%3ATartiflette": true,
+        "https://www.transifex.com/betopiaerp/betopiaerp-11/translate/#fr/lunch?q=text%3A'La+Tartiflette'": true,
+        "https://www.transifex.com/betopiaerp/betopiaerp-11/translate/#fr/$/119303430?q=text%3ATartiflette": true,
         "https://tenor.com/view/chỗgiặt-dog-smile-gif-13860250": true,
         "http://www.boîtenoire.be": true,
-        "https://github.com/BetopiaERP/enterprise/compare/16.0...BetopiaERP-dev:enterprise:16.0-voip-fix_demo_data-tsm?expand=1": true,
-        "https://github.com/BetopiaERP/enterprise/compare/16.0...16.0-voip-fix_demo_data-tsm?expand=1": true,
-        "https://github.com/BetopiaERP/enterprise/compare/16.0...chỗgiặt-voip-fix_demo_data-tsm?expand=1": true,
-        "https://github.com/BetopiaERP/enterprise/compare/chỗgiặt...chỗgiặt-voip-fix_demo_data-tsm?expand=1": true,
-        "https://github.com/BetopiaERP/enterprise/compare/@...}-voip-fix_demo_data-tsm?expand=1": true,
+        "https://github.com/betopiaerp/enterprise/compare/16.0...betopiaerp-dev:enterprise:16.0-voip-fix_demo_data-tsm?expand=1": true,
+        "https://github.com/betopiaerp/enterprise/compare/16.0...16.0-voip-fix_demo_data-tsm?expand=1": true,
+        "https://github.com/betopiaerp/enterprise/compare/16.0...chỗgiặt-voip-fix_demo_data-tsm?expand=1": true,
+        "https://github.com/betopiaerp/enterprise/compare/chỗgiặt...chỗgiặt-voip-fix_demo_data-tsm?expand=1": true,
+        "https://github.com/betopiaerp/enterprise/compare/@...}-voip-fix_demo_data-tsm?expand=1": true,
         "https://x.com": true,
     };
 
@@ -84,8 +84,8 @@ test("addLink: utility function and special entities", () => {
         ["<3", "&lt;3"],
         // Already encoded url should not be encoded twice
         [
-            markup`https://BetopiaERP.com/%5B%5D`,
-            `<a target="_blank" rel="noreferrer noopener" href="https://BetopiaERP.com/%5B%5D">https://BetopiaERP.com/[]</a>`,
+            markup`https://betopiaerp.com/%5B%5D`,
+            `<a target="_blank" rel="noreferrer noopener" href="https://betopiaerp.com/%5B%5D">https://betopiaerp.com/[]</a>`,
         ],
     ];
 
@@ -138,7 +138,7 @@ test("url", async () => {
     await start();
     await openDiscuss(channelId);
     // see: https://www.ietf.org/rfc/rfc1738.txt
-    const messageBody = "https://BetopiaERP.com?test=~^|`{}[]#";
+    const messageBody = "https://betopiaerp.com?test=~^|`{}[]#";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
     await contains(`.o-mail-Message a:contains(${messageBody})`);
@@ -149,10 +149,10 @@ test("url with comma at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://BetopiaERP.com, it's great!";
+    const messageBody = "Go to https://betopiaerp.com, it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
-    await contains(".o-mail-Message a:contains(https://BetopiaERP.com)");
+    await contains(".o-mail-Message a:contains(https://betopiaerp.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody}`);
 });
 
@@ -161,10 +161,10 @@ test("url with dot at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://BetopiaERP.com. It's great!";
+    const messageBody = "Go to https://betopiaerp.com. It's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
-    await contains(".o-mail-Message a:contains(https://BetopiaERP.com)");
+    await contains(".o-mail-Message a:contains(https://betopiaerp.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -173,10 +173,10 @@ test("url with semicolon at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://BetopiaERP.com; it's great!";
+    const messageBody = "Go to https://betopiaerp.com; it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
-    await contains(".o-mail-Message a:contains(https://BetopiaERP.com)");
+    await contains(".o-mail-Message a:contains(https://betopiaerp.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -185,10 +185,10 @@ test("url with ellipsis at the end", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "Go to https://BetopiaERP.com... it's great!";
+    const messageBody = "Go to https://betopiaerp.com... it's great!";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
-    await contains(".o-mail-Message a:contains(https://BetopiaERP.com)");
+    await contains(".o-mail-Message a:contains(https://betopiaerp.com)");
     await contains(`.o-mail-Message-content:contains(${messageBody})`);
 });
 
@@ -197,11 +197,11 @@ test("url with number in subdomain", async () => {
     const channelId = pyEnv["discuss.channel"].create({ name: "General" });
     await start();
     await openDiscuss(channelId);
-    const messageBody = "https://www.45017478-master-all.runbot134.BetopiaERP.com/BetopiaERP";
+    const messageBody = "https://www.45017478-master-all.runbot134.betopiaerp.com/betopiaerp";
     await insertText(".o-mail-Composer-input", messageBody);
     await press("Enter");
     await contains(
-        ".o-mail-Message a:contains(https://www.45017478-master-all.runbot134.BetopiaERP.com/BetopiaERP)"
+        ".o-mail-Message a:contains(https://www.45017478-master-all.runbot134.betopiaerp.com/betopiaerp)"
     );
 });
 

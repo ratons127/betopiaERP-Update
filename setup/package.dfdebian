@@ -1,7 +1,7 @@
 # Please note that this Dockerfile is used for testing nightly builds and should
 # not be used to deploy BetopiaERP
 FROM ubuntu:noble
-MAINTAINER BetopiaERP S.A. <info@BetopiaERP.com>
+MAINTAINER BetopiaERP <info@betopiaerp.com>
 
 RUN userdel -r ubuntu
 
@@ -65,4 +65,4 @@ RUN apt-get update -qq &&  \
 
 RUN echo "PS1=\"[\u@nightly-tests] # \"" > ~/.bashrc
 
-USER BetopiaERP
+USER betopiaerp

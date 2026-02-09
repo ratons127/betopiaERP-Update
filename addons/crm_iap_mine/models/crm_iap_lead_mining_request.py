@@ -292,7 +292,7 @@ class CrmIapLeadMiningRequest(models.Model):
                     subtype_xmlid='mail.mt_note',
                 )
 
-    # Methods responsible for format response data into valid BetopiaERP lead data
+    # Methods responsible for format response data into valid betopiaerp lead data
     @api.model
     def _lead_vals_from_response(self, data):
         self.ensure_one()

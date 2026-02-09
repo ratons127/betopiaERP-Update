@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { renderToMarkup } from '@web/core/utils/render';
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 const greenBullet = markup`<span class="o_status d-inline-block o_status_green"></span>`;
 const orangeBullet = markup`<span class="o_status d-inline-block text-warning"></span>`;

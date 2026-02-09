@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 const NO_OP = () => {};
 

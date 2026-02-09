@@ -17,6 +17,6 @@ Bridge module adding UX requirements to ease mass mailing of event track speaker
         'views/event_views.xml'
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { _t } from "@web/core/l10n/translation";
 import { rpc } from "@web/core/network/rpc";
 import { user } from "@web/core/user";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 export const websiteMapService = {
     dependencies: ["public.interactions", "notification"],
@@ -15,7 +15,7 @@ export const websiteMapService = {
         const promiseKeys = {};
         const promiseKeysResolves = {};
         let lastKey;
-        window.BetopiaERP_gmap_api_post_load = async function BetopiaERP_gmap_api_post_load() {
+        window.betopiaerp_gmap_api_post_load = async function betopiaerp_gmap_api_post_load() {
             for (const el of document.querySelectorAll("section.s_google_map")) {
                 publicInteractions.stopInteractions(el);
                 publicInteractions.startInteractions(el);
@@ -55,7 +55,7 @@ export const websiteMapService = {
                                     promiseKeysResolves[key] = resolve;
                                 });
                                 await loadJS(
-                                    `https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&callback=BetopiaERP_gmap_api_post_load&key=${encodeURIComponent(
+                                    `https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&callback=betopiaerp_gmap_api_post_load&key=${encodeURIComponent(
                                         key
                                     )}`
                                 );
@@ -69,7 +69,7 @@ export const websiteMapService = {
                                 notification.add(
                                     markup`<div>
                                         <span>${message}</span><br/>
-                                        <a href="/BetopiaERP/action-website.action_website_configuration">${urlTitle}</a>
+                                        <a href="/betopiaerp/action-website.action_website_configuration">${urlTitle}</a>
                                     </div>`,
                                     { type: "warning", sticky: true }
                                 );

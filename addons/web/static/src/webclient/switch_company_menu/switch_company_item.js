@@ -1,5 +1,5 @@
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 
 export class SwitchCompanyItem extends Component {

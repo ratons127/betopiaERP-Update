@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { startInteractions } from "@web/../tests/public/helpers";
 import { switchToEditMode } from "../helpers";

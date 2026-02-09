@@ -3,7 +3,7 @@ import { localization } from "@web/core/l10n/localization";
 import { session } from "@web/session";
 import { hasTouch } from "@web/core/browser/feature_detection";
 import { user } from "@web/core/user";
-import { Component, whenReady } from "@BetopiaERP/owl";
+import { Component, whenReady } from "@betopiaerp/owl";
 import { rpc } from "./core/network/rpc";
 import { RPCCache } from "./core/network/rpc_cache";
 
@@ -24,13 +24,13 @@ document.head.appendChild(chromeMetaTag);
  * @param {Component} Webclient
  */
 export async function startWebClient(Webclient) {
-    BetopiaERP.info = {
+    betopiaerp.info = {
         db: session.db,
         server_version: session.server_version,
         server_version_info: session.server_version_info,
         isEnterprise: session.server_version_info.slice(-1)[0] === "e",
     };
-    BetopiaERP.isReady = false;
+    betopiaerp.isReady = false;
 
     if (window.isSecureContext && session.browser_cache_secret) {
         rpc.setCache(new RPCCache("rpc", session.registry_hash, session.browser_cache_secret));
@@ -54,6 +54,6 @@ export async function startWebClient(Webclient) {
     if (hasTouch()) {
         classList.add("o_touch_device");
     }
-    // delete BetopiaERP.debug; // FIXME: some legacy code rely on this
-    BetopiaERP.isReady = true;
+    // delete betopiaerp.debug; // FIXME: some legacy code rely on this
+    betopiaerp.isReady = true;
 }

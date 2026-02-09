@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record id="event_question_view_search" model="ir.ui.view">
         <field name="name">event.question.view.search</field>
         <field name="model">event.question</field>
@@ -143,4 +143,4 @@
     <record id="event_question_menu" model="ir.ui.menu">
         <field name="action" ref="event.event_question_action"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

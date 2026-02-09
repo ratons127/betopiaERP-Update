@@ -8,9 +8,9 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 
 import { inputFiles } from "@web/../tests/utils";
 import {

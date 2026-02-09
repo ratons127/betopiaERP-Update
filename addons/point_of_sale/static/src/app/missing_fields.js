@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 // In pos we are not loading all the assests that the web views might need

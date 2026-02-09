@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, resize } from "@BetopiaERP/hoot-dom";
-import { mockTimeZone, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, resize } from "@betopiaerp/hoot-dom";
+import { mockTimeZone, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     mockService,
     mountWithCleanup,

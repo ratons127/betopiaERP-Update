@@ -6,17 +6,17 @@
 # Martin Trigaux, 2019
 # Jeffery CHEN <jeffery9@gmail.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
-# Felix Yuen <fyu@BetopiaERP.com>, 2019
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# Felix Yuen <fyu@betopiaerp.com>, 2019
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 15:27+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/payment_paypal/zh_Hans/>\n"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/payment_paypal/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,7 @@ msgid "Code"
 msgstr "代码"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not generate a new access token."
 msgstr "无法生成新的访问令牌。"
@@ -73,13 +73,13 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Invalid response format, can't normalize."
 msgstr "响应格式无效，无法正常化。"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
 msgstr "txn_id（%(txn_id)s）或txn_type（%(txn_type)s）的缺失值。"
@@ -130,19 +130,19 @@ msgid "Payment Transaction"
 msgstr "付款交易"
 
 #. module: payment_paypal
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_paypal/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "付款处理失败"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Received data with invalid payment status: %s"
 msgstr "收到的数据为无效的支付状态。%s"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 msgstr "客户已离开支付页面。"
@@ -169,7 +169,7 @@ msgid "The technical code of this payment provider."
 msgstr "该支付提供商的技术代码。"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Unable to verify the payment data"
 msgstr ""
@@ -180,7 +180,7 @@ msgid "Webhook ID"
 msgstr "网络钩子识别码"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "You must have an HTTPS connection to generate a webhook."
 msgstr "必须使用 HTTPS 连接才能生成网络钩子。"

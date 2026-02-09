@@ -38,14 +38,14 @@ export class CollaborationSelectionPlugin extends Plugin {
         }
     }
     /**
-     * @param {import("./collaboration_BetopiaERP_plugin").CollaborationSelection} selection
+     * @param {import("./collaboration_betopiaerp_plugin").CollaborationSelection} selection
      */
     updateSelection(selection) {
         this.selectionInfos.set(selection.peerId, selection);
         this.drawPeerSelection(selection);
     }
     /**
-     * @param {import("./collaboration_BetopiaERP_plugin").CollaborationSelection} selection
+     * @param {import("./collaboration_betopiaerp_plugin").CollaborationSelection} selection
      */
     drawPeerSelection({ selection, peerId }) {
         const peerMetadata = this.dependencies.collaborationBetopiaERP.getPeerMetadata(peerId);

@@ -8,7 +8,7 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");
@@ -138,7 +138,7 @@ test("hide conversations in recent if they have mentions", async () => {
     const channelId = pyEnv["discuss.channel"].create({
         channel_member_ids: [
             Command.create({ partner_id: serverState.partnerId }),
-            Command.create({ partner_id: serverState.BetopiaERPbotId }),
+            Command.create({ partner_id: serverState.betopiaerpbotId }),
         ],
         channel_type: "chat",
     });

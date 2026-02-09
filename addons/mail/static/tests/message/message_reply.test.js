@@ -7,9 +7,9 @@ import {
     startServer,
     openFormView,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
-import { disableAnimations } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { queryFirst } from "@betopiaerp/hoot-dom";
+import { disableAnimations } from "@betopiaerp/hoot-mock";
 import { serverState } from "@web/../tests/web_test_helpers";
 import { deserializeDateTime } from "@web/core/l10n/dates";
 

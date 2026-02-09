@@ -2,7 +2,7 @@ import { Composer } from "@mail/core/common/composer";
 
 import { patch } from "@web/core/utils/patch";
 import { rpc } from "@web/core/network/rpc";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { isMobileOS } from "@web/core/browser/feature_detection";
 
 const MAX_STAR_RATING = 5;

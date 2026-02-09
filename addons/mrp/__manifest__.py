@@ -5,7 +5,7 @@
 {
     'name': 'Manufacturing',
     'version': '2.0',
-    'website': 'https://www.betopiaerp.com/app/manufacturing',
+    'website': 'https://www.BetopiaERP.com/app/manufacturing',
     'category': 'Supply Chain/Manufacturing',
     'sequence': 55,
     'summary': 'Manufacturing Orders & BOMs',
@@ -69,6 +69,6 @@
             'mrp/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

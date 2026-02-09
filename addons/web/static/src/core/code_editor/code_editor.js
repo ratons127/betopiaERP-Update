@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillStart, useEffect, useRef, useState, status } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, useEffect, useRef, useState, status } from "@betopiaerp/owl";
 import { loadBundle } from "@web/core/assets";
 
 export class CodeEditor extends Component {

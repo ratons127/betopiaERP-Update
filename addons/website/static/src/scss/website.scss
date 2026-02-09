@@ -197,7 +197,7 @@ $o-mega-menu-btn-close-zindex: $o-mega-menu-zindex + 1 !default;
 body {
     // The color behind the boxed layout is forced by BetopiaERP. The box background
     // color uses the `$body-bg` variable.
-    // grep: BOXED_BODY_BG_BetopiaERP
+    // grep: BOXED_BODY_BG_BETOPIAERP
     //
     // In any case, remove the transparency of the background color to apply as
     // body background color to prevent the fallback iframe used for navigation
@@ -225,7 +225,7 @@ body {
         > main {
             // The color behind the boxed layout is forced by BetopiaERP. The box
             // background color uses the `$body-bg` variable.
-            // grep: BOXED_BODY_BG_BetopiaERP
+            // grep: BOXED_BODY_BG_BETOPIAERP
             background-color: $body-bg;
         }
 
@@ -448,7 +448,7 @@ $-navbar-mobile-bg-color: o-color('menu-custom') or o-color('menu');
             &:after {
                 height: 100%;
                 background: none;
-                font-family: 'BetopiaERP_ui_icons';
+                font-family: 'betopiaerp_ui_icons';
                 content: '\e839';
             }
         }
@@ -1930,7 +1930,7 @@ header {
     .o_mega_menu_toggle::after {
         content: '\e83b';
         border: none;
-        font-family: 'BetopiaERP_ui_icons';
+        font-family: 'betopiaerp_ui_icons';
     }
 
     .o_mega_menu_left .o_mega_menu {

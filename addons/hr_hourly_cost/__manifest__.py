@@ -17,6 +17,6 @@ This module assigns an hourly wage to employees to be used by other modules.
     'demo': [
         'data/hr_hourly_cost_demo.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

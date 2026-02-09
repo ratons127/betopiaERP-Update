@@ -16,10 +16,10 @@ import {
     triggerHotkey,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { asyncStep, Command, onRpc, serverState, withUser } from "@web/../tests/web_test_helpers";
 
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 import { rpc } from "@web/core/network/rpc";
 
 describe.current.tags("desktop");

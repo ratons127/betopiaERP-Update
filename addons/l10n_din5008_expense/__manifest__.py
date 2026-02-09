@@ -7,7 +7,7 @@
         'hr_expense',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'data': [
         'report/hr_expense_report.xml',
     ],

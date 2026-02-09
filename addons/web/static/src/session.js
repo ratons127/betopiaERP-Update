@@ -1,2 +1,2 @@
-export const session = BetopiaERP.__session_info__ || {};
-delete BetopiaERP.__session_info__;
+export const session = betopiaerp.__session_info__ || {};
+delete betopiaerp.__session_info__;

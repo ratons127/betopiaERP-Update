@@ -204,7 +204,7 @@ class TestAccountInvoiceImportMixin:
         """ Simulate the upload of one or more attachments and their processing by the import framework.
             Keeps track of the created attachments, messages and invoices, and returns them.
 
-            :param origin: The source from which the attachments should be introduced into betopiaerp.
+            :param origin: The source from which the attachments should be introduced into BetopiaERP.
                            Possible values:
                                 - 'chatter_message': Simulates a message posted on the chatter of an existing vendor bill.
                                 - 'chatter_upload': Simulates attachments uploaded on the chatter of an existing vendor bill.
@@ -212,7 +212,7 @@ class TestAccountInvoiceImportMixin:
                                 - 'mail_alias': Simulates an incoming e-mail on a purchase journal mail alias.
                                 - 'journal': Simulates attachments uploaded on a purchase journal in the dashboard.
 
-            :param attachments_vals: A list of values representing attachments to upload into betopiaerp.
+            :param attachments_vals: A list of values representing attachments to upload into BetopiaERP.
 
             :return: a dict {
                 'ir.attachment': created_attachments,

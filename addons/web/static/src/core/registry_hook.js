@@ -1,4 +1,4 @@
-import { useState, onWillStart, onWillDestroy } from "@BetopiaERP/owl";
+import { useState, onWillStart, onWillDestroy } from "@betopiaerp/owl";
 
 export function useRegistry(registry) {
     const state = useState({ entries: registry.getEntries() });

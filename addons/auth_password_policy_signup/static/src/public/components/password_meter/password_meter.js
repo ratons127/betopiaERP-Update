@@ -1,6 +1,6 @@
 import { Meter } from "@auth_password_policy/password_meter";
 import { ConcretePolicy, recommendations } from "@auth_password_policy/password_policy";
-import { Component, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 class PasswordMeter extends Component {

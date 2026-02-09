@@ -46,9 +46,9 @@ import {
     useEnv,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { KeepLast } from "@web/core/utils/concurrency";
-import { highlightText, BetopiaERPmark } from "@web/core/utils/html";
+import { highlightText, betopiaerpmark } from "@web/core/utils/html";
 import { deepEqual } from "@web/core/utils/objects";
 
 //
@@ -392,7 +392,7 @@ export class Many2XAutocomplete extends Component {
     onQuickCreateError(error, request) {
         if (
             error instanceof RPCError &&
-            error.exceptionName === "BetopiaERP.exceptions.ValidationError"
+            error.exceptionName === "betopiaerp.exceptions.ValidationError"
         ) {
             return this.slowCreate(request);
         } else {
@@ -519,7 +519,7 @@ export class Many2XAutocomplete extends Component {
         return {
             data: { record, slotName: "autoCompleteItem" },
             label: label
-                ? highlightText(request, BetopiaERPmark(label), "text-primary fw-bold")
+                ? highlightText(request, betopiaerpmark(label), "text-primary fw-bold")
                 : _t("Unnamed"),
             onSelect: () => this.props.update([record]),
         };

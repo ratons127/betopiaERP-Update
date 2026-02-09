@@ -1,5 +1,5 @@
 import { AvatarEmployee } from "@hr/components/avatar_employee/avatar_employee";
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { user } from "@web/core/user";
 import { computeM2OProps, Many2One } from "@web/views/fields/many2one/many2one";

@@ -4,8 +4,8 @@ import {
     lockWebsocketConnect,
 } from "@bus/../tests/bus_test_helpers";
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent, runAllTimers } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent, runAllTimers } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     getService,

@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { TextInputPopup } from "@point_of_sale/app/components/popups/text_input_popup/text_input_popup";
 import { useService } from "@web/core/utils/hooks";

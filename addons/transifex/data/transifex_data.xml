@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP noupdate="1">
+<betopiaerp noupdate="1">
 
     <record id="transifex_project_url" model="ir.config_parameter">
         <field name="key">transifex.project_url</field>
-        <field name="value">https://app.transifex.com/BetopiaERP</field>
+        <field name="value">https://app.transifex.com/betopiaerp</field>
     </record>
 
     <record id="transifex_code_translation_reload" model="ir.cron">
@@ -15,4 +15,4 @@
         <field name='interval_type'>days</field>
     </record>
 
-</BetopiaERP>
+</betopiaerp>

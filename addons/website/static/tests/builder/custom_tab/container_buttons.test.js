@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { xml } from "@betopiaerp/owl";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,
@@ -15,7 +15,7 @@ import {
     getSnippetView,
 } from "@html_builder/../tests/helpers";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
-import { animationFrame, Deferred, queryText, tick } from "@BetopiaERP/hoot-dom";
+import { animationFrame, Deferred, queryText, tick } from "@betopiaerp/hoot-dom";
 import { undo } from "@html_editor/../tests/_helpers/user_actions";
 import { Plugin } from "@html_editor/plugin";
 import { BuilderAction } from "@html_builder/core/builder_action";

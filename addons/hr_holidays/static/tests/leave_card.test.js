@@ -3,9 +3,9 @@ import { ResUsers } from "@hr_holidays/../tests/mock_server/mock_models/res_user
 import { defineHrHolidaysModels } from "@hr_holidays/../tests/hr_holidays_test_helpers";
 import { mountView, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { clickDate } from "@web/../tests/views/calendar/calendar_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
-import { click, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
+import { click, waitFor } from "@betopiaerp/hoot-dom";
 import { user } from "@web/core/user";
 
 describe.current.tags("desktop");

@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { EQ, AbstractNumbers } from "@point_of_sale/app/utils/numbers";
 
 class CustomNumbers extends AbstractNumbers {

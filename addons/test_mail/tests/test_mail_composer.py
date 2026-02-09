@@ -1782,7 +1782,7 @@ class TestComposerResultsComment(TestMailComposer, CronMixinCase):
                     [f'user.from@{self.alias_domain}', 'user@other.domain.com'],
                     self.env['ir.mail_server'],
                     {'default_from': f'notifications@{self.alias_domain}', 'from_filter': self.alias_domain}
-                ),  # BetopiaERP-style configuration
+                ),  # betopiaerp-style configuration
             ], [
                 (
                     [f'{self.alias_bounce}@{self.alias_domain}', f'{self.alias_bounce}@{self.alias_domain}'],

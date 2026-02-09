@@ -1,6 +1,6 @@
 /** @ts-check */
-import { describe, expect, test, beforeEach } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test, beforeEach } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import {
     getDateDomain,
     getRelativeDateFromTo,

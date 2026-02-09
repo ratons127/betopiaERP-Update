@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import { switchToEditMode } from "../../helpers";
-import { tick } from "@BetopiaERP/hoot-dom";
+import { tick } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("interaction_dev");
 setupInteractionWhiteList("website.countdown");

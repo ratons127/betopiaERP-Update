@@ -27,6 +27,6 @@
             'iap_mail/static/src/scss/iap_mail.dark.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { renderToElement } from "@web/core/utils/render";
 import { rpc } from "@web/core/network/rpc";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Interaction } from "@web/public/interaction";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";

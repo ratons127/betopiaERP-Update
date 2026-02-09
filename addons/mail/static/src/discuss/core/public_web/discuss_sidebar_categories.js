@@ -5,7 +5,7 @@ import { discussSidebarItemsRegistry } from "@mail/core/public_web/discuss_sideb
 import { DiscussSidebarChannelActions } from "@mail/discuss/core/public_web/discuss_sidebar_channel_actions";
 import { useHover, UseHoverOverlay } from "@mail/utils/common/hooks";
 
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";

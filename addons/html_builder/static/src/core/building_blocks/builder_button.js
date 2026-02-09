@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import {
     clickableBuilderComponentProps,
     useActionInfo,

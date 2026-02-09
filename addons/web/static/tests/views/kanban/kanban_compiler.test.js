@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 
 import { KanbanCompiler } from "@web/views/kanban/kanban_compiler";
 

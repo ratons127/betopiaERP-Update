@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { AccordionItem } from "@point_of_sale/app/components/accordion_item/accordion_item";
 
 export class PaymentMethodBreakdown extends Component {

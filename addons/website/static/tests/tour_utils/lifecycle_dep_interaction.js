@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { browser } from "@web/core/browser/browser";
 const localStorage = browser.localStorage;
 
-BetopiaERP.loader.bus.addEventListener("module-started", (e) => {
+betopiaerp.loader.bus.addEventListener("module-started", (e) => {
     if (e.detail.moduleName !== "@web/public/interaction") {
         return;
     }

@@ -1,4 +1,4 @@
-import { markRaw, onPatched, onWillRender, reactive, useEffect, useRef } from "@BetopiaERP/owl";
+import { markRaw, onPatched, onWillRender, reactive, useEffect, useRef } from "@betopiaerp/owl";
 import { areDatesEqual, formatDate, formatDateTime, parseDate, parseDateTime } from "../l10n/dates";
 import { makePopover } from "../popover/popover_hook";
 import { registry } from "../registry";
@@ -13,8 +13,8 @@ import { DateTimePickerPopover } from "./datetime_picker_popover";
  * @typedef {import("./datetime_picker").DateTimePickerProps} DateTimePickerProps
  * @typedef {import("../popover/popover_hook").PopoverHookReturnType} PopoverHookReturnType
  * @typedef {import("../popover/popover_service").PopoverServiceAddOptions} PopoverServiceAddOptions
- * @typedef {import("@BetopiaERP/owl").Component} Component
- * @typedef {ReturnType<typeof import("@BetopiaERP/owl").useRef>} OwlRef
+ * @typedef {import("@betopiaerp/owl").Component} Component
+ * @typedef {ReturnType<typeof import("@betopiaerp/owl").useRef>} OwlRef
  *
  * @typedef {{
  *  createPopover?: (component: Component, options: PopoverServiceAddOptions) => PopoverHookReturnType;

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { mountView } from "@web/../tests/web_test_helpers";
 
 import { ProjectTask, defineProjectModels } from "./project_models";

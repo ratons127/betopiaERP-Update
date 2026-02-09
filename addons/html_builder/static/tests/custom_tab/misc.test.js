@@ -9,9 +9,9 @@ import { OptionsContainer } from "@html_builder/sidebar/option_container";
 import { setContent, setSelection } from "@html_editor/../tests/_helpers/selection";
 import { redo, undo } from "@html_editor/../tests/_helpers/user_actions";
 import { withSequence } from "@html_editor/utils/resource";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
-import { onWillStart, xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
+import { onWillStart, xml } from "@betopiaerp/owl";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

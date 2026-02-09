@@ -4,7 +4,7 @@ import { Layout } from "@web/search/layout";
 import { getDefaultConfig } from "@web/views/view";
 import { useEnrichWithActionLinks } from "@web/webclient/actions/reports/report_hook";
 
-import { Component, useRef, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useRef, useSubEnv } from "@betopiaerp/owl";
 
 /**
  * Most of the time reports are printed as pdfs.
@@ -14,7 +14,7 @@ import { Component, useRef, useSubEnv } from "@BetopiaERP/owl";
  * If not defined as the default action, the HTML is the fallback to pdf if wkhtmltopdf is not available.
  *
  * It has a button to print the report.
- * It uses a feature to automatically create links to other BetopiaERP pages if the selector [res-id][res-model][view-type]
+ * It uses a feature to automatically create links to other betopiaerp pages if the selector [res-id][res-model][view-type]
  * is detected.
  */
 export class ReportAction extends Component {

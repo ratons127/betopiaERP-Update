@@ -3,7 +3,7 @@ import { useService } from "@web/core/utils/hooks";
 import { View } from "@web/views/view";
 import { makeContext } from "@web/core/context";
 import { user } from "@web/core/user";
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 
 export class BoardAction extends Component {
     static template = "board.BoardAction";

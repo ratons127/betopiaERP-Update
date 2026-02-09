@@ -30,7 +30,7 @@ gc_set_timing(enable=True)
 
 # ----------------------------------------------------------
 # Shortcuts
-# Expose them at the `BetopiaERP` namespace level
+# Expose them at the `betopiaerp` namespace level
 # ----------------------------------------------------------
 import betopiaerp
 from .orm.commands import Command

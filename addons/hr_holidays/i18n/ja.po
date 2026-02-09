@@ -7,8 +7,8 @@
 # Martin Trigaux, 2023
 # Andy Yiu, 2023
 # Ryoko Tsuda <ryoko@quartile.co>, 2023, 2025.
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:35+0000\n"
 "PO-Revision-Date: 2026-02-06 06:07+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "hr_holidays/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/hr_leave_employee_type_report.py:0
 msgid ""
 "\n"
@@ -51,7 +51,7 @@ msgstr ""
 "            "
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid " to %(date_to_utc)s"
 msgstr " から %(date_to_utc)sまで"
@@ -92,110 +92,110 @@ msgid "# days"
 msgstr "日数"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(allocation_name)s (from %(date_from)s to %(date_to)s)"
 msgstr "%(allocation_name)s ( %(date_from)s から %(date_to)sまで)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(allocation_name)s (from %(date_from)s to No Limit)"
 msgstr "%(allocation_name)s (%(date_from)s から無期限)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee)s on Time Off : %(duration)s"
 msgstr "%(employee)s 休暇中 : %(duration)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee_name)s from %(date_from)s to %(date_to)s - %(state)s"
 msgstr "%(employee_name)s: %(date_from)s から %(date_to)s まで - %(state)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(holiday_name)s has been refused."
 msgstr "%(holiday_name)sは却下されました。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/hr_presence_status/hr_presence_status.js:0
 msgid "%(label)s, back on %(date)s"
 msgstr "%(label)s 戻り予定: %(date)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_name)s has been cancelled for the following reason: %(reason)s"
 msgstr "%(leave_name)s は以下の理由でキャンセルされました: %(reason)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_type)s: %(duration)s (%(start)s)"
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 msgstr "%(name)s (%(duration)s %(request_unit)s)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s day(s))"
 msgstr "%(name)s (%(duration)s 日)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "%(name)s (%(duration)s hour(s))"
 msgstr "%(name)s (%(duration)s 時間)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 msgstr "%(name)s (残%(time)g、全%(maximum)g 日のうち)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 msgstr "%(name)s (残%(time)g、全%(maximum)g 時間のうち)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(name)s: %(duration)s"
 msgstr "%(name)s: %(duration)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 msgstr "%(person)s %(leave_type)s中: %(duration)s (%(start)s)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s: %(duration)s (%(start)s)"
 msgstr "%(person)s: %(duration)s (%(start)s)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%s (copy)"
 msgstr "%s (コピー)"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%s: Time Off"
 msgstr "%s: 休暇"
@@ -233,19 +233,19 @@ msgid "&lt;th class=\"text-center\" colspan="
 msgstr "&lt;th class=\"text-center\" colspan="
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "'s summary ("
 msgstr "の休暇概要 ("
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "'s summary in this period"
 msgstr "のこの時期の休暇概要"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid ""
 "(s)\n"
@@ -253,19 +253,19 @@ msgid ""
 msgstr "および残りの上限が以下に設定されています:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "(valid until"
 msgstr "(有効期限"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/hr_presence_status/hr_presence_status.js:0
 msgid ", back on "
 msgstr "戻り予定: "
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "- '%(version)s' from %(start_date)s to %(end_date)s"
 msgstr "- '%(version)s' %(start_date)s 〜 %(end_date)s"
@@ -441,13 +441,13 @@ msgid "<strong>Departments and Employees</strong>"
 msgstr "<strong>部署と従業員</strong>"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "A balance cap is set to"
 msgstr "残高上限が設定されています:"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 msgstr "キャンセル済の休暇は変更できません。"
@@ -474,7 +474,7 @@ msgid ""
 msgstr "休暇申請、病欠、承認状況を追跡するのに最適な方法です。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "A leave cannot be set across multiple versions with different working "
@@ -500,13 +500,13 @@ msgstr ""
 "%(versions)s"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A time off cannot be duplicated."
 msgstr "休暇を複製することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "A yearly cap is set to"
 msgstr "年間上限が設定されています:"
@@ -553,7 +553,7 @@ msgid "Accident leave"
 msgstr "事故休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "According to your working schedule you are expected to work %(days)s days in "
@@ -565,7 +565,7 @@ msgstr ""
 "が使用されます。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Accrual (Future):"
 msgstr "累積休暇 (今後):"
@@ -601,7 +601,7 @@ msgid "Accrual Plan Level"
 msgstr "休暇累積プランレベル"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "Accrual Plan's Employees"
 msgstr "休暇累積プランの従業員"
@@ -619,7 +619,7 @@ msgid "Accrual Time Off: Updates the number of time off"
 msgstr "累積休暇:休暇の数を更新"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "Accrual frequency :"
 msgstr "累積休暇頻度 :"
@@ -663,7 +663,7 @@ msgid "Active Employee"
 msgstr "有効な従業員"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Active but on leave"
 msgstr "有効(休暇中)"
@@ -716,7 +716,7 @@ msgid "Activity type"
 msgstr "活動タイプ"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "Add a milestone"
 msgstr "マイルストンを追加"
@@ -728,7 +728,7 @@ msgid "Add a reason..."
 msgstr "理由を記述してください..."
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Add some description for the people that will validate it"
 msgstr "それを最終確定する担当者向けの説明を追加してください"
@@ -739,7 +739,7 @@ msgid "Administrator"
 msgstr "管理者"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__milestone_date__after
 msgid "After"
@@ -793,7 +793,7 @@ msgid "Allocate Time Off"
 msgstr "休暇を割当"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Allocated"
 msgstr "割当"
@@ -841,7 +841,7 @@ msgid "Allocation Remaining Display"
 msgstr "割当残表示"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__allocation_id
@@ -852,7 +852,7 @@ msgid "Allocation Request"
 msgstr "割当申請"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_department_view_kanban
@@ -875,13 +875,13 @@ msgid "Allocation Type"
 msgstr "割当タイプ"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Allocation must be \"To Approve\" in order to approve it."
 msgstr "休暇割当を承認するには、「承認待ち」である必要があります。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Allocation of %(leave_type)s: %(amount).2f %(unit)s to %(target)s"
 msgstr "%(leave_type)sの割当: %(amount).2f %(unit)s から %(target)sへ"
@@ -892,7 +892,7 @@ msgid "Allocation on"
 msgstr "以下での割当"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "Allocation request must be confirmed, second approval or validated in order "
@@ -958,7 +958,7 @@ msgid "Amount"
 msgstr "数量"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "An employee already booked time off which overlaps with this period:"
 msgstr "従業員が以下の期間と重複する休暇を予約しています:"
@@ -980,7 +980,7 @@ msgid "Approval"
 msgstr "承認"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -993,7 +993,7 @@ msgid "Approve"
 msgstr "承認"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee__current_leave_state__validate
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_holidays_summary_employee__holiday_type__approved
@@ -1018,7 +1018,7 @@ msgid "Approved Requests"
 msgstr "承認済"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Approved:"
 msgstr "承認済:"
@@ -1039,25 +1039,25 @@ msgid "Archived"
 msgstr "アーカイブ済"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 msgid "Are you sure you want to delete this record?"
 msgstr "本当にこのレコードを削除しますか？"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "Arrow"
 msgstr "矢印"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "Arrow icon"
 msgstr "矢印アイコン"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid ""
@@ -1124,7 +1124,7 @@ msgid "August"
 msgstr "8月"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Available"
 msgstr "処理可能"
@@ -1136,19 +1136,19 @@ msgid "Available Time Off"
 msgstr "利用可能な休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Available:"
 msgstr "利用可能:"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/res_users.py:0
 msgid "Back on"
 msgstr "戻り予定:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/res_partner_model_patch.js:0
 msgid "Back on %(date)s"
 msgstr "戻り予定: %(date)s"
@@ -1159,8 +1159,8 @@ msgid "Back to Approval"
 msgstr "承認に戻る"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/hr_leave_employee_type_report.py:0
 #: code:addons/hr_holidays/static/src/views/graph/hr_holidays_graph_renderer.js:0
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_balance
@@ -1168,7 +1168,7 @@ msgid "Balance"
 msgstr "残高"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Balance at the"
 msgstr "以下での残高"
@@ -1189,7 +1189,7 @@ msgid "Brief Holiday (Birth)"
 msgstr "短期休暇(出産)"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Busy"
 msgstr "不在"
@@ -1276,8 +1276,8 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/static/src/views/hooks.js:0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
@@ -1305,7 +1305,7 @@ msgid "Cancelled"
 msgstr "キャンセル済"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Cancelled Time Off"
 msgstr "キャンセル済休暇"
@@ -1331,7 +1331,7 @@ msgid "Carry Over Options"
 msgstr "繰越オプション"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_version.py:0
 msgid ""
 "Changing the contract on this employee changes their working schedule in a "
@@ -1346,7 +1346,7 @@ msgstr ""
 "び/または割当を確認して下さい。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_employee.py:0
 msgid ""
 "Changing this working schedule results in the affected employee(s) not "
@@ -1383,19 +1383,19 @@ msgstr ""
 "合、誰にも通知されません。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Click on the 22nd"
 msgstr "22日をクリックしてください"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Click on the 25st"
 msgstr "25日をクリックしてください"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Click on this button to request a time-off"
 msgstr "このボタンをクリックして、休暇を申請してください"
@@ -1440,20 +1440,20 @@ msgid "Configuration"
 msgstr "設定"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 msgid "Confirmation"
 msgstr "確認"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_holidays_summary_employee__holiday_type__confirmed
 msgid "Confirmed"
 msgstr "確認済"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 msgid "Confirmed and Approved"
 msgstr "確認済および承認済"
@@ -1651,7 +1651,7 @@ msgid "Day(s)"
 msgstr "日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__accrual_validity_type__day
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__start_type__day
@@ -1703,7 +1703,7 @@ msgid "Delete"
 msgstr "削除"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 msgid "Delete Time Off"
 msgstr "休暇を削除"
@@ -1759,7 +1759,7 @@ msgid "Disability due to illness (IMSS)"
 msgstr "病気による障害(IMSS)"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
@@ -1815,7 +1815,7 @@ msgid "Do you need a carry-over of the accrued days from one year to another?"
 msgstr "付与された休暇日数を翌年に繰越す必要がありますか?"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid ""
 "Do you want to save the changes made to the accrual plan before creating a "
@@ -1823,7 +1823,7 @@ msgid ""
 msgstr "新しいマイルストンを作成する前に、休暇累積プランの変更を保存しますか?"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid ""
 "Do you want to save the changes made to the accrual plan before editing this "
@@ -1831,7 +1831,7 @@ msgid ""
 msgstr "このマイルストンを編集する前に、休暇累積プランへの変更を保存しますか?"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/resource.py:0
 msgid ""
 "Due to a change in global time offs, %s extra day(s) have been taken from "
@@ -1841,7 +1841,7 @@ msgstr ""
 "必要な場合は、この休暇を見直して下さい。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/resource.py:0
 msgid ""
 "Due to a change in global time offs, this leave no longer has the required "
@@ -1852,7 +1852,7 @@ msgstr ""
 "の休暇を見直して下さい。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/resource.py:0
 msgid ""
 "Due to a change in global time offs, you have been granted %s day(s) back."
@@ -1979,7 +1979,7 @@ msgid "End Date"
 msgstr "終了日"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
 msgid ""
 "End date has been updated because the employee will leave the company on %"
@@ -2128,13 +2128,13 @@ msgid "Generate time off for multiple employees"
 msgstr "複数の従業員の休暇を作成"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
 msgstr "生成済の休暇割当"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
 msgstr "生成済の休暇"
@@ -2145,7 +2145,7 @@ msgid "Grant"
 msgstr "付与"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Grant Time"
 msgstr "時間調整"
@@ -2296,7 +2296,7 @@ msgid "Hourly"
 msgstr "時間毎"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__added_value_type__hour
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation__type_request_unit__hour
@@ -2399,7 +2399,7 @@ msgid "Iddah Leave"
 msgstr "イドダ休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Idle"
 msgstr "オフライン状態"
@@ -2477,14 +2477,14 @@ msgid "Illness leave"
 msgstr "病気休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__transition_mode__immediately
 msgid "Immediately"
 msgstr "即時"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Incorrect state for new allocation"
 msgstr "新規割当用の不正なステータス"
@@ -2624,31 +2624,31 @@ msgid "Left"
 msgstr "残"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 msgid "Legend"
 msgstr "凡例"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's approve it"
 msgstr "承認しましょう"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's discover the <strong>Time Off</strong> app!"
 msgstr "<strong>休暇管理アプリ</strong>を使ってみましょう!"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's go validate it"
 msgstr "最終確定しましょう"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Let's try to create a Sick Time Off, select it in the list"
 msgstr "病欠を作成してみましょう、リストから選択します。"
@@ -2686,7 +2686,7 @@ msgid "Mandatory Day"
 msgstr "強制日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_mandatory_day_action
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_mandatory_day_menu_configuration
@@ -2797,13 +2797,13 @@ msgid "Messages"
 msgstr "メッセージ"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "Milestone Edition"
 msgstr "マイルストン版"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__level_ids
 msgid "Milestones"
@@ -2916,37 +2916,37 @@ msgid "Negative Cap"
 msgstr "負の限度"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.xml:0
 msgid "New"
 msgstr "新規"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "New !"
 msgstr "新規 !"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "New %(leave_type)s Request created by %(user)s"
 msgstr "新規 %(leave_type)s 申請が %(user)sによって作成されました"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/hooks.js:0
 msgid "New Allocation"
 msgstr "新しい割り当て"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "New Allocation Request"
 msgstr "新規割当申請"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "New Allocation Request created by %(user)s: %(count)s Days of %"
@@ -2962,7 +2962,7 @@ msgid "New Group Allocation"
 msgstr "新規グループ割当"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_tree
@@ -2970,13 +2970,13 @@ msgid "New Group Time Off"
 msgstr "新規グループ休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "New Milestone"
 msgstr "新規マイルストン"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 msgid "New Time Off"
 msgstr "新しい休暇"
@@ -3065,7 +3065,7 @@ msgid "No, always consider the entire accrual period (whole calendar days)."
 msgstr "いいえ、常に休暇累積期間全体（暦日単位）を考慮してください。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid "No, keep the old version"
 msgstr "いいえ、古いバージョンを維持します"
@@ -3098,7 +3098,7 @@ msgid "None needed"
 msgstr "承認不要"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "Not possible state. State Approve is only used for leave needed 2 approvals"
@@ -3185,31 +3185,31 @@ msgid "Officer: Manage all requests"
 msgstr "役員: 全申請の管理"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "On Leave"
 msgstr "休暇中"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "On Leave (Busy)"
 msgstr "休暇中 (対応不可)"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "On Leave (Idle)"
 msgstr "休暇中 (オフライン状態)"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "On Leave (Online)"
 msgstr "休暇中 (オンライン)"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "On Time Off"
@@ -3221,61 +3221,61 @@ msgid "On leave"
 msgstr "休暇中"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Online"
 msgstr "オンライン"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Only"
 msgstr "只今"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a Time Off Officer/Manager can approve a leave."
 msgstr "休暇申請を承認できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Only a Time Off Officer/Manager can approve an allocation."
 msgstr "休暇割当を承認できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a Time Off Officer/Manager can refuse a leave."
 msgstr "休暇申請を却下できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Only a Time Off Officer/Manager can refuse an allocation."
 msgstr "休暇割当を却下できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a Time Off Officer/Manager can validate a leave."
 msgstr "休暇申請を最終確定できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Only a Time Off Officer/Manager can validate an allocation."
 msgstr "休暇割当を最終確定できるのは、休暇管理者またはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 msgstr "キャンセル済休暇を変更できるのはマネジャーのみです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Only a time off Administrator can approve/refuse their own requests."
 msgstr "自分の申請を承認または却下できるのは、休暇管理者のみです。"
@@ -3287,14 +3287,14 @@ msgid ""
 msgstr "「無給」種別として設定されている休暇申請のみを除外します。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "Oops! %(state)s Time-Off requests can only be deleted by Administrators."
 msgstr "おっと! %(state)s休暇申請は、管理者のみが削除できます。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Out of office"
 msgstr "オフィスの外"
@@ -3331,7 +3331,7 @@ msgid "Paternity Leave"
 msgstr "父親育児休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
 msgstr "保留中申請"
@@ -3353,7 +3353,7 @@ msgid "Planned"
 msgstr "予定済"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Planned:"
 msgstr "計画済:"
@@ -3374,7 +3374,7 @@ msgid "Public Employee"
 msgstr "公開従業員"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 #: model:ir.actions.act_window,name:hr_holidays.open_view_public_holiday
 #: model:ir.actions.act_window,name:hr_holidays.resource_calendar_global_leaves_action_from_calendar
@@ -3421,7 +3421,7 @@ msgid "Recovery Bank Holiday"
 msgstr "振替休日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -3434,7 +3434,7 @@ msgid "Refuse"
 msgstr "却下"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee__current_leave_state__refuse
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave__state__refuse
@@ -3453,7 +3453,7 @@ msgid "Refused"
 msgstr "却下"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Refused Time Off"
 msgstr "却下された休暇"
@@ -3566,7 +3566,7 @@ msgid "Saturday"
 msgstr "土曜"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Save"
@@ -3608,19 +3608,19 @@ msgid "Second Approval"
 msgstr "第2の承認"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Second approval request for %(allocation_type)s"
 msgstr "%(allocation_type)s用の2次承認依頼"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Second approval request for %(leave_type)s"
 msgstr "%(leave_type)s用の第2承認の要求"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Select Time Off"
 msgstr "休暇を選択"
@@ -3648,7 +3648,7 @@ msgstr ""
 "            #      休暇担当、従業員の承認者、またはその両方によるもの。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Select the request you just created"
 msgstr "作成したばかりの申請を選択"
@@ -3748,7 +3748,7 @@ msgid "Small Unemployment"
 msgstr "軽度失業休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid ""
 "Some employees already have time off requests in hours that overlap with the "
@@ -3762,13 +3762,13 @@ msgstr ""
 "%s"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Some leaves cannot be linked to any allocation. To see those leaves,"
 msgstr "一部の休暇は、どの割当にもリンクできません。それらの休暇を見るには"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid ""
 "Some of the accrual plans you're trying to delete are linked to an existing "
@@ -3864,7 +3864,7 @@ msgid "Study Leave"
 msgstr "研修休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 #: code:addons/hr_holidays/static/src/views/view_dialog/allocation_form_view_dialog.xml:0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
@@ -3872,7 +3872,7 @@ msgid "Submit Request"
 msgstr "申請を提出"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "Submit your request"
 msgstr "申請を提出"
@@ -3883,7 +3883,7 @@ msgid "Sum"
 msgstr "合計"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_filter_panel/calendar_mobile_filter_panel.xml:0
 msgid "Summary"
 msgstr "概要"
@@ -3905,7 +3905,7 @@ msgid "Supporting Document"
 msgstr "参考資料"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Supporting Documents"
 msgstr "参考資料"
@@ -3916,7 +3916,7 @@ msgid "Switch employees to the new accrual level:"
 msgstr "従業員を新しい休暇累積レベルに切り替える:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_employee_type_report__holiday_status__taken
 msgid "Taken"
@@ -3932,7 +3932,7 @@ msgstr ""
 "これを使ってクイックサーチできます。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "The Start Date of the Validity Period must be anterior to the End Date."
 msgstr "有効期間の開始日は終了日より前である必要があります。"
@@ -3948,7 +3948,7 @@ msgstr ""
 "使用される日数、月数、または年数を定義します。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid ""
 "The allocation requirement of a time off type cannot be changed once leaves "
@@ -3984,19 +3984,19 @@ msgid "The duration must be greater than 0."
 msgstr "期間は0より大きくなければなりません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
 msgid "The employee will leave the company on %(departure_date)s."
 msgstr "従業員は %(departure_date)sに退職予定です。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
 msgid "The first day must be lower than the second day."
 msgstr "開始日は終了日より前でなければなりません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "The following employees are not supposed to work during that period:\n"
@@ -4004,7 +4004,7 @@ msgid ""
 msgstr "次の従業員は、その期間中は働くことになっていない:%s"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid ""
 "The leaves planned in the future are exceeding the maximum value of the "
@@ -4062,13 +4062,13 @@ msgstr ""
 "休暇申請がマネジャーに承認されると、ステータスは'承認済'となります。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been automatically approved"
 msgstr "休暇は自動的に承認されました"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "The time off request has been cancelled for the following reason:%(reason)s"
@@ -4081,7 +4081,7 @@ msgid ""
 msgstr "シーケンスが最小のタイプは、休暇申請のデフォルト値です。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "There is no employee set on the time off. Please make sure you're logged in "
@@ -4091,13 +4091,13 @@ msgstr ""
 "下さい。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "There is no valid allocation to cover that request."
 msgstr "その申請をカバーできる有効な割当がありません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "This allocation have already ran once, any modification won't be effective "
@@ -4158,13 +4158,13 @@ msgid "This milestone will be reached :"
 msgstr "このマイルストーンが達成されるのは:"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This modification is not allowed in the current state."
 msgstr "現在のステータスでは、この変更は許可されていません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 msgstr "この休暇はキャンセルできません。"
@@ -4191,7 +4191,7 @@ msgid "Thursday"
 msgstr "木曜"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_action_holiday_allocation_id
 #: model:ir.model,name:hr_holidays.model_hr_leave
@@ -4244,7 +4244,7 @@ msgid "Time Off Count"
 msgstr "休暇数"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_employee.py:0
 msgid "Time Off Dashboard"
 msgstr "休暇ダッシュボード"
@@ -4260,7 +4260,7 @@ msgid "Time Off Notification Subtype"
 msgstr "休暇通知サブタイプ"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_controller.js:0
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_action_my_request
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_cancel_leave__leave_id
@@ -4408,7 +4408,7 @@ msgid "Time off of people you are manager of"
 msgstr "あなたがマネージャーである人々の休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Time off request must be confirmed or validated in order to refuse it."
 msgstr ""
@@ -4439,7 +4439,7 @@ msgid "To"
 msgstr "終了日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave__state__confirm
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation__state__confirm
@@ -4473,7 +4473,7 @@ msgid "To Validate"
 msgstr "最終確定待ち"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Today"
 msgstr "今日"
@@ -4525,7 +4525,7 @@ msgid "Twice a year"
 msgstr "年に２回"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/resource.py:0
 msgid ""
 "Two public holidays cannot overlap each other for the same working hours."
@@ -4570,7 +4570,7 @@ msgid "Unlimited"
 msgstr "無制限"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "Unnamed Plan"
 msgstr "無名の計画"
@@ -4602,19 +4602,19 @@ msgid "Unread Messages"
 msgstr "未読メッセージ"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "Unused days will be lost."
 msgstr "未使用の休暇日は失効します。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "Unused days will be transferred totally on each"
 msgstr "未使用の休暇日は毎回すべて繰り越されます:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "Unused days will be transferred with a max of"
 msgstr "未使用の休暇は最大以下の日数まで繰り越されます:"
@@ -4641,55 +4641,55 @@ msgid "User"
 msgstr "ユーザ"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "User is busy"
 msgstr "ユーザはビジー状態です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "User is idle"
 msgstr "ユーザはオフライン状態です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is on leave"
 msgstr "ユーザは休暇中です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is on leave and busy"
 msgstr "ユーザは休暇中でビジー状態です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is on leave and idle"
 msgstr "ユーザは休暇中でオフライン状態です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/im_status_patch.xml:0
 msgid "User is on leave and online"
 msgstr "ユーザは休暇中ですがオンラインです"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "User is online"
 msgstr "ユーザーはオンラインです"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "User is out of office"
 msgstr "ユーザーが不在です"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -4701,7 +4701,7 @@ msgid "Validate"
 msgstr "最終確定"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/calendar_side_panel/calendar_side_panel.xml:0
 msgid "Validated"
 msgstr "最終確定済"
@@ -4713,7 +4713,7 @@ msgid "Validation Type"
 msgstr "検証タイプ"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
 msgid ""
 "Validity End date has been updated because the employee will leave the "
@@ -4790,7 +4790,7 @@ msgid "Wednesday"
 msgstr "水曜"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
 msgid "Weekday must be selected to use the frequency weekly"
 msgstr "週次を使用するには、週次を選択する必要があります"
@@ -4889,25 +4889,25 @@ msgid ""
 msgstr "はい、その期間中に取得した休暇を除いた実勤務時間を考慮します。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid "Yes, save changes"
 msgstr "はい、変更を保存します。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/hr_leave_report_calendar.py:0
 msgid "You are not allowed to approve this leave request."
 msgstr "この休暇申請を承認することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/report/hr_leave_report_calendar.py:0
 msgid "You are not allowed to refuse this leave request."
 msgstr "この休暇申請を却下することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You are not allowed to request time off on a Mandatory Day"
 msgstr "強制日に休暇申請することはできません"
@@ -4940,7 +4940,7 @@ msgid "You can not start an accrual in the past."
 msgstr "過去に遡って累積を開始することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You can only cancel your own leave. You can cancel a leave only if this "
@@ -4950,76 +4950,76 @@ msgstr ""
 "済」または「却下済」のステータスである場合に限り、キャンセルが可能です。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can only validate a leave with validation by Time Off Manager."
 msgstr ""
 "休暇申請を最終確定できるのは、休暇管理者による承認がある場合に限ります。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "You can only validate an allocation with validation by Time Off Manager."
 msgstr "休暇割当は、休暇管理者による承認がある場合にのみ最終確定できます。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/tours/hr_holidays_tour.js:0
 msgid "You can select the period you need to take off"
 msgstr "休みを取る期間を選択できます。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You can't approve a validated allocation."
 msgstr "最終確定済の休暇割当は承認できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't approve a validated leave."
 msgstr "最終確定済の休暇は承認できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You can't approve this refused allocation."
 msgstr "この却下済の休暇割当を承認することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't approve this refused leave."
 msgstr "この却下済の休暇を承認することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't delete a time off request that is in the past."
 msgstr "過去の日付の休暇申請は削除できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You can't do the same action twice."
 msgstr "同じアクションを2回することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't refuse a leave with validation by Time Off Officer."
 msgstr "休暇管理者によって最終確定された休暇を却下することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You can't refuse an allocation with validation by Time Off Officer."
 msgstr "休暇管理者によって最終確定された休暇割当を却下することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't reset a leave. Cancel/delete this one and create an other"
 msgstr ""
@@ -5027,7 +5027,7 @@ msgstr ""
 "成してください。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "You can't reset an allocation. Cancel/delete this one and create an other"
@@ -5036,38 +5036,38 @@ msgstr ""
 "休暇を作成してください。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You can't validate this leave."
 msgstr "この休暇は承認できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "You cannot allow requests on top of leaves of type 'Absence'."
 msgstr "「欠勤」タイプの休暇に重ねて申請を許可することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You cannot approve this leave."
 msgstr "この休暇を承認できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "You cannot delete an allocation request which has some validated leaves."
 msgstr "検証済の休暇のある割当申請を削除することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "You cannot delete an allocation request which is in %s state."
 msgstr "%s状態の割当申請は削除できません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You cannot first approve a time off for %s, because you are not his time off "
@@ -5077,7 +5077,7 @@ msgstr ""
 "ません"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
 msgid "You cannot have a balance cap on accrued time set to 0."
 msgstr "累積休暇の上限を0に設定することはできません。"
@@ -5100,7 +5100,7 @@ msgid "You cannot have an accrual validity time set to 0."
 msgstr "累積休暇の有効期間を0に設定することはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid ""
 "You cannot modify the 'Public Holiday Included' setting since one or more "
@@ -5113,7 +5113,7 @@ msgstr ""
 "受けることになるからです。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid ""
 "You cannot reduce the duration below the duration of leaves already taken by "
@@ -5121,7 +5121,7 @@ msgid ""
 msgstr "従業員が既に取得した休暇の期間より短くすることはできません。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You do not have any allocation for this time off type.\n"
@@ -5131,7 +5131,7 @@ msgstr ""
 "休暇申請を提出する前に、割当を申請してください。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You don't have the rights to apply second approval on a time off request"
@@ -5148,7 +5148,7 @@ msgid "You must give a rate greater than 0 in accrual plan levels."
 msgstr "累積プランのレベルでは、0より大きい率を与えて下さい。"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You must have manager rights to modify/validate a time off that already begun"
@@ -5156,25 +5156,25 @@ msgstr ""
 "すでに開始されている休暇を変更/検証するには、マネージャーの権限が必要です"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You've already booked time off which overlaps with this period:"
 msgstr "以下の時期と重なる休暇をすでに予約しています:"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your %(leave_type)s planned on %(date)s has been accepted"
 msgstr "%(date)sに計画された%(leave_type)sが受け入れられました"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your %(leave_type)s planned on %(date)s has been refused"
 msgstr "%(date)s に予定した %(leave_type)s は却下されました"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your Time Off"
 msgstr "あなたの休暇"
@@ -5185,7 +5185,7 @@ msgid "Your Timezone"
 msgstr "あなたのタイムゾーン"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan_level.py:0
 msgid ""
 "Your frequency selection is not correct: please choose a frequency between "
@@ -5196,26 +5196,26 @@ msgstr ""
 "毎日、毎週、月2回、毎月、年2回、毎年"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
 msgid "Your time off has been cancelled."
 msgstr "あなたの休暇がキャンセルされました。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid "allocation date"
 msgstr "割当日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "and the"
 msgstr "および"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "available"
 msgstr "取得可能"
@@ -5231,13 +5231,13 @@ msgid "by Type"
 msgstr "タイプ別"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "can be used before the allocation expires."
 msgstr "割当の有効期限が切れる前に使用可能。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "click here"
 msgstr "ここをクリック"
@@ -5248,8 +5248,8 @@ msgid "dates"
 msgstr "日付"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
@@ -5295,31 +5295,31 @@ msgid "e.g. Yearly Vacation"
 msgstr "例: 年次休暇"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "every day."
 msgstr "毎日"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "every hour."
 msgstr "毎時間"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "every month on the"
 msgstr "毎月:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "every week on"
 msgstr "毎週:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "every year on the"
 msgstr "毎年:"
@@ -5330,8 +5330,8 @@ msgid "from the start of allocation"
 msgstr "割当の開始から"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
@@ -5340,13 +5340,13 @@ msgid "hours"
 msgstr "時間"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_accrual_plan.py:0
 msgid "id"
 msgstr "ID"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid ""
 "leaves of type 'Worked Time' should be always eligible for accrual rate."
@@ -5354,13 +5354,13 @@ msgstr ""
 "「勤務時間」タイプの休暇は、常に休暇累積(付与)率の対象である必要があります。"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "new request"
 msgstr "新規申請"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
@@ -5383,7 +5383,7 @@ msgid "of the month"
 msgstr "月の"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "of the month."
@@ -5395,7 +5395,7 @@ msgid "on"
 msgstr "on"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "on each"
 msgstr "各"
@@ -5428,19 +5428,19 @@ msgid "sequence"
 msgstr "シーケンス"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.js:0
 msgid "start of the year"
 msgstr "年初"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "taken"
 msgstr "撮影"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "the accruated amount is insufficient for that duration."
 msgstr "累積数がその期間用には不足しています。"
@@ -5451,25 +5451,25 @@ msgid "to"
 msgstr "to"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "twice a month on the"
 msgstr "月2回:"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/components/accrual_level/accrual_levels.xml:0
 msgid "twice a year on the"
 msgstr "年2回:"
 
 #. module: hr_holidays
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "undefined"
 msgstr "未定義"
 
 #. module: hr_holidays
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "valid until"
 msgstr "有効期限"

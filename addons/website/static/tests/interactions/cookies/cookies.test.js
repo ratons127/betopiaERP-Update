@@ -1,8 +1,8 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { animationFrame, describe, expect, test } from "@BetopiaERP/hoot";
-import { click, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { animationFrame, describe, expect, test } from "@betopiaerp/hoot";
+import { click, queryOne, waitFor } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 
 import { cookie } from "@web/core/browser/cookie";
 

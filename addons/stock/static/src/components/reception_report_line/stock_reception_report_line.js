@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 import { formatFloat } from "@web/views/fields/formatters";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class ReceptionReportLine extends Component {
     static template = "stock.ReceptionReportLine";

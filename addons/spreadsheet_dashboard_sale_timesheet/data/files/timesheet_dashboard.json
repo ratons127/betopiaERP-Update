@@ -46,13 +46,13 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Time Billed by Week](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"date:week\"],\"graph_measure\":\"billable_time\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"date:week\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Timesheets by Billing Type\"})",
-        "A23": "[Top Projects](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"project_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"project_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Projects\"})",
+        "A7": "[Time Billed by Week](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"date:week\"],\"graph_measure\":\"billable_time\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"date:week\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Timesheets by Billing Type\"})",
+        "A23": "[Top Projects](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"project_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"project_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Projects\"})",
         "A24": "=PIVOT(1, 10, FALSE, FALSE)",
         "A37": "=PIVOT(3, 10, FALSE, FALSE)",
-        "F23": "[Top Tasks](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"task_id\",\"!=\",false]],\"context\":{\"group_by\":[\"task_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"task_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Tasks\"})",
+        "F23": "[Top Tasks](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"task_id\",\"!=\",false]],\"context\":{\"group_by\":[\"task_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"task_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Tasks\"})",
         "F24": "=PIVOT(2, 10, FALSE, FALSE)",
-        "F36": "[Top Employees](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"employee_id\",\"!=\",false]],\"context\":{\"group_by\":[\"employee_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"employee_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Employees\"})",
+        "F36": "[Top Employees](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[\"&\",[\"project_id\",\"!=\",false],[\"employee_id\",\"!=\",false]],\"context\":{\"group_by\":[\"employee_id\"],\"pivot_measures\":[\"unit_amount\",\"billable_time\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"employee_id\"]},\"modelName\":\"timesheets.analysis.report\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Employees\"})",
         "F37": "=PIVOT(4, 10, FALSE, FALSE)"
       },
       "styles": {
@@ -215,7 +215,7 @@
               "groupBy": ["date:week"],
               "orderBy": []
             },
-            "type": "BetopiaERP_line",
+            "type": "betopiaerp_line",
             "dataSets": [
               {}
             ],
@@ -265,7 +265,7 @@
                   "groupBy": ["department_id"],
                   "orderBy": []
                 },
-                "type": "BetopiaERP_treemap",
+                "type": "betopiaerp_treemap",
                 "actionXmlId": "sale_timesheet.timesheet_action_billing_report",
                 "dataSets": [
                   {}
@@ -484,7 +484,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": 0 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },
@@ -533,7 +533,7 @@
       ]
     },
     "2": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": 0 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },
@@ -584,7 +584,7 @@
       ]
     },
     "3": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": 0 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },
@@ -633,7 +633,7 @@
       ]
     },
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": 0 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },
@@ -682,7 +682,7 @@
       ]
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": 0 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },
@@ -710,7 +710,7 @@
       ]
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "fb3700b0-4ee9-4086-86ac-6c62a7d33d37": { "chain": "date", "type": "date", "offset": -1 },
         "65e4bccf-3035-47a0-a268-9a4e5b48037f": { "chain": "project_id", "type": "many2one" },

@@ -1,4 +1,4 @@
-import { htmlEscape, markup } from "@BetopiaERP/owl";
+import { htmlEscape, markup } from "@betopiaerp/owl";
 
 import { router } from "@web/core/browser/router";
 import { loadEmoji, loader } from "@web/core/emoji_picker/emoji_picker";
@@ -53,7 +53,7 @@ export function prettifyMessageText(rawBody, { validMentions = {}, thread } = {}
  */
 export async function generateEmojisOnHtml(htmlBody, { allowEmojiLoading = true } = {}) {
     let body = htmlBody;
-    if (allowEmojiLoading || BetopiaERP.loader.modules.get("@web/core/emoji_picker/emoji_data")) {
+    if (allowEmojiLoading || betopiaerp.loader.modules.get("@web/core/emoji_picker/emoji_data")) {
         body = await _generateEmojisOnHtml(body);
     }
     return body;

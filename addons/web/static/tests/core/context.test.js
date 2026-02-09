@@ -1,5 +1,5 @@
 import { evalPartialContext, makeContext } from "@web/core/context";
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 
 describe.current.tags("headless");
 

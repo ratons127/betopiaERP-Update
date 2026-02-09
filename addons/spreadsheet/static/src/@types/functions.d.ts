@@ -1,5 +1,5 @@
 declare module "@spreadsheet" {
-    import { AddFunctionDescription, Arg, EvalContext } from "@BetopiaERP/o-spreadsheet";
+    import { AddFunctionDescription, Arg, EvalContext } from "@betopiaerp/o-spreadsheet";
 
     export interface CustomFunctionDescription extends AddFunctionDescription {
         compute: (this: ExtendedEvalContext, ...args: Arg[]) => any;

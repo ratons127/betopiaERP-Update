@@ -1,4 +1,4 @@
-import { advanceTime, animationFrame, scroll } from "@BetopiaERP/hoot-dom";
+import { advanceTime, animationFrame, scroll } from "@betopiaerp/hoot-dom";
 import { defineStyle } from "@web/../tests/web_test_helpers";
 
 export async function endTransition() {

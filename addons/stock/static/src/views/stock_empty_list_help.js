@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { listView } from "@web/views/list/list_view";
 import { ListRenderer } from "@web/views/list/list_renderer";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useActionLinks } from "@web/views/view_hook";
 
 export class StockActionHelper extends Component {

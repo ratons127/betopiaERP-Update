@@ -2,7 +2,7 @@
     'name': 'Oman - Accounting',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'description': """
 Oman Accounting Module
 =================================================================

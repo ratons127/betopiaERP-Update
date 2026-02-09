@@ -3,7 +3,7 @@ import { click, contains } from "@mail/../tests/mail_test_helpers_contains";
 import { defineLivechatModels } from "@im_livechat/../tests/livechat_test_helpers";
 import { setupChatHub, start, startServer } from "@mail/../tests/mail_test_helpers";
 import { withGuest } from "@mail/../tests/mock_server/mail_mock_server";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { rpc } from "@web/core/network/rpc";
 
 describe.current.tags("desktop");

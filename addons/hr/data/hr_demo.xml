@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="base.user_demo" model="res.users">
             <field name="group_ids" eval="[
@@ -439,7 +439,7 @@ If you have development competencies, we can propose you specific traineeships</
 
         <record id="work_contact_jod" model="res.partner">
             <field name="name">Rachel Perry</field>
-            <field name="email">jod@BetopiaERP.com</field>
+            <field name="email">jod@betopiaerp.com</field>
             <field name="phone">(555)-267-3735</field>
             <field name="image_1920" type="base64" file="hr/static/img/employee_jod-image.jpg"/>
         </record>
@@ -859,4 +859,4 @@ If you have development competencies, we can propose you specific traineeships</
             <field name="default_resource_calendar_id" ref="resource.resource_calendar_std_38h"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

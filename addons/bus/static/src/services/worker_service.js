@@ -32,7 +32,7 @@ export class WorkerService {
         }
         const workerClass = this.isUsingSharedWorker ? browser.SharedWorker : browser.Worker;
         this.worker = new workerClass(workerURL, {
-            name: this.isUsingSharedWorker ? "BetopiaERP:bus_shared_worker" : "BetopiaERP:bus_worker",
+            name: this.isUsingSharedWorker ? "betopiaerp:bus_shared_worker" : "betopiaerp:bus_worker",
         });
         this.worker.onerror = (e) => this.onInitError(e);
         this._registerHandler((ev) => {

@@ -7,6 +7,6 @@
     'category': 'Services/Project',
     'depends': ['sale_project', 'project_stock_account'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

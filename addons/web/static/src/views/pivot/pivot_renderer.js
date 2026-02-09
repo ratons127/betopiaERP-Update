@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps, useRef } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useRef } from "@betopiaerp/owl";
 import { CheckBox } from "@web/core/checkbox/checkbox";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownState } from "@web/core/dropdown/dropdown_hooks";

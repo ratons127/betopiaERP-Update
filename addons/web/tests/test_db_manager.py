@@ -95,7 +95,7 @@ class TestDatabaseOperations(BaseCase):
             'phone': '',
         }, allow_redirects=False)
         self.assertEqual(res.status_code, 303)
-        self.assertIn('/BetopiaERP', res.headers['Location'])
+        self.assertIn('/betopiaerp', res.headers['Location'])
         self.assertDbs([test_db_name])
 
         # delete the created database
@@ -272,7 +272,7 @@ class TestDatabaseOperations(BaseCase):
             self.assertEqual(session_store.get(session.sid)['db'], None)
             self.maxDiff = None
             self.assertRegex(capture.output[0], (
-                r"^ERROR:BetopiaERP\.sql_db:bad query:(?s:.*?)"
+                r"^ERROR:betopiaerp\.sql_db:bad query:(?s:.*?)"
                 r"ERROR: terminating connection due to administrator command\s+"
                 r"server closed the connection unexpectedly\s+"
                 r"This probably means the server terminated abnormally\s+"

@@ -1,4 +1,4 @@
-import * as hootDom from "@BetopiaERP/hoot-dom";
+import * as hootDom from "@betopiaerp/hoot-dom";
 import { enableEventLogs, setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import { browser } from "@web/core/browser/browser";
 import { Macro } from "@web/core/macro";

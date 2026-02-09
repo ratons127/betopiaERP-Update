@@ -14,7 +14,7 @@ function prependOriginToImages(doc, origin) {
 
 /**
  * Fills clipboard or dataTransfer data, including the
- * application/vnd.BetopiaERP.BetopiaERP-editor MIME type so it can be recognized
+ * application/vnd.betopiaerp.betopiaerp-editor MIME type so it can be recognized
  * when pasted or dropped inside an editor.
  *
  * @param {ClipboardEvent | DragEvent} ev - The event on which to set the data.
@@ -41,6 +41,6 @@ export function fillHtmlTransferData(
     }
     ev[transferObjectProperty].setData("text/html", htmlContent);
     if (setEditorTransferData) {
-        ev[transferObjectProperty].setData("application/vnd.BetopiaERP.BetopiaERP-editor", htmlContent);
+        ev[transferObjectProperty].setData("application/vnd.betopiaerp.betopiaerp-editor", htmlContent);
     }
 }

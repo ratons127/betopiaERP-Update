@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * mail_group
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-02-02 13:44+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "mail_group/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgid "Always Allow"
 msgstr "常に許可する"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "An email with instructions has been sent."
 msgstr "手順を記載したメールを送信しました。"
@@ -586,7 +586,7 @@ msgid "Email"
 msgstr "メール"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 msgstr "Eメール %sは無効です"
@@ -613,8 +613,8 @@ msgstr ""
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Eメールドメイン例 'example.com' in 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Eメールドメイン例 'example.com' in 'betopiaerp@example.com'"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -662,7 +662,7 @@ msgid "Group Name"
 msgstr "グループ名"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr ""
@@ -670,7 +670,7 @@ msgstr ""
 "す。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/controllers/portal.py:0
 msgid "Groups"
 msgstr "グループ"
@@ -740,13 +740,13 @@ msgid "Image"
 msgstr "画像"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 msgstr "URL生成用の無効なアクション(%s)"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 msgstr "無効なEメールアドレス “%s”"
@@ -946,7 +946,7 @@ msgid "Messages Per Month"
 msgstr "1か月あたりのメッセージ"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 msgstr "メッセージはモデレート待ちです"
@@ -992,7 +992,7 @@ msgid "Moderated emails in this group"
 msgstr "このグループのモデレート済Eメール"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 msgstr "モデレートされたグループにはモデレータが必要です。"
@@ -1030,7 +1030,7 @@ msgid "Moderators"
 msgstr "モデレータ"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 msgstr "モデレーターはメールアドレスを持っている必要があります。"
@@ -1099,7 +1099,7 @@ msgid "Number of message in this group"
 msgstr "このグループのメッセージ数"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
@@ -1107,13 +1107,13 @@ msgstr ""
 "管理者またはモデレータのみがグループメンバにガイドラインを送信できます。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 msgstr "メンバのみがメーリングリストにEメールを送信できます。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr ""
@@ -1236,7 +1236,7 @@ msgid "Public Mailing List"
 msgstr "公開メーリングリスト"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 msgstr "Re: %s"
@@ -1396,7 +1396,7 @@ msgid "Subscription confirmation to a mailing group"
 msgstr "メーリンググループへの登録確認"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
@@ -1411,7 +1411,7 @@ msgid "Thank you!"
 msgstr "回答にご協力頂き、誠にありがとうございます!"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 msgstr "\"認定済グループ\" がありません。"
@@ -1422,25 +1422,25 @@ msgid "The email"
 msgstr "Eメール"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 msgstr "Eメール\"%s\" が無効です。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 msgstr "メッセージのグループが一致しません。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 msgstr "ガイドライン説明が空です。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 msgstr "ガイドライン説明がありません。"
@@ -1460,43 +1460,43 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"eメールのエイリアス.例えば<jobs@example.BetopiaERP.com>のメールを受け取りたい場"
+"eメールのエイリアス.例えば<jobs@example.betopiaerp.com>のメールを受け取りたい場"
 "合'jobs’を選択"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 msgstr "通知メッセージがありません。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 msgstr "取引先が見つかりません。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 msgstr "メッセージのレコードはグループである必要があります。"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is already subscribed."
 msgstr "このEメールはすでに登録されています。"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is not subscribed."
 msgstr "このEメールは登録されていません。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 msgstr "このメッセージはモデレートできません"
@@ -1507,7 +1507,7 @@ msgid "This partner is already subscribed to the group"
 msgstr "この取引先はすでにグループに登録しています。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 msgstr "これらのメッセージはモデレートできません:%s"
@@ -1545,7 +1545,7 @@ msgid "Whitelisted"
 msgstr "ホワイトリスト済"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 msgstr "誤ったステータス (%s)"
@@ -1557,13 +1557,13 @@ msgstr ""
 "グループ内の指定されたメールアドレスに対して作成できる規則は1つだけです。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not join a closed group."
 msgstr "閉鎖されているグループには参加できません。"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not send guidelines for a closed group."
 msgstr "閉鎖されているグループ用にガイドラインを送ることはできません。"

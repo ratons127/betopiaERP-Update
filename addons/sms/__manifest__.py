@@ -51,6 +51,6 @@ The service is provided by the In App Purchase BetopiaERP platform.
             'sms/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

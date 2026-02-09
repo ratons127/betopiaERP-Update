@@ -1,5 +1,5 @@
 import { TableOfContentManager } from "@html_editor/others/embedded_components/core/table_of_content/table_of_content_manager";
-import { Component, onMounted, onWillDestroy, useSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillDestroy, useSubEnv, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { memoize } from "@web/core/utils/functions";
 import { Interaction } from "@web/public/interaction";

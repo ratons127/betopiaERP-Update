@@ -90,7 +90,7 @@ class WebsiteSeoMetadata(models.AbstractModel):
         if self.website_meta_description:
             opengraph_meta['og:description'] = self.website_meta_description
             twitter_meta['twitter:description'] = self.website_meta_description
-        # 19.0: remove domain of absolute URL before BetopiaERP/BetopiaERP#228253
+        # 19.0: remove domain of absolute URL before betopiaerp/betopiaerp#228253
         og_image = self.website_meta_og_img and urllib.parse.urlunsplit(
             ["", "", *urllib.parse.urlsplit(self.website_meta_og_img)[2:]]
         )

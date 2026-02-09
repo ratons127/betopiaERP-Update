@@ -50,6 +50,6 @@
             'payment/static/tests/**/*.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

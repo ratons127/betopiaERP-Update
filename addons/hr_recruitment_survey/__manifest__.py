@@ -24,6 +24,6 @@ to allow you to define interviews for different jobs.
         'data/survey_demo.xml',
         'data/hr_job_demo.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

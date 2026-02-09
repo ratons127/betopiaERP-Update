@@ -405,7 +405,7 @@ class IrHttp(models.AbstractModel):
 
     @api.autovacuum
     def _gc_sessions(self):
-        if os.getenv("BetopiaERP_SKIP_GC_SESSIONS"):
+        if os.getenv("BETOPIAERP_SKIP_GC_SESSIONS"):
             return
         http.root.session_store.vacuum(max_lifetime=http.get_session_max_inactivity(self.env))
 

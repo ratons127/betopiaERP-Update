@@ -11,7 +11,7 @@ This module allows the computation of the 'Vendor Bills', 'Other Costs' and 'Oth
     'category': 'Accounting/Accounting',
     'depends': ['account', 'project'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'data': [
         'views/account_analytic_line_views.xml',

@@ -446,7 +446,7 @@ class AssetsBundle(object):
             # Load content.
             try:
                 content = asset.content.strip()
-                template = content if content.startswith('<BetopiaERP>') else f'<templates>{asset.content}</templates>'
+                template = content if content.startswith('<betopiaerp>') else f'<templates>{asset.content}</templates>'
                 io_content = io.BytesIO(template.encode('utf-8'))
                 content_templates_tree = etree.parse(io_content, parser=parser).getroot()
             except etree.ParseError as e:
@@ -814,8 +814,8 @@ class JavascriptAsset(WebAsset):
     @property
     def is_transpiled(self):
         if self._is_transpiled is None:
-            from betopiaerp.tools.js_transpiler import is_BetopiaERP_module  # noqa: PLC0415
-            self._is_transpiled = bool(is_BetopiaERP_module(self.url, super().content))
+            from betopiaerp.tools.js_transpiler import is_betopiaerp_module  # noqa: PLC0415
+            self._is_transpiled = bool(is_betopiaerp_module(self.url, super().content))
         return self._is_transpiled
 
     @property

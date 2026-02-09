@@ -1,6 +1,6 @@
 import { importRecordsItem } from "@base_import/import_records/import_records";
-import { before, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, press } from "@BetopiaERP/hoot-dom";
+import { before, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, press } from "@betopiaerp/hoot-dom";
 import {
     clearRegistry,
     contains,

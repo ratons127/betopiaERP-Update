@@ -1,5 +1,5 @@
 import publicRootData from "@web/legacy/js/public/public_root";
-import "@website/libs/zoomBetopiaERP/zoomBetopiaERP";
+import "@website/libs/zoombetopiaerp/zoombetopiaerp";
 import { pick } from "@web/core/utils/objects";
 
 export const WebsiteRoot = publicRootData.PublicRoot.extend({

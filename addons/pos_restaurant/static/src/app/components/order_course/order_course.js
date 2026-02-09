@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class OrderCourse extends Component {
     static template = "pos_restaurant.OrderCourse";

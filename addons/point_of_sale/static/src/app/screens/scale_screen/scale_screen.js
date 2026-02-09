@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillUnmount, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUnmount, useState } from "@betopiaerp/owl";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { Dialog } from "@web/core/dialog/dialog";
 import { useService } from "@web/core/utils/hooks";

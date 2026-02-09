@@ -17,8 +17,8 @@ from betopiaerp.addons.iot_drivers.main import iot_devices, unsupported_devices
 from betopiaerp.addons.iot_drivers.connection_manager import connection_manager
 from betopiaerp.tools.misc import file_path
 from betopiaerp.addons.iot_drivers.server_logger import (
-    check_and_update_BetopiaERP_config_log_to_server_option,
-    get_BetopiaERP_config_log_to_server_option,
+    check_and_update_betopiaerp_config_log_to_server_option,
+    get_betopiaerp_config_log_to_server_option,
     close_server_log_sender_handler,
 )
 
@@ -61,9 +61,9 @@ class IotBoxOwlHomePage(http.Controller):
     # GET methods                                                #
     # -> Always use json.dumps() to return a JSON response       #
     # ---------------------------------------------------------- #
-    @route.iot_route('/iot_drivers/restart_BetopiaERP_service', type='http', cors='*')
-    def BetopiaERP_service_restart(self):
-        helpers.BetopiaERP_restart(0)
+    @route.iot_route('/iot_drivers/restart_betopiaerp_service', type='http', cors='*')
+    def betopiaerp_service_restart(self):
+        helpers.betopiaerp_restart(0)
         return json.dumps({
             'status': 'success',
             'message': 'BetopiaERP service restarted',
@@ -71,7 +71,7 @@ class IotBoxOwlHomePage(http.Controller):
 
     @route.iot_route('/iot_drivers/iot_logs', type='http', cors='*')
     def get_iot_logs(self):
-        logs_path = "/var/log/BetopiaERP/BetopiaERP-server.log" if IS_RPI else Path().absolute().parent.joinpath('betopiaerp.log')
+        logs_path = "/var/log/betopiaerp/betopiaerp-server.log" if IS_RPI else Path().absolute().parent.joinpath('betopiaerp.log')
         with open(logs_path, encoding="utf-8") as file:
             return json.dumps({
                 'status': 'success',
@@ -92,7 +92,7 @@ class IotBoxOwlHomePage(http.Controller):
             'db_uuid': '',
             'enterprise_code': '',
         })
-        helpers.BetopiaERP_restart(0)
+        helpers.betopiaerp_restart(0)
         return json.dumps({
             'status': 'success',
             'message': 'Successfully cleared credentials',
@@ -158,8 +158,8 @@ class IotBoxOwlHomePage(http.Controller):
 
         six_terminal = helpers.get_conf('six_payment_terminal') or 'Not Configured'
         network_qr_codes = wifi.generate_network_qr_codes() if IS_RPI else {}
-        BetopiaERP_server_url = helpers.get_BetopiaERP_server_url() or ''
-        BetopiaERP_uptime_seconds = time.monotonic() - helpers.BetopiaERP_start_time
+        betopiaerp_server_url = helpers.get_betopiaerp_server_url() or ''
+        betopiaerp_uptime_seconds = time.monotonic() - helpers.betopiaerp_start_time
         system_uptime_seconds = time.monotonic() - helpers.system_start_time
 
         return json.dumps({
@@ -169,16 +169,16 @@ class IotBoxOwlHomePage(http.Controller):
             'identifier': helpers.get_identifier(),
             'mac_address': helpers.get_mac_address(),
             'devices': grouped_devices,
-            'server_status': BetopiaERP_server_url,
+            'server_status': betopiaerp_server_url,
             'pairing_code': connection_manager.pairing_code,
             'new_database_url': connection_manager.new_database_url,
-            'pairing_code_expired': connection_manager.pairing_code_expired and not BetopiaERP_server_url,
+            'pairing_code_expired': connection_manager.pairing_code_expired and not betopiaerp_server_url,
             'six_terminal': six_terminal,
             'is_access_point_up': IS_RPI and wifi.is_access_point(),
             'network_interfaces': network_interfaces,
             'version': helpers.get_version(),
             'system': IOT_SYSTEM,
-            'BetopiaERP_uptime_seconds': BetopiaERP_uptime_seconds,
+            'betopiaerp_uptime_seconds': betopiaerp_uptime_seconds,
             'system_uptime_seconds': system_uptime_seconds,
             'certificate_end_date': certificate.get_certificate_end_date(),
             'wifi_ssid': helpers.get_conf('wifi_ssid'),
@@ -216,7 +216,7 @@ class IotBoxOwlHomePage(http.Controller):
         return json.dumps({
             'status': 'success',
             # Checkout requires db to align with its version (=branch)
-            'BetopiaERPIsUpToDate': current_commit == last_available_commit or not bool(helpers.get_BetopiaERP_server_url()),
+            'betopiaerpIsUpToDate': current_commit == last_available_commit or not bool(helpers.get_betopiaerp_server_url()),
             'imageIsUpToDate': IS_RPI and not bool(helpers.check_image()),
             'currentCommitHash': current_commit,
         })
@@ -232,10 +232,10 @@ class IotBoxOwlHomePage(http.Controller):
             'breadcrumb': 'Handlers list',
             'drivers_list': drivers_list,
             'interfaces_list': interfaces_list,
-            'server': helpers.get_BetopiaERP_server_url(),
-            'is_log_to_server_activated': get_BetopiaERP_config_log_to_server_option(),
+            'server': helpers.get_betopiaerp_server_url(),
+            'is_log_to_server_activated': get_betopiaerp_config_log_to_server_option(),
             'root_logger_log_level': self._get_logger_effective_level_str(logging.getLogger()),
-            'BetopiaERP_current_log_level': self._get_logger_effective_level_str(logging.getLogger('BetopiaERP')),
+            'betopiaerp_current_log_level': self._get_logger_effective_level_str(logging.getLogger('betopiaerp')),
             'recommended_log_level': 'warning',
             'available_log_levels': AVAILABLE_LOG_LEVELS,
             'drivers_logger_info': self._get_iot_handlers_logger(drivers_list, 'drivers'),
@@ -245,7 +245,7 @@ class IotBoxOwlHomePage(http.Controller):
     @route.iot_route('/iot_drivers/load_iot_handlers', type="http", cors='*')
     def load_iot_handlers(self):
         helpers.download_iot_handlers(False)
-        helpers.BetopiaERP_restart(0)
+        helpers.betopiaerp_restart(0)
         return json.dumps({
             'status': 'success',
             'message': 'IoT Handlers loaded successfully',
@@ -277,7 +277,7 @@ class IotBoxOwlHomePage(http.Controller):
             'db_uuid': db_uuid,
             'enterprise_code': enterprise_code,
         })
-        helpers.BetopiaERP_restart(0)
+        helpers.betopiaerp_restart(0)
         return {
             'status': 'success',
             'message': 'Successfully saved credentials',
@@ -317,7 +317,7 @@ class IotBoxOwlHomePage(http.Controller):
         return {'status': 'success' if helpers.toggle_remote_connection() else 'failure'}
 
     @route.iot_route('/iot_drivers/connect_to_server', type="jsonrpc", methods=['POST'], cors='*')
-    def connect_to_BetopiaERP_server(self, token):
+    def connect_to_betopiaerp_server(self, token):
         if token:
             try:
                 if len(token.split('|')) == 4:
@@ -342,7 +342,7 @@ class IotBoxOwlHomePage(http.Controller):
                 }
 
         # 1 sec delay for IO operations (save_conf_server)
-        helpers.BetopiaERP_restart(1)
+        helpers.betopiaerp_restart(1)
         return {
             'status': 'success',
             'message': 'Successfully connected to db, IoT will restart to update the configuration.',
@@ -357,13 +357,13 @@ class IotBoxOwlHomePage(http.Controller):
             }
 
         if name == 'log-to-server':
-            check_and_update_BetopiaERP_config_log_to_server_option(value)
+            check_and_update_betopiaerp_config_log_to_server_option(value)
 
         name = name[len(IOT_LOGGING_PREFIX):]
         if name == 'root':
             self._update_logger_level('', value, AVAILABLE_LOG_LEVELS)
-        elif name == 'BetopiaERP':
-            self._update_logger_level('BetopiaERP', value, AVAILABLE_LOG_LEVELS)
+        elif name == 'betopiaerp':
+            self._update_logger_level('betopiaerp', value, AVAILABLE_LOG_LEVELS)
             self._update_logger_level('werkzeug', value if value != 'debug' else 'info', AVAILABLE_LOG_LEVELS)
         elif name.startswith(INTERFACE_PREFIX):
             logger_name = name[len(INTERFACE_PREFIX):]
@@ -432,8 +432,8 @@ class IotBoxOwlHomePage(http.Controller):
                 return
             logger_name = logger.name
 
-        BetopiaERP_TOOL_CONFIG_HANDLER_NAME = 'log_handler'
-        LOG_HANDLERS = (helpers.get_conf(BetopiaERP_TOOL_CONFIG_HANDLER_NAME, section='options') or []).split(',')
+        BETOPIAERP_TOOL_CONFIG_HANDLER_NAME = 'log_handler'
+        LOG_HANDLERS = (helpers.get_conf(BETOPIAERP_TOOL_CONFIG_HANDLER_NAME, section='options') or []).split(',')
         LOGGER_PREFIX = logger_name + ':'
         IS_NEW_LEVEL_PARENT = new_level == 'parent'
 
@@ -461,8 +461,8 @@ class IotBoxOwlHomePage(http.Controller):
         if not IS_NEW_LEVEL_PARENT:
             new_entry = LOGGER_PREFIX + new_level_upper_case
             log_handlers_without_logger.append(new_entry)
-            _logger.debug('Adding to BetopiaERP config log_handler: %s', new_entry)
-        conf[BetopiaERP_TOOL_CONFIG_HANDLER_NAME] = ','.join(log_handlers_without_logger)
+            _logger.debug('Adding to betopiaerp config log_handler: %s', new_entry)
+        conf[BETOPIAERP_TOOL_CONFIG_HANDLER_NAME] = ','.join(log_handlers_without_logger)
 
         # Update the logger dynamically
         real_new_level = logging.NOTSET if IS_NEW_LEVEL_PARENT else new_level_upper_case
@@ -481,6 +481,6 @@ class IotBoxOwlHomePage(http.Controller):
         :param handler_folder_name: IoT handler folder name (interfaces or drivers)
         :return: logger if any, False otherwise
         """
-        BetopiaERP_addon_handler_path = helpers.compute_iot_handlers_addon_name(handler_folder_name, handler_name)
-        return BetopiaERP_addon_handler_path in logging.Logger.manager.loggerDict and \
-               logging.getLogger(BetopiaERP_addon_handler_path)
+        betopiaerp_addon_handler_path = helpers.compute_iot_handlers_addon_name(handler_folder_name, handler_name)
+        return betopiaerp_addon_handler_path in logging.Logger.manager.loggerDict and \
+               logging.getLogger(betopiaerp_addon_handler_path)

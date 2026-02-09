@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,
@@ -10,8 +10,8 @@ import {
     onRpc,
 } from "@web/../tests/web_test_helpers";
 
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 /**

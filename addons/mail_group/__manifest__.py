@@ -5,7 +5,7 @@
     'name': "Mail Group",
     'summary': "Manage your mailing lists",
     'description': """
-Manage your mailing lists from betopiaerp.
+Manage your mailing lists from BetopiaERP.
     """,
     'version': '1.1',
     'depends': [
@@ -41,6 +41,6 @@ Manage your mailing lists from betopiaerp.
             'mail_group/static/src/css/mail_group_backend.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

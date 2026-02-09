@@ -1,5 +1,5 @@
 import { AvatarCardEmployeePopover } from "@hr/components/avatar_card_employee/avatar_card_employee_popover";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { user } from "@web/core/user";
 

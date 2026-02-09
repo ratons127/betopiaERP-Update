@@ -20,6 +20,6 @@ test_mail. """,
         'security/ir.model.access.csv',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

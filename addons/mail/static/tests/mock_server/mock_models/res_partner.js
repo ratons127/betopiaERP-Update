@@ -188,7 +188,7 @@ export class ResPartner extends webModels.ResPartner {
         if (partner.im_status) {
             return partner.im_status;
         }
-        if (partner.id === serverState.BetopiaERPbotId) {
+        if (partner.id === serverState.betopiaerpbotId) {
             return "bot";
         }
         if (!partner.user_ids.length) {

@@ -303,7 +303,7 @@ class CalendarEvent(models.Model):
 
 
     @api.model
-    def _microsoft_to_BetopiaERP_values(self, microsoft_event, default_reminders=(), default_values=None, with_ids=False):
+    def _microsoft_to_betopiaerp_values(self, microsoft_event, default_reminders=(), default_values=None, with_ids=False):
         if microsoft_event.is_cancelled():
             return {'active': False}
 
@@ -313,7 +313,7 @@ class CalendarEvent(models.Model):
             'confidential': 'confidential',
         }
 
-        commands_attendee, commands_partner = self._BetopiaERP_attendee_commands_m(microsoft_event)
+        commands_attendee, commands_partner = self._betopiaerp_attendee_commands_m(microsoft_event)
         timeZone_start = pytz.timezone(microsoft_event.start.get('timeZone'))
         timeZone_stop = pytz.timezone(microsoft_event.end.get('timeZone'))
         start = parse(microsoft_event.start.get('dateTime')).astimezone(timeZone_start).replace(tzinfo=None)
@@ -362,14 +362,14 @@ class CalendarEvent(models.Model):
         if microsoft_event.is_recurrent():
             values['microsoft_recurrence_master_id'] = microsoft_event.seriesMasterId
 
-        alarm_commands = self._BetopiaERP_reminders_commands_m(microsoft_event)
+        alarm_commands = self._betopiaerp_reminders_commands_m(microsoft_event)
         if alarm_commands:
             values['alarm_ids'] = alarm_commands
 
         return values
 
     @api.model
-    def _microsoft_to_BetopiaERP_recurrence_values(self, microsoft_event, default_values=None):
+    def _microsoft_to_betopiaerp_recurrence_values(self, microsoft_event, default_values=None):
         timeZone_start = pytz.timezone(microsoft_event.start.get('timeZone'))
         timeZone_stop = pytz.timezone(microsoft_event.end.get('timeZone'))
         start = parse(microsoft_event.start.get('dateTime')).astimezone(timeZone_start).replace(tzinfo=None)
@@ -388,7 +388,7 @@ class CalendarEvent(models.Model):
         return values
 
     @api.model
-    def _BetopiaERP_attendee_commands_m(self, microsoft_event):
+    def _betopiaerp_attendee_commands_m(self, microsoft_event):
         commands_attendee = []
         commands_partner = []
 
@@ -399,9 +399,9 @@ class CalendarEvent(models.Model):
             if email_normalize(a.get('emailAddress').get('address'))
         ]
         existing_attendees = self.env['calendar.attendee']
-        if microsoft_event.match_with_BetopiaERP_events(self.env):
+        if microsoft_event.match_with_betopiaerp_events(self.env):
             existing_attendees = self.env['calendar.attendee'].search([
-                ('event_id', '=', microsoft_event.BetopiaERP_id(self.env)),
+                ('event_id', '=', microsoft_event.betopiaerp_id(self.env)),
                 ('email', 'in', emails)])
         elif self.env.user.partner_id.email not in emails:
             commands_attendee += [(0, 0, {'state': 'accepted', 'partner_id': self.env.user.partner_id.id})]
@@ -428,18 +428,18 @@ class CalendarEvent(models.Model):
                 commands_partner += [(4, partner.id)]
                 if attendee_info.get('emailAddress').get('name') and not partner.name:
                     partner.name = attendee_info.get('emailAddress').get('name')
-        for BetopiaERP_attendee in attendees_by_emails.values():
+        for betopiaerp_attendee in attendees_by_emails.values():
             # Remove old attendees
-            if BetopiaERP_attendee.email not in emails:
-                commands_attendee += [(2, BetopiaERP_attendee.id)]
-                commands_partner += [(3, BetopiaERP_attendee.partner_id.id)]
+            if betopiaerp_attendee.email not in emails:
+                commands_attendee += [(2, betopiaerp_attendee.id)]
+                commands_partner += [(3, betopiaerp_attendee.partner_id.id)]
         return commands_attendee, commands_partner
 
     @api.model
-    def _BetopiaERP_reminders_commands_m(self, microsoft_event):
+    def _betopiaerp_reminders_commands_m(self, microsoft_event):
         reminders_commands = []
         if microsoft_event.isReminderOn:
-            event_id = self.browse(microsoft_event.BetopiaERP_id(self.env))
+            event_id = self.browse(microsoft_event.betopiaerp_id(self.env))
             alarm_type_label = _("Notification")
 
             minutes = microsoft_event.reminderMinutesBeforeStart or 0
@@ -485,7 +485,7 @@ class CalendarEvent(models.Model):
                 reminders_commands += [(3, a.id) for a in alarm_to_rm]
 
         else:
-            event_id = self.browse(microsoft_event.BetopiaERP_id(self.env))
+            event_id = self.browse(microsoft_event.betopiaerp_id(self.env))
             alarm_to_rm = event_id.alarm_ids.filtered(lambda a: a.alarm_type == 'notification')
             if alarm_to_rm:
                 reminders_commands = [(3, a.id) for a in alarm_to_rm]

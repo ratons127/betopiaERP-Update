@@ -1,9 +1,9 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
-import { markup } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
+import { markup } from "@betopiaerp/owl";
 import { patch } from "@web/core/utils/patch";
 import { Chart } from "@website/snippets/s_chart/chart";
 

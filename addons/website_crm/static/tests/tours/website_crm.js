@@ -61,7 +61,7 @@ registry.category("web_tour.tours").add('website_crm_tour', {
 }, {
     content: "Complete Company",
     trigger: "input[name=partner_name]",
-    run: "edit BetopiaERP S.A.",
+    run: "edit BetopiaERP",
 }, {
     content: "Complete Subject",
     trigger: "input[name=name]",

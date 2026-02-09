@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { drag, queryOne, queryRect, resize } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, reactive, xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { drag, queryOne, queryRect, resize } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, reactive, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ResizablePanel } from "@web/core/resizable_panel/resizable_panel";
 

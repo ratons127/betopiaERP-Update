@@ -1,5 +1,5 @@
 import { mailModels } from "@mail/../tests/mail_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { registry } from "@web/core/registry";
 import { buildEditableInteractions } from "@website/core/website_edit_service";
 import { setupInteractionWhiteList } from "@web/../tests/public/helpers";

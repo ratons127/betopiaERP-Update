@@ -1,5 +1,5 @@
 import { Thread } from "@mail/core/common/thread";
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
 import { patch } from "@web/core/utils/patch";

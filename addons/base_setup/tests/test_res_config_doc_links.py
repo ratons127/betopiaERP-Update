@@ -37,7 +37,7 @@ class TestResConfigDocLinks(HttpCase):
         checked_links = set()
         for link in self._extract_links_from_settings_view(links_regex, self.settings_view):
             if not link.startswith("http"):
-                # Only check links targeting BetopiaERP documentation, not external ones.
+                # Only check links targeting betopiaerp documentation, not external ones.
                 if link in checked_links:
                     continue
                 self._check_link(

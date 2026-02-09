@@ -19,6 +19,6 @@
         'demo/lead_qualification_answer_demo.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

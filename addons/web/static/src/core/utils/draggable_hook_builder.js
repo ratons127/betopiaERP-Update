@@ -18,11 +18,11 @@ import { hasTouch, isBrowserFirefox, isIOS } from "../browser/feature_detection"
  * @property {Record<string, any>} [defaultParams]
  * Setup hooks
  * @property {{
- *  addListener: typeof import("@BetopiaERP/owl")["useExternalListener"];
- *  setup: typeof import("@BetopiaERP/owl")["useEffect"];
- *  teardown: typeof import("@BetopiaERP/owl")["onWillUnmount"];
+ *  addListener: typeof import("@betopiaerp/owl")["useExternalListener"];
+ *  setup: typeof import("@betopiaerp/owl")["useEffect"];
+ *  teardown: typeof import("@betopiaerp/owl")["onWillUnmount"];
  *  throttle: typeof import("./timing")["useThrottleForAnimation"];
- *  wrapState: typeof import("@BetopiaERP/owl")["reactive"];
+ *  wrapState: typeof import("@betopiaerp/owl")["reactive"];
  * }} setupHooks
  * Build hooks
  * @property {(params: DraggableBuildHandlerParams) => any} onComputeParams

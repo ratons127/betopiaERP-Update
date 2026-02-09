@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 
 import {
     clickFieldDropdownItem,

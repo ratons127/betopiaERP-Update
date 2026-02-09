@@ -14,7 +14,7 @@ from betopiaerp.tests.common import BaseCase
 class TestModuleManifest(BaseCase):
     @classmethod
     def setUpClass(cls):
-        cls._tmp_dir = tempfile.TemporaryDirectory(prefix='BetopiaERP_test_addons_')
+        cls._tmp_dir = tempfile.TemporaryDirectory(prefix='betopiaerp_test_addons_')
         cls.addClassCleanup(cls._tmp_dir.cleanup)
         cls.addons_path = cls._tmp_dir.name
 
@@ -22,7 +22,7 @@ class TestModuleManifest(BaseCase):
         cls.startClassPatcher(patcher)
 
     def setUp(self):
-        self.module_root = tempfile.mkdtemp(prefix='BetopiaERP_test_module_', dir=self.addons_path)
+        self.module_root = tempfile.mkdtemp(prefix='betopiaerp_test_module_', dir=self.addons_path)
         self.module_name = os.path.basename(self.module_root)
 
     def test_default_manifest(self):

@@ -1,6 +1,6 @@
 import { defineMailModels } from '@mail/../tests/mail_test_helpers';
-import { expect, test } from '@BetopiaERP/hoot';
-import { queryAllTexts } from '@BetopiaERP/hoot-dom';
+import { expect, test } from '@betopiaerp/hoot';
+import { queryAllTexts } from '@betopiaerp/hoot-dom';
 import {
     clickCancel,
     contains,

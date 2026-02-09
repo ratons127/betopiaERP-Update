@@ -33,9 +33,9 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Best Sellers by Revenue](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"graph_measure\":\"price_subtotal\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Best Sellers by Revenue\"})",
-        "A27": "[Best Sellers by Units Sold](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sales Analysis\"})",
-        "A47": "[Best Selling Products](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"price_subtotal\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sales Analysis\"})",
+        "A7": "[Best Sellers by Revenue](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"graph_measure\":\"price_subtotal\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Best Sellers by Revenue\"})",
+        "A27": "[Best Sellers by Units Sold](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sales Analysis\"})",
+        "A47": "[Best Selling Products](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"state\", \"not in\", [\"draft\", \"sent\", \"cancel\"]]],\"context\":{\"group_by\":[\"product_id\"],\"pivot_measures\":[\"__count\",\"price_subtotal\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"product_id\"]},\"modelName\":\"sale.report\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sales Analysis\"})",
         "A48": "=PIVOT(1, 10, FALSE, FALSE)",
         "E48": "=PIVOT(2, 10, FALSE, FALSE)"
       },
@@ -113,7 +113,7 @@
               "groupBy": ["product_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [
               {}
             ],
@@ -169,7 +169,7 @@
               "groupBy": ["product_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [
               {}
             ],
@@ -267,7 +267,7 @@
                   "groupBy": ["categ_id"],
                   "orderBy": []
                 },
-                "type": "BetopiaERP_treemap",
+                "type": "betopiaerp_treemap",
                 "actionXmlId": "sale.action_order_report_all",
                 "dataSets": [
                   {}
@@ -419,7 +419,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "a6c3274b-e53c-4c6b-90a8-bc3e3d109f52": { "chain": "date", "type": "datetime", "offset": 0 },
         "36814ad9-adac-4aba-a5ad-df595a306ef7": { "chain": "product_id", "type": "many2one" },
@@ -462,7 +462,7 @@
       ]
     },
     "2": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "a6c3274b-e53c-4c6b-90a8-bc3e3d109f52": { "chain": "date", "type": "datetime", "offset": 0 },
         "36814ad9-adac-4aba-a5ad-df595a306ef7": { "chain": "product_id", "type": "many2one" },

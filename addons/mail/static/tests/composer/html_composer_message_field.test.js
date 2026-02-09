@@ -3,7 +3,7 @@ import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 import { FileSelector } from "@html_editor/main/media/media_dialog/file_selector";
 import { uploadService } from "@html_editor/main/media/media_dialog/upload_progress_toast/upload_service";
 import { HtmlComposerMessageField } from "@mail/views/web/fields/html_composer_message_field/html_composer_message_field";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     manuallyDispatchProgrammaticEvent,
     press,
@@ -12,8 +12,8 @@ import {
     queryOne,
     waitFor,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
 import {
     contains,
     makeMockServer,
@@ -109,7 +109,7 @@ test("media dialog: upload", async function () {
         </form>`,
     });
 
-    const anchorNode = queryOne(".BetopiaERP-editor-editable div.o-paragraph");
+    const anchorNode = queryOne(".betopiaerp-editor-editable div.o-paragraph");
     setSelection({ anchorNode, anchorOffset: 0 });
 
     // Open media dialog
@@ -168,7 +168,7 @@ test("mention a partner", async () => {
         res_id: composerId,
         views: [["mail.compose.message,false,form", "form"]],
     });
-    const anchorNode = queryOne(`.BetopiaERP-editor-editable p`);
+    const anchorNode = queryOne(`.betopiaerp-editor-editable p`);
     setSelection({ anchorNode, anchorOffset: 0 });
     await insertText(htmlEditor, "@");
     await animationFrame();
@@ -183,9 +183,9 @@ test("mention a partner", async () => {
     expect.verifySteps(["get_mention_suggestions: a"]);
 
     await press("enter");
-    expect("[name='body'] .BetopiaERP-editor-editable").toHaveInnerHTML(`
+    expect("[name='body'] .betopiaerp-editor-editable").toHaveInnerHTML(`
     <p>
-        <a target="_blank" data-oe-protected="true" contenteditable="false" href="https://www.hoot.test/BetopiaERP/res.partner/17" class="o_mail_redirect" data-oe-id="17" data-oe-model="res.partner">
+        <a target="_blank" data-oe-protected="true" contenteditable="false" href="https://www.hoot.test/betopiaerp/res.partner/17" class="o_mail_redirect" data-oe-id="17" data-oe-model="res.partner">
             @Mitchell Admin
         </a>
     </p>`);
@@ -203,7 +203,7 @@ test("mention a channel", async () => {
             <field name="body" type="html" widget="html_composer_message"/>
         </form>`,
     });
-    const anchorNode = queryOne(`[name='body'] .BetopiaERP-editor-editable div.o-paragraph`);
+    const anchorNode = queryOne(`[name='body'] .betopiaerp-editor-editable div.o-paragraph`);
     setSelection({ anchorNode, anchorOffset: 0 });
     await insertText(htmlEditor, "#");
     await animationFrame();
@@ -237,17 +237,17 @@ describe("Remove attachments", () => {
         await openFormView("res.partner", serverState.partnerId);
         await click("button", { text: "Log note" });
         await click("button[title='Open Full Composer']");
-        await waitFor(".BetopiaERP-editor-editable");
-        const anchorNode = queryOne(".BetopiaERP-editor-editable div.o-paragraph");
+        await waitFor(".betopiaerp-editor-editable");
+        const anchorNode = queryOne(".betopiaerp-editor-editable div.o-paragraph");
         setSelection({ anchorNode, anchorOffset: 0 });
         await insertText(htmlEditor, "/file");
         await press("Enter");
         await expect.waitForSteps(["File Uploaded"]);
         await waitFor("[name='attachment_ids'] a:contains('file.txt')");
-        await waitFor(".BetopiaERP-editor-editable .o_file_box:has(a:contains('file.txt'))");
+        await waitFor(".betopiaerp-editor-editable .o_file_box:has(a:contains('file.txt'))");
         await click("[name='attachment_ids'] button:has(i.fa-times)");
         await waitForNone("[name='attachment_ids'] a:contains('file.txt')");
-        await waitForNone(".BetopiaERP-editor-editable .o_file_box:has(a:contains('file.txt'))");
+        await waitForNone(".betopiaerp-editor-editable .o_file_box:has(a:contains('file.txt'))");
     });
 
     test("should remove image from html editor if removed from attachment list", async () => {
@@ -282,8 +282,8 @@ describe("Remove attachments", () => {
         await openFormView("res.partner", serverState.partnerId);
         await click("button", { text: "Log note" });
         await click("button[title='Open Full Composer']");
-        await waitFor(".BetopiaERP-editor-editable");
-        const anchorNode = queryOne(".BetopiaERP-editor-editable div.o-paragraph");
+        await waitFor(".betopiaerp-editor-editable");
+        const anchorNode = queryOne(".betopiaerp-editor-editable div.o-paragraph");
         setSelection({ anchorNode, anchorOffset: 0 });
         await insertText(htmlEditor, "/image");
         await press("Enter");
@@ -295,9 +295,9 @@ describe("Remove attachments", () => {
         manuallyDispatchProgrammaticEvent(fileInput, "change");
         await expect.waitForSteps(["Image Uploaded"]);
         await waitFor("[name='attachment_ids'] a:contains('test.jpg')");
-        await waitFor(".BetopiaERP-editor-editable img[data-attachment-id='1']");
+        await waitFor(".betopiaerp-editor-editable img[data-attachment-id='1']");
         await click("[name='attachment_ids'] button:has(i.fa-times)");
         await waitForNone("[name='attachment_ids'] a:contains('test.jpg')");
-        await waitForNone(".BetopiaERP-editor-editable img[data-attachment-id='1']");
+        await waitForNone(".betopiaerp-editor-editable img[data-attachment-id='1']");
     });
 });

@@ -2,8 +2,8 @@
 # This file contains the translation of the following modules:
 # * sms_twilio
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-12 13:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "sms_twilio/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -22,13 +22,13 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "%(failure_type)s: %(failure_reason)s"
 msgstr "%(failure_type)s: %(failure_reason)s"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
 msgstr "'발신자' 번호와 ‘수신자’ 번호는 동일할 수 없습니다"
@@ -39,13 +39,13 @@ msgid "+1 555-123-4567"
 msgstr "+1 555-123-4567"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'From' number is required to send a message"
 msgstr "메시지를 전송하려면 '보내는 사람' 번호가 있어야 합니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'To' phone number is required"
 msgstr "'받는 사람' 전화번호가 있어야 합니다"
@@ -62,7 +62,7 @@ msgid "Account SID"
 msgstr "계정 SID"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "An error occurred while fetching the numbers."
 msgstr "번호를 가져오는 동안 오류가 발생했습니다."
@@ -151,7 +151,7 @@ msgid "Display Name"
 msgstr "표시명"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
 msgstr "오류: %s"
@@ -191,7 +191,7 @@ msgid "Incorrect callback URL"
 msgstr "잘못된 콜백 URL"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must only contain alphanumeric characters after "
@@ -199,7 +199,7 @@ msgid ""
 msgstr "잘못된 Twilio 계정 SID: 'AC' 뒤에는 영숫자만 올 수 있습니다."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 msgid ""
 "Invalid Twilio Account SID: must start with 'AC' and be 34 characters long."
@@ -225,7 +225,7 @@ msgid "Link SMS to mailing/sms tracking models"
 msgstr "SMS를 메일링 및 SMS 추적 모델에 연결합니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/models/res_company.py:0
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Manage Twilio SMS"
@@ -270,7 +270,7 @@ msgid "Phone Numbers"
 msgstr "전화번호"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Please set the number to which you want to send a test SMS."
 msgstr "테스트 SMS를 전송하려는 번호를 지정하세요."
@@ -332,31 +332,31 @@ msgstr ""
 "이 필드는 빠른 검색에 활용할 수 있습니다."
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "The SMS has been sent from %s"
 msgstr "SMS가 %s부터 발송되었습니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "The number you're trying to reach is not correctly formatted"
 msgstr "수신자 번호 형식이 올바르지 않습니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "This is a test SMS from BetopiaERP"
 msgstr "BetopiaERP에서 전송한 테스트 SMS입니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Trial Account Limitation"
 msgstr "체험 계정 한도"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio Authentication Error"
 msgstr "Twilio 인증 오류"
@@ -368,7 +368,7 @@ msgid "Twilio Number"
 msgstr "Twilio 번호"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Twilio SMS"
 msgstr "Twilio SMS"
@@ -385,25 +385,25 @@ msgid "Twilio SMS SID"
 msgstr "Twilio SMS SID"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio StatusCallback URL is incorrect"
 msgstr "Twilio 상태 콜백 URL이 잘못되었습니다"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown error, please contact BetopiaERP support"
 msgstr "알 수 없는 오류가 발생했습니다. BetopiaERP 고객 지원팀에 문의하세요"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown failure at sending, please contact BetopiaERP support"
 msgstr "전송 중 알 수 없는 오류가 발생했습니다. BetopiaERP 고객 지원팀에 문의하세요"
 
 #. module: sms_twilio
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
 msgstr "테스트용 계정 미확인 수신자"

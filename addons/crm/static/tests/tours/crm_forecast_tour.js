@@ -3,7 +3,7 @@ import { stepUtils } from "@web_tour/tour_utils";
 const today = luxon.DateTime.now();
 
 registry.category("web_tour.tours").add('crm_forecast', {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
     stepUtils.showAppsMenuItem(),
     {

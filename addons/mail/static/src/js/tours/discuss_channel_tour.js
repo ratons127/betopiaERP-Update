@@ -1,11 +1,11 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { delay } from "@web/core/utils/concurrency";
 
 registry.category("web_tour.tours").add("discuss_channel_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         {
             isActive: ["enterprise"],

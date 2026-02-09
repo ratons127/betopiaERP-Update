@@ -13,7 +13,7 @@ class IrHttp(models.AbstractModel):
 
     @classmethod
     def _set_utm(cls, response):
-        # Make sure response is an BetopiaERP Response.
+        # Make sure response is an betopiaerp Response.
         response = Response.load(response)
         domain = cls.get_utm_domain_cookies()
         for url_parameter, __, cookie_name in request.env['utm.mixin'].tracking_fields():

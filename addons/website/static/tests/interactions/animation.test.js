@@ -1,8 +1,8 @@
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, queryOne, scroll } from "@BetopiaERP/hoot-dom";
-import { enableTransitions } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, queryOne, scroll } from "@betopiaerp/hoot-dom";
+import { enableTransitions } from "@betopiaerp/hoot-mock";
 
 setupInteractionWhiteList("website.animation");
 beforeEach(enableTransitions);

@@ -1,7 +1,7 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { components } from "@BetopiaERP/o-spreadsheet";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { components } from "@betopiaerp/o-spreadsheet";
 import { insertChartInSpreadsheet } from "@spreadsheet/../tests/helpers/chart";
 import {
     createBasicChart,
@@ -56,16 +56,16 @@ beforeEach(() => {
     };
 });
 
-test("Click on chart in dashboard mode redirect to the BetopiaERP menu", async function () {
+test("Click on chart in dashboard mode redirect to the betopiaerp menu", async function () {
     const doActionStep = "doAction";
     mockActionService(doActionStep);
     const { model } = await createModelWithDataSource({ serverData });
     const fixture = await mountSpreadsheet(model);
 
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 2,
+        betopiaerpMenuId: 2,
     });
     const chartMenu = model.getters.getChartBetopiaERPMenu(chartId);
     expect(chartMenu.id).toBe(2, { message: "BetopiaERP menu is linked to chart" });
@@ -80,7 +80,7 @@ test("Click on chart in dashboard mode redirect to the BetopiaERP menu", async f
     await animationFrame();
     await click(fixture.querySelector(".o-chart-container canvas"));
     await animationFrame();
-    // Clicking on a chart while on dashboard mode redirect to the BetopiaERP menu
+    // Clicking on a chart while on dashboard mode redirect to the betopiaerp menu
     expect.verifySteps([doActionStep]);
 });
 
@@ -106,8 +106,8 @@ test("Click on chart element in dashboard mode do not redirect twice", async fun
 
     const { model } = await createModelWithDataSource({ serverData });
     const fixture = await mountSpreadsheet(model);
-    const chartId = insertChartInSpreadsheet(model, "BetopiaERP_pie");
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", { chartId, BetopiaERPMenuId: 2 });
+    const chartId = insertChartInSpreadsheet(model, "betopiaerp_pie");
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", { chartId, betopiaerpMenuId: 2 });
     await animationFrame();
     model.updateMode("dashboard");
     await animationFrame();
@@ -138,8 +138,8 @@ test("Clicking on a scorecard or gauge redirects to the linked menu id", async f
     await mountSpreadsheet(model);
     createScorecardChart(model, "scorecardId");
     createGaugeChart(model, "gaugeId");
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", { chartId: "scorecardId", BetopiaERPMenuId: 2 });
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", { chartId: "gaugeId", BetopiaERPMenuId: 2 });
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", { chartId: "scorecardId", betopiaerpMenuId: 2 });
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", { chartId: "gaugeId", betopiaerpMenuId: 2 });
     await animationFrame();
 
     model.updateMode("dashboard");
@@ -155,7 +155,7 @@ test("Clicking on a scorecard or gauge redirects to the linked menu id", async f
 });
 
 test.tags("desktop");
-test("Middle-click on chart in dashboard mode open the BetopiaERP menu in a new tab", async function () {
+test("Middle-click on chart in dashboard mode open the betopiaerp menu in a new tab", async function () {
     const { model } = await createModelWithDataSource({ serverData });
     await mountSpreadsheet(model);
 
@@ -170,9 +170,9 @@ test("Middle-click on chart in dashboard mode open the BetopiaERP menu in a new 
     });
 
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 2,
+        betopiaerpMenuId: 2,
     });
 
     model.updateMode("dashboard");
@@ -197,7 +197,7 @@ test("Clicking on the carousel header doesn't redirect to its chart's linked men
 
     createCarousel(model, { items: [] }, "carouselId");
     addChartFigureToCarousel(model, "carouselId", chartFigureId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", { chartId, BetopiaERPMenuId: 2 });
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", { chartId, betopiaerpMenuId: 2 });
     model.updateMode("dashboard");
     await animationFrame();
 

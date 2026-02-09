@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { click, manuallyDispatchProgrammaticEvent, press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { click, manuallyDispatchProgrammaticEvent, press } from "@betopiaerp/hoot-dom";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { DYNAMIC_PLACEHOLDER_PLUGINS } from "@html_editor/backend/plugin_sets";
 import { defineModels, models, onRpc, serverState } from "@web/../tests/web_test_helpers";

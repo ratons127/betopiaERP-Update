@@ -1,4 +1,4 @@
-# Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
+ï»¿# Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 Unicode True
 
 !include 'MUI2.nsh'
@@ -35,7 +35,7 @@ Unicode True
     Exch $R2
 !macroend
 
-!define PUBLISHER 'BetopiaERP S.A.'
+!define PUBLISHER 'BetopiaERP'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '16'
@@ -58,11 +58,11 @@ Unicode True
 !endif
 
 !ifndef SERVICENAME
-	!define SERVICENAME 'BetopiaERP-server-${VERSION}'
+	!define SERVICENAME 'betopiaerp-server-${VERSION}'
 !endif
 
 !ifndef TOOLSDIR
-	!define TOOLSDIR 'c:\BetopiaERPbuild'
+	!define TOOLSDIR 'c:\betopiaerpbuild'
 !endif
 
 !define PRODUCT_NAME "BetopiaERP IoT"
@@ -77,7 +77,7 @@ Unicode True
 
 Name '${DISPLAY_NAME}'
 Caption "${PRODUCT_NAME} ${VERSION} Setup"
-OutFile "${TOOLSDIR}\server\BetopiaERP_iot_setup_${VERSION}.exe"
+OutFile "${TOOLSDIR}\server\betopiaerp_iot_setup_${VERSION}.exe"
 SetCompressor /SOLID /FINAL lzma
 ShowInstDetails hide
 
@@ -94,10 +94,10 @@ Var /GLOBAL cmdLineParams
 !define PIXMAPS_PATH "${STATIC_PATH}\pixmaps"
 
 !define MUI_ABORTWARNING
-!define MUI_ICON "${PIXMAPS_PATH}\BetopiaERP-icon.ico"
+!define MUI_ICON "${PIXMAPS_PATH}\betopiaerp-icon.ico"
 
-!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\BetopiaERP-intro.bmp"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\BetopiaERP-intro.bmp"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\betopiaerp-intro.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${PIXMAPS_PATH}\betopiaerp-intro.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_BITMAP "${PIXMAPS_PATH}\iot-slogan.bmp"
 !define MUI_HEADERIMAGE_BITMAP_NOSTRETCH
@@ -143,10 +143,10 @@ LangString DESC_BetopiaERP_IoT ${LANG_FRENCH} "Installation du Serveur BetopiaER
 LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez BetopiaERP pour un Partenariat et/ou du Support"
 LangString TITLE_BetopiaERP_IoT ${LANG_FRENCH} "BetopiaERP IoT"
 LangString TITLE_Nginx ${LANG_FRENCH} "Installation du serveur web Nginx"
-LangString TITLE_Ghostscript ${LANG_FRENCH} "Installation de l'interpréteur Ghostscript"
-LangString TITLE_SumatraPDF ${LANG_FRENCH} "Installation de l'interpréteur PDF"
-LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer BetopiaERP"
-LangString UnsafeDirText ${LANG_FRENCH} "Installer en dehors de $PROGRAMFILES64 n'est pas recommandé.$\nVoulez-vous continuer ?"
+LangString TITLE_Ghostscript ${LANG_FRENCH} "Installation de l'interprÃ©teur Ghostscript"
+LangString TITLE_SumatraPDF ${LANG_FRENCH} "Installation de l'interprÃ©teur PDF"
+LangString DESC_FinishPageText ${LANG_FRENCH} "DÃ©marrer BetopiaERP"
+LangString UnsafeDirText ${LANG_FRENCH} "Installer en dehors de $PROGRAMFILES64 n'est pas recommandÃ©.$\nVoulez-vous continuer ?"
 
 InstType /NOCUSTOM
 
@@ -170,16 +170,16 @@ Section $(TITLE_BetopiaERP_IoT) SectionBetopiaERP_IoT
     DetailPrint "Unzipping git"
     nsisunz::UnzipToLog "$TEMP\$git_zip_filename" "$INSTDIR\git"
 
-    # Cloning BetopiaERP
+    # Cloning betopiaerp
     DetailPrint "Cloning BetopiaERP"
-    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" clone --filter=tree:0 -b 19.0 --single-branch --no-checkout https://github.com/BetopiaERP/BetopiaERP.git "$INSTDIR\BetopiaERP"'
+    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" clone --filter=tree:0 -b 19.0 --single-branch --no-checkout https://github.com/betopiaerp/betopiaerp.git "$INSTDIR\betopiaerp"'
 
     DetailPrint "Configuring Sparse Checkout for IoT modules"
-    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\BetopiaERP" sparse-checkout init --no-cone'
-    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\BetopiaERP" sparse-checkout set addons/web addons/hw_* addons/iot_drivers addons/iot_base addons/iot_box_image/configuration addons/point_of_sale/tools/posbox/configuration/requirements.txt BetopiaERP BetopiaERP-bin'
+    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\betopiaerp" sparse-checkout init --no-cone'
+    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\betopiaerp" sparse-checkout set addons/web addons/hw_* addons/iot_drivers addons/iot_base addons/iot_box_image/configuration addons/point_of_sale/tools/posbox/configuration/requirements.txt betopiaerp betopiaerp-bin'
 
     DetailPrint "Checking out the repository"
-    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\BetopiaERP" checkout'
+    nsExec::Exec '"$INSTDIR\git\cmd\git.exe" -C "$INSTDIR\betopiaerp" checkout'
 
     DetailPrint "Installing vcredist"
     SetOutPath "$INSTDIR\vcredist"
@@ -191,21 +191,21 @@ Section $(TITLE_BetopiaERP_IoT) SectionBetopiaERP_IoT
 
     DetailPrint "Configuring $(TITLE_BetopiaERP_IoT)"
     # Set data_dir
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "data_dir" "$INSTDIR\sessions"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "data_dir" "$INSTDIR\sessions"
     # set modules to load
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "server_wide_modules" "iot_drivers,web"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "server_wide_modules" "iot_drivers,web"
     # Configure logging
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "logfile" "$INSTDIR\BetopiaERP.log"
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "log_handler" ":WARNING"
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "log_level" "warn"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "logfile" "$INSTDIR\betopiaerp.log"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "log_handler" ":WARNING"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "log_level" "warn"
     # Other configuration
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "list_db" "False"
-    WriteIniStr "$INSTDIR\BetopiaERP.conf" "options" "max_cron_threads" "0"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "list_db" "False"
+    WriteIniStr "$INSTDIR\betopiaerp.conf" "options" "max_cron_threads" "0"
 
     DetailPrint "Installing Windows service"
     nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" install ${SERVICENAME} "$INSTDIR\python\python.exe"'
     nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppDirectory "$\"$INSTDIR\python$\""'
-    nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppParameters "\"$INSTDIR\BetopiaERP\BetopiaERP-bin\" -c "\"$INSTDIR\BetopiaERP.conf\"'
+    nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} AppParameters "\"$INSTDIR\betopiaerp\betopiaerp-bin\" -c "\"$INSTDIR\betopiaerp.conf\"'
     nsExec::ExecToLog '"$INSTDIR\nssm\win64\nssm.exe" set ${SERVICENAME} ObjectName "LOCALSERVICE"'
     AccessControl::GrantOnFile  "$INSTDIR" "LOCALSERVICE" "FullAccess"
 
@@ -241,8 +241,8 @@ Section -$(TITLE_Nginx) Nginx
     CreateDirectory $INSTDIR\nginx\logs
     File "conf\nginx\nginx.conf"
     # Temporary certs for the first start
-    File "..\..\BetopiaERP\addons\iot_box_image\overwrite_after_init\etc\ssl\certs\nginx-cert.crt"
-    File "..\..\BetopiaERP\addons\iot_box_image\overwrite_after_init\etc\ssl\private\nginx-cert.key"
+    File "..\..\betopiaerp\addons\iot_box_image\overwrite_after_init\etc\ssl\certs\nginx-cert.crt"
+    File "..\..\betopiaerp\addons\iot_box_image\overwrite_after_init\etc\ssl\private\nginx-cert.key"
 SectionEnd
 
 Section -$(TITLE_Ghostscript) SectionGhostscript
@@ -291,10 +291,10 @@ Section -Post
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayName" "${DISPLAY_NAME}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "DisplayVersion" "${MAJOR_VERSION}.${MINOR_VERSION}"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Publisher" "${PUBLISHER}"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@BetopiaERP.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpLink" "support@betopiaerp.com"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "HelpTelephone" "+32.81.81.37.00"
     WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "URLInfoAbout" "https://www.BetopiaERP.com"
-    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@BetopiaERP.com"
+    WriteRegStr HKLM       "${UNINSTALL_REGISTRY_KEY}" "Contact" "sales@betopiaerp.com"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoModify" "1"
     WriteRegDWORD HKLM     "${UNINSTALL_REGISTRY_KEY}" "NoRepair" "1"
     WriteUninstaller "$INSTDIR\Uninstall.exe"
@@ -318,7 +318,7 @@ Section "Uninstall"
     nsExec::Exec "sc delete ${SERVICENAME}"
     sleep 2
 
-    Rmdir /r "$INSTDIR\BetopiaERP"
+    Rmdir /r "$INSTDIR\betopiaerp"
     Rmdir /r "$INSTDIR\sessions"
     Rmdir /r "$INSTDIR\thirdparty"
     Rmdir /r "$INSTDIR\python"

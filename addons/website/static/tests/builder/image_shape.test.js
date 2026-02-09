@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst, setInputRange } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryFirst, setInputRange } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import { Plugin } from "@html_editor/plugin";
 import { addPlugin, defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";

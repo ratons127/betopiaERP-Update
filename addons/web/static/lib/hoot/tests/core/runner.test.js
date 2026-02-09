@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { after, defineTags, describe, expect, test } from "@BetopiaERP/hoot";
+import { after, defineTags, describe, expect, test } from "@betopiaerp/hoot";
 import { parseUrl } from "../local_helpers";
 
 import { Runner } from "../../core/runner";

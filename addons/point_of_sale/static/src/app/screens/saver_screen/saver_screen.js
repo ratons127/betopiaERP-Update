@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useTime } from "@point_of_sale/app/hooks/time_hook";
 import { useService } from "@web/core/utils/hooks";
 
@@ -19,6 +19,6 @@ export class SaverScreen extends Component {
 registry.category("pos_pages").add("SaverScreen", {
     name: "SaverScreen",
     component: SaverScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/saver`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/saver`,
     params: {},
 });

@@ -1,4 +1,4 @@
-import { Component, useRef, onPatched } from "@BetopiaERP/owl";
+import { Component, useRef, onPatched } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { useBus, useService } from "@web/core/utils/hooks";

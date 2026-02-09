@@ -1,4 +1,4 @@
-import { App, blockDom, Component, markup } from "@BetopiaERP/owl";
+import { App, blockDom, Component, markup } from "@betopiaerp/owl";
 import { getTemplate } from "@web/core/templates";
 import { appTranslateFn } from "@web/core/l10n/translation";
 

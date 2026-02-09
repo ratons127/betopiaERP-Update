@@ -1,4 +1,4 @@
-import { whenReady } from "@BetopiaERP/owl";
+import { whenReady } from "@betopiaerp/owl";
 import { selfOrderIndex as Index } from "./self_order_index";
 import { mountComponent } from "@web/env";
 

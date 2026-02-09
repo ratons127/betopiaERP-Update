@@ -26,7 +26,7 @@
         'data/slide_channel_demo.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'website.website_builder_assets': [

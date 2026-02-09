@@ -4,7 +4,7 @@ import {
     getNonEditableMentions,
     prettifyMessageText,
 } from "@mail/utils/common/format";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { isHtmlEmpty } from "@web/core/utils/html";
 
 export class Composer extends Record {

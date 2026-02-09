@@ -56,7 +56,7 @@ registerWebsitePreviewTour(
         {
             content:
                 "Verify that 'Add some' button has the correct URL for navigating to the backend.",
-            trigger: ":iframe #edit-in-backend[href*='/BetopiaERP/website/blog.post/']",
+            trigger: ":iframe #edit-in-backend[href*='/betopiaerp/website/blog.post/']",
         },
     ]
 );

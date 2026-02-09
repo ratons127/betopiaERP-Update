@@ -76,7 +76,7 @@ export class MailGuest extends Record {
     previousPresencechannel;
     presenceChannel = fields.Attr(null, {
         compute() {
-            const channel = `BetopiaERP-presence-mail.guest_${this.id}`;
+            const channel = `betopiaerp-presence-mail.guest_${this.id}`;
             if (this.im_status_access_token) {
                 return `${channel}-${this.im_status_access_token}`;
             }

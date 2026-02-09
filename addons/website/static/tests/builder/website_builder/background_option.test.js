@@ -1,8 +1,8 @@
 import { BackgroundOption } from "@html_builder/plugins/background_option/background_option";
 import { BackgroundPositionOverlay } from "@html_builder/plugins/background_option/background_position_overlay";
 import { Plugin } from "@html_editor/plugin";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryOne, scroll, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryOne, scroll, waitFor } from "@betopiaerp/hoot-dom";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     addPlugin,

@@ -1,4 +1,4 @@
-import { describe, test, expect, click } from "@BetopiaERP/hoot";
+import { describe, test, expect, click } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ProductPage } from "@pos_self_order/app/pages/product_page/product_page";
 import { setupSelfPosEnv } from "../utils";

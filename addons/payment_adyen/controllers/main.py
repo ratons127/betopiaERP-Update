@@ -43,7 +43,7 @@ class AdyenController(http.Controller):
         # match in https://docs.adyen.com/checkout/components-web/localization-components, we simply
         # provide the lang string as is (after adapting the format) and let Adyen find the best fit.
         lang_code = py_to_js_locale(request.env.context.get('lang')) or 'en-US'
-        shopper_reference = partner_sudo and f'BetopiaERP_PARTNER_{partner_sudo.id}'
+        shopper_reference = partner_sudo and f'BETOPIAERP_PARTNER_{partner_sudo.id}'
         partner_country_code = (
             partner_sudo.country_id.code or provider_sudo.company_id.country_id.code or 'NL'
         )
@@ -102,7 +102,7 @@ class AdyenController(http.Controller):
                 'externalPlatform': {
                     'name': 'BetopiaERP',
                     'version': release.version,
-                    'integrator': 'BetopiaERP SA',
+                    'integrator': 'BetopiaERP',
                 }
             },
             'countryCode': partner_country_code,  # ISO 3166-1 alpha-2 (e.g.: 'BE')
@@ -145,7 +145,7 @@ class AdyenController(http.Controller):
         # 'manual' from events with the capture delay set to 'immediate' or a number of hours. If
         # the merchant account is configured to capture payments with a delay but the provider is
         # not, we force the immediate capture to avoid considering authorized transactions as
-        # captured on betopiaerp.
+        # captured on BetopiaERP.
         if not provider_sudo.capture_manually:
             data.update(captureDelayHours=0)
 
@@ -204,7 +204,7 @@ class AdyenController(http.Controller):
         to the user if they are redirected to this route with a POST request. Indeed, as the session
         cookie is created without a `SameSite` attribute, some browsers that don't implement the
         recommended default `SameSite=Lax` behavior will not include the cookie in the redirection
-        request from the payment provider to betopiaerp. As the redirection to the '/payment/status' page
+        request from the payment provider to BetopiaERP. As the redirection to the '/payment/status' page
         will satisfy any specification of the `SameSite` attribute, the session of the user will be
         retrieved and with it the transaction which will be immediately post-processed.
 

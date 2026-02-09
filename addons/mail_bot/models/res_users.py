@@ -8,7 +8,7 @@ from betopiaerp import models, fields, _
 class ResUsers(models.Model):
     _inherit = 'res.users'
 
-    BetopiaERPbot_state = fields.Selection(
+    betopiaerpbot_state = fields.Selection(
         [
             ('not_initialized', 'Not initialized'),
             ('onboarding_emoji', 'Onboarding emoji'),
@@ -19,32 +19,32 @@ class ResUsers(models.Model):
             ('idle', 'Idle'),
             ('disabled', 'Disabled'),
         ], string="BetopiaERPBot Status", readonly=True, required=False)  # keep track of the state: correspond to the code of the last message sent
-    BetopiaERPbot_failed = fields.Boolean(readonly=True)
+    betopiaerpbot_failed = fields.Boolean(readonly=True)
 
     @property
     def SELF_READABLE_FIELDS(self):
-        return super().SELF_READABLE_FIELDS + ['BetopiaERPbot_state']
+        return super().SELF_READABLE_FIELDS + ['betopiaerpbot_state']
 
     def _on_webclient_bootstrap(self):
         super()._on_webclient_bootstrap()
-        if self._is_internal() and self.BetopiaERPbot_state in [False, "not_initialized"]:
-            self._init_BetopiaERPbot()
+        if self._is_internal() and self.betopiaerpbot_state in [False, "not_initialized"]:
+            self._init_betopiaerpbot()
 
-    def _init_BetopiaERPbot(self):
+    def _init_betopiaerpbot(self):
         self.ensure_one()
-        BetopiaERPbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
-        channel = self.env['discuss.channel']._get_or_create_chat([BetopiaERPbot_id, self.partner_id.id])
-        message = Markup("%s<br/>%s<br/><b>%s</b> <span class=\"o_BetopiaERPbot_command\">:)</span>") % (
+        betopiaerpbot_id = self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")
+        channel = self.env['discuss.channel']._get_or_create_chat([betopiaerpbot_id, self.partner_id.id])
+        message = Markup("%s<br/>%s<br/><b>%s</b> <span class=\"o_betopiaerpbot_command\">:)</span>") % (
             _("Hello,"),
             _("BetopiaERP's chat helps employees collaborate efficiently. I'm here to help you discover its features."),
             _("Try to send me an emoji")
         )
         channel.sudo().message_post(
-            author_id=BetopiaERPbot_id,
+            author_id=betopiaerpbot_id,
             body=message,
             message_type="comment",
             silent=True,
             subtype_xmlid="mail.mt_comment",
         )
-        self.sudo().BetopiaERPbot_state = 'onboarding_emoji'
+        self.sudo().betopiaerpbot_state = 'onboarding_emoji'
         return channel

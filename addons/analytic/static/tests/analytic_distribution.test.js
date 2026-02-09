@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, edit, getActiveElement, press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, edit, getActiveElement, press } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

@@ -1,4 +1,4 @@
-import { EventBus } from '@BetopiaERP/owl';
+import { EventBus } from '@betopiaerp/owl';
 import { registry } from '@web/core/registry';
 import { AuthUI } from './auth_ui';
 

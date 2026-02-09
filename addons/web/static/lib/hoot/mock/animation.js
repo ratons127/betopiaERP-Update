@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { on } from "@BetopiaERP/hoot-dom";
+import { on } from "@betopiaerp/hoot-dom";
 import { MockEventTarget } from "../hoot_utils";
 import { ensureTest } from "../main_runner";
 

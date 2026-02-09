@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
 import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";

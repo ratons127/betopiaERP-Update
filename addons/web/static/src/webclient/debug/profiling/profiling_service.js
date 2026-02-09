@@ -3,7 +3,7 @@ import { ProfilingItem } from "./profiling_item";
 import { session } from "@web/session";
 import { profilingSystrayItem } from "./profiling_systray_item";
 
-import { EventBus, reactive } from "@BetopiaERP/owl";
+import { EventBus, reactive } from "@betopiaerp/owl";
 
 const systrayRegistry = registry.category("systray");
 

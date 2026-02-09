@@ -1,5 +1,5 @@
 import { useSequential } from "@mail/utils/common/hooks";
-import { useState, onWillUnmount, markup } from "@BetopiaERP/owl";
+import { useState, onWillUnmount, markup } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { createDocumentFragmentFromContent } from "@web/core/utils/html";
 import { escapeRegExp } from "@web/core/utils/strings";

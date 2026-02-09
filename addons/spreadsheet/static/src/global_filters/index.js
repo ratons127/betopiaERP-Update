@@ -1,4 +1,4 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 import { GlobalFiltersUIPlugin } from "./plugins/global_filters_ui_plugin";
 import { GlobalFiltersCorePlugin } from "./plugins/global_filters_core_plugin";

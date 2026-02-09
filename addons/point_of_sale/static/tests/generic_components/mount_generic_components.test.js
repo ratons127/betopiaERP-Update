@@ -1,12 +1,12 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
-import { Component, useState, xml } from "@BetopiaERP/owl";
-import { BetopiaERPLogo } from "@point_of_sale/app/components/BetopiaERP_logo/BetopiaERP_logo";
+import { Component, useState, xml } from "@betopiaerp/owl";
+import { BetopiaERPLogo } from "@point_of_sale/app/components/betopiaerp_logo/betopiaerp_logo";
 import { CenteredIcon } from "@point_of_sale/app/components/centered_icon/centered_icon";
 import { Input } from "@point_of_sale/app/components/inputs/input/input";
 import { NumericInput } from "@point_of_sale/app/components/inputs/numeric_input/numeric_input";
 import { registry } from "@web/core/registry";
-import { waitFor } from "@BetopiaERP/hoot-dom";
+import { waitFor } from "@betopiaerp/hoot-dom";
 
 test("test that generic components can be mounted; the goal is to ensure that they don't have any unmet dependencies", async () => {
     class TestComponent extends Component {

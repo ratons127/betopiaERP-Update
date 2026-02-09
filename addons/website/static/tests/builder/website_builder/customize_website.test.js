@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import {
     contains,
     onRpc,

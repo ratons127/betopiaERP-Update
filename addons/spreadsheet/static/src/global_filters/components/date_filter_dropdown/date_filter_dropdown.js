@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps } from "@betopiaerp/owl";
 import {
     dateFilterValueToString,
     getDateRange,

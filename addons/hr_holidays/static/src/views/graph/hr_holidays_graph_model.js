@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { GraphModel } from "@web/views/graph/graph_model";
 import { sortBy } from "@web/core/utils/arrays";

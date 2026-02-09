@@ -45,6 +45,6 @@ models which only purpose is to run tests.""",
             'test_website/static/tests/tours/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

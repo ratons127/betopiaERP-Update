@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { useService } from "@web/core/utils/hooks";
-import { Component, onWillDestroy, useState } from "@BetopiaERP/owl";
+import { Component, onWillDestroy, useState } from "@betopiaerp/owl";
 import { Orderline } from "@point_of_sale/app/components/orderline/orderline";
 import { OrderDisplay } from "@point_of_sale/app/components/order_display/order_display";
 import { useRouterParamsChecker } from "@point_of_sale/app/hooks/pos_router_hook";
@@ -237,7 +237,7 @@ export class SplitBillScreen extends Component {
 registry.category("pos_pages").add("SplitBillScreen", {
     name: "SplitBillScreen",
     component: SplitBillScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/splitting/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/splitting/{string:orderUuid}`,
     params: {
         orderUuid: true,
         orderFinalized: false,

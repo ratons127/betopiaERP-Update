@@ -21,6 +21,6 @@ governements, etc.)
         'data/cron.xml'
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

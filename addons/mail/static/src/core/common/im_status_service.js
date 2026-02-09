@@ -11,7 +11,7 @@ export const AWAY_DELAY = 30 * 60 * 1000; // 30 minutes
  * is online).
  *
  * To receive updates through the bus, subscribe to presence channels
- * (e.g., subscribe to `BetopiaERP-presence-res.partner_3-token` to receive updates about
+ * (e.g., subscribe to `betopiaerp-presence-res.partner_3-token` to receive updates about
  * this partner). Token is optional and can be used to grant access to the presence
  * channel if the user is not allowed to read the partner's presence.
  * See `_get_im_status_access_token`.

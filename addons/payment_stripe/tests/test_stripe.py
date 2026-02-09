@@ -197,7 +197,7 @@ class StripeTest(StripeCommon, PaymentHttpCommon):
         if country := self.env['res.country'].search([('code', 'in', list(const.SUPPORTED_COUNTRIES))], limit=1):
             self.env.company.country_id = country
         else:
-            raise unittest.SkipTest("Unable to find a country supported by both BetopiaERP and stripe")
+            raise unittest.SkipTest("Unable to find a country supported by both betopiaerp and stripe")
 
         with patch.object(
             type(self.env['payment.provider']), '_stripe_fetch_or_create_connected_account',

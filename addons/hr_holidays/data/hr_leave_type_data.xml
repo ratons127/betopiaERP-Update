@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP><data noupdate="1">
+<betopiaerp><data noupdate="1">
 <!-- Global Leave Types -->
     <record id="leave_type_paid_time_off" model="hr.leave.type">
         <field name="name">Paid Time Off</field>
@@ -704,4 +704,4 @@
         <field name="company_id" eval="False"/>
         <field name="country_id" ref="base.pl"/>
     </record>
-</data></BetopiaERP>
+</data></betopiaerp>

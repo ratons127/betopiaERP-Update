@@ -1,5 +1,5 @@
 import { testEditor } from "../_helpers/editor";
-import { test, before } from "@BetopiaERP/hoot";
+import { test, before } from "@betopiaerp/hoot";
 import {
     setFontSize,
     splitBlock,

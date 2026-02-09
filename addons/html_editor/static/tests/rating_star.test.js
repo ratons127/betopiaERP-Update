@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, press } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import {
     deleteBackward,
@@ -9,7 +9,7 @@ import {
     splitBlock,
 } from "./_helpers/user_actions";
 import { getContent } from "./_helpers/selection";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { expectElementCount } from "./_helpers/ui_expectations";
 
 /**

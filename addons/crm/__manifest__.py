@@ -8,7 +8,7 @@
     'category': 'Sales/CRM',
     'sequence': 15,
     'summary': 'Track leads and close opportunities',
-    'website': 'https://www.betopiaerp.com/app/crm',
+    'website': 'https://www.BetopiaERP.com/app/crm',
     'depends': [
         'base_setup',
         'sales_team',
@@ -90,6 +90,6 @@
             'crm/static/tests/crm_mock_server.js'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,10 +1,10 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { setupEditor } from "../_helpers/editor";
 import { insertText } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 import { unformat } from "../_helpers/format";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { execCommand } from "../_helpers/userCommands";
 
 test("typing '1. ' should create number list", async () => {

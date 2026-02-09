@@ -1,6 +1,6 @@
 import { defineCalendarModels } from "@calendar/../tests/calendar_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import {
     contains,
     makeMockServer,

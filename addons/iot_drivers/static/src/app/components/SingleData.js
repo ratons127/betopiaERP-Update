@@ -30,7 +30,7 @@ export class SingleData extends Component {
 
     static template = xml`
     <div class="w-100 d-flex justify-content-between align-items-center bg-light rounded ps-2 pe-3 py-1 mb-2 gap-2" t-translation="off">
-        <div t-att-class="this.props.style === 'primary' ? 'BetopiaERP-bg-primary' : 'BetopiaERP-bg-secondary'" class="rounded BetopiaERP-pill" />
+        <div t-att-class="this.props.style === 'primary' ? 'betopiaerp-bg-primary' : 'betopiaerp-bg-secondary'" class="rounded betopiaerp-pill" />
         <div class="flex-grow-1 overflow-hidden">
             <h6 class="m-0">
                 <i t-if="this.props.icon" class="me-2 fa" t-att-class="this.props.icon" aria-hidden="true"></i>

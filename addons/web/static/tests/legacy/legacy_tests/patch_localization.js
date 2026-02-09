@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/legacy_tests/patch_localization default=false */
+/** @betopiaerp-module alias=@web/../tests/legacy_tests/patch_localization default=false */
 
 import { localization } from "@web/core/l10n/localization";
 

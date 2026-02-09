@@ -5,13 +5,13 @@
 # Translators:
 # monchai7 <montchye@gmail.com>, 2022
 # Krisa C, 2022
-# BetopiaERP Thaidev <BetopiaERPthaidev@gmail.com>, 2022
+# BetopiaERP Thaidev <betopiaerpthaidev@gmail.com>, 2022
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2022
 # Chatcha Mee, 2022
 # Wichanon Jamwutthipreecha, 2022
 # Amin Cheloh <amincheloh@gmail.com>, 2022
 # Martin Trigaux, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "POT-Creation-Date: 2025-10-09 12:16+0000\n"
 "PO-Revision-Date: 2025-11-16 15:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/base/th/>\n"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/base/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -515,7 +515,7 @@ msgstr ""
 "11010101 Caja General\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -546,7 +546,7 @@ msgid ""
 "requirements which might arise from POS implementation. [1]  Under normal "
 "circumstances, you might not need to use those at all.\n"
 "\n"
-"[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+"[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 "\n"
 msgstr ""
 "\n"
@@ -564,7 +564,7 @@ msgstr ""
 "เพื่อจัดการข้อกำหนดพิเศษที่อาจเกิดขึ้นจากการนำ POS ไปใช้ [1] ภายใต้สถานการณ์ปกติ "
 "คุณอาจไม่จำเป็นต้องใช้สิ่งเหล่านี้\n"
 "\n"
-"[1] ดูรายละเอียดที่ https://github.com/BetopiaERP/BetopiaERP/pull/6470\n"
+"[1] ดูรายละเอียดที่ https://github.com/betopiaerp/betopiaerp/pull/6470\n"
 "\n"
 
 #. module: base
@@ -629,7 +629,7 @@ msgstr ""
 "\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -642,7 +642,7 @@ msgstr ""
 "ดูเหมือนว่านี่จะเป็นปัญหาของหลายบริษัท แต่คุณไม่มีสิทธิ์เข้าถึงบริษัทที่เหมาะสมเพื่อเข้าถึงบันทึกแต่อย่างใด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -3945,9 +3945,9 @@ msgid ""
 "\n"
 "Legal\n"
 "-----\n"
-"Contact BetopiaERP SA before installing pos_blackbox_be module.\n"
+"Contact BetopiaERP before installing pos_blackbox_be module.\n"
 "\n"
-"No modified version is certified and supported by BetopiaERP SA.\n"
+"No modified version is certified and supported by BetopiaERP.\n"
 msgstr ""
 "\n"
 "เครื่องบันทึกเงินสดจดทะเบียนเบลเยียม\n"
@@ -3961,9 +3961,9 @@ msgstr ""
 "\n"
 "กฎหมาย\n"
 "-----\n"
-"ติดต่อ BetopiaERP SA ก่อนติดตั้งโมดูล pos_blackbox_be\n"
+"ติดต่อ BetopiaERP ก่อนติดตั้งโมดูล pos_blackbox_be\n"
 "\n"
-"BetopiaERP SA ไม่มีเวอร์ชันที่แก้ไขแล้วที่ได้รับการรับรองและรองรับ\n"
+"BetopiaERP ไม่มีเวอร์ชันที่แก้ไขแล้วที่ได้รับการรับรองและรองรับ\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_helpdesk_sale_timesheet
@@ -6037,7 +6037,7 @@ msgid ""
 "sequences synchronization between BetopiaERP and ARCA.\n"
 "\n"
 "    NOTE: From the Journal's form view we are able to force a sync between "
-"the BetopiaERP sequences to each of the document types in\n"
+"the betopiaerp sequences to each of the document types in\n"
 "    with the last numbers registered in ARCA.\n"
 "\n"
 "From vendor bills, we have added a functionality that can be configured in "
@@ -6917,11 +6917,11 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configuration -> Settings -> Customer Invoices or find \"E-invoice\" in "
 "search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 "For the creation of API username and password please ref this document: "
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>\n"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>\n"
 msgstr ""
 "\n"
 "ประเทศอินเดีย - การออกใบแจ้งหนี้อิเล็กทรอนิกส์\n"
@@ -6934,7 +6934,7 @@ msgstr ""
 "การตั้งค่า -> ใบแจ้งหนี้ลูกค้า หรือค้นหา \"E-invoice\" ในแถบค้นหา)\n"
 "ขั้นตอนที่ 4: ทำซ้ำขั้นตอนที่ 1, 2, 3 สำหรับ GSTIN ทั้งหมดที่คุณมีใน BetopiaERP "
 "หากคุณมีบริษัทหลายแห่งที่มีหมายเลข GST เดียวกัน ให้ทำตามขั้นตอนที่ 1 สำหรับบริษัทแรกเท่านั้น\n"
-"สำหรับการสร้างชื่อผู้ใช้และรหัสผ่าน API โปรดดูเอกสารนี้: <https://service.BetopiaERP.co.in/"
+"สำหรับการสร้างชื่อผู้ใช้และรหัสผ่าน API โปรดดูเอกสารนี้: <https://service.betopiaerp.co.in/"
 "einvoice_create_api_user>\n"
 
 #. module: base
@@ -6952,7 +6952,7 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configration -> Settings -> Indian Electronic WayBill or find \"E-"
 "waybill\" in search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 msgstr ""
@@ -6967,7 +6967,7 @@ msgstr ""
 "ขั้นตอนที่ 3: ตั้งค่าชื่อผู้ใช้และรหัสผ่านนั้นใน BetopiaERP (ไปที่: ใบแจ้งหนี้/ระบบบัญชี -> การกำหนดค่า -> "
 "ตั้งค่า -> ใบกำกับสินค้าอิเล็กทรอนิกส์ของอินเดีย หรือค้นหา \"ใบกำกับสินค้าอิเล็กทรอนิกส์\" "
 "ในแถบค้นหา)\n"
-"ขั้นตอนที่ 4: ทำซ้ำขั้นตอนที่ 1,2,3 สำหรับ GSTIN ทั้งหมดที่คุณมีใน BetopiaERP "
+"ขั้นตอนที่ 4: ทำซ้ำขั้นตอนที่ 1,2,3 สำหรับ GSTIN ทั้งหมดที่คุณมีใน betopiaerp "
 "หากคุณมีบริษัทหลายรายการที่มีหมายเลข GST เดียวกันให้ดำเนินการขั้นตอนที่ 1 "
 "สำหรับบริษัทแรกเท่านั้น\n"
 
@@ -7181,7 +7181,7 @@ msgstr ""
 "ช่วยให้สามารถเปรียบเทียบสินค้าจากรายการที่อยากได้\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "\n"
@@ -10331,7 +10331,7 @@ msgid ""
 "cumulative totals (daily, monthly, annually)\n"
 "\n"
 "    Access to download the mandatory Certificate of Conformity delivered by "
-"BetopiaERP SA (only for BetopiaERP Enterprise users)\n"
+"BetopiaERP (only for BetopiaERP Enterprise users)\n"
 msgstr ""
 "\n"
 "Add-on นี้นำข้อกำหนดทางเทคนิคของศิลปะ CGI กฎระเบียบของฝรั่งเศส 286, I. 3° bis "
@@ -10352,7 +10352,7 @@ msgstr ""
 "    การจัดเก็บข้อมูล: ปิดการขายอัตโนมัติพร้อมคำนวณยอดรวมทั้งระยะเวลาและสะสม (รายวัน, "
 "รายเดือน, รายปี)\n"
 "\n"
-"    การเข้าถึงในการดาวน์โหลดใบรับรองการปฏิบัติตามกฎหมายที่จำเป็นที่จะต้องได้รับจาก BetopiaERP SA "
+"    การเข้าถึงในการดาวน์โหลดใบรับรองการปฏิบัติตามกฎหมายที่จำเป็นที่จะต้องได้รับจาก BetopiaERP "
 "(สำหรับผู้ใช้ BetopiaERP Enterprise เท่านั้น)\n"
 
 #. module: base
@@ -11252,7 +11252,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 msgstr ""
 "\n"
@@ -11264,7 +11264,7 @@ msgstr ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 
 #. module: base
@@ -11573,7 +11573,7 @@ msgid ""
 "will add their specific templates and controllers to extend the customer\n"
 "portal.\n"
 "\n"
-"This module contains most code coming from BetopiaERP v10 website_portal. Purpose\n"
+"This module contains most code coming from betopiaerp v10 website_portal. Purpose\n"
 "of this module is to allow the display of a customer portal without having\n"
 "a dependency towards website editing and customization capabilities."
 msgstr ""
@@ -11582,7 +11582,7 @@ msgstr ""
 "ซึ่งจะประกอบด้วยคลาสตัวควบคุมฐานและเทมเพลตฐาน Add-on "
 "ของธุรกิจจะเพิ่มเทมเพลตและตัวควบคุมที่เฉพาะเจาะจงของพอร์ทัลลูกค้าเพื่อขยายพอร์ทัลลูกค้า\n"
 "\n"
-"โมดูลนี้ประกอบด้วยรหัสส่วนใหญ่ที่มาจาก BetopiaERP v10 website_portal "
+"โมดูลนี้ประกอบด้วยรหัสส่วนใหญ่ที่มาจาก betopiaerp v10 website_portal "
 "วัตถุประสงค์ของโมดูลนี้คืออนุญาตให้แสดงพอร์ทัลลูกค้าโดยไม่ต้องมี\n"
 "ความขึ้นอยู่กับความสามารถในการแก้ไขและปรับแต่งเว็บไซต์"
 
@@ -13359,12 +13359,12 @@ msgid ""
 "* the peppol-bis-invoice-3 doc (the github repository: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains "
 "examples)\n"
-"* BetopiaERP, these files pass all validation tests (using ecosio or the FNFE "
+"* betopiaerp, these files pass all validation tests (using ecosio or the FNFE "
 "validator)\n"
 "\n"
 "We test that the external examples are correctly imported (currency, total "
 "amount and total tax match).\n"
-"We also test that generating xml from BetopiaERP with given parameters gives "
+"We also test that generating xml from betopiaerp with given parameters gives "
 "exactly the same xml as the expected,\n"
 "valid ones.\n"
 msgstr ""
@@ -13377,11 +13377,11 @@ msgstr ""
 "* เอกสาร factur-x (จาก FNFE)\n"
 "* เอกสาร peppol-bis-invoice-3 (จากเก็บรักษาข้อมูลใน github: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples มีตัวอย่าง)\n"
-"* BetopiaERP, ไฟล์เหล่านี้ผ่านการทดสอบการตรวจสอบทั้งหมด (โดยใช้ ecosio หรือตัวตรวจสอบของ "
+"* betopiaerp, ไฟล์เหล่านี้ผ่านการทดสอบการตรวจสอบทั้งหมด (โดยใช้ ecosio หรือตัวตรวจสอบของ "
 "FNFE)\n"
 "\n"
 "เราทดสอบว่าตัวอย่างภายนอกถูกนำเข้าอย่างถูกต้อง (สกุลเงิน, จำนวนเงินรวมและภาษีรวมตรงกัน) "
-"เรายังทดสอบการสร้าง xml จาก BetopiaERP ด้วยพารามิเตอร์ที่กำหนดให้ให้ xml เหมือนกับที่คาดหวัง "
+"เรายังทดสอบการสร้าง xml จาก betopiaerp ด้วยพารามิเตอร์ที่กำหนดให้ให้ xml เหมือนกับที่คาดหวัง "
 "ที่ถูกต้อง\n"
 
 #. module: base
@@ -14064,7 +14064,7 @@ msgid " Let's choose a Point Relais® as shipping address "
 msgstr " มาเลือก Point Relais® เป็นที่อยู่ในการจัดส่งกันดีกว่า "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "\"group_by\" value must be a string %(attribute)s=“%(value)s”"
 msgstr "ค่า \"group_by\" จะต้องเป็นสตริง %(attribute)s=“%(value)s”"
@@ -14090,31 +14090,31 @@ msgid "# Users"
 msgstr "# ผู้ใช้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(action_name)s is not a valid action on %(model_name)s"
 msgstr "%(action_name)s ไม่ใช่การกระทำที่ถูกต้องใน %(model_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(company_currency_name)s per %(rate_currency_name)s"
 msgstr "%(company_currency_name)s ต่อ %(rate_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "%(date_label)s - %(author)s"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(integral_amount)s %(currency_unit)s"
 msgstr "%(integral_amount)s %(currency_unit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "%(integral_amount)s %(currency_unit)s and %(fractional_amount)s %"
@@ -14124,19 +14124,19 @@ msgstr ""
 "(currency_subunit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(method)s on %(model)s is private and cannot be called from a button"
 msgstr "%(method)s บน %(model)s เป็นแบบส่วนตัวและไม่สามารถเรียกจากปุ่มได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(rate_currency_name)s per %(company_currency_name)s"
 msgstr "%(rate_currency_name)s ต่อ %(company_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "%(xmlid)s is of type %(xmlid_model)s, expected a subclass of "
@@ -14145,13 +14145,13 @@ msgstr ""
 "%(xmlid)sเป็นประเภท %(xmlid_model)s คาดว่าจะมีคลาสย่อยเป็น ir.actions.actions"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "%s (Dedicated Outgoing Mail Server):"
 msgstr "%s (เซิร์ฟเวอร์เมลขาออกเฉพาะ):"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: code:addons/base/models/ir_filters.py:0
 #: code:addons/base/models/res_groups.py:0
@@ -14162,13 +14162,13 @@ msgid "%s (copy)"
 msgstr "%s (สำเนา)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "%s Properties"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%s per Unit"
 msgstr "%s ต่อหน่วย"
@@ -14179,7 +14179,7 @@ msgid "&amp; Close"
 msgstr "&amp; ปิด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Property value for field '%%"
@@ -14189,7 +14189,7 @@ msgstr ""
 "คุณสมบัติแต่ละรายการต้องมีอย่างน้อยแอตทริบิวต์ 'name', 'type' และ 'string'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Selection value for '%"
@@ -14199,7 +14199,7 @@ msgstr ""
 "(ฟิลด์ย่อยของฟิลด์ '%%(field)s')"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Tag value for '%(label_property)s' "
@@ -14209,7 +14209,7 @@ msgstr ""
 "'%%(field)s')"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an float for field '%(label_property)s' "
@@ -14219,7 +14219,7 @@ msgstr ""
 "(ฟิลด์ย่อยของฟิลด์ '%%(field)s')"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an integer for field '%(label_property)s' "
@@ -14229,49 +14229,49 @@ msgstr ""
 "(ฟิลด์ย่อยของฟิลด์ '%%(field)s')"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a number for field '%%(field)s'"
 msgstr "'%s' ดูเหมือนจะไม่ใช่ตัวเลขสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid JSON for field '%%(field)s'"
 msgstr "'%s' ดูเหมือนจะไม่ใช่ JSON ที่ถูกต้องสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid date for field '%%(field)s'"
 msgstr "'%s' ดูเหมือนจะไม่ใช่วันที่ที่ถูกต้องสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid datetime for field '%%(field)s'"
 msgstr "'%s' ดูเหมือนจะไม่ใช่วันที่และเวลาที่ถูกต้องสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be an integer for field '%%(field)s'"
 msgstr "'%s' ดูเหมือนจะไม่เป็นจำนวนเต็มสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'action-' is a reserved prefix."
 msgstr "'action-' เป็นคำนำหน้าสงวนไว้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'m-' is a reserved prefix."
 msgstr "'m-' เป็นคำนำหน้าสงวน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'new' is reserved, and can not be used as path."
 msgstr "'ใหม่' ถูกสงวนไว้ และไม่สามารถใช้เป็นเส้นทางได้"
@@ -14302,7 +14302,7 @@ msgid ", required"
 msgstr "ต้องการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "- %(description)s (%(model)s)"
 msgstr "- %(description)s (%(model)s)"
@@ -14313,7 +14313,7 @@ msgid "- domain ="
 msgstr "โดเมน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- element “%(node)s” is shown in the view for groups: %(groups)s"
 msgstr "- องค์ประกอบ “%(node)s” จะแสดงในมุมมองสำหรับกลุ่ม: %(groups)s"
@@ -14324,13 +14324,13 @@ msgid "- field ="
 msgstr "ฟิลด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” does not exist in model “%(model)s”."
 msgstr "- ฟิลด์ “%(name)s” ไม่มีอยู่ในโมเดล “%(model)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” is accessible for groups: %(field_groups)s"
 msgstr "- ฟิลด์ “%(name)s” สามารถเข้าถึงได้สำหรับกลุ่ม: %(field_groups)s"
@@ -15086,7 +15086,7 @@ msgid "A - AGRICULTURE, FORESTRY AND FISHING"
 msgstr "A - เกษตรกรรม ป่าไม้ และการประมง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "A <graph> can only contains <field> nodes, found a <%s>"
 msgstr "A<graph> สามารถมีได้เฉพาะ<field>โหนด พบ <%s>"
@@ -15286,7 +15286,7 @@ msgid "A payment provider for running fake payment flows for demo purposes."
 msgstr "ผู้ให้บริการการชำระเงินสำหรับดำเนินการขั้นตอนการชำระเงินแบบจำลองเพื่อวัตถุประสงค์ในการสาธิต"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "A sequence must only be used with character fields."
 msgstr ""
@@ -15313,7 +15313,7 @@ msgstr ""
 "และจัดการการประเมินของตนเองและบุคคลที่เขาเป็นผู้จัดการอยู่ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "A valid email is required for find_or_create to work properly."
 msgstr "จำเป็นต้องมีอีเมลที่ถูกต้องเพื่อให้ find_or_create ทำงานได้อย่างถูกต้อง"
@@ -15478,7 +15478,7 @@ msgid "API Key Description"
 msgstr "คำอธิบายคีย์ API"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "API Key Ready"
 msgstr "คีย์ API พร้อมใช้งาน"
@@ -15537,7 +15537,7 @@ msgid "Access"
 msgstr "เข้าถึง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Access Control"
 msgstr "การควบคุมการเข้าถึง"
@@ -15558,7 +15558,7 @@ msgid "Access Menu"
 msgstr "เมนูเข้าถึง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.ir_access_act
 #: model:ir.ui.menu,name:base.menu_ir_access_act
@@ -15578,7 +15578,7 @@ msgid "Access Rights"
 msgstr "สิทธิ์การเข้าใช้งาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Access Rights Inconsistency"
 msgstr "ความไม่สอดคล้องของสิทธิ์การเข้าถึง"
@@ -15609,7 +15609,7 @@ msgid "Access to the settings to configure the apps"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Accessible only for the super user"
 msgstr ""
@@ -15838,7 +15838,7 @@ msgid "Action"
 msgstr "การดำเนินการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Action %(action_reference)s (id: %(action_id)s) does not exist for button of "
@@ -15974,7 +15974,7 @@ msgid "Active Parent Model"
 msgstr "โมเดลหลักที่ใช้งานอยู่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Actual Code"
 msgstr ""
@@ -16114,13 +16114,13 @@ msgid "Add crm UTM info on social"
 msgstr "เพิ่มข้อมูล CRM UTM บนโซเชียล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add direction"
 msgstr "เพิ่มทิศทาง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add directional information (not used for digital)"
 msgstr "เพิ่มข้อมูลทิศทาง (ไม่ใช่สำหรับดิจิทัล)"
@@ -16275,7 +16275,7 @@ msgid "Addons to test BetopiaERP industries code."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_partner.py:0
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -16308,7 +16308,7 @@ msgid "Address format..."
 msgstr "รูปแบบที่อยู่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Address separator"
 msgstr "ที่อยู่"
@@ -16562,7 +16562,7 @@ msgid "Administrator"
 msgstr "ผู้ดูแลระบบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Administrator access is required to uninstall a module"
 msgstr "จำเป็นต้องเข้าถึงผู้ดูแลระบบเพื่อถอนการติดตั้งโมดูล"
@@ -16613,7 +16613,7 @@ msgid "Advanced views to manage landed cost for subcontracting orders"
 msgstr "มุมมองขั้นสูงเพื่อจัดการปันส่วนต้นทุนสินค้าสำหรับใบสั่งรับเหมาช่วง"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,summary:base.module_theme_betopiaerp_experts
 msgid "Advisor, Corporate, Service, Business, Finance, IT"
 msgstr ""
 
@@ -16963,7 +16963,7 @@ msgid "All Child"
 msgstr "ย่อยทั้งหมด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
@@ -16979,7 +16979,7 @@ msgid ""
 msgstr "ความสัมพันธ์ตามสัญญาของเราทั้งหมดจะอยู่ภายใต้กฎหมายของสหรัฐอเมริกาแต่เพียงผู้เดียว"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "All profiles must have the same initial stack trace to be displayed together."
@@ -17190,7 +17190,7 @@ msgid "Amazon/Avatax Bridge"
 msgstr "บริดจ์ Amazon/Avatax"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Ambiguous specification for field '%(field)s', only provide one of name, "
@@ -18075,7 +18075,7 @@ msgid "An Irish-American payment provider covering the US and many others."
 msgstr "ผู้ให้บริการชำระเงินแบบไอริช-อเมริกันที่ครอบคลุมสหรัฐอเมริกาและประเทศอื่นอีกมากมาย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SMTP exception occurred. Check port number and connection security type.\n"
@@ -18085,7 +18085,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -18095,7 +18095,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -18129,13 +18129,13 @@ msgstr ""
 "หากโมดูลไม่มีการพึ่งพา จะมีการติดตั้งไว้เสมอ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "An email is required for find_or_create to work"
 msgstr "จำเป็นต้องมีอีเมลเพื่อให้ find_or_create ทำงาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An option is not supported by the server:\n"
@@ -18201,7 +18201,7 @@ msgid "Anguilla"
 msgstr "แองกวิลลา"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Another partner already has this barcode"
 msgstr "พาร์ทเนอร์รายอื่นมีบาร์โค้ดนี้อยู่แล้ว"
@@ -18298,7 +18298,7 @@ msgid "Apply"
 msgstr "นำไปใช้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -19143,7 +19143,7 @@ msgid "Associated reports"
 msgstr "รายงานที่เกี่ยวข้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "At least one language must be active."
 msgstr "ต้องมีอย่างน้อยหนึ่งภาษาที่ใช้งานอยู่"
@@ -19230,7 +19230,7 @@ msgid "Attachment"
 msgstr "การแนบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Attachment is not encoded in base64."
 msgstr "สิ่งที่แนบมาไม่ได้ถูกเข้ารหัสใน base64"
@@ -19487,7 +19487,7 @@ msgid "Auth Timeout"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Authenticate by using SSL certificates, belonging to your domain name. \n"
@@ -19805,7 +19805,7 @@ msgid "Background Image"
 msgstr "ภาพพื้นหลัง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid "Bad file format: %s"
 msgstr "รูปแบบไฟล์ไม่ถูกต้อง: %s"
@@ -19973,7 +19973,7 @@ msgid "Barcode"
 msgstr "บาร์โค้ด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode %s"
 msgstr "บารร์โค้ด %s"
@@ -20004,13 +20004,13 @@ msgid "Barcode for Batch Transfer"
 msgstr "บาร์โค้ดสำหรับการโอนเป็นชุด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode symbology"
 msgstr "สัญลักษณ์บาร์โค้ด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode type, eg: UPCA, EAN13, Code128"
 msgstr "ประเภทบาร์โค้ด เช่น UPCA, EAN13, Code128"
@@ -20049,7 +20049,7 @@ msgid "Base Import & Export Tests: Ensure Flow Robustness"
 msgstr "การทดสอบการนำเข้าและส่งออกพื้นฐาน: รับประกันความคงทนของการไหล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Base Language 'en_US' can not be deleted."
 msgstr "ภาษาหลัก 'en_US' ไม่สามารถลบได้"
@@ -20101,13 +20101,13 @@ msgstr "หลัก: การลบผู้ใช้พอร์ทัล"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_grid
-msgid "Basic 2D Grid view for BetopiaERP"
-msgstr "มุมมองตาราง 2D หลักสำหรับ BetopiaERP"
+msgid "Basic 2D Grid view for betopiaerp"
+msgstr "มุมมองตาราง 2D หลักสำหรับ betopiaerp"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_cohort
-msgid "Basic Cohort view for BetopiaERP"
-msgstr "มุมมองกลุ่มประชากรตามรุ่นหลักสำหรับ BetopiaERP"
+msgid "Basic Cohort view for betopiaerp"
+msgstr "มุมมองกลุ่มประชากรตามรุ่นหลักสำหรับ betopiaerp"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality
@@ -20316,9 +20316,9 @@ msgstr "เบลีซ"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
-msgstr "ข้อความด้านล่างทำหน้าที่เป็นการแนะนำและไม่เกี่ยวข้องกับความรับผิดชอบของ BetopiaERP S.A."
+msgstr "ข้อความด้านล่างทำหน้าที่เป็นการแนะนำและไม่เกี่ยวข้องกับความรับผิดชอบของ BetopiaERP"
 
 #. module: base
 #: model:res.country,name:base.bj
@@ -20430,7 +20430,7 @@ msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Blame the following rules:\n"
@@ -20541,7 +20541,7 @@ msgid "Bowling Alley"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
@@ -20924,7 +20924,7 @@ msgid "By"
 msgstr "โดย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "By default the widget uses the field information"
 msgstr "ตามค่าเริ่มต้น วิดเจ็ตจะใช้ข้อมูลฟิลด์"
@@ -21109,20 +21109,20 @@ msgid "Campsite"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Can not create Many-To-One records indirectly, import the field separately"
 msgstr "ไม่สามารถสร้างบันทึกแบบ Many-To-One โดยอ้อมได้ ให้นำเข้าฟิลด์แยกกัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Can only rename one field at a time!"
 msgstr "สามารถเปลี่ยนชื่อได้ครั้งละหนึ่งฟิลด์เท่านั้น!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Can't compare more than two views."
 msgstr "ไม่สามารถเปรียบเทียบมากกว่าสองมุมมองได้"
@@ -21212,7 +21212,7 @@ msgid "Candy Shop"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Cannot create new '%s' records from their name alone. Please create those "
@@ -21222,25 +21222,25 @@ msgstr ""
 "โปรดสร้างบันทึกเหล่านั้นด้วยตนเองแล้วลองนำเข้าอีกครั้ง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by contacts."
 msgstr "ไม่สามารถปิดใช้งานภาษาที่ผู้ติดต่อใช้อยู่ในปัจจุบันได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by users."
 msgstr "ไม่สามารถปิดใช้งานภาษาที่ผู้ใช้ใช้อยู่ในปัจจุบันได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Cannot duplicate configuration!"
 msgstr "ไม่สามารถคัดลอกการกำหนดค่าได้!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Cannot rename/delete fields that are still present in views:\n"
@@ -21252,7 +21252,7 @@ msgstr ""
 "มุมมอง: %(view)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Cannot upgrade module “%s”. It is not installed."
 msgstr "ไม่สามารถอัปเกรดโมดูล “%s” ได้ ไม่ได้รับการติดตั้ง"
@@ -21512,13 +21512,13 @@ msgid "Change the way addresses are displayed in reports"
 msgstr "เปลี่ยนวิธีการแสดงที่อยู่ในรายงาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Changing the model of a field is forbidden!"
 msgstr "ห้ามเปลี่ยนโมเดลฟิลด์!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Changing the type of a field is not yet supported. Please drop it and create "
@@ -21526,7 +21526,7 @@ msgid ""
 msgstr "ยังไม่รองรับการเปลี่ยนประเภทของฟิลด์ กรุณาละทิ้งแล้วสร้างขึ้นมาใหม่!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Changing to 12-hour clock format instead."
 msgstr "เปลี่ยนเป็นรูปแบบนาฬิกาแบบ 12 ชั่วโมงแทน"
@@ -21889,7 +21889,7 @@ msgid "Code Diff"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Code History"
@@ -22040,7 +22040,7 @@ msgid "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 msgstr "Comm10E 25  105 x 241 มม."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Comma"
 msgstr "จุลภาค"
@@ -22050,10 +22050,10 @@ msgstr "จุลภาค"
 msgid ""
 "Comma-separated list of addresses or domains for which this server can be "
 "used.\n"
-"e.g.: \"notification@BetopiaERP.com\" or \"BetopiaERP.com\""
+"e.g.: \"notification@betopiaerp.com\" or \"betopiaerp.com\""
 msgstr ""
 "รายชื่อที่อยู่หรือโดเมนที่คั่นด้วยเครื่องหมายจุลภาคซึ่งเซิร์ฟเวอร์นี้สามารถใช้งานได้\n"
-"เช่น: \"notification@BetopiaERP.com\" หรือ \"BetopiaERP.com\""
+"เช่น: \"notification@betopiaerp.com\" หรือ \"betopiaerp.com\""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_act_window__view_mode
@@ -22127,7 +22127,7 @@ msgid "Companies"
 msgstr "บริษัท"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
 #: model:ir.model.fields,field_description:base.field_ir_default__company_id
@@ -22148,7 +22148,7 @@ msgid "Company"
 msgstr "บริษัท"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Company %(company_name)s is not in the allowed companies for user %"
@@ -22158,7 +22158,7 @@ msgstr ""
 "(company_allowed)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Company Address"
 msgstr "ที่อยู่บริษัท"
@@ -22174,7 +22174,7 @@ msgid "Company Details"
 msgstr "รายละเอียดบริษัท"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__company_registry
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
@@ -22244,7 +22244,7 @@ msgstr ""
 "สโลแกนของบริษัท ซึ่งรวมอยู่ในส่วนหัวหรือส่วนท้ายของเอกสารที่พิมพ์ (ขึ้นอยู่กับเค้าโครงที่เลือก)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Company used for the original currency (only used for t-esc). By default use "
@@ -22302,7 +22302,7 @@ msgid "Compute"
 msgstr "คำนวน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Compute method cannot depend on field 'id'"
 msgstr "วิธีการคำนวณไม่สามารถขึ้นอยู่กับฟิลด์ 'id'"
@@ -22442,7 +22442,7 @@ msgid "Connect to myDATA API implementation for Greece"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connect to your server through your usual username and password. \n"
@@ -22463,7 +22463,7 @@ msgid "Connection Encryption"
 msgstr "การเข้ารหัสการเชื่อมต่อ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connection Test Failed! Here is what we got instead:\n"
@@ -22473,7 +22473,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Connection Test Successful!"
 msgstr "ทดสอบการเชื่อมต่อสำเร็จ!"
@@ -22588,7 +22588,7 @@ msgid "Contact image"
 msgstr "รูปภาพการติดต่อ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Contact your administrator to request access if necessary."
 msgstr "ติดต่อผู้ดูแลระบบของคุณเพื่อขอการเข้าถึงหากจำเป็น"
@@ -22721,7 +22721,7 @@ msgid "Costa Rica - Accounting"
 msgstr "ประเทศคอสตาริกา - ระบบบัญชี"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Could not load your certificate / private key. \n"
@@ -22731,7 +22731,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Couldn't create contact without email address!"
 msgstr "ไม่สามารถสร้างที่อยู่ติดต่อได้หากไม่มีที่อยู่อีเมล!"
@@ -22844,7 +22844,7 @@ msgid "Create"
 msgstr "สร้าง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Create %(model_name)s"
 msgstr "สร้าง %(model_name)s"
@@ -23312,7 +23312,7 @@ msgid "Cron Triggers"
 msgstr "ครอนทริกเกอร์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Cron job %(name)s (%(id)s) has been deactivated after failing %(count)s "
@@ -23394,19 +23394,19 @@ msgid "Currency field"
 msgstr "ฟิลด์สกุลเงิน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field does not have type many2one"
 msgstr "ฟิลด์สกุลเงินไม่มีประเภท many2one"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field is empty and there is no fallback field in the model"
 msgstr "ฟิลด์สกุลเงินว่างเปล่าและไม่มีฟิลด์ทางเลือกในแบบจำลอง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field should have a res.currency relation"
 msgstr "ฟิลด์สกุลเงินควรมีความสัมพันธ์ res.currency"
@@ -23417,7 +23417,7 @@ msgid "Currency numeric code."
 msgstr "รหัสตัวเลขสกุลเงิน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Currency rates should only be created for main companies"
 msgstr ""
@@ -23428,7 +23428,7 @@ msgid "Currency sign, to be used when printing amounts."
 msgstr "เครื่องหมายสกุลเงิน สำหรับใช้ในการพิมพ์จำนวนเงิน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Current Arch"
 msgstr "อาร์คปัจจุบัน"
@@ -23676,7 +23676,7 @@ msgid "Dalasi"
 msgstr "Dalasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Dash"
 msgstr "แดช"
@@ -23741,7 +23741,7 @@ msgid "Database Structure"
 msgstr "โครงสร้างฐานข้อมูล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_currency__date
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__name
@@ -23755,31 +23755,31 @@ msgid "Date Format"
 msgstr "รูปแบบวันที่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date format"
 msgstr "รูปแบบวันที่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date to compare with the field value, by default use the current date."
 msgstr "วันที่ที่จะเปรียบเทียบกับค่าของฟิลด์ โดยค่าเริ่มต้นให้ใช้วันที่ปัจจุบัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit"
 msgstr "หน่วยวัดระยะทาง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit used for comparison and formatting"
 msgstr "หน่วยวันที่ที่ใช้สำหรับการเปรียบเทียบและการจัดรูปแบบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date unit used for the rounding. The value must be smaller than 'hour' if "
@@ -23787,7 +23787,7 @@ msgid ""
 msgstr "หน่วยวันที่ที่ใช้สำหรับการปัดเศษ ค่าต้องน้อยกว่า 'ชั่วโมง' หากคุณใช้การจัดรูปแบบดิจิทัล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date used for the original currency (only used for t-esc). by default use "
@@ -23816,7 +23816,7 @@ msgid "Debugging"
 msgstr "การดีบั๊ก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Debugging information:"
 msgstr "ข้อมูลการดีบัก:"
@@ -23854,7 +23854,7 @@ msgstr ""
 "ถูกกำหนดโดยปัจจัยการปัดเศษ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Decimalized number"
 msgstr "ตัวเลขทศนิยม"
@@ -23977,8 +23977,8 @@ msgstr "รายงาน"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_map
-msgid "Defines the map view for BetopiaERP enterprise"
-msgstr "กำหนดมุมมองแผนที่สำหรับองค์กร BetopiaERP"
+msgid "Defines the map view for betopiaerp enterprise"
+msgstr "กำหนดมุมมองแผนที่สำหรับองค์กร betopiaerp"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__definition
@@ -24008,7 +24008,7 @@ msgid "Delete Action"
 msgstr "ลบการกระทำ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Deleting the template users is not allowed. Deleting this profile will "
@@ -24027,7 +24027,7 @@ msgid "Delivery - Stock"
 msgstr "การจัดส่ง - สต็อก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Delivery Address"
 msgstr "ที่อยู่จัดส่ง"
@@ -24269,7 +24269,7 @@ msgid "Digest Enterprise"
 msgstr "องค์กรแบบย่อย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Digital formatting"
 msgstr "การจัดรูปแบบดิจิทัล"
@@ -24518,13 +24518,13 @@ msgid "Display and change your products information on electronic Pricer tags"
 msgstr "แสดงและเปลี่ยนแปลงข้อมูลผลิตภัณฑ์ของคุณบนแท็กราคาอิเล็กทรอนิกส์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display country image"
 msgstr "แสดงรูปภาพของประเทศ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display currency"
 msgstr "แสดงผล"
@@ -24556,37 +24556,37 @@ msgstr ""
 "%(country_code)s: รหัสของประเทศ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the date"
 msgstr "แสดงเฉพาะวันที่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the time"
 msgstr "แสดงผล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display phone icons"
 msgstr "แสดงไอคอนโทรศัพท์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the country image if the field is present on the record"
 msgstr "แสดงภาพประเทศหากมีฟิลด์อยู่ในบันทึก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the phone icons even if no_marker is True"
 msgstr "แสดงไอคอนโทรศัพท์แม้ว่า no_marker จะเป็น True"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Displayed fields"
 msgstr "ช่องข้อมูล"
@@ -24776,7 +24776,7 @@ msgid "Domain applied to the active id of the parent model"
 msgstr "โดเมนที่ใช้กับ ID ที่ใช้งานอยู่ของโมเดลหลัก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Domain on non-relational field \"%(name)s\" makes no sense (domain:%"
@@ -24809,7 +24809,7 @@ msgid "Dominican Republic - Checks Layout"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Don't display the font awesome marker"
 msgstr "ไม่แสดงฟอนต์ awesome marker"
@@ -24880,13 +24880,13 @@ msgid "Dropshipping"
 msgstr "ดรอปชิป"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate %(record)s"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate ..."
 msgstr ""
@@ -24902,7 +24902,7 @@ msgid "Duplicate from"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "Duplicating a company is not allowed. Please create a new company instead."
@@ -25206,25 +25206,25 @@ msgid "Electronic invoicing for Colombia with DIAN"
 msgstr "การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์สำหรับประเทศโคลัมเบียด้วย DIAN"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element '%s' cannot be located in parent view"
 msgstr "องค์ประกอบ '%s' ไม่สามารถอยู่ในมุมมองหลักได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element <attribute> with 'add' or 'remove' cannot contain text %s"
 msgstr "องค์ประกอบ<attribute>ที่มี 'เพิ่ม' หรือ 'ลบ' ไม่สามารถมีข้อความได้%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element “%s” cannot be located in parent view"
 msgstr "ไม่สามารถระบุตำแหน่งองค์ประกอบ “%s” ในมุมมองหลักได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_users.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_email
@@ -25257,7 +25257,7 @@ msgid "Email Signature"
 msgstr "ลายเซ็นต์อีเมล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Email maximum size updated (%(details)s)."
 msgstr "อัปเดตขนาดสูงสุดของอีเมล (%(details)s)"
@@ -25347,7 +25347,7 @@ msgid "Employment Hero Payroll"
 msgstr "บัญชีเงินเดือนการจ้างงาน Hero"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Empty dependency in “%s”"
 msgstr "การขึ้นต่อกันที่ว่างเปล่าใน “%s”"
@@ -25568,7 +25568,7 @@ msgid "Error"
 msgstr "ผิดพลาด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Error ! You cannot create recursive categories."
 msgstr "ข้อผิดพลาด ! คุณไม่สามารถสร้างหมวดหมู่แบบเรียกซ้ำได้"
@@ -25579,7 +25579,7 @@ msgid "Error message returned when the constraint is violated."
 msgstr "ข้อความแสดงข้อผิดพลาดที่ส่งคืนเมื่อมีการละเมิดข้อจำกัด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while parsing or validating view:\n"
@@ -25591,7 +25591,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Error while parsing view:\n"
@@ -25603,7 +25603,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view (%(view)s):\n"
@@ -25615,7 +25615,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view near:\n"
@@ -25629,7 +25629,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_menu.py:0
 msgid "Error! You cannot create recursive menus."
 msgstr "คุณไม่สามารถสร้างลำดับชั้นของคู่ค้าแบบเรียกซ้ำได้"
@@ -26412,12 +26412,12 @@ msgid ""
 msgstr "สัมผัสประสบการณ์การจองห้องประชุมที่ง่ายดายด้วยการแสดงสถานะห้องว่างแบบเรียลไทม์"
 
 #. module: base
-#: model:ir.module.module,description:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,description:base.module_theme_betopiaerp_experts
 msgid "Experts Business Theme"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,shortdesc:base.module_theme_betopiaerp_experts
 msgid "Experts Theme"
 msgstr ""
 
@@ -26621,7 +26621,7 @@ msgid "External ID"
 msgstr "ไอดีจากภายนอก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb.py:0
 msgid "External ID can not be loaded: %s"
 msgstr ""
@@ -26822,32 +26822,32 @@ msgid "Field"
 msgstr "ฟิลด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field \"%(field_name)s\" does not exist in model \"%(model_name)s\""
 msgstr "ไม่มีฟิลด์ \"%(field_name)s\" ในโมเดล \"%(model_name)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Field \"%s\" is not cached"
 msgstr "ฟิลด์ \"%s\" ไม่ได้ถูกแคชไว้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Field %s cannot be modified on models."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(field)s' found in 'groupby' node does not exist in model %(model)s"
 msgstr "พบฟิลด์ '%(field)s' ในโหนด 'groupby' ไม่มีอยู่ในโมเดล %(model)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(name)s' found in 'groupby' node can only be of type many2one, found "
@@ -26916,13 +26916,13 @@ msgid "Field Type"
 msgstr "ประเภทฟิลด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field `%(name)s` does not exist"
 msgstr "ไม่มีฟิลด์ `%(name)s`"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Field names can only contain characters, digits and underscores (up to 63)."
@@ -26934,7 +26934,7 @@ msgid "Field names must be unique per model."
 msgstr "ชื่อฟิลด์ต้องไม่ซ้ำกันในแต่ละโมเดล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field tag must have a \"name\" attribute defined"
 msgstr "แท็กฟิลด์ต้องมีการกำหนดแอตทริบิวต์ \"ชื่อ\""
@@ -26952,7 +26952,7 @@ msgid "Field to Update Path"
 msgstr "ฟิลด์เพื่ออัปเดตเส้นทาง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field “%(name)s” used in %(use)s is present in view but is in select multi."
@@ -26974,7 +26974,7 @@ msgid "Fields"
 msgstr "ฟิลด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Fields %s contain a non-str value/label in selection"
 msgstr "ฟิลด์ %s มีค่าหรือป้ายกำกับที่ไม่ใช่ str ในการเลือก"
@@ -27020,7 +27020,7 @@ msgid "File"
 msgstr "ไฟล์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_import_language.py:0
 msgid ""
 "File \"%(file_name)s\" not imported due to format mismatch or a malformed "
@@ -27036,7 +27036,7 @@ msgstr ""
 "%(error_message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "File Arch"
 msgstr "ไฟล์อาร์ค"
@@ -27309,13 +27309,13 @@ msgid "Folio 27  210 x 330 mm"
 msgstr "Folio 27  210 x 330 มม."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Following child actions have warnings: %(children)s"
 msgstr "การดำเนินการย่อยต่อไปนี้มีคำเตือน: %(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same groups (%(groups)s): %"
@@ -27323,7 +27323,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same model (%(model)s): %(children)s"
@@ -27397,7 +27397,7 @@ msgid "For relationship fields, the technical name of the target model"
 msgstr "สำหรับฟิลด์ความสัมพันธ์ ชื่อทางเทคนิคของโมเดลเป้าหมาย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "For safety reasons, you cannot merge more than 3 contacts together. You can "
@@ -27407,19 +27407,19 @@ msgstr ""
 "คุณสามารถเปิดตัวช่วยสร้างใหม่ได้หลายครั้งหากจำเป็น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden attribute used in arch (%s)."
 msgstr "คุณลักษณะต้องห้ามที่ใช้ในอาร์ค (%s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden owl directive used in arch (%s)."
 msgstr "คำสั่ง owl ต้องห้ามที่ใช้ในอาร์ค (%s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden use of `__comp__` in arch."
 msgstr "ห้ามใช้ `__comp__` ในอาร์ค"
@@ -27442,7 +27442,7 @@ msgid "Form"
 msgstr "ฟอร์ม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Format"
 msgstr "รูปแบบ"
@@ -27460,7 +27460,7 @@ msgid "Formatted Email"
 msgstr "รูปแบบอีเมล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Formatting: long, short, narrow (not used for digital)"
 msgstr "การจัดรูปแบบ: ยาว สั้น แคบ (ไม่ใช้สำหรับดิจิทัล)"
@@ -27481,7 +27481,7 @@ msgid "Fossil Fuel Trading"
 msgstr "การซื้อขายเชื้อเพลิง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Found multiple matches for value \"%(value)s\" in field \"%%(field)s\" (%"
@@ -27557,7 +27557,7 @@ msgid "France - Work Entries Time Off"
 msgstr "ประเทศฝรั่งเศส - ระบบการลาการเข้างาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Free access"
 msgstr ""
@@ -28043,13 +28043,13 @@ msgid "Gmail support for incoming / outgoing mail servers"
 msgstr "รองรับ Gmail สำหรับเซิร์ฟเวอร์อีเมลขาเข้า / ขาออก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Go to the configuration panel"
 msgstr "ไปยังหน้าการตั้งค่า"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Go to users"
 msgstr "ไปที่ผู้ใช้"
@@ -28199,7 +28199,7 @@ msgid "Group-based"
 msgstr "ตามกลุ่ม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Group-restricted fields cannot be included in webhook payloads, as it could "
@@ -28218,7 +28218,7 @@ msgid "Group-specific rules are combined together with a logical OR operator"
 msgstr "กฎเฉพาะกลุ่มจะรวมกันพร้อมกับเชิงตรรกะหรือตัวดำเนินการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_groups
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__group_ids
@@ -28552,7 +28552,7 @@ msgid "Heard Island and McDonald Islands"
 msgstr "เกาะเฮิร์ดและหมู่เกาะแมคโดนัลด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Height"
 msgstr "ความสูง"
@@ -28719,13 +28719,13 @@ msgid "Hide Portal Timesheet Information"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide badges"
 msgstr "ซ่อนเหรียญรางวัล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide seconds"
 msgstr "ซ่อนวินาที"
@@ -28863,7 +28863,7 @@ msgid "Html Value"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Human Readable"
 msgstr "มนุษย์สามารถอ่านได้"
@@ -28899,7 +28899,7 @@ msgid "I - ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
 msgstr "I - กิจกรรมที่พักและบริการอาหาร"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'll be happy to send a webhook for you, but you really need to give me a "
@@ -28907,7 +28907,7 @@ msgid ""
 msgstr "ฉันยินดีที่จะส่ง webhook ให้กับคุณ แต่คุณต้องให้ URL กับฉันเพื่อติดต่อ..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'm sorry to say that JSON fields (such as '%s') are currently not supported."
@@ -29309,7 +29309,7 @@ msgstr ""
 "จะคำนวณการมองเห็นตามการเข้าถึงการอ่านของออบเจ็กต์ที่เกี่ยวข้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "If you really, really need access, perhaps you can win over your friendly "
@@ -29532,7 +29532,7 @@ msgid "Import Shopee orders and sync deliveries"
 msgstr "นำเข้าคำสั่งซื้อ Shopee และซิงค์การจัดส่ง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Import Template for Contacts"
 msgstr ""
@@ -29633,7 +29633,7 @@ msgid "Include"
 msgstr "รวมถึง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Incorrect Password, try again or click on Forgot Password to reset your "
@@ -29887,7 +29887,7 @@ msgid "Inherited models"
 msgstr "โมเดลที่สืบทอด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Inherited view cannot have 'Groups' define on the record. Use 'groups' "
@@ -29917,7 +29917,7 @@ msgid "Input View"
 msgstr "มุมมอง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Install"
 msgstr "ติดตั้ง"
@@ -29958,13 +29958,13 @@ msgid "Instant Messaging Bus allow you to send messages to users, in live."
 msgstr "Instant Messaging Bus ช่วยให้คุณสามารถส่งข้อความถึงผู้ใช้ได้แบบเรียลไทม์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Insufficient fields for Calendar View!"
 msgstr "ฟิลด์ไม่เพียงพอสำหรับมุมมองปฏิทิน!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Insufficient fields to generate a Calendar View for %s, missing a date_stop "
@@ -30182,7 +30182,7 @@ msgid "Introspection report on objects"
 msgstr "รายงานการสำรวจบนออบเจ็กต์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid %(use)s: “%(expr)s”\n"
@@ -30192,13 +30192,13 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid Expression while parsing xpath “%s”"
 msgstr "ตัวสั่งงานไม่ถูกต้องขณะวิเคราะห์ xpath “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid JSON format in Default Value field."
 msgstr "รูปแบบ JSON ไม่ถูกต้องในฟิลด์ค่าเริ่มต้น"
@@ -30209,7 +30209,7 @@ msgid "Invalid Locators"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid ""
@@ -30218,19 +30218,19 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid attributes %s in element <attribute>"
 msgstr "คุณสมบัติ %s ไม่ถูกต้องในองค์ประกอบ <attribute>"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid composed field %(definition)s in %(use)s"
 msgstr "ฟิลด์ที่ไม่ถูกต้อง %(definition)s ใน %(use)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid context: “%(expr)s” is not a valid Python expression \n"
@@ -30242,13 +30242,13 @@ msgstr ""
 " %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Invalid database id '%s' for the field '%%(field)s'"
 msgstr "รหัสฐานข้อมูล '%s' ไม่ถูกต้องสำหรับฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "Invalid date/time format directive specified. Please refer to the list of "
@@ -30257,25 +30257,25 @@ msgstr ""
 "ระบุคำสั่งรูปแบบวันที่/เวลาไม่ถูกต้อง โปรดดูรายการคำสั่งที่อนุญาตซึ่งจะแสดงขึ้นเมื่อคุณแก้ไขภาษา"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid default period %(default_period)s for date filter"
 msgstr "ระยะเวลาเริ่มต้น %(default_period)s ไม่ถูกต้องสำหรับตัวกรองวันที่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Invalid domain: %s"
 msgstr "โดเมนไม่ถูกต้อง: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid field %(model)s.%(field)s"
 msgstr "ฟิลด์ที่ไม่ถูกต้อง %(model)s.%(field)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid ""
 "Invalid inherit mode. Module \"%(module)s\" and template name \"%"
@@ -30296,31 +30296,31 @@ msgid "Invalid key: QWeb view should have a key"
 msgstr "คีย์ไม่ถูกต้อง: มุมมอง QWeb ควรมีคีย์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid mode attribute: “%s”"
 msgstr "แอตทริบิวต์โหมดไม่ถูกต้อง: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Invalid model name “%s” in action definition."
 msgstr "ชื่อโมเดล “%s” ไม่ถูกต้องในคำจำกัดความการดำเนินการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid position attribute: '%s'"
 msgstr "คุณลักษณะตำแหน่งไม่ถูกต้อง: '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Invalid prefix or suffix for sequence “%s”"
 msgstr "คำนำหน้าหรือคำต่อท้ายของลำดับ “%s” ไม่ถูกต้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid ""
 "Invalid separator %(separator)s for python expression %(expression)s; valid "
@@ -30330,7 +30330,7 @@ msgstr ""
 "'และ' และ 'หรือ'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Invalid server name!\n"
@@ -30345,31 +30345,31 @@ msgid "Invalid sort definition"
 msgstr "คำจำกัดความการเรียงลำดับไม่ถูกต้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid special '%(value)s' in button"
 msgstr "ปุ่มพิเศษ '%(value)s' ไม่ถูกต้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid specification for moved nodes: “%s”"
 msgstr "ข้อกำหนดไม่ถูกต้องสำหรับโหนดที่ถูกย้าย: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Invalid template user. It seems it has been deleted."
 msgstr "ผู้ใช้เทมเพลตไม่ถูกต้อง ดูเหมือนว่ามันถูกลบไปแล้ว"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid value for %(model)s.%(field)s: %(value)s"
 msgstr "ค่าไม่ถูกต้องสำหรับ %(model)s.%(field)s: %(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid ""
 "Invalid value for %(model)s.%(field)s: %(value)s is out of bounds (integers "
@@ -30379,13 +30379,13 @@ msgstr ""
 "(จำนวนเต็มควรอยู่ระหว่าง -2,147,483,648 และ 2,147,483,647)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid view %(name)s definition in %(file)s"
 msgstr "คำจำกัดความมุมมอง %(name)s ใน %(file)s ไม่ถูกต้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid view type: '%(view_type)s'.\n"
@@ -30394,7 +30394,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid xmlid %(xmlid)s for button of type action."
 msgstr "xmlid %(xmlid)s ไม่ถูกต้องสำหรับปุ่มประเภทการดำเนินการ"
@@ -30434,7 +30434,7 @@ msgid "Invoice"
 msgstr "ใบแจ้งหนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Invoice Address"
 msgstr "ที่อยู่ใบแจ้งหนี้"
@@ -30616,7 +30616,7 @@ msgid "Israel - Accounting Reports"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid ""
 "It is not possible to remove implied group %(group)s from users %(users)s"
@@ -30779,7 +30779,7 @@ msgid "Jersey"
 msgstr "เจอร์ซีย์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid "Job '%s' already executing"
 msgstr ""
@@ -30846,7 +30846,7 @@ msgid "Journal Items associated to the contact"
 msgstr "รายการสมุดบัญชีรายวัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Json"
 msgstr "Json"
@@ -31155,7 +31155,7 @@ msgid "Laari"
 msgstr "Laari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Label tag must contain a \"for\". To match label style without corresponding "
@@ -31213,7 +31213,7 @@ msgid "Language Name"
 msgstr "ชื่อภาษา"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Language code cannot be modified."
 msgstr "รหัสภาษาไม่สามารถแก้ไขได้"
@@ -31702,7 +31702,7 @@ msgid "Line"
 msgstr "รายการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Linebreak"
 msgstr "แบ่งบรรทัด"
@@ -31840,13 +31840,13 @@ msgid "List"
 msgstr "รายการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "List child can only have one of %(tags)s tag (not %(wrong_tag)s)"
 msgstr "รายการย่อยสามารถมีแท็ก %(tags)s ได้เพียงแท็กเดียวเท่านั้น (ไม่ใช่ %(wrong_tag)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "List of contact fields to display in the widget"
 msgstr "รายการฟิลด์ผู้ติดต่อที่จะแสดงในวิดเจ็ต"
@@ -32010,7 +32010,7 @@ msgid "Logs"
 msgstr "บันทึก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Long"
 msgstr "ยาว"
@@ -32163,7 +32163,7 @@ msgid "Madagascar"
 msgstr "มาดากัสกา"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Mail Delivery Failed"
 msgstr "การส่งอีเมลล้มเหลว"
@@ -32221,7 +32221,7 @@ msgid ""
 msgstr "การทดสอบเมล: ประสิทธิภาพและการทดสอบเฉพาะสำหรับเมลที่มีโมดูลย่อยทั้งหมด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Mail delivery failed via SMTP server '%(server)s'.\n"
@@ -32751,7 +32751,7 @@ msgid "Many2many Operations"
 msgstr "การดำเนินงาน Many2many"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Many2one %(field)s on model %(model)s does not exist!"
 msgstr "Many2one %(field)s บนโมเดล %(model)s ไม่มีอยู่!"
@@ -33333,7 +33333,7 @@ msgid "Misc"
 msgstr "ข้อมูลเบ็ดเตล็ด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Missing SMTP Server\n"
@@ -33344,7 +33344,7 @@ msgstr ""
 "กรุณาระบุเซิร์ฟเวอร์ SMTP อย่างน้อยหนึ่งตัวหรือระบุพารามิเตอร์ SMTP อย่างชัดเจน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Missing view architecture."
 msgstr "มุมมองออกแบบ"
@@ -33393,13 +33393,13 @@ msgid "Model"
 msgstr "โมเดล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist"
 msgstr "ไม่มีโมเดล %s!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist!"
 msgstr "ไม่มีโมเดล %s!"
@@ -33467,7 +33467,7 @@ msgid "Model name of the object to open in the view window"
 msgstr "ชื่อรุ่นของวัตถุที่จะเปิดในหน้าต่างมุมมอง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Model not found: %(model)s"
 msgstr "ไม่พบโมเดล: %(model)s"
@@ -33489,7 +33489,7 @@ msgid "Model to Export"
 msgstr "รูปแบบที่จะส่งออก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model “%s” contains module data and cannot be removed."
 msgstr "โมเดล “%s” มีข้อมูลโมดูลและไม่สามารถลบออกได้"
@@ -33640,7 +33640,7 @@ msgstr ""
 "ช่วยให้คุณสามารถสร้างใบเสร็จรับเงินการจัดส่งโดยอัตโนมัติในบริษัทผู้รับเมื่อบริษัทอื่นในระบบยืนยันคำสั่งซื้อการจัดส่ง\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/convert.py:0
 msgid ""
 "Module loading %(module)s failed: file %(file)s could not be processed:\n"
@@ -33661,7 +33661,7 @@ msgid "Modules"
 msgstr "โมดูล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Modules \"%(module)s\" and \"%(incompatible_module)s\" are incompatible."
@@ -33896,7 +33896,7 @@ msgid "Nakfa"
 msgstr "Nakfa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_name
 #: model:ir.model.fields,field_description:base.field_ir_actions_todo__name
@@ -33946,13 +33946,13 @@ msgid "Name of the Many2one field holding the res.currency"
 msgstr "ชื่อของช่อง Many2one ที่เก็บ res.currency"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Name or id “%(name_or_id)s” in %(use)s does not exist."
 msgstr "ชื่อหรือ ID “%(name_or_id)s” ใน %(use)s ไม่มีอยู่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Name or id “%(name_or_id)s” in %(use)s must be present in view but is "
@@ -33985,7 +33985,7 @@ msgid "Nano Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Narrow"
 msgstr "แคบ"
@@ -34041,7 +34041,7 @@ msgid "New Caledonia"
 msgstr "นิวแคลิโดเนีย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_export_language.py:0
 msgid "New Language (Empty translation template)"
 msgstr "ภาษาใหม่ (ไฟล์แปลภาษาเปล่า)"
@@ -34212,7 +34212,7 @@ msgid "No Country Found!"
 msgstr "ไม่พบประเทศ!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "No default view of type '%s' could be found!"
 msgstr "ไม่พบมุมมองเริ่มต้นประเภท '%s'!"
@@ -34228,20 +34228,20 @@ msgid "No gap"
 msgstr "ไม่มีช่องว่าง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "No group currently allows this operation."
 msgstr "ขณะนี้ไม่มีกลุ่มที่อนุญาตการดำเนินการนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%(field)s'"
 msgstr "ไม่พบบันทึกที่ตรงกันสำหรับ %(field_type)s '%(value)s' ในฟิลด์ '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%"
@@ -34262,7 +34262,7 @@ msgid "No of Views"
 msgstr "ไม่มีผู้เข้าชม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "No response received. Check server address and port number.\n"
@@ -34272,7 +34272,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "No spaces allowed in view_mode: “%s”"
 msgstr "ไม่อนุญาตให้มีช่องว่างใน view_mode: “%s”"
@@ -34283,7 +34283,7 @@ msgid "Non Updatable"
 msgstr "ไม่สามารถอัปเดตได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Non-relational field name \"%(field_name)s\" in related field \"%"
@@ -34291,13 +34291,13 @@ msgid ""
 msgstr "ชื่อฟิลด์ที่ไม่เกี่ยวข้อง \"%(field_name)s\" ในฟิลด์ที่เกี่ยวข้อง \"%(related_field)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Non-relational field “%(field)s” in dependency “%(dependency)s”"
 msgstr "ฟิลด์ที่ไม่สัมพันธ์กัน “%(field)s” ในการขึ้นต่อกัน “%(dependency)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Non-relational field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr "ฟิลด์ที่ไม่สัมพันธ์กัน “%(field)s” ในเส้นทาง “%(field_path)s” ใน %(use)s)"
@@ -34330,7 +34330,7 @@ msgid "Norfolk Island"
 msgstr "เกาะนอร์ฟอล์ก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_bank.py:0
 msgid "Normal"
 msgstr "ปกติ"
@@ -34384,7 +34384,7 @@ msgid "Not Installed"
 msgstr "ไม่ถูกติดตั้ง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Not enough access rights on the external ID \"%(module)s.%(xml_id)s\""
 msgstr "สิทธิ์การเข้าถึงไม่เพียงพอบน ID ภายนอก \"%(module)s.%(xml_id)s\""
@@ -35481,7 +35481,7 @@ msgid "BetopiaERP Mobile Point of Sale module"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_BetopiaERP_partner
+#: model:ir.module.module,shortdesc:base.module_betopiaerp_partner
 msgid "BetopiaERP Partner"
 msgstr "BetopiaERP พาร์ทเนอร์"
 
@@ -36465,7 +36465,7 @@ msgid "BetopiaERP helps you track all activities related to your contacts."
 msgstr "BetopiaERP ช่วยให้คุณติดตามกิจกรรมทั้งหมดที่เกี่ยวข้องกับผู้ติดต่อของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing a scheduled action.\n"
@@ -36476,7 +36476,7 @@ msgstr ""
 "การดำเนินการของโมดูลไม่สามารถทำได้ในขณะนี้ โปรดลองอีกครั้งในภายหลังหรือติดต่อผู้ดูแลระบบของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing another module operation.\n"
@@ -36484,7 +36484,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "BetopiaERP is unable to merge the generated PDFs because of %(num_errors)s "
@@ -36492,7 +36492,7 @@ msgid ""
 msgstr "BetopiaERP ไม่สามารถผสานรวม PDF ที่สร้างขึ้นได้ เนื่องจากไฟล์เสียหาย %(num_errors)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "BetopiaERP is unable to merge the generated PDFs."
 msgstr "BetopiaERP ไม่สามารถรวม PDF ที่สร้างขึ้นได้"
@@ -36571,7 +36571,7 @@ msgstr ""
 "เมื่อการจัดส่งได้รับการตรวจสอบแล้ว ให้อัปเดตต้นทุนใน SO เพื่อให้มีการคำนวณส่วนต่างที่แน่นอน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "One or more of the selected modules have already been uninstalled, if you "
@@ -36586,7 +36586,7 @@ msgid "One user should only have one user settings."
 msgstr "ผู้ใช้หนึ่งรายควรมีการตั้งค่าผู้ใช้เพียงรายเดียวเท่านั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "One2Many fields cannot be synchronized as part of `commercial_fields` or "
@@ -36631,13 +36631,13 @@ msgid "Online Task Submission"
 msgstr "การส่งงานออนไลน์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Only administrators can change the settings"
 msgstr "เฉพาะผู้ดูแลระบบเท่านั้นที่สามารถแก้ไขการตั้งค่าได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Only administrators can execute this action."
 msgstr "มีเพียงผู้ดูแลระบบเท่านั้นที่สามารถดำเนินการนี้ได้"
@@ -36668,7 +36668,7 @@ msgstr ""
 "Arch ที่แท้จริง\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Only internal users can create API keys"
 msgstr "เฉพาะผู้ใช้ภายในเท่านั้นที่สามารถสร้างคีย์ API ได้"
@@ -36689,13 +36689,13 @@ msgid "Only one value can be defined for each given usage!"
 msgstr "สามารถกำหนดค่าได้เพียงค่าเดียวสำหรับการใช้งานแต่ละครั้ง!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Only super user has access"
 msgstr "มีเพียงผู้ใช้ระดับสูงเท่านั้นที่มีสิทธิ์เข้าถึง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Only the portal users can delete their accounts. The user(s) %s can not be "
@@ -36799,7 +36799,7 @@ msgid "Optional password for SMTP authentication"
 msgstr "รหัสผ่านเพิ่มเติมสำหรับการตรวจสอบสิทธิ์ SMTP"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Optional timezone name"
 msgstr "ชื่อเขตเวลาเพิ่มเติม"
@@ -37233,7 +37233,7 @@ msgid "Original View"
 msgstr "มุมมองดั้งเดิม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Original currency"
 msgstr "มุมมองดั้งเดิม"
@@ -37830,7 +37830,7 @@ msgid "Pacific/Yap"
 msgstr "Pacific/Yap"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Page direct ancestor must be notebook"
 msgstr "ระดับบนสุดโดยตรงของหน้าต้องเป็นสมุดบันทึก"
@@ -38068,7 +38068,7 @@ msgid "Partners Geolocation"
 msgstr "พาร์ทเนอร์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Partners: %(category)s"
 msgstr "พาร์ทเนอร์: %(category)s"
@@ -38151,7 +38151,7 @@ msgid "Path to show in the URL"
 msgstr "เส้นทางที่จะแสดงใน URL"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model:ir.model.constraint,message:base.constraint_ir_act_client_path_unique
 #: model:ir.model.constraint,message:base.constraint_ir_act_report_xml_path_unique
@@ -38169,7 +38169,7 @@ msgid "Path to the field to update, e.g. 'partner_id.name'"
 msgstr "เส้นทางไปยังฟิลด์ที่จะอัปเดต เช่น 'partner_id.name'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Pattern to format"
 msgstr "รูปแบบ"
@@ -38484,7 +38484,7 @@ msgid "Philippines Checks Layout"
 msgstr "รูปแบบเช็คของประเทศฟิลิปปินส์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_bank__phone
 #: model:ir.model.fields,field_description:base.field_res_company__phone
@@ -38655,7 +38655,7 @@ msgid "Platform"
 msgstr "แพลตฟอร์ม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Please configure an email on the current user to simulate sending an email "
@@ -38677,7 +38677,7 @@ msgid ""
 msgstr "โปรดทราบว่าการแก้ไขจะมีผลกับผู้ใช้ทั้งหมดในกลุ่มที่ระบุ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
@@ -38902,7 +38902,7 @@ msgid "Pounds"
 msgstr "Pounds"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Precision Digits"
 msgstr "ตัวเลขที่แม่นยำ"
@@ -38939,7 +38939,7 @@ msgid "Preview pdf src"
 msgstr "ดูตัวอย่าง pdf src"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Previous Arch"
 msgstr "อาร์คก่อนหน้า"
@@ -39031,7 +39031,7 @@ msgid "Privileges"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Problematic record(s)"
 msgstr "บันทึกที่มีปัญหา"
@@ -39140,7 +39140,7 @@ msgid "Profiling is currently disabled."
 msgstr "การทำโปรไฟล์ถูกปิดใช้งานอยู่ในขณะนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "Profiling is not enabled on this database. Please contact an administrator."
@@ -39547,7 +39547,7 @@ msgid "Properties Field"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Properties of base fields cannot be altered in this manner! Please modify "
@@ -40100,7 +40100,7 @@ msgid "Record Rule"
 msgstr "กฎการเข้าถึงรายการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_rule
 #: model:ir.model.fields,field_description:base.field_ir_model__rule_ids
@@ -40114,7 +40114,7 @@ msgid "Record Rules"
 msgstr "กฎการเข้าถึงรายการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Record cannot be modified right now: This cron task is currently being "
@@ -40181,13 +40181,13 @@ msgid "Recruitment tracking on appointments"
 msgstr "ติดตามการสรรหาบุคลากรตามการนัดหมาย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Recursion error in modules dependencies!"
 msgstr "ข้อผิดพลาดในการเรียกซ้ำในการขึ้นต่อกันของโมดูล!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Recursion found in child server actions"
 msgstr "พบการเรียกซ้ำในการดำเนินการของเซิร์ฟเวอร์ย่อย"
@@ -40201,7 +40201,7 @@ msgid "Reference"
 msgstr "การอ้างอิง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Reference date"
 msgstr "อ้างอิง"
@@ -40238,14 +40238,14 @@ msgid "Related Partner"
 msgstr "พาร์ทเนอร์ที่เกี่ยวข้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Related field \"%(related_field)s\" does not have comodel \"%(comodel)s\""
 msgstr "สาขาที่เกี่ยวข้อง \"%(related_field)s\" ไม่มีโมเดล \"%(comodel)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Related field \"%(related_field)s\" does not have type \"%(type)s\""
 msgstr "ฟิลด์ที่เกี่ยวข้อง \"%(related_field)s\" ไม่มีประเภท \"%(type)s\""
@@ -40423,7 +40423,7 @@ msgid "Report Xml"
 msgstr "รายงาน Xml"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Report template “%s” has an issue, please contact your administrator. \n"
@@ -40598,7 +40598,7 @@ msgid "Revision"
 msgstr "การแก้ไข"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Revision Code"
 msgstr ""
@@ -40747,13 +40747,13 @@ msgid "Rounding Factor"
 msgstr "ปัจจัยการปัดเศษ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding precision"
 msgstr "ความแม่นยำในการปัดเศษ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding unit"
 msgstr "หน่วยปัดเศษ"
@@ -40799,7 +40799,7 @@ msgid "Rules"
 msgstr "กฏ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Rules can not be applied on the Record Rules model."
 msgstr "ไม่สามารถใช้กฎกับโมเดลกฎการบันทึกได้"
@@ -40972,7 +40972,7 @@ msgid "SSL Private Key"
 msgstr "SSL คีย์ส่วนตัว"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL certificate is missing for %s."
 msgstr "ใบรับรอง SSL หายไปสำหรับ %s"
@@ -40983,7 +40983,7 @@ msgid "SSL certificate used for authentication"
 msgstr "ใบรับรอง SSL ที่ใช้สำหรับการยืนยันตัวตน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL private key is missing for %s."
 msgstr "รหัสส่วนตัว SSL หายไปสำหรับ %s"
@@ -41591,13 +41591,13 @@ msgid "Search modules"
 msgstr "ค้นหาโมดูล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Search tag can only contain one search panel"
 msgstr "แท็กการค้นหาสามารถมีแผงการค้นหาได้เพียงแผงเดียวเท่านั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Searchpanel item with select multi cannot have a domain."
 msgstr "รายการแผงการค้นหาที่มีหลายรายการไม่สามารถมีโดเมนได้"
@@ -41615,13 +41615,13 @@ msgid "Security"
 msgstr "ความปลอดภัย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "See all possible values"
 msgstr "ดูค่าที่เป็นไปได้ทั้งหมด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/common.py:0
 msgid "See http://openerp.com"
 msgstr "ดูที่ http://openerp.com"
@@ -41689,7 +41689,7 @@ msgstr ""
 "                                คุณสามารถลบผู้ติดต่อออกจากรายการนี้เพื่อหลีกเลี่ยงการรวมเข้าด้วยกัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields.selection,name:base.selection__base_partner_merge_automatic_wizard__state__selection
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_selection_search
@@ -41982,7 +41982,7 @@ msgid "Separator Format"
 msgstr "รูปแบบการคั่น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Separator use to split the address from the display_name."
 msgstr "ตัวคั่นใช้เพื่อแยกที่อยู่ออกจาก display_name"
@@ -42104,14 +42104,14 @@ msgid "Server action"
 msgstr "การดำเนินการเซิร์ฟเวอร์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Server action %(action_name)s has one or more warnings, address them first."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Server replied with following exception:\n"
@@ -42195,7 +42195,7 @@ msgid ""
 msgstr "การตั้งค่าทำให้การดำเนินการนี้พร้อมใช้งานในแถบด้านข้างสำหรับโมเดลที่กำหนด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "ไม่อนุญาตให้ตั้งรหัสผ่านที่ว่างเปล่าด้วยเหตุผลด้านความปลอดภัย!"
@@ -42297,7 +42297,7 @@ msgid "Shopper's Wishlist"
 msgstr "รายการสินค้าที่อยากได้ของนักช้อป"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Short"
 msgstr "สั้น"
@@ -42421,7 +42421,7 @@ msgid "Sin"
 msgstr "Sin"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Since 17.0, the \"attrs\" and \"states\" attributes are no longer used.\n"
@@ -42492,7 +42492,7 @@ msgid "Skip these contacts"
 msgstr "ข้าม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Slash"
 msgstr "Slash"
@@ -42672,13 +42672,13 @@ msgid "Somoni"
 msgstr "Somoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to access this document."
 msgstr "ขออภัย ท่านไม่มีสิทธิเข้าถึงเอกสารนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid ""
 "Sorry, you are not allowed to access this document. Please contact your "
@@ -42690,7 +42690,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to write on this document"
 msgstr "ขออภัย คุณไม่สามารถเขียนลงในเอกสารนี้ได้"
@@ -42741,7 +42741,7 @@ msgid "Spa Resort"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Space"
 msgstr "สเปซ"
@@ -43192,7 +43192,7 @@ msgid "Step"
 msgstr "ขั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Step must not be zero."
 msgstr "ขั้นตอน"
@@ -43825,7 +43825,7 @@ msgid "Tattoo Shop"
 msgstr "ร้านสัก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__vat
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
@@ -43940,19 +43940,19 @@ msgid "Template Name"
 msgstr "ชื่อแม่แบบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template does not exist or has been deleted: %s"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid "Template name is missing."
 msgstr "ชื่อเทมเพลตขาดหาย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template not found: '%s'"
 msgstr ""
@@ -44218,19 +44218,19 @@ msgid "Thailand - Accounting Reports"
 msgstr "ประเทศไทย - รายงานการบัญชี"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"%s\" action cannot be selected as home action."
 msgstr "ไม่สามารถเลือกการกระทำ \"%s\" เป็นการกระทำหน้าแรกได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr "ไม่สามารถเลือกการทำงาน \"App Switcher\" เป็นการกระทำหน้าแรกได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The \"editable\" attribute of list views must be \"top\" or \"bottom\", "
@@ -44240,19 +44240,19 @@ msgstr ""
 "(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr "%s ของบริษัทในเครือจะต้องเหมือนกับบริษัทแม่"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key duration is not correct."
 msgstr "ระยะเวลาของคีย์ API ไม่ถูกต้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key must have an expiration date"
 msgstr "คีย์ API จะต้องมีวันหมดอายุ"
@@ -44328,7 +44328,7 @@ msgid "The URL code of the language must be unique!"
 msgstr "รหัส URL ของภาษาจะต้องไม่ซ้ำกัน!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "The action \"%s\" cannot be set as the home action because it requires a "
@@ -44348,7 +44348,7 @@ msgid "The api key duration cannot be a negative value."
 msgstr "ระยะเวลาคีย์ API ไม่สามารถเป็นค่าติดลบได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "The attachment collides with an existing file."
 msgstr "สิ่งที่แนบมาขัดแย้งกับไฟล์ที่มีอยู่"
@@ -44387,7 +44387,7 @@ msgid "The combination Account Number/Partner must be unique."
 msgstr "หมายเลขบัญชี/พาร์ทเนอร์ที่รวมกันจะต้องไม่ซ้ำกัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "The company %(company_name)s cannot be archived because it is still used as "
@@ -44397,7 +44397,7 @@ msgstr ""
 "(active_users)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The company assigned to this partner does not match the company this partner "
@@ -44405,7 +44405,7 @@ msgid ""
 msgstr "บริษัทที่ได้รับมอบหมายให้กับพาร์ทเนอร์รายนี้ไม่ตรงกับบริษัทที่พาร์ทเนอร์รายนี้เป็นตัวแทน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The company hierarchy cannot be changed."
 msgstr "ไม่สามารถเปลี่ยนแปลงลำดับชั้นของบริษัทได้"
@@ -44460,7 +44460,7 @@ msgid "The default company for this user."
 msgstr "บริษัทที่เป็นค่าเริ่มต้นสำหรับผู้ใช้รายนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid ""
 "The definition needs to be linked to a properties field. Those fields are "
@@ -44478,7 +44478,7 @@ msgid "The embedded action this filter is applied to"
 msgstr "การดำเนินการแบบฝังที่ตัวกรองนี้ใช้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The field '%(field)s' cannot be removed because the field '%(other_field)s' "
@@ -44562,7 +44562,7 @@ msgid "The first time the cron failed. It is automatically reset on success."
 msgstr "ครั้งแรกที่ cron ล้มเหลว ระบบจะรีเซ็ตโดยอัตโนมัติเมื่อสำเร็จ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_module_upgrade.py:0
 msgid "The following modules are not installed or unknown: %s"
 msgstr "ไม่ได้ติดตั้งโมดูลต่อไปนี้หรือไม่รู้จัก: %s"
@@ -44578,13 +44578,13 @@ msgid "The group itself with all its implied groups."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "The group “%(name)s” defined in view does not exist!"
 msgstr "กลุ่ม “%(name)s” ที่กำหนดไว้ในมุมมองไม่มีอยู่!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The hour must be between 0 and 23"
 msgstr "ชั่วโมงต้องอยู่ระหว่าง 0 ถึง 23"
@@ -44606,13 +44606,13 @@ msgid "The key will be deleted once this period has elapsed."
 msgstr "คีย์จะถูกลบออกเมื่อระยะเวลานี้ผ่านไป"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "The language %s is not installed."
 msgstr "ไม่ได้ติดตั้งภาษา %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #: code:addons/base/wizard/base_language_install.py:0
 msgid ""
@@ -44622,7 +44622,7 @@ msgstr ""
 "ภาษาที่คุณเลือกได้รับการติดตั้งเรียบร้อยแล้ว ผู้ใช้สามารถเลือกภาษาที่ชื่นชอบได้ตามความต้องการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_country.py:0
 msgid "The layout contains an invalid format key"
 msgstr "เค้าโครงมีรูปแบบคีย์ที่ไม่ถูกต้อง"
@@ -44633,7 +44633,7 @@ msgid "The list of models that extends the current model."
 msgstr "รายการโมเดลที่ขยายโมเดลปัจจุบัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The m2o field %s is required but declares its ondelete policy as being 'set "
@@ -44650,7 +44650,7 @@ msgid ""
 msgstr "การทำงานของเมนูที่ตัวกรองนี้ใช้กับ เมื่อปล่อยว่าง ตัวกรองจะมีผลกับเมนูทั้งหมดสำหรับโมเดลนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "The method _button_immediate_install cannot be called on init or non loaded "
@@ -44660,7 +44660,7 @@ msgstr ""
 "ในการลงทะเบียนเริ่มต้นหรือไม่ได้โหลด โปรดใช้ button_install แทน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The model name can only contain lowercase characters, digits, underscores "
@@ -44668,7 +44668,7 @@ msgid ""
 msgstr "ชื่อรุ่นมีได้เฉพาะตัวอักษรตัวพิมพ์เล็ก ตัวเลข ขีดล่าง และจุดเท่านั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The model name must start with 'x_'."
 msgstr "ฟิลด์ที่สร้างเองต้องมีชื่อที่ขึ้นต้นด้วย 'x_'!"
@@ -44679,13 +44679,13 @@ msgid "The model this field belongs to"
 msgstr "โมเดลที่เป็นของฟิลด์นี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "The modes in view_mode must not be duplicated: %s"
 msgstr "โหมดใน view_mode จะต้องไม่ซ้ำกัน: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The name for the current rate is empty.\n"
@@ -44700,7 +44700,7 @@ msgid "The name of the country must be unique!"
 msgstr "ชื่อประเทศต้องไม่ซ้ำกัน!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "The name of the group can not start with \"-\""
 msgstr "ชื่อกลุ่มต้องไม่ขึ้นต้นด้วย \"-\""
@@ -44726,13 +44726,13 @@ msgid "The name of the record to create"
 msgstr "ชื่อของรายการที่จะสร้าง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The new password and its confirmation must be identical."
 msgstr "รหัสผ่านใหม่และรหัสผ่านที่ยืนยันที่จะต้องเหมือนกัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The new rate is quite far from the previous rate.\n"
@@ -44760,7 +44760,7 @@ msgid ""
 msgstr "จำนวนครั้งที่งานนี้ล้มเหลวติดต่อกัน ระบบจะรีเซ็ตอัตโนมัติเมื่องานสำเร็จ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The ondelete policy \"%(policy)s\" is not valid for field \"%(field)s\""
 msgstr "นโยบายการลบข้อมูล \"%(policy)s\" ไม่ถูกต้องสำหรับฟิลด์ \"%(field)s\""
@@ -44772,7 +44772,7 @@ msgid "The only predefined variables are"
 msgstr "คำแปลบนเว็บเท่านั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/model.py:0
 msgid "The operation cannot be completed: %s"
 msgstr "ไม่สามารถดำเนินการให้เสร็จสิ้นได้: %s"
@@ -44788,7 +44788,7 @@ msgstr ""
 "ที่กำหนดรายการสามคู่ ตัวอย่างเช่น: [('color','=','red')]"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path contained by the field '%(searched_field)s' contains a non-"
@@ -44802,7 +44802,7 @@ msgstr ""
 "โปรดตรวจสอบให้แน่ใจว่ามีเพียงฟิลด์สุดท้ายในเส้นทางเท่านั้นที่ไม่ใช่แบบสัมพันธ์กัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path should contain only lowercase alphanumeric characters, underscore, "
@@ -44824,7 +44824,7 @@ msgid "The payment engine used by payment provider modules."
 msgstr "กลไกการชำระเงินที่ใช้โดยโมดูลผู้ให้บริการการชำระเงิน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 msgid ""
 "The precision has been reduced for %s.\n"
@@ -44855,7 +44855,7 @@ msgstr ""
 "หมายถึงมีลำดับความสำคัญต่ำกว่า"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The private key or the certificate is not a valid file. \n"
@@ -44891,13 +44891,13 @@ msgstr ""
 "จะต้องไม่ซ้ำกันสำหรับพาร์ทเนอร์ทั้งหมดของประเทศเดียวกัน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_binary.py:0
 msgid "The related attachment does not exist."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The root node of a %(view_type)s view should be a <%(view_type)s>, not a <%"
@@ -44910,7 +44910,7 @@ msgid "The rounding factor must be greater than 0!"
 msgstr "ปัจจัยการปัดเศษต้องมากกว่า 0!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The selected company is not compatible with the companies of the related "
@@ -44918,19 +44918,19 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%(server_name)s\" doesn't return the maximum email size."
 msgstr "เซิร์ฟเวอร์ \"%(server_name)s\" ไม่ส่งคืนขนาดอีเมลสูงสุด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%s\" cannot be used because it is archived."
 msgstr "ไม่สามารถใช้เซิร์ฟเวอร์ \"%s\" ได้เนื่องจากถูกเก็บถาวรแล้ว"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server has closed the connection unexpectedly. Check configuration "
@@ -44941,20 +44941,20 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the sender address (%(email_from)s) with error %(repl)s"
 msgstr "เซิร์ฟเวอร์ปฏิเสธที่อยู่ผู้ส่ง (%(email_from)s) โดยมีข้อผิดพลาด %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server refused the test connection with error %(repl)s"
 msgstr "เซิร์ฟเวอร์ปฏิเสธการเชื่อมต่อทดสอบโดยมีข้อผิดพลาด %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the test recipient (%(email_to)s) with error %(repl)s"
@@ -44966,7 +44966,7 @@ msgid "The state code."
 msgstr "รหัสจังหวัด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The table “%s” is used by another, possibly incompatible field(s)."
 msgstr "ตาราง “%s” ถูกใช้โดยฟิลด์อื่นที่อาจไม่เข้ากัน"
@@ -44996,19 +44996,19 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value (%s) passed should be positive"
 msgstr "ค่า (%s) ที่ส่งผ่านควรเป็นค่าบวก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The value of 'Fold Field' should be a field name of the model."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value send to monetary field is not a number."
 msgstr "ช่องค่าที่ส่งไปยังการเงินไม่ใช่ตัวเลข"
@@ -45082,13 +45082,13 @@ msgid "This Window"
 msgstr "หน้าต่างนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "This column contains module data and cannot be removed!"
 msgstr "คอลัมน์นี้มีข้อมูลโมดูลและไม่สามารถลบได้!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "This currency is set on a company and therefore cannot be deactivated."
 msgstr "สกุลเงินนี้ตั้งค่าไว้กับบริษัท ดังนั้นจึงไม่สามารถปิดการใช้งานได้"
@@ -45131,13 +45131,13 @@ msgstr ""
 "                                                                         มีประโยชน์ในการรีเซ็ตมุมมองที่เสียหายแบบซอฟต์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file could not be decoded as an image file."
 msgstr "ไฟล์นี้ไม่สามารถถอดรหัสเป็นไฟล์รูปภาพได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file is not a webp file."
 msgstr "ไฟล์นี้ไม่ใช่ไฟล์ webp"
@@ -45258,7 +45258,7 @@ msgid "This is your company's currency."
 msgstr "นี่คือสกุลเงินของบริษัทของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "This method can only be accessed over HTTP"
 msgstr "วิธีนี้สามารถเข้าถึงได้ผ่าน HTTP เท่านั้น"
@@ -45714,7 +45714,7 @@ msgid "This module will trigger the uninstallation of below modules."
 msgstr "โมดูลนี้จะทริกเกอร์การถอนการติดตั้งโมดูลด้านล่าง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "This operation is allowed for the following groups:\n"
@@ -45724,7 +45724,7 @@ msgstr ""
 "%(groups_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "This view may not work for all users: some users may have a combination of "
@@ -45742,7 +45742,7 @@ msgstr ""
 "(invisible)s” สำหรับฟิลด์เหล่านี้ เพื่อให้แน่ใจว่าฟิลด์เหล่านี้จะพร้อมใช้งานร่วมกันเสมอ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Those modules cannot be uninstalled: %s"
 msgstr "โมดูลเหล่านี้ไม่สามารถถอนการติดตั้งได้: %s"
@@ -45977,13 +45977,13 @@ msgstr ""
 "              พาร์ทเนอร์ผู้จัดการที่มีชื่อเสียง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "Too large image (above %sMpx), reduce the image size."
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Too many login failures, please wait a bit before trying again."
 msgstr "การลงชื่อเข้าใช้ล้มเหลวหลายครั้ง กรุณารอซักครู่ก่อนลงชื่อเข้าใช้อีกครั้ง"
@@ -46161,7 +46161,7 @@ msgid "Treehouse Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
 msgstr ""
@@ -46550,7 +46550,7 @@ msgid "Uganda - Accounting Reports"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Uh-oh! Looks like you have stumbled upon some top-secret records.\n"
@@ -46572,13 +46572,13 @@ msgid "Ukraine - Accounting"
 msgstr "ประเทศยูเครน - ระบบบัญชี"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
 msgstr "ไม่พบ Wkhtmltopdf บนระบบนี้ ไม่สามารถสร้าง PDF ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unable to import'%%(field)s' Properties field as a whole, target individual "
@@ -46588,7 +46588,7 @@ msgstr ""
 "ให้กำหนดเป้าหมายเป็นคุณสมบัติแต่ละรายการแทน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to install module \"%(module)s\" because an external dependency is "
@@ -46598,7 +46598,7 @@ msgstr ""
 "(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unable to order by %s: fields used for ordering must be present on the model "
@@ -46606,7 +46606,7 @@ msgid ""
 msgstr "ไม่สามารถเรียงลำดับตาม %s: ต้องมีฟิลด์ที่ใช้สำหรับการสั่งซื้ออยู่ในโมเดลและเก็บไว้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to process module \"%(module)s\" because an external dependency is "
@@ -46616,7 +46616,7 @@ msgstr ""
 "(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to upgrade module \"%(module)s\" because an external dependency is "
@@ -46631,7 +46631,7 @@ msgid "Uncategorized"
 msgstr "ไม่ถูกจัดหมวด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unicode strings with encoding declaration are not supported in XML.\n"
@@ -46639,7 +46639,7 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.module_form
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
@@ -46647,14 +46647,14 @@ msgid "Uninstall"
 msgstr "ถอนการติดตั้ง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Uninstall module"
 msgstr "ถอนการติดตั้งโมดูล"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Uninstall modules"
 msgstr ""
@@ -46685,7 +46685,7 @@ msgid "Uninstall…"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Unit per %s"
 msgstr "หน่วยต่อ %s"
@@ -46786,7 +46786,7 @@ msgid "University, Education, Schools, Young, Play, Kids"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_device.py:0
 #: model:ir.model,name:base.model__unknown
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module_dependency__state__unknown
@@ -46795,51 +46795,51 @@ msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unknown field \"%(model)s.%(field)s\" in %(use)s)"
 msgstr "ฟิลด์ที่ไม่รู้จัก \"%(model)s.%(field)s\" ใน %(use)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unknown field name \"%(field_name)s\" in related field \"%(related_field)s\""
 msgstr "ชื่อฟิลด์ที่ไม่รู้จัก \"%(field_name)s\" ในฟิลด์ที่เกี่ยวข้อง \"%(related_field)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field specified “%s” in currency_field"
 msgstr "ฟิลด์ที่ไม่รู้จักระบุ “%s” ใน currency_field"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unknown field “%(field)s” in \"group_by\" value in %(attribute)s=“%(value)s”"
 msgstr "ฟิลด์ที่ไม่รู้จัก “%(field)s” ในค่า \"group_by\" ใน %(attribute)s=“%(value)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field “%(field)s” in dependency “%(dependency)s”"
 msgstr "ฟิลด์ที่ไม่รู้จัก “%(field)s” ในการอ้างอิง “%(dependency)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown model name '%s' in Related Model"
 msgstr "ชื่อรุ่นที่ไม่รู้จัก '%s' ในรูปแบบที่เกี่ยวข้อง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown sub-field “%s”"
 msgstr "ไม่รู้จักฟิลด์ย่อย “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unknown value '%(value)s' for boolean '%(label_property)s' property "
@@ -46849,20 +46849,20 @@ msgstr ""
 "(field)s')"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown value '%s' for boolean field '%%(field)s'"
 msgstr "ค่าที่ไม่รู้จัก '%s' สำหรับฟิลด์บูลีน '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Unrecognized extension: must be one of .csv, .po, or .tgz (received .%s)."
 msgstr "นามสกุลที่ไม่รู้จัก: ต้องเป็น .csv, .po หรือ .tgz อย่างใดอย่างหนึ่ง (ได้รับ .%s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unsearchable field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr "ฟิลด์ที่ไม่สามารถค้นหาได้ “%(field)s” ในเส้นทาง “%(field_path)s” ใน %(use)s)"
@@ -46895,7 +46895,7 @@ msgid "Update"
 msgstr "อัปเดต"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Update %(model_name)s"
 msgstr ""
@@ -46994,7 +46994,7 @@ msgid "Usage"
 msgstr "การใช้งาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use '1' for yes and '0' for no"
 msgstr "ใช้ '1' สำหรับใช่ และ '0' สำหรับไม่ใช่"
@@ -47037,13 +47037,13 @@ msgid "Use barcode scanners to process logistics operations"
 msgstr "ใช้เครื่องสแกนบาร์โค้ดเพื่อประมวลผลการดำเนินการด้านโลจิสติกส์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma"
 msgstr "ใช้แม่แบบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma instead of the <br> tag to display the address"
 msgstr "ใช้เครื่องหมายจุลภาคแทน<br>แท็กเพื่อแสดงที่อยู่"
@@ -47107,14 +47107,14 @@ msgstr ""
 "เหรียญรางวัลที่ได้รับจะถูกแสดงบนโปรไฟล์ผู้ใช้\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Use the SMTP configuration set in the \"Command Line Interface\" arguments."
 msgstr "ใช้การกำหนดค่า SMTP ที่ตั้งไว้ในอาร์กิวเมนต์ \"อินเทอร์เฟซบรรทัดคำสั่ง\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use the format '%s'"
 msgstr "ใช้รูปแบบ '%s'"
@@ -47191,7 +47191,7 @@ msgid "User"
 msgstr "ผู้ใช้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "User %(user)s cannot be at the same time in exclusive groups %(groups)s."
@@ -47271,7 +47271,7 @@ msgid "Username"
 msgstr "ชื่อผู้ใช้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_users
 #: model:ir.model.fields,field_description:base.field_change_password_wizard__user_ids
@@ -47315,7 +47315,7 @@ msgid "Users and implied users"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "Users and implied users of %(group)s"
 msgstr ""
@@ -47346,7 +47346,7 @@ msgid "Uses Default Logo"
 msgstr "ใช้โลโก้เริ่มต้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Using 24-hour clock format with AM/PM can cause issues."
 msgstr "การใช้รูปแบบนาฬิกาแบบ 24 ชั่วโมงกับ AM/PM อาจทำให้เกิดปัญหาได้"
@@ -47357,7 +47357,7 @@ msgid "Uzbekistan"
 msgstr "อุซเบกิสถาน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_vat
 #: model:res.country,vat_label:base.be model:res.country,vat_label:base.bg
@@ -47403,7 +47403,7 @@ msgid "Value"
 msgstr "ค่า"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Value '%s' not found in selection field '%%(field)s'"
 msgstr "ไม่พบค่า '%s' ในช่องการเลือก '%%(field)s'"
@@ -47478,7 +47478,7 @@ msgid "Venezuela - Accounting"
 msgstr "ประเทศเวเนซุเอลา - ระบบบัญชี"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Vertical bar"
 msgstr "แถบแนวตั้ง"
@@ -47517,13 +47517,13 @@ msgid "View"
 msgstr "ดู"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' accessible only to groups %(groups)s "
 msgstr "มุมมอง '%(name)s' เข้าถึงได้เฉพาะกลุ่ม %(groups)s เท่านั้น "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' is private"
 msgstr "มุมมอง '%(name)s' เป็นแบบส่วนตัว"
@@ -47549,7 +47549,7 @@ msgid "View Name"
 msgstr "ชื่อมุมมอง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "View Problematic Record(s)"
 msgstr "ดูบันทึกที่มีปัญหา"
@@ -47695,7 +47695,7 @@ msgid "Warn user in case of products merging"
 msgstr "เตือนผู้ใช้ในกรณีที่มีการรวมผลิตภัณฑ์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #: code:addons/base/models/ir_model.py:0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__warning
@@ -47704,7 +47704,7 @@ msgid "Warning"
 msgstr "คำเตือน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 #: code:addons/base/models/res_currency.py:0
 msgid "Warning for %s"
@@ -48213,7 +48213,7 @@ msgid "Wholesale/Retail"
 msgstr "ค้าปลีก/ค้าส่ง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Width"
 msgstr "ความกว้าง"
@@ -48252,7 +48252,7 @@ msgid "Wizards to be Launched"
 msgstr "ตัวช่วยสร้างที่จะเปิด"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltoimage failed (error code: %(error_code)s). Message: %"
@@ -48262,7 +48262,7 @@ msgstr ""
 "(error_message_end)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltopdf failed (error code: %(error_code)s). Memory limit too low or "
@@ -48273,7 +48273,7 @@ msgstr ""
 "(message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
 msgstr "Wkhtmltopdf ล้มเหลว (รหัสข้อผิดพลาด: %(error_code)s) ข้อความ: %(message)s"
@@ -48421,7 +48421,7 @@ msgid "Yoga & Pilates Studio"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to access '%(document_kind)s' (%(document_model)s) "
@@ -48429,7 +48429,7 @@ msgid ""
 msgstr "คุณไม่ได้รับอนุญาตให้เข้าถึงบันทึก '%(document_kind)s' (%(document_model)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to create '%(document_kind)s' (%(document_model)s) "
@@ -48437,7 +48437,7 @@ msgid ""
 msgstr "คุณไม่ได้รับอนุญาตให้สร้างบันทึก '%(document_kind)s' (%(document_model)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to delete '%(document_kind)s' (%(document_model)s) "
@@ -48445,7 +48445,7 @@ msgid ""
 msgstr "คุณไม่ได้รับอนุญาตให้ลบบันทึก '%(document_kind)s' (%(document_model)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to modify '%(document_kind)s' (%(document_model)s) "
@@ -48453,7 +48453,7 @@ msgid ""
 msgstr "คุณไม่ได้รับอนุญาตให้แก้ไขบันทึก '%(document_kind)s' (%(document_model)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to install incompatible modules in category \"%(category)s\":%"
@@ -48461,7 +48461,7 @@ msgid ""
 msgstr "คุณกำลังพยายามติดตั้งโมดูลที่เข้ากันไม่ได้ในหมวด \"%(category)s\":%(module_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to remove a module that is installed or will be installed."
@@ -48481,13 +48481,13 @@ msgstr ""
 "คุณสามารถอัปโหลดไฟล์จากคอมพิวเตอร์ของคุณ หรือคัดลอก/วางอินเตอร์เน็ตลิงก์ไปยังไฟล์ของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "You can not change the field of a base definition"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You can not create recursive tags."
 msgstr "คุณไม่สามารถสร้างแท็กแบบเรียกซ้ำได้"
@@ -48498,14 +48498,14 @@ msgid "You can not have two users with the same login!"
 msgstr "คุณไม่สามารถมีผู้ใช้สองคนสำหรับการเข้าสู่ระบบเดียวกันได้!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove API keys unless they're yours or you are a system user"
 msgstr "คุณไม่สามารถลบคีย์ API ได้ เว้นแต่จะเป็นของคุณหรือคุณเป็นผู้ใช้ระบบ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
@@ -48515,26 +48515,26 @@ msgstr ""
 "BetopiaERP (อัปเดต การติดตั้งโมดูล ...)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You can ony call user.has_group() with your current user."
 msgstr "คุณสามารถโทรหา user.has_group() กับผู้ใช้ปัจจุบันของคุณเท่านั้น"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/report_paperformat.py:0
 msgid ""
 "You can select either a format or a specific page width/height, but not both."
 msgstr "คุณสามารถเลือกรูปแบบหรือความกว้าง/ความสูงของหน้าได้ แต่จะเลือกทั้งสองอย่างไม่ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot activate the superuser."
 msgstr "คุณไม่สามารถเปิดใช้งาน superuser ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -48550,7 +48550,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -48564,7 +48564,7 @@ msgstr ""
 "ผู้ใช้ที่ใช้งานอยู่ที่ถูกเชื่อมโยง : %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot archive the language in which BetopiaERP was setup as it is used by "
@@ -48573,7 +48573,7 @@ msgstr ""
 "คุณไม่สามารถเก็บถาวรภาษาที่ BetopiaERP ถูกตั้งค่าไว้ได้ เนื่องจากมีการใช้งานโดยกระบวนการอัตโนมัติ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive these Outgoing Mail Servers (%(server_usage)s) because "
@@ -48585,7 +48585,7 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive this Outgoing Mail Server (%(server_usage)s) because it "
@@ -48597,13 +48597,13 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You cannot create recursive Partner hierarchies."
 msgstr "คุณไม่สามารถสร้างลำดับชั้นของพาร์ทเนอร์แบบเรียกซ้ำได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "You cannot create recursive inherited views."
 msgstr "คุณไม่สามารถสร้างมุมมองที่สืบทอดมาแบบเรียกซ้ำได้"
@@ -48616,25 +48616,25 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot deactivate the user you're currently logged in as."
 msgstr "คุณไม่สามารถปิดใช้งานผู้ใช้ที่คุณเข้าสู่ระบบอยู่ในปัจจุบันได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_embedded_actions.py:0
 msgid "You cannot delete a default embedded action"
 msgstr "คุณไม่สามารถลบการดำเนินการฝังที่เป็นค่าเริ่มต้นได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "You cannot delete a group linked with a settings field."
 msgstr "คุณไม่สามารถลบกลุ่มที่เชื่อมโยงกับช่องการตั้งค่าได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -48650,7 +48650,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -48664,13 +48664,13 @@ msgstr ""
 "ผู้ใช้ที่ใช้งานอยู่ที่ถูกเชื่อมโยง : %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot delete the %s record."
 msgstr "คุณไม่สามารถลบรายการ %s ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You cannot delete the admin user because it is utilized in various places "
@@ -48680,7 +48680,7 @@ msgstr ""
 "การกำหนดค่าความปลอดภัย...) ให้เก็บถาวรแทน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot delete the language which is Active!\n"
@@ -48690,25 +48690,25 @@ msgstr ""
 "กรุณาปิดการใช้งานภาษาก่อน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "You cannot delete the language which is the user's preferred language."
 msgstr "คุณไม่สามารถลบภาษาที่ผู้ใช้ต้องการได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot exceed %(duration)s days."
 msgstr "ไม่สามารถเกิน %(duration)s วันได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You cannot merge a contact with one of his parent."
 msgstr "คุณไม่สามารถรวมรายชื่อติดต่อกับผู้ปกครองคนใดคนหนึ่งของเขาได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "You cannot merge contacts linked to more than one user even if only one is "
@@ -48717,25 +48717,25 @@ msgstr ""
 "คุณไม่สามารถรวมผู้ติดต่อที่เชื่อมโยงกับผู้ใช้มากกว่าหนึ่งราย แม้ว่าจะมีเพียงคนเดียวที่ใช้งานอยู่ก็ตาม"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot rename config parameters with keys %s"
 msgstr "คุณไม่สามารถเปลี่ยนชื่อพารามิเตอร์การกำหนดค่าด้วยคีย์ %s ได้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "You don't have enough access rights to run this action."
 msgstr "คุณไม่มีสิทธิ์เข้าถึงเพียงพอที่จะดำเนินการนี้"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You have to specify a filter for your selection."
 msgstr "คุณต้องระบุตัวกรองสำหรับการเลือกของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You must have at least an administrator user."
 msgstr ""
@@ -48751,7 +48751,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "คุณควรอัปเดตเอกสารนี้เพื่อให้สอดคล้องกับข้อกำหนดและเงื่อนไขของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to install module \"%(module)s\" that depends on module \"%"
@@ -48762,7 +48762,7 @@ msgstr ""
 "แต่โมดูลหลังนี้ไม่พร้อมใช้งานในระบบของคุณ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to upgrade the module %(module)s that depends on the module: %"
@@ -48796,7 +48796,7 @@ msgstr ""
 "ทานให้อร่อย!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Your server does not seem to support SSL, you may want to try STARTTLS "
@@ -48948,7 +48948,7 @@ msgid "choose"
 msgstr "เลือก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "create"
 msgstr "สร้าง"
@@ -48959,7 +48959,7 @@ msgid "cêntimo"
 msgstr "cêntimo"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "database id"
 msgstr "database id"
@@ -48975,7 +48975,7 @@ msgid "datetime"
 msgstr "วันที่เวลา"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "day"
 msgstr "วัน"
@@ -49021,7 +49021,7 @@ msgid "e.g. \"Roadshow\""
 msgstr "เช่น \"โรดโชว์\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "e.g. %(placeholder)s"
 msgstr ""
@@ -49164,13 +49164,13 @@ msgid "expenses"
 msgstr "ค่าใช้จ่าย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "external id"
 msgstr "external id"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "false"
 msgstr "เป็นเท็จ"
@@ -49191,7 +49191,7 @@ msgstr ""
 "    record['size'] = len(record.name)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "format() must be given exactly one %char format specifier"
 msgstr "ฟอร์แมต() จะต้องได้รับอย่างใดอย่างหนึ่ง %char format specifier"
@@ -49212,7 +49212,7 @@ msgstr ""
 "                        ผู้ใช้สามารถเลือกภาษาที่ชื่นชอบได้ตามความต้องการ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "hour"
 msgstr "ชั่วโมง"
@@ -49300,7 +49300,7 @@ msgid "many2one_reference"
 msgstr "many2one_reference"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "minute"
 msgstr "นาที"
@@ -49316,25 +49316,25 @@ msgid "monetary"
 msgstr "เป็นตัวเงิน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "month"
 msgstr "เดือน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "name"
 msgstr "ชื่อ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "narrow"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "no"
 msgstr "ไม่"
@@ -49355,7 +49355,7 @@ msgid "others"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "parent_id"
 msgstr ""
@@ -49415,7 +49415,7 @@ msgid "properties_definition"
 msgstr "properties_definition"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "read"
 msgstr "อ่าน"
@@ -49432,7 +49432,7 @@ msgid "sales"
 msgstr "การขาย"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "second"
 msgstr "วินาที"
@@ -49453,7 +49453,7 @@ msgid "sequence_id"
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "short"
 msgstr ""
@@ -49554,13 +49554,13 @@ msgid "text"
 msgstr "ข้อความ"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "true"
 msgstr "จริง"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "unlink"
 msgstr "ยกเลิกการเชื่อมโยง"
@@ -49591,31 +49591,31 @@ msgid "website helpdesk sale loyalty"
 msgstr "เว็บไซต์ helpdesk การขาย สมาชิก"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "week"
 msgstr "สัปดาห์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
 msgstr "จำเป็นต้องมี wkhtmltoimage 0.12.0^ เพื่อแสดงผลรูปภาพจาก HTML"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "write"
 msgstr "เขียน"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "year"
 msgstr "ปี"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "yes"
 msgstr "ใช่"
@@ -49626,7 +49626,7 @@ msgid "Åland Islands"
 msgstr "หมู่เกาะโอแลนด์"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "“%(attribute)s” value must be an integer (%(value)s)"
 msgstr "ค่า “%(attribute)s” จะต้องเป็นจำนวนเต็ม (%(value)s)"
@@ -49852,7 +49852,7 @@ msgstr "ค่า “%(attribute)s” จะต้องเป็นจำนว
 #~ "requirements which might arise from POS implementation. [1]  Under normal "
 #~ "circumstances, you might not need to use those at all.\n"
 #~ "\n"
-#~ "[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+#~ "[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 #~ "\n"
 #~ "    "
 #~ msgstr ""
@@ -49872,7 +49872,7 @@ msgstr "ค่า “%(attribute)s” จะต้องเป็นจำนว
 #~ "เพื่อรองรับข้อกำหนดพิเศษที่อาจเกิดขึ้นจากการใช้ POS [1] "
 #~ "ภายใต้สถานการณ์ปกติคุณอาจไม่จำเป็นต้องใช้สิ่งเหล่านี้เลย\n"
 #~ "\n"
-#~ "[1] ดูรายละเอียด https://github.com/BetopiaERP/BetopiaERP/pull/6470\n"
+#~ "[1] ดูรายละเอียด https://github.com/betopiaerp/betopiaerp/pull/6470\n"
 #~ "\n"
 #~ "    "
 

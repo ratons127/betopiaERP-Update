@@ -1,4 +1,4 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { deleteBackward, deleteImage } from "../_helpers/user_actions";
 import { base64Img, testEditor } from "../_helpers/editor";
 

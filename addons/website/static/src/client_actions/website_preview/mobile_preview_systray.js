@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 export class MobilePreviewSystrayItem extends Component {
     static template = "website.MobilePreviewSystrayItem";

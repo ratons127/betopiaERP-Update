@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { registry } from "@web/core/registry";
 import { addToCart, searchProduct } from "@website_sale/js/tours/tour_utils";

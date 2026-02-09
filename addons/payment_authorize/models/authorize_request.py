@@ -113,7 +113,7 @@ class AuthorizeAPI:
         response = self._make_request('createCustomerProfileFromTransactionRequest', {
             'transId': transaction_id,
             'customer': {
-                'merchantCustomerId': ('BetopiaERP-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
+                'merchantCustomerId': ('BETOPIAERP-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
                 'email': partner.email or ''
             }
         })

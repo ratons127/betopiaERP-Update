@@ -2,7 +2,7 @@
 
 {
     'name': 'Saudi Arabia - E-invoicing (Simplified)',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'countries': ['sa'],
     'version': '0.2',
     'depends': [

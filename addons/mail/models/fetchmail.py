@@ -125,7 +125,7 @@ class FetchmailServer(models.Model):
     priority = fields.Integer(string='Server Priority', readonly=False, help="Defines the order of processing, lower values mean higher priority", default=5)
     message_ids = fields.One2many('mail.mail', 'fetchmail_server_id', string='Messages', readonly=True)
     configuration = fields.Text('Configuration', readonly=True)
-    script = fields.Char(readonly=True, default='/mail/static/scripts/BetopiaERP-mailgate.py')
+    script = fields.Char(readonly=True, default='/mail/static/scripts/betopiaerp-mailgate.py')
 
     @api.depends('server_type')
     def _compute_server_type_info(self):
@@ -149,11 +149,11 @@ class FetchmailServer(models.Model):
             'model': self.object_id.model if self.object_id else 'MODELNAME'
         }
         self.configuration = """Use the below script with the following command line options with your Mail Transport Agent (MTA)
-BetopiaERP-mailgate.py --host=HOSTNAME --port=PORT -u %(uid)d -p PASSWORD -d %(dbname)s
+betopiaerp-mailgate.py --host=HOSTNAME --port=PORT -u %(uid)d -p PASSWORD -d %(dbname)s
 Example configuration for the postfix mta running locally:
-/etc/postfix/virtual_aliases: @youdomain BetopiaERP_mailgate@localhost
+/etc/postfix/virtual_aliases: @youdomain betopiaerp_mailgate@localhost
 /etc/aliases:
-BetopiaERP_mailgate: "|/path/to/BetopiaERP-mailgate.py --host=localhost -u %(uid)d -p PASSWORD -d %(dbname)s"
+betopiaerp_mailgate: "|/path/to/betopiaerp-mailgate.py --host=localhost -u %(uid)d -p PASSWORD -d %(dbname)s"
         """ % conf
 
     @api.model_create_multi

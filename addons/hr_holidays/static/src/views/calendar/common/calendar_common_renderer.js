@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { CalendarCommonRenderer } from '@web/views/calendar/calendar_common/calendar_common_renderer';
 import { useMandatoryDays } from '../../hooks';

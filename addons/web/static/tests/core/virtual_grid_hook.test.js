@@ -1,7 +1,7 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { resize, scroll } from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, useRef, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { resize, scroll } from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, useRef, xml } from "@betopiaerp/owl";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { localization } from "@web/core/l10n/localization";
 import { useVirtualGrid } from "@web/core/virtual_grid_hook";

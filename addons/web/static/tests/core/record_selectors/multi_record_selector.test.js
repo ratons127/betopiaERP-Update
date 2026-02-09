@@ -1,6 +1,6 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { MultiRecordSelector } from "@web/core/record_selectors/multi_record_selector";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,
@@ -9,8 +9,8 @@ import {
     mountWithCleanup,
     onRpc,
 } from "@web/../tests/web_test_helpers";
-import { click, fill, press, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { click, fill, press, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 class Partner extends models.Model {
     _name = "partner";

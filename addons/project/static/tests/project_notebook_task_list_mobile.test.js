@@ -1,5 +1,5 @@
-import { beforeEach, expect, describe, test } from "@BetopiaERP/hoot";
-import { animationFrame, click } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, describe, test } from "@betopiaerp/hoot";
+import { animationFrame, click } from "@betopiaerp/hoot-dom";
 import { getService, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { WebClient } from "@web/webclient/webclient";
 

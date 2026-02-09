@@ -1,7 +1,7 @@
 import { registry } from "../registry";
 import { NotificationContainer } from "./notification_container";
 
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 /**
  * @typedef {Object} NotificationButton

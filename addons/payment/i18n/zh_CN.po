@@ -6,18 +6,18 @@
 # Raymond Yu <cl_yu@hotmail.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # Martin Trigaux, 2022
-# Emily Jia <eji@BetopiaERP.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Chloe Wang (chwa)" <chwa@BetopiaERP.com>, 2025.
+# Emily Jia <eji@betopiaerp.com>, 2023
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Chloe Wang (chwa)" <chwa@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-10-09 13:43+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@BetopiaERP.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/payment/zh_Hans/>\n"
+"Last-Translator: \"Chloe Wang (chwa)\" <chwa@betopiaerp.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/payment/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -376,7 +376,7 @@ msgid "Archived"
 msgstr "已归档"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "Are you sure you want to delete this payment method?"
 msgstr "您确定要删除此支付方式吗？"
@@ -625,19 +625,19 @@ msgid "Cancelled Message"
 msgstr "已取消信息"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Cannot delete payment method"
 msgstr "无法删除付款方式"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Cannot save payment method"
 msgstr "无法保存付款方式"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid "Capture"
@@ -785,13 +785,13 @@ msgid "Configuration"
 msgstr "配置"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Confirm"
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Confirm Deletion"
 msgstr "确认删除"
@@ -823,7 +823,7 @@ msgid "Corresponding Module"
 msgstr "对应模块"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Could not establish the connection to the payment provider."
 msgstr ""
@@ -872,7 +872,7 @@ msgid "Created on"
 msgstr "创建日期"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Creating a transaction from an archived token is forbidden."
 msgstr "禁止从一个已归档的令牌创建交易。"
@@ -1272,7 +1272,7 @@ msgid "Is Stripe Supported Country"
 msgstr "是支持Stripe支付的国家/地区"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "It is currently linked to the following documents:"
 msgstr "目前，它与以下文件相关联:"
@@ -1438,7 +1438,7 @@ msgid "Magna"
 msgstr "Magna"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Making a request to the provider is not possible because the provider is "
@@ -1612,7 +1612,7 @@ msgid "No providers available"
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "No token can be assigned to the public partner."
 msgstr "不能为公共合作伙伴分配令牌。"
@@ -1698,13 +1698,13 @@ msgid "Online payment with redirection"
 msgstr "带重定向功能的线上支付"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only authorized transactions can be voided."
 msgstr "只有经过授权的交易才能作废。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only confirmed transactions can be refunded."
 msgstr "只有经确认的交易才能退款。"
@@ -1868,7 +1868,7 @@ msgid "Payment Method Code"
 msgstr "支付方式代码"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model:ir.actions.act_window,name:payment.action_payment_method
 #: model_terms:ir.ui.view,arch_db:payment.payment_methods
@@ -1888,7 +1888,7 @@ msgid "Payment Providers"
 msgstr "支付提供商"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/post_processing.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Payment Status"
@@ -1937,7 +1937,7 @@ msgid "Payment Transactions Linked To Token"
 msgstr "与令牌相关的付款交易"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "Payment details saved on %(date)s"
 msgstr "支付详情保存于%(date)s"
@@ -1955,7 +1955,7 @@ msgid "Payment methods"
 msgstr "支付方式"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "付款处理失败"
@@ -2021,19 +2021,19 @@ msgid "Pix"
 msgstr "Pix"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr "请确保 %(provider)s 支持 %(payment_method)s。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set a positive amount."
 msgstr "请设置正数。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set an amount lower than %s."
 msgstr "请设置低于%s的金额。"
@@ -2183,7 +2183,7 @@ msgid "Reference must be unique!"
 msgstr "引用必须唯一!"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
@@ -2322,7 +2322,7 @@ msgid "Sofort"
 msgstr "Sofort"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 "Some of the transactions you intend to capture can only be captured in full. "
@@ -2447,50 +2447,50 @@ msgid "Thank you!"
 msgstr "谢谢！"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s encountered an error."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been authorized."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been canceled."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been confirmed."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s is pending."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The amount from the payment data doesn't match the one from the transaction."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The amount or currency is missing from the payment data."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 msgstr "收款金额必须为正数，且不能大于%s。"
@@ -2542,7 +2542,7 @@ msgid ""
 msgstr "该支付服务提供商可用的射程。留空则不限制币别。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The currency from the payment data doesn't match the one from the "
@@ -2550,19 +2550,19 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "The following fields must be filled: %s"
 msgstr "必须填写以下字段:%s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The following kwargs are not whitelisted: %s"
 msgstr "下列参数未列入白名单： %s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "The following payment methods cannot be enabled because their payment "
@@ -2570,7 +2570,7 @@ msgid ""
 msgstr "无法启用以下付款方式，因为其付款提供商已激活手动抓取功能：%s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "The following payment methods must be disabled in order to enable manual "
@@ -2654,7 +2654,7 @@ msgid "The payment is authorized and captured in two steps instead of one."
 msgstr "付款授权和记录分两个步骤进行，而不是一个步骤。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "The payment provider rejected the request.\n"
@@ -2683,7 +2683,7 @@ msgid "The provider reference of the transaction"
 msgstr "交易的提供商参考"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The refund %(ref)s of %(formatted_amount)s has been initiated."
 msgstr ""
@@ -2748,7 +2748,7 @@ msgid ""
 msgstr "使用令牌付款时，渲染内嵌付款表单的模板。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The transaction %(ref)s of %(formatted_amount)s has been initiated."
 msgstr ""
@@ -2764,7 +2764,7 @@ msgid "There is no token created yet."
 msgstr "尚未创建令牌。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
 msgstr "不需要支付任何费用。"
@@ -2775,7 +2775,7 @@ msgid "There is nothing to pay."
 msgstr "不需要支付。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2783,7 +2783,7 @@ msgid ""
 msgstr "此操作还将存档通过此支付方式注册的%s个令牌。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2824,7 +2824,7 @@ msgstr ""
 "                     建议为其设置电子邮箱地址。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This payment method needs a partner in crime; you should enable a payment "
@@ -2882,7 +2882,7 @@ msgid "Transaction"
 msgstr "交易"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Transaction authorization is not supported by the following payment "
@@ -3030,7 +3030,7 @@ msgid "Walley"
 msgstr "Walley"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Warning"
@@ -3042,7 +3042,7 @@ msgid "Warning Message"
 msgstr "警告消息"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Warning!"
 msgstr "警告！"
@@ -3110,7 +3110,7 @@ msgid "Xendit"
 msgstr "Xendit"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or disabled "
@@ -3118,7 +3118,7 @@ msgid ""
 msgstr "无效支付方式或是已禁用提供商关联的令牌，你是无法取消归档的。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot change the company of a payment provider with existing "
@@ -3126,13 +3126,13 @@ msgid ""
 msgstr "您无法更改现有交易的付款服务商公司。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr "无法删除默认付款方式。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -3140,13 +3140,13 @@ msgid ""
 msgstr "您不能删除付款提供商%s；请将其存档。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "You cannot publish a disabled provider."
 msgstr "您无法发布一个禁用的服务商。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "You do not have access to this payment token."
 msgstr "您无权访问此支付令牌。"
@@ -3161,7 +3161,7 @@ msgstr ""
 "                                    电子邮件。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_aps
@@ -3188,7 +3188,7 @@ msgid "Your payment has been authorized."
 msgstr "支付已获授权。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_aps
@@ -3215,7 +3215,7 @@ msgid "Your payment has been cancelled."
 msgstr "您的支付已被取消。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_aps
@@ -3241,7 +3241,7 @@ msgid "Your payment has been processed but is waiting for approval."
 msgstr "您的付款已经处理，但正在等待批准。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,done_msg:payment.payment_provider_aps
@@ -3288,7 +3288,7 @@ msgid "Your payment methods"
 msgstr "你的付款方式"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Your payment operation could not be completed for following transactions: %"
@@ -3296,7 +3296,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Your payment operation has been successfully submitted."
 msgstr ""
@@ -3328,7 +3328,7 @@ msgid "eNETS"
 msgstr "eNETS"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
 msgstr "不支持快速结账"
@@ -3339,7 +3339,7 @@ msgid "iDEAL"
 msgstr "iDEAL"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "id"
 msgstr "id"
@@ -3350,37 +3350,37 @@ msgid "in3"
 msgstr "in3"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible country"
 msgstr "国家/地区不相容"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible currency"
 msgstr "币别不相容"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible website"
 msgstr "网站不相容"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "manual capture not supported"
 msgstr "不支持手动捕捉收款"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "maximum amount exceeded"
 msgstr "超过最大金额上限"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
 msgstr "无支持的提供商可用"
@@ -3406,13 +3406,13 @@ msgstr ""
 "                    付款。"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
 msgstr "不支持令牌化"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "tokenization without payment no supported"
 msgstr "不支持没有付款的标记化"

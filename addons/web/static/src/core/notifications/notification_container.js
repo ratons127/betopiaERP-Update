@@ -1,7 +1,7 @@
 import { Notification } from "./notification";
 import { Transition } from "@web/core/transition";
 
-import { Component, xml, useState } from "@BetopiaERP/owl";
+import { Component, xml, useState } from "@betopiaerp/owl";
 
 export class NotificationContainer extends Component {
     static props = {

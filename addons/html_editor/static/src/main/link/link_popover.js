@@ -1,6 +1,6 @@
 import { session } from "@web/session";
 import { _t } from "@web/core/l10n/translation";
-import { Component, useState, useRef, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { Component, useState, useRef, useEffect, useExternalListener } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { browser } from "@web/core/browser/browser";
 import { cleanZWChars, deduceURLfromText } from "./utils";
@@ -523,7 +523,7 @@ export class LinkPopover extends Component {
             }
         } else if (
             window.location.hostname !== url.hostname &&
-            !new RegExp(`^https?://${session.db}\\.BetopiaERP\\.com(/.*)?$`).test(url.origin)
+            !new RegExp(`^https?://${session.db}\\.betopiaerp\\.com(/.*)?$`).test(url.origin)
         ) {
             // Preview pages from current website only. External website will
             // most of the time raise a CORS error. To avoid that error, we
@@ -708,11 +708,11 @@ export class LinkPopover extends Component {
         // its BetopiaERP instance domain. We just suppose it should be a relative
         // URL (if unexpected behavior, the user can just not enter its BetopiaERP
         // instance domain but its real domain, or opt-out from the domain
-        // stripping). Mentioning an .BetopiaERP.com domain, especially its own
+        // stripping). Mentioning an .betopiaerp.com domain, especially its own
         // one, is always a bad practice anyway.
         return (
             urlObj.origin === window.location.origin ||
-            new RegExp(`^https?://${session.db}\\.BetopiaERP\\.com(/.*)?$`).test(urlObj.origin)
+            new RegExp(`^https?://${session.db}\\.betopiaerp\\.com(/.*)?$`).test(urlObj.origin)
         );
     }
 }

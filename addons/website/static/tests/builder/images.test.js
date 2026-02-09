@@ -1,5 +1,5 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     advanceTime,
     animationFrame,
@@ -12,7 +12,7 @@ import {
     waitFor,
     waitForNone,
     setInputRange,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

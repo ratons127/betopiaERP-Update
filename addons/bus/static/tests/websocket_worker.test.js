@@ -1,6 +1,6 @@
 import { getWebSocketWorker } from "@bus/../tests/mock_websocket";
-import { advanceTime, describe, expect, test } from "@BetopiaERP/hoot";
-import { runAllTimers } from "@BetopiaERP/hoot-dom";
+import { advanceTime, describe, expect, test } from "@betopiaerp/hoot";
+import { runAllTimers } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     makeMockServer,

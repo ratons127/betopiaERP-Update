@@ -104,6 +104,6 @@ This module contains all the common features of Sales Management and eCommerce.
         ],
     },
     'post_init_hook': '_post_init_hook',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

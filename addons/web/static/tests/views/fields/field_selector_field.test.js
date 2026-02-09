@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryAllTexts } from "@betopiaerp/hoot-dom";
 import { followRelation } from "@web/../tests/core/tree_editor/condition_tree_editor_test_helpers";
 import { contains, defineModels, fields, models, mountView } from "../../web_test_helpers";
 

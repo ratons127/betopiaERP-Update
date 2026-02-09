@@ -98,7 +98,7 @@ class CalendarRecurrence(models.Model):
         # event_tz is written on event in Microsoft but on recurrence in BetopiaERP
         vals['event_tz'] = microsoft_event.start.get('timeZone')
         super()._write_from_microsoft(microsoft_event, vals)
-        new_event_values = self.env["calendar.event"]._microsoft_to_BetopiaERP_values(microsoft_event)
+        new_event_values = self.env["calendar.event"]._microsoft_to_betopiaerp_values(microsoft_event)
         # Edge case:  if the base event was deleted manually in 'self_only' update, skip applying recurrence.
         if self._has_base_event_time_fields_changed(new_event_values) and (new_event_values['start'] >= self.base_event_id.start):
             # we need to recreate the recurrence, time_fields were modified.
@@ -143,7 +143,7 @@ class CalendarRecurrence(models.Model):
         super()._cancel_microsoft()
 
     @api.model
-    def _microsoft_to_BetopiaERP_values(self, microsoft_recurrence, default_reminders=(), default_values=None, with_ids=False):
+    def _microsoft_to_betopiaerp_values(self, microsoft_recurrence, default_reminders=(), default_values=None, with_ids=False):
         recurrence = microsoft_recurrence.get_recurrence()
 
         if with_ids:

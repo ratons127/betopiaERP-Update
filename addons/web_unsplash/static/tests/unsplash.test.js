@@ -1,8 +1,8 @@
 import { setupEditor } from "@html_editor/../tests/_helpers/editor";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, Deferred, press, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, Deferred, press, waitFor } from "@betopiaerp/hoot-dom";
 import { contains, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
 
 test("Unsplash is inserted in the Media Dialog", async () => {

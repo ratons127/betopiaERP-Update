@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillDestroy, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillDestroy, useRef, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { Tooltip } from "@web/core/tooltip/tooltip";
 import { closestScrollableY, getScrollingElement, isScrollableY } from "@web/core/utils/scrolling";

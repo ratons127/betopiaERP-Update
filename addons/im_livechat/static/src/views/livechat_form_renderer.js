@@ -1,6 +1,6 @@
 import { Discuss } from "@mail/core/public_web/discuss";
 
-import { onWillStart, onWillUpdateProps, useEffect, useState } from "@BetopiaERP/owl";
+import { onWillStart, onWillUpdateProps, useEffect, useState } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { FormRenderer } from "@web/views/form/form_renderer";

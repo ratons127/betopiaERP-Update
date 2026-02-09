@@ -35,7 +35,7 @@ export class ResUsers extends webModels.ResUsers {
             mt_comment: MailMessageSubtype._filter([["subtype_xmlid", "=", "mail.mt_comment"]])[0]
                 .id,
             mt_note: MailMessageSubtype._filter([["subtype_xmlid", "=", "mail.mt_note"]])[0].id,
-            BetopiaERPbot: mailDataHelpers.Store.one(ResPartner.browse(serverState.BetopiaERPbotId)),
+            betopiaerpbot: mailDataHelpers.Store.one(ResPartner.browse(serverState.betopiaerpbotId)),
         });
         if (!this._is_public(this.env.uid)) {
             const userSettings = ResUsersSettings._find_or_create_for_user(this.env.uid);

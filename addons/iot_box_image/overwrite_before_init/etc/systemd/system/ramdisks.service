@@ -6,7 +6,7 @@ Before=basic.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/pi/BetopiaERP/addons/iot_box_image/configuration/setup_ramdisks.sh
+ExecStart=/home/pi/betopiaerp/addons/iot_box_image/configuration/setup_ramdisks.sh
 
 [Install]
 WantedBy=basic.target

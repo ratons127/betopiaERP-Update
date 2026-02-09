@@ -1,10 +1,10 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { setupEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { insertText } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";
-import { press, waitFor, queryOne } from "@BetopiaERP/hoot-dom";
+import { press, waitFor, queryOne } from "@betopiaerp/hoot-dom";
 import { expectElementCount } from "../_helpers/ui_expectations";
 
 function expectContentToBe(el, html) {

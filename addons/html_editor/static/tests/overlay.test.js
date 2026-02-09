@@ -1,6 +1,6 @@
-import { beforeEach, expect, test, describe, getFixture } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test, describe, getFixture } from "@betopiaerp/hoot";
 import { setSelection } from "./_helpers/selection";
-import { click, hover, queryOne, waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
+import { click, hover, queryOne, waitFor, waitForNone } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,
@@ -9,10 +9,10 @@ import {
     mountView,
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { unformat } from "./_helpers/format";
 import { Plugin } from "@html_editor/plugin";
-import { Component, onMounted, onWillUnmount, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUnmount, xml } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { setupEditor } from "./_helpers/editor";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -62,7 +62,7 @@ test("Toolbar should not overflow scroll container", async () => {
     });
 
     const scrollableElement = queryOne(".o_content");
-    const editable = queryOne(".BetopiaERP-editor-editable");
+    const editable = queryOne(".betopiaerp-editor-editable");
 
     // Select a paragraph in the middle of the text
     const fifthParagraph = editable.children[5];
@@ -119,7 +119,7 @@ test("Toolbar should be visible after scroll bar is added", async () => {
     });
 
     // At this point there's no scroll bar around the editable
-    const p = queryOne(".BetopiaERP-editor-editable p");
+    const p = queryOne(".betopiaerp-editor-editable p");
 
     // Add text: this creates a vertical scroll bar in the editable
     const morePs = parseHTML(document, "<p>more text</p>".repeat(20));
@@ -145,7 +145,7 @@ test("Toolbar should not overflow scroll container at the bottom", async () => {
                 <field name="txt" widget="html" options="{'height': 300}"/>
             </form>`,
     });
-    const lastP = queryOne(".BetopiaERP-editor-editable p:last-child");
+    const lastP = queryOne(".betopiaerp-editor-editable p:last-child");
     // Scroll down to bottom
     lastP.scrollIntoView();
 
@@ -178,7 +178,7 @@ test("Toolbar visibility should be updated when editable is resized", async () =
             </form>`,
     });
 
-    const lastP = queryOne(".BetopiaERP-editor-editable p:last-child");
+    const lastP = queryOne(".betopiaerp-editor-editable p:last-child");
     // Scroll down to bottom
     lastP.scrollIntoView();
 
@@ -190,7 +190,7 @@ test("Toolbar visibility should be updated when editable is resized", async () =
     expect(toolbar).toBeVisible();
 
     // Resize editable (which is the scroll container)
-    const editable = queryOne(".BetopiaERP-editor-editable");
+    const editable = queryOne(".betopiaerp-editor-editable");
     editable.style.height = "150px";
 
     // Toolbar now overflows the bottom of the container and should be hidden
@@ -223,7 +223,7 @@ describe("powerbox", () => {
         });
 
         // Put cursor at end of first paragraph an insert "/"
-        setSelection({ anchorNode: queryOne(".BetopiaERP-editor-editable p"), anchorOffset: 1 });
+        setSelection({ anchorNode: queryOne(".betopiaerp-editor-editable p"), anchorOffset: 1 });
         insertText(editor, "/");
 
         // Powerbox should be visible
@@ -245,7 +245,7 @@ describe("powerbox", () => {
         });
 
         // Put cursor at end of third paragraph an insert "/"
-        const thirdP = queryOne(".BetopiaERP-editor-editable p:nth-child(3)");
+        const thirdP = queryOne(".betopiaerp-editor-editable p:nth-child(3)");
         setSelection({ anchorNode: thirdP, anchorOffset: 1 });
         insertText(editor, "/");
 
@@ -272,8 +272,8 @@ test("Table column control should always be displayed on top of the table", asyn
     });
 
     const scrollableElement = queryOne(".o_content");
-    const table = queryOne(".BetopiaERP-editor-editable table");
-    await hover(".BetopiaERP-editor-editable td");
+    const table = queryOne(".betopiaerp-editor-editable table");
+    await hover(".betopiaerp-editor-editable td");
     let columnControl = await waitFor(".o-we-table-menu[data-type='column']");
 
     // Table column control displayed on hover should be above the table
@@ -284,7 +284,7 @@ test("Table column control should always be displayed on top of the table", asyn
     scrollableElement.scrollTop += distanceToTop;
     await animationFrame();
 
-    await hover(".BetopiaERP-editor-editable td");
+    await hover(".betopiaerp-editor-editable td");
     columnControl = await waitFor(".o-we-table-menu[data-type='column']");
 
     // Table column control still above the table,
@@ -309,7 +309,7 @@ test("Table menu should close on scroll", async () => {
 
     const scrollableElement = queryOne(".o_content");
 
-    await hover(".BetopiaERP-editor-editable td");
+    await hover(".betopiaerp-editor-editable td");
     const columnControl = await waitFor(".o-we-table-menu[data-type='column']");
     await click(columnControl);
     await animationFrame();
@@ -339,7 +339,7 @@ test("Table menu should only show on contenteditable true tables", async () => {
     });
 
     // check that table menu is visible
-    await hover(".BetopiaERP-editor-editable td");
+    await hover(".betopiaerp-editor-editable td");
     await waitFor(".o-we-table-menu[data-type='column']");
     expect(".o-we-table-menu[data-type='column']").toBeVisible();
 
@@ -348,7 +348,7 @@ test("Table menu should only show on contenteditable true tables", async () => {
     queryOne("table").setAttribute("contenteditable", "false");
 
     // chack that table menu is now not visible
-    await hover(".BetopiaERP-editor-editable td");
+    await hover(".betopiaerp-editor-editable td");
     await waitForNone(".o-we-table-menu[data-type='column']");
     expect(".o-we-table-menu[data-type='column']").not.toHaveCount();
 });
@@ -368,7 +368,7 @@ test("Toolbar should keep stable while extending down the selection", async () =
             </form>`,
     });
 
-    const editable = queryOne(".BetopiaERP-editor-editable");
+    const editable = queryOne(".betopiaerp-editor-editable");
 
     // Select inner content of a paragraph in the middle of the text
     const fifthParagraph = editable.children[5];

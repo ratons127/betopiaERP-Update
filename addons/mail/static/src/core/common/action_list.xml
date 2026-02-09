@@ -53,7 +53,7 @@
         'o-mail-ActionList-button btn btn-secondary btn-group-item': true,
         'o-first': props.isFirstInGroup,
         'o-last': props.isLastInGroup,
-        'o-BetopiaERPControlPanelSwitchStyle': props.BetopiaERPControlPanelSwitchStyle,
+        'o-betopiaerpControlPanelSwitchStyle': props.betopiaerpControlPanelSwitchStyle,
         'o-hasBtnBg': hasBtnBg,
         'rounded-circle': isComposerRoundedBtn or isThreadRoundedBtn,
         'rounded-start-3': !isComposerRoundedBtn and !isThreadRoundedBtn and !action.tags.includes('JOIN_LEAVE_CALL') and props.inline and props.isFirstInGroup,

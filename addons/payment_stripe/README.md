@@ -40,29 +40,29 @@ The module also offers a quick onboarding thanks to the Stripe Connect platform 
 
 - `16.4`
   - The previous Checkout API that allowed for redirect payments is replaced by the Payment Intents
-    API that supports direct payments. BetopiaERP/BetopiaERP#123573
-  - The support for eMandates for recurring payments is added. BetopiaERP/BetopiaERP#123573
-  - The responses of webhook notifications are sent with the proper HTTP code. BetopiaERP/BetopiaERP#117940
+    API that supports direct payments. betopiaerp/betopiaerp#123573
+  - The support for eMandates for recurring payments is added. betopiaerp/betopiaerp#123573
+  - The responses of webhook notifications are sent with the proper HTTP code. betopiaerp/betopiaerp#117940
 - `16.0`
   - Stripe uses the payment methods set up on the account when none are assigned to the payment
-    provider in BetopiaERP, instead of only offering the "Card" payment method. BetopiaERP/BetopiaERP#107647
-  - The support for express checkout is added. BetopiaERP/BetopiaERP#88374
+    provider in BetopiaERP, instead of only offering the "Card" payment method. betopiaerp/betopiaerp#107647
+  - The support for express checkout is added. betopiaerp/betopiaerp#88374
 - `15.4`
-  - The support for full and partial refunds is added. BetopiaERP/BetopiaERP#92235
+  - The support for full and partial refunds is added. betopiaerp/betopiaerp#92235
 - `15.3`
   - Webhook notifications accept three new events based on the PaymentIntent and SetupIntent objects
     in place of the `checkout.session.completed` event to handle async payment status updates.
-    BetopiaERP/BetopiaERP#84150
-  - The support for manual capture is added. BetopiaERP/BetopiaERP#69598
+    betopiaerp/betopiaerp#84150
+  - The support for manual capture is added. betopiaerp/betopiaerp#69598
 - `15.2`
   - An HTTP 404 "Forbidden" error is raised instead of a Validation error when the authenticity of
-    the webhook notification cannot be verified. BetopiaERP/BetopiaERP#81607
+    the webhook notification cannot be verified. betopiaerp/betopiaerp#81607
 - `15.0`
-  - A new button is added to create a webhook automatically. BetopiaERP/BetopiaERP#79621
-  - The support for the Stripe Connect onboarding flow is added. BetopiaERP/BetopiaERP#79621
+  - A new button is added to create a webhook automatically. betopiaerp/betopiaerp#79621
+  - The support for the Stripe Connect onboarding flow is added. betopiaerp/betopiaerp#79621
 - `14.3`
   - The previous direct payment flow that was supported by the SetupIntent API is replaced by a
-    payment with redirection flow using the Checkout API. BetopiaERP/BetopiaERP#141661
+    payment with redirection flow using the Checkout API. betopiaerp/betopiaerp#141661
 
 ## Testing instructions
 

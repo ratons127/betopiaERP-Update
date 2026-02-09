@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { delay, tick } from "@BetopiaERP/hoot-dom";
+import { delay, tick } from "@betopiaerp/hoot-dom";
 import {
     mockedCancelAnimationFrame,
     mockedRequestAnimationFrame,

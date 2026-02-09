@@ -15,6 +15,6 @@ class SerialInterface(Interface):
             port.device: {'identifier': port.device}
             for port in comports()
             if IS_WINDOWS or port.device != '/dev/ttyAMA10'
-            # RPI 5 uses ttyAMA10 as a console serial port for system messages: BetopiaERP interprets it as scale -> avoid it
+            # RPI 5 uses ttyAMA10 as a console serial port for system messages: betopiaerp interprets it as scale -> avoid it
         }
         return serial_devices

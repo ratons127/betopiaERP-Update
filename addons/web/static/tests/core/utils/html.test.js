@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { htmlEscape, markup } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { htmlEscape, markup } from "@betopiaerp/owl";
 
 import {
     createDocumentFragmentFromContent,
@@ -12,7 +12,7 @@ import {
     htmlSprintf,
     htmlTrim,
     isHtmlEmpty,
-    BetopiaERPmark,
+    betopiaerpmark,
     setElementContent,
 } from "@web/core/utils/html";
 
@@ -319,26 +319,26 @@ test("htmlTrim keeps html markup", () => {
     expect(res).toBeInstanceOf(Markup);
 });
 
-test("BetopiaERPmark", () => {
-    expect(BetopiaERPmark("").toString()).toBe("");
-    expect(BetopiaERPmark("**test**").toString()).toBe("<b>test</b>");
-    expect(BetopiaERPmark("**test** something else **test**").toString()).toBe(
+test("betopiaerpmark", () => {
+    expect(betopiaerpmark("").toString()).toBe("");
+    expect(betopiaerpmark("**test**").toString()).toBe("<b>test</b>");
+    expect(betopiaerpmark("**test** something else **test**").toString()).toBe(
         "<b>test</b> something else <b>test</b>"
     );
-    expect(BetopiaERPmark("--test--").toString()).toBe(`<span class="text-muted">test</span>`);
-    expect(BetopiaERPmark("--test-- something else --test--").toString()).toBe(
+    expect(betopiaerpmark("--test--").toString()).toBe(`<span class="text-muted">test</span>`);
+    expect(betopiaerpmark("--test-- something else --test--").toString()).toBe(
         `<span class="text-muted">test</span> something else <span class="text-muted">test</span>`
     );
-    expect(BetopiaERPmark("`test`").toString()).toBe(
+    expect(betopiaerpmark("`test`").toString()).toBe(
         `<span class="o_tag position-relative d-inline-flex align-items-center mw-100 o_badge badge rounded-pill lh-1 o_tag_color_0">test</span>`
     );
-    expect(BetopiaERPmark("`test` something else `test`").toString()).toBe(
+    expect(betopiaerpmark("`test` something else `test`").toString()).toBe(
         `<span class="o_tag position-relative d-inline-flex align-items-center mw-100 o_badge badge rounded-pill lh-1 o_tag_color_0">test</span> something else <span class="o_tag position-relative d-inline-flex align-items-center mw-100 o_badge badge rounded-pill lh-1 o_tag_color_0">test</span>`
     );
-    expect(BetopiaERPmark("test\ttest2").toString()).toBe(
+    expect(betopiaerpmark("test\ttest2").toString()).toBe(
         `test<span style="margin-left: 2em"></span>test2`
     );
-    expect(BetopiaERPmark("test\ntest2").toString()).toBe("test<br>test2");
-    expect(BetopiaERPmark("<p>**test**</p>").toString()).toBe("&lt;p&gt;<b>test</b>&lt;/p&gt;");
-    expect(BetopiaERPmark(markup`<p>**test**</p>`).toString()).toBe("<p><b>test</b></p>");
+    expect(betopiaerpmark("test\ntest2").toString()).toBe("test<br>test2");
+    expect(betopiaerpmark("<p>**test**</p>").toString()).toBe("&lt;p&gt;<b>test</b>&lt;/p&gt;");
+    expect(betopiaerpmark(markup`<p>**test**</p>`).toString()).toBe("<p><b>test</b></p>");
 });

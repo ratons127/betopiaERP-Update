@@ -2,17 +2,17 @@
 # This file contains the translation of the following modules:
 # * auth_totp
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Manon Rondou (ronm)" <ronm@BetopiaERP.com>, 2025.
+# "Manon Rondou (ronm)" <ronm@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-18 17:09+0000\n"
-"Last-Translator: \"Manon Rondou (ronm)\" <ronm@BetopiaERP.com>\n"
-"Language-Team: French <https://translate.BetopiaERP.com/projects/BetopiaERP-19/auth_totp/"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@betopiaerp.com>\n"
+"Language-Team: French <https://translate.betopiaerp.com/projects/betopiaerp-19/auth_totp/"
 "fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "%(browser)s on %(platform)s"
 msgstr "%(browser)s sur %(platform)s"
@@ -33,7 +33,7 @@ msgid "2-Factor Setup Wizard"
 msgstr "Assistant de configuration de l'authentification à 2 facteurs"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "2-Factor authentication is now enabled."
 msgstr "L'authentification à 2 facteurs est maintenant activée."
@@ -183,7 +183,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "Invalid authentication code format."
 msgstr "Format de code d'authentification invalide."
@@ -251,7 +251,7 @@ msgid "TOTP rate limit logs"
 msgstr "Limites d'utilisation de TOTP"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "The verification code should only contain numbers"
 msgstr "Le code de vérification ne doit contenir que des chiffres"
@@ -283,7 +283,7 @@ msgid "Trusted Devices"
 msgstr "Appareils de confiance"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-Factor Authentication Activation"
 msgstr "Activation de l'authentification à deux facteurs"
@@ -311,20 +311,20 @@ msgid "Two-factor authentication Enabled"
 msgstr "Authentification à deux facteurs activée"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication already enabled"
 msgstr "Authentification à deux facteurs déjà activée"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication can only be enabled for yourself"
 msgstr ""
 "L'authentification à deux facteurs ne peut être activée que pour vous-même"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication disabled for the following user(s): %s"
 msgstr ""
@@ -355,14 +355,14 @@ msgid "Verification code"
 msgstr "Code de vérification"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "Verification failed, please double-check the 6-digit code"
 msgstr "La vérification a échoué, veuillez revérifier le code à 6 chiffres"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Verification failed, please use the latest 6-digit code"
 msgstr ""
@@ -374,7 +374,7 @@ msgid "Write the code given by your app"
 msgstr "Saisissez le code fourni par votre application"
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of authentication mails sent for your account, please "
@@ -384,7 +384,7 @@ msgstr ""
 "compte, veuillez réessayer plus tard."
 
 #. module: auth_totp
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid ""
 "You reached the limit of code verifications for your account, please try "

@@ -15,7 +15,7 @@ import { toStringExpression, BUTTON_CLICK_PARAMS } from "./utils";
  * @property {boolean} [doNotCopyAttributes]
  */
 
-import { xml } from "@BetopiaERP/owl";
+import { xml } from "@betopiaerp/owl";
 
 const BUTTON_STRING_PROPS = ["string", "size", "title", "icon", "id", "disabled"];
 const INTERP_REGEXP = /(\{\{|#\{)(.*?)(\}{1,2})/g;

@@ -8,8 +8,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, globals, test } from "@BetopiaERP/hoot";
-import { Deferred, mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, globals, test } from "@betopiaerp/hoot";
+import { Deferred, mockDate } from "@betopiaerp/hoot-mock";
 import { Command, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 
 import { loadLamejs } from "@mail/discuss/voice_message/common/voice_message_service";

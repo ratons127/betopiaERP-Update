@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 
 registry.category("web_tour.tours").add('mailing_activities_split', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [
         {
             content: 'Open Activity Systray',

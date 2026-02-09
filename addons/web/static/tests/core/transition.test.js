@@ -1,9 +1,9 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { Transition, useTransition, config as transitionConfig } from "@web/core/transition";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
-import { Component, xml, useState } from "@BetopiaERP/owl";
-import { animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { Component, xml, useState } from "@betopiaerp/owl";
+import { animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 
 test("useTransition hook (default params)", async () => {
     patchWithCleanup(transitionConfig, {

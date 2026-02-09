@@ -15,8 +15,8 @@ Also:
     - activates a number of regional currencies.
     - sets up New Zealand taxes.
     """,
-    'author': 'BetopiaERP S.A., Richard deMeester - Willow IT',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'author': 'BetopiaERP, Richard deMeester - Willow IT',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

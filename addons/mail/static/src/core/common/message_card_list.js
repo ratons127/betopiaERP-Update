@@ -1,7 +1,7 @@
 import { Message } from "@mail/core/common/message";
 import { useVisible } from "@mail/utils/common/hooks";
 
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 

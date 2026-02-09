@@ -45,7 +45,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
     handle(cmd) {
         switch (cmd.type) {
             case "ADD_PIVOT": {
-                if (cmd.pivot.type === "BetopiaERP") {
+                if (cmd.pivot.type === "BETOPIAERP") {
                     this._addPivot(cmd.pivotId, undefined);
                 }
                 break;
@@ -57,7 +57,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
             case "DUPLICATE_PIVOT": {
                 const { pivotId, newPivotId } = cmd;
                 const pivotDefinition = this.getters.getPivotCoreDefinition(pivotId);
-                if (pivotDefinition.type !== "BetopiaERP") {
+                if (pivotDefinition.type !== "BETOPIAERP") {
                     break;
                 }
                 const pivot = deepCopy(this.pivots[pivotId]);
@@ -86,7 +86,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
      */
     getPivotFieldMatch(id) {
         const pivot = this.getters.getPivotCoreDefinition(id);
-        if (pivot.type !== "BetopiaERP") {
+        if (pivot.type !== "BETOPIAERP") {
             return {};
         }
         return this.pivots[id]?.fieldMatching || {};
@@ -115,7 +115,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
     _setPivotFieldMatching(filterId, pivotFieldMatches) {
         for (const [pivotId, fieldMatch] of Object.entries(pivotFieldMatches)) {
             const pivot = this.getters.getPivotCoreDefinition(pivotId);
-            if (pivot.type !== "BetopiaERP") {
+            if (pivot.type !== "BETOPIAERP") {
                 continue;
             }
             this.history.update("pivots", pivotId, "fieldMatching", filterId, fieldMatch);
@@ -135,7 +135,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
      */
     _addPivot(id, fieldMatching = undefined) {
         const pivot = this.getters.getPivotCoreDefinition(id);
-        if (pivot.type === "BetopiaERP") {
+        if (pivot.type === "BETOPIAERP") {
             this.history.update("pivots", id, {
                 id,
                 fieldMatching: fieldMatching || this.getters.getFieldMatchingForModel(pivot.model),
@@ -168,7 +168,7 @@ export class PivotCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
         for (const id in this.pivots) {
             const pivot = this.getters.getPivotCoreDefinition(id);
             data.pivots[id].fieldMatching =
-                pivot.type === "BetopiaERP" ? this.pivots[id].fieldMatching : {};
+                pivot.type === "BETOPIAERP" ? this.pivots[id].fieldMatching : {};
         }
     }
 }

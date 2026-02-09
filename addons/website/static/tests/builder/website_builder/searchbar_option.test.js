@@ -1,5 +1,5 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import { Plugin } from "@html_editor/plugin";
 import { contains } from "@web/../tests/web_test_helpers";
 import {

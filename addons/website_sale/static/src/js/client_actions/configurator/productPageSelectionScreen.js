@@ -1,4 +1,4 @@
-import { Component, onWillStart } from '@BetopiaERP/owl';
+import { Component, onWillStart } from '@betopiaerp/owl';
 import { useService } from '@web/core/utils/hooks';
 
 import { ROUTES, useStore } from '@website/client_actions/configurator/configurator';

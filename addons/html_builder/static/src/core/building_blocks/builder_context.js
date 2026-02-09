@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { basicContainerBuilderComponentProps, useBuilderComponent } from "../utils";
 import { BuilderComponent } from "./builder_component";
 

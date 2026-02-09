@@ -1,6 +1,6 @@
-/** @BetopiaERP-module alias=@web/../tests/search/helpers default=false */
+/** @betopiaerp-module alias=@web/../tests/search/helpers default=false */
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { makeTestEnv } from "@web/../tests/helpers/mock_env";
 import {
     click,

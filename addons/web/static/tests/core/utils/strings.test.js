@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { patchTranslations } from "@web/../tests/web_test_helpers";
 
 import {
@@ -13,9 +13,9 @@ import {
 import { _t as basic_t } from "@web/core/l10n/translation";
 
 function _t() {
-    BetopiaERP.translationContext = "web";
+    betopiaerp.translationContext = "web";
     const translatedTerm = basic_t(...arguments);
-    BetopiaERP.translationContext = null;
+    betopiaerp.translationContext = null;
     return translatedTerm;
 }
 
@@ -23,11 +23,11 @@ describe.current.tags("headless");
 
 test("escape", () => {
     expect(escape("<a>this is a link</a>")).toBe("&lt;a&gt;this is a link&lt;/a&gt;");
-    expect(escape(`<a href="https://www.BetopiaERP.com">BetopiaERP<a>`)).toBe(
-        `&lt;a href=&quot;https://www.BetopiaERP.com&quot;&gt;BetopiaERP&lt;a&gt;`
+    expect(escape(`<a href="https://www.BetopiaERP.com">betopiaerp<a>`)).toBe(
+        `&lt;a href=&quot;https://www.BetopiaERP.com&quot;&gt;betopiaerp&lt;a&gt;`
     );
-    expect(escape(`<a href='https://www.BetopiaERP.com'>BetopiaERP<a>`)).toBe(
-        `&lt;a href=&#x27;https://www.BetopiaERP.com&#x27;&gt;BetopiaERP&lt;a&gt;`
+    expect(escape(`<a href='https://www.BetopiaERP.com'>betopiaerp<a>`)).toBe(
+        `&lt;a href=&#x27;https://www.BetopiaERP.com&#x27;&gt;betopiaerp&lt;a&gt;`
     );
     expect(escape("<a href='https://www.BetopiaERP.com'>BetopiaERP`s website<a>")).toBe(
         `&lt;a href=&#x27;https://www.BetopiaERP.com&#x27;&gt;BetopiaERP&#x60;s website&lt;a&gt;`
@@ -38,8 +38,8 @@ test("escapeRegExp", () => {
     expect(escapeRegExp("")).toBe("");
     expect(escapeRegExp("wowl")).toBe("wowl");
     expect(escapeRegExp("[wowl]")).toBe("\\[wowl\\]");
-    expect(escapeRegExp("[wowl.BetopiaERP]")).toBe("\\[wowl\\.BetopiaERP\\]");
-    expect(escapeRegExp("^BetopiaERP.define([.]*)$")).toBe("\\^BetopiaERP\\.define\\(\\[\\.\\]\\*\\)\\$");
+    expect(escapeRegExp("[wowl.betopiaerp]")).toBe("\\[wowl\\.betopiaerp\\]");
+    expect(escapeRegExp("^betopiaerp.define([.]*)$")).toBe("\\^betopiaerp\\.define\\(\\[\\.\\]\\*\\)\\$");
     expect(escapeRegExp("[.*+?^${}()|[]\\")).toBe("\\[\\.\\*\\+\\?\\^\\$\\{\\}\\(\\)\\|\\[\\]\\\\");
 });
 
@@ -129,11 +129,11 @@ test("capitalize", () => {
 test("isEmail", () => {
     expect(isEmail("")).toBe(false);
     expect(isEmail("test")).toBe(false);
-    expect(isEmail("test@BetopiaERP")).toBe(false);
-    expect(isEmail("test@BetopiaERP@BetopiaERP.com")).toBe(false);
-    expect(isEmail("te st@BetopiaERP.com")).toBe(false);
+    expect(isEmail("test@betopiaerp")).toBe(false);
+    expect(isEmail("test@betopiaerp@betopiaerp.com")).toBe(false);
+    expect(isEmail("te st@betopiaerp.com")).toBe(false);
 
-    expect(isEmail("test@BetopiaERP.com")).toBe(true);
+    expect(isEmail("test@betopiaerp.com")).toBe(true);
 });
 
 test("isNumeric", () => {

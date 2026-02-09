@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { scanBarcode } from "@web/core/barcode/barcode_dialog";
 import { isBarcodeScannerSupported } from "@web/core/barcode/barcode_video_scanner";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 export class BarcodeScanner extends Component {

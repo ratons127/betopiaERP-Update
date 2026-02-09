@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/mock_server_tests default=false */
+/** @betopiaerp-module alias=@web/../tests/mock_server_tests default=false */
 
 import { MockServer } from "./helpers/mock_server";
 

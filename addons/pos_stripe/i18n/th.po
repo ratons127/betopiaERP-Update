@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * pos_stripe
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 21:34+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/pos_stripe/"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/pos_stripe/"
 "th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "Display Name"
 msgstr "แสดงชื่อ"
 
 #. module: pos_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_stripe/models/pos_payment_method.py:0
 msgid "Do not have access to fetch token from Stripe"
 msgstr "ไม่มีสิทธิ์เข้าถึงโทเค็นการดึงข้อมูลจาก Stripe"
@@ -37,13 +37,13 @@ msgid ""
 msgstr "อย่าลืมทำการเชื่อมต่อ Stripe ให้เสร็จสิ้นก่อนที่จะใช้วิธีการชำระเงินนี้"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Failed to discover: %s"
 msgstr "การค้นพบล้มเหลว: %s"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Failed to load resource: net::ERR_INTERNET_DISCONNECTED."
 msgstr "โหลดแหล่งข้อมูลไม่สำเร็จ: net::ERR_INTERNET_DISCONNECTED."
@@ -54,13 +54,13 @@ msgid "ID"
 msgstr "ไอดี"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "No available Stripe readers."
 msgstr "ไม่มีเครื่องอ่าน Stripe ที่ใช้งานได้"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Payment cancelled because not reader connected"
 msgstr "การชำระเงินถูกยกเลิก เนื่องจากไม่ได้เชื่อมต่อกับเครื่องอ่าน"
@@ -71,19 +71,19 @@ msgid "Point of Sale Payment Methods"
 msgstr "วิธีการชำระเงินการขายหน้าร้าน"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Reader disconnected"
 msgstr "เครื่องอ่านถูกตัดการเชื่อมต่อ"
 
 #. module: pos_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_stripe/models/pos_payment_method.py:0
 msgid "Stripe"
 msgstr "Stripe"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Stripe Error"
 msgstr "เกิดข้อผิดพลาดกับ Stripe"
@@ -94,19 +94,19 @@ msgid "Stripe Serial Number"
 msgstr "หมายเลขซีเรียล Stripe"
 
 #. module: pos_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_stripe/models/pos_payment_method.py:0
 msgid "Stripe payment provider for company %s is missing"
 msgstr "ผู้ให้บริการการชำระเงิน Stripe สำหรับบริษัท %s ได้หายไป"
 
 #. module: pos_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_stripe/static/src/app/payment_stripe.js:0
 msgid "Stripe readers %s not listed in your account"
 msgstr "โปรแกรมอ่าน Stripe %s ไม่อยู่ในบัญชีของคุณ"
 
 #. module: pos_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_stripe/models/pos_payment_method.py:0
 msgid ""
 "Terminal %(terminal)s is already used on payment method %(payment_method)s."

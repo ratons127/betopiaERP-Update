@@ -215,7 +215,7 @@ class ResCountryState(models.Model):
     def name_search(self, name='', domain=None, operator='ilike', limit=100):
         result = []
         domain = Domain(domain or Domain.TRUE)
-        # accepting 'in' as operator (see BetopiaERP/addons/base/tests/test_res_country.py)
+        # accepting 'in' as operator (see betopiaerp/addons/base/tests/test_res_country.py)
         if operator == 'in':
             if limit is None:
                 limit = 100  # force a limit

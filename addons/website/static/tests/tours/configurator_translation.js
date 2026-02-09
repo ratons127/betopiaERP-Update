@@ -102,7 +102,7 @@ registry.category("web_tour.tours").add("configurator_translation", {
         },
         {
             content: "wait for editor to be closed",
-            trigger: ":iframe #wrapwrap:not(.BetopiaERP-editor-editable)",
+            trigger: ":iframe #wrapwrap:not(.betopiaerp-editor-editable)",
         },
     ],
 });

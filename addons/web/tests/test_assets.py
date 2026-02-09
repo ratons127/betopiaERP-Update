@@ -112,7 +112,7 @@ class TestLoad(HttpCase):
             return attachment
 
         with patch('betopiaerp.addons.base.models.assetsbundle.AssetsBundle.save_attachment', save_attachment):
-            self.url_open('/BetopiaERP').raise_for_status()
+            self.url_open('/betopiaerp').raise_for_status()
             self.url_open('/').raise_for_status()
 
 

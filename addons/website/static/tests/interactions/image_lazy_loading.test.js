@@ -1,7 +1,7 @@
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, queryOne, tick } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, queryOne, tick } from "@betopiaerp/hoot-dom";
 
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { ImageLazyLoading } from "@website/interactions/image_lazy_loading";

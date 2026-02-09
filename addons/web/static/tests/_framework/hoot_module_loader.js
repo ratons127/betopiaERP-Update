@@ -1,17 +1,17 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 // ! WARNING: this module must be loaded after `module_loader` but cannot have dependencies !
 
-(function (BetopiaERP) {
+(function (betopiaerp) {
     "use strict";
 
-    if (BetopiaERP.define.name.endsWith("(hoot)")) {
+    if (betopiaerp.define.name.endsWith("(hoot)")) {
         return;
     }
 
-    const name = `${BetopiaERP.define.name} (hoot)`;
-    BetopiaERP.define = {
+    const name = `${betopiaerp.define.name} (hoot)`;
+    betopiaerp.define = {
         [name](name, dependencies, factory) {
-            return BetopiaERP.loader.define(name, dependencies, factory, !name.endsWith(".hoot"));
+            return betopiaerp.loader.define(name, dependencies, factory, !name.endsWith(".hoot"));
         },
     }[name];
-})(globalThis.BetopiaERP);
+})(globalThis.betopiaerp);

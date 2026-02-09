@@ -1,7 +1,7 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts, resize } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts, resize } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { DateTimePicker } from "@web/core/datetime/datetime_picker";
 import { ensureArray } from "@web/core/utils/arrays";
 import {

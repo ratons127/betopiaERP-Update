@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
 import {
     defineModels,
     fields,
@@ -24,7 +24,7 @@ test("Simple render", async () => {
     onRpc("/base_setup/demo_active", () => {
         return true;
     });
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
     await mountView({
         type: "form",
         arch: /* xml */ `
@@ -54,7 +54,7 @@ test("Activate the developer mode", async () => {
             expect.step("location reload");
         },
     });
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
     await mountView({
         type: "form",
         arch: /* xml */ `
@@ -81,7 +81,7 @@ test("Activate the developer mode (with assets)", async () => {
             expect.step("location reload");
         },
     });
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
     await mountView({
         type: "form",
         arch: /* xml */ `
@@ -108,7 +108,7 @@ test("Activate the developer mode (with tests assets)", async () => {
             expect.step("location reload");
         },
     });
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
     await mountView({
         type: "form",
         arch: /* xml */ `
@@ -137,7 +137,7 @@ test("Activate the developer modeddd (with tests assets)", async () => {
             expect.step("location reload");
         },
     });
-    redirect("/BetopiaERP?debug=assets%2Ctests");
+    redirect("/betopiaerp?debug=assets%2Ctests");
     await mountView({
         type: "form",
         arch: /* xml */ `

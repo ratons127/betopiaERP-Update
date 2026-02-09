@@ -1,4 +1,4 @@
-import { EvaluationError, helpers, registries } from "@BetopiaERP/o-spreadsheet";
+import { EvaluationError, helpers, registries } from "@betopiaerp/o-spreadsheet";
 import { BetopiaERPUIPlugin } from "@spreadsheet/plugins";
 import { toServerDateString } from "@spreadsheet/helpers/helpers";
 import { _t } from "@web/core/l10n/translation";
@@ -26,7 +26,7 @@ export class CurrencyPlugin extends BetopiaERPUIPlugin {
         /** @type {string | undefined} */
         this.currentCompanyCurrency = config.defaultCurrency;
         /** @type {import("@spreadsheet/data_sources/server_data").ServerData} */
-        this._serverData = config.custom.BetopiaERPDataProvider?.serverData;
+        this._serverData = config.custom.betopiaerpDataProvider?.serverData;
     }
 
     get serverData() {
@@ -100,4 +100,4 @@ export class CurrencyPlugin extends BetopiaERPUIPlugin {
     }
 }
 
-featurePluginRegistry.add("BetopiaERPCurrency", CurrencyPlugin);
+featurePluginRegistry.add("betopiaerpCurrency", CurrencyPlugin);

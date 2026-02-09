@@ -3,7 +3,7 @@ import { QuestionPageListRenderer } from "./question_page_list_renderer";
 import { registry } from "@web/core/registry";
 import { useOpenX2ManyRecord, useX2ManyCrud } from "@web/views/fields/relational_utils";
 import { X2ManyField, x2ManyField } from "@web/views/fields/x2many/x2many_field";
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 
 /**
  * For convenience, we'll prevent closing the question form dialog and

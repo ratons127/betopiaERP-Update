@@ -14,7 +14,7 @@ from betopiaerp.tools import mute_logger
 class TestResources(common.SlidesCase, HttpCase):
 
     @users('user_officer')
-    @mute_logger('BetopiaERP')
+    @mute_logger('betopiaerp')
     def test_constraints(self):
         link = self.env["slide.slide.resource"].create({
             'name': 'Test Link',
@@ -64,7 +64,7 @@ class TestResources(common.SlidesCase, HttpCase):
             'name': resource_name,
             'file_name': 'test.png',
             'resource_type': 'file',
-            # A file for which _BetopiaERP_guess_mimetype and python_magic can detect the mime type: a png file
+            # A file for which _betopiaerp_guess_mimetype and python_magic can detect the mime type: a png file
             'data': 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAC4jAA'
                     'AuIwF4pT92AAAAD0lEQVQIHQEEAPv/AIdaewLIAV0IjhGPAAAAAElFTkSuQmCC',
             'slide_id': self.slide.id,

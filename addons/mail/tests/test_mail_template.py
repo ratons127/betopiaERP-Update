@@ -568,7 +568,7 @@ class TestMailTemplateUI(HttpCase):
 
     def test_mail_template_dynamic_placeholder_tour(self):
         # keep debug for technical fields visibility
-        self.start_tour('/BetopiaERP?debug=1', 'mail_template_dynamic_placeholder_tour', login='admin')
+        self.start_tour('/betopiaerp?debug=1', 'mail_template_dynamic_placeholder_tour', login='admin')
 
 
 @tagged("mail_template", "-at_install", "post_install")

@@ -11,9 +11,9 @@ import {
     contains,
     clickModalButton,
 } from "@web/../tests/web_test_helpers";
-import { beforeEach, test, expect } from "@BetopiaERP/hoot";
-import { click, queryFirst, waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { beforeEach, test, expect } from "@betopiaerp/hoot";
+import { click, queryFirst, waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 class Partner extends models.Model {
     display_name = fields.Char();

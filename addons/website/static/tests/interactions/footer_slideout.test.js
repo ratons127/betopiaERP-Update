@@ -1,8 +1,8 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
-import { mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryFirst } from "@betopiaerp/hoot-dom";
+import { mockUserAgent } from "@betopiaerp/hoot-mock";
 
 setupInteractionWhiteList("website.footer_slideout");
 

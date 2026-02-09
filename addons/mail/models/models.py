@@ -396,7 +396,7 @@ class Base(models.AbstractModel):
         prioritize_email = getattr(self, '_mail_defaults_to_email', False)
         found = self._message_add_default_recipients()
 
-        # ban emails: never propose BetopiaERPbot nor aliases
+        # ban emails: never propose betopiaerpbot nor aliases
         all_emails = []
         for defaults in found.values():
             all_emails += defaults['email_to_lst']
@@ -553,7 +553,7 @@ class Base(models.AbstractModel):
                 if e and e.strip() and email_key(e) not in skip_emails_normalized
             ]
             all_emails |= set(records_emails[record]) | set(partners.mapped('email_normalized'))
-        # ban emails: never propose BetopiaERPbot nor aliases
+        # ban emails: never propose betopiaerpbot nor aliases
         ban_emails = [self.env.ref('base.partner_root').email_normalized]
         ban_emails += self.env['mail.alias.domain'].sudo()._find_aliases(
             [email_key(e) for e in all_emails if e and e.strip()]

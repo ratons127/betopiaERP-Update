@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@BetopiaERP/hoot-dom default=false */
+/** @betopiaerp-module alias=@betopiaerp/hoot-dom default=false */
 
 import * as dom from "./helpers/dom";
 import * as events from "./helpers/events";

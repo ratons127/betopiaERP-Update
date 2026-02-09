@@ -107,7 +107,7 @@ class AccountAccount(models.Model):
     @api.readonly
     @api.model
     def spreadsheet_fetch_debit_credit(self, args_list):
-        """Fetch data for betopiaerp.CREDIT, betopiaerp.DEBIT and betopiaerp.BALANCE formulas
+        """Fetch data for BETOPIAERP.CREDIT, BETOPIAERP.DEBIT and BETOPIAERP.BALANCE formulas
         The input list looks like this::
 
             [{
@@ -133,7 +133,7 @@ class AccountAccount(models.Model):
     @api.readonly
     @api.model
     def spreadsheet_fetch_residual_amount(self, args_list):
-        """Fetch data for betopiaerp.RESUDUAL formulas
+        """Fetch data for BETOPIAERP.RESUDUAL formulas
         The input list looks like this::
 
             [{
@@ -158,7 +158,7 @@ class AccountAccount(models.Model):
 
     @api.model
     def spreadsheet_fetch_partner_balance(self, args_list):
-        """Fetch data for betopiaerp.PARTNER.BALANCE formulas
+        """Fetch data for BETOPIAERP.PARTNER.BALANCE formulas
         The input list looks like this::
 
             [{
@@ -202,7 +202,7 @@ class AccountAccount(models.Model):
 
     @api.model
     def spreadsheet_fetch_balance_tag(self, args_list):
-        """Fetch data for betopiaerp.BALANCE.TAG formulas
+        """Fetch data for BETOPIAERP.BALANCE.TAG formulas
         The input list looks like this::
 
             [{

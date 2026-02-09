@@ -1,6 +1,6 @@
 import { ImStatus } from "@mail/core/common/im_status";
 
-import { Component, useEffect, useRef, useState, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState, useSubEnv } from "@betopiaerp/owl";
 
 import { useChildRef, useService } from "@web/core/utils/hooks";
 import { useHover } from "@mail/utils/common/hooks";

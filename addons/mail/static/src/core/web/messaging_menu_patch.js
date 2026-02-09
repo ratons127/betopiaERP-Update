@@ -1,6 +1,6 @@
 import { MessagingMenu } from "@mail/core/public_web/messaging_menu";
 import { onExternalClick } from "@mail/utils/common/hooks";
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
@@ -77,8 +77,8 @@ patch(MessagingMenu.prototype, {
             onClick: () => {
                 this.pwa.show();
             },
-            iconSrc: this.store.BetopiaERPbot.avatarUrl,
-            partner: this.store.BetopiaERPbot,
+            iconSrc: this.store.betopiaerpbot.avatarUrl,
+            partner: this.store.betopiaerpbot,
             isShown: this.store.discuss.activeTab === "notification" && this.canPromptToInstall,
         };
     },
@@ -86,8 +86,8 @@ patch(MessagingMenu.prototype, {
         return {
             body: _t("Stay tuned! Enable push notifications to never miss a message."),
             displayName: _t("Turn on notifications"),
-            iconSrc: this.store.BetopiaERPbot.avatarUrl,
-            partner: this.store.BetopiaERPbot,
+            iconSrc: this.store.betopiaerpbot.avatarUrl,
+            partner: this.store.betopiaerpbot,
             isShown:
                 this.store.discuss.activeTab === "notification" && this.shouldAskPushPermission,
         };

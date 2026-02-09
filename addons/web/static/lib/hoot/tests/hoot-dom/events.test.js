@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import {
     advanceTime,
@@ -34,8 +34,8 @@ import {
     setInputRange,
     test,
     uncheck,
-} from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { EventList } from "@web/../lib/hoot-dom/helpers/events";
 import { mountForTest, parseUrl } from "../local_helpers";
 

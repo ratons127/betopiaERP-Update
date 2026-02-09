@@ -12,6 +12,6 @@
         'report/din5008_purchase_order_templates.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

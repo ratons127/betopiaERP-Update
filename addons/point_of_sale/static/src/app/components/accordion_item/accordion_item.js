@@ -1,4 +1,4 @@
-import { Component, useState, useRef, useEffect, onMounted } from "@BetopiaERP/owl";
+import { Component, useState, useRef, useEffect, onMounted } from "@betopiaerp/owl";
 
 export class AccordionItem extends Component {
     static template = "pos_hr.AccordionItem";

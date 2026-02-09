@@ -1,5 +1,5 @@
 import { isValidEmail } from "@im_livechat/core/common/misc";
-import { Component, onWillUpdateProps, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useEffect, useState } from "@betopiaerp/owl";
 import { rpc } from "@web/core/network/rpc";
 import { useService } from "@web/core/utils/hooks";
 

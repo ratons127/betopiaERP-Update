@@ -93,8 +93,8 @@ class WebsocketClient(Thread):
                     helpers.update_conf({
                         'remote_server': payload['server_url']
                     })
-                    helpers.get_BetopiaERP_server_url.cache_clear()
-                case 'restart_BetopiaERP':
+                    helpers.get_betopiaerp_server_url.cache_clear()
+                case 'restart_betopiaerp':
                     send_to_controller({
                         'session_id': payload['session_id'],
                         'iot_box_identifier': helpers.get_identifier(),
@@ -102,7 +102,7 @@ class WebsocketClient(Thread):
                         'status': 'success',
                     })
                     ws.close()
-                    helpers.BetopiaERP_restart()
+                    helpers.betopiaerp_restart()
                 case 'webrtc_offer':
                     if not webrtc_client:
                         continue
@@ -132,7 +132,7 @@ class WebsocketClient(Thread):
                         'status': 'success',
                         'result': {
                             'lan_quality': helpers.check_network(),
-                            'wan_quality': helpers.check_network("www.betopiaerp.com"),
+                            'wan_quality': helpers.check_network("www.BetopiaERP.com"),
                         }
                     })
                 case 'bundle_changed':

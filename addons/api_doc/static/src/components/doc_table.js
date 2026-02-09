@@ -1,4 +1,4 @@
-import { Component, useState, useExternalListener, useRef, onWillRender } from "@BetopiaERP/owl";
+import { Component, useState, useExternalListener, useRef, onWillRender } from "@betopiaerp/owl";
 
 export const TABLE_TYPES = {
     Id: "id",

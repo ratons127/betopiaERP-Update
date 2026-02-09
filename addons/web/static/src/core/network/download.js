@@ -496,8 +496,8 @@ download._download = (options) => {
             });
         }
         data.append("token", "dummy-because-api-expects-one");
-        if (BetopiaERP.csrf_token) {
-            data.append("csrf_token", BetopiaERP.csrf_token);
+        if (betopiaerp.csrf_token) {
+            data.append("csrf_token", betopiaerp.csrf_token);
         }
         configureBlobDownloadXHR(xhr, {
             onSuccess: resolve,

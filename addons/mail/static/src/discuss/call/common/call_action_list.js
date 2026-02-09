@@ -1,4 +1,4 @@
-import { Component, onWillRender, toRaw, useRef } from "@BetopiaERP/owl";
+import { Component, onWillRender, toRaw, useRef } from "@betopiaerp/owl";
 
 import { isMobileOS } from "@web/core/browser/feature_detection";
 import { _t } from "@web/core/l10n/translation";

@@ -2,11 +2,11 @@ import { BetopiaERPPivotRuntimeDefinition } from "@spreadsheet/pivot/pivot_runti
 import { ORM } from "@web/core/orm_service";
 import { PivotMeasure } from "@spreadsheet/pivot/pivot_runtime";
 import { ServerData } from "@spreadsheet/data_sources/server_data";
-import { Pivot, CommonPivotCoreDefinition, PivotCoreDefinition } from "@BetopiaERP/o-spreadsheet";
+import { Pivot, CommonPivotCoreDefinition, PivotCoreDefinition } from "@betopiaerp/o-spreadsheet";
 
 declare module "@spreadsheet" {
     export interface BetopiaERPPivotCoreDefinition extends CommonPivotCoreDefinition {
-        type: "BetopiaERP";
+        type: "BETOPIAERP";
         model: string;
         domain: Array;
         context: Object;
@@ -52,7 +52,7 @@ declare module "@spreadsheet" {
         context: Object;
     }
 
-    /* Params used for the BetopiaERP pivot model */
+    /* Params used for the betopiaerp pivot model */
     export interface WebPivotModelParams {
         metaData: PivotMetaData;
         searchParams: PivotSearchParams;

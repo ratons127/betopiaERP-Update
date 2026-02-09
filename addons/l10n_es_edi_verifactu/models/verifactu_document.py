@@ -62,7 +62,7 @@ def _get_zeep_operation(company, operation):
         function = service[wsdl[operation]]
     else:
         # operation == 'registration_xml'
-        zeep_client = client._Client__obj  # get the "real" zeep client from the BetopiaERP specific wrapper
+        zeep_client = client._Client__obj  # get the "real" zeep client from the betopiaerp specific wrapper
         service = zeep_client.bind(wsdl['service'], wsdl['port'])
 
         def function(*args, **kwargs):
@@ -811,7 +811,7 @@ class L10nEsEdiVerifactuDocument(models.Model):
         # The values should match the values given in the declaration.
         render_vals = {
             'SistemaInformatico': {
-                'NombreRazon': 'BetopiaERP SA',
+                'NombreRazon': 'BetopiaERP',
                 'IDOtro': {
                     'CodigoPais': 'BE',
                     'IDType': '02',  # NIF-IVA

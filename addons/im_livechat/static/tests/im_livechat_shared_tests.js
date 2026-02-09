@@ -1,4 +1,4 @@
-import { expect } from "@BetopiaERP/hoot";
+import { expect } from "@betopiaerp/hoot";
 import {
     click,
     contains,

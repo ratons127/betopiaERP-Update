@@ -4,17 +4,17 @@
 #
 # Translators:
 # Martin Trigaux, 2022
-# Malaz Abuidris <msea@BetopiaERP.com>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Malaz Siddig Elsayed Abuidris (msea)" <msea@BetopiaERP.com>, 2025.
+# Malaz Abuidris <msea@betopiaerp.com>, 2023
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 15.5alpha1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-29 09:27+0000\n"
-"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@BetopiaERP.com>\n"
-"Language-Team: Arabic <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@betopiaerp.com>\n"
+"Language-Team: Arabic <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "stock_landed_costs/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -25,13 +25,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s (Landed Cost: %(landed_cost)s)"
 msgstr "+ %(value)s (التكلفة النهائية: %(landed_cost)s)"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid "+ %(value)s from %(vendor_bill)s (Landed Cost: %(landed_cost)s)"
 msgstr ""
@@ -90,7 +90,7 @@ msgid "Additional Landed Cost"
 msgstr "إجمالي التكاليف الإضافية"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_move.py:0
 msgid ""
 "Additional landed costs:\n"
@@ -178,7 +178,7 @@ msgid "Cost Lines"
 msgstr "بنود التكلفة"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Cost and adjustments lines do not match. You should maybe recompute the "
@@ -418,7 +418,7 @@ msgid "Landed Cost"
 msgstr "إجمالي التكاليف"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/account_move.py:0
 #: model:ir.actions.act_window,name:stock_landed_costs.action_stock_landed_cost
 #: model:ir.model.fields,field_description:stock_landed_costs.field_account_bank_statement_line__landed_costs_ids
@@ -503,7 +503,7 @@ msgid "Name"
 msgstr "الاسم"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "New"
 msgstr "جديد"
@@ -554,7 +554,7 @@ msgid "Number of messages with delivery error"
 msgstr "عدد الرسائل الحادث بها خطأ في التسليم"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Only draft landed costs can be validated"
 msgstr "وحدها التكاليف في حالة المسودة يمكن تصديقها"
@@ -570,13 +570,13 @@ msgid "Picking"
 msgstr "الانتقاء"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "يرجى تحديد حساب النفقات للمنتج: %s"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "Please define %s on which those additional costs should apply."
 msgstr "قم بتحديد %s التي يجب تطبيق تلك التكاليف الإضافية فيها."
@@ -699,7 +699,7 @@ msgid "Validate"
 msgstr "تصديق"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
@@ -744,7 +744,7 @@ msgid "Weight"
 msgstr "الوزن"
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid ""
 "You cannot apply landed costs on the chosen %s(s). Landed costs can only be "
@@ -755,7 +755,7 @@ msgstr ""
 "القياسية."
 
 #. module: stock_landed_costs
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock_landed_costs/models/product.py:0
 msgid ""
 "You cannot change the product type or disable landed cost option because the "

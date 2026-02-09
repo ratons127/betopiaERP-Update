@@ -1,10 +1,10 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { getContent } from "../_helpers/selection";
 import { deleteForward, insertText, tripleClick } from "../_helpers/user_actions";
 import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 import {
     compareHighlightedContent,
     highlightedPre,

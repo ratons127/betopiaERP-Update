@@ -1,9 +1,9 @@
 import { Img } from "@html_builder/core/img";
 import { ImgGroup } from "@html_builder/core/img_group";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

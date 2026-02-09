@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { isInstanceOf } from "../hoot_dom_utils";
 

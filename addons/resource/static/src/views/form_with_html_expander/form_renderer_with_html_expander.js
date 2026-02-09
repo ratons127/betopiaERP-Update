@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 import { FormRenderer } from "@web/views/form/form_renderer";
-import { useRef, useEffect } from "@BetopiaERP/owl";
+import { useRef, useEffect } from "@betopiaerp/owl";
 
 export class FormRendererWithHtmlExpander extends FormRenderer {
     static props = {

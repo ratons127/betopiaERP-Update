@@ -23,6 +23,6 @@ for customization purpose.
             'base_import_module/static/src/**/*',
         ]
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -107,7 +107,7 @@ export const errorService = {
                 // Firefox doesn't hide details of errors occuring in third-party scripts, check origin explicitly
                 (isBrowserFirefox() && new URL(filename).origin !== window.location.origin);
             // Don't display error dialogs for third party script errors unless we are in debug mode
-            if (isThirdPartyScriptError && !BetopiaERP.debug) {
+            if (isThirdPartyScriptError && !betopiaerp.debug) {
                 return;
             }
             let uncaughtError;
@@ -162,7 +162,7 @@ export const errorService = {
                 // to have extension's errors in the main business page.
                 // We want to ignore those errors as they are not produced by us, and are parasiting
                 // the navigation. We do this according to the heuristic expressed in the if.
-                if (!BetopiaERP.debug) {
+                if (!betopiaerp.debug) {
                     return;
                 }
                 traceback =

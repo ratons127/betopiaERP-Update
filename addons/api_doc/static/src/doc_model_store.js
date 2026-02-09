@@ -1,4 +1,4 @@
-import { markRaw, markup } from "@BetopiaERP/owl";
+import { markRaw, markup } from "@betopiaerp/owl";
 import { Reactive } from "@web/core/utils/reactive";
 
 function tryParseJSON(jsonString) {

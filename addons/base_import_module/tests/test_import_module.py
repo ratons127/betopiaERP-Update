@@ -24,7 +24,7 @@ class TestImportModule(betopiaerp.tests.TransactionCase):
 
     def manifest_content(self, manifest={}, /, **values):
         return json.dumps({
-            'author': 'BetopiaERP S.A.',
+            'author': 'BetopiaERP',
             'license': 'LGPL-3',
             **manifest,
             **values,
@@ -75,7 +75,7 @@ class TestImportModule(betopiaerp.tests.TransactionCase):
                 msgstr "dumb"
 
                 #. module: bar
-                #. BetopiaERP-javascript
+                #. betopiaerp-javascript
                 #: code:addons/foo/static/src/js/foo.js:0
                 msgid "baz"
                 msgstr "qux"
@@ -87,7 +87,7 @@ class TestImportModule(betopiaerp.tests.TransactionCase):
                 msgstr "dumb_nl"
 
                 #. module: bar
-                #. BetopiaERP-javascript
+                #. betopiaerp-javascript
                 #: code:addons/foo/static/src/js/baz.js:0
                 msgid "baz"
                 msgstr "qux_nl"
@@ -137,7 +137,7 @@ class TestImportModule(betopiaerp.tests.TransactionCase):
             po_reader._to_translate,
             [
                 ('bar', 'foo', 'res.country,name', 'bar.foo', 'model', (), self.env.ref('bar.foo').id, 'dumb'),
-                ('bar', 'baz', r'addons/bar/static/src/js/bar.js', 1, 'code', ('BetopiaERP-javascript',), None, 'qux'),
+                ('bar', 'baz', r'addons/bar/static/src/js/bar.js', 1, 'code', ('betopiaerp-javascript',), None, 'qux'),
             ]
         )
 

@@ -1,5 +1,5 @@
 import { Location } from '@delivery/js/location_selector/location/location';
-import { Component, onMounted, useEffect } from '@BetopiaERP/owl';
+import { Component, onMounted, useEffect } from '@betopiaerp/owl';
 
 export class LocationList extends Component {
     static components = { Location };

@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { testEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
-import { animationFrame, press, tick } from "@BetopiaERP/hoot-dom";
+import { animationFrame, press, tick } from "@betopiaerp/hoot-dom";
 import { insertText, simulateArrowKeyPress, splitBlock } from "./_helpers/user_actions";
 import { getContent } from "./_helpers/selection";
 import { closestElement } from "@html_editor/utils/dom_traversal";

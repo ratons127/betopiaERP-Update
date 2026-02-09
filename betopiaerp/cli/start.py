@@ -11,7 +11,7 @@ from betopiaerp.tools import config
 
 
 class Start(Command):
-    """ Quickly start the BetopiaERP server with default options """
+    """ Quickly start the betopiaerp server with default options """
 
     def get_module_list(self, path):
         mods = itertools.chain.from_iterable(

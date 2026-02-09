@@ -12,7 +12,7 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { Composer } from "@mail/core/common/composer";
-import { beforeEach, describe, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, test } from "@betopiaerp/hoot";
 import {
     asyncStep,
     getService,
@@ -115,14 +115,14 @@ test("html composer: send a message in a channel", async () => {
     await contains(".o-mail-Composer-input", { value: "" });
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "Hello");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "Hello" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "Hello" });
     await click(".o-mail-Composer button[title='Send']:enabled");
     await click(".o-mail-Message[data-persistent]:contains(Hello)");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
 });

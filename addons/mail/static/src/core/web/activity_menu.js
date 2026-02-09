@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 import { useDiscussSystray } from "@mail/utils/common/hooks";
 import { Dropdown } from "@web/core/dropdown/dropdown";

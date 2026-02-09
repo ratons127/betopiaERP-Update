@@ -1,6 +1,6 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     hover,
@@ -11,9 +11,9 @@ import {
     Deferred,
     edit,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, disableAnimations, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, disableAnimations, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import {
     contains,
     getService,

@@ -3,7 +3,7 @@ import { session } from "@web/session";
 import { useService } from "@web/core/utils/hooks";
 import { _t } from "@web/core/l10n/translation";
 
-import { Component, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useRef, useState } from "@betopiaerp/owl";
 
 export class EmailSharingInput extends Component {
     static template = "website_slides.EmailSharingInput";

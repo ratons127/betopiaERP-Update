@@ -1,4 +1,4 @@
-import { Component, onWillStart, useState, onWillDestroy } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState, onWillDestroy } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 
 export class KioskPinCode extends Component {

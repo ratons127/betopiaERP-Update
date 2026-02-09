@@ -1,4 +1,4 @@
-import { Component, useRef, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useRef, useState, useEffect } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { debounce } from "@web/core/utils/timing";

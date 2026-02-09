@@ -138,7 +138,7 @@ class CalendarEvent(models.Model):
         ])
 
     @api.model
-    def _BetopiaERP_values(self, google_event, default_reminders=()):
+    def _betopiaerp_values(self, google_event, default_reminders=()):
         if google_event.is_cancelled():
             return {'active': False}
 
@@ -148,8 +148,8 @@ class CalendarEvent(models.Model):
         reminder_command = google_event.reminders.get('overrides')
         if not reminder_command:
             reminder_command = google_event.reminders.get('useDefault') and default_reminders or ()
-        alarm_commands = self._BetopiaERP_reminders_commands(reminder_command)
-        attendee_commands, partner_commands = self._BetopiaERP_attendee_commands(google_event)
+        alarm_commands = self._betopiaerp_reminders_commands(reminder_command)
+        attendee_commands, partner_commands = self._betopiaerp_attendee_commands(google_event)
         related_event = self.search([('google_id', '=', google_event.id)], limit=1)
         name = google_event.summary or related_event and related_event.name or _("(No title)")
         values = {
@@ -197,7 +197,7 @@ class CalendarEvent(models.Model):
         return values
 
     @api.model
-    def _BetopiaERP_attendee_commands(self, google_event):
+    def _betopiaerp_attendee_commands(self, google_event):
         attendee_commands = []
         partner_commands = []
         google_attendees = google_event.attendees or []
@@ -210,7 +210,7 @@ class CalendarEvent(models.Model):
         emails = [a.get('email') for a in google_attendees]
         existing_attendees = self.env['calendar.attendee']
         if google_event.exists(self.env):
-            event = google_event.get_BetopiaERP_event(self.env)
+            event = google_event.get_betopiaerp_event(self.env)
             existing_attendees = event.attendee_ids
         attendees_by_emails = {tools.email_normalize(a.email): a for a in existing_attendees}
         partners = self._get_sync_partner(emails)
@@ -231,16 +231,16 @@ class CalendarEvent(models.Model):
                 partner_commands += [(4, partner.id)]
                 if attendee[2].get('displayName') and not partner.name:
                     partner.name = attendee[2].get('displayName')
-        for BetopiaERP_attendee in attendees_by_emails.values():
+        for betopiaerp_attendee in attendees_by_emails.values():
             # Remove old attendees but only if it does not correspond to the current user.
-            email = tools.email_normalize(BetopiaERP_attendee.email)
+            email = tools.email_normalize(betopiaerp_attendee.email)
             if email not in emails and email != self.env.user.email:
-                attendee_commands += [(2, BetopiaERP_attendee.id)]
-                partner_commands += [(3, BetopiaERP_attendee.partner_id.id)]
+                attendee_commands += [(2, betopiaerp_attendee.id)]
+                partner_commands += [(3, betopiaerp_attendee.partner_id.id)]
         return attendee_commands, partner_commands
 
     @api.model
-    def _BetopiaERP_reminders_commands(self, reminders=()):
+    def _betopiaerp_reminders_commands(self, reminders=()):
         commands = []
         for reminder in reminders:
             alarm_type = 'email' if reminder.get('method') == 'email' else 'notification'
@@ -333,7 +333,7 @@ class CalendarEvent(models.Model):
             'attendees': attendee_values,
             'extendedProperties': {
                 'shared': {
-                    '%s_BetopiaERP_id' % self.env.cr.dbname: self.id,
+                    '%s_betopiaerp_id' % self.env.cr.dbname: self.id,
                 },
             },
             'reminders': {
@@ -362,10 +362,10 @@ class CalendarEvent(models.Model):
             # See https://developers.google.com/calendar/concepts/sharing
             keep_keys = ['id', 'summary', 'attendees', 'start', 'end', 'reminders']
             values = {key: val for key, val in values.items() if key in keep_keys}
-            # values['extendedProperties']['private] should be used if the owner is not an BetopiaERP user
+            # values['extendedProperties']['private] should be used if the owner is not an betopiaerp user
             values['extendedProperties'] = {
                 'private': {
-                    '%s_BetopiaERP_id' % self.env.cr.dbname: self.id,
+                    '%s_betopiaerp_id' % self.env.cr.dbname: self.id,
                 },
             }
         return values

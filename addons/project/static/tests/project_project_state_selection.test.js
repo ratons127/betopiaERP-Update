@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import { fields, mountView } from "@web/../tests/web_test_helpers";
 
 import { defineProjectModels, ProjectProject } from "./project_models";

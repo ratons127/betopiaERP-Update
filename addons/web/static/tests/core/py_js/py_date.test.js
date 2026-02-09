@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 
 import { evaluateExpr } from "@web/core/py_js/py";
 import { PyDate, PyTimeDelta } from "@web/core/py_js/py_date";

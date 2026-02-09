@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
 <template id="spreadsheet.public_spreadsheet_layout" name="Public spreadsheet layout">
     <t t-call="web.layout">
         <t t-set="head">
             <script>
-                BetopiaERP.__session_info__ = <t t-out="json.dumps(session_info)"/>;
-                BetopiaERP.__session_info__.spreadsheet_public_props = <t t-out="json.dumps(props)"/>;
+                betopiaerp.__session_info__ = <t t-out="json.dumps(session_info)"/>;
+                betopiaerp.__session_info__.spreadsheet_public_props = <t t-out="json.dumps(props)"/>;
             </script>
             <t t-call-assets="spreadsheet.public_spreadsheet"/>
         </t>
@@ -36,4 +36,4 @@
     </t>
 </template>
 
-</BetopiaERP>
+</betopiaerp>

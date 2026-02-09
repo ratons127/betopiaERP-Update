@@ -1,6 +1,6 @@
 import { defineModels, fields, models, mountView } from "@web/../tests/web_test_helpers";
-import { test, expect } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { test, expect } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
 
 class Partner extends models.Model {
     foo = fields.Char({

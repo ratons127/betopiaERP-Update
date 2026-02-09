@@ -5,7 +5,7 @@ import { Reactive } from "@web/core/utils/reactive";
 import { AddSnippetDialog } from "./add_snippet_dialog";
 import { registry } from "@web/core/registry";
 import { user } from "@web/core/user";
-import { markup, useState } from "@BetopiaERP/owl";
+import { markup, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 export class SnippetModel extends Reactive {
@@ -98,7 +98,7 @@ export class SnippetModel extends Reactive {
         const bodyText = _t("Do you want to install %s App?", snippet.moduleDisplayName);
         const linkText = _t("More info about this app.");
         const linkUrl =
-            "/BetopiaERP/action-base.open_module_tree/" + encodeURIComponent(snippet.moduleId);
+            "/betopiaerp/action-base.open_module_tree/" + encodeURIComponent(snippet.moduleId);
 
         this.dialog.add(ConfirmationDialog, {
             title: _t("Install %s", snippet.moduleDisplayName),

@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <template id="portal_my_details_fields" inherit_id="account.portal_my_details">
         <xpath expr="//t[@t-if='invoice_edi_formats']" position="after">
             <t t-if="partner_sudo.country_id.code == 'MY'">
@@ -38,4 +38,4 @@
             </t>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

@@ -6,16 +6,16 @@
 # Tony Ng, 2025
 # Wil BetopiaERP, 2025
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~18.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 08:11+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19/sale_gelato/zh_Hant/>\n"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19/sale_gelato/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,13 +107,13 @@ msgid "Contact"
 msgstr "聯絡人"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/utils.py:0
 msgid "Could not establish the connection to the Gelato API."
 msgstr "未能與 Gelato API 建立連線。"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Could not synchronize with Gelato"
 msgstr "未能與 Gelato 同步"
@@ -195,7 +195,7 @@ msgid "Gelato Webhook Secret"
 msgstr "Gelato 網絡鈎子秘密"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid ""
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
@@ -205,13 +205,13 @@ msgstr ""
 "(gelato_message)s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has canceled order %(reference)s."
 msgstr ""
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has returned order %(reference)s."
 msgstr "Gelato 傳回訂單。訂單參考編號：%(reference)s。"
@@ -235,7 +235,7 @@ msgid "ID"
 msgstr "識別號"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "Invalid source document type"
 msgstr ""
@@ -257,7 +257,7 @@ msgid "Missing Print Images"
 msgstr "缺漏列印圖片"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Missing product variants and images have been successfully created."
 msgstr "缺漏的產品款式變體及圖片，已成功建立。"
@@ -268,7 +268,7 @@ msgid "Print Images"
 msgstr "列印圖片"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_document.py:0
 msgid "Print images must be set on products before they can be ordered."
 msgstr "產品必須先設定列印圖片，才可供訂購。"
@@ -332,7 +332,7 @@ msgid "Standard Delivery (Gelato)"
 msgstr "標準送貨（Gelato）"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Successfully synchronized with Gelato"
 msgstr "已成功與 Gelato 同步"
@@ -354,25 +354,25 @@ msgid "Template Reference"
 msgstr "範本參考"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The delivery method is not available for this order."
 msgstr "送貨方式不適用於此訂單。"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The following required address fields are missing: %s"
 msgstr "以下必填地址欄位缺漏：%s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The order has been successfully passed on Gelato."
 msgstr "訂單已成功傳送給 Gelato。"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid ""
 "The order with reference %(order_reference)s was not sent to Gelato.\n"
@@ -382,13 +382,13 @@ msgstr ""
 "原因：%(error_message)s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to confirm the order %s on Gelato."
 msgstr ""
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to delete the order %s on Gelato."
 msgstr ""
@@ -399,7 +399,7 @@ msgid "Webhook Secret"
 msgstr "網絡鈎子秘密"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."

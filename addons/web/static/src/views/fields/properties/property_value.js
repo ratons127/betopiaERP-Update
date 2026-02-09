@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { CheckBox } from "@web/core/checkbox/checkbox";
 import { DateTimeInput } from "@web/core/datetime/datetime_input";
 import { Domain } from "@web/core/domain";

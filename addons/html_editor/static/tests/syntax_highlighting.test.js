@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { getContent, setSelection } from "./_helpers/selection";
-import { animationFrame, click, press, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { animationFrame, click, press, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { insertText, splitBlock } from "./_helpers/user_actions";
 import {
     compareHighlightedContent,

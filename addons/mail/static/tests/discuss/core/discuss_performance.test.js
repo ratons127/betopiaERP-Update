@@ -12,8 +12,8 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { Composer } from "@mail/core/common/composer";
 import { Message } from "@mail/core/common/message";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { onMounted, onPatched } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { onMounted, onPatched } from "@betopiaerp/owl";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { range } from "@web/core/utils/numbers";
 

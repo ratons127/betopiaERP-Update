@@ -36,7 +36,7 @@ registerWebsitePreviewTour(
             // It addresses the issue where selecting a we-button with data-no-bundle-reload,
             // such as o_we_add_font_btn.
             run: function () {
-                const options = BetopiaERP.loader.modules.get(
+                const options = betopiaerp.loader.modules.get(
                     "@website/builder/plugins/customize_website_plugin"
                 )["CustomizeWebsitePlugin"];
                 patch(options.prototype, {

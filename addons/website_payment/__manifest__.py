@@ -42,6 +42,6 @@ This is a bridge module that adds multi-website support for payment providers.
             'website_payment/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

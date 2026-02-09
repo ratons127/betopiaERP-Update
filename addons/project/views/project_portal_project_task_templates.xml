@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="portal_my_tasks_priority_widget_template" name="Priority Widget Template">
         <t t-set="priority_label" t-value="priority_labels[task.priority]"/>
         <span t-attf-class="o_priority_star d-inline-block fa fa-star#{' text-warning' if task.priority != '0' else '-o opacity-75'} #{classes if classes else ''}" t-att-title="priority_label"/>
@@ -167,7 +167,7 @@
         <xpath expr="//t[@t-call='project.task_link_preview_portal_layout']" position="before">
             <t t-set="o_portal_fullwidth_alert" groups="project.group_project_user">
                 <t t-call="portal.portal_back_in_edit_mode">
-                    <t t-set="backend_url" t-value="'/BetopiaERP/action-project.action_view_my_task/%s' % (task.id)"/>
+                    <t t-set="backend_url" t-value="'/betopiaerp/action-project.action_view_my_task/%s' % (task.id)"/>
                 </t>
             </t>
         </xpath>
@@ -322,4 +322,4 @@
         <strong t-if="task.allocated_hours > 0" class="d-none">Allocated Time:</strong>
         <span t-out="task.allocated_hours" t-options='{"widget": "float_time"}'/>
     </template>
-</BetopiaERP>
+</betopiaerp>

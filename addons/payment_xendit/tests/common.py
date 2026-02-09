@@ -51,7 +51,7 @@ class XenditCommon(PaymentCommon):
             'masked_card_number': '520000XXXXXX2151',
             'card_brand': 'MASTERCARD',
             'card_type': 'CREDIT',
-            'descriptor': 'XDT*BetopiaERP',
+            'descriptor': 'XDT*BETOPIAERP',
             'authorization_id': '6645aaa3f00da60017cdc66b',
             'bank_reconciliation_id': '7158417004836852803955',
             'issuing_bank_name': 'PT BANK NEGARA INDONESIA TBK',

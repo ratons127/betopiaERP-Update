@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { setupEditor } from "@html_editor/../tests/_helpers/editor";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
 import { expandToolbar } from "@html_editor/../tests/_helpers/toolbar";

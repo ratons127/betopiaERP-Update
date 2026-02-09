@@ -17,7 +17,7 @@ export class MailComposerPlugin extends Plugin {
         create_link_handlers: (linkEl) => (linkEl.target = "_blank"),
         hints: [
             withSequence(1, {
-                selector: `.BetopiaERP-editor-editable > ${baseContainerGlobalSelector}:only-child`,
+                selector: `.betopiaerp-editor-editable > ${baseContainerGlobalSelector}:only-child`,
                 text: this.config.placeholder,
             }),
         ],

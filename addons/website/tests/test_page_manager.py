@@ -21,7 +21,7 @@ class TestWebsitePageManager(betopiaerp.tests.HttpCase):
         })
 
         website.domain = self.base_url()
-        self.start_tour('/BetopiaERP#action=website.action_website_pages_list', 'website_page_manager_direct_access', login='admin')
+        self.start_tour('/betopiaerp#action=website.action_website_pages_list', 'website_page_manager_direct_access', login='admin')
 
     def test_generic_page_diverged_not_shown(self):
         Page = self.env['website.page']

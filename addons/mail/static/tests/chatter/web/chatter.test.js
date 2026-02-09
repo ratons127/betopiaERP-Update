@@ -17,8 +17,8 @@ import {
     triggerHotkey,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, advanceTime } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, advanceTime } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     defineActions,
@@ -29,7 +29,7 @@ import {
 } from "@web/../tests/web_test_helpers";
 
 import { DELAY_FOR_SPINNER } from "@mail/chatter/web_portal/chatter";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -714,7 +714,7 @@ test("should display the subject even if the record name is false", async () => 
 
 test("Update message recipients without saving", async () => {
     const pyEnv = await startServer();
-    pyEnv["res.partner"].write([serverState.partnerId], { email: "mitchell@BetopiaERP.com" });
+    pyEnv["res.partner"].write([serverState.partnerId], { email: "mitchell@betopiaerp.com" });
     const partnerId = pyEnv["res.partner"].create({
         name: "John Doe",
         email: "john@doe.be",
@@ -734,7 +734,7 @@ test("Update message recipients without saving", async () => {
 
 test("Update primary email in recipient without saving", async () => {
     const pyEnv = await startServer();
-    pyEnv["res.partner"].write([serverState.partnerId], { email: "mitchell@BetopiaERP.com" });
+    pyEnv["res.partner"].write([serverState.partnerId], { email: "mitchell@betopiaerp.com" });
     const partnerId = pyEnv["res.partner"].create({
         name: "John Doe",
         email: "john@doe.be",

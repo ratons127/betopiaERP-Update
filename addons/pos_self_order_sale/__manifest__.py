@@ -8,6 +8,6 @@
         "views/res_config_settings_views.xml",
         "data/kiosk_sale_team.xml",
     ],
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

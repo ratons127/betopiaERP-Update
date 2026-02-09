@@ -1,7 +1,7 @@
-import { onMounted, onWillRender } from "@BetopiaERP/owl";
+import { onMounted, onWillRender } from "@betopiaerp/owl";
 import { patch } from "@web/core/utils/patch";
 
-BetopiaERP.loader.bus.addEventListener("module-started", (e) => {
+betopiaerp.loader.bus.addEventListener("module-started", (e) => {
     if (e.detail.moduleName !== "@website/components/wysiwyg_adapter/wysiwyg_adapter") {
         return;
     }

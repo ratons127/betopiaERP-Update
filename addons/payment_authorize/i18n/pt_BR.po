@@ -7,17 +7,17 @@
 # Mateus Lopes <mateus1@gmail.com>, 2019
 # Caio Leonardo Mendes de Sousa <caleozao@gmail.com>, 2019
 # grazziano <gra.negocia@gmail.com>, 2019
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# "Maitê Dietze (madi)" <madi@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# "Maitê Dietze (madi)" <madi@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-18 17:08+0000\n"
-"Last-Translator: \"Maitê Dietze (madi)\" <madi@BetopiaERP.com>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.BetopiaERP.com/projects/"
-"BetopiaERP-19/payment_authorize/pt_BR/>\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@betopiaerp.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.betopiaerp.com/projects/"
+"betopiaerp-19/payment_authorize/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -113,7 +113,7 @@ msgid "Code"
 msgstr "Código"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Could not fetch merchant details:\n"
@@ -123,7 +123,7 @@ msgstr ""
 "%s"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
@@ -145,7 +145,7 @@ msgid "Expiration"
 msgstr "Expiração"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid ""
 "Failed to authenticate.\n"
@@ -182,7 +182,7 @@ msgid "Name On Account"
 msgstr "Nome na conta"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "Only one currency can be selected by Authorize.Net account."
 msgstr "Só é possível selecionar uma moeda por conta do Authorize.Net."
@@ -203,13 +203,13 @@ msgid "Payment Transaction"
 msgstr "Transação do Pagamento"
 
 #. module: payment_authorize
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_authorize/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Falha no processamento do pagamento"
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "Received data with status code \"%(status)s\" and error code \"%(error)s\"."
@@ -218,7 +218,7 @@ msgstr ""
 "(error)s\""
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "Dados da solicitação de pagamento recebidos alterados."
@@ -248,7 +248,7 @@ msgid "The technical code of this payment provider."
 msgstr "O código técnico deste provedor de pagamento."
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_transaction.py:0
 msgid ""
 "The transaction is not in a status to be refunded. (status: %(status)s, "
@@ -267,7 +267,7 @@ msgstr ""
 "Authorize.Net."
 
 #. module: payment_authorize
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_authorize/models/payment_provider.py:0
 msgid "This action cannot be performed while the provider is disabled."
 msgstr "Esta ação não pode ser executada enquanto o provedor está desativado."

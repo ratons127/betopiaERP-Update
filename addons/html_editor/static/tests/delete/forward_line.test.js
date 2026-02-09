@@ -1,8 +1,8 @@
-import { test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
-import { mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { mockUserAgent } from "@betopiaerp/hoot-mock";
 
 const ctrlShiftDelete = () => press(["Ctrl", "Shift", "Delete"]);
 

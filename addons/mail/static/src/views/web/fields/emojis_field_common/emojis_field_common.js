@@ -1,6 +1,6 @@
 import { useEmojiPicker } from "@web/core/emoji_picker/emoji_picker";
 
-import { useRef } from "@BetopiaERP/owl";
+import { useRef } from "@betopiaerp/owl";
 
 /*
  * Common code for EmojisTextField and EmojisCharField

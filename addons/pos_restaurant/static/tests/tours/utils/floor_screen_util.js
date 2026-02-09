@@ -129,7 +129,7 @@ export function linkTables(child, parent) {
             await new Promise((resolve) => setTimeout(resolve, helpers.delay));
         };
         const element = helpers.anchor;
-        const { drag } = BetopiaERP.loader.modules.get("@BetopiaERP/hoot-dom");
+        const { drag } = betopiaerp.loader.modules.get("@betopiaerp/hoot-dom");
         const { drop, moveTo } = await drag(element);
         await dragEffectDelay();
         await helpers.hover(element, {

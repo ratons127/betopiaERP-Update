@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { waitFor, waitForNone, press, manuallyDispatchProgrammaticEvent } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { waitFor, waitForNone, press, manuallyDispatchProgrammaticEvent } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent } from "./_helpers/selection";
 import { insertText, splitBlock } from "./_helpers/user_actions";

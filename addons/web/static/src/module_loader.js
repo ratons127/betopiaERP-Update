@@ -1,13 +1,13 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 
 //-----------------------------------------------------------------------------
 // BetopiaERP Web Boostrap Code
 //-----------------------------------------------------------------------------
 
-(function (BetopiaERP) {
+(function (betopiaerp) {
     "use strict";
 
-    if (BetopiaERP.loader) {
+    if (betopiaerp.loader) {
         // Allows for duplicate calls to `module_loader`: only the first one is
         // executed.
         return;
@@ -62,7 +62,7 @@
             this.factories.set(name, {
                 deps,
                 fn: factory,
-                ignoreMissingDeps: globalThis.__BetopiaERPIgnoreMissingDependencies,
+                ignoreMissingDeps: globalThis.__betopiaerpIgnoreMissingDependencies,
             });
             if (!lazy) {
                 this.addJob(name);
@@ -239,12 +239,11 @@
     }
 
     const loader = new ModuleLoader();
-    BetopiaERP.define = loader.define.bind(loader);
-    BetopiaERP.loader = loader;
-    globalThis.betopiaerp = BetopiaERP;
+    betopiaerp.define = loader.define.bind(loader);
+    betopiaerp.loader = loader;
 
-    if (BetopiaERP.debug && !loader.debug) {
+    if (betopiaerp.debug && !loader.debug) {
         // remove debug mode if not explicitely set in url
-        BetopiaERP.debug = "";
+        betopiaerp.debug = "";
     }
-})((globalThis.BetopiaERP ||= {}));
+})((globalThis.betopiaerp ||= {}));

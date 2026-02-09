@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryFirst, waitFor } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     makeMockEnv,

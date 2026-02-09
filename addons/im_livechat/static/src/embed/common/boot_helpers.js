@@ -64,7 +64,7 @@ export async function loadAssets(styleTarget) {
     await Promise.all([
         loadStyle(styleTarget),
         loadFont("FontAwesome", url("/im_livechat/font-awesome"), document),
-        loadFont("BetopiaERP_ui_icons", url("/im_livechat/BetopiaERP_ui_icons"), document),
+        loadFont("betopiaerp_ui_icons", url("/im_livechat/betopiaerp_ui_icons"), document),
     ]);
 }
 

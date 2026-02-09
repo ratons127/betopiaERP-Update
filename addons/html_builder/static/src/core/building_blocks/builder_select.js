@@ -1,4 +1,4 @@
-import { Component, onMounted, useRef, useSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, useRef, useSubEnv, xml } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import {

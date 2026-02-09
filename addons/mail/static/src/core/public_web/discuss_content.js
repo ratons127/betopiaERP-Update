@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 
 import { useThreadActions } from "@mail/core/common/thread_actions";
 import { AutoresizeInput } from "@mail/core/common/autoresize_input";

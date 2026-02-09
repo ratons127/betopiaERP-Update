@@ -11,6 +11,6 @@
     ],
     'installable': True,
     'auto_install': ['pos_hr', 'pos_restaurant'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

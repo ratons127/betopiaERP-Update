@@ -9,7 +9,7 @@ import { listView } from "@web/views/list/list_view";
 
 import { ListController } from "@web/views/list/list_controller";
 import { ListRenderer } from "@web/views/list/list_renderer";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 export class ExpenseListController extends ExpenseDocumentUpload(ListController) {
     static template = `hr_expense.ListView`;

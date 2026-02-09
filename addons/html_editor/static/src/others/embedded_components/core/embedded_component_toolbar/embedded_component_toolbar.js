@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useForwardRefToParent } from "@web/core/utils/hooks";
 
 export class EmbeddedComponentToolbar extends Component {

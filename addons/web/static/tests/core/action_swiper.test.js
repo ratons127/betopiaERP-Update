@@ -1,9 +1,9 @@
-/** @BetopiaERP-module alias=@web/../tests/mobile/core/action_swiper_tests default=false */
+/** @betopiaerp-module alias=@web/../tests/mobile/core/action_swiper_tests default=false */
 
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { hover, queryFirst } from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, mockTouch } from "@BetopiaERP/hoot-mock";
-import { Component, onPatched, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { hover, queryFirst } from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, mockTouch } from "@betopiaerp/hoot-mock";
+import { Component, onPatched, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineParams,

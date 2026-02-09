@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="mailing_report_deactivated" name="Report Unsubscribed">
         <t t-call="mass_mailing.layout">
             <div class="container mt8">
@@ -10,7 +10,7 @@
                             <p>
                                 Mailing Reports have been turned off for all users. <br/>
                                 If needed, they can be turned back on from the
-                                <a t-if="menu_id" t-attf-href="/BetopiaERP?menu_id={{menu_id}}">
+                                <a t-if="menu_id" t-attf-href="/betopiaerp?menu_id={{menu_id}}">
                                     Settings Menu.
                                 </a>
                                 <t t-else="">
@@ -69,4 +69,4 @@
     </body>
 </html>
     </template>
-</BetopiaERP>
+</betopiaerp>

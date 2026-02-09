@@ -1,6 +1,6 @@
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class BomOverviewDisplayFilter extends Component {
     static template = "mrp.BomOverviewDisplayFilter";

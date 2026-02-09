@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { basicHeaderOptionSettings } from "./basicHeaderOptionSettings";
 
 export class HeaderNavigationOption extends BaseOptionComponent {

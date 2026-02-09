@@ -1,4 +1,4 @@
-import { Component, reactive } from "@BetopiaERP/owl";
+import { Component, reactive } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { registry } from "@web/core/registry";
 

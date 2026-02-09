@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import {
     addOption,

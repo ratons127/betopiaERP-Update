@@ -1,4 +1,4 @@
-import { test, describe, beforeEach, expect } from "@BetopiaERP/hoot";
+import { test, describe, beforeEach, expect } from "@betopiaerp/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { getContent, setContent } from "../_helpers/selection";
@@ -16,9 +16,9 @@ import {
     EmbeddedToggleBlockComponent,
     toggleBlockEmbedding,
 } from "@html_editor/others/embedded_components/core/toggle_block/toggle_block";
-import { onMounted } from "@BetopiaERP/owl";
-import { animationFrame, queryOne, tick } from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { onMounted } from "@betopiaerp/owl";
+import { animationFrame, queryOne, tick } from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import { browser } from "@web/core/browser/browser";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { EmbeddedComponentPlugin } from "@html_editor/others/embedded_component_plugin";

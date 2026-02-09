@@ -1,4 +1,4 @@
-import { Component, useEffect } from "@BetopiaERP/owl";
+import { Component, useEffect } from "@betopiaerp/owl";
 import { CriticalPOSError } from "./critical_pos_error/critical_pos_error";
 
 export class Loader extends Component {

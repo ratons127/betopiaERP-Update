@@ -1,4 +1,4 @@
-import { markup, onWillDestroy, onWillStart, onWillUpdateProps, useComponent } from "@BetopiaERP/owl";
+import { markup, onWillDestroy, onWillStart, onWillUpdateProps, useComponent } from "@betopiaerp/owl";
 import { evalPartialContext, makeContext } from "@web/core/context";
 import { Domain } from "@web/core/domain";
 import {

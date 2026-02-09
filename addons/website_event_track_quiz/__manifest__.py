@@ -8,7 +8,7 @@
     'sequence': 1007,
     'version': '1.0',
     'summary': 'Quizzes on tracks',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'depends': [
         'website_profile',
         'website_event_track',
@@ -37,6 +37,6 @@
             'website_event_track_quiz/static/src/xml/quiz_templates.xml',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

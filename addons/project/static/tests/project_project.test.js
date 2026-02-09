@@ -1,5 +1,5 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     mountView,
     onRpc,

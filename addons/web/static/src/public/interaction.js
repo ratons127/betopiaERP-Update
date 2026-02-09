@@ -458,7 +458,7 @@ export class Interaction {
      * Mounts an Owl component.
      *
      * @param {HTMLElement} el
-     * @param {import("@BetopiaERP/owl").Component} C
+     * @param {import("@betopiaerp/owl").Component} C
      * @param {Object|null} [props]
      * @returns {Function} destroy function for early removal
      */

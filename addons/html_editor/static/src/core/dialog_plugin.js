@@ -1,7 +1,7 @@
 import { Plugin } from "../plugin";
 
 /**
- * @typedef {typeof import("@BetopiaERP/owl").Component} Component
+ * @typedef {typeof import("@betopiaerp/owl").Component} Component
  * @typedef {import("@web/core/dialog/dialog_service").DialogServiceInterfaceAddOptions} DialogServiceInterfaceAddOptions
  */
 

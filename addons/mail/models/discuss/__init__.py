@@ -12,7 +12,7 @@ from . import discuss_gif_favorite
 from . import discuss_voice_metadata
 from . import mail_guest
 
-# BetopiaERP models
+# betopiaerp models
 from . import bus_listener_mixin
 from . import ir_attachment
 from . import ir_websocket

@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps, useState, useRef } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useState, useRef } from "@betopiaerp/owl";
 import { CustomColorPicker as ColorPicker } from "@web/core/color_picker/custom_color_picker/custom_color_picker";
 import {
     isColorGradient,

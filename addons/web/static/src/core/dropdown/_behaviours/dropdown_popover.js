@@ -1,4 +1,4 @@
-import { Component, onMounted, onRendered, onWillDestroy, onWillStart, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, onRendered, onWillDestroy, onWillStart, xml } from "@betopiaerp/owl";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 
 export class DropdownPopover extends Component {

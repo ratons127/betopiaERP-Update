@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     addOption,

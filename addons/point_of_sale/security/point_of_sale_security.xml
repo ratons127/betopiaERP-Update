@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record model="res.groups.privilege" id="res_groups_privilege_point_of_sale">
         <field name="name">Point of Sale</field>
         <field name="sequence">21</field>
@@ -91,4 +91,4 @@
         <field name="domain_force">[('move_id.pos_order_ids', '!=', False)]</field>
     </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 import { formatFloat } from "@web/views/fields/formatters";
-import { Component, markup } from "@BetopiaERP/owl";
+import { Component, markup } from "@betopiaerp/owl";
 
 export class ForecastedHeader extends Component {
     static template = "stock.ForecastedHeader";

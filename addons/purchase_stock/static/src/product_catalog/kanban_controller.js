@@ -1,5 +1,5 @@
 import { ProductCatalogKanbanController } from "@product/product_catalog/kanban_controller";
-import { useSubEnv, useEnv } from "@BetopiaERP/owl";
+import { useSubEnv, useEnv } from "@betopiaerp/owl";
 import { useDebounced } from "@web/core/utils/timing";
 
 export class PurchaseSuggestCatalogKanbanController extends ProductCatalogKanbanController {

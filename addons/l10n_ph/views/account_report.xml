@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <record id="action_report_disbursement_voucher_ph" model="ir.actions.report">
         <field name="name">Philippines : Disbursement Voucher</field>
         <field name="model">account.payment</field>
@@ -9,4 +9,4 @@
         <field name="binding_type">report</field>
         <field name="domain" eval="[('company_id.country_code', '=', 'PH')]"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

@@ -1,8 +1,8 @@
 import { click, contains, openDiscuss, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { defineLivechatModels } from "./livechat_test_helpers";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { mockDate } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineLivechatModels();

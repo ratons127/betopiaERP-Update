@@ -8,7 +8,7 @@ from betopiaerp.tools import file_open, file_open_temporary_directory, file_path
 from betopiaerp.tools.config import configmanager
 
 EMPTY_CONFIG_PATH = file_path('base/tests/config/empty.conf')
-PROJECT_PATH = betopiaerp.tools.config.root_path.removesuffix('/BetopiaERP')
+PROJECT_PATH = betopiaerp.tools.config.root_path.removesuffix('/betopiaerp')
 DEFAULT_DATADIR = betopiaerp.tools.config._default_options['data_dir']
 
 MISSING_HTTP_INTERFACE = """\
@@ -21,7 +21,7 @@ class TestConfigManager(TransactionCase):
 
     def setUp(self):
         super().setUp()
-        patcher = patch.dict('os.environ', {'BetopiaERP_RC': EMPTY_CONFIG_PATH}, clear=True)
+        patcher = patch.dict('os.environ', {'BETOPIAERP_RC': EMPTY_CONFIG_PATH}, clear=True)
         patcher.start()
         self.addCleanup(patcher.stop)
         self.config = configmanager()
@@ -108,7 +108,7 @@ class TestConfigManager(TransactionCase):
             'test_enable': False,
             'test_tags': None,
             'screencasts': '',
-            'screenshots': '/tmp/BetopiaERP_tests',
+            'screenshots': '/tmp/betopiaerp_tests',
 
             # logging
             'logfile': '',
@@ -142,7 +142,7 @@ class TestConfigManager(TransactionCase):
             'db_template': 'template0',
             'db_replica_host': None,
             'db_replica_port': None,
-            'db_app_name': 'BetopiaERP-{pid}',
+            'db_app_name': 'betopiaerp-{pid}',
 
             # i18n
             'load_language': None,
@@ -259,7 +259,7 @@ class TestConfigManager(TransactionCase):
             'db_template': 'backup1706',
             'db_replica_host': 'db2.localhost',
             'db_replica_port': 2038,
-            'db_app_name': 'BetopiaERP-{pid}',
+            'db_app_name': 'betopiaerp-{pid}',
 
             # i18n
             'load_language': 'fr_FR',  # blacklist for save, read from the config file
@@ -292,7 +292,7 @@ class TestConfigManager(TransactionCase):
             'limit_request': 100,
         })
         self.assertEqual(capture.output, [
-            "WARNING:betopiaerp.tools.config:option addons_path, no such directory '/tmp/BetopiaERP', skipped",
+            "WARNING:betopiaerp.tools.config:option addons_path, no such directory '/tmp/betopiaerp', skipped",
             "WARNING:betopiaerp.tools.config:option upgrade_path, no such directory '/tmp/upgrade', skipped",
             "WARNING:betopiaerp.tools.config:option pre_upgrade_scripts, no such file '/tmp/pre-custom.py', skipped",
         ])
@@ -313,7 +313,7 @@ class TestConfigManager(TransactionCase):
                 )
                 self.assertEqual(config_content.splitlines(), save_content.splitlines())
 
-    def test_04_BetopiaERP16_config_file(self):
+    def test_04_betopiaerp16_config_file(self):
         # test that loading the BetopiaERP 16.0 generated default config works
         # with a modern version
         config_path = file_path('base/tests/config/16.0.conf')
@@ -364,7 +364,7 @@ class TestConfigManager(TransactionCase):
             'proxy_mode': False,
             'reportgz': False,
             'screencasts': '',
-            'screenshots': '/tmp/BetopiaERP_tests',
+            'screenshots': '/tmp/betopiaerp_tests',
             'server_wide_modules': ['base', 'web'],
             'smtp_password': '',
             'smtp_port': 25,
@@ -416,7 +416,7 @@ class TestConfigManager(TransactionCase):
             'db_maxconn_gevent': None,
             'db_replica_host': None,
             'db_replica_port': None,
-            'db_app_name': 'BetopiaERP-{pid}',
+            'db_app_name': 'betopiaerp-{pid}',
             'geoip_country_db': '/usr/share/GeoIP/GeoLite2-Country.mmdb',
             'from_filter': '',
             'gevent_port': 8072,

@@ -1,7 +1,7 @@
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
-import { enableTransitions } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
+import { enableTransitions } from "@betopiaerp/hoot-mock";
 
 setupInteractionWhiteList("website.carousel_slider");
 beforeEach(enableTransitions);

@@ -1,4 +1,4 @@
-import { expect, test, tick, waitFor, waitUntil } from "@BetopiaERP/hoot";
+import { expect, test, tick, waitFor, waitUntil } from "@betopiaerp/hoot";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import { addPlugin, defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";
 import { getDragHelper, waitForEndOfOperation } from "@html_builder/../tests/helpers";

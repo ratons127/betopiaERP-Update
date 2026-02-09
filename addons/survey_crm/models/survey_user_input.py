@@ -87,7 +87,7 @@ class SurveyUser_Input(models.Model):
 
         # Associate lead to the existing partner when known. Either because the person is connected
         # or because they received the survey with a unique token (by email for example).
-        if self.partner_id.active:  # active is used for a protection against BetopiaERPbot and public user's partner
+        if self.partner_id.active:  # active is used for a protection against betopiaerpbot and public user's partner
             lead_values['partner_id'] = self.partner_id.id
         elif input_lead_values['public_user_mail']:  # Save email field answer otherwise
             lead_values['email_from'] = input_lead_values['public_user_mail']

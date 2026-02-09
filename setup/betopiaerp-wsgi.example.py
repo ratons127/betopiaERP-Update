@@ -19,7 +19,7 @@ from betopiaerp.tools import config as conf  # noqa: F401
 # Common
 # ----------------------------------------------------------
 
-# Path to the betopiaerp Addons repository (comma-separated for
+# Path to the BetopiaERP Addons repository (comma-separated for
 # multiple locations)
 #conf['addons_path'] = './betopiaerp/addons,./addons'
 

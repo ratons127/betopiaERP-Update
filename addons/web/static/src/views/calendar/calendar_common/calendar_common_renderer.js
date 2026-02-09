@@ -12,7 +12,7 @@ import { useCalendarPopover } from "@web/views/calendar/hooks/calendar_popover_h
 import { useFullCalendar } from "@web/views/calendar/hooks/full_calendar_hook";
 import { useSquareSelection } from "@web/views/calendar/hooks/square_selection_hook";
 
-import { Component, useEffect } from "@BetopiaERP/owl";
+import { Component, useEffect } from "@betopiaerp/owl";
 
 const SCALE_TO_FC_VIEW = {
     day: "timeGridDay",

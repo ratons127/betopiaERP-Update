@@ -1,4 +1,4 @@
-import { onMounted, onWillUnmount } from "@BetopiaERP/owl";
+import { onMounted, onWillUnmount } from "@betopiaerp/owl";
 import { hasTouch } from "@web/core/browser/feature_detection";
 
 export function useDraggableScroll(scrollContainerRef, options = {}) {

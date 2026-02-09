@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 
 import { addGlobalFilterWithoutReload } from "@spreadsheet/../tests/helpers/commands";

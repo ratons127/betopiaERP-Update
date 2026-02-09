@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { simulateArrowKeyPress } from "../_helpers/user_actions";

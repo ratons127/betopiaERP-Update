@@ -1,4 +1,4 @@
-import { after, beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { after, beforeEach, expect, test } from "@betopiaerp/hoot";
 import {
     animationFrame,
     click,
@@ -12,8 +12,8 @@ import {
     queryFirst,
     queryValue,
     resize,
-} from "@BetopiaERP/hoot-dom";
-import { disableAnimations, mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { disableAnimations, mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
 import {
     clickSave,

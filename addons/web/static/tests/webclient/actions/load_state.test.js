@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { queryAllAttributes, queryAllTexts, queryFirst, runAllTimers } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, onMounted, xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { queryAllAttributes, queryAllTexts, queryFirst, runAllTimers } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, onMounted, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,
@@ -31,9 +31,9 @@ import { _t as basic_t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
 
 function _t() {
-    BetopiaERP.translationContext = "web";
+    betopiaerp.translationContext = "web";
     const translatedTerm = basic_t(...arguments);
-    BetopiaERP.translationContext = null;
+    betopiaerp.translationContext = null;
     return translatedTerm;
 }
 
@@ -206,19 +206,19 @@ beforeEach(() => {
     patchWithCleanup(browser.location, {
         origin: "http://example.com",
     });
-    redirect("/BetopiaERP");
+    redirect("/betopiaerp");
 });
 
 describe(`new urls`, () => {
     test(`action loading`, async () => {
-        redirect("/BetopiaERP/action-1001");
+        redirect("/betopiaerp/action-1001");
         logHistoryInteractions();
 
         await mountWebClient();
         expect(`.test_client_action`).toHaveCount(1);
         expect(`.o_menu_brand`).toHaveText("App1");
         expect(browser.sessionStorage.getItem("menu_id")).toBe("1");
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001", {
             message: "url did not change",
         });
         expect.verifySteps([
@@ -227,35 +227,35 @@ describe(`new urls`, () => {
     });
 
     test(`action loading, when action not found, load previous`, async () => {
-        redirect("/BetopiaERP/action-1001/action-666");
+        redirect("/betopiaerp/action-1001/action-666");
         logHistoryInteractions();
 
         await mountWebClient();
         expect(`.test_client_action`).toHaveCount(1);
         expect(`.o_menu_brand`).toHaveText("App1");
         expect(browser.sessionStorage.getItem("menu_id")).toBe("1");
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001", {
             message: "url changed",
         });
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1001"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1001"]);
     });
 
     test(`menu loading`, async () => {
-        redirect("/BetopiaERP?menu_id=2");
+        redirect("/betopiaerp?menu_id=2");
         logHistoryInteractions();
 
         await mountWebClient();
         expect(`.test_client_action`).toHaveText("ClientAction_Id 2");
         expect(`.o_menu_brand`).toHaveText("App2");
         expect(browser.sessionStorage.getItem("menu_id")).toBe("2");
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1002", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1002", {
             message: "url now points to the default action of the menu",
         });
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1002"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1002"]);
     });
 
     test(`action and menu loading`, async () => {
-        redirect("/BetopiaERP/action-1001?menu_id=2");
+        redirect("/betopiaerp/action-1001?menu_id=2");
         logHistoryInteractions();
 
         await mountWebClient();
@@ -271,10 +271,10 @@ describe(`new urls`, () => {
                 },
             ],
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001", {
             message: "menu is removed from url",
         });
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1001"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1001"]);
     });
 
     test("menu fallback", async () => {
@@ -285,7 +285,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
         browser.sessionStorage.setItem("menu_id", 2);
-        redirect("/BetopiaERP/test");
+        redirect("/betopiaerp/test");
         logHistoryInteractions();
         await mountWebClient();
 
@@ -296,7 +296,7 @@ describe(`new urls`, () => {
     });
 
     test(`initial loading with action id`, async () => {
-        redirect("/BetopiaERP/action-1001");
+        redirect("/betopiaerp/action-1001");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -304,7 +304,7 @@ describe(`new urls`, () => {
         expect.verifySteps(["/web/webclient/translations", "/web/webclient/load_menus"]);
 
         await mountWithCleanup(WebClient, { env });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001", {
             message: "url did not change",
         });
 
@@ -313,7 +313,7 @@ describe(`new urls`, () => {
     });
 
     test(`initial loading take complete context`, async () => {
-        redirect("/BetopiaERP/action-1001");
+        redirect("/betopiaerp/action-1001");
         logHistoryInteractions();
 
         onRpc("/web/action/load", async (route) => {
@@ -327,7 +327,7 @@ describe(`new urls`, () => {
 
         await mountWithCleanup(WebClient, { env });
         user.updateContext({ an_extra_context: 22 });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001", {
             message: "url did not change",
         });
 
@@ -339,7 +339,7 @@ describe(`new urls`, () => {
     });
 
     test(`initial loading with action tag`, async () => {
-        redirect("/BetopiaERP/__test__client__action__");
+        redirect("/betopiaerp/__test__client__action__");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -347,7 +347,7 @@ describe(`new urls`, () => {
         expect.verifySteps(["/web/webclient/translations", "/web/webclient/load_menus"]);
 
         await mountWithCleanup(WebClient, { env });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/__test__client__action__", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/__test__client__action__", {
             message: "url did not change",
         });
         expect.verifySteps([]);
@@ -356,18 +356,18 @@ describe(`new urls`, () => {
     test(`fallback on home action if no action found`, async () => {
         logHistoryInteractions();
         patchWithCleanup(user, { homeActionId: 1001 });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp");
 
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1001");
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1001"]);
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1001");
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1001"]);
         expect(`.test_client_action`).toHaveCount(1);
         expect(`.o_menu_brand`).toHaveText("App1");
     });
 
     test(`correctly sends additional context`, async () => {
         // %2C is a URL-encoded comma
-        redirect("/BetopiaERP/4/action-1001");
+        redirect("/betopiaerp/4/action-1001");
         logHistoryInteractions();
         onRpc("/web/action/load", async (request) => {
             expect.step("/web/action/load");
@@ -386,7 +386,7 @@ describe(`new urls`, () => {
         });
 
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/4/action-1001", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/4/action-1001", {
             message: "url did not change",
         });
         expect.verifySteps([
@@ -396,7 +396,7 @@ describe(`new urls`, () => {
     });
 
     test(`supports action as xmlId`, async () => {
-        redirect("/BetopiaERP/action-wowl.client_action");
+        redirect("/betopiaerp/action-wowl.client_action");
         logHistoryInteractions();
 
         await mountWebClient();
@@ -404,10 +404,10 @@ describe(`new urls`, () => {
         expect(`.o_menu_brand`).toHaveCount(0);
         expect(browser.location.href).toBe(
             // FIXME should we canonicalize the URL? If yes, shouldn't we use the client action tag instead? {
-            "http://example.com/BetopiaERP/action-1099",
+            "http://example.com/betopiaerp/action-1099",
             { message: "url did not change" }
         );
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1099"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1099"]);
     });
 
     test(`supports opening action in dialog`, async () => {
@@ -425,28 +425,28 @@ describe(`new urls`, () => {
             { mode: "replace" }
         );
         // FIXME this is super weird: we open an action in target new from the url?
-        redirect("/BetopiaERP/action-wowl.client_action");
+        redirect("/betopiaerp/action-wowl.client_action");
         logHistoryInteractions();
 
         await mountWebClient();
         expect(`.test_client_action`).toHaveCount(1);
         expect(`.modal .test_client_action`).toHaveCount(1);
         expect(`.o_menu_brand`).toHaveCount(0);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-wowl.client_action", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-wowl.client_action", {
             message: "action in target new doesn't affect the URL",
         });
         expect.verifySteps([]);
     });
 
     test(`should not crash on invalid state`, async () => {
-        redirect("/BetopiaERP/m-partner?view_type=list");
+        redirect("/betopiaerp/m-partner?view_type=list");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
         await mountWebClient();
         expect(`.o_action_manager`).toHaveText("", { message: "should display nothing" });
         expect.verifySteps(["/web/webclient/translations", "/web/webclient/load_menus"]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/m-partner?view_type=list", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/m-partner?view_type=list", {
             message: "the url did not change",
         });
         // No default action was found, no action controller was mounted: pushState not called
@@ -460,7 +460,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/HelloWorldTest");
+        redirect("/betopiaerp/HelloWorldTest");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -468,7 +468,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/HelloWorldTest", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/HelloWorldTest", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -486,7 +486,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/HelloWorldTest");
+        redirect("/betopiaerp/HelloWorldTest");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -503,11 +503,11 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/my-action");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/my-action");
         expect.verifySteps([
             "/web/webclient/translations",
             "/web/webclient/load_menus",
-            "pushState http://example.com/BetopiaERP/my-action",
+            "pushState http://example.com/betopiaerp/my-action",
         ]);
     });
 
@@ -524,7 +524,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/HelloWorldTest/12");
+        redirect("/betopiaerp/HelloWorldTest/12");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -532,7 +532,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/HelloWorldTest/12", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/HelloWorldTest/12", {
             message: "the url did not change",
         });
         // Breadcrumb should have only one item, the client action don't have a LazyController (a multi-record view)
@@ -562,7 +562,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/HelloWorldTest");
+        redirect("/betopiaerp/HelloWorldTest");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -570,7 +570,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/HelloWorldTest/12", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/HelloWorldTest/12", {
             message: "the url did change (the resId was added)",
         });
         // Breadcrumb should have only one item, the client action don't have a LazyController (a multi-record view)
@@ -580,7 +580,7 @@ describe(`new urls`, () => {
         expect.verifySteps([
             "/web/webclient/translations",
             "/web/webclient/load_menus",
-            "pushState http://example.com/BetopiaERP/HelloWorldTest/12",
+            "pushState http://example.com/betopiaerp/HelloWorldTest/12",
         ]);
     });
 
@@ -598,7 +598,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/HelloWorldTest/12");
+        redirect("/betopiaerp/HelloWorldTest/12");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -606,7 +606,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/my_client/12");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/my_client/12");
         // Breadcrumb should have only one item, the client action don't have a LazyController (a multi-record view)
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Client Action DisplayName",
@@ -615,7 +615,7 @@ describe(`new urls`, () => {
             "/web/webclient/translations",
             "/web/webclient/load_menus",
             "resId:12",
-            "pushState http://example.com/BetopiaERP/my_client/12",
+            "pushState http://example.com/betopiaerp/my_client/12",
         ]);
     });
 
@@ -633,7 +633,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/my_client/12");
+        redirect("/betopiaerp/my_client/12");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -641,7 +641,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/my_client/12");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/my_client/12");
         // Breadcrumb should have only one item, the client action don't have a LazyController (a multi-record view)
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Client Action DisplayName",
@@ -664,7 +664,7 @@ describe(`new urls`, () => {
         }
         actionRegistry.add("HelloWorldTest", ClientAction);
 
-        redirect("/BetopiaERP/my_client");
+        redirect("/betopiaerp/my_client");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -672,7 +672,7 @@ describe(`new urls`, () => {
         expect(`.o_client_action_test`).toHaveText("Hello World", {
             message: "should have correctly rendered the client action",
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/my_client");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/my_client");
         // Breadcrumb should have only one item, the client action don't have a LazyController (a multi-record view)
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "translatable displayname",
@@ -685,14 +685,14 @@ describe(`new urls`, () => {
     });
 
     test(`properly load act window actions`, async () => {
-        redirect("/BetopiaERP/action-1");
+        redirect("/betopiaerp/action-1");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
         await mountWebClient();
         expect(`.o_control_panel`).toHaveCount(1);
         expect(`.o_kanban_view`).toHaveCount(1);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -707,13 +707,13 @@ describe(`new urls`, () => {
     });
 
     test(`properly load records`, async () => {
-        redirect("/BetopiaERP/m-partner/2");
+        redirect("/betopiaerp/m-partner/2");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
         await mountWebClient();
         expect(`.o_form_view`).toHaveCount(1);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/m-partner/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/m-partner/2", {
             message: "the url did not change",
         });
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual(["Second record"]);
@@ -729,7 +729,7 @@ describe(`new urls`, () => {
     test(`properly load records with existing first APP`, async () => {
         // simulate a real scenario with a first app (e.g. Discuss), to ensure that we don't
         // fallback on that first app when only a model and res_id are given in the url
-        redirect("/BetopiaERP/m-partner/2");
+        redirect("/betopiaerp/m-partner/2");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -737,7 +737,7 @@ describe(`new urls`, () => {
         expect(`.o_form_view`).toHaveCount(1);
         expect(`.o_menu_brand`).toHaveCount(0);
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual(["Second record"]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/m-partner/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/m-partner/2", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -750,13 +750,13 @@ describe(`new urls`, () => {
     });
 
     test(`properly load default record`, async () => {
-        redirect("/BetopiaERP/action-3/new");
+        redirect("/betopiaerp/action-3/new");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
         await mountWebClient();
         expect(`.o_form_view`).toHaveCount(1);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/new", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/new", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -770,14 +770,14 @@ describe(`new urls`, () => {
     });
 
     test(`load requested view for act window actions`, async () => {
-        redirect("/BetopiaERP/action-3?view_type=kanban");
+        redirect("/betopiaerp/action-3?view_type=kanban");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
         await mountWebClient();
         expect(`.o_list_view`).toHaveCount(0);
         expect(`.o_kanban_view`).toHaveCount(1);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3?view_type=kanban", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3?view_type=kanban", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -792,7 +792,7 @@ describe(`new urls`, () => {
     });
 
     test(`lazy load multi record view if mono record one is requested`, async () => {
-        redirect("/BetopiaERP/action-3/2");
+        redirect("/betopiaerp/action-3/2");
         logHistoryInteractions();
 
         onRpc("unity_read", ({ kwargs }) => expect.step(`unity_read ${kwargs.method}`));
@@ -805,7 +805,7 @@ describe(`new urls`, () => {
             "Partners",
             "Second record",
         ]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/2", {
             message: "the url did not change",
         });
         expect.verifySteps([
@@ -824,8 +824,8 @@ describe(`new urls`, () => {
         expect.verifySteps(["web_search_read", "has_group"]);
 
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3");
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-3"]);
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3");
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-3"]);
     });
 
     test(`go back with breadcrumbs after doAction`, async () => {
@@ -834,8 +834,8 @@ describe(`new urls`, () => {
         await mountWebClient();
         await getService("action").doAction(4);
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-4");
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-4"]);
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-4");
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-4"]);
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Partners Action 4",
         ]);
@@ -850,11 +850,11 @@ describe(`new urls`, () => {
         ]);
 
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-4/action-3/2");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-4/action-3/2");
         // pushState was called only once
         expect.verifySteps([
             "Update the state without updating URL, nextState: actionStack,action,globalState",
-            "pushState http://example.com/BetopiaERP/action-4/action-3/2",
+            "pushState http://example.com/betopiaerp/action-4/action-3/2",
         ]);
 
         // go back to previous action
@@ -864,43 +864,43 @@ describe(`new urls`, () => {
         ]);
 
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-4");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-4");
         expect.verifySteps([
             "Update the state without updating URL, nextState: actionStack,resId,action,globalState",
-            "pushState http://example.com/BetopiaERP/action-4",
+            "pushState http://example.com/betopiaerp/action-4",
         ]);
     });
 
     test(`lazy loaded multi record view with failing mono record one`, async () => {
         expect.errors(1);
 
-        redirect("/BetopiaERP/action-3/2");
+        redirect("/betopiaerp/action-3/2");
         logHistoryInteractions();
         onRpc("web_read", () => Promise.reject());
 
         await mountWebClient();
         expect(`.o_form_view`).toHaveCount(0);
         expect(`.o_list_view`).toHaveCount(1); // Show the lazy loaded list view
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3", {
             message: "url reflects that we are not on the failing record",
         });
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-3"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-3"]);
 
         await getService("action").doAction(1);
         expect(`.o_kanban_view`).toHaveCount(1);
 
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/action-1");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/action-1");
         expect.verifySteps([
             "Update the state without updating URL, nextState: actionStack,action,globalState",
-            "pushState http://example.com/BetopiaERP/action-3/action-1",
+            "pushState http://example.com/betopiaerp/action-3/action-1",
         ]);
         expect.verifyErrors([/RPC_ERROR/]);
     });
 
     test(`should push the correct state at the right time`, async () => {
         // formerly "should not push a loaded state"
-        redirect("/BetopiaERP/action-3");
+        redirect("/betopiaerp/action-3");
         logHistoryInteractions();
 
         await mountWebClient();
@@ -914,7 +914,7 @@ describe(`new urls`, () => {
                 },
             ],
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3");
         expect.verifySteps([
             "Update the state without updating URL, nextState: actionStack,action",
         ]);
@@ -938,18 +938,18 @@ describe(`new urls`, () => {
                 },
             ],
         });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/1");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/1");
         // should push the state if it changes afterwards
         expect.verifySteps([
             "Update the state without updating URL, nextState: actionStack,action,globalState",
-            "pushState http://example.com/BetopiaERP/action-3/1",
+            "pushState http://example.com/betopiaerp/action-3/1",
         ]);
     });
 
     test(`load state supports being given menu_id alone`, async () => {
         defineMenus([{ id: 666, actionID: 1 }]);
 
-        redirect("/BetopiaERP?menu_id=666");
+        redirect("/betopiaerp?menu_id=666");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -958,7 +958,7 @@ describe(`new urls`, () => {
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Partners Action 1",
         ]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1");
         expect.verifySteps([
             "/web/webclient/translations",
             "/web/webclient/load_menus",
@@ -966,7 +966,7 @@ describe(`new urls`, () => {
             "get_views",
             "web_search_read",
             "has_group",
-            "pushState http://example.com/BetopiaERP/action-1",
+            "pushState http://example.com/betopiaerp/action-1",
         ]);
     });
 
@@ -983,7 +983,7 @@ describe(`new urls`, () => {
             },
         ]);
 
-        redirect("/BetopiaERP/action-999/new");
+        redirect("/betopiaerp/action-999/new");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -999,7 +999,7 @@ describe(`new urls`, () => {
             "Update the state without updating URL, nextState: actionStack,resId,action",
         ]);
         expect(`.o_form_view .o_form_editable`).toHaveCount(1);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-999/new");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-999/new");
     });
 
     test(`load state: in a form view, wrong id in the state`, async () => {
@@ -1017,23 +1017,23 @@ describe(`new urls`, () => {
             },
         ]);
 
-        redirect("/BetopiaERP/action-1000/999");
+        redirect("/betopiaerp/action-1000/999");
         logHistoryInteractions();
 
         await mountWebClient();
         expect(`.o_list_view`).toHaveCount(1);
         expect(`.o_notification_body`).toHaveCount(1, { message: "should have a notification" });
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-1000", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-1000", {
             message: "url reflects that we are not on the record",
         });
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-1000"]);
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-1000"]);
         expect.verifyErrors([
             /It seems the records with IDs 999 cannot be found. They might have been deleted./,
         ]);
     });
 
     test(`server action loading with id`, async () => {
-        redirect("/BetopiaERP/action-2/2");
+        redirect("/betopiaerp/action-2/2");
         logHistoryInteractions();
 
         onRpc("/web/action/run", async (request) => {
@@ -1043,7 +1043,7 @@ describe(`new urls`, () => {
         });
 
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-2/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-2/2", {
             message: "url did not change",
         });
         expect.verifySteps(["action: 2"]);
@@ -1071,10 +1071,10 @@ describe(`new urls`, () => {
                 ],
             };
         });
-        redirect("/BetopiaERP/my-path/2");
+        redirect("/betopiaerp/my-path/2");
         logHistoryInteractions();
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/my-path/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/my-path/2", {
             message: "url did not change",
         });
         expect(router.current).toEqual({
@@ -1105,7 +1105,7 @@ describe(`new urls`, () => {
     });
 
     test(`state with integer active_ids should not crash`, async () => {
-        redirect("/BetopiaERP/action-2?active_ids=3");
+        redirect("/betopiaerp/action-2?active_ids=3");
         logHistoryInteractions();
 
         onRpc("/web/action/run", async (request) => {
@@ -1116,7 +1116,7 @@ describe(`new urls`, () => {
         });
 
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-2?active_ids=3", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-2?active_ids=3", {
             message: "url did not change",
         });
         // pushState was not called
@@ -1130,11 +1130,11 @@ describe(`new urls`, () => {
                 </search>
             `;
 
-        redirect("/BetopiaERP/action-3/new");
+        redirect("/betopiaerp/action-3/new");
         logHistoryInteractions();
 
         await mountWebClient();
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/new", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/new", {
             message: "url did not change",
         });
         expect.verifySteps([
@@ -1149,8 +1149,8 @@ describe(`new urls`, () => {
         expect(`.o_list_view .o_data_row`).toHaveCount(1);
 
         await animationFrame(); // pushState is debounced
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3");
-        expect.verifySteps(["pushState http://example.com/BetopiaERP/action-3"]);
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3");
+        expect.verifySteps(["pushState http://example.com/betopiaerp/action-3"]);
     });
 
     test(`initial action crashes`, async () => {
@@ -1166,13 +1166,13 @@ describe(`new urls`, () => {
         }
         registry.category("actions").add("__test__client__action__", Override, { force: true });
 
-        redirect("/BetopiaERP/__test__client__action__?menu_id=1");
+        redirect("/betopiaerp/__test__client__action__?menu_id=1");
         logHistoryInteractions();
 
         await mountWebClient();
         expect.verifySteps(["clientAction setup"]);
         expect(browser.location.href).toBe(
-            "http://example.com/BetopiaERP/__test__client__action__?menu_id=1",
+            "http://example.com/betopiaerp/__test__client__action__?menu_id=1",
             {
                 message: "url did not change",
             }
@@ -1200,7 +1200,7 @@ describe(`new urls`, () => {
             ],
         });
         expect(browser.location.href).toBe(
-            "http://example.com/BetopiaERP/__test__client__action__?menu_id=1",
+            "http://example.com/betopiaerp/__test__client__action__?menu_id=1",
             {
                 message: "url did not change",
             }
@@ -1211,7 +1211,7 @@ describe(`new urls`, () => {
 
     test("all actions crashes", async () => {
         expect.errors(2);
-        redirect("/BetopiaERP/m-partner/2/m-partner/1");
+        redirect("/betopiaerp/m-partner/2/m-partner/1");
         logHistoryInteractions();
         stepAllNetworkCalls();
         onRpc("web_read", () => Promise.reject());
@@ -1259,7 +1259,7 @@ describe(`new urls`, () => {
             { mode: "replace" }
         );
 
-        redirect("/BetopiaERP/partners/2/action-28/1");
+        redirect("/betopiaerp/partners/2/action-28/1");
         logHistoryInteractions();
         stepAllNetworkCalls();
 
@@ -1270,7 +1270,7 @@ describe(`new urls`, () => {
         await animationFrame();
         await animationFrame();
 
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/partners/2/action-28/1", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/partners/2/action-28/1", {
             message: "url did not change",
         });
         expect.verifySteps([
@@ -1301,12 +1301,12 @@ describe(`new urls`, () => {
 
     test(`don't load controllers when load action new`, async () => {
         stepAllNetworkCalls();
-        redirect("/BetopiaERP/action-3/2");
+        redirect("/betopiaerp/action-3/2");
         logHistoryInteractions();
         Partner._views["form"] = /* xml */ `
             <form string="Partner">
                 <sheet>
-                    <a href="http://example.com/BetopiaERP/action-5" class="clickMe">clickMe</a>
+                    <a href="http://example.com/betopiaerp/action-5" class="clickMe">clickMe</a>
                     <group>
                         <field name="display_name"/>
                         <field name="foo"/>
@@ -1328,7 +1328,7 @@ describe(`new urls`, () => {
             "web_read",
             "Update the state without updating URL, nextState: actionStack,resId,action",
         ]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/2", {
             message: "url did not change",
         });
 
@@ -1337,7 +1337,7 @@ describe(`new urls`, () => {
         await animationFrame();
         expect(`.o_dialog .o_form_view`).toHaveCount(1);
         expect.verifySteps(["/web/action/load", "get_views", "onchange"]);
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-3/2", {
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-3/2", {
             message: "url did not change",
         });
 
@@ -1351,7 +1351,7 @@ describe(`new urls`, () => {
         expect.verifySteps([
             "web_search_read",
             "has_group",
-            "pushState http://example.com/BetopiaERP/action-3",
+            "pushState http://example.com/betopiaerp/action-3",
         ]);
     });
 
@@ -1361,7 +1361,7 @@ describe(`new urls`, () => {
         // So it will try to perform the previous action : action-3 with id 1.
         // This one will give an error, and it should directly try the previous one : action-3
         expect.errors(1);
-        redirect("/BetopiaERP/action-3/1/m-partner");
+        redirect("/betopiaerp/action-3/1/m-partner");
         logHistoryInteractions();
         stepAllNetworkCalls();
         onRpc("web_read", () => Promise.reject());
@@ -1378,7 +1378,7 @@ describe(`new urls`, () => {
             "web_read",
             "web_search_read",
             "has_group",
-            "pushState http://example.com/BetopiaERP/action-3",
+            "pushState http://example.com/betopiaerp/action-3",
         ]);
     });
 
@@ -1428,7 +1428,7 @@ describe(`new urls`, () => {
             "set current_lang-en",
         ]);
 
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/m-partner/1/m-partner");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/m-partner/1/m-partner");
 
         // Emulate a Reload
         routerBus.trigger("ROUTE_CHANGE");
@@ -1505,7 +1505,7 @@ describe(`new urls`, () => {
             "set current_lang-en",
         ]);
 
-        expect(browser.location.href).toBe("http://example.com/BetopiaERP/action-100/1/action-200");
+        expect(browser.location.href).toBe("http://example.com/betopiaerp/action-100/1/action-200");
 
         // Emulate a Reload
         startRouter(); // Emulate a full reload. Update the current state of the router with the URL (as is done on reload)
@@ -1567,7 +1567,7 @@ describe(`new urls`, () => {
         });
 
         // Step 1: Navigate to Sale->Customers with explicit menu_id
-        redirect("/BetopiaERP/action-9001?menu_id=100");
+        redirect("/betopiaerp/action-9001?menu_id=100");
         logHistoryInteractions();
 
         await mountWebClient();
@@ -1589,7 +1589,7 @@ describe(`new urls`, () => {
             'set current_state-{"actionStack":[{"displayName":"Partners","action":9001,"view_type":"list"}],"action":9001}',
             'set current_action-{"binding_type":"action","binding_view_types":"list,form","id":9001,"type":"ir.actions.act_window","xml_id":9001,"name":"Partners","res_model":"partner","views":[[false,"list"],[false,"form"]],"context":{},"embedded_action_ids":[],"group_ids":[],"limit":80,"mobile_view_mode":"kanban","target":"current","view_ids":[],"view_mode":"list,form","cache":true}',
             "set current_lang-en",
-            "pushState http://example.com/BetopiaERP/action-9001",
+            "pushState http://example.com/betopiaerp/action-9001",
             "get menu_id-100", // F5 reload checks stored menu
             "get current_lang-en",
             'get current_state-{"actionStack":[{"displayName":"Partners","action":9001,"view_type":"list"}],"action":9001}',
@@ -1657,7 +1657,7 @@ describe(`new urls`, () => {
         await animationFrame();
         expect(`.o_form_view`).toHaveCount(1);
         expect(browser.location.href).toBe(
-            "http://example.com/BetopiaERP/action-200/5/action-300/action-100/1"
+            "http://example.com/betopiaerp/action-200/5/action-300/action-100/1"
         );
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Kanban Partners",
@@ -1745,7 +1745,7 @@ describe(`new urls`, () => {
             },
         ]);
         expect(browser.location.href).toBe(
-            "http://example.com/BetopiaERP/action-200/5/action-300/action-100/1"
+            "http://example.com/betopiaerp/action-200/5/action-300/action-100/1"
         );
         expect(queryAllTexts`.breadcrumb-item, .o_breadcrumb .active`).toEqual([
             "Kanban Partners",
@@ -1829,7 +1829,7 @@ describe(`new urls`, () => {
         expect.verifySteps(["/web/action/load", "/web/action/load"]);
 
         await runAllTimers(); // wait for the router to be updated
-        expect(router.stateToUrl(router.current)).toBe("/BetopiaERP/action-100/1/action-200");
+        expect(router.stateToUrl(router.current)).toBe("/betopiaerp/action-100/1/action-200");
 
         // simulate a reload
         await startRouter();
@@ -1876,7 +1876,7 @@ describe(`new urls`, () => {
         expect.verifySteps(["/web/action/load", "/web/action/load"]);
 
         await runAllTimers(); // wait for the router to be updated
-        expect(router.stateToUrl(router.current)).toBe("/BetopiaERP/action-100/1/action-200");
+        expect(router.stateToUrl(router.current)).toBe("/betopiaerp/action-100/1/action-200");
 
         // simulate a reload with a new lang
         serverState.lang = "fr_FR";

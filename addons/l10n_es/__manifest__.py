@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Spain - Accounting (PGCE 2008)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/spain.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/spain.html',
     'version': '5.4',
     'icon': '/account/static/description/l10n.png',
     'countries': ['es'],

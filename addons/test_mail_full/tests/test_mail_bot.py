@@ -6,7 +6,7 @@ from betopiaerp.tests import tagged
 from betopiaerp.tools import mute_logger
 
 
-@tagged("BetopiaERPbot")
+@tagged("betopiaerpbot")
 class TestBetopiaERPbot(MailCommon, TestRecipients):
 
     @classmethod
@@ -14,7 +14,7 @@ class TestBetopiaERPbot(MailCommon, TestRecipients):
         super().setUpClass()
         cls.test_record = cls.env['mail.test.simple'].with_context(cls._test_context).create({'name': 'Test', 'email_from': 'ignasse@example.com'})
 
-        cls.BetopiaERPbot = cls.env.ref("base.partner_root")
+        cls.betopiaerpbot = cls.env.ref("base.partner_root")
         cls.message_post_default_kwargs = {
             'body': '',
             'attachment_ids': [],
@@ -22,55 +22,55 @@ class TestBetopiaERPbot(MailCommon, TestRecipients):
             'partner_ids': [],
             'subtype_xmlid': 'mail.mt_comment'
         }
-        cls.BetopiaERPbot_ping_body = f'<a href="http://betopiaerp.com/BetopiaERP/res.partner/{cls.BetopiaERPbot.id}" class="o_mail_redirect" data-oe-id="{cls.BetopiaERPbot.id}" data-oe-model="res.partner" target="_blank">@BetopiaERPBot</a>'
+        cls.betopiaerpbot_ping_body = f'<a href="http://betopiaerp.com/betopiaerp/res.partner/{cls.betopiaerpbot.id}" class="o_mail_redirect" data-oe-id="{cls.betopiaerpbot.id}" data-oe-model="res.partner" target="_blank">@BetopiaERPBot</a>'
         cls.test_record_employe = cls.test_record.with_user(cls.user_employee)
 
     @mute_logger('betopiaerp.addons.mail.models.mail_mail')
     def test_fetch_listener(self):
-        channel = self.user_employee.with_user(self.user_employee)._init_BetopiaERPbot()
-        BetopiaERPbot = self.env.ref("base.partner_root")
-        BetopiaERPbot_in_fetch_listeners = self.env['discuss.channel.member'].search([('channel_id', '=', channel.id), ('partner_id', '=', BetopiaERPbot.id)])
-        self.assertEqual(len(BetopiaERPbot_in_fetch_listeners), 1, 'BetopiaERPbot should appear only once in channel_fetch_listeners')
+        channel = self.user_employee.with_user(self.user_employee)._init_betopiaerpbot()
+        betopiaerpbot = self.env.ref("base.partner_root")
+        betopiaerpbot_in_fetch_listeners = self.env['discuss.channel.member'].search([('channel_id', '=', channel.id), ('partner_id', '=', betopiaerpbot.id)])
+        self.assertEqual(len(betopiaerpbot_in_fetch_listeners), 1, 'betopiaerpbot should appear only once in channel_fetch_listeners')
 
     @mute_logger('betopiaerp.addons.mail.models.mail_mail')
-    def test_BetopiaERPbot_ping(self):
+    def test_betopiaerpbot_ping(self):
         kwargs = self.message_post_default_kwargs.copy()
-        kwargs.update({'body': self.BetopiaERPbot_ping_body, 'partner_ids': [self.BetopiaERPbot.id, self.user_admin.partner_id.id]})
+        kwargs.update({'body': self.betopiaerpbot_ping_body, 'partner_ids': [self.betopiaerpbot.id, self.user_admin.partner_id.id]})
 
         with patch('random.choice', lambda x: x[0]):
             self.assertNextMessage(
                 self.test_record_employe.with_context({'mail_post_autofollow': True}).message_post(**kwargs),
-                sender=self.BetopiaERPbot,
+                sender=self.betopiaerpbot,
                 answer=False
             )
         # BetopiaERPbot should not be a follower but user_employee and user_admin should
         follower = self.test_record.message_follower_ids.mapped('partner_id')
-        self.assertNotIn(self.BetopiaERPbot, follower)
+        self.assertNotIn(self.betopiaerpbot, follower)
         self.assertIn(self.user_employee.partner_id, follower)
         self.assertIn(self.user_admin.partner_id, follower)
 
     @mute_logger('betopiaerp.addons.mail.models.mail_mail')
     def test_onboarding_flow(self):
         kwargs = self.message_post_default_kwargs.copy()
-        channel = self.user_employee.with_user(self.user_employee)._init_BetopiaERPbot()
+        channel = self.user_employee.with_user(self.user_employee)._init_betopiaerpbot()
 
         kwargs['body'] = 'tagada 😊'
         last_message = self.assertNextMessage(
             channel.message_post(**kwargs),
-            sender=self.BetopiaERPbot,
+            sender=self.betopiaerpbot,
             answer=("help",)
         )
         channel.execute_command_help()
         self.assertNextMessage(
-            last_message,  # no message will be post with command help, use last BetopiaERPbot message instead
-            sender=self.BetopiaERPbot,
+            last_message,  # no message will be post with command help, use last betopiaerpbot message instead
+            sender=self.betopiaerpbot,
             answer=("@BetopiaERPBot",)
         )
         kwargs['body'] = ''
         kwargs['partner_ids'] = [self.env['ir.model.data']._xmlid_to_res_id("base.partner_root")]
         self.assertNextMessage(
             channel.message_post(**kwargs),
-            sender=self.BetopiaERPbot,
+            sender=self.betopiaerpbot,
             answer=("attachment",)
         )
         kwargs['body'] = ''
@@ -83,34 +83,34 @@ class TestBetopiaERPbot(MailCommon, TestRecipients):
         # For the end of the flow, we only test that the state changed, but not to which
         # one since it depends on the intalled apps, which can add more steps (like livechat)
         channel.message_post(**kwargs)
-        self.assertNotEqual(self.user_employee.BetopiaERPbot_state, 'onboarding_attachement')
+        self.assertNotEqual(self.user_employee.betopiaerpbot_state, 'onboarding_attachement')
 
         # Test miscellaneous messages
-        self.user_employee.BetopiaERPbot_state = "idle"
+        self.user_employee.betopiaerpbot_state = "idle"
         kwargs['partner_ids'] = []
         kwargs['body'] = "I love you"
         self.assertNextMessage(
             channel.message_post(**kwargs),
-            sender=self.BetopiaERPbot,
+            sender=self.betopiaerpbot,
             answer=("too human for me",)
         )
         kwargs['body'] = "Go fuck yourself"
         self.assertNextMessage(
             channel.message_post(**kwargs),
-            sender=self.BetopiaERPbot,
+            sender=self.betopiaerpbot,
             answer=("I have feelings",)
         )
         kwargs['body'] = "help me"
         self.assertNextMessage(
             channel.message_post(**kwargs),
-            sender=self.BetopiaERPbot,
+            sender=self.betopiaerpbot,
             answer=("If you need help",)
         )
 
     @mute_logger('betopiaerp.addons.mail.models.mail_mail')
-    def test_BetopiaERPbot_no_default_answer(self):
+    def test_betopiaerpbot_no_default_answer(self):
         kwargs = self.message_post_default_kwargs.copy()
-        kwargs.update({'body': "I'm not talking to @BetopiaERPbot right now", 'partner_ids': []})
+        kwargs.update({'body': "I'm not talking to @betopiaerpbot right now", 'partner_ids': []})
         self.assertNextMessage(
             self.test_record_employe.message_post(**kwargs),
             answer=False

@@ -16,18 +16,18 @@
 # Murat Durmuş <muratd@projetgrup.com>, 2022
 # Martin Trigaux, 2022
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
-# BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>, 2025.
+# BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-21 14:44+0000\n"
-"Last-Translator: BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>\n"
-"Language-Team: Turkish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>\n"
+"Language-Team: Turkish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_signup/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -504,7 +504,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -639,7 +639,7 @@ msgstr ""
 "                       <t t-set=\"website_url\" t-"
 "value=\"object.get_base_url()\"/>\n"
 "                        BetopiaERP alan adınız: <b><a t-att-href=\"website_url\" t-"
-"out=\"website_url or ''\">http://yourcompany.BetopiaERP.com</a></b><br/>\n"
+"out=\"website_url or ''\">http://yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Oturum açma e-postanız: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -964,13 +964,13 @@ msgstr ""
 "</table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
 msgstr "E-posta ile bir şifre sıfırlama bağlantısı gönderildi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A signup link was sent by email"
 msgstr "E-posta ile bir kayıt bağlantısı gönderildi"
@@ -981,7 +981,7 @@ msgid "Already have an account?"
 msgstr "Zaten bir hesabınız mı var?"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Another user is already registered using this email address."
 msgstr "Başka bir kullanıcı bu e-posta adresiyle zaten kayıtlı."
@@ -992,7 +992,7 @@ msgid "Back to Login"
 msgstr "Kullanıcı Girişine Dön"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr "Eposta gönderilemedi: %s isimli kullanıcının eposta adresi bulunmuyor."
@@ -1023,7 +1023,7 @@ msgid "Contact"
 msgstr "Kontak"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "Could not contact the mail server, please check your outgoing email server "
@@ -1033,13 +1033,13 @@ msgstr ""
 "yapılandırmanızı kontrol edin."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not create a new account."
 msgstr "Yeni bir hesap açılamadı."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not reset your password"
 msgstr "Parolanız sıfırlanamadı"
@@ -1118,7 +1118,7 @@ msgstr ""
 "                                Teşekkürler,"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Invalid signup token"
 msgstr "Geçersiz kayıt belirteci"
@@ -1144,7 +1144,7 @@ msgid "Marc Demo"
 msgstr "Marc Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Multiple accounts found for this login"
 msgstr "Bu giriş için birden fazla hesap bulundu"
@@ -1155,13 +1155,13 @@ msgid "Name"
 msgstr "Adı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "No account found for this login"
 msgstr "Bu giriş için hesap bulunamadı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "No login provided."
 msgstr "Giriş sağlanamadı."
@@ -1187,19 +1187,19 @@ msgid "Password Reset"
 msgstr "Parola Sıfırlama"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Password reset"
 msgstr "Parola sıfırlandı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Password reset instructions sent to your email address."
 msgstr "E-posta adresinize gönderilen şifre sıfırlama talimatları."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Passwords do not match; please retype them."
 msgstr "Şifreler eşleşmedi; lütfen tekrar yazın."
@@ -1220,7 +1220,7 @@ msgid "Reminder for unregistered users"
 msgstr "Kayıtlı olmayan kullanıcılar için hatırlatma"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1286,7 +1286,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "Ayarlar: Kayıtsız Kullanıcı Hatırlatıcısı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Sign Up"
 msgstr "Kaydol"
@@ -1303,31 +1303,31 @@ msgid "Signup Token Type"
 msgstr "Kayıt Olma Belirteçi Türü"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup is not allowed for uninvited users"
 msgstr "Davet edilmeyen kullanıcılar için giriş izni verilmedi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 msgid "Signup token '%s' is not valid or expired"
 msgstr "'%s' kayıt belirteci geçersiz veya süresi dolmuş"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: invalid template user"
 msgstr "Kayıt: geçersiz şablon kullanıcısı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no login given for new user"
 msgstr "Kayıt: yeni kullanıcı için giriş yapılmadı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no name or partner given for new user"
 msgstr "Kayıt: yeni kullanıcı için ad veya iş ortağı verilmiyor"
@@ -1343,13 +1343,13 @@ msgid "Template user for new users created through signup"
 msgstr "Kayıt yoluyla oluşturulan yeni kullanıcılar için şablon kullanıcı"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "The form was not properly filled in."
 msgstr "Bu form uygun şekilde doldurulmadı."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "There was an error when trying to deliver your Email, please check your "
@@ -1385,7 +1385,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "{{ object.company_id.name }}'ye hoş geldiniz!"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "You cannot perform this action on an archived user."
 msgstr "Bu eylemi arşivlenmiş bir kullanıcı üzerinde gerçekleştiremezsiniz."
@@ -1396,7 +1396,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "Adresindeki hesabınız {{ object.company_id.name }}"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Your password has been reset successfully."
 msgstr "Parolanız başarıyla sıfırlandı."

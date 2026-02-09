@@ -5,7 +5,7 @@
     'countries': ['at'],
     'version': '3.2.1',
     'author': 'WT-IO-IT GmbH, Wolfgang Taferner (https://www.wt-io-it.at)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'summary': 'Austrian Standardized Charts & Tax',
     'description': """

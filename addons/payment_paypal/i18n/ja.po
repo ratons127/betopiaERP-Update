@@ -7,16 +7,16 @@
 # 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2018
 # Takahiro MURAKAMI <murakami@date-yakkyoku.com>, 2018
 # Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2018
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-12 05:39+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_paypal/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgid "Code"
 msgstr "コード"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "Could not generate a new access token."
 msgstr "新しいアクセストークンを生成できませんでした。"
@@ -74,13 +74,13 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Invalid response format, can't normalize."
 msgstr "無効な応答形式、正規化できません。"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
 msgstr "txn_id (%(txn_id)s) または txn_type (%(txn_type)s)用の欠損値"
@@ -131,19 +131,19 @@ msgid "Payment Transaction"
 msgstr "支払取引"
 
 #. module: payment_paypal
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_paypal/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "支払処理に失敗しました"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "Received data with invalid payment status: %s"
 msgstr "無効な支払ステータスのデータを受信しました: %s"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 msgstr "顧客が支払ページを去りました。"
@@ -170,7 +170,7 @@ msgid "The technical code of this payment provider."
 msgstr "この決済プロバイダーのテクニカルコード。"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/controllers/main.py:0
 msgid "Unable to verify the payment data"
 msgstr "支払いデータの検証ができません"
@@ -181,7 +181,7 @@ msgid "Webhook ID"
 msgstr "Webhook ID"
 
 #. module: payment_paypal
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_paypal/models/payment_provider.py:0
 msgid "You must have an HTTPS connection to generate a webhook."
 msgstr "Webhookを作成するにはHTTPS接続が必要です。"

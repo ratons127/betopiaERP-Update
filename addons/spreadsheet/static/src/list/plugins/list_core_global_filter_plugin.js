@@ -41,15 +41,15 @@ export class ListCoreGlobalFilterPlugin extends BetopiaERPCorePlugin {
      */
     handle(cmd) {
         switch (cmd.type) {
-            case "INSERT_BetopiaERP_LIST": {
+            case "INSERT_BETOPIAERP_LIST": {
                 this._addList(cmd.id);
                 break;
             }
-            case "REMOVE_BetopiaERP_LIST": {
+            case "REMOVE_BETOPIAERP_LIST": {
                 this.history.update("fieldMatchings", cmd.listId, undefined);
                 break;
             }
-            case "DUPLICATE_BetopiaERP_LIST": {
+            case "DUPLICATE_BETOPIAERP_LIST": {
                 const { listId, newListId } = cmd;
                 const fieldMatch = deepCopy(this.fieldMatchings[listId]);
                 this._addList(newListId, fieldMatch);

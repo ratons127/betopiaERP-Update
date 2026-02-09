@@ -1,7 +1,7 @@
 import { Composer } from "@mail/core/common/composer";
 
 import { patch } from "@web/core/utils/patch";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 patch(Composer.prototype, {
     setup() {

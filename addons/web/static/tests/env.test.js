@@ -1,6 +1,6 @@
-import { after, beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { Deferred, tick } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { after, beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { Deferred, tick } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { clearRegistry, makeMockEnv, allowTranslations } from "@web/../tests/web_test_helpers";
 
 import { registry } from "@web/core/registry";
@@ -189,11 +189,11 @@ test(`mountComponent creates an env and sets the application as root when no env
     }
     const app = await mountComponent(Root, getFixture());
     after(() => {
-        delete BetopiaERP.__WOWL_DEBUG__;
+        delete betopiaerp.__WOWL_DEBUG__;
     });
     const { env } = app;
     expect(env.services).toEqual({ my_service: "a" });
-    expect(BetopiaERP.__WOWL_DEBUG__).toEqual({ root: app.root.component });
+    expect(betopiaerp.__WOWL_DEBUG__).toEqual({ root: app.root.component });
     expect(getFixture()).toHaveText("Root");
 });
 
@@ -217,7 +217,7 @@ test(`mountComponent uses the env when provided and doesn't start the services`,
     const app = await mountComponent(Root, getFixture(), { env });
     expect.verifySteps([]);
     expect(app.env.services).toBe(env.services);
-    expect(BetopiaERP.__WOWL_DEBUG__).toBe(undefined);
+    expect(betopiaerp.__WOWL_DEBUG__).toBe(undefined);
     expect(getFixture()).toHaveText("Root");
 });
 
@@ -229,7 +229,7 @@ test(`mountComponent: can pass props to the root component`, async () => {
 
     await mountComponent(Root, getFixture(), { props: { text: "text from props" } });
     after(() => {
-        delete BetopiaERP.__WOWL_DEBUG__;
+        delete betopiaerp.__WOWL_DEBUG__;
     });
     expect(getFixture()).toHaveText("text from props");
 });

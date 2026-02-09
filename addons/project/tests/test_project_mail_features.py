@@ -251,7 +251,7 @@ class TestProjectMailFeatures(TestProjectCommon, MailCommon):
 
                 # second message: acknowledgment: sent to email author
                 acknowledgement = task.message_ids[0]
-                # task created by BetopiaERPbot if not incoming user -> BetopiaERPbot author of ack email
+                # task created by betopiaerpbot if not incoming user -> betopiaerpbot author of ack email
                 acknowledgement_author = test_user.partner_id if test_user else self.partner_root
                 self.assertMailNotifications(
                     acknowledgement,

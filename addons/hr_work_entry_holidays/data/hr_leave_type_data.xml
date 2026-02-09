@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 <data noupdate="1">
     <record id="hr_holidays.leave_type_compensatory_days" model="hr.leave.type" forcecreate="0">
         <field name="work_entry_type_id" ref="hr_work_entry.work_entry_type_compensatory"/>
@@ -246,4 +246,4 @@
     <record id="hr_holidays.l10n_pl_leave_type_sick_leave" model="hr.leave.type">
         <field name="work_entry_type_id" ref="hr_work_entry.l10n_pl_work_entry_type_sick_leave"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

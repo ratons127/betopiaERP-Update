@@ -1,10 +1,10 @@
 // @ts-check
 
-import { helpers } from "@BetopiaERP/o-spreadsheet";
+import { helpers } from "@betopiaerp/o-spreadsheet";
 
 const { getFunctionsFromTokens } = helpers;
 
-/** @typedef {import("@BetopiaERP/o-spreadsheet").Token} Token */
+/** @typedef {import("@betopiaerp/o-spreadsheet").Token} Token */
 
 /**
  * Parse a spreadsheet formula and detect the number of LIST functions that are
@@ -15,7 +15,7 @@ const { getFunctionsFromTokens } = helpers;
  * @returns {number}
  */
 export function getNumberOfListFormulas(tokens) {
-    return getFunctionsFromTokens(tokens, ["BetopiaERP.LIST", "BetopiaERP.LIST.HEADER"]).length;
+    return getFunctionsFromTokens(tokens, ["BETOPIAERP.LIST", "BETOPIAERP.LIST.HEADER"]).length;
 }
 
 /**
@@ -23,8 +23,8 @@ export function getNumberOfListFormulas(tokens) {
  *
  * @param {Token[]} tokens
  *
- * @returns {import("../helpers/BetopiaERP_functions_helpers").BetopiaERPFunctionDescription|undefined}
+ * @returns {import("../helpers/betopiaerp_functions_helpers").BetopiaERPFunctionDescription|undefined}
  */
 export function getFirstListFunction(tokens) {
-    return getFunctionsFromTokens(tokens, ["BetopiaERP.LIST", "BetopiaERP.LIST.HEADER"])[0];
+    return getFunctionsFromTokens(tokens, ["BETOPIAERP.LIST", "BETOPIAERP.LIST.HEADER"])[0];
 }

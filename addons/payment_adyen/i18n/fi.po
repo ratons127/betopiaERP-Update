@@ -6,16 +6,16 @@
 # Martin Trigaux, 2018
 # Mikko Salmela <salmemik@gmail.com>, 2018
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2018
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025, 2026.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~11.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2026-01-05 12:57+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_adyen/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 "manuaalinen."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "A request was sent to void the transaction %(reference)s."
 msgstr "Pyyntö maksutapahtuman %(reference)s mitätöimiseksi lähetettiin."
@@ -59,14 +59,14 @@ msgid "Adyen"
 msgstr "Adyen"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr "Maksun käsittelyssä tapahtui virhe. Yritä uudelleen."
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr "Maksulomaketta ei voi näyttää"
@@ -108,7 +108,7 @@ msgid "ID"
 msgstr "Tunnus"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr "Virheelliset maksutiedot"
@@ -144,25 +144,25 @@ msgid "Payment Transaction"
 msgstr "Maksutapahtuma"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Maksun käsittely epäonnistui"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
 msgstr "Vastaanotettu data, jonka maksutila on virheellinen: %s"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
 msgstr "Vastaanotetut tiedot, joista puuttuu maksutila."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "Vastaanotettu väärennettyjä maksupyyntötietoja."
@@ -183,7 +183,7 @@ msgid "The HMAC key of the webhook"
 msgstr "Webhookin HMAC-avain"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
@@ -198,7 +198,7 @@ msgid "The base URL for the API endpoints"
 msgstr "API-päätepisteiden perus-URL-osoite"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction %s failed."
 msgstr "Maksutapahtuman %s tallentaminen epäonnistui."
@@ -214,7 +214,7 @@ msgstr ""
 "tapahtuma näkyy BetopiaERPssa."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The capture request of %(amount)s for transaction %(ref)s has been sent."
@@ -241,13 +241,13 @@ msgid "The unique reference of the partner owning this token"
 msgstr "Tämän käyttötunnisteen omistavan kumppanin yksilöllinen viite"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction %s failed."
 msgstr ""
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
 msgstr "Maksusi hylättiin. Yritä uudelleen."

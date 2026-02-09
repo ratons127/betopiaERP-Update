@@ -1,6 +1,6 @@
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
 import { changeScale, toggleSectionFilter } from "@web/../tests/views/calendar/calendar_test_helpers";
 import { contains, defineActions, defineModels, fields, getService, models, mountView, mountWebClient, onRpc, serverState, switchView } from "@web/../tests/web_test_helpers";
 

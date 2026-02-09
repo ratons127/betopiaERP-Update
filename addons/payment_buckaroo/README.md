@@ -19,7 +19,7 @@ submission provided by the `payment` module.
 ## Module history
 
 - `15.2`
-  - The support for webhook notifications is added. BetopiaERP/BetopiaERP#82922
+  - The support for webhook notifications is added. betopiaerp/betopiaerp#82922
 
 ## Testing instructions
 

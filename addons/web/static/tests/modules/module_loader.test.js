@@ -1,5 +1,5 @@
-import { beforeEach, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { microTick, tick } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, getFixture, test } from "@betopiaerp/hoot";
+import { microTick, tick } from "@betopiaerp/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 beforeEach(() => {
@@ -12,7 +12,7 @@ beforeEach(() => {
 });
 
 /** @type {typeof BetopiaERPModuleLoader} */
-const ModuleLoader = Object.getPrototypeOf(BetopiaERP.loader.constructor);
+const ModuleLoader = Object.getPrototypeOf(betopiaerp.loader.constructor);
 
 test.tags("headless");
 test("define: simple case", async () => {

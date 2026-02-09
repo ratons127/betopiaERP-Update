@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { LANGUAGES, createRequestCode } from "@api_doc/utils/doc_code_gen";
 import { CodeEditor } from "@web/core/code_editor/code_editor";
 

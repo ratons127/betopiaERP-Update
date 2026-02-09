@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record id="partner_demo_company_tr_tag" model="res.partner.category">
         <field name="name">0-123456780100019</field>
         <field name="parent_id" ref="l10n_tr_nilvera_einvoice.res_partner_category_mersisno"/>
@@ -29,4 +29,4 @@
     <record id="l10n_tr.l10n_tr_res_partner_2" model="res.partner">
         <field eval="[Command.set([ref('l10n_tr_res_partner_2_tag')])]" name="category_id"/>
     </record>
-</BetopiaERP>
+</betopiaerp>

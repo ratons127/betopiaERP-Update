@@ -31,6 +31,6 @@
             'pos_online_payment_self_order/static/tests/unit/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

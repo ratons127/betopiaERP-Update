@@ -1,5 +1,5 @@
 import { formatCurrency } from "@point_of_sale/app/models/utils/currency";
-import { toRaw } from "@BetopiaERP/owl";
+import { toRaw } from "@betopiaerp/owl";
 import { logPosMessage } from "@point_of_sale/app/utils/pretty_console_log";
 
 const CONSOLE_COLOR = "#FF8269";

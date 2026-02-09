@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { _t } from "@web/core/l10n/translation";
 import { standardFieldProps } from "../standard_field_props";
-import { Component, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef } from "@betopiaerp/owl";
 
 export class IframeWrapperField extends Component {
     static template = "web.IframeWrapperField";

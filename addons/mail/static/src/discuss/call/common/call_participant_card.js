@@ -7,7 +7,7 @@ import { isEventHandled } from "@web/core/utils/misc";
 import { browser } from "@web/core/browser/browser";
 import { isMobileOS } from "@web/core/browser/feature_detection";
 
-import { Component, onMounted, onWillUnmount, useRef, useExternalListener } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillUnmount, useRef, useExternalListener } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { rpc } from "@web/core/network/rpc";
 

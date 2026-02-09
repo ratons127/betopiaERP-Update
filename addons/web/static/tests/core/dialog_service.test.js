@@ -1,9 +1,9 @@
-import { test, expect, beforeEach } from "@BetopiaERP/hoot";
-import { click, press, queryAll, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { test, expect, beforeEach } from "@betopiaerp/hoot";
+import { click, press, queryAll, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { getService, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { Dialog } from "@web/core/dialog/dialog";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { useAutofocus } from "@web/core/utils/hooks";
 import { MainComponentsContainer } from "@web/core/main_components_container";

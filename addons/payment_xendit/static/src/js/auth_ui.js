@@ -1,4 +1,4 @@
-import { Component, EventBus, xml } from '@BetopiaERP/owl';
+import { Component, EventBus, xml } from '@betopiaerp/owl';
 
 export class AuthUI extends Component {
     static props = {

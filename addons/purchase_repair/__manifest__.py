@@ -5,7 +5,7 @@
     'summary': 'Keep track of linked purchase and repair orders',
     'version': '1.0',
     'category': 'Supply Chain/Purchase',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'depends': ['repair', 'purchase_stock'],
     'data': [

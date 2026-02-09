@@ -1,4 +1,4 @@
-import { after, before, describe, expect, test } from "@BetopiaERP/hoot";
+import { after, before, describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
 import { setColor } from "./_helpers/user_actions";

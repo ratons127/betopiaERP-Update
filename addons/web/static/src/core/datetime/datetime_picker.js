@@ -1,4 +1,4 @@
-import { Component, onWillRender, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { Component, onWillRender, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { MAX_VALID_DATE, MIN_VALID_DATE, clampDate, isInRange, today } from "../l10n/dates";
 import { localization } from "../l10n/localization";

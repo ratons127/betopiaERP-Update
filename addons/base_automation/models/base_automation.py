@@ -35,7 +35,7 @@ def _get_domain_fields(env, model, domain):
     # wondering why we use a regex instead of safe_eval?
     # because this method is called on a compute method hence could be triggered
     # from an onchange call (i.e. a manually crafted malicious one)
-    # see: https://github.com/BetopiaERP/BetopiaERP/pull/189772#issuecomment-2548804283
+    # see: https://github.com/betopiaerp/betopiaerp/pull/189772#issuecomment-2548804283
     for match in DOMAIN_FIELDS_RE.finditer(domain):
         if field := match.groupdict().get('field'):
             fields |= IrModelFields._get(model, field)

@@ -42,8 +42,8 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Events Status](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"stage_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"stage_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
-        "A23": "[Top Venues](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"address_id\",\"!=\",false]],\"context\":{\"group_by\":[\"address_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"address_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
+        "A7": "[Events Status](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"stage_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"stage_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
+        "A23": "[Top Venues](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"address_id\",\"!=\",false]],\"context\":{\"group_by\":[\"address_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"address_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
         "A24": "=_t(\"Venue\")",
         "A25": "=PIVOT.HEADER(1,\"#address_id\",1)",
         "A26": "=PIVOT.HEADER(1,\"#address_id\",2)",
@@ -55,7 +55,7 @@
         "A32": "=PIVOT.HEADER(1,\"#address_id\",8)",
         "A33": "=PIVOT.HEADER(1,\"#address_id\",9)",
         "A34": "=PIVOT.HEADER(1,\"#address_id\",10)",
-        "A36": "[Top Tags](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"tag_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"tag_ids\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"tag_ids\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
+        "A36": "[Top Tags](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"tag_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"tag_ids\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"tag_ids\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
         "A37": "=_t(\"Tag\")",
         "A38": "=PIVOT.HEADER(3,\"#tag_ids\",1)",
         "A39": "=PIVOT.HEADER(3,\"#tag_ids\",2)",
@@ -89,8 +89,8 @@
         "B45": "=PIVOT.VALUE(3,\"__count\",\"#tag_ids\",8)",
         "B46": "=PIVOT.VALUE(3,\"__count\",\"#tag_ids\",9)",
         "B47": "=PIVOT.VALUE(3,\"__count\",\"#tag_ids\",10)",
-        "D7": "[Registration Status](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"state\"]},\"modelName\":\"event.registration\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"kanban\"],[false,\"list\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendees\"})",
-        "D23": "[Top Templates](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"event_type_id\",\"!=\",false]],\"context\":{\"group_by\":[\"event_type_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"event_type_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
+        "D7": "[Registration Status](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"state\"]},\"modelName\":\"event.registration\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"kanban\"],[false,\"list\"],[false,\"form\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendees\"})",
+        "D23": "[Top Templates](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"event_type_id\",\"!=\",false]],\"context\":{\"group_by\":[\"event_type_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"event_type_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
         "D24": "=_t(\"Template\")",
         "D25": "=PIVOT.HEADER(2,\"#event_type_id\",1)",
         "D26": "=PIVOT.HEADER(2,\"#event_type_id\",2)",
@@ -102,7 +102,7 @@
         "D32": "=PIVOT.HEADER(2,\"#event_type_id\",8)",
         "D33": "=PIVOT.HEADER(2,\"#event_type_id\",9)",
         "D34": "=PIVOT.HEADER(2,\"#event_type_id\",10)",
-        "D36": "[Top Organizers](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"organizer_id\",\"!=\",false]],\"context\":{\"group_by\":[\"organizer_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"organizer_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
+        "D36": "[Top Organizers](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"organizer_id\",\"!=\",false]],\"context\":{\"group_by\":[\"organizer_id\"],\"pivot_measures\":[\"__count\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"organizer_id\"]},\"modelName\":\"event.event\",\"views\":[[false,\"kanban\"],[false,\"calendar\"],[false,\"list\"],[false,\"form\"],[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Events\"})",
         "D37": "=_t(\"Organizer\")",
         "D38": "=PIVOT.HEADER(4,\"#organizer_id\",1)",
         "D39": "=PIVOT.HEADER(4,\"#organizer_id\",2)",
@@ -232,7 +232,7 @@
               "groupBy": ["state"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": true,
@@ -272,7 +272,7 @@
               "groupBy": ["stage_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": true,
@@ -522,7 +522,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },
@@ -552,7 +552,7 @@
       ]
     },
     "2": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },
@@ -582,7 +582,7 @@
       ]
     },
     "3": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },
@@ -612,7 +612,7 @@
       ]
     },
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },
@@ -642,7 +642,7 @@
       ]
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "event_begin_date", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "event_id.address_id", "type": "many2one" },
@@ -664,7 +664,7 @@
       "rows": []
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "event_begin_date", "type": "datetime", "offset": -1 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "event_id.address_id", "type": "many2one" },
@@ -686,7 +686,7 @@
       "rows": []
     },
     "7": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "event_date_begin", "type": "date", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "event_id.address_id", "type": "many2one" },
@@ -710,7 +710,7 @@
       "rows": []
     },
     "8": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "event_date_begin", "type": "date", "offset": -1 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "event_id.address_id", "type": "many2one" },
@@ -736,7 +736,7 @@
       "rows": []
     },
     "9": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": 0 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },
@@ -758,7 +758,7 @@
       "rows": []
     },
     "10": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "f849aaa6-4c1a-43f6-9c0b-7a5ea9c83eae": { "chain": "date_begin", "type": "datetime", "offset": -1 },
         "62e15eb2-9410-4803-b189-5fa789a7e94f": { "chain": "address_id", "type": "many2one" },

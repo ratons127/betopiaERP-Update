@@ -3,7 +3,7 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 import { showProductColumn } from "@account/js/tours/tour_utils";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 export const accountTourSteps = {
     draftInvoiceSelector:
@@ -35,7 +35,7 @@ export const accountTourSteps = {
 }
 
 registry.category("web_tour.tours").add('account_tour', {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
     ...accountTourSteps.goToAccountMenu(markup(_t('Send invoices to your customers in no time with the <b>Invoicing app</b>.'))),
     ...accountTourSteps.onboarding(),

@@ -4,7 +4,7 @@ import { standardFieldProps } from "@web/views/fields/standard_field_props";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
 
-import { Component, useState, onWillStart } from "@BetopiaERP/owl";
+import { Component, useState, onWillStart } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";

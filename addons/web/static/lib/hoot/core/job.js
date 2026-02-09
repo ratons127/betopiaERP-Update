@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { generateHash, HootError, isOfType, normalize } from "../hoot_utils";
 import { applyTags } from "./tag";

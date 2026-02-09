@@ -33,6 +33,6 @@ project.
         ],
     },
     'depends': ['base', 'web'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

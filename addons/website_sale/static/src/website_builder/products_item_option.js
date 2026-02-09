@@ -1,5 +1,5 @@
 import { BaseOptionComponent, useDomState } from "@html_builder/core/utils";
-import { onWillStart, onMounted, useState, useRef } from "@BetopiaERP/owl";
+import { onWillStart, onMounted, useState, useRef } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 

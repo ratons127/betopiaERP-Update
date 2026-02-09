@@ -1,4 +1,4 @@
-import { useComponent, useEffect, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { useComponent, useEffect, useExternalListener, useRef } from "@betopiaerp/owl";
 import { makeDraggableHook } from "@web/core/utils/draggable_hook_builder_owl";
 import { shallowEqual } from "@web/core/utils/objects";
 import { closest } from "@web/core/utils/ui";

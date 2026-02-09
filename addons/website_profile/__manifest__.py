@@ -35,6 +35,6 @@
             'website_profile/static/tests/tours/tour_website_profile_description.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

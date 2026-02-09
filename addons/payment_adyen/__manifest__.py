@@ -24,6 +24,6 @@
             'payment_adyen/static/src/interactions/payment_form.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

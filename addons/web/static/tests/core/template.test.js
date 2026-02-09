@@ -1,5 +1,5 @@
-import { after, expect, test } from "@BetopiaERP/hoot";
-import { Component, useRef, xml } from "@BetopiaERP/owl";
+import { after, expect, test } from "@betopiaerp/hoot";
+import { Component, useRef, xml } from "@betopiaerp/owl";
 import { mountWithCleanup, patchTranslations } from "@web/../tests/web_test_helpers";
 import { registerTemplate, registerTemplateExtension, setUrlFilters } from "@web/core/templates";
 

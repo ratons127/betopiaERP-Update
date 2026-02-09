@@ -160,7 +160,7 @@ class MailPluginController(http.Controller):
                     'name': _('Notification'),
                     'email': normalized_email,
                     'enrichment_info': {
-                        'type': 'BetopiaERP_custom_error', 'info': _('This is your notification address. Search the Contact manually to link this email to a record.'),
+                        'type': 'betopiaerp_custom_error', 'info': _('This is your notification address. Search the Contact manually to link this email to a record.'),
                     },
                 },
             }

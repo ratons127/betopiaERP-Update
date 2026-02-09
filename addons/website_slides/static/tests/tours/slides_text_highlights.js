@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import {
     clickOnEditAndWaitEditMode,
@@ -39,7 +39,7 @@ registerWebsitePreviewTour(
         {
             content: "Wait for the review tab chatter to be ready",
             trigger: ":iframe #chatterRoot:not(:visible)",
-            run: () => BetopiaERP.portalChatterReady,
+            run: () => betopiaerp.portalChatterReady,
         },
         ...clickOnEditAndWaitEditMode(),
         selectText(".s_text_block > p"),

@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useRef } from "@betopiaerp/owl";
 import { useScrollShadow } from "../../utils/scroll_shadow_hook";
 
 export class CategoryListPopup extends Component {

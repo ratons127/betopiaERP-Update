@@ -1,4 +1,4 @@
-import { Component, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useState, useEffect } from "@betopiaerp/owl";
 import { ListRenderer } from "@web/views/list/list_renderer";
 import { listView } from "@web/views/list/list_view";
 import { registry } from "@web/core/registry";

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { OptionsContainer } from "@html_builder/sidebar/option_container";
 
 export class CustomizeTranslationTab extends Component {

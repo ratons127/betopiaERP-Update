@@ -5,7 +5,7 @@
     'name': 'Project - Sale - Expense',
     'version': '1.0',
     'description': 'Adds a full traceability of reinvoice expenses on the profitability report.',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'category': 'Services/Project',
     'depends': ['sale_project', 'sale_expense', 'project_hr_expense'],

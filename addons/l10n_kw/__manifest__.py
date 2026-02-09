@@ -2,7 +2,7 @@
     'name': 'Kuwait - Accounting',
     'countries': ['kw'],
     'description': """
-This is the base module to manage the accounting chart for Kuwait in betopiaerp.
+This is the base module to manage the accounting chart for Kuwait in BetopiaERP.
 ==============================================================================
 Kuwait accounting basic charts and localization.
 Activates:
@@ -18,6 +18,6 @@ Activates:
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

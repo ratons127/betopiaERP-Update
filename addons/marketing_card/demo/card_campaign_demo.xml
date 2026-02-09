@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP noupdate="1">
+<betopiaerp noupdate="1">
     <record id="card_campaign_tag_demo" model="card.campaign.tag">
         <field name="name">Exhibitor</field>
     </record>
@@ -13,7 +13,7 @@
         <field name="target_url">https://www.BetopiaERP.com/</field>
         <field name="reward_message" type="html">
             <p>You just leveled up your exposure!</p>
-            <p>Check out BetopiaERP.com for more!</p>
+            <p>Check out betopiaerp.com for more!</p>
         </field>
         <field name="reward_target_url">https://www.BetopiaERP.com/</field>
         <field name="user_id" ref="base.user_admin"/>
@@ -33,4 +33,4 @@
         <field name="content_button">join me</field>
 
     </record>
-</BetopiaERP>
+</betopiaerp>

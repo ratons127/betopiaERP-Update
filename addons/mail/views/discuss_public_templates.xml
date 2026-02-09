@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="mail.discuss_public_channel_template" name="Discuss Public Template">&lt;!DOCTYPE html&gt;
         <html class="h-100">
             <head>
@@ -9,7 +9,7 @@
                 <title t-esc="title or 'BetopiaERP'"/>
                 <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
                 <script>
-                    window.BetopiaERP = {
+                    window.betopiaerp = {
                         __session_info__: <t t-out="json.dumps(session_info)"/>,
                         csrf_token: "<t t-out="request.csrf_token(None)"/>",
                         debug: "<t t-out="debug"/>",
@@ -29,4 +29,4 @@
             </body>
         </html>
     </template>
-</BetopiaERP>
+</betopiaerp>

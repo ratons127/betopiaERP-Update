@@ -1,5 +1,5 @@
 export default class DeviceIdentifierSequence {
-    static uniqueDeviceIdentifierKey = `${BetopiaERP.access_token}-unique_device_identifier`;
+    static uniqueDeviceIdentifierKey = `${betopiaerp.access_token}-unique_device_identifier`;
 
     constructor({ orm }) {
         this.orm = orm;
@@ -34,7 +34,7 @@ export default class DeviceIdentifierSequence {
 
         if (!deviceIdentifier) {
             const data = await this.orm.call("pos.config", "register_new_device_identifier", [
-                BetopiaERP.pos_config_id,
+                betopiaerp.pos_config_id,
             ]);
 
             this.device_identifier = data.device_identifier;

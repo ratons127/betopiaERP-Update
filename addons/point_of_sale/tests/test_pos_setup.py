@@ -83,7 +83,7 @@ class TestPoSSetup(TestPoSCommon):
             'code': 'BANKOS',
             'type': 'bank',
             'invoice_reference_type': 'invoice',
-            'invoice_reference_model': 'BetopiaERP'
+            'invoice_reference_model': 'betopiaerp'
         })
         payment_method = self.env['pos.payment.method'].create({'name': 'Lets Pay for Tests', 'journal_id': journal.id})
         self.basic_config.write({'payment_method_ids': [payment_method.id]})

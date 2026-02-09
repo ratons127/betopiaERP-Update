@@ -24,7 +24,7 @@ export class RatingPopupComposer extends Interaction {
             "res_id": false,
             "pid": 0,
             "display_rating": true,
-            "csrf_token": BetopiaERP.csrf_token,
+            "csrf_token": betopiaerp.csrf_token,
             "user_id": user.userId,
             "reloadRatingPopupComposer": this.onReloadRatingPopupComposer.bind(this),
         }, options, {});

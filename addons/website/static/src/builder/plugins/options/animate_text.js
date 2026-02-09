@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillDestroy, useChildSubEnv, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillDestroy, useChildSubEnv, useRef, useState } from "@betopiaerp/owl";
 import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 import { AnimateOption } from "./animate_option";
 import { usePopover } from "@web/core/popover/popover_hook";

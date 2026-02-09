@@ -7,16 +7,16 @@
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2023
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-02-02 13:44+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "purchase_requisition/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgid "Alternative Purchase Order"
 msgstr "代替購買オーダ"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid "Alternative Purchase Orders"
 msgstr "代替購買オーダ"
@@ -220,7 +220,7 @@ msgid "Cancelled"
 msgstr "キャンセル済"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Cancelled by the agreement associated to this quotation."
 msgstr "この見積書に関連した契約によってキャンセルされました。"
@@ -282,7 +282,7 @@ msgid "Company Total"
 msgstr "会社合計"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Compare Order Lines"
 msgstr "オーダ明細を比較"
@@ -335,7 +335,7 @@ msgstr ""
 "に別のプロダクトを注文する決定をすることもできます。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Create alternative"
 msgstr "代替を作成"
@@ -420,7 +420,7 @@ msgid "End Date"
 msgstr "終了日"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "End date cannot be earlier than start date. Please check dates for "
@@ -595,7 +595,7 @@ msgid "Name, TIN, Email, or Reference"
 msgstr "名称/適格請求書発行事業者番号/Eメール/参照"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "New"
 msgstr "新規"
@@ -631,7 +631,7 @@ msgid "Next Activity Type"
 msgstr "次の活動タイプ"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Nothing to clear"
 msgstr "クリア対象なし"
@@ -868,13 +868,13 @@ msgid "Show all records whose next activity date is past"
 msgstr "次回活動日が過去のすべてのレコードを表示"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Some not cleared"
 msgstr "いくつかはクリアされていません"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid ""
 "Some quantities were not cleared because their status is not a RFQ status."
@@ -937,13 +937,13 @@ msgid "The original PO that this alternative PO is being created for."
 msgstr "この代替購買オーダが作成される元の購買オーダ。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "There are no quantities to clear."
 msgstr "クリアする数量がありません。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "There is already an open blanket order for this supplier. We suggest you "
@@ -953,7 +953,7 @@ msgstr ""
 "未完了の包括オーダを完了させることをお勧めします。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
@@ -1007,7 +1007,7 @@ msgid "Warning Messages"
 msgstr "警告メッセージ"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 "Warning for %(partner)s:\n"
@@ -1017,7 +1017,7 @@ msgstr ""
 "%(warning_message)s\n"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
 "Warning for %(product)s:\n"
@@ -1027,7 +1027,7 @@ msgstr ""
 "%(warning_message)s\n"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "Warning for %s"
 msgstr "%s の警告です。"
@@ -1043,7 +1043,7 @@ msgid "Website communication history"
 msgstr "ウェブサイト通信履歴"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "What about the alternative Requests for Quotations?"
 msgstr "見積依頼の代替案はどうしますか？"
@@ -1059,13 +1059,13 @@ msgid "Wizard to preset values for alternative PO"
 msgstr "代替購買オーダ用の値プリセットのウィザード"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You can only delete draft or cancelled requisitions."
 msgstr "ドラフトまたはキャンセル済の要求しか削除することはできません。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
@@ -1073,19 +1073,19 @@ msgid ""
 msgstr "ドラフトではない購買契約の契約タイプや会社を変更することはできません。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
 msgstr "価格のない明細を含む包括オーダを確定することはできません。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a quantity."
 msgstr "数量が不足している明細を含む包括オーダを確定することはできません。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot confirm agreement '%(agreement)s' because it does not contain any "
@@ -1095,7 +1095,7 @@ msgstr ""
 "ん。"
 
 #. module: purchase_requisition
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
 "You cannot have a negative or unit price of 0 for an already confirmed "

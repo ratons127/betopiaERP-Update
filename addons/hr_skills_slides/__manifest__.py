@@ -30,6 +30,6 @@ This module add completed courses to resume for employees.
             'hr_skills_slides/static/src/fields/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

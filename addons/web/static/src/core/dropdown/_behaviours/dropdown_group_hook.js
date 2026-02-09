@@ -1,4 +1,4 @@
-import { useComponent, useEffect, useEnv } from "@BetopiaERP/owl";
+import { useComponent, useEffect, useEnv } from "@betopiaerp/owl";
 import { DROPDOWN_GROUP } from "@web/core/dropdown/dropdown_group";
 
 /**

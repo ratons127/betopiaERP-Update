@@ -2,7 +2,7 @@ import { _t } from "@web/core/l10n/translation";
 import { useErrorHandlers, useTrackedAsync } from "@point_of_sale/app/hooks/hooks";
 import { registry } from "@web/core/registry";
 import { OrderReceipt } from "@point_of_sale/app/screens/receipt_screen/receipt/order_receipt";
-import { useState, Component } from "@BetopiaERP/owl";
+import { useState, Component } from "@betopiaerp/owl";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { useService } from "@web/core/utils/hooks";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
@@ -114,7 +114,7 @@ export class ReceiptScreen extends Component {
 registry.category("pos_pages").add("ReceiptScreen", {
     name: "ReceiptScreen",
     component: ReceiptScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/receipt/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/receipt/{string:orderUuid}`,
     params: {
         orderUuid: true,
         orderFinalized: true,

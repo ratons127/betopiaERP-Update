@@ -1,4 +1,4 @@
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import {
     compareVersions,
     VERSION_SELECTOR,
@@ -85,7 +85,7 @@ export class HtmlUpgradeManager {
         for (const version of upgradeSequence) {
             const modules = this.upgradeRegistry.category(version);
             for (const [key, module] of modules.getEntries()) {
-                const migrate = BetopiaERP.loader.modules.get(module).migrate;
+                const migrate = betopiaerp.loader.modules.get(module).migrate;
                 if (!migrate) {
                     console.error(
                         `A "${key}" migrate function could not be found at "${module}" or it did not load.`

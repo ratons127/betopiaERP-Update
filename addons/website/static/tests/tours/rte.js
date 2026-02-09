@@ -5,7 +5,7 @@ import {
     goToTheme,
     registerWebsitePreviewTour,
 } from "@website/js/tours/tour_utils";
-import { whenReady } from "@BetopiaERP/owl";
+import { whenReady } from "@betopiaerp/owl";
 import { editorsWeakMap, setSelection } from "@html_editor/../tests/tours/helpers/editor";
 
 registerWebsitePreviewTour(

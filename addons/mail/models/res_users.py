@@ -392,16 +392,16 @@ class ResUsers(models.Model):
         """Initialize the store of the user."""
         xmlid_to_res_id = self.env["ir.model.data"]._xmlid_to_res_id
         # sudo: res.partner - exposing BetopiaERPBot data is considered acceptable
-        BetopiaERPbot = self.env.ref("base.partner_root").sudo()
+        betopiaerpbot = self.env.ref("base.partner_root").sudo()
         if not self.env.user._is_public():
-            BetopiaERPbot = BetopiaERPbot.with_prefetch((BetopiaERPbot + self.env.user.partner_id).ids)
+            betopiaerpbot = betopiaerpbot.with_prefetch((betopiaerpbot + self.env.user.partner_id).ids)
         store.add_global_values(
             action_discuss_id=xmlid_to_res_id("mail.action_discuss"),
             hasLinkPreviewFeature=self.env["mail.link.preview"]._is_link_preview_enabled(),
             internalUserGroupId=self.env.ref("base.group_user").id,
             mt_comment=xmlid_to_res_id("mail.mt_comment"),
             mt_note=xmlid_to_res_id("mail.mt_note"),
-            BetopiaERPbot=Store.One(BetopiaERPbot),
+            betopiaerpbot=Store.One(betopiaerpbot),
         )
         if not self.env.user._is_public():
             settings = self.env["res.users.settings"]._find_or_create_for_user(self.env.user)

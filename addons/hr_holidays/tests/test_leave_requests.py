@@ -2018,7 +2018,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
         # This reflects the customization done by customers for the reason explained above.
         self.env['ir.model.access'].create([
             # Read access on `mail.activity.type` for portal required for
-            # https://github.com/BetopiaERP/BetopiaERP/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L734
+            # https://github.com/betopiaerp/betopiaerp/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L734
             {
                 'name': 'Portal can read mail.activity.type',
                 'model_id': self.env.ref('mail.model_mail_activity_type').id,
@@ -2026,8 +2026,8 @@ class TestLeaveRequests(TestHrHolidaysCommon):
                 'perm_read': True, 'perm_create': False, 'perm_write': False, 'perm_unlink': False,
             },
             # Read access on `mail.activity` for portal required for
-            # https://github.com/BetopiaERP/BetopiaERP/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L786
-            # https://github.com/BetopiaERP/BetopiaERP/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L882
+            # https://github.com/betopiaerp/betopiaerp/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L786
+            # https://github.com/betopiaerp/betopiaerp/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L882
             {
                 'name': 'Portal can read mail.activity',
                 'model_id': self.env.ref('mail.model_mail_activity').id,
@@ -2035,7 +2035,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
                 'perm_read': True, 'perm_create': False, 'perm_write': False, 'perm_unlink': False,
             },
             # Read and create acess on `calendar.event` for portal required for
-            # https://github.com/BetopiaERP/BetopiaERP/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/hr_holidays/models/hr_leave.py#L894-L898
+            # https://github.com/betopiaerp/betopiaerp/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/hr_holidays/models/hr_leave.py#L894-L898
             # Write and unlink added to match the customer customization + out of common sense,
             # if you give create to portal for their own events,
             # you give write and unlink so they can manage their own events
@@ -2046,7 +2046,7 @@ class TestLeaveRequests(TestHrHolidaysCommon):
                 'perm_read': True, 'perm_create': True, 'perm_write': True, 'perm_unlink': True,
             },
             # Read and create acess on `calendar.event` for portal required for
-            # https://github.com/BetopiaERP/BetopiaERP/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L760-L768
+            # https://github.com/betopiaerp/betopiaerp/blob/cc0060e889603eb2e47fa44a8a22a70d7d784185/addons/calendar/models/calendar_event.py#L760-L768
             # Write and unlink added to match the customer customization + out of common sense,
             # if you give create to portal for their own events attendees,
             # you give write and unlink so they can manage their own attendees

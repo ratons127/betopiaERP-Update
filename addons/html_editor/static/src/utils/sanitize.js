@@ -1,6 +1,6 @@
 import { containsAnyInline } from "./dom_info";
 import { wrapInlinesInBlocks } from "./dom";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { htmlReplace } from "@web/core/utils/html";
 
 export function initElementForEdition(element, options = {}) {

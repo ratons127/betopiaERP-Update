@@ -1,6 +1,6 @@
 import { isVisible } from "@web/core/utils/ui";
 import { delay } from "@web/core/utils/concurrency";
-import { validate } from "@BetopiaERP/owl";
+import { validate } from "@betopiaerp/owl";
 
 const macroSchema = {
     name: { type: String, optional: true },

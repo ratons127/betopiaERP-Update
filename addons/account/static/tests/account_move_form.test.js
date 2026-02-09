@@ -6,7 +6,7 @@ import {
     startServer,
     triggerHotkey
 } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { asyncStep, contains, defineModels, fields, onRpc, models, waitForSteps} from "@web/../tests/web_test_helpers";
 import { defineAccountModels } from "./account_test_helpers";
 

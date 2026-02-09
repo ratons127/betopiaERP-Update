@@ -27,7 +27,7 @@ from .test_common import TestHttpBase
 from betopiaerp.addons.base.tests.common import HttpCase, HttpCaseWithUserDemo
 from betopiaerp.addons.test_http.controllers import CT_JSON
 
-GEOIP_BetopiaERP_FARM_2 = {
+GEOIP_BETOPIAERP_FARM_2 = {
     'city': 'Ramillies',
     'country_code': 'BE',
     'country_name': 'Belgium',
@@ -225,11 +225,11 @@ class TestHttpSession(TestHttpBase):
 
     @patch("betopiaerp.http.root.session_store.vacuum")
     def test_session08_gc_ignored_no_db_name(self, mock):
-        with patch.dict(os.environ, {'BetopiaERP_SKIP_GC_SESSIONS': ''}):
+        with patch.dict(os.environ, {'BETOPIAERP_SKIP_GC_SESSIONS': ''}):
             self.env['ir.http']._gc_sessions()
             mock.assert_called_once()
 
-        with patch.dict(os.environ, {'BetopiaERP_SKIP_GC_SESSIONS': '1'}):
+        with patch.dict(os.environ, {'BETOPIAERP_SKIP_GC_SESSIONS': '1'}):
             mock.reset_mock()
             self.env['ir.http']._gc_sessions()
             mock.assert_not_called()
@@ -248,7 +248,7 @@ class TestHttpSession(TestHttpBase):
             self.url_open(f'/web/session/logout?{qs}').raise_for_status()
         self.assertEqual(len(capture.output), 1)
         self.assertRegex(capture.output[0],
-            r"^WARNING:betopiaerp.http:<function BetopiaERP\.addons\.\w+\.controllers\.\w+\.logout> "
+            r"^WARNING:betopiaerp.http:<function betopiaerp\.addons\.\w+\.controllers\.\w+\.logout> "
             r"called ignoring args {('session_id', 'debug'|'debug', 'session_id')}$"
         )
         self.assertEqual(admin_session.debug, '1')
@@ -294,7 +294,7 @@ class TestHttpSession(TestHttpBase):
         session['foo_2'] = 'bar_2'
         self.assertTrue(session.is_dirty)
 
-    def test_session12_x_BetopiaERP_database_good_no_prior_session(self):
+    def test_session12_x_betopiaerp_database_good_no_prior_session(self):
         res = self.multidb_url_open(
             '/test_http/ensure_db',
             dblist=('a', 'b'),
@@ -303,7 +303,7 @@ class TestHttpSession(TestHttpBase):
         self.assertEqual(res.text, 'a')
         self.assertNotIn('session_id', res.cookies)
 
-    def test_session13_x_BetopiaERP_database_bad_no_prior_session(self):
+    def test_session13_x_betopiaerp_database_bad_no_prior_session(self):
         res = self.multidb_url_open(
             '/test_http/ensure_db',
             dblist=('a', 'b'),
@@ -314,7 +314,7 @@ class TestHttpSession(TestHttpBase):
         self.assertURLEqual(res.next.url, '/web/database/selector')
         self.assertNotIn('session_id', res.cookies)
 
-    def test_session14_x_BetopiaERP_database_with_prior_session_same(self):
+    def test_session14_x_betopiaerp_database_with_prior_session_same(self):
         session = self.authenticate(None, None)
         self.assertEqual(session.db, get_db_name())
 
@@ -326,7 +326,7 @@ class TestHttpSession(TestHttpBase):
         self.assertEqual(res.text, get_db_name())
         self.assertNotIn('session_id', res.cookies)
 
-    def test_session15_x_BetopiaERP_database_with_prior_session_different(self):
+    def test_session15_x_betopiaerp_database_with_prior_session_different(self):
         session = self.authenticate(None, None)
         self.assertEqual(session.db, get_db_name())
 
@@ -335,7 +335,7 @@ class TestHttpSession(TestHttpBase):
         })
         self.assertEqual(res.status_code, 403, res.text)
         self.assertIn(
-            "Cannot use both the session_id cookie and the x-BetopiaERP-database header.",
+            "Cannot use both the session_id cookie and the x-betopiaerp-database header.",
             res.text,
         )
 
@@ -354,7 +354,7 @@ class TestHttpSession(TestHttpBase):
 class TestSessionStore(HttpCaseWithUserDemo):
     def setUp(self):
         super().setUp()
-        if os.getenv("BetopiaERP_FAKETIME_TEST_MODE"):
+        if os.getenv("BETOPIAERP_FAKETIME_TEST_MODE"):
             self.skipTest("Those tests are not working in with faketime (filesystem times are used)")
         self.tmpdir = TemporaryDirectory()
         self.addCleanup(self.tmpdir.cleanup)
@@ -436,17 +436,17 @@ class TestSessionRotation(HttpCase):
             self.assertTrue(normalized_path.startswith(root.session_store.path))
             return len(glob.glob(normalized_path))
         self.authenticate('admin', 'admin')
-        self.url_open('/BetopiaERP')
+        self.url_open('/betopiaerp')
         session_one = self.opener.cookies['session_id']
         # Session shouldn't rotate if not expired
-        self.url_open('/BetopiaERP')
+        self.url_open('/betopiaerp')
         self.assertEqual(self.opener.cookies['session_id'], session_one)
         self.assertEqual(get_amount_sessions(session_one), 1)
         # Expire the first session
         session_one_obj = root.session_store.get(session_one)
         session_one_obj['create_time'] -= SESSION_ROTATION_INTERVAL
         root.session_store.save(session_one_obj)
-        self.url_open('/BetopiaERP')
+        self.url_open('/betopiaerp')
         session_two = self.opener.cookies['session_id']
         self.assertNotEqual(session_one, session_two)
         self.assertEqual(get_amount_sessions(session_two), 2)
@@ -454,7 +454,7 @@ class TestSessionRotation(HttpCase):
         session_two_obj = root.session_store.get(session_two)
         session_two_obj['create_time'] -= SESSION_DELETION_TIMER
         root.session_store.save(session_two_obj)
-        self.url_open('/BetopiaERP')
+        self.url_open('/betopiaerp')
         session_three = self.opener.cookies['session_id']
         self.assertEqual(session_three, session_two)
         self.assertEqual(get_amount_sessions(session_three), 1)

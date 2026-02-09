@@ -7,7 +7,7 @@ import {
     startServer
 } from "@mail/../tests/mail_test_helpers";
 import { defineMrpModels } from "@mrp/../tests/mrp_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { inputFiles } from "@web/../tests/utils";
 import { asyncStep, getService, patchWithCleanup, waitForSteps } from "@web/../tests/web_test_helpers";
 import { fileUploadService } from "@web/core/file_upload/file_upload_service";

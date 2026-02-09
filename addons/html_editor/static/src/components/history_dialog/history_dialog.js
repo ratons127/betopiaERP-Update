@@ -3,7 +3,7 @@ import { Notebook } from "@web/core/notebook/notebook";
 import { formatDateTime } from "@web/core/l10n/dates";
 import { useService } from "@web/core/utils/hooks";
 import { memoize } from "@web/core/utils/functions";
-import { Component, onMounted, useState, markup, onWillStart, onWillDestroy } from "@BetopiaERP/owl";
+import { Component, onMounted, useState, markup, onWillStart, onWillDestroy } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
 import { HtmlViewer } from "@html_editor/components/html_viewer/html_viewer";

@@ -7,18 +7,18 @@
 # Martin Trigaux, 2022
 # Kevilyn Rosa, 2023
 # Layna Nascimento, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Maitê Dietze (madi)" <madi@BetopiaERP.com>, 2025.
+# "Maitê Dietze (madi)" <madi@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-31 08:14+0000\n"
-"Last-Translator: \"Maitê Dietze (madi)\" <madi@BetopiaERP.com>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.BetopiaERP.com/projects/"
-"BetopiaERP-19/repair/pt_BR/>\n"
+"Last-Translator: \"Maitê Dietze (madi)\" <madi@betopiaerp.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.betopiaerp.com/projects/"
+"betopiaerp-19/repair/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,13 +28,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
 msgstr "%(name)s Sequência de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
 msgstr "%(product)s: quantidade insuficiente para reparo"
@@ -253,7 +253,7 @@ msgid "Any Part is late"
 msgstr "Alguma peça está atrasada"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -271,14 +271,14 @@ msgid "Attachment Count"
 msgstr "Total de anexos"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__available
 msgid "Available"
 msgstr "Disponível"
 
 #. module: repair
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
 msgstr "Retornar para reparo"
@@ -295,7 +295,7 @@ msgid "BoM Components"
 msgstr "Componentes da LM"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr "Não foi possível encontrar um local de produção."
@@ -369,7 +369,7 @@ msgid "Confirm Repair"
 msgstr "Confirmar reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__confirmed
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -382,7 +382,7 @@ msgid "Create Quotation"
 msgstr "Criar cotação"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.server,name:repair.action_create_repair_order
 msgid "Create Repair"
@@ -476,7 +476,7 @@ msgstr ""
 "Certifique-se da rastreabilidade de um produto estocável em seu armazém."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
 msgstr "Prev %s"
@@ -739,13 +739,13 @@ msgid "Normal"
 msgstr "Normal"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Not Available"
 msgstr "Não disponível"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
@@ -855,7 +855,7 @@ msgid "Picking Type Visible"
 msgstr "Tipo de separação Visível"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Please set the first Serial Number or a default sequence"
 msgstr "Defina o primeiro número de série ou uma sequência padrão"
@@ -1055,7 +1055,7 @@ msgid "Repair Order(s)"
 msgstr "Ordens de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:repair.action_picking_repair
@@ -1106,13 +1106,13 @@ msgid "Repair Tags"
 msgstr "Marcadores de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
 msgstr "O status do reparo deve ser 'Em reparo' para que possa ser concluído."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid "Repair orders of %s"
 msgstr "Ordens de reparo de %s"
@@ -1134,7 +1134,7 @@ msgid "Repaired count"
 msgstr "Contagem de reparos feitos"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 #: model:ir.ui.menu,name:repair.menu_repair_order
 #: model:ir.ui.menu,name:repair.repair_menu
@@ -1150,7 +1150,7 @@ msgid "Repairs order"
 msgstr "Ordem de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "Reposição por pedido (sob demanda)"
@@ -1228,7 +1228,7 @@ msgid "Search Repair Orders"
 msgstr "Buscar ordens de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 msgstr "O número de série é necessário para o produto a ser reparado: %s"
@@ -1473,7 +1473,7 @@ msgid "Warn Insufficient Repair Quantity"
 msgstr "Avisar quantidade insuficiente de reparo"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Warning"
 msgstr "Aviso"
@@ -1495,7 +1495,7 @@ msgid "Yesterday"
 msgstr "Ontem"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
@@ -1507,20 +1507,20 @@ msgstr ""
 "novos lotes/números de série'."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You can not enter negative quantities."
 msgstr "Não é possível inserir quantidades negativas."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
 msgstr ""
 "Não é possível cancelar uma ordem de reparo que já tenha sido concluída"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You cannot create a quotation for a repair order that is already linked to "
@@ -1534,7 +1534,7 @@ msgstr ""
 "%(ref_str)s"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You need to define a customer for a repair order in order to create an "
@@ -1553,13 +1553,13 @@ msgid "from location"
 msgstr "do local"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 msgid "id"
 msgstr "id"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 msgid "sale_order_id"
 msgstr "sale_order_id"

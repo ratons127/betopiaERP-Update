@@ -11,7 +11,7 @@ import {
     toRaw,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { useNumpadDecimal } from "@web/views/fields/numpad_decimal_hook";
 
 /**

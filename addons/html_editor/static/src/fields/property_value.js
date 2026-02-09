@@ -8,7 +8,7 @@ import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_ma
 import { normalizeHTML } from "@html_editor/utils/html";
 import { Wysiwyg } from "@html_editor/wysiwyg";
 import { user } from "@web/core/user";
-import { useState, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { useState, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 
 patch(PropertyValue.prototype, {
     setup() {

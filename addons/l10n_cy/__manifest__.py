@@ -5,7 +5,7 @@
     'description': """
 Basic package for Cyprus that contains the chart of accounts, taxes, tax reports,...
     """,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',

@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Component } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Component } from "@betopiaerp/owl";
 import { serverState } from "@web/../tests/web_test_helpers";
 
 import { Registry } from "@web/core/registry";

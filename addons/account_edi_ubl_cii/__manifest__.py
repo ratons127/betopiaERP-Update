@@ -34,7 +34,7 @@ Pro rules and show the errors.
     },
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'uninstall_hook': 'uninstall_hook',
 }

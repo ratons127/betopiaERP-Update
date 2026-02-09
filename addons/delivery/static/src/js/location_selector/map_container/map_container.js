@@ -2,7 +2,7 @@ import {
     LocationSchedule
 } from '@delivery/js/location_selector/location_schedule/location_schedule';
 import { Map } from '@delivery/js/location_selector/map/map';
-import { Component, onWillStart, useState } from '@BetopiaERP/owl';
+import { Component, onWillStart, useState } from '@betopiaerp/owl';
 import { AssetsLoadingError, loadCSS, loadJS } from '@web/core/assets';
 import { _t } from '@web/core/l10n/translation';
 

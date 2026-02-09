@@ -1,6 +1,6 @@
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { click, queryOne } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockTouch } from "@BetopiaERP/hoot-mock";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { click, queryOne } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockTouch } from "@betopiaerp/hoot-mock";
 import {
     contains,
     getService,
@@ -9,7 +9,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, onMounted, reactive, useState, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, reactive, useState, xml } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { CommandPalette } from "@web/core/commands/command_palette";
 import { registry } from "@web/core/registry";

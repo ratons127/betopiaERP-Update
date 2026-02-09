@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DateFilterDropdown } from "../date_filter_dropdown/date_filter_dropdown";
 import { dateFilterValueToString } from "@spreadsheet/global_filters/helpers";

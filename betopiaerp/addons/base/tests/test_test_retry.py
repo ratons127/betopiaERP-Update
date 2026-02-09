@@ -35,7 +35,7 @@ class TestRetryCommon(BaseCase):
 
 @tagged('test_retry', 'test_retry_success')
 class TestRetry(TestRetryCommon):
-    """ Check some tests behaviour when BetopiaERP_TEST_FAILURE_RETRIES is set"""
+    """ Check some tests behaviour when BETOPIAERP_TEST_FAILURE_RETRIES is set"""
 
     def test_log_levels(self):
         _logger.debug('test debug')
@@ -51,7 +51,7 @@ class TestRetry(TestRetryCommon):
 
 @tagged('test_retry', 'test_retry_success')
 class TestRetryTraceback(TestRetryCommon):
-    """ Check some tests behaviour when BetopiaERP_TEST_FAILURE_RETRIES is set"""
+    """ Check some tests behaviour when BETOPIAERP_TEST_FAILURE_RETRIES is set"""
 
     def test_retry_traceback_success(self):
         tests_run_count = self.get_tests_run_count()

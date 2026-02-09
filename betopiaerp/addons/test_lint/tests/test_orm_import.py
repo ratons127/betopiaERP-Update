@@ -8,7 +8,7 @@ from . import lint_case
 import re
 _logger = logging.getLogger(__name__)
 
-import_orm_re = re.compile(r'^(from|import)\s+BetopiaERP\.orm')
+import_orm_re = re.compile(r'^(from|import)\s+betopiaerp\.orm')
 
 
 class TestDunderinit(lint_case.LintCase):

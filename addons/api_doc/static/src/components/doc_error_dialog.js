@@ -1,4 +1,4 @@
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 
 export class DocErrorDialog extends Component {

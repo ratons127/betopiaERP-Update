@@ -1,10 +1,10 @@
 import { useSpreadsheetNotificationStore } from "@spreadsheet/hooks";
-import { Spreadsheet, Model } from "@BetopiaERP/o-spreadsheet";
-import { Component } from "@BetopiaERP/owl";
+import { Spreadsheet, Model } from "@betopiaerp/o-spreadsheet";
+import { Component } from "@betopiaerp/owl";
 
 /**
  * Component wrapping the <Spreadsheet> component from o-spreadsheet
- * to add user interactions extensions from BetopiaERP such as notifications,
+ * to add user interactions extensions from betopiaerp such as notifications,
  * error dialogs, etc.
  */
 export class SpreadsheetComponent extends Component {

@@ -1,6 +1,6 @@
 import { _OriginalIndexedDB as IndexedDB } from "@web/core/utils/indexed_db";
 
-import { describe, expect, onError, test } from "@BetopiaERP/hoot";
+import { describe, expect, onError, test } from "@betopiaerp/hoot";
 
 describe.current.tags("headless");
 

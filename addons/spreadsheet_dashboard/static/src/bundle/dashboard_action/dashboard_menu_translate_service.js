@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 import { dynamicSpreadsheetTranslate } from "@spreadsheet/o_spreadsheet/translation";
 

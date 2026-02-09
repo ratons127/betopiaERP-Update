@@ -1,4 +1,4 @@
-import { onMounted, onRendered, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { onMounted, onRendered, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { useHotkey } from "@web/core/hotkeys/hotkey_hook";
 

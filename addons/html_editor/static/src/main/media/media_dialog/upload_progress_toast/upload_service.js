@@ -5,7 +5,7 @@ import { _t } from "@web/core/l10n/translation";
 import { checkFileSize } from "@web/core/utils/files";
 import { humanNumber } from "@web/core/utils/numbers";
 import { getDataURLFromFile } from "@web/core/utils/urls";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 export const AUTOCLOSE_DELAY = 3000;
 export const AUTOCLOSE_DELAY_LONG = 8000;

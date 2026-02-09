@@ -1,4 +1,4 @@
-import { Component, onMounted, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useTransition } from "@web/core/transition";
 import { uniqueId } from "@web/core/utils/functions";
 import { useService } from "@web/core/utils/hooks";

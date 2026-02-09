@@ -7,8 +7,8 @@ import {
     triggerEvents,
 } from "@mail/../tests/mail_test_helpers";
 import { rpcWithEnv } from "@mail/utils/common/misc";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,

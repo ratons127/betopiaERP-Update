@@ -13,6 +13,6 @@
         'views/res_config_settings_view.xml',
     ],
     'depends': ['base_setup'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'OEEL-1',
 }

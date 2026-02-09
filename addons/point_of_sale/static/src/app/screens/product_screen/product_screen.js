@@ -5,7 +5,7 @@ import { useLongPress } from "@point_of_sale/app/hooks/long_press_hook";
 import { useBarcodeReader } from "@point_of_sale/app/hooks/barcode_reader_hook";
 import { _t } from "@web/core/l10n/translation";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
-import { Component, onMounted, useEffect, useState, onWillRender, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, onMounted, useEffect, useState, onWillRender, onWillUnmount } from "@betopiaerp/owl";
 import { CategorySelector } from "@point_of_sale/app/components/category_selector/category_selector";
 import { Input } from "@point_of_sale/app/components/inputs/input/input";
 import {
@@ -421,7 +421,7 @@ export class ProductScreen extends Component {
 registry.category("pos_pages").add("ProductScreen", {
     name: "ProductScreen",
     component: ProductScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/product/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/product/{string:orderUuid}`,
     params: {
         orderUuid: true,
         orderFinalized: false,

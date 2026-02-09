@@ -1,7 +1,7 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText, undo } from "@html_editor/../tests/_helpers/user_actions";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAll, queryOne, queryAllTexts, tick, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAll, queryOne, queryAllTexts, tick, waitFor } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

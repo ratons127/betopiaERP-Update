@@ -1,6 +1,6 @@
 import { browser } from "@web/core/browser/browser";
 import { Deferred } from "@web/core/utils/concurrency";
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 
 const STATE = Object.freeze({
     INIT: "INIT",

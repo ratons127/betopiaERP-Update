@@ -1,6 +1,6 @@
 import { Plugin } from "@html_editor/plugin";
 import { CORE_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     hover,
@@ -9,8 +9,8 @@ import {
     queryAllTexts,
     scroll,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import {
     applyConcurrentActions,
     mergePeersSteps,
@@ -740,7 +740,7 @@ test("select command with 'mouseenter'", async () => {
 
     // Hoot don't trigger a mousemove event at the start of an hover, if we don't hover
     // another element before. So we need to do a first hover to set a previous element.
-    await hover(".BetopiaERP-editor-editable");
+    await hover(".betopiaerp-editor-editable");
 
     await insertText(editor, "/head");
     await animationFrame();

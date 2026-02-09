@@ -107,7 +107,7 @@ def __getattr__(name):
     return Form
 
 
-# The BetopiaERP library is supposed already configured.
+# The betopiaerp library is supposed already configured.
 HOST = '127.0.0.1'
 # Useless constant, tests are aware of the content of demo data
 ADMIN_USER_ID = api.SUPERUSER_ID
@@ -171,7 +171,7 @@ def standalone(*tags):
     ``tags`` and the corresponding BetopiaERP module name.
     """
     def register(func):
-        # register func by BetopiaERP module name
+        # register func by betopiaerp module name
         if func.__module__.startswith('betopiaerp.addons.'):
             module = func.__module__.split('.')[2]
             standalone_tests[module].append(func)
@@ -211,7 +211,7 @@ def new_test_user(env, login='', groups='base.group_user', context=None, **kwarg
      * name: "login (groups)" by default as it is required;
      * email: it is either the login (if it is a valid email) or a generated
        string 'x.x@example.com' (x being the first login letter). This is due
-       to email being required for most BetopiaERP operations;
+       to email being required for most betopiaerp operations;
     """
     if not login:
         raise ValueError('New users require at least a login')
@@ -319,11 +319,11 @@ class BaseCase(case.TestCase):
                 cls.test_tags = {'standard', 'at_install'}
             cls.test_module = cls.__module__.split('.')[2]
 
-    longMessage = True      # more verbose error message by default: https://www.betopiaerp.com/r/Vmh
+    longMessage = True      # more verbose error message by default: https://www.BetopiaERP.com/r/Vmh
     warm = True             # False during warm-up phase (see :func:`warmup`)
     _python_version = sys.version_info
 
-    _tests_run_count = int(os.environ.get('BetopiaERP_TEST_FAILURE_RETRIES', 0)) + 1
+    _tests_run_count = int(os.environ.get('BETOPIAERP_TEST_FAILURE_RETRIES', 0)) + 1
 
     _registry_patched = False
     _registry_readonly_enabled = True
@@ -661,10 +661,8 @@ class BaseCase(case.TestCase):
                     # add some info on caller to allow semi-automatic update of query count
                     _frame, filename, linenum, funcname, _lines, _index = inspect.stack()[2]
                     filename = filename.replace('\\', '/')
-                    for marker in ("/BetopiaERP/addons/", "/betopiaerp/addons/"):
-                        if marker in filename:
-                            filename = filename.rsplit(marker, 1)[1]
-                            break
+                    if "/betopiaerp/addons/" in filename:
+                        filename = filename.rsplit("/betopiaerp/addons/", 1)[1]
                     if count > expected:
                         msg = "Query count more than expected for user %s: %d > %d in %s at %s:%s"
                         # add a subtest in order to continue the test_method in case of failures
@@ -1287,7 +1285,7 @@ class ChromeBrowser:
         if websocket is None:
             self._logger.warning("websocket-client module is not installed")
             raise unittest.SkipTest("websocket-client module is not installed")
-        self.user_data_dir = tempfile.mkdtemp(suffix='_chrome_BetopiaERP')
+        self.user_data_dir = tempfile.mkdtemp(suffix='_chrome_betopiaerp')
 
         if scs := betopiaerp.tools.config['screencasts']:
             self.screencaster = Screencaster(self, scs)
@@ -2282,7 +2280,7 @@ class HttpCase(TransactionCase):
             "params": params or {},
         }
 
-    def url_open(self, url, data=None, files=None, timeout=30, headers=None, json=None, params=None, allow_redirects=True, cookies=None, method: str | None = None):
+    def url_open(self, url, data=None, files=None, timeout=12, headers=None, json=None, params=None, allow_redirects=True, cookies=None, method: str | None = None):
         if not method and (data or files or json):
             method = 'POST'
         method = method or 'GET'
@@ -2483,7 +2481,7 @@ class HttpCase(TransactionCase):
                 for name, value in cookies.items():
                     browser.set_cookie(name, value, '/', HOST)
 
-            cpu_throttling_os = os.environ.get('BetopiaERP_BROWSER_CPU_THROTTLING')  # used by dedicated runbot builds
+            cpu_throttling_os = os.environ.get('BETOPIAERP_BROWSER_CPU_THROTTLING')  # used by dedicated runbot builds
             cpu_throttling = int(cpu_throttling_os) if cpu_throttling_os else cpu_throttling
 
             if cpu_throttling:
@@ -2521,7 +2519,7 @@ class HttpCase(TransactionCase):
             'keepWatchBrowser': kwargs.get('watch', False),
             'debug': kwargs.get('debug', False),
             'startUrl': url_path,
-            'delayToCheckUndeterminisms': kwargs.pop('delay_to_check_undeterminisms', int(os.getenv("BetopiaERP_TOUR_DELAY_TO_CHECK_UNDETERMINISMS", "0")) or 0),
+            'delayToCheckUndeterminisms': kwargs.pop('delay_to_check_undeterminisms', int(os.getenv("BETOPIAERP_TOUR_DELAY_TO_CHECK_UNDETERMINISMS", "0")) or 0),
         }
         code = kwargs.pop('code', f"betopiaerp.startTour({tour_name!r}, {json.dumps(options)})")
         ready = kwargs.pop('ready', f"betopiaerp.isTourReady({tour_name!r})")

@@ -9,7 +9,7 @@ import { ThreadIcon } from "@mail/core/common/thread_icon";
 import { useHover, useMessageScrolling } from "@mail/utils/common/hooks";
 import { isEventHandled } from "@web/core/utils/misc";
 
-import { Component, toRaw, useChildSubEnv, useRef, useState, useSubEnv } from "@BetopiaERP/owl";
+import { Component, toRaw, useChildSubEnv, useRef, useState, useSubEnv } from "@betopiaerp/owl";
 
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { localization } from "@web/core/l10n/localization";

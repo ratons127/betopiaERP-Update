@@ -9,6 +9,6 @@
     'sequence': 70,
     'depends': ['purchase_requisition', 'sale_purchase'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

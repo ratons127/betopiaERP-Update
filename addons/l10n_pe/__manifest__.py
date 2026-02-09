@@ -5,8 +5,8 @@
     'countries': ['pe'],
     'version': '3.1',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Vauxoo, BetopiaERP S.A.',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/peru.html',
+    'author': 'Vauxoo, BetopiaERP',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/peru.html',
     'license': 'LGPL-3',
     'depends': [
         'base_vat',

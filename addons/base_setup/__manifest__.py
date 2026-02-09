@@ -25,6 +25,6 @@ Shows you a list of applications features to install from.
     'auto_install': True,
     'installable': True,
 
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

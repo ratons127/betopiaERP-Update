@@ -26,14 +26,14 @@ TIMEOUT = 50
 DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
 
 # custom function to call instead of default PostgreSQL's `pg_notify`
-BetopiaERP_NOTIFY_FUNCTION = os.getenv('BetopiaERP_NOTIFY_FUNCTION', 'pg_notify')
+BETOPIAERP_NOTIFY_FUNCTION = os.getenv('BETOPIAERP_NOTIFY_FUNCTION', 'pg_notify')
 
 
 def get_notify_payload_max_length(default=8000):
     try:
-        length = int(os.environ.get('BetopiaERP_NOTIFY_PAYLOAD_MAX_LENGTH', default))
+        length = int(os.environ.get('BETOPIAERP_NOTIFY_PAYLOAD_MAX_LENGTH', default))
     except ValueError:
-        _logger.warning("BetopiaERP_NOTIFY_PAYLOAD_MAX_LENGTH has to be an integer, "
+        _logger.warning("BETOPIAERP_NOTIFY_PAYLOAD_MAX_LENGTH has to be an integer, "
                         "defaulting to %d bytes", default)
         length = default
     return length
@@ -161,7 +161,7 @@ class BusBus(models.Model):
                         cr.execute(
                             SQL(
                                 "SELECT %s('imbus', %s)",
-                                SQL.identifier(BetopiaERP_NOTIFY_FUNCTION),
+                                SQL.identifier(BETOPIAERP_NOTIFY_FUNCTION),
                                 payload,
                             )
                         )

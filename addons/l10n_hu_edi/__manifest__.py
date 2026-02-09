@@ -4,12 +4,12 @@
     'name': 'Hungary - E-invoicing',
     'version': '1.0.0',
     'category': 'Accounting/Localizations/EDI',
-    'author': 'DO Tech (BetopiaERPTech Zrt.), BDSC Business Consulting Kft. & BetopiaERP S.A.',
+    'author': 'DO Tech (BetopiaERPTech Zrt.), BDSC Business Consulting Kft. & BetopiaERP',
     'description': """
 * Electronically report invoices to the NAV (Hungarian Tax Agency) when issuing physical (paper) invoices.
 * Perform the Tax Audit Export (Adóhatósági Ellenőrzési Adatszolgáltatás) in NAV 3.0 format.
     """,
-    'website': 'https://www.BetopiaERPtech.hu',
+    'website': 'https://www.betopiaerptech.hu',
     'depends': ['account_debit_note', 'base_iban', 'l10n_hu'],
     'data': [
         'security/ir.model.access.csv',

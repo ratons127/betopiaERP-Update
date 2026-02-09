@@ -1,7 +1,7 @@
 import { useService } from "@web/core/utils/hooks";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { MoneyDetailsPopup } from "@point_of_sale/app/components/popups/money_details_popup/money_details_popup";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { Input } from "@point_of_sale/app/components/inputs/input/input";
 import { parseFloat } from "@web/views/fields/parsers";
@@ -49,7 +49,7 @@ export class OpeningControlPopup extends Component {
         } catch (error) {
             if (
                 error instanceof RPCError &&
-                error.data.name === "BetopiaERP.exceptions.MissingError" &&
+                error.data.name === "betopiaerp.exceptions.MissingError" &&
                 (await this.pos.isSessionDeleted())
             ) {
                 return window.location.reload();

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { middleClick, rightClick } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { middleClick, rightClick } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 test(`main button click`, async () => {

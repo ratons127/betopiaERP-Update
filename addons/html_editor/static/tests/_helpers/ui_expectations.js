@@ -1,5 +1,5 @@
-import { expect } from "@BetopiaERP/hoot";
-import { waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
+import { expect } from "@betopiaerp/hoot";
+import { waitFor, waitForNone } from "@betopiaerp/hoot-dom";
 
 /**
  * Waits for the presence or absence of elements matching the selector,

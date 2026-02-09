@@ -12,9 +12,9 @@
 # Francisco Santos, 2023
 # Carlos Gómez, 2023
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Noemi Pla Garcia (nopl)" <nopl@BetopiaERP.com>, 2025, 2026.
-# "Larissa Manderfeld (lman)" <lman@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@betopiaerp.com>, 2025, 2026.
+# "Larissa Manderfeld (lman)" <lman@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -22,8 +22,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2026-02-02 13:44+0000\n"
-"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@BetopiaERP.com>\n"
-"Language-Team: Spanish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/stock/es/"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@betopiaerp.com>\n"
+"Language-Team: Spanish <https://translate.betopiaerp.com/projects/betopiaerp-19/stock/es/"
 ">\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "\n"
@@ -86,7 +86,7 @@ msgstr ""
 "    - Segundo: %(sec)s\n"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
@@ -96,7 +96,7 @@ msgstr ""
 "(%(serial_number)s) existe en la ubicación %(location)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
@@ -146,7 +146,7 @@ msgstr ""
 " * Cancelado: el traslado ha sido cancelado."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid " - Product: %(product)s, Lot/Serial Number: %(lot)s"
 msgstr " - Producto: %(product)s, Número de lote o de serie: %(lot)s"
@@ -168,61 +168,61 @@ msgid "# Returns"
 msgstr "N.° de devoluciones"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s (copy)(%(id)s)"
 msgstr "%(name)s (copia)(%(id)s)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence cross dock"
 msgstr "Secuencia de almacenamiento intermedio %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence in"
 msgstr "Secuencia de entrada %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence internal"
 msgstr "Secuencia interna %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence out"
 msgstr "Secuencia de salida %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence packing"
 msgstr "Secuencia de empaquetado %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking"
 msgstr "Secuencia de la preparación %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence quality control"
 msgstr "Secuencia de control de calidad %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence storage"
 msgstr "Secuencia de almacenamiento %(name)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "%(operations)s have default source or destination locations within warehouse "
@@ -232,19 +232,19 @@ msgstr ""
 "del almacén %(warehouse)s, por lo que no puede archivarlo."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "%(product)s: Insufficient Quantity To Scrap"
 msgstr "%(product)s: cantidad insuficiente para desechar"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%(warehouse)s Sequence %(code)s"
 msgstr "%(warehouse)s - Secuencia %(code)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid ""
 "%(warehouse)s can only provide %(free_qty)s %(uom)s, while the quantity to "
@@ -254,13 +254,13 @@ msgstr ""
 "la orden es%(qty_to_order)s %(uom)s."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(warehouse)s: Supply Product from %(supplier)s"
 msgstr "%(warehouse)s: suministrar producto de %(supplier)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_package_type.py:0
 #: code:addons/stock/models/stock_picking.py:0
@@ -271,19 +271,19 @@ msgid "%s (copy)"
 msgstr "%s (copia)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "%s [reverted]"
 msgstr "%s [revertido]"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "%s days"
 msgstr "%s días"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%s: Can't split: quantities done can't be above demand"
 msgstr ""
@@ -291,7 +291,7 @@ msgstr ""
 "demanda"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "%s: Nothing to split, all demand is done. For split you need at least one "
@@ -301,7 +301,7 @@ msgstr ""
 "necesita al menos una línea que no esté totalmente completa"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "%s: Nothing to split. Fill the quantities you want in a new transfer in the "
@@ -350,7 +350,7 @@ msgstr ""
 "or '', object.name)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "(copy of) %s"
 msgstr "(copia de) %s"
@@ -447,7 +447,7 @@ msgstr ""
 "entre empresas o entre almacenes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "+ %d day(s)"
 msgstr "+ %d día(s)"
@@ -472,7 +472,7 @@ msgstr ""
 "            Acciones manuales podrían ser necesitadas."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "/day"
 msgstr "/día"
@@ -590,7 +590,7 @@ msgstr ""
 "                ¿Desea agilizar sus operaciones?"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>A need is created in <b>%s</b> and a rule will be triggered to fulfill "
@@ -600,7 +600,7 @@ msgstr ""
 "cumplirla."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
@@ -610,7 +610,7 @@ msgstr ""
 "regla para traer la cantidad que falta a esta ubicación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>The products will be moved towards <b>%(destination)s</b>, <br/> as "
@@ -1124,7 +1124,7 @@ msgid "A barcode can only be assigned to one package type!"
 msgstr "Un código de barras solo se puede asignar a un tipo de paquete."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "A package can't have one of its contained packages as destination container."
@@ -1157,7 +1157,7 @@ msgid "Action"
 msgstr "Acción"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/fields/stock_action_field.js:0
 msgid "Action Name"
 msgstr "Nombre de acción"
@@ -1289,7 +1289,7 @@ msgstr ""
 "específicos, bastidores)."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/fields/stock_move_line_x2_many_field.js:0
 msgid "Add line: %s"
 msgstr "Añadir línea: %s"
@@ -1341,7 +1341,7 @@ msgid "Advanced: Apply Procurement Rules"
 msgstr "Avanzado: aplicar reglas de abastecimiento"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__after
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -1379,7 +1379,7 @@ msgid "All Transfers"
 msgstr "Todos los traslados"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 msgid "All Warehouses"
 msgstr "Todos los almacenes"
@@ -1479,7 +1479,7 @@ msgstr ""
 "inventario anual automático."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "Another parent/sub replenish location %s exists, if you wish to change it, "
@@ -1576,7 +1576,7 @@ msgid "Are you sure you want to cancel this transfer?"
 msgstr "¿Está seguro de que desea cancelar este traslado?"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -1600,13 +1600,13 @@ msgid "Ask"
 msgstr "Preguntar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Assign"
 msgstr "Asignar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: code:addons/stock/static/src/xml/report_stock_reception.xml:0
@@ -1732,8 +1732,8 @@ msgid "Automatic No Step Added"
 msgstr "Automático sin añadir paso"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
@@ -1777,7 +1777,7 @@ msgstr ""
 "cualquier ubicación de stock de tipo 'Interna'."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Average Stock:"
 msgstr "Stock medio:"
@@ -1863,7 +1863,7 @@ msgid "Batch, Wave & Cluster Transfers"
 msgstr "Traslados por lote, olas y en grupos"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__before
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -1878,11 +1878,11 @@ msgstr "Antes de la fecha programada"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr ""
 "El texto a continuación sirve como sugerencia y no compromete la "
-"responsabilidad de BetopiaERP S.A. de C.V."
+"responsabilidad de BetopiaERP de C.V."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package__quant_ids
@@ -1933,7 +1933,7 @@ msgstr ""
 "Si desmarca el campo activo, permitirá ocultar la ubicación sin eliminarla."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "COPY"
 msgstr "COPIA"
@@ -1949,19 +1949,19 @@ msgid "Calendar View"
 msgstr "Vista de calendario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Can't find any customer or supplier location."
 msgstr "No se puede encontrar ninguna ubicación de cliente o de proveedor"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Can't find any generic route %s."
 msgstr "No se puede encontrar ninguna ruta genérica %s."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "Can't move a container having packages in another location (%"
@@ -1992,13 +1992,13 @@ msgid "Cancelled"
 msgstr "Cancelado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Cannot move an empty package"
 msgstr "No es posible mover un paquete vacío"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Cannot remove the location of a non empty package"
 msgstr "No se puede eliminar la ubicación de un paquete que no esté vacío"
@@ -2057,7 +2057,7 @@ msgstr ""
 "relacionado con la legislación del país en el que se encuentra el cliente."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Changing the Lot/Serial number for move lines with different products is not "
@@ -2067,7 +2067,7 @@ msgstr ""
 "movimiento con distintos productos."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_orderpoint.py:0
@@ -2081,14 +2081,14 @@ msgstr ""
 "bien debe archivarlo y crear uno nuevo."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Changing the operation type of this record is forbidden at this point."
 msgstr ""
 "Cambiar el tipo de operación de este registro está prohibido en este momento."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Changing the product is only allowed in 'Draft' state."
 msgstr "Cambiar el producto solo está permitido en estado 'Borrador'."
@@ -2118,14 +2118,14 @@ msgstr ""
 "operación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/wizard/stock_label_type.py:0
 msgid "Choose Labels Layout"
 msgstr "Elegir diseño de etiquetas"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Choose Type of Labels To Print"
 msgstr "Elegir tipos de etiquetas a imprimir"
@@ -2142,7 +2142,7 @@ msgid "Choose a date to get the inventory at that date"
 msgstr "Elija una fecha para obtener el inventario en esa fecha"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Choose destination location"
 msgstr "Elija la ubicación de destino"
@@ -2173,7 +2173,7 @@ msgid "Clear"
 msgstr "Limpiar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Click or press enter to add a description"
 msgstr "Haga clic o presione enter para añadir una descripción"
@@ -2388,7 +2388,7 @@ msgid "Conflict in Inventory"
 msgstr "Conflicto en el inventario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Conflict in Inventory Adjustment"
 msgstr "Conflicto en el ajuste de inventario"
@@ -2458,7 +2458,7 @@ msgid "Continue"
 msgstr "Continuar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Control panel buttons"
 msgstr "Botones del panel de control"
@@ -2535,7 +2535,7 @@ msgid "Create Backorder"
 msgstr "Crear entrega parcial"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Create Backorder?"
 msgstr "¿Crear entrega parcial?"
@@ -2703,7 +2703,7 @@ msgid "Created on"
 msgstr "Creado el"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "Creating a new warehouse will automatically activate the Storage Locations "
@@ -2734,7 +2734,7 @@ msgstr ""
 "movimiento."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Cross Dock"
 msgstr "Sin almacenaje intermedio (cross dock)"
@@ -2864,13 +2864,13 @@ msgid "DHL Express Connector"
 msgstr "Conector DHL Express"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Daily Demand:"
 msgstr "Demanda diaria:"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__date
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__date
@@ -2994,7 +2994,7 @@ msgid "Deadline exceed or/and by the scheduled"
 msgstr "Fecha límite superada y/o hasta la fecha planificada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Deadline updated due to delay on %s"
 msgstr "Fecha límite actualizada debido a un retraso el %s"
@@ -3130,13 +3130,13 @@ msgid "Delay Alert Date"
 msgstr "Fecha de alerta de retraso"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "Delay on %s"
 msgstr "Retraso en %s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Deleting product moves after the transfer is done?\n"
@@ -3161,19 +3161,19 @@ msgid "Deliver (1 step)"
 msgstr "Entregar (1 paso)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 1 step (ship)"
 msgstr "Entregar en 1 paso (enviar)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 2 steps (pick + ship)"
 msgstr "Entregar en 2 pasos (recoger + enviar)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 3 steps (pick + pack + ship)"
 msgstr "Entregar en 3 pasos (recolectar + empaquetar + enviar)"
@@ -3184,7 +3184,7 @@ msgid "Delivered"
 msgstr "Entregado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Delivered Qty"
 msgstr "Ctd. entregada"
@@ -3208,7 +3208,7 @@ msgid "Delivery Address"
 msgstr "Dirección de entrega"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Delivery Date"
 msgstr "Fecha de entrega"
@@ -3219,13 +3219,13 @@ msgid "Delivery Methods"
 msgstr "Métodos de envío"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Delivery Note"
 msgstr "Albarán de entrega"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:stock.picking.type,name:stock.picking_type_out
 msgid "Delivery Orders"
@@ -3258,7 +3258,7 @@ msgid "Delivery order count"
 msgstr "Número de órdenes de entrega"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Delivery orders of %s"
 msgstr "Órdenes de entrega de %s"
@@ -3401,7 +3401,7 @@ msgid "Destination Country"
 msgstr "País de destino"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_dest_id
 #: model:ir.model.fields,field_description:stock.field_stock_package_history__location_dest_id
@@ -3464,7 +3464,7 @@ msgid "Destination route"
 msgstr "Ruta de destino"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Detailed Operations"
@@ -3493,7 +3493,7 @@ msgid "Dimensions"
 msgstr "Dimensiones"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_reset_view
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_set_view
@@ -3701,7 +3701,7 @@ msgid "Dymo"
 msgstr "Dymo"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Earliest Possible Arrival"
 msgstr "Llegada más temprana posible"
@@ -3712,13 +3712,13 @@ msgid "Easypost Connector"
 msgstr "Conector de Easypost"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Edit Product"
 msgstr "Editar producto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Editing quantities in an Inventory Adjustment location is forbidden,those "
@@ -3800,7 +3800,7 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr "Asegure la trazabilidad de un producto almacenable en su almacén."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Enter a description"
 msgstr "Ingresar una descripción"
@@ -3845,13 +3845,13 @@ msgid "Exception(s):"
 msgstr "Excepción(es):"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
 msgid "Exp"
 msgstr "Previsto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Exp %s"
 msgstr "%s previsto"
@@ -3862,7 +3862,7 @@ msgid "Expected"
 msgstr "Previsto"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "Expected Delivery:"
@@ -3920,7 +3920,7 @@ msgid "First In First Out (FIFO)"
 msgstr "First In First Out (FIFO)"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "First Lot Number"
 msgstr "Primer número de lote"
@@ -3931,7 +3931,7 @@ msgid "First SN/Lot"
 msgstr "Primer número de serie/lote"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "First Serial Number"
 msgstr "Primer número de serie"
@@ -4004,7 +4004,7 @@ msgstr ""
 "cualquier ubicación de stock de tipo 'Interna'."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_product_template_tree
@@ -4013,7 +4013,7 @@ msgid "Forecasted"
 msgstr "Previsto"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Forecasted Date"
 msgstr "Fecha pronosticada"
@@ -4029,13 +4029,13 @@ msgid "Forecasted Expected date"
 msgstr "Fecha pronosticada prevista"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Forecasted Inventory"
 msgstr "Inventario pronosticado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: model:ir.model.fields,field_description:stock.field_product_product__virtual_available
 #: model:ir.model.fields,field_description:stock.field_product_replenish__forecasted_quantity
@@ -4050,7 +4050,7 @@ msgid "Forecasted Receipts"
 msgstr "Recepciones pronosticadas"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/stock_forecasted.js:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
 #: model:ir.actions.client,name:stock.stock_forecasted_product_product_action
@@ -4069,7 +4069,7 @@ msgid "Forecasted Weight"
 msgstr "Peso pronosticado"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Forecasted with Pending"
 msgstr "Inventario final"
@@ -4086,13 +4086,13 @@ msgid "Free Qty"
 msgstr "Ctd. disponible"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.js:0
 msgid "Free Stock"
 msgstr "Stock libre"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Free Stock in Transit"
 msgstr "Stock disponible en tránsito"
@@ -4108,7 +4108,7 @@ msgid "Free to Use"
 msgstr "Disponible"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_id
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -4139,25 +4139,25 @@ msgid "Future Activities"
 msgstr "Actividades futuras"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Deliveries"
 msgstr "Entregas futuras"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future P&L"
 msgstr "Pérdidas y ganancias futuras"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Productions"
 msgstr "Producciones futuras"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Receipts"
 msgstr "Recepciones futuras"
@@ -4168,25 +4168,25 @@ msgid "General"
 msgstr "General"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate"
 msgstr "Generar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Generate Lot numbers"
 msgstr "Generar números de lote"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Generate Serial numbers"
 msgstr "Generar números de serie"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate Serials/Lots"
 msgstr "Generar números de serie/lote"
@@ -4216,19 +4216,19 @@ msgid "Gives the sequence of this line when displaying the warehouses."
 msgstr "Da la secuencia de esta línea cuando se muestran los almacenes."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Go to Warehouses"
 msgstr "Ir a los almacenes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Goods Receipt Note"
 msgstr "Nota de recepción de bienes"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "HTML reports cannot be auto-printed, skipping report: %s"
 msgstr ""
@@ -4300,7 +4300,7 @@ msgid "Hide Reservation Method"
 msgstr "Ocultar método de reserva"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 #: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_tree_editable
@@ -4309,7 +4309,7 @@ msgid "History"
 msgstr "Historial"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
 msgid "Horizon"
 msgstr "Horizontal"
@@ -4669,31 +4669,31 @@ msgid "Immediate Transfer"
 msgstr "Traslado inmediato"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Import Lots"
 msgstr "Importar lotes"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Import Serials"
 msgstr "Importar números de serie"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Import Serials/Lots"
 msgstr "Importar números de serie/lote"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Import Template for Inventory Adjustments"
 msgstr "Plantilla de importación de ajustes de inventario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "In %s day(s)"
 msgstr "En %s día/días"
@@ -4738,7 +4738,7 @@ msgstr ""
 "la prestación de los servicios"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_product__incoming_qty
 #: model:ir.model.fields,field_description:stock.field_product_template__incoming_qty
@@ -4753,7 +4753,7 @@ msgid "Incoming Date"
 msgstr "Fecha de entrada"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Incoming Draft Transfer"
 msgstr "Traslado entrante en borrador"
@@ -4769,7 +4769,7 @@ msgid "Incoming Shipments"
 msgstr "Envíos entrantes"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "Incorrect type of action submitted as a report, skipping action"
 msgstr "Tipo de acción incorrecta enviada como informe, acción omitida"
@@ -4794,7 +4794,7 @@ msgid "Initial Demand"
 msgstr "Demanda inicial"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Input"
 msgstr "Entrada"
@@ -4820,7 +4820,7 @@ msgid "Instructions on the Stock Operations"
 msgstr "Instrucciones en las operaciones de stock"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_company.py:0
 msgid "Inter-warehouse transit"
 msgstr "Tránsito entre almacenes"
@@ -4846,7 +4846,7 @@ msgid "Internal Locations"
 msgstr "Ubicaciones Internas"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Internal Move"
 msgstr "Movimiento interno"
@@ -4862,7 +4862,7 @@ msgid "Internal Transfer"
 msgstr "Traslado interno"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_internal
 #: model:stock.picking.type,name:stock.picking_type_internal
@@ -4894,7 +4894,7 @@ msgid "Internal locations among descendants"
 msgstr "Ubicaciones internas entre descendientes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "Internal locations having stock can't be converted"
 msgstr "Ubicaciones internas con stock no se pueden convertir"
@@ -4909,7 +4909,7 @@ msgstr ""
 "del fabricante"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "Invalid rule's configuration, the following rule causes an endless loop: %s"
@@ -4938,7 +4938,7 @@ msgid "Inventory"
 msgstr "Inventario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Inventory Adjustment"
 msgstr "Ajuste de Inventario"
@@ -5105,7 +5105,7 @@ msgid "Is quantity done editable"
 msgstr "¿Se puede editar la cantidad hecha?"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "It is not possible to unreserve more products of %s than you have in stock."
@@ -5154,7 +5154,7 @@ msgid "Json Lead Days"
 msgstr "Días de plazo de Json"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.js:0
 msgid "Json Popup"
 msgstr "Ventana emergente de JSON"
@@ -5190,7 +5190,7 @@ msgid "Keep Difference"
 msgstr "Mantener diferencia"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Keep current lines"
 msgstr "Mantener las líneas actuales"
@@ -5426,13 +5426,13 @@ msgid "Lead Time"
 msgstr "Plazo de entrega"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Lead Time Information"
 msgstr "Información sobre el plazo de entrega"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Lead Time:"
 msgstr "Plazo de entrega:"
@@ -5609,7 +5609,7 @@ msgid "Lot Properties"
 msgstr "Propiedades del lote"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Lot numbers"
 msgstr "Números de lote"
@@ -5632,7 +5632,7 @@ msgid "Lot/Serial"
 msgstr "Lote/serie"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
 msgid "Lot/Serial #"
@@ -5668,7 +5668,7 @@ msgid "Lot/Serial Number Name"
 msgstr "Nombre del número de serie/lote"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Lot/Serial Number Relocated"
 msgstr "Número de lote/serie trasladado"
@@ -5777,7 +5777,7 @@ msgid "Manual Operation"
 msgstr "Operación manual"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/product_replenish.py:0
 msgid "Manual Replenishment"
 msgstr "Reposición manual"
@@ -5970,7 +5970,7 @@ msgid "Move Quantity"
 msgstr "Mover cantidad"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Move a Pack"
 msgstr "Mover un paquete"
@@ -6026,7 +6026,7 @@ msgid "Multiple capacity rules for one product."
 msgstr "Múltiples reglas de capacidad para un producto."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Multiple destinations"
 msgstr "Múltiples destinos"
@@ -6121,8 +6121,8 @@ msgid "Never attribute Values"
 msgstr "Nunca valores de atributo"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_move__state__draft
@@ -6172,7 +6172,7 @@ msgid "Next Serial"
 msgstr "Siguiente número de serie"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Next Transfers"
 msgstr "Siguientes traslados"
@@ -6198,7 +6198,7 @@ msgid "No"
 msgstr "No"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/report_stock_reception.py:0
 msgid "No %s selected or a delivery order selected"
 msgstr "No se seleccionó %s u orden de entrega"
@@ -6209,7 +6209,7 @@ msgid "No Backorder"
 msgstr "Sin entrega parcial"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_package_m2m.js:0
 msgid "No Package"
 msgstr "Sin paquete"
@@ -6224,7 +6224,7 @@ msgstr ""
 "actual del stock de sus productos."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "No allocation need found."
@@ -6236,13 +6236,13 @@ msgid "No delivery to do!"
 msgstr "No hay entregas pendientes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "No negative quantities allowed"
 msgstr "No se permiten cantidades negativas"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "No operation made on this lot."
 msgstr "Ninguna operación realizada en este lote."
@@ -6253,7 +6253,7 @@ msgid "No operations found. Let's create a transfer!"
 msgstr "No se encontraron operaciones. ¡Creemos un traslado!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "No product found to generate Serials/Lots for."
 msgstr "No se ha encontrado ningún producto para el que generar series/lotes."
@@ -6264,7 +6264,7 @@ msgid "No product found. Let's create one!"
 msgstr "No se encontraron productos. ¡Creemos uno!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid ""
 "No products to return (only lines in Done state and not fully returned yet "
@@ -6289,7 +6289,7 @@ msgid "No reordering rule found"
 msgstr "No se encontraron reglas de reabastecimiento"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "No rule has been found to replenish \"%(product)s\" in \"%(location)s\".\n"
@@ -6300,7 +6300,7 @@ msgstr ""
 "Verifique la configuración de rutas en el producto."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "No source location defined on stock rule: %s!"
 msgstr ""
@@ -6335,8 +6335,8 @@ msgid "Normal (2.25\" x 1.25\")"
 msgstr "Normal (2,25\" x 1,25\")"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
@@ -6359,7 +6359,7 @@ msgid "Notes"
 msgstr "Notas"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Nothing to check the availability for."
 msgstr "Nada para lo que comprobar disponibilidad."
@@ -6377,7 +6377,7 @@ msgid "Number of Actions"
 msgstr "Número de acciones"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Number of SN"
 msgstr "Cantidad de números de serie"
@@ -6456,7 +6456,7 @@ msgid "Office Chair"
 msgstr "Silla de oficina"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_quant__on_hand
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__qty_on_hand
@@ -6509,7 +6509,7 @@ msgid "Operation Quantities"
 msgstr "Cantidades de operación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__picking_type_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_id
@@ -6535,7 +6535,7 @@ msgid "Operation Types"
 msgstr "Tipos de operación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Operation not supported"
 msgstr "Operación no admitida"
@@ -6610,7 +6610,7 @@ msgid "Options"
 msgstr "Opciones"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.replenishment_option_warning_view
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
@@ -6618,19 +6618,19 @@ msgid "Order"
 msgstr "Pedir"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 msgid "Order To Max"
 msgstr "Pedir al máximo"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Order signed"
 msgstr "Orden firmada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Order signed by %s"
 msgstr "Orden firmada por %s"
@@ -6641,13 +6641,13 @@ msgid "Ordered"
 msgstr "Pedido"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Ordering Frequency:"
 msgstr "Frecuencia de pedidos:"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Ordering Frequency: On demand"
 msgstr "Frecuencia de pedidos: bajo demanda"
@@ -6739,7 +6739,7 @@ msgid "Outermost Destination Container"
 msgstr "Contenedor de destino más externo"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_product__outgoing_qty
@@ -6750,7 +6750,7 @@ msgid "Outgoing"
 msgstr "Saliente"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Outgoing Draft Transfer"
 msgstr "Traslado saliente en borrador"
@@ -6766,7 +6766,7 @@ msgid "Outgoing Shipments"
 msgstr "Envíos salientes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Output"
 msgstr "Salida"
@@ -6803,7 +6803,7 @@ msgid "Owner:"
 msgstr "Propietario:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "P&L Qty"
 msgstr "Ctd. de pérdidas y ganancias"
@@ -6814,7 +6814,7 @@ msgid "PDF"
 msgstr "PDF"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Pack"
 msgstr "Empaquetar"
@@ -6965,7 +6965,7 @@ msgid "Package Type Demo"
 msgstr "Tipo de paquete de demostración"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package_type.py:0
 msgid "Package Type Sequence %(code)s"
 msgstr "Secuencia del tipo de paquetes %(code)s"
@@ -6988,7 +6988,7 @@ msgid "Package Use"
 msgstr "Uso del paquete"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Package manually relocated"
 msgstr "Ubicación del paquete modificada manualmente"
@@ -7004,7 +7004,7 @@ msgid "Package type"
 msgstr "Tipo de paquete"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock.action_package_view
 #: model:ir.actions.report,name:stock.action_report_picking_packages
@@ -7019,7 +7019,7 @@ msgid "Packages"
 msgstr "Paquetes"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "Packages %(duplicate_names)s are moved to different locations while being in "
@@ -7088,7 +7088,7 @@ msgid "Packing Location"
 msgstr "Ubicación de empaquetado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Packing Zone"
 msgstr "Zona de empaquetado"
@@ -7147,7 +7147,7 @@ msgid "Percent Factor"
 msgstr "Factor de porcentaje"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 #: model:ir.actions.act_window,name:stock.action_stock_inventory_adjustement_name
 #: model:ir.ui.menu,name:stock.menu_action_inventory_tree
@@ -7155,7 +7155,7 @@ msgid "Physical Inventory"
 msgstr "Inventario físico"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_backorder_confirmation__pick_ids
 msgid "Pick"
@@ -7231,19 +7231,19 @@ msgid "Picking list"
 msgstr "Lista de preparaciones de pedidos"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "Planning Issue"
 msgstr "Problema de planificación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Please contact your administrator to configure your warehouse."
 msgstr "Póngase en contacto con su administrador para configurar su almacén."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Please create a warehouse for company %s."
 msgstr "Cree un almacén para la compañía %s."
@@ -7258,13 +7258,13 @@ msgstr ""
 "                                Debe enviarlo a esta dirección:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Please specify at least one non-zero quantity."
 msgstr "Por favor, especifique al menos una cantidad que no sea cero."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "Preceding operations"
 msgstr "Operaciones precedentes"
@@ -7286,7 +7286,7 @@ msgid "Presence depends on the type of operation."
 msgstr "La presencia depende del tipo de operación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Press the \"New\" button to define the quantity for a product in your stock "
@@ -7302,7 +7302,7 @@ msgid "Price Unit"
 msgstr "Unidad de precio"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -7320,13 +7320,13 @@ msgid "Print GS1 Barcodes for Lots & Serial Numbers"
 msgstr "Imprimir códigos de barra GS1 para números de serie y de lote"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Print Label"
 msgstr "Imprimir etiqueta"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: code:addons/stock/static/src/xml/report_stock_reception.xml:0
@@ -7392,13 +7392,13 @@ msgid "Produce Line"
 msgstr "Línea de producción"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Produced Qty"
 msgstr "Ctd. producida"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model,name:stock.model_product_template
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
@@ -7504,13 +7504,13 @@ msgid "Product Moves (Stock Move Line)"
 msgstr "Movimientos de producto (línea de movimiento de stock)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Product Quantity Confirmed"
 msgstr "Cantidad de producto confirmada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Product Quantity Updated"
 msgstr "Cantidad de producto actualizada"
@@ -7521,7 +7521,7 @@ msgid "Product Relocated"
 msgstr "Producto trasladado"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.js:0
 #: model:ir.model,name:stock.model_product_replenish
 msgid "Product Replenish"
@@ -7579,7 +7579,7 @@ msgid "Product barcode"
 msgstr "Código de barras del producto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/product_label_report.py:0
 msgid "Product model not defined, Please contact your administrator."
 msgstr "El modelo del producto no está definido, contacte a su administrador."
@@ -7622,7 +7622,7 @@ msgid "Production Locations"
 msgstr "Ubicaciones de producción"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_quantity_history.py:0
 #: model:ir.actions.act_window,name:stock.act_product_location_open
 #: model:ir.actions.act_window,name:stock.product_template_action_product
@@ -7651,7 +7651,7 @@ msgstr ""
 "prioridades."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Products: %(location)s"
 msgstr "Productos: %(location)s"
@@ -7730,7 +7730,7 @@ msgid "Putaway Rule"
 msgstr "Regla de almacenamiento"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: model:ir.actions.act_window,name:stock.action_putaway_tree
 #: model:ir.actions.act_window,name:stock.category_open_putaway
@@ -7757,7 +7757,7 @@ msgid "Quality"
 msgstr "Calidad"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Quality Control"
 msgstr "Control de calidad"
@@ -7789,39 +7789,39 @@ msgid "Quant"
 msgstr "Cuanto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quant's creation is restricted, you can't do this operation."
 msgstr ""
 "La creación del cuanto está restringida, no puede realizar esta operación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quant's editing is restricted, you can't do this operation."
 msgstr ""
 "La edición del cuanto está restringida, no puede realizar esta operación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantities Already Set"
 msgstr "Cantidades ya establecidas"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantities To Reset"
 msgstr "Cantidades a restablecer"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Quantities unpacked"
 msgstr "Cantidades desempaquetadas"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_replenish__quantity
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_qty
@@ -7857,13 +7857,13 @@ msgid "Quantity On Hand"
 msgstr "Cantidad real"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Quantity Received"
 msgstr "Cantidad recibida"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantity Relocated"
 msgstr "Cantidades trasladadas"
@@ -7874,7 +7874,7 @@ msgid "Quantity Reserved"
 msgstr "Cantidad reservada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "Quantity available too low"
 msgstr "Cantidad disponible demasiado baja"
@@ -7961,13 +7961,13 @@ msgstr ""
 "defecto del producto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantity or Reserved Quantity should be set."
 msgstr "Debe establecer la cantidad o la cantidad reservada."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Quantity per Lot"
 msgstr "Cantidad por lote"
@@ -7997,7 +7997,7 @@ msgid "Quants"
 msgstr "Cuantos"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Quants are auto-deleted when appropriate. If you must manually delete them, "
@@ -8008,7 +8008,7 @@ msgstr ""
 "lo haga."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quants cannot be created for consumables or services."
 msgstr "No se pueden crear cuantos para consumibles o servicios."
@@ -8064,7 +8064,7 @@ msgid "Receipt Route"
 msgstr "Ruta de recepción"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_incoming
 #: model:ir.ui.menu,name:stock.in_picking
@@ -8084,19 +8084,19 @@ msgid "Receive and Store (1 step)"
 msgstr "Recibir y almacenar (1 paso)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 1 step (stock)"
 msgstr "Recibir en 1 paso (stock)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 2 steps (input + stock)"
 msgstr "Recibir en 2 pasos (entrada + stock)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 3 steps (input + quality + stock)"
 msgstr "Recibir en 3 pasos (entrada + calidad + stock)"
@@ -8112,7 +8112,7 @@ msgid "Receive, Quality Control, then Store (3 steps)"
 msgstr "Recibir, realizar control de calidad y luego almacenar (3 pasos)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Received Qty"
 msgstr "Ctd. recibida"
@@ -8148,7 +8148,7 @@ msgstr ""
 "calidad y mucho más"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__reference
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__reference
@@ -8230,7 +8230,7 @@ msgid "Removal Strategy"
 msgstr "Estrategia de salida"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Removal strategy %s not implemented."
 msgstr "Estrategia de salida %s no implementada."
@@ -8281,7 +8281,7 @@ msgid "Reordering Rules Search"
 msgstr "Búsqueda de reglas de reabastecimiento"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.xml:0
 #: model:ir.actions.server,name:stock.action_product_replenishment
 #: model:ir.actions.server,name:stock.action_product_template_replenishment
@@ -8294,7 +8294,7 @@ msgid "Replenish Quantities"
 msgstr "Reponer cantidades"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__replenish_on_order
 #: model:stock.route,name:stock.route_warehouse0_mto
@@ -8333,13 +8333,13 @@ msgid "Replenishment Information"
 msgstr "Información de reposición"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Replenishment Information for %(product)s in %(warehouse)s"
 msgstr "Información de reposición para %(product)s en %(warehouse)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Replenishment Report"
 msgstr "Informe de reposición"
@@ -8365,7 +8365,7 @@ msgid "Report Action"
 msgstr "Acción de informe"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "Report Printing Error"
 msgstr "Error de impresión del informe"
@@ -8398,7 +8398,7 @@ msgid "Reservation Method"
 msgstr "Método de reserva"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Reserve"
 msgstr "Reservar"
@@ -8441,7 +8441,7 @@ msgid "Reserved Quantity"
 msgstr "Cantidad reservada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Reserving a negative quantity is not allowed."
 msgstr "No se permite reservar una cantidad negativa."
@@ -8513,7 +8513,7 @@ msgid "Return of"
 msgstr "Devolución de"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Return of %(picking_name)s"
 msgstr "Devolución de %(picking_name)s"
@@ -8524,13 +8524,13 @@ msgid "Return slip"
 msgstr "Recibo de devolución"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Returned Picking"
 msgstr "Albarán devuelto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_picking__return_ids
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -8570,7 +8570,7 @@ msgid "Revert Inventory Adjustment"
 msgstr "Revertir ajuste de inventario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Reverted Moves"
 msgstr "Movimientos revertidos"
@@ -8648,7 +8648,7 @@ msgstr ""
 "seleccionarlas en los productos y las categorías de producto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
@@ -8732,7 +8732,7 @@ msgid "Same month last year"
 msgstr "Mismo mes del año pasado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Sample data"
 msgstr "Datos de muestra"
@@ -8743,7 +8743,7 @@ msgid "Save"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Save the product form before updating the Quantity On Hand."
 msgstr ""
@@ -8822,7 +8822,7 @@ msgid "Scrap Orders"
 msgstr "Órdenes de desecho"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_form_view2
 msgid "Scrap Products"
@@ -8881,14 +8881,14 @@ msgid "Search Scrap"
 msgstr "Buscar desecho"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Search not supported without a value."
 msgstr "La búsqueda no es posible sin un valor."
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/static/src/views/list/stock_add_package_list_view.js:0
 #: code:addons/stock/static/src/views/picking_form/stock_move_one2many.js:0
@@ -8911,7 +8911,7 @@ msgid "Select the places where this route can be selected"
 msgstr "Seleccione los lugares donde la ruta puede ser seleccionada"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 msgid ""
 "Selected storage category does not exist in the 'store to' location or any "
@@ -8921,7 +8921,7 @@ msgstr ""
 "\"almacenar en\" ni en ninguna de sus subububicaciones"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Selection not supported."
 msgstr "Selección no admitida."
@@ -8988,7 +8988,7 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Sequence %(code)s"
 msgstr "%(code)s de secuencia"
@@ -9005,7 +9005,7 @@ msgid "Serial Numbers"
 msgstr "Números de serie"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Serial number (%(serial_number)s) already exists in location(s): %"
@@ -9015,7 +9015,7 @@ msgstr ""
 "(location_list)s. Corrija el número de serie codificado."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
@@ -9030,7 +9030,7 @@ msgstr ""
 "Corrija esto para prevenir datos inconsistentes."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
@@ -9046,7 +9046,7 @@ msgstr ""
 "(recommended_location)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Serial numbers"
 msgstr "Números de serie"
@@ -9332,7 +9332,7 @@ msgid "Small (1.25\" x 1.00\")"
 msgstr "Pequeño (1,25\" x 1,00\")"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 #: model:ir.actions.act_window,name:stock.action_orderpoint_snooze
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_orderpoint_snooze
@@ -9380,7 +9380,7 @@ msgid "Source Document"
 msgstr "Documento de origen"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_id
@@ -9471,7 +9471,7 @@ msgstr ""
 "Planificada: actividades futuras."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_product_stock_view
 #: model:ir.ui.menu,name:stock.menu_product_stock
@@ -9490,7 +9490,7 @@ msgid "Stock Confirmation Type"
 msgstr "Tipo de confirmación de existencias"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Stock In Transit"
 msgstr "Stock en tránsito"
@@ -9619,7 +9619,7 @@ msgid "Stock Text Validation with stock move"
 msgstr "Confirmación por texto en movimientos de stock"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Stock To Reserve:"
 msgstr "Stock a reservar:"
@@ -9667,7 +9667,7 @@ msgid "Stock warehouse replenishment option"
 msgstr "Opción de reposición de almacén de stock"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Storage"
 msgstr "Almacenamiento"
@@ -9848,7 +9848,7 @@ msgid "Text Confirmation"
 msgstr "Confirmación por mensaje de texto"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "The %s location is required by the Inventory app and cannot be deleted, but "
@@ -9869,13 +9869,13 @@ msgstr ""
 "movimiento original."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "The Lot/Serial number (%s) is linked to another product."
 msgstr "Este número de lote o de serie (%s) está vinculado a otro producto."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "The Serial Number (%(serial_number)s) is already used in location(s): %"
@@ -9902,7 +9902,7 @@ msgid "The actual date when the transfer was processed."
 msgstr "La fecha real en la que se procesó el traslado"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "The backorder %s has been created."
 msgstr "Se ha creado la entrega parcial %s."
@@ -9927,7 +9927,7 @@ msgstr ""
 "cualquier derogación expresamente por escrito y con antelación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "The combination of lot/serial number and product must be unique within a "
@@ -9948,7 +9948,7 @@ msgstr ""
 "usuario."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -9956,7 +9956,7 @@ msgid "The day after tomorrow"
 msgstr "Pasado mañana"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The deadline has been automatically updated due to a delay on %s."
 msgstr "El plazo se ha actualizado automáticamente debido a un retraso en %s."
@@ -9976,7 +9976,7 @@ msgid "The first in the sequence is the default one."
 msgstr "El primero en la secuencia es el aplicado por defecto."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/product_replenish.py:0
 msgid "The following replenishment order have been generated"
 msgstr "Se han generado las siguientes órdenes de reposición"
@@ -9987,7 +9987,7 @@ msgid "The forecasted quantity of"
 msgstr "La cantidad pronosticada de"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "The inter-warehouse transfers have been generated"
 msgstr "Los traslados entre almacenes se han generado"
@@ -10005,7 +10005,7 @@ msgid "The minimum Stock level that will trigger a replenishment."
 msgstr "El nivel mínimo de stock que activará una reposición."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 "The minimum quantity must be less than or equal to the maximum quantity."
@@ -10017,7 +10017,7 @@ msgid "The name of the warehouse must be unique per company!"
 msgstr "¡El nombre del almacén debe ser único por compañía!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The number of Serial Numbers to generate must be greater than zero."
 msgstr "El número de números de serie a generar debe ser mayor que cero."
@@ -10103,7 +10103,7 @@ msgstr ""
 "misma ubicación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "The quantity done for the product \"%(product)s\" doesn't respect the "
@@ -10115,13 +10115,13 @@ msgstr ""
 "la cantidad hecha o la precisión de redondeo de su unidad de medida."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The quantity per lot should always be a positive value."
 msgstr "La cantidad por lote siempre debe ser un valor positivo."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "The requested operation cannot be processed because of a programming error "
@@ -10132,7 +10132,7 @@ msgstr ""
 "'product_uom_qty'."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "The selected Inventory Frequency (Days) creates a date too far into the "
@@ -10142,7 +10142,7 @@ msgstr ""
 "lejana en el futuro."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "The serial number has already been assigned: \n"
@@ -10185,7 +10185,7 @@ msgid "The stock rule that created this stock move"
 msgstr "La regla de stock que creó este movimiento de stock"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "There are no inventory adjustments to revert."
 msgstr "No hay ajustes de inventario que revertir."
@@ -10291,7 +10291,7 @@ msgstr ""
 "type=internal."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "This location's usage cannot be changed to view as it contains products."
@@ -10300,7 +10300,7 @@ msgstr ""
 "productos."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "This lot %(lot_name)s is incompatible with this product %(product_name)s"
@@ -10356,13 +10356,13 @@ msgstr ""
 "el producto en el almacén)."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "This package is currently set to be sent in %(location_names_list)s."
 msgstr "Este paquete está configurado para enviarse a %(location_names_list)s."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product has been used in at least one inventory movement. It is not "
@@ -10374,7 +10374,7 @@ msgstr ""
 "Una mejor solución podría ser archivar el producto y crear uno nuevo."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product's company cannot be changed as long as there are quantities of "
@@ -10384,7 +10384,7 @@ msgstr ""
 "del mismo pertenecientes a otra compañía."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product's company cannot be changed as long as there are stock moves of "
@@ -10394,20 +10394,20 @@ msgstr ""
 "de stock perteneciendo a otra compañía."
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/list/inventory_report_list_model.js:0
 msgid "This record already exists"
 msgstr "Este registro ya existe"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/report_stock_reception.py:0
 msgid "This report cannot be used for done and not done %s at the same time"
 msgstr ""
 "No se puede usar este informe para %s hechos y no hechos al mismo tiempo"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "This sequence prefix is already being used by another operation type. It is "
@@ -10458,13 +10458,13 @@ msgid "This will discard all unapplied counts, do you want to proceed?"
 msgstr "Esto descartará todos los recuentos no aplicados, ¿desea continuar?"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "Time Horizon"
 msgstr "Horizonte temporal"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Time to replenish:"
 msgstr "Tiempo de reposición:"
@@ -10482,7 +10482,7 @@ msgid "Tip: Speed up inventory operations with barcodes"
 msgstr "Consejo: acelere las operaciones de inventario con códigos de barras"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_dest_id
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -10564,8 +10564,8 @@ msgid "To Reorder"
 msgstr "A reabastecer"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
@@ -10581,7 +10581,7 @@ msgid "Today Activities"
 msgstr "Actividades de hoy"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -10671,7 +10671,7 @@ msgid "Traceability"
 msgstr "Trazabilidad"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.js:0
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.actions.client,name:stock.action_stock_report
@@ -10753,7 +10753,7 @@ msgid "Transfer to"
 msgstr "Trasladar a"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "Transfer trouble alert! Validating a zero quantity transfer? You're not "
@@ -10770,7 +10770,7 @@ msgid "Transfered Packages"
 msgstr "Paquetes transferidos"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_all
 #: model:ir.model.fields,field_description:stock.field_stock_lot__delivery_ids
@@ -10785,7 +10785,7 @@ msgid "Transfers"
 msgstr "Traslados"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Transfers %s: Please add some items to move."
 msgstr "Traslados %s: añada algunos elementos para mover."
@@ -10849,7 +10849,7 @@ msgstr ""
 "Activar sugerencias de reposición para esta ubicación cuando sea necesario"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/stock_forecasted.js:0
 msgid "Try to add some incoming or outgoing transfers."
 msgstr "Intente añadir algunas traslados entrantes o salientes."
@@ -10889,13 +10889,13 @@ msgid "USPS Connector"
 msgstr "Conector de USPS"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Unassign"
 msgstr "Eliminar la asignación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "Unavailable Serial numbers. Please correct the serial numbers encoded: %"
@@ -10905,7 +10905,7 @@ msgstr ""
 "(serial_numbers_to_locations)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Unfold"
 msgstr "Desplegar"
@@ -10968,7 +10968,7 @@ msgid "Unpack"
 msgstr "Desempaquetar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: model:ir.actions.server,name:stock.action_unreserve_picking
 #: model_terms:ir.ui.view,arch_db:stock.vpicktree
@@ -10986,15 +10986,15 @@ msgid "Update Quantities"
 msgstr "Actualizar cantidades"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.xml:0
 msgid "Update Quantity"
 msgstr "Actualizar la cantidad"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "Updating the location of this transfer will result in unreservation of the "
@@ -11048,7 +11048,7 @@ msgid "Use your own routes"
 msgstr "Use sus propias rutas"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Used by"
 msgstr "Usado por"
@@ -11078,7 +11078,7 @@ msgid "Validate"
 msgstr "Validar"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/xml/inventory_lines.xml:0
 msgid "Validate Inventory"
 msgstr "Validar inventario"
@@ -11257,19 +11257,19 @@ msgid "Warehouse view location"
 msgstr "Ubicación de vista del almacén"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Warehouse's Routes"
 msgstr "Rutas del almacén"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_warehouse_filter.xml:0
 msgid "Warehouse:"
 msgstr "Almacén:"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 #: model:ir.actions.act_window,name:stock.action_warehouse_form
 #: model:ir.model.fields,field_description:stock.field_stock_route__warehouse_ids
@@ -11291,7 +11291,7 @@ msgid "Warn Insufficient Scrap Quantity"
 msgstr "Advertir de cantidad de desecho insuficiente"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_move_line.py:0
@@ -11307,13 +11307,13 @@ msgid "Warning Message"
 msgstr "Mensaje de advertencia"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Warning!"
 msgstr "¡Advertencia!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Warning: change source location"
 msgstr "Advertencia: cambio en la ubicación de origen"
@@ -11420,7 +11420,7 @@ msgid "When product arrives in"
 msgstr "Cuando el producto llega a"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
@@ -11432,7 +11432,7 @@ msgstr ""
 "(suffix)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
@@ -11532,13 +11532,13 @@ msgid "Wizard"
 msgstr "Asistente"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Write one lot/serial name per line, followed by the quantity."
 msgstr "Escriba un nombre de lote o serie por línea, seguido de la cantidad"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -11572,7 +11572,7 @@ msgid "You are good, no replenishment to perform!"
 msgstr "¡Usted es bueno, no hay reposición que realizar!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to change the product linked to a serial or lot number "
@@ -11584,7 +11584,7 @@ msgstr ""
 "inconsistencias en su inventario."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
@@ -11626,32 +11626,32 @@ msgid "You can either :"
 msgstr "Puede:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr ""
 "No puede crear un punto de pedido pospuesto que no se active manualmente"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You can not delete moves linked to another operation"
 msgstr "No se pueden eliminar movimientos vinculados a otra operación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "You can not enter negative quantities."
 msgstr "No puede ingresar cantidades negativas."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "You can only enter positive quantities."
 msgstr "Solo puede ingresar cantidades positivas."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You can only move a lot/serial to a new location if it exists in a single "
@@ -11661,7 +11661,7 @@ msgstr ""
 "una sola ubicación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "You can only move positive quantities stored in locations used by a single "
@@ -11671,14 +11671,14 @@ msgstr ""
 "utilizadas por una sola empresa."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "You can only process 1.0 %s of products with unique serial number."
 msgstr ""
 "Solo puede procesar 1,0 %s para productos con un número de serie único."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 "You can only snooze manual orderpoints. You should rather archive 'auto-"
@@ -11688,7 +11688,7 @@ msgstr ""
 "automáticos\" si no desea que se activen."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
 "You can't deactivate the multi-location if you have more than once warehouse "
@@ -11698,14 +11698,14 @@ msgstr ""
 "empresa"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "You can't disable locations %s because they still contain products."
 msgstr ""
 "No se pueden desactivar las ubicaciones %s porque aún contienen productos."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "You cannot archive location %(location)s because it is used by warehouse %"
@@ -11715,7 +11715,7 @@ msgstr ""
 "utiliza."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "You cannot cancel a stock move that has been set to 'Done'. Create a return "
@@ -11726,7 +11726,7 @@ msgstr ""
 "lugar."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot change a cancelled stock move, create a new line instead."
 msgstr ""
@@ -11734,21 +11734,21 @@ msgstr ""
 "línea en su lugar."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "You cannot change the Scheduled Date on a cancelled transfer."
 msgstr ""
 "No se puede cambiar la fecha programada de una transferencia cancelada."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 msgstr ""
 "No puede cambiar la UdM de un movimiento de stock establecido como \"Hecho\"."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You cannot change the company of a lot/serial number currently in a location "
@@ -11758,7 +11758,7 @@ msgstr ""
 "está en una ubicación que le pertenece a otra empresa."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "You cannot change the ratio of this unit of measure as some products with "
@@ -11769,25 +11769,25 @@ msgstr ""
 "actualmente."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "You cannot delete a scrap which is done."
 msgstr "No se puede eliminar un desecho que está hecho."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "You cannot duplicate stock quants."
 msgstr "No puede duplicar cuantos de stock."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "You cannot modify inventory loss quantity"
 msgstr "No puede modificar la cantidad de pérdida de inventario"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "You cannot move the same package content more than once in the same transfer "
@@ -11797,7 +11797,7 @@ msgstr ""
 "traslado o dividir el mismo paquete en dos ubicaciones."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You cannot pack products into the same package when they are from different "
@@ -11807,7 +11807,7 @@ msgstr ""
 "distintos traslados con diferentes tipos de operación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "You cannot set a location as a scrap location when it is assigned as a "
@@ -11817,14 +11817,14 @@ msgstr ""
 "como una ubicación de destino para una operación de tipo de fabricación."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot split a draft move. It needs to be confirmed first."
 msgstr ""
 "No puede dividir un movimiento borrador. Necesita ser confirmado primero."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot split a stock move that has been set to 'Done' or 'Cancel'."
 msgstr ""
@@ -11832,7 +11832,7 @@ msgstr ""
 "'Cancelado'."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "You cannot take products from or deliver products to a location of type "
@@ -11842,13 +11842,13 @@ msgstr ""
 "\"vista\" (%s)."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot unreserve a stock move that has been set to 'Done'."
 msgstr "No puede cancelar un movimiento de stock que está como 'Hecho'."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You cannot use the same serial number twice. Please correct the serial "
@@ -11858,7 +11858,7 @@ msgstr ""
 "serie codificados."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "You can’t validate an empty transfer. Please add some products to move "
@@ -11873,7 +11873,7 @@ msgid "You have processed less products than the initial demand."
 msgstr "Ha procesado menos productos que la demanda inicial."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
 "You have product(s) in stock that have lot/serial number tracking enabled. \n"
@@ -11885,7 +11885,7 @@ msgstr ""
 "ajuste."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "You have product(s) in stock that have no lot/serial number. You can assign "
@@ -11895,26 +11895,26 @@ msgstr ""
 "asignar números de lote o de serie haciendo un ajuste de inventario."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "You may only return Done pickings."
 msgstr ""
 "Solo puede devolver los albaranes de preparaciones de pedidos realizados."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "You may only return one picking at a time."
 msgstr "Solo puede devolver una preparación a la vez."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You need a transfer to add these packages to."
 msgstr "Necesitas una transferencia a la que añadir estos paquetes."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "You need to activate storage locations to be able to do internal operation "
@@ -11924,7 +11924,7 @@ msgstr ""
 "operaciones internas."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You need to supply a Lot/Serial Number for product:\n"
@@ -11934,7 +11934,7 @@ msgstr ""
 "%(products)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "You need to supply a Lot/Serial number for products %s."
 msgstr "Debe proporcionar un número de lote/serie para los productos %s."
@@ -11946,7 +11946,7 @@ msgstr ""
 "Debe actualizar este documento para que refleje sus términos y condiciones."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "You still have ongoing operations for operation types %(operations)s in "
@@ -11956,7 +11956,7 @@ msgstr ""
 "(operations)s en el almacén %(warehouse)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/list/inventory_report_list_model.js:0
 msgid ""
 "You tried to create a record that already exists. The existing record was "
@@ -12000,7 +12000,7 @@ msgstr ""
 "de materiales)."
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Your stock is currently empty"
 msgstr "Su stock está actualmente vacío"
@@ -12156,13 +12156,13 @@ msgid "closest"
 msgstr "más cercano"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "day(s)"
 msgstr "dia(s)"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
@@ -12195,7 +12195,7 @@ msgid "e.g. Central Warehouse"
 msgstr "p. ej. Almacén principal"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "e.g. LOT-PR-00012"
 msgstr "p. ej. LOT-PR-00012"
@@ -12251,7 +12251,7 @@ msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
 msgstr "p. ej. d7vctmiv2rwgenebha8bxq7irooudn"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "expected on"
 msgstr "previsto para el"
@@ -12267,7 +12267,7 @@ msgid "from location"
 msgstr "desde la ubicación"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "id"
@@ -12304,7 +12304,7 @@ msgid "of"
 msgstr "de"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "planned on"
 msgstr "planificado el"

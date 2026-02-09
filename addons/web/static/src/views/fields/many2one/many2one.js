@@ -1,4 +1,4 @@
-import { Component, toRaw, useRef, useState } from "@BetopiaERP/owl";
+import { Component, toRaw, useRef, useState } from "@betopiaerp/owl";
 import * as BarcodeScanner from "@web/core/barcode/barcode_dialog";
 import { isBarcodeScannerSupported } from "@web/core/barcode/barcode_video_scanner";
 import { isMobileOS } from "@web/core/browser/feature_detection";
@@ -228,7 +228,7 @@ export class Many2One extends Component {
         const relation = this.props.relation.includes(".")
             ? this.props.relation
             : `m-${this.props.relation}`;
-        return `/BetopiaERP/${relation}/${this.props.value.id}`;
+        return `/betopiaerp/${relation}/${this.props.value.id}`;
     }
 
     async openBarcodeScanner() {

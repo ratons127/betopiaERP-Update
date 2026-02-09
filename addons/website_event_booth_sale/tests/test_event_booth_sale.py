@@ -85,4 +85,4 @@ class TestWebsiteEventBoothSale(HttpCaseWithUserPortal, TestWebsiteEventSaleComm
             'state_id': self.env.ref('base.state_us_39').id,
             'phone': '+1 555-555-5555',
         })
-        self.start_tour("/BetopiaERP", 'event_booth_sale_pricelists_different_currencies', login='admin')
+        self.start_tour("/betopiaerp", 'event_booth_sale_pricelists_different_currencies', login='admin')

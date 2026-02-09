@@ -1,5 +1,5 @@
 import { Dialog } from "@web/core/dialog/dialog";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 
 export class companyStateDialog extends Component {
@@ -14,7 +14,7 @@ export class companyStateDialog extends Component {
     }
 
     redirect() {
-        window.location = "/BetopiaERP/companies/" + this.pos.company.id;
+        window.location = "/betopiaerp/companies/" + this.pos.company.id;
     }
 
     onClose() {

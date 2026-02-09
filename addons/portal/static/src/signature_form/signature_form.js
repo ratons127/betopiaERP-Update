@@ -1,4 +1,4 @@
-import { Component, onMounted, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useRef, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { addLoadingEffect } from '@web/core/utils/ui';
 import { rpc } from "@web/core/network/rpc";
@@ -19,7 +19,7 @@ export class SignatureForm extends Component {
     setup() {
         this.rootRef = useRef("root");
 
-        this.csrfToken = BetopiaERP.csrf_token;
+        this.csrfToken = betopiaerp.csrf_token;
         this.state = useState({
             error: false,
             success: false,

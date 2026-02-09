@@ -1,7 +1,7 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { drag, queryAll, queryAllTexts, queryFirst, scroll } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, onWillUpdateProps, xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { drag, queryAll, queryAllTexts, queryFirst, scroll } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, onWillUpdateProps, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineActions,

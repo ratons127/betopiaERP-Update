@@ -1,5 +1,5 @@
 import { browser } from "@web/core/browser/browser";
-import { Component, onMounted, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useState } from "@betopiaerp/owl";
 
 export class SlideXPProgressBar extends Component {
     static props = {

@@ -1,6 +1,6 @@
 const { DateTime } = luxon;
 import { Domain } from "@web/core/domain";
-import { expect } from "@BetopiaERP/hoot";
+import { expect } from "@betopiaerp/hoot";
 
 function getDateDomainBounds(domain) {
     const startDateStr = domain[1][2];

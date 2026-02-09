@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record id="support_bot_session_4_demo" model="discuss.channel">
             <field name="channel_type">livechat</field>
@@ -184,4 +184,4 @@
             <value eval="{'call_history_ids': [ref('support_bot_session_4_call_1')]}"/>
         </function>
     </data>
-</BetopiaERP>
+</betopiaerp>

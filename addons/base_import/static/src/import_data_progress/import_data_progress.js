@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useState } from "@betopiaerp/owl";
 
 export class ImportDataProgress extends Component {
     static template = "ImportDataProgress";

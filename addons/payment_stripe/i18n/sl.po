@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * payment_stripe
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 21:21+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Slovenian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Slovenian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_stripe/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr ""
@@ -37,7 +37,7 @@ msgid "Connect Stripe"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Delivery"
 msgstr "Dostava"
@@ -55,7 +55,7 @@ msgid "Enable Apple Pay"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Free Shipping"
 msgstr "Brezplačna dostava"
@@ -85,13 +85,13 @@ msgid ""
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Other Payment Providers"
 msgstr ""
@@ -117,13 +117,13 @@ msgid "Payment Transaction"
 msgstr "Plačilna transakcija"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Please use live credentials to enable Apple Pay."
 msgstr ""
@@ -134,13 +134,13 @@ msgid "Publishable Key"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with invalid intent status: %s."
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with missing intent status."
 msgstr ""
@@ -156,7 +156,7 @@ msgid "Stripe"
 msgstr "Stripe"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "Stripe Connect is not available in your country, please use another payment "
@@ -176,7 +176,7 @@ msgid "Stripe Payment Method ID"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 msgstr ""
@@ -187,7 +187,7 @@ msgid "The key solely used to identify the account with Stripe"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid ""
 "The refund did not go through. Please log into your Stripe Dashboard to get "
@@ -200,7 +200,7 @@ msgid "The technical code of this payment provider."
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_token.py:0
 msgid "Unable to convert payment token to new API."
 msgstr ""
@@ -211,20 +211,20 @@ msgid "Webhook Signing Secret"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "You Stripe Webhook was successfully set up!"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot create a Stripe Webhook if your Stripe Secret Key is not set."
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot set the provider state to Enabled until your onboarding to Stripe "
@@ -232,7 +232,7 @@ msgid ""
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot set the provider to Test Mode while it is linked with your Stripe "
@@ -240,19 +240,19 @@ msgid ""
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your Stripe Webhook is already set up."
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Your order"
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your web domain was successfully verified."
 msgstr ""

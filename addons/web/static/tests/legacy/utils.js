@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/utils default=false */
+/** @betopiaerp-module alias=@web/../tests/utils default=false */
 
 import { isVisible } from "@web/core/utils/ui";
 import { registerCleanup } from "@web/../tests/helpers/cleanup";

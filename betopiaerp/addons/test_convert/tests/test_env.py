@@ -12,7 +12,7 @@ from betopiaerp.tests import common
 from betopiaerp.tools import config
 from betopiaerp.tools.convert import xml_import
 
-BetopiaERP = E.BetopiaERP
+betopiaerp = E.betopiaerp
 data = E.data
 record = E.record
 field = E.field
@@ -33,7 +33,7 @@ class TestEnv(common.TransactionCase):
 
     def test_uid_data_record(self):
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 record(
                     field("a", name="name"),
                     model="test_convert.usered",
@@ -50,7 +50,7 @@ class TestEnv(common.TransactionCase):
 
     def test_uid_data_function(self):
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 function(
                     model="test_convert.usered",
                     name="create",
@@ -67,7 +67,7 @@ class TestEnv(common.TransactionCase):
 
     def test_uid_record(self):
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 record(
                     field('c', name="name"),
                     model="test_convert.usered",
@@ -86,7 +86,7 @@ class TestEnv(common.TransactionCase):
 
     def test_uid_function(self):
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 function(
                     model="test_convert.usered",
                     name="create",
@@ -104,7 +104,7 @@ class TestEnv(common.TransactionCase):
     def test_context_data_function(self):
         self.env.user.tz = 'UTC'
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 function(
                     model="test_convert.usered",
                     name="create",
@@ -120,7 +120,7 @@ class TestEnv(common.TransactionCase):
     def test_context_function(self):
         self.env.user.tz = 'UTC'
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 function(
                     model="test_convert.usered",
                     name="create",
@@ -137,7 +137,7 @@ class TestEnv(common.TransactionCase):
     def test_context_data_record(self):
         self.env.user.tz = 'UTC'
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 record(
                     field("f", name="name"),
                     model="test_convert.usered",
@@ -152,7 +152,7 @@ class TestEnv(common.TransactionCase):
     def test_context_record(self):
         self.env.user.tz = 'UTC'
         self.importer(
-            BetopiaERP(
+            betopiaerp(
                 record(
                     field("f", name="name"),
                     model="test_convert.usered",

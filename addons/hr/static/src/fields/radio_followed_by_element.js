@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { RadioField, radioField } from "@web/views/fields/radio/radio_field";
-import {onMounted,onWillUnmount} from "@BetopiaERP/owl";
+import {onMounted,onWillUnmount} from "@betopiaerp/owl";
 
 export class RadioFollowedByElement extends RadioField {
     static props = {

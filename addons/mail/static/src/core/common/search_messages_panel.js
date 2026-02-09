@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps } from "@betopiaerp/owl";
 import { ActionPanel } from "@mail/discuss/core/common/action_panel";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";

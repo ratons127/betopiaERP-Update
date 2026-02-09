@@ -1,11 +1,11 @@
-"""Module to manage BetopiaERP code upgrades using git"""
+"""Module to manage betopiaerp code upgrades using git"""
 
 import logging
 import platform
 import requests
 import subprocess
 from betopiaerp.addons.iot_drivers.tools.helpers import (
-    BetopiaERP_restart,
+    betopiaerp_restart,
     path_file,
     require_db,
     toggleable,
@@ -23,7 +23,7 @@ def git(*args):
     :param args: list of arguments to pass to git
     """
     git_executable = 'git' if IS_RPI else path_file('git', 'cmd', 'git.exe')
-    command = [git_executable, f'--work-tree={path_file("BetopiaERP")}', f'--git-dir={path_file("BetopiaERP", ".git")}', *args]
+    command = [git_executable, f'--work-tree={path_file("betopiaerp")}', f'--git-dir={path_file("betopiaerp", ".git")}', *args]
 
     p = subprocess.run(command, stdout=subprocess.PIPE, text=True, check=False)
     if p.returncode == 0:
@@ -89,7 +89,7 @@ def check_version_upgrades(local_branch, db_branch):
 
         _logger.warning("Updating to Debian Trixie for >= 19.1")
         subprocess.run(
-            ['/home/pi/BetopiaERP/addons/iot_drivers/tools/upgrade_scripts/upgrade_trixie/upgrade_trixie.sh'], check=True,
+            ['/home/pi/betopiaerp/addons/iot_drivers/tools/upgrade_scripts/upgrade_trixie/upgrade_trixie.sh'], check=True,
         )
     except subprocess.CalledProcessError:
         _logger.exception("Failed to upgrade to debian Trixie. Check /home/pi/upgrade.log file for more details")
@@ -119,7 +119,7 @@ def check_git_branch(server_url=None):
 
         if db_branch != local_branch:
             # Repository updates
-            unlink_file("BetopiaERP/.git/shallow.lock")  # In case of previous crash/power-off, clean old lockfile
+            unlink_file("betopiaerp/.git/shallow.lock")  # In case of previous crash/power-off, clean old lockfile
             check_version_upgrades(local_branch, db_branch)
             checkout(db_branch)
             update_requirements()
@@ -130,16 +130,16 @@ def check_git_branch(server_url=None):
             # Miscellaneous updates (version migrations)
             misc_migration_updates()
             _logger.warning("Update completed, restarting...")
-            BetopiaERP_restart()
+            betopiaerp_restart()
     except Exception:
         _logger.exception('An error occurred while trying to update the code with git')
 
 
 def _ensure_production_remote():
     """Ensure that the remote repository is the production one
-    (https://github.com/BetopiaERP/betopiaerp.git).
+    (https://github.com/betopiaerp/betopiaerp.git).
     """
-    production_remote = "https://github.com/BetopiaERP/betopiaerp.git"
+    production_remote = "https://github.com/betopiaerp/betopiaerp.git"
     if git("remote", "get-url", "origin") != production_remote:
         _logger.info("Setting remote repository to production: %s", production_remote)
         git("remote", "set-url", "origin", production_remote)
@@ -170,7 +170,7 @@ def update_requirements():
     """Update the Python requirements of the IoT Box, installing the ones
     listed in the requirements.txt file.
     """
-    requirements_file = path_file('BetopiaERP', 'addons', 'iot_box_image', 'configuration', 'requirements.txt')
+    requirements_file = path_file('betopiaerp', 'addons', 'iot_box_image', 'configuration', 'requirements.txt')
     if not requirements_file.exists():
         _logger.info("No requirements file found, not updating.")
         return
@@ -185,7 +185,7 @@ def update_packages():
     the packages.txt file.
     Requires ``writable`` context manager.
     """
-    packages_file = path_file('BetopiaERP', 'addons', 'iot_box_image', 'configuration', 'packages.txt')
+    packages_file = path_file('betopiaerp', 'addons', 'iot_box_image', 'configuration', 'packages.txt')
     if not packages_file.exists():
         _logger.info("No packages file found, not updating.")
         return
@@ -213,14 +213,14 @@ def update_packages():
 def misc_migration_updates():
     """Run miscellaneous updates after the code update."""
     _logger.warning("Running version migration updates")
-    if path_file('BetopiaERP', 'addons', 'point_of_sale').exists():
+    if path_file('betopiaerp', 'addons', 'point_of_sale').exists():
         # TODO: remove this when v18.0 is deprecated (point_of_sale/tools/posbox/ -> iot_box_image/)
         ramdisks_service = "/root_bypass_ramdisks/etc/systemd/system/ramdisks.service"
         subprocess.run(
             ['sudo', 'sed', '-i', 's|iot_box_image|point_of_sale/tools/posbox|g', ramdisks_service], check=False
         )
 
-    if path_file('BetopiaERP', 'addons', 'hw_drivers').exists():
+    if path_file('betopiaerp', 'addons', 'hw_drivers').exists():
         # TODO: remove this when v18.4 is deprecated (hw_drivers/,hw_posbox_homepage/ -> iot_drivers/)
         subprocess.run(
             ['sed', '-i', 's|iot_drivers|hw_drivers,hw_posbox_homepage|g', '/home/pi/betopiaerp.conf'], check=False

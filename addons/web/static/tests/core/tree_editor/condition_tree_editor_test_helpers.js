@@ -1,4 +1,4 @@
-import { queryAll, queryAllTexts, queryOne, queryText, queryValue } from "@BetopiaERP/hoot-dom";
+import { queryAll, queryAllTexts, queryOne, queryText, queryValue } from "@betopiaerp/hoot-dom";
 import { contains, fields, models } from "@web/../tests/web_test_helpers";
 
 import { Domain } from "@web/core/domain";
@@ -66,8 +66,8 @@ export function formatExpr(str) {
 }
 
 /**
- * @typedef {import("@BetopiaERP/hoot-dom").FillOptions} FillOptions
- * @typedef {import("@BetopiaERP/hoot-dom").Target} Target
+ * @typedef {import("@betopiaerp/hoot-dom").FillOptions} FillOptions
+ * @typedef {import("@betopiaerp/hoot-dom").Target} Target
  */
 
 function getValue(root) {

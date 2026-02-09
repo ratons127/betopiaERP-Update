@@ -1,4 +1,4 @@
-import { markRaw, reactive, toRaw } from "@BetopiaERP/owl";
+import { markRaw, reactive, toRaw } from "@betopiaerp/owl";
 import { isRecord } from "./misc";
 
 /** @param {RecordList} reclist */

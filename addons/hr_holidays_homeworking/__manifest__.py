@@ -14,7 +14,7 @@
             'hr_holidays_homeworking/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'auto_install': True,
 }

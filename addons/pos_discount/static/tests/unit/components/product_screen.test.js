@@ -1,4 +1,4 @@
-import { animationFrame, expect, test } from "@BetopiaERP/hoot";
+import { animationFrame, expect, test } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupPosEnv, expectFormattedPrice } from "@point_of_sale/../tests/unit/utils";
 import { ProductScreen } from "@point_of_sale/app/screens/product_screen/product_screen";

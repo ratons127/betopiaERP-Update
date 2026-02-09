@@ -34,7 +34,7 @@ export class HandlerDialog extends Component {
             this.state.handlerData = data;
             this.state.globalLogger = {
                 "iot-logging-root": data.root_logger_log_level,
-                "iot-logging-BetopiaERP": data.BetopiaERP_current_log_level,
+                "iot-logging-betopiaerp": data.betopiaerp_current_log_level,
             };
             this.state.initialization = false;
         } catch {

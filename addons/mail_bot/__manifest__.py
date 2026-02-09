@@ -6,7 +6,7 @@
     'version': '1.2',
     'category': 'Productivity/Discuss',
     'summary': 'Add BetopiaERPBot in discussions',
-    'website': 'https://www.betopiaerp.com/app/discuss',
+    'website': 'https://www.BetopiaERP.com/app/discuss',
     'depends': ['mail'],
     'auto_install': True,
     'installable': True,
@@ -16,9 +16,9 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'mail_bot/static/src/scss/BetopiaERPbot_style.scss',
+            'mail_bot/static/src/scss/betopiaerpbot_style.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

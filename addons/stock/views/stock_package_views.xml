@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <record id="stock_package_view_search" model="ir.ui.view">
         <field name="name">stock.package.search</field>
         <field name="model">stock.package</field>
@@ -162,4 +162,4 @@
     </record>
 
     <menuitem id="menu_package" name="Packages" parent="menu_stock_inventory_control" action="action_package_view" groups="stock.group_tracking_lot" sequence="102"/>
-</BetopiaERP>
+</betopiaerp>

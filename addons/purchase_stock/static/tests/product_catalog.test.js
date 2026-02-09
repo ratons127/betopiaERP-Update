@@ -1,5 +1,5 @@
-import { expect, test, runAllTimers } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { expect, test, runAllTimers } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import { defineModels, fields, models, mountView, onRpc } from "@web/../tests/web_test_helpers";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
 

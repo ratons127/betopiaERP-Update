@@ -1,4 +1,4 @@
-import { expect, test, describe, beforeEach, getFixture } from "@BetopiaERP/hoot";
+import { expect, test, describe, beforeEach, getFixture } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,
@@ -11,8 +11,8 @@ import {
     getPagerValue,
     getPagerLimit,
 } from "@web/../tests/web_test_helpers";
-import { click, queryAny, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { click, queryAny, queryOne, waitFor } from "@betopiaerp/hoot-dom";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
 import { unmockedOrm } from "@web/../tests/_framework/module_set.hoot";
 import { MassMailingIframe } from "../src/iframe/mass_mailing_iframe";

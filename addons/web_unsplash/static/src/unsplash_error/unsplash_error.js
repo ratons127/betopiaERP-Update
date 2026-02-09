@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { UnsplashCredentials } from "../unsplash_credentials/unsplash_credentials";
 
 export class UnsplashError extends Component {

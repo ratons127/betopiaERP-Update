@@ -18,7 +18,7 @@ BUFFER_TIME = 120  # Time in seconds between two sessions assigned to the same o
 class Im_LivechatChannel(models.Model):
     """ Livechat Channel
         Define a communication channel, which can be accessed with 'script_external' (script tag to put on
-        external website), 'script_internal' (code to be integrated with BetopiaERP website) or via 'web_page' link.
+        external website), 'script_internal' (code to be integrated with betopiaerp website) or via 'web_page' link.
         It provides rating tools, and access rules for anonymous people.
     """
 

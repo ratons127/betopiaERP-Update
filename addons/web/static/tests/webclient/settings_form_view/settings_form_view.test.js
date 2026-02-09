@@ -1,4 +1,4 @@
-import { after, beforeEach, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { after, beforeEach, expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     edit,
@@ -8,8 +8,8 @@ import {
     queryFirst,
     resize,
     unload,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred, mockSendBeacon, mockTouch, runAllTimers } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred, mockSendBeacon, mockTouch, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     clickModalButton,
     clickSave,
@@ -950,7 +950,7 @@ test("settings views does not write the id on the url", async () => {
 
     await getService("action").doAction(1);
     await runAllTimers();
-    expect(browser.location.pathname).toBe("/BetopiaERP/settings");
+    expect(browser.location.pathname).toBe("/betopiaerp/settings");
     expect(".o_field_boolean input").toHaveProperty("disabled", false);
     await click(".o_field_boolean input");
     await animationFrame();
@@ -959,7 +959,7 @@ test("settings views does not write the id on the url", async () => {
 
     await animationFrame();
     expect(router.current.resId).toBe(undefined);
-    expect(browser.location.pathname).toBe("/BetopiaERP/settings");
+    expect(browser.location.pathname).toBe("/betopiaerp/settings");
 });
 
 test.tags("desktop");
@@ -2179,7 +2179,7 @@ test("Open settings from url, with app anchor", async () => {
         </form>
     `;
 
-    redirect("/BetopiaERP/settings#crm");
+    redirect("/betopiaerp/settings#crm");
     await mountWithCleanup(WebClient);
     await animationFrame();
     expect(".selected").toHaveAttribute("data-key", "crm", { message: "crm setting selected" });
@@ -2215,7 +2215,7 @@ test("Open settings from url, with setting id anchor", async () => {
         </form>
     `;
 
-    redirect("/BetopiaERP/settings#setting_id");
+    redirect("/betopiaerp/settings#setting_id");
     await mountWebClient();
     expect(".selected").toHaveAttribute("data-key", "crm", { message: "crm setting selected" });
     expect(queryAllTexts(".settings .o_settings_container .o_form_label")).toEqual(["Foo"]);

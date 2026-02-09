@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { onWillRender, reactive, useState } from "@BetopiaERP/owl";
+import { onWillRender, reactive, useState } from "@betopiaerp/owl";
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { debounce, ensureArray, isNil } from "../hoot_utils";
 import { CONFIG_KEYS, CONFIG_SCHEMA, FILTER_KEYS, FILTER_SCHEMA } from "./config";

@@ -637,13 +637,13 @@ class TestUsersIdentitycheck(HttpCase):
         Test to check the revoke all devices by changing the current password as a new password
         """
         # Change the password to 8 characters for security reasons
-        self.env.user.password = "admin@BetopiaERP"
+        self.env.user.password = "admin@betopiaerp"
 
         # Create a first session that will be used to revoke other sessions
-        session = self.authenticate('admin', 'admin@BetopiaERP', session_extra={'_trace_disable': False})
+        session = self.authenticate('admin', 'admin@betopiaerp', session_extra={'_trace_disable': False})
 
         # Create a second session that will be used to check it has been revoked
-        self.authenticate('admin', 'admin@BetopiaERP', session_extra={'_trace_disable': False})
+        self.authenticate('admin', 'admin@betopiaerp', session_extra={'_trace_disable': False})
         # Test the session is valid
         # Valid session -> not redirected from /web to /web/login
         self.assertTrue(self.url_open('/web').url.endswith('/web'))
@@ -657,7 +657,7 @@ class TestUsersIdentitycheck(HttpCase):
         # The form of the check identity wizard opens
         form = Form(self.env[action['res_model']].browse(action['res_id']), action.get('view_id'))
         # The user fills his password
-        form.password = 'admin@BetopiaERP'
+        form.password = 'admin@betopiaerp'
         # The user clicks the button "Log out from all devices", which triggers a save then a call to the button method
         user_identity_check = form.save()
         action = user_identity_check.with_context(password=form.password).run_check()

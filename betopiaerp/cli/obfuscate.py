@@ -12,7 +12,7 @@ _logger = logging.getLogger(__name__)
 
 
 class Obfuscate(Command):
-    """Obfuscate data in a given BetopiaERP database"""
+    """Obfuscate data in a given betopiaerp database"""
     def __init__(self):
         super().__init__()
         self.cr = None
@@ -40,7 +40,7 @@ class Obfuscate(Command):
     @_ensure_cr
     def set_pwd(self, pwd):
         """Set password to cypher/uncypher datas"""
-        self.cr.execute("INSERT INTO ir_config_parameter (key, value) VALUES ('BetopiaERP_cyph_pwd', 'BetopiaERP_cyph_'||encode(pgp_sym_encrypt(%s, %s), 'base64')) ON CONFLICT(key) DO NOTHING", [pwd, pwd])
+        self.cr.execute("INSERT INTO ir_config_parameter (key, value) VALUES ('betopiaerp_cyph_pwd', 'betopiaerp_cyph_'||encode(pgp_sym_encrypt(%s, %s), 'base64')) ON CONFLICT(key) DO NOTHING", [pwd, pwd])
 
     @_ensure_cr
     def check_pwd(self, pwd):
@@ -48,7 +48,7 @@ class Obfuscate(Command):
         uncypher_pwd = self.uncypher_string(SQL.identifier('value'), pwd)
 
         try:
-            query = SQL("SELECT %s FROM ir_config_parameter WHERE key='BetopiaERP_cyph_pwd'", uncypher_pwd)
+            query = SQL("SELECT %s FROM ir_config_parameter WHERE key='betopiaerp_cyph_pwd'", uncypher_pwd)
             self.cr.execute(query)
             if self.cr.rowcount == 0 or (self.cr.rowcount == 1 and self.cr.fetchone()[0] == pwd):
                 return True
@@ -59,14 +59,14 @@ class Obfuscate(Command):
     @_ensure_cr
     def clear_pwd(self):
         """Unset password to cypher/uncypher datas"""
-        self.cr.execute("DELETE FROM ir_config_parameter WHERE key='BetopiaERP_cyph_pwd' ")
+        self.cr.execute("DELETE FROM ir_config_parameter WHERE key='betopiaerp_cyph_pwd' ")
 
     def cypher_string(self, sql_field: SQL, password):
         # don't double cypher fields
-        return SQL("""CASE WHEN starts_with(%(field_name)s, 'BetopiaERP_cyph_') THEN %(field_name)s ELSE 'BetopiaERP_cyph_'||encode(pgp_sym_encrypt(%(field_name)s, %(pwd)s), 'base64') END""", field_name=sql_field, pwd=password)
+        return SQL("""CASE WHEN starts_with(%(field_name)s, 'betopiaerp_cyph_') THEN %(field_name)s ELSE 'betopiaerp_cyph_'||encode(pgp_sym_encrypt(%(field_name)s, %(pwd)s), 'base64') END""", field_name=sql_field, pwd=password)
 
     def uncypher_string(self, sql_field: SQL, password):
-        return SQL("""CASE WHEN starts_with(%(field_name)s, 'BetopiaERP_cyph_') THEN pgp_sym_decrypt(decode(substring(%(field_name)s, 11)::text, 'base64'), %(pwd)s) ELSE %(field_name)s END""", field_name=sql_field, pwd=password)
+        return SQL("""CASE WHEN starts_with(%(field_name)s, 'betopiaerp_cyph_') THEN pgp_sym_decrypt(decode(substring(%(field_name)s, 11)::text, 'base64'), %(pwd)s) ELSE %(field_name)s END""", field_name=sql_field, pwd=password)
 
     def check_field(self, table, field):
         qry = "SELECT udt_name FROM information_schema.columns WHERE table_name=%s AND column_name=%s AND table_schema = current_schema"

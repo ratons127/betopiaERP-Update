@@ -7,8 +7,8 @@ import {
     startServer,
     click,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { Store } from "@mail/core/common/store_service";
 import { Thread } from "@mail/core/common/thread";
 

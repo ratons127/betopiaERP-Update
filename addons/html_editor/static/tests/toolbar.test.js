@@ -1,5 +1,5 @@
 import { withSequence } from "@html_editor/utils/resource";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     delay,
@@ -15,8 +15,8 @@ import {
     queryOne,
     waitFor,
     waitForNone,
-} from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, tick } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, tick } from "@betopiaerp/hoot-mock";
 import {
     contains,
     onRpc,
@@ -1858,7 +1858,7 @@ test("dropdown menu should not overflow scroll container", async () => {
     const top = (rangeOrElement) => rangeOrElement.getBoundingClientRect().top;
     const bottom = (elementOrRange) => elementOrRange.getBoundingClientRect().bottom;
     const scrollableElement = queryOne(".o_content");
-    const editable = queryOne(".BetopiaERP-editor-editable");
+    const editable = queryOne(".betopiaerp-editor-editable");
 
     // Select a paragraph in the middle of the text
     const fifthParagraph = editable.children[5];

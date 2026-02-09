@@ -1,7 +1,7 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { _t } from "@web/core/l10n/translation";
-import { Component, onWillStart } from "@BetopiaERP/owl";
+import { Component, onWillStart } from "@betopiaerp/owl";
 import { FileUploader } from "@web/views/fields/file_handler";
 import { ListController } from "@web/views/list/list_controller";
 import { registry } from "@web/core/registry";

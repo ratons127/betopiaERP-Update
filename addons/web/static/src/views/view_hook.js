@@ -10,7 +10,7 @@ import {
     ConfirmationDialog,
 } from "@web/core/confirmation_dialog/confirmation_dialog";
 
-import { useComponent, useEffect } from "@BetopiaERP/owl";
+import { useComponent, useEffect } from "@betopiaerp/owl";
 import { DynamicList } from "@web/model/relational_model/dynamic_list";
 
 /**

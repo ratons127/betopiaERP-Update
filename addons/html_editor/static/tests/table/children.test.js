@@ -1,6 +1,6 @@
 import { findInSelection } from "@html_editor/utils/selection";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { undo } from "../_helpers/user_actions";

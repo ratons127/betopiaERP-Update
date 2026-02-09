@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { ColorList } from "@web/core/colorlist/colorlist";

@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryFirst, queryRect } from "@BetopiaERP/hoot-dom";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryFirst, queryRect } from "@betopiaerp/hoot-dom";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import { mockService, mountWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 import {
     DEFAULT_DATE,

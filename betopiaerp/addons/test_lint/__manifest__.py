@@ -6,6 +6,6 @@
     'description': """A module to test BetopiaERP code with various linters.""",
     'depends': ['base'],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

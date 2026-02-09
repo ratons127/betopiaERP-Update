@@ -2,10 +2,10 @@ import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 registry.category("web_tour.tours").add('survey_tour', {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
     ...stepUtils.goToAppSteps('survey.menu_surveys', markup(_t("Ready to change the way you <b>gather data</b>?"))),
 {

@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { setInputFiles } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { setInputFiles } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

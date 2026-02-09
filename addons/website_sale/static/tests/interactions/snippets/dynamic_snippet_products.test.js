@@ -1,6 +1,6 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, queryAll, queryOne } from "@BetopiaERP/hoot-dom";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, queryAll, queryOne } from "@betopiaerp/hoot-dom";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import { onRpc } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";

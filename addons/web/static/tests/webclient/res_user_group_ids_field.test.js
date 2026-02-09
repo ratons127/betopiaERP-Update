@@ -1,5 +1,5 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { hover, queryAllTexts, queryAllValues, queryFirst, runAllTimers } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { hover, queryAllTexts, queryAllValues, queryFirst, runAllTimers } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

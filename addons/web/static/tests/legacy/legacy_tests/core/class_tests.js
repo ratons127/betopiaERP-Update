@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/legacy_tests/core/class_tests default=false */
+/** @betopiaerp-module alias=@web/../tests/legacy_tests/core/class_tests default=false */
 
 import Class from "@web/legacy/js/core/class";
 

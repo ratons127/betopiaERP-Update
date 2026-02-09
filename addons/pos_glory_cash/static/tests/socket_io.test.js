@@ -1,6 +1,6 @@
-import { afterEach, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { waitUntil } from "@BetopiaERP/hoot-dom";
-import { advanceTime, mockWebSocket } from "@BetopiaERP/hoot-mock";
+import { afterEach, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { waitUntil } from "@betopiaerp/hoot-dom";
+import { advanceTime, mockWebSocket } from "@betopiaerp/hoot-mock";
 import { SocketIoService } from "@pos_glory_cash/utils/socket_io";
 
 const websocketState = {

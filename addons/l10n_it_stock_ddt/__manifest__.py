@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Italy - Stock DDT",
-    'website': 'https://www.betopiaerp.com',
+    'website': 'https://www.BetopiaERP.com',
     'category': 'Accounting/Localizations/EDI',
     'version': '0.1',
     'description': """
@@ -31,6 +31,6 @@ invoice line to export in the FatturaPA XML.
     ],
     'auto_install': True,
     'post_init_hook': '_create_picking_seq',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

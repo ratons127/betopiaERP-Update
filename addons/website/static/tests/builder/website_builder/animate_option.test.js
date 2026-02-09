@@ -1,13 +1,13 @@
 import { expandToolbar } from "@html_editor/../tests/_helpers/toolbar";
-import { describe, expect, test, waitFor } from "@BetopiaERP/hoot";
-import { queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test, waitFor } from "@betopiaerp/hoot";
+import { queryFirst, queryOne } from "@betopiaerp/hoot-dom";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,
 } from "@website/../tests/builder/website_helpers";
 import { setSelection, thirdClick } from "@html_editor/../tests/_helpers/selection";
-import { advanceTime } from "@BetopiaERP/hoot-mock";
+import { advanceTime } from "@betopiaerp/hoot-mock";
 
 defineWebsiteModels();
 

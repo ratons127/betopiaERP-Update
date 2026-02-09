@@ -7,7 +7,7 @@
     'sequence': 1004,
     'version': '1.1',
     'summary': 'Event: manage sponsors and exhibitors',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'depends': [
         'website_event',
     ],
@@ -44,6 +44,6 @@
             'website_event_exhibitor/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

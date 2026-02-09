@@ -1,4 +1,4 @@
-import { onMounted, useComponent, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { onMounted, useComponent, useEffect, useExternalListener } from "@betopiaerp/owl";
 
 export const scrollSymbol = Symbol("scroll");
 

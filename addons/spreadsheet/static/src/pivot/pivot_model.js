@@ -4,7 +4,7 @@ import { _t } from "@web/core/l10n/translation";
 import { Domain } from "@web/core/domain";
 import { PivotModel } from "@web/views/pivot/pivot_model";
 
-import { helpers, constants, EvaluationError, SpreadsheetPivotTable } from "@BetopiaERP/o-spreadsheet";
+import { helpers, constants, EvaluationError, SpreadsheetPivotTable } from "@betopiaerp/o-spreadsheet";
 import { parseGroupField } from "./pivot_helpers";
 
 const { toNormalizedPivotValue, toNumber, isDateOrDatetimeField, pivotTimeAdapter, deepEquals } =
@@ -12,10 +12,10 @@ const { toNormalizedPivotValue, toNumber, isDateOrDatetimeField, pivotTimeAdapte
 const { DEFAULT_LOCALE } = constants;
 
 /**
- * @typedef {import("@BetopiaERP/o-spreadsheet").PivotTableColumn} PivotTableColumn
- * @typedef {import("@BetopiaERP/o-spreadsheet").PivotTableRow} PivotTableRow
- * @typedef {import("@BetopiaERP/o-spreadsheet").PivotDomain} PivotDomain
- * @typedef {import("@BetopiaERP/o-spreadsheet").PivotMeasure} PivotMeasure
+ * @typedef {import("@betopiaerp/o-spreadsheet").PivotTableColumn} PivotTableColumn
+ * @typedef {import("@betopiaerp/o-spreadsheet").PivotTableRow} PivotTableRow
+ * @typedef {import("@betopiaerp/o-spreadsheet").PivotDomain} PivotDomain
+ * @typedef {import("@betopiaerp/o-spreadsheet").PivotMeasure} PivotMeasure
  */
 
 export const NO_RECORD_AT_THIS_POSITION = "__NO_RECORD_AT_THIS_POSITION__";
@@ -359,7 +359,7 @@ export class BetopiaERPPivotModel extends PivotModel {
     }
 
     /**
-     * @param {import("@BetopiaERP/o-spreadsheet").PivotDimension} dimension
+     * @param {import("@betopiaerp/o-spreadsheet").PivotDimension} dimension
      * @returns {{ value: string | number | boolean, label: string }[]}
      */
     getPossibleFieldValues(dimension) {

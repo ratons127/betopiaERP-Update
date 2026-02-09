@@ -8,7 +8,7 @@
     'summary': 'Basic models and helpers to support In-App purchases.',
     'description': """
 This module provides standard tools (account model, context manager and helpers)
-to support In-App purchases inside betopiaerp. """,
+to support In-App purchases inside BetopiaERP. """,
     'depends': [
         'web',
         'base_setup'
@@ -27,6 +27,6 @@ to support In-App purchases inside betopiaerp. """,
             'iap/static/src/**/*.xml',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

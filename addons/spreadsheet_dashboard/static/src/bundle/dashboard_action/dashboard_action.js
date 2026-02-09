@@ -10,11 +10,11 @@ import { useService } from "@web/core/utils/hooks";
 import { standardActionServiceProps } from "@web/webclient/actions/action_service";
 import { SpreadsheetShareButton } from "@spreadsheet/components/share_button/share_button";
 import { useSpreadsheetPrint } from "@spreadsheet/hooks";
-import { Registry } from "@BetopiaERP/o-spreadsheet";
+import { Registry } from "@betopiaerp/o-spreadsheet";
 import { router } from "@web/core/browser/router";
 import { useSearchBarToggler } from "@web/search/search_bar/search_bar_toggler";
 
-import { Component, onWillStart, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState, useEffect } from "@betopiaerp/owl";
 import { DashboardSearchBar } from "./dashboard_search_bar/dashboard_search_bar";
 
 export const dashboardActionRegistry = new Registry();

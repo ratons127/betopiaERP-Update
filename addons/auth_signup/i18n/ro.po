@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-02 14:36+0000\n"
 "Last-Translator: Comaniciu Ioana <ioana@dakai.ro>\n"
-"Language-Team: Romanian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Romanian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_signup/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -494,7 +494,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -630,7 +630,7 @@ msgstr ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Domeniul dvs. BetopiaERP este: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Emailul dvs. de conectare este: <b><a t-attf-href=\"/"
 "web/login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email "
 "or ''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -948,13 +948,13 @@ msgstr ""
 "</table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
 msgstr "Un link pentru resetarea parolei a fost trimis prin e-mail"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A signup link was sent by email"
 msgstr "Un link de înregistrare a fost trimis prin e-mail"
@@ -965,7 +965,7 @@ msgid "Already have an account?"
 msgstr "Ai deja un cont?"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Another user is already registered using this email address."
 msgstr "Un alt utilizator este deja înregistrat cu acest email."
@@ -976,7 +976,7 @@ msgid "Back to Login"
 msgstr "Înapoi la autentificare"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr "Email-ul nu poate fi trimis: utilizatorul %s nu are adresă de email."
@@ -1007,7 +1007,7 @@ msgid "Contact"
 msgstr "Contact"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "Could not contact the mail server, please check your outgoing email server "
@@ -1017,13 +1017,13 @@ msgstr ""
 "serverului de e-mail de ieșire"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not create a new account."
 msgstr "Nu s-a putut crea un cont nou."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not reset your password"
 msgstr "Nu s-a putut reseta parola"
@@ -1102,7 +1102,7 @@ msgstr ""
 "                                Mulțumim,"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Invalid signup token"
 msgstr "Simbol de inregistrare nevalid"
@@ -1128,7 +1128,7 @@ msgid "Marc Demo"
 msgstr "Marc Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Multiple accounts found for this login"
 msgstr "S-au găsit mai multe conturi pentru această autentificare"
@@ -1139,13 +1139,13 @@ msgid "Name"
 msgstr "Nume"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "No account found for this login"
 msgstr "Nu s-a găsit niciun cont pentru acest login"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "No login provided."
 msgstr "Nu s-a furnizat niciun Login"
@@ -1171,13 +1171,13 @@ msgid "Password Reset"
 msgstr "Resetare parolă"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Password reset"
 msgstr "Resetare parolă"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Password reset instructions sent to your email address."
 msgstr ""
@@ -1185,7 +1185,7 @@ msgstr ""
 "mail."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Passwords do not match; please retype them."
 msgstr "Parolele nu coincid; încercați să le rescrieți."
@@ -1206,7 +1206,7 @@ msgid "Reminder for unregistered users"
 msgstr "Memento pentru utilizatorii neînregistrați"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1272,7 +1272,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "Setări: Memento pentru utilizatorii neînregistrați"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Sign Up"
 msgstr "Înregistrare"
@@ -1289,31 +1289,31 @@ msgid "Signup Token Type"
 msgstr "Înregistrare Tip Simbol"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup is not allowed for uninvited users"
 msgstr "Înregistrarea nu este permisă pentru utilizatori neinvitați."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 msgid "Signup token '%s' is not valid or expired"
 msgstr "Tokenul de înregistrare '%s' nu este valid sau a expirat"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: invalid template user"
 msgstr "Înscriere: utilizator șablon nevalid"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no login given for new user"
 msgstr "Înscriere: nu există date de conectare pentru un utilizator nou"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no name or partner given for new user"
 msgstr "Înscriere: nu se dă nume sau partener pentru un utilizator nou"
@@ -1329,13 +1329,13 @@ msgid "Template user for new users created through signup"
 msgstr "Sablon de utilizator pentru utilizatorii noi creati prin inregistrare"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "The form was not properly filled in."
 msgstr "Formularul nu a fost corect completat."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "There was an error when trying to deliver your Email, please check your "
@@ -1371,7 +1371,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "Bine ați venit la {{ object.company_id.name }}!"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "You cannot perform this action on an archived user."
 msgstr "Nu puteți efectua această acțiune unui utilizator arhivat."
@@ -1382,7 +1382,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "Contul dvs. la {{ object.company_id.name }}"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Your password has been reset successfully."
 msgstr "Parola dvs. a fost resetată cu succes."

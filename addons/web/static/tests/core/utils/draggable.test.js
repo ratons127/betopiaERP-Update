@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryRect } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockTouch } from "@BetopiaERP/hoot-mock";
-import { Component, reactive, useRef, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryRect } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockTouch } from "@betopiaerp/hoot-mock";
+import { Component, reactive, useRef, useState, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { useDraggable } from "@web/core/utils/draggable";

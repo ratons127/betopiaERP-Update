@@ -1,6 +1,6 @@
 import { KanbanController } from "@web/views/kanban/kanban_controller";
 import { useBus, useService } from "@web/core/utils/hooks";
-import { useRef } from "@BetopiaERP/owl";
+import { useRef } from "@betopiaerp/owl";
 
 export class HrFleetKanbanController extends KanbanController {
     setup() {

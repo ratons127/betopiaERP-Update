@@ -3,7 +3,7 @@ import { Thread } from "@mail/core/common/thread";
 import { ActionPanel } from "@mail/discuss/core/common/action_panel";
 import { Typing } from "@mail/discuss/typing/common/typing";
 
-import { Component, useState, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useState, useSubEnv } from "@betopiaerp/owl";
 
 import { isMobileOS } from "@web/core/browser/feature_detection";
 import { useChildRef, useService } from "@web/core/utils/hooks";

@@ -3,7 +3,7 @@ import { ChatWindow } from "@mail/core/common/chat_window";
 import { ActionList } from "@mail/core/common/action_list";
 import { useHover, useMovable } from "@mail/utils/common/hooks";
 
-import { Component, useEffect, useExternalListener, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useExternalListener, useRef, useState } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { Dropdown } from "@web/core/dropdown/dropdown";

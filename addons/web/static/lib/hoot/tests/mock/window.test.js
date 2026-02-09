@@ -1,8 +1,8 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { after, describe, expect, test, watchListeners } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
-import { EventBus } from "@BetopiaERP/owl";
+import { after, describe, expect, test, watchListeners } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
+import { EventBus } from "@betopiaerp/owl";
 import { mountForTest, parseUrl } from "../local_helpers";
 
 describe(parseUrl(import.meta.url), () => {

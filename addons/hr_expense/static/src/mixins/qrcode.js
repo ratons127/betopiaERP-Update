@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
-import { onMounted, onPatched, useRef } from "@BetopiaERP/owl";
+import { onMounted, onPatched, useRef } from "@betopiaerp/owl";
 
 export const ExpenseMobileQRCode = (T) => class ExpenseMobileQRCode extends T {
     setup() {

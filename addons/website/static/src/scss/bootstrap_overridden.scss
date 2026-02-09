@@ -69,7 +69,7 @@ $spacers: (
 // Note: lots of variables are using $body-bg directly, they should ideally use
 // var(--body-bg) instead, as the new bootstrap version intended, but it's not
 // really possible as we use those for computing other colors a lot.
-// grep: BOXED_BODY_BG_BetopiaERP
+// grep: BOXED_BODY_BG_BETOPIAERP
 $body-bg: o-color('o-cc1-bg') !default;
 $body-color: o-color('o-cc1-text') or color-contrast($body-bg) !default;
 

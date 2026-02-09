@@ -2,9 +2,9 @@
 # This file contains the translation of the following modules:
 # * sale_gelato
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Patricia Gutiérrez (pagc)" <pagc@BetopiaERP.com>, 2025.
-# "Fernanda Alvarez (mfar)" <mfar@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Patricia Gutiérrez (pagc)" <pagc@betopiaerp.com>, 2025.
+# "Fernanda Alvarez (mfar)" <mfar@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -13,8 +13,8 @@ msgstr ""
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-08 19:17+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Spanish (Latin America) <https://translate.BetopiaERP.com/projects/"
-"BetopiaERP-19/sale_gelato/es_419/>\n"
+"Language-Team: Spanish (Latin America) <https://translate.betopiaerp.com/projects/"
+"betopiaerp-19/sale_gelato/es_419/>\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,13 +149,13 @@ msgid "Contact"
 msgstr "Contacto"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/utils.py:0
 msgid "Could not establish the connection to the Gelato API."
 msgstr "No fue posible establecer la conexión con la API de Gelato."
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Could not synchronize with Gelato"
 msgstr "No fue posible sincronizar con Gelato"
@@ -237,7 +237,7 @@ msgid "Gelato Webhook Secret"
 msgstr "Secreto del webhook de Gelato"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid ""
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
@@ -245,13 +245,13 @@ msgid ""
 msgstr "Gelato no pudo enviar la orden %(order_reference)s: %(gelato_message)s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has canceled order %(reference)s."
 msgstr "Gelato canceló la orden %(reference)s."
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has returned order %(reference)s."
 msgstr "Gelato devolvió la orden %(reference)s."
@@ -275,7 +275,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "Invalid source document type"
 msgstr "El tipo de documento de origen no es válido"
@@ -297,7 +297,7 @@ msgid "Missing Print Images"
 msgstr "Imágenes para impresión faltantes"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Missing product variants and images have been successfully created."
 msgstr ""
@@ -309,7 +309,7 @@ msgid "Print Images"
 msgstr "Imágenes para impresión"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_document.py:0
 msgid "Print images must be set on products before they can be ordered."
 msgstr ""
@@ -375,7 +375,7 @@ msgid "Standard Delivery (Gelato)"
 msgstr "Envío estándar (Gelato)"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Successfully synchronized with Gelato"
 msgstr "La sincronización con Gelato fue exitosa"
@@ -397,25 +397,25 @@ msgid "Template Reference"
 msgstr "Referencia de la plantilla"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The delivery method is not available for this order."
 msgstr "El método de entrega no está disponible para esta orden."
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The following required address fields are missing: %s"
 msgstr "Faltan los siguientes campos de dirección: %s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The order has been successfully passed on Gelato."
 msgstr "Esta orden se transfirió con éxito a Gelato."
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid ""
 "The order with reference %(order_reference)s was not sent to Gelato.\n"
@@ -425,13 +425,13 @@ msgstr ""
 "Motivo: %(error_message)s"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to confirm the order %s on Gelato."
 msgstr "No pudimos confirmar la orden %s en Gelato."
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "Unable to delete the order %s on Gelato."
 msgstr "No pudimos eliminar la orden %s en Gelato."
@@ -442,7 +442,7 @@ msgid "Webhook Secret"
 msgstr "Secreto del webhook"
 
 #. module: sale_gelato
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."

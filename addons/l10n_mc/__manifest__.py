@@ -4,7 +4,7 @@
     'name': 'Monaco - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['mc'],
-    'author': 'BetopiaERP SA',
+    'author': 'BetopiaERP',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Monaco.

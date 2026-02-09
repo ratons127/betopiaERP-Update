@@ -2030,7 +2030,7 @@ class AccountMoveLine(models.Model):
         def is_payment(aml):
             return aml.move_id.origin_payment_id or aml.move_id.statement_line_id
 
-        def get_BetopiaERP_rate(aml, other_aml, currency):
+        def get_betopiaerp_rate(aml, other_aml, currency):
             if forced_rate := self.env.context.get('forced_rate_from_register_payment'):
                 return forced_rate
             if other_aml and not is_payment(aml) and is_payment(other_aml):
@@ -2075,7 +2075,7 @@ class AccountMoveLine(models.Model):
             and is_rec_pay_account \
             and not has_zero_residual \
             and counterpart_currency != company_currency:
-            rate = get_BetopiaERP_rate(aml, other_aml, counterpart_currency)
+            rate = get_betopiaerp_rate(aml, other_aml, counterpart_currency)
             residual_in_foreign_curr = counterpart_currency.round(remaining_amount * rate)
             if not counterpart_currency.is_zero(residual_in_foreign_curr):
                 available_residual_per_currency[counterpart_currency] = {

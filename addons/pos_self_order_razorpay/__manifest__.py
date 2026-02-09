@@ -10,6 +10,6 @@
             'pos_self_order_razorpay/static/**/*',
         ],
     },
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

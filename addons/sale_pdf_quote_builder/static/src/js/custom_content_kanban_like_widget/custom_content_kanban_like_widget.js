@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useState } from "@betopiaerp/owl";
 import {
     CustomFieldCard
 } from "@sale_pdf_quote_builder/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card";

@@ -7,7 +7,7 @@
     'category': 'Accounting/Localizations/Account Charts',
     'version': '1.1',
     'author': 'BetopiaERP PS',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/philippines.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/philippines.html',
     'depends': [
         'account',
         'base_vat',

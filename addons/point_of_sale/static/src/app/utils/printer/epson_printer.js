@@ -27,7 +27,7 @@ export class EpsonPrinter extends BasePrinter {
     setup({ ip }) {
         super.setup(...arguments);
 
-        const protocol = BetopiaERP.use_lna ? "http:" : window.location.protocol;
+        const protocol = betopiaerp.use_lna ? "http:" : window.location.protocol;
         this.url = protocol + "//" + ip;
         this.address = this.url + "/cgi-bin/epos/service.cgi?devid=local_printer";
     }
@@ -71,7 +71,7 @@ export class EpsonPrinter extends BasePrinter {
             signal: AbortSignal.timeout(15000),
         };
 
-        if (BetopiaERP.use_lna) {
+        if (betopiaerp.use_lna) {
             params.targetAddressSpace = "local";
         }
 

@@ -363,7 +363,7 @@ class TestPDFQuoteBuilder(SaleManagementCommon):
     def _test_custom_content_kanban_like(self):
         # TODO VCR finish tour and uncomment
         self.start_tour(
-            f'/BetopiaERP/sales/{self.sale_order.id}',
+            f'/betopiaerp/sales/{self.sale_order.id}',
             'custom_content_kanban_like_tour',
             login='admin',
         )

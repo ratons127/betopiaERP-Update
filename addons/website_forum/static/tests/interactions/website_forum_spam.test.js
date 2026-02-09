@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, click, edit, fill, queryAll, tick } from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, click, edit, fill, queryAll, tick } from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 import { onRpc } from "@web/../tests/web_test_helpers";
 

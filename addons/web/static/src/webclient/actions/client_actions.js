@@ -4,7 +4,7 @@ import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { htmlSprintf } from "@web/core/utils/html";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { makeErrorFromResponse } from "../../core/network/rpc";
 
 export function displayNotificationAction(env, action) {

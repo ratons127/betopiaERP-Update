@@ -1,5 +1,5 @@
 import { useDomState, BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart, useRef, useState } from "@BetopiaERP/owl";
+import { onWillStart, useRef, useState } from "@betopiaerp/owl";
 import { useSortable } from "@web/core/utils/sortable_owl";
 
 export class SocialMediaLinks extends BaseOptionComponent {

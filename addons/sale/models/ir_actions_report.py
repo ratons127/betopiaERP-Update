@@ -1,7 +1,7 @@
 import io
 
 from betopiaerp import models
-from betopiaerp.tools.pdf import betopiaerpPdfFileReader, BetopiaERPPdfFileWriter
+from betopiaerp.tools.pdf import BetopiaERPPdfFileReader, BetopiaERPPdfFileWriter
 
 
 class IrActionsReport(models.Model):

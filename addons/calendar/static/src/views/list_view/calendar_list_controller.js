@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { useService } from "@web/core/utils/hooks";
 import { ListController } from "@web/views/list/list_controller";

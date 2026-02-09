@@ -28,6 +28,6 @@ Allows users to create custom dashboard.
             'board/static/tests/**/*.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

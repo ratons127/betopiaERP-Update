@@ -8,8 +8,8 @@ import {
     onRpc,
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
-import { test, expect } from "@BetopiaERP/hoot";
-import { click, setInputFiles, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { test, expect } from "@betopiaerp/hoot";
+import { click, setInputFiles, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { browser } from "@web/core/browser/browser";
 
 const getIframeSrc = () => queryOne(".o_field_widget iframe.o_pdfview_iframe").dataset.src;

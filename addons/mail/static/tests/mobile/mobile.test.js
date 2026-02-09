@@ -20,9 +20,9 @@ import {
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
 import { LONG_PRESS_DELAY } from "@mail/utils/common/hooks";
-import { describe, test } from "@BetopiaERP/hoot";
-import { advanceTime, pointerDown, press } from "@BetopiaERP/hoot-dom";
-import { Deferred, mockTouch, mockUserAgent } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { advanceTime, pointerDown, press } from "@betopiaerp/hoot-dom";
+import { Deferred, mockTouch, mockUserAgent } from "@betopiaerp/hoot-mock";
 
 import { browser } from "@web/core/browser/browser";
 import { asyncStep, serverState, waitForSteps } from "@web/../tests/web_test_helpers";
@@ -137,16 +137,16 @@ test("Don't show chat hub in discuss app on mobile", async () => {
     await contains(".o-mail-ChatBubble", { count: 0 });
 });
 
-test("click on an BetopiaERP link should fold the chat window (mobile)", async () => {
+test("click on an betopiaerp link should fold the chat window (mobile)", async () => {
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({});
     patchUiSize({ size: SIZES.SM });
     await start();
     await openDiscuss(channelId);
-    await insertText(".o-mail-Composer-input", `http://${browser.location.host}/BetopiaERP.com`);
+    await insertText(".o-mail-Composer-input", `http://${browser.location.host}/betopiaerp.com`);
     await click(".o-mail-Composer button[title='Send']");
     await contains(".o-mail-ChatWindow");
-    await click(`a[href="http://${browser.location.host}/BetopiaERP.com"]`);
+    await click(`a[href="http://${browser.location.host}/betopiaerp.com"]`);
     await contains(".o-mail-ChatWindow", { count: 0 });
     await contains(".o-mail-ChatBubble", { count: 0 });
     await openListView("discuss.channel", { res_id: channelId });

@@ -1,7 +1,7 @@
 /* global waitForWebfonts */
 
 import { Mutex } from "@web/core/utils/concurrency";
-import { markRaw, reactive } from "@BetopiaERP/owl";
+import { markRaw, reactive } from "@betopiaerp/owl";
 import { renderToElement } from "@web/core/utils/render";
 import { registry } from "@web/core/registry";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
@@ -224,7 +224,7 @@ export class PosStore extends WithLazyGetterTrap {
     }
 
     get firstPage() {
-        if (BetopiaERP.from_backend) {
+        if (betopiaerp.from_backend) {
             // Remove from_backend params in the URL but keep the rest
             const url = new URL(window.location.href);
             url.searchParams.delete("from_backend");
@@ -376,7 +376,7 @@ export class PosStore extends WithLazyGetterTrap {
     }
 
     get session() {
-        return this.data.models["pos.session"].get(BetopiaERP.pos_session_id);
+        return this.data.models["pos.session"].get(betopiaerp.pos_session_id);
     }
 
     get company() {
@@ -655,7 +655,7 @@ export class PosStore extends WithLazyGetterTrap {
         const result = await this.data.callRelated(
             "product.template",
             "load_product_from_pos",
-            [BetopiaERP.pos_config_id, domain, offset, limit],
+            [betopiaerp.pos_config_id, domain, offset, limit],
             {},
             false
         );
@@ -2658,7 +2658,7 @@ export class PosStore extends WithLazyGetterTrap {
     }
 
     redirectToBackend() {
-        window.location = "/BetopiaERP/action-point_of_sale.action_client_pos_menu";
+        window.location = "/betopiaerp/action-point_of_sale.action_client_pos_menu";
     }
 
     getExcludedProductIds() {

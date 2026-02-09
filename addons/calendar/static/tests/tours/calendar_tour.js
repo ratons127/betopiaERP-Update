@@ -11,7 +11,7 @@ const todayDate = function () {
 };
 
 registry.category("web_tour.tours").add("calendar_appointments_hour_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {

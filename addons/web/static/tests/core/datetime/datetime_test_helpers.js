@@ -1,6 +1,6 @@
-import { expect } from "@BetopiaERP/hoot";
-import { click, edit, queryAll, queryAllTexts, queryText } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect } from "@betopiaerp/hoot";
+import { click, edit, queryAll, queryAllTexts, queryText } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 const PICKER_COLS = 7;
 

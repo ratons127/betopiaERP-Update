@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { useService, useOwnedDialogs } from "@web/core/utils/hooks";
 import { AllocationFormViewDialog } from "./view_dialog/allocation_form_view_dialog";
-import { useComponent } from "@BetopiaERP/owl";
+import { useComponent } from "@betopiaerp/owl";
 
 export function formatNumber(lang, number, maxDecimals = 2) {
     const numberFormat = new Intl.NumberFormat(lang, { maximumFractionDigits: maxDecimals });

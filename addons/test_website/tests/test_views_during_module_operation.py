@@ -97,7 +97,7 @@ def test_02_copy_ids_views_unlink_on_module_update(env):
       2. Remove the theme.ir.ui.view's copy_ids (sort of the COW views)
          -> Not working for now
       3. (not impact other website using this theme, see below)
-         -> This is done through BetopiaERP/BetopiaERP@96ef4885a79 but did not come with
+         -> This is done through betopiaerp/betopiaerp@96ef4885a79 but did not come with
             tests
 
       Point 2. was not working, this test aims to ensure it will now.

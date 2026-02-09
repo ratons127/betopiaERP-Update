@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     click,
     edit,
@@ -8,8 +8,8 @@ import {
     queryFirst,
     setInputFiles,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, runAllTimers, mockDate } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, runAllTimers, mockDate } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     defineModels,

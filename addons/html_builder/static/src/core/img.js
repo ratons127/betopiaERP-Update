@@ -6,7 +6,7 @@ import {
     useRef,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { Cache } from "@web/core/utils/cache";
 
 const svgCache = new Cache(async (src) => {

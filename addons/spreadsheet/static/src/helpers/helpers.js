@@ -14,7 +14,7 @@ export function intersect(a, b) {
 }
 
 /**
- * Convert a spreadsheet date representation to an BetopiaERP
+ * Convert a spreadsheet date representation to an betopiaerp
  * server formatted date
  *
  * @param {Date} value
@@ -75,7 +75,7 @@ export function isEmpty(item) {
 }
 
 /**
- * @param {import("@BetopiaERP/o-spreadsheet").Cell} cell
+ * @param {import("@betopiaerp/o-spreadsheet").Cell} cell
  */
 export function containsReferences(cell) {
     if (!cell.isFormula) {

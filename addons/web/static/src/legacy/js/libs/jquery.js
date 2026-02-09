@@ -17,7 +17,7 @@ $.fn.extend({
      *
      * @param {string} [extraClass]
      */
-    BetopiaERPBounce: function (extraClass) {
+    betopiaerpBounce: function (extraClass) {
         for (const el of this) {
             el.classList.add('o_catch_attention', extraClass);
             setTimeout(() => el.classList.remove('o_catch_attention', extraClass), 400);

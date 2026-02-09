@@ -1,4 +1,4 @@
-import { onWillStart, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { onWillStart, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 
 export class FormActionFieldsOption extends BaseOptionComponent {

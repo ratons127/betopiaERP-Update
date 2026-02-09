@@ -16,7 +16,7 @@ This is the latest Ethiopian BetopiaERP localization and consists of:
     - Regional State listings
     """,
     'author': 'Michael Telahun Makonnen <mmakonnen@gmail.com>',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

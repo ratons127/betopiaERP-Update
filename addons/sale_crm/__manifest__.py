@@ -27,6 +27,6 @@ modules.
     ],
     'auto_install': True,
     'uninstall_hook': 'uninstall_hook',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

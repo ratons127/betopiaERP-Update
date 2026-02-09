@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import {
     animationFrame,
@@ -26,7 +26,7 @@ import {
     test,
     waitFor,
     waitForNone,
-} from "@BetopiaERP/hoot";
+} from "@betopiaerp/hoot";
 import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 import { mountForTest, parseUrl } from "../local_helpers";
 

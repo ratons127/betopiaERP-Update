@@ -1,7 +1,7 @@
 import { defineHrModels } from "@hr/../tests/hr_test_helpers";
 import { start } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { waitFor } from "@betopiaerp/hoot-dom";
 import { contains, makeMockServer, mountView, onRpc } from "@web/../tests/web_test_helpers";
 import { getOrigin } from "@web/core/utils/urls";
 

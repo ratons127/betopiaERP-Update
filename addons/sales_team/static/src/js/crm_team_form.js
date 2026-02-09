@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { _t } from "@web/core/l10n/translation";
 import { formView } from "@web/views/form/form_view";

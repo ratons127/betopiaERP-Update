@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { Component, onMounted, reactive, useRef, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, reactive, useRef, xml } from "@betopiaerp/owl";
 import { toCanvas } from "@point_of_sale/app/utils/html-to-image";
 import { waitImages } from "@point_of_sale/utils";
 

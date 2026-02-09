@@ -1,7 +1,7 @@
 import { intersection } from "@web/core/utils/arrays";
 import { _t, appTranslateFn } from "@web/core/l10n/translation";
 import { renderToElement } from "@web/core/utils/render";
-import { App, Component } from "@BetopiaERP/owl";
+import { App, Component } from "@betopiaerp/owl";
 import { getTemplate } from "@web/core/templates";
 import { UrlAutoComplete } from "@website/components/autocomplete_with_pages/url_autocomplete";
 import * as urlUtils from "@html_editor/utils/url";
@@ -261,8 +261,8 @@ export function sendRequest(route, params) {
         form.setAttribute("target", "_top");
     }
 
-    if (BetopiaERP.csrf_token) {
-        _addInput(form, "csrf_token", BetopiaERP.csrf_token);
+    if (betopiaerp.csrf_token) {
+        _addInput(form, "csrf_token", betopiaerp.csrf_token);
     }
 
     for (const key in params) {
@@ -551,10 +551,10 @@ patch(urlUtils, {
             return false;
         }
 
-        // Make sure that while being on abc.BetopiaERP.com, if you edit a link and
+        // Make sure that while being on abc.betopiaerp.com, if you edit a link and
         // enter an absolute URL using your real domain, it is still considered
         // to be added as relative, preferably.
-        // In the past, you could not edit your website from abc.BetopiaERP.com if you
+        // In the past, you could not edit your website from abc.betopiaerp.com if you
         // properly configured your real domain already.
         let origin;
         try {

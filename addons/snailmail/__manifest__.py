@@ -34,6 +34,6 @@ Allows users to send documents by post
             'snailmail/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

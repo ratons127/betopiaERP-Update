@@ -1,4 +1,4 @@
-import { test, describe, expect } from "@BetopiaERP/hoot";
+import { test, describe, expect } from "@betopiaerp/hoot";
 import { scrollItemIntoViewX } from "@pos_self_order/app/utils/scroll";
 
 const setupDomElement = ({ parentWidth, childWidth, leftMargin }) => {

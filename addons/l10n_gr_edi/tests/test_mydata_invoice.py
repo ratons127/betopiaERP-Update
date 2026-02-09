@@ -18,7 +18,7 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
             'name': 'My Greece Company',
             'vat': '047747270',
             'l10n_gr_edi_test_env': True,
-            'l10n_gr_edi_aade_id': 'BetopiaERPdev',
+            'l10n_gr_edi_aade_id': 'betopiaerpdev',
             'l10n_gr_edi_aade_key': '20ea658627fd8c7d90594fe4601d3327',
         })
         cls.partner_a.write({
@@ -180,16 +180,16 @@ class TestMyDATAInvoice(AccountTestInvoicingCommon):
                 'l10n_gr_edi_cls_type': 'E3_561_002',
             }),
         ])
-        self.assert_mydata_xml_tree(invoice, expected_file_path='from_BetopiaERP/mydata_invoice.xml')
+        self.assert_mydata_xml_tree(invoice, expected_file_path='from_betopiaerp/mydata_invoice.xml')
 
     def test_mydata_send_multi_invoices(self):
         invoice_1 = self._create_mydata_invoice(inv_type='2.1', cls_category='category1_3', cls_type='E3_561_002')
         invoice_2 = self._create_mydata_invoice(inv_type='11.1', cls_category='category1_95', cls_type='')
-        self.assert_mydata_xml_tree(invoice_1 + invoice_2, expected_file_path='from_BetopiaERP/mydata_multi_invoices.xml')
+        self.assert_mydata_xml_tree(invoice_1 + invoice_2, expected_file_path='from_betopiaerp/mydata_multi_invoices.xml')
 
     def test_mydata_send_bill_cls_expense(self):
         bill = self._create_mydata_bill()
-        self.assert_mydata_xml_tree(bill, expected_file_path='from_BetopiaERP/mydata_cls_expense.xml', send_classification=True)
+        self.assert_mydata_xml_tree(bill, expected_file_path='from_betopiaerp/mydata_cls_expense.xml', send_classification=True)
 
     ####################################################################################################
     # Test: assert built-in constraints

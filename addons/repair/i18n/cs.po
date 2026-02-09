@@ -6,7 +6,7 @@
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2022
 # Tomas Bosek, 2022
 # Jakub Lohnisky <jakub@lepremier.cz>, 2022
-# Pauline Thiry <pth@BetopiaERP.com>, 2022
+# Pauline Thiry <pth@betopiaerp.com>, 2022
 # Ladislav Tomm <tomm@helemik.cz>, 2022
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2022
 # milda dvorak <milda.dvorak@optimal4.cz>, 2022
@@ -17,17 +17,17 @@
 # Aleš Fiala <f.ales1@seznam.cz>, 2023
 # Petr Hemza, 2023
 # SlavekB <slavek.banko@axis.cz>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# "Marta (wacm)" <wacm@BetopiaERP.com>, 2026.
+# "Marta (wacm)" <wacm@betopiaerp.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-09 15:56+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@BetopiaERP.com>\n"
-"Language-Team: Czech <https://translate.BetopiaERP.com/projects/BetopiaERP-19/repair/cs/"
+"Last-Translator: \"Marta (wacm)\" <wacm@betopiaerp.com>\n"
+"Language-Team: Czech <https://translate.betopiaerp.com/projects/betopiaerp-19/repair/cs/"
 ">\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -38,13 +38,13 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
 msgstr ""
@@ -254,7 +254,7 @@ msgid "Any Part is late"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -271,14 +271,14 @@ msgid "Attachment Count"
 msgstr "Počet příloh"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__available
 msgid "Available"
 msgstr "Dostupný"
 
 #. module: repair
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
 msgstr ""
@@ -295,7 +295,7 @@ msgid "BoM Components"
 msgstr "Komponenty kusovníku"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Can't find any production location."
 msgstr "Nelze najít žádné produkční místo."
@@ -369,7 +369,7 @@ msgid "Confirm Repair"
 msgstr "Potvrdit opravu"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__confirmed
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -382,7 +382,7 @@ msgid "Create Quotation"
 msgstr "Vytvořit nabídku"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.server,name:repair.action_create_repair_order
 msgid "Create Repair"
@@ -475,7 +475,7 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr "Zajistěte sledovatelnost skladovatelného produktu ve vašem skladu."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
 msgstr "Exp %s"
@@ -732,13 +732,13 @@ msgid "Normal"
 msgstr "Normální"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Not Available"
 msgstr "Není k dispozici"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
@@ -847,7 +847,7 @@ msgid "Picking Type Visible"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Please set the first Serial Number or a default sequence"
 msgstr ""
@@ -1047,7 +1047,7 @@ msgid "Repair Order(s)"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 #: code:addons/repair/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:repair.action_picking_repair
@@ -1098,13 +1098,13 @@ msgid "Repair Tags"
 msgstr "Štítky opravy"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
 msgstr "Oprava musí být vpořádku, aby mohlo být opravování ukončeno."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid "Repair orders of %s"
 msgstr "Příkazy oprav z %s"
@@ -1126,7 +1126,7 @@ msgid "Repaired count"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 #: model:ir.ui.menu,name:repair.menu_repair_order
 #: model:ir.ui.menu,name:repair.repair_menu
@@ -1142,7 +1142,7 @@ msgid "Repairs order"
 msgstr "Příkazy opravy"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
 msgstr "Doplnění na objednávku (MTO)"
@@ -1220,7 +1220,7 @@ msgid "Search Repair Orders"
 msgstr "Vyhledávání objednávek opravy"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 msgstr ""
@@ -1459,7 +1459,7 @@ msgid "Warn Insufficient Repair Quantity"
 msgstr "Varování na nedostatečné opravené množství"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "Warning"
 msgstr "Varování"
@@ -1481,7 +1481,7 @@ msgid "Yesterday"
 msgstr "Včera"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
@@ -1493,19 +1493,19 @@ msgstr ""
 "nové produktové  / sériové číslo“."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You can not enter negative quantities."
 msgstr "Nemůžete zadat záporná množství."
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You cannot create a quotation for a repair order that is already linked to "
@@ -1515,7 +1515,7 @@ msgid ""
 msgstr ""
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
 "You need to define a customer for a repair order in order to create an "
@@ -1530,13 +1530,13 @@ msgid "from location"
 msgstr "z místa"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/stock_picking.py:0
 msgid "id"
 msgstr "id"
 
 #. module: repair
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/repair/models/sale_order.py:0
 msgid "sale_order_id"
 msgstr "sale_order_id"

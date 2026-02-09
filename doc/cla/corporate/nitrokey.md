@@ -6,11 +6,11 @@ I declare that I am authorized and able to make this agreement and sign this dec
 
 Signed,
 
-Nitrokey info@nitrokey.com https://github.com/Nitrokey/BetopiaERP
+Nitrokey info@nitrokey.com https://github.com/Nitrokey/betopiaerp
 
 List of contributors:
 
-Nitrokey info@nitrokey.com https://github.com/Nitrokey/BetopiaERP
+Nitrokey info@nitrokey.com https://github.com/Nitrokey/betopiaerp
 Isufi Kapasi isufi.kapasi@initos.com https://github.com/ikapasi-initos
 Dhara Solanki dhara.solanki@initos.com https://github.com/dsolanki-initos
 Jan Suhr jan@nitrokey.com https://github.com/jans23

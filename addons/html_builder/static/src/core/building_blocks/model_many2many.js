@@ -1,4 +1,4 @@
-import { Component, useState, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, useState, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { uniqueId } from "@web/core/utils/functions";
 import { useService } from "@web/core/utils/hooks";
 import { useDomState } from "@html_builder/core/utils";

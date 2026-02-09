@@ -3,7 +3,7 @@
     "name": "Peruvian - Point of Sale with Pe Doc",
     "version": "1.0",
     "category": "Accounting/Localizations/Point of Sale",
-    "author": "Vauxoo, BetopiaERP S.A.",
+    "author": "Vauxoo, BetopiaERP",
     "description": """
 This module brings the technical requirement for the Peruvian regulation.
 Install this if you are using the Point of Sale app in Peru.

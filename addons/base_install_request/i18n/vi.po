@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * base_install_request
 #
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-25 03:07+0000\n"
-"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@BetopiaERP.com>\n"
-"Language-Team: Vietnamese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@betopiaerp.com>\n"
+"Language-Team: Vietnamese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "base_install_request/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgid ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Review Request</a>\n"
 "        <br/><br/>\n"
@@ -74,7 +74,7 @@ msgstr ""
 "{{object.user_id.company_id.email_secondary_color or '#875A7B'}}; "
 "padding:8px 16px 8px 16px; text-decoration:none; color: "
 "{{object.user_id.company_id.email_primary_color or '#FFFFFF'}}; border-"
-"radius:5px\" t-attf-href=\"/BetopiaERP/{{ object.module_id.id }}/action-"
+"radius:5px\" t-attf-href=\"/betopiaerp/{{ object.module_id.id }}/action-"
 "base_install_request.action_base_module_install_review?"
 "menu_id={{ ctx['menu_id'] }}\">Xem lại yêu cầu</a>\n"
 "        <br/><br/>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "            "
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
 msgstr "Yêu cầu kích hoạt của \"%s\""
@@ -189,7 +189,7 @@ msgid "Modules Description"
 msgstr "Mô tả phân hệ"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "No module selected."
 msgstr "Không có phân hệ nào được chọn."
@@ -216,7 +216,7 @@ msgid "The following apps will be installed:"
 msgstr "Các ứng dụng sau sẽ được cài đặt:"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "The module is already installed."
 msgstr "Phân hệ này đã được cài đặt."
@@ -237,7 +237,7 @@ msgid "You are about to install an extra application"
 msgstr "Bạn chuẩn bị cài đặt một ứng dụng bổ sung"
 
 #. module: base_install_request
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "Your request has been successfully sent"
 msgstr "Yêu cầu của bạn đã được gửi đi thành công"

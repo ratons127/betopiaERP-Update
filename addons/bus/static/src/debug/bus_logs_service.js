@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 import { registry } from "@web/core/registry";
 
@@ -27,14 +27,14 @@ export const busLogsService = {
         worker_service.connectionInitializedDeferred.then(() => {
             bus_service.setLoggingEnabled(state.enabled);
         });
-        BetopiaERP.busLogging = {
+        betopiaerp.busLogging = {
             stop: () => state.enabled && state.toggleLogging(),
             start: () => !state.enabled && state.toggleLogging(),
             download: () => bus_service.downloadLogs(),
         };
         if (state.enabled) {
             console.log(
-                "Bus logging is enabled. To disable it, use `BetopiaERP.busLogging.stop()`. To download the logs, use `BetopiaERP.busLogging.download()`."
+                "Bus logging is enabled. To disable it, use `betopiaerp.busLogging.stop()`. To download the logs, use `betopiaerp.busLogging.download()`."
             );
         }
         return state;

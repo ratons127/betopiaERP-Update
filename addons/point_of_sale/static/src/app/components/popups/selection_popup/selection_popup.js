@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 
 export class SelectionPopup extends Component {

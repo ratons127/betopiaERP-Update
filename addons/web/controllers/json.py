@@ -41,7 +41,7 @@ class WebJsonController(http.Controller):
         """Simple JSON representation of the views.
 
         Get the JSON representation of the action/view as it would be shown
-        in the web client for the same /BetopiaERP `subpath`.
+        in the web client for the same /betopiaerp `subpath`.
 
         Behaviour:
         - When, the action resolves to a pair (Action, id), `form` view_type.

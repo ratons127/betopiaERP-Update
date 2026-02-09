@@ -7,7 +7,7 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 import { Store } from "@mail/core/common/store_service";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { Command, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

@@ -3,7 +3,7 @@ import { registry } from '@web/core/registry';
 import { hasTouch, isBrowserFirefox } from '@web/core/browser/feature_detection';
 import { redirect, url } from '@web/core/utils/urls';
 import { uniqueId } from '@web/core/utils/functions';
-import { markup } from '@BetopiaERP/owl';
+import { markup } from '@betopiaerp/owl';
 import wSaleUtils from '@website_sale/js/website_sale_utils';
 import { ProductImageViewer } from '@website_sale/js/components/website_sale_image_viewer';
 import VariantMixin from '@website_sale/js/variant_mixin';

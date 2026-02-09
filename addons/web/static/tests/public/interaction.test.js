@@ -1,4 +1,4 @@
-import { before, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { before, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     animationFrame,
     click,
@@ -7,9 +7,9 @@ import {
     queryFirst,
     queryOne,
     freezeTime,
-} from "@BetopiaERP/hoot-dom";
-import { advanceTime, Deferred } from "@BetopiaERP/hoot-mock";
-import { Component, onWillDestroy, markup, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { advanceTime, Deferred } from "@betopiaerp/hoot-mock";
+import { Component, onWillDestroy, markup, xml } from "@betopiaerp/owl";
 import { clearRegistry, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 import { patch } from "@web/core/utils/patch";

@@ -51,10 +51,10 @@ __all__ = [
 
 _logger = logging.getLogger(__name__)
 
-PYTHON_TRANSLATION_COMMENT = 'BetopiaERP-python'
+PYTHON_TRANSLATION_COMMENT = 'betopiaerp-python'
 
 # translation used for javascript code in web client
-JAVASCRIPT_TRANSLATION_COMMENT = 'BetopiaERP-javascript'
+JAVASCRIPT_TRANSLATION_COMMENT = 'betopiaerp-javascript'
 
 SKIPPED_ELEMENTS = ('script', 'style', 'title')
 

@@ -9,10 +9,10 @@
 # Martin Trigaux, 2022
 # Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2022
 # Seksan Poltree <seksan.poltree@gmail.com>, 2022
-# BetopiaERP Thaidev <BetopiaERPthaidev@gmail.com>, 2022
+# BetopiaERP Thaidev <betopiaerpthaidev@gmail.com>, 2022
 # Wichanon Jamwutthipreecha, 2022
 # Amin Cheloh <amincheloh@gmail.com>, 2022
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2025-11-08 19:03+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/stock/th/>\n"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/stock/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "\n"
@@ -83,7 +83,7 @@ msgstr ""
 "- วินาที: %(sec)s\n"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
@@ -93,7 +93,7 @@ msgstr ""
 "(%(serial_number)s) มีอยู่ในตำแหน่ง %(location)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "\n"
@@ -137,7 +137,7 @@ msgstr ""
 "  * ยกเลิก: การโอนถูกยกเลิก"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid " - Product: %(product)s, Lot/Serial Number: %(lot)s"
 msgstr " - สินค้า: %(product)s, ล็อต/หมายเลขซีเรียล: %(lot)s"
@@ -158,61 +158,61 @@ msgid "# Returns"
 msgstr "# การส่งคืน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s (copy)(%(id)s)"
 msgstr "%(name)s (สำเนา)(%(id)s)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence cross dock"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence in"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence internal"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence out"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence packing"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence quality control"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence storage"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "%(operations)s have default source or destination locations within warehouse "
@@ -222,19 +222,19 @@ msgstr ""
 "ดังนั้นคุณจึงไม่สามารถเก็บถาวรได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "%(product)s: Insufficient Quantity To Scrap"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%(warehouse)s Sequence %(code)s"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid ""
 "%(warehouse)s can only provide %(free_qty)s %(uom)s, while the quantity to "
@@ -244,13 +244,13 @@ msgstr ""
 "(qty_to_order)s %(uom)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(warehouse)s: Supply Product from %(supplier)s"
 msgstr "%(warehouse)s: จัดหาสินค้าจาก %(supplier)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_package_type.py:0
 #: code:addons/stock/models/stock_picking.py:0
@@ -261,25 +261,25 @@ msgid "%s (copy)"
 msgstr "%s (สำเนา)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "%s [reverted]"
 msgstr "%s [เปลี่ยนกลับ]"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "%s days"
 msgstr "%s วัน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%s: Can't split: quantities done can't be above demand"
 msgstr "%s: ไม่สามารถแยกได้: ปริมาณที่ทำเสร็จแล้วต้องไม่เกินความต้องการ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "%s: Nothing to split, all demand is done. For split you need at least one "
@@ -289,7 +289,7 @@ msgstr ""
 "คุณต้องมีอย่างน้อยหนึ่งบรรทัดที่ไม่ครบถ้วน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "%s: Nothing to split. Fill the quantities you want in a new transfer in the "
@@ -334,7 +334,7 @@ msgstr ""
 "'กระบวนการหยิบสินค้า - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "(copy of) %s"
 msgstr "(สำเนาของ) %s"
@@ -411,7 +411,7 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "+ %d day(s)"
 msgstr "+ %d วัน"
@@ -434,7 +434,7 @@ msgid ""
 msgstr "อาจจำเป็นต้องดำเนินการด้วยตัวเอง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "/day"
 msgstr ""
@@ -552,7 +552,7 @@ msgstr ""
 "                ต้องการเร่งการดำเนินงานหรือไม่?"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>A need is created in <b>%s</b> and a rule will be triggered to fulfill "
@@ -560,7 +560,7 @@ msgid ""
 msgstr "<br> ความต้องการถูกสร้างขึ้นใน <b>%s</b> และกฎจะถูกเรียกเพื่อตอบสนองความต้องการ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>If the products are not available in <b>%s</b>, a rule will be triggered "
@@ -568,7 +568,7 @@ msgid ""
 msgstr "<br>หากไม่มีสินค้าใน <b>%s</b> จะมีการใช้กฎเพื่อนำปริมาณที่ขาดหายไปมาไว้ในตำแหน่งนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "<br>The products will be moved towards <b>%(destination)s</b>, <br/> as "
@@ -1074,7 +1074,7 @@ msgid "A barcode can only be assigned to one package type!"
 msgstr "สามารถกำหนดบาร์โค้ดให้กับแพ็คเกจประเภทเดียวเท่านั้น!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "A package can't have one of its contained packages as destination container."
@@ -1103,7 +1103,7 @@ msgid "Action"
 msgstr "การดำเนินการ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/fields/stock_action_field.js:0
 msgid "Action Name"
 msgstr "ชื่อการดำเนินการ"
@@ -1227,7 +1227,7 @@ msgstr ""
 "(เช่น ถังขยะ ชั้นวางเฉพาะ)"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/fields/stock_move_line_x2_many_field.js:0
 msgid "Add line: %s"
 msgstr "เพิ่มรายการ: %s"
@@ -1279,7 +1279,7 @@ msgid "Advanced: Apply Procurement Rules"
 msgstr "ขั้นสูง: ใช้งานเกณฑ์การจัดซื้อ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__after
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -1317,7 +1317,7 @@ msgid "All Transfers"
 msgstr "รายการโอนทั้งหมด"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 msgid "All Warehouses"
 msgstr "โกดังทั้งหมด"
@@ -1414,7 +1414,7 @@ msgstr ""
 "ไม่มีเดือน หากไม่มีสินค้าคงคลังประจำปีอัตโนมัติ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "Another parent/sub replenish location %s exists, if you wish to change it, "
@@ -1509,7 +1509,7 @@ msgid "Are you sure you want to cancel this transfer?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการโอนนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "As other units of measure (ex : %(problem_uom)s) than %(uom)s have already "
@@ -1532,13 +1532,13 @@ msgid "Ask"
 msgstr "ถาม"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Assign"
 msgstr "มอบหมาย"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: code:addons/stock/static/src/xml/report_stock_reception.xml:0
@@ -1664,8 +1664,8 @@ msgid "Automatic No Step Added"
 msgstr "ไม่มีขั้นตอนอัตโนมัติถูกเพิ่ม"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
@@ -1709,7 +1709,7 @@ msgstr ""
 "'ภายใน' เท่านั้น"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Average Stock:"
 msgstr ""
@@ -1795,7 +1795,7 @@ msgid "Batch, Wave & Cluster Transfers"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__before
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -1810,9 +1810,9 @@ msgstr "ก่อนวันที่กำหนด"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
-msgstr "ข้อความด้านล่างทำหน้าที่เป็นการแนะนำและไม่เกี่ยวข้องกับความรับผิดชอบของ BetopiaERP S.A."
+msgstr "ข้อความด้านล่างทำหน้าที่เป็นการแนะนำและไม่เกี่ยวข้องกับความรับผิดชอบของ BetopiaERP"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package__quant_ids
@@ -1860,7 +1860,7 @@ msgid ""
 msgstr "เมื่อยกเลิกการเลือกช่องที่ใช้งานอยู่ คุณอาจซ่อนตำแหน่งโดยไม่ต้องลบออกได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "COPY"
 msgstr "คัดลอก"
@@ -1876,19 +1876,19 @@ msgid "Calendar View"
 msgstr "มุมมองปฏิทิน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Can't find any customer or supplier location."
 msgstr "ไม่สามารถค้นหาตำแหน่งลูกค้าหรือผู้จำหน่ายใดๆ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Can't find any generic route %s."
 msgstr "ไม่พบเส้นทางทั่วไป %s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "Can't move a container having packages in another location (%"
@@ -1917,13 +1917,13 @@ msgid "Cancelled"
 msgstr "ยกเลิก"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Cannot move an empty package"
 msgstr "ไม่สามารถย้ายแพ็คเกจเปล่าได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Cannot remove the location of a non empty package"
 msgstr "ไม่สามารถลบตำแหน่งของแพ็คเกจที่ไม่ว่างเปล่าได้"
@@ -1980,7 +1980,7 @@ msgstr ""
 "และไม่รวมค่าใช้จ่ายใดๆ ที่เกี่ยวข้องกับกฎหมายของประเทศที่ลูกค้าตั้งอยู่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Changing the Lot/Serial number for move lines with different products is not "
@@ -1990,7 +1990,7 @@ msgstr ""
 "หมายเลขซีเรียลสำหรับสายการเคลื่อนย้ายที่มีผลิตภัณฑ์ที่แตกต่างกันไม่ได้รับอนุญาต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_orderpoint.py:0
@@ -2002,13 +2002,13 @@ msgid ""
 msgstr "ในตอนนี้ห้ามเปลี่ยนบริษัทของบันทึกนี้ คุณควรเก็บถาวรและสร้างใหม่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Changing the operation type of this record is forbidden at this point."
 msgstr "การเปลี่ยนประเภทการดำเนินการของบันทึกนี้เป็นที่ถูกปิดกั้นในตอนนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Changing the product is only allowed in 'Draft' state."
 msgstr "อนุญาตให้เปลี่ยนสินค้าได้เฉพาะในสถานะ 'ร่าง' เท่านั้น"
@@ -2034,14 +2034,14 @@ msgid ""
 msgstr "ทำเครื่องหมายในช่องนี้หากคุณต้องการสร้างป้ายกำกับการจัดส่งในการดำเนินการนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/wizard/stock_label_type.py:0
 msgid "Choose Labels Layout"
 msgstr "เลือกรูปแบบของฉลาก"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Choose Type of Labels To Print"
 msgstr "เลือกประเภทของฉลากที่จะพิมพ์"
@@ -2058,7 +2058,7 @@ msgid "Choose a date to get the inventory at that date"
 msgstr "เลือกวันที่เพื่อรับสินค้าคงคลัง ณ วันนั้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Choose destination location"
 msgstr "เลือกสถานที่ปลายทาง"
@@ -2089,7 +2089,7 @@ msgid "Clear"
 msgstr "ล้าง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Click or press enter to add a description"
 msgstr "คลิกหรือกด Enter เพื่อเพิ่มคำอธิบาย"
@@ -2284,7 +2284,7 @@ msgid "Conflict in Inventory"
 msgstr "ความขัดแย้งในสินค้าคงคลัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Conflict in Inventory Adjustment"
 msgstr "ความขัดแย้งในการปรับสินค้าคงคลัง"
@@ -2354,7 +2354,7 @@ msgid "Continue"
 msgstr "ต่อไป"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Control panel buttons"
 msgstr "ปุ่มบนแผงควบคุม"
@@ -2431,7 +2431,7 @@ msgid "Create Backorder"
 msgstr "สร้างคำสั่งล่วงหน้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Create Backorder?"
 msgstr "สร้างใบสั่งซื้อล่วงหน้า?"
@@ -2595,7 +2595,7 @@ msgid "Created on"
 msgstr "สร้างเมื่อ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "Creating a new warehouse will automatically activate the Storage Locations "
@@ -2623,7 +2623,7 @@ msgstr ""
 "ได้รับการอัปเดต หรือบรรทัดการเคลื่อนย้ายเสร็จสิ้นแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Cross Dock"
 msgstr ""
@@ -2753,13 +2753,13 @@ msgid "DHL Express Connector"
 msgstr "ตัวเชื่อมต่อ DHL Express"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Daily Demand:"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__date
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__date
@@ -2876,7 +2876,7 @@ msgid "Deadline exceed or/and by the scheduled"
 msgstr "เกินกำหนดเวลาหรือ/และตามกำหนดเวลา"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Deadline updated due to delay on %s"
 msgstr "กำหนดเวลาถูกอัปเดตเนื่องจากเกิดความล่าช้า %s"
@@ -3002,13 +3002,13 @@ msgid "Delay Alert Date"
 msgstr "วันที่แจ้งเตือนล่าช้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "Delay on %s"
 msgstr "ล่าช้า %s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Deleting product moves after the transfer is done?\n"
@@ -3032,19 +3032,19 @@ msgid "Deliver (1 step)"
 msgstr "ส่งมอบ (1 ขั้นตอน)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 1 step (ship)"
 msgstr "จัดส่งใน 1 ขั้นตอน (จัดส่ง)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 2 steps (pick + ship)"
 msgstr "จัดส่งใน 2 ขั้นตอน (รับ + จัดส่ง)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Deliver in 3 steps (pick + pack + ship)"
 msgstr "จัดส่งใน 3 ขั้นตอน (รับ + แพ็ค + จัดส่ง)"
@@ -3055,7 +3055,7 @@ msgid "Delivered"
 msgstr "จัดส่งแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Delivered Qty"
 msgstr "ปริมาณที่จัดส่ง"
@@ -3079,7 +3079,7 @@ msgid "Delivery Address"
 msgstr "ที่อยู่จัดส่ง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Delivery Date"
 msgstr "วันที่จัดส่ง"
@@ -3090,13 +3090,13 @@ msgid "Delivery Methods"
 msgstr "วิธีจัดส่ง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Delivery Note"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:stock.picking.type,name:stock.picking_type_out
 msgid "Delivery Orders"
@@ -3128,7 +3128,7 @@ msgid "Delivery order count"
 msgstr "จำนวนคำสั่งซื้อในการจัดส่ง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Delivery orders of %s"
 msgstr "คำสั่งจัดส่งของ %s"
@@ -3270,7 +3270,7 @@ msgid "Destination Country"
 msgstr "ประเทศปลายทาง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_dest_id
 #: model:ir.model.fields,field_description:stock.field_stock_package_history__location_dest_id
@@ -3333,7 +3333,7 @@ msgid "Destination route"
 msgstr "เส้นทางปลายทาง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Detailed Operations"
@@ -3362,7 +3362,7 @@ msgid "Dimensions"
 msgstr "มิติ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_reset_view
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_set_view
@@ -3566,7 +3566,7 @@ msgid "Dymo"
 msgstr "Dymo"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Earliest Possible Arrival"
 msgstr ""
@@ -3577,13 +3577,13 @@ msgid "Easypost Connector"
 msgstr "ตัวเชื่อมต่อ Easypost"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Edit Product"
 msgstr "แก้ไขสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Editing quantities in an Inventory Adjustment location is forbidden,those "
@@ -3660,7 +3660,7 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr "แน่ใจว่ามีการตรวจสอบย้อนกลับของสินค้าที่จัดเก็บได้ในคลังสินค้าของคุณ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Enter a description"
 msgstr "ป้อนคำอธิบาย"
@@ -3703,13 +3703,13 @@ msgid "Exception(s):"
 msgstr "ข้อยกเว้น:"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
 msgid "Exp"
 msgstr "คาดการณ์"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Exp %s"
 msgstr "หมดอายุ %s"
@@ -3720,7 +3720,7 @@ msgid "Expected"
 msgstr "คาดหวัง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "Expected Delivery:"
@@ -3778,7 +3778,7 @@ msgid "First In First Out (FIFO)"
 msgstr "First In First Out (FIFO)"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "First Lot Number"
 msgstr "เลขล็อตแรก"
@@ -3789,7 +3789,7 @@ msgid "First SN/Lot"
 msgstr "SN/ล็อตแรก"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "First Serial Number"
 msgstr "หมายเลขซีเรียลแรก"
@@ -3859,7 +3859,7 @@ msgstr ""
 "มิเช่นนั้น จะรวมถึงสินค้าที่จัดเก็บไว้ในสถานที่เก็บสินค้าที่มีประเภท 'ภายใน'"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_product_template_tree
@@ -3868,7 +3868,7 @@ msgid "Forecasted"
 msgstr "คาดการณ์"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Forecasted Date"
 msgstr "วันที่คาดการณ์ไว้"
@@ -3884,13 +3884,13 @@ msgid "Forecasted Expected date"
 msgstr "วันที่คาดการณ์ตามคาด"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Forecasted Inventory"
 msgstr "สินค้าคงคลังที่คาดการณ์"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: model:ir.model.fields,field_description:stock.field_product_product__virtual_available
 #: model:ir.model.fields,field_description:stock.field_product_replenish__forecasted_quantity
@@ -3905,7 +3905,7 @@ msgid "Forecasted Receipts"
 msgstr "การรับสินค้าที่คาดการณ์ไว้"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/stock_forecasted.js:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
 #: model:ir.actions.client,name:stock.stock_forecasted_product_product_action
@@ -3924,7 +3924,7 @@ msgid "Forecasted Weight"
 msgstr "น้ำหนักที่คาดการณ์"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Forecasted with Pending"
 msgstr "คาดการณ์โดยรอดำเนินการ"
@@ -3941,13 +3941,13 @@ msgid "Free Qty"
 msgstr "จำนวนฟรี"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.js:0
 msgid "Free Stock"
 msgstr "สต็อกฟรี"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Free Stock in Transit"
 msgstr "สต็อกฟรีในการขนส่ง"
@@ -3963,7 +3963,7 @@ msgid "Free to Use"
 msgstr "ใช้งานได้ฟรี"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_id
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -3994,25 +3994,25 @@ msgid "Future Activities"
 msgstr "กิจกรรมในอนาคต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Deliveries"
 msgstr "การจัดส่งในอนาคต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future P&L"
 msgstr "อนาคต P&L"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Productions"
 msgstr "การผลิตในอนาคต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Future Receipts"
 msgstr "การรับในอนาคต"
@@ -4023,25 +4023,25 @@ msgid "General"
 msgstr "ทั่วไป"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate"
 msgstr "สร้าง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Generate Lot numbers"
 msgstr "สร้างหมายเลขล็อต"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Generate Serial numbers"
 msgstr "สร้างหมายเลขซีเรียล"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate Serials/Lots"
 msgstr "สร้างหมายเลขซีเรียล/ล็อต"
@@ -4071,19 +4071,19 @@ msgid "Gives the sequence of this line when displaying the warehouses."
 msgstr "ให้ลำดับของบรรทัดนี้เมื่อแสดงคลังสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Go to Warehouses"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Goods Receipt Note"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "HTML reports cannot be auto-printed, skipping report: %s"
 msgstr "รายงาน HTML ไม่สามารถพิมพ์อัตโนมัติได้ ข้ามรายงาน:%s"
@@ -4153,7 +4153,7 @@ msgid "Hide Reservation Method"
 msgstr "ซ่อนวิธีการจอง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 #: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_tree_editable
@@ -4162,7 +4162,7 @@ msgid "History"
 msgstr "ประวัติ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
 msgid "Horizon"
 msgstr "ฮอไรซอน"
@@ -4499,31 +4499,31 @@ msgid "Immediate Transfer"
 msgstr "โอนย้ายทันที"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Import Lots"
 msgstr "นำเข้าล็อต"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/generate_serial.js:0
 msgid "Import Serials"
 msgstr "นำเข้าซีเรียล"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Import Serials/Lots"
 msgstr "นำเข้าหมายเลขซีเรียล/ล็อต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Import Template for Inventory Adjustments"
 msgstr "นำเข้าเทมเพลตสำหรับการปรับปรุงสินค้าคงคลัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "In %s day(s)"
 msgstr ""
@@ -4566,7 +4566,7 @@ msgstr ""
 "8 วัน นับจากวันที่ส่งมอบสินค้าหรือการให้บริการ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_product__incoming_qty
 #: model:ir.model.fields,field_description:stock.field_product_template__incoming_qty
@@ -4581,7 +4581,7 @@ msgid "Incoming Date"
 msgstr "วันที่เข้า"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Incoming Draft Transfer"
 msgstr "การโอนย้ายแบบร่างขาเข้า"
@@ -4597,7 +4597,7 @@ msgid "Incoming Shipments"
 msgstr "การขนส่งขาเข้า"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "Incorrect type of action submitted as a report, skipping action"
 msgstr "ประเภทการดำเนินการที่ส่งเป็นรายงานไม่ถูกต้อง ข้ามการดำเนินการ"
@@ -4620,7 +4620,7 @@ msgid "Initial Demand"
 msgstr "ความต้องการเริ่มต้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Input"
 msgstr "การนำเข้า"
@@ -4646,7 +4646,7 @@ msgid "Instructions on the Stock Operations"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_company.py:0
 msgid "Inter-warehouse transit"
 msgstr "การขนส่งระหว่างคลังสินค้า"
@@ -4672,7 +4672,7 @@ msgid "Internal Locations"
 msgstr "ตำแหน่งภายใน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Internal Move"
 msgstr ""
@@ -4688,7 +4688,7 @@ msgid "Internal Transfer"
 msgstr "โอนย้ายภายใน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_internal
 #: model:stock.picking.type,name:stock.picking_type_internal
@@ -4718,7 +4718,7 @@ msgid "Internal locations among descendants"
 msgstr "ตำแหน่งภายในระหว่างผู้สืบทอด"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "Internal locations having stock can't be converted"
 msgstr "สถานที่ตั้งภายในที่มีสต็อกไม่สามารถแปลงได้"
@@ -4731,7 +4731,7 @@ msgid ""
 msgstr "หมายเลขอ้างอิงภายใน ในกรณีที่แตกต่างจากล็อต/หมายเลขซีเรียลของผู้ผลิต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "Invalid rule's configuration, the following rule causes an endless loop: %s"
@@ -4758,7 +4758,7 @@ msgid "Inventory"
 msgstr "สินค้าคงคลัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Inventory Adjustment"
 msgstr "การปรับปรุงสินค้าคงคลัง"
@@ -4924,7 +4924,7 @@ msgid "Is quantity done editable"
 msgstr "ปริมาณที่ทำเสร็จแล้วสามารถแก้ไขได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "It is not possible to unreserve more products of %s than you have in stock."
@@ -4971,7 +4971,7 @@ msgid "Json Lead Days"
 msgstr "เวลานำร่องของ Json"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.js:0
 msgid "Json Popup"
 msgstr "ป๊อปอัป Json"
@@ -5007,7 +5007,7 @@ msgid "Keep Difference"
 msgstr "เก็บความแตกต่าง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Keep current lines"
 msgstr "เก็บรายการปัจจุบันไว้"
@@ -5242,13 +5242,13 @@ msgid "Lead Time"
 msgstr "ช่วงเวลานำสินค้า"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Lead Time Information"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Lead Time:"
 msgstr ""
@@ -5424,7 +5424,7 @@ msgid "Lot Properties"
 msgstr "คุณสมบัติล็อต"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Lot numbers"
 msgstr "หมายเลขล็อต"
@@ -5447,7 +5447,7 @@ msgid "Lot/Serial"
 msgstr "ล็อต/ซีเรียล"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
 msgid "Lot/Serial #"
@@ -5483,7 +5483,7 @@ msgid "Lot/Serial Number Name"
 msgstr "ชื่อล็อต/หมายเลขซีเรียล"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid "Lot/Serial Number Relocated"
 msgstr "ย้ายล็อต/หมายเลขซีเรียลแล้ว"
@@ -5592,7 +5592,7 @@ msgid "Manual Operation"
 msgstr "การดำเนินการด้วยตนเอง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/product_replenish.py:0
 msgid "Manual Replenishment"
 msgstr "การเติมสินค้าด้วยตนเอง"
@@ -5781,7 +5781,7 @@ msgid "Move Quantity"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/picking_form/stock_move_product_label.xml:0
 msgid "Move a Pack"
 msgstr ""
@@ -5837,7 +5837,7 @@ msgid "Multiple capacity rules for one product."
 msgstr "กฎความจุหลายรายการสำหรับสินค้าเดียว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Multiple destinations"
 msgstr ""
@@ -5932,8 +5932,8 @@ msgid "Never attribute Values"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_move__state__draft
@@ -5983,7 +5983,7 @@ msgid "Next Serial"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Next Transfers"
 msgstr ""
@@ -6009,7 +6009,7 @@ msgid "No"
 msgstr "ไม่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/report_stock_reception.py:0
 msgid "No %s selected or a delivery order selected"
 msgstr "ไม่ได้เลือก %s หรือคำสั่งการจัดส่งที่เลือก"
@@ -6020,7 +6020,7 @@ msgid "No Backorder"
 msgstr "ไม่สร้างคำสั่งล่วงหน้า"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_package_m2m.js:0
 msgid "No Package"
 msgstr ""
@@ -6033,7 +6033,7 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "No allocation need found."
@@ -6045,13 +6045,13 @@ msgid "No delivery to do!"
 msgstr "ไม่มีอะไรต้องส่ง!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "No negative quantities allowed"
 msgstr "ไม่อนุญาตให้มีปริมาณเป็นค่าลบ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "No operation made on this lot."
 msgstr "ไม่มีการดำเนินการในล็อตนี้"
@@ -6062,7 +6062,7 @@ msgid "No operations found. Let's create a transfer!"
 msgstr "ไม่พบการดำเนินการ มาสร้างการโอนย้ายกันเถอะ!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "No product found to generate Serials/Lots for."
 msgstr "ไม่พบผลิตภัณฑ์ที่จะสร้าง Serials/Lots สำหรับ"
@@ -6073,7 +6073,7 @@ msgid "No product found. Let's create one!"
 msgstr "ไม่พบสินค้า มาสร้างกันเถอะ!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid ""
 "No products to return (only lines in Done state and not fully returned yet "
@@ -6097,7 +6097,7 @@ msgid "No reordering rule found"
 msgstr "ไม่พบกฎจุดสั่งซื้อซ้ำ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "No rule has been found to replenish \"%(product)s\" in \"%(location)s\".\n"
@@ -6107,7 +6107,7 @@ msgstr ""
 "ตรวจสอบการกำหนดค่าเส้นทางบนผลิตภัณฑ์"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "No source location defined on stock rule: %s!"
 msgstr "ไม่มีตำแหน่งที่ตั้งต้นทางที่กำหนดไว้ในกฎของสต็อค: %s!"
@@ -6140,8 +6140,8 @@ msgid "Normal (2.25\" x 1.25\")"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/widgets/forecast_widget.xml:0
@@ -6164,7 +6164,7 @@ msgid "Notes"
 msgstr "โน้ต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Nothing to check the availability for."
 msgstr "ไม่มีอะไรให้ตรวจสอบความพร้อม"
@@ -6182,7 +6182,7 @@ msgid "Number of Actions"
 msgstr "จํานวนการดําเนินการ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Number of SN"
 msgstr "จำนวนของ SN"
@@ -6258,7 +6258,7 @@ msgid "Office Chair"
 msgstr "เก้าอี้สำนักงาน"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_quant__on_hand
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__qty_on_hand
@@ -6311,7 +6311,7 @@ msgid "Operation Quantities"
 msgstr "ปริมาณการดำเนินงาน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__picking_type_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_id
@@ -6337,7 +6337,7 @@ msgid "Operation Types"
 msgstr "ประเภทการปฏิบัติการ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Operation not supported"
 msgstr "ไม่รองรับการทำงาน"
@@ -6409,7 +6409,7 @@ msgid "Options"
 msgstr "ตัวเลือก"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.replenishment_option_warning_view
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
@@ -6417,19 +6417,19 @@ msgid "Order"
 msgstr "คำสั่ง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 msgid "Order To Max"
 msgstr "สั่งซื้อสูงสุด"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Order signed"
 msgstr "ลงนามคำสั่งซื้อแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Order signed by %s"
 msgstr "คำสั่งเซ็นโดย %s"
@@ -6440,13 +6440,13 @@ msgid "Ordered"
 msgstr "สั่งแล้ว"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Ordering Frequency:"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "Ordering Frequency: On demand"
 msgstr ""
@@ -6537,7 +6537,7 @@ msgid "Outermost Destination Container"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_product__outgoing_qty
@@ -6548,7 +6548,7 @@ msgid "Outgoing"
 msgstr "ขาออก"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Outgoing Draft Transfer"
 msgstr "การโอนย้ายฉบับร่างขาออก"
@@ -6564,7 +6564,7 @@ msgid "Outgoing Shipments"
 msgstr "การขนส่งที่กำลังส่งออก"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Output"
 msgstr "ขาออก"
@@ -6601,7 +6601,7 @@ msgid "Owner:"
 msgstr "เจ้าของ:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "P&L Qty"
 msgstr "ปริมาณ P&L"
@@ -6612,7 +6612,7 @@ msgid "PDF"
 msgstr "PDF"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Pack"
 msgstr "แพ็ค"
@@ -6763,7 +6763,7 @@ msgid "Package Type Demo"
 msgstr "ประเภทแพ็คเกจสาธิต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package_type.py:0
 msgid "Package Type Sequence %(code)s"
 msgstr ""
@@ -6786,7 +6786,7 @@ msgid "Package Use"
 msgstr "การใช้งานแพ็คเกจ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Package manually relocated"
 msgstr "แพ็กเกจถูกย้ายด้วยตนเอง"
@@ -6802,7 +6802,7 @@ msgid "Package type"
 msgstr "ประเภทแพ็คเกจ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock.action_package_view
 #: model:ir.actions.report,name:stock.action_report_picking_packages
@@ -6817,7 +6817,7 @@ msgid "Packages"
 msgstr "แพ็คเกจ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid ""
 "Packages %(duplicate_names)s are moved to different locations while being in "
@@ -6883,7 +6883,7 @@ msgid "Packing Location"
 msgstr "ตำแหน่งการบรรจุหีบห่อ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Packing Zone"
 msgstr "โซนรับสินค้า"
@@ -6942,7 +6942,7 @@ msgid "Percent Factor"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 #: model:ir.actions.act_window,name:stock.action_stock_inventory_adjustement_name
 #: model:ir.ui.menu,name:stock.menu_action_inventory_tree
@@ -6950,7 +6950,7 @@ msgid "Physical Inventory"
 msgstr "สินค้าคงคลังจริง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_backorder_confirmation__pick_ids
 msgid "Pick"
@@ -7026,19 +7026,19 @@ msgid "Picking list"
 msgstr "รายการหยิบ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "Planning Issue"
 msgstr "ปัญหาการวางแผน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Please contact your administrator to configure your warehouse."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Please create a warehouse for company %s."
 msgstr ""
@@ -7053,13 +7053,13 @@ msgstr ""
 "                                พัสดุของคุณจะต้องส่งไปยังที่อยู่นี้:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Please specify at least one non-zero quantity."
 msgstr "กรุณาระบุปริมาณอย่างน้อยหนึ่งค่าที่ไม่เป็นศูนย์"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "Preceding operations"
 msgstr "การดำเนินการก่อนหน้า"
@@ -7081,7 +7081,7 @@ msgid "Presence depends on the type of operation."
 msgstr "การแสดงตนขึ้นอยู่กับประเภทของการดำเนินการ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Press the \"New\" button to define the quantity for a product in your stock "
@@ -7096,7 +7096,7 @@ msgid "Price Unit"
 msgstr "ราคาต่อหน่วย"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -7114,13 +7114,13 @@ msgid "Print GS1 Barcodes for Lots & Serial Numbers"
 msgstr "พิมพ์บาร์โค้ด GS1 สำหรับล็อตและหมายเลขซีเรียล"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Print Label"
 msgstr "พิมพ์ฉลาก"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_main/stock_reception_report_main.xml:0
 #: code:addons/stock/static/src/components/reception_report_table/stock_reception_report_table.xml:0
 #: code:addons/stock/static/src/xml/report_stock_reception.xml:0
@@ -7186,13 +7186,13 @@ msgid "Produce Line"
 msgstr "รายการผลิต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Produced Qty"
 msgstr "ปริมาณที่สร้าง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model,name:stock.model_product_template
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
@@ -7298,13 +7298,13 @@ msgid "Product Moves (Stock Move Line)"
 msgstr "ย้ายสินค้า ( รายการเคลื่อนย้ายสต็อก )"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Product Quantity Confirmed"
 msgstr "ยืนยันปริมาณสินค้าแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Product Quantity Updated"
 msgstr "ปริมาณผลิตภัณฑ์ล่าสุด"
@@ -7315,7 +7315,7 @@ msgid "Product Relocated"
 msgstr "ย้ายสินค้าแล้ว"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.js:0
 #: model:ir.model,name:stock.model_product_replenish
 msgid "Product Replenish"
@@ -7373,7 +7373,7 @@ msgid "Product barcode"
 msgstr "บาร์โค้ดสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/product_label_report.py:0
 msgid "Product model not defined, Please contact your administrator."
 msgstr "ไม่ได้กำหนดรุ่นสินค้า โปรดติดต่อผู้ดูแลระบบของคุณ"
@@ -7415,7 +7415,7 @@ msgid "Production Locations"
 msgstr "สถานที่การผลิต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_quantity_history.py:0
 #: model:ir.actions.act_window,name:stock.act_product_location_open
 #: model:ir.actions.act_window,name:stock.product_template_action_product
@@ -7442,7 +7442,7 @@ msgid ""
 msgstr "สินค้าจะถูกสำรองก่อนสำหรับการโอนย้ายที่มีลำดับความสำคัญสูงสุด"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Products: %(location)s"
 msgstr "สินค้า: %(location)s"
@@ -7521,7 +7521,7 @@ msgid "Putaway Rule"
 msgstr "กฎการนำส่งสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: model:ir.actions.act_window,name:stock.action_putaway_tree
 #: model:ir.actions.act_window,name:stock.category_open_putaway
@@ -7548,7 +7548,7 @@ msgid "Quality"
 msgstr "คุณภาพ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Quality Control"
 msgstr "การควบคุมคุณภาพ"
@@ -7580,37 +7580,37 @@ msgid "Quant"
 msgstr "วิเคราะห์เชิงปริมาณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quant's creation is restricted, you can't do this operation."
 msgstr "การสร้าง Quant ถูกจำกัด คุณไม่สามารถดำเนินการนี้ได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quant's editing is restricted, you can't do this operation."
 msgstr "การแก้ไข Quant ถูกจำกัด คุณไม่สามารถดำเนินการนี้ได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantities Already Set"
 msgstr "กำหนดปริมาณแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantities To Reset"
 msgstr "ปริมาณที่จะรีเซ็ต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "Quantities unpacked"
 msgstr "ปริมาณที่แกะออกแล้ว"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_replenish__quantity
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_qty
@@ -7646,13 +7646,13 @@ msgid "Quantity On Hand"
 msgstr "ปริมาณในมือ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Quantity Received"
 msgstr "ปริมาณที่ได้รับ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantity Relocated"
 msgstr "จำนวนที่ย้าย"
@@ -7663,7 +7663,7 @@ msgid "Quantity Reserved"
 msgstr "ปริมาณที่สำรองไว้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_replenishment_info.py:0
 msgid "Quantity available too low"
 msgstr "ปริมาณที่มีอยู่น้อยเกินไป"
@@ -7743,13 +7743,13 @@ msgid ""
 msgstr "ปริมาณของสินค้าที่สำรองไว้ในปริมาณนี้บนหน่วยวัดเริ่มต้นของสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quantity or Reserved Quantity should be set."
 msgstr "ควรกำหนดปริมาณหรือปริมาณที่จองไว้"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Quantity per Lot"
 msgstr "ปริมาณต่อล็อต"
@@ -7779,7 +7779,7 @@ msgid "Quants"
 msgstr "วิเคราะห์เชิงปริมาณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Quants are auto-deleted when appropriate. If you must manually delete them, "
@@ -7789,7 +7789,7 @@ msgstr ""
 "โปรดขอให้ผู้จัดการสต็อกดำเนินการ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Quants cannot be created for consumables or services."
 msgstr "ไม่สามารถสร้าง Quants สำหรับสินค้าอุปโภคบริโภคหรือบริการได้"
@@ -7845,7 +7845,7 @@ msgid "Receipt Route"
 msgstr "เส้นทางการรับ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_incoming
 #: model:ir.ui.menu,name:stock.in_picking
@@ -7865,19 +7865,19 @@ msgid "Receive and Store (1 step)"
 msgstr "รับและจัดเก็บ (1 ขั้นตอน)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 1 step (stock)"
 msgstr "รับสินค้าใน 1 ขั้นตอน (สต็อก)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 2 steps (input + stock)"
 msgstr "รับสินค้าใน 2 ขั้นตอน (นำเข้า + สต็อก)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Receive in 3 steps (input + quality + stock)"
 msgstr "รับสินค้าใน 3 ขั้นตอน (นำเข้า + คุณภาพ + สต็อก)"
@@ -7893,7 +7893,7 @@ msgid "Receive, Quality Control, then Store (3 steps)"
 msgstr "รับ, ควบคุมคุณภาพ และจัดเก็บ (3 ขั้นตอน)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Received Qty"
 msgstr "ปริมาณที่รับ"
@@ -7927,7 +7927,7 @@ msgstr ""
 "                        การติดตามการจัดการสถานที่ การควบคุมคุณภาพ ฯลฯ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__reference
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__reference
@@ -8009,7 +8009,7 @@ msgid "Removal Strategy"
 msgstr "กลยุทธ์การนำออก"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Removal strategy %s not implemented."
 msgstr "กลยุทธ์การนำออก %s ยังไม่ได้นำไปใช้"
@@ -8058,7 +8058,7 @@ msgid "Reordering Rules Search"
 msgstr "ค้นหากฎการสั่งซื้อซ้ำ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.xml:0
 #: model:ir.actions.server,name:stock.action_product_replenishment
 #: model:ir.actions.server,name:stock.action_product_template_replenishment
@@ -8071,7 +8071,7 @@ msgid "Replenish Quantities"
 msgstr "การเติมปริมาณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__replenish_on_order
 #: model:stock.route,name:stock.route_warehouse0_mto
@@ -8110,13 +8110,13 @@ msgid "Replenishment Information"
 msgstr "ข้อมูลการเติมสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Replenishment Information for %(product)s in %(warehouse)s"
 msgstr "ข้อมูลการเติมสินค้าสำหรับ %(product)s ใน %(warehouse)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Replenishment Report"
 msgstr "รายงานการเติมสินค้า"
@@ -8142,7 +8142,7 @@ msgid "Report Action"
 msgstr "การดําเนินการรายงาน"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/multi_print.js:0
 msgid "Report Printing Error"
 msgstr "รายงานข้อผิดพลาดในการพิมพ์"
@@ -8175,7 +8175,7 @@ msgid "Reservation Method"
 msgstr "วิธีการสำรอง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Reserve"
 msgstr "สำรอง"
@@ -8216,7 +8216,7 @@ msgid "Reserved Quantity"
 msgstr "ปริมาณที่สำรองไว้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Reserving a negative quantity is not allowed."
 msgstr "ไม่อนุญาตให้สำรองปริมาณที่มีค่าเป็นลบ"
@@ -8288,7 +8288,7 @@ msgid "Return of"
 msgstr "การส่งคืนของ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Return of %(picking_name)s"
 msgstr "การส่งคืนของ %(picking_name)s"
@@ -8299,13 +8299,13 @@ msgid "Return slip"
 msgstr "สลิปการส่งคืน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "Returned Picking"
 msgstr "การหยิบที่ส่งคืนแล้ว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_picking__return_ids
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -8342,7 +8342,7 @@ msgid "Revert Inventory Adjustment"
 msgstr "เปลี่ยนกลับการปรับสินค้าคงคลัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "Reverted Moves"
 msgstr ""
@@ -8416,7 +8416,7 @@ msgid ""
 msgstr "เส้นทางจะถูกสร้างสำหรับการทดทนคลังสินค้า และคุณสามารถเลือกมันจากสินค้าและหมวดสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
@@ -8499,7 +8499,7 @@ msgid "Same month last year"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Sample data"
 msgstr "ข้อมูลตัวอย่าง"
@@ -8510,7 +8510,7 @@ msgid "Save"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Save the product form before updating the Quantity On Hand."
 msgstr ""
@@ -8583,7 +8583,7 @@ msgid "Scrap Orders"
 msgstr "คำสั่งซื้อเศษสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_form_view2
 msgid "Scrap Products"
@@ -8641,14 +8641,14 @@ msgid "Search Scrap"
 msgstr "ค้าหาเศษสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Search not supported without a value."
 msgstr "ไม่รองรับการค้นหาหากไม่มีค่า"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/static/src/views/list/stock_add_package_list_view.js:0
 #: code:addons/stock/static/src/views/picking_form/stock_move_one2many.js:0
@@ -8671,7 +8671,7 @@ msgid "Select the places where this route can be selected"
 msgstr "เลือกสถานที่ที่เส้นทางนี้สามารถเลือกได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 msgid ""
 "Selected storage category does not exist in the 'store to' location or any "
@@ -8679,7 +8679,7 @@ msgid ""
 msgstr "ประเภทพื้นที่เก็บข้อมูลที่เลือกไม่มีอยู่ในตำแหน่ง 'จัดเก็บไปยัง' หรือตำแหน่งย่อยใดๆ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "Selection not supported."
 msgstr "ไม่รองรับการเลือก"
@@ -8740,7 +8740,7 @@ msgid "Sequence"
 msgstr "ลำดับ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Sequence %(code)s"
 msgstr "ลำดับ %(code)s"
@@ -8757,7 +8757,7 @@ msgid "Serial Numbers"
 msgstr "หมายเลขซีเรียล"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "Serial number (%(serial_number)s) already exists in location(s): %"
@@ -8767,7 +8767,7 @@ msgstr ""
 "โปรดแก้ไขหมายเลขซีเรียลที่เข้ารหัส"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
@@ -8781,7 +8781,7 @@ msgstr ""
 "โปรดแก้ไขสิ่งนี้เพื่อป้องกันข้อมูลที่ไม่สอดคล้องกัน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "Serial number (%(serial_number)s) is not located in %(source_location)s, but "
@@ -8795,7 +8795,7 @@ msgstr ""
 "ตำแหน่งต้นทางสำหรับการย้ายครั้งนี้จะเปลี่ยนเป็น %(recommended_location)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Serial numbers"
 msgstr "หมายเลขซีเรียล"
@@ -9073,7 +9073,7 @@ msgid "Small (1.25\" x 1.00\")"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/stock_orderpoint_list_view.xml:0
 #: model:ir.actions.act_window,name:stock.action_orderpoint_snooze
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_orderpoint_snooze
@@ -9120,7 +9120,7 @@ msgid "Source Document"
 msgstr "เอกสารอ้างอิง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 #: model:ir.model.fields,field_description:stock.field_stock_move__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_location_id
@@ -9211,7 +9211,7 @@ msgstr ""
 "วางแผน: กิจกรรมในอนาคต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_product_stock_view
 #: model:ir.ui.menu,name:stock.menu_product_stock
@@ -9230,7 +9230,7 @@ msgid "Stock Confirmation Type"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Stock In Transit"
 msgstr "สต็อกในการขนส่ง"
@@ -9359,7 +9359,7 @@ msgid "Stock Text Validation with stock move"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Stock To Reserve:"
 msgstr ""
@@ -9406,7 +9406,7 @@ msgid "Stock warehouse replenishment option"
 msgstr "ตัวเลือกการเติมสต็อกคลังสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Storage"
 msgstr "อุปกรณ์จัดเก็บ"
@@ -9575,7 +9575,7 @@ msgid "Text Confirmation"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "The %s location is required by the Inventory app and cannot be deleted, but "
@@ -9593,13 +9593,13 @@ msgstr ""
 "'เพิ่มขั้นตอนอัตโนมัติ' ตำแหน่งจะถูกแทนที่ด้วยการย้ายเดิม"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "The Lot/Serial number (%s) is linked to another product."
 msgstr "หมายเลขล็อต/หมายเลขซีเรียล (%s) เชื่อมโยงกับผลิตภัณฑ์อื่น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "The Serial Number (%(serial_number)s) is already used in location(s): %"
@@ -9624,7 +9624,7 @@ msgid "The actual date when the transfer was processed."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "The backorder %s has been created."
 msgstr "สร้างการสั่งซื้อล่วงหน้า %s แล้ว"
@@ -9648,7 +9648,7 @@ msgstr ""
 "การเสื่อมเสียและความเสียหายใดก็ตามจะต้องได้รับการยินยอมอย่างชัดแจ้งล่วงหน้าเป็นลายลักษณ์อักษร"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "The combination of lot/serial number and product must be unique within a "
@@ -9667,7 +9667,7 @@ msgid "The company is automatically set from your user preferences."
 msgstr "บริษัทจะถูกตั้งค่าโดยอัตโนมัติจากการตั้งค่าผู้ใช้ของคุณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -9675,7 +9675,7 @@ msgid "The day after tomorrow"
 msgstr "วันมะรืน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The deadline has been automatically updated due to a delay on %s."
 msgstr "การกำหนดเวลาถูกอัปเดตโดยอัตโนมัติ เนื่องจากมีความล่าช้า %s"
@@ -9693,7 +9693,7 @@ msgid "The first in the sequence is the default one."
 msgstr "อันแรกในลำดับคืออันที่ถูกกำหนดโดยค่าเริ่มต้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/product_replenish.py:0
 msgid "The following replenishment order have been generated"
 msgstr "มีการสร้างใบสั่งการเติมสินค้าต่อไปนี้"
@@ -9704,7 +9704,7 @@ msgid "The forecasted quantity of"
 msgstr "ปริมาณที่คาดการณ์ไว้ของ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "The inter-warehouse transfers have been generated"
 msgstr "มีการสร้างการโอนระหว่างคลังสินค้าแล้ว"
@@ -9721,7 +9721,7 @@ msgid "The minimum Stock level that will trigger a replenishment."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 "The minimum quantity must be less than or equal to the maximum quantity."
@@ -9733,7 +9733,7 @@ msgid "The name of the warehouse must be unique per company!"
 msgstr "ชื่อของคลังสินค้าต้องไม่ซ้ำกันสําหรับแต่ละบริษัท!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The number of Serial Numbers to generate must be greater than zero."
 msgstr "จำนวนหมายเลขซีเรียลที่จะสร้างต้องมากกว่าศูนย์"
@@ -9815,7 +9815,7 @@ msgstr ""
 "                    คุณไม่สามารถกำหนดแพ็คเกจให้พวกเขาโดยไม่ย้ายไปยังตำแหน่งทั่วไปได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "The quantity done for the product \"%(product)s\" doesn't respect the "
@@ -9827,13 +9827,13 @@ msgstr ""
 "โปรดเปลี่ยนปริมาณที่ทำหรือความแม่นยำในการปัดเศษของหน่วยวัดของคุณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "The quantity per lot should always be a positive value."
 msgstr "ปริมาณต่อล็อตควรเป็นค่าบวกเสมอ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "The requested operation cannot be processed because of a programming error "
@@ -9843,7 +9843,7 @@ msgstr ""
 "`product_qty` แทนที่จะเป็น `product_uom_qty`"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "The selected Inventory Frequency (Days) creates a date too far into the "
@@ -9851,7 +9851,7 @@ msgid ""
 msgstr "ความถี่ของสินค้าคงคลังที่เลือก (วัน) ทำให้วันที่ไกลมากเกินไปในอนาคต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "The serial number has already been assigned: \n"
@@ -9890,7 +9890,7 @@ msgid "The stock rule that created this stock move"
 msgstr "กฎสต็อกที่สร้างการย้ายสต็อกนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "There are no inventory adjustments to revert."
 msgstr "ไม่มีการปรับสินค้าคงคลังที่จะเปลี่ยนกลับ"
@@ -9985,14 +9985,14 @@ msgid ""
 msgstr "ตำแหน่งนี้ (หากเป็นสถานที่ภายใน) และตำแหน่งรองทั้งหมดจะถูกกรองตาม type=Internal"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "This location's usage cannot be changed to view as it contains products."
 msgstr "ไม่สามารถเปลี่ยนการใช้งานของสถานที่นี้เพื่อดูได้เนื่องจากมีสินค้าอยู่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "This lot %(lot_name)s is incompatible with this product %(product_name)s"
@@ -10041,13 +10041,13 @@ msgid ""
 msgstr "หมายเหตุนี้จะถูกเพิ่มลงในใบสั่งรับสินค้า (เช่น สถานที่จัดเก็บสินค้าในคลังสินค้า)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_package.py:0
 msgid "This package is currently set to be sent in %(location_names_list)s."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product has been used in at least one inventory movement. It is not "
@@ -10059,7 +10059,7 @@ msgstr ""
 "วิธีแก้ปัญหาที่ดีกว่าอาจเป็นการเก็บถาวรสินค้าและสร้างสินค้าใหม่แทน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product's company cannot be changed as long as there are quantities of "
@@ -10067,7 +10067,7 @@ msgid ""
 msgstr "บริษัทของสินค้านี้ ไม่สามารถเปลี่ยนแปลงได้ตราบใดที่ยังมีปริมาณที่เป็นของบริษัทอื่น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "This product's company cannot be changed as long as there are stock moves of "
@@ -10075,19 +10075,19 @@ msgid ""
 msgstr "บริษัทของสินค้านี้ ไม่สามารถเปลี่ยนแปลงได้ตราบใดที่มีการย้ายสต็อกของบริษัทอื่น"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/list/inventory_report_list_model.js:0
 msgid "This record already exists"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/report/report_stock_reception.py:0
 msgid "This report cannot be used for done and not done %s at the same time"
 msgstr "รายงานนี้ไม่สามารถใช้สำหรับ %s ที่เสร็จสิ้นและยังไม่เสร็จสิ้นในเวลาเดียวกันได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "This sequence prefix is already being used by another operation type. It is "
@@ -10133,13 +10133,13 @@ msgid "This will discard all unapplied counts, do you want to proceed?"
 msgstr "การดำเนินการนี้จะยกเลิกการนับที่ไม่ได้ใช้ทั้งหมด คุณต้องการดำเนินการต่อหรือไม่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid "Time Horizon"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 msgid "Time to replenish:"
 msgstr ""
@@ -10157,7 +10157,7 @@ msgid "Tip: Speed up inventory operations with barcodes"
 msgstr "เคล็ดลับ: เพิ่มความเร็วในการดำเนินการสินค้าคงคลังด้วยบาร์โค้ด"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__location_dest_id
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -10239,8 +10239,8 @@ msgid "To Reorder"
 msgstr "เพื่อสั่งซื้อซ้ำ"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
@@ -10256,7 +10256,7 @@ msgid "Today Activities"
 msgstr "กิจกรรมวันนี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__day_1
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -10346,7 +10346,7 @@ msgid "Traceability"
 msgstr "การติดตามย้อนกลับ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.js:0
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.actions.client,name:stock.action_stock_report
@@ -10425,7 +10425,7 @@ msgid "Transfer to"
 msgstr "โอนย้ายไปยัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "Transfer trouble alert! Validating a zero quantity transfer? You're not "
@@ -10442,7 +10442,7 @@ msgid "Transfered Packages"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_all
 #: model:ir.model.fields,field_description:stock.field_stock_lot__delivery_ids
@@ -10457,7 +10457,7 @@ msgid "Transfers"
 msgstr "โอน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Transfers %s: Please add some items to move."
 msgstr "การโอนย้าย %s: กรุณาเพิ่มบางรายการที่จะย้าย"
@@ -10517,7 +10517,7 @@ msgid "Trigger replenishment suggestions for this location when required"
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/stock_forecasted.js:0
 msgid "Try to add some incoming or outgoing transfers."
 msgstr "ลองเพิ่มการโอนย้ายขาเข้าหรือขาออก"
@@ -10557,13 +10557,13 @@ msgid "USPS Connector"
 msgstr "ตัวเชื่อมต่อ USPS"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/components/reception_report_line/stock_reception_report_line.xml:0
 msgid "Unassign"
 msgstr "ไม่ได้มอบหมาย"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "Unavailable Serial numbers. Please correct the serial numbers encoded: %"
@@ -10573,7 +10573,7 @@ msgstr ""
 "(serial_numbers_to_locations)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 msgid "Unfold"
 msgstr "กางออก"
@@ -10636,7 +10636,7 @@ msgid "Unpack"
 msgstr "แก้ห่อ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 #: model:ir.actions.server,name:stock.action_unreserve_picking
 #: model_terms:ir.ui.view,arch_db:stock.vpicktree
@@ -10654,15 +10654,15 @@ msgid "Update Quantities"
 msgstr "อัปเดตปริมาณ"
 
 #. module: stock
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 #: code:addons/stock/static/src/stock_forecasted/forecasted_buttons.xml:0
 msgid "Update Quantity"
 msgstr "อัปเดตปริมาณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "Updating the location of this transfer will result in unreservation of the "
@@ -10712,7 +10712,7 @@ msgid "Use your own routes"
 msgstr "ใช้เส้นทางของคุณเอง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Used by"
 msgstr "ใช้โดย"
@@ -10742,7 +10742,7 @@ msgid "Validate"
 msgstr "ตรวจสอบ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/xml/inventory_lines.xml:0
 msgid "Validate Inventory"
 msgstr "ตรวจสอบสินค้าคงคลัง"
@@ -10921,19 +10921,19 @@ msgid "Warehouse view location"
 msgstr "ตำแหน่งมุมมองคลังสินค้า"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "Warehouse's Routes"
 msgstr "เส้นทางของคลังสินค้า"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_warehouse_filter.xml:0
 msgid "Warehouse:"
 msgstr "คลังสินค้า:"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_report_search_panel.xml:0
 #: model:ir.actions.act_window,name:stock.action_warehouse_form
 #: model:ir.model.fields,field_description:stock.field_stock_route__warehouse_ids
@@ -10955,7 +10955,7 @@ msgid "Warn Insufficient Scrap Quantity"
 msgstr "เตือนปริมาณ เศษเหลือของสินค้าไม่เพียงพอ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product_strategy.py:0
 #: code:addons/stock/models/stock_move.py:0
 #: code:addons/stock/models/stock_move_line.py:0
@@ -10971,13 +10971,13 @@ msgid "Warning Message"
 msgstr "ข้อความเตือน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid "Warning!"
 msgstr "คำเตือน!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Warning: change source location"
 msgstr ""
@@ -11078,7 +11078,7 @@ msgid "When product arrives in"
 msgstr "เมื่อสินค้ามาถึงที่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%(destination)s</b>, <br> <b>%(operation)s</"
@@ -11087,7 +11087,7 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_rule.py:0
 msgid ""
 "When products arrive in <b>%(source_location)s</b>, <br> <b>%(operation)s</"
@@ -11179,13 +11179,13 @@ msgid "Wizard"
 msgstr "ตัวช่วย"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Write one lot/serial name per line, followed by the quantity."
 msgstr "เขียนชื่อล็อต/ซีเรียลต่อบรรทัด ตามด้วยปริมาณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__search_date_category__yesterday
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -11218,7 +11218,7 @@ msgid "You are good, no replenishment to perform!"
 msgstr "คุณเก่งมาก ไม่มีการเติมสินค้าให้แสดง!"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to change the product linked to a serial or lot number "
@@ -11230,7 +11230,7 @@ msgstr ""
 "สิ่งนี้จะนำไปสู่ความไม่สอดคล้องกันในสต็อกของคุณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You are not allowed to create a lot or serial number with this operation "
@@ -11269,31 +11269,31 @@ msgid "You can either :"
 msgstr "คุณสามารถ:"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "You can not create a snoozed orderpoint that is not manually triggered."
 msgstr "คุณไม่สามารถสร้างจุดสั่งซื้อที่ถูกพักไว้ซึ่งไม่ได้ถูกเรียกใช้งานด้วยตนเองได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You can not delete moves linked to another operation"
 msgstr "คุณไม่สามารถลบการย้ายที่เชื่อมโยงกับการดำเนินการอื่นได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "You can not enter negative quantities."
 msgstr "คุณไม่สามารถป้อนปริมาณที่มีค่าเป็นลบได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "You can only enter positive quantities."
 msgstr "คุณสามารถป้อนได้เฉพาะปริมาณที่มีค่าเป็นบวกเท่านั้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You can only move a lot/serial to a new location if it exists in a single "
@@ -11301,7 +11301,7 @@ msgid ""
 msgstr "คุณสามารถย้ายล็อต/ซีเรียลไปยังตำแหน่งใหม่ได้เท่านั้น หากมีอยู่ในตำแหน่งเดียว"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "You can only move positive quantities stored in locations used by a single "
@@ -11309,13 +11309,13 @@ msgid ""
 msgstr "คุณสามารถย้ายปริมาณบวกที่จัดเก็บไว้ในสถานที่ที่ใช้โดยบริษัทเดียวต่อการย้ายสถานที่เท่านั้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid "You can only process 1.0 %s of products with unique serial number."
 msgstr "คุณสามารถดำเนินการได้เพียง 1.0 %s ของสินค้าที่มีหมายเลขซีเรียลที่ไม่ซ้ำกัน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid ""
 "You can only snooze manual orderpoints. You should rather archive 'auto-"
@@ -11325,7 +11325,7 @@ msgstr ""
 "'ทริกเกอร์อัตโนมัติ' ไว้เป็นไฟล์ถาวร หากคุณไม่ต้องการให้จุดสั่งซื้อเหล่านั้นถูกทริกเกอร์"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
 "You can't deactivate the multi-location if you have more than once warehouse "
@@ -11333,13 +11333,13 @@ msgid ""
 msgstr "คุณไม่สามารถปิดใช้งานสถานที่หลายแห่งได้ ถ้าคุณมีคลังสินค้ามากกว่าหนึ่งแห่งโดยเรียงตามบริษัท"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid "You can't disable locations %s because they still contain products."
 msgstr "คุณไม่สามารถปิดการใช้งานสถานที่ %s ได้ เนื่องจากยังคงมีสินค้าอยู่"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "You cannot archive location %(location)s because it is used by warehouse %"
@@ -11348,7 +11348,7 @@ msgstr ""
 "คุณไม่สามารถเก็บถาวรตำแหน่ง %(location)s ได้ เนื่องจากถูกใช้โดยคลังสินค้า %(warehouse)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "You cannot cancel a stock move that has been set to 'Done'. Create a return "
@@ -11358,25 +11358,25 @@ msgstr ""
 "สร้างการส่งคืนเพื่อย้อนกลับการย้ายที่เกิดขึ้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot change a cancelled stock move, create a new line instead."
 msgstr "คุณไม่สามารถเปลี่ยนแปลงการย้ายสต็อกที่ถูกยกเลิกได้ ให้สร้างรายการใหม่แทน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "You cannot change the Scheduled Date on a cancelled transfer."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot change the UoM for a stock move that has been set to 'Done'."
 msgstr "คุณไม่สามารถเปลี่ยน UoM สำหรับการย้ายสต็อกที่ถูกตั้งค่าเป็น 'เสร็จสิ้น' ได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_lot.py:0
 msgid ""
 "You cannot change the company of a lot/serial number currently in a location "
@@ -11384,7 +11384,7 @@ msgid ""
 msgstr "คุณไม่สามารถเปลี่ยนบริษัทของล็อต/หมายเลขซีเรียลที่อยู่ในตำแหน่งที่ตั้งของบริษัทอื่นได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "You cannot change the ratio of this unit of measure as some products with "
@@ -11394,25 +11394,25 @@ msgstr ""
 "นี้ได้ถูกย้ายหรือถูกสำรองไว้แล้วในปัจจุบัน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "You cannot delete a scrap which is done."
 msgstr "คุณไม่สามารถลบเศษสินค้าที่ทำเสร็จแล้วได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "You cannot duplicate stock quants."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "You cannot modify inventory loss quantity"
 msgstr "คุณไม่สามารถแก้ไขปริมาณที่สูญเสียในสินค้าคงคลังได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid ""
 "You cannot move the same package content more than once in the same transfer "
@@ -11422,7 +11422,7 @@ msgstr ""
 "หรือแยกแพ็คเกจเดียวกันออกเป็นสองตำแหน่ง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You cannot pack products into the same package when they are from different "
@@ -11430,7 +11430,7 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_location.py:0
 msgid ""
 "You cannot set a location as a scrap location when it is assigned as a "
@@ -11440,19 +11440,19 @@ msgstr ""
 "เมื่อถูกกำหนดให้เป็นสถานที่ปลายทางสำหรับการดำเนินงานชนิดการผลิต"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot split a draft move. It needs to be confirmed first."
 msgstr "คุณไม่สามารถแบ่งแบบร่างการย้าย มันต้องได้รับการยืนยันก่อน"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot split a stock move that has been set to 'Done' or 'Cancel'."
 msgstr "คุณไม่สามารถแยกการย้ายสต็อกที่ตั้งค่าเป็น 'เสร็จสิ้น' หรือ 'ยกเลิก' ได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid ""
 "You cannot take products from or deliver products to a location of type "
@@ -11460,13 +11460,13 @@ msgid ""
 msgstr "คุณไม่สามารถนำสินค้าออกจากหรือส่งสินค้าไปยังตำแหน่งประเภท \"มุมมอง\" ได้ (%s)"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You cannot unreserve a stock move that has been set to 'Done'."
 msgstr "คุณไม่สามารถยกเลิกการสำรองการย้ายสต็อกที่ตั้งค่าเป็น 'เสร็จสิ้น' ได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You cannot use the same serial number twice. Please correct the serial "
@@ -11474,7 +11474,7 @@ msgid ""
 msgstr "คุณไม่สามารถใช้หมายเลขซีเรียลเดียวกันสองครั้งได้ โปรดแก้ไขหมายเลขซีเรียลที่เข้ารหัส"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "You can’t validate an empty transfer. Please add some products to move "
@@ -11488,7 +11488,7 @@ msgid "You have processed less products than the initial demand."
 msgstr "คุณได้บันทึกสินค้าน้อยกว่าความต้องการเริ่มต้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/res_config_settings.py:0
 msgid ""
 "You have product(s) in stock that have lot/serial number tracking enabled. \n"
@@ -11498,7 +11498,7 @@ msgstr ""
 "ปิดการติดตามสินค้าทั้งหมดก่อนที่จะปิดการตั้งค่านี้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/product.py:0
 msgid ""
 "You have product(s) in stock that have no lot/serial number. You can assign "
@@ -11508,25 +11508,25 @@ msgstr ""
 "หมายเลขซีเรียลได้โดยการปรับสินค้าคงคลัง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "You may only return Done pickings."
 msgstr "คุณสามารถส่งคืนได้เฉพาะการเลือกที่เสร็จสิ้นแล้วเท่านั้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/wizard/stock_picking_return.py:0
 msgid "You may only return one picking at a time."
 msgstr "คุณสามารถคืนสินค้าได้ครั้งละหนึ่งรายการเท่านั้น"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move.py:0
 msgid "You need a transfer to add these packages to."
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid ""
 "You need to activate storage locations to be able to do internal operation "
@@ -11534,7 +11534,7 @@ msgid ""
 msgstr "คุณต้องเปิดใช้งานสถานที่จัดเก็บ เพื่อให้สามารถดำเนินการประเภทภายในได้"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 msgid ""
 "You need to supply a Lot/Serial Number for product:\n"
@@ -11544,7 +11544,7 @@ msgstr ""
 "%(products)s"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "You need to supply a Lot/Serial number for products %s."
 msgstr "คุณต้องระบุหมายเลขล็อต/หมายเลขซีเรียลสำหรับสินค้า %s"
@@ -11555,7 +11555,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "คุณควรอัปเดตเอกสารนี้เพื่อให้สอดคล้องกับข้อกำหนดและเงื่อนไขของคุณ"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid ""
 "You still have ongoing operations for operation types %(operations)s in "
@@ -11565,7 +11565,7 @@ msgstr ""
 "(warehouse)s"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/list/inventory_report_list_model.js:0
 msgid ""
 "You tried to create a record that already exists. The existing record was "
@@ -11602,7 +11602,7 @@ msgid ""
 msgstr ""
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Your stock is currently empty"
 msgstr "ขณะนี้สต็อกของคุณว่างเปล่า"
@@ -11754,13 +11754,13 @@ msgid "closest"
 msgstr "ใกล้ที่สุด"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 msgid "day(s)"
 msgstr "วัน"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/views/search/stock_orderpoint_search_panel.xml:0
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
@@ -11793,7 +11793,7 @@ msgid "e.g. Central Warehouse"
 msgstr "เช่น คลังสินค้ากลาง"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "e.g. LOT-PR-00012"
 msgstr "เช่น LOT-PR-00012"
@@ -11849,7 +11849,7 @@ msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
 msgstr "เช่น d7vctmiv2rwgenebha8bxq7irooudn"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "expected on"
 msgstr ""
@@ -11865,7 +11865,7 @@ msgid "from location"
 msgstr "จากตำแหน่ง"
 
 #. module: stock
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/stock/models/stock_move_line.py:0
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "id"
@@ -11902,7 +11902,7 @@ msgid "of"
 msgstr "ของ"
 
 #. module: stock
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/stock/static/src/widgets/stock_rescheduling_popover.xml:0
 msgid "planned on"
 msgstr "วางแผนไว้"

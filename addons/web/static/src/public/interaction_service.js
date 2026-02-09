@@ -59,7 +59,7 @@ class InteractionService {
 
     prepareRoot(el, C, props, position = "beforeend") {
         if (!this.owlApp) {
-            const { App } = BetopiaERP.loader.modules.get("@BetopiaERP/owl");
+            const { App } = betopiaerp.loader.modules.get("@betopiaerp/owl");
             const appConfig = {
                 name: "BetopiaERP Website",
                 getTemplate,

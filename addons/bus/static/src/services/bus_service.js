@@ -3,7 +3,7 @@ import { _t } from "@web/core/l10n/translation";
 import { Deferred } from "@web/core/utils/concurrency";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";
-import { EventBus, reactive } from "@BetopiaERP/owl";
+import { EventBus, reactive } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 
 // List of worker events that should not be broadcasted.
@@ -140,7 +140,7 @@ export const busService = {
                         session.websocket_worker_version
                     }`,
                     db: session.db,
-                    debug: BetopiaERP.debug,
+                    debug: betopiaerp.debug,
                     lastNotificationId: legacyMultiTab.getSharedValue("last_notification_id", 0),
                     uid,
                     startTs: startedAt.valueOf(),

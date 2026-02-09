@@ -3,8 +3,8 @@
 import { MultiRecordSelector } from "@web/core/record_selectors/multi_record_selector";
 import { DateFilterValue } from "../date_filter_value/date_filter_value";
 
-import { Component, onWillStart } from "@BetopiaERP/owl";
-import { components } from "@BetopiaERP/o-spreadsheet";
+import { Component, onWillStart } from "@betopiaerp/owl";
+import { components } from "@betopiaerp/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";
 import { Domain } from "@web/core/domain";

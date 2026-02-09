@@ -1,4 +1,4 @@
-import { after } from "@BetopiaERP/hoot";
+import { after } from "@betopiaerp/hoot";
 import { serverState } from "./mock_server_state.hoot";
 import { patchWithCleanup } from "./patch_test_helpers";
 

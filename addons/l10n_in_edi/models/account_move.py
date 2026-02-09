@@ -211,7 +211,7 @@ class AccountMove(models.Model):
             json_payload=generate_json
         )
         if error := response.get('error', {}):
-            BetopiaERPbot_id = self.env.ref('base.partner_root').id
+            betopiaerpbot_id = self.env.ref('base.partner_root').id
             error_codes = [e.get("code") for e in error]
             if '2150' in error_codes:
                 # Get IRN by details in case of IRN is already generated
@@ -265,7 +265,7 @@ class AccountMove(models.Model):
                         "<a href='https://einvoice1.gst.gov.in/Others/VSignedInvoice'>%s</a>"
                     ) % (_("here"))
                     self.message_post(
-                        author_id=BetopiaERPbot_id,
+                        author_id=betopiaerpbot_id,
                         body=_(
                             "Somehow this invoice has been submited to government before."
                             "%(br)sNormally, this should not happen too often"
@@ -340,8 +340,8 @@ class AccountMove(models.Model):
             "CnlRem": self.l10n_in_edi_cancel_remarks,
         }
         response = self._l10n_in_edi_connect_to_server(url_end_point='cancel', json_payload=cancel_json)
-        # Creating a lambda function so it fetches the BetopiaERPbot id only when needed
-        _get_BetopiaERPbot_id = (
+        # Creating a lambda function so it fetches the betopiaerpbot id only when needed
+        _get_betopiaerpbot_id = (
             lambda self: self.env.ref('base.partner_root').id
         )
         if error := response.get('error'):
@@ -353,7 +353,7 @@ class AccountMove(models.Model):
                     "<a href='https://einvoice1.gst.gov.in/Others/VSignedInvoice'>%s</a>"
                 ) % (_("here"))
                 self.message_post(
-                    author_id=_get_BetopiaERPbot_id(self),
+                    author_id=_get_betopiaerpbot_id(self),
                     body=_(
                         "Somehow this invoice had been cancelled to government before."
                         "%(br)sNormally, this should not happen too often"
@@ -392,7 +392,7 @@ class AccountMove(models.Model):
                 'res_id': self.id,
                 'mimetype': 'application/json',
             })
-            self.message_post(author_id=_get_BetopiaERPbot_id(self), body=_(
+            self.message_post(author_id=_get_betopiaerpbot_id(self), body=_(
                 "E-Invoice has been cancelled successfully. "
                 "Cancellation Reason: %(reason)s and Cancellation Remark: %(remark)s",
                 reason=EDI_CANCEL_REASON[self.l10n_in_edi_cancel_reason],
@@ -800,7 +800,7 @@ class AccountMove(models.Model):
             }
         if (error := response.get('error')) and '1005' in [e.get("code") for e in error]:
             # Invalid token error then create new token and send generate request again.
-            # This happen when authenticate called from another BetopiaERP instance with same credentials (like. Demo/Test)
+            # This happen when authenticate called from another betopiaerp instance with same credentials (like. Demo/Test)
             authenticate_response = company._l10n_in_edi_authenticate()
             if not authenticate_response.get("error"):
                 response = self._l10n_in_edi_connect_to_server(

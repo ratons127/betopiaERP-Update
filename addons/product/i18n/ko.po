@@ -6,9 +6,9 @@
 # JH CHOI <hwangtog@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Sarah Park, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025, 2026.
-# "Malaz Siddig Elsayed Abuidris (msea)" <msea@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025, 2026.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
 msgstr ""
@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-30 07:44+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/product/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/product/"
 "ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 "X-Generator: Weblate 5.14.3\n"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "\n"
@@ -61,7 +61,7 @@ msgid "$15.00"
 msgstr "$15.00"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
@@ -73,7 +73,7 @@ msgstr ""
 "예: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "%(item_name)s: end date (%(end_date)s) should be after start date (%"
@@ -83,25 +83,25 @@ msgstr ""
 "야 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
 msgstr "%(percentage)s %% %(base)s %(extra)s %(discount_type)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on %(pricelist)s"
 msgstr "%(percentage)s %% %(pricelist)s 할인"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on sales price"
 msgstr "%(percentage)s %% 판매가 할인"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_category.py:0
 #: code:addons/product/models/product_pricelist.py:0
 #: code:addons/product/models/product_tag.py:0
@@ -124,25 +124,25 @@ msgid "'Products packaging - %s' % (object.uom_id.name)"
 msgstr "품목 포장 - %s' % (object.uom_id.name)"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "(e.g: product description, ebook, legal notice, ...)."
 msgstr "예: 품목 설명, 전자책, 법적 고지 등"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "+ %(amount)s extra fee"
 msgstr "+ %(amount)s 추가 수수료"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "- %(amount)s rebate"
 msgstr "- %(amount)s 리베이트"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
@@ -390,25 +390,25 @@ msgid "A barcode can only be assigned to one packaging."
 msgstr "바코드는 하나의 포장에만 할당할 수 있습니다!"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
 msgstr "콤보 선택에는 중복된 품목이 포함될 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
 msgstr "콤보 선택에는 \"콤보\" 유형의 품목이 포함될 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
 msgstr "콤보 선택에는 품목이 최소 1개 이상 포함되어야 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
 msgstr "콤보 품목에는 콤보 선택 품목이 최소 1개 이상 포함되어야 합니다."
@@ -425,7 +425,7 @@ msgstr ""
 "객 청구서/신용전표에 복사됩니다"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "A packaging already uses the barcode"
 msgstr "이미 바코드가 사용되고 있는 포장입니다"
@@ -444,7 +444,7 @@ msgstr ""
 "을 처리 할 수 있는 완벽한 도구입니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "A pricelist item with \"Other Pricelist\" as base must have a "
@@ -454,13 +454,13 @@ msgstr ""
 "야 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_uom.py:0
 msgid "A product already uses the barcode"
 msgstr "이미 바코드가 사용되고 있는 품목입니다"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "A sellable combo product can only contain sellable products."
 msgstr "판매 가능한 콤보 품목에는 판매가 가능한 품목만 포함될 수 있습니다."
@@ -542,19 +542,19 @@ msgid "Activity Type Icon"
 msgstr "활동 유형 아이콘"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Add"
 msgstr "추가"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add Products"
 msgstr "품목 추가"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Add Products to pricelist report"
 msgstr "가격표 보고서에 품목 추가"
@@ -565,13 +565,13 @@ msgid "Add a price"
 msgstr "가격 추가하기"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add a quantity"
 msgstr "수량 추가"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
@@ -581,7 +581,7 @@ msgstr ""
 "                                보고서에 포함시킵니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
 msgstr "모든 품목에 추가"
@@ -613,7 +613,7 @@ msgid "All"
 msgstr "전체"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "All Categories"
 msgstr "모든 범주"
@@ -629,7 +629,7 @@ msgid "All Product Variants using this Tag"
 msgstr "이 태그를 사용하는 품목 속성 전체"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__3_global
 msgid "All Products"
@@ -646,7 +646,7 @@ msgid "All countries"
 msgstr "모든 국가"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/product_document.py:0
 msgid "All files uploaded"
 msgstr "모든 파일을 업로드 했습니다"
@@ -723,7 +723,7 @@ msgid "Assigns the priority to the list of product vendor."
 msgstr "품목 공급업체 목록에 우선 순위를 지정합니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid ""
 "At most %s quantities can be displayed simultaneously. Remove a selected "
@@ -804,13 +804,13 @@ msgid "Attributes & Variants"
 msgstr "속성 및 세부 옵션"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Order"
 msgstr "주문으로 돌아가기"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Quotation"
 msgstr "견적서로 돌아가기"
@@ -823,7 +823,7 @@ msgid "Barcode"
 msgstr "바코드"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid ""
 "Barcode(s) already assigned:\n"
@@ -903,7 +903,7 @@ msgid "Brown"
 msgstr "브라운"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Bye-bye, record!"
 msgstr "안녕, 기록!"
@@ -949,13 +949,13 @@ msgid "Category"
 msgstr "카테고리"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Category: %s"
 msgstr "범주 : %s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid ""
@@ -1056,13 +1056,13 @@ msgid "Combo Price"
 msgstr "콤보 가격"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Combo products can't have attributes."
 msgstr "콤보 제품에는 속성을 추가할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
@@ -1201,7 +1201,7 @@ msgid "Create a new product variant"
 msgstr "새로운 세부선택 품목 생성"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "Create a product"
 msgstr "품목 생성"
@@ -1324,7 +1324,7 @@ msgid "Database Data"
 msgstr "데이터베이스 데이터"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/res_company.py:0
 msgid "Default"
 msgstr "기본"
@@ -1361,7 +1361,7 @@ msgid "Define your weight unit of measure"
 msgstr "무게 측정 단위를 선택하세요"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Delete"
@@ -1491,7 +1491,7 @@ msgid "Document"
 msgstr "문서"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 #: model:ir.model.fields,field_description:product.field_product_product__product_document_ids
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_ids
@@ -1521,7 +1521,7 @@ msgid "Download"
 msgstr "다운로드"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Download examples"
 msgstr "다운로드 예시"
@@ -1608,7 +1608,7 @@ msgid "Ergonomic"
 msgstr "인체공학적"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
 msgstr "파일을 내보내는 중에 오류가 발생했습니다. 다시 시도하세요."
@@ -2032,19 +2032,19 @@ msgid "Image is a link"
 msgstr "이미지는 링크입니다"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Import Template for Pricelists"
 msgstr "가격표 서식 가져오기"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Import Template for Products"
 msgstr "품목 가져오기"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_supplierinfo.py:0
 msgid "Import Template for Vendor Pricelists"
 msgstr "공급업체 가격표 서식 가져오기"
@@ -2087,7 +2087,7 @@ msgid "International Article Number used for product identification."
 msgstr "품목 식별을 위한 국제 상품 번호 (EAN)입니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Invalid Operation"
 msgstr "잘못된 작업"
@@ -2158,7 +2158,7 @@ msgid "LG"
 msgstr "LG"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "Labels cannot be printed for products of service type"
@@ -2482,7 +2482,7 @@ msgid "Never"
 msgstr "전혀 그렇지 않음"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "New"
 msgstr "신규"
@@ -2536,7 +2536,7 @@ msgid "Nivea"
 msgstr "Nivea"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid ""
 "No product to print, if the product is archived please unarchive it before "
@@ -2546,13 +2546,13 @@ msgstr ""
 "소해야 합니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "No products could be found."
 msgstr "품목을 찾을 수 없습니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
 msgstr "보고서에서 품목을 찾을 수 없음"
@@ -2563,7 +2563,7 @@ msgid "No vendor pricelist found"
 msgstr "공급업체 가격표를 찾을 수 없습니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "No, keep it"
 msgstr "아니요, 보관합니다."
@@ -2574,7 +2574,7 @@ msgid "Noise-reducing panels for open spaces"
 msgstr "개방형 공간용 소음 방지 패널"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "Note:"
@@ -2658,7 +2658,7 @@ msgid "Olive"
 msgstr "올리브"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "On the product %(product)s you cannot associate the value %(value)s with the "
@@ -2668,7 +2668,7 @@ msgstr ""
 "과 연결할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "On the product %(product)s you cannot transform the attribute %"
@@ -2678,7 +2678,7 @@ msgstr ""
 "경할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
@@ -2733,7 +2733,7 @@ msgid "Package Type A"
 msgstr "패키지 유형 A"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/uom_uom.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_uom_list_view
 msgid "Packaging Barcodes"
@@ -2801,13 +2801,13 @@ msgid "Pink"
 msgstr "핑크"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please enter a positive whole number."
 msgstr "양수를 입력하십시오."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_document.py:0
 msgid ""
 "Please enter a valid URL.\n"
@@ -2821,25 +2821,25 @@ msgstr ""
 "유효하지 않은 URL: %s"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
 msgstr "먼저 품목을 선택하세요."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the category for which this rule should be applied"
 msgstr "이 규칙을 적용할 범주를 지정하십시오"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the product for which this rule should be applied"
 msgstr "이 규칙을 적용할 품목을 지정하십시오"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "Please specify the product variant for which this rule should be applied"
@@ -2898,7 +2898,7 @@ msgid "Price:"
 msgstr "가격 :"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 #: model:ir.actions.report,name:product.action_report_pricelist
 #: model:ir.model,name:product.model_product_pricelist
@@ -2924,7 +2924,7 @@ msgid "Pricelist Name"
 msgstr "가격표 이름"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 #: model:ir.actions.server,name:product.action_product_price_list_report
 #: model:ir.actions.server,name:product.action_product_template_price_list_report
@@ -2933,7 +2933,7 @@ msgid "Pricelist Report"
 msgstr "가격표 보고서"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
 msgstr "가격표 보고서 미리보기"
@@ -2971,7 +2971,7 @@ msgid "Pricing"
 msgstr "가격 책정"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
@@ -2991,7 +2991,7 @@ msgid "Private pod with desk and chair"
 msgstr ""
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 #: model:ir.model,name:product.model_product_template
 #: model:ir.model.fields,field_description:product.field_product_label_layout__product_ids
@@ -3230,7 +3230,7 @@ msgid "Product Variant"
 msgstr "품목 세부선택"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid "Product Variant Values"
 msgstr "품목 세부선택 값"
@@ -3247,13 +3247,13 @@ msgid "Product Variants"
 msgstr "품목 세부사항"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/report/product_label_report.py:0
 msgid "Product model not defined, Please contact your administrator."
 msgstr "품목 모델이 정의되지 않았습니다. 관리자에게 문의하십시오."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 #: code:addons/product/models/product_catalog_mixin.py:0
 #: model:ir.actions.act_window,name:product.product_template_action
@@ -3288,7 +3288,7 @@ msgid "Products Price Search"
 msgstr "품목 가격 검색"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "Products: %(category)s"
 msgstr "품목: %(category)s"
@@ -3328,7 +3328,7 @@ msgid "Purple"
 msgstr "보라색"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Quantities"
 msgstr "수량"
@@ -3344,13 +3344,13 @@ msgid "Quantity"
 msgstr "수량"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
 msgstr "수량 (%s 단위)"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Quantity already present (%s)."
 msgstr "이미 존재하는 수량 (%s)."
@@ -3371,7 +3371,7 @@ msgid "Ray-Ban"
 msgstr "Ray-Ban"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Recursive pricelist rules detected: %s"
 msgstr "가격표 순환 규칙 감지: %s"
@@ -3417,13 +3417,13 @@ msgid "Related attachment"
 msgstr "관련 첨부 파일"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Remove"
 msgstr "제거"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Remove quantity"
 msgstr "수량 제거"
@@ -3526,7 +3526,7 @@ msgid "Samsung"
 msgstr "Samsung"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_name_and_description/product_name_and_description.js:0
 msgid "Search a product"
 msgstr "품목 검색"
@@ -3579,7 +3579,7 @@ msgid "Shoes size"
 msgstr "신발 사이즈"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Show Name"
 msgstr "이름 보기"
@@ -3755,19 +3755,19 @@ msgid "Template Values"
 msgstr "서식 파일 값"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "The Internal Reference '%s' already exists."
 msgstr "'%s' 내부 참조 항목이 이미 있습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 msgid "The Reference '%s' already exists."
 msgstr "참조 '%s'가 이미 존재합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "The attribute %(attribute)s must have at least one value for the product %"
@@ -3784,7 +3784,7 @@ msgid ""
 msgstr "하나 이상의 품목에서 값을 사용한 후에는 사양을 변경할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "The cost of a product can't be negative."
@@ -3817,7 +3817,7 @@ msgstr ""
 "최소 높이는 65 cm 이고, 스탠딩으로 바꿀 경우에는 최대 높이는 125 cm 입니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The minimum margin should be lower than the maximum margin."
 msgstr "최소 마진은 최대 마진보다 낮아야 합니다."
@@ -3842,7 +3842,7 @@ msgid ""
 msgstr "이 카테고리에 속하는 품목 수 (하위 카테고리는 고려하지 않음)"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "The number of variants to generate is above allowed limit. You should either "
@@ -3860,7 +3860,7 @@ msgid "The price to purchase a product"
 msgstr "품목 구매 가격"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "The product template is archived so no combination is possible."
 msgstr "품목 양식이 보관되어 있어서 조합할 수 없습니다."
@@ -3877,7 +3877,7 @@ msgstr ""
 "본 단위로 입력해야 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The rounding method must be strictly positive."
 msgstr "올림 방법은 반드시 양수여야 합니다."
@@ -3893,7 +3893,7 @@ msgstr ""
 "목 설정' 버튼을 클릭하세요."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "The value %(value)s is not defined for the attribute %(attribute)s on the "
@@ -3903,25 +3903,25 @@ msgstr ""
 "다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no possible combination."
 msgstr "가능한 조합이 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining closest combination."
 msgstr "남아있는 가까운 조합이 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining possible combination."
 msgstr "남아있는 가능한 조합이 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "This configuration of product attributes, values, and exclusions would lead "
@@ -3947,7 +3947,7 @@ msgid "This note is only for internal purposes."
 msgstr "이 메모는 내부 용도로 사용됩니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
@@ -4009,14 +4009,14 @@ msgid "Type of the exception activity on record."
 msgstr "레코드에 있는 예외 활동의 유형입니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/controllers/pricelist_report.py:0
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "UOM"
 msgstr "단위"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "Unable to find report template for %s format"
 msgstr "%s 형식의 보고서 서식을 찾을 수 없습니다."
@@ -4063,7 +4063,7 @@ msgid "Unit Price"
 msgstr "단가"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_model.js:0
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Units"
@@ -4090,7 +4090,7 @@ msgid "Update product attribute value"
 msgstr "품목 속성 값 업데이트"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
 msgstr "품목 추가 가격 업데이트"
@@ -4101,13 +4101,13 @@ msgid "Update the extra price on existing products"
 msgstr "기존 품목의 추가 가격 업데이트"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.xml:0
 msgid "Upload"
 msgstr "업로드"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid "Upload files to your product"
 msgstr "품목에 파일 업로드하기"
@@ -4130,7 +4130,7 @@ msgid ""
 msgstr "할인 규칙을 적용하고 설정을 활성화하여 고객에게 할인을 표시합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
 "Use this feature to store any files you would like to share with your "
@@ -4149,7 +4149,7 @@ msgid "Used on Products"
 msgstr "품목에 사용"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Username"
 msgstr "사용자 이름"
@@ -4273,7 +4273,7 @@ msgid "Variant Values"
 msgstr "세부사항항목 값"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Variant: %s"
 msgstr "세부선택사항 : %s"
@@ -4410,7 +4410,7 @@ msgid "Weight unit of measure label"
 msgstr "무게 단위 라벨"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "What to expect ?"
@@ -4458,7 +4458,7 @@ msgid "Yellow"
 msgstr "노란색"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
@@ -4467,13 +4467,13 @@ msgstr ""
 "%(product_count)s 품목에 \"%(attribute_value)s\" 값을 추가하려고 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
 msgstr "%s 품목의 추가 가격을 업데이트하려고 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/res_config_settings.py:0
 msgid ""
 "You are deactivating the pricelist feature. Every active pricelist will be "
@@ -4519,20 +4519,20 @@ msgid ""
 msgstr "속성 값의 색상으로 사용할 이미지를 업로드할 수 있습니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "You can't edit this product in the catalog."
 msgstr "카탈로그에서 이 품목을 편집할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 msgstr "아직 연결된 품목이 있으므로 이 속성을 보관할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
@@ -4544,7 +4544,7 @@ msgstr ""
 "%(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 "You cannot change the attribute of the value %(value)s because it is used on "
@@ -4554,7 +4554,7 @@ msgstr ""
 "(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot change the product of the value %(value)s set on product %"
@@ -4563,7 +4563,7 @@ msgstr ""
 "%(product)s 품목에 설정되어 있는 %(value)s 값의 품목은 변경할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot change the value of the value %(value)s set on product %"
@@ -4571,13 +4571,13 @@ msgid ""
 msgstr "%(product)s 품목에 설정되어 있는 %(value)s 값은 변경할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_category.py:0
 msgid "You cannot create recursive categories."
 msgstr "재귀 범주는 만들 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid ""
 "You cannot delete pricelist(s):\n"
@@ -4591,7 +4591,7 @@ msgstr ""
 "%(other_pricelists)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid ""
 "You cannot delete the attribute %(attribute)s because it is used on the "
@@ -4602,7 +4602,7 @@ msgstr ""
 "%(products)s"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
 "You cannot delete the value %(value)s because it is used on the following "
@@ -4613,7 +4613,7 @@ msgstr ""
 "%(products)s\n"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
@@ -4623,7 +4623,7 @@ msgstr ""
 "할 수 없습니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
 "You cannot update related variants from the values. Please update related "
@@ -4632,7 +4632,7 @@ msgstr ""
 "값에서 관련 파생을 갱신할 수 없습니다. 파생에서 관련 값을 갱신하십시오."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
@@ -4687,13 +4687,13 @@ msgstr ""
 "                  판매 절차를 단순화하는 정보가 포함되어 있습니다."
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "You must leave at least one quantity."
 msgstr "하나 이상 수량을 유지해야 합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "You need to set a positive quantity."
 msgstr "수량은 양수로 설정해야 합니다."
@@ -4704,13 +4704,13 @@ msgid "Zara"
 msgstr "Zara"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_attribute.py:0
 msgid "attribute_id"
 msgstr "attribute_id"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "csv"
 msgstr "csv"
@@ -4722,7 +4722,7 @@ msgid "days"
 msgstr "일"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "discount"
 msgstr "할인"
@@ -4764,13 +4764,13 @@ msgid "e.g. USD Retailers"
 msgstr "예: 미화 기준 소매점용"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid "id"
 msgstr "id"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "markup"
 msgstr "인상"
@@ -4781,7 +4781,7 @@ msgid "on"
 msgstr "있음"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "pdf"
 msgstr "pdf"
@@ -4793,14 +4793,14 @@ msgid "per"
 msgstr "/"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "product"
 msgstr "품목"
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "product cost"
 msgstr "제품 비용"
@@ -4811,7 +4811,7 @@ msgid "round off to 10.00 and set an extra at -0.01"
 msgstr "10.00으로 반올림하고 -0.01로 추가 설정합니다."
 
 #. module: product
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
@@ -4828,7 +4828,7 @@ msgid "to"
 msgstr "부터"
 
 #. module: product
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "xlsx"
 msgstr "xlsx"

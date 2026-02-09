@@ -4,10 +4,10 @@ Documentation=man:labwc(1)
 After=graphical.target systemd-user-sessions.service
 
 [Service]
-User=BetopiaERP
+User=betopiaerp
 ExecStart=/usr/bin/labwc
-Environment="XDG_RUNTIME_DIR=/run/BetopiaERP"
-Environment="XDG_CACHE_HOME=/run/BetopiaERP"
+Environment="XDG_RUNTIME_DIR=/run/betopiaerp"
+Environment="XDG_CACHE_HOME=/run/betopiaerp"
 Environment="WLR_LIBINPUT_NO_DEVICES=1"
 Restart=always
 Type=simple

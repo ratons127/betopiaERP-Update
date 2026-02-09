@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useState, useRef } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState, useRef } from "@betopiaerp/owl";
 import { useScrollShadow } from "../../utils/scroll_shadow_hook";
 export class ProductInfoPopup extends Component {
     static template = "pos_self_order.ProductInfoPopup";

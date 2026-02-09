@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 
 import { useBus } from "@web/core/utils/hooks";
 import { useModel } from "@web/model/model";

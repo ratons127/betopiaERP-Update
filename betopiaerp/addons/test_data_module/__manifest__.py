@@ -4,6 +4,6 @@
     'version': '0.0.1',
     'category': 'Hidden/Tests',
     'sequence': 0,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

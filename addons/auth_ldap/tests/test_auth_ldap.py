@@ -32,10 +32,10 @@ class TestAuthLDAP(BaseCase):
                     "company": (1, "YourCompany"),
                     "ldap_server": "127.0.0.1",
                     "ldap_server_port": 389,
-                    "ldap_binddn": "cn=admin,dc=BetopiaERP,dc=com",
+                    "ldap_binddn": "cn=admin,dc=betopiaerp,dc=com",
                     "ldap_password": "admin",
                     "ldap_filter": "cn=%s",
-                    "ldap_base": "dc=BetopiaERP,dc=com",
+                    "ldap_base": "dc=betopiaerp,dc=com",
                     "user": (6, "Marc Demo"),
                     "create_user": True,
                     "ldap_tls": False,
@@ -44,7 +44,7 @@ class TestAuthLDAP(BaseCase):
 
         def _authenticate(*args, **kwargs):
             return (
-                "cn=test_ldap_user,dc=BetopiaERP,dc=com",
+                "cn=test_ldap_user,dc=betopiaerp,dc=com",
                 {
                     "sn": [b"test_ldap_user"],
                     "cn": [b"test_ldap_user"],

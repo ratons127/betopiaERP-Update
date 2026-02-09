@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/cleanup default=false */
+/** @betopiaerp-module alias=@web/../tests/helpers/cleanup default=false */
 
 // -----------------------------------------------------------------------------
 // Cleanup

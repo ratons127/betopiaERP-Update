@@ -9,7 +9,7 @@ import { fuzzyLookup } from "@web/core/utils/search";
 import { useSortable } from "@web/core/utils/sortable_owl";
 import { useDebounced } from "@web/core/utils/timing";
 
-import { Component, useRef, useState, onMounted, onWillStart, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, useRef, useState, onMounted, onWillStart, onWillUnmount } from "@betopiaerp/owl";
 
 class DeleteExportListDialog extends Component {
     static components = { Dialog };
@@ -175,7 +175,7 @@ export class ExportDataDialog extends Component {
     }
 
     get isDebug() {
-        return Boolean(BetopiaERP.debug);
+        return Boolean(betopiaerp.debug);
     }
 
     get rootFields() {

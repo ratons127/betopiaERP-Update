@@ -12,7 +12,7 @@ Base tools required by all IoT related modules.
 """,
     'depends': ['web'],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'web.assets_backend': [

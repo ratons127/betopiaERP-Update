@@ -6,7 +6,7 @@ import {
     openFormView,
     start,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { serverState } from "@web/../tests/web_test_helpers";
 
 defineMailModels();

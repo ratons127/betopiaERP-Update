@@ -1,8 +1,8 @@
 /** @ts-check */
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 
-import { DispatchResult, Model, helpers, tokenize, constants } from "@BetopiaERP/o-spreadsheet";
+import { DispatchResult, Model, helpers, tokenize, constants } from "@betopiaerp/o-spreadsheet";
 import { Domain } from "@web/core/domain";
 import {
     defineSpreadsheetModels,
@@ -420,7 +420,7 @@ test("Can import/export filters", async function () {
         ],
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:avg", fieldName: "probability", aggregator: "avg" }],
@@ -1008,9 +1008,9 @@ test("Get active filters with date filter enabled", async function () {
     expect(model.getters.getActiveFilterCount()).toBe(1);
 });
 
-test("BetopiaERP.FILTER.VALUE text filter", async function () {
+test("BETOPIAERP.FILTER.VALUE text filter", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A10", `=BetopiaERP.FILTER.VALUE("Text Filter")`);
+    setCellContent(model, "A10", `=BETOPIAERP.FILTER.VALUE("Text Filter")`);
     await animationFrame();
     expect(getCellValue(model, "A10")).toBe("#ERROR");
     await addGlobalFilter(model, {
@@ -1034,9 +1034,9 @@ test("BetopiaERP.FILTER.VALUE text filter", async function () {
     expect(getCellValue(model, "A10")).toBe("Hello, World");
 });
 
-test("BetopiaERP.FILTER.VALUE numeric filter", async function () {
+test("BETOPIAERP.FILTER.VALUE numeric filter", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A10", `=BetopiaERP.FILTER.VALUE("Numeric Filter")`);
+    setCellContent(model, "A10", `=BETOPIAERP.FILTER.VALUE("Numeric Filter")`);
     await animationFrame();
     expect(getCellValue(model, "A10")).toBe("#ERROR");
     await addGlobalFilter(model, {
@@ -1061,10 +1061,10 @@ test("BetopiaERP.FILTER.VALUE numeric filter", async function () {
     expect(getCellValue(model, "B10")).toBe(99);
 });
 
-test("BetopiaERP.FILTER.VALUE date filter", async function () {
+test("BETOPIAERP.FILTER.VALUE date filter", async function () {
     mockDate("2022-03-10 00:00:00");
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A10", `=BetopiaERP.FILTER.VALUE("Date Filter")`);
+    setCellContent(model, "A10", `=BETOPIAERP.FILTER.VALUE("Date Filter")`);
     await animationFrame();
     await addGlobalFilter(model, {
         id: "42",
@@ -1113,21 +1113,21 @@ test("BetopiaERP.FILTER.VALUE date filter", async function () {
     expect(getCellValue(model, "B10")).toBe(``);
 });
 
-test("BetopiaERP.FILTER.VALUE date from/to without values", async function () {
+test("BETOPIAERP.FILTER.VALUE date from/to without values", async function () {
     const { model } = await createModelWithDataSource();
     await addGlobalFilter(model, {
         id: "42",
         type: "date",
         label: "Date Filter",
     });
-    setCellContent(model, "A1", `=BetopiaERP.FILTER.VALUE("Date Filter")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FILTER.VALUE("Date Filter")`);
     expect(getEvaluatedCell(model, "A1").value).toBe("");
     expect(getEvaluatedCell(model, "B1").value).toBe("");
 });
 
-test("BetopiaERP.FILTER.VALUE date from/to with only from defined", async function () {
+test("BETOPIAERP.FILTER.VALUE date from/to with only from defined", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A1", `=BetopiaERP.FILTER.VALUE("Date Filter")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FILTER.VALUE("Date Filter")`);
     await addGlobalFilter(model, {
         id: "42",
         type: "date",
@@ -1146,9 +1146,9 @@ test("BetopiaERP.FILTER.VALUE date from/to with only from defined", async functi
     expect(getEvaluatedCell(model, "B1").value).toBe("");
 });
 
-test("BetopiaERP.FILTER.VALUE date from/to with only to defined", async function () {
+test("BETOPIAERP.FILTER.VALUE date from/to with only to defined", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A1", `=BetopiaERP.FILTER.VALUE("Date Filter")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FILTER.VALUE("Date Filter")`);
     await addGlobalFilter(model, {
         id: "42",
         type: "date",
@@ -1167,9 +1167,9 @@ test("BetopiaERP.FILTER.VALUE date from/to with only to defined", async function
     expect(getEvaluatedCell(model, "B1").formattedValue).toBe("1/1/2020");
 });
 
-test("BetopiaERP.FILTER.VALUE date from/to with from and to defined", async function () {
+test("BETOPIAERP.FILTER.VALUE date from/to with from and to defined", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A1", `=BetopiaERP.FILTER.VALUE("Date Filter")`);
+    setCellContent(model, "A1", `=BETOPIAERP.FILTER.VALUE("Date Filter")`);
     await addGlobalFilter(model, {
         id: "42",
         type: "date",
@@ -1191,9 +1191,9 @@ test("BetopiaERP.FILTER.VALUE date from/to with from and to defined", async func
     expect(getEvaluatedCell(model, "B1").formattedValue).toBe("1/1/2021");
 });
 
-test("BetopiaERP.FILTER.VALUE relation filter", async function () {
+test("BETOPIAERP.FILTER.VALUE relation filter", async function () {
     const { model } = await createModelWithDataSource();
-    setCellContent(model, "A10", `=BetopiaERP.FILTER.VALUE("Relation Filter")`);
+    setCellContent(model, "A10", `=BETOPIAERP.FILTER.VALUE("Relation Filter")`);
     await animationFrame();
     await addGlobalFilter(model, {
         id: "42",
@@ -1225,7 +1225,7 @@ test("BetopiaERP.FILTER.VALUE relation filter", async function () {
     expect(getCellValue(model, "A10")).toBe("2");
 });
 
-test("BetopiaERP.FILTER.VALUE with escaped quotes in the filter label", async function () {
+test("BETOPIAERP.FILTER.VALUE with escaped quotes in the filter label", async function () {
     const { model } = await createModelWithDataSource();
     await addGlobalFilter(model, {
         id: "42",
@@ -1233,11 +1233,11 @@ test("BetopiaERP.FILTER.VALUE with escaped quotes in the filter label", async fu
         label: 'my "special" filter',
         defaultValue: { operator: "ilike", strings: ["Jean-Jacques"] },
     });
-    setCellContent(model, "A1", '=BetopiaERP.FILTER.VALUE("my \\"special\\" filter")');
+    setCellContent(model, "A1", '=BETOPIAERP.FILTER.VALUE("my \\"special\\" filter")');
     expect(getCellValue(model, "A1")).toBe("Jean-Jacques");
 });
 
-test("BetopiaERP.FILTER.VALUE formulas are updated when filter label is changed", async function () {
+test("BETOPIAERP.FILTER.VALUE formulas are updated when filter label is changed", async function () {
     const { model } = await createModelWithDataSource();
     await addGlobalFilter(model, {
         id: "42",
@@ -1247,7 +1247,7 @@ test("BetopiaERP.FILTER.VALUE formulas are updated when filter label is changed"
     setCellContent(
         model,
         "A10",
-        `=BetopiaERP.FILTER.VALUE("Cuillère") & BetopiaERP.FILTER.VALUE( "Cuillère" )`
+        `=BETOPIAERP.FILTER.VALUE("Cuillère") & BETOPIAERP.FILTER.VALUE( "Cuillère" )`
     );
     const [filter] = model.getters.getGlobalFilters();
     const newFilter = {
@@ -1257,7 +1257,7 @@ test("BetopiaERP.FILTER.VALUE formulas are updated when filter label is changed"
     };
     await editGlobalFilter(model, newFilter);
     expect(getCellFormula(model, "A10")).toBe(
-        `=BetopiaERP.FILTER.VALUE("Interprete") & BetopiaERP.FILTER.VALUE("Interprete")`
+        `=BETOPIAERP.FILTER.VALUE("Interprete") & BETOPIAERP.FILTER.VALUE("Interprete")`
     );
 });
 
@@ -1397,7 +1397,7 @@ test("load data only once if filter is not active (without default value)", asyn
         ],
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:sum", fieldName: "probability", aggregator: "sum" }],
@@ -1439,7 +1439,7 @@ test("load data only once if filter is active (with a default value)", async fun
         ],
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:sum", fieldName: "probability", aggregator: "sum" }],
@@ -1483,7 +1483,7 @@ test("don't reload data if an empty filter is added", async function () {
         ],
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:sum", fieldName: "probability", aggregator: "sum" }],
@@ -1518,7 +1518,7 @@ test("don't load data if a filter is added but the data is not needed", async fu
     const spreadsheetData = {
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:sum", fieldName: "probability", aggregator: "sum" }],
@@ -1561,7 +1561,7 @@ test("don't load data if a filter is activated but the data is not needed", asyn
     const spreadsheetData = {
         pivots: {
             1: {
-                type: "BetopiaERP",
+                type: "BETOPIAERP",
                 columns: [{ fieldName: "foo" }],
                 domain: [],
                 measures: [{ id: "probability:sum", fieldName: "probability", aggregator: "sum" }],
@@ -2519,7 +2519,7 @@ test("field matching is removed when list is deleted", async function () {
         type: "date",
     };
     expect(model.getters.getListFieldMatching(listId, filter.id)).toEqual(matching);
-    model.dispatch("REMOVE_BetopiaERP_LIST", { listId });
+    model.dispatch("REMOVE_BETOPIAERP_LIST", { listId });
     expect(() => model.getters.getListFieldMatching(listId, filter.id)).toThrow(undefined, {
         message: "List does not exist",
     });
@@ -2532,7 +2532,7 @@ test("field matching is removed when list is deleted", async function () {
 });
 
 test("field matching is removed when an BetopiaERP chart is deleted", async function () {
-    const { model } = await createSpreadsheetWithChart({ type: "BetopiaERP_pie" });
+    const { model } = await createSpreadsheetWithChart({ type: "betopiaerp_pie" });
     const sheetId = model.getters.getActiveSheetId();
     const [chartId] = model.getters.getChartIds(sheetId);
     await addGlobalFilter(model, THIS_YEAR_GLOBAL_FILTER, {
@@ -2714,7 +2714,7 @@ test("Updating the pivot domain should keep the global filter domain", async () 
     expect(computedDomain.toString()).toBe(
         `["&", ("date", ">=", "2022-01-01"), ("date", "<=", "2022-12-31")]`
     );
-    model.dispatch("UPDATE_BetopiaERP_PIVOT_DOMAIN", {
+    model.dispatch("UPDATE_BETOPIAERP_PIVOT_DOMAIN", {
         pivotId,
         domain: [["foo", "in", [55]]],
     });
@@ -2764,7 +2764,7 @@ test("Updating the pivot should keep the global filter domain", async () => {
     );
 });
 
-test("Updating a non-BetopiaERP pivot should not crash on global filter", async () => {
+test("Updating a non-betopiaerp pivot should not crash on global filter", async () => {
     const grid = {
         A1: "Customer",
         B1: "Price",
@@ -2816,7 +2816,7 @@ test("Updating the list domain should keep the global filter domain", async () =
         `["&", ("date", ">=", "2022-01-01"), ("date", "<=", "2022-12-31")]`
     );
     const [listId] = model.getters.getListIds();
-    model.dispatch("UPDATE_BetopiaERP_LIST_DOMAIN", {
+    model.dispatch("UPDATE_BETOPIAERP_LIST_DOMAIN", {
         listId,
         domain: [["foo", "in", [55]]],
     });

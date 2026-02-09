@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * pos_online_payment
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 21:31+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_online_payment/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -30,19 +30,19 @@ msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgstr "<strong>เกิดข้อผิดพลาด:</strong> เกิดปัญหาระหว่างขั้นตอนการชำระเงิน"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
 msgstr "การกำหนดค่า POS ไม่สามารถมีวิธีการชำระเงินออนไลน์มากกว่าหนึ่งวิธีได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
 msgstr "ต้องระบุตัวเลือกการชำระเงิน"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr "ไม่สามารถใช้การชำระเงินเพื่อยืนยันการชำระเงินออนไลน์การขายหน้าร้านได้"
@@ -53,7 +53,7 @@ msgid "All available providers"
 msgstr "ผู้ให้บริการที่มีอยู่ทั้งหมด"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "All payment providers configured for an online payment method must use the "
@@ -74,7 +74,7 @@ msgid "Amount"
 msgstr "จำนวน"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Amount:"
 msgstr "จำนวน"
@@ -85,13 +85,13 @@ msgid "Cancel payment"
 msgstr "ยกเลิกการชำระเงิน"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
 msgstr "ไม่สามารถสร้างการชำระเงินออนไลน์ POS โดยไม่มีการชำระเงินทางบัญชีได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
@@ -101,13 +101,13 @@ msgstr ""
 "ด้วยวิธีการชำระเงินที่ไม่ใช่แบบออนไลน์และการชำระเงินทางบัญชีออนไลน์ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
 msgstr "ไม่สามารถแก้ไขข้อมูลสำคัญการชำระเงินออนไลน์ของ POS ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
@@ -144,19 +144,19 @@ msgid "ID"
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payment"
 msgstr "การชำระเงินออนไลน์ไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invalid online payments"
 msgstr "การชำระเงินออนไลน์ไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Invoice could not be generated"
 msgstr "ไม่สามารถสร้างใบแจ้งหนี้ได้"
@@ -172,7 +172,7 @@ msgid "Online"
 msgstr "ออนไลน์"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
@@ -189,13 +189,13 @@ msgid "Online accounting payment"
 msgstr "การชำระเงินทางบัญชีออนไลน์"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payment unavailable"
 msgstr "ไม่สามารถชำระเงินออนไลน์ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
 msgstr "การชำระเงินออนไลน์ไม่สามารถมีจำนวนเงินที่มีค่าเป็นลบได้ (%s: %s)"
@@ -216,19 +216,19 @@ msgid "Order Reference"
 msgstr "อ้างอิงคำสั่ง"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 msgstr "อ้างอิงการสั่งซื้อ:"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Order saving issue"
 msgstr "ปัญหาการบันทึกคำสั่งซื้อ"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/account_payment.py:0
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_account_payment__pos_order_id
@@ -294,43 +294,43 @@ msgid "Processed by"
 msgstr "ดำเนินการโดย"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
 msgstr "QR โค้ดเพื่อชำระเงิน"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
 msgstr "สแกนรหัส QR โค้ดเพื่อชำระเงิน"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/components/popups/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Server error"
 msgstr "เซิร์ฟเวอร์ผิดพลาด"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 msgid "The %s already has one online payment."
 msgstr ""
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 msgstr "ไม่สามารถบันทึกการชำระเงินออนไลน์ POS (tx.id=%d) ได้อย่างถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
@@ -340,7 +340,7 @@ msgstr ""
 "เนื่องจากไม่พบวิธีการชำระเงินออนไลน์"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
 msgstr "ไม่ได้เปิดเซสชัน POS"
@@ -356,92 +356,92 @@ msgid "The Point of Sale order linked to this payment"
 msgstr "คำสั่งซื้อการขายหน้าร้านที่เชื่อมโยงกับการชำระเงินนี้"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The QR Code for paying could not be generated."
 msgstr "ไม่สามารถสร้าง QR โค้ดสำหรับการชำระเงินได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
 msgstr "จำนวนเงินที่ต้องชำระได้มีการเปลี่ยนแปลง กรุณารีเฟรชหน้านี้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
 msgstr "สกุลเงินไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The invoice could not be generated."
 msgstr "ไม่สามารถสร้างใบแจ้งหนี้ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
 msgstr "คำสั่งซื้อถูกยกเลิก"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The order has not been saved correctly on the server."
 msgstr "คำสั่งซื้อไม่ได้รับการบันทึกอย่างถูกต้องบนเซิร์ฟเวอร์"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 msgstr "ไม่พบพาร์ทเนอร์ของการชำระเงินออนไลน์ POS (id=%d)"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
 msgstr "ผู้ให้บริการชำระเงินไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
 msgstr "การชำระเงินควรเป็นการชำระเงินโดยตรง หรือมีการเปลี่ยนเส้นทาง หรือชำระด้วยโทเค็น"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
 msgstr "โทเค็นการชำระเงินไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
 msgstr "ธุรกรรมการชำระเงิน (%d) มีจำนวนเงินติดลบ"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
 msgstr "คำสั่งซื้อหรือโทเค็นการเข้าถึงที่ระบุไม่ถูกต้อง"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
 msgstr "Partner_id ที่ระบุแตกต่างจากที่คาดไว้"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "The saved order could not be retrieved."
 msgstr "ไม่สามารถเรียกคืนคำสั่งซื้อที่บันทึกไว้ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
@@ -451,13 +451,13 @@ msgstr ""
 "ไม่สอดคล้องกับจำนวนเงินที่ยังไม่ได้ชำระที่เหลืออยู่ของคำสั่งซื้อ (%s)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "There are online payments that were missing in your view."
 msgstr "มีการชำระเงินออนไลน์ที่ขาดหายไปในมุมมองของคุณ"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -465,7 +465,7 @@ msgid ""
 msgstr "เกิดปัญหากับเซิร์ฟเวอร์ ไม่สามารถเรียกคืนสถานะการชำระเงินสำหรับการสั่งซื้อออนไลน์ได้"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid ""
 "There is a problem with the server. The order online payment status cannot "
@@ -475,14 +475,14 @@ msgstr ""
 "คุณแน่ใจหรือไม่ว่าไม่มีการชำระเงินออนไลน์สำหรับคำสั่งซื้อนี้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
 msgstr "ไม่มีการกำหนดค่าวิธีการชำระเงินออนไลน์สำหรับคำสั่งซื้อการขายหน้าร้านนี้"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
 msgstr "ไม่มีอะไรต้องจ่ายสำหรับการสั่งซื้อนี้"
@@ -498,7 +498,7 @@ msgid "To Pay"
 msgstr "ที่จะจ่าย"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid ""
 "To use an online payment method in a POS config, it must have at least one "
@@ -508,7 +508,7 @@ msgstr ""
 "จะต้องมีผู้ให้บริการการชำระเงินที่เผยแพร่อย่างน้อยหนึ่งรายที่รองรับสกุลเงินของการกำหนดค่า POS นั้น"
 
 #. module: pos_online_payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr "การใช้งานโทเค็นไม่สามารถใช้งานได้สำหรับลูกค้าที่ออกจากระบบ"
@@ -529,7 +529,7 @@ msgid "Type"
 msgstr "ประเภท"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Updated online payments"
 msgstr "อัปเดตการชำระเงินออนไลน์"
@@ -543,7 +543,7 @@ msgstr ""
 "ใช้วิธีการชำระเงินนี้สำหรับการชำระเงินออนไลน์ (ชำระเงินบนหน้าเว็บกับผู้ให้บริการชำระเงินออนไลน์)"
 
 #. module: pos_online_payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_online_payment/static/src/app/utils/order_payment_validation.js:0
 msgid "Yes"
 msgstr "ใช่"

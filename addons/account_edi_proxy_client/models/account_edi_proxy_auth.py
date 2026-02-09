@@ -55,20 +55,20 @@ class BetopiaERPEdiProxyAuth(requests.auth.AuthBase):
 
         timestamp = int(time.time())
         request.headers.update({
-            'BetopiaERP-edi-client-id': self.id_client,
-            'BetopiaERP-edi-timestamp': timestamp,
+            'betopiaerp-edi-client-id': self.id_client,
+            'betopiaerp-edi-timestamp': timestamp,
         })
         message = self.__get_payload(request, timestamp)
 
         if self.auth_type == 'asymmetric' and self.private_key:
             request.headers.update({
-                'BetopiaERP-edi-signature': self.__sign_with_private_key(message),
-                'BetopiaERP-edi-signature-type': 'asymmetric'
+                'betopiaerp-edi-signature': self.__sign_with_private_key(message),
+                'betopiaerp-edi-signature-type': 'asymmetric'
             })
         elif self.refresh_token:
             request.headers.update({
-                'BetopiaERP-edi-signature': self.__sign_request_with_token(message),
-                'BetopiaERP-edi-signature-type': 'hmac'
+                'betopiaerp-edi-signature': self.__sign_request_with_token(message),
+                'betopiaerp-edi-signature-type': 'hmac'
             })
 
         return request

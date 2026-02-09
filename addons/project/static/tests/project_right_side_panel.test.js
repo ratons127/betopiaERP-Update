@@ -1,5 +1,5 @@
-import { expect, test, describe } from "@BetopiaERP/hoot";
-import { queryAll } from "@BetopiaERP/hoot-dom";
+import { expect, test, describe } from "@betopiaerp/hoot";
+import { queryAll } from "@betopiaerp/hoot-dom";
 
 import { mountWithCleanup, onRpc } from "@web/../tests/web_test_helpers";
 

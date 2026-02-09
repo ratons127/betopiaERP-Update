@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { patch } from "@web/core/utils/patch";
 import { VideoSelector } from "@html_editor/main/media/media_dialog/video_selector";

@@ -2,10 +2,10 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 import tourUtils from "@sale/js/tours/tour_utils";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 registry.category("web_tour.tours").add('sale_timesheet_tour', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [
         ...stepUtils.goToAppSteps("sale.sale_menu_root", "Go to the Sales App"),
         ...tourUtils.createNewSalesOrder(),

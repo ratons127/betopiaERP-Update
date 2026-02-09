@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, useRef, useState, xml } from "@betopiaerp/owl";
 import { useAutofocus, useHootKey, useWindowListener } from "../hoot_utils";
 
 /**

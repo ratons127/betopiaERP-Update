@@ -6,15 +6,15 @@
 # 최재호 <hwangtog@gmail.com>, 2018
 # Link Up링크업 <linkup.way@gmail.com>, 2018
 # Linkup <link-up@naver.com>, 2018
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-09-16 04:41+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_stripe/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr "결제 양식을 표시할 수 없습니다."
@@ -40,7 +40,7 @@ msgid "Connect Stripe"
 msgstr "Stripe 연결"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Delivery"
 msgstr "배송"
@@ -58,7 +58,7 @@ msgid "Enable Apple Pay"
 msgstr "Apple Pay 활성화"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Free Shipping"
 msgstr "무료 배송"
@@ -90,13 +90,13 @@ msgstr ""
 "Stripe에서 BetopiaERP로 전송된 메시지를 인증할 수 있습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr "결제 정보가 잘못되었습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Other Payment Providers"
 msgstr "기타 결제대행업체"
@@ -122,13 +122,13 @@ msgid "Payment Transaction"
 msgstr "지불 거래"
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "결제 프로세스 실패"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Please use live credentials to enable Apple Pay."
 msgstr "실시간 자격 증명을 사용하여 Apple Pay를 활성화하세요."
@@ -139,13 +139,13 @@ msgid "Publishable Key"
 msgstr "공개 가능 키"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with invalid intent status: %s."
 msgstr ""
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with missing intent status."
 msgstr "잘못된 시도 상태의 데이터가 수신되었습니다."
@@ -161,7 +161,7 @@ msgid "Stripe"
 msgstr "Stripe"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "Stripe Connect is not available in your country, please use another payment "
@@ -179,7 +179,7 @@ msgid "Stripe Payment Method ID"
 msgstr "Stripe 결제 수단 ID"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 msgstr "고객이 결제 페이지를 나갔습니다."
@@ -190,7 +190,7 @@ msgid "The key solely used to identify the account with Stripe"
 msgstr "Stripe에서 계정을 식별하는 데 사용되는 키입니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid ""
 "The refund did not go through. Please log into your Stripe Dashboard to get "
@@ -205,7 +205,7 @@ msgid "The technical code of this payment provider."
 msgstr "이 결제대행업체의 기술 코드입니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_token.py:0
 msgid "Unable to convert payment token to new API."
 msgstr "결제 토큰을 새 API로 변환할 수 없습니다."
@@ -216,13 +216,13 @@ msgid "Webhook Signing Secret"
 msgstr "Webhook 서명 보안"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "You Stripe Webhook was successfully set up!"
 msgstr "Stripe Webhook이 성공적으로 설정되었습니다!"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot create a Stripe Webhook if your Stripe Secret Key is not set."
@@ -230,7 +230,7 @@ msgstr ""
 "Stripe 비밀 키가 설정되어 있지 않으면 Stripe Webhook을 생성할 수 없습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot set the provider state to Enabled until your onboarding to Stripe "
@@ -239,7 +239,7 @@ msgstr ""
 "Stripe 온보딩 완료 전까지는 공급업체 상태를 사용 가능으로 설정할 수 없습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
 "You cannot set the provider to Test Mode while it is linked with your Stripe "
@@ -248,19 +248,19 @@ msgstr ""
 "Stripe 계정과 연동된 상태에서는 공급업체를 테스트 모드로 설정할 수 없습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your Stripe Webhook is already set up."
 msgstr "Stripe Webhook이 이미 설정되어 있습니다."
 
 #. module: payment_stripe
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_stripe/static/src/interactions/express_checkout.js:0
 msgid "Your order"
 msgstr "귀하의 주문"
 
 #. module: payment_stripe
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your web domain was successfully verified."
 msgstr "웹 도메인이 성공적으로 인증되었습니다."

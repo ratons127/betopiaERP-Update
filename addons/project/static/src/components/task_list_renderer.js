@@ -1,7 +1,7 @@
 import { useService } from "@web/core/utils/hooks";
 import { ListRenderer } from "@web/views/list/list_renderer";
 
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 export class TaskListRenderer extends ListRenderer {
     setup() {

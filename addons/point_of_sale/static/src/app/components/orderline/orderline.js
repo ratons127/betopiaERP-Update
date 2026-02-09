@@ -1,4 +1,4 @@
-import { Component, useRef } from "@BetopiaERP/owl";
+import { Component, useRef } from "@betopiaerp/owl";
 import { useTimedPress } from "@point_of_sale/app/utils/use_timed_press";
 import { formatCurrency } from "@web/core/currency";
 import { TagsList } from "@web/core/tags_list/tags_list";

@@ -1,4 +1,4 @@
-import { Component, useEffect } from "@BetopiaERP/owl";
+import { Component, useEffect } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { x2ManyCommands } from "@web/core/orm_service";
 import { registry } from "@web/core/registry";

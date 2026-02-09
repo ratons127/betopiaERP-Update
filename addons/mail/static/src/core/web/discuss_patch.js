@@ -1,4 +1,4 @@
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 import { Discuss } from "@mail/core/public_web/discuss";
 import { MessagingMenu } from "@mail/core/public_web/messaging_menu";

@@ -12,7 +12,7 @@ import { uniqueId } from "@web/core/utils/functions";
 import { RecipientsPopover } from "./recipients_popover";
 import { RecipientsInputTagsList } from "./recipients_input_tags_list";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class RecipientsInput extends Component {
     static template = "mail.RecipientsInput";

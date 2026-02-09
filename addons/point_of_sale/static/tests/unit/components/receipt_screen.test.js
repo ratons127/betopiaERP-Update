@@ -1,8 +1,8 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupPosEnv, getFilledOrder } from "../utils";
 import { definePosModels } from "../data/generate_model_definitions";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { queryOne } from "@betopiaerp/hoot-dom";
 import { ReceiptScreen } from "@point_of_sale/app/screens/receipt_screen/receipt_screen";
 
 definePosModels();

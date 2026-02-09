@@ -1,5 +1,5 @@
 declare module "@spreadsheet" {
-    import { Model } from "@BetopiaERP/o-spreadsheet";
+    import { Model } from "@betopiaerp/o-spreadsheet";
 
     export interface BetopiaERPSpreadsheetModel extends Model {
         getters: BetopiaERPGetters;

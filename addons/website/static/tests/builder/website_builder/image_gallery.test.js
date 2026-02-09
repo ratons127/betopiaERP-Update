@@ -3,8 +3,8 @@ import {
     dummyBase64Img,
     waitForEndOfOperation,
 } from "@html_builder/../tests/helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAll, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAll, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { contains, dataURItoBlob, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { uniqueId } from "@web/core/utils/functions";
 import {
@@ -157,9 +157,9 @@ test("Change gallery layout when images have a link", async () => {
     await contains("[data-label='Media'] button[data-action-id='setLink']").click();
 
     await contains("[data-label='Your URL'] [data-action-id='setUrl'] > input").fill(
-        "http://BetopiaERP.com"
+        "http://betopiaerp.com"
     );
-    expect(":iframe section a[href='http://BetopiaERP.com'] > img[data-index='1']").toHaveCount(1);
+    expect(":iframe section a[href='http://betopiaerp.com'] > img[data-index='1']").toHaveCount(1);
 
     await contains("[data-label='Mode'] .dropdown-toggle").click();
     await contains("[data-action-param='grid']").click();

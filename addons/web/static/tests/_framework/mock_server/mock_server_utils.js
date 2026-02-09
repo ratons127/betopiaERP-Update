@@ -99,7 +99,7 @@ export function makeServerError({
     return makeErrorFromResponse({
         code: code || 0,
         data: {
-            name: errorName || `BetopiaERP.exceptions.${type || "UserError"}`,
+            name: errorName || `betopiaerp.exceptions.${type || "UserError"}`,
             debug: "traceback",
             arguments: args || [],
             context: context || {},

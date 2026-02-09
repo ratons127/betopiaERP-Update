@@ -1,6 +1,6 @@
-import { test, expect, describe, beforeEach } from "@BetopiaERP/hoot";
-import { queryFirst, queryAll, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { test, expect, describe, beforeEach } from "@betopiaerp/hoot";
+import { queryFirst, queryAll, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 import { WebClient } from "@web/webclient/webclient";
 import {

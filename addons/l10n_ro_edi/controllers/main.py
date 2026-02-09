@@ -60,7 +60,7 @@ class L10nRoEdiController(http.Controller):
                 },
                 headers={
                     'accept': 'application/json',
-                    'user-agent': 'BetopiaERP (http://www.betopiaerp.com/contactus)',
+                    'user-agent': 'BetopiaERP (http://www.BetopiaERP.com/contactus)',
                 },
                 timeout=10,
             )

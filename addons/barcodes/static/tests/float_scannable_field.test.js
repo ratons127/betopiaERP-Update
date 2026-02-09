@@ -1,7 +1,7 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { FormController } from "@web/views/form/form_controller";
 import {
     contains,
@@ -13,7 +13,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 import { barcodeService } from "@barcodes/barcode_service";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 
 async function simulateBarCode(chars) {
     for (const char of chars) {

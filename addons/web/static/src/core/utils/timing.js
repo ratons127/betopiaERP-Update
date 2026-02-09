@@ -1,5 +1,5 @@
 import { browser } from "@web/core/browser/browser";
-import { onWillUnmount, useComponent } from "@BetopiaERP/owl";
+import { onWillUnmount, useComponent } from "@betopiaerp/owl";
 
 /**
  * Creates a batched version of a callback so that all calls to it in the same

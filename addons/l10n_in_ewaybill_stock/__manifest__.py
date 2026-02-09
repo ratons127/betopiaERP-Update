@@ -23,6 +23,6 @@ This module enables users to create E-waybill from Inventory App without generat
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

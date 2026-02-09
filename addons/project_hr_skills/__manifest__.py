@@ -13,6 +13,6 @@
     'data': [
         'views/project_task_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'OEEL-1',
 }

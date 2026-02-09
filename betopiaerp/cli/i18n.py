@@ -67,9 +67,9 @@ class I18n(Command):
                     $ psql -d <dbname> -c "SELECT iso_code FROM res_lang ORDER BY iso_code"
 
                 Examples:
-                    BetopiaERP-bin i18n loadlang -l en         # English (U.S.)
-                    BetopiaERP-bin i18n loadlang -l es es_AR   # Spanish (Spain, Argentina)
-                    BetopiaERP-bin i18n loadlang -l sr@latin   # Serbian (Latin)
+                    betopiaerp-bin i18n loadlang -l en         # English (U.S.)
+                    betopiaerp-bin i18n loadlang -l es es_AR   # Spanish (Spain, Argentina)
+                    betopiaerp-bin i18n loadlang -l sr@latin   # Serbian (Latin)
             """)
 
         self.import_parser.add_argument(

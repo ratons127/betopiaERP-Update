@@ -1,4 +1,4 @@
-import { after, onTimeZoneChange } from "@BetopiaERP/hoot";
+import { after, onTimeZoneChange } from "@betopiaerp/hoot";
 import { patch } from "@web/core/utils/patch";
 
 const { FixedOffsetZone, IANAZone, Settings } = luxon;

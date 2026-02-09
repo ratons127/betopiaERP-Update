@@ -1,6 +1,6 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
 import { useImageTransform } from "@html_editor/main/media/image_transform_button";
-import { onWillDestroy } from "@BetopiaERP/owl";
+import { onWillDestroy } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 export class ImageTransformOption extends BaseOptionComponent {

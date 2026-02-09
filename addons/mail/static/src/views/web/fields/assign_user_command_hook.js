@@ -1,4 +1,4 @@
-import { useComponent } from "@BetopiaERP/owl";
+import { useComponent } from "@betopiaerp/owl";
 
 import { useCommand } from "@web/core/commands/command_hook";
 import { Domain } from "@web/core/domain";

@@ -311,7 +311,7 @@ export class Thread extends Record {
         return (
             !this.isTransient &&
             this.typesAllowingCalls.includes(this.channel_type) &&
-            !this.correspondent?.persona.eq(this.store.BetopiaERPbot)
+            !this.correspondent?.persona.eq(this.store.betopiaerpbot)
         );
     }
 
@@ -802,7 +802,7 @@ export class Thread extends Record {
     }
 
     /**
-     *  @param {ReturnType<import("@BetopiaERP/owl").markup>} body
+     *  @param {ReturnType<import("@betopiaerp/owl").markup>} body
      *  @param {Object} extraData
      */
     async post(body, postData = {}, extraData = {}) {

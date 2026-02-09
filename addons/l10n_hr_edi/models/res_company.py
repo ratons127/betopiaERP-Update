@@ -24,7 +24,7 @@ class ResCompany(models.Model):
     l10n_hr_mer_username = fields.Char("MojEracun username", groups="account.group_account_manager")
     l10n_hr_mer_password = fields.Char("MojEracun password", groups="account.group_account_manager")
     l10n_hr_mer_company_ident = fields.Char("MojEracun CompanyId", groups="account.group_account_manager")
-    l10n_hr_mer_software_ident = fields.Char("MojEracun SoftwareId", default='SaBetopiaERP-001', help="Default SoftwareID for BetopiaERP is 'SaBetopiaERP-001'")
+    l10n_hr_mer_software_ident = fields.Char("MojEracun SoftwareId", default='Sabetopiaerp-001', help="Default SoftwareID for BetopiaERP is 'Sabetopiaerp-001'")
     l10n_hr_mer_connection_state = fields.Selection(
         selection=[
             ('inactive', 'Inactive'),

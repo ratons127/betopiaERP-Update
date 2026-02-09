@@ -118,7 +118,7 @@ class TestMassMailing(TestMassMailCommon):
             mail_links_info=[[
                 ('url0', 'https://www.betopiaerp.tz/my/%s' % record.name, True, {}),
                 ('url1', 'https://www.betopiaerp.be', True, {}),
-                ('url2', 'https://www.betopiaerp.com', True, {}),
+                ('url2', 'https://www.BetopiaERP.com', True, {}),
                 ('url3', 'https://www.betopiaerp.eu', True, {}),
                 ('url4', 'https://www.example.com/foo/bar?baz=qux', True, {'baz': 'qux'}),
                 ('url5', '%s/event/dummy-event-0' % mailing.get_base_url(), True, {}),

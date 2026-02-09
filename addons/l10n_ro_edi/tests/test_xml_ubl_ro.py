@@ -58,7 +58,7 @@ def _patch_request_ciusro_download_answer(company, key_download, session):
                 'amount_total': '1785.0',
                 'seller_vat': '8001011234567',
                 'date': datetime.date(2017, 1, 1),
-                'attachment_raw': file_open("l10n_ro_edi/tests/test_files/from_BetopiaERP/ciusro_in_invoice.xml").read(),
+                'attachment_raw': file_open("l10n_ro_edi/tests/test_files/from_betopiaerp/ciusro_in_invoice.xml").read(),
             },
         },
         '3029027563': {
@@ -232,37 +232,37 @@ class TestUBLRO(TestUBLCommon):
     def test_export_invoice(self):
         invoice = self.create_move("out_invoice", currency_id=self.company.currency_id.id)
         attachment = self.get_attachment(invoice)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_invoice.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_invoice.xml')
 
     def test_export_credit_note(self):
         refund = self.create_move("out_refund", currency_id=self.company.currency_id.id)
         attachment = self.get_attachment(refund)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_refund.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_refund.xml')
 
     def test_export_invoice_different_currency(self):
         invoice = self.create_move("out_invoice")
         attachment = self.get_attachment(invoice)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_invoice_different_currency.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_invoice_different_currency.xml')
 
     def test_export_invoice_without_country_code_prefix_in_vat(self):
         self.company_data['company'].write({'vat': '1234567897'})
         self.partner_a.write({'vat': False})
         invoice = self.create_move("out_invoice", currency_id=self.company.currency_id.id)
         attachment = self.get_attachment(invoice)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_invoice_no_prefix_vat.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_invoice_no_prefix_vat.xml')
 
     def test_export_no_vat_but_have_company_registry(self):
         self.company_data['company'].write({'vat': False, 'company_registry': 'RO1234567897'})
         invoice = self.create_move("out_invoice", currency_id=self.company.currency_id.id)
         attachment = self.get_attachment(invoice)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_invoice.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_invoice.xml')
 
     def test_export_no_vat_but_have_company_registry_without_prefix(self):
         self.company_data['company'].write({'vat': False, 'company_registry': '1234567897'})
         self.partner_a.write({'vat': False})
         invoice = self.create_move("out_invoice", currency_id=self.company.currency_id.id)
         attachment = self.get_attachment(invoice)
-        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_BetopiaERP/ciusro_out_invoice_no_prefix_company_registry.xml')
+        self._assert_invoice_attachment(attachment, xpaths=None, expected_file_path='from_betopiaerp/ciusro_out_invoice_no_prefix_company_registry.xml')
 
     def test_export_no_vat_and_no_company_registry_raises_error(self):
         self.company_data['company'].write({'vat': False, 'company_registry': False})

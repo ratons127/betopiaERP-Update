@@ -853,7 +853,7 @@ class RecipientsNotificationTest(MailCommon):
         self.assertRecipientsData(recipients_data, False, test_partners)
 
     def test_subscribe_post_author(self):
-        """ Test author is added in followers, unless it is archived / BetopiaERPbot """
+        """ Test author is added in followers, unless it is archived / betopiaerpbot """
         # some automated action post on behalf of author
         test_record = self.env['mail.test.simple'].create({'name': 'Test'})
         self.partner_root.active = True  # edge case, people activating BetopiaERPbot partner (not user)
@@ -866,7 +866,7 @@ class RecipientsNotificationTest(MailCommon):
             # inactive user -> check for author
             (self.user_2, self.user_employee.partner_id, self.user_employee.partner_id),
             (self.user_2, self.user_1.partner_id, self.env['res.partner']),  # no inactive !
-            (self.user_2, self.user_root.partner_id, self.env['res.partner']),  # no BetopiaERPbot !
+            (self.user_2, self.user_root.partner_id, self.env['res.partner']),  # no betopiaerpbot !
         ]:
             with self.subTest(user=user.name, author=author.name):
                 test_record.with_user(user).message_post(

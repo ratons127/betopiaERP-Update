@@ -4,7 +4,7 @@ import { useService } from "@web/core/utils/hooks";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { session } from "@web/session";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { isHTTPSorNakedDomainRedirection } from "./utils";
 
 export class WebsiteSwitcherSystrayItem extends Component {

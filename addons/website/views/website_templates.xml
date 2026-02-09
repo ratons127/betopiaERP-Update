@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
 <template id="submenu" name="Submenu">
     <t t-set="show_dropdown" t-value="(submenu.is_mega_menu and submenu.is_visible) or submenu.child_id.filtered(lambda menu: menu.is_visible)"/>
@@ -295,7 +295,7 @@
                 <div class="dropdown-menu o_frontend_to_backend_apps_menu" role="menu">
                     <a role="menuitem" class="dropdown-item" t-out="menu['name']"
                        t-as="menu" t-foreach="env['ir.ui.menu'].with_context(force_action=True).load_menus_root()['children']"
-                       t-attf-href="/BetopiaERP/action-#{menu['action'] and menu['action'].split(',')[1] or ''}"/>
+                       t-attf-href="/betopiaerp/action-#{menu['action'] and menu['action'].split(',')[1] or ''}"/>
                 </div>
                 <a groups="website.group_website_restricted_editor" href="#" title="Edit this content" class="o_frontend_to_backend_edit_btn px-3 d-flex align-items-center justify-content-center text-decoration-none">
                     <img src="/website/static/description/icon.png" alt=""/>Editor
@@ -695,6 +695,10 @@
     <xpath expr="//t[@t-call='website.placeholder_header_social_links']" position="attributes">
         <attribute name="_div_class.f">mt-2 text-center</attribute>
     </xpath>
+    <xpath expr="//t[@t-call='website.submenu']" position="attributes">
+        <attribute name="dropdown_toggler_classes.f"/>
+        <attribute name="dropdown_menu_classes.f" add="text-center" separator=" "/>
+    </xpath>
 </template>
 
 <template id="template_header_hamburger_mobile_align_right" inherit_id="website.template_header_hamburger" active="False">
@@ -706,6 +710,10 @@
     </xpath>
     <xpath expr="//t[@t-call='website.placeholder_header_social_links']" position="attributes">
         <attribute name="_div_class.f">mt-2 text-end</attribute>
+    </xpath>
+    <xpath expr="//t[@t-call='website.submenu']" position="attributes">
+        <attribute name="dropdown_toggler_classes.f"/>
+        <attribute name="dropdown_menu_classes.f" add="text-end" separator=" "/>
     </xpath>
 </template>
 
@@ -2685,7 +2693,7 @@
             <button type="button" t-attf-class="btn btn-light dropdown-toggle dropdown-toggle-split" t-att-id="'dopprod-%s' % object.id" data-bs-toggle="dropdown"/>
             <div class="dropdown-menu" role="menu" t-att-aria-labelledby="'dopprod-%s' % object.id">
                 <t t-out="0"/>
-                <a role="menuitem" t-attf-href="/BetopiaERP/action-#{action}/#{object.id}?menu_id=#{menu or object.env['ir.model.data']._xmlid_to_res_id('website.menu_website_configuration')}"
+                <a role="menuitem" t-attf-href="/betopiaerp/action-#{action}/#{object.id}?menu_id=#{menu or object.env['ir.model.data']._xmlid_to_res_id('website.menu_website_configuration')}"
                     title='Edit in backend' class="dropdown-item" t-if="publish_edit">Edit</a>
             </div>
         </div>
@@ -2793,14 +2801,14 @@
 <template id="default_less">
     <style type="text/less">
         div#wrap div &gt; h1 {
-            color: @o-brand-BetopiaERP;
+            color: @o-brand-betopiaerp;
         }
     </style>
 </template>
 <template id="default_scss">
     <style type="text/scss">
         div#wrap div &gt; h1 {
-            color: $o-brand-BetopiaERP;
+            color: $o-brand-betopiaerp;
         }
     </style>
 </template>
@@ -3342,4 +3350,4 @@ Sitemap: <t t-out="url_root"/>sitemap.xml
         </li>
     </xpath>
 </template>
-</BetopiaERP>
+</betopiaerp>

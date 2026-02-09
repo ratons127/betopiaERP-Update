@@ -42,7 +42,7 @@ class StockWarehouseOrderpoint(models.Model):
                     'message': '%s',
                     'links': [{
                         'label': production.name,
-                        'url': f'/BetopiaERP/action-mrp.action_mrp_production_form/{production.id}'
+                        'url': f'/betopiaerp/action-mrp.action_mrp_production_form/{production.id}'
                     }],
                     'sticky': False,
                     'next': {'type': 'ir.actions.act_window_close'},

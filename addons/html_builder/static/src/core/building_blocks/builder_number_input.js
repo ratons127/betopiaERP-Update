@@ -1,5 +1,5 @@
 import { convertNumericToUnit, getHtmlStyle } from "@html_editor/utils/formatting";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import {
     basicContainerBuilderComponentProps,
     useInputBuilderComponent,

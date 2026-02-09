@@ -8,9 +8,9 @@ import { Builder } from "@html_builder/builder";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { SavePlugin } from "@html_builder/core/save_plugin";
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, Deferred, tick } from "@BetopiaERP/hoot-dom";
-import { useState, xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, Deferred, tick } from "@betopiaerp/hoot-dom";
+import { useState, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

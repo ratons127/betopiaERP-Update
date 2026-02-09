@@ -1,5 +1,5 @@
 import { setupHTMLBuilder } from "@html_builder/../tests/helpers";
-import { expect, test, describe } from "@BetopiaERP/hoot";
+import { expect, test, describe } from "@betopiaerp/hoot";
 import { contains } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

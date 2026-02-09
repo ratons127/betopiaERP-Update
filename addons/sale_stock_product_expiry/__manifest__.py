@@ -7,7 +7,7 @@
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'assets': {
         'web.assets_tests': [
             'sale_stock_product_expiry/static/tests/tours/*.js',

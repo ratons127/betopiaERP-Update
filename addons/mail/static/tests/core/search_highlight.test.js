@@ -13,8 +13,8 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { markup } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { markup } from "@betopiaerp/owl";
 
 import { serverState } from "@web/../tests/web_test_helpers";
 
@@ -24,60 +24,60 @@ defineMailModels();
 test("Search highlight", async () => {
     const testCases = [
         {
-            input: markup`test BetopiaERP`,
-            output: `test <span class="${HIGHLIGHT_CLASS}">BetopiaERP</span>`,
-            searchTerm: "BetopiaERP",
+            input: markup`test betopiaerp`,
+            output: `test <span class="${HIGHLIGHT_CLASS}">betopiaerp</span>`,
+            searchTerm: "betopiaerp",
         },
         {
             input: markup`<a href="https://www.BetopiaERP.com">https://www.BetopiaERP.com</a>`,
-            output: `<a href="https://www.BetopiaERP.com">https://www.<span class="${HIGHLIGHT_CLASS}">BetopiaERP</span>.com</a>`,
-            searchTerm: "BetopiaERP",
+            output: `<a href="https://www.BetopiaERP.com">https://www.<span class="${HIGHLIGHT_CLASS}">betopiaerp</span>.com</a>`,
+            searchTerm: "betopiaerp",
         },
         {
             input: '<a href="https://www.BetopiaERP.com">https://www.BetopiaERP.com</a>',
-            output: `&lt;a href="https://www.<span class="${HIGHLIGHT_CLASS}">BetopiaERP</span>.com"&gt;https://www.<span class="${HIGHLIGHT_CLASS}">BetopiaERP</span>.com&lt;/a&gt;`,
-            searchTerm: "BetopiaERP",
+            output: `&lt;a href="https://www.<span class="${HIGHLIGHT_CLASS}">betopiaerp</span>.com"&gt;https://www.<span class="${HIGHLIGHT_CLASS}">betopiaerp</span>.com&lt;/a&gt;`,
+            searchTerm: "betopiaerp",
         },
         {
             input: markup`<a href="https://www.BetopiaERP.com">BetopiaERP</a>`,
             output: `<a href="https://www.BetopiaERP.com"><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span></a>`,
-            searchTerm: "BetopiaERP",
+            searchTerm: "betopiaerp",
         },
         {
             input: markup`<a href="https://www.BetopiaERP.com">BetopiaERP</a> BetopiaERP is a free software`,
             output: `<a href="https://www.BetopiaERP.com"><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span></a> <span class="${HIGHLIGHT_CLASS}">BetopiaERP</span> is a free software`,
-            searchTerm: "BetopiaERP",
+            searchTerm: "betopiaerp",
         },
         {
-            input: markup`BetopiaERP is a free software`,
-            output: `<span class="${HIGHLIGHT_CLASS}">BetopiaERP</span> is a free software`,
-            searchTerm: "BetopiaERP",
+            input: markup`betopiaerp is a free software`,
+            output: `<span class="${HIGHLIGHT_CLASS}">betopiaerp</span> is a free software`,
+            searchTerm: "betopiaerp",
         },
         {
-            input: markup`software BetopiaERP is a free`,
-            output: `software <span class="${HIGHLIGHT_CLASS}">BetopiaERP</span> is a free`,
-            searchTerm: "BetopiaERP",
+            input: markup`software BETOPIAERP is a free`,
+            output: `software <span class="${HIGHLIGHT_CLASS}">BETOPIAERP</span> is a free`,
+            searchTerm: "betopiaerp",
         },
         {
             input: markup`<ul>
                 <li>BetopiaERP</li>
-                <li><a href="https://BetopiaERP.com">BetopiaERP ERP</a> Best ERP</li>
+                <li><a href="https://betopiaerp.com">BetopiaERP ERP</a> Best ERP</li>
             </ul>`,
             output: `<ul>
                 <li><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span></li>
-                <li><a href="https://BetopiaERP.com"><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span> ERP</a> Best ERP</li>
+                <li><a href="https://betopiaerp.com"><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span> ERP</a> Best ERP</li>
             </ul>`,
-            searchTerm: "BetopiaERP",
+            searchTerm: "betopiaerp",
         },
         {
             input: markup`test <strong>BetopiaERP</strong> test`,
             output: `<span class="${HIGHLIGHT_CLASS}">test</span> <strong><span class="${HIGHLIGHT_CLASS}">BetopiaERP</span></strong> <span class="${HIGHLIGHT_CLASS}">test</span>`,
-            searchTerm: "BetopiaERP test",
+            searchTerm: "betopiaerp test",
         },
         {
             input: markup`test <br> test`,
             output: `<span class="${HIGHLIGHT_CLASS}">test</span> <br> <span class="${HIGHLIGHT_CLASS}">test</span>`,
-            searchTerm: "BetopiaERP test",
+            searchTerm: "betopiaerp test",
         },
         {
             input: markup`<strong>test</strong> test`,

@@ -13,7 +13,7 @@ declare module "models" {
     }
     export interface Thread {
         hasFetchedLivechatSessionData: boolean;
-        livechat_note: ReturnType<import("@BetopiaERP/owl").markup>|string;
+        livechat_note: ReturnType<import("@betopiaerp/owl").markup>|string;
         livechat_outcome: "no_answer"|"no_agent"|"no_failure"|"escalated"|undefined;
         livechatNoteText: string|undefined;
         livechatStatusLabel: Readonly<string>;

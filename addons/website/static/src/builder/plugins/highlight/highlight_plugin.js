@@ -1,6 +1,6 @@
 import { Plugin } from "@html_editor/plugin";
 import { withSequence } from "@html_editor/utils/resource";
-import { Component, xml, useRef, reactive, useState } from "@BetopiaERP/owl";
+import { Component, xml, useRef, reactive, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { registry } from "@web/core/registry";

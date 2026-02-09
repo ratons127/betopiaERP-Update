@@ -7,7 +7,7 @@ import requests
 
 from betopiaerp import _, fields, models
 from betopiaerp.exceptions import LockError, UserError
-from .account_edi_proxy_auth import betopiaerpEdiProxyAuth
+from .account_edi_proxy_auth import BetopiaERPEdiProxyAuth
 
 _logger = logging.getLogger(__name__)
 

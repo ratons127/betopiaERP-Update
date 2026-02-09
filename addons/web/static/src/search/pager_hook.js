@@ -1,4 +1,4 @@
-import { useEnv, useSubEnv, useState, onWillRender } from "@BetopiaERP/owl";
+import { useEnv, useSubEnv, useState, onWillRender } from "@betopiaerp/owl";
 
 /**
  * @typedef PagerUpdateParams

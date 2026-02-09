@@ -1,4 +1,4 @@
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 import { Reactive } from "@web/core/utils/reactive";
 import { getId } from "./utils";
 

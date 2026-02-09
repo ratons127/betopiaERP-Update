@@ -5,16 +5,16 @@
 # Translators:
 # 최재호 <hwangtog@gmail.com>, 2018
 # Linkup <link-up@naver.com>, 2018
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Kwanghee Park (kwpa)" <kwpa@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:37+0000\n"
 "PO-Revision-Date: 2025-11-20 07:05+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@BetopiaERP.com>\n"
-"Language-Team: Korean <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@betopiaerp.com>\n"
+"Language-Team: Korean <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment_adyen/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 "                    매입 지연을 수동으로 설정해야 합니다."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "A request was sent to void the transaction %(reference)s."
 msgstr "%(reference)s 작업에 대한 무효화 요청이 전송되었습니다."
@@ -56,14 +56,14 @@ msgid "Adyen"
 msgstr "Adyen"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr "결제를 처리하는 동안 오류가 발생했습니다. 다시 시도해 주세요."
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Cannot display the payment form"
 msgstr "결제 양식을 표시할 수 없습니다."
@@ -105,7 +105,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Incorrect payment details"
 msgstr "결제 정보가 잘못되었습니다."
@@ -141,25 +141,25 @@ msgid "Payment Transaction"
 msgstr "지불 거래"
 
 #. module: payment_adyen
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment_adyen/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "결제 프로세스 실패"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
 msgstr "잘못된 결제 상태의 데이터가 수신되었습니다: %s"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
 msgstr "결제 상태가 누락된 데이터가 수신되었습니다."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
 msgstr "변조된 결제 요청 데이터가 수신되었습니다."
@@ -180,7 +180,7 @@ msgid "The HMAC key of the webhook"
 msgstr "webhook의 HMAC 키"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
@@ -195,7 +195,7 @@ msgid "The base URL for the API endpoints"
 msgstr "API 엔드포인트의 기본 URL"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction %s failed."
 msgstr ""
@@ -210,7 +210,7 @@ msgstr ""
 "                    몇 분 이상 소요될 수 있습니다."
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
 "The capture request of %(amount)s for transaction %(ref)s has been sent."
@@ -237,13 +237,13 @@ msgid "The unique reference of the partner owning this token"
 msgstr "이 토큰을 소유하고 있는 협력사의 고유 참조"
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction %s failed."
 msgstr ""
 
 #. module: payment_adyen
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
 msgstr "결제가 승인되지 않았습니다. 다시 시도해 주세요."

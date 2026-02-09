@@ -1,4 +1,4 @@
-import { markup, reactive } from "@BetopiaERP/owl";
+import { markup, reactive } from "@betopiaerp/owl";
 
 import { parseVersion } from "@mail/utils/common/misc";
 import { browser } from "@web/core/browser/browser";

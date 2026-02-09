@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@BetopiaERP/hoot default=false */
+/** @betopiaerp-module alias=@betopiaerp/hoot default=false */
 
 import { logger } from "./core/logger";
 import { Runner } from "./core/runner";
@@ -160,7 +160,7 @@ export {
     waitFor,
     waitForNone,
     waitUntil,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 
 // Debug
 export { exposeHelpers } from "../hoot-dom/hoot_dom_utils";

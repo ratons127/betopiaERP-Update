@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent, queryOne, queryRect, scroll } from "@BetopiaERP/hoot-dom";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent, queryOne, queryRect, scroll } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("website.bottom_fixed_element");
 

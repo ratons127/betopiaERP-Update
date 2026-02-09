@@ -20,6 +20,6 @@ tests independently to functional aspects of other models.""",
         ],
     },
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

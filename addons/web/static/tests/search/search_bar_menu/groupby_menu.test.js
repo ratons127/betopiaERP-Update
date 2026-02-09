@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
 import {
     contains,
     getFacetTexts,
@@ -13,7 +13,7 @@ import {
 } from "@web/../tests/web_test_helpers";
 import { defineSearchBarModels } from "./models";
 
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
 

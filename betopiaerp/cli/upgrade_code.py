@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 Rewrite the entire source code using the scripts found at
-/BetopiaERP/upgrade_code
+/betopiaerp/upgrade_code
 
 Each script is named {version}-{name}.py and exposes an upgrade function
 that takes a single argument, the file_manager, and returns nothing.
 
 The file_manager acts as a list of files, files have 3 attributes:
 * path: the pathlib.Path where the file is on the file system;
-* addon: the BetopiaERP addon in which the file is;
+* addon: the betopiaerp addon in which the file is;
 * content: the re-writtable content of the file (lazy).
 
 There are additional utilities on the file_manager, such as:
@@ -51,8 +51,8 @@ try:
     from betopiaerp.tools import config, parse_version
 except ImportError:
     # Assume the script is directy executed (by opposition to be
-    # executed via BetopiaERP-bin), happily release/parse_version are
-    # standalone so we can hack our way there without importing BetopiaERP
+    # executed via betopiaerp-bin), happily release/parse_version are
+    # standalone so we can hack our way there without importing betopiaerp
     sys.path.insert(0, str(ROOT))
     sys.path.insert(0, str(ROOT / 'tools'))
     import release
@@ -63,7 +63,7 @@ except ImportError:
         def parser(self):
             return argparse.ArgumentParser(
                 prog=Path(sys.argv[0]).name,
-                description=__doc__.replace('/BetopiaERP/upgrade_code', str(UPGRADE)),
+                description=__doc__.replace('/betopiaerp/upgrade_code', str(UPGRADE)),
                 formatter_class=argparse.RawDescriptionHelpFormatter,
             )
     config = None
@@ -173,7 +173,7 @@ def migrate(
 
 
 class UpgradeCode(Command):
-    """ Rewrite the entire source code using the scripts found at /BetopiaERP/upgrade_code """
+    """ Rewrite the entire source code using the scripts found at /betopiaerp/upgrade_code """
     name = 'upgrade_code'
 
     def __init__(self):

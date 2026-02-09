@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useBus, useService } from "@web/core/utils/hooks";
 import { browser } from "@web/core/browser/browser";
 import { usePosition } from "@web/core/position/position_hook";

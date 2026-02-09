@@ -23,7 +23,7 @@ MAX_RECURRENT_EVENT = 720
 # API requests are sent to Microsoft Calendar after the current transaction ends.
 # This ensures changes are sent to Microsoft only if they really happened in the BetopiaERP database.
 # It is particularly important for event creation , otherwise the event might be created
-# twice in Microsoft if the first creation crashed in betopiaerp.
+# twice in Microsoft if the first creation crashed in BetopiaERP.
 def after_commit(func):
     @wraps(func)
     def wrapped(self, *args, **kwargs):
@@ -126,7 +126,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
     def _create_from_microsoft(self, microsoft_event, vals_list):
         return self.with_context(dont_notify=True, skip_contact_description=True).create(vals_list)
 
-    def _sync_BetopiaERP2microsoft(self):
+    def _sync_betopiaerp2microsoft(self):
         if not self:
             return
         if self._active_name:
@@ -162,7 +162,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
         self.ms_universal_event_id = False
         self.unlink()
 
-    def _sync_recurrence_microsoft2BetopiaERP(self, microsoft_events, new_events=None):
+    def _sync_recurrence_microsoft2betopiaerp(self, microsoft_events, new_events=None):
         recurrent_masters = new_events.filter(lambda e: e.is_recurrence()) if new_events else []
         recurrents = new_events.filter(lambda e: e.is_recurrent_not_master()) if new_events else []
         default_values = {'need_sync_m': False}
@@ -173,7 +173,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
         # --- create new recurrences and associated events ---
         for recurrent_master in recurrent_masters:
             new_calendar_recurrence = dict(
-                self.env['calendar.recurrence']._microsoft_to_BetopiaERP_values(recurrent_master, default_values, with_ids=True),
+                self.env['calendar.recurrence']._microsoft_to_betopiaerp_values(recurrent_master, default_values, with_ids=True),
                 need_sync_m=False
             )
             to_create = recurrents.filter(
@@ -181,7 +181,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
             )
             recurrents -= to_create
             base_values = dict(
-                self.env['calendar.event']._microsoft_to_BetopiaERP_values(recurrent_master, default_values, with_ids=True),
+                self.env['calendar.event']._microsoft_to_betopiaerp_values(recurrent_master, default_values, with_ids=True),
                 need_sync_m=False
             )
             to_create_values = []
@@ -189,16 +189,16 @@ class MicrosoftCalendarSync(models.AbstractModel):
                 to_create = list(to_create)[:MAX_RECURRENT_EVENT]
             for recurrent_event in to_create:
                 if recurrent_event.type == 'occurrence':
-                    value = self.env['calendar.event']._microsoft_to_BetopiaERP_recurrence_values(recurrent_event, base_values)
+                    value = self.env['calendar.event']._microsoft_to_betopiaerp_recurrence_values(recurrent_event, base_values)
                 else:
-                    value = self.env['calendar.event']._microsoft_to_BetopiaERP_values(recurrent_event, default_values)
+                    value = self.env['calendar.event']._microsoft_to_betopiaerp_values(recurrent_event, default_values)
 
                 to_create_values += [dict(value, need_sync_m=False)]
 
             new_calendar_recurrence['calendar_event_ids'] = [(0, 0, to_create_value) for to_create_value in to_create_values]
-            new_recurrence_BetopiaERP = self.env['calendar.recurrence'].with_context(dont_notify=True).create(new_calendar_recurrence)
+            new_recurrence_betopiaerp = self.env['calendar.recurrence'].with_context(dont_notify=True).create(new_calendar_recurrence)
             new_recurrence_betopiaerp.base_event_id = new_recurrence_betopiaerp.calendar_event_ids[0] if new_recurrence_betopiaerp.calendar_event_ids else False
-            new_recurrence |= new_recurrence_BetopiaERP
+            new_recurrence |= new_recurrence_betopiaerp
 
         # --- update events in existing recurrences ---
         # Important note:
@@ -215,11 +215,11 @@ class MicrosoftCalendarSync(models.AbstractModel):
             to_update = recurrents.filter(lambda e: e.seriesMasterId == recurrent_master_id)
             for recurrent_event in to_update:
                 if recurrent_event.type == 'occurrence':
-                    value = self.env['calendar.event']._microsoft_to_BetopiaERP_recurrence_values(
+                    value = self.env['calendar.event']._microsoft_to_betopiaerp_recurrence_values(
                         recurrent_event, {'need_sync_m': False}
                     )
                 else:
-                    value = self.env['calendar.event']._microsoft_to_BetopiaERP_values(recurrent_event, default_values)
+                    value = self.env['calendar.event']._microsoft_to_betopiaerp_values(recurrent_event, default_values)
                 existing_event = recurrence_id.calendar_event_ids.filtered(
                     lambda e: e._is_matching_timeslot(value['start'], value['stop'], recurrent_event.isAllDay)
                 )
@@ -246,9 +246,9 @@ class MicrosoftCalendarSync(models.AbstractModel):
         update_events = self.env['calendar.event']
         for e in events_to_update:
             if e.type == "exception":
-                event_values = self.env['calendar.event']._microsoft_to_BetopiaERP_values(e)
+                event_values = self.env['calendar.event']._microsoft_to_betopiaerp_values(e)
             elif e.type == "occurrence":
-                event_values = self.env['calendar.event']._microsoft_to_BetopiaERP_recurrence_values(e)
+                event_values = self.env['calendar.event']._microsoft_to_betopiaerp_recurrence_values(e)
             else:
                 event_values = None
 
@@ -259,11 +259,11 @@ class MicrosoftCalendarSync(models.AbstractModel):
                         event_values, need_sync_m=False
                     )
 
-                BetopiaERP_event = self.env['calendar.event'].browse(e.BetopiaERP_id(self.env)).exists().with_context(
+                betopiaerp_event = self.env['calendar.event'].browse(e.betopiaerp_id(self.env)).exists().with_context(
                     no_mail_to_attendees=True, mail_create_nolog=True
                 )
-                BetopiaERP_event.with_context(dont_notify=True).write(dict(event_values, need_sync_m=False))
-                update_events |= BetopiaERP_event
+                betopiaerp_event.with_context(dont_notify=True).write(dict(event_values, need_sync_m=False))
+                update_events |= betopiaerp_event
 
         # update the recurrence
         detached_events = self.with_context(dont_notify=True)._apply_recurrence(rec_values)
@@ -272,24 +272,24 @@ class MicrosoftCalendarSync(models.AbstractModel):
         return update_events
 
     @api.model
-    def _sync_microsoft2BetopiaERP(self, microsoft_events: MicrosoftEvent):
+    def _sync_microsoft2betopiaerp(self, microsoft_events: MicrosoftEvent):
         """
-        Synchronize Microsoft recurrences in betopiaerp.
+        Synchronize Microsoft recurrences in BetopiaERP.
         Creates new recurrences, updates existing ones.
-        :return: synchronized BetopiaERP
+        :return: synchronized betopiaerp
         """
-        existing = microsoft_events.match_with_BetopiaERP_events(self.env)
+        existing = microsoft_events.match_with_betopiaerp_events(self.env)
         cancelled = microsoft_events.cancelled()
         new = microsoft_events - existing - cancelled
         new_recurrence = new.filter(lambda e: e.is_recurrent())
 
         # create new events and reccurrences
-        BetopiaERP_values = [
-            dict(self._microsoft_to_BetopiaERP_values(e, with_ids=True), need_sync_m=False)
+        betopiaerp_values = [
+            dict(self._microsoft_to_betopiaerp_values(e, with_ids=True), need_sync_m=False)
             for e in (new - new_recurrence)
         ]
-        synced_events = self.with_context(dont_notify=True, skip_contact_description=True)._create_from_microsoft(new, BetopiaERP_values)
-        synced_recurrences, updated_events = self._sync_recurrence_microsoft2BetopiaERP(existing, new_recurrence)
+        synced_events = self.with_context(dont_notify=True, skip_contact_description=True)._create_from_microsoft(new, betopiaerp_values)
+        synced_recurrences, updated_events = self._sync_recurrence_microsoft2betopiaerp(existing, new_recurrence)
         synced_events |= updated_events
 
         # remove cancelled events and recurrences
@@ -299,7 +299,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
             ('microsoft_id', 'in', cancelled.ids),
         ])
         cancelled_events = self.browse([
-            e.BetopiaERP_id(self.env)
+            e.betopiaerp_id(self.env)
             for e in cancelled
             if e.id not in [r.microsoft_id for r in cancelled_recurrences]
         ])
@@ -310,39 +310,39 @@ class MicrosoftCalendarSync(models.AbstractModel):
         synced_recurrences |= cancelled_recurrences
         synced_events |= cancelled_events | cancelled_recurrences.calendar_event_ids
 
-        # Get sync lower bound days range for checking if old events must be updated in betopiaerp.
+        # Get sync lower bound days range for checking if old events must be updated in BetopiaERP.
         ICP = self.env['ir.config_parameter'].sudo()
         lower_bound_day_range = ICP.get_param('microsoft_calendar.sync.lower_bound_range')
 
         # update other events
         for mevent in (existing - cancelled).filter(lambda e: e.lastModifiedDateTime):
             # Last updated wins.
-            # This could be dangerous if microsoft server time and BetopiaERP server time are different
+            # This could be dangerous if microsoft server time and betopiaerp server time are different
             if mevent.is_recurrence():
-                BetopiaERP_event = self.env['calendar.recurrence'].browse(mevent.BetopiaERP_id(self.env)).exists()
+                betopiaerp_event = self.env['calendar.recurrence'].browse(mevent.betopiaerp_id(self.env)).exists()
             else:
-                BetopiaERP_event = self.browse(mevent.BetopiaERP_id(self.env)).exists()
+                betopiaerp_event = self.browse(mevent.betopiaerp_id(self.env)).exists()
 
-            if BetopiaERP_event:
-                BetopiaERP_event_updated_time = pytz.utc.localize(BetopiaERP_event.write_date)
+            if betopiaerp_event:
+                betopiaerp_event_updated_time = pytz.utc.localize(betopiaerp_event.write_date)
                 ms_event_updated_time = parse(mevent.lastModifiedDateTime)
 
                 # If the update comes from an old event/recurrence, check if time diff between updates is reasonable.
                 old_event_update_condition = True
                 if lower_bound_day_range:
-                    update_time_diff = ms_event_updated_time - BetopiaERP_event_updated_time
-                    old_event_update_condition = BetopiaERP_event._check_old_event_update_required(int(lower_bound_day_range), update_time_diff)
+                    update_time_diff = ms_event_updated_time - betopiaerp_event_updated_time
+                    old_event_update_condition = betopiaerp_event._check_old_event_update_required(int(lower_bound_day_range), update_time_diff)
 
-                if ms_event_updated_time >= BetopiaERP_event_updated_time and old_event_update_condition:
-                    vals = dict(BetopiaERP_event._microsoft_to_BetopiaERP_values(mevent), need_sync_m=False)
-                    BetopiaERP_event.with_context(dont_notify=True)._write_from_microsoft(mevent, vals)
+                if ms_event_updated_time >= betopiaerp_event_updated_time and old_event_update_condition:
+                    vals = dict(betopiaerp_event._microsoft_to_betopiaerp_values(mevent), need_sync_m=False)
+                    betopiaerp_event.with_context(dont_notify=True)._write_from_microsoft(mevent, vals)
 
-                    if BetopiaERP_event._name == 'calendar.recurrence':
-                        update_events = BetopiaERP_event._update_microsoft_recurrence(mevent, microsoft_events)
-                        synced_recurrences |= BetopiaERP_event
+                    if betopiaerp_event._name == 'calendar.recurrence':
+                        update_events = betopiaerp_event._update_microsoft_recurrence(mevent, microsoft_events)
+                        synced_recurrences |= betopiaerp_event
                         synced_events |= update_events
                     else:
-                        synced_events |= BetopiaERP_event
+                        synced_events |= betopiaerp_event
 
         return synced_events, synced_recurrences
 
@@ -439,7 +439,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
 
     def _get_microsoft_records_to_sync(self, full_sync=False):
         """
-        Return records that should be synced from betopiaerp to Microsoft
+        Return records that should be synced from BetopiaERP to Microsoft
         :param full_sync: If True, all events attended by the user are returned
         :return: events
         """
@@ -447,7 +447,7 @@ class MicrosoftCalendarSync(models.AbstractModel):
         return self.with_context(active_test=False).search(domain)
 
     @api.model
-    def _microsoft_to_BetopiaERP_values(
+    def _microsoft_to_betopiaerp_values(
         self, microsoft_event: MicrosoftEvent, default_reminders=(), default_values=None, with_ids=False
     ):
         """

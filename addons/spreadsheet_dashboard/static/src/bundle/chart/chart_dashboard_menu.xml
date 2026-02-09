@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <div t-name="spreadsheet_dashboard.ChartDashboardMenu" t-inherit="o-spreadsheet-ChartDashboardMenu" t-inherit-mode="extension">
         <xpath expr="//div[hasclass('o-dashboard-chart-select')]/div/button[last()]" position="before">
             <t t-set="granularity" t-value="env.model.getters.getChartGranularity(props.chartId)?.granularity"/>
@@ -13,4 +13,4 @@
             </t>
         </xpath>
     </div>
-</BetopiaERP>
+</betopiaerp>

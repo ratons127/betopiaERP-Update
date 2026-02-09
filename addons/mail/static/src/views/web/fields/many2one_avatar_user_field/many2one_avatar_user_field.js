@@ -1,6 +1,6 @@
 import { useAssignUserCommand } from "@mail/views/web/fields/assign_user_command_hook";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { computeM2OProps, Many2One } from "@web/views/fields/many2one/many2one";
 import {

@@ -1,8 +1,8 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 
 /* eslint-disable no-restricted-globals */
-const cacheName = "BetopiaERP-sw-cache";
-const homepageURL = "/BetopiaERP";
+const cacheName = "betopiaerp-sw-cache";
+const homepageURL = "/betopiaerp";
 const offLineURL = `${homepageURL}/offline`;
 
 let sessionInfo = null;
@@ -19,7 +19,7 @@ self.addEventListener("install", (event) => {
 });
 
 const extractSessionInfo = (htmlContent) => {
-    const match = htmlContent.match(/BetopiaERP\.__session_info__\s*=\s*({.*?});/s);
+    const match = htmlContent.match(/betopiaerp\.__session_info__\s*=\s*({.*?});/s);
     return match && match[1] ? match[1] : null;
 };
 
@@ -59,7 +59,7 @@ const readDataOnCache = async (url) => {
     if (url === offLineURL) {
         return response;
     }
-    // if you come from /BetopiaERP to project the url is now /BetopiaERP/project, but it doesn't exist in cache so use /BetopiaERP instead
+    // if you come from /betopiaerp to project the url is now /betopiaerp/project, but it doesn't exist in cache so use /betopiaerp instead
     if (!response) {
         return readDataOnCache(homepageURL);
     }
@@ -106,16 +106,16 @@ const navigateOrDisplayOfflinePage = async (request) => {
 
 const serveShareTarget = (event) => {
     // Redirect so the user can refresh the page without resending data.
-    event.respondWith(Response.redirect("/BetopiaERP?share_target=trigger"));
+    event.respondWith(Response.redirect("/betopiaerp?share_target=trigger"));
     event.waitUntil(
         (async () => {
             // The page sends this message to tell the service worker it's ready to receive the file.
-            await waitingMessage("BetopiaERP_share_target");
+            await waitingMessage("betopiaerp_share_target");
             const client = await self.clients.get(event.resultingClientId || event.clientId);
             const data = await event.request.formData();
             client.postMessage({
                 shared_files: data.getAll("externalMedia") || [],
-                action: "BetopiaERP_share_target_ack",
+                action: "betopiaerp_share_target_ack",
             });
         })()
     );

@@ -26,7 +26,7 @@ class TestMassMailCommon(MassSMSCommon):
             # `+ ""` is for insuring that _prepend_preview rule out that case
             'preview': 'Hi {{ object.name + "" }} :)',
             'body_html': """<div><p>Hello <t t-out="object.name"/></p>,
-<t t-set="url" t-value="'www.betopiaerp.com'"/>
+<t t-set="url" t-value="'www.BetopiaERP.com'"/>
 <t t-set="httpurl" t-value="'https://www.betopiaerp.eu'"/>f
 <span>Website0: <a id="url0" t-attf-href="https://www.betopiaerp.tz/my/{{object.name}}">https://www.betopiaerp.tz/my/<t t-out="object.name"/></a></span>
 <span>Website1: <a id="url1" href="https://www.betopiaerp.be">https://www.betopiaerp.be</a></span>
@@ -49,7 +49,7 @@ class TestMassMailCommon(MassSMSCommon):
             'mailing_model_id': cls.env['ir.model']._get('mail.test.sms').id,
             'mailing_type': 'sms',
             'mailing_domain': '%s' % repr([('name', 'ilike', 'MassSMSTest')]),
-            'body_plaintext': 'Dear {{object.display_name}} this is a mass SMS with two links http://www.betopiaerp.com/smstest and http://www.betopiaerp.com/smstest/{{object.id}}',
+            'body_plaintext': 'Dear {{object.display_name}} this is a mass SMS with two links http://www.BetopiaERP.com/smstest and http://www.BetopiaERP.com/smstest/{{object.id}}',
             'sms_force_send': True,
             'sms_allow_unsubscribe': True,
         })

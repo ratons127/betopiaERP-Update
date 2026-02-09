@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/views/calendar/helpers default=false */
+/** @betopiaerp-module alias=@web/../tests/views/calendar/helpers default=false */
 
 import { uiService } from "@web/core/ui/ui_service";
 import { createElement } from "@web/core/utils/xml";

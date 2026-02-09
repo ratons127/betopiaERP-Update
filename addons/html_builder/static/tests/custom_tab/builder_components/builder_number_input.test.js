@@ -5,7 +5,7 @@ import {
     editBuilderRangeValue,
 } from "@html_builder/../tests/helpers";
 import { BuilderAction } from "@html_builder/core/builder_action";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     advanceTime,
     animationFrame,
@@ -14,9 +14,9 @@ import {
     fill,
     freezeTime,
     queryFirst,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred } from "@BetopiaERP/hoot-mock";
-import { xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
+import { xml } from "@betopiaerp/owl";
 import { contains, defineModels, models } from "@web/../tests/web_test_helpers";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 

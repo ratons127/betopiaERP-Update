@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/mock_services default=false */
+/** @betopiaerp-module alias=@web/../tests/helpers/mock_services default=false */
 
 import { effectService } from "@web/core/effects/effect_service";
 import { localization } from "@web/core/l10n/localization";

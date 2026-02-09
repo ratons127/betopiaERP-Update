@@ -1,4 +1,4 @@
-import { Component, onWillDestroy, useState } from '@BetopiaERP/owl';
+import { Component, onWillDestroy, useState } from '@betopiaerp/owl';
 import { rpc } from '@web/core/network/rpc';
 import { registry } from '@web/core/registry';
 import { useService } from '@web/core/utils/hooks';

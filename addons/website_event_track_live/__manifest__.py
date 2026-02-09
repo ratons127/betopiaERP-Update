@@ -8,7 +8,7 @@
     'sequence': 1006,
     'version': '1.0',
     'summary': 'Support live tracks: streaming, participation, youtube',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'depends': [
         'website_event_track',
     ],
@@ -28,6 +28,6 @@
             'website_event_track_live/static/src/xml/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

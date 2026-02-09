@@ -1,6 +1,6 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, scroll } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
+import { queryAllTexts, scroll } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockDate } from "@betopiaerp/hoot-mock";
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import { SELECTORS } from "@web/../tests/core/domain_selector/domain_selector_helpers";
 import {

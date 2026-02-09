@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { undo } from "./_helpers/user_actions";
 
@@ -30,14 +30,14 @@ describe("range collapsed", () => {
 });
 
 describe("range not collapsed", () => {
-    test("should cut a selection as text/plain, text/html and application/vnd.BetopiaERP.BetopiaERP-editor (1)", async () => {
+    test("should cut a selection as text/plain, text/html and application/vnd.betopiaerp.betopiaerp-editor (1)", async () => {
         await testEditor({
             contentBefore: "<p>a[bcd]e</p>",
             stepFunction: async (editor) => {
                 const clipboardData = cut(editor);
                 expect(clipboardData.getData("text/plain")).toBe("bcd");
                 expect(clipboardData.getData("text/html")).toBe("<p>bcd</p>");
-                expect(clipboardData.getData("application/vnd.BetopiaERP.BetopiaERP-editor")).toBe(
+                expect(clipboardData.getData("application/vnd.betopiaerp.betopiaerp-editor")).toBe(
                     "<p>bcd</p>"
                 );
             },
@@ -45,14 +45,14 @@ describe("range not collapsed", () => {
         });
     });
 
-    test("should cut a selection as text/plain, text/html and application/vnd.BetopiaERP.BetopiaERP-editor (2)", async () => {
+    test("should cut a selection as text/plain, text/html and application/vnd.betopiaerp.betopiaerp-editor (2)", async () => {
         await testEditor({
             contentBefore: "<p>[abc<br>efg]</p>",
             stepFunction: async (editor) => {
                 const clipboardData = cut(editor);
                 expect(clipboardData.getData("text/plain")).toBe("abc\nefg");
                 expect(clipboardData.getData("text/html")).toBe("<p>abc<br>efg</p>");
-                expect(clipboardData.getData("application/vnd.BetopiaERP.BetopiaERP-editor")).toBe(
+                expect(clipboardData.getData("application/vnd.betopiaerp.betopiaerp-editor")).toBe(
                     "<p>abc<br>efg</p>"
                 );
             },

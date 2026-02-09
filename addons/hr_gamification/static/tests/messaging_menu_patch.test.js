@@ -1,5 +1,5 @@
 import { click, start } from "@mail/../tests/mail_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { defineHrGamificationModels } from "@hr_gamification/../tests/hr_gamification_test_helpers";
 import { asyncStep, makeMockServer, mockService, serverState, waitForSteps } from "@web/../tests/web_test_helpers";
 import { user } from "@web/core/user";

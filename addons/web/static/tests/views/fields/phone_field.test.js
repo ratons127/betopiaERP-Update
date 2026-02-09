@@ -7,10 +7,10 @@ import {
     mountView,
     onRpc,
 } from "@web/../tests/web_test_helpers";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, edit, pointerDown, queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, edit, pointerDown, queryFirst, queryOne } from "@betopiaerp/hoot-dom";
 import { getNextTabableElement } from "@web/core/utils/ui";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 class Partner extends models.Model {
     foo = fields.Char({ default: "My little Foo Value", trim: true });

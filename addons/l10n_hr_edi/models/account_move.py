@@ -163,7 +163,7 @@ class AccountMove(models.Model):
 
         return super()._get_import_file_type(file_data)
 
-    def _get_invoice_reference_BetopiaERP_invoice(self):
+    def _get_invoice_reference_betopiaerp_invoice(self):
         """
         Override to propose a structured reference for HR domestic flows.
         When the company and partner are both in Croatia and the invoice has a
@@ -177,7 +177,7 @@ class AccountMove(models.Model):
             fisc_num_hr_format = re.sub(r'\D', '', self._get_l10n_hr_fiscalization_number(self.name))
             return "HR00 " + fisc_num_hr_format
         else:
-            return super()._get_invoice_reference_BetopiaERP_invoice()
+            return super()._get_invoice_reference_betopiaerp_invoice()
 
     def _post(self, soft=True):
         for move in self:

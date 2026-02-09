@@ -14,7 +14,7 @@ submission provided by the payment module.
 ## Module history
 
 - `19.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#210746
+  - The first version of the module is merged. betopiaerp/betopiaerp#210746
 
 ## Testing instructions
 

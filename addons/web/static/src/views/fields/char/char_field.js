@@ -7,7 +7,7 @@ import { useInputField } from "../input_field_hook";
 import { standardFieldProps } from "../standard_field_props";
 import { TranslationButton } from "../translation_button";
 
-import { Component, useEffect, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useExternalListener, useRef } from "@betopiaerp/owl";
 
 export class CharField extends Component {
     static template = "web.CharField";

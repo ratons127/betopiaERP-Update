@@ -1,4 +1,4 @@
-<BetopiaERP>
+<betopiaerp>
     <template inherit_id="account.report_payment_receipt_document" id="report_payment_receipt_document">
         <xpath expr="//table[@name='invoices']" position="before">
             <t t-set="checks" t-value="o._get_latam_checks()"/>
@@ -38,4 +38,4 @@
             </t>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

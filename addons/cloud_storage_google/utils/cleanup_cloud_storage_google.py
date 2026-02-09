@@ -33,10 +33,10 @@ from urllib.parse import quote
 # 5, 6 are done with threadpool
 
 # BetopiaERP
-BetopiaERP_url = 'http://localhost:8069'
-BetopiaERP_db = 'BetopiaERP_db'
-BetopiaERP_username = 'admin'
-BetopiaERP_password = 'admin'
+betopiaerp_url = 'http://localhost:8069'
+betopiaerp_db = 'betopiaerp_db'
+betopiaerp_username = 'admin'
+betopiaerp_password = 'admin'
 
 # Google service account
 GOOGLE_CLOUD_STORAGE_ENDPOINT = 'https://storage.googleapis.com'
@@ -86,12 +86,12 @@ def split_every(n, iterable, piece_maker=tuple):
 
 
 def get_blobs_to_be_deleted(blob_urls, batch_size=1000):
-    common = xmlrpc.client.ServerProxy(f'{BetopiaERP_url}/xmlrpc/2/common')
-    uid = common.authenticate(BetopiaERP_db, BetopiaERP_username, BetopiaERP_password, {})
-    models = xmlrpc.client.ServerProxy(f'{BetopiaERP_url}/xmlrpc/2/object')
+    common = xmlrpc.client.ServerProxy(f'{betopiaerp_url}/xmlrpc/2/common')
+    uid = common.authenticate(betopiaerp_db, betopiaerp_username, betopiaerp_password, {})
+    models = xmlrpc.client.ServerProxy(f'{betopiaerp_url}/xmlrpc/2/object')
     for blob_urls_ in split_every(batch_size, blob_urls):
         blob_urls_ = list(blob_urls_)
-        attachments = models.execute_kw(BetopiaERP_db, uid, BetopiaERP_password, 'ir.attachment', 'search_read', [
+        attachments = models.execute_kw(betopiaerp_db, uid, betopiaerp_password, 'ir.attachment', 'search_read', [
             [('type', '=', 'cloud_storage'), ('url', 'in', blob_urls_)],
             ['url']
         ])

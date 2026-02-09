@@ -1015,7 +1015,7 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
     @users('employee')
     @mute_logger('betopiaerp.models.unlink')
     def test_message_post_inactive_follower(self):
-        """ Test posting with inactive followers does not notify them (e.g. BetopiaERPbot) """
+        """ Test posting with inactive followers does not notify them (e.g. betopiaerpbot) """
         test_record = self.env['mail.test.simple'].browse(self.test_record.ids)
         test_record._message_subscribe(self.user_employee_2.partner_id.ids)
         self.user_employee_2.write({'active': False})

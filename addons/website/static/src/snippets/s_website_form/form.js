@@ -391,8 +391,8 @@ export class Form extends Interaction {
             }
         }
 
-        if (BetopiaERP.csrf_token) {
-            formValues.csrf_token = BetopiaERP.csrf_token;
+        if (betopiaerp.csrf_token) {
+            formValues.csrf_token = betopiaerp.csrf_token;
         }
 
         const formData = new FormData();
@@ -568,7 +568,7 @@ export class Form extends Interaction {
                     // Special cases for dates and datetimes
                     // FIXME this seems like dead code, the inputs do not use
                     // those classes, their parent does (but it seemed to work
-                    // at some point given that https://github.com/BetopiaERP/BetopiaERP/commit/75e03c0f7692a112e1b0fa33267f4939363f3871
+                    // at some point given that https://github.com/betopiaerp/betopiaerp/commit/75e03c0f7692a112e1b0fa33267f4939363f3871
                     // was made)... need more investigation (if restored,
                     // consider checking the date inputs are not disabled before
                     // saying they are invalid (see checkValidity used here))

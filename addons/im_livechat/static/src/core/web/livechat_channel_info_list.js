@@ -5,7 +5,7 @@ import { ConversationTagEdit } from "@im_livechat/core/web/livechat_conversation
 import { ActionPanel } from "@mail/discuss/core/common/action_panel";
 import { prettifyMessageContent } from "@mail/utils/common/format";
 
-import { Component, useEffect, useRef, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useSubEnv } from "@betopiaerp/owl";
 
 import { startUrl } from "@web/core/browser/router";
 import { rpc } from "@web/core/network/rpc";

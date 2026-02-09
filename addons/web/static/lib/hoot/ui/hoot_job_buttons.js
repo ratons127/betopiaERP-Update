@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { Job } from "../core/job";
 import { Test } from "../core/test";
 import { HootLink } from "./hoot_link";

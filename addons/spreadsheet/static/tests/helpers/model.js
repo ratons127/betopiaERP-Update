@@ -1,6 +1,6 @@
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Model } from "@BetopiaERP/o-spreadsheet";
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Model } from "@betopiaerp/o-spreadsheet";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
 import {
     defineActions,
     defineMenus,
@@ -17,7 +17,7 @@ import { addRecordsFromServerData, addViewsFromServerData } from "./data";
  */
 
 export function setupDataSourceEvaluation(model) {
-    model.config.custom.BetopiaERPDataProvider.addEventListener("data-source-updated", () => {
+    model.config.custom.betopiaerpDataProvider.addEventListener("data-source-updated", () => {
         const sheetId = model.getters.getActiveSheetId();
         model.dispatch("EVALUATE_CELLS", { sheetId });
     });
@@ -41,7 +41,7 @@ export async function createModelWithDataSource(params = {}) {
         ...config,
         custom: {
             env,
-            BetopiaERPDataProvider: new BetopiaERPDataProvider(env),
+            betopiaerpDataProvider: new BetopiaERPDataProvider(env),
             ...config?.custom,
         },
     });

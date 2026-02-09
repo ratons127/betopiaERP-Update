@@ -16,6 +16,6 @@ Report ledger for Bulgaria
         'views/account_move_views.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

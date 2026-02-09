@@ -444,7 +444,7 @@ class PosConfig(models.Model):
 
     def get_pos_qr_order_data(self):
 
-        url_form = "https://www.betopiaerp.com/app/point-of-sale-restaurant-qr-code"
+        url_form = "https://www.BetopiaERP.com/app/point-of-sale-restaurant-qr-code"
 
         table_data = []
         if self.self_ordering_mode not in ['mobile', 'consultation']:

@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { Dialog } from "@web/core/dialog/dialog";
 import { useChildRef, useService } from "@web/core/utils/hooks";
-import { Component, useState, useRef } from "@BetopiaERP/owl";
+import { Component, useState, useRef } from "@betopiaerp/owl";
 
 /**
  * @typedef {import('./google_map_option_plugin.js').ApiKeyValidation} ApiKeyValidation

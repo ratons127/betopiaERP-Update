@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, drag, hover, leave, pointerDown, pointerUp, queryOne } from "@BetopiaERP/hoot-dom";
-import { advanceTime, animationFrame, mockTouch, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, drag, hover, leave, pointerDown, pointerUp, queryOne } from "@betopiaerp/hoot-dom";
+import { advanceTime, animationFrame, mockTouch, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { makeMockEnv, mockService, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { popoverService } from "@web/core/popover/popover_service";

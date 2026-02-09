@@ -33,6 +33,6 @@ following:
             'pos_razorpay/static/tests/unit/data/**/*'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

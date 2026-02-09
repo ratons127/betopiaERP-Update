@@ -13,7 +13,7 @@ The specific and easy-to-use Invoicing system in BetopiaERP allows you to keep t
 You could use this simplified accounting in case you work with an (external) account to keep your books, and you still want to keep track of payments. This module also offers you an easy method of registering payments, without having to encode complete abstracts of account.
     """,
     'category': 'Accounting/Accounting',
-    'website': 'https://www.betopiaerp.com/app/invoicing',
+    'website': 'https://www.BetopiaERP.com/app/invoicing',
     'depends': ['base_setup', 'onboarding', 'product', 'analytic', 'portal', 'digest'],
     'data': [
         'security/account_security.xml',
@@ -136,6 +136,6 @@ You could use this simplified accounting in case you work with an (external) acc
             'account/static/src/css/report_invoice.css',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

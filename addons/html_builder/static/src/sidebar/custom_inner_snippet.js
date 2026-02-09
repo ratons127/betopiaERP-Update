@@ -1,5 +1,5 @@
 import { Img } from "@html_builder/core/img";
-import { Component, useState, useRef } from "@BetopiaERP/owl";
+import { Component, useState, useRef } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { useAutofocus } from "@web/core/utils/hooks";
 

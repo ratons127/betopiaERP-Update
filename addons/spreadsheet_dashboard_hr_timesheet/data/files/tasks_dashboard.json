@@ -46,8 +46,8 @@
       },
       "merges": [],
       "cells": {
-        "A7": "[Tasks by Stage](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"stage_id\",\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"stage_id\",\"state\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
-        "A23": "[Top Assignees](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"user_ids\",\"!=\",false]],\"context\":{\"group_by\":[],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"user_ids\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "A7": "[Tasks by Stage](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"stage_id\",\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"stage_id\",\"state\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "A23": "[Top Assignees](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"user_ids\",\"!=\",false]],\"context\":{\"group_by\":[],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"user_ids\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
         "A24": "=_t(\"Assignee\")",
         "A25": "=PIVOT.HEADER(1,\"#user_ids\",1)",
         "A26": "=PIVOT.HEADER(1,\"#user_ids\",2)",
@@ -59,7 +59,7 @@
         "A32": "=PIVOT.HEADER(1,\"#user_ids\",8)",
         "A33": "=PIVOT.HEADER(1,\"#user_ids\",9)",
         "A34": "=PIVOT.HEADER(1,\"#user_ids\",10)",
-        "A36": "[Top Tags](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"tag_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"tag_ids\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"tag_ids\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "A36": "[Top Tags](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"tag_ids\",\"!=\",false]],\"context\":{\"group_by\":[\"tag_ids\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"tag_ids\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
         "A37": "=_t(\"Tag\")",
         "A38": "=PIVOT.HEADER(3,\"#tag_ids\",1)",
         "A39": "=PIVOT.HEADER(3,\"#tag_ids\",2)",
@@ -115,8 +115,8 @@
         "C45": "=PIVOT.VALUE(3,\"nbr\",\"#tag_ids\",8)",
         "C46": "=PIVOT.VALUE(3,\"nbr\",\"#tag_ids\",9)",
         "C47": "=PIVOT.VALUE(3,\"nbr\",\"#tag_ids\",10)",
-        "E7": "[Tasks by State](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"state\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
-        "E23": "[Top Projects](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"project_id\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"project_id\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "E7": "[Tasks by State](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"state\"],\"graph_measure\":\"__count\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"state\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "E23": "[Top Projects](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"project_id\",\"!=\",false]],\"context\":{\"group_by\":[\"project_id\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"project_id\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
         "E24": "=_t(\"Project\")",
         "E25": "=PIVOT.HEADER(2,\"#project_id\",1)",
         "E26": "=PIVOT.HEADER(2,\"#project_id\",2)",
@@ -128,7 +128,7 @@
         "E32": "=PIVOT.HEADER(2,\"#project_id\",8)",
         "E33": "=PIVOT.HEADER(2,\"#project_id\",9)",
         "E34": "=PIVOT.HEADER(2,\"#project_id\",10)",
-        "E36": "[Top Customers](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"partner_id\",\"!=\",false]],\"context\":{\"group_by\":[\"partner_id\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
+        "E36": "[Top Customers](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"domain\":[[\"partner_id\",\"!=\",false]],\"context\":{\"group_by\":[\"partner_id\"],\"pivot_measures\":[\"effective_hours\",\"nbr\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"report.project.task.user\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Tasks Analysis\"})",
         "E37": "=_t(\"Customer\")",
         "E38": "=PIVOT.HEADER(4,\"#partner_id\",1)",
         "E39": "=PIVOT.HEADER(4,\"#partner_id\",2)",
@@ -287,7 +287,7 @@
               "groupBy": ["stage_id", "state"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": true,
@@ -330,7 +330,7 @@
               "groupBy": ["state"],
               "orderBy": []
             },
-            "type": "BetopiaERP_pie",
+            "type": "betopiaerp_pie",
             "dataSets": [],
             "fieldMatching": {
               "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": 0 },
@@ -608,7 +608,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "date_assign", "type": "datetime", "offset": 0 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },
@@ -642,7 +642,7 @@
       ]
     },
     "2": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": 0 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },
@@ -676,7 +676,7 @@
       ]
     },
     "3": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": 0 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },
@@ -710,7 +710,7 @@
       ]
     },
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": 0 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },
@@ -744,7 +744,7 @@
       ]
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": 0 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },
@@ -776,7 +776,7 @@
       "rows": []
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "83b5c62c-1c67-4477-a057-c0ec29edd595": { "chain": "create_date", "type": "datetime", "offset": -1 },
         "fb7f6ae2-e19c-40d5-9976-7a05b1f18c2d": { "chain": "user_ids", "type": "many2many" },

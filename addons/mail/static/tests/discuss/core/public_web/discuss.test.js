@@ -6,8 +6,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { EventBus } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { EventBus } from "@betopiaerp/owl";
 import { Command, mockService, patchWithCleanup, withUser } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 

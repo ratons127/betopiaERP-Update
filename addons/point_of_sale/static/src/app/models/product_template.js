@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { ProductTemplateAccounting } from "./accounting/product_template_accounting";
 import { normalize } from "@web/core/l10n/utils";
 

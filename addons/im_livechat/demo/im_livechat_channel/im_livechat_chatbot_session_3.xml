@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record id="livechat_channel_chatbot_session_3_demo" model="discuss.channel">
             <field name="channel_type">livechat</field>
@@ -104,4 +104,4 @@
             <field eval="DateTime.today() + relativedelta(months=-1, days=-0, minutes=7)" name="create_date"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

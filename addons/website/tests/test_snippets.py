@@ -55,7 +55,7 @@ class TestSnippets(HttpCase):
                 'name': 'My Mail Group',
                 'alias_name': 'my_mail_group',
             })
-        self.start_tour(f"/BetopiaERP/action-website.website_preview?{path}", "snippets_all_drag_and_drop", login='admin', timeout=600)
+        self.start_tour(f"/betopiaerp/action-website.website_preview?{path}", "snippets_all_drag_and_drop", login='admin', timeout=600)
 
     def test_04_countdown_preview(self):
         self.start_tour(self.env['website'].get_client_action_url('/'), 'snippet_countdown', login='admin')
@@ -64,11 +64,11 @@ class TestSnippets(HttpCase):
         self.env.ref('website.default_website').write({
             'social_facebook': "https://www.facebook.com/BetopiaERP",
             'social_twitter': 'https://twitter.com/BetopiaERP',
-            'social_linkedin': 'https://www.linkedin.com/company/BetopiaERP',
+            'social_linkedin': 'https://www.linkedin.com/company/betopiaerp',
             'social_youtube': 'https://www.youtube.com/user/OpenERPonline',
-            'social_github': 'https://github.com/BetopiaERP',
-            'social_instagram': 'https://www.instagram.com/explore/tags/BetopiaERP/',
-            'social_tiktok': 'https://www.tiktok.com/@BetopiaERP',
+            'social_github': 'https://github.com/betopiaerp',
+            'social_instagram': 'https://www.instagram.com/explore/tags/betopiaerp/',
+            'social_tiktok': 'https://www.tiktok.com/@betopiaerp',
             'social_discord': 'https://discord.com/servers/discord-town-hall-169256939211980800',
         })
         create_image_attachment(self.env, '/web/image/website.s_banner_default_image', 's_banner_default_image.jpg')

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="chatbot_script_website_hr_recruitment" model="chatbot.script">
             <field name="title">Jobs Bot</field>
-            <field name="image_1920" type="base64" file="mail/static/src/img/BetopiaERPbot.png"/>
+            <field name="image_1920" type="base64" file="mail/static/src/img/betopiaerpbot.png"/>
         </record>
 
          <record id="website_hr_recruitmentlivechat_channel_rule_chatbot" model="im_livechat.channel.rule" forcecreate='False'>
@@ -406,4 +406,4 @@
             ]"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

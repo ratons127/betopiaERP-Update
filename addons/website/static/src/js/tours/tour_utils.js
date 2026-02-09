@@ -2,7 +2,7 @@ import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { cookie } from "@web/core/browser/cookie";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { omit } from "@web/core/utils/objects";
 import { stepUtils } from "@web_tour/tour_utils";
 
@@ -366,7 +366,7 @@ export function clickOnSave(position = "bottom", timeout = 50000, withContains =
 export function clickOnText(snippet, element, position = "bottom") {
     return [
         {
-            trigger: ":iframe body .BetopiaERP-editor-editable",
+            trigger: ":iframe body .betopiaerp-editor-editable",
         },
         {
             trigger: snippet.id ? `:iframe #wrapwrap .${snippet.id} ${element}` : snippet,
@@ -492,7 +492,7 @@ export function prepend_trigger(steps, prepend_text = "") {
 }
 
 export function getClientActionUrl(path, edition) {
-    let url = `/BetopiaERP/action-website.website_preview`;
+    let url = `/betopiaerp/action-website.website_preview`;
     if (path) {
         url += `?path=${encodeURIComponent(path)}`;
     }
@@ -586,7 +586,7 @@ export function registerBackendAndFrontendTour(name, options, steps) {
     if (typeof steps !== "function") {
         throw new Error(`tour.steps has to be a function that returns TourStep[]`);
     }
-    if (window.location.pathname === "/BetopiaERP") {
+    if (window.location.pathname === "/betopiaerp") {
         return registerWebsitePreviewTour(name, options, () => {
             const newSteps = [];
             for (const step of steps()) {
@@ -729,7 +729,7 @@ export function selectFullText(elementName, selector) {
             range.selectNodeContents(this.anchor);
             selection.removeAllRanges();
             selection.addRange(range);
-            this.anchor.closest(".BetopiaERP-editor-editable").dispatchEvent(
+            this.anchor.closest(".betopiaerp-editor-editable").dispatchEvent(
                 new MouseEvent("pointerup", {
                     bubbles: true,
                     cancelable: true,

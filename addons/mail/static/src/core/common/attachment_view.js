@@ -7,7 +7,7 @@ import {
     useEffect,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { deepEqual } from "@web/core/utils/objects";

@@ -9,7 +9,7 @@
 Track equipment and maintenance requests""",
     'depends': ['mail'],
     'summary': 'Track equipment and manage maintenance requests',
-    'website': 'https://www.betopiaerp.com/app/maintenance',
+    'website': 'https://www.BetopiaERP.com/app/maintenance',
     'data': [
         'security/maintenance.xml',
         'security/ir.model.access.csv',
@@ -31,6 +31,6 @@ Track equipment and maintenance requests""",
             'maintenance/static/tests/tours/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

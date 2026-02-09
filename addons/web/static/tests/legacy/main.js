@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/main default=false */
+/** @betopiaerp-module alias=@web/../tests/main default=false */
 
 import { setupQUnit } from "./qunit";
 import { setupTests } from "./setup";

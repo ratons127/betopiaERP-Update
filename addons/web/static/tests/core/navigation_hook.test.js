@@ -1,7 +1,7 @@
-import { Component, onMounted, useState, xml } from "@BetopiaERP/owl";
+import { Component, onMounted, useState, xml } from "@betopiaerp/owl";
 import { ACTIVE_ELEMENT_CLASS, Navigator, useNavigation } from "@web/core/navigation/navigation";
 import { useAutofocus } from "@web/core/utils/hooks";
-import { describe, destroy, expect, test } from "@BetopiaERP/hoot";
+import { describe, destroy, expect, test } from "@betopiaerp/hoot";
 import {
     hover,
     press,
@@ -9,8 +9,8 @@ import {
     queryAllTexts,
     queryOne,
     manuallyDispatchProgrammaticEvent,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 class BasicHookParent extends Component {

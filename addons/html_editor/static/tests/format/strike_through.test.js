@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-mock";
-import { press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-mock";
+import { press } from "@betopiaerp/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";

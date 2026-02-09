@@ -1,8 +1,8 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, Deferred } from "@BetopiaERP/hoot-dom";
-import { Component, reactive, useState, xml } from "@BetopiaERP/owl";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, Deferred } from "@betopiaerp/hoot-dom";
+import { Component, reactive, useState, xml } from "@betopiaerp/owl";
 import { mountForTest, parseUrl } from "../local_helpers";
 
 import { logger } from "../../core/logger";

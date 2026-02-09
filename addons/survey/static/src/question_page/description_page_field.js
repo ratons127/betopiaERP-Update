@@ -1,6 +1,6 @@
 import { CharField, charField } from "@web/views/fields/char/char_field";
 import { registry } from "@web/core/registry";
-import { useEffect, useRef } from "@BetopiaERP/owl";
+import { useEffect, useRef } from "@betopiaerp/owl";
 
 class DescriptionPageField extends CharField {
     static template = "survey.DescriptionPageField";

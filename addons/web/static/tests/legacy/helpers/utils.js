@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/utils default=false */
+/** @betopiaerp-module alias=@web/../tests/helpers/utils default=false */
 
 import { getTemplate } from "@web/core/templates";
 import { browser } from "@web/core/browser/browser";
@@ -25,7 +25,7 @@ import {
     onWillUnmount,
     onWillUpdateProps,
     useComponent,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 /**
  * @typedef {keyof HTMLElementEventMap | keyof WindowEventMap} EventType

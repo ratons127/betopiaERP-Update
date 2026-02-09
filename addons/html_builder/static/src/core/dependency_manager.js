@@ -1,4 +1,4 @@
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { batched } from "@web/core/utils/timing";
 
 /**

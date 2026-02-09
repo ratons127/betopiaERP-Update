@@ -1,5 +1,5 @@
 import { _t } from "@web/core/l10n/translation";
-import { helpers, registries, EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { helpers, registries, EvaluationError } from "@betopiaerp/o-spreadsheet";
 
 const { arg, toString, toNumber } = helpers;
 const { functionRegistry } = registries;
@@ -14,7 +14,7 @@ function assertListsExists(listId, getters) {
     }
 }
 
-const BetopiaERP_LIST = {
+const BETOPIAERP_LIST = {
     description: _t("Get the value from a list."),
     args: [
         arg("list_id (string)", _t("ID of the list.")),
@@ -35,7 +35,7 @@ const BetopiaERP_LIST = {
     returns: ["NUMBER", "STRING"],
 };
 
-const BetopiaERP_LIST_HEADER = {
+const BETOPIAERP_LIST_HEADER = {
     description: _t("Get the header of a list."),
     args: [
         arg("list_id (string)", _t("ID of the list.")),
@@ -54,5 +54,5 @@ const BetopiaERP_LIST_HEADER = {
     returns: ["NUMBER", "STRING"],
 };
 
-functionRegistry.add("BetopiaERP.LIST", BetopiaERP_LIST);
-functionRegistry.add("BetopiaERP.LIST.HEADER", BetopiaERP_LIST_HEADER);
+functionRegistry.add("BETOPIAERP.LIST", BETOPIAERP_LIST);
+functionRegistry.add("BETOPIAERP.LIST.HEADER", BETOPIAERP_LIST_HEADER);

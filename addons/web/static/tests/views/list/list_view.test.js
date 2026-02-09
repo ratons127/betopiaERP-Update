@@ -1,4 +1,4 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     clear,
     click,
@@ -19,7 +19,7 @@ import {
     queryText,
     unload,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import {
     animationFrame,
     Deferred,
@@ -27,8 +27,8 @@ import {
     mockTimeZone,
     runAllTimers,
     tick,
-} from "@BetopiaERP/hoot-mock";
-import { Component, markup, onRendered, onWillStart, useRef, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-mock";
+import { Component, markup, onRendered, onWillStart, useRef, xml } from "@betopiaerp/owl";
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {
     clickFieldDropdown,

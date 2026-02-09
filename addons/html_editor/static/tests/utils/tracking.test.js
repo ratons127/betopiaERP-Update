@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { trackOccurrences, trackOccurrencesPair } from "@html_editor/utils/tracking";
 
 describe("trackOccurrences", () => {

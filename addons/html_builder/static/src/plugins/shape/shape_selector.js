@@ -1,4 +1,4 @@
-import { useRef, useState } from "@BetopiaERP/owl";
+import { useRef, useState } from "@betopiaerp/owl";
 import { ImgGroup } from "@html_builder/core/img_group";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 import { useThrottleForAnimation } from "@web/core/utils/timing";

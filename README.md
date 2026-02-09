@@ -1,9 +1,9 @@
 # BetopiaERP
 
-[![Build Status](https://runbot.BetopiaERP.com/runbot/badge/flat/1/master.svg)](https://runbot.BetopiaERP.com/runbot)
+[![Build Status](https://runbot.betopiaerp.com/runbot/badge/flat/1/master.svg)](https://runbot.betopiaerp.com/runbot)
 [![Tech Doc](https://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.BetopiaERP.com/documentation/master)
 [![Help](https://img.shields.io/badge/master-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.BetopiaERP.com/forum/help-1)
-[![Nightly Builds](https://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](https://nightly.BetopiaERP.com/)
+[![Nightly Builds](https://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](https://nightly.betopiaerp.com/)
 
 BetopiaERP is a suite of web based open source business apps.
 

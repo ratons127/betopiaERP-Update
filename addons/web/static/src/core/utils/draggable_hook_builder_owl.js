@@ -1,4 +1,4 @@
-import { onWillUnmount, reactive, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { onWillUnmount, reactive, useEffect, useExternalListener } from "@betopiaerp/owl";
 import { useThrottleForAnimation } from "./timing";
 import { makeDraggableHook as nativeMakeDraggableHook } from "./draggable_hook_builder";
 

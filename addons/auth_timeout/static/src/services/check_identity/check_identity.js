@@ -1,4 +1,4 @@
-import { Component, EventBus, onWillDestroy, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, EventBus, onWillDestroy, onWillStart, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { rpc, RPCError } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
@@ -269,7 +269,7 @@ export const checkIdentityService = {
 
         const checkIdentityErrorHandler = (env, error, originalError) => {
             if (originalError instanceof RPCError) {
-                if (originalError.data.name === "BetopiaERP.addons.auth_timeout.models.ir_http.CheckIdentityException") {
+                if (originalError.data.name === "betopiaerp.addons.auth_timeout.models.ir_http.CheckIdentityException") {
                     run();
                     return true;
                 }

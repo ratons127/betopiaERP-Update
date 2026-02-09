@@ -11,6 +11,6 @@
     ],
     'installable': True,
     'auto_install': ['stock_account'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

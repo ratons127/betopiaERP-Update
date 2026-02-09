@@ -153,7 +153,7 @@ _mime_mappings = (
 )
 
 
-def _BetopiaERP_guess_mimetype(bin_data: bytes, default='application/octet-stream'):
+def _betopiaerp_guess_mimetype(bin_data: bytes, default='application/octet-stream'):
     """ Attempts to guess the mime type of the provided binary data, similar
     to but significantly more limited than libmagic
 
@@ -227,7 +227,7 @@ try:
         return mimetype
 
 except ImportError:
-    guess_mimetype = _BetopiaERP_guess_mimetype
+    guess_mimetype = _betopiaerp_guess_mimetype
 
 
 def neuter_mimetype(mimetype, user):
@@ -238,9 +238,6 @@ def neuter_mimetype(mimetype, user):
 
 
 _extension_pattern = re.compile(r'\w+')
-
-# Ensure common long extensions are known across platforms
-mimetypes.add_type('application/x-bittorrent', '.torrent')
 def get_extension(filename):
     # A file has no extension if it has no dot (ignoring the leading one
     # of hidden files) or that what follow the last dot is not a single

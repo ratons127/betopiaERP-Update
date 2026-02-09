@@ -1,6 +1,6 @@
 /** @ts-check */
 
-import { Component, useEffect } from "@BetopiaERP/owl";
+import { Component, useEffect } from "@betopiaerp/owl";
 import { useChildRef } from "@web/core/utils/hooks";
 
 import { TagsList } from "@web/core/tags_list/tags_list";

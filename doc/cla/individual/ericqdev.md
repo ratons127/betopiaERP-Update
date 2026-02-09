@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Eric Mwiti ericmwitidev@gmail.com  https://github.com/ericqdev/BetopiaERP
+Eric Mwiti ericmwitidev@gmail.com  https://github.com/ericqdev/betopiaerp

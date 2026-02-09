@@ -1,7 +1,7 @@
 import { scrollTo, closestScrollable } from "@html_builder/utils/scrolling";
 import { Interaction } from "@web/public/interaction";
 import { registry } from "@web/core/registry";
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { cookie } from "@web/core/browser/cookie";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
@@ -72,7 +72,7 @@ export class WebsiteForum extends Interaction {
         // welcome message action button
         const forumRegisterUrlEl = this.el.querySelector(".forum_register_url");
         if (forumRegisterUrlEl) {
-            const forumLogin = `${browser.location.origin}/BetopiaERP?redirect=${encodeURIComponent(browser.location.href)}`;
+            const forumLogin = `${browser.location.origin}/betopiaerp?redirect=${encodeURIComponent(browser.location.href)}`;
             forumRegisterUrlEl.href = forumLogin;
         }
 

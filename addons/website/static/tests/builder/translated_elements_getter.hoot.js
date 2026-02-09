@@ -1,4 +1,4 @@
-import { globals } from "@BetopiaERP/hoot";
+import { globals } from "@betopiaerp/hoot";
 
 let translatedElements;
 export const getTranslatedElements = async () => {

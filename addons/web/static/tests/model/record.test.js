@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, onError, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, onError, useState, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

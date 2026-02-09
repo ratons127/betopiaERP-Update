@@ -7,9 +7,9 @@ import { BuilderAction } from "@html_builder/core/builder_action";
 import { Operation } from "@html_builder/core/operation";
 import { BaseOptionComponent } from "@html_builder/core/utils";
 import { HistoryPlugin } from "@html_editor/core/history_plugin";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, Deferred, delay, hover, press, tick } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, Deferred, delay, hover, press, tick } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

@@ -14,17 +14,17 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Umur Akın <umura@projetgrup.com>, 2022
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
-# BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>, 2025.
+# BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-20 13:20+0000\n"
-"Last-Translator: BetopiaERP Turkish Import <dyki+tr@BetopiaERP.com>\n"
-"Language-Team: Turkish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: BetopiaERP Turkish Import <dyki+tr@betopiaerp.com>\n"
+"Language-Team: Turkish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account_check_printing/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -34,13 +34,13 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid "%(journal)s: Check Number Sequence"
 msgstr "%(journal)s: Çek Numarası Sırası"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "%(number)s in journal %(journal)s"
 msgstr "%(number)s yevmiyede %(journal)s"
@@ -70,7 +70,7 @@ msgid "Amount in Words"
 msgstr "Yazı ile Tutar"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Bills"
 msgstr "Tedarikçi Faturaları"
@@ -120,7 +120,7 @@ msgid "Check Top Margin"
 msgstr "Üst Kenar Boşluğunu Kontrol Et"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Check numbers can only consist of digits"
 msgstr "Çek numaraları sadece rakamlardan oluşabilir"
@@ -138,7 +138,7 @@ msgid "Check to print"
 msgstr "Yazdırılacak Çek"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 #: model:account.payment.method,name:account_check_printing.account_payment_method_check
 msgid "Checks"
@@ -150,7 +150,7 @@ msgid "Checks numbering sequence."
 msgstr "Çek Sıralama numarası."
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_payment_check_printing_search
 msgid "Checks to Print"
@@ -197,7 +197,7 @@ msgid "Display Name"
 msgstr "Görünen Ad"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Go to the configuration panel"
 msgstr "Yapılandırma ekranına git"
@@ -218,7 +218,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 "In order to print multiple checks at once, they must belong to the same bank "
@@ -294,7 +294,7 @@ msgid "Next Check Number"
 msgstr "Sonraki Çek No"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 #: code:addons/account_check_printing/wizard/print_prenumbered_checks.py:0
 msgid "Next Check Number should only contains numbers."
@@ -321,7 +321,7 @@ msgid "Payments"
 msgstr "Ödemeler"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 "Payments to print as a checks must have 'Check' selected as payment method "
@@ -361,7 +361,7 @@ msgid "Print Date Label"
 msgstr "Tarih Etiketini Yazdır"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 #: model:ir.model,name:account_check_printing.model_print_prenumbered_checks
 #: model_terms:ir.ui.view,arch_db:account_check_printing.print_pre_numbered_checks_view
@@ -369,7 +369,7 @@ msgid "Print Pre-numbered Checks"
 msgstr "Numaralandırılmış Çekleri Yazdır"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Refunds"
 msgstr "İadeler"
@@ -406,7 +406,7 @@ msgid "Show Check Number"
 msgstr "Çek Numarasını Göster"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 "Something went wrong with Check Layout, please select another layout in "
@@ -416,7 +416,7 @@ msgstr ""
 "Ayarları'nda başka bir çıktı düzeni seçin ve yeniden deneyin."
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid ""
 "The check number you entered (%(num)s) exceeds the maximum allowed value of %"
@@ -426,7 +426,7 @@ msgstr ""
 "aşıyor. Lütfen daha küçük bir sayı girin."
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 "The following numbers are already used:\n"
@@ -436,7 +436,7 @@ msgstr ""
 "%s"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_journal.py:0
 msgid ""
 "The last check number was %s. In order to avoid a check being rejected by "
@@ -496,7 +496,7 @@ msgid "Void Check"
 msgstr "Geçersiz çek"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid ""
 "You have to choose a check layout. For this, go in Invoicing/Accounting "
@@ -506,19 +506,19 @@ msgstr ""
 "Ayarları'na gidin, 'Çek çıktı düzeni'ni arayın ve bir tane ayarlayın."
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "check_number"
 msgstr "check_number"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "out_refund"
 msgstr "out_refund"
 
 #. module: account_check_printing
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "sep"
 msgstr "sep"

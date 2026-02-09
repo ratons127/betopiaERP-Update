@@ -1,7 +1,7 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, edit, press, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, edit, press, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     addNewRule,
     clearNotSupported,

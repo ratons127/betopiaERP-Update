@@ -11,7 +11,7 @@ import {
     onWillUnmount,
     useExternalListener,
     useRef,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";

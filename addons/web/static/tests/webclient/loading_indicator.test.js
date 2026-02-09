@@ -1,5 +1,5 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     getService,
     mountWithCleanup,

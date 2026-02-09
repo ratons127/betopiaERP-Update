@@ -1,4 +1,4 @@
-import { onMounted, onWillUnmount } from "@BetopiaERP/owl";
+import { onMounted, onWillUnmount } from "@betopiaerp/owl";
 
 /**
  * `useTimedPress` — A hook to detect and respond to different press durations on a DOM element.

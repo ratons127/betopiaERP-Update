@@ -1,6 +1,6 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 const { registries, stores } = spreadsheet;
 const { figureRegistry } = registries;
 const { ModelStore, useStoreProvider } = stores;

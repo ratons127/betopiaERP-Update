@@ -8,7 +8,7 @@ import {
 } from "@mail/utils/common/format";
 import { compareDatetime } from "@mail/utils/common/misc";
 
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { rpc } from "@web/core/network/rpc";
@@ -95,7 +95,7 @@ export class Store extends BaseStore {
      * public page.
      */
     inPublicPage = false;
-    BetopiaERPbot = fields.One("res.partner");
+    betopiaerpbot = fields.One("res.partner");
     useMobileView = fields.Attr(undefined, {
         compute() {
             return this.store.env.services.ui.isSmall || isMobileOS();
@@ -470,7 +470,7 @@ export class Store extends BaseStore {
             }
             if (
                 browser.location.host === url.host &&
-                browser.location.pathname.startsWith("/BetopiaERP")
+                browser.location.pathname.startsWith("/betopiaerp")
             ) {
                 this.ChatWindow.get({ thread })?.fold();
             }

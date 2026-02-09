@@ -1,4 +1,4 @@
-import { onWillUnmount, useEffect, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { onWillUnmount, useEffect, useExternalListener, useRef } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { deepMerge } from "@web/core/utils/objects";
 import { scrollTo } from "@web/core/utils/scrolling";

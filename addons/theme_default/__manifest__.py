@@ -15,6 +15,6 @@
         'static/description/cover.png',
         'static/description/theme_default_screenshot.jpg',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

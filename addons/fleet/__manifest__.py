@@ -5,7 +5,7 @@
     'version' : '0.1',
     'sequence': 185,
     'category': 'Human Resources/Fleet',
-    'website' : 'https://www.betopiaerp.com/app/fleet',
+    'website' : 'https://www.BetopiaERP.com/app/fleet',
     'summary' : 'Manage your fleet and track car costs',
     'description' : """
 Vehicle, leasing, insurances, cost
@@ -54,6 +54,6 @@ Main Features
             'fleet/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent } from "@BetopiaERP/hoot-dom";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent } from "@betopiaerp/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
 import { onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { cleanLinkArtifacts } from "../_helpers/format";
@@ -212,10 +212,10 @@ test("should show replace URL button if link is created by transformation", asyn
         og_title: "Open Source ERP and CRM | BetopiaERP",
         og_type: "website",
         og_site_name: "BetopiaERP",
-        source_url: "https://BetopiaERP.com",
+        source_url: "https://betopiaerp.com",
     }));
     const { editor } = await setupEditor(`<p>[]</p>`);
-    await insertText(editor, "https://BetopiaERP.com ");
+    await insertText(editor, "https://betopiaerp.com ");
     const link = document.querySelector("a");
     setSelection({
         anchorNode: link,

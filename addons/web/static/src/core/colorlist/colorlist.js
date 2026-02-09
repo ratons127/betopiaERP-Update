@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 
-import { Component, useRef, useState, useExternalListener } from "@BetopiaERP/owl";
+import { Component, useRef, useState, useExternalListener } from "@betopiaerp/owl";
 
 export class ColorList extends Component {
     static COLORS = [

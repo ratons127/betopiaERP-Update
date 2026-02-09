@@ -1,6 +1,6 @@
-import { expect, queryFirst, test } from "@BetopiaERP/hoot";
-import { click, edit, press, queryAllTexts, queryOne, scroll } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockDate, mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { expect, queryFirst, test } from "@betopiaerp/hoot";
+import { click, edit, press, queryAllTexts, queryOne, scroll } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockDate, mockTimeZone } from "@betopiaerp/hoot-mock";
 import {
     assertDateTimePicker,
     getPickerCell,

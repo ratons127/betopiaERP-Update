@@ -1,5 +1,5 @@
 import { fields, Record } from "@mail/core/common/record";
-import { markRaw } from "@BetopiaERP/owl";
+import { markRaw } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 

@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { expectMarkup, allowTranslations } from "@web/../tests/web_test_helpers";
 
 import { renderToElement, renderToString } from "@web/core/utils/render";

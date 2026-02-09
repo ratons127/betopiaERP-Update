@@ -13,9 +13,9 @@ import {
     triggerHotkey,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { click as hootClick, press, queryFirst } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { click as hootClick, press, queryFirst } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { Command, serverState, withUser } from "@web/../tests/web_test_helpers";
 
 import { rpc } from "@web/core/network/rpc";
@@ -167,7 +167,7 @@ test("keep new message separator until user goes back to the thread", async () =
     await contains(".o-mail-Thread-newMessage:contains('New')", { count: 0 });
 });
 
-test("show new message separator on receiving new message when out of BetopiaERP focus", async () => {
+test("show new message separator on receiving new message when out of betopiaerp focus", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({ name: "Foreigner partner" });
     const userId = pyEnv["res.users"].create({

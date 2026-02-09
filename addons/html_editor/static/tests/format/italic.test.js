@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
@@ -11,7 +11,7 @@ import {
     undo,
 } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { tick } from "@betopiaerp/hoot-mock";
 
 test("should make a few characters italic", async () => {
     await testEditor({

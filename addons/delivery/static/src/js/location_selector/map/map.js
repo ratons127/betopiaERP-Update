@@ -1,6 +1,6 @@
 /*global L*/
 
-import { Component, useEffect, useRef } from '@BetopiaERP/owl';
+import { Component, useEffect, useRef } from '@betopiaerp/owl';
 import { renderToString } from '@web/core/utils/render';
 
 export class Map extends Component {

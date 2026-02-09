@@ -16,7 +16,7 @@ export class UpdateDialog extends Component {
             initialization: true,
             loading: false,
             waitRestart: false,
-            BetopiaERPIsUpToDate: false,
+            betopiaerpIsUpToDate: false,
             imageIsUpToDate: false,
             currentCommitHash: "",
         });
@@ -37,7 +37,7 @@ export class UpdateDialog extends Component {
                 return;
             }
 
-            this.state.BetopiaERPIsUpToDate = data.BetopiaERPIsUpToDate;
+            this.state.betopiaerpIsUpToDate = data.betopiaerpIsUpToDate;
             this.state.imageIsUpToDate = data.imageIsUpToDate;
             this.state.currentCommitHash = data.currentCommitHash;
             this.state.initialization = false;
@@ -75,7 +75,7 @@ export class UpdateDialog extends Component {
     }
 
     get everythingIsUpToDate() {
-        return this.state.BetopiaERPIsUpToDate && this.state.imageIsUpToDate;
+        return this.state.betopiaerpIsUpToDate && this.state.imageIsUpToDate;
     }
 
     static template = xml`
@@ -113,7 +113,7 @@ export class UpdateDialog extends Component {
                         </a>
                     </div>
                     <div t-if="this.store.dev" class="alert alert-light small">
-                        <a href="https://nightly.BetopiaERP.com/master/iotbox/" target="_blank" class="alert-link">
+                        <a href="https://nightly.betopiaerp.com/master/iotbox/" target="_blank" class="alert-link">
                             Current: <t t-esc="this.store.base.version"/>
                         </a>
                     </div>
@@ -121,7 +121,7 @@ export class UpdateDialog extends Component {
 
                 <div class="mb-3">
                     <h6>IoT Box Update</h6>
-                    <div t-if="this.state.BetopiaERPIsUpToDate" class="text-success px-2 small">
+                    <div t-if="this.state.betopiaerpIsUpToDate" class="text-success px-2 small">
                         IoT Box is up to date.
                     </div>
                     <div t-else="" class="d-flex justify-content-between align-items-center alert alert-warning small">
@@ -130,7 +130,7 @@ export class UpdateDialog extends Component {
                     </div>
                     <div t-if="this.store.dev" class="alert alert-light small">
                         Current: 
-                        <a t-att-href="'https://github.com/BetopiaERP/BetopiaERP/commit/' + this.state.currentCommitHash" target="_blank" class="alert-link">
+                        <a t-att-href="'https://github.com/betopiaerp/betopiaerp/commit/' + this.state.currentCommitHash" target="_blank" class="alert-link">
                             <t t-esc="this.state.currentCommitHash"/>
                         </a>
                     </div>

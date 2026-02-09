@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setCellContent } from "@spreadsheet/../tests/helpers/commands";
 import { getCellValue, getEvaluatedCell } from "@spreadsheet/../tests/helpers/getters";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
@@ -29,7 +29,7 @@ test("Basic evaluation", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.PARTNER.BALANCE("14, 16", "112", 2023)`);
+    setCellContent(model, "A1", `=BETOPIAERP.PARTNER.BALANCE("14, 16", "112", 2023)`);
     await waitForDataLoaded(model);
     expect.verifySteps(["spreadsheet_fetch_partner_balance"]);
     expect(getCellValue(model, "A1")).toBe(26);
@@ -40,7 +40,7 @@ test("with wrong date format", async () => {
     setCellContent(
         model,
         "A1",
-        `=BetopiaERP.PARTNER.BALANCE("14, 16", "112", "This is not a valid date")`
+        `=BETOPIAERP.PARTNER.BALANCE("14, 16", "112", "This is not a valid date")`
     );
     await waitForDataLoaded(model);
     expect(getEvaluatedCell(model, "A1").message).toBe(
@@ -69,7 +69,7 @@ test("with no date", async () => {
             }
         },
     });
-    setCellContent(model, "A1", `=BetopiaERP.PARTNER.BALANCE("14, 16", "112")`);
+    setCellContent(model, "A1", `=BETOPIAERP.PARTNER.BALANCE("14, 16", "112")`);
     await waitForDataLoaded(model);
     expect.verifySteps(["spreadsheet_fetch_partner_balance"]);
     expect(getCellValue(model, "A1")).toBe(26);

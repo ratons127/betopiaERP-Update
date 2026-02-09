@@ -10,11 +10,11 @@ function createChatbotSteps(...stepMessages) {
         ...stepMessages
             .map((message) => [
                 {
-                    trigger: ".modal .BetopiaERP-editor-editable",
+                    trigger: ".modal .betopiaerp-editor-editable",
                     run: `editor ${message}`,
                 },
                 {
-                    trigger: `.modal .BetopiaERP-editor-editable:contains(${message})`,
+                    trigger: `.modal .betopiaerp-editor-editable:contains(${message})`,
                 },
                 {
                     trigger: ".modal button:contains(Save & New)",
@@ -24,7 +24,7 @@ function createChatbotSteps(...stepMessages) {
                     trigger: `tr:contains(${message})`,
                 },
                 {
-                    trigger: ".modal .BetopiaERP-editor-editable:empty",
+                    trigger: ".modal .betopiaerp-editor-editable:empty",
                 },
             ])
             .flat(),
@@ -64,7 +64,7 @@ const commonSteps = [
  * Simply create a few steps in order to check the sequences.
  */
 registry.category("web_tour.tours").add("im_livechat_chatbot_steps_sequence_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         ...commonSteps,
         {
@@ -77,7 +77,7 @@ registry.category("web_tour.tours").add("im_livechat_chatbot_steps_sequence_tour
  * Same as above, with an extra drag&drop at the end.
  */
 registry.category("web_tour.tours").add("im_livechat_chatbot_steps_sequence_with_move_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         ...commonSteps,
         ...createChatbotSteps("Step 4", "Step 5"),

@@ -14,6 +14,6 @@
     'installable': True,
     'auto_install': True,
     'post_init_hook': '_l10n_br_website_sale_post_init_hook',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

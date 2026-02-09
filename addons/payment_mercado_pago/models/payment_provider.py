@@ -80,7 +80,7 @@ class PaymentProvider(models.Model):
             provider.available_currency_ids = [Command.set(currency.ids)]
 
     def _compute_mercado_pago_is_oauth_supported(self):
-        """Return current state of OAuth support by betopiaerp. To be removed in future versions."""
+        """Return current state of OAuth support by BetopiaERP. To be removed in future versions."""
         self.mercado_pago_is_oauth_supported = False
 
     # === CONSTRAINT METHODS === #

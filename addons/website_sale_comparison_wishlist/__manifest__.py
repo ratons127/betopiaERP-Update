@@ -20,6 +20,6 @@ It allows for comparing products from the wishlist
         ],
     },
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

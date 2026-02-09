@@ -1,7 +1,7 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { on, queryAll } from "@BetopiaERP/hoot-dom";
-import { reactive, useComponent, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { on, queryAll } from "@betopiaerp/hoot-dom";
+import { reactive, useComponent, useEffect, useExternalListener } from "@betopiaerp/owl";
 import { isNode } from "@web/../lib/hoot-dom/helpers/dom";
 import {
     isInstanceOf,

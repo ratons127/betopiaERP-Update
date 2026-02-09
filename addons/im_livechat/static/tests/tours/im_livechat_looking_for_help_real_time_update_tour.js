@@ -16,7 +16,7 @@ function getSteps(viewType) {
                     ? ".o_list_table:has(.o_data_row:contains(bob_looking_for_help))"
                     : ".o_kanban_renderer:has(.o_kanban_record [name=livechat_agent_partner_ids] [aria-label^=bob_looking_for_help])",
             async run() {
-                const { orm } = BetopiaERP.__WOWL_DEBUG__.root.env.services;
+                const { orm } = betopiaerp.__WOWL_DEBUG__.root.env.services;
                 [bobChatId] = await orm.search("discuss.channel", [
                     ["livechat_status", "=", "need_help"],
                     ["livechat_agent_partner_ids.name", "like", "bob_looking_for_help%"],
@@ -32,7 +32,7 @@ function getSteps(viewType) {
                     ? ".o_list_table:not(:has(.o_data_row:contains(bob_looking_for_help)))"
                     : ".o_kanban_renderer:not(:has(.o_kanban_record [name=livechat_agent_partner_ids] [aria-label^=bob_looking_for_help]))",
             async run() {
-                const { orm } = BetopiaERP.__WOWL_DEBUG__.root.env.services;
+                const { orm } = betopiaerp.__WOWL_DEBUG__.root.env.services;
                 await orm.write("discuss.channel", [bobChatId], {
                     livechat_status: "need_help",
                 });

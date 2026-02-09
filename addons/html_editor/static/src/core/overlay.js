@@ -7,7 +7,7 @@ import {
     useState,
     useSubEnv,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { OVERLAY_SYMBOL } from "@web/core/overlay/overlay_container";
 import { usePosition } from "@web/core/position/position_hook";
 import { useActiveElement } from "@web/core/ui/ui_service";

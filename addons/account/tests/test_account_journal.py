@@ -264,7 +264,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 
     def test_alias_name_creation(self):
         """ Test alias creation, notably avoid raising constraints due to ascii
-        characters removal. See BetopiaERP/BetopiaERP@339cdffb68f91eb1455d447d1bdd7133c68723bd """
+        characters removal. See betopiaerp/betopiaerp@339cdffb68f91eb1455d447d1bdd7133c68723bd """
         # check base test data
         journal1 = self.company_data['default_journal_purchase']
         company1 = journal1.company_id
@@ -328,7 +328,7 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 
     def test_alias_from_type(self):
         """ Test alias behavior on journal, especially alias_name management as
-        well as defaults update, see BetopiaERP/BetopiaERP@400b6860271a11b9914166ff7e42939c4c6192dc """
+        well as defaults update, see betopiaerp/betopiaerp@400b6860271a11b9914166ff7e42939c4c6192dc """
         journal = self.company_data['default_journal_purchase']
 
         # assert base test data

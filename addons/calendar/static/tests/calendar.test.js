@@ -1,5 +1,5 @@
 import { defineCalendarModels } from "@calendar/../tests/calendar_test_helpers";
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { contains, makeMockServer, mountView, onRpc } from "@web/../tests/web_test_helpers";
 import { getOrigin } from "@web/core/utils/urls";
 

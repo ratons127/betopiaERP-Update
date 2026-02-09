@@ -9,12 +9,12 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { Command, getService, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 
 import { Composer } from "@mail/core/common/composer";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -55,10 +55,10 @@ test("display command suggestions on typing '/'", async () => {
     await openDiscuss(channelId);
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "/");
     await contains(".o-mail-Composer-suggestionList .o-open");
@@ -87,14 +87,14 @@ test("use a command for a specific channel type", async () => {
     await openDiscuss(channelId);
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "/");
     await click(".o-mail-Composer-suggestion strong", { text: "who" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "/who" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "/who" });
 });
 
 test("[text composer] command suggestion should only open if command is the first character", async () => {
@@ -128,13 +128,13 @@ test("command suggestion should only open if command is the first character", as
     await openDiscuss(channelId);
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "bluhbluh");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "bluhbluh" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "bluhbluh" });
     await htmlInsertText(editor, "/");
     // weak test, no guarantee that we waited long enough for the potential list to open
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
@@ -277,10 +277,10 @@ test("command suggestion are shown after deleting a character", async () => {
     await openDiscuss(channelId);
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "/he");
     await contains(".o-mail-Composer-suggestion strong", { text: "help" });
@@ -299,7 +299,7 @@ test("mention suggestion displays BetopiaERPBot before archived partners", async
         channel_member_ids: [
             Command.create({ partner_id: serverState.partnerId }),
             Command.create({ partner_id: partnerId }),
-            Command.create({ partner_id: serverState.BetopiaERPbotId }),
+            Command.create({ partner_id: serverState.betopiaerpbotId }),
         ],
     });
     await start();

@@ -10,7 +10,7 @@ import {
     startServer,
     mailModels,
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
 import { asyncStep, onRpc, waitForSteps, defineModels } from "@web/../tests/web_test_helpers";
 import { analyticModels } from "@analytic/../tests/analytic_test_helpers";
 import { ProjectTask } from "@project/../tests/mock_server/mock_models/project_task";

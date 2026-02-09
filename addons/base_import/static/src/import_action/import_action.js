@@ -1,4 +1,4 @@
-import { Component, onWillStart, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useRef, useState } from "@betopiaerp/owl";
 import { useDropzone } from "@web/core/dropzone/dropzone_hook";
 import { FileInput } from "@web/core/file_input/file_input";
 import { _t } from "@web/core/l10n/translation";
@@ -78,7 +78,7 @@ export class ImportAction extends Component {
                     );
                 } else {
                     await this.uploadFiles(this.uploadFilesRoute, {
-                        csrf_token: BetopiaERP.csrf_token,
+                        csrf_token: betopiaerp.csrf_token,
                         ufile: [file],
                         model: this.resModel,
                         id: this.model.id,

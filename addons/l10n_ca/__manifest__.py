@@ -4,11 +4,11 @@
     'version': '1.1',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ca'],
-    'author': 'Savoir-faire Linux (https://www.savoirfairelinux.com); BetopiaERP SA',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'author': 'Savoir-faire Linux (https://www.savoirfairelinux.com); BetopiaERP',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the Canadian accounting chart in betopiaerp.
+This is the module to manage the Canadian accounting chart in BetopiaERP.
 ===========================================================================================
 
 Canadian accounting charts and localizations.

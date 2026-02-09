@@ -16,9 +16,9 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, getFixture, test } from "@BetopiaERP/hoot";
+import { describe, getFixture, test } from "@betopiaerp/hoot";
 
-import { queryFirst } from "@BetopiaERP/hoot-dom";
+import { queryFirst } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -245,7 +245,7 @@ test("shortcodes shown in emoji title in message", async () => {
 
 test("Emoji picker shows failure to load emojis", async () => {
     // Simulate failure to load emojis
-    patchWithCleanup(BetopiaERP.loader.modules.get("@web/core/emoji_picker/emoji_data"), {
+    patchWithCleanup(betopiaerp.loader.modules.get("@web/core/emoji_picker/emoji_data"), {
         getEmojis() {
             return [];
         },

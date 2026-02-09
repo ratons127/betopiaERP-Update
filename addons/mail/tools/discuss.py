@@ -55,7 +55,7 @@ def get_sfu_url(env) -> str | None:
     params = env["ir.config_parameter"].sudo()
     sfu_url = params.get_param("mail.sfu_server_url") if params.get_param("mail.use_sfu_server") else None
     if not sfu_url:
-        sfu_url = os.getenv("BetopiaERP_SFU_URL")
+        sfu_url = os.getenv("BETOPIAERP_SFU_URL")
     if sfu_url:
         return sfu_url.rstrip("/")
 
@@ -63,7 +63,7 @@ def get_sfu_url(env) -> str | None:
 def get_sfu_key(env) -> str | None:
     sfu_key = env['ir.config_parameter'].sudo().get_param('mail.sfu_server_key')
     if not sfu_key:
-        return os.getenv("BetopiaERP_SFU_KEY")
+        return os.getenv("BETOPIAERP_SFU_KEY")
     return sfu_key
 
 

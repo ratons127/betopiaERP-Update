@@ -13,9 +13,9 @@ import { deserializeDateTime } from "@web/core/l10n/dates";
 import { getOrigin } from "@web/core/utils/urls";
 import { MailComposerAttachmentSelector } from "@mail/core/web/mail_composer_attachment_selector";
 
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, mockDate, Deferred } from "@BetopiaERP/hoot-mock";
-import { manuallyDispatchProgrammaticEvent, queryAll } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, mockDate, Deferred } from "@betopiaerp/hoot-mock";
+import { manuallyDispatchProgrammaticEvent, queryAll } from "@betopiaerp/hoot-dom";
 
 beforeEach(() => mockDate("2024-10-20 10:00:00"));
 describe.current.tags("desktop");
@@ -355,7 +355,7 @@ test("Open avatar card when clicking on partner mention", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv.user.partner_id;
     pyEnv["mail.scheduled.message"].create({
-        body: `<a href="${getOrigin()}/BetopiaERP#model=res.partner&id=${partnerId}" class="o_mail_redirect" data-oe-model="res.partner" data-oe-id="${partnerId}">@Mitchell Admin</a>`,
+        body: `<a href="${getOrigin()}/betopiaerp#model=res.partner&id=${partnerId}" class="o_mail_redirect" data-oe-model="res.partner" data-oe-id="${partnerId}">@Mitchell Admin</a>`,
         model: "res.partner",
         res_id: partnerId,
         scheduled_date: "2024-10-20 11:00:00",
@@ -371,7 +371,7 @@ test("Open chat when clicking on channel mention", async () => {
     const partnerId = pyEnv.user.partner_id;
     const channelId = pyEnv["discuss.channel"].create({ name: "my-channel" });
     pyEnv["mail.scheduled.message"].create({
-        body: `<a href="${getOrigin()}/BetopiaERP#model=discuss?channel&id=${channelId}" class="o_channel_redirect" data-oe-model="discuss.channel" data-oe-id="${channelId}">#my-channel</a>`,
+        body: `<a href="${getOrigin()}/betopiaerp#model=discuss?channel&id=${channelId}" class="o_channel_redirect" data-oe-model="discuss.channel" data-oe-id="${channelId}">#my-channel</a>`,
         model: "res.partner",
         res_id: partnerId,
         scheduled_date: "2024-10-20 11:00:00",

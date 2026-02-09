@@ -13,6 +13,6 @@ File with embedded xml data will allow seller to retrieve Order data from Files.
     'depends': ['sale', 'account_edi_ubl_cii'],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -103,7 +103,7 @@ def _initialize_db(db_name, demo, lang, user_password, login='admin', country_co
 
 
 def _check_faketime_mode(db_name):
-    if os.getenv('BetopiaERP_FAKETIME_TEST_MODE') and db_name in betopiaerp.tools.config['db_name']:
+    if os.getenv('BETOPIAERP_FAKETIME_TEST_MODE') and db_name in betopiaerp.tools.config['db_name']:
         try:
             db = betopiaerp.sql_db.db_connect(db_name)
             with db.cursor() as cursor:
@@ -265,7 +265,7 @@ def dump_db_manifest(cr):
     cr.execute("SELECT name, latest_version FROM ir_module_module WHERE state = 'installed'")
     modules = dict(cr.fetchall())
     manifest = {
-        'BetopiaERP_dump': '1',
+        'betopiaerp_dump': '1',
         'db_name': cr.dbname,
         'version': betopiaerp.release.version,
         'version_info': betopiaerp.release.version_info,

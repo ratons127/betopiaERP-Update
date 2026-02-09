@@ -22,6 +22,6 @@ This module adds certification to resume for employees.
     'demo': [
         'data/hr_resume_demo.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -28,7 +28,7 @@ const makeSteps = (steps = []) => [
         // This makes sure the last step about leaving edit mode at the end of
         // this tour makes sense.
         content: "Confirm we are in edit mode",
-        trigger: ":iframe #wrapwrap.BetopiaERP-editor-editable",
+        trigger: ":iframe #wrapwrap.betopiaerp-editor-editable",
     },
     ...steps,
     {
@@ -56,7 +56,7 @@ const makeSteps = (steps = []) => [
     },
     {
         content: "Confirm we are not in edit mode anymore",
-        trigger: ":iframe #wrapwrap:not(.BetopiaERP-editor-editable)",
+        trigger: ":iframe #wrapwrap:not(.betopiaerp-editor-editable)",
     },
 ];
 

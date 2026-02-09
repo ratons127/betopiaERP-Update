@@ -2,7 +2,7 @@ import { Interaction } from "@web/public/interaction";
 import { registry } from "@web/core/registry";
 import { _t } from "@web/core/l10n/translation";
 import { post } from "@web/core/network/http_service";
-import { Component, markup } from "@BetopiaERP/owl";
+import { Component, markup } from "@betopiaerp/owl";
 import { rpc, RPCError } from "@web/core/network/rpc";
 
 /**
@@ -39,7 +39,7 @@ export class PortalComposer extends Interaction {
             {
                 allow_composer: true,
                 display_composer: false,
-                csrf_token: BetopiaERP.csrf_token,
+                csrf_token: betopiaerp.csrf_token,
                 token: false,
                 res_model: false,
                 res_id: false,
@@ -117,8 +117,8 @@ export class PortalComposer extends Interaction {
                     (file) =>
                         new Promise((resolve, reject) => {
                             const data = this.prepareAttachmentData(file);
-                            if (BetopiaERP.csrf_token) {
-                                data.csrf_token = BetopiaERP.csrf_token;
+                            if (betopiaerp.csrf_token) {
+                                data.csrf_token = betopiaerp.csrf_token;
                             }
                             this.waitFor(post("/mail/attachment/upload", data))
                                 .then((res) => {

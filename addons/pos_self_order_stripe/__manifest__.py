@@ -16,6 +16,6 @@
             'pos_self_order_stripe/static/tests/tours/**/*',
         ],
     },
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

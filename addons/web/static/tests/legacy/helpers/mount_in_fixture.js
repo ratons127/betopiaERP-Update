@@ -1,6 +1,6 @@
-/** @BetopiaERP-module alias=@web/../tests/helpers/mount_in_fixture default=false**/
+/** @betopiaerp-module alias=@web/../tests/helpers/mount_in_fixture default=false**/
 
-import { App, Component, xml } from "@BetopiaERP/owl";
+import { App, Component, xml } from "@betopiaerp/owl";
 import { registerCleanup } from "@web/../tests/helpers/cleanup";
 import { makeTestEnv } from "@web/../tests/helpers/mock_env";
 import { mocks } from "@web/../tests/helpers/mock_services";

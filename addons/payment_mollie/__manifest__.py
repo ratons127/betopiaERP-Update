@@ -7,7 +7,7 @@
     'sequence': 350,
     'summary': "A Dutch payment provider covering several European countries.",
     'description': " ",  # Non-empty string to avoid loading the README file.
-    'author': 'BetopiaERP S.A., Applix BV, Droggol Infotech Pvt. Ltd.',
+    'author': 'BetopiaERP, Applix BV, Droggol Infotech Pvt. Ltd.',
     'website': 'https://www.mollie.com',
     'depends': ['payment'],
     'data': [

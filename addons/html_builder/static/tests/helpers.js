@@ -10,9 +10,9 @@ import { LocalOverlayContainer } from "@html_editor/local_overlay_container";
 import { Plugin } from "@html_editor/plugin";
 import { withSequence } from "@html_editor/utils/resource";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
-import { after, queryFirst } from "@BetopiaERP/hoot";
-import { animationFrame, waitForNone, queryOne, waitFor, advanceTime, tick } from "@BetopiaERP/hoot-dom";
-import { Component, onMounted, useRef, useState, useSubEnv, xml } from "@BetopiaERP/owl";
+import { after, queryFirst } from "@betopiaerp/hoot";
+import { animationFrame, waitForNone, queryOne, waitFor, advanceTime, tick } from "@betopiaerp/hoot-dom";
+import { Component, onMounted, useRef, useState, useSubEnv, xml } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

@@ -1,4 +1,4 @@
-import { Component, useRef, useState, useExternalListener, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useRef, useState, useExternalListener, useSubEnv } from "@betopiaerp/owl";
 import { useNavigation } from "@web/core/navigation/navigation";
 import { usePosition } from "@web/core/position/position_hook";
 

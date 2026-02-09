@@ -1,4 +1,4 @@
-import { Component, onMounted } from "@BetopiaERP/owl";
+import { Component, onMounted } from "@betopiaerp/owl";
 import { AddToCartNotification } from "../add_to_cart_notification/add_to_cart_notification";
 import { WarningNotification } from "../warning_notification/warning_notification";
 

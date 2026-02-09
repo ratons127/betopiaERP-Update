@@ -1,6 +1,6 @@
 import { formView } from "@web/views/form/form_view";
 import { registry } from "@web/core/registry";
-import { EventBus, toRaw, useEffect, useRef, useSubEnv } from "@BetopiaERP/owl";
+import { EventBus, toRaw, useEffect, useRef, useSubEnv } from "@betopiaerp/owl";
 import { useCustomDropzone } from "@web/core/dropzone/dropzone_hook";
 import { useService } from "@web/core/utils/hooks";
 import { useX2ManyCrud } from "@web/views/fields/relational_utils";

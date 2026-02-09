@@ -1,4 +1,4 @@
-import { Component, onWillStart, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { sortBy } from "@web/core/utils/arrays";
 import { KeepLast } from "@web/core/utils/concurrency";

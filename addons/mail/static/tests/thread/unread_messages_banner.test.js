@@ -10,8 +10,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { mockUserAgent, tick } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { mockUserAgent, tick } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,

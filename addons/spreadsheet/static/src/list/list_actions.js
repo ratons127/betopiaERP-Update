@@ -1,13 +1,13 @@
 // @ts-check
 
-import { astToFormula, helpers } from "@BetopiaERP/o-spreadsheet";
+import { astToFormula, helpers } from "@betopiaerp/o-spreadsheet";
 import { getFirstListFunction, getNumberOfListFormulas } from "./list_helpers";
 import { navigateTo } from "../actions/helpers";
 
 const { isMatrix } = helpers;
 
 /**
- * @param {import("@BetopiaERP/o-spreadsheet").CellPosition} position
+ * @param {import("@betopiaerp/o-spreadsheet").CellPosition} position
  * @param {import("@spreadsheet").SpreadsheetChildEnv} env
  * @param {boolean} newWindow
  * @returns {Promise<void>}
@@ -56,7 +56,7 @@ export const SEE_RECORD_LIST = async (position, env, newWindow) => {
 };
 
 /**
- * @param {import("@BetopiaERP/o-spreadsheet").CellPosition} position
+ * @param {import("@betopiaerp/o-spreadsheet").CellPosition} position
  * @param {import("@spreadsheet").BetopiaERPGetters} getters
  * @returns {boolean}
  */
@@ -71,6 +71,6 @@ export const SEE_RECORD_LIST_VISIBLE = (position, getters) => {
         cell &&
         cell.isFormula &&
         getNumberOfListFormulas(cell.compiledFormula.tokens) === 1 &&
-        getFirstListFunction(cell.compiledFormula.tokens).functionName === "BetopiaERP.LIST"
+        getFirstListFunction(cell.compiledFormula.tokens).functionName === "BETOPIAERP.LIST"
     );
 };

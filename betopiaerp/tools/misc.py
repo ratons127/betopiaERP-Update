@@ -1,6 +1,6 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 """
-Miscellaneous tools used by betopiaerp.
+Miscellaneous tools used by BetopiaERP.
 """
 from __future__ import annotations
 
@@ -163,7 +163,7 @@ def find_pg_tool(name):
 def exec_pg_environ():
     """
     Force the database PostgreSQL environment variables to the database
-    configuration of betopiaerp.
+    configuration of BetopiaERP.
 
     Note: On systems where pg_restore/pg_dump require an explicit password
     (i.e.  on Windows where TCP sockets are used), it is necessary to pass the
@@ -257,7 +257,7 @@ def file_open(name: str, mode: str = "r", filter_ext: tuple[str, ...] = (), env:
 
         >>> file_open('hr/static/description/icon.png')
         >>> file_open('hr/static/description/icon.png', filter_ext=('.png', '.jpg'))
-        >>> with file_open('/opt/BetopiaERP/addons/hr/static/description/icon.png', 'rb') as f:
+        >>> with file_open('/opt/betopiaerp/addons/hr/static/description/icon.png', 'rb') as f:
         ...     contents = f.read()
 
     :param name: absolute or relative path to a file located inside an addon

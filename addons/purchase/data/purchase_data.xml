@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <!-- Purchase-related subtypes for messaging / Chatter -->
         <record id="mt_rfq_confirmed" model="mail.message.subtype">
@@ -40,4 +40,4 @@
         <!-- Fallback value for company_dependant field -->
         <function model="ir.default" name="set" eval="('res.partner', 'reminder_date_before_receipt', 1)"/>
     </data>
-</BetopiaERP>
+</betopiaerp>

@@ -13,6 +13,6 @@ E-Transport implementation for Batch Pickings in Romania
         'report/report_picking_batch.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': "LGPL-3",
 }

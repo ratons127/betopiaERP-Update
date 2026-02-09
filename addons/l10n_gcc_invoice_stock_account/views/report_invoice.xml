@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template id="l10n_gcc_report_invoice_document_with_snln" inherit_id="l10n_gcc_invoice.l10n_gcc_report_invoice_document">
         <xpath expr="//table[@name='invoice_snln_table']//th" position="inside">
             <span t-if="display_in_ar" t-translation="off"><br/>المنتج</span>
@@ -14,4 +14,4 @@
             <span t-if="display_in_en" t-translation="off"><br/>SN/LN</span>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

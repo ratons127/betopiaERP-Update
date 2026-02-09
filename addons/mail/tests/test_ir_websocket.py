@@ -22,7 +22,7 @@ class TestIrWebsocket(WebsocketCase):
         websocket = self.websocket_connect(cookie=f"session_id={session.sid};")
         self.subscribe(
             websocket,
-            [f"BetopiaERP-presence-res.partner_{bob.partner_id.id}"],
+            [f"betopiaerp-presence-res.partner_{bob.partner_id.id}"],
             self.env["bus.bus"]._bus_last_id(),
         )
         # offline => online
@@ -75,7 +75,7 @@ class TestIrWebsocket(WebsocketCase):
         self.env.cr.precommit.run()  # trigger the creation of bus.bus records
         self.subscribe(
             websocket,
-            [f"BetopiaERP-presence-res.partner_{bob.partner_id.id}"],
+            [f"betopiaerp-presence-res.partner_{bob.partner_id.id}"],
             self.env["bus.bus"]._bus_last_id(),
         )
         self.trigger_notification_dispatching([(bob.partner_id, "presence")])

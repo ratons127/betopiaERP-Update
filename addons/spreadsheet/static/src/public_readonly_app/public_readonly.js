@@ -1,11 +1,11 @@
-import { Component, onWillStart, useChildSubEnv, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useChildSubEnv, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { download } from "@web/core/network/download";
 
 import { useSpreadsheetNotificationStore } from "@spreadsheet/hooks";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
-import { Spreadsheet, Model, registries } from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
+import { Spreadsheet, Model, registries } from "@betopiaerp/o-spreadsheet";
 import { _t } from "@web/core/l10n/translation";
 import { useSpreadsheetPrint } from "../hooks";
 

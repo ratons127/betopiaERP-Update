@@ -473,7 +473,7 @@ msgstr ""
 "predstavlyayet kategoriyu/tip de cuenta del moliyaviy holat. "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -505,7 +505,7 @@ msgid ""
 "requirements which might arise from POS implementation. [1]  Under normal "
 "circumstances, you might not need to use those at all.\n"
 "\n"
-"[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+"[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 "\n"
 msgstr ""
 "Umumiy ma'lumot: --------- * Yaponiyadagi kompaniyalar uchun buxgalteriya "
@@ -515,7 +515,7 @@ msgstr ""
 "joriy etishda yuzaga kelishi mumkin bo‘lgan maxsus talablarni qondirish "
 "uchun \"ichki soliq\" va \"tashqi soliq\" fiskal pozitsiyalari qo‘shilgan. "
 "[1] Oddiy holatlarda ulardan umuman foydalanmasligingiz mumkin.  [1] "
-"Batafsil ma'lumot uchun https://github.com/BetopiaERP/BetopiaERP/pull/6470 ga qarang."
+"Batafsil ma'lumot uchun https://github.com/betopiaerp/betopiaerp/pull/6470 ga qarang."
 
 #. module: base
 #: model:ir.module.module,description:base.module_pos_sale
@@ -576,7 +576,7 @@ msgstr ""
 "Ushbu modul kassirga mijozga tezda foizli chegirma berish imkonini beradi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -589,7 +589,7 @@ msgstr ""
 "tegishli kompaniyaga kirish huquqiga ega emassiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -4084,9 +4084,9 @@ msgid ""
 "\n"
 "Legal\n"
 "-----\n"
-"Contact BetopiaERP SA before installing pos_blackbox_be module.\n"
+"Contact BetopiaERP before installing pos_blackbox_be module.\n"
 "\n"
-"No modified version is certified and supported by BetopiaERP SA.\n"
+"No modified version is certified and supported by BetopiaERP.\n"
 msgstr ""
 "Belgiyaning ro‘yxatga olingan kassa apparati\n"
 "================================\n"
@@ -4100,8 +4100,8 @@ msgstr ""
 "Huquqiy masalalar\n"
 "-----------------\n"
 "\n"
-"Pos_blackbox_be modulini o‘rnatishdan oldin BetopiaERP SA kompaniyasi bilan "
-"bog‘lanishingiz lozim.  BetopiaERP SA tomonidan o‘zgartirilgan hech qanday versiya "
+"Pos_blackbox_be modulini o‘rnatishdan oldin BetopiaERP kompaniyasi bilan "
+"bog‘lanishingiz lozim.  BetopiaERP tomonidan o‘zgartirilgan hech qanday versiya "
 "sertifikatlanmagan va qo‘llab-quvvatlanmaydi."
 
 #. module: base
@@ -6131,7 +6131,7 @@ msgid ""
 "sequences synchronization between BetopiaERP and ARCA.\n"
 "\n"
 "    NOTE: From the Journal's form view we are able to force a sync between "
-"the BetopiaERP sequences to each of the document types in\n"
+"the betopiaerp sequences to each of the document types in\n"
 "    with the last numbers registered in ARCA.\n"
 "\n"
 "From vendor bills, we have added a functionality that can be configured in "
@@ -7170,11 +7170,11 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configuration -> Settings -> Customer Invoices or find \"E-invoice\" in "
 "search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 "For the creation of API username and password please ref this document: "
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>\n"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>\n"
 msgstr ""
 "Hindiston - Elektron hisob-faktura tizimi\n"
 "====================\n"
@@ -7190,7 +7190,7 @@ msgstr ""
 "bo‘lsa, faqat birinchi kompaniya uchun 1-qadamni bajaring. API foydalanuvchi "
 "nomi va parolini yaratish bo‘yicha batafsil ma'lumot olish uchun quyidagi "
 "hujjatga murojaat qiling:\n"
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_ewaybill
@@ -7208,7 +7208,7 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configration -> Settings -> Indian Electronic WayBill or find \"E-"
 "waybill\" in search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 msgstr ""
@@ -7451,7 +7451,7 @@ msgid ""
 msgstr "U xarid ro‘yxatidagi mahsulotlarni o‘zaro solishtirish imkonini beradi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -10600,7 +10600,7 @@ msgid ""
 "cumulative totals (daily, monthly, annually)\n"
 "\n"
 "    Access to download the mandatory Certificate of Conformity delivered by "
-"BetopiaERP SA (only for BetopiaERP Enterprise users)\n"
+"BetopiaERP (only for BetopiaERP Enterprise users)\n"
 msgstr ""
 "Ushbu qo‘shimcha Fransiya qonunchiligidagi CGI 286-moddasi, I-qismi, 3°-"
 "bandida ko‘rsatilgan texnik talablarni o‘z ichiga oladi. Bu band jismoniy "
@@ -10614,7 +10614,7 @@ msgstr ""
 "asosiy ma'lumotlarini bekor qilish yoki o‘zgartirishning barcha usullarini "
 "o‘chirish; Xavfsizlik: o‘zgarmaslikni tekshirish uchun zanjirli algoritm; "
 "Saqlash: ham davr, ham umumiy yig‘indilarni (kunlik, oylik, yillik) "
-"hisoblash bilan savdolarni avtomatik yopish; BetopiaERP SA tomonidan berilgan "
+"hisoblash bilan savdolarni avtomatik yopish; BetopiaERP tomonidan berilgan "
 "majburiy Muvofiqlik sertifikatini yuklab olish imkoniyati (faqat BetopiaERP "
 "Enterprise foydalanuvchilari uchun)"
 
@@ -11493,7 +11493,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 msgstr ""
 "Bu BetopiaERP-da Polsha uchun buxgalteriya hisobi jadvali va soliqlarni boshqarish "
@@ -11821,7 +11821,7 @@ msgid ""
 "will add their specific templates and controllers to extend the customer\n"
 "portal.\n"
 "\n"
-"This module contains most code coming from BetopiaERP v10 website_portal. Purpose\n"
+"This module contains most code coming from betopiaerp v10 website_portal. Purpose\n"
 "of this module is to allow the display of a customer portal without having\n"
 "a dependency towards website editing and customization capabilities."
 msgstr ""
@@ -13602,12 +13602,12 @@ msgid ""
 "* the peppol-bis-invoice-3 doc (the github repository: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains "
 "examples)\n"
-"* BetopiaERP, these files pass all validation tests (using ecosio or the FNFE "
+"* betopiaerp, these files pass all validation tests (using ecosio or the FNFE "
 "validator)\n"
 "\n"
 "We test that the external examples are correctly imported (currency, total "
 "amount and total tax match).\n"
-"We also test that generating xml from BetopiaERP with given parameters gives "
+"We also test that generating xml from betopiaerp with given parameters gives "
 "exactly the same xml as the expected,\n"
 "valid ones.\n"
 msgstr ""
@@ -14318,7 +14318,7 @@ msgid " Let's choose a Point Relais® as shipping address "
 msgstr "Yetkazib berish manzili sifatida Point Relais® ni tanlaymiz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "\"group_by\" value must be a string %(attribute)s=“%(value)s”"
@@ -14351,35 +14351,35 @@ msgid "# Users"
 msgstr "# Foydalanuvchilar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "%(action_name)s is not a valid action on %(model_name)s"
 msgstr "%(action_name)s %(model_name)s uchun yaroqli amal emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "%(company_currency_name)s per %(rate_currency_name)s"
 msgstr "%(rate_currency_name)s uchun %(company_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "%(date_label)s - %(author)s"
 msgstr "%(date_label)s - %(author)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "%(integral_amount)s %(currency_unit)s"
 msgstr "%(integral_amount)s %(currency_unit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid ""
@@ -14390,7 +14390,7 @@ msgstr ""
 "(currency_subunit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "%(method)s on %(model)s is private and cannot be called from a button"
@@ -14399,14 +14399,14 @@ msgstr ""
 "bo‘lmaydi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "%(rate_currency_name)s per %(company_currency_name)s"
 msgstr "%(company_currency_name)s uchun %(rate_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -14416,14 +14416,14 @@ msgstr ""
 "%(xmlid)s turi %(xmlid_model)s, ir.actions.actions kenja sinfi kutilmoqda edi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "%s (Dedicated Outgoing Mail Server):"
 msgstr "%s (Maxsus chiquvchi pochta serveri):"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: code:addons/base/models/ir_filters.py:0
 #: code:addons/base/models/res_groups.py:0
@@ -14435,14 +14435,14 @@ msgid "%s (copy)"
 msgstr "%s (nusxa)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 #, fuzzy
 msgid "%s Properties"
 msgstr "%s xususiyatlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "%s per Unit"
@@ -14455,7 +14455,7 @@ msgid "&amp; Close"
 msgstr "&amp; Yopish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -14467,7 +14467,7 @@ msgstr ""
 "bo‘lishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -14478,7 +14478,7 @@ msgstr ""
 "(field)s' maydonining kichik maydoni)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -14489,7 +14489,7 @@ msgstr ""
 "maydonining kichik maydoni)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -14500,7 +14500,7 @@ msgstr ""
 "(field)s' maydonining kichik maydoni)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -14511,56 +14511,56 @@ msgstr ""
 "(field)s' maydonining kichik maydoni)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "'%s' does not seem to be a number for field '%%(field)s'"
 msgstr "'%s' '%%(field)s' maydoni uchun son emas shekilli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "'%s' does not seem to be a valid JSON for field '%%(field)s'"
 msgstr "'%s' '%%(field)s' maydoni uchun to‘g‘ri JSON emas shekilli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "'%s' does not seem to be a valid date for field '%%(field)s'"
 msgstr "'%s' '%%(field)s' maydoni uchun to‘g‘ri sana emas shekilli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "'%s' does not seem to be a valid datetime for field '%%(field)s'"
 msgstr "'%s' '%%(field)s' maydoni uchun to‘g‘ri vaqt va sana emas shekilli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "'%s' does not seem to be an integer for field '%%(field)s'"
 msgstr "'%s' '%%(field)s' maydoni uchun butun son emas shekilli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "'action-' is a reserved prefix."
 msgstr "'action-' zaxiralangan prefiks hisoblanadi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "'m-' is a reserved prefix."
 msgstr "'m-' zaxiralangan prefiks hisoblanadi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "'new' is reserved, and can not be used as path."
@@ -14597,7 +14597,7 @@ msgid ", required"
 msgstr ", majburiy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "- %(description)s (%(model)s)"
@@ -14610,7 +14610,7 @@ msgid "- domain ="
 msgstr "- domen ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "- element “%(node)s” is shown in the view for groups: %(groups)s"
@@ -14625,14 +14625,14 @@ msgid "- field ="
 msgstr "- maydon ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "- field “%(name)s” does not exist in model “%(model)s”."
 msgstr "- \"%(name)s\" maydoni \"%(model)s\" modelida mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "- field “%(name)s” is accessible for groups: %(field_groups)s"
@@ -15529,7 +15529,7 @@ msgid "A - AGRICULTURE, FORESTRY AND FISHING"
 msgstr "A - QISHLOQ XO‘JALIGI, O‘RMONCHILIK VA BALIQCHILIK"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "A <graph> can only contains <field> nodes, found a <%s>"
@@ -15782,7 +15782,7 @@ msgstr ""
 "to‘lov provayderi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "A sequence must only be used with character fields."
@@ -15817,7 +15817,7 @@ msgstr ""
 "va boshqarishi mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "A valid email is required for find_or_create to work properly."
@@ -16017,7 +16017,7 @@ msgid "API Key Description"
 msgstr "API kalit tavsifi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "API Key Ready"
@@ -16087,7 +16087,7 @@ msgid "Access"
 msgstr "Kirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "Access Control"
@@ -16112,7 +16112,7 @@ msgid "Access Menu"
 msgstr "Kirish menyusi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.ir_access_act
 #: model:ir.ui.menu,name:base.menu_ir_access_act
@@ -16133,7 +16133,7 @@ msgid "Access Rights"
 msgstr "Foydalanish huquqlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Access Rights Inconsistency"
@@ -16170,7 +16170,7 @@ msgid "Access to the settings to configure the apps"
 msgstr "Ilovalarni sozlash uchun sozlamalarga kirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Accessible only for the super user"
@@ -16428,7 +16428,7 @@ msgid "Action"
 msgstr "Amal"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -16580,7 +16580,7 @@ msgid "Active Parent Model"
 msgstr "Faol ota-ona modeli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Actual Code"
@@ -16757,14 +16757,14 @@ msgid "Add crm UTM info on social"
 msgstr "Ijtimoiy tarmoqlarda CRM UTM ma'lumotlarini qo‘shing"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Add direction"
 msgstr "Yo‘nalish qo‘shish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Add directional information (not used for digital)"
@@ -16968,7 +16968,7 @@ msgid "Addons to test BetopiaERP industries code."
 msgstr "BetopiaERP sanoat kodini sinash uchun qo‘shimchalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_partner.py:0
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -17006,7 +17006,7 @@ msgid "Address format..."
 msgstr "Manzil formati..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Address separator"
@@ -17284,7 +17284,7 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Administrator access is required to uninstall a module"
@@ -17347,7 +17347,7 @@ msgstr ""
 "kengaytirilgan ko‘rinishlari"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,summary:base.module_theme_betopiaerp_experts
 #, fuzzy
 msgid "Advisor, Corporate, Service, Business, Finance, IT"
 msgstr "Maslahatchi, korporativ, xizmat, biznes, moliya, IT"
@@ -17767,7 +17767,7 @@ msgid "All Child"
 msgstr "Barcha bolalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, fuzzy
 msgid ""
@@ -17789,7 +17789,7 @@ msgstr ""
 "qonunlari asosida boshqariladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 #, fuzzy
 msgid ""
@@ -18077,7 +18077,7 @@ msgid "Amazon/Avatax Bridge"
 msgstr "Amazon/Avatax ko‘prigi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -19144,7 +19144,7 @@ msgstr ""
 "provayderi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -19155,7 +19155,7 @@ msgstr ""
 "tekshiring.  %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -19164,7 +19164,7 @@ msgid ""
 msgstr "SSL xatosi yuz berdi. Ulanish xavfsizligi turini tekshiring.  %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -19207,7 +19207,7 @@ msgstr ""
 "ega bo‘lmasa, u har doim o‘rnatiladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "An email is required for find_or_create to work"
@@ -19216,7 +19216,7 @@ msgstr ""
 "etiladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -19294,7 +19294,7 @@ msgid "Anguilla"
 msgstr "Angilya"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Another partner already has this barcode"
@@ -19410,7 +19410,7 @@ msgid "Apply"
 msgstr "Qo‘llash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -20425,7 +20425,7 @@ msgid "Associated reports"
 msgstr "Bog‘liq hisobotlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "At least one language must be active."
@@ -20529,7 +20529,7 @@ msgid "Attachment"
 msgstr "Ilova"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid "Attachment is not encoded in base64."
@@ -20837,7 +20837,7 @@ msgid "Auth Timeout"
 msgstr "Autentifikatsiya vaqti"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -21222,7 +21222,7 @@ msgid "Background Image"
 msgstr "Fon rasmi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 #, fuzzy
 msgid "Bad file format: %s"
@@ -21424,7 +21424,7 @@ msgid "Barcode"
 msgstr "Shtrix-kod"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Barcode %s"
@@ -21461,14 +21461,14 @@ msgid "Barcode for Batch Transfer"
 msgstr "Partiyalarni o‘tkazish uchun shtrix-kod"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Barcode symbology"
 msgstr "Shtrix-kod simvolikasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Barcode type, eg: UPCA, EAN13, Code128"
@@ -21514,7 +21514,7 @@ msgid "Base Import & Export Tests: Ensure Flow Robustness"
 msgstr "Asosiy import va eksport testlari: Jarayon barqarorligini ta'minlash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Base Language 'en_US' can not be deleted."
@@ -21577,13 +21577,13 @@ msgstr "Asos: Portal foydalanuvchilarini o‘chirish"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_grid
 #, fuzzy
-msgid "Basic 2D Grid view for BetopiaERP"
+msgid "Basic 2D Grid view for betopiaerp"
 msgstr "BetopiaERP uchun asosiy 2D panjara ko‘rinishi"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_cohort
 #, fuzzy
-msgid "Basic Cohort view for BetopiaERP"
+msgid "Basic Cohort view for betopiaerp"
 msgstr "BetopiaERP uchun asosiy kogort ko‘rinishi"
 
 #. module: base
@@ -21838,7 +21838,7 @@ msgstr "Beliz"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr ""
 
@@ -21971,7 +21971,7 @@ msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
 msgstr "Bistro, restoran, bar, pab, kafe, oziq-ovqat, umumiy ovqatlanish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -22101,7 +22101,7 @@ msgid "Bowling Alley"
 msgstr "Bouling zali"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
@@ -22572,7 +22572,7 @@ msgid "By"
 msgstr "Tomonidan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "By default the widget uses the field information"
@@ -22795,7 +22795,7 @@ msgid "Campsite"
 msgstr "Kemping maydoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -22805,14 +22805,14 @@ msgstr ""
 "qiling"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Can only rename one field at a time!"
 msgstr "Bir vaqtda faqat bitta maydonning nomini o‘zgartirish mumkin!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Can't compare more than two views."
@@ -22917,7 +22917,7 @@ msgid "Candy Shop"
 msgstr "Shirinliklar do‘koni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -22928,14 +22928,14 @@ msgstr ""
 "yozuvlarni qo‘lda yarating va qaytadan import qilishga harakat qiling"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Cannot deactivate a language that is currently used by contacts."
 msgstr "Kontaktlar foydalanayotgan tilni faolsizlantirish mumkin emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Cannot deactivate a language that is currently used by users."
@@ -22943,14 +22943,14 @@ msgstr ""
 "Foydalanuvchilar hozirda ishlatayotgan tilni faolsizlantirish mumkin emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 #, fuzzy
 msgid "Cannot duplicate configuration!"
 msgstr "Konfiguratsiyani nusxalab bo‘lmaydi!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -22962,7 +22962,7 @@ msgstr ""
 "bo‘lmaydi: Maydonlar: %(fields)s Ko‘rinish: %(view)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid "Cannot upgrade module “%s”. It is not installed."
@@ -23262,14 +23262,14 @@ msgid "Change the way addresses are displayed in reports"
 msgstr "Hisobotlarda manzillarni ko‘rsatish usulini o‘zgartirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Changing the model of a field is forbidden!"
 msgstr "Maydon modelini o‘zgartirish taqiqlangan!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -23280,7 +23280,7 @@ msgstr ""
 "qaytadan yarating!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Changing to 12-hour clock format instead."
@@ -23707,7 +23707,7 @@ msgid "Code Diff"
 msgstr "Kod farqi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 #, fuzzy
@@ -23879,7 +23879,7 @@ msgid "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 msgstr "Comm10E 25 105 x 241 mm, AQSH standart 10-raqamli konvert"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Comma"
@@ -23891,11 +23891,11 @@ msgstr "Vergul"
 msgid ""
 "Comma-separated list of addresses or domains for which this server can be "
 "used.\n"
-"e.g.: \"notification@BetopiaERP.com\" or \"BetopiaERP.com\""
+"e.g.: \"notification@betopiaerp.com\" or \"betopiaerp.com\""
 msgstr ""
 "Ushbu server foydalanilishi mumkin bo‘lgan manzillar yoki domenlarning "
-"vergul bilan ajratilgan ro‘yxati. Masalan: \"notification@BetopiaERP.com\" yoki "
-"\"BetopiaERP.com\""
+"vergul bilan ajratilgan ro‘yxati. Masalan: \"notification@betopiaerp.com\" yoki "
+"\"betopiaerp.com\""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_act_window__view_mode
@@ -23981,7 +23981,7 @@ msgid "Companies"
 msgstr "Kompaniyalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
 #: model:ir.model.fields,field_description:base.field_ir_default__company_id
@@ -24003,7 +24003,7 @@ msgid "Company"
 msgstr "Kompaniya"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -24014,7 +24014,7 @@ msgstr ""
 "foydalanuvchisi uchun ruxsat etilgan kompaniyalar ro‘yxatida mavjud emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Company Address"
@@ -24033,7 +24033,7 @@ msgid "Company Details"
 msgstr "Kompaniya ma'lumotlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__company_registry
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
@@ -24115,7 +24115,7 @@ msgstr ""
 "shiori (tanlangan maketga qarab)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid ""
@@ -24185,7 +24185,7 @@ msgid "Compute"
 msgstr "Hisoblash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Compute method cannot depend on field 'id'"
@@ -24349,7 +24349,7 @@ msgid "Connect to myDATA API implementation for Greece"
 msgstr "Gretsiya uchun myDATA API integratsiyasiga ulanish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -24374,7 +24374,7 @@ msgid "Connection Encryption"
 msgstr "Ulanishni shifrlash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -24385,7 +24385,7 @@ msgstr ""
 "oldik: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "Connection Test Successful!"
@@ -24522,7 +24522,7 @@ msgid "Contact image"
 msgstr "Kontakt rasmi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Contact your administrator to request access if necessary."
@@ -24682,7 +24682,7 @@ msgid "Costa Rica - Accounting"
 msgstr "Kosta-Rika - Buxgalteriya hisobi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -24691,7 +24691,7 @@ msgid ""
 msgstr "Sertifikatingiz / maxfiy kalitingizni yuklab bo‘lmadi.  %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Couldn't create contact without email address!"
@@ -24823,7 +24823,7 @@ msgid "Create"
 msgstr "Yaratish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Create %(model_name)s"
@@ -25352,7 +25352,7 @@ msgid "Cron Triggers"
 msgstr "Kron triggerlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 #, fuzzy
 msgid ""
@@ -25448,21 +25448,21 @@ msgid "Currency field"
 msgstr "Valyuta maydoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Currency field does not have type many2one"
 msgstr "Valyuta maydonida many2one turi yo‘q"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Currency field is empty and there is no fallback field in the model"
 msgstr "Valyuta maydoni bo‘sh va modelda zaxira maydon mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Currency field should have a res.currency relation"
@@ -25475,7 +25475,7 @@ msgid "Currency numeric code."
 msgstr "Valyutaning raqamli kodi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "Currency rates should only be created for main companies"
@@ -25488,7 +25488,7 @@ msgid "Currency sign, to be used when printing amounts."
 msgstr "Summalarni chop etishda ishlatiladigan valyuta belgisi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Current Arch"
@@ -25783,7 +25783,7 @@ msgid "Dalasi"
 msgstr "Dalasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Dash"
@@ -25861,7 +25861,7 @@ msgid "Database Structure"
 msgstr "Ma'lumotlar bazasi tuzilmasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_currency__date
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__name
@@ -25877,14 +25877,14 @@ msgid "Date Format"
 msgstr "Sana formati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Date format"
 msgstr "Sana formati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Date to compare with the field value, by default use the current date."
@@ -25893,21 +25893,21 @@ msgstr ""
 "foydalaniladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Date unit"
 msgstr "Sana birligi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Date unit used for comparison and formatting"
 msgstr "Taqqoslash va formatlash uchun ishlatiladigan sana birligi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid ""
@@ -25918,7 +25918,7 @@ msgstr ""
 "foydalansangiz, qiymat \"soat\"dan kichik bo‘lishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid ""
@@ -25954,7 +25954,7 @@ msgid "Debugging"
 msgstr "Nosozliklarni tuzatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Debugging information:"
@@ -25998,7 +25998,7 @@ msgstr ""
 "kasr xonalari. Bu yaxlitlash koeffitsiyenti bilan aniqlanadi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Decimalized number"
@@ -26148,7 +26148,7 @@ msgstr "Belgilangan hisobotlar"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_map
 #, fuzzy
-msgid "Defines the map view for BetopiaERP enterprise"
+msgid "Defines the map view for betopiaerp enterprise"
 msgstr "BetopiaERP korxonasi uchun xarita ko‘rinishini belgilaydi"
 
 #. module: base
@@ -26184,7 +26184,7 @@ msgid "Delete Action"
 msgstr "Amalni o‘chirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -26208,7 +26208,7 @@ msgid "Delivery - Stock"
 msgstr "Yetkazib berish - Ombor"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Delivery Address"
@@ -26499,7 +26499,7 @@ msgid "Digest Enterprise"
 msgstr "Korxona xulosalovchisi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Digital formatting"
@@ -26777,14 +26777,14 @@ msgstr ""
 "o‘zgartirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display country image"
 msgstr "Mamlakat rasmini ko‘rsatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display currency"
@@ -26817,42 +26817,42 @@ msgstr ""
 "mamlakat nomi, %(country_code)s: mamlakat kodi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display only the date"
 msgstr "Faqat sanani ko‘rsatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display only the time"
 msgstr "Faqat vaqtni ko‘rsatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display phone icons"
 msgstr "Telefon belgilarini aks ettirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display the country image if the field is present on the record"
 msgstr "Yozuvda maydon mavjud bo‘lsa, mamlakat rasmini ko‘rsatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Display the phone icons even if no_marker is True"
 msgstr "Hatto no_marker True bo‘lsa ham telefon belgilarini aks ettirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Displayed fields"
@@ -27075,7 +27075,7 @@ msgid "Domain applied to the active id of the parent model"
 msgstr "Asosiy modelning faol identifikatoriga qo‘llaniladigan domen"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -27116,7 +27116,7 @@ msgid "Dominican Republic - Checks Layout"
 msgstr "Dominikan Respublikasi - Chek shakllari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Don't display the font awesome marker"
@@ -27200,14 +27200,14 @@ msgid "Dropshipping"
 msgstr "Drop-shipping"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Duplicate %(record)s"
 msgstr "%(record)s nusxasini yaratish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Duplicate ..."
@@ -27226,7 +27226,7 @@ msgid "Duplicate from"
 msgstr "dan nusxa olish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #, fuzzy
 msgid ""
@@ -27595,14 +27595,14 @@ msgid "Electronic invoicing for Colombia with DIAN"
 msgstr "DIAN bilan Kolumbiya uchun elektron hisob-faktura"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Element '%s' cannot be located in parent view"
 msgstr "'%s' elementini ota-ko‘rinishda topib bo‘lmaydi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Element <attribute> with 'add' or 'remove' cannot contain text %s"
@@ -27611,14 +27611,14 @@ msgstr ""
 "matnini o‘z ichiga ololmaydi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Element “%s” cannot be located in parent view"
 msgstr "\"%s\" elementini ota-ko‘rinishda topib bo‘lmaydi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_users.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_email
@@ -27655,7 +27655,7 @@ msgid "Email Signature"
 msgstr "Elektron pochta imzosi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "Email maximum size updated (%(details)s)."
@@ -27761,7 +27761,7 @@ msgid "Employment Hero Payroll"
 msgstr "Employment Hero ish haqi tizimi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Empty dependency in “%s”"
@@ -28037,7 +28037,7 @@ msgid "Error"
 msgstr "Xatolik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid "Error ! You cannot create recursive categories."
@@ -28050,7 +28050,7 @@ msgid "Error message returned when the constraint is violated."
 msgstr "Cheklov buzilganda qaytariladigan xatolik xabari."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -28060,7 +28060,7 @@ msgid ""
 msgstr "Ko‘rinishni tahlil qilish yoki tasdiqlashda xatolik: %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 #, fuzzy
 msgid ""
@@ -28070,7 +28070,7 @@ msgid ""
 msgstr "Ko‘rinishni tahlil qilishda xatolik: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -28080,7 +28080,7 @@ msgid ""
 msgstr "Ko‘rinishni tasdiqlashda xatolik (%(view)s): %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -28091,7 +28091,7 @@ msgid ""
 msgstr "Quyidagi ko‘rinishni tasdiqlashda xatolik: %(fivelines)s %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_menu.py:0
 #, fuzzy
 msgid "Error! You cannot create recursive menus."
@@ -29032,13 +29032,13 @@ msgstr ""
 "qilish qulayligini his eting."
 
 #. module: base
-#: model:ir.module.module,description:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,description:base.module_theme_betopiaerp_experts
 #, fuzzy
 msgid "Experts Business Theme"
 msgstr "Ekspertlar biznes mavzusi"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,shortdesc:base.module_theme_betopiaerp_experts
 #, fuzzy
 msgid "Experts Theme"
 msgstr "Ekspertlar mavzusi"
@@ -29282,7 +29282,7 @@ msgid "External ID"
 msgstr "Tashqi identifikator"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb.py:0
 #, fuzzy
 msgid "External ID can not be loaded: %s"
@@ -29534,28 +29534,28 @@ msgid "Field"
 msgstr "Maydon"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Field \"%(field_name)s\" does not exist in model \"%(model_name)s\""
 msgstr "\"%(model_name)s\" modelida \"%(field_name)s\" maydoni mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Field \"%s\" is not cached"
 msgstr "\"%s\" maydoni keshlanmagan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Field %s cannot be modified on models."
 msgstr "Modellarda %s maydonini o‘zgartirish mumkin emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -29565,7 +29565,7 @@ msgstr ""
 "mavjud emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -29647,14 +29647,14 @@ msgid "Field Type"
 msgstr "Maydon turi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Field `%(name)s` does not exist"
 msgstr "'%(name)s' maydoni mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -29670,7 +29670,7 @@ msgid "Field names must be unique per model."
 msgstr "Maydon nomlari har bir model uchun noyob bo‘lishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Field tag must have a \"name\" attribute defined"
@@ -29691,7 +29691,7 @@ msgid "Field to Update Path"
 msgstr "Yangilanishi kerak bo‘lgan maydon yo‘li"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -29717,7 +29717,7 @@ msgid "Fields"
 msgstr "Maydonlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Fields %s contain a non-str value/label in selection"
@@ -29771,7 +29771,7 @@ msgid "File"
 msgstr "Fayl"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_import_language.py:0
 #, fuzzy
 msgid ""
@@ -29786,7 +29786,7 @@ msgstr ""
 "%(error_message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "File Arch"
@@ -30106,14 +30106,14 @@ msgid "Folio 27  210 x 330 mm"
 msgstr "Folio 27 210 x 330 mm"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Following child actions have warnings: %(children)s"
 msgstr "Quyidagi farzand amallarda ogohlantirishlar mavjud: %(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -30124,7 +30124,7 @@ msgstr ""
 "%(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -30216,7 +30216,7 @@ msgid "For relationship fields, the technical name of the target model"
 msgstr "Munosabat maydonlari uchun maqsadli modelning texnik nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, fuzzy
 msgid ""
@@ -30227,21 +30227,21 @@ msgstr ""
 "emas. Zarur bo‘lsa, sehrgarni bir necha marta qayta ochishingiz mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Forbidden attribute used in arch (%s)."
 msgstr "Arxitekturada taqiqlangan atribut ishlatilgan (%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Forbidden owl directive used in arch (%s)."
 msgstr "Arxitekturada taqiqlangan owl direktivi ishlatilmoqda (%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Forbidden use of `__comp__` in arch."
@@ -30268,7 +30268,7 @@ msgid "Form"
 msgstr "Shakl"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Format"
@@ -30290,7 +30290,7 @@ msgid "Formatted Email"
 msgstr "Formatlangan elektron pochta"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Formatting: long, short, narrow (not used for digital)"
@@ -30315,7 +30315,7 @@ msgid "Fossil Fuel Trading"
 msgstr "Qazilma yoqilg‘i savdosi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -30404,7 +30404,7 @@ msgid "France - Work Entries Time Off"
 msgstr "Fransiya - Ta'til uchun ish yozuvlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Free access"
@@ -30991,14 +30991,14 @@ msgid "Gmail support for incoming / outgoing mail servers"
 msgstr "Kiruvchi/chiquvchi pochta serverlari uchun Gmail qo‘llab-quvvatlanadi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 #, fuzzy
 msgid "Go to the configuration panel"
 msgstr "Sozlash paneliga o‘ting"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Go to users"
@@ -31176,7 +31176,7 @@ msgid "Group-based"
 msgstr "Guruhga asoslangan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -31197,7 +31197,7 @@ msgid "Group-specific rules are combined together with a logical OR operator"
 msgstr "Guruhga xos qoidalar mantiqiy YOKI operatori bilan birlashtiriladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_groups
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__group_ids
@@ -31597,7 +31597,7 @@ msgid "Heard Island and McDonald Islands"
 msgstr "Herd oroli va Makdonald orollari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Height"
@@ -31801,14 +31801,14 @@ msgid "Hide Portal Timesheet Information"
 msgstr "Portal vaqt hisoboti ma'lumotlarini yashirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Hide badges"
 msgstr "Belgilarni yashirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Hide seconds"
@@ -31973,7 +31973,7 @@ msgid "Html Value"
 msgstr "HTML qiymati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Human Readable"
@@ -32016,7 +32016,7 @@ msgid "I - ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
 msgstr "I - YASHASH VA OVQATLANISH XIZMATLARI FAOLIYATI"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -32027,7 +32027,7 @@ msgstr ""
 "murojaat qilish uchun URL manzil kerak..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -32496,7 +32496,7 @@ msgstr ""
 "ruxsatiga asoslanib ko‘rinishni hisoblaydi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -32766,7 +32766,7 @@ msgstr ""
 "Shopee buyurtmalarini import qilish va yetkazib berishlarni sinxronlash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Import Template for Contacts"
@@ -32886,7 +32886,7 @@ msgid "Include"
 msgstr "Kiritish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -33191,7 +33191,7 @@ msgid "Inherited models"
 msgstr "Meros modellari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -33226,7 +33226,7 @@ msgid "Input View"
 msgstr "Kirish ko‘rinishi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid "Install"
@@ -33276,14 +33276,14 @@ msgstr ""
 "imkonini beradi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Insufficient fields for Calendar View!"
 msgstr "Taqvim ko‘rinishi uchun maydonlar yetarli emas!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -33563,7 +33563,7 @@ msgid "Introspection report on objects"
 msgstr "Obyektlar bo‘yicha introspeksiya hisoboti"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -33572,14 +33572,14 @@ msgid ""
 msgstr "Noto‘g‘ri %(use)s: \"%(expr)s\" %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Invalid Expression while parsing xpath “%s”"
 msgstr "\"%s\" xpathni tahlil qilishda noto‘g‘ri ifoda"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, fuzzy
 msgid "Invalid JSON format in Default Value field."
@@ -33592,21 +33592,21 @@ msgid "Invalid Locators"
 msgstr "Noto‘g‘ri joylashtirgichlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Invalid attributes %s in element <attribute>"
 msgstr "<attribute> elementidagi %s atributlari noto‘g‘ri"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Invalid composed field %(definition)s in %(use)s"
 msgstr "%(use)s ichida %(definition)s noto‘g‘ri tuzilgan maydon"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -33616,7 +33616,7 @@ msgid ""
 msgstr "Noto‘g‘ri kontekst: \"%(expr)s\" yaroqli Python ifodasi emas %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Invalid database id '%s' for the field '%%(field)s'"
@@ -33624,7 +33624,7 @@ msgstr ""
 "'%(field)s' maydoni uchun '%s' ma'lumotlar bazasi identifikatori noto‘g‘ri"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid ""
@@ -33636,28 +33636,28 @@ msgstr ""
 "qiling."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Invalid default period %(default_period)s for date filter"
 msgstr "Sana filtri uchun %(default_period)s standart davri noto‘g‘ri"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "Invalid domain: %s"
 msgstr "Noto‘g‘ri domen: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, fuzzy
 msgid "Invalid field %(model)s.%(field)s"
 msgstr "Noto‘g‘ri maydon %(model)s.%(field)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 #, fuzzy
 msgid ""
@@ -33684,35 +33684,35 @@ msgid "Invalid key: QWeb view should have a key"
 msgstr "Noto‘g‘ri kalit: QWeb ko‘rinishida kalit bo‘lishi kerak"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Invalid mode attribute: “%s”"
 msgstr "Noto‘g‘ri rejim atributi: \"%s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Invalid model name “%s” in action definition."
 msgstr "Amal ta'rifidagi \"%s\" model nomi noto‘g‘ri."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Invalid position attribute: '%s'"
 msgstr "Noto‘g‘ri joylashuv atributi: '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 #, fuzzy
 msgid "Invalid prefix or suffix for sequence “%s”"
 msgstr "\"%s\" ketma-ketligi uchun noto‘g‘ri prefiks yoki suffiks"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid ""
@@ -33723,7 +33723,7 @@ msgstr ""
 "to‘g‘ri qiymatlar 'and' va 'or'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -33738,35 +33738,35 @@ msgid "Invalid sort definition"
 msgstr "Noto‘g‘ri saralash ta'rifi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Invalid special '%(value)s' in button"
 msgstr "Tugmadagi maxsus '%(value)s' noto‘g‘ri"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 #, fuzzy
 msgid "Invalid specification for moved nodes: “%s”"
 msgstr "Ko‘chirilgan tugunlar uchun noto‘g‘ri spetsifikatsiya: \"%s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 #, fuzzy
 msgid "Invalid template user. It seems it has been deleted."
 msgstr "Andoza foydalanuvchisi noto‘g‘ri. U o‘chirilgan ko‘rinadi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, fuzzy
 msgid "Invalid value for %(model)s.%(field)s: %(value)s"
 msgstr "%(model)s.%(field)s uchun noto‘g‘ri qiymat: %(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, fuzzy
 msgid ""
@@ -33777,7 +33777,7 @@ msgstr ""
 "(butun sonlar -2,147,483,648 va 2,147,483,647 orasida bo‘lishi kerak)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid ""
@@ -33786,14 +33786,14 @@ msgid ""
 msgstr ""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Invalid view %(name)s definition in %(file)s"
 msgstr "%(file)s faylidagi %(name)s ko‘rinish ta'rifi noto‘g‘ri"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -33806,7 +33806,7 @@ msgstr ""
 "(valid_types)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Invalid xmlid %(xmlid)s for button of type action."
@@ -33853,7 +33853,7 @@ msgid "Invoice"
 msgstr "Hisob-faktura"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Invoice Address"
@@ -34071,7 +34071,7 @@ msgid "Israel - Accounting Reports"
 msgstr "Isroil - Buxgalteriya hisobotlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 #, fuzzy
 msgid ""
@@ -34259,7 +34259,7 @@ msgid "Jersey"
 msgstr "Jersi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 #, fuzzy
 msgid "Job '%s' already executing"
@@ -34339,7 +34339,7 @@ msgid "Journal Items associated to the contact"
 msgstr "Kontakt bilan bog‘liq jurnal yozuvlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Json"
@@ -34707,7 +34707,7 @@ msgid "Laari"
 msgstr "Laari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -34776,7 +34776,7 @@ msgid "Language Name"
 msgstr "Til nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Language code cannot be modified."
@@ -35334,7 +35334,7 @@ msgid "Line"
 msgstr "Chiziq"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Linebreak"
@@ -35504,7 +35504,7 @@ msgid "List"
 msgstr "Ro‘yxat"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "List child can only have one of %(tags)s tag (not %(wrong_tag)s)"
@@ -35513,7 +35513,7 @@ msgstr ""
 "(wrong_tag)s emas)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "List of contact fields to display in the widget"
@@ -35708,7 +35708,7 @@ msgid "Logs"
 msgstr "Jurnallar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Long"
@@ -35891,7 +35891,7 @@ msgid "Madagascar"
 msgstr "Madagaskar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "Mail Delivery Failed"
@@ -35962,7 +35962,7 @@ msgstr ""
 "maxsus sinovlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -36592,7 +36592,7 @@ msgid "Many2many Operations"
 msgstr "Ko‘pdan ko‘pga amallar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Many2one %(field)s on model %(model)s does not exist!"
@@ -37250,7 +37250,7 @@ msgid "Misc"
 msgstr "Boshqa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -37262,7 +37262,7 @@ msgstr ""
 "parametrlarini aniq ko‘rsating."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Missing view architecture."
@@ -37315,14 +37315,14 @@ msgid "Model"
 msgstr "Model"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Model %s does not exist"
 msgstr "%s modeli mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Model %s does not exist!"
@@ -37401,7 +37401,7 @@ msgid "Model name of the object to open in the view window"
 msgstr "Ko‘rish oynasida ochiladigan obyektning model nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Model not found: %(model)s"
@@ -37427,7 +37427,7 @@ msgid "Model to Export"
 msgstr "Eksport qilinadigan model"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Model “%s” contains module data and cannot be removed."
@@ -37600,7 +37600,7 @@ msgstr ""
 "ravishda yetkazib berish kvitansiyasini yaratish imkonini beradi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/convert.py:0
 #, fuzzy
 msgid ""
@@ -37624,7 +37624,7 @@ msgid "Modules"
 msgstr "Modullar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -37906,7 +37906,7 @@ msgid "Nakfa"
 msgstr "Nakfa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_name
 #: model:ir.model.fields,field_description:base.field_ir_actions_todo__name
@@ -37958,7 +37958,7 @@ msgid "Name of the Many2one field holding the res.currency"
 msgstr "Res.currency ni saqlaydigan Many2one maydonining nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Name or id “%(name_or_id)s” in %(use)s does not exist."
@@ -37966,7 +37966,7 @@ msgstr ""
 "%(use)s ichidagi \"%(name_or_id)s\" nomi yoki identifikatori mavjud emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -38007,7 +38007,7 @@ msgid "Nano Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "Nano mavzu - BetopiaERP CMS uchun moslashuvchan Bootstrap mavzusi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Narrow"
@@ -38074,7 +38074,7 @@ msgid "New Caledonia"
 msgstr "Yangi Kaledoniya"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_export_language.py:0
 #, fuzzy
 msgid "New Language (Empty translation template)"
@@ -38276,7 +38276,7 @@ msgid "No Country Found!"
 msgstr "Hech qanday mamlakat topilmadi!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "No default view of type '%s' could be found!"
@@ -38295,14 +38295,14 @@ msgid "No gap"
 msgstr "Bo‘shliq yo‘q"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "No group currently allows this operation."
 msgstr "Hozircha hech qaysi guruh bu amalni bajarishga ruxsat bermagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -38311,7 +38311,7 @@ msgstr ""
 "'%%(field)s' maydonida %(field_type)s '%(value)s' uchun mos yozuv topilmadi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -38335,7 +38335,7 @@ msgid "No of Views"
 msgstr "Ko‘rinishlar soni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -38344,7 +38344,7 @@ msgid ""
 msgstr "Javob olinmadi. Server manzili va port raqamini tekshiring.  %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "No spaces allowed in view_mode: “%s”"
@@ -38357,7 +38357,7 @@ msgid "Non Updatable"
 msgstr "Yangilanmaydigan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -38368,7 +38368,7 @@ msgstr ""
 "bo‘lmagan maydon nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Non-relational field “%(field)s” in dependency “%(dependency)s”"
@@ -38376,7 +38376,7 @@ msgstr ""
 "\"%(dependency)s\" bog‘liqlikdagi \"%(field)s\" bog‘liq bo‘lmagan maydon"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Non-relational field “%(field)s” in path “%(field_path)s” in %(use)s)"
@@ -38416,7 +38416,7 @@ msgid "Norfolk Island"
 msgstr "Norfolk oroli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_bank.py:0
 #, fuzzy
 msgid "Normal"
@@ -38480,7 +38480,7 @@ msgid "Not Installed"
 msgstr "O‘rnatilmagan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Not enough access rights on the external ID \"%(module)s.%(xml_id)s\""
@@ -39383,7 +39383,7 @@ msgid "BetopiaERP Mobile Point of Sale module"
 msgstr "BetopiaERP mobil sotuv nuqtasi moduli"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_BetopiaERP_partner
+#: model:ir.module.module,shortdesc:base.module_betopiaerp_partner
 #, fuzzy
 msgid "BetopiaERP Partner"
 msgstr "BetopiaERP hamkor"
@@ -40000,7 +40000,7 @@ msgstr ""
 "borishingizga yordam beradi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -40013,7 +40013,7 @@ msgstr ""
 "administratoringizga murojaat qiling."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -40024,7 +40024,7 @@ msgstr ""
 "qayta urining yoki tizim administratoringizga murojaat qiling."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid ""
@@ -40035,7 +40035,7 @@ msgstr ""
 "birlashtira olmaydi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "BetopiaERP is unable to merge the generated PDFs."
@@ -40129,7 +40129,7 @@ msgstr ""
 "qiymatini yangilang."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -40149,7 +40149,7 @@ msgstr ""
 "kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -40202,14 +40202,14 @@ msgid "Online Task Submission"
 msgstr "Vazifani onlayn topshirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 #, fuzzy
 msgid "Only administrators can change the settings"
 msgstr "Faqat administratorlar sozlamalarni o‘zgartirishi mumkin"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid "Only administrators can execute this action."
@@ -40241,7 +40241,7 @@ msgstr ""
 "ko‘rinishning haqiqiy arxitekturasi kabi ishlatiladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "Only internal users can create API keys"
@@ -40267,14 +40267,14 @@ msgstr ""
 "Har bir berilgan foydalanish uchun faqat bitta qiymat belgilanishi mumkin!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Only super user has access"
 msgstr "Faqat super foydalanuvchi kirish huquqiga ega"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -40400,7 +40400,7 @@ msgid "Optional password for SMTP authentication"
 msgstr "SMTP autentifikatsiyasi uchun ixtiyoriy parol"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Optional timezone name"
@@ -40693,7 +40693,7 @@ msgid "Original View"
 msgstr "Asl ko‘rinish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Original currency"
@@ -41409,7 +41409,7 @@ msgid "Pacific/Yap"
 msgstr "Tinch okeani/Yap"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Page direct ancestor must be notebook"
@@ -41691,7 +41691,7 @@ msgid "Partners Geolocation"
 msgstr "Hamkorlar joylashuvi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "Partners: %(category)s"
@@ -41788,7 +41788,7 @@ msgid "Path to show in the URL"
 msgstr "URL manzilda ko‘rsatiladigan yo‘l"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model:ir.model.constraint,message:base.constraint_ir_act_client_path_unique
 #: model:ir.model.constraint,message:base.constraint_ir_act_report_xml_path_unique
@@ -41810,7 +41810,7 @@ msgid "Path to the field to update, e.g. 'partner_id.name'"
 msgstr "Yangilanishi kerak bo‘lgan maydon yo‘li, masalan 'partner_id.name'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Pattern to format"
@@ -42185,7 +42185,7 @@ msgid "Philippines Checks Layout"
 msgstr "Filippin cheklari shakli"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_bank__phone
 #: model:ir.model.fields,field_description:base.field_res_company__phone
@@ -42387,7 +42387,7 @@ msgid "Platform"
 msgstr "Platforma"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -42418,7 +42418,7 @@ msgstr ""
 "foydalanuvchilari uchun qo‘llaniladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -42687,7 +42687,7 @@ msgid "Pounds"
 msgstr "Funtlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Precision Digits"
@@ -42731,7 +42731,7 @@ msgid "Preview pdf src"
 msgstr "Ko‘rib chiqish PDF manbasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Previous Arch"
@@ -42842,7 +42842,7 @@ msgid "Privileges"
 msgstr "Imtiyozlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "Problematic record(s)"
@@ -42972,7 +42972,7 @@ msgid "Profiling is currently disabled."
 msgstr "Hozirda profillash o‘chirilgan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 #, fuzzy
 msgid ""
@@ -43367,7 +43367,7 @@ msgid "Properties Field"
 msgstr "Xususiyatlar maydoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -44029,7 +44029,7 @@ msgid "Record Rule"
 msgstr "Yozuv qoidasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_rule
 #: model:ir.model.fields,field_description:base.field_ir_model__rule_ids
@@ -44044,7 +44044,7 @@ msgid "Record Rules"
 msgstr "Yozuv qoidalari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 #, fuzzy
 msgid ""
@@ -44124,14 +44124,14 @@ msgid "Recruitment tracking on appointments"
 msgstr "Uchrashuvlarda ishga qabul qilishni kuzatish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid "Recursion error in modules dependencies!"
 msgstr "Modullar bog‘liqliklarida rekursiya xatosi!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Recursion found in child server actions"
@@ -44147,7 +44147,7 @@ msgid "Reference"
 msgstr "Havola"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Reference date"
@@ -44191,7 +44191,7 @@ msgid "Related Partner"
 msgstr "Aloqador hamkor"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -44200,7 +44200,7 @@ msgstr ""
 "\"%(related_field)s\" aloqador maydonida \"%(comodel)s\" komodeli mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Related field \"%(related_field)s\" does not have type \"%(type)s\""
@@ -44413,7 +44413,7 @@ msgid "Report Xml"
 msgstr "Hisobot XML"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid ""
@@ -44619,7 +44619,7 @@ msgid "Revision"
 msgstr "Qayta ko‘rib chiqish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Revision Code"
@@ -44797,14 +44797,14 @@ msgid "Rounding Factor"
 msgstr "Yaxlitlash koeffitsiyenti"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Rounding precision"
 msgstr "Yaxlitlash aniqligi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Rounding unit"
@@ -44859,7 +44859,7 @@ msgid "Rules"
 msgstr "Qoidalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "Rules can not be applied on the Record Rules model."
@@ -45067,7 +45067,7 @@ msgid "SSL Private Key"
 msgstr "SSL maxfiy kaliti"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "SSL certificate is missing for %s."
@@ -45080,7 +45080,7 @@ msgid "SSL certificate used for authentication"
 msgstr "Autentifikatsiya uchun foydalaniladigan SSL sertifikati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "SSL private key is missing for %s."
@@ -45806,14 +45806,14 @@ msgid "Search modules"
 msgstr "Modullarni qidirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Search tag can only contain one search panel"
 msgstr "Qidiruv belgisi faqat bitta qidiruv panelini o‘z ichiga olishi mumkin"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Searchpanel item with select multi cannot have a domain."
@@ -45834,14 +45834,14 @@ msgid "Security"
 msgstr "Xavfsizlik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "See all possible values"
 msgstr "Barcha mumkin bo‘lgan qiymatlarni ko‘rish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/common.py:0
 #, fuzzy
 msgid "See http://openerp.com"
@@ -45917,7 +45917,7 @@ msgstr ""
 "uchun kontaktlarni bu ro‘yxatdan olib tashlashingiz mumkin"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields.selection,name:base.selection__base_partner_merge_automatic_wizard__state__selection
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_selection_search
@@ -46286,7 +46286,7 @@ msgid "Separator Format"
 msgstr "Ajratuvchi formati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Separator use to split the address from the display_name."
@@ -46426,7 +46426,7 @@ msgid "Server action"
 msgstr "Server harakati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -46436,7 +46436,7 @@ msgstr ""
 "avval ularni bartaraf eting."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -46535,7 +46535,7 @@ msgstr ""
 "bo‘ladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "Setting empty passwords is not allowed for security reasons!"
@@ -46656,7 +46656,7 @@ msgid "Shopper's Wishlist"
 msgstr "Xaridorning istaklar ro‘yxati"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Short"
@@ -46804,7 +46804,7 @@ msgid "Sin"
 msgstr "Sinus"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -46888,7 +46888,7 @@ msgid "Skip these contacts"
 msgstr "Bu kontaktlarni o‘tkazib yuborish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Slash"
@@ -47107,14 +47107,14 @@ msgid "Somoni"
 msgstr "Somoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid "Sorry, you are not allowed to access this document."
 msgstr "Kechirasiz, sizga ushbu hujjatga kirish ruxsati berilmagan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid ""
@@ -47130,7 +47130,7 @@ msgstr ""
 "Foydalanuvchi: %(user)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid "Sorry, you are not allowed to write on this document"
@@ -47191,7 +47191,7 @@ msgid "Spa Resort"
 msgstr "Spa kurort"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Space"
@@ -47725,7 +47725,7 @@ msgid "Step"
 msgstr "Qadam"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 #, fuzzy
 msgid "Step must not be zero."
@@ -48483,7 +48483,7 @@ msgid "Tattoo Shop"
 msgstr "Tatu saloni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__vat
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
@@ -48620,21 +48620,21 @@ msgid "Template Name"
 msgstr "Shablon nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Template does not exist or has been deleted: %s"
 msgstr "Shablon mavjud emas yoki o‘chirib tashlangan: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 #, fuzzy
 msgid "Template name is missing."
 msgstr "Shablon nomi ko‘rsatilmagan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Template not found: '%s'"
@@ -48959,14 +48959,14 @@ msgid "Thailand - Accounting Reports"
 msgstr "Tailand - Buxgalteriya hisobotlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "The \"%s\" action cannot be selected as home action."
 msgstr "\"%s\" harakatini asosiy harakat sifatida tanlash mumkin emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "The \"App Switcher\" action cannot be selected as home action."
@@ -48975,7 +48975,7 @@ msgstr ""
 "mumkin emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -48986,7 +48986,7 @@ msgstr ""
 "bo‘lishi kerak, %(value)s qabul qilindi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #, fuzzy
 msgid "The %s of a subsidiary must be the same as it's root company."
@@ -48995,14 +48995,14 @@ msgstr ""
 "kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "The API key duration is not correct."
 msgstr "API kalitining amal qilish muddati noto‘g‘ri."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "The API key must have an expiration date"
@@ -49090,7 +49090,7 @@ msgid "The URL code of the language must be unique!"
 msgstr "Tilning URL kodi noyob bo‘lishi shart!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -49113,7 +49113,7 @@ msgid "The api key duration cannot be a negative value."
 msgstr "API kalitining amal qilish muddati manfiy qiymat bo‘lishi mumkin emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 #, fuzzy
 msgid "The attachment collides with an existing file."
@@ -49158,7 +49158,7 @@ msgid "The combination Account Number/Partner must be unique."
 msgstr "Hisob raqami/Hamkor kombinatsiyasi noyob bo‘lishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #, fuzzy
 msgid ""
@@ -49170,7 +49170,7 @@ msgstr ""
 "ishlatilmoqda."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -49181,7 +49181,7 @@ msgstr ""
 "kompaniyaga mos kelmaydi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #, fuzzy
 msgid "The company hierarchy cannot be changed."
@@ -49248,7 +49248,7 @@ msgid "The default company for this user."
 msgstr "Bu foydalanuvchi uchun asosiy kompaniya."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 #, fuzzy
 msgid ""
@@ -49271,7 +49271,7 @@ msgid "The embedded action this filter is applied to"
 msgstr "Bu filtr qo‘llaniladigan ichki amal"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -49359,7 +49359,7 @@ msgstr ""
 "ravishda qayta tiklanadi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_module_upgrade.py:0
 #, fuzzy
 msgid "The following modules are not installed or unknown: %s"
@@ -49378,14 +49378,14 @@ msgid "The group itself with all its implied groups."
 msgstr "Guruhning o‘zi barcha nazarda tutilgan guruhlari bilan birga."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "The group “%(name)s” defined in view does not exist!"
 msgstr "Ko‘rinishda belgilangan \"%(name)s\" guruhi mavjud emas!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "The hour must be between 0 and 23"
@@ -49411,14 +49411,14 @@ msgid "The key will be deleted once this period has elapsed."
 msgstr "Ushbu muddat tugagach, kalit o‘chiriladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "The language %s is not installed."
 msgstr "%s tili o‘rnatilmagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #: code:addons/base/wizard/base_language_install.py:0
 #, fuzzy
@@ -49430,7 +49430,7 @@ msgstr ""
 "sozlamalarida sevimli tillarini tanlashlari mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_country.py:0
 #, fuzzy
 msgid "The layout contains an invalid format key"
@@ -49443,7 +49443,7 @@ msgid "The list of models that extends the current model."
 msgstr "Joriy modelni kengaytiruvchi modellar ro‘yxati."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -49464,7 +49464,7 @@ msgstr ""
 "model uchun barcha menyularga tatbiq etiladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -49475,7 +49475,7 @@ msgstr ""
 "chaqirish mumkin emas. Iltimos, uning o‘rniga button_install dan foydalaning."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -49486,7 +49486,7 @@ msgstr ""
 "iborat bo‘lishi mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "The model name must start with 'x_'."
@@ -49499,14 +49499,14 @@ msgid "The model this field belongs to"
 msgstr "Ushbu maydon tegishli bo‘lgan model"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "The modes in view_mode must not be duplicated: %s"
 msgstr "view_mode rejimlarida takrorlanishlar bo‘lmasligi kerak: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid ""
@@ -49521,7 +49521,7 @@ msgid "The name of the country must be unique!"
 msgstr "Mamlakat nomi noyob bo‘lishi kerak!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 #, fuzzy
 msgid "The name of the group can not start with \"-\""
@@ -49552,14 +49552,14 @@ msgid "The name of the record to create"
 msgstr "Yaratilayotgan yozuv nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "The new password and its confirmation must be identical."
 msgstr "Yangi parol va uning tasdiqlovi bir xil bo‘lishi shart."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid ""
@@ -49594,7 +49594,7 @@ msgstr ""
 "bajarilganda avtomatik ravishda nolga tushiriladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "The ondelete policy \"%(policy)s\" is not valid for field \"%(field)s\""
@@ -49609,7 +49609,7 @@ msgid "The only predefined variables are"
 msgstr "Faqat oldindan belgilangan o‘zgaruvchilar mavjud"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/model.py:0
 #, fuzzy
 msgid "The operation cannot be completed: %s"
@@ -49628,7 +49628,7 @@ msgstr ""
 "ko‘rsatiladi. Masalan: [('rang‘,'=','qizil')]"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -49643,7 +49643,7 @@ msgstr ""
 "maydon norelyatsion ekanligiga ishonch hosil qiling."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid ""
@@ -49670,7 +49670,7 @@ msgid "The payment engine used by payment provider modules."
 msgstr "To‘lov provayderi modullari tomonidan foydalaniladigan to‘lov tizimi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 #, fuzzy
 msgid ""
@@ -49701,7 +49701,7 @@ msgstr ""
 "ustuvorlikni bildiradi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -49741,14 +49741,14 @@ msgstr ""
 "bo‘lishi shart."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_binary.py:0
 #, fuzzy
 msgid "The related attachment does not exist."
 msgstr "Tegishli ilova mavjud emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -49765,7 +49765,7 @@ msgid "The rounding factor must be greater than 0!"
 msgstr "Yaxlitlash koeffitsienti 0 dan katta bo‘lishi shart!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -49775,21 +49775,21 @@ msgstr ""
 "Tanlangan kompaniya tegishli foydalanuvchi(lar) kompaniyalariga mos kelmaydi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "The server \"%(server_name)s\" doesn't return the maximum email size."
 msgstr "\"%(server_name)s\" serveri maksimal xat hajmini qaytarmayapti."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "The server \"%s\" cannot be used because it is archived."
 msgstr "\"%s\" serveridan foydalanib bo‘lmaydi, chunki u arxivlangan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -49801,7 +49801,7 @@ msgstr ""
 "ko‘rsatilayotgan sozlamalarni tekshiring.  %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -49810,14 +49810,14 @@ msgstr ""
 "Server yuboruvchi manzilini (%(email_from)s) %(repl)s xatolik bilan rad etdi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid "The server refused the test connection with error %(repl)s"
 msgstr "Server %(repl)s xatolik bilan sinov aloqasini rad etdi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -49833,7 +49833,7 @@ msgid "The state code."
 msgstr "Davlat kodi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "The table “%s” is used by another, possibly incompatible field(s)."
@@ -49872,21 +49872,21 @@ msgstr ""
 "foydalanuvchilar bilan ulashiladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "The value (%s) passed should be positive"
 msgstr "Kiritilgan qiymat (%s) musbat bo‘lishi kerak"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "The value of 'Fold Field' should be a field name of the model."
 msgstr "'Buklanadigan maydon' qiymati modelning maydon nomi bo‘lishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "The value send to monetary field is not a number."
@@ -49973,7 +49973,7 @@ msgid "This Window"
 msgstr "Ushbu oyna"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "This column contains module data and cannot be removed!"
@@ -49982,7 +49982,7 @@ msgstr ""
 "emas!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "This currency is set on a company and therefore cannot be deactivated."
@@ -50034,14 +50034,14 @@ msgstr ""
 "ko‘rinishni yumshoq tiklash uchun foydali."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 #, fuzzy
 msgid "This file could not be decoded as an image file."
 msgstr "Bu faylni rasm fayli sifatida koddan yechib bo‘lmadi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 #, fuzzy
 msgid "This file is not a webp file."
@@ -50189,7 +50189,7 @@ msgid "This is your company's currency."
 msgstr "Bu sizning kompaniyangiz valyutasidir."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "This method can only be accessed over HTTP"
@@ -50752,7 +50752,7 @@ msgid "This module will trigger the uninstallation of below modules."
 msgstr "Bu modul quyidagi modullarning o‘chirilishini boshlaydi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -50761,7 +50761,7 @@ msgid ""
 msgstr "Bu amal quyidagi guruhlar uchun ruxsat etilgan: %(groups_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -50785,7 +50785,7 @@ msgstr ""
 "birgalikda mavjud bo‘ladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid "Those modules cannot be uninstalled: %s"
@@ -51061,7 +51061,7 @@ msgstr ""
 "byudjetini deyarli yarmiga qisqartirdi. Mashhur boshqaruvchi hamkor."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 #, fuzzy
 msgid "Too large image (above %sMpx), reduce the image size."
@@ -51069,7 +51069,7 @@ msgstr ""
 "Rasm juda katta (%s Mpx dan ortiq), iltimos, rasm o‘lchamini kichraytiring."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "Too many login failures, please wait a bit before trying again."
@@ -51288,7 +51288,7 @@ msgid "Treehouse Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "Treehouse mavzusi - BetopiaERP CMS uchun moslashuvchan Bootstrap mavzusi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
@@ -51754,7 +51754,7 @@ msgid "Uganda - Accounting Reports"
 msgstr "Uganda - Buxgalteriya hisobotlari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid ""
@@ -51778,14 +51778,14 @@ msgid "Ukraine - Accounting"
 msgstr "Ukraina - Buxgalteriya"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
 msgstr "Bu tizimda Wkhtmltopdf topilmadi. PDF yaratib bo‘lmaydi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -51796,7 +51796,7 @@ msgstr ""
 "o‘rniga alohida xususiyatni ko‘rsating."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -51807,7 +51807,7 @@ msgstr ""
 "bajarilmagan: %(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -51818,7 +51818,7 @@ msgstr ""
 "modelda mavjud bo‘lishi va saqlanishi kerak."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -51829,7 +51829,7 @@ msgstr ""
 "bajarilmagan: %(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -51846,7 +51846,7 @@ msgid "Uncategorized"
 msgstr "Turkumlanmagan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -51857,7 +51857,7 @@ msgstr ""
 "Kodlash bayonnomasini olib tashlang."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.module_form
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
@@ -51866,7 +51866,7 @@ msgid "Uninstall"
 msgstr "O‘chirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 #, fuzzy
@@ -51874,7 +51874,7 @@ msgid "Uninstall module"
 msgstr "Modulni o‘chirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 #, fuzzy
 msgid "Uninstall modules"
@@ -51911,7 +51911,7 @@ msgid "Uninstall…"
 msgstr "O‘chirish..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
 msgid "Unit per %s"
@@ -52033,7 +52033,7 @@ msgid "University, Education, Schools, Young, Play, Kids"
 msgstr "Universitet, Ta'lim, Maktablar, Yoshlar, O‘yin, Bolalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_device.py:0
 #: model:ir.model,name:base.model__unknown
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module_dependency__state__unknown
@@ -52043,14 +52043,14 @@ msgid "Unknown"
 msgstr "Noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Unknown field \"%(model)s.%(field)s\" in %(use)s)"
 msgstr "%(use)s da \"%(model)s.%(field)s\" maydoni noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -52060,14 +52060,14 @@ msgstr ""
 "noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Unknown field specified “%s” in currency_field"
 msgstr "currency_field da ko‘rsatilgan \"%s\" maydoni noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid ""
@@ -52077,28 +52077,28 @@ msgstr ""
 "maydoni noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Unknown field “%(field)s” in dependency “%(dependency)s”"
 msgstr "\"%(dependency)s\" bog‘liqligida \"%(field)s\" maydoni noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid "Unknown model name '%s' in Related Model"
 msgstr "Bog‘liq modelda '%s' model nomi noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Unknown sub-field “%s”"
 msgstr "\"%s\" qism maydoni noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid ""
@@ -52109,14 +52109,14 @@ msgstr ""
 "('%(field)s' maydonining qism maydoni)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Unknown value '%s' for boolean field '%%(field)s'"
 msgstr "'%(field)s' mantiqiy maydoni uchun '%s' qiymati noma'lum"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 #, fuzzy
 msgid ""
@@ -52126,7 +52126,7 @@ msgstr ""
 "bo‘lishi kerak (qabul qilingan kengaytma: .%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "Unsearchable field “%(field)s” in path “%(field_path)s” in %(use)s)"
@@ -52167,7 +52167,7 @@ msgid "Update"
 msgstr "Yangilash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "Update %(model_name)s"
@@ -52284,7 +52284,7 @@ msgid "Usage"
 msgstr "Foydalanish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Use '1' for yes and '0' for no"
@@ -52339,14 +52339,14 @@ msgstr ""
 "foydalaning"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Use comma"
 msgstr "Verguldan foydalanish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Use comma instead of the <br> tag to display the address"
@@ -52422,7 +52422,7 @@ msgstr ""
 "Olingan nishonlar foydalanuvchi profilida ko‘rsatiladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -52432,7 +52432,7 @@ msgstr ""
 "konfiguratsiyasidan foydalaning"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Use the format '%s'"
@@ -52530,7 +52530,7 @@ msgid "User"
 msgstr "Foydalanuvchi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -52628,7 +52628,7 @@ msgid "Username"
 msgstr "Foydalanuvchi nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_users
 #: model:ir.model.fields,field_description:base.field_change_password_wizard__user_ids
@@ -52678,7 +52678,7 @@ msgid "Users and implied users"
 msgstr "Foydalanuvchilar va nazarda tutilgan foydalanuvchilar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 #, fuzzy
 msgid "Users and implied users of %(group)s"
@@ -52717,7 +52717,7 @@ msgid "Uses Default Logo"
 msgstr "Standart logotipdan foydalanadi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "Using 24-hour clock format with AM/PM can cause issues."
@@ -52732,7 +52732,7 @@ msgid "Uzbekistan"
 msgstr "O‘zbekiston"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_vat
 #: model:res.country,vat_label:base.be model:res.country,vat_label:base.bg
@@ -52785,7 +52785,7 @@ msgid "Value"
 msgstr "Qiymat"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "Value '%s' not found in selection field '%%(field)s'"
@@ -52876,7 +52876,7 @@ msgid "Venezuela - Accounting"
 msgstr "Venesuela - Buxgalteriya hisobi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Vertical bar"
@@ -52922,14 +52922,14 @@ msgid "View"
 msgstr "Ko‘rish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "View '%(name)s' accessible only to groups %(groups)s "
 msgstr "'%(name)s' ko‘rinishi faqat %(groups)s guruhlariga ruxsat etilgan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "View '%(name)s' is private"
@@ -52959,7 +52959,7 @@ msgid "View Name"
 msgstr "Ko‘rinish nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "View Problematic Record(s)"
@@ -53131,7 +53131,7 @@ msgid "Warn user in case of products merging"
 msgstr "Mahsulotlar birlashtirilganda foydalanuvchini ogohlantirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #: code:addons/base/models/ir_model.py:0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__warning
@@ -53141,7 +53141,7 @@ msgid "Warning"
 msgstr "Ogohlantirish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 #: code:addons/base/models/res_currency.py:0
 #, fuzzy
@@ -53749,7 +53749,7 @@ msgid "Wholesale/Retail"
 msgstr "Ulgurji/Chakana savdo"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "Width"
@@ -53795,7 +53795,7 @@ msgid "Wizards to be Launched"
 msgstr "Ishga tushiriladigan yordamchi dasturlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid ""
@@ -53806,7 +53806,7 @@ msgstr ""
 "(error_message_end)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid ""
@@ -53818,7 +53818,7 @@ msgstr ""
 "yetildi. Xabar: %(message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
@@ -53995,7 +53995,7 @@ msgid "Yoga & Pilates Studio"
 msgstr "Yoga va pilates studiyasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -54006,7 +54006,7 @@ msgstr ""
 "berilmagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -54017,7 +54017,7 @@ msgstr ""
 "berilmagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -54028,7 +54028,7 @@ msgstr ""
 "ruxsat berilmagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 #, fuzzy
 msgid ""
@@ -54039,7 +54039,7 @@ msgstr ""
 "ruxsat berilmagan."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -54050,7 +54050,7 @@ msgstr ""
 "(module_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -54074,14 +54074,14 @@ msgstr ""
 "nusxalashingiz/joylashtirishingiz mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 #, fuzzy
 msgid "You can not change the field of a base definition"
 msgstr "Asosiy ta'rif maydonini o‘zgartira olmaysiz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "You can not create recursive tags."
@@ -54094,7 +54094,7 @@ msgid "You can not have two users with the same login!"
 msgstr "Bir xil login bilan ikkita foydalanuvchi bo‘lishi mumkin emas!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -54104,7 +54104,7 @@ msgstr ""
 "kalitlarini olib tashlay olmaysiz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -54116,7 +54116,7 @@ msgstr ""
 "boshqalar) uchun ichki ravishda ishlatiladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "You can ony call user.has_group() with your current user."
@@ -54125,7 +54125,7 @@ msgstr ""
 "chaqira olasiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/report_paperformat.py:0
 #, fuzzy
 msgid ""
@@ -54135,14 +54135,14 @@ msgstr ""
 "mumkin, lekin ikkalasini birga emas."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "You cannot activate the superuser."
 msgstr "Superfoydalanuvchini faollashtira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -54157,7 +54157,7 @@ msgstr ""
 "Bog‘langan faol foydalanuvchilar: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -54171,7 +54171,7 @@ msgstr ""
 "foydalanuvchilar: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid ""
@@ -54182,7 +54182,7 @@ msgstr ""
 "jarayonlar tomonidan ishlatiladi."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -54194,7 +54194,7 @@ msgstr ""
 "chunki ular hali ham quyidagi holat(lar)da ishlatilmoqda: %(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -54206,14 +54206,14 @@ msgstr ""
 "hali ham quyidagi holat(lar)da ishlatilmoqda: %(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid "You cannot create recursive Partner hierarchies."
 msgstr "Rekursiv Hamkor ierarxiyalarini yarata olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "You cannot create recursive inherited views."
@@ -54230,28 +54230,28 @@ msgstr ""
 "oralig‘ini yarata olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "You cannot deactivate the user you're currently logged in as."
 msgstr "Hozir tizimga kirgan foydalanuvchingizni faolsizlantira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_embedded_actions.py:0
 #, fuzzy
 msgid "You cannot delete a default embedded action"
 msgstr "Standart o‘rnatilgan amalni o‘chira olmaysiz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 #, fuzzy
 msgid "You cannot delete a group linked with a settings field."
 msgstr "Sozlamalar maydoni bilan bog‘langan guruhni o‘chira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -54266,7 +54266,7 @@ msgstr ""
 "Bog‘langan faol foydalanuvchilar: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #, fuzzy
 msgid ""
@@ -54280,14 +54280,14 @@ msgstr ""
 "Bog‘langan faol foydalanuvchilar: %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 #, fuzzy
 msgid "You cannot delete the %s record."
 msgstr "%s yozuvini o‘chira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid ""
@@ -54299,7 +54299,7 @@ msgstr ""
 "arxivlang."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid ""
@@ -54308,28 +54308,28 @@ msgid ""
 msgstr "Faol bo‘lgan tilni o‘chira olmaysiz! Avval tilni faolsizlantiring."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "You cannot delete the language which is the user's preferred language."
 msgstr "Foydalanuvchining afzal ko‘rgan tilini o‘chira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "You cannot exceed %(duration)s days."
 msgstr "%(duration)s kundan oshib ketolmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, fuzzy
 msgid "You cannot merge a contact with one of his parent."
 msgstr "Kontaktni uning ota-onasidan biri bilan birlashtira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, fuzzy
 msgid ""
@@ -54340,7 +54340,7 @@ msgstr ""
 "faol bo‘lsa ham, birlashtira olmaysiz."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 #, fuzzy
 msgid "You cannot rename config parameters with keys %s"
@@ -54348,21 +54348,21 @@ msgstr ""
 "%s kalitlari bilan konfiguratsiya parametrlarini qayta nomlash mumkin emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #, fuzzy
 msgid "You don't have enough access rights to run this action."
 msgstr "Ushbu amalni bajarish uchun yetarli kirish huquqiga ega emassiz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, fuzzy
 msgid "You have to specify a filter for your selection."
 msgstr "Tanlov uchun filtr ko‘rsatishingiz kerak"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "You must have at least an administrator user."
@@ -54381,7 +54381,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "Ushbu hujjatni shartlaringizni aks ettirish uchun yangilashingiz kerak"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -54393,7 +54393,7 @@ msgstr ""
 "moduliga bog‘liq. Biroq, kerakli modul tizimingizda mavjud emas"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #, fuzzy
 msgid ""
@@ -54430,7 +54430,7 @@ msgid ""
 msgstr "Tushligingiz yetkazib berildi. Yoqimli ishtaha!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #, fuzzy
 msgid ""
@@ -54612,7 +54612,7 @@ msgid "choose"
 msgstr "tanlash"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "create"
@@ -54625,7 +54625,7 @@ msgid "cêntimo"
 msgstr "sentimo"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "database id"
@@ -54644,7 +54644,7 @@ msgid "datetime"
 msgstr "sana va vaqt"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "day"
@@ -54699,7 +54699,7 @@ msgid "e.g. \"Roadshow\""
 msgstr "Masalan, \"Roadshow\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #, fuzzy
 msgid "e.g. %(placeholder)s"
@@ -54869,14 +54869,14 @@ msgid "expenses"
 msgstr "xarajatlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "external id"
 msgstr "tashqi ID"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "false"
@@ -54898,7 +54898,7 @@ msgid ""
 msgstr "o‘zidagi yozuv uchun: record['size'] = len(record.name)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #, fuzzy
 msgid "format() must be given exactly one %char format specifier"
@@ -54923,7 +54923,7 @@ msgstr ""
 "tillarini tanlashlari mumkin."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "hour"
@@ -55030,7 +55030,7 @@ msgid "many2one_reference"
 msgstr "ko‘pdan-birga_havola"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "minute"
@@ -55049,28 +55049,28 @@ msgid "monetary"
 msgstr "pul bilan bog‘liq"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "month"
 msgstr "oy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "name"
 msgstr "nomi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "narrow"
 msgstr "tor"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "no"
@@ -55095,7 +55095,7 @@ msgid "others"
 msgstr "boshqalar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #, fuzzy
 msgid "parent_id"
@@ -55166,7 +55166,7 @@ msgid "properties_definition"
 msgstr "xususiyatlar_ta'rifi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "read"
@@ -55186,7 +55186,7 @@ msgid "sales"
 msgstr "sotuvlar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "second"
@@ -55211,7 +55211,7 @@ msgid "sequence_id"
 msgstr "ketma-ketlik_id"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "short"
@@ -55332,14 +55332,14 @@ msgid "text"
 msgstr "matn"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "true"
 msgstr "rost"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "unlink"
@@ -55376,14 +55376,14 @@ msgid "website helpdesk sale loyalty"
 msgstr "veb-sayt mijozlarga xizmat ko‘rsatish va sodiqlik dasturi sotuvi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "week"
 msgstr "hafta"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 #, fuzzy
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
@@ -55392,21 +55392,21 @@ msgstr ""
 "etiladi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 #, fuzzy
 msgid "write"
 msgstr "yozish"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, fuzzy
 msgid "year"
 msgstr "yil"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 #, fuzzy
 msgid "yes"
@@ -55419,7 +55419,7 @@ msgid "Åland Islands"
 msgstr "Aland orollari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 #, fuzzy
 msgid "“%(attribute)s” value must be an integer (%(value)s)"

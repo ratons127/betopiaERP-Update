@@ -9,4 +9,4 @@ class AccountJournal(models.Model):
 
     invoice_reference_model = fields.Selection(selection_add=[
         ('no', 'Norway (000001024000083)')
-    ], ondelete={'no': lambda recs: recs.write({'invoice_reference_model': 'BetopiaERP'})})
+    ], ondelete={'no': lambda recs: recs.write({'invoice_reference_model': 'betopiaerp'})})

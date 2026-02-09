@@ -1,6 +1,6 @@
 import { ActivityCompiler } from "@mail/views/web/activity/activity_compiler";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 import { evaluateBooleanExpr } from "@web/core/py_js/py";
 import { user } from "@web/core/user";

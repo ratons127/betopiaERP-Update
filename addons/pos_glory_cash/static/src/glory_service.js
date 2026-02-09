@@ -12,7 +12,7 @@ import {
     XML_REQUESTS,
 } from "@pos_glory_cash/utils/constants";
 import { SocketIoService } from "@pos_glory_cash/utils/socket_io";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { sortBy } from "@web/core/utils/arrays";
 import { browser } from "@web/core/browser/browser";
 import { Logger } from "@bus/workers/bus_worker_utils";

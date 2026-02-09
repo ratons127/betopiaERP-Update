@@ -1,6 +1,6 @@
 import { session } from "@web/session";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 const LINK_REGEX = new RegExp("^https?://");

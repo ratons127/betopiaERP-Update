@@ -1,6 +1,6 @@
 import { rpc } from "@web/core/network/rpc";
 import { AutoComplete } from "@web/core/autocomplete/autocomplete";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class Many2One extends Component {
     static template = "hr_attendance.Many2One";

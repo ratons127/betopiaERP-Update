@@ -17,6 +17,6 @@ This module enables to generate E-waybill through IRN.
         'report/ewaybill_report.xml',
     ],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

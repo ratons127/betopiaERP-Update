@@ -2,7 +2,7 @@ import { CW_LIVECHAT_STEP } from "@im_livechat/core/common/chat_window_model_pat
 import { FeedbackPanel } from "@im_livechat/embed/common/feedback_panel/feedback_panel";
 
 import { ChatWindow } from "@mail/core/common/chat_window";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";

@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 const numberRange = (min, max) => [...Array(max - min)].map((_, i) => i + min);
 

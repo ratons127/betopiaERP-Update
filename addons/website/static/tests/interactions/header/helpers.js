@@ -1,5 +1,5 @@
-import { expect } from "@BetopiaERP/hoot";
-import { scroll } from "@BetopiaERP/hoot-dom";
+import { expect } from "@betopiaerp/hoot";
+import { scroll } from "@betopiaerp/hoot-dom";
 
 import { endTransition } from "@website/../tests/interactions/snippets/helpers";
 
@@ -22,7 +22,7 @@ export async function customScroll(scrollingElement, start, end) {
 
 /**
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} header
+ * @param {import("@betopiaerp/hoot-dom").Target} header
  * @param {HTMLElement} main
  * @param {any} core
  * @param {any} expectedStatus

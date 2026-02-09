@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 
 import { IrMenuPlugin } from "./ir_ui_menu_plugin";
 
@@ -10,7 +10,7 @@ import {
     parseIrMenuXmlUrl,
     parseViewLink,
     parseIrMenuIdLink,
-} from "./BetopiaERP_menu_link_cell";
+} from "./betopiaerp_menu_link_cell";
 import { _t } from "@web/core/l10n/translation";
 import { navigateTo } from "../actions/helpers";
 

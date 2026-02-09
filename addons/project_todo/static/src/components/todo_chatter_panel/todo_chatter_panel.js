@@ -1,6 +1,6 @@
 import { Chatter } from "@mail/chatter/web_portal/chatter";
 
-import { Component, useState, useRef } from "@BetopiaERP/owl";
+import { Component, useState, useRef } from "@betopiaerp/owl";
 
 import { registry } from "@web/core/registry";
 import { standardWidgetProps } from "@web/views/widgets/standard_widget_props";

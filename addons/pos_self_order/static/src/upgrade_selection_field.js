@@ -12,7 +12,7 @@ export class UpgradeSelectionField extends SelectionField {
     setup() {
         super.setup();
         this.dialogService = useService("dialog");
-        this.isEnterprise = BetopiaERP.info && BetopiaERP.info.isEnterprise;
+        this.isEnterprise = betopiaerp.info && betopiaerp.info.isEnterprise;
     }
 
     async onChange(newValue) {

@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { getExpressionDisplayedOperators } from "@web/core/expression_editor/expression_editor_operator_editor";
 import { _t } from "@web/core/l10n/translation";
 import { ModelFieldSelector } from "@web/core/model_field_selector/model_field_selector";

@@ -1,4 +1,4 @@
-import { Component, onWillRender, onWillUpdateProps, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillRender, onWillUpdateProps, useEffect, useRef, useState } from "@betopiaerp/owl";
 
 /**
  * A notebook component that will render only the current page and allow

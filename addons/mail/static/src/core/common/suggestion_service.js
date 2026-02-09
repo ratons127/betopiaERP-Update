@@ -1,6 +1,6 @@
 import { partnerCompareRegistry } from "@mail/core/common/partner_compare";
 import { cleanTerm } from "@mail/utils/common/format";
-import { toRaw } from "@BetopiaERP/owl";
+import { toRaw } from "@betopiaerp/owl";
 import { loadEmoji } from "@web/core/emoji_picker/emoji_picker";
 
 import { registry } from "@web/core/registry";
@@ -230,7 +230,7 @@ export class SuggestionService {
     isSuggestionValid(partner, thread) {
         return (
             (this.store.self_partner?.main_user_id?.share === false || partner.mention_token) &&
-            partner.notEq(this.store.BetopiaERPbot)
+            partner.notEq(this.store.betopiaerpbot)
         );
     }
 

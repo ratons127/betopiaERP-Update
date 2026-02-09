@@ -42,7 +42,7 @@
         'demo/account_peppol_demo.xml',
     ],
     'post_init_hook': '_account_peppol_post_init',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'assets': {
         'web.assets_backend': [

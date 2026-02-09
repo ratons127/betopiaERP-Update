@@ -10,13 +10,13 @@ class TestJsTranspiler(TransactionCase):
     maxDiff = None
 
     def test_01_alias(self):
-        input_content = """/** @BetopiaERP-module alias=test_assetsbundle.Alias **/"""
+        input_content = """/** @betopiaerp-module alias=test_assetsbundle.Alias **/"""
         result = transpile_javascript("/test_assetsbundle/static/src/alias.js", input_content)
 
         expected_result = """betopiaerp.define('@test_assetsbundle/alias', [], function (require) {
 'use strict';
 let __exports = {};
-/** @BetopiaERP-module alias=test_assetsbundle.Alias **/
+/** @betopiaerp-module alias=test_assetsbundle.Alias **/
 return __exports;
 });
 
@@ -28,13 +28,13 @@ betopiaerp.define(`test_assetsbundle.Alias`, ['@test_assetsbundle/alias'], funct
         self.assertEqual(result, expected_result)
 
     def test_02_default(self):
-        input_content = """/** @BetopiaERP-module alias=test_assetsbundle.Alias default=False **/"""
+        input_content = """/** @betopiaerp-module alias=test_assetsbundle.Alias default=False **/"""
         result = transpile_javascript("/test_assetsbundle/static/src/alias.js", input_content)
 
         expected_result = """betopiaerp.define('@test_assetsbundle/alias', [], function (require) {
 'use strict';
 let __exports = {};
-/** @BetopiaERP-module alias=test_assetsbundle.Alias default=False **/
+/** @betopiaerp-module alias=test_assetsbundle.Alias default=False **/
 return __exports;
 });
 
@@ -45,13 +45,13 @@ betopiaerp.define(`test_assetsbundle.Alias`, ['@test_assetsbundle/alias'], funct
 
         self.assertEqual(result, expected_result)
 
-        input_content = """/** @BetopiaERP-module alias=test_assetsbundle.Alias default=0 **/"""
+        input_content = """/** @betopiaerp-module alias=test_assetsbundle.Alias default=0 **/"""
         result = transpile_javascript("/test_assetsbundle/static/src/alias.js", input_content)
 
         expected_result = """betopiaerp.define('@test_assetsbundle/alias', [], function (require) {
 'use strict';
 let __exports = {};
-/** @BetopiaERP-module alias=test_assetsbundle.Alias default=0 **/
+/** @betopiaerp-module alias=test_assetsbundle.Alias default=0 **/
 return __exports;
 });
 
@@ -62,13 +62,13 @@ betopiaerp.define(`test_assetsbundle.Alias`, ['@test_assetsbundle/alias'], funct
 
         self.assertEqual(result, expected_result)
 
-        input_content = """/** @BetopiaERP-module alias=test_assetsbundle.Alias default=false **/"""
+        input_content = """/** @betopiaerp-module alias=test_assetsbundle.Alias default=false **/"""
         result = transpile_javascript("/test_assetsbundle/static/src/alias.js", input_content)
 
         expected_result = """betopiaerp.define('@test_assetsbundle/alias', [], function (require) {
 'use strict';
 let __exports = {};
-/** @BetopiaERP-module alias=test_assetsbundle.Alias default=false **/
+/** @betopiaerp-module alias=test_assetsbundle.Alias default=false **/
 return __exports;
 });
 

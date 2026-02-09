@@ -1,5 +1,5 @@
 import { useBus } from "@web/core/utils/hooks";
-import { EventBus, Component, useState, markup } from "@BetopiaERP/owl";
+import { EventBus, Component, useState, markup } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 export class FullscreenIndication extends Component {

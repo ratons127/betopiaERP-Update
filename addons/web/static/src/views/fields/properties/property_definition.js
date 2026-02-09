@@ -13,7 +13,7 @@ import { PropertyTags } from "./property_tags";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { uuid } from "@web/core/utils/strings";
 
-import { Component, useState, onWillUpdateProps, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useState, onWillUpdateProps, useEffect, useRef } from "@betopiaerp/owl";
 
 export class PropertyDefinition extends Component {
     static template = "web.PropertyDefinition";

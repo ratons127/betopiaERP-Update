@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import {
     isDisplayStandalone,
@@ -44,7 +44,7 @@ const pwaService = {
             isAvailable: false,
             isScopedApp: browser.location.href.includes("/scoped_app"),
             isSupportedOnBrowser: false,
-            startUrl: "/BetopiaERP",
+            startUrl: "/betopiaerp",
             decline,
             getManifest,
             hasScopeBeenInstalled,

@@ -1,6 +1,6 @@
 // ! WARNING: this module cannot depend on modules not ending with ".hoot" (except libs) !
 
-import { definePreset, defineTags, isHootReady } from "@BetopiaERP/hoot";
+import { definePreset, defineTags, isHootReady } from "@betopiaerp/hoot";
 import { runTests } from "./module_set.hoot";
 
 function beforeFocusRequired(test) {

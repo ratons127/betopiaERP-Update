@@ -1,7 +1,7 @@
 import { useService } from "@web/core/utils/hooks";
 import { uuid } from "@web/core/utils/strings";
 
-import { Component, useState, useRef, useEffect } from "@BetopiaERP/owl";
+import { Component, useState, useRef, useEffect } from "@betopiaerp/owl";
 import { useSortable } from "@web/core/utils/sortable_owl";
 
 export class PropertyDefinitionSelection extends Component {

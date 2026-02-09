@@ -1,4 +1,4 @@
-import { CorePlugin, Model, UID } from "@BetopiaERP/o-spreadsheet";
+import { CorePlugin, Model, UID } from "@betopiaerp/o-spreadsheet";
 import { ChartBetopiaERPMenuPlugin, BetopiaERPChartCorePlugin, BetopiaERPChartCoreViewPlugin } from "@spreadsheet/chart";
 import { CurrencyPlugin } from "@spreadsheet/currency/plugins/currency";
 import { AccountingPlugin } from "addons/spreadsheet_account/static/src/plugins/accounting_plugin";
@@ -52,7 +52,7 @@ type PluginGetters<Plugin extends { new (...args: unknown[]): any; getters: read
 
 declare module "@spreadsheet" {
     /**
-     * Add getters from custom plugins defined in BetopiaERP
+     * Add getters from custom plugins defined in betopiaerp
      */
 
     interface BetopiaERPCoreGetters extends CoreGetters {}

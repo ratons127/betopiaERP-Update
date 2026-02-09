@@ -1,5 +1,5 @@
 import { Dropzone } from "@web/core/dropzone/dropzone";
-import { useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { useEffect, useExternalListener } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 /**

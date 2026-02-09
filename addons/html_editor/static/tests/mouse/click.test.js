@@ -1,7 +1,7 @@
 import { leftPos, rightPos } from "@html_editor/utils/position";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, pointerDown, pointerUp, waitForNone } from "@BetopiaERP/hoot-dom";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame, pointerDown, pointerUp, waitForNone } from "@betopiaerp/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { unformat } from "../_helpers/format";

@@ -1,10 +1,10 @@
 import { Wysiwyg } from "@html_editor/wysiwyg";
-import { destroy, expect, getFixture } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
-import { Component, markup, onWillDestroy, xml } from "@BetopiaERP/owl";
+import { destroy, expect, getFixture } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
+import { Component, markup, onWillDestroy, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { getContent, getSelection, setContent } from "./selection";
-import { Deferred, animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { Deferred, animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { dispatchCleanForSave } from "./dispatch";
 import { fixInvalidHTML } from "@html_editor/utils/sanitize";
 import { toExplicitString } from "@web/../lib/hoot/hoot_utils";
@@ -239,7 +239,7 @@ export async function setupWysiwyg(props = {}) {
     delete props.content;
     const wysiwyg = await mountWithCleanup(Wysiwyg, { props });
     const el = /** @type {HTMLElement} **/ (
-        queryOne(`${props.iframe ? ":iframe " : ""}.BetopiaERP-editor-editable`)
+        queryOne(`${props.iframe ? ":iframe " : ""}.betopiaerp-editor-editable`)
     );
     if (content) {
         // force selection to be put properly
@@ -250,7 +250,7 @@ export async function setupWysiwyg(props = {}) {
 
 export function insertTestHtml(innerHtml) {
     const container = getFixture();
-    container.classList.add("BetopiaERP-editor-editable");
+    container.classList.add("betopiaerp-editor-editable");
     container.setAttribute("contenteditable", "true");
     container.innerHTML = innerHtml;
     return container.childNodes;

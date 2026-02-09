@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { EditInteractionPlugin } from "@website/builder/plugins/edit_interaction_plugin";
 import {
@@ -8,8 +8,8 @@ import {
     setupWebsiteBuilder,
     setupWebsiteBuilderWithSnippet,
 } from "./website_helpers";
-import { waitFor } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { waitFor } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { BuilderAction } from "@html_builder/core/builder_action";
 import { confirmAddSnippet, waitForEndOfOperation } from "@html_builder/../tests/helpers";
 

@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     addOption,

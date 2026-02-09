@@ -19,7 +19,7 @@
 # Tamás Németh <ntomasz81@gmail.com>, 2023
 # Martin Trigaux, 2023
 # Szabolcs Rádi, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 # Nagy Géza <geza.nagy@oregional.hu>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
@@ -29,7 +29,7 @@ msgstr ""
 "POT-Creation-Date: 2026-02-06 18:35+0000\n"
 "PO-Revision-Date: 2026-02-05 00:35+0000\n"
 "Last-Translator: Nagy Géza <geza.nagy@oregional.hu>\n"
-"Language-Team: Hungarian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Language-Team: Hungarian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "account/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -83,13 +83,13 @@ msgstr ""
 "        "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " for '%s'"
 msgstr " mert %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " valid until %s"
 msgstr " %s-ig érvényes"
@@ -116,37 +116,37 @@ msgid "# Vendor Bills"
 msgstr "# Szállítói számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "#Created by: %s"
 msgstr "#Létrehozta: %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "%(action)s for journal %(journal)s"
 msgstr "%(action)s az alábbi naplónál: %(journal)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid "%(amount)s Excl. Taxes"
 msgstr "%(amount)s adó nélkül"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid "%(amount)s Incl. Taxes"
 msgstr "%(amount)s adóval"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(amount)s due %(date)s"
 msgstr "%(amount)s esedékes %(date)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/ir_attachment.py:0
 msgid ""
@@ -157,21 +157,21 @@ msgstr ""
 "(attachment_extension)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "%(auto_post_name)s auto-posting enabled. Next accounting date: %(move_date)s."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 msgstr ""
 "%(exception)s %(user)s felhasználónak %(end_datetime_string)s %(reason)s."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "%(move)s reached an invalid state regarding its related statement line.\n"
@@ -183,25 +183,25 @@ msgstr ""
 "tételsort kell tartalmaznia."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(name)s - Draft at (%(currency_amount)s)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "%(name)s installment #%(number)s"
 msgstr "%(name)s fizetési részlet #%(number)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(name)s%(ref)s at %(currency_amount)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "%(order)s - %(order_line)s; %(quantity_billed)s Billed, %"
@@ -211,7 +211,7 @@ msgstr ""
 "(quantity_received)s megkapva, darabonként %(unit_price)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "%(order)s - %(order_line)s; %(quantity_invoiced)s Invoiced, %"
@@ -221,19 +221,19 @@ msgstr ""
 "(quantity_delivered)s kiszállítva, daraboként %(unit_price)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(partner_name)s has reached its credit limit of: %(credit_limit)s"
 msgstr "%(partner_name)s elérte a hitelkeretét: %(credit_limit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account_tag.py:0
 msgid "%(tag)s (%(country_code)s)"
 msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s (kerekítve)"
@@ -244,13 +244,13 @@ msgid "%<span class=\"px-3\"/>("
 msgstr "%<span class=\"px-3\"/>("
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "%d moves"
 msgstr "%d mozgás "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/account_payment_term.py:0
@@ -260,61 +260,61 @@ msgid "%s (copy)"
 msgstr "%s (másolat)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%s - private part"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "%s - private part (taxes)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid "%s is not a stored field"
 msgstr "%s nem tárolt mező"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "%s taxes"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "%s, or / if not applicable"
 msgstr "%s, vagy / ha nem alkalmazható"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "%s, or not applicable"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "'%(filename)s' (extracted from '%(root_filename)s', type=%(type)s)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "'%(filename)s' (type=%(type)s)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "(*) Goods Delivered not Invoiced (perpetual valuation)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "(*) Goods Invoiced not Delivered (perpetual valuation)"
 msgstr ""
@@ -325,7 +325,7 @@ msgid "(Un)Block Payment"
 msgstr "Fizetés zárolása/feloldása"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "(copy)"
 msgstr "(másolat)"
@@ -347,13 +347,13 @@ msgid ").<br/>"
 msgstr ").<br/>"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 msgid "+ Add Section"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "- %(name)s in %(company)s"
 msgstr "- %(name)s itt:%(company)s"
@@ -411,19 +411,19 @@ msgid ". You might want to put a higher number here."
 msgstr ". Ide érdemes beírni egy magasabb számot."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid "... (%(nb_of_values)s other)"
 msgstr "... (%(nb_of_values)s egyéb)"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.xml:0
 msgid "... (View all)"
 msgstr "... (Összes megtekintése)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "/ if not applicable"
 msgstr "/ ha nem alkalmazható"
@@ -789,7 +789,7 @@ msgid "90 days, on the 10th"
 msgstr "90 nap, 10.-én"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "<b>%(count)s#</b> Installment of <b>%(amount)s</b> due on <b style='color: "
@@ -1885,7 +1885,7 @@ msgid ""
 "                                        <div style=\"text-align: center; "
 "padding-top: 24px;\">\n"
 "                                            <a t-if=\"invoice_count != 1\" t-"
-"attf-href=\"/BetopiaERP/accounting/action-"
+"attf-href=\"/betopiaerp/accounting/action-"
 "account.action_account_moves_email_preview?"
 "active_ids={{ invoice_preview_ids }}\" target=\"_blank\" t-attf-"
 "style=\"padding: 12px 24px; font-size: 14px; font-weight: bold; color: "
@@ -1894,7 +1894,7 @@ msgid ""
 "                                               Consult Invoices\n"
 "                                            </a>\n"
 "                                            <a t-else=\"\" t-attf-href=\"/"
-"BetopiaERP/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
+"betopiaerp/accounting/{{ object.id }}/account.move/{{ invoices.id }}\" "
 "target=\"_blank\" t-attf-style=\"padding: 12px 24px; font-size: 14px; font-"
 "weight: bold; color: #FFFFFF; text-decoration: none !important; background-"
 "color: #008384; border-radius:3px; display: inline-block;\">\n"
@@ -2158,7 +2158,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
 msgstr "@Feladó: %(email)s"
@@ -2191,13 +2191,13 @@ msgstr ""
 "szolgáltatása érdekében ezen álnév új rekordjainak létrehozásakor."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "A bank account can belong to only one journal."
 msgstr "Egy bankszámla csak egy naplóhoz tartozhat."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "A bank account with Account Number %(number)s already exists for Partner %"
@@ -2229,7 +2229,7 @@ msgstr ""
 "                Ezt rendszeresen meg kell kapnia a bankjától."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "A fiscal position with a foreign VAT already exists in this country."
 msgstr ""
@@ -2253,7 +2253,7 @@ msgstr ""
 "                rögzítésére használható."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "A line cannot have both children and a groupby value (line '%s')."
 msgstr ""
@@ -2261,13 +2261,13 @@ msgstr ""
 "'%s')."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "A line of this move is using a archived account, you cannot post it."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 msgstr ""
@@ -2282,7 +2282,7 @@ msgstr ""
 "vonatkozik."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "A payment with an outstanding account cannot be confirmed without having a "
@@ -2311,14 +2311,14 @@ msgid "A section title"
 msgstr "Egy szakasz címe"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "A single exception must change exactly one lock date field."
 msgstr ""
 "Egyetlen kivételnek pontosan egy zárolási dátum mezőt kell módosítania."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "A statement should only contain lines from the same journal."
 msgstr "Egy kimutatás csak ugyanabból a naplóból tartalmazhat sorokat."
@@ -2330,7 +2330,7 @@ msgid ""
 msgstr "Már létezik azonos nevű és alkalmazhatóságú címke ebben az országban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "A temporary number can not be used in a real matching"
 msgstr "Ideiglenes szám nem használható valódi párosításhoz"
@@ -2370,7 +2370,7 @@ msgid "Access warning"
 msgstr "Hozzáférés figyelmeztetés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
@@ -2392,7 +2392,7 @@ msgid "Account"
 msgstr "Főkönyvi számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account %(account)s will be split in %(num_accounts)s, one for each "
@@ -2402,7 +2402,7 @@ msgstr ""
 "mindegyik vállalathoz:\n"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account %s cannot be unmerged as it already belongs to a single company. The "
@@ -2412,7 +2412,7 @@ msgstr ""
 "szétbontási művelet csak a vállalatok alapján oszt fel egy számlát."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Account %s does not allow reconciliation. First change the configuration of "
@@ -2422,14 +2422,14 @@ msgstr ""
 "ehhez a számlához, hogy engedélyezze."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Account %s is of payable type, but is used in a sale operation."
 msgstr ""
 "A számla %s kötelezettség típusú, de egy eladási műveletben van használva."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Account %s is of receivable type, but is used in a purchase operation."
 msgstr ""
@@ -2446,7 +2446,7 @@ msgid "Account Chart Template"
 msgstr "Számlatükör sablon"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_code_mapping.py:0
 msgid ""
 "Account Code Mapping cannot be accessed directly. It is designed to be used "
@@ -2495,7 +2495,7 @@ msgid "Account Groups"
 msgstr "Számlacsoportok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Account Groups with the same granularity can't overlap"
 msgstr "Számla csoportok azonos részletezettséggel nem fedhetik át egymást"
@@ -2694,7 +2694,7 @@ msgid "Account codes first 2 digits"
 msgstr "Számla kód első 2 számjegye"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "Account codes must be unique. You can't create accounts with these duplicate "
@@ -2857,7 +2857,7 @@ msgid "Accounting Firms mode"
 msgstr "Könyvelő cégek mód"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Accounting Periods"
 msgstr "Számviteli időszakok"
@@ -2941,7 +2941,7 @@ msgid "Accounts Receivable (PoS)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Accounts successfully merged!"
 msgstr "A számlák sikeresen egyesítve!"
@@ -2952,13 +2952,13 @@ msgid "Accrual Account"
 msgstr "Elhatárolási számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrual Moves"
 msgstr "Elhatárolási tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid ""
 "Accrual entry created on %(date)s: %(accrual_entry)s.                And its "
@@ -2966,7 +2966,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued %(entry_type)s entry as of %(date)s"
 msgstr "Elhatárolt %(entry_type)s tétel %(date)s időpontban"
@@ -2982,7 +2982,7 @@ msgid "Accrued Orders Wizard"
 msgstr "Elhatárolt megrendelések varázsló"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued total"
 msgstr "Elhatárolt összesen"
@@ -3102,7 +3102,7 @@ msgid "Activity type"
 msgstr "Tevékenységtípus"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Add"
 msgstr "Hozzáadás"
@@ -3127,7 +3127,7 @@ msgstr ""
 "alkalmazásukkal."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a description to your item."
 msgstr "Adjon leírást a tételhez."
@@ -3138,14 +3138,14 @@ msgid "Add a journal"
 msgstr "Napló hozzáadása"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a line"
 msgstr "Új sor"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a line to your invoice"
 msgstr "Sor hozzáadása a számlához"
@@ -3161,7 +3161,7 @@ msgid "Add a new account"
 msgstr "Új számla hozzáadása"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a note"
@@ -3183,7 +3183,7 @@ msgid "Add a section"
 msgstr "Szakasz hozzáadása"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Add a subsection"
 msgstr ""
@@ -3225,13 +3225,13 @@ msgid "Adjusting Entries Count"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entries have been created for this invoice:"
 msgstr "Módosító tételek lettek létrehozva ehhez a számlához:"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry"
 msgstr "Módosító tétel"
@@ -3255,14 +3255,14 @@ msgid "Adjusting Entry Origin Moves Count"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
 msgstr ""
 "Módosító tétel {link} {amount} {percent}%%-a elszámolva {date} időponttól"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 msgstr ""
@@ -3299,7 +3299,7 @@ msgid "Affect Base of Subsequent Taxes"
 msgstr "Utólagos adók alapját befolyásol"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 msgid "After"
@@ -3349,13 +3349,13 @@ msgid "Alias Name"
 msgstr "Álnév elnevezése"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "All"
 msgstr "Összes"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "All accounts on the lines must be of the same type."
 msgstr "A sorokon szereplő összes számlának azonos típusúnak kell lennie."
@@ -3412,7 +3412,7 @@ msgid "All partners"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "All selected moves for reversal must belong to the same company."
 msgstr ""
@@ -3475,7 +3475,7 @@ msgid "Allowed Uom"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.js:0
 msgid "Allows out payments"
 msgstr ""
@@ -3491,7 +3491,7 @@ msgid "Already Paid:"
 msgstr "Már fizetve:"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Already unsubscribed"
 msgstr ""
@@ -3619,7 +3619,7 @@ msgid "Amount total in words"
 msgstr "Teljes összeg szövegesen"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Amount:"
 msgstr "Összeg:"
@@ -3635,13 +3635,13 @@ msgid "Amounts to settle"
 msgstr "Rendezendő összegek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not be reconcilable"
 msgstr "Egy mérlegen kívüli számla nem lehet egyeztethető"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not have taxes"
 msgstr "Egy mérlegen kívüli számlához nem tartozhat adó"
@@ -3676,7 +3676,7 @@ msgstr ""
 "                szerint be kell mutatni számos információt."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected "
@@ -3686,7 +3686,7 @@ msgstr ""
 "a sorszámozásban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "An error occurred when computing the inalterability. All entries have to be "
@@ -3837,7 +3837,7 @@ msgstr ""
 "bejegyzés közzétételekor az adózárási dátum automatikusan beállításra kerül"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Any journal item on a payable account must have a due date and vice versa."
@@ -3846,7 +3846,7 @@ msgstr ""
 "dátummal, és fordítva."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Any journal item on a receivable account must have a due date and vice versa."
@@ -3942,13 +3942,13 @@ msgid "Archived"
 msgstr "Archivált"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/views/account_move_list/account_move_list_controller.js:0
 msgid "Are you sure you want to delete these records?"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Are you sure? This will perform the following operations:\n"
 msgstr "Biztos benne? Ez a következő műveleteket fogja végrehajtani:\n"
@@ -3969,7 +3969,7 @@ msgid "Asset"
 msgstr "Eszköz"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Assets"
@@ -4001,7 +4001,7 @@ msgid "Attachment"
 msgstr "Melléklet"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "Attachment %(filename)s not imported: %(reason)s"
 msgstr ""
@@ -4095,7 +4095,7 @@ msgid "Auto-post until"
 msgstr "Automatikus könyvelés eddig"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Auto-post was disabled on this invoice because a potential duplicate was "
@@ -4122,7 +4122,7 @@ msgid "Automated"
 msgstr "Automatizált"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/company.py:0
 msgid "Automatic Balancing Line"
@@ -4161,7 +4161,7 @@ msgid "Automobile Expenses"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "Autopost Bills"
@@ -4225,7 +4225,7 @@ msgid "BE71096123456769"
 msgstr "BE71096123456769"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "BILL"
 msgstr "SZÁMLA"
@@ -4236,13 +4236,13 @@ msgid "BRT *([\\d,\\.]+)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Bill"
 msgstr "Vissza a számlához"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Invoice"
 msgstr "Vissza a számlához"
@@ -4268,19 +4268,19 @@ msgid "Balance Negate"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Balance Sheet"
 msgstr "Mérleg"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "Balance percentage can't be 0"
 msgstr "A egyenleg százalék nem lehet 0"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_bank_journal_default_account_45
@@ -4305,7 +4305,7 @@ msgid "Bank & Cash"
 msgstr "Bank és készpénz"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Bank & Cash accounts cannot be shared between companies."
 msgstr "A banki és készpénzes számlák nem oszthatók meg a cégek között."
@@ -4317,19 +4317,19 @@ msgid "Bank Account"
 msgstr "Bankszámla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %s created"
 msgstr "Bankszámla %s létrehozva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Bank Account %s updated"
 msgstr "Bankszámla %s frissítve"
@@ -4375,7 +4375,7 @@ msgid "Bank Feeds"
 msgstr "Banki tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_expense_finance
 #: model:account.account,name:account.2_account_account_us_bank_fees
@@ -4447,7 +4447,7 @@ msgid "Bank Suspense"
 msgstr "Banki felfüggesztés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_suspense_account_id
 #: model:account.account,name:account.2_account_journal_suspense_account_id
@@ -4455,7 +4455,7 @@ msgid "Bank Suspense Account"
 msgstr "Banki Felfüggesztett Számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Bank Transaction"
 msgstr "Banki tranzakció"
@@ -4491,7 +4491,7 @@ msgstr "Bank és készpénz"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
-msgid "Bank of BetopiaERP"
+msgid "Bank of betopiaerp"
 msgstr "BetopiaERP Bank"
 
 #. module: account
@@ -4514,13 +4514,13 @@ msgid "Bank transactions and payments:"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Bank: Balance"
 msgstr "Bank: Egyenleg"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.js:0
 msgid "Banks"
 msgstr "Bankok"
@@ -4596,7 +4596,7 @@ msgid "Batch Payments"
 msgstr "Kötegelt fizetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid ""
 "Batch invoice sending is unavailable. Please, activate the cron to enable "
@@ -4604,7 +4604,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid ""
 "Batch invoice sending is unavailable. Please, contact your system "
@@ -4612,7 +4612,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 msgid "Before"
 msgstr "Előtt"
@@ -4623,7 +4623,7 @@ msgid "Before Next Payment Date"
 msgstr "A következő fizetési dátum előtt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Belongs to the same company as %s."
 msgstr "A %s-hez tartozik."
@@ -4631,10 +4631,10 @@ msgstr "A %s-hez tartozik."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr ""
-"Az alábbi szöveg javaslatként szolgál, és nem vonja magára az BetopiaERP S.A. "
+"Az alábbi szöveg javaslatként szolgál, és nem vonja magára az BetopiaERP "
 "felelősségét"
 
 #. module: account
@@ -4643,7 +4643,7 @@ msgid "Bic"
 msgstr "Bic"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_bill_filter
@@ -4669,7 +4669,7 @@ msgid "Bill Reference"
 msgstr "Számla hivatkozás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: model:ir.actions.act_window,name:account.action_move_in_invoice
@@ -4713,7 +4713,7 @@ msgid "Bills to Validate"
 msgstr "Jóváhagyandó számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Bills to pay"
 msgstr "Fizetendő számlák"
@@ -4750,7 +4750,7 @@ msgid "Boolean"
 msgstr "Logikai"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Branch:"
 msgstr ""
@@ -4823,7 +4823,7 @@ msgstr ""
 "adatokat, melyeket nem használ."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "CABA"
 msgstr "CABA"
@@ -4849,7 +4849,7 @@ msgid "COST, INSURANCE AND FREIGHT"
 msgstr "KÖLTSÉG, BIZTOSÍTÁS ÉS FUVARDÍJ"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "CUST"
 msgstr "CUST"
@@ -4875,13 +4875,13 @@ msgid "Can Group Payments"
 msgstr "Csoportos kifizetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Can't disable restricted audit trail: forced by localization."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 #: model_terms:ir.ui.view,arch_db:account.account_merge_wizard_form
@@ -4937,7 +4937,7 @@ msgid "Cancelled Proforma Invoice"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "Cannot change Price Tax computation method on a company that has already "
@@ -4945,20 +4945,20 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Cannot create a purchase document in a non purchase journal"
 msgstr "Nem lehet vásárlási dokumentumot létrehozni nem vásárlási naplóban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Cannot create a sale document in a non sale journal"
 msgstr ""
 "Nem lehet értékesítési dokumentumot létrehozni nem értékesítési naplóban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Cannot create an accrual entry with orders in different currencies."
 msgstr ""
@@ -4966,7 +4966,7 @@ msgstr ""
 "megrendelésekkel."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Cannot find a chart of accounts for this company, You should configure it. \n"
@@ -4976,13 +4976,13 @@ msgstr ""
 "Kérem menjen a Könyvelés beállításához."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Cannot generate an unused account code."
 msgstr "Nem tud létrehozni egy nem használt főkönyvi számla kódot."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Cannot generate an unused journal code. Please change the name for journal "
@@ -4992,7 +4992,7 @@ msgstr ""
 "meg a %s napló nevét."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Cannot get aggregation details from a line not using 'aggregation' engine"
@@ -5001,7 +5001,7 @@ msgstr ""
 "'aggregation' motort használ."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
 msgstr ""
@@ -5028,7 +5028,7 @@ msgid "Carry Over To"
 msgstr "Átvinni ide"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: model:account.account,name:account.1_cash_journal_default_account_161
 #: model:ir.model.fields.selection,name:account.selection__account_journal__type__cash
@@ -5058,7 +5058,7 @@ msgid "Cash Basis"
 msgstr "Készpénz alap"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
 #: model:ir.model.fields,field_description:account.field_account_move__tax_cash_basis_created_move_ids
@@ -5077,7 +5077,7 @@ msgid "Cash Basis Origin"
 msgstr "Készpénzes alapú eredet"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_caba
 #: model:account.journal,name:account.2_caba
@@ -5100,7 +5100,7 @@ msgid "Cash Difference Expense"
 msgstr "Készpénz különbözet költség"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_diff_income
 #: model:account.account,name:account.2_account_account_us_cash_diff_income
@@ -5113,7 +5113,7 @@ msgid "Cash Difference Income"
 msgstr "Készpénz különbözet bevétel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_diff_expense
 #: model:account.account,name:account.2_account_account_us_cash_diff_expense
@@ -5121,7 +5121,7 @@ msgid "Cash Difference Loss"
 msgstr "Készpénz különbözet veszteség"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_discount_gain
 #: model:account.account,name:account.2_account_account_us_cash_discount_gain
@@ -5129,7 +5129,7 @@ msgid "Cash Discount Gain"
 msgstr "Készpénzes kedvezmény nyereség"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_cash_discount_loss
 #: model:account.account,name:account.2_account_account_us_cash_discount_loss
@@ -5191,13 +5191,13 @@ msgid "Cash Statement"
 msgstr "Készpénzjelentés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Cash basis transition account"
 msgstr "Készpénzes alapú átmeneti számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Cash: Balance"
 msgstr ""
@@ -5265,7 +5265,7 @@ msgid "Chart Templates"
 msgstr "Számlatükör sabonok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 #: model:ir.actions.act_window,name:account.action_account_form
 #: model:ir.model.fields,field_description:account.field_account_report__chart_template
@@ -5294,13 +5294,13 @@ msgid "Check"
 msgstr "Ellenőrzés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Check Partner(s) Email(s)"
 msgstr "Ellenőrizze a partner(ek) e-mail(jeit)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Check them"
 msgstr "Ellenőrizd őket"
@@ -5382,13 +5382,13 @@ msgid "Click"
 msgstr "Kattints"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Click here to add a description to your product."
 msgstr "Kattintson ide, hogy leírást adjon a termékéhez."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.xml:0
 msgid "Click or press enter to add a description"
 msgstr "Kattintson vagy nyomja meg az Enter billentyűt a leírás hozzáadásához"
@@ -5698,14 +5698,14 @@ msgid "Configure"
 msgstr "Konfigurálás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 #: model:ir.actions.act_window,name:account.action_base_document_layout_configurator
 msgid "Configure your document layout"
 msgstr "Konfigurálja a dokumentumai elrendezését"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.account_resequence_view
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
@@ -5716,7 +5716,7 @@ msgid "Confirm"
 msgstr "Megerősítés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.actions.server,name:account.action_validate_account_moves
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
@@ -5729,7 +5729,7 @@ msgid "Confirm them now"
 msgstr "Erősítse meg őket most"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 msgid "Confirmation Warning"
 msgstr ""
@@ -5740,7 +5740,7 @@ msgid "Connect your bank. Match invoices automatically."
 msgstr "Csatlakoztassa a bankját. Számlák automatikus párosítása."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying in %(btn_start)sinstallments%(btn_end)s instead."
 msgstr ""
@@ -5748,14 +5748,14 @@ msgstr ""
 "fizetést válassza."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying the %(btn_start)sfull amount%(btn_end)s."
 msgstr ""
 "Fontolja meg, hogy a %(btn_start)s teljes összeget %(btn_end)s fizesse."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "Consider paying the amount with %(btn_start)searly payment discount%"
@@ -5786,7 +5786,7 @@ msgstr ""
 "Tartalmazza a szakasz nevét vagy a hibaüzenetet, a sor típusától függően."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Contains hashed entries, but %s also has hashed entries."
 msgstr ""
@@ -5808,7 +5808,7 @@ msgid "Cool, it looks like you don't have any amount to settle."
 msgstr "Menő, úgy tűnik, hogy nincs kifizetetlen összeged."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
 msgstr ""
@@ -5863,7 +5863,7 @@ msgid "Costs related to promoting the business, such as ads, campaigns, etc"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Could not compute any code for the copy automatically. Please create it "
@@ -5873,7 +5873,7 @@ msgstr ""
 "manuálisan."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "Could not determine carryover target automatically for expression %s."
 msgstr ""
@@ -5881,7 +5881,7 @@ msgstr ""
 "kifejezéshez."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/upload_drop_zone/upload_drop_zone.js:0
 msgid "Could not upload files"
 msgstr "Nem sikerült feltölteni a fájlokat"
@@ -5984,13 +5984,13 @@ msgid "Create a Customer"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_wizard.py:0
 msgid "Create a Mail Template"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create a bill manually"
 msgstr "Készítsen számlát manuálisan"
@@ -6100,19 +6100,19 @@ msgstr ""
 "biztosítva a különböző szabályozásoknak való megfelelést"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create bill manually"
 msgstr "Számla manuális létrehozása"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Create first invoice"
 msgstr "Első számla létrehozása"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Create invoice/bill"
 msgstr "Számla létrehozás"
@@ -6128,7 +6128,7 @@ msgstr ""
 "nyomon a vevőkkel folytatott megbeszéléseket."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Create manually"
 msgstr "Kézi létrehozás"
@@ -6144,7 +6144,7 @@ msgid "Create the first cash rounding"
 msgstr "Az első készpénzkerekítés létrehozása"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Create the product."
 msgstr "Hozza létre a terméket"
@@ -6264,7 +6264,7 @@ msgid "Created on"
 msgstr "Létrehozva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__credit
@@ -6279,7 +6279,7 @@ msgid "Credit Amount Currency"
 msgstr "Hitelösszeg pénznem"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: model:account.account,name:account.1_credit_card
 #: model:account.account,name:account.2_account_account_us_credit_card
@@ -6289,7 +6289,7 @@ msgid "Credit Card"
 msgstr "Hitel kártya"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Credit Card: Balance"
 msgstr ""
@@ -6311,7 +6311,7 @@ msgid "Credit Move"
 msgstr "Credit Move"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_payment__reconciled_invoices_type__credit_note
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -6321,7 +6321,7 @@ msgid "Credit Note"
 msgstr "Jóváírás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Credit Note Created"
 msgstr "Hiteljegy létrehozva"
@@ -6442,13 +6442,13 @@ msgid "Currency Translation"
 msgstr "Valuta átváltás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Currency exchange rate difference"
 msgstr "Deviza árfolyam különbség"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Currency must always be provided in order to generate a QR-code"
 msgstr "A pénznak mindig meg kell adni a QR-kód generálásához"
@@ -6553,7 +6553,7 @@ msgid "Customer Invoice"
 msgstr "Vevői számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: model:ir.model.fields.selection,name:account.selection__res_company__quick_edit_mode__out_invoices
@@ -6654,13 +6654,13 @@ msgid "Cut-Off"
 msgstr "Cut-Off"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Cut-off {label}"
 msgstr "Cut-off {label}"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Cut-off {label} {percent}%"
 msgstr "Cut-off {label} {percent}%"
@@ -6702,8 +6702,8 @@ msgid "Data consistency check"
 msgstr "Adatkonzisztencia ellenőrzés"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: code:addons/account/static/src/components/account_resequence/account_resequence.xml:0
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__date
@@ -6765,7 +6765,7 @@ msgstr ""
 "tétel dátuma"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Date:"
 msgstr "Dátum:"
@@ -6818,7 +6818,7 @@ msgid "Days on the next month"
 msgstr "A következő hónap napjai"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__debit
@@ -7011,7 +7011,7 @@ msgid "Default taxes used when selling the product"
 msgstr "Alapértelmezett adók, amelyeket a termék értékesítésekor használnak"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Default value for 'company_id' for %(record)s is not an integer"
 msgstr ""
@@ -7023,7 +7023,7 @@ msgid "Deferred Revenue"
 msgstr "Halasztott bevétel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Define a default in the settings"
 msgstr ""
@@ -7084,7 +7084,7 @@ msgid "Delay Type"
 msgstr "Késleltetés típusa"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Delete"
 msgstr "Törlés"
@@ -7123,13 +7123,13 @@ msgid "Demo Stock Account"
 msgstr "Demo részvényfiók"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Deprecated"
 msgstr "Elavult"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Deprecated link"
 msgstr ""
@@ -7159,7 +7159,7 @@ msgid "Description on the Invoice"
 msgstr "Leírás a számlán"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields,field_description:account.field_account_payment__destination_account_id
 msgid "Destination Account"
@@ -7248,7 +7248,7 @@ msgid "Discard"
 msgstr "Elvetés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__discount
 msgid "Discount"
@@ -7311,13 +7311,13 @@ msgid "Discount amount in Currency"
 msgstr "Kedvezmény összege pénznemben"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Discount of %(amount)s if paid today"
 msgstr "Kedvezmény %(amount)s, ha ma kifizetik"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Discount of %(amount)s if paid within %(days)s days"
 msgstr "Kedvezmény %(amount)s, ha %(days)s napon belül kifizetik"
@@ -7596,7 +7596,7 @@ msgid "Dividends"
 msgstr "Osztalékok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr "Nincs hozzáférés, adat kihagyása a felhasználó kivonat emailjéből"
@@ -7668,26 +7668,26 @@ msgid "Draft"
 msgstr "Piszkozat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft (%(currency_amount)s)"
 msgstr "Draft (%(currency_amount)s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Bill"
 msgstr "Számla tervezet"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Draft Credit Note"
 msgstr "Tervezet Hiteljegy"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_show_draft
@@ -7695,14 +7695,14 @@ msgid "Draft Entries"
 msgstr "Tervezet bejegyzések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_move_line.py:0
 msgid "Draft Entry"
 msgstr "Tervezet bejegyzés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -7715,7 +7715,7 @@ msgid "Draft Invoices"
 msgstr "Piszkozat számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Draft Payment"
 msgstr "Piszkozat fizetés"
@@ -7731,32 +7731,32 @@ msgid "Draft Proforma Invoice"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Purchase Receipt"
 msgstr "Vásárlási nyugta tervezet"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Sales Receipt"
 msgstr "Tervezet értékesítési nyugta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Draft Vendor Credit Note"
 msgstr "Tervezet Szállító Hiteljegy"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Drag & drop"
 msgstr "Húzd és ejtsd"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/static/src/views/file_upload_kanban/file_upload_kanban_renderer.js:0
 #: code:addons/account/static/src/views/file_upload_list/file_upload_list_renderer.js:0
@@ -7764,25 +7764,25 @@ msgid "Drop and let the AI process your bills automatically."
 msgstr "Húzza be és hagyja, hogy az AI automatikusan feldolgozza a számláit."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to create journal entries with attachments."
 msgstr "Húzza ide a naplóbejegyzések létrehozásához mellékletekkel."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to import transactions"
 msgstr "Húzza ide a tranzakciók importálásához"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to import your invoices."
 msgstr "Húzza ide a számlák importálásához."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__value_amount
 msgid "Due"
@@ -7794,7 +7794,7 @@ msgid "Due Amount for"
 msgstr "Esedékes összeg a(z)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__invoice_date_due
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__invoice_date_due
@@ -7819,7 +7819,7 @@ msgid "Dues & Subscriptions"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Duplicate"
 msgstr "Duplikálás"
@@ -7890,7 +7890,7 @@ msgid "EX WORKS"
 msgstr "EX WORKS"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "EXCH"
 msgstr "ÁRF"
@@ -7912,21 +7912,21 @@ msgid "Early Discount Loss"
 msgstr "Korai Kedvezmény Veszteség"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__epd
 msgid "Early Payment Discount"
 msgstr "Korai Fizetési Kedvezmény"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_move_line.py:0
 msgid "Early Payment Discount (%s)"
 msgstr "Korai Fizetési Kedvezmény (%s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Early Payment Discount (Exchange Difference)"
 msgstr "Korai Fizetési Kedvezmény (Árfolyam Különbség)"
@@ -7947,7 +7947,7 @@ msgid "Early Payment Discount of"
 msgstr "Korai Fizetési Kedvezmény a"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "Early Payment Discount: <b>%(amount)s</b> if paid before <b>%(date)s</b>"
@@ -8009,15 +8009,15 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Email bills"
 msgstr "Email számlák"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Email domain pl. 'example.com' az 'BetopiaERP@example.com'-ban"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Email domain pl. 'example.com' az 'betopiaerp@example.com'-ban"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -8111,7 +8111,7 @@ msgid "Ending Balance"
 msgstr "Záró egyenleg"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.xml:0
 msgid "Enter a description"
@@ -8129,25 +8129,25 @@ msgid "Entries Count"
 msgstr "Bejegyzések száma"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Entries are correctly hashed"
 msgstr "A bejegyzések helyesen vannak hash-elve."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries are not from the same account: %s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Entries can only be created for a single company at a time."
 msgstr "Bejegyzések csak egyetlen cég számára hozhatók létre egyszerre."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries don't belong to the same company: %s"
 msgstr ""
@@ -8167,7 +8167,7 @@ msgid "Entries to Review"
 msgstr "Ellenőrizendő napló tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_line.py:0
 msgid "Entries: %(account)s"
 msgstr ""
@@ -8203,7 +8203,7 @@ msgid "Equipment, machinery and tools directly related to your business"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__equity
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__equity
@@ -8212,13 +8212,13 @@ msgid "Equity"
 msgstr "Saját tőke"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "Error importing attachment %(filename)s:"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 msgid ""
 "Error while creating XML:\n"
@@ -8226,7 +8226,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid ""
 "Error while loading the localization: missing tax tag %(tag_name)s for "
@@ -8235,7 +8235,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid "Error!"
 msgstr "Hiba!"
@@ -8251,7 +8251,7 @@ msgid "European Union VAT"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Even magicians can't post nothing!"
 msgstr ""
@@ -8282,14 +8282,14 @@ msgid "Example:"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "Exception"
 msgstr "Kivétel"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:account.journal,name:account.1_exch
@@ -8340,8 +8340,8 @@ msgid "Expects a Chart of Accounts"
 msgstr "Várható számlatükör"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__expense
@@ -8394,7 +8394,7 @@ msgid "Expired"
 msgstr "Lejárt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Export ZIP"
 msgstr ""
@@ -8462,7 +8462,7 @@ msgid "FREE ON BOARD"
 msgstr "INGYENES A HÁLÓZATON"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Factor Percent"
 msgstr "Faktor Százalék"
@@ -8491,7 +8491,7 @@ msgstr ""
 "számlamozgás sorokra, százalékban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "False"
 msgstr "Hamis"
@@ -8522,7 +8522,7 @@ msgid "Federal States"
 msgstr "Szövetségi Államok"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/fetch_einvoices/fetch_einvoices_cog.js:0
 msgid "Fetch e-Invoices"
 msgstr ""
@@ -8544,19 +8544,19 @@ msgid "Figure Type"
 msgstr "Ábra típusa"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Fill in the details of the product or see the suggestion."
 msgstr "Töltse ki a termék részleteit, vagy nézze meg a javaslatot"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 msgid "Filter"
 msgstr "Szűrő"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_root.py:0
 msgid "Filter on the Account or its Display Name instead"
 msgstr "Szűrjön a Fiók vagy annak Megjelenítési Neve alapján helyette"
@@ -8833,7 +8833,7 @@ msgid "For percent enter a ratio between 0-100."
 msgstr "A százalékhoz adjon meg egy 0-100 közti arányszám értéket."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "For this entry to be automatically posted, it required a bill date."
 msgstr ""
@@ -8914,25 +8914,25 @@ msgid "Foreign Vat Header Mode"
 msgstr "Külföldi áfa fejléc mód"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account (%s)"
 msgstr "Külföldi adószámla (%s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account advance payment (%s)"
 msgstr "Külföldi adószámla előlegfizetés (%s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account payable (%s)"
 msgstr "Külföldi adókövetelés (%s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account receivable (%s)"
 msgstr "Külföldi adó követelés (%s)"
@@ -9057,7 +9057,7 @@ msgid "Full Reconcile"
 msgstr "Teljes párosítás"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__BetopiaERP
+#: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__betopiaerp
 msgid "Full Reference (INV/2024/00001)"
 msgstr ""
 
@@ -9114,19 +9114,19 @@ msgid "Generate"
 msgstr "Generálás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Generated Documents"
 msgstr "Generált dokumentumok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Generated Entries"
 msgstr "Generált bejegyzések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/template_generic_coa.py:0
 msgid "Generic Chart of Accounts"
 msgstr ""
@@ -9154,13 +9154,13 @@ msgid "Global Lock Date"
 msgstr "Globális zárolási dátum"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Go to cron configuration"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/company.py:0
 msgid "Go to the configuration panel"
@@ -9203,7 +9203,7 @@ msgid "Group Payments"
 msgstr "Csoportos kifizetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Group Payments Number Sequence"
 msgstr ""
@@ -9236,7 +9236,7 @@ msgstr ""
 "megkönnyítése érdekében"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Groupby feature isn't supported by '%(engine)s' engine. Please remove the "
@@ -9372,7 +9372,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__collapse_composition
 msgid "Hide Composition"
@@ -9385,7 +9385,7 @@ msgid "Hide Post Button"
 msgstr "Rejtett bejegyzés gomb"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 #: model:ir.model.fields,field_description:account.field_account_move_line__collapse_prices
 msgid "Hide Prices"
@@ -9549,7 +9549,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "INV"
 msgstr "SZMLA"
@@ -9794,7 +9794,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "If you want to use \"Off-Balance Sheet\" accounts, all the accounts of the "
@@ -9846,43 +9846,43 @@ msgid "Import Fees"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Bills"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Import Template for Chart of Accounts"
 msgstr "Importálási sablon a főkönyvi számlákhoz"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Credit Notes"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Invoices"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Import Template for Journal Items"
 msgstr "Importálási sablon naplóelemekhez"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Misc. Operations"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Import Template for Refunds"
 msgstr ""
@@ -9937,7 +9937,7 @@ msgid "In payment"
 msgstr "A kifizetés során"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "In report '%(report_name)s', on line '%(line_name)s', with label '%"
@@ -9946,7 +9946,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "In report '%(report_name)s', on line '%(line_name)s', with label '%"
@@ -9999,7 +9999,7 @@ msgid "Included in Price"
 msgstr "Az ár tartalmazza"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__income
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__income
@@ -10032,7 +10032,7 @@ msgid "Incoming Payments"
 msgstr "Bejövő kifizetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/setup_wizards.py:0
 msgid ""
 "Incorrect fiscal year date: day is out of range for month. Month: %(month)s; "
@@ -10092,7 +10092,7 @@ msgid "Indicates that this journal item is a tax line"
 msgstr "Jelzi, hogy ez a naplóelem egy adósor"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__info
 msgid "Info"
@@ -10195,7 +10195,7 @@ msgid "Internal Transfer"
 msgstr "Belső átmozgatás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.reconcile.model,name:account.1_internal_transfer_reco
 #: model:account.reconcile.model,name:account.2_internal_transfer_reco
@@ -10249,7 +10249,7 @@ msgstr ""
 "számára"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 msgid "Internal link"
 msgstr "Belső hivatkozás"
@@ -10278,7 +10278,7 @@ msgid "Invalid"
 msgstr "Érvénytelen"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "Invalid \"Zip Range\", You have to configure both \"From\" and \"To\" values "
@@ -10294,20 +10294,20 @@ msgid "Invalid Statement(s)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Invalid fiscal year last day"
 msgstr "Érvénytelen pénzügyi év utolsó napja"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Invalid formula for expression '%(label)s' of line '%(line)s': %(formula)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Invalid token"
 msgstr ""
@@ -10330,8 +10330,8 @@ msgid "Investing & Extraordinary Activities"
 msgstr "Befektetés és rendkívüli tevékenységek"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model:ir.model.fields.selection,name:account.selection__account_analytic_applicability__business_domain__invoice
@@ -10360,7 +10360,7 @@ msgid "Invoice Count"
 msgstr "Számlák száma"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:mail.message.subtype,description:account.mt_invoice_created
 #: model:mail.message.subtype,name:account.mt_invoice_created
@@ -10485,7 +10485,7 @@ msgid "Invoice Totals"
 msgstr "Számla összesítők"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should each contain exactly one line "
@@ -10495,7 +10495,7 @@ msgstr ""
 "tartalmaznia az alapra vonatkozóan."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have a total factor (+) equals "
@@ -10505,7 +10505,7 @@ msgstr ""
 "nak kell lennie"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have a total factor (-) equals "
@@ -10515,7 +10515,7 @@ msgstr ""
 "nak kell lennie"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should have the same number of lines."
@@ -10524,7 +10524,7 @@ msgstr ""
 "rendelkeznie"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note distribution should match (same percentages, in the "
@@ -10534,7 +10534,7 @@ msgstr ""
 "százalékok, ugyanabban a sorrendben)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Invoice and credit note repartition should have at least one tax repartition "
@@ -10597,7 +10597,7 @@ msgid "Invoiced"
 msgstr "Számlázva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.actions.act_window,name:account.action_move_out_invoice
@@ -10639,13 +10639,13 @@ msgid "Invoices Statistics"
 msgstr "Számla statisztikák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Invoices are being sent in the background."
 msgstr "A számlák a háttérben kerülnek elküldésre"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices in error"
 msgstr "Hibás számlák"
@@ -10656,19 +10656,19 @@ msgid "Invoices late"
 msgstr "Késlekedő számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Invoices owed to you"
 msgstr "Számlák melyekkel tartoznak"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices sent"
 msgstr "Küldött számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Invoices sent successfully."
 msgstr "Sikeresen elküldött számlák."
@@ -10691,7 +10691,7 @@ msgid "Invoices, payments and basic invoice reporting."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "Invoices/Bills/Mandates"
 msgstr ""
@@ -10720,7 +10720,7 @@ msgid "Irregular Sequences"
 msgstr "Szabálytalan sorozatok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "Irregularities due to draft, cancelled or deleted bills with a sequence "
@@ -10730,7 +10730,7 @@ msgstr ""
 "sorszámmal rendelkeznek az utolsó zárolási dátum óta."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "Irregularities due to draft, cancelled or deleted invoices with a sequence "
@@ -10900,13 +10900,13 @@ msgid "It looks like you've successfully validated the last"
 msgstr "Úgy tűnik, hogy sikeresen érvényesítetted az utolsót"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "It was previously '%(previous)s' and it is now '%(current)s'."
 msgstr "Korábban '%(previous)s' volt, most pedig '%(current)s'."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Items With Missing Analytic Distribution"
 msgstr ""
@@ -10958,7 +10958,7 @@ msgid "Journal Currency"
 msgstr "Journal valuta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.actions.act_window,name:account.action_account_moves_email_preview
@@ -10977,13 +10977,13 @@ msgid "Journal Entries by Date"
 msgstr "Naplóbejegyzések dátum szerint"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Journal Entries to Hash"
 msgstr "Naplóbejegyzések a Hash-hoz"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.model,name:account.model_account_move
@@ -11004,7 +11004,7 @@ msgid "Journal Entry"
 msgstr "Könyvelési tétel"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: code:addons/account/static/src/components/account_payment_field/account_payment_field.js:0
 msgid "Journal Entry Info"
@@ -11020,19 +11020,19 @@ msgid "Journal Item"
 msgstr "Könyvelési tétel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s created"
 msgstr "Journal Item %s létrehozva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s deleted"
 msgstr "Journal Item %s törölve"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Journal Item %s updated"
 msgstr "Journal Item %s frissítve"
@@ -11043,7 +11043,7 @@ msgid "Journal Item Label"
 msgstr "Könyvelési tételsor felirat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 #: model:ir.actions.act_window,name:account.action_account_moves_all
 #: model:ir.actions.act_window,name:account.action_account_moves_all_a
@@ -11107,7 +11107,7 @@ msgstr ""
 "fennmaradó összegtől"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Journal should be the same type as the reversed entry."
 msgstr ""
@@ -11134,7 +11134,7 @@ msgid "Journal where to create the entry."
 msgstr "Napló, ahol létrehozhatja a bejegyzést."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Journal:"
 msgstr ""
@@ -11219,7 +11219,7 @@ msgid "Kpi Account Total Revenue Value"
 msgstr "Kpi account total revenue value"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__payment_ref
@@ -11469,7 +11469,7 @@ msgid "Legal mentions that have to be printed on the invoices."
 msgstr "Számviteli megjegyzések mejeket a számlára kell nyomtatni."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Less Payment"
 msgstr "Befizetésekkel csökkentet"
@@ -11487,7 +11487,7 @@ msgid "Let your customers pay their invoices online"
 msgstr "Hagyd, hogy az ügyfeleid online fizesseki be a számláikat"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Let's send the invoice."
 msgstr "Küldjük el a számlát"
@@ -11503,7 +11503,7 @@ msgid "Level"
 msgstr "Szint"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Liabilities"
 msgstr "Kötelezettségek"
@@ -11530,7 +11530,7 @@ msgid "Line"
 msgstr "Sor"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Line \"%(line)s\" defines line \"%(parent_line)s\" as its parent, but "
@@ -11540,7 +11540,7 @@ msgstr ""
 "jelentésben előbb szerepel. A szülőnek mindig előbb kell jönnie."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "Line \"%s\" defines itself as its parent."
 msgstr "A \"%s\" sor saját magát határozza meg, mint szülőt."
@@ -11557,7 +11557,7 @@ msgid "Lines"
 msgstr "Sorok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Lines from \"Off-Balance Sheet\" accounts cannot be reconciled"
 msgstr "A \"mérlegfőösszegen kívüli\" számlák sora nem egyeztethető össze"
@@ -11568,7 +11568,7 @@ msgid "Liquidity"
 msgstr "Likviditási"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_transfer_account_id
 msgid "Liquidity Transfer"
@@ -11607,7 +11607,7 @@ msgid "Lock"
 msgstr "Zárolás"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "Lock Date Exception %s"
 msgstr "Lock Date Exception %s"
@@ -11667,7 +11667,7 @@ msgid "Loss Exchange Rate Account"
 msgstr "Árfolyamveszteség számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "MISC"
 msgstr "Különb."
@@ -11749,7 +11749,7 @@ msgid "Manual Payment"
 msgstr "Kézi fizetés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Manual entry"
 msgstr "Kézi bevitel"
@@ -11814,7 +11814,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Manually"
 msgstr "Kézzel"
@@ -11897,7 +11897,7 @@ msgid "Matched Payments"
 msgstr "Megfelelő kifizetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Matched Transactions"
 msgstr "Megfelelő tranzakciók"
@@ -11958,7 +11958,7 @@ msgid "Memo"
 msgstr "Emlékeztető"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "Memo:"
@@ -11970,7 +11970,7 @@ msgid "Merge"
 msgstr "Egyesítés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Merge Accounts"
 msgstr "Fiókok egyesítése"
@@ -12058,7 +12058,7 @@ msgid "Miscellaneous Fixed Assets"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_general
@@ -12067,7 +12067,7 @@ msgid "Miscellaneous Operations"
 msgstr "Egyéb műveletek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_validate_account_move.py:0
 msgid "Missing 'active_model' in context."
 msgstr "Hiányzik az 'active_model' a kontextusból"
@@ -12088,7 +12088,7 @@ msgstr ""
 "helyre feltöltse."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 msgid "Missing foreign currencies on partials having ids: %s"
 msgstr ""
@@ -12146,7 +12146,7 @@ msgid "Monthly"
 msgstr "Havi"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/open_decimal_precision_btn_template.xml:0
 msgid "More precision on Product Prices"
 msgstr ""
@@ -12167,7 +12167,7 @@ msgid "Move Data"
 msgstr "Adatok áthelyezése"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Move Down"
 msgstr ""
@@ -12189,7 +12189,7 @@ msgid "Move Type"
 msgstr "Mozgás típusa"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Move Up"
 msgstr ""
@@ -12320,7 +12320,7 @@ msgid "Negative value of amount field if payment_type is outbound"
 msgstr "Negatív érték az összeg mezőben, ha a payment_type kimenő"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Nested group of taxes are not allowed."
 msgstr "A beágyazott adócsoportok nem megengedettek"
@@ -12346,7 +12346,7 @@ msgid "Never for this vendor"
 msgstr "Soha nem ennek a szolgáltatónak"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "New"
@@ -12463,13 +12463,13 @@ msgid "No Follow-Up"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "No Payment Method"
 msgstr "Nincs fizetési mód"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product_catalog_mixin.py:0
 msgid "No Section"
 msgstr ""
@@ -12480,13 +12480,13 @@ msgid "No Template"
 msgstr "Nincs sablon"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "No attachment was provided"
 msgstr "Nem volt csatolmány megadva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "No journal could be found in company %(company_name)s for any of those "
@@ -12499,7 +12499,7 @@ msgid "No journal entries selected"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "No original purchase document could be found for any of the selected "
@@ -12509,7 +12509,7 @@ msgstr ""
 "dokumentumok közül."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "No outstanding account could be found to make the payment"
 msgstr "Nem található kifizetéshez kapcsolódó lejárt számla"
@@ -12520,7 +12520,7 @@ msgid "No payment journal entries"
 msgstr "Nincs kifizetési naplóbejegyzés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "No possible action found with the selected lines."
 msgstr "Nem található lehetséges művelet a kiválasztott sorokkal."
@@ -12574,13 +12574,13 @@ msgid "Non-current assets"
 msgstr "Nem forgóeszközök"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Non-trade %s"
 msgstr "Nem kereskedelmi %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_tax__type_tax_use__none
 msgid "None"
@@ -12597,7 +12597,7 @@ msgid "Not Contains"
 msgstr "Nem tartalmazza"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Not Due"
 msgstr "Nem esedékes"
@@ -12680,7 +12680,7 @@ msgid "November"
 msgstr "November"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Now, we'll create your first invoice"
 msgstr "Most létrehozzuk az első számládat"
@@ -12896,7 +12896,7 @@ msgid "Onboarding Step"
 msgstr "Beléptetési lépés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Once a document has been posted once, its type is set in stone and you can't "
@@ -12904,7 +12904,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid ""
 "Once everything is set, you are good to continue. You will be able to edit "
@@ -12924,19 +12924,19 @@ msgstr ""
 "Számviteli irányítópulton."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Once your invoice is ready, confirm it."
 msgstr "Miután a számlája elkészült, erősítse meg azt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "One or more invoices couldn't be processed."
 msgstr "Egy vagy több számlát nem sikerült feldolgozni"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "One or more lines require a 100% analytic distribution."
 msgstr ""
@@ -12952,7 +12952,7 @@ msgid "Only Tax Exigible Lines"
 msgstr "Csak az adókötelezett sorok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "Only a report without a root report of its own can be selected as root "
@@ -12962,19 +12962,19 @@ msgstr ""
 "gyökérjelentése."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid "Only administrators can install chart templates"
 msgstr "Csak az adminisztrátorok telepíthetnek diagram sablonokat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Only draft journal entries can be cancelled."
 msgstr "Csak a tervezet naplóbejegyzések törölhetők."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid "Only invoices could be printed."
 msgstr "Csak a számlák nyomtathatók."
@@ -12987,7 +12987,7 @@ msgstr ""
 "Csak egy kifizetés jön létre a partnertől (bank), számlánként egy helyett."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Only posted/cancelled journal entries can be reset to draft."
 msgstr ""
@@ -12995,19 +12995,19 @@ msgstr ""
 "állapotba"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Only vendor bills allow for deductibility of product/services."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/terms.py:0
 msgid "Oops"
 msgstr "Hoppá"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "Oops! You can only change the period or account for items that are not yet "
@@ -13015,7 +13015,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "Oops! You can only change the period or account for posted entries! Other "
@@ -13023,7 +13023,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__state__posted
 msgid "Open"
@@ -13065,7 +13065,7 @@ msgid "Opening Journal"
 msgstr "Nyitó napló"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
 msgid "Opening Journal Entry"
@@ -13077,7 +13077,7 @@ msgid "Opening Move Posted"
 msgstr "Nyitó lépés közzétéve"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Opening balance"
 msgstr "Nyitó egyenleg"
@@ -13182,7 +13182,7 @@ msgid "Originator tax group"
 msgstr "Eredeti adócsoport"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Other"
 msgstr "Egyéb"
@@ -13257,7 +13257,7 @@ msgid "Outstanding Account"
 msgstr "Kiemelkedő számla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_payment_credit_account_id
 #: model:account.account,name:account.2_account_journal_payment_credit_account_id
@@ -13270,7 +13270,7 @@ msgid "Outstanding Payments accounts"
 msgstr "Kiemelkedő kifizetések számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.account,name:account.1_account_journal_payment_debit_account_id
 #: model:account.account,name:account.2_account_journal_payment_debit_account_id
@@ -13283,13 +13283,13 @@ msgid "Outstanding Receipts accounts"
 msgstr "Kiemelkedő bevételek számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Outstanding credits"
 msgstr "Fennálló jóváírások"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Outstanding debits"
 msgstr "Beszállítók felé fennmaradt tartozások"
@@ -13307,7 +13307,7 @@ msgid "Overdue Amount"
 msgstr "Elmaradt összeg"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "Overdue invoices"
 msgstr "Késedelmes számlák"
@@ -13402,19 +13402,19 @@ msgid "Paid"
 msgstr "Kifizetve"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Paid Bills"
 msgstr "Fizetett számlák"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Paid Invoices"
 msgstr "Fizetett számlák"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Paid on"
@@ -13469,7 +13469,7 @@ msgid "Partially Paid"
 msgstr "Részben kifizetve"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__partner_id
 #: model:ir.model.fields,field_description:account.field_account_autopost_bills_wizard__partner_id
@@ -13543,7 +13543,7 @@ msgid "Partner Vat Placeholder"
 msgstr "Partner Vat Placeholder"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Partner(s) should have an email address."
 msgstr "A partner(ek)nek rendelkeznie kell egy e-mail címmel"
@@ -13561,7 +13561,7 @@ msgid "Partners Missing a bank account"
 msgstr "Partners hiányzó bankszámla"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "Partners that are used in hashed entries cannot be merged."
 msgstr "A hashelt bejegyzésekben használt partnerek nem egyesíthetők."
@@ -13573,7 +13573,7 @@ msgid "Partners with same bank"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
 #: model:ir.model,name:account.model_account_payment_register
@@ -13604,7 +13604,7 @@ msgid "Payable and receivable"
 msgstr "Fizetendő és követelendő"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__origin_payment_id
@@ -13710,7 +13710,7 @@ msgid "Payment QR-code"
 msgstr "Fizetési QR-kód"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 #: model:ir.actions.report,name:account.action_report_payment_receipt
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
@@ -13849,7 +13849,7 @@ msgid "Payment: Payment Receipt"
 msgstr "Fizetés: Fizetési nyugta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_payment_register.py:0
 #: model:ir.actions.act_window,name:account.action_account_all_payments
@@ -13923,7 +13923,7 @@ msgid "Percentage Tax Included"
 msgstr "Áfa tartalmazva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Percentage must be between 0 and 100"
 msgstr "A százaléknak 0 és 100 között kell lennie"
@@ -13944,7 +13944,7 @@ msgid "Percentage of statement line"
 msgstr "A kimutatás sorának százaléka"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "Percentages on the Payment Terms lines must be between 0 and 100."
 msgstr ""
@@ -13977,13 +13977,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
 msgid "Pick the rate on a certain date"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Please contact your accountant to print the Hash integrity result."
 msgstr ""
@@ -13991,19 +13991,19 @@ msgstr ""
 "kinyomtatásához."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Please create new accounts from the Chart of Accounts menu."
 msgstr "Kérjük, hozzon létre új fiókokat a Számlakeret menüből."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid "Please define a payment method line on your payment."
 msgstr "Kérjük, határozzon meg egy fizetési módot a fizetésén."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
@@ -14013,7 +14013,7 @@ msgstr ""
 "folytatás előtt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_cash_rounding.py:0
 msgid "Please set a strictly positive rounding value."
 msgstr "Kérjük, állítson be egy szigorúan pozitív kerekítési értéket"
@@ -14224,7 +14224,7 @@ msgid "Prices"
 msgstr "Árak"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_move_form/account_move_form.js:0
 #: code:addons/account/static/src/views/account_move_list/account_move_list_controller.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -14357,7 +14357,7 @@ msgid "Professional Liability Insurance"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Profit & Loss"
 msgstr "Profit és veszteség"
@@ -14446,7 +14446,7 @@ msgid "Purchase Receipt"
 msgstr "Beszerzési nyugta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Purchase Receipt Created"
 msgstr "Beszerzési nyugta létrehozva"
@@ -14479,7 +14479,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_purchase
 #: model:account.journal,name:account.2_purchase
@@ -14557,7 +14557,7 @@ msgid "Quick encoding"
 msgstr "Gyors kódolás"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2x_tax_tags/many2x_tax_tags.js:0
 msgid "Quick search: %s"
 msgstr ""
@@ -14602,7 +14602,7 @@ msgid "Reason displayed on Credit Note"
 msgstr "Az ok, amely a jóváíró számlán megjelenik"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/receipt_selector/receipt_selector.js:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_bill_filter
 msgid "Receipt"
@@ -14659,7 +14659,7 @@ msgid "Recompute all taxes and accounts based on this fiscal position"
 msgstr "Számolja újra az összes adót és számlát ezen pénzügyi helyzet alapján"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Reconcilable"
 msgstr "Összeegyeztethető"
@@ -14727,13 +14727,13 @@ msgid "Record a new vendor bill"
 msgstr "Új beszállítói számla rögzítése"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.js:0
 msgid "Records"
 msgstr "Bejegyzések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Recursion found for tax “%s”."
 msgstr "Recursion found for tax “%s”"
@@ -14749,7 +14749,7 @@ msgid "Ref."
 msgstr "Hiv."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__name
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__ref
@@ -14768,7 +14768,7 @@ msgstr ""
 "fájl név, stb."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/fetch_einvoices/fetch_einvoices_cog.js:0
 msgid "Refresh e-Invoices Status"
 msgstr ""
@@ -14780,7 +14780,7 @@ msgid "Refund"
 msgstr "Visszatérítés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Refund Created"
 msgstr "Visszatérítés létrehozva"
@@ -14873,13 +14873,13 @@ msgid "Remake the sequence of Journal Entries."
 msgstr "Készítse el újra a naplóbejegyzések sorrendjét"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Remove empty lines"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Removed"
 msgstr "Eltávolítotva"
@@ -15020,7 +15020,7 @@ msgid "Residual Amount in Currency"
 msgstr "A pénznemben visszamaradt összeg"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Residual amount"
 msgstr "Maradvány összeg"
@@ -15070,7 +15070,7 @@ msgid "Retirement plans costs (401K match)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 #: model:account.group,name:account.2_us_group_4
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue
@@ -15106,7 +15106,7 @@ msgid "Reversal date"
 msgstr "Visszafordított dátum"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Reversal date must be posterior to date."
 msgstr "A visszafordítás dátumának későbbinek kell lennie, mint a dátum."
@@ -15118,13 +15118,13 @@ msgid "Reversal of"
 msgstr "Reverzálása"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Reversal of: %(move_name)s, %(reason)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 #: code:addons/account/wizard/account_move_reversal.py:0
 #: code:addons/account/wizard/accrued_orders.py:0
@@ -15148,7 +15148,7 @@ msgid "Reverse Journal Entry"
 msgstr "Fordított naplóbejegyzés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "Reverse Moves"
 msgstr "Visszafordított mozgások bizonylatai"
@@ -15168,7 +15168,7 @@ msgid "Reversed"
 msgstr "Megfordított"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Reversed on"
@@ -15191,14 +15191,14 @@ msgid "Review Chart of Accounts"
 msgstr "Számlák áttekintése"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 #: model:ir.actions.server,name:account.accountant_confirm_entries_action
 msgid "Review Entries"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Review Statements"
 msgstr ""
@@ -15247,7 +15247,7 @@ msgid "Round per Tax"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tax_totals/tax_totals.xml:0
 #: model:ir.model.fields.selection,name:account.selection__account_move_line__display_type__rounding
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
@@ -15351,7 +15351,7 @@ msgid "Sale Receipt"
 msgstr "Értékesítési nyugta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 #: model:account.journal,name:account.1_sale
 #: model:account.journal,name:account.2_sale
@@ -15388,7 +15388,7 @@ msgid "Sales Receipt"
 msgstr "Értékesítési nyugta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Sales Receipt Created"
 msgstr "Eladási nyugta létrehozva"
@@ -15412,7 +15412,7 @@ msgid "Sales and use tax paid on purchases where not otherwise recoverable"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Sales tax"
 msgstr "Áfa"
@@ -15439,7 +15439,7 @@ msgid "Sample Memo"
 msgstr "Minta emlékeztető"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Sample data"
 msgstr "Minta adat"
@@ -15461,7 +15461,7 @@ msgid "Save this page and come back here to set up the feature."
 msgstr "Mentse el ezt az oldalt, és térjen vissza ide a funkció beállításához"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Scan me with your banking app."
@@ -15536,7 +15536,7 @@ msgid "Search a name or Tax ID..."
 msgstr "Keresés név vagy adószám alapján..."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2x_tax_tags/many2x_tax_tags.js:0
 msgid "Search: %s"
 msgstr "Keresés: %s"
@@ -15554,7 +15554,7 @@ msgid "Section Of"
 msgstr "Szakasz a"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_catalog/search/search_panel.xml:0
 #: model:ir.model.fields,field_description:account.field_account_report__section_report_ids
 msgid "Sections"
@@ -15587,7 +15587,7 @@ msgid "Secured"
 msgstr "Biztosított"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "Securing these entries will also secure entries after the selected date."
@@ -15596,7 +15596,7 @@ msgstr ""
 "biztosítani fogja"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Securing these entries will create at least one gap in the sequence."
 msgstr ""
@@ -15611,7 +15611,7 @@ msgid "Security Token"
 msgstr "Biztonsági token"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "See items"
 msgstr ""
@@ -15641,7 +15641,7 @@ msgstr ""
 "venni)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Select a type"
 msgstr ""
@@ -15652,7 +15652,7 @@ msgid "Select an old purchase document"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Select first partner"
 msgstr "Válaszd ki az első partnert"
@@ -15710,7 +15710,7 @@ msgid "Sell and purchase products in different units of measure or packagings"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields.selection,name:account.selection__account_payment__payment_type__outbound
 #: model_terms:ir.ui.view,arch_db:account.account_move_send_batch_wizard_form
@@ -15734,7 +15734,7 @@ msgid "Send Money"
 msgstr "Pénz küldés"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "Send a bill to"
 msgstr "Küldj egy számlát a"
@@ -15750,7 +15750,7 @@ msgid "Send invoices automatically"
 msgstr "Számlák automatikus küldése"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid ""
 "Send invoices to your customers in no time with the <b>Invoicing app</b>."
@@ -15777,7 +15777,7 @@ msgid "Send receipts by email"
 msgstr "Küldje el a nyugtákat e-mailben"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Send the invoice to the customer and check what he'll receive."
 msgstr "Küldje el a számlát az ügyfélnek, és ellenőrizze, mit fog kapni."
@@ -15815,7 +15815,7 @@ msgstr ""
 "aktiválhatja a pénzküldés lehetőségét"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "Sending invoices"
 msgstr "Számlák küldése"
@@ -15832,7 +15832,7 @@ msgid "Sent"
 msgstr "Elküldött"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Sent invoices"
 msgstr "Küldött számlák"
@@ -15964,7 +15964,7 @@ msgid "Set Periods"
 msgstr "Beállítási időszakok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "Set a date. The moves will be secured up to including this date."
 msgstr ""
@@ -15972,7 +15972,7 @@ msgstr ""
 "beleértve ezt a dátumot is."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Set a price."
 msgstr "Állítson be egy árat"
@@ -16015,7 +16015,7 @@ msgid "Set up your chart of accounts and record initial balances."
 msgstr "Állítsa be a számlatükrét és rögzítse a kezdeti egyenlegeket"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Set your company data"
 msgstr "A vállalata adatainak megadása"
@@ -16042,13 +16042,13 @@ msgid "Settings"
 msgstr "Beállítások"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Setup Bank Account"
 msgstr "Banki fiók beállítása"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Setup Credit Card Account"
 msgstr ""
@@ -16078,7 +16078,7 @@ msgid "Show Accounting Features - Readonly"
 msgstr "Show accounting features - readonly"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show Composition"
 msgstr ""
@@ -16128,7 +16128,7 @@ msgid "Show Journal"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.js:0
 msgid "Show Label Warning"
 msgstr ""
@@ -16157,7 +16157,7 @@ msgid "Show Payment Term Details"
 msgstr "Fizetési feltételek részleteinek megjelenítése"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show Prices"
 msgstr ""
@@ -16175,7 +16175,7 @@ msgid "Show Taxable Supply Date"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Show Unreconciled Bank Statement Line"
 msgstr "Mutassa az egyeztetetlen banki kivonat sort"
@@ -16186,7 +16186,7 @@ msgid "Show active taxes"
 msgstr "Aktív adók megjelenítése"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.xml:0
 msgid "Show all lines"
 msgstr ""
@@ -16198,7 +16198,7 @@ msgid "Show all records whose next activity date is past"
 msgstr "Múltbeli határidős tevékenységgel rendelkező rekordok"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Show draft entries"
 msgstr "Show draft entries"
@@ -16239,13 +16239,13 @@ msgid "Some"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Some documents are being sent by another process already."
 msgstr "Néhány dokumentumot már egy másik folyamat küld el."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.js:0
 msgid ""
 "Some lines can be on the next page, display them to unlock actions on "
@@ -16253,7 +16253,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/section_and_note_fields_backend/section_and_note_fields_backend.js:0
 msgid ""
 "Some lines of the next section can be on the next page, display them to "
@@ -16261,7 +16261,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "Some payment methods supposed to be unique already exists somewhere else.\n"
@@ -16358,7 +16358,7 @@ msgid "Statement"
 msgstr "Kivonat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "Statement %(date)s"
 msgstr "Statement %(date)s"
@@ -16381,7 +16381,7 @@ msgid "Statement Reports"
 msgstr "Kimutatási jelentések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "Statement line percentage can't be 0"
 msgstr "A nyilatkozat sorának százaléka nem lehet 0"
@@ -16410,7 +16410,7 @@ msgid "States Count"
 msgstr "Államok száma"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__state
 #: model:ir.model.fields,field_description:account.field_account_move__state
@@ -16450,7 +16450,7 @@ msgstr ""
 "Tervezett: Jövőbeli határidő."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_statusbar_secured/account_move_statusbar_secured.js:0
 msgid "Status with secured indicator for Journal Entries"
 msgstr "A státusz biztosított jelzővel a naplóbejegyzésekhez"
@@ -16540,7 +16540,7 @@ msgid "Successfully unsubscribed"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Suggested"
 msgstr ""
@@ -16868,7 +16868,7 @@ msgid "Tax Grid"
 msgstr "Adó rács"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__tag_ids
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -17034,7 +17034,7 @@ msgid ""
 msgstr "Adóelosztási sor, amely ezt a mozgási sort létrehozta, ha van ilyen"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "Tax names must be unique!\n"
@@ -17059,7 +17059,7 @@ msgid "Taxable Supply Date Placeholder"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: model:account.group,name:account.2_us_group_8
 #: model:ir.actions.act_window,name:account.action_tax_form
@@ -17099,7 +17099,7 @@ msgid "Taxes are also displayed in local currency on invoices"
 msgstr "Az adók a számlákon helyi pénznemben is megjelennek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "Taxes exigible on payment and on invoice cannot be mixed on the same journal "
@@ -17212,7 +17212,7 @@ msgid "Template Name"
 msgstr "Sablonnév"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_wizard.py:0
 msgid "Template creation from composer requires a valid model."
 msgstr ""
@@ -17249,7 +17249,7 @@ msgid "Terms & Conditions format"
 msgstr "Felhasználási feltételek formátum"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Terms & Conditions: %s"
 msgstr "Felhasználási feltételek: %s"
@@ -17262,7 +17262,7 @@ msgid "Terms and Conditions"
 msgstr "Kikötések és feltételek"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tests_shared_js_python/test_shared_js_python.xml:0
 msgid "Test"
 msgstr "Tesztelés"
@@ -17273,7 +17273,7 @@ msgid "Text Value"
 msgstr "Text érték"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/document_state/document_state_field.js:0
 msgid "Text copied"
 msgstr "Szöveg másolva"
@@ -17284,7 +17284,7 @@ msgid "That is the date of the opening entry."
 msgstr "Ez a nyitó bejegyzés dátuma"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
 "The %(date_field)s (%(date)s) you've entered isn't aligned with the existing "
@@ -17299,7 +17299,7 @@ msgstr ""
 "fejlesztői módban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/chart_template.py:0
 msgid ""
 "The %s chart template shouldn't be selected directly. Instead, you should "
@@ -17309,7 +17309,7 @@ msgstr ""
 "közvetlenül a saját országához kapcsolódó diagram sablont kell kiválasztania"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The 'Customer' field is required to validate the invoice.\n"
@@ -17318,7 +17318,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "The Availability is set to 'Country Matches' but the field Country is not "
@@ -17328,20 +17328,20 @@ msgstr ""
 "nincs beállítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The Bill/Refund date is required to validate this document."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The Early Payment Discount days must be strictly positive."
 msgstr ""
 "A korai kifizetési kedvezmény napjainak szigorúan pozitívnak kell lenniük"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "The Early Payment Discount functionality can only be used with payment terms "
@@ -17351,13 +17351,13 @@ msgstr ""
 "használható, amelyek egyetlen 100%-os tételt használnak "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The Early Payment Discount must be strictly positive."
 msgstr "A korai kifizetési kedvezménynek szigorúan pozitívnak kell lennie"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "The Hard Lock Date cannot be removed."
 msgstr "A Hard Lock Dátum nem távolítható el"
@@ -17383,7 +17383,7 @@ msgstr ""
 "Ezt a mezőt a gyors kereséshez használhatja."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The Journal Entry sequence is not conform to the current format. Only the "
@@ -17393,7 +17393,7 @@ msgstr ""
 "könyvelő változtathat rajta"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "The Payment Term must have at least one percent line and the sum of the "
@@ -17414,19 +17414,19 @@ msgstr ""
 "használ"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "The account %(name)s (%(code)s) is archived."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "The account code can only contain alphanumeric characters and dots."
 msgstr "A fiók kódja csak alfanumerikus karaktereket és pontokat tartalmazhat."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The account is already in use in a 'sale' or 'purchase' journal. This means "
@@ -17437,7 +17437,7 @@ msgstr ""
 "'kötelezettség'"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "The account selected on your journal entry forces to provide a secondary "
@@ -17485,7 +17485,7 @@ msgstr ""
 "kell egyeznie a egyenleggel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The amount for %(partner_name)s appears unusual. Based on your historical "
@@ -17497,13 +17497,13 @@ msgstr ""
 "pontos-e"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "The amount is not a number"
 msgstr "Az összeg nem szám"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "The application scope of taxes in a group must be either the same as the "
@@ -17513,7 +17513,7 @@ msgstr ""
 "vagy üresen kell hagyni."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The bank account of a bank journal must belong to the same company (%s)."
@@ -17526,7 +17526,7 @@ msgid "The bank statement used for bank reconciliation"
 msgstr "A bank egyeztetéshez használt bankkivonat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The billing frequency for %(partner_name)s appears unusual. Based on your "
@@ -17550,7 +17550,7 @@ msgstr ""
 "hoztak létre, amikor a sorait egyeztetik"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "The cash basis transition account needs to allow reconciliation."
 msgstr ""
@@ -17569,7 +17569,7 @@ msgstr ""
 "kell egyeznie."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "The code must be set for every company to which this account belongs."
 msgstr ""
@@ -17581,7 +17581,7 @@ msgid "The combination code/payment type already exists!"
 msgstr "A kombinációs kód/fizetési típus már létezik!"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The combination of reference model and reference type on the journal is not "
@@ -17591,7 +17591,7 @@ msgstr ""
 "megvalósítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The commercial partner has been updated for all related accounting entries."
@@ -17613,7 +17613,7 @@ msgid "The country for which this tax is applicable."
 msgstr "Az ország, amelyre ez az adó vonatkozik"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The country of the foreign VAT number could not be detected. Please assign a "
@@ -17628,7 +17628,7 @@ msgid "The country to use the tax reports from for this company"
 msgstr "Az ország, ahonnan a cég számára a adójelentéseket használni kell"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The currency rate must be strictly positive."
 msgstr ""
@@ -17644,7 +17644,7 @@ msgid "The current highest number is"
 msgstr "A jelenlegi legmagasabb szám"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The current total is %(current_total)s but the expected total is %"
@@ -17656,7 +17656,7 @@ msgstr ""
 "(adóval együtt)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The date is being set prior to: %(lock_date_info)s. The Journal Entry will "
@@ -17664,7 +17664,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "The date selected is protected by: %(lock_date_info)s."
 msgstr ""
@@ -17708,20 +17708,20 @@ msgstr ""
 "zárdátumot nem változtatják meg, akkor a maximális dátumra van állítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The days added must be a number and has to be between 0 and 31."
 msgstr ""
 "A hozzáadott napoknak számnak kell lennie, és 0 és 31 között kell lennie."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid "The days added must be between 0 and 31."
 msgstr "A hozzáadott napoknak 0 és 31 között kell lenniük"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "The deductibility must be a value between 0 and 100."
 msgstr ""
@@ -17740,13 +17740,13 @@ msgid "The document(s) that generated the invoice."
 msgstr "A számlát generáló dokumentum(ok)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The entry %(name)s (id %(id)s) must be in draft."
 msgstr "A(z) %(name)s (id %(id)s) bejegyzésnek vázlatban kell lennie"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The entry is not balanced."
 msgstr ""
@@ -17758,7 +17758,7 @@ msgid "The entry is secured with an inalterable hash."
 msgstr "A bejegyzés egy megváltoztathatatlan hash-sel van biztosítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The entry is using accounts (%(accounts_codes_names)s) from a different "
@@ -17786,7 +17786,7 @@ msgid "The expression label must be unique per report line."
 msgstr "A kifejezés címkéjének egyedinek kell lennie a jelentés soronként."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The field 'Vendor' is required, please complete it to validate the Vendor "
@@ -17810,7 +17810,7 @@ msgid "The following Journal Entries will be generated"
 msgstr "A következő naplóbejegyzések fognak létrejönni"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The following accounts must be assigned to at least one company:\n"
@@ -17818,7 +17818,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The following entries are unbalanced:\n"
@@ -17826,7 +17826,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%(candidate)s' QR-code to be generated though "
@@ -17834,13 +17834,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid "The foreign currency must be different than the journal one: %s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "The foreign currency set on the journal '%(journal)s' and the account '%"
@@ -17858,20 +17858,20 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr ""
 "A főkönyvi napló bankszámla tulajdonosának a vállalkozásnak kell lennie (%s)."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The invoice already contains lines."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "The journal entry %s reached an invalid state regarding its related "
@@ -17903,13 +17903,13 @@ msgstr ""
 "A naplóbejegyzés, amelyből ez a pénzforgalmi alapú adóbejegyzés készült."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "The journal in which to upload the invoice is not specified. "
 msgstr "A számla feltöltésére szolgáló napló nincs megadva "
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_line.py:0
 msgid "The journal item is not linked to the correct financial account"
 msgstr "A naplóelem nincs összekapcsolva a megfelelő pénzügyi számlával"
@@ -17927,14 +17927,14 @@ msgid "The length of the starting and the ending code prefix must be the same"
 msgstr "A kezdő és a záró kódelőtag hossza azonos kell, hogy legyen"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The move could not be posted for the following reason: %(error_message)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "The operation is refused as it would impact an already issued tax statement. "
@@ -17970,13 +17970,13 @@ msgstr ""
 "értesítő disztribúciós sorait."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "The partner cannot be deleted because it is used in Accounting"
 msgstr "A partner nem törölhető, mert a Számvitelben használják"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The partners of the journal's company and the related bank account mismatch."
@@ -18005,7 +18005,7 @@ msgid "The payment's currency."
 msgstr "A kifizetés valutája"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The recipient bank account linked to this invoice is archived.\n"
@@ -18050,19 +18050,19 @@ msgid ""
 msgstr "A könyvelési modell csak a kiválasztott naplókból lesz elérhető"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The recurrence will end on %s (included)."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "The regex is not valid"
 msgstr "A regex nem érvényes"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "The register payment wizard should only be called on account.move or "
@@ -18077,7 +18077,7 @@ msgid "The report this report is a variant of."
 msgstr "A jelentés, amelynek ez a jelentés egy változata."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/terms.py:0
 msgid "The requested page is invalid, or doesn't exist anymore."
 msgstr "A kért oldal érvénytelen, vagy már nem létezik."
@@ -18100,13 +18100,13 @@ msgstr ""
 "összeg."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "The running balance (%s) doesn't match the specified ending balance."
 msgstr "A folyó egyenleg (%s) nem egyezik meg a megadott záró egyenleggel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "The sections defined on a report cannot have sections themselves."
 msgstr ""
@@ -18134,7 +18134,7 @@ msgstr ""
 "valuta összeg elvesztését okozza"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "The selected payment method is not available for this payment, please select "
@@ -18144,7 +18144,7 @@ msgstr ""
 "válassza ki újra a fizetési módot."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid ""
 "The sending of invoices is not set up properly, make sure the report used is "
@@ -18161,13 +18161,13 @@ msgid ""
 msgstr "A sorrend mező rendszer meghatározására szolgál az adó tételsorokra."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "The sequence format has changed."
 msgstr "A szekvencia formátuma megváltozott"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/sequence_mixin.py:0
 msgid ""
 "The sequence regex should at least contain the seq grouping keys. For "
@@ -18176,7 +18176,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will never restart.\n"
@@ -18186,7 +18186,7 @@ msgstr ""
 "(formatted_seq)s'."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every financial year.\n"
@@ -18200,7 +18200,7 @@ msgstr ""
 "A növekvő szám ebben az esetben: '%(formatted_seq)s'"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every month.\n"
@@ -18216,7 +18216,7 @@ msgstr ""
 "A növekvő szám ebben az esetben: '%(formatted_seq)s'"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every month.\n"
@@ -18228,7 +18228,7 @@ msgstr ""
 "(formatted_seq)s'"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "The sequence will restart at 1 at the start of every year.\n"
@@ -18239,7 +18239,7 @@ msgstr ""
 "ebben az esetben növekvő szám '%(formatted_seq)s'."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "The sequences of this journal are different for Invoices and Refunds but you "
@@ -18249,7 +18249,7 @@ msgstr ""
 "Ön mindkét típusból választott néhányat."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "The sequences of this journal are different for Payments and non-Payments "
@@ -18259,7 +18259,7 @@ msgstr ""
 "esetében, de Ön mindkét típusból választott néhányat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid ""
 "The starting balance doesn't match the ending balance of the previous "
@@ -18281,7 +18281,7 @@ msgstr ""
 "A cég adószáma a jelenlegi pénzügyi helyzet által térképezett régióban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "The tax group must have the same country_id as the tax using it."
 msgstr ""
@@ -18294,7 +18294,7 @@ msgstr ""
 "A lebegő számok kerekítési műveleteihez használt döntetlenmegszüntető szabály"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "The type of the journal's default credit/debit account shouldn't be "
@@ -18318,7 +18318,7 @@ msgid "There are currently no invoices and payments for your account."
 msgstr "Nincsenek megjeleníthető számlák vagy tranzakciók."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are entries that cannot be hashed. They can be protected by the Hard "
@@ -18328,7 +18328,7 @@ msgstr ""
 "Date védi."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_validate_account_move.py:0
 msgid "There are no journal items in the draft state to post."
@@ -18336,7 +18336,7 @@ msgstr ""
 "Nincsenek naplóelemek a vázlat állapotában, amelyeket közzé lehet tenni"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "There are payments in progress. Make sure you don't pay twice."
 msgstr ""
@@ -18344,13 +18344,13 @@ msgstr ""
 "kétszer"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid "There are still draft entries before the selected date."
 msgstr "Még mindig vannak tervezet bejegyzések a kiválasztott dátum előtt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There are still draft entries in the period you want to hard lock. You "
@@ -18361,7 +18361,7 @@ msgstr ""
 "kell őket."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_secure_entries_wizard.py:0
 msgid ""
 "There are still unreconciled bank statement lines before the selected date. "
@@ -18370,7 +18370,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There are still unreconciled bank statement lines in the period you want to "
@@ -18390,7 +18390,7 @@ msgstr ""
 "költségelszámolási bejegyzés kényszerítésére"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "There is no journal entry flagged for accounting data inalterability yet."
@@ -18398,7 +18398,7 @@ msgstr ""
 "Még nincs naplóbejegyzés megjelölve a számviteli adatok változhatatlanságára."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_partial_reconcile.py:0
 msgid ""
 "There is no tax cash basis journal defined for the '%s' company.\n"
@@ -18408,13 +18408,13 @@ msgstr ""
 "Számvitel/Beállítások/Beállítások menüpontban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "There is no template that applies to invoices."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "There is no template that applies to this move type."
 msgstr ""
@@ -18425,7 +18425,7 @@ msgid "There was an error processing this page."
 msgstr "Hiba történt az oldal feldolgozása során"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "There was an error when trying to add the banner to the original PDF.\n"
@@ -18435,7 +18435,7 @@ msgstr ""
 "Kérjük, győződjön meg arról, hogy a forrásfájl érvényes."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "There's nothing left to pay for the selected journal items, so no payment "
@@ -18464,7 +18464,7 @@ msgid "This Return Period"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "This Week"
 msgstr "Ezen a héten"
@@ -18475,7 +18475,7 @@ msgid "This Year"
 msgstr "Tárgyév"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "This account was split off from %(account_name)s (%(company_name)s)."
 msgstr ""
@@ -18489,7 +18489,7 @@ msgid "This account will be used when validating a customer invoice."
 msgstr "Ez a fiók lesz használva az ügyfél számla érvényesítésekor"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This action isn't available for this document."
 msgstr "Ez a művelet nem elérhető ehhez a dokumentumhoz."
@@ -18527,19 +18527,19 @@ msgstr ""
 "megosztják a megadott előtagot."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "This can only be used on accounts."
 msgstr "Ez csak számlákon használható."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "This can only be used on journal items"
 msgstr "Ez csak naplóelemeknél használható"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This document is protected by a hash. Therefore, you cannot edit the "
@@ -18547,13 +18547,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "This document was created from the following attachment(s)."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This entry contains one or more taxes that are incompatible with your fiscal "
@@ -18565,7 +18565,7 @@ msgstr ""
 "és az adó országát az adóbeállításokban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This entry contains taxes that are not compatible with your fiscal position. "
@@ -18576,25 +18576,25 @@ msgstr ""
 "és az adóbeállításait."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "This entry has been %s"
 msgstr "Ez a bejegyzés %s lett"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This entry has been duplicated from %s"
 msgstr "Ez a bejegyzés másolat készült a %s-ból"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This entry has been reversed from %s"
 msgstr "Ez a bejegyzés visszavonásra került a %s címről"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "This entry transfers the following amounts to %(destination)s"
 msgstr ""
@@ -18610,7 +18610,7 @@ msgstr ""
 "kiegyenlítésére vonatkozóan fizetési határidőt."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This invoice is being sent in the background."
 msgstr "Ez a számla a háttérben kerül elküldésre"
@@ -18635,25 +18635,25 @@ msgstr ""
 "akiknek nincs konkrét limitjük."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the full amount."
 msgstr "Ez a teljes összeg."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the next unreconciled installment."
 msgstr "Ez a következő egyeztetetlen részlet."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "This is the overdue amount."
 msgstr "Ez a lejárt összeg."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This journal entry has been secured."
 msgstr "Ez a naplóbejegyzés biztosítva lett."
@@ -18672,7 +18672,7 @@ msgid ""
 msgstr "Ez a sor és gyerekei el lesznek rejtve, amikor az összes oszlopuk 0."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This move could not be locked either because some move with the same "
@@ -18683,7 +18683,7 @@ msgstr ""
 "állítania."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This move is configured to be auto-posted on %(date)s"
 msgstr ""
@@ -18691,7 +18691,7 @@ msgstr ""
 "időpontban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "This move is configured to be posted automatically at the accounting date: "
@@ -18699,19 +18699,19 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This move will be posted at the accounting date: %(date)s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/services/account_move_service.js:0
 msgid "This operation will create a gap in the sequence."
 msgstr "Ez a művelet rést fog létrehozni a sorozatban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/product.py:0
 msgid ""
 "This product is already being used in posted Journal Entries.\n"
@@ -18723,13 +18723,13 @@ msgstr ""
 "hozzon létre egy újat."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "This reconciliation model has created no entry so far"
 msgstr "Ez a kiegyenlítési modell eddig nem hozott létre bejegyzést"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "This recurring entry originated from %s"
 msgstr "Ez a rendszeres bejegyzés a %s-ból származik"
@@ -18747,7 +18747,7 @@ msgid "This setting locks once a journal entry is created."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_document_import_mixin.py:0
 msgid "This specific error occurred during the import:"
 msgstr ""
@@ -18833,7 +18833,7 @@ msgstr ""
 "\"elküldött\" e-mailjére"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "To keep the restrictive audit trail, you can not delete journal entries once "
@@ -18847,7 +18847,7 @@ msgid "To pay"
 msgstr "Fizetni"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "To record payments with %(method_name)s, the recipient bank account must be "
@@ -18859,7 +18859,7 @@ msgstr ""
 "számlájára kell mennie az érvényesítéshez"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "To record payments with %(payment_method)s, the recipient bank account must "
@@ -18871,13 +18871,13 @@ msgstr ""
 "számlára kell mennie az érvényesítéshez"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "To reverse a journal entry, it has to be posted first."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/char_with_placeholder_field_to_check/char_with_placeholder_field.xml:0
 msgid "To review"
 msgstr ""
@@ -18900,7 +18900,7 @@ msgid "Today Activities"
 msgstr "Mai tevékenységek"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/tax_totals/tax_totals.xml:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__amount_total
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__price_total
@@ -18988,7 +18988,7 @@ msgid "Total Signed"
 msgstr "Összes aláírt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "Total amount due (including sales orders and this document): %(total_credit)s"
@@ -18997,19 +18997,19 @@ msgstr ""
 "(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due (including sales orders): %(total_credit)s"
 msgstr "Fizetendő összesen (vevői rendelésekkel): %(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due (including this document): %(total_credit)s"
 msgstr "Fizetendő összesen (jelen dokumentummal): %(total_credit)s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Total amount due: %(total_credit)s"
 msgstr "Fizetendő összesen: %(total_credit)s"
@@ -19043,7 +19043,7 @@ msgid "Total amount you have to pay to this vendor."
 msgstr "Teljes összeg, melyet ennek a beszállítónak ki kell fizetnie."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Total for the installments before %(date)s."
 msgstr "Összesen a részletekért %(date)s előtt"
@@ -19065,7 +19065,7 @@ msgid "Track costs & revenues by project, department, etc"
 msgstr "Kövesd a költségeket és bevételeket projekt, osztály stb. szerint"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Trade %s"
 msgstr "Trade %s"
@@ -19097,7 +19097,7 @@ msgid "Transactions"
 msgstr "Tranzakciók"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer"
 msgstr "Átmozgatás"
@@ -19113,25 +19113,25 @@ msgid "Transfer Journal Items"
 msgstr "Átutalási napló tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer counterpart"
 msgstr "Transfer ellenérték"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer entry to %s"
 msgstr "Átutalás bejegyzés %s-ra"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer from %s"
 msgstr "Belső utalás innen %s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer to %s"
 msgstr "Belső utalás ide %s"
@@ -19165,13 +19165,13 @@ msgstr ""
 "értéket a hitelkeret ellenőrzésének aktiválásához"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "True"
 msgstr "Igaz"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_search_inherit
 msgid "Trusted"
@@ -19216,7 +19216,7 @@ msgid "Type of the exception activity on record."
 msgstr "Kivétel tevékenység típusa a rekordon."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment_term.py:0
 msgid ""
 "Uh-oh! Those payment terms are quite popular and can't be deleted since "
@@ -19225,7 +19225,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement.py:0
 msgid ""
 "Unable to create a statement due to missing transactions. You may want to "
@@ -19235,13 +19235,13 @@ msgstr ""
 "érdemes lenne átrendezni a tranzakciókat a folytatás előtt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid "Undefined Yet"
 msgstr "Nem definiált még"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 #: model:account.account,name:account.1_unaffected_earnings_account
 #: model:account.account,name:account.2_unaffected_earnings_account
@@ -19301,7 +19301,7 @@ msgid "Unmark as Sent"
 msgstr "Unmark as Sent"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "Unmerge"
 msgstr "Egyesítés megszüntetése"
@@ -19333,7 +19333,7 @@ msgid "Unposted Journal Items"
 msgstr "Könyveletlen napló bejegyzések"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: model:ir.actions.server,name:account.action_account_unreconcile
 msgid "Unreconcile"
@@ -19355,7 +19355,7 @@ msgid "Unreconciled Entries"
 msgstr "Egyeztetetlen tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid "Unreconciled Transactions"
 msgstr "Kibékítetlen tranzakciók"
@@ -19366,8 +19366,8 @@ msgid "Unsubscribe"
 msgstr "Leiratkozás"
 
 #. module: account
-#. BetopiaERP-javascript
-#. BetopiaERP-python
+#. betopiaerp-javascript
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_tax.py:0
 #: code:addons/account/static/src/helpers/account_tax.js:0
@@ -19401,7 +19401,7 @@ msgid "Untaxed amount"
 msgstr "Nettó érték"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/many2many_tags_banks/many2many_tags_banks.xml:0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_search_inherit
 msgid "Untrusted"
@@ -19439,7 +19439,7 @@ msgid "Update Terms"
 msgstr "Feltételek frissítése"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid "Update Terms & Conditions"
 msgstr "Frissítse a feltételeket és a kikötéseket"
@@ -19450,7 +19450,7 @@ msgid "Update exchange rates automatically"
 msgstr "Frissítse az árfolyamokat automatikusan"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_message.py:0
 msgid "Updated"
 msgstr "Frissítve"
@@ -19461,7 +19461,7 @@ msgid "Updated Data"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_file_uploader/account_file_uploader.js:0
 #: code:addons/account/static/src/components/account_file_uploader/account_file_uploader.xml:0
 #: code:addons/account/static/src/components/document_file_uploader/document_file_uploader.xml:0
@@ -19521,7 +19521,7 @@ msgstr ""
 "és költségeket a ténylegesekkel."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "Use in tax closing"
 msgstr "Használja az adózárásban"
@@ -19702,7 +19702,7 @@ msgstr ""
 "alapján)"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Validate."
 msgstr "Érvényesítés"
@@ -19713,7 +19713,7 @@ msgid "Validated"
 msgstr "Jóváhagyott"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Validated entries can only be changed by your accountant."
 msgstr ""
@@ -19798,13 +19798,13 @@ msgid "Vendor Bill Count"
 msgstr "Szállító számla darabszám"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Vendor Bill Created"
 msgstr "Szállító számla létrehozva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_account.py:0
 #: code:addons/account/models/account_journal.py:0
 #: model:ir.actions.act_window,name:account.res_partner_action_supplier_bills
@@ -19873,19 +19873,19 @@ msgstr ""
 "számlákat az BetopiaERP-ban található tervezet dokumentum szerint"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Verify the price and update if necessary."
 msgstr "Ellenőrizze az árat, és frissítse, ha szükséges."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "View"
 msgstr "Megtekintés"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "View Partner(s)"
@@ -19907,7 +19907,7 @@ msgstr ""
 "érvényesítését ettől a szolgáltatótól?"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "Warning for Cash Rounding Method: %s"
 msgstr "Figyelmeztetés a készpénzkerekítési módszerre: %s"
@@ -19918,7 +19918,7 @@ msgid "Warnings"
 msgstr "Figyelmeztetések"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "We can't leave this document without any company. Please select a company "
@@ -19928,7 +19928,7 @@ msgstr ""
 "ehhez a dokumentumhoz."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "We cannot find a chart of accounts for this company, you should configure "
@@ -19941,7 +19941,7 @@ msgstr ""
 "lokalizációt."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "We've noticed some empty lines on your invoice."
 msgstr ""
@@ -20010,7 +20010,7 @@ msgstr ""
 "értékének megjelenítésekor"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "When targeting an expression for carryover, the label of that expression "
@@ -20061,7 +20061,7 @@ msgid "Workers Compensation Insurance"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Write a customer name to <b>create one</b> or <b>see suggestions</b>."
 msgstr ""
@@ -20069,7 +20069,7 @@ msgstr ""
 "megtekintéséhez</b>"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Write here <b>your own email address</b> to test the flow."
 msgstr "Írd ide <b>a saját email címedet</b> a folyamat teszteléséhez"
@@ -20100,7 +20100,7 @@ msgid "Yes, confirm and secure them now."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "You are about to send"
 msgstr "Ön éppen küldeni készül"
@@ -20119,7 +20119,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You are trying to reconcile some entries that are already reconciled."
 msgstr "Olyan tételeket próbálsz egyeztetni, amelyek már egyeztetve vannak."
@@ -20134,7 +20134,7 @@ msgstr ""
 "alapértelmezett az BetopiaERP referencia."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can not archive a journal containing draft journal entries.\n"
@@ -20146,7 +20146,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can not delete a transaction from a valid statement.\n"
@@ -20154,13 +20154,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You can not reconcile cancelled entries."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid ""
 "You can not reorder sequence by date when the journal is locked with a hash."
@@ -20169,25 +20169,25 @@ msgstr ""
 "egy hash-sel."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can only generate sales documents."
 msgstr "Csak értékesítési dokumentumokat tudsz generálni"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can only register payment for posted journal entries."
 msgstr "Csak a közzétett naplóbejegyzésekhez lehet regisztrálni a kifizetést"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can only request a cancellation for invoice sent to the government."
 msgstr "Csak a kormány részére küldött számla lemondását kérheti."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_resequence.py:0
 msgid "You can only resequence items from the same journal"
 msgstr "Csak azonos folyóiratból származó tételeket tudsz újrasorozni"
@@ -20211,13 +20211,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can't block a paid invoice."
 msgstr "Nem lehet blokkolni egy kifizetett számlát"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can't change the company of your journal since there are some journal "
@@ -20227,7 +20227,7 @@ msgstr ""
 "naplóbejegyzések."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid ""
 "You can't change the company of your tax since there are some journal items "
@@ -20237,7 +20237,7 @@ msgstr ""
 "naplóelemek."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_payment.py:0
 msgid ""
 "You can't create a new payment without an outstanding payments/receipts "
@@ -20249,7 +20249,7 @@ msgstr ""
 "(journal)s naplóban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't create a new statement line without a suspense account set on the "
@@ -20259,7 +20259,7 @@ msgstr ""
 "beállítva a %s naplóban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -20267,14 +20267,14 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "You can't create payments for entries belonging to different companies."
 msgstr ""
 "Nem hozhat létre kifizetéseket különböző cégekhez tartozó bejegyzésekhez."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You can't delete a posted journal item. Don’t play games with your "
@@ -20285,19 +20285,19 @@ msgstr ""
 "törlés előtt."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "You can't delete a report that has variants."
 msgstr "Nem törölhet olyan jelentést, amelynek variánsai vannak."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can't generate invoices that are not posted."
 msgstr "Nem tudsz olyan számlákat generálni, amelyek nincsenek közzétéve."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You can't have two payment method lines of the same payment type (%"
@@ -20307,7 +20307,7 @@ msgstr ""
 "fizetési mód sor egyetlen naplóban."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't open the register payment wizard without at least one receivable/"
@@ -20317,7 +20317,7 @@ msgstr ""
 "követelés/kötelezettség sor nélkül."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't provide a foreign currency without specifying an amount in 'Amount "
@@ -20327,7 +20327,7 @@ msgstr ""
 "devizában' mezőben."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid ""
 "You can't provide an amount in foreign currency without specifying a foreign "
@@ -20337,7 +20337,7 @@ msgstr ""
 "valutát."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid ""
 "You can't register payments for both inbound and outbound moves at the same "
@@ -20347,7 +20347,7 @@ msgstr ""
 "kifizetéseket."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You can't reset to draft those journal entries. You need to request a "
@@ -20357,7 +20357,7 @@ msgstr ""
 "iránti kérelmet kell benyújtania."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You can't unlink this company from this account since there are some journal "
@@ -20367,14 +20367,14 @@ msgstr ""
 "kapcsolódó naplóelemek."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot add/modify entries prior to and inclusive of: %(lock_date_info)s."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "You cannot change the currency of the company since some journal items "
@@ -20383,7 +20383,7 @@ msgstr ""
 "A vállalat pénzneme nem változtatható, mivel már vannak könyvelési tételek."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot change the type of an account set as Bank Account on a journal to "
@@ -20393,7 +20393,7 @@ msgstr ""
 "Követelésre vagy Kötelezettségre."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot create a fiscal position with a country outside of the selected "
@@ -20403,7 +20403,7 @@ msgstr ""
 "országcsoporton kívül esik."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot create a fiscal position with a foreign VAT within your fiscal "
@@ -20413,7 +20413,7 @@ msgstr ""
 "országában anélkül, hogy államot rendelne hozzá."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot create a move already in the posted state. Please create a draft "
@@ -20423,13 +20423,13 @@ msgstr ""
 "hozzon létre egy tervezet lépést, és azt követően tegye közzé."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot create recursive groups."
 msgstr "Nem hozhat létre rekurzív csoportokat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot delete a payable/receivable line as it would not be consistent "
@@ -20439,19 +20439,19 @@ msgstr ""
 "fizetési feltételekkel"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot delete a tax line as it would impact the tax report"
 msgstr "Nem törölheti a adósort, mivel az hatással lenne az adójelentésre"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot delete journal items belonging to a locked journal entry."
 msgstr "Nem törölheti a zárolt naplóbejegyzéshez tartozó naplóelemeket."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account_tag.py:0
 msgid ""
 "You cannot delete this account tag (%s), it is used on the chart of account "
@@ -20461,7 +20461,7 @@ msgstr ""
 "használva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot delete this entry, as it has already consumed a sequence number "
@@ -20471,7 +20471,7 @@ msgstr ""
 "nem az utolsó a láncban. Valószínűleg inkább vissza kellene vonnia."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_template.py:0
 msgid ""
 "You cannot delete this mail template, it is used in the invoice sending flow."
@@ -20480,7 +20480,7 @@ msgstr ""
 "használatban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_actions_report.py:0
 msgid ""
 "You cannot delete this report (%s), it is used by the accounting PDF "
@@ -20490,7 +20490,7 @@ msgstr ""
 "használja."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot deprecate an account that is used in a tax distribution."
 msgstr ""
@@ -20498,7 +20498,7 @@ msgstr ""
 "használnak."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_config_settings.py:0
 msgid ""
 "You cannot disable this setting because some of your taxes are cash basis. "
@@ -20508,7 +20508,7 @@ msgstr ""
 "Először módosítsa az adóit, mielőtt letiltaná ezt a beállítást"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot do this modification on a reconciled journal entry. You can just "
@@ -20517,13 +20517,13 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "You cannot duplicate a Lock Date Exception."
 msgstr "Nem lehet megduplázni a Lock Date Exception-t."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot edit the following fields: %(fields)s.\n"
@@ -20532,7 +20532,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot edit the journal of an account move if it has been posted once, "
@@ -20544,7 +20544,7 @@ msgstr ""
 "hiányt okozhat a sorozatban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot edit the journal of an account move with a sequence number "
@@ -20556,7 +20556,7 @@ msgstr ""
 "rés keletkezését okozhatja a sorozatban"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot have a receivable/payable account that is not reconcilable. "
@@ -20564,7 +20564,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/company.py:0
 msgid ""
 "You cannot import the \"openning_balance\" if the opening move (%s) is "
@@ -20576,13 +20576,13 @@ msgstr ""
 "egyenlegét, állítsa vissza a mozgást tervezet állapotba."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot merge accounts."
 msgstr "Nem tudod egyesíteni a fiókokat"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "You cannot modify the account number or partner of an account that has been "
@@ -20592,7 +20592,7 @@ msgstr ""
 "megbízhatónak lett nyilvánítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 msgid ""
 "You cannot modify the field %s of a journal that already has accounting "
@@ -20602,13 +20602,13 @@ msgstr ""
 "tételei."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot modify the following readonly fields on a posted move: %s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You cannot modify the taxes related to a posted journal item, you should "
@@ -20618,7 +20618,7 @@ msgstr ""
 "vissza kell állítania a naplóbejegyzést tervezet állapotba."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot perform this action on an account that contains journal items."
@@ -20626,13 +20626,13 @@ msgstr ""
 "Nem végezheti el ezt a műveletet olyan fiókon, amely naplóelemeket tartalmaz."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot post an entry in an archived journal (%(journal)s)"
 msgstr "Nem tudsz bejegyzést közzétenni egy archivált naplóban (%(journal)s)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_currency.py:0
 msgid ""
 "You cannot reduce the number of decimal places of a currency which has "
@@ -20642,19 +20642,19 @@ msgstr ""
 "tizedesjegyeinek számát."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot register payments for miscellaneous entries."
 msgstr "Nem tud regisztrálni kifizetéseket vegyes tételekhez."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/ir_attachment.py:0
 msgid "You cannot remove parts of a restricted audit trail."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/mail_message.py:0
 msgid ""
 "You cannot remove parts of a restricted audit trail. Archive the record "
@@ -20662,7 +20662,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot remove/deactivate the accounts \"%s\" which are set on a tax "
@@ -20672,7 +20672,7 @@ msgstr ""
 "adómegosztási sorra vannak beállítva."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot remove/deactivate the accounts \"%s\" which are set on the "
@@ -20682,13 +20682,13 @@ msgstr ""
 "pozíció fiók térképezésén vannak beállítva"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft a locked journal entry."
 msgstr "Nem lehet visszaállítani egy lezárt naplóbejegyzést vázlatra."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft a tax cash basis journal entry."
 msgstr ""
@@ -20696,14 +20696,14 @@ msgstr ""
 "tervezetként."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft an exchange difference journal entry."
 msgstr ""
 "Nem lehet visszaállítani egy csere különbség naplóbejegyzést tervezetként."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid ""
 "You cannot revoke Lock Date Exceptions. Ask someone with the 'Adviser' role."
@@ -20712,7 +20712,7 @@ msgstr ""
 "'Tanácsadó' szerepe van."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot set a currency on this account as it already has some journal "
@@ -20722,7 +20722,7 @@ msgstr ""
 "naplóbejegyzések, amelyek eltérő devizával rendelkeznek."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "You cannot set a partner as an invoicing address of another if they have a "
@@ -20730,7 +20730,7 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot switch an account to prevent the reconciliation if some partial "
@@ -20740,25 +20740,25 @@ msgstr ""
 "néhány részleges könyvelés még függőben van."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot use an archived account."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid "You cannot use cross report on itself"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "You cannot use taxes on lines with an Off-Balance account"
 msgstr "Nem használhat adókat az Off-Balance számlával rendelkező sorokon"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_report.py:0
 msgid ""
 "You cannot use the field carryover_target in an expression that does not "
@@ -20768,7 +20768,7 @@ msgstr ""
 "címkéje nem _carryover_-val kezdődik"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "You cannot use this wizard on journal entries belonging to different "
@@ -20778,13 +20778,13 @@ msgstr ""
 "különböző cégekhez tartoznak."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot validate a document with an inactive currency: %s"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
 "You cannot validate an invoice with a negative total amount. You should "
@@ -20796,7 +20796,7 @@ msgstr ""
 "vagy visszatérítésbe."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid ""
@@ -20805,25 +20805,25 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "You do not have the right to trust or un-trust a bank account."
 msgstr "Nincs jogod bízni vagy nem bízni egy bankszámlában."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "You do not have the rights to trust or un-trust accounts."
 msgstr "Nincsenek jogai a fiókok megbízására vagy visszavonására."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You don't have the access rights to perform this action."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You don't have the access rights to post an invoice."
 msgstr "Nincsenek hozzáférési jogaid számla közzétételéhez"
@@ -20834,7 +20834,7 @@ msgid "You have"
 msgstr "Vannak"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You have to configure the 'Exchange Gain or Loss Journal' in your company "
@@ -20846,7 +20846,7 @@ msgstr ""
 "eltérésekhez kapcsolódó könyvelési tételek rögzítését"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid ""
 "You may only use samples in demo mode, try uploading one of your invoices "
@@ -20854,19 +20854,19 @@ msgid ""
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "You must select at least 2 accounts."
 msgstr "Legalább 2 fiókot kell választania."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "You must specify the Profit Account (company dependent)"
 msgstr "Meg kell adnia a Profit Account-ot (cégfüggő)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You should configure the 'Gain Exchange Rate Account' in your company "
@@ -20878,7 +20878,7 @@ msgstr ""
 "eltérésekhez kapcsolódó könyvelési tételek rögzítését"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
 "You should configure the 'Loss Exchange Rate Account' in your company "
@@ -20895,7 +20895,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "Frissítenie kell ezt a dokumentumot, hogy tükrözze az Ön ÁSZF-jét."
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/currency_form/form_controller.js:0
 msgid ""
 "You're about to permanently change the decimals for all prices in your "
@@ -20949,20 +20949,20 @@ msgid "[FURN_8999] Three-Seat Sofa"
 msgstr "[FURN_8999] Háromszemélyes kanapé"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "[Not set]"
 msgstr "[Not set]"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "[Partner id]"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "account.move.line"
 msgstr ""
@@ -20998,13 +20998,13 @@ msgid "and will not be posted automatically."
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/grouped_view_widget/grouped_view_widget.xml:0
 msgid "are not shown in the preview"
 msgstr "nincsenek megjelenítve az előnézetben"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "assign to invoice"
 msgstr "számlához hozzárendel"
@@ -21024,20 +21024,20 @@ msgid "bills for"
 msgstr "számlák a"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "by %s"
 msgstr "%s"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account.selection__res_partner__invoice_sending_method__email
 msgid "by Email"
 msgstr "Emailben"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "cancelling {percent}%% of {amount}"
 msgstr ""
@@ -21092,7 +21092,7 @@ msgid "e.g GEBABEBB"
 msgstr "e.g GEBABEBB"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_analytic_distribution_model.py:0
 #: code:addons/account/models/account_analytic_plan.py:0
 msgid "e.g. %(prefix)s"
@@ -21161,7 +21161,7 @@ msgid "entries"
 msgstr "tételek"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "everyone"
 msgstr "mindenki"
@@ -21172,7 +21172,7 @@ msgid "fall outside the typical range."
 msgstr "kívül esik a tipikus tartományon"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "fiscal position [%s]"
 msgstr ""
@@ -21193,7 +21193,7 @@ msgid "here"
 msgstr "itt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_journal.py:0
 #: code:addons/account/models/account_journal_dashboard.py:0
 #: code:addons/account/models/account_move.py:0
@@ -21220,19 +21220,19 @@ msgstr ""
 "által elhelyezkedő ország jogszabályaival kapcsolatosak."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "in_invoice"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "invoice(s)"
 msgstr "számla(ák)"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/download_docs.py:0
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "invoices"
@@ -21275,13 +21275,13 @@ msgid "listed below for this vendor."
 msgstr "az alábbiakban felsorolva ennek a szolgáltatónak."
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "move_id"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "move_type"
 msgstr ""
@@ -21298,7 +21298,7 @@ msgstr ""
 "számított 8 napon belül"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/partner.py:0
 msgid "not applicable"
 msgstr ""
@@ -21314,7 +21314,7 @@ msgid "on"
 msgstr "adóalap:"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "or"
 msgstr "vagy"
@@ -21325,7 +21325,7 @@ msgid "out of"
 msgstr "ki a"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/controllers/portal.py:0
 msgid "out_invoice"
 msgstr ""
@@ -21346,25 +21346,25 @@ msgid "payments will be skipped due to"
 msgstr "a kifizetések elmaradnak a következő miatt"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "postponing it to {new_date}"
 msgstr "elhalasztva {new_date} dátumra"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "private part"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_move.py:0
 msgid "private part (taxes)"
 msgstr ""
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/account_tax.py:0
 msgid "repartition line"
 msgstr "repartition line"
@@ -21388,7 +21388,7 @@ msgstr ""
 "fennmaradó összeg 10%-ának felel meg"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "reversed"
 msgstr ""
@@ -21414,13 +21414,13 @@ msgid "to create the taxes for this country."
 msgstr "az adók létrehozása ehhez az országhoz"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "trusted"
 msgstr "megbízható"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/components/bill_guide/bill_guide.xml:0
 msgid "try our sample"
 msgstr "próbáld ki a mintánkat"
@@ -21443,13 +21443,13 @@ msgid "units"
 msgstr "egységek"
 
 #. module: account
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/account/static/src/js/search/search_bar/search_bar.js:0
 msgid "until"
 msgstr "eddig"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "untrusted"
 msgstr "megbízhatatlan"
@@ -21489,7 +21489,7 @@ msgid "without making any corrections."
 msgstr "javítások nélkül"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid ""
 "{amount} ({debit_credit}) from <strong>{account_source_name}</strong> were "
@@ -21499,7 +21499,7 @@ msgstr ""
 "átutalásra került a <strong>{account_target_name}</strong>-ra {link} által"
 
 #. module: account
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "{amount} ({debit_credit}) from {link}"
 msgstr "{amount} ({debit_credit}) a {link}-tól"

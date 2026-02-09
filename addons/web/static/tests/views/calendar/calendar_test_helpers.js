@@ -1,6 +1,6 @@
-import { click, drag, edit, hover, queryFirst, queryRect } from "@BetopiaERP/hoot-dom";
-import { advanceFrame, advanceTime, animationFrame } from "@BetopiaERP/hoot-mock";
-import { EventBus } from "@BetopiaERP/owl";
+import { click, drag, edit, hover, queryFirst, queryRect } from "@betopiaerp/hoot-dom";
+import { advanceFrame, advanceTime, animationFrame } from "@betopiaerp/hoot-mock";
+import { EventBus } from "@betopiaerp/owl";
 import { contains, getMockEnv, swipeLeft, swipeRight } from "@web/../tests/web_test_helpers";
 
 import { createElement } from "@web/core/utils/xml";

@@ -12,19 +12,19 @@ export class TimeDialog extends Component {
     setup() {
         this.store = useStore();
         this.state = useState({
-            BetopiaERPUptimeSeconds: this.store.base.BetopiaERP_uptime_seconds,
+            betopiaerpUptimeSeconds: this.store.base.betopiaerp_uptime_seconds,
             systemUptimeSeconds: this.store.base.system_uptime_seconds,
         });
         setInterval(() => {
-            this.state.BetopiaERPUptimeSeconds += 1;
+            this.state.betopiaerpUptimeSeconds += 1;
             this.state.systemUptimeSeconds += 1;
         }, 1000);
     }
 
     startDateFromSeconds(uptimeInSeconds) {
         const currentTimeMs = new Date().getTime();
-        const BetopiaERPUptimeMs = uptimeInSeconds * 1000;
-        return new Date(currentTimeMs - BetopiaERPUptimeMs).toUTCString();
+        const betopiaerpUptimeMs = uptimeInSeconds * 1000;
+        return new Date(currentTimeMs - betopiaerpUptimeMs).toUTCString();
     }
 
     secondsToHumanReadable(periodInSeconds) {
@@ -56,8 +56,8 @@ export class TimeDialog extends Component {
                 <div class="d-flex flex-column gap-4">
                   <div>
                     <h5>BetopiaERP Service</h5>
-                    <div>Running for <b t-out="secondsToHumanReadable(state.BetopiaERPUptimeSeconds)"/></div>
-                    <div class="text-secondary">Started at <b t-out="startDateFromSeconds(state.BetopiaERPUptimeSeconds)"/></div>
+                    <div>Running for <b t-out="secondsToHumanReadable(state.betopiaerpUptimeSeconds)"/></div>
+                    <div class="text-secondary">Started at <b t-out="startDateFromSeconds(state.betopiaerpUptimeSeconds)"/></div>
                   </div>
                   <div t-if="store.isLinux">
                     <h5>Operating System</h5>

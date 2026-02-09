@@ -1,6 +1,6 @@
-import { Component, onMounted, onWillStart, xml } from "@BetopiaERP/owl";
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { Component, onMounted, onWillStart, xml } from "@betopiaerp/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     getService,
     mountWithCleanup,

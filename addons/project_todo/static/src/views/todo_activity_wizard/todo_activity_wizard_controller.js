@@ -1,4 +1,4 @@
-import { onMounted } from "@BetopiaERP/owl";
+import { onMounted } from "@betopiaerp/owl";
 import { FormController } from "@web/views/form/form_controller";
 
 export class TodoActivityWizardController extends FormController {

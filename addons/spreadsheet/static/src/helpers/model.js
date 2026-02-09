@@ -1,16 +1,16 @@
 // @ts-check
 
-import { parse, helpers, iterateAstNodes } from "@BetopiaERP/o-spreadsheet";
+import { parse, helpers, iterateAstNodes } from "@betopiaerp/o-spreadsheet";
 import { isLoadingError } from "@spreadsheet/o_spreadsheet/errors";
 import { BetopiaERPSpreadsheetModel } from "@spreadsheet/model";
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
 
 const { formatValue, isDefined, toCartesian, toXC } = helpers;
 import {
     isMarkdownViewUrl,
     isMarkdownIrMenuIdUrl,
     isIrMenuXmlUrl,
-} from "@spreadsheet/ir_ui_menu/BetopiaERP_menu_link_cell";
+} from "@spreadsheet/ir_ui_menu/betopiaerp_menu_link_cell";
 
 /**
  * @typedef {import("@spreadsheet").BetopiaERPSpreadsheetModel} BetopiaERPSpreadsheetModel
@@ -24,8 +24,8 @@ export async function fetchSpreadsheetModel(env, resModel, resId) {
 }
 
 export function createSpreadsheetModel({ env, data, revisions }) {
-    const BetopiaERPDataProvider = new BetopiaERPDataProvider(env);
-    const model = new BetopiaERPSpreadsheetModel(data, { custom: { env, BetopiaERPDataProvider } }, revisions);
+    const betopiaerpDataProvider = new BetopiaERPDataProvider(env);
+    const model = new BetopiaERPSpreadsheetModel(data, { custom: { env, betopiaerpDataProvider } }, revisions);
     return model;
 }
 
@@ -39,7 +39,7 @@ export async function waitForBetopiaERPSources(model) {
     promises.push(
         ...model.getters
             .getPivotIds()
-            .filter((pivotId) => model.getters.getPivotCoreDefinition(pivotId).type === "BetopiaERP")
+            .filter((pivotId) => model.getters.getPivotCoreDefinition(pivotId).type === "BETOPIAERP")
             .map((pivotId) => model.getters.getPivot(pivotId))
             .map((pivot) => pivot.load())
     );
@@ -59,19 +59,19 @@ export async function waitForBetopiaERPSources(model) {
  */
 export async function waitForDataLoaded(model) {
     await waitForBetopiaERPSources(model);
-    const BetopiaERPDataProvider = model.config.custom.BetopiaERPDataProvider;
-    if (!BetopiaERPDataProvider) {
+    const betopiaerpDataProvider = model.config.custom.betopiaerpDataProvider;
+    if (!betopiaerpDataProvider) {
         return;
     }
     await new Promise((resolve, reject) => {
         function check() {
             model.dispatch("EVALUATE_CELLS");
             if (isLoaded(model)) {
-                BetopiaERPDataProvider.removeEventListener("data-source-updated", check);
+                betopiaerpDataProvider.removeEventListener("data-source-updated", check);
                 resolve();
             }
         }
-        BetopiaERPDataProvider.addEventListener("data-source-updated", check);
+        betopiaerpDataProvider.addEventListener("data-source-updated", check);
         check();
     });
 }
@@ -102,7 +102,7 @@ export async function freezeBetopiaERPData(model) {
             const evaluatedCell = model.getters.getEvaluatedCell(position);
             if (containsBetopiaERPFunction(content)) {
                 const pivotId = model.getters.getPivotIdFromPosition(position);
-                if (pivotId && model.getters.getPivotCoreDefinition(pivotId).type !== "BetopiaERP") {
+                if (pivotId && model.getters.getPivotCoreDefinition(pivotId).type !== "BETOPIAERP") {
                     continue;
                 }
                 sheet.cells[xc] = toFrozenContent(evaluatedCell);
@@ -135,9 +135,9 @@ export async function freezeBetopiaERPData(model) {
         for (const figure of sheet.figures) {
             if (
                 figure.tag === "chart" &&
-                (figure.data.type.startsWith("BetopiaERP_") || figure.data.type === "geo")
+                (figure.data.type.startsWith("betopiaerp_") || figure.data.type === "geo")
             ) {
-                const img = BetopiaERPChartToImage(model, figure, figure.data.chartId);
+                const img = betopiaerpChartToImage(model, figure, figure.data.chartId);
                 figure.tag = "image";
                 figure.data = {
                     path: img,
@@ -150,14 +150,14 @@ export async function freezeBetopiaERPData(model) {
                     }
                     const chartDefinition = model.getters.getChartDefinition(item.chartId);
                     return (
-                        chartDefinition.type.startsWith("BetopiaERP_") || chartDefinition.type === "geo"
+                        chartDefinition.type.startsWith("betopiaerp_") || chartDefinition.type === "geo"
                     );
                 });
                 if (hasImageChart) {
                     const chartId = figure.data.items.find((item) => item.type === "chart").chartId;
                     figure.tag = "image";
                     figure.data = {
-                        path: BetopiaERPChartToImage(model, figure, chartId),
+                        path: betopiaerpChartToImage(model, figure, chartId),
                         size: { width: figure.width, height: figure.height },
                     };
                 }
@@ -166,7 +166,7 @@ export async function freezeBetopiaERPData(model) {
     }
     if (data.pivots) {
         data.pivots = Object.fromEntries(
-            Object.entries(data.pivots).filter(([id, def]) => def.type !== "BetopiaERP")
+            Object.entries(data.pivots).filter(([id, def]) => def.type !== "BETOPIAERP")
         );
     }
     data.lists = {};
@@ -229,7 +229,7 @@ function containsBetopiaERPFunction(content) {
     if (
         !content ||
         !content.startsWith("=") ||
-        (!content.toUpperCase().includes("BetopiaERP.") &&
+        (!content.toUpperCase().includes("BETOPIAERP.") &&
             !content.toUpperCase().includes("_T") &&
             !content.toUpperCase().includes("PIVOT"))
     ) {
@@ -240,7 +240,7 @@ function containsBetopiaERPFunction(content) {
         return iterateAstNodes(ast).some(
             (ast) =>
                 ast.type === "FUNCALL" &&
-                (ast.value.toUpperCase().startsWith("BetopiaERP.") ||
+                (ast.value.toUpperCase().startsWith("BETOPIAERP.") ||
                     ast.value.toUpperCase().startsWith("_T") ||
                     ast.value.toUpperCase().startsWith("PIVOT"))
         );
@@ -272,7 +272,7 @@ function isLoaded(model) {
  * @param {string} chartId
  * @returns {string}
  */
-function BetopiaERPChartToImage(model, figure, chartId) {
+function betopiaerpChartToImage(model, figure, chartId) {
     const runtime = model.getters.getChartRuntime(chartId);
     // wrap the canvas in a div with a fixed size because chart.js would
     // fill the whole page otherwise

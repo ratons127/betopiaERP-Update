@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { FollowerSubtypeDialog } from "@mail/core/web/follower_subtype_dialog";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 

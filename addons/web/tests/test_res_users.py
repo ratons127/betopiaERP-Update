@@ -66,4 +66,4 @@ class TestResUsers(TransactionCase):
 @tagged('post_install', '-at_install')
 class TestUserSettings(HttpCaseWithUserDemo):
     def test_user_group_settings(self):
-        self.start_tour('/BetopiaERP?debug=1', 'test_user_group_settings', login='admin')
+        self.start_tour('/betopiaerp?debug=1', 'test_user_group_settings', login='admin')

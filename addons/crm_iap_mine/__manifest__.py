@@ -29,6 +29,6 @@
             'crm_iap_mine/static/src/js/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

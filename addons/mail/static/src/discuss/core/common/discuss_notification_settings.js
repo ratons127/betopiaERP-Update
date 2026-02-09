@@ -1,5 +1,5 @@
 import { MESSAGE_SOUND } from "@mail/core/common/settings_model";
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { useService } from "@web/core/utils/hooks";
 

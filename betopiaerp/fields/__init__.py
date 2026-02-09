@@ -1,6 +1,6 @@
 # ruff: noqa: F401
 # Exports features of the ORM to developers.
-# This is a `__init__.py` file to avoid merge conflicts on `BetopiaERP/fields.py`.
+# This is a `__init__.py` file to avoid merge conflicts on `betopiaerp/fields.py`.
 
 from betopiaerp.orm.fields import Field
 

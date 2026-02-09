@@ -1,4 +1,4 @@
-import { useState, onWillUnmount, status, useComponent } from "@BetopiaERP/owl";
+import { useState, onWillUnmount, status, useComponent } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { _t } from "@web/core/l10n/translation";
 import { browser } from "@web/core/browser/browser";

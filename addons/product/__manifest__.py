@@ -6,7 +6,7 @@
     'category': 'Sales/Sales',
     'depends': ['base', 'mail', 'uom'],
     'description': """
-This is the base module for managing products and pricelists in betopiaerp.
+This is the base module for managing products and pricelists in BetopiaERP.
 ========================================================================
 
 Products support variants, different pricing methods, vendors information,
@@ -80,6 +80,6 @@ Print product labels with barcode.
             'product/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

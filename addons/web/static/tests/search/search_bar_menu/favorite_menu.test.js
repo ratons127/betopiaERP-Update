@@ -1,6 +1,6 @@
-import { after, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { after, expect, test } from "@betopiaerp/hoot";
+import { queryFirst } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { editValue } from "@web/../tests/core/tree_editor/condition_tree_editor_test_helpers";
 import {
     contains,

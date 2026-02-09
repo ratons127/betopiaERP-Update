@@ -3,9 +3,9 @@
     'name': 'Costa Rica - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['cr'],
-    'url': 'https://github.com/CLEARCORP/BetopiaERP-costa-rica',
+    'url': 'https://github.com/CLEARCORP/betopiaerp-costa-rica',
     'author': 'ClearCorp S.A.',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 Chart of accounts for Costa Rica.

@@ -1,8 +1,8 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { afterEach, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, queryFirst } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { afterEach, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, queryFirst } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 import { Macro } from "@web/core/macro";
@@ -77,7 +77,7 @@ beforeEach(async () => {
         dir: () => {},
     });
     await mountWithCleanup(Root);
-    await BetopiaERP.startTour("tour_to_check_undeterminisms", {
+    await betopiaerp.startTour("tour_to_check_undeterminisms", {
         mode: "auto",
         delayToCheckUndeterminisms: 300,
     });

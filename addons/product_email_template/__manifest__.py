@@ -15,6 +15,6 @@ For instance when invoicing a training, the training agenda and materials will a
         'views/product_views.xml',
         'views/mail_template_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

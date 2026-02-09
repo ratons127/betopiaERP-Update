@@ -7,7 +7,7 @@ from lxml import etree
 from betopiaerp import _, api, fields, models, tools, SUPERUSER_ID
 from betopiaerp.addons.account_edi_ubl_cii.models.account_edi_common import SUPPORTED_FILE_TYPES
 from betopiaerp.tools import cleanup_xml_node
-from betopiaerp.tools.pdf import betopiaerpPdfFileReader, BetopiaERPPdfFileWriter
+from betopiaerp.tools.pdf import BetopiaERPPdfFileReader, BetopiaERPPdfFileWriter
 from betopiaerp.addons.account.tools import dict_to_xml
 
 _logger = logging.getLogger(__name__)

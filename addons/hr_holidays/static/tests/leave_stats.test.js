@@ -1,9 +1,9 @@
-import { describe, test, expect, beforeEach } from "@BetopiaERP/hoot";
-import { click, edit, queryAll, queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, test, expect, beforeEach } from "@betopiaerp/hoot";
+import { click, edit, queryAll, queryOne } from "@betopiaerp/hoot-dom";
 import { mountView, onRpc, selectFieldDropdownItem } from "@web/../tests/web_test_helpers";
 import { defineHrHolidaysModels } from "@hr_holidays/../tests/hr_holidays_test_helpers";
 import { HrLeave } from "@hr_holidays/../tests/mock_server/mock_models/hr_leave";
-import { mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { mockTimeZone } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineHrHolidaysModels();

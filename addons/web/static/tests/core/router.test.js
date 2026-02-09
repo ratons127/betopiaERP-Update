@@ -1,6 +1,6 @@
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { click, on } from "@BetopiaERP/hoot-dom";
-import { mockMatchMedia, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { click, on } from "@betopiaerp/hoot-dom";
+import { mockMatchMedia, tick } from "@betopiaerp/hoot-mock";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { browser } from "@web/core/browser/browser";
@@ -102,53 +102,53 @@ describe("parseSearchQuery", () => {
 
 describe("stateToUrl", () => {
     test("encodes URI compatible strings", (assert) => {
-        expect(router.stateToUrl({})).toBe("/BetopiaERP");
-        expect(router.stateToUrl({ a: "11", b: "summer wine" })).toBe("/BetopiaERP?a=11&b=summer%20wine");
+        expect(router.stateToUrl({})).toBe("/betopiaerp");
+        expect(router.stateToUrl({ a: "11", b: "summer wine" })).toBe("/betopiaerp?a=11&b=summer%20wine");
         expect(router.stateToUrl({ b: "2", c: "", e: "kloug,gloubi" })).toBe(
-            "/BetopiaERP?b=2&c=&e=kloug%2Cgloubi"
+            "/betopiaerp?b=2&c=&e=kloug%2Cgloubi"
         );
     });
 
     test("backwards compatibility: no action stack, action encoded in path", (assert) => {
-        expect(router.stateToUrl({})).toBe("/BetopiaERP");
+        expect(router.stateToUrl({})).toBe("/betopiaerp");
         // action
-        expect(router.stateToUrl({ action: "some-path" })).toBe("/BetopiaERP/some-path");
-        expect(router.stateToUrl({ active_id: 5, action: "some-path" })).toBe("/BetopiaERP/5/some-path");
+        expect(router.stateToUrl({ action: "some-path" })).toBe("/betopiaerp/some-path");
+        expect(router.stateToUrl({ active_id: 5, action: "some-path" })).toBe("/betopiaerp/5/some-path");
         expect(router.stateToUrl({ active_id: "some-active_id", action: "some-path" })).toBe(
-            "/BetopiaERP/some-path?active_id=some-active_id",
+            "/betopiaerp/some-path?active_id=some-active_id",
             { message: "only numeric active_id are encoded in path" }
         );
-        expect(router.stateToUrl({ action: "some-path", resId: 2 })).toBe("/BetopiaERP/some-path/2");
+        expect(router.stateToUrl({ action: "some-path", resId: 2 })).toBe("/betopiaerp/some-path/2");
         expect(router.stateToUrl({ action: "some-path", resId: "some-resId" })).toBe(
-            "/BetopiaERP/some-path?resId=some-resId",
+            "/betopiaerp/some-path?resId=some-resId",
             { message: "only numeric resId are encoded in path" }
         );
         expect(router.stateToUrl({ active_id: 5, action: "some-path", resId: 2 })).toBe(
-            "/BetopiaERP/5/some-path/2"
+            "/betopiaerp/5/some-path/2"
         );
         expect(router.stateToUrl({ active_id: 5, action: "some-path", resId: "new" })).toBe(
-            "/BetopiaERP/5/some-path/new"
+            "/betopiaerp/5/some-path/new"
         );
-        expect(router.stateToUrl({ action: 1, resId: 2 })).toBe("/BetopiaERP/action-1/2", {
+        expect(router.stateToUrl({ action: 1, resId: 2 })).toBe("/betopiaerp/action-1/2", {
             message: "action id instead of path/tag",
         });
         expect(router.stateToUrl({ action: "module.xml_id", resId: 2 })).toBe(
-            "/BetopiaERP/action-module.xml_id/2",
+            "/betopiaerp/action-module.xml_id/2",
             { message: "action xml_id instead of path/tag" }
         );
         // model
-        expect(router.stateToUrl({ model: "some.model" })).toBe("/BetopiaERP/some.model");
-        expect(router.stateToUrl({ model: "some.model", resId: 2 })).toBe("/BetopiaERP/some.model/2");
-        expect(router.stateToUrl({ active_id: 5, model: "some.model" })).toBe("/BetopiaERP/5/some.model");
+        expect(router.stateToUrl({ model: "some.model" })).toBe("/betopiaerp/some.model");
+        expect(router.stateToUrl({ model: "some.model", resId: 2 })).toBe("/betopiaerp/some.model/2");
+        expect(router.stateToUrl({ active_id: 5, model: "some.model" })).toBe("/betopiaerp/5/some.model");
         expect(router.stateToUrl({ active_id: 5, model: "some.model", resId: 2 })).toBe(
-            "/BetopiaERP/5/some.model/2"
+            "/betopiaerp/5/some.model/2"
         );
         expect(router.stateToUrl({ active_id: 5, model: "some.model", resId: "new" })).toBe(
-            "/BetopiaERP/5/some.model/new"
+            "/betopiaerp/5/some.model/new"
         );
         expect(
             router.stateToUrl({ active_id: 5, model: "some.model", view_type: "some_viewtype" })
-        ).toBe("/BetopiaERP/5/some.model?view_type=some_viewtype");
+        ).toBe("/betopiaerp/5/some.model?view_type=some_viewtype");
         // edge cases
         expect(
             router.stateToUrl({
@@ -157,85 +157,85 @@ describe("stateToUrl", () => {
                 resId: 2,
                 some_key: "some_value",
             })
-        ).toBe("/BetopiaERP/5/some-path/2?some_key=some_value", {
+        ).toBe("/betopiaerp/5/some-path/2?some_key=some_value", {
             message: "pieces of state unrelated to actions are added as query string",
         });
         expect(
             router.stateToUrl({ active_id: 5, action: "some-path", model: "some.model", resId: 2 })
-        ).toBe("/BetopiaERP/5/some-path/2", { message: "action has priority on model" });
+        ).toBe("/betopiaerp/5/some-path/2", { message: "action has priority on model" });
         expect(
             router.stateToUrl({ active_id: 5, model: "some.model", resId: 2, view_type: "list" })
         ).toBe(
-            "/BetopiaERP/5/some.model/2?view_type=list",
+            "/betopiaerp/5/some.model/2?view_type=list",
             { message: "view_type and resId aren't incompatible" }
             // Should they be? view_type will just be stripped by action_service
         );
     });
 
     test("actionStack: one action", () => {
-        expect(router.stateToUrl({ actionStack: [] })).toBe("/BetopiaERP");
+        expect(router.stateToUrl({ actionStack: [] })).toBe("/betopiaerp");
         // action
         expect(router.stateToUrl({ actionStack: [{ action: "some-path" }] })).toBe(
-            "/BetopiaERP/some-path"
+            "/betopiaerp/some-path"
         );
         expect(router.stateToUrl({ actionStack: [{ active_id: 5, action: "some-path" }] })).toBe(
-            "/BetopiaERP/5/some-path"
+            "/betopiaerp/5/some-path"
         );
         expect(router.stateToUrl({ actionStack: [{ action: "some-path", resId: 2 }] })).toBe(
-            "/BetopiaERP/some-path/2"
+            "/betopiaerp/some-path/2"
         );
         expect(
             router.stateToUrl({ actionStack: [{ active_id: 5, action: "some-path", resId: 2 }] })
-        ).toBe("/BetopiaERP/5/some-path/2");
+        ).toBe("/betopiaerp/5/some-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, action: "some-path", resId: "new" }],
             })
-        ).toBe("/BetopiaERP/5/some-path/new");
+        ).toBe("/betopiaerp/5/some-path/new");
         expect(router.stateToUrl({ actionStack: [{ action: 1, resId: 2 }] })).toBe(
-            "/BetopiaERP/action-1/2",
+            "/betopiaerp/action-1/2",
             {
                 message: "numerical action id instead of path",
             }
         );
         expect(router.stateToUrl({ actionStack: [{ action: "module.xml_id", resId: 2 }] })).toBe(
-            "/BetopiaERP/action-module.xml_id/2",
+            "/betopiaerp/action-module.xml_id/2",
             { message: "action xml_id instead of path" }
         );
         // model
         expect(router.stateToUrl({ actionStack: [{ model: "some.model" }] })).toBe(
-            "/BetopiaERP/some.model"
+            "/betopiaerp/some.model"
         );
         expect(router.stateToUrl({ actionStack: [{ model: "some.model", resId: 2 }] })).toBe(
-            "/BetopiaERP/some.model/2"
+            "/betopiaerp/some.model/2"
         );
         expect(router.stateToUrl({ actionStack: [{ active_id: 5, model: "some.model" }] })).toBe(
-            "/BetopiaERP/5/some.model"
+            "/betopiaerp/5/some.model"
         );
         expect(
             router.stateToUrl({ actionStack: [{ active_id: 5, model: "some.model", resId: 2 }] })
-        ).toBe("/BetopiaERP/5/some.model/2");
+        ).toBe("/betopiaerp/5/some.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model", resId: "new" }],
             })
-        ).toBe("/BetopiaERP/5/some.model/new");
+        ).toBe("/betopiaerp/5/some.model/new");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model", view_type: "some_viewtype" }],
             })
-        ).toBe("/BetopiaERP/5/some.model", { message: "view_type is ignored in the action stack" });
+        ).toBe("/betopiaerp/5/some.model", { message: "view_type is ignored in the action stack" });
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model" }],
                 view_type: "some_viewtype",
             })
-        ).toBe("/BetopiaERP/5/some.model?view_type=some_viewtype", {
+        ).toBe("/betopiaerp/5/some.model?view_type=some_viewtype", {
             message: "view_type is added if it's on the state itself",
         });
         expect(
             router.stateToUrl({ actionStack: [{ active_id: 5, model: "model_no_dot", resId: 2 }] })
-        ).toBe("/BetopiaERP/5/m-model_no_dot/2");
+        ).toBe("/betopiaerp/5/m-model_no_dot/2");
         // edge cases
         expect(
             router.stateToUrl({
@@ -243,7 +243,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2, some_key: "some_value" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/2", {
+        ).toBe("/betopiaerp/5/some-path/2", {
             message: "pieces of state unrelated to actions are ignored in the actionStack",
         });
         expect(
@@ -251,7 +251,7 @@ describe("stateToUrl", () => {
                 actionStack: [{ active_id: 5, action: "some-path", resId: 2 }],
                 some_key: "some_value",
             })
-        ).toBe("/BetopiaERP/5/some-path/2?some_key=some_value", {
+        ).toBe("/betopiaerp/5/some-path/2?some_key=some_value", {
             message:
                 "pieces of state unrelated to actions are added as query string even with actionStack",
         });
@@ -259,14 +259,14 @@ describe("stateToUrl", () => {
             router.stateToUrl({
                 actionStack: [{ active_id: 5, action: "some-path", model: "some.model", resId: 2 }],
             })
-        ).toBe("/BetopiaERP/5/some-path/2", { message: "action has priority on model" });
+        ).toBe("/betopiaerp/5/some-path/2", { message: "action has priority on model" });
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model", resId: 2 }],
                 view_type: "list",
             })
         ).toBe(
-            "/BetopiaERP/5/some.model/2?view_type=list",
+            "/betopiaerp/5/some.model/2?view_type=list",
             { message: "view_type and resId aren't incompatible" }
             // Should they be? view_type will just be stripped by action_service
         );
@@ -276,12 +276,12 @@ describe("stateToUrl", () => {
         // different actions
         expect(
             router.stateToUrl({ actionStack: [{ action: "some-path" }, { action: "other-path" }] })
-        ).toBe("/BetopiaERP/some-path/other-path");
+        ).toBe("/betopiaerp/some-path/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, action: "some-path" }, { action: "other-path" }],
             })
-        ).toBe("/BetopiaERP/5/some-path/other-path");
+        ).toBe("/betopiaerp/5/some-path/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ action: "some-path" }, { active_id: 7, action: "other-path" }],
@@ -289,7 +289,7 @@ describe("stateToUrl", () => {
         ).toBe(
             // On reload, this will generate a form view for the first action even though there was
             // originally none. This is probably fine.
-            "/BetopiaERP/some-path/7/other-path"
+            "/betopiaerp/some-path/7/other-path"
         );
         expect(
             router.stateToUrl({
@@ -298,7 +298,7 @@ describe("stateToUrl", () => {
         ).toBe(
             // On reload, the second action will have an active_id even though it originally didn't
             // have one. This might be a problem?
-            "/BetopiaERP/some-path/2/other-path"
+            "/betopiaerp/some-path/2/other-path"
         );
         expect(
             router.stateToUrl({
@@ -307,7 +307,7 @@ describe("stateToUrl", () => {
         ).toBe(
             // On reload, this will generate an action in the default multi-record view for the second
             // action. This is the desired behaviour.
-            "/BetopiaERP/some-path/other-path/2"
+            "/betopiaerp/some-path/other-path/2"
         );
         expect(
             router.stateToUrl({
@@ -316,7 +316,7 @@ describe("stateToUrl", () => {
                     { action: "other-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/2/other-path");
+        ).toBe("/betopiaerp/5/some-path/2/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -324,7 +324,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/2");
+        ).toBe("/betopiaerp/some-path/5/other-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -332,7 +332,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: "new" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/new");
+        ).toBe("/betopiaerp/some-path/5/other-path/new");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -340,7 +340,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path", {
+        ).toBe("/betopiaerp/some-path/5/other-path", {
             message:
                 "action with resId followed by action with same value as active_id is not duplicated",
         });
@@ -351,12 +351,12 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/2");
+        ).toBe("/betopiaerp/some-path/5/other-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [{ action: 1 }, { active_id: 5, action: 6, resId: 2 }],
             })
-        ).toBe("/BetopiaERP/action-1/5/action-6/2", { message: "numerical actions" });
+        ).toBe("/betopiaerp/action-1/5/action-6/2", { message: "numerical actions" });
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -364,20 +364,20 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "module.other_xml_id", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/action-module.xml_id/5/action-module.other_xml_id/2", {
+        ).toBe("/betopiaerp/action-module.xml_id/5/action-module.other_xml_id/2", {
             message: "actions as xml_ids",
         });
         // same action twice
         expect(
             router.stateToUrl({ actionStack: [{ action: "some-path" }, { action: "some-path" }] })
-        ).toBe("/BetopiaERP/some-path", {
+        ).toBe("/betopiaerp/some-path", {
             message: "consolidates identical actions into one path segment",
         });
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, action: "some-path" }, { action: "some-path" }],
             })
-        ).toBe("/BetopiaERP/5/some-path/some-path", {
+        ).toBe("/betopiaerp/5/some-path/some-path", {
             message: "doesn't consolidate the same action with different active_id",
         });
         expect(
@@ -387,7 +387,7 @@ describe("stateToUrl", () => {
                     { active_id: 7, action: "some-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/7/some-path", {
+        ).toBe("/betopiaerp/some-path/7/some-path", {
             message:
                 "doesn't remove multirecord action if it follows the same action in mono-record mode",
         });
@@ -395,7 +395,7 @@ describe("stateToUrl", () => {
             router.stateToUrl({
                 actionStack: [{ action: "some-path", resId: 2 }, { action: "some-path" }],
             })
-        ).toBe("/BetopiaERP/some-path/2/some-path");
+        ).toBe("/betopiaerp/some-path/2/some-path");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -403,7 +403,7 @@ describe("stateToUrl", () => {
                     { active_id: 7, action: "some-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/7/some-path/7/some-path", {
+        ).toBe("/betopiaerp/7/some-path/7/some-path", {
             message:
                 "doesn't remove multirecord action if it follows the same action in mono-record mode even if the active_id are the same",
         });
@@ -411,7 +411,7 @@ describe("stateToUrl", () => {
             router.stateToUrl({
                 actionStack: [{ action: "some-path" }, { action: "some-path", resId: 2 }],
             })
-        ).toBe("/BetopiaERP/some-path/2", {
+        ).toBe("/betopiaerp/some-path/2", {
             message: "consolidates multi-record action with mono-record action",
         });
         expect(
@@ -421,7 +421,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/2", {
+        ).toBe("/betopiaerp/5/some-path/2", {
             message:
                 "consolidates multi-record action with mono-record action if they have the same active_id",
         });
@@ -432,7 +432,7 @@ describe("stateToUrl", () => {
                     { action: "some-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/2/some-path");
+        ).toBe("/betopiaerp/5/some-path/2/some-path");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -440,7 +440,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some-path/2", {
+        ).toBe("/betopiaerp/some-path/5/some-path/2", {
             message:
                 "doesn't consolidate mono-record action into preceding multi-record action if active_id is not the same",
         });
@@ -451,7 +451,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: "new" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some-path/new");
+        ).toBe("/betopiaerp/some-path/5/some-path/new");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -459,7 +459,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some-path", {
+        ).toBe("/betopiaerp/some-path/5/some-path", {
             message:
                 "action with resId followed by action with same value as active_id is not duplicated",
         });
@@ -470,7 +470,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some-path/2", {
+        ).toBe("/betopiaerp/some-path/5/some-path/2", {
             message: "doesn't consolidate two mono-record actions",
         });
         expect(
@@ -480,14 +480,14 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/5/some-path/2", {
+        ).toBe("/betopiaerp/5/some-path/5/some-path/2", {
             message: "doesn't consolidate two mono-record actions even with same active_id",
         });
         expect(
             router.stateToUrl({
                 actionStack: [{ action: 1 }, { active_id: 5, action: 1, resId: 2 }],
             })
-        ).toBe("/BetopiaERP/action-1/5/action-1/2", { message: "numerical actions" });
+        ).toBe("/betopiaerp/action-1/5/action-1/2", { message: "numerical actions" });
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -495,33 +495,33 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "module.xml_id", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/action-module.xml_id/5/action-module.xml_id/2", {
+        ).toBe("/betopiaerp/action-module.xml_id/5/action-module.xml_id/2", {
             message: "actions as xml_ids",
         });
         // model
         expect(
             router.stateToUrl({ actionStack: [{ model: "some.model" }, { model: "other.model" }] })
-        ).toBe("/BetopiaERP/some.model/other.model");
+        ).toBe("/betopiaerp/some.model/other.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model" }, { model: "other.model" }],
             })
-        ).toBe("/BetopiaERP/5/some.model/other.model");
+        ).toBe("/betopiaerp/5/some.model/other.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model" }, { active_id: 7, model: "other.model" }],
             })
-        ).toBe("/BetopiaERP/some.model/7/other.model");
+        ).toBe("/betopiaerp/some.model/7/other.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model", resId: 2 }, { model: "other.model" }],
             })
-        ).toBe("/BetopiaERP/some.model/2/other.model");
+        ).toBe("/betopiaerp/some.model/2/other.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model" }, { model: "other.model", resId: 2 }],
             })
-        ).toBe("/BetopiaERP/some.model/other.model/2");
+        ).toBe("/betopiaerp/some.model/other.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -529,7 +529,7 @@ describe("stateToUrl", () => {
                     { model: "other.model" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some.model/2/other.model");
+        ).toBe("/betopiaerp/5/some.model/2/other.model");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -537,7 +537,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "other.model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other.model/2");
+        ).toBe("/betopiaerp/some.model/5/other.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -545,7 +545,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "other.model", resId: "new" },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other.model/new");
+        ).toBe("/betopiaerp/some.model/5/other.model/new");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -553,7 +553,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "other.model" },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other.model", {
+        ).toBe("/betopiaerp/some.model/5/other.model", {
             message:
                 "action with resId followed by action with same value as active_id is not duplicated",
         });
@@ -564,7 +564,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "other.model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other.model/2");
+        ).toBe("/betopiaerp/some.model/5/other.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -572,31 +572,31 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "no_dot_model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/m-model_no_dot/5/m-no_dot_model/2");
+        ).toBe("/betopiaerp/m-model_no_dot/5/m-no_dot_model/2");
         // action + model
         expect(
             router.stateToUrl({ actionStack: [{ action: "some-path" }, { model: "some.model" }] })
-        ).toBe("/BetopiaERP/some-path/some.model");
+        ).toBe("/betopiaerp/some-path/some.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, action: "some-path" }, { model: "some.model" }],
             })
-        ).toBe("/BetopiaERP/5/some-path/some.model");
+        ).toBe("/betopiaerp/5/some-path/some.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ action: "some-path" }, { active_id: 7, model: "some.model" }],
             })
-        ).toBe("/BetopiaERP/some-path/7/some.model");
+        ).toBe("/betopiaerp/some-path/7/some.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ action: "some-path", resId: 2 }, { model: "some.model" }],
             })
-        ).toBe("/BetopiaERP/some-path/2/some.model");
+        ).toBe("/betopiaerp/some-path/2/some.model");
         expect(
             router.stateToUrl({
                 actionStack: [{ action: "some-path" }, { model: "some.model", resId: 2 }],
             })
-        ).toBe("/BetopiaERP/some-path/some.model/2");
+        ).toBe("/betopiaerp/some-path/some.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -604,7 +604,7 @@ describe("stateToUrl", () => {
                     { model: "some.model" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some-path/2/some.model");
+        ).toBe("/betopiaerp/5/some-path/2/some.model");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -612,7 +612,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "some.model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some.model/2");
+        ).toBe("/betopiaerp/some-path/5/some.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -620,7 +620,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "some.model", resId: "new" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some.model/new");
+        ).toBe("/betopiaerp/some-path/5/some.model/new");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -628,7 +628,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "some.model" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some.model", {
+        ).toBe("/betopiaerp/some-path/5/some.model", {
             message:
                 "action with resId followed by action with same value as active_id is not duplicated",
         });
@@ -639,7 +639,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "some.model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/some.model/2");
+        ).toBe("/betopiaerp/some-path/5/some.model/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -647,7 +647,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "model_no_dot", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/action-1/5/m-model_no_dot/2");
+        ).toBe("/betopiaerp/action-1/5/m-model_no_dot/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -655,31 +655,31 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "model_no_dot", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/action-module.xml_id/5/m-model_no_dot/2");
+        ).toBe("/betopiaerp/action-module.xml_id/5/m-model_no_dot/2");
         // model + action
         expect(
             router.stateToUrl({ actionStack: [{ model: "some.model" }, { action: "other-path" }] })
-        ).toBe("/BetopiaERP/some.model/other-path");
+        ).toBe("/betopiaerp/some.model/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ active_id: 5, model: "some.model" }, { action: "other-path" }],
             })
-        ).toBe("/BetopiaERP/5/some.model/other-path");
+        ).toBe("/betopiaerp/5/some.model/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model" }, { active_id: 7, action: "other-path" }],
             })
-        ).toBe("/BetopiaERP/some.model/7/other-path");
+        ).toBe("/betopiaerp/some.model/7/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model", resId: 2 }, { action: "other-path" }],
             })
-        ).toBe("/BetopiaERP/some.model/2/other-path");
+        ).toBe("/betopiaerp/some.model/2/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [{ model: "some.model" }, { action: "other-path", resId: 2 }],
             })
-        ).toBe("/BetopiaERP/some.model/other-path/2");
+        ).toBe("/betopiaerp/some.model/other-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -687,7 +687,7 @@ describe("stateToUrl", () => {
                     { action: "other-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/5/some.model/2/other-path");
+        ).toBe("/betopiaerp/5/some.model/2/other-path");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -695,7 +695,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other-path/2");
+        ).toBe("/betopiaerp/some.model/5/other-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -703,7 +703,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: "new" },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other-path/new");
+        ).toBe("/betopiaerp/some.model/5/other-path/new");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -711,7 +711,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other-path", {
+        ).toBe("/betopiaerp/some.model/5/other-path", {
             message:
                 "action with resId followed by action with same value as active_id is not duplicated",
         });
@@ -722,7 +722,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/5/other-path/2");
+        ).toBe("/betopiaerp/some.model/5/other-path/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -730,7 +730,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: 1, resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/m-model_no_dot/5/action-1/2");
+        ).toBe("/betopiaerp/m-model_no_dot/5/action-1/2");
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -738,7 +738,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "module.xml_id", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/m-model_no_dot/5/action-module.xml_id/2");
+        ).toBe("/betopiaerp/m-model_no_dot/5/action-module.xml_id/2");
 
         // edge cases
         expect(
@@ -748,7 +748,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", resId: 2, other_key: "other_value" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/2", {
+        ).toBe("/betopiaerp/some-path/5/other-path/2", {
             message: "pieces of state unrelated to actions are ignored in the actionStack",
         });
         expect(
@@ -759,7 +759,7 @@ describe("stateToUrl", () => {
                 ],
                 some_key: "some_value",
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/2?some_key=some_value", {
+        ).toBe("/betopiaerp/some-path/5/other-path/2?some_key=some_value", {
             message:
                 "pieces of state unrelated to actions are added as query string even with actionStack",
         });
@@ -770,7 +770,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path", model: "other.model", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/5/other-path/2", { message: "action has priority on model" });
+        ).toBe("/betopiaerp/some-path/5/other-path/2", { message: "action has priority on model" });
         expect(
             router.stateToUrl({
                 actionStack: [
@@ -779,7 +779,7 @@ describe("stateToUrl", () => {
                 ],
                 view_type: "list",
             })
-        ).toBe("/BetopiaERP/some-path/5/some.model/2?view_type=list", {
+        ).toBe("/betopiaerp/some-path/5/some.model/2?view_type=list", {
             message: "view_type and resId aren't incompatible",
         });
         expect(
@@ -789,7 +789,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "other-path" },
                 ],
             })
-        ).toBe("/BetopiaERP/some-path/2/5/other-path", {
+        ).toBe("/betopiaerp/some-path/2/5/other-path", {
             message:
                 "action with resId followed by action with different active_id gets both ids in a row",
         });
@@ -800,7 +800,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, model: "other.model" },
                 ],
             })
-        ).toBe("/BetopiaERP/some.model/2/5/other.model", {
+        ).toBe("/betopiaerp/some.model/2/5/other.model", {
             message:
                 "action with resId followed by action with different active_id gets both ids in a row",
         });
@@ -812,7 +812,7 @@ describe("stateToUrl", () => {
                     { active_id: 5, action: "some-path", resId: 2 },
                 ],
             })
-        ).toBe("/BetopiaERP/other-path/5/some-path/2", {
+        ).toBe("/betopiaerp/other-path/5/some-path/2", {
             message:
                 "active_id of last action is correctly removed even if previous action's active id is also removed because of the preceding resId",
         });
@@ -821,11 +821,11 @@ describe("stateToUrl", () => {
 
 describe("urlToState", () => {
     test("deserialize queryString", () => {
-        expect(_urlToState("/BetopiaERP?a=11&g=summer%20wine")).toEqual({
+        expect(_urlToState("/betopiaerp?a=11&g=summer%20wine")).toEqual({
             a: 11,
             g: "summer wine",
         });
-        expect(_urlToState("/BetopiaERP?g=2&c=&e=kloug%2Cgloubi")).toEqual({
+        expect(_urlToState("/betopiaerp?g=2&c=&e=kloug%2Cgloubi")).toEqual({
             g: 2,
             c: "",
             e: "kloug,gloubi",
@@ -871,18 +871,18 @@ describe("urlToState", () => {
 
     test("deserialize single action", () => {
         expect(_urlToState("")).toEqual({});
-        expect(_urlToState("/BetopiaERP")).toEqual({});
+        expect(_urlToState("/betopiaerp")).toEqual({});
         // action
-        expect(_urlToState("/BetopiaERP/some-path")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path")).toEqual({
             action: "some-path",
             actionStack: [{ action: "some-path" }],
         });
-        expect(_urlToState("/BetopiaERP/5/some-path")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path")).toEqual({
             active_id: 5,
             action: "some-path",
             actionStack: [{ active_id: 5, action: "some-path" }],
         });
-        expect(_urlToState("/BetopiaERP/some-path/2")).toEqual(
+        expect(_urlToState("/betopiaerp/some-path/2")).toEqual(
             {
                 action: "some-path",
                 resId: 2,
@@ -890,7 +890,7 @@ describe("urlToState", () => {
             },
             { message: "two actions are created for action with resId" }
         );
-        expect(_urlToState("/BetopiaERP/some-path/new")).toEqual(
+        expect(_urlToState("/betopiaerp/some-path/new")).toEqual(
             {
                 action: "some-path",
                 resId: "new",
@@ -898,7 +898,7 @@ describe("urlToState", () => {
             },
             { message: "new record" }
         );
-        expect(_urlToState("/BetopiaERP/5/some-path/2")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path/2")).toEqual({
             active_id: 5,
             action: "some-path",
             resId: 2,
@@ -914,22 +914,22 @@ describe("urlToState", () => {
                 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/action-1/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-1/2")).toEqual({
             action: 1,
             resId: 2,
             actionStack: [{ action: 1 }, { action: 1, resId: 2 }],
         });
-        expect(_urlToState("/BetopiaERP/action-module.xml_id/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-module.xml_id/2")).toEqual({
             action: "module.xml_id",
             resId: 2,
             actionStack: [{ action: "module.xml_id" }, { action: "module.xml_id", resId: 2 }],
         });
         // model
-        expect(_urlToState("/BetopiaERP/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model")).toEqual({
             model: "some.model",
             actionStack: [{ model: "some.model" }],
         });
-        expect(_urlToState("/BetopiaERP/some.model/2")).toEqual(
+        expect(_urlToState("/betopiaerp/some.model/2")).toEqual(
             {
                 model: "some.model",
                 resId: 2,
@@ -937,7 +937,7 @@ describe("urlToState", () => {
             },
             { message: "single action is created for model with resId" }
         );
-        expect(_urlToState("/BetopiaERP/some.model/new")).toEqual(
+        expect(_urlToState("/betopiaerp/some.model/new")).toEqual(
             {
                 model: "some.model",
                 resId: "new",
@@ -945,18 +945,18 @@ describe("urlToState", () => {
             },
             { message: "new record" }
         );
-        expect(_urlToState("/BetopiaERP/5/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some.model")).toEqual({
             active_id: 5,
             model: "some.model",
             actionStack: [{ active_id: 5, model: "some.model" }],
         });
-        expect(_urlToState("/BetopiaERP/5/some.model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some.model/2")).toEqual({
             active_id: 5,
             model: "some.model",
             resId: 2,
             actionStack: [{ active_id: 5, model: "some.model", resId: 2 }],
         });
-        expect(_urlToState("/BetopiaERP/5/some.model?view_type=some_viewtype")).toEqual(
+        expect(_urlToState("/betopiaerp/5/some.model?view_type=some_viewtype")).toEqual(
             {
                 active_id: 5,
                 model: "some.model",
@@ -965,13 +965,13 @@ describe("urlToState", () => {
             },
             { message: "view_type doesn't end up in the actionStack" }
         );
-        expect(_urlToState("/BetopiaERP/m-model_no_dot/2")).toEqual({
+        expect(_urlToState("/betopiaerp/m-model_no_dot/2")).toEqual({
             model: "model_no_dot",
             resId: 2,
             actionStack: [{ model: "model_no_dot", resId: 2 }],
         });
         // edge cases
-        expect(_urlToState("/BetopiaERP/5/some-path/2?some_key=some_value")).toEqual(
+        expect(_urlToState("/betopiaerp/5/some-path/2?some_key=some_value")).toEqual(
             {
                 active_id: 5,
                 action: "some-path",
@@ -987,7 +987,7 @@ describe("urlToState", () => {
                     "pieces of state unrelated to actions end up on the state but not in the actionStack",
             }
         );
-        expect(_urlToState("/BetopiaERP/5/some.model/2?view_type=list")).toEqual(
+        expect(_urlToState("/betopiaerp/5/some.model/2?view_type=list")).toEqual(
             {
                 active_id: 5,
                 model: "some.model",
@@ -1001,15 +1001,15 @@ describe("urlToState", () => {
 
     test("deserialize multiple actions", () => {
         // action
-        expect(_urlToState("/BetopiaERP/some-path/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/other-path")).toEqual({
             action: "other-path",
             actionStack: [{ action: "some-path" }, { action: "other-path" }],
         });
-        expect(_urlToState("/BetopiaERP/5/some-path/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path/other-path")).toEqual({
             action: "other-path",
             actionStack: [{ active_id: 5, action: "some-path" }, { action: "other-path" }],
         });
-        expect(_urlToState("/BetopiaERP/some-path/2/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/2/other-path")).toEqual({
             action: "other-path",
             active_id: 2,
             actionStack: [
@@ -1018,7 +1018,7 @@ describe("urlToState", () => {
                 { active_id: 2, action: "other-path" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/other-path/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/other-path/2")).toEqual({
             action: "other-path",
             resId: 2,
             actionStack: [
@@ -1027,7 +1027,7 @@ describe("urlToState", () => {
                 { action: "other-path", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/5/some-path/2/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path/2/other-path")).toEqual({
             action: "other-path",
             active_id: 2,
             actionStack: [
@@ -1036,7 +1036,7 @@ describe("urlToState", () => {
                 { active_id: 2, action: "other-path" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/5/other-path/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/5/other-path/2")).toEqual({
             active_id: 5,
             action: "other-path",
             resId: 2,
@@ -1047,7 +1047,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: "other-path", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/5/other-path/new")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/5/other-path/new")).toEqual({
             active_id: 5,
             action: "other-path",
             resId: "new",
@@ -1058,7 +1058,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: "other-path", resId: "new" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/action-1/5/action-6/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-1/5/action-6/2")).toEqual({
             active_id: 5,
             action: 6,
             resId: 2,
@@ -1069,7 +1069,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: 6, resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/action-module.xml_id/5/action-module.other_xml_id/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-module.xml_id/5/action-module.other_xml_id/2")).toEqual({
             active_id: 5,
             action: "module.other_xml_id",
             resId: 2,
@@ -1081,7 +1081,7 @@ describe("urlToState", () => {
             ],
         });
         // model
-        expect(_urlToState("/BetopiaERP/some.model/other.model")).toEqual(
+        expect(_urlToState("/betopiaerp/some.model/other.model")).toEqual(
             {
                 model: "other.model",
                 actionStack: [{ model: "other.model" }],
@@ -1091,7 +1091,7 @@ describe("urlToState", () => {
                     "model not followed by resId doesn't generate an action unless it's the last one",
             }
         );
-        expect(_urlToState("/BetopiaERP/5/some.model/other.model")).toEqual(
+        expect(_urlToState("/betopiaerp/5/some.model/other.model")).toEqual(
             {
                 model: "other.model",
                 actionStack: [{ model: "other.model" }],
@@ -1101,7 +1101,7 @@ describe("urlToState", () => {
                     "model not followed by resId doesn't generate an action unless it's the last one, even with an active_id",
             }
         );
-        expect(_urlToState("/BetopiaERP/some.model/7/other.model")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/7/other.model")).toEqual({
             active_id: 7,
             model: "other.model",
             actionStack: [
@@ -1109,12 +1109,12 @@ describe("urlToState", () => {
                 { active_id: 7, model: "other.model" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/other.model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/other.model/2")).toEqual({
             model: "other.model",
             resId: 2,
             actionStack: [{ model: "other.model", resId: 2 }],
         });
-        expect(_urlToState("/BetopiaERP/5/some.model/2/other.model")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some.model/2/other.model")).toEqual({
             active_id: 2,
             model: "other.model",
             actionStack: [
@@ -1122,7 +1122,7 @@ describe("urlToState", () => {
                 { active_id: 2, model: "other.model" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/5/other.model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/5/other.model/2")).toEqual({
             active_id: 5,
             model: "other.model",
             resId: 2,
@@ -1131,7 +1131,7 @@ describe("urlToState", () => {
                 { active_id: 5, model: "other.model", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/5/other.model/new")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/5/other.model/new")).toEqual({
             active_id: 5,
             model: "other.model",
             resId: "new",
@@ -1140,7 +1140,7 @@ describe("urlToState", () => {
                 { active_id: 5, model: "other.model", resId: "new" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/m-model_no_dot/5/m-no_dot_model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/m-model_no_dot/5/m-no_dot_model/2")).toEqual({
             active_id: 5,
             model: "no_dot_model",
             resId: 2,
@@ -1150,15 +1150,15 @@ describe("urlToState", () => {
             ],
         });
         // action + model
-        expect(_urlToState("/BetopiaERP/some-path/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/some.model")).toEqual({
             model: "some.model",
             actionStack: [{ action: "some-path" }, { model: "some.model" }],
         });
-        expect(_urlToState("/BetopiaERP/5/some-path/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path/some.model")).toEqual({
             model: "some.model",
             actionStack: [{ active_id: 5, action: "some-path" }, { model: "some.model" }],
         });
-        expect(_urlToState("/BetopiaERP/some-path/7/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/7/some.model")).toEqual({
             active_id: 7,
             model: "some.model",
             actionStack: [
@@ -1167,12 +1167,12 @@ describe("urlToState", () => {
                 { active_id: 7, model: "some.model" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/some.model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/some.model/2")).toEqual({
             model: "some.model",
             resId: 2,
             actionStack: [{ action: "some-path" }, { model: "some.model", resId: 2 }],
         });
-        expect(_urlToState("/BetopiaERP/5/some-path/2/some.model")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some-path/2/some.model")).toEqual({
             active_id: 2,
             model: "some.model",
             actionStack: [
@@ -1181,7 +1181,7 @@ describe("urlToState", () => {
                 { active_id: 2, model: "some.model" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/5/some.model/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/5/some.model/2")).toEqual({
             active_id: 5,
             model: "some.model",
             resId: 2,
@@ -1191,7 +1191,7 @@ describe("urlToState", () => {
                 { active_id: 5, model: "some.model", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some-path/5/some.model/new")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/5/some.model/new")).toEqual({
             active_id: 5,
             model: "some.model",
             resId: "new",
@@ -1201,7 +1201,7 @@ describe("urlToState", () => {
                 { active_id: 5, model: "some.model", resId: "new" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/action-1/5/m-model_no_dot/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-1/5/m-model_no_dot/2")).toEqual({
             active_id: 5,
             model: "model_no_dot",
             resId: 2,
@@ -1211,7 +1211,7 @@ describe("urlToState", () => {
                 { active_id: 5, model: "model_no_dot", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/action-module.xml_id/5/m-model_no_dot/2")).toEqual({
+        expect(_urlToState("/betopiaerp/action-module.xml_id/5/m-model_no_dot/2")).toEqual({
             active_id: 5,
             model: "model_no_dot",
             resId: 2,
@@ -1222,15 +1222,15 @@ describe("urlToState", () => {
             ],
         });
         // model + action
-        expect(_urlToState("/BetopiaERP/some.model/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/other-path")).toEqual({
             action: "other-path",
             actionStack: [{ action: "other-path" }],
         });
-        expect(_urlToState("/BetopiaERP/5/some.model/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some.model/other-path")).toEqual({
             action: "other-path",
             actionStack: [{ action: "other-path" }],
         });
-        expect(_urlToState("/BetopiaERP/some.model/2/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/2/other-path")).toEqual({
             active_id: 2,
             action: "other-path",
             actionStack: [
@@ -1238,12 +1238,12 @@ describe("urlToState", () => {
                 { active_id: 2, action: "other-path" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/other-path/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/other-path/2")).toEqual({
             action: "other-path",
             resId: 2,
             actionStack: [{ action: "other-path" }, { action: "other-path", resId: 2 }],
         });
-        expect(_urlToState("/BetopiaERP/5/some.model/2/other-path")).toEqual({
+        expect(_urlToState("/betopiaerp/5/some.model/2/other-path")).toEqual({
             active_id: 2,
             action: "other-path",
             actionStack: [
@@ -1251,7 +1251,7 @@ describe("urlToState", () => {
                 { active_id: 2, action: "other-path" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/5/other-path/2")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/5/other-path/2")).toEqual({
             active_id: 5,
             action: "other-path",
             resId: 2,
@@ -1261,7 +1261,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: "other-path", resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/some.model/5/other-path/new")).toEqual({
+        expect(_urlToState("/betopiaerp/some.model/5/other-path/new")).toEqual({
             active_id: 5,
             action: "other-path",
             resId: "new",
@@ -1271,7 +1271,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: "other-path", resId: "new" },
             ],
         });
-        expect(_urlToState("/BetopiaERP/m-model_no_dot/5/action-1/2")).toEqual({
+        expect(_urlToState("/betopiaerp/m-model_no_dot/5/action-1/2")).toEqual({
             active_id: 5,
             action: 1,
             resId: 2,
@@ -1281,7 +1281,7 @@ describe("urlToState", () => {
                 { active_id: 5, action: 1, resId: 2 },
             ],
         });
-        expect(_urlToState("/BetopiaERP/m-model_no_dot/5/action-module.xml_id/2")).toEqual({
+        expect(_urlToState("/betopiaerp/m-model_no_dot/5/action-module.xml_id/2")).toEqual({
             active_id: 5,
             action: "module.xml_id",
             resId: 2,
@@ -1293,7 +1293,7 @@ describe("urlToState", () => {
         });
 
         // edge cases
-        expect(_urlToState("/BetopiaERP/some-path/5/other-path/2?some_key=some_value")).toEqual({
+        expect(_urlToState("/betopiaerp/some-path/5/other-path/2?some_key=some_value")).toEqual({
             active_id: 5,
             action: "other-path",
             resId: 2,
@@ -1305,7 +1305,7 @@ describe("urlToState", () => {
             ],
             some_key: "some_value",
         });
-        expect(_urlToState("/BetopiaERP/some-path/5/some.model?view_type=list")).toEqual(
+        expect(_urlToState("/betopiaerp/some-path/5/some.model?view_type=list")).toEqual(
             {
                 active_id: 5,
                 model: "some.model",
@@ -1318,7 +1318,7 @@ describe("urlToState", () => {
             },
             { message: "view_type doesn't end up in the actionStack" }
         );
-        expect(_urlToState("/BetopiaERP/some-path/5/some.model/2?view_type=list")).toEqual(
+        expect(_urlToState("/betopiaerp/some-path/5/some.model/2?view_type=list")).toEqual(
             {
                 active_id: 5,
                 model: "some.model",
@@ -1332,7 +1332,7 @@ describe("urlToState", () => {
             },
             { message: "view_type and resId aren't incompatible" }
         );
-        expect(_urlToState("/BetopiaERP/some-path/2/5/other-path")).toEqual(
+        expect(_urlToState("/betopiaerp/some-path/2/5/other-path")).toEqual(
             {
                 active_id: 5,
                 action: "other-path",
@@ -1344,7 +1344,7 @@ describe("urlToState", () => {
             },
             { message: "resId immediately following active_id: action" }
         );
-        expect(_urlToState("/BetopiaERP/some.model/2/5/other.model")).toEqual(
+        expect(_urlToState("/betopiaerp/some.model/2/5/other.model")).toEqual(
             {
                 active_id: 5,
                 model: "other.model",
@@ -1463,7 +1463,7 @@ describe("pushState", () => {
     });
 
     test("undefined keys are not pushed", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         const onPushState = () => expect.step("pushed state");
         createRouter({ onPushState });
 
@@ -1556,10 +1556,10 @@ describe("pushState", () => {
         router.pushState({ k1: 2, k2: 3 });
         await tick();
         expect(router.current).toEqual({ k1: 2, k2: 3 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k2=3");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k2=3");
     });
     test("different order of keys shouldn't push a new state", async () => {
-        redirect("/BetopiaERP?k1=2");
+        redirect("/betopiaerp?k1=2");
         createRouter({
             onPushState: () => expect.step("pushState"),
         });
@@ -1571,13 +1571,13 @@ describe("pushState", () => {
         await tick();
         expect.verifySteps(["pushState"]);
         expect(router.current).toEqual({ a: 2, z: 1, k1: 2 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=2&z=1&a=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=2&z=1&a=2");
 
         router.pushState({ k1: 2 }, { replace: true });
         await tick();
         expect.verifySteps([]);
         expect(router.current).toEqual({ a: 2, z: 1, k1: 2 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=2&z=1&a=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=2&z=1&a=2");
     });
 });
 
@@ -1589,44 +1589,44 @@ describe("History", () => {
 
         router.pushState({ k1: 1 });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=1");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=1");
 
         router.pushState({ k2: 2 });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=1&k2=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=1&k2=2");
 
         router.pushState({ k3: 3 }, { replace: true });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k3=3");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k3=3");
 
         browser.history.back(); // Click on back button
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=1&k2=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=1&k2=2");
 
         router.pushState({ k4: 3 }, { replace: true }); // Click on a link
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k4=3");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k4=3");
 
         browser.history.back(); // Click on back button
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k1=1&k2=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k1=1&k2=2");
 
         browser.history.forward(); // Click on forward button
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k4=3");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k4=3");
 
         expect.verifySteps(["ROUTE_CHANGE", "ROUTE_CHANGE", "ROUTE_CHANGE"]);
     });
 
     test("unserialized parts of action stack are preserved when going back/forward", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter();
         expect(router.current).toEqual({});
         router.pushState({
             actionStack: [{ action: "some-path", displayName: "A cool display name" }],
         });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/some-path");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/some-path");
         expect(router.current).toEqual({
             actionStack: [{ action: "some-path", displayName: "A cool display name" }],
         });
@@ -1634,19 +1634,19 @@ describe("History", () => {
             actionStack: [{ action: "other-path", displayName: "A different display name" }],
         });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/other-path");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/other-path");
         expect(router.current).toEqual({
             actionStack: [{ action: "other-path", displayName: "A different display name" }],
         });
         browser.history.back();
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/some-path");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/some-path");
         expect(router.current).toEqual({
             actionStack: [{ action: "some-path", displayName: "A cool display name" }],
         });
         browser.history.forward();
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/other-path");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/other-path");
         expect(router.current).toEqual({
             actionStack: [{ action: "other-path", displayName: "A different display name" }],
         });
@@ -1661,29 +1661,29 @@ describe("History", () => {
         router.pushState({ k1: 1, k2: 2 });
         await tick();
         expect(router.current).toEqual({ k1: 1, k2: 2 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k2=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k2=2");
 
         router.pushState({ k3: 3 }, { replace: true }); // Click on a link
         await tick();
         expect(router.current).toEqual({ k3: 3 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k3=3");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k3=3");
 
         browser.history.back(); // Click on back button
         await tick();
         expect(router.current).toEqual({ k1: 1, k2: 2 });
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP?k2=2");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp?k2=2");
 
         expect.verifySteps(["ROUTE_CHANGE"]);
     });
 });
 
 describe("Scoped apps", () => {
-    test("url location is changed to /BetopiaERP if the client is not used in a standalone scoped app", async () => {
+    test("url location is changed to /betopiaerp if the client is not used in a standalone scoped app", async () => {
         Object.assign(browser.location, { pathname: "/scoped_app/some-path" });
         createRouter();
         router.pushState({ app_name: "some_app", path: "scoped_app/some_path" });
         await tick();
-        expect(browser.location.href).toBe("https://www.hoot.test/BetopiaERP/some-path?app_name=some_app&path=scoped_app%2Fsome_path");
+        expect(browser.location.href).toBe("https://www.hoot.test/betopiaerp/some-path?app_name=some_app&path=scoped_app%2Fsome_path");
     });
     test("url location is preserved as /scoped_app if the client is used in a standalone scoped app", async () => {
         mockMatchMedia({ ["display-mode"]: "standalone" });
@@ -1703,7 +1703,7 @@ describe("Retrocompatibility", () => {
         expect(browser.location.search).toBe("?a=114&k=c.e&f=1&g=91");
         expect(browser.location.hash).toBe("");
         expect(router.current).toEqual({ a: 114, k: "c.e", f: 1, g: 91 });
-        expect(browser.location.pathname).toBe("/BetopiaERP");
+        expect(browser.location.pathname).toBe("/betopiaerp");
     });
 
     test("parse an url with hash (key/values) and query string", async () => {
@@ -1714,38 +1714,38 @@ describe("Retrocompatibility", () => {
         expect(browser.location.search).toBe("?a=114&t=c.e&f=1&g=91");
         expect(browser.location.hash).toBe("");
         expect(router.current).toEqual({ a: 114, t: "c.e", f: 1, g: 91 });
-        expect(browser.location.pathname).toBe("/BetopiaERP");
+        expect(browser.location.pathname).toBe("/betopiaerp");
     });
 
     test("parse an url with hash (anchor link)", async () => {
-        redirect("/BetopiaERP#anchor");
+        redirect("/betopiaerp#anchor");
         browser.location.hash = "#anchor";
         createRouter();
         expect(browser.location.search).toBe("");
         expect(browser.location.hash).toBe("#anchor");
-        expect(browser.location.pathname).toBe("/BetopiaERP");
+        expect(browser.location.pathname).toBe("/betopiaerp");
         expect(router.current).toEqual({});
     });
 
     test("parse an url with hash (anchor link) and query string", async () => {
-        redirect("/BetopiaERP?a=114&g=c.e&f=1#anchor");
+        redirect("/betopiaerp?a=114&g=c.e&f=1#anchor");
         browser.location.hash = "#anchor";
         browser.location.search = "?a=114&g=c.e&f=1";
         createRouter();
         expect(browser.location.search).toBe("?a=114&g=c.e&f=1");
         expect(browser.location.hash).toBe("#anchor");
         expect(router.current).toEqual({ a: 114, g: "c.e", f: 1 });
-        expect(browser.location.pathname).toBe("/BetopiaERP");
+        expect(browser.location.pathname).toBe("/betopiaerp");
     });
 });
 
 describe("internal links", () => {
     test("click on internal link does a loadState instead of a full reload", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({ onPushState: () => expect.step("pushState") });
         const fixture = getFixture();
         const link = document.createElement("a");
-        link.href = "/BetopiaERP/some-action/2";
+        link.href = "/betopiaerp/some-action/2";
         fixture.appendChild(link);
 
         expect(router.current).toEqual({});
@@ -1776,13 +1776,13 @@ describe("internal links", () => {
     });
 
     test("click on internal link with children does a loadState instead of a full reload", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({ onPushState: () => expect.step("pushState") });
         const fixture = getFixture();
         const link = document.createElement("a");
         const span = document.createElement("span");
         link.appendChild(span);
-        link.href = "/BetopiaERP/some-action/2";
+        link.href = "/betopiaerp/some-action/2";
         fixture.appendChild(link);
 
         expect(router.current).toEqual({});
@@ -1813,11 +1813,11 @@ describe("internal links", () => {
     });
 
     test("click on internal link with different protocol does a loadState", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({ onPushState: () => expect.step("pushState") });
         const fixture = getFixture();
         const link = document.createElement("a");
-        link.href = "http://" + browser.location.host + "/BetopiaERP/some-action/2";
+        link.href = "http://" + browser.location.host + "/betopiaerp/some-action/2";
         fixture.appendChild(link);
 
         expect(router.current).toEqual({});
@@ -1852,14 +1852,14 @@ describe("internal links", () => {
     });
 
     test("click on internal link with hash (key/values)", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({
             onPushState: () => expect.step("pushState"),
             onReplaceState: () => expect.step("replaceState"),
         });
         const fixture = getFixture();
         const link = document.createElement("a");
-        link.href = "/BetopiaERP/1/action-114/22";
+        link.href = "/betopiaerp/1/action-114/22";
         fixture.appendChild(link);
 
         expect(router.current).toEqual({});
@@ -1893,7 +1893,7 @@ describe("internal links", () => {
     });
 
     test("click on internal link with hash (anchor)", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({
             onPushState: (_data, _unused, url) => {
                 expect.step("pushState: " + url);
@@ -1902,7 +1902,7 @@ describe("internal links", () => {
         });
         const fixture = getFixture();
         const link = document.createElement("a");
-        link.href = "/BetopiaERP/1/action-114/22#anchorId";
+        link.href = "/betopiaerp/1/action-114/22#anchorId";
         fixture.appendChild(link);
 
         expect(router.current).toEqual({});
@@ -1916,7 +1916,7 @@ describe("internal links", () => {
         await click("a");
         await tick();
         expect.verifySteps([
-            "pushState: https://www.hoot.test/BetopiaERP/1/action-114/22#anchorId",
+            "pushState: https://www.hoot.test/betopiaerp/1/action-114/22#anchorId",
             "click",
         ]);
         expect(router.current).toEqual({
@@ -1939,11 +1939,11 @@ describe("internal links", () => {
     });
 
     test("click on internal link with target _blank doesn't do a loadState", async () => {
-        redirect("/BetopiaERP");
+        redirect("/betopiaerp");
         createRouter({ onPushState: () => expect.step("pushState") });
         const fixture = getFixture();
         const link = document.createElement("a");
-        link.href = "/BetopiaERP/some-action/2";
+        link.href = "/betopiaerp/some-action/2";
         link.target = "_blank";
         fixture.appendChild(link);
 

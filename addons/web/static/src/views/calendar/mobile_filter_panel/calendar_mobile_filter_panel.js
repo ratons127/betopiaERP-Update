@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { getColor } from "../utils";
 
 export class CalendarMobileFilterPanel extends Component {

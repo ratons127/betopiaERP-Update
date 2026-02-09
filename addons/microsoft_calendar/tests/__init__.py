@@ -6,5 +6,5 @@ from . import test_microsoft_service
 from . import test_create_events
 from . import test_update_events
 from . import test_delete_events
-from . import test_sync_BetopiaERP2microsoft_mail
+from . import test_sync_betopiaerp2microsoft_mail
 from . import test_answer_events

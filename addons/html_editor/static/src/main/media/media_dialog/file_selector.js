@@ -7,7 +7,7 @@ import { KeepLast } from "@web/core/utils/concurrency";
 import { useDebounced } from "@web/core/utils/timing";
 import { SearchMedia } from "./search_media";
 
-import { Component, xml, useState, useRef, onWillStart, useEffect } from "@BetopiaERP/owl";
+import { Component, xml, useState, useRef, onWillStart, useEffect } from "@betopiaerp/owl";
 
 export const IMAGE_MIMETYPES = [
     "image/jpg",
@@ -300,7 +300,7 @@ export class FileSelector extends Component {
             // Reading attachments as a portal user is not permitted and will raise
             // an access error so we catch the error silently and don't return any
             // attachment so he can still use the wizard and upload an attachment
-            if (e.exceptionName !== "BetopiaERP.exceptions.AccessError") {
+            if (e.exceptionName !== "betopiaerp.exceptions.AccessError") {
                 throw e;
             }
         }

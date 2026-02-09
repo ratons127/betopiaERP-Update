@@ -13,7 +13,7 @@ This is the latest UK BetopiaERP localisation necessary to run BetopiaERP accoun
     - InfoLogic UK counties listing
     - a few other adaptations""",
     'author': 'SmartMode LTD',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/united_kingdom.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/united_kingdom.html',
     'depends': [
         'account',
         'base_iban',

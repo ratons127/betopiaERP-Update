@@ -7,7 +7,7 @@
     'category': 'Accounting/Localizations/Account Charts',
     'description': 'Colombian Accounting and Tax Preconfiguration',
     'author': 'David Arnold (XOE Solutions)',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/colombia.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/colombia.html',
     'depends': [
         'account_debit_note',
         'l10n_latam_base',

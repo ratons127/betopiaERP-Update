@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 registry.category("web_tour.tours").add('mass_mailing_dynamic_placeholder_tour', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {
@@ -30,7 +30,7 @@ registry.category("web_tour.tours").add('mass_mailing_dynamic_placeholder_tour',
         },
          {
             content: "Insert text inside editable",
-            trigger: ':iframe .BetopiaERP-editor-editable',
+            trigger: ':iframe .betopiaerp-editor-editable',
             async run(actions) {
                 await actions.editor(`/`);
                 const iframe = document.querySelector("iframe");
@@ -75,7 +75,7 @@ registry.category("web_tour.tours").add('mass_mailing_dynamic_placeholder_tour',
         },
         {
             content: "Ensure the editable contain the dynamic placeholder t tag",
-            trigger: `:iframe .note-editable.BetopiaERP-editor-editable t[t-out="object.company_name"]:contains("defValue")`,
+            trigger: `:iframe .note-editable.betopiaerp-editor-editable t[t-out="object.company_name"]:contains("defValue")`,
         },
         {
             content: "Discard form changes",

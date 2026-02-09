@@ -53,7 +53,7 @@ class Console(code.InteractiveConsole):
 
 
 class Shell(Command):
-    """Start BetopiaERP in an interactive shell"""
+    """Start betopiaerp in an interactive shell"""
     supported_shells = ['ipython', 'ptpython', 'bpython', 'python']
 
     def init(self, args):
@@ -130,7 +130,6 @@ class Shell(Command):
     def shell(self, dbname):
         local_vars = {
             'openerp': betopiaerp,
-            'BetopiaERP': betopiaerp,
             'betopiaerp': betopiaerp,
         }
         if dbname:

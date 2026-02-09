@@ -8,7 +8,7 @@ import { TimeOffCalendarSidePanel } from "./calendar_side_panel/calendar_side_pa
 import { TimeOffCalendarMobileFilterPanel } from "./calendar_filter_panel/calendar_mobile_filter_panel";
 import { TimeOffFormViewDialog } from "../view_dialog/form_view_dialog";
 import { useLeaveCancelWizard } from "../hooks";
-import { EventBus, useSubEnv } from "@BetopiaERP/owl";
+import { EventBus, useSubEnv } from "@betopiaerp/owl";
 
 export class TimeOffCalendarController extends CalendarController {
     static components = {

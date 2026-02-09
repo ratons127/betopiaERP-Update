@@ -21,6 +21,6 @@ Allow users to login through OAuth2 Provider.
             'auth_oauth/static/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

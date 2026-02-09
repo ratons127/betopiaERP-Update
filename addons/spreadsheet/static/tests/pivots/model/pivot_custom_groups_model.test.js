@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { registries } from "@BetopiaERP/o-spreadsheet";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { registries } from "@betopiaerp/o-spreadsheet";
 import { setCellContent, setSelection, updatePivot } from "@spreadsheet/../tests/helpers/commands";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { getEvaluatedCell, getFormattedValueGrid } from "@spreadsheet/../tests/helpers/getters";

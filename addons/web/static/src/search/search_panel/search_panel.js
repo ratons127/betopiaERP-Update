@@ -10,7 +10,7 @@ import {
     useEffect,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { exprToBoolean } from "@web/core/utils/strings";
 import { useSetupAction } from "@web/search/action_hook";

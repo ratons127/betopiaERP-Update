@@ -26,7 +26,7 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
         self.start_tour('/', 'website_form_editor_tour_results', login="admin")
 
     def test_website_form_contact_us_edition_with_email(self):
-        self.start_tour('/BetopiaERP', 'website_form_contactus_edition_with_email', login="admin")
+        self.start_tour('/betopiaerp', 'website_form_contactus_edition_with_email', login="admin")
         self.start_tour('/contactus', 'website_form_contactus_submit', login="portal")
         mail = self.env['mail.mail'].search([], order='id desc', limit=1)
         self.assertEqual(
@@ -36,7 +36,7 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
 
     def test_website_form_contact_us_edition_no_email(self):
         self.env.company.email = 'website_form_contactus_edition_no_email@mail.com'
-        self.start_tour('/BetopiaERP', 'website_form_contactus_edition_no_email', login="admin")
+        self.start_tour('/betopiaerp', 'website_form_contactus_edition_no_email', login="admin")
         self.start_tour('/contactus', 'website_form_contactus_submit', login="portal")
         mail = self.env['mail.mail'].search([], order='id desc', limit=1)
         self.assertEqual(
@@ -90,7 +90,7 @@ class TestWebsiteForm(TransactionCase):
             WebsiteFormController.insert_record(
                 request,
                 self.env['ir.model'].search([('model', '=', 'mail.mail')]),
-                {'email_from': 'BetopiaERPbot@example.com', 'subject': 'John <b>Smith</b>', 'email_to': 'company@company.company'},
+                {'email_from': 'betopiaerpbot@example.com', 'subject': 'John <b>Smith</b>', 'email_to': 'company@company.company'},
                 "John <b>Smith</b>",
             )
             mail = self.env['mail.mail'].search([], order='id desc', limit=1)

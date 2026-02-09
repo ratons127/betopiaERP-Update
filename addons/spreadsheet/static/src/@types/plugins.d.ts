@@ -1,5 +1,5 @@
 declare module "@spreadsheet" {
-    import { CommandResult, CorePlugin, UIPlugin } from "@BetopiaERP/o-spreadsheet";
+    import { CommandResult, CorePlugin, UIPlugin } from "@betopiaerp/o-spreadsheet";
     import { CommandResult as CR } from "@spreadsheet/o_spreadsheet/cancelled_reason";
     type BetopiaERPCommandResult = CommandResult | typeof CR;
 

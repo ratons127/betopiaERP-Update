@@ -31,7 +31,7 @@ class MailController(http.Controller):
 
     @classmethod
     def _redirect_to_messaging(cls):
-        url = '/BetopiaERP/action-mail.action_discuss'
+        url = '/betopiaerp/action-mail.action_discuss'
         return request.redirect(url)
 
     @classmethod
@@ -179,7 +179,7 @@ class MailController(http.Controller):
         # @see router.js: heuristics to discrimate a model name from an action path
         # is the presence of dots, or the prefix m- for models
         model_in_url = model if "." in model else "m-" + model
-        url = f'/BetopiaERP/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
+        url = f'/betopiaerp/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
         return request.redirect(url)
 
     @http.route('/mail/view', type='http', auth='public')
@@ -306,7 +306,7 @@ class MailController(http.Controller):
             }
             if icon in oi_font_char_codes:
                 icon = oi_font_char_codes[icon]
-                font = "/web/static/lib/BetopiaERP_ui_icons/fonts/BetopiaERP_ui_icons.woff"
+                font = "/web/static/lib/betopiaerp_ui_icons/fonts/betopiaerp_ui_icons.woff"
 
         size = max(width, height, 1) if width else size
         width = width or size

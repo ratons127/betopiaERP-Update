@@ -1,4 +1,4 @@
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 import { ChatGPTDialog } from "./chatgpt_dialog";
 
 export class ChatGPTTranslateDialog extends ChatGPTDialog {

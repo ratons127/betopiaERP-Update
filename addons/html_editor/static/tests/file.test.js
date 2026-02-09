@@ -5,8 +5,8 @@ import {
     NO_EMBEDDED_COMPONENTS_FALLBACK_PLUGINS,
 } from "@html_editor/plugin_sets";
 import { isZwnbsp } from "@html_editor/utils/dom_info";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click, press, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click, press, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor } from "./_helpers/editor";
 import { getContent } from "./_helpers/selection";
@@ -51,7 +51,7 @@ describe("file command", () => {
         expect(".o_select_media_dialog").toHaveCount(0);
         await mockedUpload;
         // Check that file card (embedded component) was inserted in the editable.
-        expect(".BetopiaERP-editor-editable .o_file_box").toHaveCount(1);
+        expect(".betopiaerp-editor-editable .o_file_box").toHaveCount(1);
     });
 
     test("file card should have inline display, BS alert-info style and no download button", async () => {
@@ -141,7 +141,7 @@ describe("document tab in media dialog", () => {
             await click(".nav-link:contains('Documents')");
             await animationFrame();
             await click(".o_we_attachment_highlight .o_button_area");
-            expect(".BetopiaERP-editor-editable .o_file_box a:contains('file.txt')").toHaveCount(1);
+            expect(".betopiaerp-editor-editable .o_file_box a:contains('file.txt')").toHaveCount(1);
         });
     });
 });
@@ -159,7 +159,7 @@ describe("powerbutton", () => {
         expect(".o_select_media_dialog").toHaveCount(0);
         await mockedUpload;
         // Check that file card (embedded component) was inserted in the editable.
-        expect(".BetopiaERP-editor-editable .o_file_box").toHaveCount(1);
+        expect(".betopiaerp-editor-editable .o_file_box").toHaveCount(1);
     });
 
     test("file powerbutton uploads a file directly via the system's selector (embedded component)", async () => {
@@ -172,7 +172,7 @@ describe("powerbutton", () => {
         expect(".o_select_media_dialog").toHaveCount(0);
         await mockedUpload;
         // Check that file card (embedded component) was inserted in the editable.
-        expect('.BetopiaERP-editor-editable [data-embedded="file"]').toHaveCount(1);
+        expect('.betopiaerp-editor-editable [data-embedded="file"]').toHaveCount(1);
     });
 });
 

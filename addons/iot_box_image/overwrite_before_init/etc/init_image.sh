@@ -26,73 +26,73 @@ dpkg-reconfigure locales
 
 # Aliases
 echo  "alias ll='ls -al'" | tee -a ~/.bashrc /home/pi/.bashrc
-echo  "alias BetopiaERP='sudo systemctl stop BetopiaERP; sudo -u BetopiaERP /usr/bin/python3 /home/pi/BetopiaERP/BetopiaERP-bin --config /home/pi/BetopiaERP.conf'" | tee -a ~/.bashrc /home/pi/.bashrc
-echo  "alias BetopiaERP_logs='less -R +F /var/log/BetopiaERP/BetopiaERP-server.log'" | tee -a ~/.bashrc /home/pi/.bashrc
-echo  "alias BetopiaERP_conf='cat /home/pi/BetopiaERP.conf'" | tee -a ~/.bashrc /home/pi/.bashrc
+echo  "alias betopiaerp='sudo systemctl stop betopiaerp; sudo -u betopiaerp /usr/bin/python3 /home/pi/betopiaerp/betopiaerp-bin --config /home/pi/betopiaerp.conf'" | tee -a ~/.bashrc /home/pi/.bashrc
+echo  "alias betopiaerp_logs='less -R +F /var/log/betopiaerp/betopiaerp-server.log'" | tee -a ~/.bashrc /home/pi/.bashrc
+echo  "alias betopiaerp_conf='cat /home/pi/betopiaerp.conf'" | tee -a ~/.bashrc /home/pi/.bashrc
 echo  "alias install='sudo chroot /root_bypass_ramdisks/'" | tee -a ~/.bashrc /home/pi/.bashrc
 echo  "alias blackbox='ls /dev/serial/by-path/'" | tee -a ~/.bashrc /home/pi/.bashrc
-echo  "alias nano='sudo -u BetopiaERP nano -l'" | tee -a /home/pi/.bashrc
-echo  "alias vim='sudo -u BetopiaERP vim -u /home/pi/.vimrc'" | tee -a /home/pi/.bashrc
-echo  "alias BetopiaERP_luxe='printf \" ______\n< Luxe >\n ------\n        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\ \n                ||----w |\n                ||     ||\n\"'" | tee -a ~/.bashrc /home/pi/.bashrc
-echo  "alias BetopiaERP_start='sudo systemctl start BetopiaERP'" >> /home/pi/.bashrc
-echo  "alias BetopiaERP_stop='sudo systemctl stop BetopiaERP'" >> /home/pi/.bashrc
-echo  "alias BetopiaERP_restart='sudo systemctl restart BetopiaERP'" >> /home/pi/.bashrc
+echo  "alias nano='sudo -u betopiaerp nano -l'" | tee -a /home/pi/.bashrc
+echo  "alias vim='sudo -u betopiaerp vim -u /home/pi/.vimrc'" | tee -a /home/pi/.bashrc
+echo  "alias betopiaerp_luxe='printf \" ______\n< Luxe >\n ------\n        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\ \n                ||----w |\n                ||     ||\n\"'" | tee -a ~/.bashrc /home/pi/.bashrc
+echo  "alias betopiaerp_start='sudo systemctl start betopiaerp'" >> /home/pi/.bashrc
+echo  "alias betopiaerp_stop='sudo systemctl stop betopiaerp'" >> /home/pi/.bashrc
+echo  "alias betopiaerp_restart='sudo systemctl restart betopiaerp'" >> /home/pi/.bashrc
 echo "
-BetopiaERP_help() {
+betopiaerp_help() {
   echo '-------------------------------'
   echo ' Welcome to BetopiaERP IoT Box tools'
   echo '-------------------------------'
   echo ''
-  echo 'BetopiaERP                  Starts/Restarts BetopiaERP server manually (not through BetopiaERP.service)'
-  echo 'BetopiaERP_logs             Displays BetopiaERP server logs in real time'
-  echo 'BetopiaERP_conf             Displays BetopiaERP configuration file content'
+  echo 'betopiaerp                  Starts/Restarts BetopiaERP server manually (not through betopiaerp.service)'
+  echo 'betopiaerp_logs             Displays BetopiaERP server logs in real time'
+  echo 'betopiaerp_conf             Displays BetopiaERP configuration file content'
   echo 'install               Bypasses ramdisks to allow package installation'
   echo 'blackbox              Lists all serial connected devices'
-  echo 'BetopiaERP_start            Starts BetopiaERP service'
-  echo 'BetopiaERP_stop             Stops BetopiaERP service'
-  echo 'BetopiaERP_restart          Restarts BetopiaERP service'
-  echo 'BetopiaERP_dev <branch>     Resets BetopiaERP on the specified branch from BetopiaERP-dev repository'
-  echo 'BetopiaERP_origin <branch>  Resets BetopiaERP on the specified branch from the BetopiaERP repository'
+  echo 'betopiaerp_start            Starts BetopiaERP service'
+  echo 'betopiaerp_stop             Stops BetopiaERP service'
+  echo 'betopiaerp_restart          Restarts BetopiaERP service'
+  echo 'betopiaerp_dev <branch>     Resets BetopiaERP on the specified branch from betopiaerp-dev repository'
+  echo 'betopiaerp_origin <branch>  Resets BetopiaERP on the specified branch from the betopiaerp repository'
   echo 'devtools              Enables/Disables specific functions for development (more help with devtools help)'
   echo ''
   echo 'BetopiaERP IoT online help: <https://www.BetopiaERP.com/documentation/latest/applications/general/iot.html>'
 }
 
-BetopiaERP_dev() {
+betopiaerp_dev() {
   if [ -z \"\$1\" ]; then
-    BetopiaERP_help
+    betopiaerp_help
     return
   fi
   pwd=\$(pwd)
-  cd /home/pi/BetopiaERP
-  sudo -u BetopiaERP git remote add dev https://github.com/BetopiaERP-dev/BetopiaERP.git
-  sudo -u BetopiaERP git fetch dev \$1 --depth=1 --prune
-  sudo -u BetopiaERP git reset --hard FETCH_HEAD
-  sudo -u BetopiaERP git branch -m \$1
-  sudo chroot /root_bypass_ramdisks /bin/bash -c \"export DEBIAN_FRONTEND=noninteractive && xargs apt-get -y -o Dpkg::Options::=\"--force-confdef\" -o Dpkg::Options::=\"--force-confold\" install < /home/pi/BetopiaERP/addons/iot_box_image/configuration/packages.txt\"
-  sudo -u BetopiaERP pip3 install -r /home/pi/BetopiaERP/addons/iot_box_image/configuration/requirements.txt --break-system-package
+  cd /home/pi/betopiaerp
+  sudo -u betopiaerp git remote add dev https://github.com/betopiaerp-dev/betopiaerp.git
+  sudo -u betopiaerp git fetch dev \$1 --depth=1 --prune
+  sudo -u betopiaerp git reset --hard FETCH_HEAD
+  sudo -u betopiaerp git branch -m \$1
+  sudo chroot /root_bypass_ramdisks /bin/bash -c \"export DEBIAN_FRONTEND=noninteractive && xargs apt-get -y -o Dpkg::Options::=\"--force-confdef\" -o Dpkg::Options::=\"--force-confold\" install < /home/pi/betopiaerp/addons/iot_box_image/configuration/packages.txt\"
+  sudo -u betopiaerp pip3 install -r /home/pi/betopiaerp/addons/iot_box_image/configuration/requirements.txt --break-system-package
   cd \$pwd
 }
 
-BetopiaERP_origin() {
+betopiaerp_origin() {
   if [ -z \"\$1\" ]; then
-    BetopiaERP_help
+    betopiaerp_help
     return
   fi
   pwd=\$(pwd)
-  cd /home/pi/BetopiaERP
-  sudo -u BetopiaERP git remote set-url origin https://github.com/BetopiaERP/BetopiaERP.git  # ensure BetopiaERP repository
-  sudo -u BetopiaERP git fetch origin \$1 --depth=1 --prune
-  sudo -u BetopiaERP git reset --hard FETCH_HEAD
-  sudo -u BetopiaERP git branch -m \$1
-  sudo chroot /root_bypass_ramdisks /bin/bash -c \"export DEBIAN_FRONTEND=noninteractive && xargs apt-get -y -o Dpkg::Options::=\"--force-confdef\" -o Dpkg::Options::=\"--force-confold\" install < /home/pi/BetopiaERP/addons/iot_box_image/configuration/packages.txt\"
-  sudo -u BetopiaERP pip3 install -r /home/pi/BetopiaERP/addons/iot_box_image/configuration/requirements.txt --break-system-package
+  cd /home/pi/betopiaerp
+  sudo -u betopiaerp git remote set-url origin https://github.com/betopiaerp/betopiaerp.git  # ensure betopiaerp repository
+  sudo -u betopiaerp git fetch origin \$1 --depth=1 --prune
+  sudo -u betopiaerp git reset --hard FETCH_HEAD
+  sudo -u betopiaerp git branch -m \$1
+  sudo chroot /root_bypass_ramdisks /bin/bash -c \"export DEBIAN_FRONTEND=noninteractive && xargs apt-get -y -o Dpkg::Options::=\"--force-confdef\" -o Dpkg::Options::=\"--force-confold\" install < /home/pi/betopiaerp/addons/iot_box_image/configuration/packages.txt\"
+  sudo -u betopiaerp pip3 install -r /home/pi/betopiaerp/addons/iot_box_image/configuration/requirements.txt --break-system-package
   cd \$pwd
 }
 
 pip() {
   if [[ -z \"\$1\" || -z \"\$2\" ]]; then
-    BetopiaERP_help
+    betopiaerp_help
     return 1
   fi
   additional_arg=\"\"
@@ -114,15 +114,15 @@ devtools() {
     enable|disable)
       case \"\$2\" in
         general|actions|longpolling)
-          if ! grep -q '^\[devtools\]' /home/pi/BetopiaERP.conf; then
-            sudo -u BetopiaERP bash -c \"printf '\n[devtools]\n' >> /home/pi/BetopiaERP.conf\"
+          if ! grep -q '^\[devtools\]' /home/pi/betopiaerp.conf; then
+            sudo -u betopiaerp bash -c \"printf '\n[devtools]\n' >> /home/pi/betopiaerp.conf\"
           fi
           if [ \"\$1\" == \"disable\" ]; then
             value=\"\${3:-*}\" # Default to '*' if no action name is provided
             devtools enable \"\$2\" # Remove action/general/longpolling from conf to avoid duplicate keys
-            sudo sed -i \"/^\[devtools\]/a\\\\\$2 = \$value\" /home/pi/BetopiaERP.conf
+            sudo sed -i \"/^\[devtools\]/a\\\\\$2 = \$value\" /home/pi/betopiaerp.conf
           elif [ \"\$1\" == \"enable\" ]; then
-            sudo sed -i \"/\[devtools\]/,/\[/{/\$2 =/d}\" /home/pi/BetopiaERP.conf
+            sudo sed -i \"/\[devtools\]/,/\[/{/\$2 =/d}\" /home/pi/betopiaerp.conf
           fi
           ;;
         *)
@@ -157,7 +157,7 @@ apt-get -y remove rfkill
 echo "Acquire::Retries "16";" > /etc/apt/apt.conf.d/99acquire-retries
 # KEEP OWN CONFIG FILES DURING PACKAGE CONFIGURATION
 # http://serverfault.com/questions/259226/automatically-keep-current-version-of-config-files-when-apt-get-install
-xargs apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" install < /home/pi/BetopiaERP/addons/iot_box_image/configuration/packages.txt
+xargs apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" install < /home/pi/betopiaerp/addons/iot_box_image/configuration/packages.txt
 apt-get -y autoremove
 
 apt-get clean
@@ -167,30 +167,30 @@ rm -rfv /usr/share/doc
 # Remove the default nginx website, we have our own config in /etc/nginx/conf.d/
 rm /etc/nginx/sites-enabled/default
 
-pip3 install -r /home/pi/BetopiaERP/addons/iot_box_image/configuration/requirements.txt --break-system-package
+pip3 install -r /home/pi/betopiaerp/addons/iot_box_image/configuration/requirements.txt --break-system-package
 
-# Create BetopiaERP user for BetopiaERP service and disable password login
-adduser --disabled-password --gecos "" --shell /usr/sbin/nologin BetopiaERP
+# Create BetopiaERP user for betopiaerp service and disable password login
+adduser --disabled-password --gecos "" --shell /usr/sbin/nologin betopiaerp
 
-# BetopiaERP user doesn't need to type its password to run sudo commands
-cp /etc/sudoers.d/010_pi-nopasswd /etc/sudoers.d/010_BetopiaERP-nopasswd
-sed -i 's/pi/BetopiaERP/g' /etc/sudoers.d/010_BetopiaERP-nopasswd
+# betopiaerp user doesn't need to type its password to run sudo commands
+cp /etc/sudoers.d/010_pi-nopasswd /etc/sudoers.d/010_betopiaerp-nopasswd
+sed -i 's/pi/betopiaerp/g' /etc/sudoers.d/010_betopiaerp-nopasswd
 
-# copy the BetopiaERP.conf file to the overwrite directory
-mv -v "/home/pi/BetopiaERP/addons/iot_box_image/configuration/BetopiaERP.conf" "/home/pi/"
-chown BetopiaERP:BetopiaERP "/home/pi/BetopiaERP.conf"
+# copy the betopiaerp.conf file to the overwrite directory
+mv -v "/home/pi/betopiaerp/addons/iot_box_image/configuration/betopiaerp.conf" "/home/pi/"
+chown betopiaerp:betopiaerp "/home/pi/betopiaerp.conf"
 
 groupadd usbusers
-usermod -a -G usbusers BetopiaERP
-usermod -a -G video BetopiaERP
-usermod -a -G render BetopiaERP
-usermod -a -G lp BetopiaERP
-usermod -a -G input BetopiaERP
-usermod -a -G dialout BetopiaERP
-usermod -a -G pi BetopiaERP
-mkdir -v /var/log/BetopiaERP
-chown BetopiaERP:BetopiaERP /var/log/BetopiaERP
-chown BetopiaERP:BetopiaERP -R /home/pi/BetopiaERP/
+usermod -a -G usbusers betopiaerp
+usermod -a -G video betopiaerp
+usermod -a -G render betopiaerp
+usermod -a -G lp betopiaerp
+usermod -a -G input betopiaerp
+usermod -a -G dialout betopiaerp
+usermod -a -G pi betopiaerp
+mkdir -v /var/log/betopiaerp
+chown betopiaerp:betopiaerp /var/log/betopiaerp
+chown betopiaerp:betopiaerp -R /home/pi/betopiaerp/
 
 # logrotate is very picky when it comes to file permissions
 chown -R root:root /etc/logrotate.d/
@@ -212,9 +212,9 @@ systemctl unmask hostapd.service
 systemctl disable hostapd.service
 systemctl disable cups-browsed.service
 systemctl enable labwc.service
-systemctl enable BetopiaERP.service
-systemctl enable BetopiaERP-led-manager.service
-systemctl enable BetopiaERP-ngrok.service
+systemctl enable betopiaerp.service
+systemctl enable betopiaerp-led-manager.service
+systemctl enable betopiaerp-ngrok.service
 
 # create dirs for ramdisks
 create_ramdisk_dir () {

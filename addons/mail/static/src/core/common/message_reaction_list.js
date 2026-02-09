@@ -1,5 +1,5 @@
 import { useHover } from "@mail/utils/common/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { loadEmoji } from "@web/core/emoji_picker/emoji_picker";

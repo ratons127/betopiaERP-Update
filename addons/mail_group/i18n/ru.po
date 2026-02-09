@@ -3,15 +3,15 @@
 # * mail_group
 #
 # Translators:
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-10-22 11:17+0000\n"
-"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@BetopiaERP.com>\n"
-"Language-Team: Russian <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Dylan Kiss (dyki)\" <dyki@betopiaerp.com>\n"
+"Language-Team: Russian <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "mail_group/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -382,7 +382,7 @@ msgid "Always Allow"
 msgstr "Всегда разрешать"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "An email with instructions has been sent."
 msgstr "Электронное письмо с инструкциями было отправлено."
@@ -588,7 +588,7 @@ msgid "Email"
 msgstr "Email"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 msgstr "Email %s недействителен"
@@ -615,8 +615,8 @@ msgstr ""
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "Домен электронной почты, например, 'example.com' в 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "Домен электронной почты, например, 'example.com' в 'betopiaerp@example.com'"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -664,7 +664,7 @@ msgid "Group Name"
 msgstr "Имя группы"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr ""
@@ -672,7 +672,7 @@ msgstr ""
 "модель - %s."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/controllers/portal.py:0
 msgid "Groups"
 msgstr ""
@@ -738,13 +738,13 @@ msgid "Image"
 msgstr "Изображение"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 msgstr "Недопустимое действие для генерации URL (%s)"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 msgstr "Недействительный адрес электронной почты \"%s\""
@@ -946,7 +946,7 @@ msgid "Messages Per Month"
 msgstr "Сообщений в месяц"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 msgstr "Сообщения ожидают модерации"
@@ -992,7 +992,7 @@ msgid "Moderated emails in this group"
 msgstr "Модерируемые письма в этой группе"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 msgstr "Модерируемая группа должна иметь модераторов."
@@ -1030,7 +1030,7 @@ msgid "Moderators"
 msgstr "Модераторы"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 msgstr "Модераторы должны иметь адрес электронной почты."
@@ -1097,7 +1097,7 @@ msgid "Number of message in this group"
 msgstr "Количество сообщений в этой группе"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
@@ -1106,13 +1106,13 @@ msgstr ""
 "группы."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 msgstr "Только члены клуба могут отправлять письма в список рассылки."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr ""
@@ -1237,7 +1237,7 @@ msgid "Public Mailing List"
 msgstr "Публичная рассылка"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 msgstr "Ответ: %s"
@@ -1397,7 +1397,7 @@ msgid "Subscription confirmation to a mailing group"
 msgstr "Подтверждение подписки на группу рассылки"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
@@ -1413,7 +1413,7 @@ msgid "Thank you!"
 msgstr "Спасибо!"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 msgstr "\"Авторизованная группа\" отсутствует."
@@ -1424,25 +1424,25 @@ msgid "The email"
 msgstr "Электронная почта"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 msgstr "Электронная почта \"%s\" недействительна."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 msgstr "Группа сообщения не совпадает."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 msgstr "Описание руководства пустое."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 msgstr "Описание руководства отсутствует."
@@ -1462,43 +1462,43 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
 "Имя Алиаса Эл.Почты, например, \"jobs\" если вы хотите перехватывать почту "
 "для <jobs@stroyding.ru>"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 msgstr "Сообщение об уведомлении отсутствует."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 msgstr "Партнер не может быть найден."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 msgstr "Запись сообщения должна быть групповой."
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is already subscribed."
 msgstr "Это e-mail уже подписан."
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is not subscribed."
 msgstr "На это письмо не подписаны."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 msgstr "Это сообщение не может быть отмодерировано"
@@ -1509,7 +1509,7 @@ msgid "This partner is already subscribed to the group"
 msgstr "Этот партнер уже подписан на группу"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 msgstr "Эти сообщения не могут быть отмодерированы: %s."
@@ -1549,7 +1549,7 @@ msgid "Whitelisted"
 msgstr "Белый список"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 msgstr "Неправильный статус (%s)"
@@ -1562,13 +1562,13 @@ msgstr ""
 "группе."
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not join a closed group."
 msgstr ""
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not send guidelines for a closed group."
 msgstr ""

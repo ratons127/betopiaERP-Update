@@ -1,4 +1,4 @@
-import { test, expect, describe } from "@BetopiaERP/hoot";
+import { test, expect, describe } from "@betopiaerp/hoot";
 import { _makeUser, user } from "@web/core/user";
 import { makeMockEnv, onRpc, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 import { cookie } from "@web/core/browser/cookie";

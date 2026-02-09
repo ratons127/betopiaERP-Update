@@ -17,7 +17,7 @@ import {
     useExternalListener,
     onWillUnmount,
     onPatched,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { ask } from "@point_of_sale/app/utils/make_awaitable_dialog";
 import { loadImage } from "@point_of_sale/utils";
 import { getDataURLFromFile } from "@web/core/utils/urls";
@@ -1127,6 +1127,6 @@ export class FloorScreen extends Component {
 registry.category("pos_pages").add("FloorScreen", {
     name: "FloorScreen",
     component: FloorScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/floor`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/floor`,
     params: {},
 });

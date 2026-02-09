@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAll, queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAll, queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate } from "@betopiaerp/hoot-mock";
 import {
     addNewRule,
     clickOnButtonAddBranch,

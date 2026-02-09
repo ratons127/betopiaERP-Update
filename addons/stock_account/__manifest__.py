@@ -50,6 +50,6 @@ Dashboard / Reports for Warehouse Management includes:
             'stock_account/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

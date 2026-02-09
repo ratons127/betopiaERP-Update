@@ -6,16 +6,16 @@
 # Martin Trigaux, 2022
 # Andy Yiu, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-11-25 06:03+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "pos_sale/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -25,19 +25,19 @@ msgstr ""
 "X-Generator: Weblate 5.12.2\n"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "%(line_description)s (Cancelled)"
 msgstr "%(line_description)s (キャンセル済)"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/account_move.py:0
 msgid "%(old_name)s (Cancelled)"
 msgstr "%(old_name)s (キャンセル済)"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/components/orderline/orderline.xml:0
 msgid "(tax incl.)"
 msgstr "(税込み)"
@@ -48,7 +48,7 @@ msgid "<span style=\"margin: 0px 5px;\">:</span>"
 msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "A new order has been created."
 msgstr "新規オーダが作成されました"
@@ -64,13 +64,13 @@ msgid "Amount left to pay in POS to avoid double payment or double invoicing."
 msgstr "二重支払や二重顧客請求書を避けるためのPOSでの支払残額。"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
 msgstr "前受金 (固定金額)を適用"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Apply a down payment (percentage)"
 msgstr "前受金 (パーセント)を適用"
@@ -123,13 +123,13 @@ msgid "Display Name"
 msgstr "表示名"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
 msgstr "販売オーダにリンクしたシリアル番号/ロットをロードしますか？"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Down Payment"
 msgstr "前受金"
@@ -152,7 +152,7 @@ msgid "Down Payment Product"
 msgstr "前受金プロダクト"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid ""
 "Down payment (ref: %(order_reference)s on \n"
@@ -162,7 +162,7 @@ msgstr ""
 " %(date)s)"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Due balance: %s"
 msgstr "支払残高:%s"
@@ -195,7 +195,7 @@ msgid "Invoiced"
 msgstr "請求済"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid ""
 "It seems that you didn't configure a down payment product in your point of "
@@ -210,7 +210,7 @@ msgid "Journal Entry"
 msgstr "仕訳"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "Linked POS Orders"
 msgstr "リンク済POSオーダ"
@@ -221,13 +221,13 @@ msgid "Linked Sale Order"
 msgstr "リンク済販売オーダ"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/pos_order.py:0
 msgid "Linked Sale Orders"
 msgstr "リンク済販売オーダ"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "No down payment product"
 msgstr "前受金プロダクトなし"
@@ -299,19 +299,19 @@ msgid "Product"
 msgstr "プロダクト"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/components/screens/product_screen/control_buttons/control_buttons.xml:0
 msgid "Quotation/Order"
 msgstr "見積/オーダ"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "SN/Lots Loading"
 msgstr "シリアル番号/ロットロード中"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/components/orderline/orderline.xml:0
 msgid "SO"
 msgstr "販売オーダ"
@@ -361,13 +361,13 @@ msgid "Sales are reported to the following sales team"
 msgstr "販売は下記の販売チームに報告されます"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/components/screens/product_screen/control_buttons/control_buttons.xml:0
 msgid "Set Sale Order"
 msgstr "販売オーダ設定"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Settle the order"
 msgstr "オーダを決済する"
@@ -431,19 +431,19 @@ msgstr ""
 "                            転送済"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "Warning for %s"
 msgstr "%sの警告"
 
 #. module: pos_sale
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/pos_sale/static/src/app/services/pos_store.js:0
 msgid "What do you want to do?"
 msgstr "何を行いますか？"
 
 #. module: pos_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/pos_sale/models/pos_order.py:0
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "id"

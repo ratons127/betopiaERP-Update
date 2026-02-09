@@ -1,4 +1,4 @@
-import { useState, onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { useState, onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { CalendarMobileFilterPanel } from "@web/views/calendar/mobile_filter_panel/calendar_mobile_filter_panel";
 

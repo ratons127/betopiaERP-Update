@@ -1,5 +1,5 @@
 import { Plugin } from "@html_editor/plugin";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 /**

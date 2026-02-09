@@ -24,6 +24,6 @@ Badge received are displayed on the user profile.
             'hr_gamification/static/src/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

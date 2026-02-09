@@ -1,7 +1,7 @@
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
-import { on } from "@BetopiaERP/hoot-dom";
-import { microTick } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
+import { on } from "@betopiaerp/hoot-dom";
+import { microTick } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { getService, makeMockEnv, mountWithCleanup, onRpc } from "@web/../tests/web_test_helpers";
 
 import { rpc, rpcBus } from "@web/core/network/rpc";

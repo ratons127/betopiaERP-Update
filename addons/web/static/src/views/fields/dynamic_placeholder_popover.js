@@ -1,6 +1,6 @@
 import { useAutofocus } from "@web/core/utils/hooks";
 import { ModelFieldSelectorPopover } from "@web/core/model_field_selector/model_field_selector_popover";
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { registry } from "@web/core/registry";
 

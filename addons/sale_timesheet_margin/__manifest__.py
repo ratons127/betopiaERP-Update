@@ -12,6 +12,6 @@ Allows to compute accurate margin for Service sales.
     'category': 'Sales/Sales',
     'depends': ['sale_margin', 'sale_timesheet'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

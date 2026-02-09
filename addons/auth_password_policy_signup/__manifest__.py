@@ -13,6 +13,6 @@
             'auth_password_policy/static/src/password_policy.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

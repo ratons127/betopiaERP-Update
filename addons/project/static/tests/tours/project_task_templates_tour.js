@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
 
 registry.category("web_tour.tours").add("project_task_templates_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         stepUtils.showAppsMenuItem(),
         {
@@ -40,7 +40,7 @@ registry.category("web_tour.tours").add("project_task_templates_tour", {
             trigger: ".o_form_readonly, .o_form_saved",
         },
         {
-            trigger: 'div.note-editable.BetopiaERP-editor-editable:contains("Template description")',
+            trigger: 'div.note-editable.betopiaerp-editor-editable:contains("Template description")',
             content: "Check that the created task has copied the description of the template",
         },
     ],

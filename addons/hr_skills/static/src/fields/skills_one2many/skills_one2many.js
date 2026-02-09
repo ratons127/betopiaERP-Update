@@ -5,7 +5,7 @@ import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
 import { CommonSkillsListRenderer } from "../../views/skills_list_renderer";
 import { useService } from '@web/core/utils/hooks';
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 
 
 export class SkillsListRenderer extends CommonSkillsListRenderer {

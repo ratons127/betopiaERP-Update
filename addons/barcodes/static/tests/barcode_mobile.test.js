@@ -1,10 +1,10 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { getActiveElement, queryFirst, keyDown, click } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { getActiveElement, queryFirst, keyDown, click } from "@betopiaerp/hoot-dom";
 import { mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { barcodeService } from "@barcodes/barcode_service";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 beforeEach(() => {
     patchWithCleanup(barcodeService, {

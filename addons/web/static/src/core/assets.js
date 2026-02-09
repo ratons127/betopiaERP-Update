@@ -1,4 +1,4 @@
-import { Component, onWillStart, whenReady, xml } from "@BetopiaERP/owl";
+import { Component, onWillStart, whenReady, xml } from "@betopiaerp/owl";
 import { session } from "@web/session";
 import { registry } from "./registry";
 

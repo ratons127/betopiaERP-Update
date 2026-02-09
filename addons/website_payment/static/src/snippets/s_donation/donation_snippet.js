@@ -149,7 +149,7 @@ export class DonationSnippet extends Interaction {
         const inputsParams = [
             ["amount", amount],
             ["currency_id", this.currency.id],
-            ["csrf_token", BetopiaERP.csrf_token],
+            ["csrf_token", betopiaerp.csrf_token],
             ["donation_options", JSON.stringify(this.el.dataset)],
         ];
 

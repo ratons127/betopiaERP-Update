@@ -16,6 +16,6 @@
         'views/product_template_views.xml',
         'wizards/res_config_settings_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

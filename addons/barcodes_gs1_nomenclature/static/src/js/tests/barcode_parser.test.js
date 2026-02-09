@@ -1,6 +1,6 @@
 import { barcodeService } from "@barcodes/barcode_service";
 import { BarcodeParser } from "@barcodes/js/barcode_parser";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 
 function buildBarcodeParser(diff = {}) {
     const nomenclature = {

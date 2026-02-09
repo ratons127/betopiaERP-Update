@@ -1004,7 +1004,7 @@ function flattenBackgroundImages(element) {
  *                           converted to images
  */
 function fontToImg(element) {
-    const { fonts } = BetopiaERP.loader.modules.get("@html_editor/utils/fonts");
+    const { fonts } = betopiaerp.loader.modules.get("@html_editor/utils/fonts");
 
     for (const font of element.querySelectorAll(".fa")) {
         let icon, content;

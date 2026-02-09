@@ -11,6 +11,6 @@
     ],
     'installable': True,
     'auto_install': ['website_sale_slides'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

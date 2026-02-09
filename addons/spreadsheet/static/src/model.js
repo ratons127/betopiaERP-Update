@@ -1,4 +1,4 @@
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { Model } from "@betopiaerp/o-spreadsheet";
 
 /**
  * An o-spreadsheet model with all custom BetopiaERP plugins

@@ -5,7 +5,7 @@ import {
 } from "@html_builder/../tests/helpers";
 import { BuilderOptionsPlugin } from "@html_builder/core/builder_options_plugin";
 import { Operation } from "@html_builder/core/operation";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import {
     animationFrame,
     click,
@@ -14,7 +14,7 @@ import {
     queryAllTexts,
     queryOne,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { loadBundle } from "@web/core/assets";
 

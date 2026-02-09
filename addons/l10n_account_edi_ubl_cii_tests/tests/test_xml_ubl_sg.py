@@ -84,7 +84,7 @@ class TestUBLSG(TestUBLCommon):
                     <attribute name="filename">{invoice.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/sg_out_invoice.xml',
+            expected_file_path='from_betopiaerp/sg_out_invoice.xml',
         )
         self.assertEqual(attachment.name[-6:], "sg.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
@@ -132,7 +132,7 @@ class TestUBLSG(TestUBLCommon):
                     <attribute name="filename">{refund.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/sg_out_refund.xml',
+            expected_file_path='from_betopiaerp/sg_out_refund.xml',
         )
         self.assertEqual(attachment.name[-6:], "sg.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)

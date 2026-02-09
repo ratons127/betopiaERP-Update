@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred } from "@betopiaerp/hoot-mock";
 
 import { Cache } from "@web/core/utils/cache";
 

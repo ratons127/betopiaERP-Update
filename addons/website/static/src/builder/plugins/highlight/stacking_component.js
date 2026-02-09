@@ -1,4 +1,4 @@
-import { xml, Component, reactive, useState, useEffect } from "@BetopiaERP/owl";
+import { xml, Component, reactive, useState, useEffect } from "@betopiaerp/owl";
 import { POSITION_BUS } from "@web/core/position/position_hook";
 
 export function useStackingComponentState() {

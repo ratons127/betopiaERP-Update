@@ -1,4 +1,4 @@
-import {Component, onWillDestroy} from "@BetopiaERP/owl";
+import {Component, onWillDestroy} from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { deserializeDateTime } from "@web/core/l10n/dates";
 

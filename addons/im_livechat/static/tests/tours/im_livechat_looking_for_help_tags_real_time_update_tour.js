@@ -26,7 +26,7 @@ registry.category("web_tour.tours").add("im_livechat.looking_for_help_tags_real_
         {
             trigger: '.o_data_cell[name="livechat_conversation_tag_ids"]:not(:has(.o_tag))',
             async run() {
-                const { orm } = BetopiaERP.__WOWL_DEBUG__.root.env.services;
+                const { orm } = betopiaerp.__WOWL_DEBUG__.root.env.services;
                 [bobChatId] = await orm.search("discuss.channel", [
                     ["livechat_status", "=", "need_help"],
                     ["livechat_agent_partner_ids.name", "like", "bob_looking_for_help%"],

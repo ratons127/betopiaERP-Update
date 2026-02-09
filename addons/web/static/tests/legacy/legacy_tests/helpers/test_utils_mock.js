@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/legacy_tests/helpers/test_utils_mock default=false */
+/** @betopiaerp-module alias=@web/../tests/legacy_tests/helpers/test_utils_mock default=false */
 
 /**
  * Mock Test Utils

@@ -1,6 +1,6 @@
 import { CallDropdown } from "@mail/discuss/call/common/call_dropdown";
 import { attClassObjectToString } from "@mail/utils/common/format";
-import { Component, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, onWillUnmount } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 
@@ -11,7 +11,7 @@ const actionListProps = [
     "dropdown?",
     "fw?",
     "hasBtnBg?",
-    "BetopiaERPControlPanelSwitchStyle?",
+    "betopiaerpControlPanelSwitchStyle?",
     "thread?",
 ];
 
@@ -56,7 +56,7 @@ class Action extends Component {
     }
 
     get hasBtnBg() {
-        return this.props.BetopiaERPControlPanelSwitchStyle || this.props.hasBtnBg;
+        return this.props.betopiaerpControlPanelSwitchStyle || this.props.hasBtnBg;
     }
 
     onSelected(action, ev) {
@@ -106,6 +106,6 @@ export class ActionList extends Component {
     }
 
     get hasBtnBg() {
-        return this.props.BetopiaERPControlPanelSwitchStyle || this.props.hasBtnBg;
+        return this.props.betopiaerpControlPanelSwitchStyle || this.props.hasBtnBg;
     }
 }

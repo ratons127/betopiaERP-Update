@@ -22,6 +22,6 @@ Use the e-commerce to sell your event booths.
             '/website_event_booth_sale/static/tests/tours/**/*.js'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -5,7 +5,7 @@
     "countries": ["ug"],
     "version": "1.0.0",
     "category": "Accounting/Localizations/Account Charts",
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
     "description": """
 This is the basic Ugandian localisation necessary to run BetopiaERP in UG:

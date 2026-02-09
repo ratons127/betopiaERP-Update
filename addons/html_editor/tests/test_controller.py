@@ -166,7 +166,7 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": _get_full_url(f"/BetopiaERP/users/{self.portal_user.id}"),
+                    "preview_url": _get_full_url(f"/betopiaerp/users/{self.portal_user.id}"),
                 }
             }),
             headers=self.headers
@@ -179,7 +179,7 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": _get_full_url("/BetopiaERP/actionInvalid/1"),
+                    "preview_url": _get_full_url("/betopiaerp/actionInvalid/1"),
                 }
             }),
             headers=self.headers
@@ -192,7 +192,7 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": _get_full_url("/BetopiaERP/users/9999"),
+                    "preview_url": _get_full_url("/betopiaerp/users/9999"),
                 }
             }),
             headers=self.headers
@@ -256,12 +256,12 @@ class TestController(HttpCase):
             self.assertEqual(200, invalid_page.status_code)
             self.assertTrue('"result": {}' in invalid_page.text)
 
-        # Attempt to retrieve metadata for path format `BetopiaERP/<model>/<record_id>`
+        # Attempt to retrieve metadata for path format `betopiaerp/<model>/<record_id>`
         response_model_record = self.url_open(
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": _get_full_url(f"/BetopiaERP/res.users/{self.portal_user.id}"),
+                    "preview_url": _get_full_url(f"/betopiaerp/res.users/{self.portal_user.id}"),
                 }
             }),
             headers=self.headers
@@ -275,7 +275,7 @@ class TestController(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": _get_full_url("/BetopiaERP/mail.thread/1"),
+                    "preview_url": _get_full_url("/betopiaerp/mail.thread/1"),
                 }
             }),
             headers=self.headers

@@ -1,7 +1,7 @@
 import { makeRoot, makeShadow } from "@im_livechat/embed/common/boot_helpers";
 import { canLoadLivechat } from "@im_livechat/embed/common/misc";
 import { LivechatRoot } from "@im_livechat/embed/frontend/livechat_root";
-import { App } from "@BetopiaERP/owl";
+import { App } from "@betopiaerp/owl";
 import { appTranslateFn } from "@web/core/l10n/translation";
 
 import { registry } from "@web/core/registry";

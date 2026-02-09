@@ -15,7 +15,7 @@ import {
     useRef,
     useState,
     onWillUnmount,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 const systrayRegistry = registry.category("systray");
 
 const getBoundingClientRect = Element.prototype.getBoundingClientRect;
@@ -208,7 +208,7 @@ export class NavBar extends Component {
     }
 
     getMenuItemHref(payload) {
-        return `/BetopiaERP/${payload.actionPath || "action-" + payload.actionID}`;
+        return `/betopiaerp/${payload.actionPath || "action-" + payload.actionID}`;
     }
 
     _closeAppMenuSidebar() {

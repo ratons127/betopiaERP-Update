@@ -1,14 +1,14 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { after, destroy, getFixture } from "@BetopiaERP/hoot";
-import { App, Component, xml } from "@BetopiaERP/owl";
+import { after, destroy, getFixture } from "@betopiaerp/hoot";
+import { App, Component, xml } from "@betopiaerp/owl";
 
 //-----------------------------------------------------------------------------
 // Exports
 //-----------------------------------------------------------------------------
 
 /**
- * @param {import("@BetopiaERP/owl").ComponentConstructor} ComponentClass
+ * @param {import("@betopiaerp/owl").ComponentConstructor} ComponentClass
  * @param {ConstructorParameters<typeof App>[1]} [config]
  */
 export async function mountForTest(ComponentClass, config) {

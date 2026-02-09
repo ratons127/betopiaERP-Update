@@ -26,6 +26,6 @@ installed.""",
             'test_website_modules/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

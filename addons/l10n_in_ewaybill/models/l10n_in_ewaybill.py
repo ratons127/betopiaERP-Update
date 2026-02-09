@@ -446,7 +446,7 @@ class L10nInEwaybill(models.Model):
         return {}
 
     def _handle_internal_warning_if_present(self, response):
-        if warnings := response.pop('BetopiaERP_warning', False):
+        if warnings := response.pop('betopiaerp_warning', False):
             for warning in warnings:
                 if warning.get('message_post'):
                     self.message_post(
@@ -717,7 +717,7 @@ class L10nInEwaybill(models.Model):
         """
         This method is used for upgrade, to migrate the old edi_ewaybill
         In any case this method should not be removed
-        see https://github.com/BetopiaERP/upgrade/pull/6624 for futher information
+        see https://github.com/betopiaerp/upgrade/pull/6624 for futher information
         """
         self.ensure_one()
         if self.attachment_id:

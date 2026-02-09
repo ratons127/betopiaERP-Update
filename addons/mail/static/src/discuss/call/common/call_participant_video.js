@@ -1,4 +1,4 @@
-import { Component, onMounted, onPatched, status, useExternalListener, useRef } from "@BetopiaERP/owl";
+import { Component, onMounted, onPatched, status, useExternalListener, useRef } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 
 /**

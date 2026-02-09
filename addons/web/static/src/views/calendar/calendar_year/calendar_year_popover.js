@@ -3,7 +3,7 @@ import { formatDate } from "@web/core/l10n/dates";
 import { getColor } from "../utils";
 import { getFormattedDateSpan } from "@web/views/calendar/utils";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class CalendarYearPopover extends Component {
     static components = { Dialog };

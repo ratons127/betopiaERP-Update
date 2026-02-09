@@ -1,4 +1,4 @@
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { session } from "@web/session";
 import { defineModels, fields, models, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 

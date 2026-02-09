@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { EventBus, reactive } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { EventBus, reactive } from "@betopiaerp/owl";
 import { Reactive, effect, withComputedProperties } from "@web/core/utils/reactive";
 
 describe.current.tags("headless");

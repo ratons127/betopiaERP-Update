@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { computeSAQRCode } from "@l10n_sa_pos/app/utils/qr";
 const { DateTime } = luxon;
 

@@ -18,7 +18,7 @@ const NB_NON_ESSENTIAL_REQUIRED_FIELDS_IN_DEFAULT_FORM = 2;
 const ESSENTIAL_FIELDS_VALID_DATA_FOR_DEFAULT_FORM = [
     {
         name: "email_from",
-        value: "admin@BetopiaERP.com",
+        value: "admin@betopiaerp.com",
     },
     {
         name: "subject",
@@ -300,7 +300,7 @@ registerWebsitePreviewTour(
         },
         ...addExistingField("email_cc", "text", "Test conditional visibility", false, {
             visibility: CONDITIONALVISIBILITY,
-            condition: "BetopiaERP",
+            condition: "betopiaerp",
         }),
         {
             content: "Ensure that the description has correctly been added on the field",

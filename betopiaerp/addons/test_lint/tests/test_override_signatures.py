@@ -64,11 +64,11 @@ class HitMiss:
 counter = collections.defaultdict(HitMiss)
 
 
-def get_BetopiaERP_module_name(python_module_name):
+def get_betopiaerp_module_name(python_module_name):
     if python_module_name.startswith('betopiaerp.addons.'):
         return python_module_name.split('.')[2]
     if python_module_name == 'betopiaerp.models':
-        return 'BetopiaERP'
+        return 'betopiaerp'
 
     return python_module_name
 
@@ -184,7 +184,7 @@ class TestLintOverrideSignatures(LintCase):
                     if callable(method):
                         break
 
-                parent_module = get_BetopiaERP_module_name(parent_class.__module__)
+                parent_module = get_betopiaerp_module_name(parent_class.__module__)
                 original_signature = inspect.signature(method)
                 original_decorators = get_decorators(method)
                 is_private = method_name.startswith('_')
@@ -195,7 +195,7 @@ class TestLintOverrideSignatures(LintCase):
                         continue
                     override = getattr(child_class, method_name)
 
-                    child_module = get_BetopiaERP_module_name(child_class.__module__)
+                    child_module = get_betopiaerp_module_name(child_class.__module__)
                     override_signature = inspect.signature(override)
                     override_decorators = get_decorators(override)
 
@@ -220,7 +220,7 @@ class TestLintOverrideSignatures(LintCase):
                             )
                             raise TypeError(msg) from None
 
-        #with open('/tmp/BetopiaERP-override-signatures.md', 'w') as f:
+        #with open('/tmp/betopiaerp-override-signatures.md', 'w') as f:
         #    f.write('method|hit|miss|ratio\n')
         #    f.write('------|---|----|-----\n')
         #    for method_name, hm in sorted(counter.items(), key=lambda x: x[1].miss):

@@ -298,7 +298,7 @@ export class Colibri {
                 } else if (directive === "t-out") {
                     this.tOuts.push({ sel, definition: value, initialValue: null });
                 } else if (directive === "t-component") {
-                    const { Component } = BetopiaERP.loader.modules.get("@BetopiaERP/owl");
+                    const { Component } = betopiaerp.loader.modules.get("@betopiaerp/owl");
                     if (Object.prototype.isPrototypeOf.call(Component, value)) {
                         for (const node of nodes) {
                             this.mountComponent(node, value);
@@ -381,7 +381,7 @@ export class Colibri {
             for (const node of nodes) {
                 if (!initialValue || !initialValue.has(node)) {
                     if (!owl) {
-                        owl = BetopiaERP.loader.modules.get("@BetopiaERP/owl");
+                        owl = betopiaerp.loader.modules.get("@betopiaerp/owl");
                     }
                     const value = node.children.length
                         ? owl.markup(node.innerHTML)

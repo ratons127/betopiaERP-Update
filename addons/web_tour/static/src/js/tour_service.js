@@ -1,4 +1,4 @@
-import { Component, markup, whenReady, validate } from "@BetopiaERP/owl";
+import { Component, markup, whenReady, validate } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { registry } from "@web/core/registry";
@@ -178,16 +178,16 @@ export const tourService = {
             tour.steps.forEach((step) => validateStep(step));
 
             if (tourConfig.mode === "auto") {
-                if (!BetopiaERP.loader.modules.get("@web_tour/js/tour_automatic/tour_automatic")) {
+                if (!betopiaerp.loader.modules.get("@web_tour/js/tour_automatic/tour_automatic")) {
                     await loadBundle("web_tour.automatic", { css: false });
                 }
-                const { TourAutomatic } = BetopiaERP.loader.modules.get(
+                const { TourAutomatic } = betopiaerp.loader.modules.get(
                     "@web_tour/js/tour_automatic/tour_automatic"
                 );
                 new TourAutomatic(tour).start();
             } else {
                 await loadBundle("web_tour.interactive");
-                const { TourPointer } = BetopiaERP.loader.modules.get(
+                const { TourPointer } = betopiaerp.loader.modules.get(
                     "@web_tour/js/tour_pointer/tour_pointer"
                 );
                 pointer.stop = overlay.add(
@@ -200,7 +200,7 @@ export const tourService = {
                         sequence: 1100, // sequence based on bootstrap z-index values.
                     }
                 );
-                const { TourInteractive } = BetopiaERP.loader.modules.get(
+                const { TourInteractive } = betopiaerp.loader.modules.get(
                     "@web_tour/js/tour_interactive/tour_interactive"
                 );
                 new TourInteractive(tour).start(env, pointer, async () => {
@@ -230,7 +230,7 @@ export const tourService = {
 
         async function tourRecorder() {
             await loadBundle("web_tour.recorder");
-            const { TourRecorder } = BetopiaERP.loader.modules.get(
+            const { TourRecorder } = betopiaerp.loader.modules.get(
                 "@web_tour/js/tour_recorder/tour_recorder"
             );
             const remove = overlay.add(
@@ -281,8 +281,8 @@ export const tourService = {
             }
         }
 
-        BetopiaERP.startTour = startTour;
-        BetopiaERP.isTourReady = (tourName) => getTourFromRegistry(tourName).wait_for.then(() => true);
+        betopiaerp.startTour = startTour;
+        betopiaerp.isTourReady = (tourName) => getTourFromRegistry(tourName).wait_for.then(() => true);
 
         return {
             startTour,

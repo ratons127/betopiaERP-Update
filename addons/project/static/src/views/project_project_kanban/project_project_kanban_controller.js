@@ -1,5 +1,5 @@
 import { KanbanController } from "@web/views/kanban/kanban_controller";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 
 import { ProjectTemplateDropdown } from "../components/project_template_dropdown";

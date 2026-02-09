@@ -10,7 +10,7 @@ import {
     m2oSupportedOptions,
     Many2OneField,
 } from "@web/views/fields/many2one/many2one_field";
-import { Component, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, useState, useEffect } from "@betopiaerp/owl";
 
 export class MailingFilterDropdown extends Dropdown {
     setup() {

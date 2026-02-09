@@ -373,7 +373,7 @@ class Cursor(BaseCursor):
         self.connection.set_isolation_level(ISOLATION_LEVEL_REPEATABLE_READ)
         self.connection.set_session(readonly=pool.readonly)
 
-        if os.getenv('BetopiaERP_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name']:
+        if os.getenv('BETOPIAERP_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name']:
             self.execute("SET search_path = public, pg_catalog;")
             self.commit()  # ensure that the search_path remains after a rollback
 
@@ -780,9 +780,9 @@ def connection_info_for(db_or_uri: str, readonly=False) -> tuple[str, dict]:
     :rtype: (str, dict)
     """
     app_name = config['db_app_name']
-    if 'BetopiaERP_PGAPPNAME' in os.environ:
-        warnings.warn("Since 19.0, use PGAPPNAME instead of BetopiaERP_PGAPPNAME", DeprecationWarning)
-        app_name = os.environ['BetopiaERP_PGAPPNAME']
+    if 'BETOPIAERP_PGAPPNAME' in os.environ:
+        warnings.warn("Since 19.0, use PGAPPNAME instead of BETOPIAERP_PGAPPNAME", DeprecationWarning)
+        app_name = os.environ['BETOPIAERP_PGAPPNAME']
     # Using manual string interpolation for security reason and trimming at default NAMEDATALEN=63
     app_name = app_name.replace('{pid}', str(os.getpid()))[:63]
     if db_or_uri.startswith(('postgresql://', 'postgres://')):

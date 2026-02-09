@@ -7,7 +7,7 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, press, test, waitFor } from "@BetopiaERP/hoot";
+import { describe, press, test, waitFor } from "@betopiaerp/hoot";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { serializeDate, today } from "@web/core/l10n/dates";
 import { getOrigin } from "@web/core/utils/urls";

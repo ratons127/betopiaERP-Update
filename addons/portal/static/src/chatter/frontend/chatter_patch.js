@@ -1,7 +1,7 @@
 import { Chatter } from "@mail/chatter/web_portal/chatter";
 
 import { patch } from "@web/core/utils/patch";
-import { useRef, onWillPatch, useEffect } from "@BetopiaERP/owl";
+import { useRef, onWillPatch, useEffect } from "@betopiaerp/owl";
 
 patch(Chatter.prototype, {
     setup() {

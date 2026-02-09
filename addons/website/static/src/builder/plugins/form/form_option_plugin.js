@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 import { Cache } from "@web/core/utils/cache";
 import { Plugin } from "@html_editor/plugin";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 import { redirect } from "@web/core/utils/urls";
 import { FormFieldOptionRedraw } from "./form_field_option_redraw";
@@ -996,7 +996,7 @@ export class PromptSaveRedirectAction extends BuilderAction {
     }
     apply({ params: { mainParam } }) {
         const redirectToAction = (action) => {
-            redirect(`/BetopiaERP/action-${encodeURIComponent(action)}`);
+            redirect(`/betopiaerp/action-${encodeURIComponent(action)}`);
         };
         new Promise((resolve) => {
             const message = _t("You are about to be redirected. Your changes will be saved.");

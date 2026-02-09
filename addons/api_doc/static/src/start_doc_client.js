@@ -1,4 +1,4 @@
-import { App, whenReady } from "@BetopiaERP/owl";
+import { App, whenReady } from "@betopiaerp/owl";
 import { getTemplate } from "@web/core/templates";
 import { DocClient } from "@api_doc/doc_client";
 

@@ -42,7 +42,7 @@ def remove_control_characters(byte_node):
     )
 
 
-class BetopiaERP_resolver(etree.Resolver):
+class betopiaerp_resolver(etree.Resolver):
     """BetopiaERP specific file resolver that can be added to the XML Parser.
 
     It will search filenames in the ir.attachments
@@ -103,7 +103,7 @@ def _check_with_xsd(tree_or_str, stream, env=None, prefix=None):
         tree_or_str = etree.fromstring(tree_or_str)
     parser = etree.XMLParser()
     if env:
-        parser.resolvers.add(BetopiaERP_resolver(env, prefix))
+        parser.resolvers.add(betopiaerp_resolver(env, prefix))
         if isinstance(stream, str) and stream.endswith('.xsd'):
             attachment = env['ir.attachment'].search([('name', '=', stream)])
             if not attachment:

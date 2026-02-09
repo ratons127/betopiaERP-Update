@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred, mockDate, runAllTimers, tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred, mockDate, runAllTimers, tick } from "@betopiaerp/hoot-mock";
 import {
     defineActions,
     defineMenus,
@@ -12,7 +12,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { onWillStart, onWillUpdateProps } from "@BetopiaERP/owl";
+import { onWillStart, onWillUpdateProps } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { ListRenderer } from "@web/views/list/list_renderer";
@@ -132,7 +132,7 @@ test("clickbot clickeverywhere test", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     window.clickEverywhere();
@@ -232,7 +232,7 @@ test("only one app", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     window.clickEverywhere("app1");
@@ -316,7 +316,7 @@ test("clickbot clickeverywhere test (with dropdown menu)", async () => {
         { mode: "replace" }
     );
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     await runAllTimers();
@@ -396,7 +396,7 @@ test("clickbot test waiting rpc after clicking filter", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     await runAllTimers();
@@ -467,7 +467,7 @@ test("clickbot show rpc error when an error dialog is detected", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     await runAllTimers();
@@ -515,13 +515,13 @@ test("clickbot show rpc error when an error dialog is detected", async () => {
             type: "server",
             code: 0,
             data: {
-                name: "BetopiaERP.exceptions.Programming error",
+                name: "betopiaerp.exceptions.Programming error",
                 debug: "traceback",
                 arguments: [],
                 context: {},
                 message: "This is a server Error, it should be displayed in an error dialog",
             },
-            exceptionName: "BetopiaERP.exceptions.Programming error",
+            exceptionName: "betopiaerp.exceptions.Programming error",
             subType: "server",
             message: "This is a server Error, it should be displayed in an error dialog",
             model: "foo",
@@ -604,7 +604,7 @@ test("clickbot test waiting render after clicking filter", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     await runAllTimers();
@@ -671,7 +671,7 @@ test("clickbot clickeverywhere menu modal", async () => {
         },
     ]);
     const webClient = await mountWithCleanup(WebClient);
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         __WOWL_DEBUG__: { root: webClient },
     });
     window.clickEverywhere();

@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { useHotkey } from "../hotkeys/hotkey_hook";
 import { DateTimePicker } from "./datetime_picker";
 

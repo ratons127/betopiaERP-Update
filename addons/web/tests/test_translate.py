@@ -11,7 +11,7 @@ class TestTranslationOverride(TransactionCase):
         cls.custom = cls.env['ir.model.fields'].create({
             'name': 'x_html_test',
             'ttype': 'html',
-            'model_id': cls.env['ir.model']._get('res.partner.category').id,
+            'model_id': cls.category.id,
             'translate': 'html_translate',
         })
 

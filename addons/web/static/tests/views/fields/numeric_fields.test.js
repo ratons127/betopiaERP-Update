@@ -1,6 +1,6 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, keyDown, pointerDown, queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, keyDown, pointerDown, queryAll, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     defineModels,
     defineParams,
@@ -10,7 +10,7 @@ import {
     mountWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { useNumpadDecimal } from "@web/views/fields/numpad_decimal_hook";
 
 class Partner extends models.Model {

@@ -1,7 +1,7 @@
-import { reactive } from "@BetopiaERP/owl";
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { reactive } from "@betopiaerp/owl";
+import { Model } from "@betopiaerp/o-spreadsheet";
 import { registry } from "@web/core/registry";
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
 import { createDefaultCurrency } from "@spreadsheet/currency/helpers";
 import { _t } from "@web/core/l10n/translation";
 
@@ -258,11 +258,11 @@ export class DashboardLoader {
      * @returns {Model}
      */
     _createSpreadsheetModel(snapshot, revisions = [], currency, translationNamespace) {
-        const BetopiaERPDataProvider = new BetopiaERPDataProvider(this.env);
+        const betopiaerpDataProvider = new BetopiaERPDataProvider(this.env);
         const model = new Model(
             snapshot,
             {
-                custom: { env: this.env, orm: this.orm, BetopiaERPDataProvider, translationNamespace },
+                custom: { env: this.env, orm: this.orm, betopiaerpDataProvider, translationNamespace },
                 mode: "dashboard",
                 defaultCurrency: createDefaultCurrency(currency),
                 external: { geoJsonService: this.geoJsonService },
@@ -270,7 +270,7 @@ export class DashboardLoader {
             revisions
         );
         this._activateFirstSheet(model);
-        BetopiaERPDataProvider.addEventListener("data-source-updated", () =>
+        betopiaerpDataProvider.addEventListener("data-source-updated", () =>
             model.dispatch("EVALUATE_CELLS")
         );
         return model;

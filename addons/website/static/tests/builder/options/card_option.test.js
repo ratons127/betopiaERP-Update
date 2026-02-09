@@ -1,12 +1,12 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-mock";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,
     setupWebsiteBuilderWithSnippet,
 } from "@website/../tests/builder/website_helpers";
 import { contains } from "@web/../tests/web_test_helpers";
-import { animationFrame, click, press, queryOne, setInputRange, waitFor } from "@BetopiaERP/hoot-dom";
+import { animationFrame, click, press, queryOne, setInputRange, waitFor } from "@betopiaerp/hoot-dom";
 import { getContent } from "@html_editor/../tests/_helpers/selection";
 import {
     insertText,

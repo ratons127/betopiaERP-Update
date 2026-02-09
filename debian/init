@@ -1,11 +1,11 @@
-﻿#!/bin/bash
+#!/bin/bash
 ### BEGIN INIT INFO
-# Provides:          BetopiaERP
+# Provides:          betopiaerp
 # Required-Start:    $remote_fs $syslog
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: Start BetopiaERP daemon at boot time
+# Short-Description: Start betopiaerp daemon at boot time
 # Description:       Enable service provided by daemon.
 # X-Interactive:     true
 ### END INIT INFO
@@ -14,13 +14,13 @@
 . /lib/lsb/init-functions
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
-DAEMON=/usr/bin/BetopiaERP
-NAME=BetopiaERP
-DESC=BetopiaERP
-CONFIG=/etc/BetopiaERP/BetopiaERP.conf
-LOGFILE=/var/log/BetopiaERP/BetopiaERP-server.log
+DAEMON=/usr/bin/betopiaerp
+NAME=betopiaerp
+DESC=betopiaerp
+CONFIG=/etc/betopiaerp/betopiaerp.conf
+LOGFILE=/var/log/betopiaerp/betopiaerp-server.log
 PIDFILE=/var/run/${NAME}.pid
-USER=BetopiaERP
+USER=betopiaerp
 export LOGNAME=$USER
 
 test -x $DAEMON || exit 0

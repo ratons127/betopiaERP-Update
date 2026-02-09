@@ -1,6 +1,6 @@
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
-import { onMounted, onPatched, useRef } from "@BetopiaERP/owl";
+import { onMounted, onPatched, useRef } from "@betopiaerp/owl";
 
 import { formatDate } from "@web/core/l10n/dates";
 

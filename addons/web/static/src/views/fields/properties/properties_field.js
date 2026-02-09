@@ -14,7 +14,7 @@ import { standardFieldProps } from "../standard_field_props";
 import { PropertyDefinition } from "./property_definition";
 import { PropertyValue } from "./property_value";
 
-import { Component, onWillStart, onWillUpdateProps, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps, useEffect, useRef, useState } from "@betopiaerp/owl";
 
 export class PropertiesField extends Component {
     static template = "web.PropertiesField";

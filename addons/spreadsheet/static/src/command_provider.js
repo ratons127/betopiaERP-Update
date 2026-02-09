@@ -1,5 +1,5 @@
-import { registries } from "@BetopiaERP/o-spreadsheet";
-import { useEffect, useEnv } from "@BetopiaERP/owl";
+import { registries } from "@betopiaerp/o-spreadsheet";
+import { useEffect, useEnv } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 const { topbarMenuRegistry } = registries;

@@ -3,7 +3,7 @@ import { useBus, useService } from "@web/core/utils/hooks";
 import { MainComponentsContainer } from "@web/core/main_components_container";
 import { useOwnDebugContext } from "@web/core/debug/debug_context";
 import { ActionContainer } from "@web/webclient/actions/action_container";
-import { Component, onMounted, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, useExternalListener, useState } from "@betopiaerp/owl";
 
 export class ProjectSharingWebClient extends Component {
     static props = {};

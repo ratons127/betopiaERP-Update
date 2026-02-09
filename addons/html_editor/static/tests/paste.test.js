@@ -1,7 +1,7 @@
 import { CLIPBOARD_WHITELISTS } from "@html_editor/core/clipboard_plugin";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { manuallyDispatchProgrammaticEvent as dispatch, press, waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { manuallyDispatchProgrammaticEvent as dispatch, press, waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { dataURItoBlob, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { cleanLinkArtifacts, unformat } from "./_helpers/format";
@@ -2686,7 +2686,7 @@ describe("Special cases", () => {
             });
         });
 
-        test("should paste a deeply nested list copied outside from BetopiaERP", async () => {
+        test("should paste a deeply nested list copied outside from betopiaerp", async () => {
             await testEditor({
                 contentBefore: "<ul><li>[]<br></li></ul>",
                 stepFunction: async (editor) => {
@@ -2938,7 +2938,7 @@ describe("pasting within pre", () => {
 });
 
 const url = "https://www.BetopiaERP.com";
-const imgUrl = "https://download.BetopiaERPcdn.com/icons/website/static/description/icon.png";
+const imgUrl = "https://download.betopiaerpcdn.com/icons/website/static/description/icon.png";
 const videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 describe("link", () => {
@@ -3029,11 +3029,11 @@ describe("link", () => {
             const { el, editor } = await setupEditor(
                 `<p>xy<a href="http://test.test/" oe-zws-empty-inline="">\u200B[]</a>z</p>`
             );
-            pasteText(editor, "http://BetopiaERP.com");
+            pasteText(editor, "http://betopiaerp.com");
             await animationFrame();
             await expectElementCount(".o-we-powerbox", 0);
             expect(cleanLinkArtifacts(getContent(el))).toBe(
-                `<p>xy<a href="http://BetopiaERP.com">http://BetopiaERP.com</a>[]z</p>`
+                `<p>xy<a href="http://betopiaerp.com">http://betopiaerp.com</a>[]z</p>`
             );
         });
 
@@ -3085,10 +3085,10 @@ describe("link", () => {
             await testEditor({
                 contentBefore: '<p><a href="http://test.test/">[]\u200B</a></p>',
                 stepFunction: async (editor) => {
-                    pasteText(editor, "BetopiaERP.com\ngoogle.com");
+                    pasteText(editor, "betopiaerp.com\ngoogle.com");
                 },
                 contentAfter:
-                    '<div><a href="http://BetopiaERP.com">BetopiaERP.com</a></div>' +
+                    '<div><a href="http://betopiaerp.com">betopiaerp.com</a></div>' +
                     '<p><a href="http://google.com">google.com</a>[]</p>',
             });
         });
@@ -3099,11 +3099,11 @@ describe("link", () => {
                 stepFunction: async (editor) => {
                     pasteHtml(
                         editor,
-                        '<a href="www.BetopiaERP.com">BetopiaERP.com</a><br><a href="google.com">google.com</a>'
+                        '<a href="www.BetopiaERP.com">betopiaerp.com</a><br><a href="google.com">google.com</a>'
                     );
                 },
                 contentAfter:
-                    '<p><a href="www.BetopiaERP.com">BetopiaERP.com</a></p><p><a href="https://google.com">google.com[]</a></p>',
+                    '<p><a href="www.BetopiaERP.com">betopiaerp.com</a></p><p><a href="https://google.com">google.com[]</a></p>',
             });
         });
         test("should paste html content over an empty link (collapsed) (2)", async () => {
@@ -3112,11 +3112,11 @@ describe("link", () => {
                 stepFunction: async (editor) => {
                     pasteHtml(
                         editor,
-                        '<a href="www.BetopiaERP.com">BetopiaERP.com</a><br><a href="www.google.com">google.com</a>'
+                        '<a href="www.BetopiaERP.com">betopiaerp.com</a><br><a href="www.google.com">google.com</a>'
                     );
                 },
                 contentAfter:
-                    '<p><a href="www.BetopiaERP.com">BetopiaERP.com</a></p><p><a href="www.google.com">google.com[]</a></p>',
+                    '<p><a href="www.BetopiaERP.com">betopiaerp.com</a></p><p><a href="www.google.com">google.com[]</a></p>',
             });
         });
 
@@ -3286,7 +3286,7 @@ describe("link", () => {
                 stepFunction: async (editor) => {
                     pasteHtml(
                         editor,
-                        '<a href="www.BetopiaERP.com">BetopiaERP.com</a><br><a href="www.google.com">google.com</a>'
+                        '<a href="www.BetopiaERP.com">betopiaerp.com</a><br><a href="www.google.com">google.com</a>'
                     );
                     undo(editor);
                 },
@@ -3414,7 +3414,7 @@ describe("link", () => {
             await animationFrame();
             await expectElementCount(".o-we-powerbox", 1);
             expect(getContent(el)).toBe(
-                `<p>abhttps://download.BetopiaERPcdn.com/icons/website/static/description/icon.png[]cd</p>`
+                `<p>abhttps://download.betopiaerpcdn.com/icons/website/static/description/icon.png[]cd</p>`
             );
             await press("Enter");
             expect(getContent(el)).toBe(`<p>ab<img src="${imgUrl}">[]cd</p>`);
@@ -3428,7 +3428,7 @@ describe("link", () => {
             await animationFrame();
             await expectElementCount(".o-we-powerbox", 1);
             expect(getContent(el)).toBe(
-                `<p>abhttps://download.BetopiaERPcdn.com/icons/website/static/description/icon.png[]cd</p>`
+                `<p>abhttps://download.betopiaerpcdn.com/icons/website/static/description/icon.png[]cd</p>`
             );
             await press("ArrowDown");
             await press("Enter");
@@ -3443,11 +3443,11 @@ describe("link", () => {
                 stepFunction: async (editor) => {
                     pasteHtml(
                         editor,
-                        '<a href="www.BetopiaERP.com">BetopiaERP.com</a><br><a href="google.com">google.com</a>'
+                        '<a href="www.BetopiaERP.com">betopiaerp.com</a><br><a href="google.com">google.com</a>'
                     );
                 },
                 contentAfter:
-                    '<p><a href="www.BetopiaERP.com">BetopiaERP.com</a></p><p><a href="https://google.com">google.com[]</a></p>',
+                    '<p><a href="www.BetopiaERP.com">betopiaerp.com</a></p><p><a href="https://google.com">google.com[]</a></p>',
             });
         });
         test("should paste html content over a link if all of its contents is selected (not collapsed) (2)", async () => {
@@ -3456,11 +3456,11 @@ describe("link", () => {
                 stepFunction: async (editor) => {
                     pasteHtml(
                         editor,
-                        '<a href="www.BetopiaERP.com">BetopiaERP.com</a><br><a href="www.google.com">google.com</a>'
+                        '<a href="www.BetopiaERP.com">betopiaerp.com</a><br><a href="www.google.com">google.com</a>'
                     );
                 },
                 contentAfter:
-                    '<p><a href="www.BetopiaERP.com">BetopiaERP.com</a></p><p><a href="www.google.com">google.com[]</a></p>',
+                    '<p><a href="www.BetopiaERP.com">betopiaerp.com</a></p><p><a href="www.google.com">google.com[]</a></p>',
             });
         });
     });
@@ -3897,7 +3897,7 @@ describe("BetopiaERP editor own html", () => {
 });
 
 describe("editable in iframe", () => {
-    test("should paste BetopiaERP-editor html", async () => {
+    test("should paste betopiaerp-editor html", async () => {
         const { el, editor } = await setupEditor("<p>[]</p>", { props: { iframe: true } });
         pasteBetopiaERPEditorHtml(editor, `<p>text<b>bold text</b>more text</p>`);
         expect(getContent(el)).toBe("<p>text<b>bold text</b>more text[]</p>");
@@ -4603,7 +4603,7 @@ describe("onDrop", () => {
         const dragdata = new DataTransfer();
         await dispatch(imgElement, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
-        const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         expect(imageHTML).toBe(
             `<p><img class="img-fluid" data-file-name="image.png" src="${base64Image}"></p>`
         );
@@ -4613,8 +4613,8 @@ describe("onDrop", () => {
             "text/html",
             `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Image}">`
         );
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
         await dispatch(pElement, "drop", { dataTransfer: dropData });
         await animationFrame();
 
@@ -4644,7 +4644,7 @@ describe("onDrop", () => {
         const dragdata = new DataTransfer();
         await dispatch(firstImage, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
-        const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         expect(imageHTML).toBe(
             `<p><img class="img-fluid" data-file-name="image.png" src="${base64Image}"></p>`
         );
@@ -4654,8 +4654,8 @@ describe("onDrop", () => {
             "text/html",
             `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Image}">`
         );
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
         await dispatch(pElement, "drop", { dataTransfer: dropData });
         await animationFrame();
 
@@ -4684,7 +4684,7 @@ describe("onDrop", () => {
         const dragdata = new DataTransfer();
         await dispatch(firstImage, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
-        const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         expect(imageHTML).toBe(
             `<p><img class="img-fluid" data-file-name="image.png" src="${base64Image3}"></p>`
         );
@@ -4694,8 +4694,8 @@ describe("onDrop", () => {
             "text/html",
             `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Image3}">`
         );
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
         await dispatch(pElement, "drop", { dataTransfer: dropData });
         await animationFrame();
 
@@ -4727,7 +4727,7 @@ describe("onDrop", () => {
         const dragdata = new DataTransfer();
         await dispatch(firstImage, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
-        const imageHTML = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const imageHTML = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         expect(imageHTML).toBe(
             `<p><img class="img-fluid" data-file-name="image.png" src="${base64Image1}"><img class="img-fluid" data-file-name="image.png" src="${base64Image2}"></p>`
         );
@@ -4737,8 +4737,8 @@ describe("onDrop", () => {
             "text/html",
             `<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><img src="${base64Image1}"><img src="${base64Image2}">`
         );
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", imageHTML);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", imageHTML);
         await dispatch(pElement, "drop", { dataTransfer: dropData });
         await animationFrame();
 
@@ -4771,12 +4771,12 @@ describe("onDrop", () => {
         const dragdata = new DataTransfer();
         await dispatch(bannerElement, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
-        const BetopiaERPEditorData = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const betopiaerpEditorData = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         const textHtml = dragdata.getData("text/html");
         const dropData = new DataTransfer();
         dropData.setData("text/html", textHtml);
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor", BetopiaERPEditorData);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor", betopiaerpEditorData);
         await dispatch(targetNodeForDrop, "drop", { dataTransfer: dropData });
         await animationFrame();
 
@@ -4808,12 +4808,12 @@ describe("onDrop", () => {
         await dispatch(iconElement, "dragstart", { dataTransfer: dragdata });
         await animationFrame();
 
-        const BetopiaERPEditorData = dragdata.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const betopiaerpEditorData = dragdata.getData("application/vnd.betopiaerp.betopiaerp-editor");
         const textHtml = dragdata.getData("text/html");
         const dropData = new DataTransfer();
         dropData.setData("text/html", textHtml);
-        // Simulate the application/vnd.BetopiaERP.BetopiaERP-editor-node data that the browser would do.
-        dropData.setData("application/vnd.BetopiaERP.BetopiaERP-editor-node", BetopiaERPEditorData);
+        // Simulate the application/vnd.betopiaerp.betopiaerp-editor-node data that the browser would do.
+        dropData.setData("application/vnd.betopiaerp.betopiaerp-editor-node", betopiaerpEditorData);
         await dispatch(targetNodeForDrop, "drop", { dataTransfer: dropData });
         await animationFrame();
 

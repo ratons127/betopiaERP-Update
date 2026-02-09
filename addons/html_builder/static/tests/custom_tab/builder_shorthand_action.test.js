@@ -1,8 +1,8 @@
 import { addBuilderOption, setupHTMLBuilder } from "@html_builder/../tests/helpers";
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { fill } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { fill } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

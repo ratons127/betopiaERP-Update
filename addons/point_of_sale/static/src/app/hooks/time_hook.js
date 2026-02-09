@@ -1,4 +1,4 @@
-import { useState, useEffect } from "@BetopiaERP/owl";
+import { useState, useEffect } from "@betopiaerp/owl";
 import { localization } from "@web/core/l10n/localization";
 const { DateTime } = luxon;
 

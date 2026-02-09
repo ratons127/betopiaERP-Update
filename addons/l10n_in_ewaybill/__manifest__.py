@@ -36,6 +36,6 @@ Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a m
     ],
     'installable': True,
     # not auto_install because the company can be related to the service industry
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

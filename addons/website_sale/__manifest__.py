@@ -5,7 +5,7 @@
     'category': 'Website/Website',
     'sequence': 50,
     'summary': 'Sell your products online',
-    'website': 'https://www.betopiaerp.com/app/ecommerce',
+    'website': 'https://www.BetopiaERP.com/app/ecommerce',
     'version': '1.1',
     'depends': [
         'website', 'sale', 'website_payment', 'website_mail', 'portal_rating', 'digest', 'delivery', 'html_builder',
@@ -73,7 +73,7 @@
         'views/snippets/s_mega_menu/little_icons.xml',
         'views/snippets/s_mega_menu/logos.xml',
         'views/snippets/s_mega_menu/multi_menus.xml',
-        'views/snippets/s_mega_menu/BetopiaERP_menu.xml',
+        'views/snippets/s_mega_menu/betopiaerp_menu.xml',
         'views/snippets/s_mega_menu/thumbnails.xml',
         'views/generate_primary_template.xml',
     ],
@@ -190,6 +190,6 @@
             #('remove', 'website_sale/static/src/snippets/**/*.edit.js'),
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

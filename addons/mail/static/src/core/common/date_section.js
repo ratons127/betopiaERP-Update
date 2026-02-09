@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { isMobileOS } from "@web/core/browser/feature_detection";
 
 /**

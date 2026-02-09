@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BetopiaERP>
+<betopiaerp>
     <data noupdate="1">
         <record id="ir_rule_test_orm_model_shared_cache_compute_line" model="ir.rule">
             <field name="name">model_shared_cache_compute_line: See own lines</field>
@@ -8,4 +8,4 @@
             <field name="groups" eval="[Command.link(ref('base.group_user'))]"/>
         </record>
     </data>
-</BetopiaERP>
+</betopiaerp>

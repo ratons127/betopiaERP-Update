@@ -1,4 +1,4 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 
 import {
     startServer,
@@ -12,8 +12,8 @@ import {
 
 import { defineHrHolidaysModels } from "@hr_holidays/../tests/hr_holidays_test_helpers";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
-import { press } from "@BetopiaERP/hoot-dom";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { press } from "@betopiaerp/hoot-dom";
+import { mockDate } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineHrHolidaysModels();

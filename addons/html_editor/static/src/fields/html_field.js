@@ -1,6 +1,6 @@
 import { HtmlUpgradeManager } from "@html_editor/html_migrations/html_upgrade_manager";
 import { stripVersion } from "@html_editor/html_migrations/html_migrations_utils";
-import { stripHistoryIds } from "@html_editor/others/collaboration/collaboration_BetopiaERP_plugin";
+import { stripHistoryIds } from "@html_editor/others/collaboration/collaboration_betopiaerp_plugin";
 import {
     COLLABORATION_PLUGINS,
     EMBEDDED_COMPONENT_PLUGINS,
@@ -14,7 +14,7 @@ import {
 } from "@html_editor/others/embedded_components/embedding_sets";
 import { normalizeHTML } from "@html_editor/utils/html";
 import { Wysiwyg } from "@html_editor/wysiwyg";
-import { Component, markup, status, useRef, useState } from "@BetopiaERP/owl";
+import { Component, markup, status, useRef, useState } from "@betopiaerp/owl";
 import { localization } from "@web/core/l10n/localization";
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
@@ -390,7 +390,7 @@ export const htmlField = {
                 "embedded_components" in options ? Boolean(options.embedded_components) : true,
             sandboxedPreview: Boolean(options.sandboxedPreview),
             cssReadonlyAssetId: options.cssReadonly,
-            codeview: Boolean(BetopiaERP.debug && options.codeview),
+            codeview: Boolean(betopiaerp.debug && options.codeview),
         };
     },
 };

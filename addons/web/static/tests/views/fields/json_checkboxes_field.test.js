@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import {
     clickSave,
     contains,

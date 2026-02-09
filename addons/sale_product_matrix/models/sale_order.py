@@ -126,7 +126,7 @@ class SaleOrder(models.Model):
         :rtype: dict
         """
         def has_ptavs(line, sorted_attr_ids):
-            # TODO instead of sorting on ids, use BetopiaERP-defined order for matrix ?
+            # TODO instead of sorting on ids, use betopiaerp-defined order for matrix ?
             ptav = line.product_template_attribute_value_ids.ids
             pnav = line.product_no_variant_attribute_value_ids.ids
             pav = pnav + ptav

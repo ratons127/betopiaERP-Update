@@ -9,6 +9,6 @@
     'data': [
         'security/ir.model.access.csv',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,5 +1,5 @@
 import { registry } from "@web/core/registry";
-import { Component, useRef, onMounted, useEffect, useState, onWillUnmount } from "@BetopiaERP/owl";
+import { Component, useRef, onMounted, useEffect, useState, onWillUnmount } from "@betopiaerp/owl";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { PriceFormatter } from "@point_of_sale/app/components/price_formatter/price_formatter";
 import { _t } from "@web/core/l10n/translation";
@@ -88,6 +88,6 @@ export class FeedbackScreen extends Component {
 registry.category("pos_pages").add("FeedbackScreen", {
     name: "FeedbackScreen",
     component: FeedbackScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/resume/{string:orderUuid}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/resume/{string:orderUuid}`,
     params: {},
 });

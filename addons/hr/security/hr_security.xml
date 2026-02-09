@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <record model="res.groups.privilege" id="res_groups_privilege_employees">
         <field name="name">Employees</field>
@@ -121,4 +121,4 @@
         <field name="domain_force">['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.mapped('country_id').ids)]</field>
     </record>
 </data>
-</BetopiaERP>
+</betopiaerp>

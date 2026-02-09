@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { click } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { click } from "@betopiaerp/hoot-dom";
 import {
     defineModels,
     fields,
@@ -60,7 +60,7 @@ test("widget upgrade_boolean in a form view - label", async () => {
 });
 
 test("widget upgrade_boolean in a form view - dialog (enterprise version)", async () => {
-    patchWithCleanup(BetopiaERP, { info: { isEnterprise: 1 } });
+    patchWithCleanup(betopiaerp, { info: { isEnterprise: 1 } });
     await mountView({
         type: "form",
         arch: /* xml */ `
@@ -81,7 +81,7 @@ test("widget upgrade_boolean in a form view - dialog (enterprise version)", asyn
 });
 
 test("widget upgrade_boolean in a form view - label (enterprise version)", async () => {
-    patchWithCleanup(BetopiaERP, { info: { isEnterprise: 1 } });
+    patchWithCleanup(betopiaerp, { info: { isEnterprise: 1 } });
     await mountView({
         type: "form",
         arch: /* xml */ `

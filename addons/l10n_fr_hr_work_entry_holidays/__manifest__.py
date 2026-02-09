@@ -10,6 +10,6 @@
         'hr_work_entry_holidays',
     ],
     'auto_install': ['hr_work_entry_holidays'],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

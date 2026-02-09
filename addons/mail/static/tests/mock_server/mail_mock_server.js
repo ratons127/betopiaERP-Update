@@ -1,4 +1,4 @@
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 import {
     authenticate,
     getKwArgs,

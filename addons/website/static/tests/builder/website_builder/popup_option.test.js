@@ -1,5 +1,5 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { advanceTime, animationFrame, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { advanceTime, animationFrame, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     addPlugin,
@@ -16,7 +16,7 @@ defineWebsiteModels();
 /**
  * This function is used to wait for expected bootstrap events that are
  * triggered by {@link callback}
- * @param {import("@BetopiaERP/hoot-dom").Target} target the element that should
+ * @param {import("@betopiaerp/hoot-dom").Target} target the element that should
  * receive the event
  * @param {String} type the type of event to expect
  * @param {Function} callback the callback that should trigger the event

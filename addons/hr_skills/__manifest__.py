@@ -68,6 +68,6 @@ This module introduces skills and resume management for employees.
             '/hr_skills/static/src/scss/report_employee_cv.scss',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

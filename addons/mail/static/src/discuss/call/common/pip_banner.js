@@ -1,4 +1,4 @@
-import { Component, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useSubEnv } from "@betopiaerp/owl";
 import { CallActionList } from "@mail/discuss/call/common/call_action_list";
 import { useService } from "@web/core/utils/hooks";
 

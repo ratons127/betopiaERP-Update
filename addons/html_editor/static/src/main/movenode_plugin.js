@@ -1,6 +1,6 @@
 import { useNativeDraggable } from "@html_editor/utils/drag_and_drop";
 import { childNodeIndex, endPos, leftPos, nodeSize, rightPos } from "@html_editor/utils/position";
-import { xml } from "@BetopiaERP/owl";
+import { xml } from "@betopiaerp/owl";
 import { Plugin } from "../plugin";
 import { closestElement } from "../utils/dom_traversal";
 import { _t } from "@web/core/l10n/translation";

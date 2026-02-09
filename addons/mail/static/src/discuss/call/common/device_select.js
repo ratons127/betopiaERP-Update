@@ -1,4 +1,4 @@
-import { Component, onWillDestroy, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillDestroy, onWillStart, useState } from "@betopiaerp/owl";
 
 import { browser } from "@web/core/browser/browser";
 import { _t } from "@web/core/l10n/translation";

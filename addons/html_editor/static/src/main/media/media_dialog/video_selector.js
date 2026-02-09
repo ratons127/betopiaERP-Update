@@ -3,7 +3,7 @@ import { rpc } from "@web/core/network/rpc";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { debounce } from "@web/core/utils/timing";
 
-import { Component, useState, useRef, onMounted, status } from "@BetopiaERP/owl";
+import { Component, useState, useRef, onMounted, status } from "@betopiaerp/owl";
 import { Switch } from "@html_editor/components/switch/switch";
 
 class VideoOption extends Component {

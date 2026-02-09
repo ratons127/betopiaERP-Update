@@ -37,7 +37,7 @@ export class OutOfFocusService {
         }
         const author = message.author;
         let notificationTitle;
-        let icon = "/mail/static/src/img/BetopiaERPbot_transparent.png";
+        let icon = "/mail/static/src/img/betopiaerpbot_transparent.png";
         if (!author) {
             notificationTitle = _t("New message");
         } else {

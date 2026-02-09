@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP><data noupdate="1">
+<betopiaerp><data noupdate="1">
 
     <!-- Email layout: encapsulation when sending (not used in backend display) -->
     <template id="digest_mail_layout">
@@ -138,11 +138,11 @@
                 color: #374151;
                 font-size: 14px;
             }
-            .by_BetopiaERP {
+            .by_betopiaerp {
                 color: #878d97;
                 font-size: 12px;
             }
-            .BetopiaERP_link_text {
+            .betopiaerp_link_text {
                 font-weight: bold;
                 color: <t t-out="color_company"/>;
             }
@@ -228,7 +228,7 @@
                 .preference {
                     font-size: 12px;
                 }
-                .by_BetopiaERP {
+                .by_betopiaerp {
                     font-size: 10px;
                 }
                 .run_business {
@@ -342,7 +342,7 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="td_button td_button_open_report" style="padding: 1px 5px;height: 24px;">
-                                                                        <a t-att-href="'/BetopiaERP/action-%s' % kpi_info['kpi_action']">
+                                                                        <a t-att-href="'/betopiaerp/action-%s' % kpi_info['kpi_action']">
                                                                             <span class="button" id="button_open_report">➔ Open Report</span>
                                                                         </a>
                                                                     </td>
@@ -397,9 +397,9 @@
                                                 <div t-if="preferences" t-foreach="preferences" t-as="preference" class="preference">
                                                     <t t-out="preference" />
                                                 </div>
-                                                <div class="by_BetopiaERP" style="margin-bottom: 15px;">
+                                                <div class="by_betopiaerp" style="margin-bottom: 15px;">
                                                     Sent by <a href="https://www.BetopiaERP.com" target="_blank">
-                                                    <span class="BetopiaERP_link_text">BetopiaERP</span></a>
+                                                    <span class="betopiaerp_link_text">BetopiaERP</span></a>
                                                     <t t-if="unsubscribe_token">
                                                         –
                                                         <a t-attf-href="/digest/#{object.id}/unsubscribe?token=#{unsubscribe_token}&amp;user_id=#{user.id}" target="_blank"
@@ -409,7 +409,7 @@
                                                     </t>
                                                     <t t-elif="object and object._name == 'digest.digest'">
                                                         –
-                                                        <a t-att-href="'/BetopiaERP/digest.digest/%s' % object.id" target="_blank"
+                                                        <a t-att-href="'/betopiaerp/digest.digest/%s' % object.id" target="_blank"
                                                             style="text-decoration: none;">
                                                             <span style="color: #878d97;">Unsubscribe</span>
                                                         </a>
@@ -437,9 +437,9 @@
                         <tr>
                             <div id="footer">
                                 <p style="font-weight: bold;" t-esc="company.name" />
-                                <p class="by_BetopiaERP" id="powered">
-                                    Powered by <a href="https://www.BetopiaERP.com" target="_blank" class="BetopiaERP_link">
-                                        <span class="BetopiaERP_link_text">BetopiaERP</span></a>
+                                <p class="by_betopiaerp" id="powered">
+                                    Powered by <a href="https://www.BetopiaERP.com" target="_blank" class="betopiaerp_link">
+                                        <span class="betopiaerp_link_text">BetopiaERP</span></a>
                                 </p>
                             </div>
                         </tr>
@@ -460,7 +460,7 @@
         <tbody>
             <tr>
                 <td align="right" style="width: 33%;">
-                    <img src="https://www.BetopiaERP.com/web/image/38874595-16ef5349/BetopiaERP-mobile.png" alt="BetopiaERP Mobile" />
+                    <img src="https://www.BetopiaERP.com/web/image/38874595-16ef5349/betopiaerp-mobile.png" alt="BetopiaERP Mobile" />
                 </td>
                 <td align="left" style="width: 66%;">
                     <table>
@@ -472,18 +472,18 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="https://play.google.com/store/apps/details?id=com.BetopiaERP.mobile"
+                                    <a href="https://play.google.com/store/apps/details?id=com.betopiaerp.mobile"
                                         target="_blank">
                                             <img class="download_app" height="40" width="135"
-                                                    src="https://download.BetopiaERPcdn.com/digests/digest/static/src/img/google_play.png" />
+                                                    src="https://download.betopiaerpcdn.com/digests/digest/static/src/img/google_play.png" />
                                     </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="https://itunes.apple.com/us/app/BetopiaERP/id1272543640" target="_blank">
+                                    <a href="https://itunes.apple.com/us/app/betopiaerp/id1272543640" target="_blank">
                                         <img class="download_app" height="40" width="135"
-                                                src="https://download.BetopiaERPcdn.com/digests/digest/static/src/img/app_store.png" />
+                                                src="https://download.betopiaerpcdn.com/digests/digest/static/src/img/app_store.png" />
                                     </a>
                                 </td>
                             </tr>
@@ -517,4 +517,4 @@
     </template>
 
 </data>
-</BetopiaERP>
+</betopiaerp>

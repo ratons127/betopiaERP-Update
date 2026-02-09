@@ -7,7 +7,7 @@
     'countries': ['tn'],
     "category": 'Accounting/Localizations/Account Charts',
     "description": """
-This is the module to manage the accounting chart for Tunisia in betopiaerp.
+This is the module to manage the accounting chart for Tunisia in BetopiaERP.
 =======================================================================
 """,
     'depends': [
@@ -20,6 +20,6 @@ This is the module to manage the accounting chart for Tunisia in betopiaerp.
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

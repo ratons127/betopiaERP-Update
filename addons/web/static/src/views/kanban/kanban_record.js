@@ -20,7 +20,7 @@ import { KanbanCompiler } from "./kanban_compiler";
 import { KanbanCoverImageDialog } from "./kanban_cover_image_dialog";
 import { KanbanDropdownMenuWrapper } from "./kanban_dropdown_menu_wrapper";
 
-import { Component, onWillUpdateProps, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useRef, useState } from "@betopiaerp/owl";
 
 const { COLORS } = ColorList;
 

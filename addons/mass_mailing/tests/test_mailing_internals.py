@@ -760,7 +760,7 @@ class TestMassMailFeatures(MassMailCommon, CronMixinCase):
             'subject': 'TestShortener',
             'body_html': """<div>
 Hi,
-<t t-set="url" t-value="'www.betopiaerp.com'"/>
+<t t-set="url" t-value="'www.BetopiaERP.com'"/>
 <t t-set="httpurl" t-value="'https://www.betopiaerp.eu'"/>
 Website0: <a id="url0" t-attf-href="https://www.betopiaerp.tz/my/{{object.name}}">https://www.betopiaerp.tz/my/<t t-esc="object.name"/></a>
 Website1: <a id="url1" href="https://www.betopiaerp.be">https://www.betopiaerp.be</a>
@@ -794,7 +794,7 @@ Email: <a id="url5" href="mailto:test@betopiaerp.com">test@betopiaerp.com</a></d
             new_mail = self._find_mail_mail_wrecord(contact)
             for link_info in [('url0', 'https://www.betopiaerp.tz/my/%s' % contact.name, True),
                               ('url1', 'https://www.betopiaerp.be', True),
-                              ('url2', 'https://www.betopiaerp.com', True),
+                              ('url2', 'https://www.BetopiaERP.com', True),
                               ('url3', 'https://www.betopiaerp.eu', True),
                               ('url4', 'https://www.example.com/foo/bar?baz=qux', True),
                               ('url5', 'mailto:test@betopiaerp.com', False)]:

@@ -34,6 +34,6 @@
             'bus/static/src/workers/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

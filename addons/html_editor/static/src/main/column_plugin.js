@@ -81,8 +81,8 @@ export class ColumnPlugin extends Plugin {
         ],
         hints: [
             {
-                selector: `.BetopiaERP-editor-editable .o_text_columns div[class*='col-'],
-                            .BetopiaERP-editor-editable .o_text_columns div[class*='col-']>${baseContainerGlobalSelector}:first-child`,
+                selector: `.betopiaerp-editor-editable .o_text_columns div[class*='col-'],
+                            .betopiaerp-editor-editable .o_text_columns div[class*='col-']>${baseContainerGlobalSelector}:first-child`,
                 text: _t("Empty column"),
             },
         ],

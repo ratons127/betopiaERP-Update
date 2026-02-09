@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { registerWebsitePreviewTour } from '@website/js/tours/tour_utils';
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 registerWebsitePreviewTour('slides_tour', {
     url: '/slides',

@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef } from "@betopiaerp/owl";
 import { useDropdownCloser } from "@web/core/dropdown/dropdown_hooks";
 
 export class KanbanDropdownMenuWrapper extends Component {

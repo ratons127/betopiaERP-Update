@@ -9,7 +9,7 @@ Egypt Tax Authority Invoice Integration
 ==============================================================================
 Integrates with the ETA portal to automatically send and sign the Invoices to the Tax Authority.
     """,
-    'author': 'BetopiaERP S.A., Plementus',
+    'author': 'BetopiaERP, Plementus',
     'category': 'account',
     'version': '0.2',
     'license': 'LGPL-3',

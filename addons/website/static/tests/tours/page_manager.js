@@ -297,7 +297,7 @@ registerWebsitePreviewTour(
 );
 
 registry.category("web_tour.tours").add("website_page_manager_direct_access", {
-    url: "/BetopiaERP/action-website.action_website_pages_list",
+    url: "/betopiaerp/action-website.action_website_pages_list",
     steps: () => [
         {
             content: "Check that the homepage is the one of Test Website",

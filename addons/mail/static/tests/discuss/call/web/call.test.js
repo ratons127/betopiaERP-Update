@@ -12,7 +12,7 @@ import {
 } from "@mail/../tests/mail_test_helpers";
 import { pttExtensionServiceInternal } from "@mail/discuss/call/common/ptt_extension_service";
 import { PTT_RELEASE_DURATION } from "@mail/discuss/call/common/rtc_service";
-import { advanceTime, freezeTime, keyDown, mockTouch, mockUserAgent, test } from "@BetopiaERP/hoot";
+import { advanceTime, freezeTime, keyDown, mockTouch, mockUserAgent, test } from "@betopiaerp/hoot";
 import { patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
 

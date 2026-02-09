@@ -88,7 +88,7 @@ export class MentionPlugin extends Plugin {
 
     prepareValidMentionLinks(validMentionLinks) {
         for (const el of validMentionLinks) {
-            // if el's parent is BetopiaERP-editor-editable, which happens when the html is computed or set with setContent,
+            // if el's parent is betopiaerp-editor-editable, which happens when the html is computed or set with setContent,
             // considering the mention blocks are protected and not editable.
             // This will lead to issues where the mention cannot be deleted or edited properly.
             // In this case, we wrap the mention with a base container.

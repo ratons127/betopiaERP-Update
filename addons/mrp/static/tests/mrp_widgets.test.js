@@ -1,6 +1,6 @@
 import { openFormView, start, startServer } from "@mail/../tests/mail_test_helpers";
 import { defineMrpModels } from "@mrp/../tests/mrp_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 
 describe.current.tags("desktop");
 defineMrpModels();

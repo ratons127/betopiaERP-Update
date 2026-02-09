@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
     <template priority="32" id="auth_passkey_login" inherit_id="web.login">
         <xpath expr="//input[@name='redirect']" position="before">
             <input type="hidden" name="webauthn_response"/>
@@ -14,4 +14,4 @@
             <t t-set="auth_btns" t-value="auth_btns + passkey_btn"/>
         </xpath>
     </template>
-</BetopiaERP>
+</betopiaerp>

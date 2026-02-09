@@ -1,4 +1,4 @@
-// @BetopiaERP-module ignore
+// @betopiaerp-module ignore
 if (!Promise.withResolvers) {
     Promise.withResolvers = function withResolvers() {
         let resolve, reject;

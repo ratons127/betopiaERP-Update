@@ -1,6 +1,6 @@
 import { contains, openDiscuss, start, startServer } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
-import { mockTimeZone } from "@BetopiaERP/hoot-mock";
+import { describe, test } from "@betopiaerp/hoot";
+import { mockTimeZone } from "@betopiaerp/hoot-mock";
 import { Command, serverState } from "@web/../tests/web_test_helpers";
 import { defineWebsiteLivechatModels } from "./website_livechat_test_helpers";
 

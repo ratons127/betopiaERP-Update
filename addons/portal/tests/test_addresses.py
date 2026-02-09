@@ -38,9 +38,9 @@ class TestPortalAddresses(BaseCommon, HttpCase):
         cls.account_a = cls._create_new_portal_user(login='portal_a')
         cls.account_b = cls._create_new_portal_user(login='portal_b')
         cls.company_partner = cls.env['res.partner'].create({
-            'name': 'Test BetopiaERP SA',
+            'name': 'Test BetopiaERP',
             'is_company': True,
-            'email': 'BetopiaERP@betopiaerp.com',
+            'email': 'betopiaerp@betopiaerp.com',
             'street': 'Chau. de Namur 40',
             'city': 'Ramillies',
             'zip': '1367',

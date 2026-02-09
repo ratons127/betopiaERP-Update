@@ -13,6 +13,6 @@
         "views/cloud_storage_migration_report_views.xml",
         "views/res_config_settings.xml",
     ],
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "license": "LGPL-3",
 }

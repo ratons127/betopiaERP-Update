@@ -1,5 +1,5 @@
 declare module "registries" {
-    import { Component } from "@BetopiaERP/owl";
+    import { Component } from "@betopiaerp/owl";
     import { BetopiaERPEnv } from "@web/env";
 
     interface AccessRights {

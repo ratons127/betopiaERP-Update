@@ -11,7 +11,7 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { asyncStep, patchWithCleanup, waitForSteps } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

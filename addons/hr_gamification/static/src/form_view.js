@@ -2,7 +2,7 @@ import { registry } from "@web/core/registry";
 import { formView } from "@web/views/form/form_view";
 import { FormRenderer } from "@web/views/form/form_renderer";
 import { EmployeeFormController } from "@hr/views/form_view";
-import { onMounted } from "@BetopiaERP/owl";
+import { onMounted } from "@betopiaerp/owl";
 
 class BadgeTabRenderer extends FormRenderer {
     setup() {

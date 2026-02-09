@@ -9,8 +9,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, tick } from "@betopiaerp/hoot-mock";
 import { asyncStep, mockService, waitForSteps } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");
@@ -34,7 +34,7 @@ const archs = {
 
 test("Show 'Followers only' placeholder for recipients input when no recipient", async () => {
     const pyEnv = await startServer();
-    const partnerId = pyEnv["res.partner"].create({ name: "test name 1", email: "test1@BetopiaERP.com" });
+    const partnerId = pyEnv["res.partner"].create({ name: "test name 1", email: "test1@betopiaerp.com" });
     await start();
     await openFormView("res.partner", partnerId);
     await click("button", { text: "Send message" });

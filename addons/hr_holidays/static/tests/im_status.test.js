@@ -1,4 +1,4 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 
 import { Store } from "@mail/core/common/store_service";
 import { startServer, start, openDiscuss, contains } from "@mail/../tests/mail_test_helpers";

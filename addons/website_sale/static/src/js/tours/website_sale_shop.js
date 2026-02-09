@@ -5,7 +5,7 @@ import {
     registerWebsitePreviewTour,
 } from '@website/js/tours/tour_utils';
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 registerWebsitePreviewTour("test_01_admin_shop_tour", {
     url: '/shop',

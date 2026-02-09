@@ -11,7 +11,7 @@ exec(open(join(dirname(__file__), 'betopiaerp', 'release.py'), 'rb').read())  # 
 lib_name = 'betopiaerp'
 
 setup(
-    name='BetopiaERP',
+    name='betopiaerp',
     version=version,
     description=description,
     long_description=long_desc,

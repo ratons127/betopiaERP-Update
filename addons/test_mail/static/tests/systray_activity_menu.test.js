@@ -1,7 +1,7 @@
 import { start, startServer } from "@mail/../tests/mail_test_helpers";
 import { click, contains } from "@mail/../tests/mail_test_helpers_contains";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { mockDate } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { mockDate } from "@betopiaerp/hoot-mock";
 import { defineTestMailModels } from "@test_mail/../tests/test_mail_test_helpers";
 import { asyncStep, mockService, waitForSteps } from "@web/../tests/web_test_helpers";
 import { serializeDate, today } from "@web/core/l10n/dates";

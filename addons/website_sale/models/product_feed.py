@@ -330,9 +330,9 @@ class ProductFeed(models.Model):
                 )
 
         # Note: Google only supports a restricted set of unit and computes the comparison prices
-        # differently than betopiaerp.
+        # differently than BetopiaERP.
         # Ex: product="Pack of wine (6 bottles)", price=$65.00, uom_name="Pack".
-        #   - in BetopiaERP: base_unit_count=6.0, base_unit_name="750ml"
+        #   - in betopiaerp: base_unit_count=6.0, base_unit_name="750ml"
         #       => displayed: "$10.83 / 750ml"
         #   - in google: unit_pricing_measure="4500ml", unit_pricing_base_measure="750ml"
         #       => displayed: "$10.83 / 750ml"

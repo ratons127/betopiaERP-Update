@@ -2,7 +2,7 @@ import { WORKER_STATE } from "@bus/workers/websocket_worker";
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
 import { stepUtils } from "@web_tour/tour_utils";
-import { whenReady } from "@BetopiaERP/owl";
+import { whenReady } from "@betopiaerp/owl";
 
 function openRoot() {
     return [{
@@ -10,7 +10,7 @@ function openRoot() {
         trigger: 'body',
         run() {
             document.querySelector("body").classList.add("wait");
-            window.location = '/BetopiaERP';
+            window.location = '/betopiaerp';
         },
         expectUnloadPage: true,
     }, {
@@ -72,7 +72,7 @@ function closePreferencesDialog({content, totp_state}) {
 }
 
 registry.category("web_tour.tours").add('totp_tour_setup', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [
 ...openUserPreferencesAtSecurityTab(),
 {
@@ -254,7 +254,7 @@ registry.category("web_tour.tours").add('totp_login_device', {
     trigger: ".o_web_client .o_navbar",
     async run() {
         await new Promise((resolve) => {
-            const bus = BetopiaERP.__WOWL_DEBUG__.root.env.services.bus_service;
+            const bus = betopiaerp.__WOWL_DEBUG__.root.env.services.bus_service;
             bus.addEventListener("BUS:CONNECT", resolve, { once: true });
             if (bus.workerState === WORKER_STATE.CONNECTED) {
                 resolve();
@@ -359,7 +359,7 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 ]});
 
 registry.category("web_tour.tours").add('totp_admin_disables', {
-    url: '/BetopiaERP',
+    url: '/betopiaerp',
     steps: () => [stepUtils.showAppsMenuItem(), {
     content: 'Go to settings',
     trigger: '[data-menu-xmlid="base.menu_administration"]',

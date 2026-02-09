@@ -5,7 +5,7 @@ import {
     useEmbeddedState,
     StateChangeManager,
 } from "@html_editor/others/embedded_component_utils";
-import { Component, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, useRef, useState, xml } from "@betopiaerp/owl";
 
 export class Counter extends Component {
     static props = ["*"];

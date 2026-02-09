@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import {
     Component,
@@ -7,7 +7,7 @@ import {
     xml as owlXml,
     toRaw,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { isNode, toSelector } from "@web/../lib/hoot-dom/helpers/dom";
 import { isInstanceOf, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { logger } from "../core/logger";

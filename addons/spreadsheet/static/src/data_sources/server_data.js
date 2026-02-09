@@ -1,6 +1,6 @@
 // @ts-check
 
-import { EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import { EvaluationError } from "@betopiaerp/o-spreadsheet";
 import { LoadingDataError, isLoadingError } from "../o_spreadsheet/errors";
 
 /**

@@ -1,4 +1,4 @@
-import { markup, toRaw } from "@BetopiaERP/owl";
+import { markup, toRaw } from "@betopiaerp/owl";
 import {
     IS_DELETED_SYM,
     OR_SYM,

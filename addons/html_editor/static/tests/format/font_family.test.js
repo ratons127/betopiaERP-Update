@@ -1,10 +1,10 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
-import { click, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { click, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 import { getContent } from "../_helpers/selection";
 import { setFontFamily, undo, redo } from "../_helpers/user_actions";
 import { execCommand } from "../_helpers/userCommands";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { expandToolbar } from "../_helpers/toolbar";
 
 test("should give a few characters a fontFamily", async () => {

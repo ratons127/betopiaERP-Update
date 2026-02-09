@@ -1057,7 +1057,7 @@ class WebsocketConnectionHandler:
 
     @classmethod
     def _handle_public_configuration(cls, request):
-        if not os.getenv('BetopiaERP_BUS_PUBLIC_SAMESITE_WS'):
+        if not os.getenv('BETOPIAERP_BUS_PUBLIC_SAMESITE_WS'):
             return
         headers = request.httprequest.headers
         origin_url = urlparse(headers.get('origin'))

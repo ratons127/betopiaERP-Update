@@ -24,7 +24,7 @@ class TestCalendar(SavepointCaseWithUserDemo):
             'stop': '2011-04-30 18:30:00',
             'description': 'The Technical Presentation will cover following topics:\n* Creating BetopiaERP class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'BetopiaERP S.A.',
+            'location': 'BetopiaERP',
             'name': 'Technical Presentation'
         })
 

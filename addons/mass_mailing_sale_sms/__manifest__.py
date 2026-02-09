@@ -9,6 +9,6 @@
     'description': """Mass mailing sms on sale orders""",
     'depends': ['mass_mailing_sale', 'mass_mailing_sms'],
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

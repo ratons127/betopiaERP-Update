@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { CustomColorPicker } from "@web/core/color_picker/custom_color_picker/custom_color_picker";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { isCSSColor, isColorGradient, normalizeCSSColor } from "@web/core/utils/colors";

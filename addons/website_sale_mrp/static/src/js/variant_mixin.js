@@ -1,4 +1,4 @@
-/** @BetopiaERP-module **/
+/** @betopiaerp-module **/
 
 import { rpc } from "@web/core/network/rpc";
 import VariantMixin from "@website_sale_stock/js/variant_mixin";

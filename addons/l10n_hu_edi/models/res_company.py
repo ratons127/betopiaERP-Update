@@ -117,7 +117,7 @@ class ResCompany(models.Model):
         overwritten by a new request, but the new request fails with a 'duplicate invoice' error.
 
         To do this, we request a list of all transactions made since l10n_hu_edi_last_transaction_recovery,
-        and then we query the last 10 transactions whose transaction IDs are unknown by betopiaerp. We try to
+        and then we query the last 10 transactions whose transaction IDs are unknown by BetopiaERP. We try to
         match them to invoices in BetopiaERP, and if successful, update the invoice state.
         """
 

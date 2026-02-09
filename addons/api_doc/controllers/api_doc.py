@@ -100,7 +100,7 @@ class DocController(http.Controller):
         # index gets very large (>1MiB) when there are many modules
         # installed.
         # TODO: gzip
-        filename = f'BetopiaERP-doc-index-{db_registry_sequence}-{unique}.json'
+        filename = f'betopiaerp-doc-index-{db_registry_sequence}-{unique}.json'
         index_attach = self.env['ir.attachment'].sudo().search([('name', '=', filename)], limit=1)
         if not use_cache:
             modules, models = self._doc_index()

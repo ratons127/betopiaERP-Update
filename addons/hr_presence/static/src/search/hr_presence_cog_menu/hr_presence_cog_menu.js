@@ -1,5 +1,5 @@
 import { FormCogMenu } from "@web/views/form/form_cog_menu/form_cog_menu";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { getActionRecords, getPresenceActionItems } from "../../views/hooks";
 
 /**

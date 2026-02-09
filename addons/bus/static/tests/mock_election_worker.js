@@ -1,4 +1,4 @@
-import { mockWorker } from "@BetopiaERP/hoot-mock";
+import { mockWorker } from "@betopiaerp/hoot-mock";
 import { MockServer } from "@web/../tests/web_test_helpers";
 import { ElectionWorker } from "@bus/workers/election_worker";
 import { patch } from "@web/core/utils/patch";

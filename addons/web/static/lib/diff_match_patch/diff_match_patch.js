@@ -1,5 +1,5 @@
 /**
- * @BetopiaERP
+ * @betopiaerp
  * This file contains 2 modifications from the original 'diff_match_patch.js' file:
  *
  * 1. it has been trimmed to only keep the 'diff' functions (as is), without the
@@ -1556,7 +1556,7 @@ diff_match_patch.patch_obj.prototype.toString = function () {
 
 
 /**
- * @BetopiaERP
+ * @betopiaerp
  * Export main object and attach useful variables
  */
 exports.DiffMatchPatch = Object.assign(diff_match_patch, {

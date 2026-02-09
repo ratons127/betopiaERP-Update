@@ -1,4 +1,4 @@
-import { EventBus } from "@BetopiaERP/owl";
+import { EventBus } from "@betopiaerp/owl";
 import { browser } from "../browser/browser";
 import { omit } from "../utils/objects";
 

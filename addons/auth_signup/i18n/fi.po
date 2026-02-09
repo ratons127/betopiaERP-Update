@@ -13,17 +13,17 @@
 # Mikko Salmela <salmemik@gmail.com>, 2022
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2022
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
-# Saara Hakanen <sahak@BetopiaERP.com>, 2025, 2026.
+# Saara Hakanen <sahak@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-23 06:05+0000\n"
-"Last-Translator: Saara Hakanen <sahak@BetopiaERP.com>\n"
-"Language-Team: Finnish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: Saara Hakanen <sahak@betopiaerp.com>\n"
+"Language-Team: Finnish <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "auth_signup/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -498,7 +498,7 @@ msgid ""
 "value=\"object.get_base_url()\"/>\n"
 "                        Your BetopiaERP domain is: <b><a t-att-"
 "href=\"website_url\" t-out=\"website_url or ''\">http://"
-"yourcompany.BetopiaERP.com</a></b><br/>\n"
+"yourcompany.betopiaerp.com</a></b><br/>\n"
 "                        Your sign in email is: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@example.com</a></b><br/><br/>\n"
@@ -632,7 +632,7 @@ msgstr ""
 "                        <t t-set=\"website_url\" t-"
 "value=\"object.get_base_url()\"/>\n"
 "                        BetopiaERP-domainisi: <b><a t-att-href=\"website_url\" t-"
-"out=\"website_url or ''\">http://yrityksesi.BetopiaERP.com</a></b><br/>\n"
+"out=\"website_url or ''\">http://yrityksesi.betopiaerp.com</a></b><br/>\n"
 "                        Kirjautumissähköpostisi: <b><a t-attf-href=\"/web/"
 "login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or "
 "''\">mark.brown23@esimerkki.com</a></b><br/><br/>\n"
@@ -949,13 +949,13 @@ msgstr ""
 "</table>"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A reset password link was sent by email"
 msgstr "Salasanan palautuslinkki lähetettiin sähköpostilla"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "A signup link was sent by email"
 msgstr "Ilmoittautumislinkki lähetettiin sähköpostilla"
@@ -966,7 +966,7 @@ msgid "Already have an account?"
 msgstr "Oletko jo rekisteröitynyt?"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Another user is already registered using this email address."
 msgstr "Toinen käyttäjä on jo rekisteröitynyt tällä sähköpostiosoitteella."
@@ -977,7 +977,7 @@ msgid "Back to Login"
 msgstr "Takaisin kirjautumiseen"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr ""
@@ -1009,7 +1009,7 @@ msgid "Contact"
 msgstr "Yhteystiedot"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "Could not contact the mail server, please check your outgoing email server "
@@ -1019,13 +1019,13 @@ msgstr ""
 "palvelimen asetukset"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not create a new account."
 msgstr "Ei voitu luoda uutta tiliä."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Could not reset your password"
 msgstr "Salasanaasi ei pystytty nollaamaan"
@@ -1104,7 +1104,7 @@ msgstr ""
 "                                Kiitos,"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Invalid signup token"
 msgstr "Virheellinen rekisteröitymistunnus"
@@ -1130,7 +1130,7 @@ msgid "Marc Demo"
 msgstr "Marc Demo"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Multiple accounts found for this login"
 msgstr "Tälle kirjautumistunnukselle löytyy useita käyttäjätilejä"
@@ -1141,13 +1141,13 @@ msgid "Name"
 msgstr "Nimi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "No account found for this login"
 msgstr "Sisäänkirjautumiseen ei löytynyt tiliä"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "No login provided."
 msgstr "Käyttäjätunnusta ei annettu."
@@ -1173,19 +1173,19 @@ msgid "Password Reset"
 msgstr "Salasanan nollaus"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Password reset"
 msgstr "Salasanan nollaus"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Password reset instructions sent to your email address."
 msgstr "Salasanan palautusohjeet on lähetetty sähköpostiisi."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Passwords do not match; please retype them."
 msgstr "Salasanat eivät täsmää; ole hyvä ja kirjoita ne uudelleen."
@@ -1206,7 +1206,7 @@ msgid "Reminder for unregistered users"
 msgstr "Muistutus rekisteröitymättömille käyttäjille"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 #: model_terms:ir.ui.view,arch_db:auth_signup.login
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
@@ -1270,7 +1270,7 @@ msgid "Settings: Unregistered User Reminder"
 msgstr "Asetukset: Rekisteröimättömien käyttäjien muistutus"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Sign Up"
 msgstr "Liity"
@@ -1287,32 +1287,32 @@ msgid "Signup Token Type"
 msgstr "Rekisteröitymistunnuksen tyyppi"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup is not allowed for uninvited users"
 msgstr "Rekisteröitymistä ei sallita ilman kutsua"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_partner.py:0
 msgid "Signup token '%s' is not valid or expired"
 msgstr ""
 "Rekisteröitymistunnus '%s' ei ole voimassa tai sen voimassaolo on päättynyt"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: invalid template user"
 msgstr "Rekisteröityminen: virheellinen mallikäyttäjä"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no login given for new user"
 msgstr "Rekisteröityminen: käyttäjälle ei ole annettu käyttäjätunnusta"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "Signup: no name or partner given for new user"
 msgstr ""
@@ -1330,13 +1330,13 @@ msgstr ""
 "Mallikäyttäjä uusille käyttäjille, jotka luotiin rekisteröitymisen yhteydessä"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "The form was not properly filled in."
 msgstr "Lomaketta ei ole täytetty asianmukaisesti."
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid ""
 "There was an error when trying to deliver your Email, please check your "
@@ -1370,7 +1370,7 @@ msgid "Welcome to {{ object.company_id.name }}!"
 msgstr "Tervetuloa {{ object.company_id.name }}!"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/models/res_users.py:0
 msgid "You cannot perform this action on an archived user."
 msgstr "Toimintoa ei voi suorittaa arkistoidulle käyttäjälle."
@@ -1381,7 +1381,7 @@ msgid "Your account at {{ object.company_id.name }}"
 msgstr "Tilisi yrityksessä {{ object.company_id.name }}"
 
 #. module: auth_signup
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/auth_signup/controllers/main.py:0
 msgid "Your password has been reset successfully."
 msgstr "Salasanasi on palautettu onnistuneesti."

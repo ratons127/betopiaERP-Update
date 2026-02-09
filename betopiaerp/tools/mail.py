@@ -160,7 +160,7 @@ class _Cleaner(clean.Cleaner):
         In some use cases, e.g. templates used for mass mailing,
         we send emails containing conditional comments targeting Microsoft Outlook,
         to give special styling instructions.
-        https://github.com/BetopiaERP/BetopiaERP/pull/119325/files#r1301064789
+        https://github.com/betopiaerp/betopiaerp/pull/119325/files#r1301064789
 
         Within these conditional comments, unsanitized HTML can lie.
         However, in modern browser, these comments are considered as simple comments,
@@ -219,8 +219,8 @@ def tag_quote(el):
         for sibling in el.itersiblings(preceding=False):
             sibling.set('data-o-mail-quote', '1')
 
-    # BetopiaERP, gmail and outlook automatic signature wrapper
-    is_signature_wrapper = 'BetopiaERP_signature_wrapper' in el_class or 'gmail_signature' in el_class or el_id == "Signature"
+    # betopiaerp, gmail and outlook automatic signature wrapper
+    is_signature_wrapper = 'betopiaerp_signature_wrapper' in el_class or 'gmail_signature' in el_class or el_id == "Signature"
     is_outlook_auto_message = 'appendonsend' in el_id
     # gmail and outlook reply quote
     is_outlook_reply_quote = 'divRplyFwdMsg' in el_id
@@ -811,7 +811,7 @@ def email_normalize(text, strict=True):
     """ Sanitize and standardize email address entries. As of rfc5322 section
     3.4.1 local-part is case-sensitive. However most main providers do consider
     the local-part as case insensitive. With the introduction of smtp-utf8
-    within BetopiaERP, this assumption is certain to fall short for international
+    within betopiaerp, this assumption is certain to fall short for international
     emails. We now consider that
 
       * if local part is ascii: normalize still 'lower' ;
@@ -858,7 +858,7 @@ def email_normalize_all(text):
 def _normalize_email(email):
     """ As of rfc5322 section 3.4.1 local-part is case-sensitive. However most
     main providers do consider the local-part as case insensitive. With the
-    introduction of smtp-utf8 within BetopiaERP, this assumption is certain to fall
+    introduction of smtp-utf8 within betopiaerp, this assumption is certain to fall
     short for international emails. We now consider that
 
       * if local part is ascii: normalize still 'lower' ;

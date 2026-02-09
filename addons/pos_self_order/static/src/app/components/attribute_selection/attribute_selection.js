@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { useSelfOrder } from "@pos_self_order/app/services/self_order_service";
 import { AttributeSelectionHelper } from "./attribute_selection_helper";
 

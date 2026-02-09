@@ -2,15 +2,15 @@
 # This file contains the translation of the following modules:
 # * mail_group
 #
-# "Tiffany Chang (tic)" <tic@BetopiaERP.com>, 2025.
+# "Tiffany Chang (tic)" <tic@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-09-16 21:33+0000\n"
-"Last-Translator: \"Tiffany Chang (tic)\" <tic@BetopiaERP.com>\n"
-"Language-Team: Thai <https://translate.BetopiaERP.com/projects/BetopiaERP-19/mail_group/"
+"Last-Translator: \"Tiffany Chang (tic)\" <tic@betopiaerp.com>\n"
+"Language-Team: Thai <https://translate.betopiaerp.com/projects/betopiaerp-19/mail_group/"
 "th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -336,7 +336,7 @@ msgid "Always Allow"
 msgstr "อนุญาตเสมอ"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "An email with instructions has been sent."
 msgstr "ส่งอีเมลพร้อมคำแนะนำแล้ว"
@@ -539,7 +539,7 @@ msgid "Email"
 msgstr "อีเมล"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Email %s is invalid"
 msgstr "อีเมล %s ไม่ถูกต้อง"
@@ -564,8 +564,8 @@ msgstr "ที่อยู่อีเมลของผู้ส่ง ฟิ�
 
 #. module: mail_group
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_domain
-msgid "Email domain e.g. 'example.com' in 'BetopiaERP@example.com'"
-msgstr "โดเมนอีเมล เช่น 'example.com' ใน 'BetopiaERP@example.com'"
+msgid "Email domain e.g. 'example.com' in 'betopiaerp@example.com'"
+msgstr "โดเมนอีเมล เช่น 'example.com' ใน 'betopiaerp@example.com'"
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -613,13 +613,13 @@ msgid "Group Name"
 msgstr "ชื่อกลุ่ม"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Group message can only be linked to mail group. Current model is %s."
 msgstr "ข้อความกลุ่มสามารถเชื่อมโยงกับกลุ่มอีเมลเท่านั้น โมเดลปัจจุบันคือ %s"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/controllers/portal.py:0
 msgid "Groups"
 msgstr ""
@@ -680,13 +680,13 @@ msgid "Image"
 msgstr "รูปภาพ"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Invalid action for URL generation (%s)"
 msgstr "การดำเนินการที่ไม่ถูกต้องสำหรับการสร้าง URL (%s)"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_moderation.py:0
 msgid "Invalid email address “%s”"
 msgstr "ที่อยู่อีเมลไม่ถูกต้อง “%s”"
@@ -884,7 +884,7 @@ msgid "Messages Per Month"
 msgstr "ข้อความต่อเดือน"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Messages are pending moderation"
 msgstr "ข้อความกำลังรอการกลั่นกรอง"
@@ -930,7 +930,7 @@ msgid "Moderated emails in this group"
 msgstr "อีเมลที่ได้รับการตรวจสอบในกลุ่มนี้"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderated group must have moderators."
 msgstr "กลุ่มที่ได้รับการตรวจสอบจะต้องมีผู้ดูแล"
@@ -968,7 +968,7 @@ msgid "Moderators"
 msgstr "ผู้ดูแล"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Moderators must have an email address."
 msgstr "ผู้ดูแลจะต้องมีที่อยู่อีเมล"
@@ -1034,20 +1034,20 @@ msgid "Number of message in this group"
 msgstr "จำนวนข้อความในกลุ่มนี้"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Only an administrator or a moderator can send guidelines to group members."
 msgstr "มีเพียงผู้ดูแลระบบหรือผู้ดูแลเท่านั้นที่สามารถส่งแนวทางปฏิบัติไปยังสมาชิกกลุ่มได้"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only members can send email to the mailing list."
 msgstr "เฉพาะสมาชิกเท่านั้นที่สามารถส่งอีเมลไปยังรายชื่อผู้รับจดหมายได้"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "Only selected groups of users can send email to the mailing list."
 msgstr "เฉพาะกลุ่มผู้ใช้ที่เลือกเท่านั้นที่สามารถส่งอีเมลไปยังรายการส่งจดหมายได้"
@@ -1165,7 +1165,7 @@ msgid "Public Mailing List"
 msgstr "รายชื่อผู้รับจดหมายสาธารณะ"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/wizard/mail_group_message_reject.py:0
 msgid "Re: %s"
 msgstr "ตอบกลับ: %s"
@@ -1325,7 +1325,7 @@ msgid "Subscription confirmation to a mailing group"
 msgstr "การยืนยันการสมัครไปยังกลุ่มอีเมล"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has "
@@ -1340,7 +1340,7 @@ msgid "Thank you!"
 msgstr "ขอบคุณ"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The \"Authorized Group\" is missing."
 msgstr "\"กลุ่มที่ได้รับอนุญาต\" หายไป"
@@ -1351,25 +1351,25 @@ msgid "The email"
 msgstr "อีเมล"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The email \"%s\" is not valid."
 msgstr "อีเมล \"%s\" ไม่ถูกต้อง"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The group of the message do not match."
 msgstr "กลุ่มข้อความไม่ตรงกัน"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is empty."
 msgstr "คำอธิบายแนวทางปฏิบัตินั้นว่างเปล่า"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The guidelines description is missing."
 msgstr "ไม่มีคำอธิบายแนวทางปฏิบัติ"
@@ -1388,42 +1388,42 @@ msgstr ""
 #: model:ir.model.fields,help:mail_group.field_mail_group__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.BetopiaERP.com>"
+"<jobs@example.betopiaerp.com>"
 msgstr ""
-"ชื่อของนามแฝงอีเมล เช่น 'งาน' หากคุณต้องการรับอีเมลสำหรับ <jobs@example.BetopiaERP.com>"
+"ชื่อของนามแฝงอีเมล เช่น 'งาน' หากคุณต้องการรับอีเมลสำหรับ <jobs@example.betopiaerp.com>"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The notification message is missing."
 msgstr "ข้อความแจ้งเตือนหายไป"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "The partner can not be found."
 msgstr "ไม่พบพาร์ทเนอร์"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "The record of the message should be the group."
 msgstr "การบันทึกข้อความควรเป็นกลุ่ม"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is already subscribed."
 msgstr "อีเมลนี้ได้สมัครรับข่าวสารแล้ว"
 
 #. module: mail_group
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/mail_group/static/src/interactions/mail_group.js:0
 msgid "This email is not subscribed."
 msgstr "อีเมลนี้ไม่ได้สมัครรับข้อมูล"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "This message can not be moderated"
 msgstr "ข้อความนี้ไม่สามารถกลั่นกรองได้"
@@ -1434,7 +1434,7 @@ msgid "This partner is already subscribed to the group"
 msgstr "พาร์ทเนอร์รายนี้สมัครรับข้อมูลกลุ่มแล้ว"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Those messages can not be moderated: %s."
 msgstr "ข้อความเหล่านั้นไม่สามารถกลั่นกรองได้:%s."
@@ -1472,7 +1472,7 @@ msgid "Whitelisted"
 msgstr "รายการที่อนุญาต"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group_message.py:0
 msgid "Wrong status (%s)"
 msgstr "สถานะไม่ถูกต้อง (%s)"
@@ -1483,13 +1483,13 @@ msgid "You can create only one rule for a given email address in a group."
 msgstr "คุณสามารถสร้างกฎได้เพียงกฎเดียวสำหรับที่อยู่อีเมลที่ระบุในกลุ่ม"
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not join a closed group."
 msgstr ""
 
 #. module: mail_group
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/mail_group/models/mail_group.py:0
 msgid "You can not send guidelines for a closed group."
 msgstr ""

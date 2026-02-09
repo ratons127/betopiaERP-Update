@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 import { user } from "@web/core/user";
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 
 export class RecruitmentActionHelper extends Component {
     static template = "hr_recruitment.RecruitmentActionHelper";

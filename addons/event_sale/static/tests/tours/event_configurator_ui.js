@@ -3,7 +3,7 @@ import { stepUtils } from "@web_tour/tour_utils";
 import tourUtils from "@sale/js/tours/tour_utils";
 
 registry.category("web_tour.tours").add("event_configurator_tour", {
-    url: "/BetopiaERP",
+    url: "/betopiaerp",
     steps: () => [
         ...stepUtils.goToAppSteps("sale.sale_menu_root", "Go to the Sales App"),
         ...tourUtils.createNewSalesOrder(),

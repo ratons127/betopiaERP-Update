@@ -32,6 +32,6 @@ Auto-complete partner companies' data
             'partner_autocomplete/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

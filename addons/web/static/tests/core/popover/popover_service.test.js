@@ -1,9 +1,9 @@
-import { Component, onWillStart, xml } from "@BetopiaERP/owl";
-import { test, expect, beforeEach, getFixture } from "@BetopiaERP/hoot";
+import { Component, onWillStart, xml } from "@betopiaerp/owl";
+import { test, expect, beforeEach, getFixture } from "@betopiaerp/hoot";
 import { getService, mountWithCleanup } from "@web/../tests/web_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import { MainComponentsContainer } from "@web/core/main_components_container";
-import { click, press } from "@BetopiaERP/hoot-dom";
+import { click, press } from "@betopiaerp/hoot-dom";
 import { Deferred } from "@web/core/utils/concurrency";
 
 let target;

@@ -1,5 +1,5 @@
 import { ListRenderer } from "@web/views/list/list_renderer";
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 export class SectionListRenderer extends ListRenderer {
     setup() {

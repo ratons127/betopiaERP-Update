@@ -1,5 +1,5 @@
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { describe, expect, test, beforeEach } from "@BetopiaERP/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { describe, expect, test, beforeEach } from "@betopiaerp/hoot";
 import {
     defineSpreadsheetActions,
     defineSpreadsheetModels,

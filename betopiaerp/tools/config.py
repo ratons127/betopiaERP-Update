@@ -104,7 +104,7 @@ class _BetopiaERPOption(optparse.Option):
                 self.config.optional_options[opt] = self
         if env_name is None and is_new_option and self.file_loadable:
             # generate an env_name for file_loadable settings that are in the index
-            self.env_name = 'BetopiaERP_' + self.dest.upper()
+            self.env_name = 'BETOPIAERP_' + self.dest.upper()
         elif env_name and not is_new_option:
             raise ValueError(f"cannot set env_name to an option that is not indexed: {self}")
 
@@ -220,10 +220,10 @@ class configmanager:
 
         # Server startup config
         group = optparse.OptionGroup(parser, "Common options")
-        group.add_option("-c", "--config", dest="config", type='path', file_loadable=False, env_name='BetopiaERP_RC',
+        group.add_option("-c", "--config", dest="config", type='path', file_loadable=False, env_name='BETOPIAERP_RC',
                          help="specify alternate config file")
         group.add_option("-s", "--save", action="store_true", dest="save", my_default=False, file_loadable=False,
-                         help="save configuration to ~/.BetopiaERPrc (or to ~/.openerp_serverrc if it exists)")
+                         help="save configuration to ~/.betopiaerprc (or to ~/.openerp_serverrc if it exists)")
         group.add_option("-i", "--init", dest="init", type='comma', metavar="MODULE,...", my_default=[], file_loadable=False,
                          help="install one or more modules (comma-separated list, use \"all\" for all modules), requires -d")
         group.add_option("-u", "--update", dest="update", type='comma',  metavar="MODULE,...", my_default=[], file_loadable=False,
@@ -309,7 +309,7 @@ class configmanager:
         group.add_option("--screencasts", dest="screencasts", type='path', my_default='',
                          metavar='DIR',
                          help="Screencasts will go in DIR/{db_name}/screencasts.")
-        temp_tests_dir = os.path.join(tempfile.gettempdir(), 'BetopiaERP_tests')
+        temp_tests_dir = os.path.join(tempfile.gettempdir(), 'betopiaerp_tests')
         group.add_option("--screenshots", dest="screenshots", type='path', my_default=temp_tests_dir,
                          metavar='DIR',
                          help="Screenshots will go in DIR/{db_name}/screenshots. Defaults to %s." % temp_tests_dir)
@@ -385,7 +385,7 @@ class configmanager:
         group.add_option("--db_sslmode", dest="db_sslmode", type="choice", my_default='prefer', env_name='PGSSLMODE',
                          choices=['disable', 'allow', 'prefer', 'require', 'verify-ca', 'verify-full'],
                          help="specify the database ssl connection mode (see PostgreSQL documentation)")
-        group.add_option("--db_app_name", dest="db_app_name", my_default="BetopiaERP-{pid}", env_name='PGAPPNAME',
+        group.add_option("--db_app_name", dest="db_app_name", my_default="betopiaerp-{pid}", env_name='PGAPPNAME',
                          help="specify the application name in the database, {pid} is substituted by the process pid")
         group.add_option("--db_maxconn", dest="db_maxconn", type='int', my_default=64,
                          help="specify the maximum number of physical connections to PostgreSQL")
@@ -417,7 +417,7 @@ class configmanager:
 
         # Advanced options
         group = optparse.OptionGroup(parser, "Advanced options")
-        group.add_option('--dev', dest='dev_mode', type='comma', metavar="FEATURE,...", my_default=[], file_exportable=False, env_name='BetopiaERP_DEV',
+        group.add_option('--dev', dest='dev_mode', type='comma', metavar="FEATURE,...", my_default=[], file_exportable=False, env_name='BETOPIAERP_DEV',
                          # optparse uses a fixed 55 chars to print the help no matter the
                          # terminal size, abuse that to align the features
                          help="Enable developer features (comma-separated list, use   "
@@ -514,12 +514,12 @@ class configmanager:
 
         if os.name == 'nt':
             rcfilepath = os.path.join(os.path.abspath(os.path.dirname(sys.argv[0])), 'betopiaerp.conf')
-        elif os.path.isfile(rcfilepath := os.path.expanduser('~/.BetopiaERPrc')):
+        elif os.path.isfile(rcfilepath := os.path.expanduser('~/.betopiaerprc')):
             pass
         elif os.path.isfile(rcfilepath := os.path.expanduser('~/.openerp_serverrc')):
-            self._warn("Since ages ago, the ~/.openerp_serverrc file has been replaced by ~/.BetopiaERPrc", DeprecationWarning)
+            self._warn("Since ages ago, the ~/.openerp_serverrc file has been replaced by ~/.betopiaerprc", DeprecationWarning)
         else:
-            rcfilepath = '~/.BetopiaERPrc'
+            rcfilepath = '~/.betopiaerprc'
         self._default_options['config'] = self._normalize(rcfilepath)
 
     _log_entries = []   # helpers for log() and warn(), accumulate messages
@@ -619,7 +619,7 @@ class configmanager:
             if env_name and env_name in environ:
                 self._env_options[option_name] = self.parse(option_name, environ[env_name])
         if environ.get('OPENERP_SERVER'):
-            self._warn("Since ages ago, the OPENERP_SERVER environment variable has been replaced by BetopiaERP_RC", DeprecationWarning)
+            self._warn("Since ages ago, the OPENERP_SERVER environment variable has been replaced by BETOPIAERP_RC", DeprecationWarning)
 
     def _load_cli_options(self, opt):
         # betopiaerp.cli.command.main parses the config twice, the second time

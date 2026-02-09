@@ -37,9 +37,9 @@ other payment methods via the redirection flow.
 ## Module history
 
 - `17.4`
-  - The support for tokenization via `Card` is added. BetopiaERP/BetopiaERP#158445
+  - The support for tokenization via `Card` is added. betopiaerp/betopiaerp#158445
 - `17.0`
-  - The first version of the module is merged. BetopiaERP/BetopiaERP#141661
+  - The first version of the module is merged. betopiaerp/betopiaerp#141661
 
 ## Testing instructions
 

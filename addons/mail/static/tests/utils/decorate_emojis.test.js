@@ -1,8 +1,8 @@
 import { decorateEmojis } from "@mail/utils/common/format";
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
 
-import { expect, test } from "@BetopiaERP/hoot";
-import { markup } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { markup } from "@betopiaerp/owl";
 
 import { makeMockEnv } from "@web/../tests/web_test_helpers";
 import { loadEmoji } from "@web/core/emoji_picker/emoji_picker";

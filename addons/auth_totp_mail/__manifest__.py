@@ -24,6 +24,6 @@ by sending an email to the target user. This email redirects them to:
             'auth_totp_mail/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,11 +1,11 @@
-import { registries, helpers, constants } from "@BetopiaERP/o-spreadsheet";
+import { registries, helpers, constants } from "@betopiaerp/o-spreadsheet";
 
 const { DEFAULT_LOCALE } = constants;
 const { pivotNormalizationValueRegistry } = registries;
 const { toString, toNumber } = helpers;
 
 /**
- * Add pivot normalizaton functions to support BetopiaERP specific fields
+ * Add pivot normalizaton functions to support betopiaerp specific fields
  * in spreadsheet
  */
 

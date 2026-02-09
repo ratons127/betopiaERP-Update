@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { MockEventTarget } from "../hoot_utils";
 import { currentPermissions } from "./navigator";

@@ -1,5 +1,5 @@
-import { test } from "@BetopiaERP/hoot";
-import { press, waitFor, waitForNone } from "@BetopiaERP/hoot-dom";
+import { test } from "@betopiaerp/hoot";
+import { press, waitFor, waitForNone } from "@betopiaerp/hoot-dom";
 import { contains, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { ImageCrop } from "@html_editor/main/media/image_crop";
 import { defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";

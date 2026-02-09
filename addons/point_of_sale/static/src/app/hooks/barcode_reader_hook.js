@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { useComponent, useEffect } from "@BetopiaERP/owl";
+import { useComponent, useEffect } from "@betopiaerp/owl";
 
 export function useBarcodeReader(callbackMap, exclusive = false) {
     const current = useComponent();

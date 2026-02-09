@@ -31,6 +31,6 @@
             'pos_event/static/tests/unit/**/*'
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

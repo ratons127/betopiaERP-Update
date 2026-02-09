@@ -1,4 +1,4 @@
-import { EventBus, useSubEnv } from "@BetopiaERP/owl";
+import { EventBus, useSubEnv } from "@betopiaerp/owl";
 
 import { x2ManyCommands } from "@web/core/orm_service";
 import { useService } from "@web/core/utils/hooks";

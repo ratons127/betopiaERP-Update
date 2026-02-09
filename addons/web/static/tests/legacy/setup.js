@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/setup default=false */
+/** @betopiaerp-module alias=@web/../tests/setup default=false */
 
 import { assets } from "@web/core/assets";
 import { user, _makeUser } from "@web/core/user";
@@ -14,7 +14,7 @@ import { loadLanguages } from "@web/core/l10n/translation";
 transitionConfig.disabled = true;
 
 import { patch } from "@web/core/utils/patch";
-import { App, EventBus, whenReady } from "@BetopiaERP/owl";
+import { App, EventBus, whenReady } from "@betopiaerp/owl";
 import { currencies } from "@web/core/currency";
 import { cookie } from "@web/core/browser/cookie";
 import { router } from "@web/core/browser/router";
@@ -31,7 +31,7 @@ function forceLocaleAndTimezoneWithCleanup() {
 
 function makeMockLocation() {
     return Object.assign(document.createElement("a"), {
-        href: window.location.origin + "/BetopiaERP",
+        href: window.location.origin + "/betopiaerp",
         assign(url) {
             this.href = url;
         },
@@ -211,7 +211,7 @@ function patchBodyAddEventListener() {
 }
 
 function patchBetopiaERP() {
-    patchWithCleanup(BetopiaERP, {
+    patchWithCleanup(betopiaerp, {
         debug: "",
         info: {
             db: sessionInfo.db,
@@ -245,7 +245,7 @@ function patchSessionInfo() {
         registry_hash: "05500d71e084497829aa807e3caa2e7e9782ff702c15b2f57f87f2d64d049bd0",
         is_admin: true,
         is_system: true,
-        username: "thewise@BetopiaERP.com",
+        username: "thewise@betopiaerp.com",
         name: "Mitchell",
         partner_id: 7,
         uid: 7,

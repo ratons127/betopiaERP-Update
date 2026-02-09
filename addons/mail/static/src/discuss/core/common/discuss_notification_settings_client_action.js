@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 import { DiscussNotificationSettings } from "@mail/discuss/core/common/discuss_notification_settings";

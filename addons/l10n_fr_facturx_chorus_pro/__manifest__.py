@@ -18,6 +18,6 @@ Add support to fill three fields used when using Chorus Pro, especially when inv
         'views/account_move_views.xml',
         'views/report_invoice.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

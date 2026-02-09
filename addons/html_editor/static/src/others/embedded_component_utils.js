@@ -8,7 +8,7 @@ import {
     useComponent,
     useRef,
     useState,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 /**
  * @typedef {HTMLElement} HostElement host element for an embedded component

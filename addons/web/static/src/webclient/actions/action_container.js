@@ -1,4 +1,4 @@
-import { Component, xml, onWillDestroy } from "@BetopiaERP/owl";
+import { Component, xml, onWillDestroy } from "@betopiaerp/owl";
 
 // -----------------------------------------------------------------------------
 // ActionContainer (Component)

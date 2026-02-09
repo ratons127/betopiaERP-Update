@@ -1,6 +1,6 @@
 /** @ts-check */
 
-import { Component, onWillStart, onWillUpdateProps, useEffect } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps, useEffect } from "@betopiaerp/owl";
 import { useChildRef, useService } from "@web/core/utils/hooks";
 
 import { TagsList } from "@web/core/tags_list/tags_list";

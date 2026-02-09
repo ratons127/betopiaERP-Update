@@ -12,10 +12,10 @@ import { MailActivitySchedule } from "@mail/../tests/mock_server/mock_models/mai
 import { ActivityController } from "@mail/views/web/activity/activity_controller";
 import { ActivityModel } from "@mail/views/web/activity/activity_model";
 import { ActivityRenderer } from "@mail/views/web/activity/activity_renderer";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { keyDown, waitFor } from "@BetopiaERP/hoot-dom";
-import { animationFrame, disableAnimations, mockDate } from "@BetopiaERP/hoot-mock";
-import { onMounted, onWillUnmount } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { keyDown, waitFor } from "@betopiaerp/hoot-dom";
+import { animationFrame, disableAnimations, mockDate } from "@betopiaerp/hoot-mock";
+import { onMounted, onWillUnmount } from "@betopiaerp/owl";
 import { MailTestActivity } from "@test_mail/../tests/mock_server/models/mail_test_activity";
 import { defineTestMailModels } from "@test_mail/../tests/test_mail_test_helpers";
 import {

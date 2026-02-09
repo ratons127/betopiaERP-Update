@@ -223,8 +223,8 @@
         "Q64:T64"
       ],
       "cells": {
-        "A4": "[Sessions by Agent](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"partner_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"partner_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Agent\"})",
-        "A33": "[Top Agents](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_operator_action\",\"domain\":[],\"context\":{\"group_by\":[],\"pivot_measures\":[\"__count\",\"time_to_answer\",\"duration\",\"rating\",\"number_of_calls\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Agents\"})",
+        "A4": "[Sessions by Agent](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"partner_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"partner_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Agent\"})",
+        "A33": "[Top Agents](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_operator_action\",\"domain\":[],\"context\":{\"group_by\":[],\"pivot_measures\":[\"__count\",\"time_to_answer\",\"duration\",\"rating\",\"number_of_calls\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Agents\"})",
         "A34": "=_t(\"Agent\")",
         "A35": "=PIVOT.HEADER(3,\"#partner_id\", 1)",
         "A36": "=PIVOT.HEADER(3,\"#partner_id\",2)",
@@ -236,7 +236,7 @@
         "A42": "=PIVOT.HEADER(3,\"#partner_id\",8)",
         "A43": "=PIVOT.HEADER(3,\"#partner_id\",9)",
         "A44": "=PIVOT.HEADER(3,\"#partner_id\",10)",
-        "A52": "[Calls by Agents](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"partner_id\"],\"graph_measure\":\"number_of_calls\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"partner_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Calls by Agent\"})",
+        "A52": "[Calls by Agents](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"partner_id\"],\"graph_measure\":\"number_of_calls\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"partner_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Calls by Agent\"})",
         "A54": "=_t(\"Agent\")",
         "A55": "=PIVOT.HEADER(6,\"#partner_id\", 1)",
         "A56": "=PIVOT.HEADER(6,\"#partner_id\",2)",
@@ -248,16 +248,16 @@
         "A62": "=PIVOT.HEADER(6,\"#partner_id\",8)",
         "A63": "=PIVOT.HEADER(6,\"#partner_id\",9)",
         "A64": "=PIVOT.HEADER(6,\"#partner_id\",10)",
-        "A73": "[Sessions by Day](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"start_date:day\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"start_date:day\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Day\"})",
-        "A107": "[Sessions by Day of Week](BetopiaERP://view/{\"viewType\":\"pivot\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_operator_action\",\"domain\":[],\"context\":{\"group_by\":[\"day_number\"],\"pivot_measures\":[\"__count\",\"time_to_answer\",\"duration\",\"rating\",\"number_of_calls\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Day of Week\"})",
-        "A126": "[Top Countries](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"country_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"country_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Countries\"})",
+        "A73": "[Sessions by Day](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"start_date:day\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"start_date:day\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Day\"})",
+        "A107": "[Sessions by Day of Week](betopiaerp://view/{\"viewType\":\"pivot\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_operator_action\",\"domain\":[],\"context\":{\"group_by\":[\"day_number\"],\"pivot_measures\":[\"__count\",\"time_to_answer\",\"duration\",\"rating\",\"number_of_calls\"],\"pivot_column_groupby\":[],\"pivot_row_groupby\":[\"partner_id\"]},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"pivot\"],[false,\"graph\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Day of Week\"})",
+        "A126": "[Top Countries](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"country_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"country_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Countries\"})",
         "A128": "=_t(\"Country\")",
         "A129": "=PIVOT.HEADER(9,\"#country_id\", 1)",
         "A130": "=PIVOT.HEADER(9,\"#country_id\",2)",
         "A131": "=PIVOT.HEADER(9,\"#country_id\",3)",
         "A132": "=PIVOT.HEADER(9,\"#country_id\",4)",
         "A133": "=PIVOT.HEADER(9,\"#country_id\",5)",
-        "A135": "[Top Expertises](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"session_expertises\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"session_expertises\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Expertises\"})",
+        "A135": "[Top Expertises](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"session_expertises\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"session_expertises\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Expertises\"})",
         "A137": "=_t(\"Expertise\")",
         "A138": "=PIVOT.HEADER(11,\"#session_expertises\", 1)",
         "A139": "=PIVOT.HEADER(11,\"#session_expertises\",2)",
@@ -320,15 +320,15 @@
         "M62": "=IF(I62, I62 / PIVOT.VALUE(6, \"__count\", \"#partner_id\", 8), \"\")",
         "M63": "=IF(I63, I63 / PIVOT.VALUE(6, \"__count\", \"#partner_id\", 9), \"\")",
         "M64": "=IF(I64, I64 / PIVOT.VALUE(6, \"__count\", \"#partner_id\", 10), \"\")",
-        "P107": "[Sessions by Hour of Day](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"start_hour\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"start_hour\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Hour of Day\"})",
-        "P126": "[Top Languages](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"lang_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"lang_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Languages\"})",
+        "P107": "[Sessions by Hour of Day](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"start_hour\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"start_hour\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Sessions by Hour of Day\"})",
+        "P126": "[Top Languages](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"lang_id\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"lang_id\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Languages\"})",
         "P128": "=_t(\"Language\")",
         "P129": "=PIVOT.HEADER(10,\"#lang_id\", 1)",
         "P130": "=PIVOT.HEADER(10,\"#lang_id\",2)",
         "P131": "=PIVOT.HEADER(10,\"#lang_id\",3)",
         "P132": "=PIVOT.HEADER(10,\"#lang_id\",4)",
         "P133": "=PIVOT.HEADER(10,\"#lang_id\",5)",
-        "P135": "[Top Chatbot Answers](BetopiaERP://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"chatbot_answers_path\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"chatbot_answers_path\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Chatbot Answers\"})",
+        "P135": "[Top Chatbot Answers](betopiaerp://view/{\"viewType\":\"graph\",\"action\":{\"xmlId\":\"im_livechat.im_livechat_report_channel_action\",\"domain\":[],\"context\":{\"group_by\":[\"chatbot_answers_path\"],\"graph_measure\":\"__count\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"chatbot_answers_path\"],\"graph_order\":null,\"graph_stacked\":true},\"modelName\":\"im_livechat.report.channel\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Top Chatbot Answers\"})",
         "P137": "=_t(\"Chatbot Answer\")",
         "P138": "=PIVOT.HEADER(12,\"#chatbot_answers_path_str\", 1)",
         "P139": "=PIVOT.HEADER(12,\"#chatbot_answers_path_str\",2)",
@@ -655,7 +655,7 @@
               "groupBy": ["partner_id"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "dataSets": [],
             "verticalAxisPosition": "left",
             "stacked": false,
@@ -865,7 +865,7 @@
               "groupBy": ["start_date:day"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "actionXmlId": "im_livechat.im_livechat_report_channel_action",
             "dataSets": [],
             "verticalAxisPosition": "left",
@@ -908,7 +908,7 @@
               "groupBy": ["day_number"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "actionXmlId": "im_livechat.im_livechat_report_channel_action",
             "dataSets": [],
             "verticalAxisPosition": "left",
@@ -951,7 +951,7 @@
               "groupBy": ["start_hour"],
               "orderBy": []
             },
-            "type": "BetopiaERP_bar",
+            "type": "betopiaerp_bar",
             "actionXmlId": "im_livechat.im_livechat_report_channel_action",
             "dataSets": [],
             "verticalAxisPosition": "left",
@@ -1104,7 +1104,7 @@
   },
   "pivots": {
     "1": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1154,7 +1154,7 @@
       "rows": []
     },
     "2": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": -1 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1204,7 +1204,7 @@
       "rows": []
     },
     "3": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1247,7 +1247,7 @@
       ]
     },
     "4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1270,7 +1270,7 @@
       "rows": []
     },
     "5": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": -1 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1293,7 +1293,7 @@
       "rows": []
     },
     "6": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1335,7 +1335,7 @@
       ]
     },
     "a96176e7-d33f": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1360,7 +1360,7 @@
       ]
     },
     "a22ba739-5135": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1385,7 +1385,7 @@
       ]
     },
     "6670ff23-c9c4": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1420,7 +1420,7 @@
       }
     },
     "b3250c1f-c721": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1455,7 +1455,7 @@
       }
     },
     "21eaa7c7-29bc": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },
@@ -1490,7 +1490,7 @@
       }
     },
     "d11c47b1-b913": {
-      "type": "BetopiaERP",
+      "type": "BETOPIAERP",
       "fieldMatching": {
         "4db3e2d2-5471-44a4-80ca-7c2fa4f1a5ac": { "chain": "start_date", "type": "datetime", "offset": 0 },
         "5124b7b1-aa17-46cc-b574-2309708de75b": { "chain": "partner_id", "type": "many2one" },

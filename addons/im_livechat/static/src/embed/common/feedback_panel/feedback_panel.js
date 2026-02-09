@@ -1,7 +1,7 @@
 import { RATING } from "@im_livechat/embed/common/livechat_service";
 import { TranscriptSender } from "@im_livechat/core/common/transcript_sender";
 
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 
 import { useService } from "@web/core/utils/hooks";
 import { session } from "@web/session";

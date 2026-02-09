@@ -7,7 +7,7 @@ import { Field } from "@web/views/fields/field";
 import { Record } from "@web/model/record";
 import { getFormattedDateSpan } from "@web/views/calendar/utils";
 
-import { Component, useExternalListener } from "@BetopiaERP/owl";
+import { Component, useExternalListener } from "@betopiaerp/owl";
 
 export class CalendarCommonPopover extends Component {
     static template = "web.CalendarCommonPopover";

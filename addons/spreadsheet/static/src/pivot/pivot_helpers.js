@@ -1,13 +1,13 @@
 // @ts-check
 
 import { _t } from "@web/core/l10n/translation";
-import { EvaluationError, helpers } from "@BetopiaERP/o-spreadsheet";
+import { EvaluationError, helpers } from "@betopiaerp/o-spreadsheet";
 
 const { isDateOrDatetimeField } = helpers;
 
 /**
- * @typedef {import("@BetopiaERP/o-spreadsheet").Token} Token
- * @typedef {import("@BetopiaERP/o-spreadsheet").Granularity} Granularity
+ * @typedef {import("@betopiaerp/o-spreadsheet").Token} Token
+ * @typedef {import("@betopiaerp/o-spreadsheet").Granularity} Granularity
  * */
 
 export const pivotFormulaRegex = /^=.*PIVOT/;
@@ -38,12 +38,12 @@ const AGGREGATORS_BY_FIELD_TYPE = {
     reference: ["count_distinct", "count"],
 };
 
-export const BetopiaERP_AGGREGATORS = {};
+export const BETOPIAERP_AGGREGATORS = {};
 
 for (const type in AGGREGATORS_BY_FIELD_TYPE) {
-    BetopiaERP_AGGREGATORS[type] = {};
+    BETOPIAERP_AGGREGATORS[type] = {};
     for (const aggregator of AGGREGATORS_BY_FIELD_TYPE[type]) {
-        BetopiaERP_AGGREGATORS[type][aggregator] = AGGREGATOR_NAMES[aggregator];
+        BETOPIAERP_AGGREGATORS[type][aggregator] = AGGREGATOR_NAMES[aggregator];
     }
 }
 

@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { useBus } from "@web/core/utils/hooks";
 
 export class FormStatusIndicator extends Component {

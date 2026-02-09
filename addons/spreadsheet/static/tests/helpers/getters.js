@@ -1,4 +1,4 @@
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { range } from "@web/core/utils/numbers";
 
 const { toCartesian, toZone, toXC } = spreadsheet.helpers;

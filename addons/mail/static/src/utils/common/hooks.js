@@ -10,7 +10,7 @@ import {
     useState,
     useSubEnv,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 import { monitorAudio } from "@mail/utils/common/media_monitoring";
 import { browser } from "@web/core/browser/browser";

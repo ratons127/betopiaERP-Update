@@ -14,6 +14,6 @@
             'pos_restaurant_stripe/static/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

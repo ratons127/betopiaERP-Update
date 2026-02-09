@@ -30,6 +30,6 @@ Allow shoppers of your eCommerce store to create personalized collections of pro
         ],
     },
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

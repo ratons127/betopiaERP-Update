@@ -21,7 +21,7 @@ import { isBlock, closestBlock } from "@html_editor/utils/blocks";
 import { isHtmlContentSupported } from "@html_editor/core/selection_plugin";
 import { isBrowserFirefox } from "@web/core/browser/feature_detection";
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("plugins").CSSSelector} CSSSelector */
 /**
  * @typedef {import("@html_editor/core/selection_plugin").EditorSelection} EditorSelection
@@ -346,7 +346,7 @@ export class LinkPlugin extends Plugin {
                 this.dependencies.selection.focusEditable();
                 // To avoid a race condition between the events spawn by :
                 // 1. the `focus editable` and
-                // 2. the BetopiaERP `Shortcut bar` closure
+                // 2. the betopiaerp `Shortcut bar` closure
                 // Which can affect the link overlay opening sequence if we keep it in sync.
                 // Therefore we need to wait for the next tick before triggering openLinkTools.
                 setTimeout(() => this.openLinkTools());

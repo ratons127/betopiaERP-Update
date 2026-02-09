@@ -1,4 +1,4 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
 import { makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { localization } from "@web/core/l10n/localization";

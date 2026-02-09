@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { ActionContainer } from "@web/webclient/actions/action_container";
 
@@ -18,6 +18,6 @@ export class ActionScreen extends Component {
 registry.category("pos_pages").add("ActionScreen", {
     name: "ActionScreen",
     component: ActionScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/action/{string:actionName}`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/action/{string:actionName}`,
     params: {},
 });

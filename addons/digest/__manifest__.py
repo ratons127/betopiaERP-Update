@@ -24,6 +24,6 @@ Send KPI Digests periodically
         'views/res_config_settings_views.xml',
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

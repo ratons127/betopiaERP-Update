@@ -21,7 +21,7 @@ class Authenticate(http.Controller):
     @http.route(['/mail_client_extension/auth', '/mail_plugin/auth'], type='http', auth="user", methods=['GET'], website=True)
     def auth(self, **values):
         """
-         Once authenticated this route renders the view that shows an app wants to access betopiaerp.
+         Once authenticated this route renders the view that shows an app wants to access BetopiaERP.
          The user is invited to allow or deny the app. The form posts to `/mail_client_extension/auth/confirm`.
 
          old route name "/mail_client_extension/auth is deprecated as of saas-14.3,it is not needed for newer

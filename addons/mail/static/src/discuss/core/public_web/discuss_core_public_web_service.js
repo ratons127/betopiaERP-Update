@@ -1,4 +1,4 @@
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { _t } from "@web/core/l10n/translation";
 
@@ -71,7 +71,7 @@ export class DiscussCorePublicWeb {
                     this.rtcService.joinCall(channel);
                 } else if (action === "POST_RTC_LOGS") {
                     const logs = data || {};
-                    logs.BetopiaERPInfo = BetopiaERP.info;
+                    logs.betopiaerpInfo = betopiaerp.info;
                     const string = JSON.stringify(logs);
                     const blob = new Blob([string], { type: "application/json" });
                     const downloadLink = document.createElement("a");

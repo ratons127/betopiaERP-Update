@@ -12,9 +12,9 @@ import {
     startServer,
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
-import { expect, mockTouch, mockUserAgent, test } from "@BetopiaERP/hoot";
-import { press } from "@BetopiaERP/hoot-dom";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { expect, mockTouch, mockUserAgent, test } from "@betopiaerp/hoot";
+import { press } from "@betopiaerp/hoot-dom";
+import { tick } from "@betopiaerp/hoot-mock";
 import { serverState } from "@web/../tests/web_test_helpers";
 
 import { HIGHLIGHT_CLASS } from "@mail/core/common/message_search_hook";

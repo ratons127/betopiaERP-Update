@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, onWillRender, useEffect, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillRender, useEffect, useRef, useState, xml } from "@betopiaerp/owl";
 import { Test } from "../core/test";
 import { refresh } from "../core/url";
 import { formatTime, throttle } from "../hoot_utils";

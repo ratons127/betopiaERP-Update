@@ -1,5 +1,5 @@
-import { describe, expect, test, beforeEach, Deferred, animationFrame } from "@BetopiaERP/hoot";
-import { waitFor, waitForNone, click, queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test, beforeEach, Deferred, animationFrame } from "@betopiaerp/hoot";
+import { waitFor, waitForNone, click, queryOne } from "@betopiaerp/hoot-dom";
 import {
     defineWebsiteModels,
     setupWebsiteBuilder,

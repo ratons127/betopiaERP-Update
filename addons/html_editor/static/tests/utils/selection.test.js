@@ -4,8 +4,8 @@ import {
     getAdjacentCharacter,
     getCursorDirection,
 } from "@html_editor/utils/selection";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { dispatch } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { dispatch } from "@betopiaerp/hoot-dom";
 import { insertText, setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { setSelection } from "../_helpers/selection";

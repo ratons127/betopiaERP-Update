@@ -1,4 +1,4 @@
-import { Component, onError, xml } from "@BetopiaERP/owl";
+import { Component, onError, xml } from "@betopiaerp/owl";
 
 export class ErrorHandler extends Component {
     static template = xml`<t t-slot="default" />`;

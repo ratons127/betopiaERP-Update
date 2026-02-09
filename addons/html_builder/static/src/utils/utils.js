@@ -1,5 +1,5 @@
 import { DependencyManager } from "../core/dependency_manager";
-import { useSubEnv } from "@BetopiaERP/owl";
+import { useSubEnv } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 
 /**

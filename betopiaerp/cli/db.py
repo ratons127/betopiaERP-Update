@@ -92,14 +92,14 @@ class Db(Command):
                 To install more modules, use the `module install` command.
                 For more info:
 
-                $ BetopiaERP-bin module install --help
+                $ betopiaerp-bin module install --help
         """)
 
         # LOAD ----------------------------------
 
         load = subs.add_parser(
             "load", help="Load a dump file.",
-            description="Loads a dump file into BetopiaERP, dump file can be a URL. "
+            description="Loads a dump file into betopiaerp, dump file can be a URL. "
                  "If `database` is provided, uses that as the database name. "
                  "Otherwise uses the dump file name without extension.")
         load.set_defaults(func=self.load)

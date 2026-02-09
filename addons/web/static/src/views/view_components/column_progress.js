@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { AnimatedNumber } from "./animated_number";
 
 export class ColumnProgress extends Component {

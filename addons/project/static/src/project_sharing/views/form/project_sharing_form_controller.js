@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { FormController } from '@web/views/form/form_controller';
 import { useService } from '@web/core/utils/hooks';
-import { useExternalListener } from "@BetopiaERP/owl";
+import { useExternalListener } from "@betopiaerp/owl";
 
 export class ProjectSharingFormController extends FormController {
     static components = {

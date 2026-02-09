@@ -11,8 +11,8 @@ import {
 } from "@html_builder/../tests/helpers";
 import { Builder } from "@html_builder/builder";
 import { Plugin } from "@html_editor/plugin";
-import { beforeEach, expect, test, describe } from "@BetopiaERP/hoot";
-import { animationFrame, click, queryAll, queryAllTexts, queryFirst } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test, describe } from "@betopiaerp/hoot";
+import { animationFrame, click, queryAll, queryAllTexts, queryFirst } from "@betopiaerp/hoot-dom";
 import { contains, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 describe.current.tags("desktop");

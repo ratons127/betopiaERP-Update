@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
-import { Component, status } from "@BetopiaERP/owl";
+import { Component, status } from "@betopiaerp/owl";
 
 export class SendSMSButton extends Component {
     static template = "sms.SendSMSButton";

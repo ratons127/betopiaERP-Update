@@ -21,4 +21,4 @@ class TestTaskTemplatesTour(HttpCase):
         })
 
     def test_task_templates_tour(self):
-        self.start_tour("/BetopiaERP", "project_task_templates_tour", login="admin")
+        self.start_tour("/betopiaerp", "project_task_templates_tour", login="admin")

@@ -1,7 +1,7 @@
 import { fieldVisualFeedback } from "@web/views/fields/field";
 import { getTooltipInfo } from "@web/views/fields/field_tooltip";
 import { _t } from "@web/core/l10n/translation";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 
 export class FormLabel extends Component {
@@ -37,7 +37,7 @@ export class FormLabel extends Component {
     }
 
     get hasTooltip() {
-        return Boolean(BetopiaERP.debug) || this.tooltipHelp;
+        return Boolean(betopiaerp.debug) || this.tooltipHelp;
     }
 
     get tooltipHelp() {
@@ -49,7 +49,7 @@ export class FormLabel extends Component {
         return help;
     }
     get tooltipInfo() {
-        if (!BetopiaERP.debug) {
+        if (!betopiaerp.debug) {
             return JSON.stringify({
                 field: {
                     help: this.tooltipHelp,

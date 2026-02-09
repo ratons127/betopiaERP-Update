@@ -1,4 +1,4 @@
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { useDomState } from "../utils";
 
 export class BuilderComponent extends Component {

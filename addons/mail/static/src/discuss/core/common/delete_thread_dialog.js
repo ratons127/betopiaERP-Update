@@ -1,6 +1,6 @@
 import { ActionPanel } from "@mail/discuss/core/common/action_panel";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 import { rpc } from "@web/core/network/rpc";
 import { _t } from "@web/core/l10n/translation";

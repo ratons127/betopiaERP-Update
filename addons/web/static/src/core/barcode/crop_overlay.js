@@ -1,4 +1,4 @@
-import { Component, useRef, onPatched } from "@BetopiaERP/owl";
+import { Component, useRef, onPatched } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { isIOS } from "@web/core/browser/feature_detection";
 import { clamp } from "@web/core/utils/numbers";

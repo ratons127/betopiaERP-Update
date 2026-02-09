@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-mock";
 
 import { Deferred, Mutex, KeepLast, Race } from "@web/core/utils/concurrency";
 

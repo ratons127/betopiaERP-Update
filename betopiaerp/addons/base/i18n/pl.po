@@ -22,7 +22,7 @@
 # Mariusz, 2022
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2022
 # Arek Smagacz <arek.smagacz@gmail.com>, 2022
-# Natalia Gros <nag@BetopiaERP.com>, 2022
+# Natalia Gros <nag@betopiaerp.com>, 2022
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2022
 # Grażyna Grzelak <grazyna.grzelak@openglobe.pl>, 2022
 # Rafał Kozak <rafal.kozak@openglobe.pl>, 2022
@@ -37,21 +37,21 @@
 # Łukasz Grzenkowicz <lukasz.grzenkowicz@gmail.com>, 2023
 # Radosław Wierzgała, 2023
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2023
-# Maksym <ms@myBetopiaERP.pl>, 2023
+# Maksym <ms@mybetopiaerp.pl>, 2023
 # Radosław Biegalski <radoslaw.biegalski@openglobe.pl>, 2023
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2023
-# Paweł Wodyński <pw@myBetopiaERP.pl>, 2023
+# Paweł Wodyński <pw@mybetopiaerp.pl>, 2023
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Marta (wacm)" <wacm@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Marta (wacm)" <wacm@betopiaerp.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-09 12:16+0000\n"
 "PO-Revision-Date: 2026-02-03 12:05+0000\n"
-"Last-Translator: \"Marta (wacm)\" <wacm@BetopiaERP.com>\n"
-"Language-Team: Polish <https://translate.BetopiaERP.com/projects/BetopiaERP-19/base/pl/>"
+"Last-Translator: \"Marta (wacm)\" <wacm@betopiaerp.com>\n"
+"Language-Team: Polish <https://translate.betopiaerp.com/projects/betopiaerp-19/base/pl/>"
 "\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -561,7 +561,7 @@ msgstr ""
 "11010101 Caja General\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -593,7 +593,7 @@ msgid ""
 "requirements which might arise from POS implementation. [1]  Under normal "
 "circumstances, you might not need to use those at all.\n"
 "\n"
-"[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+"[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 "\n"
 msgstr ""
 "\n"
@@ -613,7 +613,7 @@ msgstr ""
 "specjalnych wymagań, które mogą wynikać z wdrożenia POS. [1] W normalnych "
 "okolicznościach, możesz nie potrzebować ich w ogóle.\n"
 "\n"
-"[1] Zobacz https://github.com/BetopiaERP/BetopiaERP/pull/6470, by poznać szczegóły.\n"
+"[1] Zobacz https://github.com/betopiaerp/betopiaerp/pull/6470, by poznać szczegóły.\n"
 "\n"
 
 #. module: base
@@ -683,7 +683,7 @@ msgstr ""
 "\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -697,7 +697,7 @@ msgstr ""
 "właściwej firmy, aby sprawdzić ten rekord."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "\n"
@@ -4539,9 +4539,9 @@ msgid ""
 "\n"
 "Legal\n"
 "-----\n"
-"Contact BetopiaERP SA before installing pos_blackbox_be module.\n"
+"Contact BetopiaERP before installing pos_blackbox_be module.\n"
 "\n"
-"No modified version is certified and supported by BetopiaERP SA.\n"
+"No modified version is certified and supported by BetopiaERP.\n"
 msgstr ""
 "\n"
 "Zarejestrowana belgijska kasa fiskalna\n"
@@ -6762,7 +6762,7 @@ msgid ""
 "sequences synchronization between BetopiaERP and ARCA.\n"
 "\n"
 "    NOTE: From the Journal's form view we are able to force a sync between "
-"the BetopiaERP sequences to each of the document types in\n"
+"the betopiaerp sequences to each of the document types in\n"
 "    with the last numbers registered in ARCA.\n"
 "\n"
 "From vendor bills, we have added a functionality that can be configured in "
@@ -6855,7 +6855,7 @@ msgstr ""
 "problemów z synchronizacją sekwencji między BetopiaERP i ARCA.\n"
 "\n"
 "UWAGA: Z poziomu widoku formularza dziennika możemy wymusić synchronizację "
-"sekwencji BetopiaERP do każdego z typów dokumentów w ARCA.\n"
+"sekwencji betopiaerp do każdego z typów dokumentów w ARCA.\n"
 "z ostatnimi numerami zarejestrowanymi w ARCA.\n"
 "\n"
 "Z rachunków dostawców dodaliśmy funkcjonalność, którą można skonfigurować w "
@@ -7905,11 +7905,11 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configuration -> Settings -> Customer Invoices or find \"E-invoice\" in "
 "search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 "For the creation of API username and password please ref this document: "
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>\n"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>\n"
 msgstr ""
 "\n"
 "Indie - E-fakturowanie\n"
@@ -7926,7 +7926,7 @@ msgstr ""
 "wiele firm z tym samym numerem GST, wykonaj krok 1 tylko dla pierwszej "
 "firmy.\n"
 "Aby utworzyć nazwę użytkownika i hasło API, zapoznaj się z tym dokumentem: "
-"<https://service.BetopiaERP.co.in/einvoice_create_api_user>.\n"
+"<https://service.betopiaerp.co.in/einvoice_create_api_user>.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_ewaybill
@@ -7943,7 +7943,7 @@ msgid ""
 "Step 3: Set that username and password in BetopiaERP (Goto: Invoicing/Accounting "
 "-> Configration -> Settings -> Indian Electronic WayBill or find \"E-"
 "waybill\" in search bar)\n"
-"Step 4: Repeat steps 1,2,3 for all GSTIN you have in BetopiaERP. If you have a "
+"Step 4: Repeat steps 1,2,3 for all GSTIN you have in betopiaerp. If you have a "
 "multi-company with the same GST number then perform step 1 for the first "
 "company only.\n"
 msgstr ""
@@ -8192,7 +8192,7 @@ msgstr ""
 "Umożliwia porównywanie produktów z listy życzeń\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "\n"
@@ -11582,7 +11582,7 @@ msgid ""
 "cumulative totals (daily, monthly, annually)\n"
 "\n"
 "    Access to download the mandatory Certificate of Conformity delivered by "
-"BetopiaERP SA (only for BetopiaERP Enterprise users)\n"
+"BetopiaERP (only for BetopiaERP Enterprise users)\n"
 msgstr ""
 "\n"
 "Ten dodatek zawiera techniczne wymagania francuskiej regulacji CGI. 286, I. "
@@ -11605,7 +11605,7 @@ msgstr ""
 "okresu, jak i łącznej liczby (codziennie, co miesiąc, rocznie)\n"
 "\n"
 "    Dostęp do pobrania obowiązkowego certyfikatu zgodności dostarczonego "
-"przez BetopiaERP SA (tylko dla użytkowników BetopiaERP Enterprise)\n"
+"przez BetopiaERP (tylko dla użytkowników BetopiaERP Enterprise)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_html_builder
@@ -12548,7 +12548,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 msgstr ""
 "\n"
@@ -12896,7 +12896,7 @@ msgid ""
 "will add their specific templates and controllers to extend the customer\n"
 "portal.\n"
 "\n"
-"This module contains most code coming from BetopiaERP v10 website_portal. Purpose\n"
+"This module contains most code coming from betopiaerp v10 website_portal. Purpose\n"
 "of this module is to allow the display of a customer portal without having\n"
 "a dependency towards website editing and customization capabilities."
 msgstr ""
@@ -12909,7 +12909,7 @@ msgstr ""
 "klienta.\n"
 "portal klienta.\n"
 "\n"
-"Ten moduł zawiera większość kodu pochodzącego z BetopiaERP v10 website_portal. "
+"Ten moduł zawiera większość kodu pochodzącego z betopiaerp v10 website_portal. "
 "Cel\n"
 "tego modułu jest umożliwienie wyświetlania portalu klienta bez posiadania\n"
 "zależności od możliwości edycji i dostosowywania witryny."
@@ -14832,12 +14832,12 @@ msgid ""
 "* the peppol-bis-invoice-3 doc (the github repository: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains "
 "examples)\n"
-"* BetopiaERP, these files pass all validation tests (using ecosio or the FNFE "
+"* betopiaerp, these files pass all validation tests (using ecosio or the FNFE "
 "validator)\n"
 "\n"
 "We test that the external examples are correctly imported (currency, total "
 "amount and total tax match).\n"
-"We also test that generating xml from BetopiaERP with given parameters gives "
+"We also test that generating xml from betopiaerp with given parameters gives "
 "exactly the same xml as the expected,\n"
 "valid ones.\n"
 msgstr ""
@@ -14852,12 +14852,12 @@ msgstr ""
 "* dokument peppol-bis-invoice-3 (repozytorium github: https://github.com/"
 "OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples zawiera "
 "przykłady)\n"
-"* BetopiaERP, pliki te przechodzą wszystkie testy walidacyjne (przy użyciu ecosio "
+"* betopiaerp, pliki te przechodzą wszystkie testy walidacyjne (przy użyciu ecosio "
 "lub walidatora FNFE).\n"
 "\n"
 "Testujemy, czy zewnętrzne przykłady są poprawnie importowane (waluta, łączna "
 "kwota i łączny podatek są zgodne).\n"
-"Testujemy również, że generowanie xml z BetopiaERP z podanymi parametrami daje "
+"Testujemy również, że generowanie xml z betopiaerp z podanymi parametrami daje "
 "dokładnie taki sam xml jak oczekiwany, \n"
 "prawidłowy.\n"
 
@@ -15593,7 +15593,7 @@ msgid " Let's choose a Point Relais® as shipping address "
 msgstr " Wybierzmy Point Relais® jako adres wysyłki "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "\"group_by\" value must be a string %(attribute)s=“%(value)s”"
 msgstr "Wartość \"group_by\" musi być ciągiem znaków %(attribute)s=“%(value)s”"
@@ -15619,31 +15619,31 @@ msgid "# Users"
 msgstr "# Użytkownicy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(action_name)s is not a valid action on %(model_name)s"
 msgstr "%(action_name)snie jest prawidłową akcją na%(model_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(company_currency_name)s per %(rate_currency_name)s"
 msgstr "%(company_currency_name)s na %(rate_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "%(date_label)s - %(author)s"
 msgstr "%(date_label)s - %(author)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(integral_amount)s %(currency_unit)s"
 msgstr "%(integral_amount)s %(currency_unit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "%(integral_amount)s %(currency_unit)s and %(fractional_amount)s %"
@@ -15653,20 +15653,20 @@ msgstr ""
 "(currency_subunit)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "%(method)s on %(model)s is private and cannot be called from a button"
 msgstr ""
 "%(method)s na %(model)s jest prywatna i nie może być wywołana z przycisku"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%(rate_currency_name)s per %(company_currency_name)s"
 msgstr "%(rate_currency_name)s na %(company_currency_name)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "%(xmlid)s is of type %(xmlid_model)s, expected a subclass of "
@@ -15675,13 +15675,13 @@ msgstr ""
 "%(xmlid)sjest typu %(xmlid_model)s, oczekiwana podklasa ir.actions.actions"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "%s (Dedicated Outgoing Mail Server):"
 msgstr "%s(Dedykowany serwer poczty wychodzącej):"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: code:addons/base/models/ir_filters.py:0
 #: code:addons/base/models/res_groups.py:0
@@ -15692,13 +15692,13 @@ msgid "%s (copy)"
 msgstr "%s (kopia)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "%s Properties"
 msgstr "%s Właściwości"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "%s per Unit"
 msgstr "%sna jednostkę"
@@ -15709,7 +15709,7 @@ msgid "&amp; Close"
 msgstr "&amp; Zamknij"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Property value for field '%%"
@@ -15719,7 +15719,7 @@ msgstr ""
 "Każda właściwość wymaga przynajmniej  atrybutu 'nazwa', 'typ' oraz 'ciąg'."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Selection value for '%"
@@ -15729,7 +15729,7 @@ msgstr ""
 "(label_property)s' (pole podrzędne dla pola '%%(field)s')."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be a valid Tag value for '%(label_property)s' "
@@ -15739,7 +15739,7 @@ msgstr ""
 "(label_property)s' (pole podrzędne dla pola '%%(field)s')."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an float for field '%(label_property)s' "
@@ -15749,7 +15749,7 @@ msgstr ""
 "(label_property)s' (pole podrzędne dla pola '%%(field)s')."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "'%(value)s' does not seem to be an integer for field '%(label_property)s' "
@@ -15759,49 +15759,49 @@ msgstr ""
 "(label_property)s' pole podrzędne dla pola '%%(field)s')."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a number for field '%%(field)s'"
 msgstr "'%s' nie jest liczbą dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid JSON for field '%%(field)s'"
 msgstr "'%s' nie wydaje się być prawidłowym JSON dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid date for field '%%(field)s'"
 msgstr "'%s' nie jest poprawną datą dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be a valid datetime for field '%%(field)s'"
 msgstr "'%s' nie wydaje się być właściwą datą dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "'%s' does not seem to be an integer for field '%%(field)s'"
 msgstr "'%s' nie jest liczbą całkowitą dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'action-' is a reserved prefix."
 msgstr "'action-' jest zarezerwowanym prefikem."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'m-' is a reserved prefix."
 msgstr "'m-' jest zarezerwowanym prefiksem."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "'new' is reserved, and can not be used as path."
 msgstr "'new' jest zarezerwowane i nie można go użyć jako ścieżki."
@@ -15832,7 +15832,7 @@ msgid ", required"
 msgstr ", wymagane"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "- %(description)s (%(model)s)"
 msgstr "- %(description)s (%(model)s)"
@@ -15843,7 +15843,7 @@ msgid "- domain ="
 msgstr "- Domena ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- element “%(node)s” is shown in the view for groups: %(groups)s"
 msgstr "- element “%(node)s” jest pokazany dla widoku grup: %(groups)s"
@@ -15854,13 +15854,13 @@ msgid "- field ="
 msgstr "- pole ="
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” does not exist in model “%(model)s”."
 msgstr "- pole “%(name)s” nie istnieje w modelu “%(model)s”."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "- field “%(name)s” is accessible for groups: %(field_groups)s"
 msgstr "- pole “%(name)s” jest dostępne w grupach: %(field_groups)s"
@@ -16658,7 +16658,7 @@ msgid "A - AGRICULTURE, FORESTRY AND FISHING"
 msgstr "A - ROLNICTWO, LEŚNICTWO I RYBOŁÓWSTWO"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "A <graph> can only contains <field> nodes, found a <%s>"
 msgstr "A <graph>może zawierać tylko<field> węzły, znalezione <%s>"
@@ -16877,7 +16877,7 @@ msgstr ""
 "demonstracyjnych."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "A sequence must only be used with character fields."
 msgstr "Sekwencja może być używana wyłącznie z polami znaków."
@@ -16908,7 +16908,7 @@ msgstr ""
 "menedżerem."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "A valid email is required for find_or_create to work properly."
 msgstr ""
@@ -17076,7 +17076,7 @@ msgid "API Key Description"
 msgstr "Opis klucza API"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "API Key Ready"
 msgstr "Klucz API gotowy"
@@ -17135,7 +17135,7 @@ msgid "Access"
 msgstr "Dostęp"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Access Control"
 msgstr "Kontrola dostępu"
@@ -17156,7 +17156,7 @@ msgid "Access Menu"
 msgstr "Prawo do menu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.ir_access_act
 #: model:ir.ui.menu,name:base.menu_ir_access_act
@@ -17176,7 +17176,7 @@ msgid "Access Rights"
 msgstr "Prawa dostępu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Access Rights Inconsistency"
 msgstr "Niezgodność praw dostępu"
@@ -17207,7 +17207,7 @@ msgid "Access to the settings to configure the apps"
 msgstr "Dostęp do ustawień do skonfigurowania aplikacji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Accessible only for the super user"
 msgstr "Dostępne jedynie dla superużytkownika"
@@ -17444,7 +17444,7 @@ msgid "Action"
 msgstr "Akcja"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Action %(action_reference)s (id: %(action_id)s) does not exist for button of "
@@ -17580,7 +17580,7 @@ msgid "Active Parent Model"
 msgstr "Aktywny model nadrzędny"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Actual Code"
 msgstr "Rzeczywisty kod"
@@ -17727,13 +17727,13 @@ msgid "Add crm UTM info on social"
 msgstr "Dodaj informacje crm UTM w mediach społecznościowych"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add direction"
 msgstr "Dodaj kierunek"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Add directional information (not used for digital)"
 msgstr "Dodawanie informacji o kierunku (nieużywane w trybie cyfrowym)"
@@ -17906,7 +17906,7 @@ msgid "Addons to test BetopiaERP industries code."
 msgstr "Dodatki do testowania kodu BetopiaERP branże."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_partner.py:0
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -17939,7 +17939,7 @@ msgid "Address format..."
 msgstr "Format adresu ..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Address separator"
 msgstr "Separator adresów"
@@ -18230,7 +18230,7 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Administrator access is required to uninstall a module"
 msgstr "Uprawnienia administratora są wymagane, aby odinstalować moduł"
@@ -18283,7 +18283,7 @@ msgstr ""
 "podwykonawstwa"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,summary:base.module_theme_betopiaerp_experts
 msgid "Advisor, Corporate, Service, Business, Finance, IT"
 msgstr "Doradca, Korporacja, Usługi, Biznes, Finanse, IT"
 
@@ -18633,7 +18633,7 @@ msgid "All Child"
 msgstr "Wszystkie podrzędne"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
@@ -18652,7 +18652,7 @@ msgstr ""
 "Zjednoczonych."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "All profiles must have the same initial stack trace to be displayed together."
@@ -18882,7 +18882,7 @@ msgid "Amazon/Avatax Bridge"
 msgstr "Pomost Amazon/Avatax"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Ambiguous specification for field '%(field)s', only provide one of name, "
@@ -19773,7 +19773,7 @@ msgstr ""
 "Zjednoczone i wiele innych krajów."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SMTP exception occurred. Check port number and connection security type.\n"
@@ -19783,7 +19783,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -19793,7 +19793,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An SSL exception occurred. Check connection security type.\n"
@@ -19833,13 +19833,13 @@ msgstr ""
 "zależności, to zawsze jest instalowany."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "An email is required for find_or_create to work"
 msgstr "Email jest wymagany aby działało find_or_create"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "An option is not supported by the server:\n"
@@ -19907,7 +19907,7 @@ msgid "Anguilla"
 msgstr "Anguilla"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Another partner already has this barcode"
 msgstr "Inny partner ma już ten kod kreskowy"
@@ -20004,7 +20004,7 @@ msgid "Apply"
 msgstr "Zastosuj"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade_install
@@ -20854,7 +20854,7 @@ msgid "Associated reports"
 msgstr "Powiązane raporty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "At least one language must be active."
 msgstr "Co najmniej jeden język musi być aktywny"
@@ -20941,7 +20941,7 @@ msgid "Attachment"
 msgstr "Załącznik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Attachment is not encoded in base64."
 msgstr "Załącznik nie jest zakodowany w base64."
@@ -21198,7 +21198,7 @@ msgid "Auth Timeout"
 msgstr "Przekroczono limit czasu autoryzacji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Authenticate by using SSL certificates, belonging to your domain name. \n"
@@ -21520,7 +21520,7 @@ msgid "Background Image"
 msgstr "Obrazek tła"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid "Bad file format: %s"
 msgstr "Nieprawidłowy format pliku: %s"
@@ -21694,7 +21694,7 @@ msgid "Barcode"
 msgstr "Kod kreskowy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode %s"
 msgstr "Kod kreskowy %s"
@@ -21725,13 +21725,13 @@ msgid "Barcode for Batch Transfer"
 msgstr "Kod kreskowy dla transferu partii"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode symbology"
 msgstr "Symbolika kodów kreskowych"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Barcode type, eg: UPCA, EAN13, Code128"
 msgstr "Typ kodu kreskowego, np.: UPCA, EAN13, Code128"
@@ -21770,7 +21770,7 @@ msgid "Base Import & Export Tests: Ensure Flow Robustness"
 msgstr "Podstawowe testy Importu i Eksportu: zapewniają niezawodność przepływu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Base Language 'en_US' can not be deleted."
 msgstr "Język podstawowy \"en_US\" nie może zostać usunięty!"
@@ -21822,12 +21822,12 @@ msgstr "Baza: Usuwanie użytkowników portalu"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_grid
-msgid "Basic 2D Grid view for BetopiaERP"
+msgid "Basic 2D Grid view for betopiaerp"
 msgstr "Podstawowy widok siatki 2D dla BetopiaERP"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_cohort
-msgid "Basic Cohort view for BetopiaERP"
+msgid "Basic Cohort view for betopiaerp"
 msgstr "Podstawowy widok kohortowy dla BetopiaERP"
 
 #. module: base
@@ -22038,7 +22038,7 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage BetopiaERP S.A. "
+"Below text serves as a suggestion and doesn’t engage BetopiaERP "
 "responsibility."
 msgstr ""
 "Poniższy tekst służy jako sugestia i nie wiąże się z odpowiedzialnością BetopiaERP "
@@ -22154,7 +22154,7 @@ msgid "Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering"
 msgstr "Bistro, Restauracja, Bar, Pub, Kawiarnia, Jedzenie, Katering"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Blame the following rules:\n"
@@ -22265,7 +22265,7 @@ msgid "Bowling Alley"
 msgstr "Kręgielnia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
@@ -22664,7 +22664,7 @@ msgid "By"
 msgstr "Przez"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "By default the widget uses the field information"
 msgstr "Domyślnie widżet używa informacji o polu"
@@ -22855,7 +22855,7 @@ msgid "Campsite"
 msgstr "Camping"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Can not create Many-To-One records indirectly, import the field separately"
@@ -22863,13 +22863,13 @@ msgstr ""
 "Nie można utworzyć rekordów Many-To-One pośrednio, zaimportuj osobno pole"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Can only rename one field at a time!"
 msgstr "Możesz zmienić nazwę tylko jednego pola na raz!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Can't compare more than two views."
 msgstr "Nie można porównać więcej niż dwóch widoków."
@@ -22959,7 +22959,7 @@ msgid "Candy Shop"
 msgstr "Sklep ze słodyczami"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Cannot create new '%s' records from their name alone. Please create those "
@@ -22969,14 +22969,14 @@ msgstr ""
 "Utwórz te rekordy ręcznie i spróbuj ponownie zaimportować."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by contacts."
 msgstr ""
 "Nie można dezaktywować języka, który jest aktualnie używany przez kontakty."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Cannot deactivate a language that is currently used by users."
 msgstr ""
@@ -22984,13 +22984,13 @@ msgstr ""
 "użytkowników."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Cannot duplicate configuration!"
 msgstr "Nie można zdublikować konfiguracji!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Cannot rename/delete fields that are still present in views:\n"
@@ -23002,7 +23002,7 @@ msgstr ""
 "Widok: %(view)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Cannot upgrade module “%s”. It is not installed."
 msgstr "Nie można aktualizować modułu \"%s\". Nie jest on zainstalowany."
@@ -23265,13 +23265,13 @@ msgid "Change the way addresses are displayed in reports"
 msgstr "Zmień sposób wyświetlania adresów w raportach"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Changing the model of a field is forbidden!"
 msgstr "Zmiana modelu dla pola jest niedozwolona!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Changing the type of a field is not yet supported. Please drop it and create "
@@ -23280,7 +23280,7 @@ msgstr ""
 "Zmiana typu pola nie jest jeszcze obsługiwana. Porzuć to i utwórz ponownie!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Changing to 12-hour clock format instead."
 msgstr "Zmiana na 12-godzinny format zegara."
@@ -23648,7 +23648,7 @@ msgid "Code Diff"
 msgstr "Kod różnicowy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Code History"
@@ -23800,7 +23800,7 @@ msgid "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 msgstr "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Comma"
 msgstr "Przecinek"
@@ -23810,11 +23810,11 @@ msgstr "Przecinek"
 msgid ""
 "Comma-separated list of addresses or domains for which this server can be "
 "used.\n"
-"e.g.: \"notification@BetopiaERP.com\" or \"BetopiaERP.com\""
+"e.g.: \"notification@betopiaerp.com\" or \"betopiaerp.com\""
 msgstr ""
 "Lista adresów lub domen oddzielona przecinkiem, dla których może być używany "
 "ten serwer.\n"
-"np. \"notification@BetopiaERP.com\" lub \"BetopiaERP.com\""
+"np. \"notification@betopiaerp.com\" lub \"betopiaerp.com\""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_act_window__view_mode
@@ -23888,7 +23888,7 @@ msgid "Companies"
 msgstr "Firmy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
 #: model:ir.model.fields,field_description:base.field_ir_default__company_id
@@ -23909,7 +23909,7 @@ msgid "Company"
 msgstr "Firma"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Company %(company_name)s is not in the allowed companies for user %"
@@ -23919,7 +23919,7 @@ msgstr ""
 "użytkownika %(user_name)s (%(company_allowed)s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Company Address"
 msgstr "Adres firmy"
@@ -23935,7 +23935,7 @@ msgid "Company Details"
 msgstr "Dane firmy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__company_registry
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
@@ -24006,7 +24006,7 @@ msgstr ""
 "dokumentu (w zależności od wybranego układu)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Company used for the original currency (only used for t-esc). By default use "
@@ -24066,7 +24066,7 @@ msgid "Compute"
 msgstr "Oblicz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Compute method cannot depend on field 'id'"
 msgstr "Metoda obliczeniowa nie może zależeć od pola \"id\""
@@ -24208,7 +24208,7 @@ msgid "Connect to myDATA API implementation for Greece"
 msgstr "Połącz z implementacją myDATA API dla Grecji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connect to your server through your usual username and password. \n"
@@ -24230,7 +24230,7 @@ msgid "Connection Encryption"
 msgstr "Szyfrowanie połączeń"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Connection Test Failed! Here is what we got instead:\n"
@@ -24240,7 +24240,7 @@ msgstr ""
 " %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Connection Test Successful!"
 msgstr "Test połączenia zakończony powodzeniem!"
@@ -24358,7 +24358,7 @@ msgid "Contact image"
 msgstr "Obraz kontaktowy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Contact your administrator to request access if necessary."
 msgstr ""
@@ -24493,7 +24493,7 @@ msgid "Costa Rica - Accounting"
 msgstr "Kostaryka - Księgowość"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Could not load your certificate / private key. \n"
@@ -24503,7 +24503,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Couldn't create contact without email address!"
 msgstr "Nie można utworzyć kontaktu bez adresu email!"
@@ -24617,7 +24617,7 @@ msgid "Create"
 msgstr "Utwórz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Create %(model_name)s"
 msgstr "Utwórz %(model_name)s"
@@ -25091,7 +25091,7 @@ msgid "Cron Triggers"
 msgstr "Wyzwalacze Cron"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Cron job %(name)s (%(id)s) has been deactivated after failing %(count)s "
@@ -25174,19 +25174,19 @@ msgid "Currency field"
 msgstr "Pole waluty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field does not have type many2one"
 msgstr "Pole waluty nie ma typu many2one"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field is empty and there is no fallback field in the model"
 msgstr "Pole waluty jest puste a w modelu nie ma pola rezerwowego"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Currency field should have a res.currency relation"
 msgstr "Pole waluty powinno mieć relację res.currency"
@@ -25197,7 +25197,7 @@ msgid "Currency numeric code."
 msgstr "Kod numeryczny waluty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Currency rates should only be created for main companies"
 msgstr "Kursy walut powinny być tworzone tylko dla głównych firm"
@@ -25208,7 +25208,7 @@ msgid "Currency sign, to be used when printing amounts."
 msgstr "Znak waluty do druku w raportach."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Current Arch"
 msgstr "Aktualny Arch"
@@ -25457,7 +25457,7 @@ msgid "Dalasi"
 msgstr "Dalasi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Dash"
 msgstr "Kreska"
@@ -25523,7 +25523,7 @@ msgid "Database Structure"
 msgstr "Struktura bazy danych"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_currency__date
 #: model:ir.model.fields,field_description:base.field_res_currency_rate__name
@@ -25537,31 +25537,31 @@ msgid "Date Format"
 msgstr "Format daty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date format"
 msgstr "Format daty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date to compare with the field value, by default use the current date."
 msgstr "Data do porównania z wartością pola, domyślnie używa bieżącej daty."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit"
 msgstr "Jednostka daty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Date unit used for comparison and formatting"
 msgstr "Jednostka daty używana do porównywania i formatowania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date unit used for the rounding. The value must be smaller than 'hour' if "
@@ -25571,7 +25571,7 @@ msgstr ""
 "wartość musi być mniejsza niż \"godzina\"."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid ""
 "Date used for the original currency (only used for t-esc). by default use "
@@ -25602,7 +25602,7 @@ msgid "Debugging"
 msgstr "Debugowanie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Debugging information:"
 msgstr "Informacje debuggingowe:"
@@ -25640,7 +25640,7 @@ msgstr ""
 "Jest ono określane przez współczynnik zaokrąglenia."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Decimalized number"
 msgstr "Liczba dziesiętna"
@@ -25765,8 +25765,8 @@ msgstr "Zdefiniowane raporty"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_map
-msgid "Defines the map view for BetopiaERP enterprise"
-msgstr "Definiuje widok mapy dla BetopiaERP enterprise"
+msgid "Defines the map view for betopiaerp enterprise"
+msgstr "Definiuje widok mapy dla betopiaerp enterprise"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__definition
@@ -25796,7 +25796,7 @@ msgid "Delete Action"
 msgstr "Usuń działanie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Deleting the template users is not allowed. Deleting this profile will "
@@ -25817,7 +25817,7 @@ msgid "Delivery - Stock"
 msgstr "Dostawa - stan magazynowy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Delivery Address"
 msgstr "Adres dostawy"
@@ -26066,7 +26066,7 @@ msgid "Digest Enterprise"
 msgstr "Digest Enterprise"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Digital formatting"
 msgstr "Formatowanie cyfrowe"
@@ -26319,13 +26319,13 @@ msgstr ""
 "elektronicznych etykiet Pricer."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display country image"
 msgstr "Wyświetlanie obrazu kraju"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display currency"
 msgstr "Wyświetlanie waluty"
@@ -26357,37 +26357,37 @@ msgstr ""
 "%(country_code)s: kod kraju"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the date"
 msgstr "Wyświetl tylko datę"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display only the time"
 msgstr "Wyświetlaj tylko godzinę"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display phone icons"
 msgstr "Wyświetlanie ikon telefonu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the country image if the field is present on the record"
 msgstr "Wyświetl obraz kraju, jeśli pole znajduje się w rekordzie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Display the phone icons even if no_marker is True"
 msgstr "Wyświetla ikony telefonu, nawet jeśli no_marker ma wartość True"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Displayed fields"
 msgstr "Wyświetlane pola"
@@ -26577,7 +26577,7 @@ msgid "Domain applied to the active id of the parent model"
 msgstr "Domena zastosowana do aktywnego identyfikatora w modelu nadrzędnym"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Domain on non-relational field \"%(name)s\" makes no sense (domain:%"
@@ -26611,7 +26611,7 @@ msgid "Dominican Republic - Checks Layout"
 msgstr "Republika Dominikańska - Układ czeków"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Don't display the font awesome marker"
 msgstr "Nie wyświetlaj znacznika font awesome"
@@ -26683,13 +26683,13 @@ msgid "Dropshipping"
 msgstr "Dropshipping"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate %(record)s"
 msgstr "Duplikuj %(record)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Duplicate ..."
 msgstr "Duplikuj..."
@@ -26705,7 +26705,7 @@ msgid "Duplicate from"
 msgstr "Duplikuj z"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "Duplicating a company is not allowed. Please create a new company instead."
@@ -27015,25 +27015,25 @@ msgid "Electronic invoicing for Colombia with DIAN"
 msgstr "Elektroniczne fakturowanie dla Kolumbii z DIAN"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element '%s' cannot be located in parent view"
 msgstr "Element '%s' nie może być zlokalizowany w widoku nadrzędnym"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element <attribute> with 'add' or 'remove' cannot contain text %s"
 msgstr "Element <attribute>z 'add' lub 'remove' nie może zawierać tekstu %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Element “%s” cannot be located in parent view"
 msgstr "Element \"%s\" nie może być zlokalizowany w widoku nadrzędnym"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: code:addons/base/models/res_users.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_email
@@ -27066,7 +27066,7 @@ msgid "Email Signature"
 msgstr "Podpis w e-mailu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Email maximum size updated (%(details)s)."
 msgstr "Zaktualizowano maksymalny rozmiar e-maila (%(details)s)"
@@ -27156,7 +27156,7 @@ msgid "Employment Hero Payroll"
 msgstr "Lista płac Employment Hero"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Empty dependency in “%s”"
 msgstr "Pusta zależność w \"%s\""
@@ -27390,7 +27390,7 @@ msgid "Error"
 msgstr "Błąd"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Error ! You cannot create recursive categories."
 msgstr "Błąd! Nie możesz tworzyć rekursywnych kategorii."
@@ -27401,7 +27401,7 @@ msgid "Error message returned when the constraint is violated."
 msgstr "Komunikat o błędzie zwracany w przypadku naruszenia ograniczenia."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while parsing or validating view:\n"
@@ -27412,7 +27412,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Error while parsing view:\n"
@@ -27424,7 +27424,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view (%(view)s):\n"
@@ -27436,7 +27436,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Error while validating view near:\n"
@@ -27449,7 +27449,7 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_menu.py:0
 msgid "Error! You cannot create recursive menus."
 msgstr "Błąd ! Nie możesz tworzyć rekurencyjnych menu."
@@ -28238,12 +28238,12 @@ msgstr ""
 "rzeczywistym."
 
 #. module: base
-#: model:ir.module.module,description:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,description:base.module_theme_betopiaerp_experts
 msgid "Experts Business Theme"
 msgstr "Motyw Experts Business"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_theme_BetopiaERP_experts
+#: model:ir.module.module,shortdesc:base.module_theme_betopiaerp_experts
 msgid "Experts Theme"
 msgstr "Motyw Experts"
 
@@ -28448,7 +28448,7 @@ msgid "External ID"
 msgstr "Identyfikator zewnętrzny"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb.py:0
 msgid "External ID can not be loaded: %s"
 msgstr "Zewnętrzne ID nie może być załadowane: %s"
@@ -28658,25 +28658,25 @@ msgid "Field"
 msgstr "Pole"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field \"%(field_name)s\" does not exist in model \"%(model_name)s\""
 msgstr "Pole \"%(field_name)s\" nie istnieje w modelu \"%(model_name)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Field \"%s\" is not cached"
 msgstr "Pole \"%s\" nie jest cachowane"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Field %s cannot be modified on models."
 msgstr "Pole %s nie powinno być modyfikowane w modelach."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(field)s' found in 'groupby' node does not exist in model %(model)s"
@@ -28684,7 +28684,7 @@ msgstr ""
 "Pole '%(field)s' znalezione w węźle 'groupby' nie istnieje w modelu %(model)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field '%(name)s' found in 'groupby' node can only be of type many2one, found "
@@ -28754,13 +28754,13 @@ msgid "Field Type"
 msgstr "Typ pola"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field `%(name)s` does not exist"
 msgstr "Pole `%(name)s` nie istnieje"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Field names can only contain characters, digits and underscores (up to 63)."
@@ -28772,7 +28772,7 @@ msgid "Field names must be unique per model."
 msgstr "Nazwy pól muszą być unikalne w modelu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Field tag must have a \"name\" attribute defined"
 msgstr "Tag pola musi mieć zdefiniowany atrybut \"name\"."
@@ -28790,7 +28790,7 @@ msgid "Field to Update Path"
 msgstr "Ścieżka pola do zaktualizowania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Field “%(name)s” used in %(use)s is present in view but is in select multi."
@@ -28814,7 +28814,7 @@ msgid "Fields"
 msgstr "Pola"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Fields %s contain a non-str value/label in selection"
 msgstr "Pola %s zawierają wartość non-str/etykietę w wyborze"
@@ -28861,7 +28861,7 @@ msgid "File"
 msgstr "Plik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_import_language.py:0
 msgid ""
 "File \"%(file_name)s\" not imported due to format mismatch or a malformed "
@@ -28878,7 +28878,7 @@ msgstr ""
 "%(error_message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "File Arch"
 msgstr "Arch pliku"
@@ -29153,13 +29153,13 @@ msgid "Folio 27  210 x 330 mm"
 msgstr "Folio 27  210 x 330 mm"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Following child actions have warnings: %(children)s"
 msgstr "Następujące działania podrzędne mają ostrzeżenie: %(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same groups (%(groups)s): %"
@@ -29169,7 +29169,7 @@ msgstr ""
 "(children)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Following child actions should have the same model (%(model)s): %(children)s"
@@ -29251,7 +29251,7 @@ msgid "For relationship fields, the technical name of the target model"
 msgstr "Dla pól relacji - nazwa techniczna modelu docelowego"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "For safety reasons, you cannot merge more than 3 contacts together. You can "
@@ -29261,19 +29261,19 @@ msgstr ""
 "możesz powtarzać łączenie kilka razy."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden attribute used in arch (%s)."
 msgstr "Zakazany atrybut użyty w arch (%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden owl directive used in arch (%s)."
 msgstr "Niedozwolona dyrektywa Owl użyta w arch (%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Forbidden use of `__comp__` in arch."
 msgstr "Niedozwolone użycie `__comp__` w arch."
@@ -29296,7 +29296,7 @@ msgid "Form"
 msgstr "Formularz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Format"
 msgstr "Format"
@@ -29314,7 +29314,7 @@ msgid "Formatted Email"
 msgstr "Sformatowany e-mail"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Formatting: long, short, narrow (not used for digital)"
 msgstr "Formatowanie: długie, krótkie, wąskie (nieużywane w wersji cyfrowej)"
@@ -29335,7 +29335,7 @@ msgid "Fossil Fuel Trading"
 msgstr "Handel paliwem kopalnym"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Found multiple matches for value \"%(value)s\" in field \"%%(field)s\" (%"
@@ -29412,7 +29412,7 @@ msgid "France - Work Entries Time Off"
 msgstr "Francja - Wpisy dotyczące pracy - Dni wolne"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Free access"
 msgstr "Bezpłatny dostęp"
@@ -29908,13 +29908,13 @@ msgid "Gmail support for incoming / outgoing mail servers"
 msgstr "Obsługa Gmaila dla serwerów poczty przychodzącej/wychodzącej"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Go to the configuration panel"
 msgstr "Przejdź do panelu konfiguracji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Go to users"
 msgstr "Idź do użytkowników"
@@ -30065,7 +30065,7 @@ msgid "Group-based"
 msgstr "Na podstawie grupy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Group-restricted fields cannot be included in webhook payloads, as it could "
@@ -30086,7 +30086,7 @@ msgstr ""
 "Reguły specyficzne dla grupy są łączone za pomocą logicznego operatora OR"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_groups
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__group_ids
@@ -30424,7 +30424,7 @@ msgid "Heard Island and McDonald Islands"
 msgstr "Wyspy Heard i McDonalda"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Height"
 msgstr "Wysokość"
@@ -30592,13 +30592,13 @@ msgid "Hide Portal Timesheet Information"
 msgstr "Ukryj informacje o ewidencji czasu pracy na portalu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide badges"
 msgstr "Ukryj odznaki"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Hide seconds"
 msgstr "Ukryj sekundy"
@@ -30736,7 +30736,7 @@ msgid "Html Value"
 msgstr "Wartość html"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Human Readable"
 msgstr "Czytelny dla człowieka"
@@ -30772,7 +30772,7 @@ msgid "I - ACCOMMODATION AND FOOD SERVICE ACTIVITIES"
 msgstr "I - DZIAŁALNOŚĆ ZWIĄZANA Z ZAKWATEROWANIEM I USŁUGAMI GASTRONOMICZNYMI"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'll be happy to send a webhook for you, but you really need to give me a "
@@ -30782,7 +30782,7 @@ msgstr ""
 "do którego mam się wzrócić..."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "I'm sorry to say that JSON fields (such as '%s') are currently not supported."
@@ -31204,7 +31204,7 @@ msgstr ""
 "dostępu do obiektu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "If you really, really need access, perhaps you can win over your friendly "
@@ -31433,7 +31433,7 @@ msgid "Import Shopee orders and sync deliveries"
 msgstr "Importuj zamówienia Shopee i synchronizuj dostawy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Import Template for Contacts"
 msgstr "Import szablonów dla kontaktów"
@@ -31534,7 +31534,7 @@ msgid "Include"
 msgstr "Załącz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Incorrect Password, try again or click on Forgot Password to reset your "
@@ -31790,7 +31790,7 @@ msgid "Inherited models"
 msgstr "Modele dziedziczone"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Inherited view cannot have 'Groups' define on the record. Use 'groups' "
@@ -31820,7 +31820,7 @@ msgid "Input View"
 msgstr "Widok Przyjęcia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Install"
 msgstr "Instaluj"
@@ -31863,13 +31863,13 @@ msgstr ""
 "na żywo."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Insufficient fields for Calendar View!"
 msgstr "Zbyt mało pól dla widoku kalendarza !"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Insufficient fields to generate a Calendar View for %s, missing a date_stop "
@@ -32020,7 +32020,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_sale_purchase_inter_company_rules
 msgid "Inter Company Module for Sale/Purchase Orders and Invoices"
 msgstr ""
-"Moduł wymiany wewnątrz firm w BetopiaERP sprzedaży / zamówień zakupu i faktur"
+"Moduł wymiany wewnątrz firm w betopiaerp sprzedaży / zamówień zakupu i faktur"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_service
@@ -32096,7 +32096,7 @@ msgid "Introspection report on objects"
 msgstr "Raport introspekcyjny na obiektach"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid %(use)s: “%(expr)s”\n"
@@ -32106,13 +32106,13 @@ msgstr ""
 "%(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid Expression while parsing xpath “%s”"
 msgstr "Niepoprawne Wyrażenie podczas parsowania xpath “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid JSON format in Default Value field."
 msgstr "Nieprawidłowy format JSON w polu Wartość domyślna."
@@ -32123,7 +32123,7 @@ msgid "Invalid Locators"
 msgstr "Nieprawidłowe lokalizatory"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 #, python-format
 msgid ""
@@ -32134,19 +32134,19 @@ msgstr ""
 "(field_type)s ” dla „%(model_name)s.%(field_name)s ”."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid attributes %s in element <attribute>"
 msgstr "Nieprawidłowe atrybuty %s w elemencie <attribute>"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid composed field %(definition)s in %(use)s"
 msgstr "Nieprawidłowo skomponowane pole %(definition)s w %(use)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid context: “%(expr)s” is not a valid Python expression \n"
@@ -32158,13 +32158,13 @@ msgstr ""
 " %(error)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Invalid database id '%s' for the field '%%(field)s'"
 msgstr "Błędny identyfikator bazy danych '%s' dla pola '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "Invalid date/time format directive specified. Please refer to the list of "
@@ -32174,25 +32174,25 @@ msgstr ""
 "wyświetlaną w trakcie edycji języka."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid default period %(default_period)s for date filter"
 msgstr "Nieprawidłowy okres domyślny %(default_period)s dla filtra daty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Invalid domain: %s"
 msgstr "Nieprawidłowa domena: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid field %(model)s.%(field)s"
 msgstr "Nieprawidłowe pole %(model)s.%(field)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid ""
 "Invalid inherit mode. Module \"%(module)s\" and template name \"%"
@@ -32216,31 +32216,31 @@ msgid "Invalid key: QWeb view should have a key"
 msgstr "Nieprawidłowy klucz: Widok QWeb powinien mieć klucz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid mode attribute: “%s”"
 msgstr "Nieprawidłowy tryb atrybutu: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Invalid model name “%s” in action definition."
 msgstr "Niepoprawna nazwa modelu “%s” w definicji akcji."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid position attribute: '%s'"
 msgstr "Niepoprawna pozycja atrybutu: '%s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Invalid prefix or suffix for sequence “%s”"
 msgstr "Niewłaściwy prefiks lub sufiks dla sekwencji “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid ""
 "Invalid separator %(separator)s for python expression %(expression)s; valid "
@@ -32250,7 +32250,7 @@ msgstr ""
 "prawidłowe wartości to 'and' oraz 'or'."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Invalid server name!\n"
@@ -32265,31 +32265,31 @@ msgid "Invalid sort definition"
 msgstr "Nieprawidłowa definicja sortowania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid special '%(value)s' in button"
 msgstr "Nieprawidłowy znak specjalny '%(value)s' w przycisku"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/template_inheritance.py:0
 msgid "Invalid specification for moved nodes: “%s”"
 msgstr "Nieprawidłowa specyfikacja przeniesionych węzłów: “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Invalid template user. It seems it has been deleted."
 msgstr "Nieprawidłowy użytkownik szablonu. Wygląda na to, że został usunięty."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid "Invalid value for %(model)s.%(field)s: %(value)s"
 msgstr "Nieprawidłowa wartość dla %(model)s. %(field)s:%(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_default.py:0
 msgid ""
 "Invalid value for %(model)s.%(field)s: %(value)s is out of bounds (integers "
@@ -32299,13 +32299,13 @@ msgstr ""
 "(liczby całkowite powinny być pomiędzy -2,147,483,648 a 2,147,483,647)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid view %(name)s definition in %(file)s"
 msgstr "Nieprawidłowa definicja widoku %(name)s w %(file)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Invalid view type: '%(view_type)s'.\n"
@@ -32318,7 +32318,7 @@ msgstr ""
 "Dozwolone typy to: %(valid_types)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Invalid xmlid %(xmlid)s for button of type action."
 msgstr "Nieprawidłowy xmlid %(xmlid)s dla przycisku typu action."
@@ -32358,7 +32358,7 @@ msgid "Invoice"
 msgstr "Faktura"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Invoice Address"
 msgstr "Adres do faktury"
@@ -32541,7 +32541,7 @@ msgid "Israel - Accounting Reports"
 msgstr "Izrael - Raporty księgowe"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid ""
 "It is not possible to remove implied group %(group)s from users %(users)s"
@@ -32707,7 +32707,7 @@ msgid "Jersey"
 msgstr "Jersey"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid "Job '%s' already executing"
 msgstr "Zadanie '%s' jest już wykonywane"
@@ -32774,7 +32774,7 @@ msgid "Journal Items associated to the contact"
 msgstr "Pozycje zapisów powiązane z kontaktem"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Json"
 msgstr "Json"
@@ -33085,7 +33085,7 @@ msgid "Laari"
 msgstr "Laari"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Label tag must contain a \"for\". To match label style without corresponding "
@@ -33143,7 +33143,7 @@ msgid "Language Name"
 msgstr "Nazwa języka"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Language code cannot be modified."
 msgstr "Kod języka nie może być modyfikowany."
@@ -33637,7 +33637,7 @@ msgid "Line"
 msgstr "Pozycja"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Linebreak"
 msgstr "Przerwanie linii"
@@ -33779,7 +33779,7 @@ msgid "List"
 msgstr "Lista"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "List child can only have one of %(tags)s tag (not %(wrong_tag)s)"
 msgstr ""
@@ -33787,7 +33787,7 @@ msgstr ""
 "(wrong_tag)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "List of contact fields to display in the widget"
 msgstr "Lista pól kontaktu do wyświetlenia w widżecie"
@@ -33951,7 +33951,7 @@ msgid "Logs"
 msgstr "Logi"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Long"
 msgstr "Długi"
@@ -34104,7 +34104,7 @@ msgid "Madagascar"
 msgstr "Madagaskar"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "Mail Delivery Failed"
 msgstr "Dostarczenie wiadomości Email nie powiodło się"
@@ -34164,7 +34164,7 @@ msgstr ""
 "podmodułami"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Mail delivery failed via SMTP server '%(server)s'.\n"
@@ -34721,7 +34721,7 @@ msgid "Many2many Operations"
 msgstr "Operacje many2many"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Many2one %(field)s on model %(model)s does not exist!"
 msgstr "Many2one %(field)s w modelu %(model)s nie istnieje!"
@@ -35309,7 +35309,7 @@ msgid "Misc"
 msgstr "Różne"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Missing SMTP Server\n"
@@ -35320,7 +35320,7 @@ msgstr ""
 "Zdefiniuj co najmniej jeden serwer SMTP lub podaj parametry SMTP."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Missing view architecture."
 msgstr "Brakuje architektury widoku"
@@ -35369,13 +35369,13 @@ msgid "Model"
 msgstr "Model"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist"
 msgstr "Model %s nie istnieje"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model %s does not exist!"
 msgstr "Model %s nie istnieje!"
@@ -35443,7 +35443,7 @@ msgid "Model name of the object to open in the view window"
 msgstr "Nazwa modelu obiektu do otwarcia okna widoku"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Model not found: %(model)s"
 msgstr "Nie znaleziono modelu: %(model)s"
@@ -35465,7 +35465,7 @@ msgid "Model to Export"
 msgstr "Model do eksportu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Model “%s” contains module data and cannot be removed."
 msgstr "Model “%s” zawiera dane modułu i nie może zostać usunięty."
@@ -35618,7 +35618,7 @@ msgstr ""
 "dostawy.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/convert.py:0
 msgid ""
 "Module loading %(module)s failed: file %(file)s could not be processed:\n"
@@ -35640,7 +35640,7 @@ msgid "Modules"
 msgstr "Moduły"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Modules \"%(module)s\" and \"%(incompatible_module)s\" are incompatible."
@@ -35878,7 +35878,7 @@ msgid "Nakfa"
 msgstr "Nakfa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_name
 #: model:ir.model.fields,field_description:base.field_ir_actions_todo__name
@@ -35928,13 +35928,13 @@ msgid "Name of the Many2one field holding the res.currency"
 msgstr "Nazwa pola many2one przechowującego res.currency"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Name or id “%(name_or_id)s” in %(use)s does not exist."
 msgstr "Nazwa lub identyfikator “%(name_or_id)s” w %(use)s nie istnieje."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Name or id “%(name_or_id)s” in %(use)s must be present in view but is "
@@ -35969,7 +35969,7 @@ msgid "Nano Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "Motyw Nano - Responsywny motyw Bootstrap dla BetopiaERP CMS"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Narrow"
 msgstr "Wąski"
@@ -36025,7 +36025,7 @@ msgid "New Caledonia"
 msgstr "Nowa Kaledonia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_export_language.py:0
 msgid "New Language (Empty translation template)"
 msgstr "Nowy język (pusty szablon tłumaczenia)"
@@ -36199,7 +36199,7 @@ msgid "No Country Found!"
 msgstr "Nie znaleziono kraju!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "No default view of type '%s' could be found!"
 msgstr "Nie znaleziono domyślnego widoku typu '%s'!"
@@ -36215,13 +36215,13 @@ msgid "No gap"
 msgstr "Bez przerw"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "No group currently allows this operation."
 msgstr "Obecnie żadna grupa nie zezwala na tę operację."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%(field)s'"
@@ -36230,7 +36230,7 @@ msgstr ""
 "'%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field '%%"
@@ -36252,7 +36252,7 @@ msgid "No of Views"
 msgstr "Liczba wyświetleń"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "No response received. Check server address and port number.\n"
@@ -36262,7 +36262,7 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "No spaces allowed in view_mode: “%s”"
 msgstr "Niedozwolone spacje w view_mode: “%s”"
@@ -36273,7 +36273,7 @@ msgid "Non Updatable"
 msgstr "Nie aktualizowalne"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Non-relational field name \"%(field_name)s\" in related field \"%"
@@ -36283,13 +36283,13 @@ msgstr ""
 "(related_field)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Non-relational field “%(field)s” in dependency “%(dependency)s”"
 msgstr "Nierelacyjne pole \"%(field)s\" w zależności \"%(dependency)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Non-relational field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr ""
@@ -36324,7 +36324,7 @@ msgid "Norfolk Island"
 msgstr "Wyspa Norfolk"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_bank.py:0
 msgid "Normal"
 msgstr "Zwykły"
@@ -36378,7 +36378,7 @@ msgid "Not Installed"
 msgstr "Niezainstalowane"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Not enough access rights on the external ID \"%(module)s.%(xml_id)s\""
 msgstr ""
@@ -37623,7 +37623,7 @@ msgid "BetopiaERP Mobile Point of Sale module"
 msgstr "Moduł Mobilnego Punktu Sprzedaży BetopiaERP"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_BetopiaERP_partner
+#: model:ir.module.module,shortdesc:base.module_betopiaerp_partner
 msgid "BetopiaERP Partner"
 msgstr "Partner BetopiaERP"
 
@@ -38720,7 +38720,7 @@ msgid "BetopiaERP helps you track all activities related to your contacts."
 msgstr "BetopiaERP pomaga Ci śledzić wszystkie aktywności w książce adresowej"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing a scheduled action.\n"
@@ -38732,7 +38732,7 @@ msgstr ""
 "skontaktuj się z administratorem systemu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "BetopiaERP is currently processing another module operation.\n"
@@ -38743,7 +38743,7 @@ msgstr ""
 "systemu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "BetopiaERP is unable to merge the generated PDFs because of %(num_errors)s "
@@ -38753,7 +38753,7 @@ msgstr ""
 "uszkodzonych plików"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "BetopiaERP is unable to merge the generated PDFs."
 msgstr "BetopiaERP nie jest w stanie scalić wygenerowanych plików PDF."
@@ -38833,7 +38833,7 @@ msgstr ""
 "obliczenie marży."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "One or more of the selected modules have already been uninstalled, if you "
@@ -38850,7 +38850,7 @@ msgstr ""
 "Jeden użytkownik powinien mieć tylko jeden zestaw ustawień użytkownika."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "One2Many fields cannot be synchronized as part of `commercial_fields` or "
@@ -38895,13 +38895,13 @@ msgid "Online Task Submission"
 msgstr "Przesyłanie zadań online"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Only administrators can change the settings"
 msgstr "Tylko administratorzy mogą zmieniać ustawienia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Only administrators can execute this action."
 msgstr "Tylko administrator może uruchomić tę akcję"
@@ -38937,7 +38937,7 @@ msgstr ""
 "modelem tego widoku.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Only internal users can create API keys"
 msgstr "Tylko użytkownicy wewnętrzni mogą tworzyć klucze API"
@@ -38958,13 +38958,13 @@ msgid "Only one value can be defined for each given usage!"
 msgstr "Tylko jedna wartość może zostać określona dla każdego podanego użycia!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Only super user has access"
 msgstr "Tylko superużytkownik ma dostęp"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Only the portal users can delete their accounts. The user(s) %s can not be "
@@ -39071,7 +39071,7 @@ msgid "Optional password for SMTP authentication"
 msgstr "Opcjonalne hasło dla identyfikacji przez SMTP"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Optional timezone name"
 msgstr "Opcjonalna nazwa strefy czasowej"
@@ -39520,7 +39520,7 @@ msgid "Original View"
 msgstr "Pierwotny widok"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Original currency"
 msgstr "Oryginalna waluta"
@@ -40121,7 +40121,7 @@ msgid "Pacific/Yap"
 msgstr "Pacyfik/Yap"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Page direct ancestor must be notebook"
 msgstr "Bezpośrednim przodkiem strony musi być notebook"
@@ -40359,7 +40359,7 @@ msgid "Partners Geolocation"
 msgstr "Geolokalizacja partnera"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "Partners: %(category)s"
 msgstr "Partnerzy: %(category)s"
@@ -40442,7 +40442,7 @@ msgid "Path to show in the URL"
 msgstr "Ścieżka do pokazania w URL"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 #: model:ir.model.constraint,message:base.constraint_ir_act_client_path_unique
 #: model:ir.model.constraint,message:base.constraint_ir_act_report_xml_path_unique
@@ -40460,7 +40460,7 @@ msgid "Path to the field to update, e.g. 'partner_id.name'"
 msgstr "Ścieżka do pliku do aktualizacji, np. 'partner_id.name'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Pattern to format"
 msgstr "Wzór do sformatowania"
@@ -40775,7 +40775,7 @@ msgid "Philippines Checks Layout"
 msgstr "Filipiński układ czeków"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_res_bank__phone
 #: model:ir.model.fields,field_description:base.field_res_company__phone
@@ -40946,7 +40946,7 @@ msgid "Platform"
 msgstr "Platforma"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Please configure an email on the current user to simulate sending an email "
@@ -40974,7 +40974,7 @@ msgstr ""
 "użytkowników określonej grupy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
@@ -41201,7 +41201,7 @@ msgid "Pounds"
 msgstr "Funty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Precision Digits"
 msgstr "Użytkownicy portalu"
@@ -41238,7 +41238,7 @@ msgid "Preview pdf src"
 msgstr "Podgląd źródła pdf"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Previous Arch"
 msgstr "Poprzednie Arch."
@@ -41332,7 +41332,7 @@ msgid "Privileges"
 msgstr "Przywileje"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Problematic record(s)"
 msgstr "Problematyczne zapisy"
@@ -41444,7 +41444,7 @@ msgid "Profiling is currently disabled."
 msgstr "Profilowanie jest obecnie wyłączone."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_profile.py:0
 msgid ""
 "Profiling is not enabled on this database. Please contact an administrator."
@@ -41876,7 +41876,7 @@ msgid "Properties Field"
 msgstr "Pole właściwości"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Properties of base fields cannot be altered in this manner! Please modify "
@@ -42433,7 +42433,7 @@ msgid "Record Rule"
 msgstr "Reguła rekordu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_rule
 #: model:ir.model.fields,field_description:base.field_ir_model__rule_ids
@@ -42447,7 +42447,7 @@ msgid "Record Rules"
 msgstr "Reguły zapisu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Record cannot be modified right now: This cron task is currently being "
@@ -42514,13 +42514,13 @@ msgid "Recruitment tracking on appointments"
 msgstr "Śledzenie rekrutacji na spotkaniach"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Recursion error in modules dependencies!"
 msgstr "Błąd rekursji w zależnościach modułów!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Recursion found in child server actions"
 msgstr "Rekurencja w działaniu podrzędnych akcji serwera"
@@ -42534,7 +42534,7 @@ msgid "Reference"
 msgstr "Odnośnik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Reference date"
 msgstr "Data odniesienia"
@@ -42571,7 +42571,7 @@ msgid "Related Partner"
 msgstr "Powiązany partner"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Related field \"%(related_field)s\" does not have comodel \"%(comodel)s\""
@@ -42580,7 +42580,7 @@ msgstr ""
 "(comodel)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Related field \"%(related_field)s\" does not have type \"%(type)s\""
 msgstr "Powiązane pole \"%(related_field)s\" nie posiada typu \"%(comodel)s\""
@@ -42758,7 +42758,7 @@ msgid "Report Xml"
 msgstr "Raport Xml"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Report template “%s” has an issue, please contact your administrator. \n"
@@ -42935,7 +42935,7 @@ msgid "Revision"
 msgstr "Rewizja"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Revision Code"
 msgstr "Rewizja kodu"
@@ -43084,13 +43084,13 @@ msgid "Rounding Factor"
 msgstr "Zaokrąglenie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding precision"
 msgstr "Precyzja zaokrąglania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Rounding unit"
 msgstr "Jednostka zaokrąglania"
@@ -43136,7 +43136,7 @@ msgid "Rules"
 msgstr "Reguły"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "Rules can not be applied on the Record Rules model."
 msgstr "Reguły nie mogą być stosowane w modelu reguł rekordów."
@@ -43311,7 +43311,7 @@ msgid "SSL Private Key"
 msgstr "Klucz prywatny SSL"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL certificate is missing for %s."
 msgstr "Brakuje certyfikatu SSL dla %s."
@@ -43322,7 +43322,7 @@ msgid "SSL certificate used for authentication"
 msgstr "Certyfikat SSL używany do uwierzytelniania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "SSL private key is missing for %s."
 msgstr "Brakuje klucza prywatnego SSL dla %s."
@@ -43934,13 +43934,13 @@ msgid "Search modules"
 msgstr "Szukaj modułów"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Search tag can only contain one search panel"
 msgstr "Tag wyszukiwania może zawierać tylko jeden panel wyszukiwania"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Searchpanel item with select multi cannot have a domain."
 msgstr "Element panelu wyszukiwania z wyborem multi nie może mieć domeny."
@@ -43958,13 +43958,13 @@ msgid "Security"
 msgstr "Zabezpieczenia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "See all possible values"
 msgstr "Pokaż wszystkie możliwe wartości"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/common.py:0
 msgid "See http://openerp.com"
 msgstr "Zobacz http://openerp.com"
@@ -44037,7 +44037,7 @@ msgstr ""
 "uniknąć ich scalania."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields.selection,name:base.selection__base_partner_merge_automatic_wizard__state__selection
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_selection_search
@@ -44349,7 +44349,7 @@ msgid "Separator Format"
 msgstr "Format separatora"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Separator use to split the address from the display_name."
 msgstr "Separator używany do oddzielenia adresu od display_name."
@@ -44471,7 +44471,7 @@ msgid "Server action"
 msgstr "Akcja serwera"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "Server action %(action_name)s has one or more warnings, address them first."
@@ -44480,7 +44480,7 @@ msgstr ""
 "rozwiąż."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Server replied with following exception:\n"
@@ -44567,7 +44567,7 @@ msgstr ""
 "dla danego modelu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "Wprowadzanie pustych haseł jest niedozwolone z powodów bezpieczeństwa!"
@@ -44669,7 +44669,7 @@ msgid "Shopper's Wishlist"
 msgstr "Lista życzeń klienta"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Short"
 msgstr "Krótki"
@@ -44793,7 +44793,7 @@ msgid "Sin"
 msgstr "Sin"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Since 17.0, the \"attrs\" and \"states\" attributes are no longer used.\n"
@@ -44864,7 +44864,7 @@ msgid "Skip these contacts"
 msgstr "Opuść te kontakty"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Slash"
 msgstr "Slash"
@@ -45047,13 +45047,13 @@ msgid "Somoni"
 msgstr "Somoni"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to access this document."
 msgstr "Nie jesteś upoważniony do tego dokumentu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid ""
 "Sorry, you are not allowed to access this document. Please contact your "
@@ -45071,7 +45071,7 @@ msgstr ""
 "Rejestry: %(records)s, Użytkownik: %(user)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "Sorry, you are not allowed to write on this document"
 msgstr "Przepraszamy, nie możesz pisać na tym dokumencie"
@@ -45122,7 +45122,7 @@ msgid "Spa Resort"
 msgstr "Ośrodek Spa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Space"
 msgstr "Odstęp"
@@ -45584,7 +45584,7 @@ msgid "Step"
 msgstr "Krok"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_sequence.py:0
 msgid "Step must not be zero."
 msgstr "Krok nie może wynosić zero."
@@ -46224,7 +46224,7 @@ msgid "Tattoo Shop"
 msgstr "Salon tatuażu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__vat
 #: model:ir.model.fields,field_description:base.field_res_partner__vat
@@ -46339,19 +46339,19 @@ msgid "Template Name"
 msgstr "Nazwa szablonu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template does not exist or has been deleted: %s"
 msgstr "Szablon nie istnieje lub został usunięty: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid "Template name is missing."
 msgstr "Brakuje nazwy szablonu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Template not found: '%s'"
 msgstr "Nie znaleziono szablonu: \"%s\""
@@ -46623,20 +46623,20 @@ msgid "Thailand - Accounting Reports"
 msgstr "Tajlandia - Raporty księgowe"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"%s\" action cannot be selected as home action."
 msgstr "Akcja \"%s\" nie może być wybrana jako akcja startowa."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr ""
 "Akcja \"Przełącznik aplikacji\" nie może zostać wybrana jako akcja startowa."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The \"editable\" attribute of list views must be \"top\" or \"bottom\", "
@@ -46646,19 +46646,19 @@ msgstr ""
 "(value)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr "%s podmiotu zależnego musi być taki sam jak firmy źródłowej."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key duration is not correct."
 msgstr "Czas trwania klucza API nie jest poprawny."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The API key must have an expiration date"
 msgstr "Klucz API musi mieć datę wygaśnięcia"
@@ -46738,7 +46738,7 @@ msgid "The URL code of the language must be unique!"
 msgstr "Kod URL języka musi być unikalny!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "The action \"%s\" cannot be set as the home action because it requires a "
@@ -46758,7 +46758,7 @@ msgid "The api key duration cannot be a negative value."
 msgstr "Czas trwania klucz API nie może być wartością ujemną."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_attachment.py:0
 msgid "The attachment collides with an existing file."
 msgstr "Załącznik koliduje z istniejącym plikiem."
@@ -46797,7 +46797,7 @@ msgid "The combination Account Number/Partner must be unique."
 msgstr "Kombinacja numer konta/partner musi być unikalna."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid ""
 "The company %(company_name)s cannot be archived because it is still used as "
@@ -46807,7 +46807,7 @@ msgstr ""
 "używana jako domyślna firma użytkowników %(active_users)s."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The company assigned to this partner does not match the company this partner "
@@ -46817,7 +46817,7 @@ msgstr ""
 "reprezentuje."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "The company hierarchy cannot be changed."
 msgstr "Nie można zmienić hierarchii firmy."
@@ -46874,7 +46874,7 @@ msgid "The default company for this user."
 msgstr "Domyślna firma dla tego użytkownika."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid ""
 "The definition needs to be linked to a properties field. Those fields are "
@@ -46892,7 +46892,7 @@ msgid "The embedded action this filter is applied to"
 msgstr "Akcja osadzona w tym filtrze jest stosowana do"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The field '%(field)s' cannot be removed because the field '%(other_field)s' "
@@ -46987,7 +46987,7 @@ msgstr ""
 "powodzeniu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_module_upgrade.py:0
 msgid "The following modules are not installed or unknown: %s"
 msgstr "Następujące moduły są niezainstalowane lub nieznane: %s"
@@ -47003,13 +47003,13 @@ msgid "The group itself with all its implied groups."
 msgstr "Grupa ze wszystkimi jej domyślnymi grupami."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "The group “%(name)s” defined in view does not exist!"
 msgstr "Grupa \"%(name)s\" zdefiniowana w widoku nie istnieje!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The hour must be between 0 and 23"
 msgstr "Godzina musi zawierać się w przedziale od 0 do 23"
@@ -47031,13 +47031,13 @@ msgid "The key will be deleted once this period has elapsed."
 msgstr "Klucz zostanie usunięty, jak tylko ten okres minie."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "The language %s is not installed."
 msgstr "Język %s nie został zainstalowany."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 #: code:addons/base/wizard/base_language_install.py:0
 msgid ""
@@ -47048,7 +47048,7 @@ msgstr ""
 "ulubiony język w preferencjach."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_country.py:0
 msgid "The layout contains an invalid format key"
 msgstr "Układ zawiera nieprawidłowy klucz formatu"
@@ -47059,7 +47059,7 @@ msgid "The list of models that extends the current model."
 msgstr "Lista modeli które rozszerzają używany model."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The m2o field %s is required but declares its ondelete policy as being 'set "
@@ -47078,7 +47078,7 @@ msgstr ""
 "stosuje się do wszystkich menu tego modelu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "The method _button_immediate_install cannot be called on init or non loaded "
@@ -47088,7 +47088,7 @@ msgstr ""
 "początkowych lub niezaładowanych. Zamiast tego należy użyć button_install."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "The model name can only contain lowercase characters, digits, underscores "
@@ -47097,7 +47097,7 @@ msgstr ""
 "Nazwa modelu może zawierać jedynie małe litery, cyfry, podkreślenia i kropki."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The model name must start with 'x_'."
 msgstr "Nazwa modelu musi zaczynać się z 'x_'."
@@ -47108,13 +47108,13 @@ msgid "The model this field belongs to"
 msgstr "Model do którego należy to pole"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "The modes in view_mode must not be duplicated: %s"
 msgstr "Tryby w view_mode nie mogą być duplikowane: %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The name for the current rate is empty.\n"
@@ -47129,7 +47129,7 @@ msgid "The name of the country must be unique!"
 msgstr "Nazwa kraju musi być unikalna!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "The name of the group can not start with \"-\""
 msgstr "Nazwa grupy nie może rozpoczynać się od \"-\""
@@ -47155,13 +47155,13 @@ msgid "The name of the record to create"
 msgstr "Nazwa zapisu do utworzenia."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "The new password and its confirmation must be identical."
 msgstr "Hasła w obu polach muszą być jednakowe."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
 "The new rate is quite far from the previous rate.\n"
@@ -47192,7 +47192,7 @@ msgstr ""
 "aktualizowana po powodzeniu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The ondelete policy \"%(policy)s\" is not valid for field \"%(field)s\""
 msgstr ""
@@ -47205,7 +47205,7 @@ msgid "The only predefined variables are"
 msgstr "Jedyne predefiniowane zmienne to"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/model.py:0
 msgid "The operation cannot be completed: %s"
 msgstr "Operacja nie może zostać ukończona: %s"
@@ -47222,7 +47222,7 @@ msgstr ""
 "[('color','=','red')]"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path contained by the field '%(searched_field)s' contains a non-"
@@ -47236,7 +47236,7 @@ msgstr ""
 "się, że tylko ostatnie pole w ścieżce jest nierelacyjne."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
 "The path should contain only lowercase alphanumeric characters, underscore, "
@@ -47260,7 +47260,7 @@ msgid "The payment engine used by payment provider modules."
 msgstr "Mechanizm płatności używany przez moduły operatorów płatności."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 msgid ""
 "The precision has been reduced for %s.\n"
@@ -47294,7 +47294,7 @@ msgstr ""
 "oznacza niższy priorytet."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The private key or the certificate is not a valid file. \n"
@@ -47331,13 +47331,13 @@ msgstr ""
 "tego samego kraju."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_binary.py:0
 msgid "The related attachment does not exist."
 msgstr "Powiązany załącznik nie istnieje."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "The root node of a %(view_type)s view should be a <%(view_type)s>, not a <%"
@@ -47352,7 +47352,7 @@ msgid "The rounding factor must be greater than 0!"
 msgstr "Współczynnik zaokrąglenia musi być większy niż 0!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "The selected company is not compatible with the companies of the related "
@@ -47361,19 +47361,19 @@ msgstr ""
 "Wybrana firma nie jest kompatybilna z firmami powiązanych użytkowników."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%(server_name)s\" doesn't return the maximum email size."
 msgstr "Serwer \"%(server_name)s\" nie zwraca maksymalnej wielkości email."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server \"%s\" cannot be used because it is archived."
 msgstr "Serwer \"%s\" nie może być użyty ponieważ jest zarchiwizowany."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server has closed the connection unexpectedly. Check configuration "
@@ -47385,20 +47385,20 @@ msgstr ""
 "%s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the sender address (%(email_from)s) with error %(repl)s"
 msgstr "Serwer odrzucił adres nadawcy (%(email_from)s) z błędem %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid "The server refused the test connection with error %(repl)s"
 msgstr "Serwer odrzucił testowe połączenie z błędem %(repl)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "The server refused the test recipient (%(email_to)s) with error %(repl)s"
@@ -47410,7 +47410,7 @@ msgid "The state code."
 msgstr "Kod regionu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The table “%s” is used by another, possibly incompatible field(s)."
 msgstr ""
@@ -47445,19 +47445,19 @@ msgstr ""
 "jest udostępniany ze wszystkimi użytkownikami."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value (%s) passed should be positive"
 msgstr "Przekazana wartość (%s) powinna być dodatnia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "The value of 'Fold Field' should be a field name of the model."
 msgstr "Wartość \"składane pole\" musi być nazwą pola modelu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "The value send to monetary field is not a number."
 msgstr "Wartość wysyłana do pola monetarnego nie jest liczbą."
@@ -47532,13 +47532,13 @@ msgid "This Window"
 msgstr "To okno"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "This column contains module data and cannot be removed!"
 msgstr "Ta kolumna zawiera dane modułu i nie może zostać usunięta!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "This currency is set on a company and therefore cannot be deactivated."
 msgstr ""
@@ -47584,13 +47584,13 @@ msgstr ""
 "Przydatne do (miękkiego) resetowania uszkodzonego widoku."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file could not be decoded as an image file."
 msgstr "Ten plik nie mógł zostać zdekodowany jako plik obrazu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "This file is not a webp file."
 msgstr "Ten plik nie jest plikiem webp."
@@ -47724,7 +47724,7 @@ msgid "This is your company's currency."
 msgstr "Jest to waluta Twojej firmy."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "This method can only be accessed over HTTP"
 msgstr ""
@@ -48232,7 +48232,7 @@ msgid "This module will trigger the uninstallation of below modules."
 msgstr "Ten moduł spowoduje deinstalację poniższych modułów"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "This operation is allowed for the following groups:\n"
@@ -48242,7 +48242,7 @@ msgstr ""
 "%(groups_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "This view may not work for all users: some users may have a combination of "
@@ -48263,7 +48263,7 @@ msgstr ""
 "że są zawsze dostępne razem."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid "Those modules cannot be uninstalled: %s"
 msgstr "Modułów tych nie można odinstalować: %s"
@@ -48499,13 +48499,13 @@ msgstr ""
 "Słynny partner zarządzający."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/image.py:0
 msgid "Too large image (above %sMpx), reduce the image size."
 msgstr "Zbyt duży obraz (powyżej %sMpx), zmniejsz rozmiar obrazu."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "Too many login failures, please wait a bit before trying again."
 msgstr "Zbyt wiele błędów logowania, poczekaj chwilę przed ponowną próbą."
@@ -48685,7 +48685,7 @@ msgid "Treehouse Theme - Responsive Bootstrap Theme for BetopiaERP CMS"
 msgstr "Motyw Treehouse - Responsywny motyw Bootstrap dla BetopiaERP CMS"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
 msgstr ""
@@ -49085,7 +49085,7 @@ msgid "Uganda - Accounting Reports"
 msgstr "Uganda - Raporty księgowe"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid ""
 "Uh-oh! Looks like you have stumbled upon some top-secret records.\n"
@@ -49107,14 +49107,14 @@ msgid "Ukraine - Accounting"
 msgstr "Ukraina - Księgowość"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Unable to find Wkhtmltopdf on this system. The PDF can not be created."
 msgstr ""
 "Nie można znaleźć Wkhtmltopdf w tym systemie. Nie można utworzyć pliku PDF."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unable to import'%%(field)s' Properties field as a whole, target individual "
@@ -49124,7 +49124,7 @@ msgstr ""
 "zaimportuj indywidualną właściwość."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to install module \"%(module)s\" because an external dependency is "
@@ -49134,7 +49134,7 @@ msgstr ""
 "zewnętrzna zależność: %(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unable to order by %s: fields used for ordering must be present on the model "
@@ -49144,7 +49144,7 @@ msgstr ""
 "obecne w modelu i przechowywane."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to process module \"%(module)s\" because an external dependency is "
@@ -49154,7 +49154,7 @@ msgstr ""
 "zewnętrzna zależność: %(dependency)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "Unable to upgrade module \"%(module)s\" because an external dependency is "
@@ -49169,7 +49169,7 @@ msgid "Uncategorized"
 msgstr "Bez kategorii"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unicode strings with encoding declaration are not supported in XML.\n"
@@ -49179,7 +49179,7 @@ msgstr ""
 "Usuń deklaracje kodowania."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.module_form
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
@@ -49187,14 +49187,14 @@ msgid "Uninstall"
 msgstr "Odinstaluj"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Uninstall module"
 msgstr "Odinstaluj moduł"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_config.py:0
 msgid "Uninstall modules"
 msgstr "Odinstaluj moduły"
@@ -49226,7 +49226,7 @@ msgid "Uninstall…"
 msgstr "Odinstaluj…"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_currency.py:0
 msgid "Unit per %s"
 msgstr "Jednostka na %s"
@@ -49327,7 +49327,7 @@ msgid "University, Education, Schools, Young, Play, Kids"
 msgstr "Uniwersytet, Edukacja, Szkoły, Młody, Zabawa, Dzieci"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_device.py:0
 #: model:ir.model,name:base.model__unknown
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module_dependency__state__unknown
@@ -49336,13 +49336,13 @@ msgid "Unknown"
 msgstr "Nieznany"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unknown field \"%(model)s.%(field)s\" in %(use)s)"
 msgstr "Nieznane pole \"%(model)s.%(field)s\" w %(use)s)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "Unknown field name \"%(field_name)s\" in related field \"%(related_field)s\""
@@ -49351,13 +49351,13 @@ msgstr ""
 "(related_field)s\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field specified “%s” in currency_field"
 msgstr "Nieznane pole określone \"%s\" w currency_field"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
 "Unknown field “%(field)s” in \"group_by\" value in %(attribute)s=“%(value)s”"
@@ -49365,25 +49365,25 @@ msgstr ""
 "Nieznane pole “%(field)s” w wartości \"group_by\" w %(attribute)s=“%(value)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown field “%(field)s” in dependency “%(dependency)s”"
 msgstr "Nieznane pole “%(field)s” w zależności “%(dependency)s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid "Unknown model name '%s' in Related Model"
 msgstr "Nieznana nazwa modelu '%s' w powiązanym modelu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown sub-field “%s”"
 msgstr "Nieznane pole podrzędne “%s”"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
 "Unknown value '%(value)s' for boolean '%(label_property)s' property "
@@ -49393,13 +49393,13 @@ msgstr ""
 "(pole podrzędne pola '%%(field)s')."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Unknown value '%s' for boolean field '%%(field)s'"
 msgstr "Nieznana wartość '%s' dla pola boolean '%%(field)s'"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/translate.py:0
 msgid ""
 "Unrecognized extension: must be one of .csv, .po, or .tgz (received .%s)."
@@ -49408,7 +49408,7 @@ msgstr ""
 "%s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "Unsearchable field “%(field)s” in path “%(field_path)s” in %(use)s)"
 msgstr ""
@@ -49443,7 +49443,7 @@ msgid "Update"
 msgstr "Aktualizacja"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "Update %(model_name)s"
 msgstr "Aktualizuj %(model_name)s"
@@ -49542,7 +49542,7 @@ msgid "Usage"
 msgstr "Użycie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use '1' for yes and '0' for no"
 msgstr "Użyj '1' dla tak i '0' dla nie"
@@ -49588,13 +49588,13 @@ msgstr ""
 "Używaj skanerów kodów kreskowych do przetwarzania operacji logistycznych"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma"
 msgstr "Użyj przecinka"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Use comma instead of the <br> tag to display the address"
 msgstr "Użyj przecinka zamiast tagu <br>, aby wyświetlić adres"
@@ -49664,14 +49664,14 @@ msgstr ""
 "Otrzymana odznaka jest wyświetlana w profilu użytkownika.\n"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Use the SMTP configuration set in the \"Command Line Interface\" arguments."
 msgstr "Użyj konfiguracji SMTP ustawionej w argumentach \" Wiersza poleceń\"."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Use the format '%s'"
 msgstr "Stosuj format '%s'"
@@ -49755,7 +49755,7 @@ msgid "User"
 msgstr "Użytkownik"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "User %(user)s cannot be at the same time in exclusive groups %(groups)s."
@@ -49839,7 +49839,7 @@ msgid "Username"
 msgstr "Nazwa użytkownika"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 #: model:ir.actions.act_window,name:base.action_res_users
 #: model:ir.model.fields,field_description:base.field_change_password_wizard__user_ids
@@ -49883,7 +49883,7 @@ msgid "Users and implied users"
 msgstr "Użytkownicy i domniemani użytkownicy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "Users and implied users of %(group)s"
 msgstr "Użytkownicy i domniemani użytkownicy grupy %(group)s"
@@ -49914,7 +49914,7 @@ msgid "Uses Default Logo"
 msgstr "Używa domyślnego logo"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "Using 24-hour clock format with AM/PM can cause issues."
 msgstr "Używanie 24-godzinnego formatu zegara z AM/PM może powodować problemy."
@@ -49925,7 +49925,7 @@ msgid "Uzbekistan"
 msgstr "Uzbekistan"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_vat
 #: model:res.country,vat_label:base.be model:res.country,vat_label:base.bg
@@ -49973,7 +49973,7 @@ msgid "Value"
 msgstr "Wartość"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "Value '%s' not found in selection field '%%(field)s'"
 msgstr "Wartość '%s' nie znaleziona w wybranych polach '%%(field)s'"
@@ -50050,7 +50050,7 @@ msgid "Venezuela - Accounting"
 msgstr "Wenezuela - księgowość"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Vertical bar"
 msgstr "Pasek pionowy"
@@ -50089,13 +50089,13 @@ msgid "View"
 msgstr "Widok"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' accessible only to groups %(groups)s "
 msgstr "Widok '%(name)s' dostępny tylko dla grup %(groups)s "
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "View '%(name)s' is private"
 msgstr "Widok '%(name)s' jest prywatny"
@@ -50121,7 +50121,7 @@ msgid "View Name"
 msgstr "Nazwa widoku"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "View Problematic Record(s)"
 msgstr "Wyświetl problematyczne zapisy"
@@ -50267,7 +50267,7 @@ msgid "Warn user in case of products merging"
 msgstr "Ostrzeganie użytkownika w przypadku łączenia produktów"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 #: code:addons/base/models/ir_model.py:0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__warning
@@ -50276,7 +50276,7 @@ msgid "Warning"
 msgstr "Ostrzeżenie"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/decimal_precision.py:0
 #: code:addons/base/models/res_currency.py:0
 msgid "Warning for %s"
@@ -50804,7 +50804,7 @@ msgid "Wholesale/Retail"
 msgstr "Hurtowo/Detaliczny"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Width"
 msgstr "Szerokość"
@@ -50843,7 +50843,7 @@ msgid "Wizards to be Launched"
 msgstr "Kreatory do uruchomienia"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltoimage failed (error code: %(error_code)s). Message: %"
@@ -50853,7 +50853,7 @@ msgstr ""
 "(error_message_end)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid ""
 "Wkhtmltopdf failed (error code: %(error_code)s). Memory limit too low or "
@@ -50864,7 +50864,7 @@ msgstr ""
 "%(message)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
 msgstr ""
@@ -51014,7 +51014,7 @@ msgid "Yoga & Pilates Studio"
 msgstr "Studio jogi i pilatesu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to access '%(document_kind)s' (%(document_model)s) "
@@ -51022,7 +51022,7 @@ msgid ""
 msgstr "Nie masz dostępu do rekordów '%(document_kind)s' (%(document_model)s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to create '%(document_kind)s' (%(document_model)s) "
@@ -51030,7 +51030,7 @@ msgid ""
 msgstr "Nie możesz tworzyć rekordów '%(document_kind)s' (%(document_model)s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to delete '%(document_kind)s' (%(document_model)s) "
@@ -51038,7 +51038,7 @@ msgid ""
 msgstr "Nie można usuwać rekordów '%(document_kind)s' (%(document_model)s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
 "You are not allowed to modify '%(document_kind)s' (%(document_model)s) "
@@ -51047,7 +51047,7 @@ msgstr ""
 "Nie możesz modyfikować rekordów '%(document_kind)s' (%(document_model)s)."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to install incompatible modules in category \"%(category)s\":%"
@@ -51057,7 +51057,7 @@ msgstr ""
 "(module_list)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You are trying to remove a module that is installed or will be installed."
@@ -51078,13 +51078,13 @@ msgstr ""
 "pliku."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/properties_base_definition.py:0
 msgid "You can not change the field of a base definition"
 msgstr "Nie możesz zmienić pola podstawowej definicji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You can not create recursive tags."
 msgstr "Nie można tworzyć tagów rekurencyjnych."
@@ -51095,7 +51095,7 @@ msgid "You can not have two users with the same login!"
 msgstr "Nie można mieć dwóch użytkowników o tym samym loginie!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove API keys unless they're yours or you are a system user"
@@ -51104,7 +51104,7 @@ msgstr ""
 "użytkownikiem systemu"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
@@ -51114,14 +51114,14 @@ msgstr ""
 "zasobów utworzonych przez BetopiaERP (aktualizacje, instalacja modułu, ...)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You can ony call user.has_group() with your current user."
 msgstr ""
 "Możesz wywołać jedynie  user.has_group() z Twoim obecnym użytkownikiem."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/report_paperformat.py:0
 msgid ""
 "You can select either a format or a specific page width/height, but not both."
@@ -51129,13 +51129,13 @@ msgstr ""
 "Można wybrać format lub określoną szerokość/wysokość strony, ale nie oba."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot activate the superuser."
 msgstr "Nie można aktywować superużytkownika."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -51152,7 +51152,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot archive contacts linked to an active user.\n"
@@ -51166,7 +51166,7 @@ msgstr ""
 "Powiązani aktywni użytkownicy : %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot archive the language in which BetopiaERP was setup as it is used by "
@@ -51176,7 +51176,7 @@ msgstr ""
 "jest używany w automatycznych procesach."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive these Outgoing Mail Servers (%(server_usage)s) because "
@@ -51188,7 +51188,7 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "You cannot archive this Outgoing Mail Server (%(server_usage)s) because it "
@@ -51200,13 +51200,13 @@ msgstr ""
 "%(usage_details)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid "You cannot create recursive Partner hierarchies."
 msgstr "Nie możesz tworzyć rekursyjnej hierarchii partnerów"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "You cannot create recursive inherited views."
 msgstr "Nie można tworzyć dziedziczonych widoków rekursywnych."
@@ -51221,26 +51221,26 @@ msgstr ""
 "zakresem dat."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot deactivate the user you're currently logged in as."
 msgstr ""
 "Nie możesz dezaktywować użytkownika, jako który jesteś obecnie zalogowany."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_embedded_actions.py:0
 msgid "You cannot delete a default embedded action"
 msgstr "Nie można usunąć domyślnej osadzonej akcji"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_groups.py:0
 msgid "You cannot delete a group linked with a settings field."
 msgstr "Nie można usunąć grupy powiązanej z polem ustawień."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -51257,7 +51257,7 @@ msgstr ""
 "%(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
 "You cannot delete contacts linked to an active user.\n"
@@ -51272,13 +51272,13 @@ msgstr ""
 "Powiązani aktywni użytkownicy : %(names)s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot delete the %s record."
 msgstr "Nie można usunąć zapisu %s."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
 "You cannot delete the admin user because it is utilized in various places "
@@ -51289,7 +51289,7 @@ msgstr ""
 "go."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid ""
 "You cannot delete the language which is Active!\n"
@@ -51299,25 +51299,25 @@ msgstr ""
 "Proszę najpierw deaktywować język."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "You cannot delete the language which is the user's preferred language."
 msgstr "Nie można usunąć języka preferowanego przez użytkownika."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You cannot exceed %(duration)s days."
 msgstr "Nie możesz przekroczyć %(duration)s dni."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You cannot merge a contact with one of his parent."
 msgstr "Nie można scalić kontaktu z jednym z jego nadrzędnych kontaktów."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid ""
 "You cannot merge contacts linked to more than one user even if only one is "
@@ -51327,25 +51327,25 @@ msgstr ""
 "nawet jeśli tylko jeden jest aktywny."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_config_parameter.py:0
 msgid "You cannot rename config parameters with keys %s"
 msgstr "Nie możesz zmieniać nazw parametrów konfiguracji z kluczami %s"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions.py:0
 msgid "You don't have enough access rights to run this action."
 msgstr "Nie masz wystarczających praw dostępu, aby uruchomić tę akcję."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/wizard/base_partner_merge.py:0
 msgid "You have to specify a filter for your selection."
 msgstr "Musisz określić filtr dla swojego wyboru."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "You must have at least an administrator user."
 msgstr "Musisz mieć przynajmniej użytkownika administratora."
@@ -51361,7 +51361,7 @@ msgid "You should update this document to reflect your T&amp;C."
 msgstr "Należy zaktualizować ten dokument, aby odzwierciedlić swoje T&amp;C.."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to install module \"%(module)s\" that depends on module \"%"
@@ -51373,7 +51373,7 @@ msgstr ""
 "Ale tego drugiego modułu nie ma w twoim systemie."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
 "You try to upgrade the module %(module)s that depends on the module: %"
@@ -51408,7 +51408,7 @@ msgstr ""
 "Życzymy smacznego!"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
 "Your server does not seem to support SSL, you may want to try STARTTLS "
@@ -51560,7 +51560,7 @@ msgid "choose"
 msgstr "wybierz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "create"
 msgstr "twórz"
@@ -51571,7 +51571,7 @@ msgid "cêntimo"
 msgstr "cêntimo"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "database id"
 msgstr "ID bazy danych"
@@ -51587,7 +51587,7 @@ msgid "datetime"
 msgstr "datetime"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "day"
 msgstr "dzień"
@@ -51633,7 +51633,7 @@ msgid "e.g. \"Roadshow\""
 msgstr "np. \"Roadshow\""
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_users.py:0
 msgid "e.g. %(placeholder)s"
 msgstr "np. %(placeholder)s"
@@ -51776,13 +51776,13 @@ msgid "expenses"
 msgstr "wydatki"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "external id"
 msgstr "zewnętrzny identyfikator"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "false"
 msgstr "false"
@@ -51803,7 +51803,7 @@ msgstr ""
 "        record['size'] = len(record.name)"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_lang.py:0
 msgid "format() must be given exactly one %char format specifier"
 msgstr "format() musi mieć dokładnie jeden specyfikator formatu %char"
@@ -51824,7 +51824,7 @@ msgstr ""
 "Użytkownicy mogą wybrać swój ulubiony język w preferencjach."
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "hour"
 msgstr "godzina"
@@ -51914,7 +51914,7 @@ msgid "many2one_reference"
 msgstr "many2one_reference"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "minute"
 msgstr "minuta"
@@ -51930,25 +51930,25 @@ msgid "monetary"
 msgstr "monetarny"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "month"
 msgstr "miesiąc"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "name"
 msgstr "nazwa"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "narrow"
 msgstr "wąski"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "no"
 msgstr "nie"
@@ -51969,7 +51969,7 @@ msgid "others"
 msgstr "Inne"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/res_company.py:0
 msgid "parent_id"
 msgstr "parent_id"
@@ -52030,7 +52030,7 @@ msgid "properties_definition"
 msgstr "properties_definition"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "read"
 msgstr "czytaj"
@@ -52047,7 +52047,7 @@ msgid "sales"
 msgstr "sprzedaż"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "second"
 msgstr "drugi"
@@ -52068,7 +52068,7 @@ msgid "sequence_id"
 msgstr "sequence_id"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "short"
 msgstr "krótki"
@@ -52169,13 +52169,13 @@ msgid "text"
 msgstr "tekst"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "true"
 msgstr "true"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "unlink"
 msgstr "odłącz"
@@ -52206,31 +52206,31 @@ msgid "website helpdesk sale loyalty"
 msgstr "witryna helpdesk sprzedaż program lojalnościowy"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "week"
 msgstr "tydzień"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
 msgstr "wkhtmltoimage 0.12.0^ jest wymagany w celu renderowania obrazów z html"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_rule.py:0
 msgid "write"
 msgstr "pisz"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "year"
 msgstr "rok"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "yes"
 msgstr "tak"
@@ -52241,7 +52241,7 @@ msgid "Åland Islands"
 msgstr "Åland Islands"
 
 #. module: base
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid "“%(attribute)s” value must be an integer (%(value)s)"
 msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
@@ -52502,7 +52502,7 @@ msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
 #~ "the sequences synchronization between BetopiaERP and AFIP.\n"
 #~ "\n"
 #~ "    NOTE: From the Journal's form view we are able to force a sync "
-#~ "between the BetopiaERP sequences to each of the document types in\n"
+#~ "between the betopiaerp sequences to each of the document types in\n"
 #~ "    with the last numbers registered in AFIP.\n"
 #~ "\n"
 #~ "From vendor bills, we have added a functionality that can be configured "
@@ -52596,7 +52596,7 @@ msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
 #~ "problemów z synchronizacją sekwencji między BetopiaERP i AFIP.\n"
 #~ "\n"
 #~ "UWAGA: Z poziomu widoku formularza dziennika możemy wymusić "
-#~ "synchronizację sekwencji BetopiaERP do każdego z typów dokumentów w AFIP.\n"
+#~ "synchronizację sekwencji betopiaerp do każdego z typów dokumentów w AFIP.\n"
 #~ "z ostatnimi numerami zarejestrowanymi w AFIP.\n"
 #~ "\n"
 #~ "Z rachunków dostawców dodaliśmy funkcjonalność, którą można skonfigurować "
@@ -53414,7 +53414,7 @@ msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
 #~ "requirements which might arise from POS implementation. [1]  Under normal "
 #~ "circumstances, you might not need to use those at all.\n"
 #~ "\n"
-#~ "[1] See https://github.com/BetopiaERP/BetopiaERP/pull/6470 for detail.\n"
+#~ "[1] See https://github.com/betopiaerp/betopiaerp/pull/6470 for detail.\n"
 #~ "\n"
 #~ "    "
 #~ msgstr ""
@@ -53435,7 +53435,7 @@ msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
 #~ "specjalnych wymagań, które mogą wynikać z wdrożenia POS. [1] W normalnych "
 #~ "okolicznościach, możesz nie potrzebować ich w ogóle.\n"
 #~ "\n"
-#~ "[1] Zobacz https://github.com/BetopiaERP/BetopiaERP/pull/6470, by poznać szczegóły."
+#~ "[1] Zobacz https://github.com/betopiaerp/betopiaerp/pull/6470, by poznać szczegóły."
 
 #~ msgid ""
 #~ "\n"
@@ -55138,7 +55138,7 @@ msgstr "“%(attribute)s” wartość musi być liczbą całkowitą (%(value)s)"
 #~ "towarów\n"
 #~ "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 #~ "\n"
-#~ "Niniejszy moduł jest przeznaczony dla BetopiaERP 8.0.\n"
+#~ "Niniejszy moduł jest przeznaczony dla betopiaerp 8.0.\n"
 #~ "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 #~ "    "
 #~ msgstr ""

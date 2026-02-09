@@ -31,7 +31,7 @@ def register(linter):
 
 def modpath_from_file(filename, path):
     if filename == "./addons":
-        return ['BetopiaERP', 'addons']
+        return ['betopiaerp', 'addons']
     return modutils.modpath_from_file_with_callback(
         filename,
         path,
@@ -39,7 +39,7 @@ def modpath_from_file(filename, path):
     )
 
 class AddonsPackageFinder(spec.Finder):
-    """Finder which special cases BetopiaERP and betopiaerp.addons, such that they're
+    """Finder which special cases betopiaerp and betopiaerp.addons, such that they're
     forcefully discovered as namespace packages since otherwise they get
     discovered as directory packages.
     """
@@ -51,7 +51,7 @@ class AddonsPackageFinder(spec.Finder):
         submodule_path: Sequence[str] | None,
     ) -> spec.ModuleSpec | None:
         modname = '.'.join([*processed, modname])
-        if modname in ('BetopiaERP', 'betopiaerp.addons'):
+        if modname in ('betopiaerp', 'betopiaerp.addons'):
             return spec.ModuleSpec(
                 name=modname,
                 location="",

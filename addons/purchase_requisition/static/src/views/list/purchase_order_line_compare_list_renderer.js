@@ -1,5 +1,5 @@
 import { ListRenderer } from "@web/views/list/list_renderer";
-import { onWillStart, useState, useSubEnv } from "@BetopiaERP/owl";
+import { onWillStart, useState, useSubEnv } from "@betopiaerp/owl";
 
 export class PurchaseOrderLineCompareListRenderer extends ListRenderer {
     setup() {

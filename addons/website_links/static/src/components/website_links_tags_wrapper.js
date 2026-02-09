@@ -1,4 +1,4 @@
-import { Component, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState } from "@betopiaerp/owl";
 import { KeepLast } from "@web/core/utils/concurrency";
 import { SelectMenu } from "@web/core/select_menu/select_menu";
 import { useService } from "@web/core/utils/hooks";

@@ -14,7 +14,7 @@ This module aims to manage employee's attendances.
 Keeps account of the attendances of the employees on the basis of the
 actions(Check in/Check out) performed by them.
        """,
-    'website': 'https://www.betopiaerp.com/app/employees',
+    'website': 'https://www.BetopiaERP.com/app/employees',
     'depends': ['hr', 'barcodes', 'base_geolocalize'],
     'data': [
         'data/hr_attendance_overtime_ruleset_data.xml',
@@ -64,7 +64,7 @@ actions(Check in/Check out) performed by them.
             'web/static/lib/bootstrap/scss/_maps.scss',
             ('include', 'web._assets_bootstrap_frontend'),
             ('include', 'web._assets_bootstrap_backend'),
-            '/web/static/lib/BetopiaERP_ui_icons/*',
+            '/web/static/lib/betopiaerp_ui_icons/*',
             '/web/static/lib/bootstrap/scss/_functions.scss',
             '/web/static/lib/bootstrap/scss/_mixins.scss',
             '/web/static/lib/bootstrap/scss/utilities/_api.scss',
@@ -92,7 +92,7 @@ actions(Check in/Check out) performed by them.
 
         ]
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'post_init_hook': 'post_init_hook',
     'uninstall_hook': 'uninstall_hook',

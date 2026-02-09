@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { defineWebsiteModels, setupWebsiteBuilder } from "./website_helpers";
 import { contains, onRpc } from "@web/../tests/web_test_helpers";
 
@@ -18,14 +18,14 @@ test("Save several megamenu", async () => {
     await setupWebsiteBuilder("", {
         headerContent: `
             <div data-name="Mega Menu" data-oe-xpath="/t[1]/li[2]/div[1]" class="o_mega_menu" data-oe-model="website.menu" data-oe-id="1" data-oe-field="mega_menu_content" data-oe-type="html" data-oe-expression="submenu.mega_menu_content">
-                <section class="s_mega_menu_BetopiaERP_menu pt16 o_cc o_cc1">
+                <section class="s_mega_menu_betopiaerp_menu pt16 o_cc o_cc1">
                     <div class="container">
                         mega menu 1 content
                     </div>
                 </section>
             </div>
             <div data-name="Mega Menu" data-oe-xpath="/t[1]/li[2]/div[1]" class="o_mega_menu" data-oe-model="website.menu" data-oe-id="2" data-oe-field="mega_menu_content" data-oe-type="html" data-oe-expression="submenu.mega_menu_content">
-                <section class="s_mega_menu_BetopiaERP_menu pt16 o_cc o_cc1">
+                <section class="s_mega_menu_betopiaerp_menu pt16 o_cc o_cc1">
                     <div class="container">
                         mega menu 2 content
                     </div>

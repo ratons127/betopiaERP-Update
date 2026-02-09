@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { press, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate, mockTimeZone, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { press, queryAll, queryAllAttributes, queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate, mockTimeZone, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, useState, xml } from "@betopiaerp/owl";
 
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {

@@ -969,7 +969,7 @@ class MyInvoisDocument(models.Model):
 
     def _myinvois_update_document(self, status, reason):
         """
-        This method will try to update the status of a document on the platform, and if needed also the status in betopiaerp.
+        This method will try to update the status of a document on the platform, and if needed also the status in BetopiaERP.
 
         There is no "Rejected" status on the platform. The document stays as 'valid' until action is taken by the vendor.
         At that point, the invoice will be cancelled if need be by the call to _myinvois_set_state.

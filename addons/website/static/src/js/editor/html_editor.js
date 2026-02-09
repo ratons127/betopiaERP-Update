@@ -5,7 +5,7 @@ import { AutoComplete } from "@web/core/autocomplete/autocomplete";
 import { patch } from "@web/core/utils/patch";
 import { useChildRef } from "@web/core/utils/hooks";
 import wUtils from "@website/js/utils";
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { session } from "@web/session";
 
@@ -144,9 +144,9 @@ patch(LinkPopover.prototype, {
         const parsedUrl = new URL(url);
         return (
             (browser.location.hostname === parsedUrl.hostname ||
-                // Also check if the BetopiaERP-hosted domain is the current domain of the url
-                new RegExp(`^https?://${session.db}\\.BetopiaERP\\.com(/.*)?$`).test(parsedUrl.origin)) &&
-            !parsedUrl.pathname.startsWith("/BetopiaERP") &&
+                // Also check if the betopiaerp-hosted domain is the current domain of the url
+                new RegExp(`^https?://${session.db}\\.betopiaerp\\.com(/.*)?$`).test(parsedUrl.origin)) &&
+            !parsedUrl.pathname.startsWith("/betopiaerp") &&
             !parsedUrl.pathname.startsWith("/web") &&
             !parsedUrl.pathname.startsWith("/@/")
         );

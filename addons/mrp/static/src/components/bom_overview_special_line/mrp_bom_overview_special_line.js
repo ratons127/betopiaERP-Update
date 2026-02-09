@@ -1,5 +1,5 @@
 import { formatFloat, formatFloatTime, formatMonetary } from "@web/views/fields/formatters";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class BomOverviewSpecialLine extends Component {
     static template = "mrp.BomOverviewSpecialLine";

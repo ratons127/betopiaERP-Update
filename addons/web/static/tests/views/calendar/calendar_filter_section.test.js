@@ -1,10 +1,10 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, queryAllTexts } from "@betopiaerp/hoot-dom";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { FAKE_FILTER_SECTIONS, FAKE_MODEL } from "./calendar_test_helpers";
 
 import { CalendarFilterSection } from "@web/views/calendar/calendar_filter_section/calendar_filter_section";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 
 test(`render filter panel`, async () => {
     await mountWithCleanup(CalendarFilterSection, {

@@ -1,6 +1,6 @@
 import { LinkPreview } from "@mail/core/common/link_preview";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 /**
  * @typedef {Object} Props

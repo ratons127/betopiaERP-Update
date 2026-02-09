@@ -1,4 +1,4 @@
-import { useEnv } from "@BetopiaERP/owl";
+import { useEnv } from "@betopiaerp/owl";
 import { _t } from "@web/core/l10n/translation";
 import { AccountProductCatalogSearchPanel } from "@account/components/product_catalog/search/search_panel";
 import { TimePeriodSelectionField } from "./time_period_selection_fields";

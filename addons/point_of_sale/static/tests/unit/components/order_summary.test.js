@@ -1,9 +1,9 @@
-import { test, expect, animationFrame } from "@BetopiaERP/hoot";
+import { test, expect, animationFrame } from "@betopiaerp/hoot";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { OrderSummary } from "@point_of_sale/app/screens/product_screen/order_summary/order_summary";
 import { setupPosEnv, getFilledOrder } from "../utils";
 import { definePosModels } from "../data/generate_model_definitions";
-import { queryAll, queryOne } from "@BetopiaERP/hoot-dom";
+import { queryAll, queryOne } from "@betopiaerp/hoot-dom";
 
 definePosModels();
 

@@ -9,7 +9,7 @@ import { MainComponentsContainer } from "@web/core/main_components_container";
 import { browser } from '@web/core/browser/browser';
 import { appTranslateFn } from "@web/core/l10n/translation";
 import { jsToPyLocale, pyToJsLocale } from "@web/core/l10n/utils";
-import { App, Component, whenReady } from "@BetopiaERP/owl";
+import { App, Component, whenReady } from "@betopiaerp/owl";
 import { RPCError } from '@web/core/network/rpc';
 import { patch } from "@web/core/utils/patch";
 
@@ -390,7 +390,7 @@ export async function createPublicRoot(RootWidget) {
         app.mount(document.body),
         publicRoot.attachTo(document.body),
     ]);
-    BetopiaERP.__WOWL_DEBUG__ = { root };
+    betopiaerp.__WOWL_DEBUG__ = { root };
     return publicRoot;
 }
 

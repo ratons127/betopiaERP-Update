@@ -1,7 +1,7 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockDate } from "@BetopiaERP/hoot-mock";
-import { onRendered } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllTexts } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockDate } from "@betopiaerp/hoot-mock";
+import { onRendered } from "@betopiaerp/owl";
 import {
     contains,
     defineModels,

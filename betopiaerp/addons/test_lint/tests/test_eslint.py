@@ -40,7 +40,7 @@ class TestESLint(lint_case.LintCase):
         self.assertEqual(process.returncode, 0, msg=f"""
 stdout: {process.stdout}
 Perhaps you might benefit from installing the tooling found at:
-https://github.com/BetopiaERP/BetopiaERP/wiki/Javascript-coding-guidelines#use-a-linter \n
+https://github.com/betopiaerp/betopiaerp/wiki/Javascript-coding-guidelines#use-a-linter \n
 stderr: {process.stderr}
 """)
 

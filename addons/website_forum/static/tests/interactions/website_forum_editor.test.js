@@ -1,8 +1,8 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { WebsiteForumWysiwyg } from "../../src/components/website_forum_wysiwyg/website_forum_wysiwyg";
-import { onMounted } from "@BetopiaERP/owl";
+import { onMounted } from "@betopiaerp/owl";
 
 setupInteractionWhiteList(["website_forum.website_forum"]);
 

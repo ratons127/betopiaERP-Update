@@ -11,7 +11,7 @@
     :copyright: 2007 Pallets
     :license: BSD-3-Clause
 
-    This package was vendored in BetopiaERP in order to prevent errors with werkzeug 2.1
+    This package was vendored in betopiaerp in order to prevent errors with werkzeug 2.1
 """
 import re
 

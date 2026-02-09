@@ -1,4 +1,4 @@
-import * as hoot from "@BetopiaERP/hoot-dom";
+import * as hoot from "@betopiaerp/hoot-dom";
 import { patch } from "@web/core/utils/patch";
 import { TourHelpers } from "./tour_helpers";
 
@@ -44,7 +44,7 @@ patch(TourHelpers.prototype, {
      * Performs a click sequence on the given **{@link Selector}**
      * @description Let's see more informations about click sequence here: {@link hoot.click}
      * @param {Selector} selector
-     * @param {import("@BetopiaERP/hoot-dom").PointerOptions} options
+     * @param {import("@betopiaerp/hoot-dom").PointerOptions} options
      * @example
      *  run: "click", // Click on the action element
      * @example
@@ -140,7 +140,7 @@ patch(TourHelpers.prototype, {
      */
     async editor(text, selector) {
         const element = this._get_action_element(selector);
-        const InEditor = Boolean(element.closest(".BetopiaERP-editor-editable"));
+        const InEditor = Boolean(element.closest(".betopiaerp-editor-editable"));
         if (!InEditor) {
             throw new Error("run 'editor' always on an element in an editor");
         }
@@ -172,7 +172,7 @@ patch(TourHelpers.prototype, {
     /**
      * Performs a hover sequence on the given **{@link Selector}**.
      * @param {Selector} selector
-     * @param {import("@BetopiaERP/hoot-dom").PointerOptions} options
+     * @param {import("@betopiaerp/hoot-dom").PointerOptions} options
      * @example
      *  run: "hover",
      */

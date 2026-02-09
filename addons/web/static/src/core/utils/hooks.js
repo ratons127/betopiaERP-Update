@@ -1,6 +1,6 @@
 import { hasTouch, isMobileOS } from "@web/core/browser/feature_detection";
 
-import { status, useComponent, useEffect, useRef, onWillUnmount, useState, toRaw } from "@BetopiaERP/owl";
+import { status, useComponent, useEffect, useRef, onWillUnmount, useState, toRaw } from "@betopiaerp/owl";
 
 /**
  * This file contains various custom hooks.
@@ -80,7 +80,7 @@ export function useAutofocus({ refName, selectAll, mobile } = {}) {
 /**
  * Ensures a bus event listener is attached and cleared the proper way.
  *
- * @param {import("@BetopiaERP/owl").EventBus} bus
+ * @param {import("@betopiaerp/owl").EventBus} bus
  * @param {string} eventName
  * @param {EventListener} callback
  */

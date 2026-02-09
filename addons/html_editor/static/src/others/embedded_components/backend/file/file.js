@@ -4,7 +4,7 @@ import {
     StateChangeManager,
     useEmbeddedState,
 } from "@html_editor/others/embedded_component_utils";
-import { useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { useEffect, useRef, useState } from "@betopiaerp/owl";
 import { ReadonlyEmbeddedFileComponent } from "@html_editor/others/embedded_components/core/file/readonly_file";
 
 export class EmbeddedFileComponent extends ReadonlyEmbeddedFileComponent {

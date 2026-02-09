@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryAllProperties, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryAllProperties, queryAllTexts } from "@betopiaerp/hoot-dom";
 import {
     contains,
     defineModels,

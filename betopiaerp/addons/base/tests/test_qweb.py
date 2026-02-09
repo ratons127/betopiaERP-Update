@@ -920,10 +920,10 @@ class TestQWebBasic(TransactionCase):
             </t>'''
         })
         result = """
-                <a href="/link/BetopiaERP/sub">link</a>
-                <a href="/link/BetopiaERP/">link2</a>
+                <a href="/link/betopiaerp/sub">link</a>
+                <a href="/link/betopiaerp/">link2</a>
             """
-        values = {'url': 'BetopiaERP', 'other': True}
+        values = {'url': 'betopiaerp', 'other': True}
         rendered = self.env['ir.qweb']._render(t.id, values)
         self.assertEqual(rendered.strip(), result.strip())
 

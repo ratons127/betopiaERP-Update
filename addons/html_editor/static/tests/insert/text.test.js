@@ -1,9 +1,9 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { deleteBackward, insertText } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 import { execCommand } from "../_helpers/userCommands";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 import { unformat } from "../_helpers/format";
 
 describe("collapsed selection", () => {

@@ -6,7 +6,7 @@ import {
     many2ManyTagsFieldColorEditable,
 } from "@web/views/fields/many2many_tags/many2many_tags_field";
 import { roundPrecision } from "@web/core/utils/numbers";
-import { onWillUpdateProps } from "@BetopiaERP/owl";
+import { onWillUpdateProps } from "@betopiaerp/owl";
 
 export function getProductRelatedModel() {
     const field = this.props.record.fields[this.props.productField];

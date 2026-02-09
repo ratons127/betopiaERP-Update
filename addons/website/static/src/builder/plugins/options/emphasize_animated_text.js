@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { CheckBox } from "@web/core/checkbox/checkbox";
 import { useBus } from "@web/core/utils/hooks";
 

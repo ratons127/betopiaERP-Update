@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { Typing } from "@mail/discuss/typing/common/typing";
 
 export class ImStatus extends Component {

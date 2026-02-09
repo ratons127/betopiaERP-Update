@@ -1,7 +1,7 @@
 import { _t } from "@web/core/l10n/translation";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
-import { EvaluationError } from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
+import { EvaluationError } from "@betopiaerp/o-spreadsheet";
 const { functionRegistry } = spreadsheet.registries;
 const { arg, toBoolean, toString, toNumber, toJsDate } = spreadsheet.helpers;
 
@@ -142,7 +142,7 @@ const POSTED_ARG = arg(
     _t("Set to TRUE to include unposted entries.")
 )
 
-const BetopiaERP_FIN_ARGS = () => [
+const BETOPIAERP_FIN_ARGS = () => [
     arg("account_codes (string)", _t("The prefix of the accounts.")),
     arg(
         "date_range (string, date)",
@@ -153,7 +153,7 @@ const BetopiaERP_FIN_ARGS = () => [
     POSTED_ARG,
 ];
 
-const BetopiaERP_RESIDUAL_ARGS = () => [
+const BETOPIAERP_RESIDUAL_ARGS = () => [
     arg(
         "account_codes (string, optional)",
         _t("The prefix of the accounts. If none provided, all receivable and payable accounts will be used.")
@@ -167,14 +167,14 @@ const BetopiaERP_RESIDUAL_ARGS = () => [
     POSTED_ARG,
 ];
 
-const BetopiaERP_PARTNER_BALANCE_ARGS = () => {
+const BETOPIAERP_PARTNER_BALANCE_ARGS = () => {
     const partner_arg = arg("partner_ids (string)", _t("The partner ids (separated by a comma)."));
-    return [partner_arg, ...BetopiaERP_RESIDUAL_ARGS()];
+    return [partner_arg, ...BETOPIAERP_RESIDUAL_ARGS()];
 }
 
-functionRegistry.add("BetopiaERP.CREDIT", {
+functionRegistry.add("BETOPIAERP.CREDIT", {
     description: _t("Get the total credit for the specified account(s) and period."),
-    args: BetopiaERP_FIN_ARGS(),
+    args: BETOPIAERP_FIN_ARGS(),
     category: "BetopiaERP",
     returns: ["NUMBER"],
     compute: function (
@@ -205,9 +205,9 @@ functionRegistry.add("BetopiaERP.CREDIT", {
     },
 });
 
-functionRegistry.add("BetopiaERP.DEBIT", {
+functionRegistry.add("BETOPIAERP.DEBIT", {
     description: _t("Get the total debit for the specified account(s) and period."),
-    args: BetopiaERP_FIN_ARGS(),
+    args: BETOPIAERP_FIN_ARGS(),
     category: "BetopiaERP",
     returns: ["NUMBER"],
     compute: function (
@@ -238,9 +238,9 @@ functionRegistry.add("BetopiaERP.DEBIT", {
     },
 });
 
-functionRegistry.add("BetopiaERP.BALANCE", {
+functionRegistry.add("BETOPIAERP.BALANCE", {
     description: _t("Get the total balance for the specified account(s) and period."),
-    args: BetopiaERP_FIN_ARGS(),
+    args: BETOPIAERP_FIN_ARGS(),
     category: "BetopiaERP",
     returns: ["NUMBER"],
     compute: function (
@@ -277,7 +277,7 @@ functionRegistry.add("BetopiaERP.BALANCE", {
     },
 });
 
-functionRegistry.add("BetopiaERP.FISCALYEAR.START", {
+functionRegistry.add("BETOPIAERP.FISCALYEAR.START", {
     description: _t("Returns the starting date of the fiscal year encompassing the provided date."),
     args: [
         arg("day (date)", _t("The day from which to extract the fiscal year start.")),
@@ -297,7 +297,7 @@ functionRegistry.add("BetopiaERP.FISCALYEAR.START", {
     },
 });
 
-functionRegistry.add("BetopiaERP.FISCALYEAR.END", {
+functionRegistry.add("BETOPIAERP.FISCALYEAR.END", {
     description: _t("Returns the ending date of the fiscal year encompassing the provided date."),
     args: [
         arg("day (date)", _t("The day from which to extract the fiscal year end.")),
@@ -338,7 +338,7 @@ const ACCOUNT_TYPES = [
     "off_balance",
 ];
 
-functionRegistry.add("BetopiaERP.ACCOUNT.GROUP", {
+functionRegistry.add("BETOPIAERP.ACCOUNT.GROUP", {
     description: _t("Returns the account codes of a given group."),
     args: [
         arg(
@@ -354,9 +354,9 @@ functionRegistry.add("BetopiaERP.ACCOUNT.GROUP", {
     },
 });
 
-functionRegistry.add("BetopiaERP.RESIDUAL", {
+functionRegistry.add("BETOPIAERP.RESIDUAL", {
     description: _t("Return the residual amount for the specified account(s) and period"),
-    args: BetopiaERP_RESIDUAL_ARGS(),
+    args: BETOPIAERP_RESIDUAL_ARGS(),
     category: "BetopiaERP",
     returns: ["NUMBER"],
     compute: function (
@@ -390,9 +390,9 @@ functionRegistry.add("BetopiaERP.RESIDUAL", {
     },
 })
 
-functionRegistry.add("BetopiaERP.PARTNER.BALANCE", {
+functionRegistry.add("BETOPIAERP.PARTNER.BALANCE", {
     description: _t("Return the partner balance for the specified account(s) and period"),
-    args: BetopiaERP_PARTNER_BALANCE_ARGS(),
+    args: BETOPIAERP_PARTNER_BALANCE_ARGS(),
     category: "BetopiaERP",
     returns: ["NUMBER"],
     compute: function (
@@ -433,7 +433,7 @@ functionRegistry.add("BetopiaERP.PARTNER.BALANCE", {
     },
 })
 
-functionRegistry.add("BetopiaERP.BALANCE.TAG", {
+functionRegistry.add("BETOPIAERP.BALANCE.TAG", {
     description: _t("Return the balance of accounts for the specified tag(s) and period"),
     args: [
         arg("account_tag_ids (string)", _t("The tag ids (separated by a comma).")),

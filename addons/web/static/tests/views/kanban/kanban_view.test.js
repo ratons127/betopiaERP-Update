@@ -1,4 +1,4 @@
-import { after, beforeEach, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { after, beforeEach, expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     dblclick,
@@ -20,7 +20,7 @@ import {
     resize,
     scroll,
     setInputFiles,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import {
     Deferred,
     advanceFrame,
@@ -30,8 +30,8 @@ import {
     mockTouch,
     runAllTimers,
     tick,
-} from "@BetopiaERP/hoot-mock";
-import { Component, onRendered, onWillRender, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-mock";
+import { Component, onRendered, onWillRender, xml } from "@betopiaerp/owl";
 import {
     MockServer,
     clickKanbanLoadMore,
@@ -3292,7 +3292,7 @@ test("quick create record: cancel when modal is opened", async () => {
     // will NOT close the quick create.
     // This can happen when the user clicks out of the input because of a race condition between
     // the focusout of the m2o and the global 'click' handler of the quick create.
-    // Check BetopiaERP/BetopiaERP#61981 for more details.
+    // Check betopiaerp/betopiaerp#61981 for more details.
     expect(".o_dialog").toHaveCount(1, { message: "modal should be opening after m2o focusout" });
     expect(document.body).toHaveClass("modal-open");
     await click(document.body);
@@ -13532,7 +13532,7 @@ test("kanban records are middle clickable by default", async () => {
         'get current_state-{"actionStack":[{"displayName":"","action":1,"view_type":"kanban"}],"action":1}',
         'set current_action-{"id":1,"res_model":"partner","type":"ir.actions.act_window","views":[[false,"kanban"],[false,"form"]]}',
         'set current_state-{"actionStack":[{"displayName":"","action":1,"view_type":"kanban"},{"displayName":"","action":1,"view_type":"form","resId":1}],"resId":1,"action":1}',
-        "opened in new window: /BetopiaERP/action-1/1",
+        "opened in new window: /betopiaerp/action-1/1",
         'set current_action-{"id":1,"res_model":"partner","type":"ir.actions.act_window","views":[[false,"kanban"],[false,"form"]]}',
         'set current_state-{"actionStack":[{"displayName":"","action":1,"view_type":"kanban"}],"action":1}',
     ]);

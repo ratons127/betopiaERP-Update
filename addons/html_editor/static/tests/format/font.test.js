@@ -1,7 +1,7 @@
-import { waitFor } from "@BetopiaERP/hoot-dom";
+import { waitFor } from "@betopiaerp/hoot-dom";
 import { setupEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { expandToolbar } from "../_helpers/toolbar";
 import { contains } from "@web/../tests/web_test_helpers";
 

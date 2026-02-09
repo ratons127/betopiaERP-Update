@@ -9,7 +9,7 @@ import {
     useRef,
     useState,
     useSubEnv,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { LazyComponent, loadBundle } from "@web/core/assets";
 import { Deferred } from "@web/core/utils/concurrency";
 import { uniqueId } from "@web/core/utils/functions";
@@ -366,7 +366,7 @@ export class MassMailingIframe extends Component {
                 this.props.onEditorLoad(editor);
             },
             getThemeTab: () =>
-                BetopiaERP.loader.modules.get("@mass_mailing/builder/tabs/design_tab").DesignTab,
+                betopiaerp.loader.modules.get("@mass_mailing/builder/tabs/design_tab").DesignTab,
             themeTabDisplayName: _t("Design"),
         };
     }

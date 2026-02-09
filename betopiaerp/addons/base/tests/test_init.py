@@ -33,13 +33,13 @@ class TestInit(BaseCase):
             **kwargs
         )
 
-    def BetopiaERP_modules_to_test(self):
+    def betopiaerp_modules_to_test(self):
         import betopiaerp.cli  # noqa: PLC0415
         for path in (*betopiaerp.__path__, *betopiaerp.cli.__path__):
             parent = Path(path)
             for module in parent.iterdir():
                 if (module.is_dir() or module.suffix == '.py') and '__' not in module.name:
-                    if parent.name == 'BetopiaERP':
+                    if parent.name == 'betopiaerp':
                         yield f"betopiaerp.{module.stem}"
                     else:
                         yield f"betopiaerp.{parent.name}.{module.stem}"
@@ -47,7 +47,7 @@ class TestInit(BaseCase):
     def test_import(self):
         """Test that importing a sub-module in any order works."""
         EXPECT_UTC = ('init', 'cli', 'http', 'modules', 'service', 'api', 'fields', 'models', 'orm', 'tests')
-        for module in sorted(self.BetopiaERP_modules_to_test()):
+        for module in sorted(self.betopiaerp_modules_to_test()):
             set_timezone = any(expect in module for expect in EXPECT_UTC)
             env = {'TZ': 'CET'}
             timezone = 'UTC' if set_timezone else 'CET'

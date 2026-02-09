@@ -6,7 +6,7 @@ import {
     generateSpecialMentionElement,
     generateThreadMentionElement,
 } from "@mail/utils/common/format";
-import { status, useComponent, useEffect, useState } from "@BetopiaERP/owl";
+import { status, useComponent, useEffect, useState } from "@betopiaerp/owl";
 import { ConnectionAbortedError } from "@web/core/network/rpc";
 import { useService } from "@web/core/utils/hooks";
 import { useDebounced } from "@web/core/utils/timing";

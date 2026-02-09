@@ -1,10 +1,10 @@
 // ! WARNING: this module cannot depend on modules not ending with ".hoot" (except libs) !
 
-import { after, before, beforeEach, createJobScopedGetter } from "@BetopiaERP/hoot";
-import { validateType } from "@BetopiaERP/owl";
+import { after, before, beforeEach, createJobScopedGetter } from "@betopiaerp/hoot";
+import { validateType } from "@betopiaerp/owl";
 
-const { view_info } = BetopiaERP.__session_info__ || {};
-delete BetopiaERP.__session_info__;
+const { view_info } = betopiaerp.__session_info__ || {};
+delete betopiaerp.__session_info__;
 
 const { Settings } = luxon;
 
@@ -60,8 +60,8 @@ const SERVER_STATE_VALUES = {
     groupId: 11,
     lang: "en",
     multiLang: false,
-    BetopiaERPbotId: 418,
-    BetopiaERPbotUid: 518,
+    betopiaerpbotId: 418,
+    betopiaerpbotUid: 518,
     partnerId: 17,
     partnerName: "Mitchell Admin",
     publicPartnerId: 18,
@@ -82,7 +82,7 @@ const SERVER_STATE_VALUES_SCHEMA = {
     groupId: [Number, { value: false }],
     lang: String,
     multiLang: Boolean,
-    BetopiaERPbotId: [Number, { value: false }],
+    betopiaerpbotId: [Number, { value: false }],
     partnerId: [Number, { value: false }],
     partnerName: String,
     publicPartnerId: [Number, { value: false }],
@@ -106,9 +106,9 @@ const getServerStateValues = createJobScopedGetter(
 /** @type {Map<any, (state: ServerState) => any>} */
 const subscriptions = new Map([
     [
-        BetopiaERP,
+        betopiaerp,
         ({ db, debug, serverVersion }) => ({
-            ...BetopiaERP,
+            ...betopiaerp,
             debug,
             info: {
                 db,

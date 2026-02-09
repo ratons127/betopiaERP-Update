@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Vishnu Vanneri vanneri.BetopiaERPdev@gmail.com https://github.com/Vanneri
+Vishnu Vanneri vanneri.betopiaerpdev@gmail.com https://github.com/Vanneri

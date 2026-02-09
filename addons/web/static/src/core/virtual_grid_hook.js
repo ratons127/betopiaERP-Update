@@ -1,11 +1,11 @@
-import { useComponent, useEffect, useExternalListener } from "@BetopiaERP/owl";
+import { useComponent, useEffect, useExternalListener } from "@betopiaerp/owl";
 import { pick, shallowEqual } from "@web/core/utils/objects";
 import { useThrottleForAnimation } from "@web/core/utils/timing";
 
 /**
  * @template T
  * @typedef VirtualGridParams
- * @property {ReturnType<typeof import("@BetopiaERP/owl").useRef>} scrollableRef
+ * @property {ReturnType<typeof import("@betopiaerp/owl").useRef>} scrollableRef
  *  a ref to the scrollable element
  * @property {ScrollPosition} [initialScroll={ left: 0, top: 0 }]
  *  the initial scroll position of the scrollable element

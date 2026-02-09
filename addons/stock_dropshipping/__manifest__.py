@@ -32,6 +32,6 @@ internal transfer document is needed.
     ],
     'uninstall_hook': "uninstall_hook",
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

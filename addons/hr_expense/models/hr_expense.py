@@ -398,7 +398,7 @@ class HrExpense(models.Model):
     @api.depends('currency_id', 'total_amount_currency', 'date')
     def _compute_currency_rate(self):
         """
-            We want the default BetopiaERP rate when the following change:
+            We want the default betopiaerp rate when the following change:
             - the currency of the expense
             - the total amount in foreign currency
             - the date of the expense
@@ -1052,7 +1052,7 @@ class HrExpense(models.Model):
                 mail_lang = (manager_langs and manager_langs[0]) or self.env.lang or 'en_US'
                 body = self.env['ir.qweb']._render(
                     template='hr_expense.hr_expense_template_submitted_expenses',
-                    values={'manager_name': manager.name, 'url': '/BetopiaERP/expenses-to-process', 'company': company},
+                    values={'manager_name': manager.name, 'url': '/betopiaerp/expenses-to-process', 'company': company},
                     lang=mail_lang,
                 )
                 new_mails.append({

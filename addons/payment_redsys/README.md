@@ -21,7 +21,7 @@ submission provided by the `payment` module.
 ## Module history
 
 - `19.0`
-  - Integration with the Redirection API. BetopiaERP/BetopiaERP#205135.
+  - Integration with the Redirection API. betopiaerp/betopiaerp#205135.
 
 ## Testing instructions
 

@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryAll, queryFirst } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("website.text_highlight");
 

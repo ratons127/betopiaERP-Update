@@ -1,4 +1,4 @@
-import { Component, useEffect, useRef, xml } from "@BetopiaERP/owl";
+import { Component, useEffect, useRef, xml } from "@betopiaerp/owl";
 import { useIsChildLarger } from "@point_of_sale/app/hooks/hooks";
 import { useService } from "@web/core/utils/hooks";
 import { Dialog } from "@web/core/dialog/dialog";

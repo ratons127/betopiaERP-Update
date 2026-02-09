@@ -93,7 +93,7 @@ const R_BLANK = /^[\s\u200B]*$/;
  * @returns {string | Markup | TranslatedString}
  */
 export function _t(source, ...substitutions) {
-    return appTranslateFn(source, BetopiaERP.translationContext, ...substitutions);
+    return appTranslateFn(source, betopiaerp.translationContext, ...substitutions);
 }
 
 /**

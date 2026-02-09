@@ -6,8 +6,8 @@
 # Martin Trigaux, 2022
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Junko Augias (juau)" <juau@BetopiaERP.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Junko Augias (juau)" <juau@betopiaerp.com>, 2025, 2026.
 # Yoshi Tashiro <tashiro@quartile.co>, 2025.
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2026-01-07 09:19+0000\n"
-"Last-Translator: \"Junko Augias (juau)\" <juau@BetopiaERP.com>\n"
-"Language-Team: Japanese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Junko Augias (juau)\" <juau@betopiaerp.com>\n"
+"Language-Team: Japanese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "event_sale/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgid "Confirmed"
 msgstr "確認済"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/models/product_template.py:0
 msgid "Create an Attendee for the selected Event."
 msgstr "選択したイベント用に参加者を作成します。"
@@ -343,13 +343,13 @@ msgid "ID"
 msgstr "ID"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/wizard/event_configurator.py:0
 msgid "Invalid slot choice \"%(slot_name)s\" for event \"%(event_name)s\"."
 msgstr "無効なスロット選択  \"%(slot_name)s\" イベント \"%(event_name)s\" 用"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/wizard/event_configurator.py:0
 msgid "Invalid ticket choice \"%(ticket_name)s\" for event \"%(event_name)s\"."
 msgstr "無効なチケット選択 \"%(ticket_name)s\" イベント \"%(event_name)s\"用。"
@@ -445,7 +445,7 @@ msgid "Phone"
 msgstr "電話"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/models/sale_order.py:0
 msgid ""
 "Please make sure all your event related lines are configured before "
@@ -569,7 +569,7 @@ msgid "Select an Event"
 msgstr "イベントを選択"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/models/event_registration.py:0
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__event_slot_id
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_line__event_slot_id
@@ -594,7 +594,7 @@ msgid "Status"
 msgstr "ステータス"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/models/sale_order_line.py:0
 msgid ""
 "The sale order line with the product %(product_name)s needs an event, a "
@@ -604,7 +604,7 @@ msgstr ""
 "よびイベントに複数のタイムスロットがある場合はスロットが必要です。"
 
 #. module: event_sale
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/event_sale/models/event_registration.py:0
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Ticket"

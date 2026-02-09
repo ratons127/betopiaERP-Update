@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     clickSave,
     contains,
@@ -10,7 +10,7 @@ import {
     onRpc,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 
 class Partner extends models.Model {

@@ -805,7 +805,7 @@ class AccountEdiCommon(models.AbstractModel):
 
     def _retrieve_line_vals(self, tree, document_type=False, qty_factor=1):
         """
-        Read the xml invoice, extract the invoice line values, compute the BetopiaERP values
+        Read the xml invoice, extract the invoice line values, compute the betopiaerp values
         to fill an invoice line form: quantity, price_unit, discount, product_uom_id.
 
         The way of computing invoice line is quite complicated:
@@ -841,7 +841,7 @@ class AccountEdiCommon(models.AbstractModel):
         UBL ROUNDING: "the result of Item line net
             amount = ((Item net price (BT-146)÷Item price base quantity (BT-149))×(Invoiced Quantity (BT-129))
         must be rounded to two decimals, and the allowance/charge amounts are also rounded separately."
-        It is not possible to do it in betopiaerp.
+        It is not possible to do it in BetopiaERP.
         """
         xpath_dict = self._get_line_xpaths(document_type, qty_factor)
         # basis_qty (optional)
@@ -870,7 +870,7 @@ class AccountEdiCommon(models.AbstractModel):
             uom_xml = quantity_node.attrib.get('unitCode')
             if uom_xml:
                 uom_infered_xmlid = [
-                    BetopiaERP_xmlid for BetopiaERP_xmlid, uom_unece in UOM_TO_UNECE_CODE.items() if uom_unece == uom_xml
+                    betopiaerp_xmlid for betopiaerp_xmlid, uom_unece in UOM_TO_UNECE_CODE.items() if uom_unece == uom_xml
                 ]
                 if uom_infered_xmlid:
                     product_uom = self.env.ref(uom_infered_xmlid[0], raise_if_not_found=False) or self.env['uom.uom']

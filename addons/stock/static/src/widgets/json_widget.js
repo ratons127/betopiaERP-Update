@@ -4,7 +4,7 @@ import { getColor } from "@web/core/colors/colors";
 import { registry } from "@web/core/registry";
 import { _t } from "@web/core/l10n/translation";
 import { user } from "@web/core/user";
-import { Component, onWillStart, useEffect, useRef } from "@BetopiaERP/owl";
+import { Component, onWillStart, useEffect, useRef } from "@betopiaerp/owl";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 export class JsonPopOver extends Component {
@@ -100,9 +100,9 @@ export class ReplenishmentGraphWidget extends JsonPopOver {
         const pushYLabels = (ticks) => ticks.push({value: this.productMinQty}, {value: this.productMaxQty});
         const showYLabel = (tick) => tick === this.productMinQty || tick === this.productMaxQty ? tick : '';
         const labels = this.jsonValue['x_axis_vals'];
-        const maxLineColor = getColor(1, cookie.get("color_scheme"), "BetopiaERP");
-        const minLineColor = getColor(2, cookie.get("color_scheme"), "BetopiaERP");
-        const curveLineColor = getColor(3, cookie.get("color_scheme"), "BetopiaERP");
+        const maxLineColor = getColor(1, cookie.get("color_scheme"), "betopiaerp");
+        const minLineColor = getColor(2, cookie.get("color_scheme"), "betopiaerp");
+        const curveLineColor = getColor(3, cookie.get("color_scheme"), "betopiaerp");
         return {
             type: "scatter",
             data: {

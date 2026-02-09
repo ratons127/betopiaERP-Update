@@ -1,4 +1,4 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     Deferred,
     advanceTime,
@@ -11,7 +11,7 @@ import {
     queryAllTexts,
     queryOne,
     runAllTimers,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import {
     contains,
     getService,
@@ -19,7 +19,7 @@ import {
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
 
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 import { CommandPalette } from "@web/core/commands/command_palette";
 import { MainComponentsContainer } from "@web/core/main_components_container";

@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { check, uncheck } from "@BetopiaERP/hoot-dom";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { check, uncheck } from "@betopiaerp/hoot-dom";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { contains, defineParams, mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { CheckBox } from "@web/core/checkbox/checkbox";

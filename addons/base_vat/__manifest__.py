@@ -39,6 +39,6 @@ only the country code will be validated.
         'views/res_config_settings_views.xml',
         'views/res_partner_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

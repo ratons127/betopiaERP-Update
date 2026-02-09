@@ -17,9 +17,9 @@ Forms
 - WHT001
     """,
     "version": "1.0",
-    "author": "BetopiaERP S.A.",
+    "author": "BetopiaERP",
     "category": "Accounting/Localizations/Account Charts",
-    "website": "https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations.html",
+    "website": "https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations.html",
     "depends": [
         "account",
         "l10n_account_withholding_tax",

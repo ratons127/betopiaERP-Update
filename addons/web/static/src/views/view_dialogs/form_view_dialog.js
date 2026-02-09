@@ -3,7 +3,7 @@ import { useChildRef, useService } from "@web/core/utils/hooks";
 import { CallbackRecorder } from "@web/search/action_hook";
 import { View } from "@web/views/view";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class FormViewDialog extends Component {
     static template = "web.FormViewDialog";

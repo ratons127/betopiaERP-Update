@@ -830,11 +830,11 @@ class TestPoSBasicConfig(TestPoSCommon):
             res = self.env['pos.order'].sync_from_ui([order_data])
             # Basic check for logs on order synchronization
             order_log_str = self.env['pos.order']._get_order_log_representation(order_data)
-            BetopiaERP_order_id = res['pos.order'][0]['id']
+            betopiaerp_order_id = res['pos.order'][0]['id']
             self.assertEqual(len(cm.output), 4)
             self.assertEqual(cm.output[0], f"INFO:betopiaerp.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 started for PoS orders references: [{order_log_str}]")
             self.assertTrue(cm.output[1].startswith(f'DEBUG:betopiaerp.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 processing order {order_log_str} order full data: '))
-            self.assertEqual(cm.output[2], f'INFO:betopiaerp.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} created pos.order #{BetopiaERP_order_id}')
+            self.assertEqual(cm.output[2], f'INFO:betopiaerp.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} created pos.order #{betopiaerp_order_id}')
             self.assertEqual(cm.output[3], 'INFO:betopiaerp.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 finished')
             
         session.post_closing_cash_details(amount_paid)

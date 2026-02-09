@@ -1,6 +1,6 @@
 import { Record } from "./record";
 import { STORE_SYM, modelRegistry } from "./misc";
-import { reactive, toRaw } from "@BetopiaERP/owl";
+import { reactive, toRaw } from "@betopiaerp/owl";
 
 /** @typedef {import("./record_list").RecordList} RecordList */
 

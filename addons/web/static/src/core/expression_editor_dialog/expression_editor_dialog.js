@@ -1,4 +1,4 @@
-import { Component, useRef, useState } from "@BetopiaERP/owl";
+import { Component, useRef, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { ExpressionEditor } from "@web/core/expression_editor/expression_editor";
 import { evaluateExpr } from "@web/core/py_js/py";

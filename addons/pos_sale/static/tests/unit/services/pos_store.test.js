@@ -1,6 +1,6 @@
-import { test, expect, describe } from "@BetopiaERP/hoot";
+import { test, expect, describe } from "@betopiaerp/hoot";
 import { setupPosEnv, getFilledOrder } from "@point_of_sale/../tests/unit/utils";
-import { click, waitFor } from "@BetopiaERP/hoot-dom";
+import { click, waitFor } from "@betopiaerp/hoot-dom";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ProductScreen } from "@point_of_sale/app/screens/product_screen/product_screen";
 import { Orderline } from "@point_of_sale/app/components/orderline/orderline";

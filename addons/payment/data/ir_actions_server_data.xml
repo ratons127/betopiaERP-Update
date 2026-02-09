@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BetopiaERP>
+<betopiaerp>
 
     <record id="action_start_payment_onboarding" model="ir.actions.server">
         <field name="name"/>
@@ -10,4 +10,4 @@ action = env['res.config.settings'].sudo().create({})._start_payment_onboarding(
         </field>
     </record>
 
-</BetopiaERP>
+</betopiaerp>

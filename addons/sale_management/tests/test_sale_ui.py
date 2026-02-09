@@ -19,7 +19,7 @@ class TestUi(AccountTestInvoicingCommon, HttpCase):
         self.env.ref('base.user_admin').write({
             'email': 'mitchell.admin@example.com',
         })
-        self.start_tour("/BetopiaERP", 'sale_tour', login="admin")
+        self.start_tour("/betopiaerp", 'sale_tour', login="admin")
 
     def test_04_portal_sale_signature_without_name_tour(self):
         """The goal of this test is to make sure the portal user can sign SO even witout a name."""

@@ -5,7 +5,7 @@
     'name': 'Inventory',
     'version': '1.1',
     'summary': 'Manage your stock and logistics activities',
-    'website': 'https://www.betopiaerp.com/app/inventory',
+    'website': 'https://www.BetopiaERP.com/app/inventory',
     'depends': ['product', 'barcodes_gs1_nomenclature', 'digest'],
     'category': 'Supply Chain/Inventory',
     'sequence': 25,
@@ -119,6 +119,6 @@
             'stock/static/tests/*.test.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

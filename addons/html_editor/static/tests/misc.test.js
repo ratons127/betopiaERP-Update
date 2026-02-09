@@ -1,7 +1,7 @@
 import { Plugin } from "@html_editor/plugin";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click, tick, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click, tick, waitFor } from "@betopiaerp/hoot-dom";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { getContent, setContent } from "./_helpers/selection";
 import { withSequence } from "@html_editor/utils/resource";

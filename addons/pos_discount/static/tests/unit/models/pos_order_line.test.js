@@ -1,4 +1,4 @@
-import { animationFrame, expect, test } from "@BetopiaERP/hoot";
+import { animationFrame, expect, test } from "@betopiaerp/hoot";
 import { setupPosEnv, getFilledOrder } from "@point_of_sale/../tests/unit/utils";
 import { definePosModels } from "@point_of_sale/../tests/unit/data/generate_model_definitions";
 

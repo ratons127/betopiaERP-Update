@@ -1,6 +1,6 @@
 import { defineMailModels, start as start2 } from "@mail/../tests/mail_test_helpers";
-import { afterEach, beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { markup, reactive, toRaw } from "@BetopiaERP/owl";
+import { afterEach, beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { markup, reactive, toRaw } from "@betopiaerp/owl";
 import { asyncStep, mockService, waitForSteps } from "@web/../tests/web_test_helpers";
 
 import { Record, Store, makeStore } from "@mail/core/common/record";

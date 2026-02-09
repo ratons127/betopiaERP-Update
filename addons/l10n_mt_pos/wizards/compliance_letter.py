@@ -13,7 +13,7 @@ class ComplianceLetter(models.TransientModel):
             raise UserError(_("Compliance letters can only be created for companies registered in Malta. Please ensure the company's country is set to Malta."))
 
         data = {
-            "version": self._get_BetopiaERP_version(),
+            "version": self._get_betopiaerp_version(),
             "date": self._get_formatted_date(),
             "name": self.company_id.name,
             "vat": self.company_id.vat,
@@ -29,5 +29,5 @@ class ComplianceLetter(models.TransientModel):
         formatted_date = date_obj.strftime(f"%B {day}{day_suffix}, %Y")
         return formatted_date
 
-    def _get_BetopiaERP_version(self):
+    def _get_betopiaerp_version(self):
         return release.major_version

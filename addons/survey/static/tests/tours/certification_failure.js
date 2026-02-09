@@ -4,7 +4,7 @@ import { patch } from "@web/core/utils/patch";
  * Speed up fade-in fade-out to avoid useless delay in tests.
  */
 function patchSurveyForm() {
-    const SurveyForm = BetopiaERP.loader.modules.get("@survey/interactions/survey_form").SurveyForm;
+    const SurveyForm = betopiaerp.loader.modules.get("@survey/interactions/survey_form").SurveyForm;
     patch(SurveyForm.prototype, {
         submitForm() {
             this.fadeInOutDelay = 0;

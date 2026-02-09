@@ -1,6 +1,6 @@
 # ruff: noqa: F401
 # Exports features of the ORM to developers.
-# This is a `__init__.py` file to avoid merge conflicts on `BetopiaERP/models.py`.
+# This is a `__init__.py` file to avoid merge conflicts on `betopiaerp/models.py`.
 
 # TODO we should only expose *Model objects, TableObjects, maybe check_comp*
 

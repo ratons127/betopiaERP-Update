@@ -34,7 +34,7 @@
             'l10n_dk_nemhandel/static/src/tours/nemhandel_onboarding.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'pre_init_hook': '_pre_init_nemhandel',
     'uninstall_hook': 'uninstall_hook',

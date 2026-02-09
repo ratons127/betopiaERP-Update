@@ -21,7 +21,7 @@ sudo mount -t sysfs /sys sys/
 sudo mount --rbind /dev dev/
 
 # Use hw_drivers if present, otherwise fall back to iot_drivers
-SCRIPT_PATH=/home/pi/BetopiaERP/addons/iot_drivers/tools/upgrade_scripts/upgrade_trixie/upgrade_trixie_chroot.sh
+SCRIPT_PATH=/home/pi/betopiaerp/addons/iot_drivers/tools/upgrade_scripts/upgrade_trixie/upgrade_trixie_chroot.sh
 
 if [ ! -f "$SCRIPT_PATH" ]; then
     echo "Upgrade script not found at $SCRIPT_PATH" >&2
@@ -31,22 +31,22 @@ fi
 sudo chroot /root_bypass_ramdisks/ "$SCRIPT_PATH"
 
 # Checkout saas-19.1 (if >= 19.1 is needed the iot box will checkout again to the required version on start)
-cd /home/pi/BetopiaERP
-sudo -u BetopiaERP git remote set-url origin https://github.com/BetopiaERP/BetopiaERP.git
-sudo -u BetopiaERP git fetch origin saas-19.1 --depth=1 --prune
-sudo -u BetopiaERP git reset --hard FETCH_HEAD
-sudo -u BetopiaERP git branch -m saas-19.1
+cd /home/pi/betopiaerp
+sudo -u betopiaerp git remote set-url origin https://github.com/betopiaerp/betopiaerp.git
+sudo -u betopiaerp git fetch origin saas-19.1 --depth=1 --prune
+sudo -u betopiaerp git reset --hard FETCH_HEAD
+sudo -u betopiaerp git branch -m saas-19.1
 
 # Copy service scripts to /hw_
-sudo cp /home/pi/BetopiaERP/setup/iot_box_builder/overwrite_after_init/etc/setup_ramdisks.sh /root_bypass_ramdisks/etc/setup_ramdisks.sh
-sudo cp /home/pi/BetopiaERP/setup/iot_box_builder/overwrite_after_init/etc/led_manager.sh /root_bypass_ramdisks/etc/led_manager.sh
+sudo cp /home/pi/betopiaerp/setup/iot_box_builder/overwrite_after_init/etc/setup_ramdisks.sh /root_bypass_ramdisks/etc/setup_ramdisks.sh
+sudo cp /home/pi/betopiaerp/setup/iot_box_builder/overwrite_after_init/etc/led_manager.sh /root_bypass_ramdisks/etc/led_manager.sh
 
 # Reinstall PIP packages
 sudo mount -o remount,rw / && sudo mount -o remount,rw /root_bypass_ramdisks
-sudo -u BetopiaERP pip install --break-system-packages -r /home/pi/BetopiaERP/setup/iot_box_builder/configuration/requirements.txt
+sudo -u betopiaerp pip install --break-system-packages -r /home/pi/betopiaerp/setup/iot_box_builder/configuration/requirements.txt
 
-# Ensure iot drivers are used in BetopiaERP.conf
-sudo sed -i 's|^server_wide_modules *=.*|server_wide_modules = iot_drivers,web|' /home/pi/BetopiaERP.conf
+# Ensure iot drivers are used in betopiaerp.conf
+sudo sed -i 's|^server_wide_modules *=.*|server_wide_modules = iot_drivers,web|' /home/pi/betopiaerp.conf
 
 set +x
 

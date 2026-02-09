@@ -21,22 +21,22 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(response.headers["Content-Type"], "application/manifest+json")
         data = response.json()
         self.assertEqual(data["name"], "BetopiaERP")
-        self.assertEqual(data["scope"], "/BetopiaERP")
-        self.assertEqual(data["start_url"], "/BetopiaERP")
+        self.assertEqual(data["scope"], "/betopiaerp")
+        self.assertEqual(data["start_url"], "/betopiaerp")
         self.assertEqual(data["display"], "standalone")
         self.assertEqual(data["background_color"], "#714B67")
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
         self.assertCountEqual(data["icons"], [
-            {'src': '/web/static/img/BetopiaERP-icon-192x192.png', 'sizes': '192x192', 'type': 'image/png'},
-            {'src': '/web/static/img/BetopiaERP-icon-512x512.png', 'sizes': '512x512', 'type': 'image/png'}
+            {'src': '/web/static/img/betopiaerp-icon-192x192.png', 'sizes': '192x192', 'type': 'image/png'},
+            {'src': '/web/static/img/betopiaerp-icon-512x512.png', 'sizes': '512x512', 'type': 'image/png'}
         ])
         self.assertGreaterEqual(len(data["shortcuts"]), 0)
         for shortcut in data["shortcuts"]:
             self.assertGreater(len(shortcut["name"]), 0)
             self.assertGreater(len(shortcut["description"]), 0)
             self.assertGreater(len(shortcut["icons"]), 0)
-            self.assertTrue(shortcut["url"].startswith("/BetopiaERP?menu_id="))
+            self.assertTrue(shortcut["url"].startswith("/betopiaerp?menu_id="))
 
     def test_webmanifest_unauthenticated(self):
         """
@@ -47,15 +47,15 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(response.headers["Content-Type"], "application/manifest+json")
         data = response.json()
         self.assertEqual(data["name"], "BetopiaERP")
-        self.assertEqual(data["scope"], "/BetopiaERP")
-        self.assertEqual(data["start_url"], "/BetopiaERP")
+        self.assertEqual(data["scope"], "/betopiaerp")
+        self.assertEqual(data["start_url"], "/betopiaerp")
         self.assertEqual(data["display"], "standalone")
         self.assertEqual(data["background_color"], "#714B67")
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
         self.assertCountEqual(data["icons"], [
-            {'src': '/web/static/img/BetopiaERP-icon-192x192.png', 'sizes': '192x192', 'type': 'image/png'},
-            {'src': '/web/static/img/BetopiaERP-icon-512x512.png', 'sizes': '512x512', 'type': 'image/png'}
+            {'src': '/web/static/img/betopiaerp-icon-192x192.png', 'sizes': '192x192', 'type': 'image/png'},
+            {'src': '/web/static/img/betopiaerp-icon-512x512.png', 'sizes': '512x512', 'type': 'image/png'}
         ])
         self.assertEqual(len(data["shortcuts"]), 0)
 
@@ -72,7 +72,7 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         self.assertEqual(data["theme_color"], "#714B67")
         self.assertEqual(data["prefer_related_applications"], False)
         self.assertCountEqual(data["icons"], [
-            {'src': "/web/static/img/BetopiaERP-icon-192x192.png", 'sizes': 'any', 'type': 'image/png'}
+            {'src': "/web/static/img/betopiaerp-icon-192x192.png", 'sizes': 'any', 'type': 'image/png'}
         ])
         self.assertEqual(len(data["shortcuts"]), 0)
 
@@ -83,13 +83,13 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         response = self.url_open("/web/service-worker.js")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.headers["Content-Type"], "text/javascript")
-        self.assertEqual(response.headers["Service-Worker-Allowed"], "/BetopiaERP")
+        self.assertEqual(response.headers["Service-Worker-Allowed"], "/betopiaerp")
 
     def test_offline_url(self):
         """
         This route returns the offline page
         """
-        response = self.url_open("/BetopiaERP/offline")
+        response = self.url_open("/betopiaerp/offline")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.headers["Content-Type"], "text/html; charset=utf-8")
 
@@ -99,11 +99,11 @@ class WebManifestRoutesTest(HttpCaseWithUserDemo):
         its presence from the head of the document.
         """
         self.authenticate("demo", "demo")
-        response = self.url_open("/web/static/img/BetopiaERP-icon-ios.png")
+        response = self.url_open("/web/static/img/betopiaerp-icon-ios.png")
         self.assertEqual(response.status_code, 200)
 
-        document = self.url_open("/BetopiaERP")
+        document = self.url_open("/betopiaerp")
         self.assertIn(
-            '<link rel="apple-touch-icon" href="/web/static/img/BetopiaERP-icon-ios.png"/>', document.text,
+            '<link rel="apple-touch-icon" href="/web/static/img/betopiaerp-icon-ios.png"/>', document.text,
             "Icon for iOS is present in the head of the document.",
         )

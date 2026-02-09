@@ -28,7 +28,7 @@ class TestMailPresence(WebsocketCase, MailCommon):
             auth_cookie = f"{requested_by._cookie_name}={requested_by._format_auth_cookie()};"
         websocket = self.websocket_connect(cookie=auth_cookie)
         target_channel = target.partner_id if target_user else target
-        channel_parts = ["BetopiaERP-presence", f"{target_channel._name}_{target_channel.id}"]
+        channel_parts = ["betopiaerp-presence", f"{target_channel._name}_{target_channel.id}"]
         if has_token:
             channel_parts.append(target_channel._get_im_status_access_token())
         self.subscribe(websocket, ["-".join(channel_parts)], self.env["bus.bus"]._bus_last_id())

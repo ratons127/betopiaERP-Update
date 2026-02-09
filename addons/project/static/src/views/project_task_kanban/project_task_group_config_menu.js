@@ -1,4 +1,4 @@
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
 import { GroupConfigMenu } from "@web/views/view_components/group_config_menu";

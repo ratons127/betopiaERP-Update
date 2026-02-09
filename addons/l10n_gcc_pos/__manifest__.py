@@ -6,7 +6,7 @@
     'description': """
 Adds Arabic as a secondary language on your receipt
     """,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'depends': ['point_of_sale', 'l10n_gcc_invoice'],
     'data': [

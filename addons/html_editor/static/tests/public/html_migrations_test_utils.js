@@ -1,4 +1,4 @@
-import { before } from "@BetopiaERP/hoot";
+import { before } from "@betopiaerp/hoot";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 const migrateCallbacks = {};

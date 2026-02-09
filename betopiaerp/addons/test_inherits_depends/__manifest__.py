@@ -7,6 +7,6 @@
     'description': """A module to verify the inheritance using _inherits in non-original modules.""",
     'depends': ['test_inherits'],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

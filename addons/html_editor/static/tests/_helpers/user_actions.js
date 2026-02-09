@@ -7,7 +7,7 @@ import {
     press,
     tick,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { setSelection } from "./selection";
 import { execCommand } from "./userCommands";
 import { isMobileOS } from "@web/core/browser/feature_detection";
@@ -355,7 +355,7 @@ export function pasteHtml(editor, html) {
  * @param {string} html
  */
 export function pasteBetopiaERPEditorHtml(editor, html) {
-    return pasteData(editor, html, "application/vnd.BetopiaERP.BetopiaERP-editor");
+    return pasteData(editor, html, "application/vnd.betopiaerp.betopiaerp-editor");
 }
 /**
  * For desktop use only.

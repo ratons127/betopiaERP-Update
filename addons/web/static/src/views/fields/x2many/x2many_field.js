@@ -21,7 +21,7 @@ import { ViewButton } from "@web/views/view_button/view_button";
 import { symmetricalDifference } from "@web/core/utils/arrays";
 import { x2ManyCommands } from "@web/core/orm_service";
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class X2ManyField extends Component {
     static template = "web.X2ManyField";

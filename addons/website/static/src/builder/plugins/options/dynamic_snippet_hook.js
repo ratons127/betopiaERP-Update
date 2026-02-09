@@ -1,5 +1,5 @@
 import { useDomState } from "@html_builder/core/utils";
-import { onWillStart, useEnv } from "@BetopiaERP/owl";
+import { onWillStart, useEnv } from "@betopiaerp/owl";
 
 export function useDynamicSnippetOption(modelNameFilter, contextualFilterDomain = []) {
     const env = useEnv();

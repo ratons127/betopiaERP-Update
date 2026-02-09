@@ -1,4 +1,4 @@
-import { Component, onWillDestroy, useChildSubEnv, xml } from "@BetopiaERP/owl";
+import { Component, onWillDestroy, useChildSubEnv, xml } from "@betopiaerp/owl";
 
 const GROUPS = new Map();
 

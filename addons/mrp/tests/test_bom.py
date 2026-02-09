@@ -2176,7 +2176,7 @@ class TestBoM(TestMrpCommon):
         ]])
 
         # simulate resequence from UI (reverse C->D and C->E)
-        # (see BetopiaERP/addons/web/controllers/main.py:1352)
+        # (see betopiaerp/addons/web/controllers/main.py:1352)
         boms.invalidate_recordset()
         for i, record in enumerate(boms[0] | boms[1] | boms[3] | boms[2] | boms[4] | boms[5]):
             record.write({'sequence': i})
@@ -2901,7 +2901,7 @@ class TestTourBoM(HttpCase):
         self.env.user.write({'group_ids': [Command.link(grp_uom.id)]})
         self.assertEqual(len(self.bom.bom_line_ids), 0)
 
-        url = f'/BetopiaERP/action-mrp.mrp_bom_form_action/{self.bom.id}'
+        url = f'/betopiaerp/action-mrp.mrp_bom_form_action/{self.bom.id}'
 
         self.start_tour(url, 'test_mrp_bom_product_catalog', login='admin')
         self.assertEqual(len(self.bom.bom_line_ids), 1)
@@ -2910,7 +2910,7 @@ class TestTourBoM(HttpCase):
         """
         Create a new MO by pressing the "Manufacture" button in BoM Overview
         """
-        url = '/BetopiaERP/action-mrp.mrp_bom_form_action'
+        url = '/betopiaerp/action-mrp.mrp_bom_form_action'
         self.start_tour(url, 'test_manufacture_from_bom', login='admin', timeout=100)
 
     def test_bom_kit_rounding(self):

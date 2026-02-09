@@ -1,4 +1,4 @@
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
 import { getService, makeMockEnv, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 
 import { browser } from "@web/core/browser/browser";
@@ -62,5 +62,5 @@ test("PWA installation process", async () => {
         },
     });
     expect(pwaService.canPromptToInstall).toBe(false);
-    expect.verifySteps(['{"/BetopiaERP":"accepted"}', "onDone call with installation accepted"]);
+    expect.verifySteps(['{"/betopiaerp":"accepted"}', "onDone call with installation accepted"]);
 });

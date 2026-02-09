@@ -40,12 +40,12 @@ registerWebsitePreviewTour('test_image_link', {
     }, {
         content: "enter site URL",
         trigger: ".o_customize_tab [data-container-title='Image'] div[data-action-id='setUrl'] input",
-        run: "edit BetopiaERP.com && click body",
+        run: "edit betopiaerp.com && click body",
     },
     ...selectImageSteps,
     {
         content: "check popover content has site URL",
-        trigger: ".o-we-linkpopover a.o_we_url_link[href='http://BetopiaERP.com']:contains(http://BetopiaERP.com)",
+        trigger: ".o-we-linkpopover a.o_we_url_link[href='http://betopiaerp.com']:contains(http://betopiaerp.com)",
     }, {
         content: "remove URL",
         trigger: ".o_customize_tab [data-container-title='Image'] div[data-action-id='setUrl'] input",

@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { makeGloryHeader, parseGloryXml, serializeGloryXml } from "@pos_glory_cash/utils/glory_xml";
 
 const TEST_XML = '<MockElement mockattribute="mock value">Mock Content</MockElement>';

@@ -1,4 +1,4 @@
-import { describe, expect, getFixture, test } from "@BetopiaERP/hoot";
+import { describe, expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     middleClick,
@@ -7,9 +7,9 @@ import {
     queryAllTexts,
     queryOne,
     scroll,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     clickFieldDropdown,
     clickFieldDropdownItem,
@@ -1170,8 +1170,8 @@ test("many2one in non edit mode (with value)", async () => {
     });
 
     expect("a.o_form_uri").toHaveCount(2);
-    expect("div[name=res_trululu] a.o_form_uri").toHaveAttribute("href", "/BetopiaERP/res.partner/1");
-    expect("div[name=trululu] a.o_form_uri").toHaveAttribute("href", "/BetopiaERP/m-partner/4");
+    expect("div[name=res_trululu] a.o_form_uri").toHaveAttribute("href", "/betopiaerp/res.partner/1");
+    expect("div[name=trululu] a.o_form_uri").toHaveAttribute("href", "/betopiaerp/m-partner/4");
 });
 
 test("many2one in non edit mode (without value)", async () => {

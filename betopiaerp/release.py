@@ -29,12 +29,12 @@ License :: OSI Approved :: GNU Lesser General Public License v3
 
 Programming Language :: Python
 """
-url = 'https://www.betopiaerp.com'
+url = 'https://www.BetopiaERP.com'
 author = 'OpenERP S.A.'
 author_email = 'info@betopiaerp.com'
 license = 'LGPL-3'
 
-nt_service_name = "BetopiaERP-server-" + series.replace('~','-')
+nt_service_name = "betopiaerp-server-" + series.replace('~','-')
 
 MIN_PY_VERSION = (3, 10)
 MAX_PY_VERSION = (3, 13)

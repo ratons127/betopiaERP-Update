@@ -1,4 +1,4 @@
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     hover,
@@ -10,9 +10,9 @@ import {
     queryAllTexts,
     queryOne,
     resize,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, runAllTimers, tick } from "@BetopiaERP/hoot-mock";
-import { Component, onMounted, onPatched, useRef, useState, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, runAllTimers, tick } from "@betopiaerp/hoot-mock";
+import { Component, onMounted, onPatched, useRef, useState, xml } from "@betopiaerp/owl";
 
 import { getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {

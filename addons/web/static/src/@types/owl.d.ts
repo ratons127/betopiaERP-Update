@@ -1,3 +1,3 @@
-declare module "@BetopiaERP/owl" {
-    export * from "@BetopiaERP/owl/dist/types/owl";
+declare module "@betopiaerp/owl" {
+    export * from "@betopiaerp/owl/dist/types/owl";
 }

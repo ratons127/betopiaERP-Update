@@ -26,7 +26,7 @@ import {
     xml,
     reactive,
     status,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { downloadReport, getReportUrl } from "./reports/utils";
 import { zip } from "@web/core/utils/arrays";
 import { isHtmlEmpty } from "@web/core/utils/html";
@@ -342,7 +342,7 @@ export function makeActionManager(env, router = _router) {
                 } catch (error) {
                     if (
                         error.exceptionName ===
-                        "BetopiaERP.addons.web.controllers.action.MissingActionError"
+                        "betopiaerp.addons.web.controllers.action.MissingActionError"
                     ) {
                         action = null;
                     } else {
@@ -1778,7 +1778,7 @@ export function makeActionManager(env, router = _router) {
                 await doAction(actionRequest, options);
             } catch (error) {
                 if (
-                    error.exceptionName === "BetopiaERP.addons.web.controllers.action.MissingActionError"
+                    error.exceptionName === "betopiaerp.addons.web.controllers.action.MissingActionError"
                 ) {
                     if (state.actionStack.length > 1) {
                         const newState = {

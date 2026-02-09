@@ -5,7 +5,7 @@ import { url } from "@web/core/utils/urls";
 import { standardFieldProps } from "../standard_field_props";
 import { FileUploader } from "../file_handler";
 
-import { Component, onWillUpdateProps, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { hidePDFJSButtons } from "@web/core/utils/pdfjs";
 
 export class PdfViewerField extends Component {

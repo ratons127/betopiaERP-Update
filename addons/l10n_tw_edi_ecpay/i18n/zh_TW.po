@@ -2,16 +2,16 @@
 # This file contains the translation of the following modules:
 # * l10n_tw_edi_ecpay
 #
-# "Tony Ng (ngto)" <ngto@BetopiaERP.com>, 2026.
+# "Tony Ng (ngto)" <ngto@betopiaerp.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-30 19:09+0000\n"
 "PO-Revision-Date: 2026-02-07 09:50+0000\n"
-"Last-Translator: \"Tony Ng (ngto)\" <ngto@BetopiaERP.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://translate.BetopiaERP.com/"
-"projects/BetopiaERP-19-l10n/l10n_tw_edi_ecpay/zh_Hant/>\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@betopiaerp.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.betopiaerp.com/"
+"projects/betopiaerp-19-l10n/l10n_tw_edi_ecpay/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,7 +111,7 @@ msgstr "79：第 9 條的保稅區域經營者出售應稅區域經營者存放�
 "倉庫或物流中心的出口貨物。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "A tax ID is required for company contact or individual contact under a "
@@ -156,7 +156,7 @@ msgid "Allowance Notify Way"
 msgstr "補貼通知方式"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Amount for Taxable tax type must be 5%."
 msgstr "應課稅稅種的金額，必須為 5%。"
@@ -180,7 +180,7 @@ msgstr "銀行業務、保險業務、信託投資業務、證券業務、期貨
 "及當押業務：稅率為 5%。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Cancel Ecpay Invoice"
 msgstr "取消 ECPay 發票"
@@ -220,7 +220,7 @@ msgid "Clearance Mark"
 msgstr "清關標記"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Clearance mark and zero tax rate reason are required for a zero tax rate "
@@ -290,13 +290,13 @@ msgid "Creation Date"
 msgstr "建立日期"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Customer %(notify_way)s is needed for notification"
 msgstr "需要填寫客戶的 %(notify_way)s，用作發送通知。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Customer email is needed for notification"
 msgstr "需要填寫客戶的電郵地址，用作發送通知。"
@@ -341,7 +341,7 @@ msgid "Duty free or non-output data"
 msgstr "免稅，或非輸出數據"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Duty free with special tax type cannot be mixed with duty free without "
@@ -350,7 +350,7 @@ msgstr "設定為特別稅種的免稅商品，不可與未設定為特別稅種
 "有多於一類特別稅種。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Duty free with special tax type cannot be mixed with other tax types."
 msgstr "設定為特別稅種的免稅商品，不可與其他稅種混合使用。"
@@ -361,31 +361,31 @@ msgid "ECPay"
 msgstr "ECPay"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/utils.py:0
 msgid "ECPay API Error: %(error_message)s"
 msgstr "ECPay API 錯誤：%(error_message)s"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/utils.py:0
 msgid "ECPay API Error: %(error_message)s, Error Code: %(error_code)s"
 msgstr "ECPay API 錯誤：%(error_message)s，錯誤代碼：%(error_code)s"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/utils.py:0
 msgid "ECPay API Error: %(error_message)s."
 msgstr "ECPay API 錯誤：%(error_message)s。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/utils.py:0
 msgid "ECPay API Error: Invalid HashIV. Please check your ECPay configuration."
 msgstr "ECPay API 錯誤：HashIV 無效。請檢查你的 ECPay 配置。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/utils.py:0
 msgid ""
 "ECPay API Error: Invalid Hashkey. Please check your ECPay configuration."
@@ -444,14 +444,14 @@ msgid "Ecpay Tax Type"
 msgstr "ECPay 稅種類型"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Ecpay invoice number %(invoice_number)s has been invalidated successfully."
 msgstr "成功將 ECPay 發票（號碼 %(invoice_number)s）設定為無效。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Ecpay invoice number %(invoice_number)s has been issued allowance "
@@ -465,37 +465,37 @@ msgid "Email"
 msgstr "電郵"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move_send.py:0
 msgid "Error when getting the invoice data from ECPay."
 msgstr "從 ECPay 獲取發票數據時，發生錯誤。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move_send.py:0
 msgid "Error when sending the allowances to ECPay."
 msgstr "向 ECPay 傳送補貼時，發生錯誤。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move_send.py:0
 msgid "Error when sending the invoices to ECPay."
 msgstr "向 ECPay 傳送發票時，發生錯誤。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/wizard/l10n_tw_edi_invoice_print.py:0
 msgid "Error: %(error)s"
 msgstr "錯誤：%(error)s"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Fail to invalidate invoice. Error message: %(error_message)s"
 msgstr "未能將發票設定為無效。錯誤訊息：%(error_message)s"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Fail to issue allowance for ECpay invoice. Error message: %(error_message)s"
@@ -554,7 +554,7 @@ msgid "Invalid"
 msgstr "無效"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_tax.py:0
 msgid "Invalid special tax type for Duty free tax type."
 msgstr "此特別稅種不適用於免稅稅種類型。"
@@ -572,19 +572,19 @@ msgid "Invoice Status"
 msgstr "發票狀態"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Invoice lines with different tax include/exclude are not allowed."
 msgstr "發票資料行不可同時包含/排除不同的稅項。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Invoice lines without taxes or more than one tax are not allowed."
 msgstr "發票資料行不可不設定稅項，或包含多於一個稅項。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Invoice type 07 must be used with tax type 1, 2, 3 or 9. Please check the "
@@ -592,7 +592,7 @@ msgid ""
 msgstr "發票類型 07 必須與稅種 1、2、3 或 9 一起使用。請檢查發票資料行的稅種資料。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Invoice type 08 must be used with tax type 3 or 4. Please check the tax type "
@@ -710,7 +710,7 @@ msgid "Phone"
 msgstr "電話"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Phone number contains invalid characters! It should be in the format: '+886 "
@@ -718,26 +718,26 @@ msgid ""
 msgstr "電話號碼包含無效字元。格式應如下：+886 0997624293。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Please fill in the ECpay API information in the Setting!"
 msgstr "請在設定頁面填寫 ECPay API 資料。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Please fill in the customer address for printing Ecpay invoice."
 msgstr "請填寫客戶地址，以供列印 ECPay 發票之用。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Please fill in the customer email or phone number for Ecpay invoice creation."
 msgstr "請填寫客戶電郵地址或電話號碼，以便建立 ECPay 發票。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Please fill in the tax on the invoice lines and select the Ecpay tax type "
@@ -745,7 +745,7 @@ msgid ""
 msgstr "請在發票資料行填寫稅項，並為稅項選擇 ECPay 稅種。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Print Ecpay Invoice"
 msgstr "列印 ECPay 發票"
@@ -812,13 +812,13 @@ msgid ""
 msgstr "提供陪伴服務的沙龍、茶室、咖啡店、酒吧：稅率為 25%。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move_send.py:0
 msgid "Send to Ecpay"
 msgstr "傳送至 ECPay"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move_send.py:0
 msgid "Send to Ecpay (Issue Allowance)"
 msgstr "傳送至 ECPay（發放補貼）"
@@ -829,13 +829,13 @@ msgid "Special Invoice"
 msgstr "特別發票"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Special tax type cannot be mixed with other special tax types."
 msgstr "特別稅種不可與其他特別稅種混合使用。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "Special tax type cannot be mixed with other tax types."
 msgstr "特別稅種不可與其他稅種混合使用。"
@@ -852,7 +852,7 @@ msgid "Taiwan Electronic Invoicing"
 msgstr "台灣電子發票"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "Tax type 2 (Zero tax rate) and type 3 (Duty free) cannot be used together."
@@ -869,7 +869,7 @@ msgid "Taxable (special tax rate)"
 msgstr "應課稅（特別稅率）"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "The invoice has been successfully sent to Ecpay with Ecpay invoice number %"
@@ -877,13 +877,13 @@ msgid ""
 msgstr "發票已成功傳送至 ECPay，其 ECPay 發票號碼為 %(invoice_number)s。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "The invoice: %(invoice_id)s has already been invalidated"
 msgstr "發票（識別碼：%(invoice_id)s）已設定為無效。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "The invoice: %(invoice_name)s has no related number"
 msgstr "發票「%(invoice_name)s」沒有相關號碼"
@@ -894,7 +894,7 @@ msgid "The sales amounts from reinsurance premiums shall be taxed at 1%"
 msgstr "再保險的保費，銷售金額將以 1% 稅率徵稅。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "The tax ID is invalid. It should be in the format: '12345678'."
 msgstr "稅務識別碼無效。正確格式應為：12345678。"
@@ -915,13 +915,13 @@ msgid "Via the customs"
 msgstr "經由海關"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid "You cannot invalidate an invoice that was not sent to Ecpay."
 msgstr "未傳送至 ECPay 的發票，不可設定為無效。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "You cannot issue an allowance for invoice %(invoice_number)s as it was not "
@@ -929,7 +929,7 @@ msgid ""
 msgstr "未能為發票 %(invoice_number)s 發放補貼，因為發票未傳送至 ECPay。 "
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_move.py:0
 msgid ""
 "You cannot print an invoice that was not sent to Ecpay, without the print "
@@ -937,7 +937,7 @@ msgid ""
 msgstr "未傳送至 ECPay、沒有列印標幟或無效的發票，都不可列印。"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/wizard/l10n_tw_edi_invoice_cancel.py:0
 msgid "You must provide a reason for canceling the invoice."
 msgstr "你必須提供取消發票的理由。"
@@ -954,7 +954,7 @@ msgid "Zero tax rate"
 msgstr "零稅率"
 
 #. module: l10n_tw_edi_ecpay
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/l10n_tw_edi_ecpay/models/account_tax.py:0
 msgid "Zero tax rate and Duty free tax type must have a tax amount of 0."
 msgstr "零稅率及免稅稅種，稅額必須為零。"

@@ -144,7 +144,7 @@ class TestUBLNL(TestUBLCommon):
                     <attribute name="filename">{invoice.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/nlcius_out_invoice.xml',
+            expected_file_path='from_betopiaerp/nlcius_out_invoice.xml',
         )
         self.assertEqual(attachment.name[-10:], "nlcius.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
@@ -202,7 +202,7 @@ class TestUBLNL(TestUBLCommon):
                     <attribute name="filename">{refund.invoice_pdf_report_id.name}</attribute>
                 </xpath>
             ''',
-            expected_file_path='from_BetopiaERP/nlcius_out_refund.xml',
+            expected_file_path='from_betopiaerp/nlcius_out_refund.xml',
         )
         self.assertEqual(attachment.name[-10:], "nlcius.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)
@@ -232,7 +232,7 @@ class TestUBLNL(TestUBLCommon):
     def test_import_invoice_xml(self):
         # test files https://github.com/peppolautoriteit-nl/validation ?
         self._assert_imported_invoice_from_file(
-            subfolder='tests/test_files/from_BetopiaERP',
+            subfolder='tests/test_files/from_betopiaerp',
             filename='nlcius_out_invoice.xml',
             invoice_vals={
                 'currency_id': self.other_currency.id,

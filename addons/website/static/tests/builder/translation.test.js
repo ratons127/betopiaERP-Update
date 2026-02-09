@@ -2,13 +2,13 @@ import { Builder } from "@html_builder/builder";
 import { EditWebsiteSystrayItem } from "@website/client_actions/website_preview/edit_website_systray_item";
 import { setContent, setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText, pasteHtml, pasteText } from "@html_editor/../tests/_helpers/user_actions";
-import { beforeEach, delay, describe, expect, globals, press, test } from "@BetopiaERP/hoot";
+import { beforeEach, delay, describe, expect, globals, press, test } from "@betopiaerp/hoot";
 import {
     animationFrame,
     manuallyDispatchProgrammaticEvent,
     queryAllTexts,
     queryOne,
-} from "@BetopiaERP/hoot-dom";
+} from "@betopiaerp/hoot-dom";
 import { contains, mockService, onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import {
     defineWebsiteModels,

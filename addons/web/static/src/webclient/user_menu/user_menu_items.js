@@ -1,4 +1,4 @@
-import { Component, markup } from "@BetopiaERP/owl";
+import { Component, markup } from "@betopiaerp/owl";
 import { isMacOS } from "@web/core/browser/feature_detection";
 import { _t } from "@web/core/l10n/translation";
 import { rpc } from "@web/core/network/rpc";
@@ -69,7 +69,7 @@ export function preferencesItem(env) {
     };
 }
 
-export function BetopiaERPAccountItem(env) {
+export function betopiaerpAccountItem(env) {
     return {
         type: "item",
         id: "account",
@@ -80,7 +80,7 @@ export function BetopiaERPAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.BetopiaERP.com/account", "_blank");
+                    browser.open("https://accounts.betopiaerp.com/account", "_blank");
                 });
         },
         sequence: 60,
@@ -140,6 +140,6 @@ registry
     .add("shortcuts", shortCutsItem)
     .add("separator", separator)
     .add("preferences", preferencesItem)
-    .add("BetopiaERP_account", BetopiaERPAccountItem)
+    .add("betopiaerp_account", betopiaerpAccountItem)
     .add("install_pwa", installPWAItem)
     .add("log_out", logOutItem);

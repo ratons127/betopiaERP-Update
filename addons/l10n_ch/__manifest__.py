@@ -1,7 +1,7 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Switzerland - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/switzerland.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/switzerland.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ch'],
     'description': """
@@ -50,6 +50,6 @@ The generation of the QR-bill is automatic if you meet the previous criteria. Th
         ],
     }
 ,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

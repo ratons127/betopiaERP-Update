@@ -1,6 +1,6 @@
 import { Builder } from "@html_builder/builder";
-import { expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import {
     contains,
     dataURItoBlob,

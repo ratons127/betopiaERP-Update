@@ -1,13 +1,13 @@
 # Part of BetopiaERP. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Kenya - Accounting',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/kenya.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/kenya.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ke'],
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This provides a base chart of accounts and taxes template for use in betopiaerp.
+This provides a base chart of accounts and taxes template for use in BetopiaERP.
     """,
     'depends': [
         'account',
@@ -25,6 +25,6 @@ This provides a base chart of accounts and taxes template for use in betopiaerp.
     'demo': [
         'demo/demo_company.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

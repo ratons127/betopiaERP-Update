@@ -15,7 +15,7 @@ import { loadBundle } from "@web/core/assets";
 import { renderToMarkup } from "@web/core/utils/render";
 import { useService } from "@web/core/utils/hooks";
 
-import { Component, onWillUnmount, useEffect, useRef, onWillStart, markup } from "@BetopiaERP/owl";
+import { Component, onWillUnmount, useEffect, useRef, onWillStart, markup } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { cookie } from "@web/core/browser/cookie";

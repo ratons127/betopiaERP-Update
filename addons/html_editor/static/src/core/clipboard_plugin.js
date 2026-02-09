@@ -228,13 +228,13 @@ export class ClipboardPlugin extends Plugin {
      * @param {DataTransfer} clipboardData
      */
     handlePasteBetopiaERPEditorHtml(clipboardData) {
-        const BetopiaERPEditorHtml = clipboardData.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
+        const betopiaerpEditorHtml = clipboardData.getData("application/vnd.betopiaerp.betopiaerp-editor");
         const textContent = clipboardData.getData("text/plain");
         if (ONLY_LINK_REGEX.test(textContent)) {
             return false;
         }
-        if (BetopiaERPEditorHtml) {
-            const fragment = parseHTML(this.document, BetopiaERPEditorHtml);
+        if (betopiaerpEditorHtml) {
+            const fragment = parseHTML(this.document, betopiaerpEditorHtml);
             this.dependencies.sanitize.sanitize(fragment);
             if (fragment.hasChildNodes()) {
                 this.dependencies.dom.insert(fragment);
@@ -639,10 +639,10 @@ export class ClipboardPlugin extends Plugin {
         }
 
         const dataTransfer = (ev.originalEvent || ev).dataTransfer;
-        const BetopiaERPEditorHtml = ev.dataTransfer.getData("application/vnd.BetopiaERP.BetopiaERP-editor");
-        const fileTransferItems = !BetopiaERPEditorHtml && getImageFiles(dataTransfer);
+        const betopiaerpEditorHtml = ev.dataTransfer.getData("application/vnd.betopiaerp.betopiaerp-editor");
+        const fileTransferItems = !betopiaerpEditorHtml && getImageFiles(dataTransfer);
         const htmlTransferItem = [...dataTransfer.items].find((item) => item.type === "text/html");
-        if (fileTransferItems.length || htmlTransferItem || BetopiaERPEditorHtml) {
+        if (fileTransferItems.length || htmlTransferItem || betopiaerpEditorHtml) {
             const deleteAndSetSelection = (offsetNode, offset) => {
                 if (offsetNode.nodeType === Node.ELEMENT_NODE && offset > 1) {
                     // Store number of children before deleting selection
@@ -673,8 +673,8 @@ export class ClipboardPlugin extends Plugin {
                 deleteAndSetSelection(range.startContainer, range.startOffset);
             }
         }
-        if (BetopiaERPEditorHtml) {
-            const fragment = parseHTML(this.document, BetopiaERPEditorHtml);
+        if (betopiaerpEditorHtml) {
+            const fragment = parseHTML(this.document, betopiaerpEditorHtml);
             this.dependencies.sanitize.sanitize(fragment);
             if (fragment.hasChildNodes()) {
                 this.dependencies.dom.insert(fragment);

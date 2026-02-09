@@ -154,14 +154,14 @@ registry.category("web_tour.tours").add("website_form_editor_tour_submit", {
                     this.anchor.getElementsByClassName("s_website_form_field_hidden_if")[0]
                 );
                 if (style.display !== "none") {
-                    console.error("error This field should be invisible when the name is not BetopiaERP");
+                    console.error("error This field should be invisible when the name is not betopiaerp");
                 }
             },
         },
         {
             content: "Change name input",
             trigger: "input[name='name']",
-            run: "edit BetopiaERP",
+            run: "edit betopiaerp",
         },
         {
             content: "Check if conditional field is visible, it should.",

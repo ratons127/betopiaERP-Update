@@ -27,7 +27,7 @@
  */
 
 import { throttleForAnimation } from "@web/core/utils/timing";
-import { onWillUnmount } from "@BetopiaERP/owl";
+import { onWillUnmount } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { isVirtualKeyboardSupported } from "@web/core/browser/feature_detection";
 

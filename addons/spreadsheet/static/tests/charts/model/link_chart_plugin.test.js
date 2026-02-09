@@ -1,10 +1,10 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
+import { describe, expect, test } from "@betopiaerp/hoot";
 import { createSpreadsheetWithChart } from "@spreadsheet/../tests/helpers/chart";
 import { createBasicChart } from "@spreadsheet/../tests/helpers/commands";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { makeMockEnv } from "@web/../tests/web_test_helpers";
 
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { Model } from "@betopiaerp/o-spreadsheet";
 
 const chartId = "uuid1";
 
@@ -16,26 +16,26 @@ test("Links between charts and ir.menus are correctly imported/exported", async 
     const env = await makeMockEnv();
     const model = new Model({}, { custom: { env } });
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
     const exportedData = model.exportData();
     expect(exportedData.chartBetopiaERPMenusReferences[chartId]).toBe(1, {
-        message: "Link to BetopiaERP menu is exported",
+        message: "Link to betopiaerp menu is exported",
     });
     const importedModel = new Model(exportedData, { custom: { env } });
     const chartMenu = importedModel.getters.getChartBetopiaERPMenu(chartId);
-    expect(chartMenu.id).toBe(1, { message: "Link to BetopiaERP menu is imported" });
+    expect(chartMenu.id).toBe(1, { message: "Link to betopiaerp menu is imported" });
 });
 
-test("Can undo-redo a LINK_BetopiaERP_MENU_TO_CHART", async function () {
+test("Can undo-redo a LINK_BETOPIAERP_MENU_TO_CHART", async function () {
     const env = await makeMockEnv();
     const model = new Model({}, { custom: { env } });
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
     expect(model.getters.getChartBetopiaERPMenu(chartId).id).toBe(1);
     model.dispatch("REQUEST_UNDO");
@@ -48,9 +48,9 @@ test("link is removed when figure is deleted", async function () {
     const env = await makeMockEnv();
     const model = new Model({}, { custom: { env } });
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
     expect(model.getters.getChartBetopiaERPMenu(chartId).id).toBe(1);
     model.dispatch("DELETE_FIGURE", {
@@ -61,7 +61,7 @@ test("link is removed when figure is deleted", async function () {
 });
 
 test("Links of BetopiaERP charts are duplicated when duplicating a sheet", async function () {
-    const { model } = await createSpreadsheetWithChart({ type: "BetopiaERP_pie" });
+    const { model } = await createSpreadsheetWithChart({ type: "betopiaerp_pie" });
     const sheetId = model.getters.getActiveSheetId();
     const secondSheetId = "mySecondSheetId";
     const chartId = model.getters.getChartIds(sheetId)[0];
@@ -82,9 +82,9 @@ test("Links of standard charts are duplicated when duplicating a sheet", async f
     const sheetId = model.getters.getActiveSheetId();
     const secondSheetId = "mySecondSheetId";
     createBasicChart(model, chartId);
-    model.dispatch("LINK_BetopiaERP_MENU_TO_CHART", {
+    model.dispatch("LINK_BETOPIAERP_MENU_TO_CHART", {
         chartId,
-        BetopiaERPMenuId: 1,
+        betopiaerpMenuId: 1,
     });
     model.dispatch("DUPLICATE_SHEET", {
         sheetId,

@@ -5,7 +5,7 @@
 United Arab Emirates POS Localization
 ===========================================================
     """,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
     'depends': [
         'l10n_gcc_pos',

@@ -1,11 +1,11 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, queryAll, queryFirst } from "@betopiaerp/hoot-dom";
 import { createDashboardActionWithData } from "@spreadsheet_dashboard/../tests/helpers/dashboard_action";
 import { defineSpreadsheetDashboardModels } from "@spreadsheet_dashboard/../tests/helpers/data";
 import { Partner } from "@spreadsheet/../tests/helpers/data";
 import { getCellIcons } from "@spreadsheet/../tests/helpers/getters";
 import { fields } from "@web/../tests/web_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 describe.current.tags("desktop");
 defineSpreadsheetDashboardModels();
@@ -14,7 +14,7 @@ test("A link in a dashboard should be clickable", async () => {
     const data = {
         sheets: [
             {
-                cells: { A1: "[BetopiaERP](https://BetopiaERP.com)" },
+                cells: { A1: "[BetopiaERP](https://betopiaerp.com)" },
             },
         ],
     };
@@ -28,7 +28,7 @@ test("Invalid pivot/list formulas should not be clickable", async () => {
             {
                 cells: {
                     A1: '=PIVOT.VALUE("1", "measure")',
-                    A2: '=BetopiaERP.LIST("1", 1, "name")',
+                    A2: '=BETOPIAERP.LIST("1", 1, "name")',
                 },
             },
         ],
@@ -44,7 +44,7 @@ test("pivot/list formulas should be clickable", async () => {
             {
                 cells: {
                     A1: { content: '=PIVOT.VALUE("1", "probability", "bar", "false")' },
-                    A2: { content: '=BetopiaERP.LIST(1, 1, "foo")' },
+                    A2: { content: '=BETOPIAERP.LIST(1, 1, "foo")' },
                 },
             },
         ],
@@ -80,8 +80,8 @@ test("list sorting clickable cell", async () => {
         sheets: [
             {
                 cells: {
-                    A1: '=BetopiaERP.LIST.HEADER(1, "foo")',
-                    A2: '=BetopiaERP.LIST(1, 1, "foo")',
+                    A1: '=BETOPIAERP.LIST.HEADER(1, "foo")',
+                    A2: '=BETOPIAERP.LIST(1, 1, "foo")',
                 },
             },
         ],
@@ -121,8 +121,8 @@ test("list sort multiple fields", async () => {
         sheets: [
             {
                 cells: {
-                    A1: '=BetopiaERP.LIST.HEADER(1, "foo")',
-                    A2: '=BetopiaERP.LIST.HEADER(1, "bar")',
+                    A1: '=BETOPIAERP.LIST.HEADER(1, "foo")',
+                    A2: '=BETOPIAERP.LIST.HEADER(1, "bar")',
                 },
             },
         ],
@@ -175,8 +175,8 @@ test("Clickable ignores spill and empty cells for list sorting", async () => {
                     A1: "foo",
                     B1: "bar",
                     // spill cells
-                    A2: "=BetopiaERP.LIST.HEADER(1, A1:B1)",
-                    A3: '=BetopiaERP.LIST(1, sequence(2), "foo")',
+                    A2: "=BETOPIAERP.LIST.HEADER(1, A1:B1)",
+                    A3: '=BETOPIAERP.LIST(1, sequence(2), "foo")',
                 },
             },
         ],

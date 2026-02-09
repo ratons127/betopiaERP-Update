@@ -1,5 +1,5 @@
-import { test, expect, beforeEach } from "@BetopiaERP/hoot";
-import { runAllTimers } from "@BetopiaERP/hoot-mock";
+import { test, expect, beforeEach } from "@betopiaerp/hoot";
+import { runAllTimers } from "@betopiaerp/hoot-mock";
 import { fields, models, defineModels, mountView } from "@web/../tests/web_test_helpers";
 
 beforeEach(() => {

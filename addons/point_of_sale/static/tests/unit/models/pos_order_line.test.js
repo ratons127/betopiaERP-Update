@@ -1,4 +1,4 @@
-import { test, expect, describe } from "@BetopiaERP/hoot";
+import { test, expect, describe } from "@betopiaerp/hoot";
 import { setupPosEnv, getFilledOrder } from "../utils";
 import { definePosModels } from "../data/generate_model_definitions";
 

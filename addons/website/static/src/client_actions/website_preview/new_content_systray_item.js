@@ -1,4 +1,4 @@
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { useDropdownState } from "@web/core/dropdown/dropdown_hooks";
@@ -223,7 +223,7 @@ export class NewContentSystrayItem extends Component {
             // the feature with patches from the installed module.
             this.website.prepareOutLoader();
             const encodedPath = encodeURIComponent(url.toString());
-            redirect(`/BetopiaERP/action-website.website_preview?website_id=${id}&path=${encodedPath}`);
+            redirect(`/betopiaerp/action-website.website_preview?website_id=${id}&path=${encodedPath}`);
         }
     }
 

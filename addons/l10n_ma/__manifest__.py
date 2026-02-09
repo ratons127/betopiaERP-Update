@@ -4,7 +4,7 @@
     'name': 'Morocco - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['ma'],
-    'author': 'BetopiaERP SA',
+    'author': 'BetopiaERP',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Morocco.

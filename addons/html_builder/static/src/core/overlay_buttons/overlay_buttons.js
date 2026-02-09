@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 export class OverlayButtons extends Component {
     static template = "html_builder.OverlayButtons";

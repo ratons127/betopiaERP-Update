@@ -1,4 +1,4 @@
-/** @BetopiaERP-module alias=@web/../tests/core/utils/nested_sortable_tests default=false */
+/** @betopiaerp-module alias=@web/../tests/core/utils/nested_sortable_tests default=false */
 
 import { drag, getFixture } from "@web/../tests/helpers/utils";
 

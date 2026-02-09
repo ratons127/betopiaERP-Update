@@ -1,9 +1,9 @@
 import { PivotArchParser } from "@web/views/pivot/pivot_arch_parser";
-import { BetopiaERPPivot } from "@spreadsheet/pivot/BetopiaERP_pivot";
+import { BetopiaERPPivot } from "@spreadsheet/pivot/betopiaerp_pivot";
 import { getBasicPivotArch, getPyEnv } from "@spreadsheet/../tests/helpers/data";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
-import { helpers } from "@BetopiaERP/o-spreadsheet";
+import { helpers } from "@betopiaerp/o-spreadsheet";
 const { parseDimension, isDateOrDatetimeField } = helpers;
 
 /**
@@ -74,7 +74,7 @@ export async function insertPivotInSpreadsheet(model, pivotId, params) {
 
     const pyEnv = getPyEnv();
     const pivot = {
-        type: "BetopiaERP",
+        type: "BETOPIAERP",
         domain: [],
         context: {},
         measures: archInfo.activeMeasures.map((measure) => ({

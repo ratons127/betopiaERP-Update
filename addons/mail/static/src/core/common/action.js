@@ -1,5 +1,5 @@
 import { isRecord, STORE_SYM } from "@mail/model/misc";
-import { Component, toRaw } from "@BetopiaERP/owl";
+import { Component, toRaw } from "@betopiaerp/owl";
 import { DropdownState } from "@web/core/dropdown/dropdown_hooks";
 import { useService } from "@web/core/utils/hooks";
 import { Reactive } from "@web/core/utils/reactive";
@@ -13,7 +13,7 @@ export const ACTION_TAGS = Object.freeze({
     JOIN_LEAVE_CALL: "JOIN_LEAVE_CALL",
 });
 
-/** @typedef {import("@BetopiaERP/owl").Component} Component */
+/** @typedef {import("@betopiaerp/owl").Component} Component */
 /** @typedef {import("@mail/model/record").Record} Record */
 /** @typedef {Component|Record} ActionOwner */
 

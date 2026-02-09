@@ -2,7 +2,7 @@ import { _t } from "@web/core/l10n/translation";
 import { CalendarController } from "@web/views/calendar/calendar_controller";
 import { user } from "@web/core/user";
 import { useService } from "@web/core/utils/hooks";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { CalendarQuickCreate } from "@calendar/views/calendar_form/calendar_quick_create";
 export class AttendeeCalendarController extends CalendarController {
     static template = "calendar.AttendeeCalendarController";

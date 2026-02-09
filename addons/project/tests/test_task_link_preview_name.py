@@ -32,7 +32,7 @@ class TestTaskLinkPreviewName(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": f"/BetopiaERP/all-tasks/{self.task_internal_link_customized.id}",
+                    "preview_url": f"/betopiaerp/all-tasks/{self.task_internal_link_customized.id}",
                 }
             }),
             headers={"Content-Type": "application/json"}
@@ -46,7 +46,7 @@ class TestTaskLinkPreviewName(HttpCase):
             '/html_editor/link_preview_internal',
             data=json_safe.dumps({
                 "params": {
-                    "preview_url": f"/BetopiaERP/my-tasks/{self.task_internal_link_customized.id}",
+                    "preview_url": f"/betopiaerp/my-tasks/{self.task_internal_link_customized.id}",
                 }
             }),
             headers={"Content-Type": "application/json"}

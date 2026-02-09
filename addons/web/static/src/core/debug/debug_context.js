@@ -1,7 +1,7 @@
 import { user } from "@web/core/user";
 import { registry } from "../registry";
 
-import { useEffect, useEnv, useSubEnv } from "@BetopiaERP/owl";
+import { useEffect, useEnv, useSubEnv } from "@betopiaerp/owl";
 const debugRegistry = registry.category("debug");
 
 const getAccessRights = async () => {

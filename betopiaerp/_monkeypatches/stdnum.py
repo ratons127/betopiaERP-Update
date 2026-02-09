@@ -12,7 +12,7 @@ def new_get_soap_client(wsdlurl, timeout=30):
     # The code is a copy of the original apart for the line related to the Transport class.
     # This was done to keep the code as similar to the original and to reduce the possibility
     # of introducing import errors, even though some imports are not in the requirements.
-    # See https://github.com/BetopiaERP/BetopiaERP/pull/173359 for a more thorough explanation.
+    # See https://github.com/betopiaerp/betopiaerp/pull/173359 for a more thorough explanation.
     if (wsdlurl, timeout) not in _soap_clients:
         try:
             from zeep.transports import Transport

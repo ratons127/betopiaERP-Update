@@ -1,6 +1,6 @@
 import { useService } from "@web/core/utils/hooks";
 
-import { useEffect } from "@BetopiaERP/owl";
+import { useEffect } from "@betopiaerp/owl";
 
 /**
  * This hook will register/unregister the given registration

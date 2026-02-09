@@ -1,6 +1,6 @@
 import { HtmlField } from "@html_editor/fields/html_field";
 import { MediaDialog } from "@html_editor/main/media/media_dialog/media_dialog";
-import { stripHistoryIds } from "@html_editor/others/collaboration/collaboration_BetopiaERP_plugin";
+import { stripHistoryIds } from "@html_editor/others/collaboration/collaboration_betopiaerp_plugin";
 import {
     getEditableDescendants,
     getEmbeddedProps,
@@ -8,7 +8,7 @@ import {
 import { READONLY_MAIN_EMBEDDINGS } from "@html_editor/others/embedded_components/embedding_sets";
 import { normalizeHTML, parseHTML } from "@html_editor/utils/html";
 import { Wysiwyg } from "@html_editor/wysiwyg";
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
 import {
     click,
     press,
@@ -19,9 +19,9 @@ import {
     waitFor,
     hover,
     manuallyDispatchProgrammaticEvent,
-} from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, mockSendBeacon, tick } from "@BetopiaERP/hoot-mock";
-import { onWillDestroy, xml } from "@BetopiaERP/owl";
+} from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, mockSendBeacon, tick } from "@betopiaerp/hoot-mock";
+import { onWillDestroy, xml } from "@betopiaerp/owl";
 import {
     clickSave,
     contains,
@@ -143,7 +143,7 @@ beforeEach(() => {
 });
 
 function setSelectionInHtmlField(selector = "p", fieldName = "txt") {
-    const anchorNode = queryOne(`[name='${fieldName}'] .BetopiaERP-editor-editable ${selector}`);
+    const anchorNode = queryOne(`[name='${fieldName}'] .betopiaerp-editor-editable ${selector}`);
     setSelection({ anchorNode, anchorOffset: 0 });
     return anchorNode;
 }
@@ -159,17 +159,17 @@ test("html field in readonly", async () => {
                 <field name="txt" widget="html" readonly="1"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML("<p>first</p>");
 
     await contains(`.o_pager_next`).click();
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML("<p>second</p>");
 
     await contains(`.o_pager_previous`).click();
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML("<p>first</p>");
 });
@@ -186,12 +186,12 @@ test("html field in readonly updated by onchange", async () => {
                 <field name="txt" widget="html" readonly="1"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML("<p>first</p>");
 
     await contains(`.o_field_widget[name=name] input`).edit("hello");
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML("<p>hello</p>");
 });
@@ -243,7 +243,7 @@ test("html field in readonly with embedded components", async () => {
                 <field name="txt" widget="html" readonly="1" options="{'embedded_components': True}"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML(
         `<div><span data-embedded="counter" data-embedded-props='{"name":"name"}'><span class="counter">name:0</span></div>`
@@ -297,7 +297,7 @@ test("html field in readonly with embedded components and editable descendants",
                 <field name="txt" widget="html" readonly="1" options="{'embedded_components': True}"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML(
         `<div data-embedded="wrapper"><div class="editable"><div data-embedded-editable="editable"><span data-embedded="counter"><span class="counter">Counter:0</span></span></div></div></div>`
@@ -376,7 +376,7 @@ test("XML-like self-closing elements are fixed in readonly mode", async () => {
                 <field name="txt" widget="html" readonly="1"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="txt"] .o_readonly`).toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveInnerHTML(
         `<a href="#" target="_blank" rel="noreferrer"></a>outside<a href="#" target="_blank" rel="noreferrer">inside</a>`
@@ -400,9 +400,9 @@ test("XML-like self-closing elements are fixed in editable mode", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(1);
+    expect(".betopiaerp-editor-editable").toHaveCount(1);
     expect(`[name="txt"] .o_readonly`).toHaveCount(0);
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         `<div class="o-paragraph">outside<a href="#">inside</a></div>`
     );
 });
@@ -425,18 +425,18 @@ test("edit and save a html field", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_save`).not.toBeVisible();
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "test");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(".o_form_button_save").toBeVisible();
 
     await contains(".o_form_button_save").click();
     expect.verifySteps(["web_save"]);
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(`.o_form_button_save`).not.toBeVisible();
 });
 
@@ -467,7 +467,7 @@ test("edit and save a html field containing JSON as some attribute values should
         myString: "myString",
     });
     pasteBetopiaERPEditorHtml(htmlEditor, `<div data-value=${value}><p>content</p></div>`);
-    const txtField = queryOne('.o_field_html[name="txt"] .BetopiaERP-editor-editable');
+    const txtField = queryOne('.o_field_html[name="txt"] .betopiaerp-editor-editable');
     expect(txtField).toHaveInnerHTML(
         '<div class="o-paragraph" data-selection-placeholder=""><br></div>' +
             `<div data-value="{&quot;myString&quot;:&quot;myString&quot;}"><p>content</p></div><p>first</p>`
@@ -489,13 +489,13 @@ test("edit a html field in new form view dialog and close the dialog with 'escap
             </form>`,
     });
     expect(".modal").toHaveCount(1);
-    expect(".BetopiaERP-editor-editable div.o-paragraph").toHaveText("");
+    expect(".betopiaerp-editor-editable div.o-paragraph").toHaveText("");
 
-    await contains("[name='txt'] .BetopiaERP-editor-editable").focus();
+    await contains("[name='txt'] .betopiaerp-editor-editable").focus();
     setSelectionInHtmlField("div.o-paragraph");
     await insertText(htmlEditor, "test");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable div.o-paragraph").toHaveText("test");
+    expect(".betopiaerp-editor-editable div.o-paragraph").toHaveText("test");
     expect(".o_form_button_save").toBeVisible();
 
     await press("escape");
@@ -522,11 +522,11 @@ test("onchange update html field in edition", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
 
     await contains(`.o_field_widget[name=name] input`).edit("hello");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("hello");
+    expect(".betopiaerp-editor-editable p").toHaveText("hello");
 });
 
 test("create new record and load it correctly", async () => {
@@ -581,18 +581,18 @@ test("create new record and load it correctly", async () => {
             </form>`,
     });
 
-    expect(".BetopiaERP-editor-editable").toHaveCount(1);
-    expect(".BetopiaERP-editor-editable").toHaveInnerHTML("<p>2</p>");
+    expect(".betopiaerp-editor-editable").toHaveCount(1);
+    expect(".betopiaerp-editor-editable").toHaveInnerHTML("<p>2</p>");
     await contains(".o_input#linked_composer_id_0").click();
     await animationFrame();
     await contains(".ui-menu-item:contains(first), .o_kanban_record:contains(first)").click();
     await animationFrame();
-    expect(".BetopiaERP-editor-editable").toHaveInnerHTML("<p>1</p>");
+    expect(".betopiaerp-editor-editable").toHaveInnerHTML("<p>1</p>");
     await contains(".o_input#linked_composer_id_0").click();
     await animationFrame();
     await contains(".ui-menu-item:contains(second), .o_kanban_record:contains(second)").click();
     await animationFrame();
-    expect(".BetopiaERP-editor-editable").toHaveInnerHTML("<p>2</p>");
+    expect(".betopiaerp-editor-editable").toHaveInnerHTML("<p>2</p>");
 });
 
 test("edit a html field with `o-contenteditable-true` or `o-contenteditable-false` in its content should not reset the editable value when saving", async () => {
@@ -641,14 +641,14 @@ test("edit a html field with `o-contenteditable-true` or `o-contenteditable-fals
             </form>`,
     });
     expect.verifySteps(["setup_wysiwyg"]);
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         '<div class="o-paragraph" data-selection-placeholder=""><br></div>' +
             getTxtValue("inside", true) +
             '<div class="o-paragraph" data-selection-placeholder=""><br></div>'
     );
     setSelectionInHtmlField();
     pasteBetopiaERPEditorHtml(htmlEditor, "addon");
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         '<div class="o-paragraph" data-selection-placeholder=""><br></div>' +
             getTxtValue("addoninside", true) +
             '<div class="o-paragraph" data-selection-placeholder=""><br></div>'
@@ -681,12 +681,12 @@ test("edit html field and blur multiple time should apply 1 onchange", async () 
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "Hello ");
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
 
     await contains("[name='name'] input").click();
     expect.verifySteps(["onchange: <p>Hello first</p>"]);
 
-    await contains("[name='txt'] .BetopiaERP-editor-editable").focus();
+    await contains("[name='txt'] .betopiaerp-editor-editable").focus();
     await contains("[name='name'] input").click();
     def.resolve();
     await animationFrame();
@@ -718,18 +718,18 @@ test("edit an html field during an onchange", async () => {
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "Hello ");
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
 
     await contains(".o_form_view").click();
     expect.verifySteps(["onchange: <p>Hello first</p>"]);
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "Yop ");
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Yop Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Yop Hello first </p>");
 
     def.resolve();
     await animationFrame();
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Yop Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Yop Hello first </p>");
 });
 
 test("click on next/previous page", async () => {
@@ -743,13 +743,13 @@ test("click on next/previous page", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p:contains(first)").toHaveCount(1);
+    expect(".betopiaerp-editor-editable p:contains(first)").toHaveCount(1);
 
     await contains(`.o_pager_next`).click();
-    expect(".BetopiaERP-editor-editable p:contains(second)").toHaveCount(1);
+    expect(".betopiaerp-editor-editable p:contains(second)").toHaveCount(1);
 
     await contains(`.o_pager_previous`).click();
-    expect(".BetopiaERP-editor-editable p:contains(first)").toHaveCount(1);
+    expect(".betopiaerp-editor-editable p:contains(first)").toHaveCount(1);
 });
 
 test("edit and switch page", async () => {
@@ -769,23 +769,23 @@ test("edit and switch page", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_save`).not.toBeVisible();
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "test");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(`.o_form_button_save`).toBeVisible();
 
     await contains(`.o_pager_next`).click();
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("second");
+    expect(".betopiaerp-editor-editable p").toHaveText("second");
     expect(`.o_form_button_save`).not.toBeVisible();
     expect.verifySteps(["web_save"]);
 
     await contains(`.o_pager_previous`).click();
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(`.o_form_button_save`).not.toBeVisible();
 });
 
@@ -800,20 +800,20 @@ test("discard changes in html field in form", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_save`).not.toBeVisible();
 
     // move the hoot focus in the editor
-    await click(".BetopiaERP-editor-editable");
+    await click(".betopiaerp-editor-editable");
     setSelectionInHtmlField();
     await insertText(htmlEditor, "test");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(`.o_form_button_cancel`).toBeVisible();
 
     await contains(`.o_form_button_cancel`).click();
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_cancel`).not.toBeVisible();
 });
 
@@ -828,28 +828,28 @@ test("undo after discard html field changes in form", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_save`).not.toBeVisible();
 
     // move the hoot focus in the editor
-    await click(".BetopiaERP-editor-editable");
+    await click(".betopiaerp-editor-editable");
     setSelectionInHtmlField();
     await insertText(htmlEditor, "test");
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("testfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("testfirst");
     expect(`.o_form_button_cancel`).toBeVisible();
 
     await press(["ctrl", "z"]);
-    expect(".BetopiaERP-editor-editable p").toHaveText("tesfirst");
+    expect(".betopiaerp-editor-editable p").toHaveText("tesfirst");
     expect(`.o_form_button_cancel`).toBeVisible();
 
     await contains(`.o_form_button_cancel`).click();
     await animationFrame();
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_cancel`).not.toBeVisible();
 
     await press(["ctrl", "z"]);
-    expect(".BetopiaERP-editor-editable p").toHaveText("first");
+    expect(".betopiaerp-editor-editable p").toHaveText("first");
     expect(`.o_form_button_cancel`).not.toBeVisible();
 });
 
@@ -876,10 +876,10 @@ test("A new MediaDialog after switching record in a Form view should have the co
                     <field name="txt" widget="html"/>
                 </form>`,
     });
-    expect(".BetopiaERP-editor-editable p:contains(first)").toHaveCount(1);
+    expect(".betopiaerp-editor-editable p:contains(first)").toHaveCount(1);
 
     await contains(`.o_pager_next`).click();
-    expect(".BetopiaERP-editor-editable p:contains(second)").toHaveCount(1);
+    expect(".betopiaerp-editor-editable p:contains(second)").toHaveCount(1);
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "/Media");
@@ -993,7 +993,7 @@ test("isDirty should be false when the content is being transformed by the edito
             </form>`,
     });
 
-    expect(`[name='txt'] .BetopiaERP-editor-editable`).toHaveInnerHTML("<p><b>abc</b></p>", {
+    expect(`[name='txt'] .betopiaerp-editor-editable`).toHaveInnerHTML("<p><b>abc</b></p>", {
         message: "value should be sanitized by the editor",
     });
     expect(`.o_form_button_save`).not.toBeVisible();
@@ -1086,14 +1086,14 @@ test("html field with a placeholder", async () => {
             </form>`,
     });
 
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         '<div class="o-paragraph o-we-hint" o-we-hint-text="test"><br></div>',
         { type: "html" }
     );
 
     setSelectionInHtmlField("div.o-paragraph");
     await tick();
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         '<div class="o-paragraph o-we-hint" o-we-hint-text="Type &quot;/&quot; for commands"><br></div>',
         { type: "html" }
     );
@@ -1101,7 +1101,7 @@ test("html field with a placeholder", async () => {
     moveSelectionOutsideEditor();
     htmlEditor.editable.blur();
     await tick();
-    expect(`[name="txt"] .BetopiaERP-editor-editable`).toHaveInnerHTML(
+    expect(`[name="txt"] .betopiaerp-editor-editable`).toHaveInnerHTML(
         '<div class="o-paragraph o-we-hint" o-we-hint-text="test"><br></div>',
         { type: "html" }
     );
@@ -1479,7 +1479,7 @@ test("codeview is not available by default", async () => {
                 <field name="txt" widget="html"/>
             </form>`,
     });
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar button[name='codeview']").toHaveCount(0);
@@ -1495,7 +1495,7 @@ test("codeview is not available when not in debug mode", async () => {
                 <field name="txt" widget="html" options="{'codeview': true}"/>
             </form>`,
     });
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar button[name='codeview']").toHaveCount(0);
@@ -1512,7 +1512,7 @@ test("codeview is available when option is active and in debug mode", async () =
                 <field name="txt" widget="html" options="{'codeview': true}"/>
             </form>`,
     });
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await expandToolbar();
     expect(".o-we-toolbar button[name='codeview']").toHaveCount(1);
@@ -1530,20 +1530,20 @@ test("enable/disable codeview with editor toolbar", async () => {
                 <field name="txt" widget="html" options="{'codeview': true}"/>
             </form>`,
     });
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p> first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p> first </p>");
     expect("[name='txt'] textarea").toHaveCount(0);
 
     // Switch to code view
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await expandToolbar();
     await contains(".o-we-toolbar button[name='codeview']").click();
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveClass("d-none");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveClass("d-none");
     expect("[name='txt'] textarea").toHaveValue("<p>first</p>");
 
     // Switch to editor
     await contains(".o_codeview_btn").click();
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p> first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p> first </p>");
     expect("[name='txt'] textarea").toHaveCount(0);
 });
 
@@ -1566,10 +1566,10 @@ test("edit and enable/disable codeview with editor toolbar", async () => {
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "Hello ");
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
 
     // Switch to code view
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await expandToolbar();
     await contains(".o-we-toolbar button[name='codeview']").click();
@@ -1580,13 +1580,13 @@ test("edit and enable/disable codeview with editor toolbar", async () => {
 
     // Switch to editor
     await contains(".o_codeview_btn").click();
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p> Yop </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p> Yop </p>");
 
     undo(htmlEditor);
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
 
     undo(htmlEditor);
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hellofirst </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hellofirst </p>");
 });
 
 test("edit and save a html field in collaborative should keep the same wysiwyg", async () => {
@@ -1621,7 +1621,7 @@ test("edit and save a html field in collaborative should keep the same wysiwyg",
 
     setSelectionInHtmlField();
     await insertText(htmlEditor, "Hello ");
-    expect("[name='txt'] .BetopiaERP-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
+    expect("[name='txt'] .betopiaerp-editor-editable").toHaveInnerHTML("<p>Hello first </p>");
     expect.verifySteps(["Setup Wysiwyg"]);
 
     await clickSave();
@@ -1654,7 +1654,7 @@ test("'checklist' toolbar option is not available when 'allowChecklist' = false"
                 <field name="txt" widget="html" options="{'allowChecklist': false}"/>
             </form>`,
     });
-    const node = queryOne(".BetopiaERP-editor-editable p");
+    const node = queryOne(".betopiaerp-editor-editable p");
     setSelection({ anchorNode: node, anchorOffset: 0, focusNode: node, focusOffset: 1 });
     await waitFor(".o-we-toolbar");
     await expandToolbar();
@@ -2094,14 +2094,14 @@ describe("direction config", () => {
                 <field name="txt" widget="html"/>
             </form>`,
         });
-        expect(".BetopiaERP-editor-editable").toHaveAttribute("dir", "ltr");
-        const node = queryOne(".BetopiaERP-editor-editable p");
+        expect(".betopiaerp-editor-editable").toHaveAttribute("dir", "ltr");
+        const node = queryOne(".betopiaerp-editor-editable p");
         setSelection({ anchorNode: node.firstChild, anchorOffset: 0 });
         await insertText(htmlEditor, "/Switchdirection");
         await animationFrame();
         expect(queryAllTexts(".o-we-command-name")).toEqual(["Switch direction"]);
         await press("Enter");
-        expect(".BetopiaERP-editor-editable p").toHaveAttribute("dir", "rtl");
+        expect(".betopiaerp-editor-editable p").toHaveAttribute("dir", "rtl");
     });
 
     test("rtl direction", async () => {
@@ -2119,14 +2119,14 @@ describe("direction config", () => {
                 <field name="txt" widget="html"/>
             </form>`,
         });
-        expect(".BetopiaERP-editor-editable").toHaveAttribute("dir", "rtl");
-        const node = queryOne(".BetopiaERP-editor-editable p");
+        expect(".betopiaerp-editor-editable").toHaveAttribute("dir", "rtl");
+        const node = queryOne(".betopiaerp-editor-editable p");
         setSelection({ anchorNode: node.firstChild, anchorOffset: 0 });
         await insertText(htmlEditor, "/Switchdirection");
         await animationFrame();
         expect(queryAllTexts(".o-we-command-name")).toEqual(["Switch direction"]);
         await press("Enter");
-        expect(".BetopiaERP-editor-editable p").toHaveAttribute("dir", "ltr");
+        expect(".betopiaerp-editor-editable p").toHaveAttribute("dir", "ltr");
     });
 });
 
@@ -2607,7 +2607,7 @@ describe("translatable", () => {
         expect(".o_field_html .btn.o_field_translate").not.toBeVisible();
 
         // Focus on the editable to make the translate button visible
-        await contains(".BetopiaERP-editor-editable").click();
+        await contains(".betopiaerp-editor-editable").click();
         expect(".o_field_html .btn.o_field_translate").toBeVisible();
 
         // Click away to remove focus
@@ -2627,7 +2627,7 @@ describe("codeview enabled", () => {
                     <field name="txt" widget="html" options="{'codeview': True}"/>
                 </form>`,
         });
-        const anchorNode = queryOne(`[name='txt'] .BetopiaERP-editor-editable p`);
+        const anchorNode = queryOne(`[name='txt'] .betopiaerp-editor-editable p`);
         setSelection({ anchorNode, anchorOffset: 0 });
         await insertText(htmlEditor, "/code");
         await waitFor(".o-we-powerbox");
@@ -2644,7 +2644,7 @@ describe("codeview enabled", () => {
                     <field name="txt" widget="html" options="{'codeview': True}"/>
                 </form>`,
         });
-        const anchorNode = queryOne(`[name='txt'] .BetopiaERP-editor-editable p`);
+        const anchorNode = queryOne(`[name='txt'] .betopiaerp-editor-editable p`);
         setSelection({ anchorNode, anchorOffset: 0 });
         await insertText(htmlEditor, "/video");
         await waitFor(".o-we-powerbox");

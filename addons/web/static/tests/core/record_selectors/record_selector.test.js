@@ -1,6 +1,6 @@
-import { test, expect } from "@BetopiaERP/hoot";
+import { test, expect } from "@betopiaerp/hoot";
 import { RecordSelector } from "@web/core/record_selectors/record_selector";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import {
     defineModels,
     fields,
@@ -8,8 +8,8 @@ import {
     mountWithCleanup,
     onRpc,
 } from "@web/../tests/web_test_helpers";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { click } from "@BetopiaERP/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { click } from "@betopiaerp/hoot-dom";
 
 class Partner extends models.Model {
     _name = "res.partner";

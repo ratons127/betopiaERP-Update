@@ -13,7 +13,7 @@ import {
     onWillUpdateProps,
     status,
     useComponent,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 /**
  * @typedef {import("@web/env").BetopiaERPEnv} BetopiaERPEnv

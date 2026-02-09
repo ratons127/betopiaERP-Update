@@ -1,5 +1,5 @@
 import { WORKER_STATE } from "@bus/workers/websocket_worker";
-import { reactive } from "@BetopiaERP/owl";
+import { reactive } from "@betopiaerp/owl";
 import { browser } from "@web/core/browser/browser";
 import { registry } from "@web/core/registry";
 

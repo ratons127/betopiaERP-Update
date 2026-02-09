@@ -59,10 +59,10 @@ class ResPartner(models.Model):
                 if partner.im_status == "offline"
                 else None
             )
-        BetopiaERPbot_id = self.env['ir.model.data']._xmlid_to_res_id('base.partner_root')
-        BetopiaERPbot = self.env['res.partner'].browse(BetopiaERPbot_id)
-        if BetopiaERPbot in self:
-            BetopiaERPbot.im_status = 'bot'
+        betopiaerpbot_id = self.env['ir.model.data']._xmlid_to_res_id('base.partner_root')
+        betopiaerpbot = self.env['res.partner'].browse(betopiaerpbot_id)
+        if betopiaerpbot in self:
+            betopiaerpbot.im_status = 'bot'
 
     # pseudo computes
 

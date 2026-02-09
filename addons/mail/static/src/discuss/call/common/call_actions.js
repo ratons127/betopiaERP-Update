@@ -1,5 +1,5 @@
 import { Action, ACTION_TAGS, UseActions } from "@mail/core/common/action";
-import { useComponent, useState } from "@BetopiaERP/owl";
+import { useComponent, useState } from "@betopiaerp/owl";
 import { isMobileOS } from "@web/core/browser/feature_detection";
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";

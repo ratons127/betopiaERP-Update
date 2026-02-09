@@ -1,4 +1,4 @@
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,

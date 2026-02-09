@@ -5,7 +5,7 @@
     'version': '1.0',
     'category': 'Hidden/Tests',
     'description': """
-This module will test the main workflow of betopiaerp.
+This module will test the main workflow of BetopiaERP.
 It will install some main apps and will try to execute the most important actions.
 """,
     'depends': ['web_tour', 'crm', 'sale_timesheet', 'purchase_stock', 'mrp', 'account'],
@@ -18,6 +18,6 @@ It will install some main apps and will try to execute the most important action
             'test_main_flows/static/tests/tours/*.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

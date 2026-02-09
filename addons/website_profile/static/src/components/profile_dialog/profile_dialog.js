@@ -1,5 +1,5 @@
 import { Wysiwyg } from "@html_editor/wysiwyg";
-import { Component, markup, onMounted, onWillStart, reactive, useRef, useState } from "@BetopiaERP/owl";
+import { Component, markup, onMounted, onWillStart, reactive, useRef, useState } from "@betopiaerp/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { localization } from "@web/core/l10n/localization";
 import { _t } from "@web/core/l10n/translation";

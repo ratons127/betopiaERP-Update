@@ -1,7 +1,7 @@
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { deleteBackward, insertLineBreak, insertText, undo } from "../_helpers/user_actions";
 import { testEditor } from "../_helpers/editor";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
 describe("range collapsed", () => {
     test("should not change the url when a link is not edited (1)", async () => {
@@ -140,9 +140,9 @@ describe("range collapsed", () => {
             stepFunction: async (editor) => {
                 await animationFrame();
                 await insertLineBreak(editor);
-                await insertText(editor, "BetopiaERP.com");
+                await insertText(editor, "betopiaerp.com");
             },
-            contentAfter: '<p>a<a href="https://google.com">google.com</a><br>BetopiaERP.com[]b</p>',
+            contentAfter: '<p>a<a href="https://google.com">google.com</a><br>betopiaerp.com[]b</p>',
         });
     });
 });

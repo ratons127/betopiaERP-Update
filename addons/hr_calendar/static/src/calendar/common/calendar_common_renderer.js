@@ -1,6 +1,6 @@
 import { AttendeeCalendarCommonRenderer } from "@calendar/views/attendee_calendar/common/attendee_calendar_common_renderer";
 import { patch } from "@web/core/utils/patch";
-import { onWillUpdateProps } from "@BetopiaERP/owl";
+import { onWillUpdateProps } from "@betopiaerp/owl";
 
 patch(AttendeeCalendarCommonRenderer.prototype, {
 	setup() {

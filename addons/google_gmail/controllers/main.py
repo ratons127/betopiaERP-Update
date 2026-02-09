@@ -29,7 +29,7 @@ class GoogleGmailController(http.Controller):
             _logger.warning("Google Gmail: an error occurred %s", error)
             return request.render('google_gmail.google_gmail_oauth_error', {
                 'error': _('An error occurred during the authentication process.'),
-                'redirect_url': '/BetopiaERP',
+                'redirect_url': '/betopiaerp',
             })
 
         try:
@@ -135,5 +135,5 @@ class GoogleGmailController(http.Controller):
             or record != request.env.user.outgoing_mail_server_id)
             and request.env.user.has_group('base.group_system')
         ):
-            return f'/BetopiaERP/{record._name}/{record.id}'
-        return f'/BetopiaERP/my-preferences/{request.env.user.id}'
+            return f'/betopiaerp/{record._name}/{record.id}'
+        return f'/betopiaerp/my-preferences/{request.env.user.id}'

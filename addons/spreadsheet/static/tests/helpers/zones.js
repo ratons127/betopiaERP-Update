@@ -1,4 +1,4 @@
-import { helpers } from "@BetopiaERP/o-spreadsheet";
+import { helpers } from "@betopiaerp/o-spreadsheet";
 
 const { toUnboundedZone } = helpers;
 

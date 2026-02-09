@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { getFilledOrder, setupPosEnv } from "@point_of_sale/../tests/unit/utils";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { ActionpadWidget } from "@point_of_sale/app/screens/product_screen/action_pad/action_pad";

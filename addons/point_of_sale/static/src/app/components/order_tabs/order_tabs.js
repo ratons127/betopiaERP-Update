@@ -1,6 +1,6 @@
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
 import { useService } from "@web/core/utils/hooks";
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { ListContainer } from "@point_of_sale/app/components/list_container/list_container";
 
 export class OrderTabs extends Component {

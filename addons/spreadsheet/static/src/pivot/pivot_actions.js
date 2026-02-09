@@ -1,11 +1,11 @@
 // @ts-check
 
 import { navigateTo } from "../actions/helpers";
-import { helpers } from "@BetopiaERP/o-spreadsheet";
+import { helpers } from "@betopiaerp/o-spreadsheet";
 const { getNumberOfPivotFunctions } = helpers;
 
 /**
- * @param {import("@BetopiaERP/o-spreadsheet").CellPosition} position
+ * @param {import("@betopiaerp/o-spreadsheet").CellPosition} position
  * @param {import("@spreadsheet").SpreadsheetChildEnv} env
  * @param {boolean} newWindow
  * @returns {Promise<void>}
@@ -40,7 +40,7 @@ export const SEE_RECORDS_PIVOT = async (position, env, newWindow) => {
 };
 
 /**
- * @param {import("@BetopiaERP/o-spreadsheet").CellPosition} position
+ * @param {import("@betopiaerp/o-spreadsheet").CellPosition} position
  * @param {import("@spreadsheet").BetopiaERPGetters} getters
  * @returns {boolean}
  */
@@ -59,7 +59,7 @@ export const SEE_RECORDS_PIVOT_VISIBLE = (position, getters) => {
         cell &&
         cell.isFormula &&
         getNumberOfPivotFunctions(cell.compiledFormula.tokens) === 1 &&
-        getters.getPivotCoreDefinition(pivotId).type === "BetopiaERP" &&
+        getters.getPivotCoreDefinition(pivotId).type === "BETOPIAERP" &&
         getters.getPivot(pivotId).getPivotCellDomain(pivotCell.domain)
     );
 };

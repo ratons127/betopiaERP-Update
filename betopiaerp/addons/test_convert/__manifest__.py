@@ -10,6 +10,6 @@
         'ir.model.access.csv',
         'data/test_translated_field/test_model_data.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

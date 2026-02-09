@@ -8,8 +8,8 @@ declaration.
 
 Signed,
 
-Florian Pose fp@igh.de https://github.com/igh-BetopiaERP
+Florian Pose fp@igh.de https://github.com/igh-betopiaerp
 
 List of contributors:
 
-Florian Pose fp@igh.de https://github.com/igh-BetopiaERP
+Florian Pose fp@igh.de https://github.com/igh-betopiaerp

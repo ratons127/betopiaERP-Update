@@ -4,6 +4,6 @@
     'summary': 'Build tools for the IoT Box image',
     'description': "This module allows you to build an image for the IoT Box.",
     'installable': False,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -93,7 +93,7 @@ registry.category("web_tour.tours").add('forum_question', {
     },
     {
         content: "Check that the content is the same",
-        trigger: 'div.BetopiaERP-editor-editable p:contains("First Question <p>code here</p>")',
+        trigger: 'div.betopiaerp-editor-editable p:contains("First Question <p>code here</p>")',
     },
     {
         content: "Save changes",

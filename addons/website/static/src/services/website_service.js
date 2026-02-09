@@ -6,7 +6,7 @@ import { isVisible } from "@web/core/utils/ui";
 
 import { FullscreenIndication } from "../components/fullscreen_indication/fullscreen_indication";
 import { WebsiteLoader } from "../components/website_loader/website_loader";
-import { reactive, EventBus } from "@BetopiaERP/owl";
+import { reactive, EventBus } from "@betopiaerp/owl";
 
 const websiteSystrayRegistry = registry.category("website_systray");
 

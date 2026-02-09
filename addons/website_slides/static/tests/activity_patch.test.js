@@ -5,7 +5,7 @@ import {
     start,
     startServer
 } from "@mail/../tests/mail_test_helpers";
-import { describe, test } from "@BetopiaERP/hoot";
+import { describe, test } from "@betopiaerp/hoot";
 import { defineWebsiteSlidesModels } from "@website_slides/../tests/website_slides_test_helpers";
 
 describe.current.tags("desktop");

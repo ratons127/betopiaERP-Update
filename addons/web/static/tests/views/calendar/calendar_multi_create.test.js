@@ -1,12 +1,12 @@
-import { beforeEach, expect, test } from "@BetopiaERP/hoot";
-import { click, edit, keyDown, keyUp, queryAllTexts, queryAll } from "@BetopiaERP/hoot-dom";
+import { beforeEach, expect, test } from "@betopiaerp/hoot";
+import { click, edit, keyDown, keyUp, queryAllTexts, queryAll } from "@betopiaerp/hoot-dom";
 import {
     advanceTime,
     animationFrame,
     disableAnimations,
     mockTimeZone,
     runAllTimers,
-} from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,

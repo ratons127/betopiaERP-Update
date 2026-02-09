@@ -1,6 +1,6 @@
-import { expect, test, beforeEach, describe } from "@BetopiaERP/hoot";
-import { mockDate, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { click, queryAllTexts, queryFirst, queryOne, waitFor } from "@BetopiaERP/hoot-dom";
+import { expect, test, beforeEach, describe } from "@betopiaerp/hoot";
+import { mockDate, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { click, queryAllTexts, queryFirst, queryOne, waitFor } from "@betopiaerp/hoot-dom";
 
 import { contains, mountView, onRpc } from "@web/../tests/web_test_helpers";
 

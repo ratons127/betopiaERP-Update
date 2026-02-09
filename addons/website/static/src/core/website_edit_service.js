@@ -339,9 +339,9 @@ patch(Colibri.prototype, {
         return (...args) => {
             // TODO No jQuery ?
             const wysiwyg = window.$?.("#wrapwrap").data("wysiwyg");
-            wysiwyg?.BetopiaERPEditor.observerUnactive(fullName);
+            wysiwyg?.betopiaerpEditor.observerUnactive(fullName);
             const result = fn(...args);
-            wysiwyg?.BetopiaERPEditor.observerActive(fullName);
+            wysiwyg?.betopiaerpEditor.observerActive(fullName);
             return result;
         };
     },
@@ -368,12 +368,12 @@ patch(Colibri.prototype, {
         // TODO No jQuery ?
         const wysiwyg = window.$?.("#wrapwrap").data("wysiwyg");
         let stealthFn = fn;
-        if (wysiwyg?.BetopiaERPEditor && !fn.isHandler && stealth) {
+        if (wysiwyg?.betopiaerpEditor && !fn.isHandler && stealth) {
             const name = `${this.interaction.constructor.name}/${event}`;
             stealthFn = (...args) => {
-                wysiwyg.BetopiaERPEditor.observerUnactive(name);
+                wysiwyg.betopiaerpEditor.observerUnactive(name);
                 const result = fn(...args);
-                wysiwyg.BetopiaERPEditor.observerActive(name);
+                wysiwyg.betopiaerpEditor.observerActive(name);
                 return result;
             };
         }
@@ -383,17 +383,17 @@ patch(Colibri.prototype, {
         // TODO No jQuery ?
         const wysiwyg = window.$?.("#wrapwrap").data("wysiwyg");
         const name = `${this.interaction.constructor.name}/${attr}`;
-        wysiwyg?.BetopiaERPEditor.observerUnactive(name);
+        wysiwyg?.betopiaerpEditor.observerUnactive(name);
         super.applyAttr(...arguments);
-        wysiwyg?.BetopiaERPEditor.observerActive(name);
+        wysiwyg?.betopiaerpEditor.observerActive(name);
     },
     applyTOut(el, value) {
         // TODO No jQuery ?
         const wysiwyg = window.$?.("#wrapwrap").data("wysiwyg");
         const name = `${this.interaction.constructor.name}/t-out`;
-        wysiwyg?.BetopiaERPEditor.observerUnactive(name);
+        wysiwyg?.betopiaerpEditor.observerUnactive(name);
         super.applyTOut(...arguments);
-        wysiwyg?.BetopiaERPEditor.observerActive(name);
+        wysiwyg?.betopiaerpEditor.observerActive(name);
     },
 });
 

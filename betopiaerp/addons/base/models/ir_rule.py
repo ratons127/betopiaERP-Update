@@ -196,9 +196,9 @@ class IrRule(models.Model):
     def write(self, vals):
         res = super(IrRule, self).write(vals)
         # DLE P33: tests
-        # - BetopiaERP/addons/test_access_rights/tests/test_feedback.py
-        # - BetopiaERP/addons/test_access_rights/tests/test_ir_rules.py
-        # - BetopiaERP/addons/base/tests/test_orm.py (/home/dle/src/BetopiaERP/master-nochange-fp/BetopiaERP/addons/base/tests/test_orm.py)
+        # - betopiaerp/addons/test_access_rights/tests/test_feedback.py
+        # - betopiaerp/addons/test_access_rights/tests/test_ir_rules.py
+        # - betopiaerp/addons/base/tests/test_orm.py (/home/dle/src/betopiaerp/master-nochange-fp/betopiaerp/addons/base/tests/test_orm.py)
         self.env.flush_all()
         self.env.registry.clear_cache()
         return res

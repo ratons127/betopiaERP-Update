@@ -181,7 +181,7 @@ class PrinterDriver(PrinterDriverBase):
     def print_status_zpl(self):
         iot_status = self._get_iot_status()
 
-        title = "IoT Box Connected" if helpers.get_BetopiaERP_server_url() else "IoT Box Status"
+        title = "IoT Box Connected" if helpers.get_betopiaerp_server_url() else "IoT Box Status"
         command = f"^XA^CI28 ^FT35,40 ^A0N,30 ^FD{title}^FS"
         p = 85
         if iot_status["pairing_code"]:
@@ -211,7 +211,7 @@ class PrinterDriver(PrinterDriverBase):
         wlan = identifier = homepage = pairing_code = mac_address = ""
         iot_status = self._get_iot_status()
 
-        wan_quality = helpers.check_network("www.betopiaerp.com")
+        wan_quality = helpers.check_network("www.BetopiaERP.com")
         to_gateway_quality = helpers.check_network()
         to_printer_quality = helpers.check_network(self.ip) if self.ip else None
 
@@ -250,7 +250,7 @@ class PrinterDriver(PrinterDriverBase):
             mac_address = '\nMac Address:\n%s\n' % iot_status["mac_address"]
             homepage = '\nIoT Box Homepage:\nhttp://%s:8069\n' % ips[0]
 
-        title = b'IoT Box Connected' if helpers.get_BetopiaERP_server_url() else b'IoT Box Status'
+        title = b'IoT Box Connected' if helpers.get_betopiaerp_server_url() else b'IoT Box Status'
         body = pairing_code + wlan + identifier + mac_address + ip + network_quality + homepage
 
         return title, body.encode()

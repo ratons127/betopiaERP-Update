@@ -16,9 +16,9 @@ import {
 } from "@html_editor/others/embedded_component_utils";
 import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { parseHTML } from "@html_editor/utils/html";
-import { beforeEach, describe, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { click, queryFirst } from "@BetopiaERP/hoot-dom";
-import { animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, describe, expect, getFixture, test } from "@betopiaerp/hoot";
+import { click, queryFirst } from "@betopiaerp/hoot-dom";
+import { animationFrame, tick } from "@betopiaerp/hoot-mock";
 import {
     App,
     Component,
@@ -30,7 +30,7 @@ import {
     useRef,
     useState,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import { EmbeddedComponentPlugin } from "../src/others/embedded_component_plugin";
 import { setupEditor } from "./_helpers/editor";
 import { unformat } from "./_helpers/format";
@@ -455,7 +455,7 @@ describe("Mount and Destroy embedded components", () => {
         const fixture = getFixture();
         expect(
             [...fixture.querySelectorAll("[data-embedded]")].filter(
-                (elem) => !elem.closest(".BetopiaERP-editor-editable")
+                (elem) => !elem.closest(".betopiaerp-editor-editable")
             )
         ).toEqual([]);
     });
@@ -484,7 +484,7 @@ describe("Mount and Destroy embedded components", () => {
         const fixture = getFixture();
         expect(
             [...fixture.querySelectorAll("[data-embedded]")].filter(
-                (elem) => !elem.closest(".BetopiaERP-editor-editable")
+                (elem) => !elem.closest(".betopiaerp-editor-editable")
             )
         ).toEqual([]);
     });
@@ -515,7 +515,7 @@ describe("Mount and Destroy embedded components", () => {
         const fixture = getFixture();
         expect(
             [...fixture.querySelectorAll("[data-embedded]")].filter(
-                (elem) => !elem.closest(".BetopiaERP-editor-editable")
+                (elem) => !elem.closest(".betopiaerp-editor-editable")
             )
         ).toEqual([]);
         expect(editor.editable.contains(parent)).toBe(false);

@@ -1,8 +1,8 @@
-/** @BetopiaERP-module alias=@web/../tests/utils default=false */
+/** @betopiaerp-module alias=@web/../tests/utils default=false */
 
-import { __debug__, after, afterEach, expect, getFixture } from "@BetopiaERP/hoot";
-import { queryAll, queryFirst } from "@BetopiaERP/hoot-dom";
-import { Deferred, animationFrame, tick } from "@BetopiaERP/hoot-mock";
+import { __debug__, after, afterEach, expect, getFixture } from "@betopiaerp/hoot";
+import { queryAll, queryFirst } from "@betopiaerp/hoot-dom";
+import { Deferred, animationFrame, tick } from "@betopiaerp/hoot-mock";
 import { isMacOS } from "@web/core/browser/feature_detection";
 import { isVisible } from "@web/core/utils/ui";
 
@@ -333,7 +333,7 @@ function createFakeDataTransfer(files) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then clicks on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {ContainsOptions} [options] forwarded to `contains`
  * @param {boolean} [options.shiftKey]
  */
@@ -347,7 +347,7 @@ export async function click(selector, options = {}) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then dragenters `files` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {Object[]} files
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -359,7 +359,7 @@ export async function dragenterFiles(selector, files, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then dragovers `files` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {Object[]} files
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -371,7 +371,7 @@ export async function dragoverFiles(selector, files, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then drops `files` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {Object[]} files
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -383,7 +383,7 @@ export async function dropFiles(selector, files, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then inputs `files` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {Object[]} files
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -395,7 +395,7 @@ export async function inputFiles(selector, files, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then pastes `files` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {Object[]} files
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -407,7 +407,7 @@ export async function pasteFiles(selector, files, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then focuses on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
 export async function focus(selector, options) {
@@ -418,7 +418,7 @@ export async function focus(selector, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then inserts the given `content`.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {string} content
  * @param {ContainsOptions} [options] forwarded to `contains`
  * @param {boolean} [options.replace=false]
@@ -434,7 +434,7 @@ export async function insertText(selector, content, options = {}) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then sets its `scrollTop` to the given value.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {number|"bottom"} scrollTop
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -446,7 +446,7 @@ export async function scroll(selector, scrollTop, options) {
  * Waits until exactly one element matching the given `selector` is present in
  * `options.target` and then triggers `event` on it.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {(import("@web/../tests/helpers/utils").EventType|[import("@web/../tests/helpers/utils").EventType, EventInit])[]} events
  * @param {ContainsOptions} [options] forwarded to `contains`
  */
@@ -545,7 +545,7 @@ afterEach(() => (hasUsedContainsPositively = false));
 class Contains {
     timeoutCount = 0;
     /**
-     * @param {import("@BetopiaERP/hoot-dom").Target} selector
+     * @param {import("@betopiaerp/hoot-dom").Target} selector
      * @param {ContainsOptions} [options={}]
      */
     constructor(selector, options = {}) {
@@ -975,7 +975,7 @@ class Contains {
  * Waits until `count` elements matching the given `selector` are present in
  * `options.target`.
  *
- * @param {import("@BetopiaERP/hoot-dom").Target} selector
+ * @param {import("@betopiaerp/hoot-dom").Target} selector
  * @param {ContainsOptions} [options]
  * @returns {Promise}
  */

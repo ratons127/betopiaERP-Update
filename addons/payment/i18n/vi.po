@@ -7,16 +7,16 @@
 # Martin Trigaux, 2022
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2023
 # Thi Huong Nguyen, 2023
-# "Dylan Kiss (dyki)" <dyki@BetopiaERP.com>, 2025.
-# "Thi Huong Nguyen (thng)" <thng@BetopiaERP.com>, 2025.
+# "Dylan Kiss (dyki)" <dyki@betopiaerp.com>, 2025.
+# "Thi Huong Nguyen (thng)" <thng@betopiaerp.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: BetopiaERP Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-25 18:36+0000\n"
 "PO-Revision-Date: 2025-12-04 17:51+0000\n"
-"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@BetopiaERP.com>\n"
-"Language-Team: Vietnamese <https://translate.BetopiaERP.com/projects/BetopiaERP-19/"
+"Last-Translator: \"Thi Huong Nguyen (thng)\" <thng@betopiaerp.com>\n"
+"Language-Team: Vietnamese <https://translate.betopiaerp.com/projects/betopiaerp-19/"
 "payment/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -396,7 +396,7 @@ msgid "Archived"
 msgstr "Đã lưu trữ"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "Are you sure you want to delete this payment method?"
 msgstr "Bạn có chắc muốn xóa phương thức thanh toán này không?"
@@ -647,19 +647,19 @@ msgid "Cancelled Message"
 msgstr "Tin nhắn đã bị hủy"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Cannot delete payment method"
 msgstr "Không thể xoá phương thức thanh toán"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Cannot save payment method"
 msgstr "Không thể lưu phương thức thanh toán"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_capture_wizard_view_form
 msgid "Capture"
@@ -807,13 +807,13 @@ msgid "Configuration"
 msgstr "Cấu hình"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Confirm"
 msgstr "Xác nhận"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Confirm Deletion"
 msgstr "Xác nhận xóa"
@@ -845,7 +845,7 @@ msgid "Corresponding Module"
 msgstr "Phân hệ tương ứng"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Could not establish the connection to the payment provider."
 msgstr ""
@@ -894,7 +894,7 @@ msgid "Created on"
 msgstr "Được tạo vào"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Creating a transaction from an archived token is forbidden."
 msgstr "Cấm tạo giao dịch từ token đã lưu trữ."
@@ -1297,7 +1297,7 @@ msgid "Is Stripe Supported Country"
 msgstr "Là quốc gia có hỗ trợ Stripe"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/xml/payment_form_templates.xml:0
 msgid "It is currently linked to the following documents:"
 msgstr "Nó hiện được liên kết với các tài liệu sau:"
@@ -1463,7 +1463,7 @@ msgid "Magna"
 msgstr "Magna"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Making a request to the provider is not possible because the provider is "
@@ -1640,7 +1640,7 @@ msgid "No providers available"
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "No token can be assigned to the public partner."
 msgstr "Không thể gán token cho đối tác công khai."
@@ -1726,13 +1726,13 @@ msgid "Online payment with redirection"
 msgstr "Thanh toán online với chuyển hướng"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only authorized transactions can be voided."
 msgstr "Chỉ các giao dịch được ủy quyền mới được hủy bỏ."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Only confirmed transactions can be refunded."
 msgstr "Chỉ các giao dịch đã xác nhận mới có thể được hoàn tiền."
@@ -1896,7 +1896,7 @@ msgid "Payment Method Code"
 msgstr "Mã phương thức thanh toán"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model:ir.actions.act_window,name:payment.action_payment_method
 #: model_terms:ir.ui.view,arch_db:payment.payment_methods
@@ -1916,7 +1916,7 @@ msgid "Payment Providers"
 msgstr "Nhà cung cấp dịch vụ thanh toán"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/post_processing.py:0
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
 msgid "Payment Status"
@@ -1965,7 +1965,7 @@ msgid "Payment Transactions Linked To Token"
 msgstr "Giao dịch thanh toán liên kết với token"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid "Payment details saved on %(date)s"
 msgstr "Thông tin thanh toán đã được lưu vào %(date)s"
@@ -1983,7 +1983,7 @@ msgid "Payment methods"
 msgstr "Phương thức thanh toán"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Payment processing failed"
 msgstr "Xử lý thanh toán không thành công"
@@ -2049,19 +2049,19 @@ msgid "Pix"
 msgstr "Pix"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "Please make sure that %(payment_method)s is supported by %(provider)s."
 msgstr "Hãy đảm bảo rằng %(payment_method)s được %(provider)s hỗ trợ."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set a positive amount."
 msgstr "Vui lòng nhập số tiền lớn hơn 0."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "Please set an amount lower than %s."
 msgstr "Vui lòng nhập số tiền nhỏ hơn %s."
@@ -2211,7 +2211,7 @@ msgid "Reference must be unique!"
 msgstr "Mã cần phải duy nhất!"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_refund
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_refund
@@ -2352,7 +2352,7 @@ msgid "Sofort"
 msgstr "Sofort"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid ""
 "Some of the transactions you intend to capture can only be captured in full. "
@@ -2479,50 +2479,50 @@ msgid "Thank you!"
 msgstr "Cảm ơn bạn!"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s encountered an error."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been authorized."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been canceled."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s has been confirmed."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The %(tx_label)s %(ref)s of %(formatted_amount)s is pending."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The amount from the payment data doesn't match the one from the transaction."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The amount or currency is missing from the payment data."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_capture_wizard.py:0
 msgid "The amount to capture must be positive and cannot be superior to %s."
 msgstr "Số tiền cần thu hồi phải lớn hơn 0 và không thể vượt quá %s."
@@ -2582,7 +2582,7 @@ msgstr ""
 "không hạn loại tiền tệ."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "The currency from the payment data doesn't match the one from the "
@@ -2590,19 +2590,19 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "The following fields must be filled: %s"
 msgstr "Các trường sau phải được điền: %s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "The following kwargs are not whitelisted: %s"
 msgstr "Các kwargs sau đây không được whitelist: %s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "The following payment methods cannot be enabled because their payment "
@@ -2612,7 +2612,7 @@ msgstr ""
 "thanh toán của chúng đã bật tính năng thu thập thủ công: %s"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "The following payment methods must be disabled in order to enable manual "
@@ -2703,7 +2703,7 @@ msgid "The payment is authorized and captured in two steps instead of one."
 msgstr "Thanh toán được ủy quyền và ghi nhận trong hai bước thay vì một."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "The payment provider rejected the request.\n"
@@ -2733,7 +2733,7 @@ msgid "The provider reference of the transaction"
 msgstr "Tham chiếu nhà cung cấp của giao dịch"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The refund %(ref)s of %(formatted_amount)s has been initiated."
 msgstr ""
@@ -2800,7 +2800,7 @@ msgid ""
 msgstr "Mẫu kết xuất biểu mẫu thanh toán nội tuyến khi thanh toán bằng token."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "The transaction %(ref)s of %(formatted_amount)s has been initiated."
 msgstr ""
@@ -2816,7 +2816,7 @@ msgid "There is no token created yet."
 msgstr "Chưa có token nào được tạo."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
 msgstr "Không có gì cần thanh toán."
@@ -2827,7 +2827,7 @@ msgid "There is nothing to pay."
 msgstr "Không có khoản thanh toán nào."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2837,7 +2837,7 @@ msgstr ""
 "toán này."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "This action will also archive %s tokens that are registered with this "
@@ -2884,7 +2884,7 @@ msgstr ""
 "                     Bạn nên điền email cho đối tác này."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid ""
 "This payment method needs a partner in crime; you should enable a payment "
@@ -2944,7 +2944,7 @@ msgid "Transaction"
 msgstr "Giao dịch"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Transaction authorization is not supported by the following payment "
@@ -3093,7 +3093,7 @@ msgid "Walley"
 msgstr "Walley"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 #: code:addons/payment/models/payment_provider.py:0
 msgid "Warning"
@@ -3105,7 +3105,7 @@ msgid "Warning Message"
 msgstr "Thông báo cảnh báo"
 
 #. module: payment
-#. BetopiaERP-javascript
+#. betopiaerp-javascript
 #: code:addons/payment/static/src/interactions/payment_form.js:0
 msgid "Warning!"
 msgstr "Cảnh báo!"
@@ -3178,7 +3178,7 @@ msgid "Xendit"
 msgstr "Xendit"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_token.py:0
 msgid ""
 "You can't unarchive tokens linked to inactive payment methods or disabled "
@@ -3188,7 +3188,7 @@ msgstr ""
 "không hoạt động hoặc nhà cung cấp bị vô hiệu hóa."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot change the company of a payment provider with existing "
@@ -3198,13 +3198,13 @@ msgstr ""
 "các giao dịch hiện có."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_method.py:0
 msgid "You cannot delete the default payment method."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -3214,13 +3214,13 @@ msgstr ""
 "hiệu hoá hoặc gỡ cài đặt nhà cung cấp này."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "You cannot publish a disabled provider."
 msgstr "Bạn không thể hiển thị một nhà cung cấp đã bị vô hiệu hóa."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "You do not have access to this payment token."
 msgstr "Bạn không có quyền truy cập token thanh toán này."
@@ -3235,7 +3235,7 @@ msgstr ""
 "                                      phút nữa."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,auth_msg:payment.payment_provider_aps
@@ -3262,7 +3262,7 @@ msgid "Your payment has been authorized."
 msgstr "Thanh toán của bạn đã được chứng thực."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,cancel_msg:payment.payment_provider_aps
@@ -3289,7 +3289,7 @@ msgid "Your payment has been cancelled."
 msgstr "Thanh toán của bạn đã bị hủy."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_aps
@@ -3315,7 +3315,7 @@ msgid "Your payment has been processed but is waiting for approval."
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 #: model_terms:payment.provider,done_msg:payment.payment_provider_adyen
 #: model_terms:payment.provider,done_msg:payment.payment_provider_aps
@@ -3362,7 +3362,7 @@ msgid "Your payment methods"
 msgstr "Phương thức thanh toán của bạn"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid ""
 "Your payment operation could not be completed for following transactions: %"
@@ -3370,7 +3370,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_transaction.py:0
 msgid "Your payment operation has been successfully submitted."
 msgstr ""
@@ -3402,7 +3402,7 @@ msgid "eNETS"
 msgstr "eNETS"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
 msgstr "không hỗ trợ thanh toán nhanh"
@@ -3413,7 +3413,7 @@ msgid "iDEAL"
 msgstr "iDEAL"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "id"
 msgstr "id"
@@ -3424,37 +3424,37 @@ msgid "in3"
 msgstr "in3"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible country"
 msgstr "quốc gia không tương thích"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible currency"
 msgstr "tiền tệ không tương thích"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "incompatible website"
 msgstr "trang web không tương thích"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "manual capture not supported"
 msgstr "không hỗ trợ thu hồi thủ công"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "maximum amount exceeded"
 msgstr "đã vượt quá số tiền tối đa"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "no supported provider available"
 msgstr "không có nhà cung cấp nào được hỗ trợ"
@@ -3480,13 +3480,13 @@ msgstr ""
 "                    thanh toán."
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "tokenization not supported"
 msgstr "không hỗ trợ token hoá"
 
 #. module: payment
-#. BetopiaERP-python
+#. betopiaerp-python
 #: code:addons/payment/const.py:0
 msgid "tokenization without payment no supported"
 msgstr "không hỗ trợ token hoá không có thanh toán"

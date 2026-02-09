@@ -7,7 +7,7 @@ import { usePopover } from "@web/core/popover/popover_hook";
 import { useService } from "@web/core/utils/hooks";
 import { capitalize } from "../utils/strings";
 
-import { Component, useRef, useState, markup } from "@BetopiaERP/owl";
+import { Component, useRef, useState, markup } from "@betopiaerp/owl";
 
 const { DateTime } = luxon;
 
@@ -27,17 +27,17 @@ export const standardErrorDialogProps = {
     close: Function, // prop added by the Dialog service
 };
 
-export const BetopiaERPExceptionTitleMap = new Map(
+export const betopiaerpExceptionTitleMap = new Map(
     Object.entries({
-        "BetopiaERP.addons.base.models.ir_mail_server.MailDeliveryException": _t("MailDeliveryException"),
-        "BetopiaERP.exceptions.AccessDenied": _t("Access Denied"),
-        "BetopiaERP.exceptions.MissingError": _t("Missing Record"),
-        "BetopiaERP.addons.web.controllers.action.MissingActionError": _t("Missing Action"),
-        "BetopiaERP.addons.base.models.ir_actions.ServerActionWithWarningsError": _t("Invalid Operation"),
-        "BetopiaERP.exceptions.UserError": _t("Invalid Operation"),
-        "BetopiaERP.exceptions.ValidationError": _t("Validation Error"),
-        "BetopiaERP.exceptions.AccessError": _t("Access Error"),
-        "BetopiaERP.exceptions.Warning": _t("Warning"),
+        "betopiaerp.addons.base.models.ir_mail_server.MailDeliveryException": _t("MailDeliveryException"),
+        "betopiaerp.exceptions.AccessDenied": _t("Access Denied"),
+        "betopiaerp.exceptions.MissingError": _t("Missing Record"),
+        "betopiaerp.addons.web.controllers.action.MissingActionError": _t("Missing Action"),
+        "betopiaerp.addons.base.models.ir_actions.ServerActionWithWarningsError": _t("Invalid Operation"),
+        "betopiaerp.exceptions.UserError": _t("Invalid Operation"),
+        "betopiaerp.exceptions.ValidationError": _t("Validation Error"),
+        "betopiaerp.exceptions.AccessError": _t("Access Error"),
+        "betopiaerp.exceptions.Warning": _t("Warning"),
     })
 );
 
@@ -109,8 +109,8 @@ export class RPCErrorDialog extends ErrorDialog {
     }
     inferTitle() {
         // If the server provides an exception name that we have in a registry.
-        if (this.props.exceptionName && BetopiaERPExceptionTitleMap.has(this.props.exceptionName)) {
-            this.title = BetopiaERPExceptionTitleMap.get(this.props.exceptionName).toString();
+        if (this.props.exceptionName && betopiaerpExceptionTitleMap.has(this.props.exceptionName)) {
+            this.title = betopiaerpExceptionTitleMap.get(this.props.exceptionName).toString();
             return;
         }
         // Fall back to a name based on the error type.
@@ -159,8 +159,8 @@ export class WarningDialog extends Component {
         }
     }
     inferTitle() {
-        if (this.props.exceptionName && BetopiaERPExceptionTitleMap.has(this.props.exceptionName)) {
-            return BetopiaERPExceptionTitleMap.get(this.props.exceptionName).toString();
+        if (this.props.exceptionName && betopiaerpExceptionTitleMap.has(this.props.exceptionName)) {
+            return betopiaerpExceptionTitleMap.get(this.props.exceptionName).toString();
         }
         return this.props.title || _t("BetopiaERP Warning");
     }
@@ -221,14 +221,14 @@ export class SessionExpiredDialog extends Component {
 
 registry
     .category("error_dialogs")
-    .add("BetopiaERP.exceptions.AccessDenied", WarningDialog)
-    .add("BetopiaERP.exceptions.AccessError", WarningDialog)
-    .add("BetopiaERP.exceptions.MissingError", WarningDialog)
-    .add("BetopiaERP.addons.web.controllers.action.MissingActionError", WarningDialog)
-    .add("BetopiaERP.addons.base.models.ir_actions.ServerActionWithWarningsError", WarningDialog)
-    .add("BetopiaERP.exceptions.UserError", WarningDialog)
-    .add("BetopiaERP.exceptions.ValidationError", WarningDialog)
-    .add("BetopiaERP.exceptions.RedirectWarning", RedirectWarningDialog)
-    .add("BetopiaERP.http.SessionExpiredException", SessionExpiredDialog)
+    .add("betopiaerp.exceptions.AccessDenied", WarningDialog)
+    .add("betopiaerp.exceptions.AccessError", WarningDialog)
+    .add("betopiaerp.exceptions.MissingError", WarningDialog)
+    .add("betopiaerp.addons.web.controllers.action.MissingActionError", WarningDialog)
+    .add("betopiaerp.addons.base.models.ir_actions.ServerActionWithWarningsError", WarningDialog)
+    .add("betopiaerp.exceptions.UserError", WarningDialog)
+    .add("betopiaerp.exceptions.ValidationError", WarningDialog)
+    .add("betopiaerp.exceptions.RedirectWarning", RedirectWarningDialog)
+    .add("betopiaerp.http.SessionExpiredException", SessionExpiredDialog)
     .add("werkzeug.exceptions.Forbidden", SessionExpiredDialog)
     .add("504", Error504Dialog);

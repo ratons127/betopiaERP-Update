@@ -12,8 +12,8 @@ import {
     start,
     startServer,
 } from "@mail/../tests/mail_test_helpers";
-import { beforeEach, expect, describe, test } from "@BetopiaERP/hoot";
-import { Deferred, tick } from "@BetopiaERP/hoot-mock";
+import { beforeEach, expect, describe, test } from "@betopiaerp/hoot";
+import { Deferred, tick } from "@betopiaerp/hoot-mock";
 import {
     asyncStep,
     Command,
@@ -24,7 +24,7 @@ import {
 } from "@web/../tests/web_test_helpers";
 
 import { Composer } from "@mail/core/common/composer";
-import { press } from "@BetopiaERP/hoot-dom";
+import { press } from "@betopiaerp/hoot-dom";
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -41,11 +41,11 @@ beforeEach(() => {
 test('[text composer] display partner mention suggestions on typing "@"', async () => {
     const pyEnv = await startServer();
     const partnerId_1 = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const partnerId_2 = pyEnv["res.partner"].create({
-        email: "testpartner2@BetopiaERP.com",
+        email: "testpartner2@betopiaerp.com",
         name: "TestPartner2",
     });
     pyEnv["res.users"].create({ partner_id: partnerId_1 });
@@ -67,11 +67,11 @@ test.tags("html composer");
 test("display partner mention suggestions on typing '@'", async () => {
     const pyEnv = await startServer();
     const partnerId_1 = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const partnerId_2 = pyEnv["res.partner"].create({
-        email: "testpartner2@BetopiaERP.com",
+        email: "testpartner2@betopiaerp.com",
         name: "TestPartner2",
     });
     pyEnv["res.users"].create({ partner_id: partnerId_1 });
@@ -87,12 +87,12 @@ test("display partner mention suggestions on typing '@'", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion strong", { count: 3 });
 });
@@ -103,8 +103,8 @@ test("[text composer] can @user in restricted (group_public_id) channels", async
         name: "Custom Channel Group",
     });
     const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
-        { email: "testpartner1@BetopiaERP.com", name: "TestPartner1" },
-        { email: "testpartner2@BetopiaERP.com", name: "TestPartner2" },
+        { email: "testpartner1@betopiaerp.com", name: "TestPartner1" },
+        { email: "testpartner2@betopiaerp.com", name: "TestPartner2" },
     ]);
     pyEnv["res.users"].create([
         { partner_id: partnerId_1, group_ids: [Command.link(groupId)] },
@@ -133,8 +133,8 @@ test("can @user in restricted (group_public_id) channels", async () => {
         name: "Custom Channel Group",
     });
     const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
-        { email: "testpartner1@BetopiaERP.com", name: "TestPartner1" },
-        { email: "testpartner2@BetopiaERP.com", name: "TestPartner2" },
+        { email: "testpartner1@betopiaerp.com", name: "TestPartner1" },
+        { email: "testpartner2@betopiaerp.com", name: "TestPartner2" },
     ]);
     pyEnv["res.users"].create([
         { partner_id: partnerId_1, group_ids: [Command.link(groupId)] },
@@ -154,12 +154,12 @@ test("can @user in restricted (group_public_id) channels", async () => {
     await contains(".o-discuss-ChannelInvitation-invitationBox", {
         text: 'Access restricted to group "Custom Channel Group"',
     });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion strong", { count: 2 });
 });
@@ -167,11 +167,11 @@ test("can @user in restricted (group_public_id) channels", async () => {
 test("[text composer] post a first message then display partner mention suggestions on typing '@'", async () => {
     const pyEnv = await startServer();
     const partnerId_1 = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const partnerId_2 = pyEnv["res.partner"].create({
-        email: "testpartner2@BetopiaERP.com",
+        email: "testpartner2@betopiaerp.com",
         name: "TestPartner2",
     });
     pyEnv["res.users"].create({ partner_id: partnerId_1 });
@@ -197,11 +197,11 @@ test.tags("html composer");
 test("post a first message then display partner mention suggestions on typing '@'", async () => {
     const pyEnv = await startServer();
     const partnerId_1 = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const partnerId_2 = pyEnv["res.partner"].create({
-        email: "testpartner2@BetopiaERP.com",
+        email: "testpartner2@betopiaerp.com",
         name: "TestPartner2",
     });
     pyEnv["res.users"].create({ partner_id: partnerId_1 });
@@ -217,12 +217,12 @@ test("post a first message then display partner mention suggestions on typing '@
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "first message");
     await press("Enter");
     await contains(".o-mail-Message");
@@ -247,10 +247,10 @@ test('display partner mention suggestions on typing "@" in chatter', async () =>
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion strong", { text: "Mitchell Admin" });
@@ -286,12 +286,12 @@ test("Do not fetch if search more specific and fetch had no result", async () =>
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion", { count: 3 }); // Mitchell Admin, Hermit, Public user
     await contains(".o-mail-Composer-suggestion", { text: "Mitchell Admin" });
@@ -306,7 +306,7 @@ test("Do not fetch if search more specific and fetch had no result", async () =>
 test("[text composer] show other channel member in @ mention", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -326,7 +326,7 @@ test.tags("html composer");
 test("show other channel member in @ mention", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -340,12 +340,12 @@ test("show other channel member in @ mention", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion strong", { text: "TestPartner" });
 });
@@ -353,7 +353,7 @@ test("show other channel member in @ mention", async () => {
 test("[text composer] select @ mention insert mention text in composer", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -374,7 +374,7 @@ test.tags("html composer");
 test("select @ mention insert mention text in composer", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -388,21 +388,21 @@ test("select @ mention insert mention text in composer", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await click(".o-mail-Composer-suggestion strong", { text: "TestPartner" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "@TestPartner" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "@TestPartner" });
 });
 
 test("[text composer] select @ mention closes suggestions", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -423,7 +423,7 @@ test.tags("html composer");
 test("select @ mention closes suggestions", async () => {
     const pyEnv = await startServer();
     const partnerId = pyEnv["res.partner"].create({
-        email: "testpartner@BetopiaERP.com",
+        email: "testpartner@betopiaerp.com",
         name: "TestPartner",
     });
     const channelId = pyEnv["discuss.channel"].create({
@@ -437,12 +437,12 @@ test("select @ mention closes suggestions", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await click(".o-mail-Composer-suggestion strong", { text: "TestPartner" });
     await contains(".o-mail-Composer-suggestion strong", { count: 0 });
@@ -473,12 +473,12 @@ test('display channel mention suggestions on typing "#"', async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
     await htmlInsertText(editor, "#");
@@ -512,18 +512,18 @@ test("mention a channel", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     await htmlInsertText(editor, "#");
     await click(".o-mail-Composer-suggestion");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "#General" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "#General" });
 });
 
 test("[text composer] mention a channel thread", async () => {
@@ -574,15 +574,15 @@ test("mention a channel thread", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     await htmlInsertText(editor, "#");
     await contains(".o-mail-Composer-suggestion", { count: 2 });
     await contains(".o-mail-Composer-suggestion:eq(0):has(i.fa-hashtag)", { text: "General" });
@@ -591,15 +591,15 @@ test("mention a channel thread", async () => {
     });
     await click(".o-mail-Composer-suggestion:eq(0)");
     await contains(
-        ".o-mail-Composer-html.BetopiaERP-editor-editable a.o_channel_redirect:has(i.fa-hashtag)",
+        ".o-mail-Composer-html.betopiaerp-editor-editable a.o_channel_redirect:has(i.fa-hashtag)",
         { text: "General" }
     );
     await press("Enter");
     await contains(".o-mail-Message a.o_channel_redirect", {
         text: "General",
     });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "#");
     await contains(".o-mail-Composer-suggestion", { count: 2 });
     await contains(".o-mail-Composer-suggestion:eq(0):has(i.fa-hashtag)", { text: "General" });
@@ -608,7 +608,7 @@ test("mention a channel thread", async () => {
     });
     await click(".o-mail-Composer-suggestion:eq(1)");
     await contains(
-        ".o-mail-Composer-html.BetopiaERP-editor-editable a.o_channel_redirect:has(i.fa-comments-o)",
+        ".o-mail-Composer-html.betopiaerp-editor-editable a.o_channel_redirect:has(i.fa-comments-o)",
         { text: "General > ThreadOne" }
     );
     await press("Enter");
@@ -651,12 +651,12 @@ test("Channel suggestions do not crash after rpc returns", async () => {
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
     pyEnv["discuss.channel"].create({ name: "foo" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "#");
     await tick();
     await htmlInsertText(editor, "f");
@@ -685,12 +685,12 @@ test("Suggestions are shown after delimiter was used in text (@)", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion");
     await htmlInsertText(editor, "NonExistingUser");
@@ -720,12 +720,12 @@ test("Suggestions are shown after delimiter was used in text (#)", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "#");
     await contains(".o-mail-Composer-suggestion");
     await htmlInsertText(editor, "NonExistingChannel");
@@ -784,12 +784,12 @@ test("display partner mention when typing more than 2 words if they match", asyn
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@My ");
     await contains(".o-mail-Composer-suggestion strong", { count: 3 });
     await htmlInsertText(editor, "Test ");
@@ -861,12 +861,12 @@ test("Internal user should be displayed first", async () => {
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@Person ");
     await contains(":nth-child(1 of .o-mail-Composer-suggestion) strong", { text: "Person D" });
     await contains(":nth-child(2 of .o-mail-Composer-suggestion) strong", { text: "Person C" });
@@ -925,12 +925,12 @@ test("Current user that is a follower should be considered as such", async () =>
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion", { count: 5 });
     await contains(".o-mail-Composer-suggestion", {
@@ -973,18 +973,18 @@ test("Mention with @everyone", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     await htmlInsertText(editor, "@ever");
     await click(".o-mail-Composer-suggestion");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "@everyone" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "@everyone" });
     await press("Enter");
     await contains(".o-mail-Message-bubble.o-orange");
     await contains(".o-mail-Message a:contains('@everyone')");
@@ -1017,12 +1017,12 @@ test("Suggestions that begin with the search term should have priority", async (
     composerService.setHtmlComposer();
     await openFormView("res.partner", serverState.partnerId);
     await click("button", { text: "Send message" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await htmlInsertText(editor, "@");
     await contains(".o-mail-Composer-suggestion", {
         text: "Best Partner",
@@ -1118,18 +1118,18 @@ test("Mention with @-role", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     await htmlInsertText(editor, "@discuss");
     await click(".o-mail-Composer-suggestion");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "@rd-Discuss" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "@rd-Discuss" });
     await press("Enter");
     await contains(".o-mail-Message a.o-discuss-mention", {
         text: "@rd-Discuss",
@@ -1214,18 +1214,18 @@ test("Mention with @-role send correct role id", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     await htmlInsertText(editor, "@discuss");
     await click(".o-mail-Composer-suggestion");
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "@rd-Discuss" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "@rd-Discuss" });
     await press("Enter");
     await contains(".o-mail-Message a.o-discuss-mention", { text: "@rd-Discuss" });
     await expect.waitForSteps(["message_post"]);
@@ -1319,17 +1319,17 @@ test("Mention with @-role trigger one RPC only", async () => {
     const composerService = getService("mail.composer");
     composerService.setHtmlComposer();
     await openDiscuss(channelId);
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable");
     const editor = {
         document,
-        editable: document.querySelector(".o-mail-Composer-html.BetopiaERP-editor-editable"),
+        editable: document.querySelector(".o-mail-Composer-html.betopiaerp-editor-editable"),
     };
-    await focus(".o-mail-Composer-html.BetopiaERP-editor-editable");
+    await focus(".o-mail-Composer-html.betopiaerp-editor-editable");
     await contains(".o-mail-Composer-suggestionList");
     await contains(".o-mail-Composer-suggestionList .o-open", { count: 0 });
     await contains(".o-mail-Message", { text: "message fetched" });
     await contains(".o-discuss-ChannelMember", { text: "Discuss guru" });
-    await contains(".o-mail-Composer-html.BetopiaERP-editor-editable", { text: "" });
+    await contains(".o-mail-Composer-html.betopiaerp-editor-editable", { text: "" });
     onRpc("/*", (request) => {
         const route = new URL(request.url).pathname;
         if (route !== "/discuss/channel/notify_typing") {

@@ -1,11 +1,11 @@
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 
-import * as spreadsheet from "@BetopiaERP/o-spreadsheet";
+import * as spreadsheet from "@betopiaerp/o-spreadsheet";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 const uuidGenerator = new spreadsheet.helpers.UuidGenerator();
 
 /**
- * @typedef {import("@BetopiaERP/o-spreadsheet").Model} Model
+ * @typedef {import("@betopiaerp/o-spreadsheet").Model} Model
  * @typedef {import("@spreadsheet").BetopiaERPSpreadsheetModel} BetopiaERPSpreadsheetModel
  */
 
@@ -13,9 +13,9 @@ const uuidGenerator = new spreadsheet.helpers.UuidGenerator();
  *
  * @param {Model} model
  * @param {string} type
- * @param {import("@spreadsheet/chart/BetopiaERP_chart/BetopiaERP_chart").BetopiaERPChartDefinition} definition
+ * @param {import("@spreadsheet/chart/betopiaerp_chart/betopiaerp_chart").BetopiaERPChartDefinition} definition
  */
-export function insertChartInSpreadsheet(model, type = "BetopiaERP_bar", definition = {}) {
+export function insertChartInSpreadsheet(model, type = "betopiaerp_bar", definition = {}) {
     definition = { ...getChartDefinition(type), ...definition };
     model.dispatch("CREATE_CHART", {
         sheetId: model.getters.getActiveSheetId(),

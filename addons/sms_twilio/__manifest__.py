@@ -18,6 +18,6 @@ up their account to start sending SMS messages.
         'security/ir.model.access.csv'
     ],
     'installable': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { HootError, levenshtein, normalize, stringify, stringToNumber } from "../hoot_utils";
 

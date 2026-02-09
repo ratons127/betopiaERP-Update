@@ -1,5 +1,5 @@
-import { before, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, queryOne } from "@BetopiaERP/hoot-dom";
+import { before, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, queryOne } from "@betopiaerp/hoot-dom";
 import { setupInteractionWhiteList, startInteractions } from "@web/../tests/public/helpers";
 import {
     EmbeddedComponentInteraction,

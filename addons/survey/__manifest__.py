@@ -15,7 +15,7 @@ answers of question and according to that survey is done. Partners are also
 sent mails with personal token for the invitation of the survey.
     """,
     'summary': 'Send your surveys or share them live.',
-    'website': 'https://www.betopiaerp.com/app/surveys',
+    'website': 'https://www.BetopiaERP.com/app/surveys',
     'depends': [
         'auth_signup',
         'http_routing',
@@ -109,6 +109,6 @@ sent mails with personal token for the invitation of the survey.
             'survey/static/src/js/tours/survey_tour.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

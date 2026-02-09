@@ -154,7 +154,7 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
     def test_export_invoice_partner_dk(self):
         invoice = self.create_post_and_send_invoice()
         self.assertTrue(invoice.ubl_cii_xml_id)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_invoice_partner_dk.xml")
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_invoice_partner_dk.xml")
 
     @freeze_time('2017-01-01')
     def test_export_invoice_foreign_partner_be(self):
@@ -162,13 +162,13 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         self.company_data['company'].partner_id.peppol_endpoint = '0239843188'
         invoice = self.create_post_and_send_invoice(partner=self.partner_b)
         self.assertTrue(invoice.ubl_cii_xml_id)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_invoice_foreign_partner_be.xml")
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_invoice_foreign_partner_be.xml")
 
     @freeze_time('2017-01-01')
     def test_export_invoice_foreign_partner_fr(self):
         invoice = self.create_post_and_send_invoice(partner=self.partner_c)
         self.assertTrue(invoice.ubl_cii_xml_id)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_invoice_foreign_partner_fr.xml")
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_invoice_foreign_partner_fr.xml")
 
     @freeze_time('2017-01-01')
     def test_export_credit_note_partner_dk(self):
@@ -180,20 +180,20 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
 
         self._send_patched(refund)
         self.assertTrue(refund.ubl_cii_xml_id)
-        self._assert_invoice_attachment(refund.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_refund_partner_dk.xml")
+        self._assert_invoice_attachment(refund.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_refund_partner_dk.xml")
 
     @freeze_time('2017-01-01')
     def test_export_credit_note_partner_fr(self):
         refund = self.create_post_and_send_invoice(partner=self.partner_c, move_type='out_refund')
         self.assertTrue(refund.ubl_cii_xml_id)
-        self._assert_invoice_attachment(refund.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_refund_foreign_partner_fr.xml")
+        self._assert_invoice_attachment(refund.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_refund_foreign_partner_fr.xml")
 
     @freeze_time('2017-01-01')
     def test_oioubl_export_should_still_be_valid_when_currency_has_more_precision_digit(self):
         self.company_data['company'].currency_id.rounding = 0.001
         invoice = self.create_post_and_send_invoice()
         self.assertTrue(invoice.ubl_cii_xml_id)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_invoice_partner_dk.xml")
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_invoice_partner_dk.xml")
 
     @freeze_time('2017-01-01')
     def test_oioubl_export_import_with_discount(self):
@@ -218,7 +218,7 @@ class TestUBLDKOIOUBL21(TestUBLCommon, TestAccountMoveSendCommon):
         invoice.action_post()
         self._send_patched(invoice)
         self.assertTrue(invoice.ubl_cii_xml_id)
-        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_BetopiaERP/oioubl_out_invoice_discount.xml")
+        self._assert_invoice_attachment(invoice.ubl_cii_xml_id, xpaths=None, expected_file_path="from_betopiaerp/oioubl_out_invoice_discount.xml")
         new_invoice = invoice.journal_id._create_document_from_attachment(invoice.ubl_cii_xml_id.ids)
         self.assertRecordValues(new_invoice.invoice_line_ids, [line_vals])
 

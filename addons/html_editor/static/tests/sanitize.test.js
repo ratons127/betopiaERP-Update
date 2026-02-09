@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { markup } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { markup } from "@betopiaerp/owl";
 import { setupEditor, testEditor } from "./_helpers/editor";
 import { fixInvalidHTML } from "@html_editor/utils/sanitize";
 

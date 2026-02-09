@@ -117,7 +117,7 @@ class PaymentTransaction(models.Model):
             return super()._extract_amount_data(payment_data)
 
         # When a user declines to pay and leaves the payment page, no information
-        # is sent back to BetopiaERP via the endpoint. As such there is no currency or
+        # is sent back to betopiaerp via the endpoint. As such there is no currency or
         # amount set so we return early. This only occurs in the leaving flow so
         # no issue should arise leaving early.
         if not payment_data:

@@ -1,6 +1,6 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { press, queryAllTexts, queryOne, scroll } from "@BetopiaERP/hoot-dom";
-import { advanceFrame, animationFrame } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { press, queryAllTexts, queryOne, scroll } from "@betopiaerp/hoot-dom";
+import { advanceFrame, animationFrame } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineModels,
@@ -1568,7 +1568,7 @@ test("Open record on new window", async () => {
         'get current_state-{"actionStack":[{"displayName":"","model":"hr.employee","view_type":"hierarchy"}],"model":"hr.employee"}',
         'set current_action-{"res_model":"hr.employee","type":"ir.actions.act_window","views":[[false,"hierarchy"],[false,"form"]]}',
         'set current_state-{"actionStack":[{"displayName":"","model":"hr.employee","view_type":"hierarchy"},{"displayName":"","model":"hr.employee","view_type":"form","resId":2}],"resId":2,"model":"hr.employee"}',
-        "opened in new window: /BetopiaERP/hr.employee/hr.employee/2",
+        "opened in new window: /betopiaerp/hr.employee/hr.employee/2",
         'set current_action-{"res_model":"hr.employee","type":"ir.actions.act_window","views":[[false,"hierarchy"],[false,"form"]]}',
         'set current_state-{"actionStack":[{"displayName":"","model":"hr.employee","view_type":"hierarchy"}],"model":"hr.employee"}',
     ]);

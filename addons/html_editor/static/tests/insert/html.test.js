@@ -1,6 +1,6 @@
 import { parseHTML } from "@html_editor/utils/html";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { tick } from "@BetopiaERP/hoot-mock";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { tick } from "@betopiaerp/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { getContent } from "../_helpers/selection";

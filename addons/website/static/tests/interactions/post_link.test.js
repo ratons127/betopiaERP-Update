@@ -4,8 +4,8 @@ import {
     setupInteractionWhiteList,
 } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, click } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, click } from "@betopiaerp/hoot-dom";
 
 setupInteractionWhiteList("website.post_link");
 

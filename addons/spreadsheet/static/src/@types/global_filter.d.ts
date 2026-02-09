@@ -1,4 +1,4 @@
-import { Range, RangeData } from "@BetopiaERP/o-spreadsheet";
+import { Range, RangeData } from "@betopiaerp/o-spreadsheet";
 import { DomainListRepr } from "@web/core/domain";
 
 declare module "@spreadsheet" {

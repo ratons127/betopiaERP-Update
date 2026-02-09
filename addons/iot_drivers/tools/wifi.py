@@ -158,7 +158,7 @@ def reconnect(ssid=None, password=None, force_update=False):
     :return: True if reconnected successfully
     """
     if not force_update:
-        timer = time.time() + 10  # Required on boot: wait 10 sec (see: https://github.com/BetopiaERP/BetopiaERP/pull/187862)
+        timer = time.time() + 10  # Required on boot: wait 10 sec (see: https://github.com/betopiaerp/betopiaerp/pull/187862)
         while time.time() < timer:
             if get_ip():
                 if is_access_point():

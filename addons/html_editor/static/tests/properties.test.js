@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import {
     defineModels,
     fields,
@@ -12,7 +12,7 @@ import { htmlEditorVersions } from "@html_editor/html_migrations/html_migrations
 import { PropertyValue } from "@web/views/fields/properties/property_value";
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { queryOne } from "@betopiaerp/hoot-dom";
 
 const VERSIONS = htmlEditorVersions();
 const CURRENT_VERSION = VERSIONS.at(-1);
@@ -87,17 +87,17 @@ test("properties: html", async () => {
                 <field name="properties"/>
             </form>`,
     });
-    expect(`[name="properties"] .BetopiaERP-editor-editable`).toHaveCount(1);
-    expect(`[name="properties"] .BetopiaERP-editor-editable .o-paragraph`).toHaveInnerHTML(
+    expect(`[name="properties"] .betopiaerp-editor-editable`).toHaveCount(1);
+    expect(`[name="properties"] .betopiaerp-editor-editable .o-paragraph`).toHaveInnerHTML(
         "<b> test </b>"
     );
 
     setSelection({
-        anchorNode: queryOne(`[name="properties"] .BetopiaERP-editor-editable .o-paragraph b`),
+        anchorNode: queryOne(`[name="properties"] .betopiaerp-editor-editable .o-paragraph b`),
         anchorOffset: 0,
     });
     await insertText(editor, " foo");
-    expect(`[name="properties"] .BetopiaERP-editor-editable .o-paragraph`).toHaveInnerHTML(
+    expect(`[name="properties"] .betopiaerp-editor-editable .o-paragraph`).toHaveInnerHTML(
         "<b> foo test </b>"
     );
 
@@ -105,7 +105,7 @@ test("properties: html", async () => {
     // Blur to show the save button.
     await contains(".o_field_property_label").click();
     await contains(".o_form_button_save").click();
-    expect(`[name="properties"] .BetopiaERP-editor-editable .o-paragraph`).toHaveInnerHTML(
+    expect(`[name="properties"] .betopiaerp-editor-editable .o-paragraph`).toHaveInnerHTML(
         "<b> foo test </b>"
     );
 });
@@ -130,8 +130,8 @@ test("properties: html migration", async () => {
                 <field name="properties"/>
             </form>`,
     });
-    expect(`[name="properties"] .BetopiaERP-editor-editable`).toHaveCount(1);
-    expect(`[name="properties"] .BetopiaERP-editor-editable a[href*="excalidraw.com"]`).toHaveCount(1);
+    expect(`[name="properties"] .betopiaerp-editor-editable`).toHaveCount(1);
+    expect(`[name="properties"] .betopiaerp-editor-editable a[href*="excalidraw.com"]`).toHaveCount(1);
     expect(component.editor.getContent()).toBe(
         `<p data-oe-version="${CURRENT_VERSION}">Hello World</p><p><a href="https://excalidraw.com">https://excalidraw.com</a></p>`
     );
@@ -149,7 +149,7 @@ test("properties: html readonly", async () => {
                 <field name="properties" readonly="1"/>
             </form>`,
     });
-    expect(".BetopiaERP-editor-editable").toHaveCount(0);
+    expect(".betopiaerp-editor-editable").toHaveCount(0);
     expect(`[name="properties"] .o_readonly`).toHaveCount(1);
     expect(`[name="properties"] iframe`).toHaveCount(1);
 });

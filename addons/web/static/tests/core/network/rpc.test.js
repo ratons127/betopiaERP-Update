@@ -1,6 +1,6 @@
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
-import { on } from "@BetopiaERP/hoot-dom";
-import { mockFetch } from "@BetopiaERP/hoot-mock";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
+import { on } from "@betopiaerp/hoot-dom";
+import { mockFetch } from "@betopiaerp/hoot-mock";
 
 import {
     ConnectionAbortedError,

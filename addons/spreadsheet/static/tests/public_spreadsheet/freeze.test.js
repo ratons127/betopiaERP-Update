@@ -1,5 +1,5 @@
-import { animationFrame, describe, expect, test } from "@BetopiaERP/hoot";
-import { registries } from "@BetopiaERP/o-spreadsheet";
+import { animationFrame, describe, expect, test } from "@betopiaerp/hoot";
+import { registries } from "@betopiaerp/o-spreadsheet";
 import { createSpreadsheetWithChart } from "@spreadsheet/../tests/helpers/chart";
 import {
     addGlobalFilter,
@@ -16,7 +16,7 @@ import { THIS_YEAR_GLOBAL_FILTER } from "@spreadsheet/../tests/helpers/global_fi
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { createSpreadsheetWithPivot } from "@spreadsheet/../tests/helpers/pivot";
 import { freezeBetopiaERPData, waitForDataLoaded } from "@spreadsheet/helpers/model";
-import { BetopiaERPPivot, BetopiaERPPivotRuntimeDefinition } from "@spreadsheet/pivot/BetopiaERP_pivot";
+import { BetopiaERPPivot, BetopiaERPPivotRuntimeDefinition } from "@spreadsheet/pivot/betopiaerp_pivot";
 
 const { pivotRegistry } = registries;
 
@@ -26,7 +26,7 @@ import { createSpreadsheetWithList } from "../helpers/list";
 describe.current.tags("headless");
 defineSpreadsheetModels();
 
-test("BetopiaERP pivot functions are replaced with their value", async function () {
+test("betopiaerp pivot functions are replaced with their value", async function () {
     const { model } = await createSpreadsheetWithPivot({ pivotType: "static" });
     expect(getCell(model, "A3").content).toBe('=PIVOT.HEADER(1,"bar",FALSE)');
     expect(getCell(model, "C3").content).toBe(
@@ -41,8 +41,8 @@ test("BetopiaERP pivot functions are replaced with their value", async function 
     expect(data.formats[data.sheets[0].formats.C3]).toBe("#,##0.00");
 });
 
-test("Pivot with a type different of BetopiaERP is not converted", async function () {
-    // Add a pivot with a type different of BetopiaERP
+test("Pivot with a type different of BETOPIAERP is not converted", async function () {
+    // Add a pivot with a type different of BETOPIAERP
     pivotRegistry.add("NEW_KIND_OF_PIVOT", {
         ui: BetopiaERPPivot,
         definition: BetopiaERPPivotRuntimeDefinition,
@@ -109,7 +109,7 @@ test("invalid expression with pivot function", async function () {
     });
 });
 
-test("BetopiaERP pivot functions detection is not case sensitive", async function () {
+test("betopiaerp pivot functions detection is not case sensitive", async function () {
     const { model } = await createSpreadsheetWithPivot();
     setCellContent(model, "A1", '=pivot.value(1,"probability:avg")');
     const data = await freezeBetopiaERPData(model);
@@ -137,8 +137,8 @@ test("computed format is exported", async function () {
     expect(getCell(sharedModel, "A1").format).toBe("#,##0.00[$€]");
 });
 
-test("BetopiaERP charts are replaced with an image", async function () {
-    const { model } = await createSpreadsheetWithChart({ type: "BetopiaERP_bar" });
+test("betopiaerp charts are replaced with an image", async function () {
+    const { model } = await createSpreadsheetWithChart({ type: "betopiaerp_bar" });
     const data = await freezeBetopiaERPData(model);
     expect(data.sheets[0].figures.length).toBe(1);
     expect(data.sheets[0].figures[0].tag).toBe("image");
@@ -170,8 +170,8 @@ test("geo charts are replaced with an image", async function () {
     expect(data.sheets[0].figures[0].tag).toBe("image");
 });
 
-test("Carousels figure with BetopiaERP data is converted to an image", async function () {
-    const { model } = await createSpreadsheetWithChart({ type: "BetopiaERP_bar" });
+test("Carousels figure with betopiaerp data is converted to an image", async function () {
+    const { model } = await createSpreadsheetWithChart({ type: "betopiaerp_bar" });
     const sheetId = model.getters.getActiveSheetId();
     const chartFigureId = model.getters.getFigures(sheetId)[0].id;
     createCarousel(model, { items: [] }, "carouselId");
@@ -264,18 +264,18 @@ test("from/to global filter without value is exported", async function () {
     expect(data.globalFilters[0].value).toBe("");
 });
 
-test("Empty BetopiaERP.LIST result is frozen to an empty string", async function () {
+test("Empty BETOPIAERP.LIST result is frozen to an empty string", async function () {
     const { model } = await createSpreadsheetWithList();
-    setCellContent(model, "A1", '=BetopiaERP.LIST(1, 9999,"probability")'); // has no record
+    setCellContent(model, "A1", '=BETOPIAERP.LIST(1, 9999,"probability")'); // has no record
     await waitForDataLoaded(model);
     expect(getEvaluatedCell(model, "A1").value).toBe("");
     const frozenData = await freezeBetopiaERPData(model);
     expect(frozenData.sheets[0].cells.A1).toBe('=""');
 });
 
-test("BetopiaERP links are replaced with their label", async function () {
+test("betopiaerp links are replaced with their label", async function () {
     const view = {
-        name: "an BetopiaERP view",
+        name: "an betopiaerp view",
         viewType: "list",
         action: {
             modelName: "partner",
@@ -286,10 +286,10 @@ test("BetopiaERP links are replaced with their label", async function () {
         sheets: [
             {
                 cells: {
-                    A1: "[menu_xml](BetopiaERP://ir_menu_xml_id/test_menu)",
-                    A2: "[menu_id](BetopiaERP://ir_menu_id/12)",
-                    A3: `[BetopiaERP_view](BetopiaERP://view/${JSON.stringify(view)})`,
-                    A4: "[external_link](https://BetopiaERP.com)",
+                    A1: "[menu_xml](betopiaerp://ir_menu_xml_id/test_menu)",
+                    A2: "[menu_id](betopiaerp://ir_menu_id/12)",
+                    A3: `[betopiaerp_view](betopiaerp://view/${JSON.stringify(view)})`,
+                    A4: "[external_link](https://betopiaerp.com)",
                     A5: "[internal_link](o-spreadsheet://Sheet1)",
                 },
             },
@@ -303,8 +303,8 @@ test("BetopiaERP links are replaced with their label", async function () {
     const frozenData = await freezeBetopiaERPData(model);
     expect(frozenData.sheets[0].cells.A1).toBe("menu_xml");
     expect(frozenData.sheets[0].cells.A2).toBe("menu_id");
-    expect(frozenData.sheets[0].cells.A3).toBe("BetopiaERP_view");
-    expect(frozenData.sheets[0].cells.A4).toBe("[external_link](https://BetopiaERP.com)");
+    expect(frozenData.sheets[0].cells.A3).toBe("betopiaerp_view");
+    expect(frozenData.sheets[0].cells.A4).toBe("[external_link](https://betopiaerp.com)");
     expect(frozenData.sheets[0].cells.A5).toBe("[internal_link](o-spreadsheet://Sheet1)");
 });
 

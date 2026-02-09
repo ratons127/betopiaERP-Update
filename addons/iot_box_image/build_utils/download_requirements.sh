@@ -17,12 +17,12 @@ read -p "Enter dev branch [${current_branch}]: " VERSION
 VERSION=${VERSION:-$current_branch}
 
 current_remote=$(git config branch.$current_branch.remote)
-current_repo="$(git remote get-url $current_remote | sed 's/.*github.com[\/:]//' | sed 's/\/BetopiaERP.git//')"
+current_repo="$(git remote get-url $current_remote | sed 's/.*github.com[\/:]//' | sed 's/\/betopiaerp.git//')"
 read -p "Enter repo [${current_repo}]: " REPO
-REPO="https://github.com/${REPO:-$current_repo}/BetopiaERP.git"
+REPO="https://github.com/${REPO:-$current_repo}/betopiaerp.git"
 echo "Using repo: ${REPO}"
 
-CLONE_DIR="${OVERWRITE_FILES_BEFORE_INIT_DIR}/home/pi/BetopiaERP"
+CLONE_DIR="${OVERWRITE_FILES_BEFORE_INIT_DIR}/home/pi/betopiaerp"
 if [ ! -d "$CLONE_DIR" ]; then
     echo "Clone GitHub repo"
     mkdir -pv "${CLONE_DIR}"
@@ -31,7 +31,7 @@ if [ ! -d "$CLONE_DIR" ]; then
     git config core.sparsecheckout true
     tee -a .git/info/sparse-checkout < "${BUILD_UTILS_DIR}/sparse-checkout" > /dev/null
     git read-tree -mu HEAD
-    git remote set-url origin "https://github.com/BetopiaERP/BetopiaERP.git" # ensure remote is the original repo
+    git remote set-url origin "https://github.com/betopiaerp/betopiaerp.git" # ensure remote is the original repo
 fi
 cd "${__dir}"
 

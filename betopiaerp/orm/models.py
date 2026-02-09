@@ -2207,7 +2207,7 @@ class BaseModel(metaclass=MetaModel):
 
                                | week starts on
                            SQL | mon   sun   sat
-                               |  1  |  7  |  6   <-- first_week_day (in BetopiaERP)
+                               |  1  |  7  |  6   <-- first_week_day (in betopiaerp)
                           -----|-----------------
                     mon     1  |  0  |  1  |  2
                     tue     2  |  1  |  2  |  3

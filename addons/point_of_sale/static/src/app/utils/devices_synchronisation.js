@@ -45,8 +45,8 @@ export default class DevicesSynchronisation {
 
         logPosMessage("Synchronisation", "dispatch", "Disptaching synchronization", CONSOLE_COLOR);
         await this.pos.data.call("pos.config", "notify_synchronisation", [
-            BetopiaERP.pos_config_id,
-            BetopiaERP.pos_session_id,
+            betopiaerp.pos_config_id,
+            betopiaerp.pos_session_id,
             this.pos.device.identifier,
             recordIds,
         ]);
@@ -64,7 +64,7 @@ export default class DevicesSynchronisation {
     async collect(data) {
         const { static_records, session_id, device_identifier } = data;
         const isSameDevice =
-            BetopiaERP.pos_session_id != session_id || device_identifier == this.pos.device.identifier;
+            betopiaerp.pos_session_id != session_id || device_identifier == this.pos.device.identifier;
 
         logPosMessage(
             "Synchronisation",
@@ -95,7 +95,7 @@ export default class DevicesSynchronisation {
         let response = {};
         try {
             response = await this.pos.data.call("pos.config", "read_config_open_orders", [
-                BetopiaERP.pos_config_id,
+                betopiaerp.pos_config_id,
                 domain,
                 recordIds,
             ]);
@@ -127,7 +127,7 @@ export default class DevicesSynchronisation {
             const res = await this.processDynamicRecords(dynamicR);
             if (res && res["pos.order"]) {
                 const config = this.pos.config;
-                const session = this.models["pos.session"].get(BetopiaERP.pos_session_id);
+                const session = this.models["pos.session"].get(betopiaerp.pos_session_id);
 
                 for (const order of res["pos.order"]) {
                     // Clear commands

@@ -1,5 +1,5 @@
-import { before, expect } from "@BetopiaERP/hoot";
-import { queryAllTexts, queryOne } from "@BetopiaERP/hoot-dom";
+import { before, expect } from "@betopiaerp/hoot";
+import { queryAllTexts, queryOne } from "@betopiaerp/hoot-dom";
 import { contains, findComponent, preloadBundle } from "@web/../tests/web_test_helpers";
 
 import { ensureArray } from "@web/core/utils/arrays";

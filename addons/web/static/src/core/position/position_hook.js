@@ -8,7 +8,7 @@ import {
     useComponent,
     useEffect,
     useRef,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 
 /**
  * @typedef {import("@web/core/position/utils").ComputePositionOptions} ComputePositionOptions

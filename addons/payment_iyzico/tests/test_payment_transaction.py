@@ -54,7 +54,7 @@ class TestPaymentTransaction(IyzicoCommon, PaymentHttpCommon):
             'currency': tx.currency_id.name,
             'locale': 'tr' if tx.env.lang == 'tr_TR' else 'en',
             'paidPrice': tx.amount,
-            'paymentSource': 'BetopiaERP',
+            'paymentSource': 'BETOPIAERP',
             'price': tx.amount,
         })
 

@@ -1,4 +1,4 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
 import { isNil, stringToNumber } from "../hoot_utils";
 

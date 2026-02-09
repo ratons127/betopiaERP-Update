@@ -18,9 +18,9 @@ class TestWebRedirect(HttpCase):
         self.assertEqual(response_url_query, 'redirect=%2Fweb%3F')
 
     def test_web_route_redirect_param(self):
-        # This test if for the new routes with /BetopiaERP, pathname and query params
-        web_response = self.url_open('/BetopiaERP/action-887?cids=1')
+        # This test if for the new routes with /betopiaerp, pathname and query params
+        web_response = self.url_open('/betopiaerp/action-887?cids=1')
         web_response.raise_for_status()
         response_url_query = url_parse(web_response.url).query
 
-        self.assertEqual(response_url_query, 'redirect=%2FBetopiaERP%2Faction-887%3Fcids%3D1')
+        self.assertEqual(response_url_query, 'redirect=%2Fbetopiaerp%2Faction-887%3Fcids%3D1')

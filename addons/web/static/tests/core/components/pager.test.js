@@ -1,8 +1,8 @@
-import { test, expect } from "@BetopiaERP/hoot";
-import { Deferred, animationFrame, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { click, press } from "@BetopiaERP/hoot-dom";
+import { test, expect } from "@betopiaerp/hoot";
+import { Deferred, animationFrame, runAllTimers } from "@betopiaerp/hoot-mock";
+import { click, press } from "@betopiaerp/hoot-dom";
 import { Pager } from "@web/core/pager/pager";
-import { Component, useState, xml } from "@BetopiaERP/owl";
+import { Component, useState, xml } from "@betopiaerp/owl";
 import { contains, mountWithCleanup, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { config as transitionConfig } from "@web/core/transition";
 

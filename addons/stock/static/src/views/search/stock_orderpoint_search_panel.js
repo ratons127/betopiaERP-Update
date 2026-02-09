@@ -1,5 +1,5 @@
 import { useService } from "@web/core/utils/hooks";
-import { onWillStart, useState } from '@BetopiaERP/owl';
+import { onWillStart, useState } from '@betopiaerp/owl';
 import { SearchPanel } from "@web/search/search_panel/search_panel";
 
 

@@ -5,7 +5,7 @@
     'name': "MRP Subcontracting",
     'version': '0.1',
     'summary': "Subcontract Productions",
-    'website': 'https://www.betopiaerp.com/app/manufacturing',
+    'website': 'https://www.BetopiaERP.com/app/manufacturing',
     'category': 'Supply Chain/Manufacturing',
     'depends': ['mrp'],
     'data': [
@@ -47,7 +47,7 @@
             'web/static/lib/bootstrap/scss/_maps.scss',
 
             'web/static/src/libs/fontawesome/css/font-awesome.css',
-            'web/static/lib/BetopiaERP_ui_icons/*',
+            'web/static/lib/betopiaerp_ui_icons/*',
             'web/static/src/webclient/navbar/navbar.scss',
             'web/static/src/scss/animation.scss',
             'web/static/src/core/color_picker/color_picker.scss',
@@ -61,7 +61,7 @@
 
             'web/static/lib/luxon/luxon.js',
             'web/static/lib/owl/owl.js',
-            'web/static/lib/owl/BetopiaERP_module.js',
+            'web/static/lib/owl/betopiaerp_module.js',
             'web/static/lib/jquery/jquery.js',
             'web/static/lib/popper/popper.js',
             'web/static/lib/bootstrap/js/dist/util/index.js',
@@ -140,6 +140,6 @@
         ],
     },
     'uninstall_hook': 'uninstall_hook',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

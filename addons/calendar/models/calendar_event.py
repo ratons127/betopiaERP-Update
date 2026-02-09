@@ -980,7 +980,7 @@ class CalendarEvent(models.Model):
             return {
                 'type': 'ir.actions.act_url',
                 'target': 'self',
-                'url': '/BetopiaERP/calendar'
+                'url': '/betopiaerp/calendar'
             }
 
         template = self.env.ref('calendar.calendar_template_delete_event', raise_if_not_found=False)
@@ -1653,13 +1653,13 @@ class CalendarEvent(models.Model):
         """Build sanitized HTML with the organizer details and the details
         of the contact partner (the first partner which is not the organizer).
         """
-        BetopiaERPbot = self.env.ref('base.user_root')
+        betopiaerpbot = self.env.ref('base.user_root')
         contact_description = []
         # Organizer
-        if organizer and organizer != BetopiaERPbot:
+        if organizer and organizer != betopiaerpbot:
             contact_description.extend(self._prepare_partner_contact_details_html(_("Organized by"), organizer.partner_id))
         # First contact partner
-        first_partner = partners.filtered(lambda partner: partner not in (BetopiaERPbot.partner_id + organizer.partner_id))[:1]
+        first_partner = partners.filtered(lambda partner: partner not in (betopiaerpbot.partner_id + organizer.partner_id))[:1]
         if first_partner:
             if contact_description:
                 contact_description.append("")  # To add a blank line between the organizer and partner details

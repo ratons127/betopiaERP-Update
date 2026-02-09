@@ -1,7 +1,7 @@
 from betopiaerp.tests.common import TransactionCase, new_test_user
 
 
-class TestTBetopiaERPnboardingUsers(TransactionCase):
+class TestTodoOnboardingUsers(TransactionCase):
     """Test personal stages onboarding and onboarding task creation for project_todo."""
 
     def test_onboarding_stages_and_task_created_for_new_users(self):

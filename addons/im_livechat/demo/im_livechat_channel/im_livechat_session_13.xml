@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BetopiaERP>
+<betopiaerp>
     <data>
         <record id="livechat_channel_session_13" model="discuss.channel">
             <field name="name">Visiteur, Mitchell Admin</field>
@@ -80,4 +80,4 @@
         <function model="discuss.channel" name="rating_apply"
             eval="([ref('im_livechat.livechat_channel_session_13')], 1, 'LIVECHAT_13', None, 'Personne ne m\'a répondu!')"/>
     </data>
-</BetopiaERP>
+</betopiaerp>

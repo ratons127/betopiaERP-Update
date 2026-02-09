@@ -39,7 +39,7 @@ class TestHttpCase(HttpCase):
         self.assertIn('TypeError: test error message\n    at <anonymous>:1:15', log_catcher.output[0])
 
     def test_console_log_object(self):
-        logger = logging.getLogger('BetopiaERP')
+        logger = logging.getLogger('betopiaerp')
         level = logger.level
         logger.setLevel(logging.INFO)
         self.addCleanup(logger.setLevel, level)

@@ -1,4 +1,4 @@
-import { Component, onMounted, onWillDestroy, useRef, useSubEnv } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillDestroy, useRef, useSubEnv } from "@betopiaerp/owl";
 import { Editor } from "./editor";
 import { Toolbar } from "./main/toolbar/toolbar";
 import { useChildRef, useSpellCheck } from "@web/core/utils/hooks";

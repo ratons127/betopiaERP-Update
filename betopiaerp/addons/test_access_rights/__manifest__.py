@@ -8,6 +8,6 @@
         'security.xml',
         'data.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

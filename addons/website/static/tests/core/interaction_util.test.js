@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { Interaction } from "@web/public/interaction";
 import { buildEditableInteractions } from "@website/core/website_edit_service";
 

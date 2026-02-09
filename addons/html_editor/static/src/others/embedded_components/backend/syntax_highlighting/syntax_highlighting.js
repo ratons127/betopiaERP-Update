@@ -3,7 +3,7 @@ import {
     StateChangeManager,
     useEmbeddedState,
 } from "@html_editor/others/embedded_component_utils";
-import { Component, onMounted, onWillStart, useEffect, useRef, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, useEffect, useRef, useState } from "@betopiaerp/owl";
 import { loadBundle } from "@web/core/assets";
 import { cookie } from "@web/core/browser/cookie";
 import {

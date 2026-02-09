@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, test } from "@BetopiaERP/hoot";
-import { click, queryAllAttributes, queryAllProperties, queryAllTexts } from "@BetopiaERP/hoot-dom";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { beforeEach, describe, expect, test } from "@betopiaerp/hoot";
+import { click, queryAllAttributes, queryAllProperties, queryAllTexts } from "@betopiaerp/hoot-dom";
+import { animationFrame } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import {
     clearRegistry,
     contains,
@@ -19,7 +19,7 @@ import { user } from "@web/core/user";
 import { getOrigin } from "@web/core/utils/urls";
 
 import { UserMenu } from "@web/webclient/user_menu/user_menu";
-import { BetopiaERPAccountItem, preferencesItem } from "@web/webclient/user_menu/user_menu_items";
+import { betopiaerpAccountItem, preferencesItem } from "@web/webclient/user_menu/user_menu_items";
 
 const userMenuRegistry = registry.category("user_menuitems");
 
@@ -150,11 +150,11 @@ test("can execute the callback of settings", async () => {
     expect.verifySteps(["7", "Change My Preferences"]);
 });
 
-test("click on BetopiaERP account item", async () => {
+test("click on betopiaerp account item", async () => {
     patchWithCleanup(browser, {
         open: (url) => expect.step(`open ${url}`),
     });
-    userMenuRegistry.add("BetopiaERP_account", BetopiaERPAccountItem);
+    userMenuRegistry.add("betopiaerp_account", betopiaerpAccountItem);
     await mountWithCleanup(UserMenu);
     onRpc("/web/session/account", () => "https://account-url.com");
     stepAllNetworkCalls();

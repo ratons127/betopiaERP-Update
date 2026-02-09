@@ -1,4 +1,4 @@
-import { before, withFetch } from "@BetopiaERP/hoot";
+import { before, withFetch } from "@betopiaerp/hoot";
 import { loadBundle } from "@web/core/assets";
 import * as _fields from "./_framework/mock_server/mock_fields";
 import * as _models from "./_framework/mock_server/mock_model";
@@ -171,11 +171,11 @@ export function preloadBundle(bundleName, options) {
     const once = options?.once || false;
     before(async function preloadBundle() {
         if (once) {
-            BetopiaERP.loader.preventGlobalDefine = true;
+            betopiaerp.loader.preventGlobalDefine = true;
         }
         await withFetch(globalCachedFetch, () => loadBundle(bundleName));
         if (once) {
-            BetopiaERP.loader.preventGlobalDefine = false;
+            betopiaerp.loader.preventGlobalDefine = false;
         }
     });
 }

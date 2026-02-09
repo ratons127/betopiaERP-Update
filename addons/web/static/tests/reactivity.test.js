@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { reactive, toRaw } from "@BetopiaERP/owl";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { reactive, toRaw } from "@betopiaerp/owl";
 
 const {
     DateTime,

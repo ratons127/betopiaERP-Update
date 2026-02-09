@@ -38,6 +38,6 @@ Coupon & promotion programs can be edited in the Catalog menu of the Website app
             'website_sale_loyalty/static/src/website_builder/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

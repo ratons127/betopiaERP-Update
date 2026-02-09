@@ -1,4 +1,4 @@
-import { Component, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { Component, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { OptionsContainer } from "./option_container";
 import { useVisibilityObserver } from "../core/utils";
 import { CustomizeComponent } from "@html_builder/sidebar/customize_component";

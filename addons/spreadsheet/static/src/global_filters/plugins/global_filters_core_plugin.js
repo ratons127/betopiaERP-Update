@@ -289,7 +289,7 @@ export class GlobalFiltersCorePlugin extends BetopiaERPCorePlugin {
     // ---------------------------------------------------------------------
 
     /**
-     * Update all BetopiaERP.FILTER.VALUE formulas to reference a filter
+     * Update all BETOPIAERP.FILTER.VALUE formulas to reference a filter
      * by its new label.
      *
      * @param {string} currentLabel

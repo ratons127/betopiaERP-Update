@@ -7,7 +7,7 @@ import { isBinarySize } from "@web/core/utils/binary";
 import { FileUploader } from "../file_handler";
 import { standardFieldProps } from "../standard_field_props";
 
-import { Component, useState, onWillRender } from "@BetopiaERP/owl";
+import { Component, useState, onWillRender } from "@betopiaerp/owl";
 const { DateTime } = luxon;
 
 export const fileTypeMagicWordMap = {

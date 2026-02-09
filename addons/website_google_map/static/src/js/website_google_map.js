@@ -3,7 +3,7 @@ function initialize_map() {
     'use strict';
 
     // MAP CONFIG AND LOADING
-    var map = new google.maps.Map(document.getElementById('BetopiaERP-google-map'), {
+    var map = new google.maps.Map(document.getElementById('betopiaerp-google-map'), {
         zoom: 1,
         center: {lat: 0.0, lng: 0.0},
         mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -83,12 +83,12 @@ function initialize_map() {
 
 
     /* eslint-disable no-undef */
-    async function initializeMarkers(BetopiaERPPartnerData) {
+    async function initializeMarkers(betopiaerpPartnerData) {
         // Create the markers and cluster them on the map
-        if (BetopiaERPPartnerData) { /* BetopiaERP_partner_data special variable should have been defined in google_map.xml */
+        if (betopiaerpPartnerData) { /* betopiaerp_partner_data special variable should have been defined in google_map.xml */
             const markerPromises = [];
-            for (var i = 0; i < BetopiaERP_partner_data.counter; i++) {
-                const prom = set_marker(BetopiaERP_partner_data.partners[i])
+            for (var i = 0; i < betopiaerp_partner_data.counter; i++) {
+                const prom = set_marker(betopiaerp_partner_data.partners[i])
                     .catch(error => console.error(error));
                 markerPromises.push(prom);
             }
@@ -105,7 +105,7 @@ function initialize_map() {
     }
 
     // Call the function to initialize markers
-    initializeMarkers(BetopiaERP_partner_data);
+    initializeMarkers(betopiaerp_partner_data);
     /* eslint-enable no-undef */
 }
 

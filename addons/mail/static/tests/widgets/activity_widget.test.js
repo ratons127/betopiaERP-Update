@@ -8,8 +8,8 @@ import {
     startServer,
     waitStoreFetch,
 } from "@mail/../tests/mail_test_helpers";
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { Deferred, tick } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { Deferred, tick } from "@betopiaerp/hoot-dom";
 import {
     asyncStep,
     onRpc,

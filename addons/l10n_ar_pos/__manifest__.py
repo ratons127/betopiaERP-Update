@@ -25,6 +25,6 @@ Install this if you are using the Point of Sale app in Argentina.
     },
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

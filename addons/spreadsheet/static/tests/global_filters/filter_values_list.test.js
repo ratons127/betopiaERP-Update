@@ -1,13 +1,13 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click, edit, queryAllTexts } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click, edit, queryAllTexts } from "@betopiaerp/hoot-dom";
 import { defineSpreadsheetModels } from "@spreadsheet/../tests/helpers/data";
 import { contains, makeMockEnv, mountWithCleanup, onRpc } from "@web/../tests/web_test_helpers";
 
-import { Model } from "@BetopiaERP/o-spreadsheet";
+import { Model } from "@betopiaerp/o-spreadsheet";
 import { addGlobalFilter } from "@spreadsheet/../tests/helpers/commands";
 
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
-import { Component, onWillUnmount, xml } from "@BetopiaERP/owl";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
+import { Component, onWillUnmount, xml } from "@betopiaerp/owl";
 import { FilterValuesList } from "@spreadsheet/global_filters/components/filter_values_list/filter_values_list";
 
 describe.current.tags("headless");
@@ -46,7 +46,7 @@ async function mountFilterValuesList(env, props) {
 
 test("basic text filter", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -59,7 +59,7 @@ test("basic text filter", async function () {
 
 test("Edit filter is displayed when the props openFiltersEditor is set", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await mountFilterValuesList(env, {
         model,
         openFiltersEditor: () => {},
@@ -69,7 +69,7 @@ test("Edit filter is displayed when the props openFiltersEditor is set", async f
 
 test("filter search dialog with no active filters", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -82,7 +82,7 @@ test("filter search dialog with no active filters", async function () {
 
 test("filter search dialog with active filters", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -96,7 +96,7 @@ test("filter search dialog with active filters", async function () {
 
 test("Can set a text filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -118,7 +118,7 @@ test("Can set a text filter value", async function () {
 
 test("Can set a numeric filter value with basic operator", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "numeric",
@@ -140,7 +140,7 @@ test("Can set a numeric filter value with basic operator", async function () {
 
 test("Can set a numeric filter value with between operator", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "numeric",
@@ -163,7 +163,7 @@ test("Can set a numeric filter value with between operator", async function () {
 
 test("Can set a relation filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -189,7 +189,7 @@ test("Can set a relation filter value", async function () {
 
 test("Can remove a default relation filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -207,7 +207,7 @@ test("Can remove a default relation filter value", async function () {
 
 test("Default value for relation filter is correctly displayed", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -222,7 +222,7 @@ test("Default value for relation filter is correctly displayed", async function 
 
 test("Can change a boolean filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "boolean",
@@ -241,7 +241,7 @@ test("Can change a boolean filter value", async function () {
 
 test("Can set a date filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     const label = "Date Filter";
     await addGlobalFilter(model, {
         id: "42",
@@ -261,7 +261,7 @@ test("Can set a date filter value", async function () {
 
 test("Readonly user can update a filter value", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -279,7 +279,7 @@ test("Readonly user can update a filter value", async function () {
 
 test("Can clear a filter value removing the values manually", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -298,7 +298,7 @@ test("Can clear a filter value removing the values manually", async function () 
 
 test("Can clear a filter value with the clear button", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -315,7 +315,7 @@ test("Can clear a filter value with the clear button", async function () {
 
 test("clearing a filter value preserves the operator", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",
@@ -343,7 +343,7 @@ test("clearing a filter value preserves the operator", async function () {
 test("Relational global filter with no parent/child model do not have the child of operator", async function () {
     onRpc("ir.model", "has_searchable_parent_relation", () => ({ partner: false }));
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -358,7 +358,7 @@ test("Relational global filter with no parent/child model do not have the child 
 test("Relational global filter with a parent/child model adds the child of operator", async function () {
     onRpc("ir.model", "has_searchable_parent_relation", () => ({ partner: true }));
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -372,7 +372,7 @@ test("Relational global filter with a parent/child model adds the child of opera
 
 test(`Relational global filter with "set" operator doesn't have a record selector input`, async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -387,7 +387,7 @@ test(`Relational global filter with "set" operator doesn't have a record selecto
 test("relational global filter operator options", async function () {
     onRpc("ir.model", "has_searchable_parent_relation", () => ({ partner: true }));
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "relation",
@@ -409,7 +409,7 @@ test("relational global filter operator options", async function () {
 
 test("text global filter operator options", async function () {
     const env = await makeMockEnv();
-    const model = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const model = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     await addGlobalFilter(model, {
         id: "42",
         type: "text",

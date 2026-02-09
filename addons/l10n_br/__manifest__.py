@@ -2,7 +2,7 @@
 {
     'name': 'Brazilian - Accounting',
     'version': '1.1',
-    'website': 'https://www.betopiaerp.com/documentation/latest/applications/finance/fiscal_localizations/brazil.html',
+    'website': 'https://www.BetopiaERP.com/documentation/latest/applications/finance/fiscal_localizations/brazil.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['br'],
     'category': 'Accounting/Localizations/Account Charts',

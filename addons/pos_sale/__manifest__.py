@@ -38,6 +38,6 @@ This module adds a custom Sales Team for the Point of Sale. This enables you to 
         ],
     },
     'post_init_hook': '_pos_sale_post_init',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

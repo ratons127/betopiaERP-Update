@@ -679,7 +679,7 @@ class HTML_Editor(http.Controller):
             if not (
                 last_segment.isnumeric()
                 and (
-                    parsed_preview_url.path.startswith("/BetopiaERP")
+                    parsed_preview_url.path.startswith("/betopiaerp")
                     or parsed_preview_url.path.startswith("/web")
                     or parsed_preview_url.path.startswith("/@/")
                 )
@@ -694,7 +694,7 @@ class HTML_Editor(http.Controller):
             record_id = int(words.pop())
             action_name = words.pop()
             if (action_name.startswith('m-') or '.' in action_name) and action_name in request.env and not request.env[action_name]._abstract:
-                # if path format is `BetopiaERP/<model>/<record_id>` so we use `action_name` as model name
+                # if path format is `betopiaerp/<model>/<record_id>` so we use `action_name` as model name
                 model_name = action_name.removeprefix('m-')
                 model = request.env[model_name].with_context(context)
             else:

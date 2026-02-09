@@ -43,14 +43,14 @@ while true; do
         continue
     fi
 
-    if ! systemctl is-active --quiet BetopiaERP.service; then
+    if ! systemctl is-active --quiet betopiaerp.service; then
         # BetopiaERP service is not running: Red ON, Green OFF
         led_constant "$RED_LED"
         led_off "$GREEN_LED"
         continue
     fi
 
-    if grep -q "remote_server" /home/pi/BetopiaERP.conf 2>/dev/null; then
+    if grep -q "remote_server" /home/pi/betopiaerp.conf 2>/dev/null; then
         # Paired with database: Green ON, Red OFF
         led_constant "$GREEN_LED"
         led_off "$RED_LED"

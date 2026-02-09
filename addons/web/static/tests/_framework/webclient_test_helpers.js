@@ -1,5 +1,5 @@
-import { animationFrame } from "@BetopiaERP/hoot";
-import { Component, xml } from "@BetopiaERP/owl";
+import { animationFrame } from "@betopiaerp/hoot";
+import { Component, xml } from "@betopiaerp/owl";
 import { registry } from "@web/core/registry";
 import { WebClient } from "@web/webclient/webclient";
 import { mountWithCleanup } from "./component_test_helpers";

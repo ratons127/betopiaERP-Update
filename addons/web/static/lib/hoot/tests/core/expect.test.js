@@ -1,8 +1,8 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { describe, expect, makeExpect, test } from "@BetopiaERP/hoot";
-import { check, manuallyDispatchProgrammaticEvent, tick, waitFor } from "@BetopiaERP/hoot-dom";
-import { Component, xml } from "@BetopiaERP/owl";
+import { describe, expect, makeExpect, test } from "@betopiaerp/hoot";
+import { check, manuallyDispatchProgrammaticEvent, tick, waitFor } from "@betopiaerp/hoot-dom";
+import { Component, xml } from "@betopiaerp/owl";
 import { mountForTest, parseUrl } from "../local_helpers";
 
 import { Test } from "../../core/test";

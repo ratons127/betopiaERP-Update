@@ -1,9 +1,9 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
-import { Model, components } from "@BetopiaERP/o-spreadsheet";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-dom";
+import { Model, components } from "@betopiaerp/o-spreadsheet";
 import { createBasicChart } from "@spreadsheet/../tests/helpers/commands";
 import { makeSpreadsheetMockEnv } from "@spreadsheet/../tests/helpers/model";
-import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/BetopiaERP_data_provider";
+import { BetopiaERPDataProvider } from "@spreadsheet/data_sources/betopiaerp_data_provider";
 import { createDashboardActionWithData } from "@spreadsheet_dashboard/../tests/helpers/dashboard_action";
 import { defineSpreadsheetDashboardModels } from "@spreadsheet_dashboard/../tests/helpers/data";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
@@ -24,7 +24,7 @@ function spyCharts() {
 
 test("Charts are animated only at first render", async () => {
     const env = await makeSpreadsheetMockEnv();
-    const setupModel = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const setupModel = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     createBasicChart(setupModel, "chartId");
     const charts = spyCharts();
     const { model } = await createDashboardActionWithData(setupModel.exportData());
@@ -46,7 +46,7 @@ test("Charts are animated only at first render", async () => {
 
 test("Charts are animated when chart type changes", async () => {
     const env = await makeSpreadsheetMockEnv();
-    const setupModel = new Model({}, { custom: { BetopiaERPDataProvider: new BetopiaERPDataProvider(env) } });
+    const setupModel = new Model({}, { custom: { betopiaerpDataProvider: new BetopiaERPDataProvider(env) } });
     createBasicChart(setupModel, "chartId");
     const charts = spyCharts();
     const { model } = await createDashboardActionWithData(setupModel.exportData());

@@ -3,7 +3,7 @@ import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { WebClient } from "@web/webclient/webclient";
 
-import { expect, getFixture, test } from "@BetopiaERP/hoot";
+import { expect, getFixture, test } from "@betopiaerp/hoot";
 import {
     click,
     edit,
@@ -14,8 +14,8 @@ import {
     queryAttribute,
     queryFirst,
     waitFor,
-} from "@BetopiaERP/hoot-dom";
-import { animationFrame, mockDate, runAllTimers } from "@BetopiaERP/hoot-mock";
+} from "@betopiaerp/hoot-dom";
+import { animationFrame, mockDate, runAllTimers } from "@betopiaerp/hoot-mock";
 import { editTime, getPickerCell } from "@web/../tests/core/datetime/datetime_test_helpers";
 import {
     clickCancel,

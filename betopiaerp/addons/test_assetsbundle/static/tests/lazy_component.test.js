@@ -1,8 +1,8 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { queryOne } from "@BetopiaERP/hoot-dom";
+import { expect, test } from "@betopiaerp/hoot";
+import { queryOne } from "@betopiaerp/hoot-dom";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { LazyComponent } from "@web/core/assets";
-import { Component, xml } from "@BetopiaERP/owl";
+import { Component, xml } from "@betopiaerp/owl";
 
 test("LazyComponent loads the required bundle", async () => {
     class Test extends Component {

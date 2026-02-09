@@ -1,7 +1,7 @@
 import { registry } from "@web/core/registry";
 
 registry.category("web_tour.tours").add("configurator_flow", {
-    url: "/BetopiaERP/action-website.action_website_configuration",
+    url: "/betopiaerp/action-website.action_website_configuration",
     steps: () => [
         {
             content: "click on create new website",

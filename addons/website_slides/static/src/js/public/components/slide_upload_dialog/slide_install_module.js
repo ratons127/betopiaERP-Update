@@ -1,4 +1,4 @@
-import { Component, useState } from "@BetopiaERP/owl";
+import { Component, useState } from "@betopiaerp/owl";
 import { useService } from "@web/core/utils/hooks";
 import { redirect } from "@web/core/utils/urls";
 import { _t } from "@web/core/l10n/translation";

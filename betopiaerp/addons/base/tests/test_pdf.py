@@ -17,7 +17,7 @@ class TestPdf(TransactionCase):
         self.minimal_reader_buffer = io.BytesIO(self.file)
         self.minimal_pdf_reader = pdf.BetopiaERPPdfFileReader(self.minimal_reader_buffer)
 
-    def test_BetopiaERP_pdf_file_reader(self):
+    def test_betopiaerp_pdf_file_reader(self):
         attachments = list(self.minimal_pdf_reader.getAttachments())
         self.assertEqual(len(attachments), 0)
 
@@ -30,7 +30,7 @@ class TestPdf(TransactionCase):
         r = pdf.BetopiaERPPdfFileReader(io.BytesIO(out.getvalue()))
         self.assertEqual(len(list(r.getAttachments())), 1)
 
-    def test_BetopiaERP_pdf_file_writer(self):
+    def test_betopiaerp_pdf_file_writer(self):
         attachments = list(self.minimal_pdf_reader.getAttachments())
         self.assertEqual(len(attachments), 0)
         r = self.minimal_pdf_reader
@@ -48,7 +48,7 @@ class TestPdf(TransactionCase):
             r = pdf.BetopiaERPPdfFileReader(io.BytesIO(out.getvalue()))
             self.assertEqual(len(list(r.getAttachments())), count)
 
-    def test_BetopiaERP_pdf_file_reader_with_owner_encryption(self):
+    def test_betopiaerp_pdf_file_reader_with_owner_encryption(self):
         pdf_writer = pdf.BetopiaERPPdfFileWriter()
         pdf_writer.cloneReaderDocumentRoot(self.minimal_pdf_reader)
 

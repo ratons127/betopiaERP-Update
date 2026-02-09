@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { describe, expect, mockSendBeacon, mockTouch, mockVibrate, test } from "@BetopiaERP/hoot";
+import { describe, expect, mockSendBeacon, mockTouch, mockVibrate, test } from "@betopiaerp/hoot";
 import { parseUrl } from "../local_helpers";
 
 /**

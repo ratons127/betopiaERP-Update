@@ -5,7 +5,7 @@ import { ProductNameAndDescriptionListRendererMixin } from "@product/product_nam
 import { user } from "@web/core/user";
 import { patch } from "@web/core/utils/patch";
 import { useOwnedDialogs, useService } from "@web/core/utils/hooks";
-import { onWillStart } from "@BetopiaERP/owl";
+import { onWillStart } from "@betopiaerp/owl";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { _t } from "@web/core/l10n/translation";
 

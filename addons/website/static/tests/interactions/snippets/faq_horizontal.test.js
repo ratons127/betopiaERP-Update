@@ -1,7 +1,7 @@
 import { startInteractions, setupInteractionWhiteList } from "@web/../tests/public/helpers";
 
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { queryFirst, queryOne } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { queryFirst, queryOne } from "@betopiaerp/hoot-dom";
 
 import { setupTest, simpleScroll, doubleScroll } from "./helpers";
 

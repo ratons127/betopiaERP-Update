@@ -1,7 +1,7 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { animationFrame } from "@BetopiaERP/hoot-dom";
-import { App } from "@BetopiaERP/owl";
+import { animationFrame } from "@betopiaerp/hoot-dom";
+import { App } from "@betopiaerp/owl";
 import { getActiveElement, getCurrentDimensions } from "@web/../lib/hoot-dom/helpers/dom";
 import { setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import { isInstanceOf } from "@web/../lib/hoot-dom/hoot_dom_utils";
@@ -10,13 +10,13 @@ import { subscribeToTransitionChange } from "../mock/animation";
 import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 
 /**
- * @typedef {Parameters<typeof import("@BetopiaERP/owl").mount>[2] & {
+ * @typedef {Parameters<typeof import("@betopiaerp/owl").mount>[2] & {
  *  className: string | string[];
- *  target?: import("@BetopiaERP/hoot-dom").Target;
+ *  target?: import("@betopiaerp/hoot-dom").Target;
  * }} MountOnFixtureOptions
  *
  * @typedef {{
- *  component: import("@BetopiaERP/owl").ComponentConstructor;
+ *  component: import("@betopiaerp/owl").ComponentConstructor;
  *  props: unknown;
  * }} TestRootProps
  */
@@ -49,7 +49,7 @@ let shouldPrepareNextFixture = true; // Prepare setup for first test
 //-----------------------------------------------------------------------------
 
 /**
- * @param {App | import("@BetopiaERP/owl").Component} target
+ * @param {App | import("@betopiaerp/owl").Component} target
  */
 export function destroy(target) {
     const app = isInstanceOf(target, App) ? target : target.__owl__.app;

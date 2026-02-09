@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BetopiaERP>
+<betopiaerp>
         <record model="ir.ui.view" id="view_ir_config_search">
             <field name="model">ir.config_parameter</field>
             <field name="arch" type="xml">
@@ -37,4 +37,4 @@
             <field name="path">system-parameters</field>
         </record>
         <menuitem id="ir_config_menu" name="System Parameters" parent="menu_ir_property" action="ir_config_list_action"/>
-</BetopiaERP>
+</betopiaerp>

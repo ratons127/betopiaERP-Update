@@ -1,5 +1,5 @@
-import { describe, expect, test } from "@BetopiaERP/hoot";
-import { click } from "@BetopiaERP/hoot-dom";
+import { describe, expect, test } from "@betopiaerp/hoot";
+import { click } from "@betopiaerp/hoot-dom";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 import { DEFAULT_DATE, FAKE_MODEL } from "./calendar_test_helpers";
 

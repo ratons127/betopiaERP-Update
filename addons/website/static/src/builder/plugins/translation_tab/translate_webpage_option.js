@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { useState } from "@BetopiaERP/owl";
+import { useState } from "@betopiaerp/owl";
 
 export class TranslateWebpageOption extends BaseOptionComponent {
     static template = "website.TranslateWebpageOption";

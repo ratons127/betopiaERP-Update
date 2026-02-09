@@ -1,6 +1,6 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { unload } from "@BetopiaERP/hoot-dom";
-import { animationFrame, Deferred, mockSendBeacon } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { unload } from "@betopiaerp/hoot-dom";
+import { animationFrame, Deferred, mockSendBeacon } from "@betopiaerp/hoot-mock";
 import {
     contains,
     defineActions,

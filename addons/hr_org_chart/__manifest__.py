@@ -37,6 +37,6 @@ This module extend the employee form with a organizational chart.
             'hr_org_chart/static/tests/**/*',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

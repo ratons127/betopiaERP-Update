@@ -97,7 +97,7 @@ class IrFieldsConverter(models.AbstractModel):
     @api.model
     def for_model(self, model, fromtype=str, *, savepoint):
         """ Returns a converter object for the model. A converter is a
-        callable taking a record-ish (a dictionary representing an BetopiaERP
+        callable taking a record-ish (a dictionary representing an betopiaerp
         record with values of typetag ``fromtype``) and returning a converted
         records matching what :meth:`betopiaerp.models.Model.write` expects.
 

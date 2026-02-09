@@ -11,7 +11,7 @@ import { Orderline } from "@point_of_sale/app/components/orderline/orderline";
 import { CenteredIcon } from "@point_of_sale/app/components/centered_icon/centered_icon";
 import { SearchBar } from "@point_of_sale/app/screens/ticket_screen/search_bar/search_bar";
 import { usePos } from "@point_of_sale/app/hooks/pos_hook";
-import { Component, onMounted, onWillStart, useState } from "@BetopiaERP/owl";
+import { Component, onMounted, onWillStart, useState } from "@betopiaerp/owl";
 import {
     BACKSPACE,
     Numpad,
@@ -869,6 +869,6 @@ export class TicketScreen extends Component {
 registry.category("pos_pages").add("TicketScreen", {
     name: "TicketScreen",
     component: TicketScreen,
-    route: `/pos/ui/${BetopiaERP.pos_config_id}/ticket`,
+    route: `/pos/ui/${betopiaerp.pos_config_id}/ticket`,
     params: {},
 });

@@ -13,6 +13,6 @@ This module adds support for SEPA Credit Transfer QR-code generation.
     'depends': ['account', 'base_iban'],
 
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

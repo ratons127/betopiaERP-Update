@@ -1,5 +1,5 @@
 import { BaseOptionComponent } from "@html_builder/core/utils";
-import { onWillStart, useState } from "@BetopiaERP/owl";
+import { onWillStart, useState } from "@betopiaerp/owl";
 
 export class ProductsRibbonOption extends BaseOptionComponent {
     static template = 'website_sale.ProductsRibbonOptionPlugin';

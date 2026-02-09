@@ -1,6 +1,6 @@
-/** @BetopiaERP-module */
+/** @betopiaerp-module */
 
-import { Component, onWillRender, useEffect, useRef, useState, xml } from "@BetopiaERP/owl";
+import { Component, onWillRender, useEffect, useRef, useState, xml } from "@betopiaerp/owl";
 import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
 import { Test } from "../core/test";
 import { formatTime } from "../hoot_utils";

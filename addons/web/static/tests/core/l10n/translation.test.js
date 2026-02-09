@@ -1,6 +1,6 @@
 /* eslint no-restricted-syntax: 0 */
-import { after, describe, expect, test } from "@BetopiaERP/hoot";
-import { animationFrame, Deferred } from "@BetopiaERP/hoot-mock";
+import { after, describe, expect, test } from "@betopiaerp/hoot";
+import { animationFrame, Deferred } from "@betopiaerp/hoot-mock";
 import {
     defineParams,
     makeMockEnv,
@@ -14,13 +14,13 @@ import { _t as basic_t, translatedTerms, translationLoaded } from "@web/core/l10
 import { IndexedDB } from "@web/core/utils/indexed_db";
 import { session } from "@web/session";
 
-import { Component, markup, xml } from "@BetopiaERP/owl";
+import { Component, markup, xml } from "@betopiaerp/owl";
 const { DateTime } = luxon;
 
 function _t() {
-    BetopiaERP.translationContext = "web";
+    betopiaerp.translationContext = "web";
     const translatedTerm = basic_t(...arguments);
-    BetopiaERP.translationContext = null;
+    betopiaerp.translationContext = null;
     return translatedTerm;
 }
 

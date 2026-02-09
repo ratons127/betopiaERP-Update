@@ -1,4 +1,4 @@
-import { EventBus, validate } from "@BetopiaERP/owl";
+import { EventBus, validate } from "@betopiaerp/owl";
 
 // -----------------------------------------------------------------------------
 // Errors
@@ -12,7 +12,7 @@ export class DuplicatedKeyError extends Error {}
 // -----------------------------------------------------------------------------
 
 const validateSchema = (name, key, value, schema) => {
-    if (!BetopiaERP.debug) {
+    if (!betopiaerp.debug) {
         return;
     }
     try {

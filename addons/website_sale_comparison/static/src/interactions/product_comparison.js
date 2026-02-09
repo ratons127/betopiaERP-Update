@@ -1,4 +1,4 @@
-import { EventBus } from '@BetopiaERP/owl';
+import { EventBus } from '@betopiaerp/owl';
 import { Interaction } from '@web/public/interaction';
 import { registry } from '@web/core/registry';
 import { _t } from '@web/core/l10n/translation';

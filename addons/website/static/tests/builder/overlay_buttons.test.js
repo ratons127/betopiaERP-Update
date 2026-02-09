@@ -1,9 +1,9 @@
 import { undo } from "@html_editor/../tests/_helpers/user_actions";
 import { Plugin } from "@html_editor/plugin";
 import { setContent, setSelection } from "@html_editor/../tests/_helpers/selection";
-import { expect, test } from "@BetopiaERP/hoot";
-import { Deferred, queryOne, tick, waitFor } from "@BetopiaERP/hoot-dom";
-import { xml } from "@BetopiaERP/owl";
+import { expect, test } from "@betopiaerp/hoot";
+import { Deferred, queryOne, tick, waitFor } from "@betopiaerp/hoot-dom";
+import { xml } from "@betopiaerp/owl";
 import { contains } from "@web/../tests/web_test_helpers";
 import {
     addActionOption,

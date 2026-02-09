@@ -19,6 +19,6 @@ Price and Cost Price.
     'data':[
         'views/sale_order_views.xml',
     ],
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

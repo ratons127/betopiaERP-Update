@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { usePopover } from "@web/core/popover/popover_hook";
 import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";

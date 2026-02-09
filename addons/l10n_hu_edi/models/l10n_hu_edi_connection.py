@@ -354,9 +354,9 @@ class L10nHuEdiConnection:
 
     def _get_header_values(self, credentials, invoice_hashs=None):
         timestamp = datetime.utcnow()
-        request_id = 'BetopiaERP' + secrets.token_hex(13)
+        request_id = 'BETOPIAERP' + secrets.token_hex(13)
         request_signature = self._calculate_request_signature(credentials['signature_key'], request_id, timestamp, invoice_hashs=invoice_hashs)
-        BetopiaERP_version = release.version
+        betopiaerp_version = release.version
         module_version = self.env['ir.module.module'].get_module_info('l10n_hu_edi').get('version').replace('saas~', '').replace('.', '')
 
         return {
@@ -369,8 +369,8 @@ class L10nHuEdiConnection:
             'softwareId': f'BE477472701-{module_version}'[:18],
             'softwareName': 'BetopiaERP Enterprise',
             'softwareOperation': 'ONLINE_SERVICE',
-            'softwareMainVersion': BetopiaERP_version,
-            'softwareDevName': 'BetopiaERP SA',
+            'softwareMainVersion': betopiaerp_version,
+            'softwareDevName': 'BetopiaERP',
             'softwareDevContact': 'andu@betopiaerp.com',
             'softwareDevCountryCode': 'BE',
             'softwareDevTaxNumber': '477472701',

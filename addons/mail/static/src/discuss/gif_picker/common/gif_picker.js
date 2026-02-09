@@ -1,7 +1,7 @@
 import { Gif } from "@mail/core/common/gif";
 import { useOnBottomScrolled, useSequential } from "@mail/utils/common/hooks";
 
-import { Component, onWillStart, useState, useEffect } from "@BetopiaERP/owl";
+import { Component, onWillStart, useState, useEffect } from "@betopiaerp/owl";
 import { user } from "@web/core/user";
 import { useService, useAutofocus } from "@web/core/utils/hooks";
 import { useDebounced } from "@web/core/utils/timing";

@@ -96,7 +96,7 @@ class DisplayDriver(Driver):
         self.browser.refresh()
 
     def _action_open_kiosk(self, data):
-        origin = helpers.get_BetopiaERP_server_url()
+        origin = helpers.get_betopiaerp_server_url()
         self.update_url(f"{origin}/pos-self/{data.get('pos_id')}?access_token={data.get('access_token')}")
         self.set_orientation(Orientation.RIGHT)
 
@@ -108,7 +108,7 @@ class DisplayDriver(Driver):
         if not data.get('pos_id') or not data.get('access_token'):
             return
 
-        origin = helpers.get_BetopiaERP_server_url() or http.request.httprequest.origin
+        origin = helpers.get_betopiaerp_server_url() or http.request.httprequest.origin
         self.update_url(f"{origin}/pos_customer_display/{data['pos_id']}/{data['access_token']}")
 
     def _action_close_customer_display(self, data):
@@ -129,7 +129,7 @@ class DisplayDriver(Driver):
         subprocess.run(['wlr-randr', '--output', self.device_identifier, '--transform', orientation.value], check=True)
         # Update touchscreen mapping to this display
         subprocess.run(
-            ['sed', '-i', f's/HDMI-A-[12]/{self.device_identifier}/', '/home/BetopiaERP/.config/labwc/rc.xml'],
+            ['sed', '-i', f's/HDMI-A-[12]/{self.device_identifier}/', '/home/betopiaerp/.config/labwc/rc.xml'],
             check=False,
         )
         # Tell labwc to reload its configuration

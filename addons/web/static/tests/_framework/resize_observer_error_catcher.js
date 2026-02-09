@@ -1,4 +1,4 @@
-import { afterEach, onError } from "@BetopiaERP/hoot";
+import { afterEach, onError } from "@betopiaerp/hoot";
 
 export function preventResizeObserverError() {
     let resizeObserverErrorCount = 0;

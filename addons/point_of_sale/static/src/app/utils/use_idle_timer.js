@@ -1,4 +1,4 @@
-import { useExternalListener } from "@BetopiaERP/owl";
+import { useExternalListener } from "@betopiaerp/owl";
 
 const UserPresenceEvents = ["mousemove", "mousedown", "touchmove", "click", "scroll", "keypress"];
 

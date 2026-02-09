@@ -20,7 +20,7 @@ __unittest = True
 STDOUT_LINE = '\nStdout:\n%s'
 STDERR_LINE = '\nStderr:\n%s'
 
-BetopiaERP_TEST_MAX_FAILED_TESTS = max(1, int(os.environ.get('BetopiaERP_TEST_MAX_FAILED_TESTS', sys.maxsize)))
+BETOPIAERP_TEST_MAX_FAILED_TESTS = max(1, int(os.environ.get('BETOPIAERP_TEST_MAX_FAILED_TESTS', sys.maxsize)))
 
 stats_logger = logging.getLogger('betopiaerp.tests.stats')
 
@@ -44,7 +44,7 @@ class Stat(NamedTuple):
 _logger = logging.getLogger(__name__)
 _TEST_ID = re.compile(r"""
 ^
-BetopiaERP\.addons\.
+betopiaerp\.addons\.
 (?P<module>[^.]+)
 \.tests\.
 (?P<class>.+)
@@ -93,12 +93,12 @@ class BetopiaERPTestResult(object):
         return result
 
     def _checkShouldStop(self):
-        if self.total_errors_count() >= BetopiaERP_TEST_MAX_FAILED_TESTS:
+        if self.total_errors_count() >= BETOPIAERP_TEST_MAX_FAILED_TESTS:
             global_report = self.global_report or self
             if not global_report.shouldStop:
                 _logger.error(
                     "Test suite halted: max failed tests already reached (%s). "
-                    "Remaining tests will be skipped.", BetopiaERP_TEST_MAX_FAILED_TESTS)
+                    "Remaining tests will be skipped.", BETOPIAERP_TEST_MAX_FAILED_TESTS)
                 global_report.shouldStop = True
             self.shouldStop = True
 

@@ -12,6 +12,6 @@
             'website_event_booth_sale_exhibitor/static/tests/tours/website_event_booth_sale_exhibitor.js',
         ],
     },
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

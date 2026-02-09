@@ -1,4 +1,4 @@
-import { Component, onWillStart, onWillUpdateProps, useState } from "@BetopiaERP/owl";
+import { Component, onWillStart, onWillUpdateProps, useState } from "@betopiaerp/owl";
 import { getSnippetName, isElementInViewport } from "@html_builder/utils/utils";
 
 /**

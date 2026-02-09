@@ -1,4 +1,4 @@
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 import { basicContainerBuilderComponentProps } from "../utils";
 import { SelectMany2X } from "./select_many2x";
 

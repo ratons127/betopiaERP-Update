@@ -1,4 +1,4 @@
-import { expect, test } from "@BetopiaERP/hoot";
+import { expect, test } from "@betopiaerp/hoot";
 import { redirect } from "@web/core/utils/urls";
 import {
     defineActions,
@@ -11,8 +11,8 @@ import {
     webModels,
 } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
-import { Deferred } from "@BetopiaERP/hoot-mock";
-import { animationFrame } from "@BetopiaERP/hoot-dom";
+import { Deferred } from "@betopiaerp/hoot-mock";
+import { animationFrame } from "@betopiaerp/hoot-dom";
 
 defineActions([
     {
@@ -75,7 +75,7 @@ defineMenus([
 test.tags("desktop");
 test(`use stored menus, and don't update on load_menus return (if identical)`, async () => {
     const def = new Deferred();
-    redirect("/BetopiaERP/action-666");
+    redirect("/betopiaerp/action-666");
     onRpc("/web/webclient/load_menus", () => def);
 
     // Initial Stored values
@@ -102,7 +102,7 @@ test(`use stored menus, and don't update on load_menus return (if identical)`, a
 test.tags("desktop");
 test(`use stored menus, and update on load_menus return`, async () => {
     const def = new Deferred();
-    redirect("/BetopiaERP/action-666");
+    redirect("/betopiaerp/action-666");
     onRpc("/web/webclient/load_menus", () => def);
 
     // Initial Stored values

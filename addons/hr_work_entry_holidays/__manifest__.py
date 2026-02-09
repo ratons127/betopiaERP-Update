@@ -24,6 +24,6 @@ This application allows you to integrate time off in payslips.
     'installable': True,
     'auto_install': True,
     'post_init_hook': '_validate_existing_work_entry',
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }

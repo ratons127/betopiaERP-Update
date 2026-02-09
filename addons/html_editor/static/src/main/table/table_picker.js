@@ -1,4 +1,4 @@
-import { Component, useExternalListener, useState } from "@BetopiaERP/owl";
+import { Component, useExternalListener, useState } from "@betopiaerp/owl";
 
 export class TablePicker extends Component {
     static template = "html_editor.TablePicker";

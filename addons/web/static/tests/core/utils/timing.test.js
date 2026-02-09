@@ -1,7 +1,7 @@
-import { describe, destroy, expect, getFixture, test } from "@BetopiaERP/hoot";
-import { click, tick } from "@BetopiaERP/hoot-dom";
-import { Deferred, advanceTime, animationFrame, microTick, runAllTimers } from "@BetopiaERP/hoot-mock";
-import { Component, xml } from "@BetopiaERP/owl";
+import { describe, destroy, expect, getFixture, test } from "@betopiaerp/hoot";
+import { click, tick } from "@betopiaerp/hoot-dom";
+import { Deferred, advanceTime, animationFrame, microTick, runAllTimers } from "@betopiaerp/hoot-mock";
+import { Component, xml } from "@betopiaerp/owl";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
 
 import {

@@ -1,4 +1,4 @@
-import { describe, expect, test, getFixture } from "@BetopiaERP/hoot";
+import { describe, expect, test, getFixture } from "@betopiaerp/hoot";
 import { getBasicData } from "@spreadsheet/../tests/helpers/data";
 import { createSpreadsheetDashboard } from "@spreadsheet_dashboard/../tests/helpers/dashboard_action";
 import {

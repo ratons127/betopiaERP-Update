@@ -1,7 +1,7 @@
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 import { convertBrToLineBreak } from "@mail/utils/common/format";
 
-import { markup } from "@BetopiaERP/owl";
+import { markup } from "@betopiaerp/owl";
 
 import {
     Command,

@@ -1,6 +1,6 @@
 // Type definitions for QUnit v2.9.2
 
-import { Component } from "@BetopiaERP/owl";
+import { Component } from "@betopiaerp/owl";
 
 // Project: http://qunitjs.com/
 // Definitions by: James Bracy <https://github.com/waratuman>
@@ -11,7 +11,7 @@ import { Component } from "@BetopiaERP/owl";
 //                 James C. Davis <https://github.com/jamescdavis>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-// Updated for BetopiaERP.
+// Updated for betopiaerp.
 
 interface Assert {
     // -----------------------------------------------------------------------------

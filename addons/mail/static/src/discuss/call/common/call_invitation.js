@@ -8,7 +8,7 @@ import {
 } from "@mail/discuss/call/common/call_actions";
 import { CallPreview } from "@mail/discuss/call/common/call_preview";
 
-import { Component, useState, useSubEnv } from "@BetopiaERP/owl";
+import { Component, useState, useSubEnv } from "@betopiaerp/owl";
 
 import { _t } from "@web/core/l10n/translation";
 import { useService } from "@web/core/utils/hooks";

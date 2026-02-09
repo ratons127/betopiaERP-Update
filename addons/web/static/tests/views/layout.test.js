@@ -1,5 +1,5 @@
-import { expect, test } from "@BetopiaERP/hoot";
-import { animationFrame } from "@BetopiaERP/hoot-mock";
+import { expect, test } from "@betopiaerp/hoot";
+import { animationFrame } from "@betopiaerp/hoot-mock";
 import {
     Component,
     onWillStart,
@@ -8,7 +8,7 @@ import {
     useState,
     useSubEnv,
     xml,
-} from "@BetopiaERP/owl";
+} from "@betopiaerp/owl";
 import {
     defineModels,
     fields,

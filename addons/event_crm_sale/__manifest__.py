@@ -5,7 +5,7 @@
     'name': 'Event CRM Sale',
     'version': '1.0',
     'category': 'Marketing/Events',
-    'website': 'https://www.betopiaerp.com/app/events',
+    'website': 'https://www.BetopiaERP.com/app/events',
     'description': "Add information of sale order linked to the registration for the creation of the lead.",
     'depends': ['event_crm', 'event_sale'],
     'data': [
@@ -13,6 +13,6 @@
     ],
     'installable': True,
     'auto_install': True,
-    'author': 'BetopiaERP S.A.',
+    'author': 'BetopiaERP',
     'license': 'LGPL-3',
 }
