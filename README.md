@@ -24,7 +24,7 @@ a full-featured [Open Source ERP](https://www.BetopiaERP.com) when you install s
 
 ## Getting started with BetopiaERP
 
-For a standard installation please follow the [Setup instructions](https://www.BetopiaERP.com/documentation/master/administration/install/install.html)
+For a standard installations please follow the [Setup instructions](https://www.BetopiaERP.com/documentation/master/administration/install/install.html)
 from the documentation.
 
 To learn the software, we recommend the [BetopiaERP eLearning](https://www.BetopiaERP.com/slides),
